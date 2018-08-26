@@ -7,14 +7,114 @@
         <meta name="author" content="Marco Favorito">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Bookshelf</title>
+
+        <link rel="stylesheet" type="text/css" href="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.css">
+
+        <script src="./classes.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+        <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.min.js"></script>
+        <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.caret.min.js"></script>
     </head>
     <body>
+        <h1>My bookshelf</h1>
+        <div id="container">
+            <textarea id="tagEditor"></textarea>
+            <div id="booksList"></div>
+        </div>
         <script>
-        fetch('./bookshelf')
-          .then(function(response) {
-            console.log(response)
-          })
+        fetch('./bookshelf.txt')
+            .then(function(response) {
+              return response.text();
+          }).then(function(text){
+                main(text);
+          });
+
+
+        function getItemFromLine(line){
+            var tokens = line.split("\t");
+            var name = tokens[0];
+            var link = tokens[1];
+            var b = new Item(name, link);
+            return b;
+        }
+
+        function getTagsFromLine(line){
+            var tags = line.split("\t").slice(2);
+            return tags
+        }
+
+        function parseBookshelfFile(text){
+            var tag2items = new Map();
+            var item2tags = new Map();
+
+            lines = text.split("\n");
+            for (var i=0; i<lines.length-1; i++){
+                var cur_line = lines[i];
+                var b = getItemFromLine(cur_line);
+                var tags = getTagsFromLine(cur_line);
+                item2tags.set(b, tags);
+                for (var j=0; j<tags.length; j++){
+                    var cur_tag = tags[j];
+                    if (!(tag2items.has(cur_tag))){
+                        tag2items.set(cur_tag, new Array());
+                    }
+                    tag2items.get(cur_tag).push(b);
+                }
+
+            }
+            console.log(tag2items, item2tags);
+            return new Bookshelf(item2tags, tag2items);
+        }
+
+        function buildItemList(tag, bookshelf){
+            var items = bookshelf.tag2items.get(tag);
+            var list = "<h2>" + tag + "</h2>\n<ul>"
+            for (var it in items) {
+                var item = items[it];
+                var item_tags = bookshelf.item2tags.get(item);
+                var tag_string = item_tags.join(", ");
+                var dot = "<li><a href='" + item.link +
+                    "' title='" + tag_string + "'>" + item.name + "</a></li>";
+                list = list + "\n" + dot;
+            }
+            return list + "\n";
+        }
+
+        function main(text){
+            var bookshelf= parseBookshelfFile(text);
+            var tags = bookshelf.tag2items.keys();
+
+            for (var tag of tags){
+                var list = buildItemList(tag, bookshelf);
+                $("#booksList").append(list);
+            }
+
+            $('#tagEditor').tagEditor({
+                 autocomplete: {
+                     autoFocus: true,
+                     source: Array.from(tags),
+                     minLength: 1,
+                     delay: 0
+                 },
+                 placeholder: 'Enter tags, e.g. machine-learning, algorithms ...',
+                 onChange: function(field, editor, tags) {
+                     $("#booksList").empty();
+                     if (tags.length==0){
+                         tags = bookshelf.tag2items.keys();
+                     }
+                     for (var tag of tags){
+                         var list = buildItemList(tag, bookshelf);
+                         $("#booksList").append(list);
+                     }
+                 },
+             });
+
+
+        }
 
         </script>
+
+
     </body>
 </html>
