@@ -9,20 +9,27 @@
         <title>My Bookshelf</title>
 
         <link rel="stylesheet" type="text/css" href="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./index.css">
 
         <script src="./classes.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
         <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.min.js"></script>
         <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.caret.min.js"></script>
     </head>
     <body>
-        <h1>My bookshelf</h1>
-        <div id="container">
+        <div class="page-header">
+            <h1>My bookshelf</h1>
+        </div>
+        <div class="container-fluid">
             <textarea id="tagEditor"></textarea>
             <div id="booksList"></div>
         </div>
         <script>
+
+        var bookshelf;
         fetch('./bookshelf.txt')
             .then(function(response) {
               return response.text();
@@ -41,7 +48,7 @@
 
         function getTagsFromLine(line){
             var tags = line.split("\t").slice(2);
-            return tags
+            return new Set(tags);
         }
 
         function parseBookshelfFile(text){
@@ -54,12 +61,11 @@
                 var b = getItemFromLine(cur_line);
                 var tags = getTagsFromLine(cur_line);
                 item2tags.set(b, tags);
-                for (var j=0; j<tags.length; j++){
-                    var cur_tag = tags[j];
+                for (var cur_tag of tags){
                     if (!(tag2items.has(cur_tag))){
-                        tag2items.set(cur_tag, new Array());
+                        tag2items.set(cur_tag, new Set());
                     }
-                    tag2items.get(cur_tag).push(b);
+                    tag2items.get(cur_tag).add(b);
                 }
 
             }
@@ -67,48 +73,75 @@
             return new Bookshelf(item2tags, tag2items);
         }
 
-        function buildItemList(tag, bookshelf){
-            var items = bookshelf.tag2items.get(tag);
-            var list = "<h2>" + tag + "</h2>\n<ul>"
-            for (var it in items) {
-                var item = items[it];
+        function buildItemList(items, bookshelf){
+            var list = "";
+            for (var item of items){
                 var item_tags = bookshelf.item2tags.get(item);
-                var tag_string = item_tags.join(", ");
+                var tag_string = new Array(item_tags).join(", ");
                 var dot = "<li><a href='" + item.link +
                     "' title='" + tag_string + "'>" + item.name + "</a></li>";
                 list = list + "\n" + dot;
             }
-            return list + "\n";
+            return "<ul>" + list + "</ul>\n";
+        }
+
+        function findItemsFromTagListAND(tags, bookshelf){
+            var temp_items = new Set();
+            var items = new Set();
+            for (var i=0; i<tags.length; i++){
+                var items_from_tag = bookshelf.tag2items.get(tags[i]);
+                if (i==0){
+                    temp_items = new Set(items_from_tag);
+                }
+                else{
+                    temp_items = new Set([...items_from_tag]
+                        .filter(x => items.has(x)));
+                }
+
+                items = new Set(temp_items);
+                temp_items = new Set();
+            }
+            return items;
+        }
+
+        function onTagChange(field, editor, tags) {
+            $("#booksList").empty();
+            console.log(field, editor);
+            if (tags.length==0 || field==null){
+                $("#booksList").append("<h2>All tags</h2>");
+                tags = bookshelf.tag2items.keys();
+            }
+           else if (tags.length > 1) {
+               items = findItemsFromTagListAND(tags, bookshelf);
+               $("#booksList").append("<h2>" + new Array(tags).join(" & ") + "</h2>");
+               var list = buildItemList(items, bookshelf);
+               $("#booksList").append(list);
+           }
+            for (var tag of tags){
+                var items_from_tag = bookshelf.tag2items.get(tag);
+                var list = buildItemList(items_from_tag, bookshelf);
+                $("#booksList").append("<h2>" + tag + "</h2>");
+                $("#booksList").append(list);
+            }
         }
 
         function main(text){
-            var bookshelf= parseBookshelfFile(text);
+            bookshelf = parseBookshelfFile(text);
             var tags = bookshelf.tag2items.keys();
-
-            for (var tag of tags){
-                var list = buildItemList(tag, bookshelf);
-                $("#booksList").append(list);
-            }
+            var tag_array = Array.from(tags);
 
             $('#tagEditor').tagEditor({
                  autocomplete: {
                      autoFocus: true,
-                     source: Array.from(tags),
+                     source: tag_array,
                      minLength: 1,
                      delay: 0
                  },
                  placeholder: 'Enter tags, e.g. machine-learning, algorithms ...',
-                 onChange: function(field, editor, tags) {
-                     $("#booksList").empty();
-                     if (tags.length==0){
-                         tags = bookshelf.tag2items.keys();
-                     }
-                     for (var tag of tags){
-                         var list = buildItemList(tag, bookshelf);
-                         $("#booksList").append(list);
-                     }
-                 },
+                 onChange: onTagChange,
              });
+
+             onTagChange(null, null, tag_array);
 
 
         }
