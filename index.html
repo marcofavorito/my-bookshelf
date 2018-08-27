@@ -69,7 +69,6 @@
                 }
 
             }
-            console.log(tag2items, item2tags);
             return new Bookshelf(item2tags, tag2items);
         }
 
@@ -106,7 +105,6 @@
 
         function onTagChange(field, editor, tags) {
             $("#booksList").empty();
-            console.log(field, editor);
             if (tags.length==0 || field==null){
                 $("#booksList").append("<h2>All tags</h2>");
                 tags = bookshelf.tag2items.keys();
