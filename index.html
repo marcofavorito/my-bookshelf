@@ -77,7 +77,8 @@
             var list = "";
             for (var item of items){
                 var item_tags = bookshelf.item2tags.get(item);
-                var tag_string = new Array(item_tags).join(", ");
+                var item_array = Array.from(item_tags);
+                var tag_string = item_array.join(", ");
                 var dot = "<li><a href='" + item.link +
                     "' title='" + tag_string + "'>" + item.name + "</a></li>";
                 list = list + "\n" + dot;
