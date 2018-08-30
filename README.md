@@ -26,7 +26,7 @@ I thought about a self-hosted website, but I have not so much time to set up it.
 
 Moreover, anyone can see this list (and contribute to it!), so maybe someone find it useful.
 
-It can be improved a lot, e.g:
+It can be improved a lot, e.g.:
 - the list could easily contain duplicates or inconsistencies
 - no detailed info for each item
 - possibility of dead links
@@ -37,4 +37,4 @@ A more structured solution would be to use a database, but too much time to inse
 
 
 ## What?
-You'll find many textbook, papers, articles, blog posts, readings and similar in the field of Computer Science and related. You might find also documents about topics like Math, Physics and other scientific fields, as well as non-scientific ones like economics and philosophy.
+You'll find many textbooks, papers, articles, blog posts, readings and similar in the field of Computer Science and related. You might find also documents about topics like Math, Physics and other scientific fields, as well as non-scientific ones like economics and philosophy.
