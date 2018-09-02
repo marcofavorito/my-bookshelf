@@ -1,7 +1,8 @@
 No Free Lunch Theorems for Optimization	https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf	machine-learning	information-theory
 Handbook of mathematical functions	http://people.math.sfu.ca/~cbm/aands/intro.htm	mathematics
-Approximation by superpositions of a sigmoidal function	https://www.researchgate.net/profile/George_Cybenko/publication/226439292_Approximation_by_superpositions_of_a_sigmoidal_function_Math_Cont_Sig_Syst_MCSS_2303-314/links/551d50c90cf23e2801fe12cf/Approximation-by-superpositions-of-a-sigmoidal-function-Math-Cont-Sig-Syst-MCSS-2303-314.pdf	machine-learning	neural-networks
-Approximation Capabilities of Muitilayer Feedforward Networks	https://web.njit.edu/~usman/courses/cs698_spring18/hornik-nn-1991.pdf	machine-learning	neural-networks
+Approximation by superpositions of a sigmoidal function	https://www.researchgate.net/profile/George_Cybenko/publication/226439292_Approximation_by_superpositions_of_a_sigmoidal_function_Math_Cont_Sig_Syst_MCSS_2303-314/links/551d50c90cf23e2801fe12cf/Approximation-by-superpositions-of-a-sigmoidal-function-Math-Cont-Sig-Syst-MCSS-2303-314.pdf	machine-learning	neural-networks	universal-approximator
+Approximation Capabilities of Multilayer Feedforward Networks	https://web.njit.edu/~usman/courses/cs698_spring18/hornik-nn-1991.pdf	machine-learning	neural-networks	universal-approximator
+Multilayer feedforward networks are universal approximators	https://www.cs.cmu.edu/~epxing/Class/10715/reading/Kornick_et_al.pdf	neural-networks	universal-approximator
 Numerical Optimization	http://www.bioinfo.org.cn/~wangchao/maa/Numerical_Optimization.pdf	numerical-analysis	algorithms	optimization
 Learning representations by back-propagating errors	http://www.cs.toronto.edu/~hinton/absps/naturebp.pdf	neural-networks	machine-learning
 Reinforcement Learning: An Introduction	http://incompleteideas.net/book/the-book-2nd.html	reinforcement-learning
@@ -107,3 +108,24 @@ On the difficulty of training recurrent neural networks	http://proceedings.mlr.p
 Long Short-Term Memory	http://www.bioinf.jku.at/publications/older/2604.pdf	deep-learning	recurrent-neural-networks
 LSTM: A Search Space Odyssey	https://arxiv.org/pdf/1503.04069.pdf	deep-learning	recurrent-neural-networks
 Learning to Forget: Continual Prediction with LSTM	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.55.5709&rep=rep1&type=pdf	deep-learning	recurrent-neural-networks
+Neural Turing Machines	https://arxiv.org/pdf/1410.5401v2.pdf	deep-learning	recurrent-neural-networks
+Understanding the difficulty of training deep feedforward neural networks	http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf	deep-learning	neural-networks
+A visual proof that neural nets can compute any function	http://neuralnetworksanddeeplearning.com/chap4.html	neural-networks	universal-approximator
+Natural Language Understanding: Instructions for (Present and Future) Use	https://www.ijcai.org/proceedings/2018/0812.pdf	natural-language-processing	artificial-intelligence
+Research Debt	https://doi.org/10.23915/distill.00005	research
+Unit Tests for Stochastic Optimization	https://arxiv.org/abs/1312.6055	deep-learning	machine-learning	optimization
+Large Scale Distributed Deep Networks	https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40565.pdf	deep-learning	machine-learning	distributed-systems
+Understanding the exploding gradient problem	https://pdfs.semanticscholar.org/728d/814b92a9d2c6118159bb7d9a4b3dc5eeaaeb.pdf?_ga=2.94420316.1335437211.1535822695-576454561.1535822695	deep-learning	machine-learning
+Word representations: A simple and general method for semi-supervised learning	https://www.aclweb.org/anthology/P10-1040	natural-language-processing	machine-learning	distributional-semantics
+Natural Language Processing (almost) from Scratch	https://arxiv.org/pdf/1103.0398.pdf	natural-language-processing	neural-networks
+GloVe: Global Vectors for Word Representation	https://www.aclweb.org/anthology/D14-1162	natural-language-processing	distributional-semantics
+Visualizing Data using t-SNE	https://lvdmaaten.github.io/publications/papers/JMLR_2008.pdf	machine-learning
+ImageNet Classification with Deep Convolutional Neural Networks	http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf	deep-learning	convolutional-neural-networks
+Practical Recommendations for Gradient-Based Training of Deep Architectures	https://arxiv.org/pdf/1206.5533v2.pdf	deep-learning	optimization
+Advances in Optimizing Recurrent Networks	https://arxiv.org/pdf/1212.0901v2.pdf	deep-learning	recurrent-neural-networks	optimization
+Training Recurrent Neural Networks	http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf	deep-learning	recurrent-neural-networks	optimization
+Don’t count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors	http://clic.cimec.unitn.it/marco/publications/acl2014/baroni-etal-countpredict-acl2014.pdf	natural-language-processing	distributional-semantics
+Demonstration of k-means assumptions	http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_assumptions.html	machine-learning
+Dropout:  A Simple Way to Prevent Neural Networks from Overfitting	http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf	neural-networks	deep-learning	machine-learning	optimization
+Dropout Training as Adaptive Regularization	http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf	neural-networks	deep-learning	machine-learning	optimization
+Do Deep Nets Really Need to be Deep?	https://arxiv.org/abs/1312.6184	neural-networks	deep-learning	universal-approximator
