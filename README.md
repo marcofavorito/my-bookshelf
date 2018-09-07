@@ -38,3 +38,9 @@ A more structured solution would be to use a database, but too much time to inse
 
 ## What?
 You'll find many textbooks, papers, articles, blog posts, readings and similar in the field of Computer Science and related. You might find also documents about topics like Math, Physics and other scientific fields, as well as non-scientific ones like economics and philosophy.
+
+## Tag examples
+
+Tag for kind of document, e.g.: `blogs`, `books`, `papers`, `readings`, `textbooks`, `thesis`, `websites`.
+
+Tag for topic, e.g.: `algorithms`, `artificial-intelligence`, `blockchain`, `computer-programming`, `computer-science`, `deep-learning`, `distributed-systems`, `logic`, `machine-learning`, `mathematics`, `operating-systems`, `philosophy`, `physics`, `reinforcement-learning`.
