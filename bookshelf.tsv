@@ -89,7 +89,7 @@ An Improved Data Stream Summary: The Count-Min Sketch and its Applications	http:
 Data Scientist: The Sexiest Job of the 21st Century	https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century	readings	data-science
 Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing	https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf	papers	algorithms	distributed-systems	big-data
 An overview of gradient descent optimization algorithms	https://arxiv.org/abs/1609.04747	papers	machine-learning	optimization	algorithms
-Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data	https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463	readings	neural-networks	artificial-intelligence	big-data	machine-learning	deep-learning
+Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data	https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463	readings	neural-networks	artificial-intelligence	big-data	machine-learning	deep-learning	cheatsheets
 K-means Clustering via Principal Component Analysis	http://ranger.uta.edu/~chqding/papers/KmeansPCA1.pdf	readings	machine-learning
 Playing Atari with Deep Reinforcement Learning	https://arxiv.org/pdf/1312.5602.pdf	papers	reinforcement-learning	deep-learning
 The curse of highly variable functions for local kernel machines	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.509.9760&rep=rep1&type=pdf	papers	machine-learning
@@ -164,3 +164,44 @@ The human emotional brain without sleep - a prefrontal amygdala disconnect	https
 Simon Says Don’t Use Flashcards	https://well.blogs.nytimes.com/2012/08/23/simon-says-dont-use-flashcards/	readings	psychology	human-learning
 Somnus Inventa Center for Human Sleep Science	https://www.humansleepscience.com/	websites	psychology	neuroscience	sleep
 Google Style Guides	https://google.github.io/styleguide/	readings best-practices	computer-programming
+The NumPy array: a structure for efficient numerical computation	https://arxiv.org/pdf/1102.1523.pdf	papers	computer-programming	python	numpy
+Introduction to the Theory of Computation	https://theswissbay.ch/pdf/Book/Introduction%20to%20the%20theory%20of%20computation_third%20edition%20-%20Michael%20Sipser.pdf	textbooks	computer-science
+How to solve it - A new Aspect of Mathematical Method	https://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf	book	mathematics	problem-solving
+The Road to Reality, A Complete Guide to The Laws of The Universe	https://archive.org/stream/RoadToRealityRobertPenrose/road%20to%20reality-robert%20penrose_djvu.txt	textbooks	mathematics	physics
+Interpreting Mathematics in Physics: Charting the Applications of SU(2) in 20th Century Physics	https://arxiv.org/pdf/physics/0605012.pdf	papers	mathematics	physics
+List of important publications in theoretical computer science	https://en.wikipedia.org/wiki/List_of_important_publications_in_theoretical_computer_science	readings	computer-science
+List of important publications in mathematics	https://en.wikipedia.org/wiki/List_of_important_publications_in_mathematics	readings	mathematics
+The complexity of theorem proving procedures	http://www.cs.toronto.edu/~sacook/homepage/1971.pdf	papers	computer-science
+Tor: The Second-Generation Onion Router	https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf	papers	distributed-systems	computer-security
+Incentives Build Robustness in BitTorrent	http://bittorrent.org/bittorrentecon.pdf	papers	distributed-systems
+Chord: A Scalable Peer-to-peer Lookup Service for Internet Application	http://nms.csail.mit.edu/papers/chord.pdf	papers	distributed-systems
+The Akamai Network: A Platform for High-Performance Internet Applications	https://www.cs.rutgers.edu/~rmartin/teaching/fall15/papers/arch2/cdn.pdf	papers	distributed-systems
+The Part-Time Parliament	https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf	papers	distributed-systems	algorithm
+Paxos Made Simple	https://lamport.azurewebsites.net/pubs/paxos-simple.pdf	papers	distributed-systems	algorithm
+A Simpler Proof for Paxos and Fast Paxos	http://wwwusers.di.uniroma1.it/~mei/SistemiDistribuiti/Schedule_files/fastpaxosfordummies.pdf	papers	distributed-systems	algorithms
+The PageRank Citation Ranking: Bringing Order to the Web	https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf	papers	information-retrieval	algorithms
+The Stationary Distribution of a Markov Chain	https://piazza-resources.s3.amazonaws.com/izdx3b2pxs84nl/j1pw8wbajdgd2/markovChains.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAR6AWVCBX7UFLF3NP%2F20180910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180910T175657Z&X-Amz-Expires=10800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FQoGZXIvYXdzEOL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDCR4XbzjXnzDaDhCZCK3A3aQa7VL%2FLbT1A4aSdWtyD%2FaCivJncPGxWdvYQe7Zj1c85PExALGO83c1A2XDuXF8rU5YugLlloRGh%2B2SlTiWaWG%2Frr6PdWaINWRkOjolU03YPuTXHnTj7sGji9qEe%2FGDXHtGMWQfZtzuyy600p4qlQWt2FCBmpJ7gpW5syC%2FmAJeZwpVATYM3W128nluRWdYejrfBOLagefMDGQjHe8SjgKLCi0Gr6X4%2BR%2F7DXTwASTZnYKT1iu46Z9F2V6zVj2%2F1zhzb6%2F%2FsxScapc5YlYpT3u1XZkiW2lScHD5OyVbymbQK68h65jP0ZftNerdIvQ8Bj7oOVyxsjrW%2F6knC83ge1akUbsRIuACgU1AtrmlaWTpETxHO9LPP3IJ6mjaMQrjnoVuHMo0ykkat7WZe1YlK%2FVfgURPHQXUMTT3mjY9ex%2F%2FvmzN80X%2BiQp6BdA9fLi2KZIInkzoNuOw4wiYYWFoFaQ6fBAVp6ie9hVQcwvpdFOrm1tv%2FRPdRxxFsJwTjg9ANZYiN7UYvgtJTeE%2FlbBghoXtzzgN24lpoGXEqGnVHOsbPMvJxJpougM8OkPn0qNYvcNIBsqt3Mo3sHa3AU%3D&X-Amz-Signature=4de71946287f0fd51b40efbfd41b789f050dd4437cdbb603b595fc9660deddfb	readings	mathematics	algorithms
+Python 3 Patterns, Recipes and Idioms	https://python-3-patterns-idioms-test.readthedocs.io/en/latest/index.html#python-3-patterns-recipes-and-idioms	websites	computer-programming	python	software-engineering
+Jeffrey Dean's website	https://ai.google/research/people/jeff	websites	software-engineering
+Building Software Systems at Google and Lessons Learned	https://static.googleusercontent.com/media/research.google.com/en//people/jeff/Stanford-DL-Nov-2010.pdf	readings	software-engineering
+Clever Algorithms: Nature-Inspired Programming Recipes	http://www.cleveralgorithms.com/nature-inspired/index.html	textbooks	algorithms
+Type Theory and Functional Programming	https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/	textbooks	computer-science	logic
+Writing a Simple Operating System - from Scratch	http://www.cs.bham.ac.uk/%7Eexr/lectures/opsys/10_11/lectures/os-dev.pdf	textbooks	operative-systems	computer-programming
+Crypto101	https://www.crypto101.io/	textbooks	computer-security
+Book of Proof	http://www.people.vcu.edu/%7Erhammack/BookOfProof/	textbooks	mathematics	logic
+How to prove it	http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf	textbooks	mathematics	logic
+How to make an Operating System	https://legacy.gitbook.com/book/samypesse/how-to-create-an-operating-system/details	textbooks	operating-systems
+OSDev.org	https://wiki.osdev.org/Expanded_Main_Page	websites	operating-systems
+How to write a simple operating system	http://mikeos.sourceforge.net/write-your-own-os.html	websites	operating-systems
+Handbook of Applied Cryptography	http://cacr.uwaterloo.ca/hac/index.html	textbooks	computer-security	cryptography
+The Linux Programmer’s Toolbox	https://doc.lagout.org/operating%20system%20/linux/The%20Linux%20Programmer%27s%20Toolbox.pdf	textbooks	operating-systems	computer-programming	linux
+Hacker's Delight	http://www.hackersdelight.org/	textbooks	algorithms
+Bit Twiddling Hacks	http://graphics.stanford.edu/~seander/bithacks.html#CopyIntegerSign	websites	computer-programming	algorithms
+HAKMEM	http://www.inwap.com/pdp10/hbaker/hakmem/hakmem.html	websites	algorithms	computer-science	mit
+Matters Computational - Ideas, Algorithms, Source Code	https://www.jjj.de/fxt/fxtbook.pdf	textbooks	algorithms	computer-programming
+The Aggregate Magic Algorithms	http://aggregate.org/MAGIC/	websites	algorithms	computer-programming
+Bit permutations	http://programming.sirrida.de/bit_perm.html	websites	algorithms	computer-programming
+Specifying Behavioural Features of Design Patterns in First Order Logic	https://radar.brookes.ac.uk/radar/file/bfd6a865-e6bf-7220-a13b-0783c63057a4/1/bayley2008specifying.pdf	papers	software-engineering	logic
+Formalising Design Patterns in Predicate Logic	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.6857&rep=rep1&type=pdf	papers	software-engineering	logic
+How Computers Work - Processor and Main Memory	http://www.fastchip.net/howcomputerswork/bookbpdf.pdf	readings	operating-systems	computer-architecture	electronics
+UML Cheatsheet	http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf	readings	software-engineering	uml	cheatsheets
