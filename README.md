@@ -44,3 +44,7 @@ You'll find many textbooks, papers, articles, blog posts, readings and similar i
 Tag for kind of document, e.g.: `blogs`, `books`, `papers`, `readings`, `textbooks`, `thesis`, `websites`.
 
 Tag for topic, e.g.: `algorithms`, `artificial-intelligence`, `blockchain`, `computer-programming`, `computer-science`, `deep-learning`, `distributed-systems`, `logic`, `machine-learning`, `mathematics`, `operating-systems`, `philosophy`, `physics`, `reinforcement-learning`.
+
+## Credits
+
+The tag editor is built with [jQuery-tagEditor](https://github.com/Pixabay/jQuery-tagEditor).

@@ -4,6 +4,26 @@ body{
     align-content: center;
 }
 
-.container-fluid{
+.row{
+    margin: 5px;
+}
+
+.container{
     padding: 5px;
 }
+
+
+.tag_code{
+    padding: 2px;
+    margin: 2px;
+    background-color: #f2f2f2;
+    cursor:pointer;
+}
+
+/* .tag_code.tag_on{
+    background-color: #ffffff;
+}
+
+.tag_code.tag_off{
+    background-color: #f2f2f2;
+} */
