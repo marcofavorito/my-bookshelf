@@ -8,7 +8,7 @@ Learning representations by back-propagating errors	http://www.cs.toronto.edu/~h
 Reinforcement Learning: An Introduction	http://incompleteideas.net/book/the-book-2nd.html	textbooks	reinforcement-learning
 Clean Code	https://www.investigatii.md/uploads/resurse/Clean_Code.pdf	textbooks	computer-programming	software-engineering
 Code Complete	http://aroma.vn/web/wp-content/uploads/2016/11/code-complete-2nd-edition-v413hav.pdf	textbooks	computer-programming	software-engineering
-Design Patterns: Elements of Reusable Object-Oriented Software	https://sophia.javeriana.edu.co/~cbustaca/docencia/DSBP-2018-01/recursos/Erich%20Gamma,%20Richard%20Helm,%20Ralph%20Johnson,%20John%20M.%20Vlissides-Design%20Patterns_%20Elements%20of%20Reusable%20Object-Oriented%20Software%20%20-Addison-Wesley%20Professional%20(1994).pdf	textbooks	computer-programming	software-engineering
+Design Patterns: Elements of Reusable Object-Oriented Software	https://sophia.javeriana.edu.co/~cbustaca/docencia/DSBP-2018-01/recursos/Erich%20Gamma,%20Richard%20Helm,%20Ralph%20Johnson,%20John%20M.%20Vlissides-Design%20Patterns_%20Elements%20of%20Reusable%20Object-Oriented%20Software%20%20-Addison-Wesley%20Professional%20(1994).pdf	textbooks	computer-programming	software-engineering	design-patterns
 New Directions in Cryptography	https://ee.stanford.edu/~hellman/publications/24.pdf	papers	cryptography	computer-security
 A Method for Obtaining Digital Signatures and Public-Key Cryptosystems	https://people.csail.mit.edu/rivest/Rsapaper.pdf	papers	cryptography	computer-security
 Learning to Predict by the Methods of Temporal Differences	https://pdfs.semanticscholar.org/9c06/865e912788a6a51470724e087853d7269195.pdf	papers	reinforcement-learning
@@ -31,8 +31,8 @@ Structure and Interpretation of Computer Programs	http://mitpress.mit.edu/sites/
 Concepts of Programming Languages	https://cs444pnu1.files.wordpress.com/2014/02/concepts-of-programming-languages-10th-sebesta.pdf	textbooks	computer-programming	computer-science
 Mathematical Logic in Computer Science	https://arxiv.org/pdf/1802.03292.pdf	papers	logic	computer-science
 Computer Architecture: A Quantitative Approach	https://aaddiii.files.wordpress.com/2016/02/computer-architecture-patterson-5th-edition.pdf	textbooks	computer-programming	computer-architecture
-Type Theory and Formal Proof - An Introduction	https://www.win.tue.nl/~wsinrpn/book_type_theory.htm	textbooks	mathematics	logic
-Computational Complexity:  A Modern Approach	http://theory.cs.princeton.edu/complexity/book.pdf	textbooks	computer-science
+Type Theory and Formal Proof - An Introduction	https://www.win.tue.nl/~wsinrpn/book_type_theory.htm	textbooks	mathematics	logic	type-theory
+Computational Complexity: A Modern Approach	http://theory.cs.princeton.edu/complexity/book.pdf	textbooks	computer-science
 The Unreasonable Effectiveness of Mathematics in the Natural Sciences	https://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html	readings	mathematics
 On the Unusual Effectiveness of Logic in Computer Science	https://www.cs.cmu.edu/~rwh/papers/unreasonable/basl.pdf	papers	logic	computer-science
 An Empirical Evaluation of Supervised Learning in High Dimensions	http://lowrank.net/nikos/pubs/empirical.pdf	papers	machine-learning	comparison
@@ -40,7 +40,7 @@ The Unreasonable Effectiveness of Mathematics	https://web.njit.edu/~akansu/PAPER
 The Unreasonable Effectiveness of Mathematics in Economics	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.122.4381&rep=rep1&type=pdf	papers	economics	mathematics
 Computability and Complexity	https://www.cs.cornell.edu/home/kleinber/cstb-turing.pdf	textbooks	mathematics	computer-science
 Computational Complexity: A Conceptual Perspective	http://www.wisdom.weizmann.ac.il/~oded/cc-book.html	textbooks	mathematics	computer-science
-On Computable number, with an application to the Entscheidungsproblem	https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf	papers	mathematics	logic	computer-science
+On Computable number, with an application to the Entscheidungsproblem	https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf	papers	mathematics	logic	computer-science	turing
 On Formally Undecidable Propositions of Principia Mathematica and Related Systems	https://monoskop.org/images/9/93/Kurt_G%C3%B6del_On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems_1992.pdf	papers	logic	mathematics
 Policy invariance under reward transformations: Theory and application to Reward Shaping	https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf	papers	reinforcement-learning	reward-shaping
 Practical Byzantine Fault Tolerance	http://pmg.csail.mit.edu/papers/osdi99.pdf	papers	distributed-systems	algorithms	computer-science
@@ -49,7 +49,7 @@ Bitcoin: A Peer-to-Peer Electronic Cash System	https://bitcoin.org/bitcoin.pdf	p
 An Axiomatic Basis for Computer Programming	https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf	papers	computer-science	computer-programming	logic
 Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services	https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf	papers	distributed-systems	computer-science
 CAP Twelve Years Later: How the "Rules" Have Changed	https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed	readings	distributed-systems
-Time, Clocks, and  the Ordering of Events in a Distributed System	https://lamport.azurewebsites.net/pubs/time-clocks.pdf	papers	distributed-systems
+Time, Clocks, and the Ordering of Events in a Distributed System	https://lamport.azurewebsites.net/pubs/time-clocks.pdf	papers	distributed-systems
 Introduction to Reliable and Secure Distributed Programming	https://www.distributedprogramming.net/	textbooks	distributed-systems
 Deep Reinforcement Learning: An Overview	https://arxiv.org/pdf/1701.07274.pdf	papers	reinforcement-learning	deep-learning
 Deep Learning in Neural Networks: An Overview	https://arxiv.org/abs/1404.7828	papers	deep-learning	neural-networks	machine-learning
@@ -126,11 +126,11 @@ Advances in Optimizing Recurrent Networks	https://arxiv.org/pdf/1212.0901v2.pdf	
 Training Recurrent Neural Networks	http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf	thesis	deep-learning	recurrent-neural-networks	optimization
 Don’t count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors	http://clic.cimec.unitn.it/marco/publications/acl2014/baroni-etal-countpredict-acl2014.pdf	papers	natural-language-processing	distributional-semantics
 Demonstration of k-means assumptions	http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_assumptions.html	websites	machine-learning
-Dropout:  A Simple Way to Prevent Neural Networks from Overfitting	http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf	papers	neural-networks	deep-learning	machine-learning	optimization
+Dropout: A Simple Way to Prevent Neural Networks from Overfitting	http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf	papers	neural-networks	deep-learning	machine-learning	optimization
 Dropout Training as Adaptive Regularization	http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf	papers	neural-networks	deep-learning	machine-learning	optimization
 Do Deep Nets Really Need to be Deep?	https://arxiv.org/abs/1312.6184	papers	neural-networks	deep-learning	universal-approximator
 The Matrix Calculus You Need For Deep Learning	https://arxiv.org/abs/1802.01528v2	papers	linear-algebra	deep-learning	mathematics
-Mathematics  of  Deep  Learning	https://arxiv.org/pdf/1712.04741.pdf	papers	deep-learning	mathematics
+Mathematics of Deep Learning	https://arxiv.org/pdf/1712.04741.pdf	papers	deep-learning	mathematics
 Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift	https://arxiv.org/abs/1502.03167	papers	deep-learning	optimization
 How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)	https://arxiv.org/pdf/1805.11604.pdf	papers	deep-learning	optimization
 Cramer-Rao Lower Bound and Information Geometry	https://arxiv.org/pdf/1301.3578.pdf	papers	mathematics	statistics
@@ -153,9 +153,9 @@ Dynamic Potential-Based Reward Shaping	https://pure.york.ac.uk/portal/files/2088
 Reward Shaping in Episodic Reinforcement Learning	https://pdfs.semanticscholar.org/41c5/0331ed5d3ffa51d879cc2e1a675c99445bc3.pdf	papers	reward-shaping	reinforcement-learning
 Improving Exploration in Reinforcement Learning through Domain Knowledge and Parameter Analysis	http://etheses.whiterose.ac.uk/936/1/grzes10thesis.pdf	thesis	reward-shaping	reinforcement-learning
 A Relational Model of Data for Large Shared Data Banks	https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf	papers	databases	computer-science	logic
-Tendermint:  Byzantine Fault Tolerance in the Age of Blockchains	https://allquantor.at/blockchainbib/pdf/buchman2016tendermint.pdf	thesis	blockchain	distributed-systems
+Tendermint: Byzantine Fault Tolerance in the Age of Blockchains	https://allquantor.at/blockchainbib/pdf/buchman2016tendermint.pdf	thesis	blockchain	distributed-systems
 How not to lie with statistics: the correct way to summarize benchmark results	http://www.cse.unsw.edu.au/~cs9242/15/papers/Fleming_Wallace_86.pdf	papers	statistics
-The Best of the 20th Century: Editors Name Top 10  Algorithms	http://www.uta.edu/faculty/rcli/TopTen/topten.pdf	readings	algorithms
+The Best of the 20th Century: Editors Name Top 10 Algorithms	http://www.uta.edu/faculty/rcli/TopTen/topten.pdf	readings	algorithms
 The Theory of Dynamic Programming	https://www.rand.org/content/dam/rand/pubs/papers/2008/P550.pdf	papers	algorithms
 Recall for words as a function of semantic, graphic, and syntactic orienting tasks	https://www.sciencedirect.com/science/article/pii/S0022537173800271	papers	psychology	human-learning
 The Pen Is Mightier Than the Keyboard	http://journals.sagepub.com/doi/abs/10.1177/0956797614524581	papers	psychology	human-learning
@@ -185,11 +185,11 @@ Python 3 Patterns, Recipes and Idioms	https://python-3-patterns-idioms-test.read
 Jeffrey Dean's website	https://ai.google/research/people/jeff	websites	software-engineering
 Building Software Systems at Google and Lessons Learned	https://static.googleusercontent.com/media/research.google.com/en//people/jeff/Stanford-DL-Nov-2010.pdf	readings	software-engineering
 Clever Algorithms: Nature-Inspired Programming Recipes	http://www.cleveralgorithms.com/nature-inspired/index.html	textbooks	algorithms
-Type Theory and Functional Programming	https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/	textbooks	computer-science	logic
+Type Theory and Functional Programming	https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/	textbooks	computer-science	logic	type-theory
 Writing a Simple Operating System - from Scratch	http://www.cs.bham.ac.uk/%7Eexr/lectures/opsys/10_11/lectures/os-dev.pdf	textbooks	operating-systems	computer-programming
 Crypto101	https://www.crypto101.io/	textbooks	computer-security
 Book of Proof	http://www.people.vcu.edu/%7Erhammack/BookOfProof/	textbooks	mathematics	logic
-How to prove it	http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf	textbooks	mathematics	logic
+How to prove it - A Structural Approach	http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf	textbooks	mathematics	logic
 How to make an Operating System	https://legacy.gitbook.com/book/samypesse/how-to-create-an-operating-system/details	textbooks	operating-systems
 OSDev.org	https://wiki.osdev.org/Expanded_Main_Page	websites	operating-systems
 How to write a simple operating system	http://mikeos.sourceforge.net/write-your-own-os.html	websites	operating-systems
@@ -201,11 +201,85 @@ HAKMEM	http://www.inwap.com/pdp10/hbaker/hakmem/hakmem.html	websites	algorithms	
 Matters Computational - Ideas, Algorithms, Source Code	https://www.jjj.de/fxt/fxtbook.pdf	textbooks	algorithms	computer-programming
 The Aggregate Magic Algorithms	http://aggregate.org/MAGIC/	websites	algorithms	computer-programming
 Bit permutations	http://programming.sirrida.de/bit_perm.html	websites	algorithms	computer-programming
-Specifying Behavioural Features of Design Patterns in First Order Logic	https://radar.brookes.ac.uk/radar/file/bfd6a865-e6bf-7220-a13b-0783c63057a4/1/bayley2008specifying.pdf	papers	software-engineering	logic
-Formalising Design Patterns in Predicate Logic	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.6857&rep=rep1&type=pdf	papers	software-engineering	logic
+Specifying Behavioural Features of Design Patterns in First Order Logic	https://radar.brookes.ac.uk/radar/file/bfd6a865-e6bf-7220-a13b-0783c63057a4/1/bayley2008specifying.pdf	papers	software-engineering	logic	design-patterns
+Formalising Design Patterns in Predicate Logic	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.6857&rep=rep1&type=pdf	papers	software-engineering	logic	design-patterns
 How Computers Work - Processor and Main Memory	http://www.fastchip.net/howcomputerswork/bookbpdf.pdf	readings	operating-systems	computer-architecture	electronics
 UML Cheatsheet	http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf	readings	software-engineering	uml	cheatsheets
 Bran's Kernel Development - A tutorial on writing kernels	http://www.osdever.net/bkerndev/Docs/intro.htm	readings	computer-programming	operating-systems	linux
 Roll your own toy UNIX-clone OS	http://www.jamesmolloy.co.uk/tutorial_html/index.html	readings	computer-programming	operating-systems	linux
 QEMU	https://github.com/qemu/qemu	websites	computer-programming	operating-systems
 MikeOS	http://mikeos.sourceforge.net/	websites	operating-systems	computer-programming
+Google Summer of Code	https://summerofcode.withgoogle.com/	websites	google	computer-programming	open-source
+Choose a License	https://choosealicense.com/	websites	google	open-source
+Open Source Guides	https://opensource.guide/	websites	google	open-source
+Programming Paradigm	https://en.wikipedia.org/wiki/Programming_paradigm	websites	computer-science	computer-programming
+Microelectronic Circuits	http://global.oup.com/us/companion.websites/9780199339136/	textbooks	electronics
+Category Theory	http://angg.twu.net/MINICATS/awodey__category_theory.pdf	textbooks	mathematics	category-theory
+Types and Programming Languages	https://www.asc.ohio-state.edu/pollard.4/type/books/pierce-tpl.pdf	textbooks	computer-science	mathematics	logic	type-theory
+Compilers: Principles, Techniques and Tools	http://www.informatik.uni-bremen.de/agbkb/lehre/ccfl/Material/ALSUdragonbook.pdf	textbooks	computer-science	computer-programming	compilers
+lex & yacc	https://linuxbbq.org/PDF/lexandyacc.pdf	textbooks	computer-science	computer-programming	compilers	lex	yacc
+Naive Computational Type Theory	http://www.nuprl.org/documents/Constable/naive.pdf	readings	mathematics	computer-science	logic	type-theory
+The Seven Pillars of Statistical Wisdom	http://www.hup.harvard.edu/catalog.php?isbn=9780674088917	book	statistics
+The Music Instinct - How Music Works and Why We Can’t Do Without It	http://www.gorseinon-guitar.co.uk/Philip%20Ball%20-%20The%20Music%20Instinct.pdf	book	music
+Becoming a Data Scientist - Curriculum via Metromap	http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/	readings	data-science
+Learn Data Science - Infographic	https://www.datacamp.com/community/tutorials/learn-data-science-infographic	readings	data-science
+Software development explained with cars	https://toggl.com/developer-methods-infographic/	readings	software-engineering	agile
+Why divide the sample variance by N-1?	http://www.visiondummy.com/2014/03/divide-variance-n-1/	readings	statistics
+The Algorithm Design Manual	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.4772&rep=rep1&type=pdf	textbooks	algorithms
+The C programming language	http://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf	textbooks	computer-programming	c
+Deep C (and C++) by Olve Maudal and Jon Jagger	http://www.pvv.org/~oma/DeepC_slides_oct2011.pdf	textbooks	computer-programming	c	c++
+Expert C Programming: Deep C Secrets	http://www.electroons.com/8051/ebooks/expert%20C%20programming.pdf	textbooks	computer-programming	c
+Concrete Mathematics - A Foundation for Computer Science	https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf	textbooks	algorithms
+Clean Architecture	http://putregai.com/sbooks/clean_arch.pdf	textbooks	computer-programming	software-engineering	software-architecture
+Algorithhms by Robert Sedgewick and Kevin Wayne	http://www.albertstam.com/Algorithms.pdf	textbooks	algorithms
+The Feynman's lectures on Physics	http://www.feynmanlectures.caltech.edu/	textbooks	physics
+Proof, Logic, and Conjecture - The Mathematician's Toolbox	http://www.columbia.edu/~vml2113/Teachers%20College,%20Columbia%20University/Academic%20Year%202011-2012/Spring%202012/MSTM%206051%20-%20Advanced%20Topics%20in%20Nature%20of%20Proofs/Proof,%20Logic,%20and%20Conjecture%20-%20The%20Mathematician%27s%20Toolbox.pdf	textbooks	mathematics
+Mathematical Logic for Computer Science	https://sites.google.com/a/di.uniroma1.it/logicaperinformatica2016/	websites	logic	mathematics	computer-science
+A Problem Course in Mathematical Logic	https://ia601001.us.archive.org/34/items/flooved3492/flooved3492.pdf	textbooks	logic	mathematics
+Metamath A Computer Language for Pure Mathematics	http://us.metamath.org/downloads/metamath.pdf	textbooks	 computer-programming	mathematics
+The Foundations of Mathematics	https://www.math.wisc.edu/~miller/old/m771-10/kunen770.pdf	textbooks	mathematics	foundations-of-mathematics
+The Mathematical Continuum: From Intuition to Logic	https://www.di.ens.fr/users/longo/files/PhilosophyAndCognition/the-continuum.pdf	papers	mathematics	logic
+Probabilistic algorithm for testing primality	http://www.mat.uniroma2.it/~pasquale/dida/references/rabin1980probabilistic.pdf	papers	algorithms	mathematics	number-theory	primality-testing
+An Introduction to Probability Theory and Its Applications	https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwik-fyw57PdAhWIk4sKHe7vC8oQFjABegQICRAC&url=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FWilliam_Balthes%2Fpost%2FStronger_limit_Theorems_then_the_strong_law_of_large_numbers%2Fattachment%2F59d6256e6cda7b8083a21880%2FAS%253A445697653776384%25401483274010393%2Fdownload%2FWilliam%2BFeller-An%2BIntroduction%2BTo%2BProbability%2BTheory%2BAnd%2BIts%2BApplications.%2BVol%2BII.pdf&usg=AOvVaw1o8Dcz2AiylwrJbWzQNj-l	textbooks	mathematics	probability
+Handbook Of Discrete And Combinatorial Mathematics	http://inis.jinr.ru/sl/M_Mathematics/MRef_References/Handbook%20of%20discrete%20and%20combinatorial%20mathematics%20(CRC,%202000)(1183s).pdf	textbooks	mathematics	computer-science
+A course in mathematical statistics	https://theswissbay.ch/pdf/Gentoomen%20Library/Maths/Statistics/A%20Course%20in%20Mathematical%20Statistics%202nd%20edition.pdf	textbooks	mathematics	statistics
+Algorithms (Dasgupta, Papadimitriou, Vazirani)	http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf	textbooks	algorithms
+On the evolution of easy instances	https://gian.iiita.ac.in/evolution-easy-instances.pdf	papers	algorithms	genetic-algorithms
+Computing Machinery and Intelligence	https://www.csee.umbc.edu/courses/471/papers/turing.pdf	papers	computer-science	artificial-intelligence	turing
+Computer Science Handbook	https://doc.lagout.org/science/0_Computer%20Science/Computer%20Science%20Handbook%2C%202nd%20Ed.pdf	textbooks	computer-science
+Mind Expanding Books	http://vishnuks.com/Mind-Expanding-Books/	websites	lists
+Hacker Programming Book	http://www.ol-service.com/sikurezza/doc/HackerBook.pdf	textbooks	hacking
+Hacking Secret Ciphers with Python	https://inventwithpython.com/hackingciphers.pdf	textbooks	hacking	python
+Free-Security-eBooks	https://github.com/Hack-with-Github/Free-Security-eBooks	websites	lists
+C++ Hacker's Guide	https://tfetimes.com/wp-content/uploads/2015/04/hack.pdf	textbooks	hacking	computer-programming	c++
+Tricky C	https://www.dmi.unict.it/diraimondo/web/wp-content/uploads/classes/so/mirror-stuff/Tricky_C.pdf	textbooks	computer-programming	c
+Hacking - the art of exploitation	https://leaksource.files.wordpress.com/2014/08/hacking-the-art-of-exploitation.pdf	textbooks	hacking	computer-programming
+Self comes to Mind	https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwir5Ond-bPdAhVPtYsKHakDD-YQFjAAegQIBxAC&url=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FIvo_De_Sousa%2Fpost%2FLinks_between_neuroscience_psychology_and_fine_art%2Fattachment%2F59d624b279197b8077983035%2FAS%253A314439004295169%25401451979508914%2Fdownload%2F%255BAntonio_Damasio%255D_Self_Comes_to_Mind.pdf&usg=AOvVaw0sTnY-tbxyYv1CI2Wf-l__	books	neuroscience	consciousness
+Automate the Boring Stuff with Python	https://automatetheboringstuff.com/	textbooks	python	computer-programming
+Violent Python	https://universalflowuniversity.com/Books/Computer%20Programming/Black%20Hat%20and%20Penetration%20Testing%202/Violent%20Python_%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers,%20and%20Security%20Engineers.pdf	textbooks	python	computer-security	hacking
+A ProblemText in Advanced Calculus	http://web.pdx.edu/~erdman/PTAC/problemtext_pdf.pdf	textbooks	mathematics	calculus
+Real and Complex Analysis	https://59clc.files.wordpress.com/2011/01/real-and-complex-analysis.pdf	textbooks	mathematics	calculus
+Principles of mathematical analysis	https://notendur.hi.is/vae11/%C3%9Eekking/principles_of_mathematical_analysis_walter_rudin.pdf	textbooks	mathematics	calculus
+Functional Analysis	https://59clc.files.wordpress.com/2012/08/functional-analysis-_-rudin-2th.pdf	textbooks	mathematics	calculus
+Security Engineering: A Guide to Building Dependable Distributed Systems	https://www.cl.cam.ac.uk/~rja14/book.html	textbooks	distributed-systems	computer-security	software-engineering
+Handbook of Applied Cryptography	http://math.fau.edu/bkhadka/Syllabi/A%20handbook%20of%20applied%20cryptography.pdf	textbooks	cryptography
+Another look at "Provable Security"	https://eprint.iacr.org/2004/152.pdf	papers	computer-security
+Privacy on the line	https://ia801902.us.archive.org/35/items/PrivacyOnTheLine/Privacy%20on%20the%20Line.pdf	books	computer-security	privacy
+Breaking 104 bit WEP in less than 60 seconds	https://eprint.iacr.org/2007/120.pdf	papers	cryptography	computer-security
+The Salsa20 family of stream ciphers	https://pdfs.semanticscholar.org/307d/c553e897981853845b6c846e81ba0f80ee99.pdf	papers	cryptography	computer-security
+Whose Data Are These, Anyway?	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1306963	readings	computer-security	privacy
+Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice	https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf	papers	computer-security	cryptography
+How to Share a Secret	https://cs.jhu.edu/~sdoshi/crypto/papers/shamirturing.pdf	papers	cryptography	computer-security
+How to fool an unbounded adversary with a short key	https://pdfs.semanticscholar.org/e405/60b8dd54203aae90e426ba37dd7918a0dd9e.pdf	papers	cryptography	computer-security
+Shannon's Theory of Cryptography	http://theory.cse.iitm.ac.in/tcslab/cryptpage/report1.pdf	readings	cryptography	information-theory
+Advanced Operating Systems and Virtualization	https://www.diag.uniroma1.it/~pellegrini/didattica/2017/aosv.html	websites	operating-systems
+Practical Malware Analysis - The Hands-On Guide to Dissecting Malicious Software	http://venom630.free.fr/pdf/Practical_Malware_Analysis.pdf	textbooks	computer-security	malware
+Practical Malware Analysis - Seminars in Distributed System	http://www.dis.uniroma1.it/~aniello/ssd2016/practical_malware_analysis.pdf	readings	malware	computer-security
+If Hemingway Wrote JavaScript	http://pepa.holla.cz/wp-content/uploads/2015/11/If-Hemingway-Wrote-JavaScript.pdf	books	computer-programming
+Variance and bias for general loss functions	http://www-bcf.usc.edu/~gareth/research/bv.pdf	papers	machine-learning
+Review of A Universe of Consciousness. How Matter becomes Imagination	https://www2.informatik.uni-hamburg.de/wtm/ps/dijk.pdf	readings	neuroscience	consciousness
+Integrated information theory: from consciousness to its physical substrate	http://www.crm.cat/en/Activities/Curs_2017-2018/Documents/Consciousness2.pdf	readings	neuroscience	consciousness
+Signal Processing for Communication	http://www.sp4comm.org/docs/sp4comm.pdf	textbooks	signal-processing	communications
+CPython source code	https://hg.python.org/cpython/file	websites	python
+Code: The Hidden Language of Computer Hardware and Software	https://doc.lagout.org/science/0_Computer%20Science/9_Others/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software.pdf	books	computer-science	computer-architecture
+Upgrading and Repairing PCs	https://inspirit.net.in/books/misc/Upgrading%20and%20Repairing%20PCs.pdf	textbooks	computer-architecture
