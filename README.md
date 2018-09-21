@@ -1,7 +1,7 @@
 # my-bookshelf
 Collection of books, papers, list of papers, blog or blog posts, articles that I've read/I'm going to read/I would remember that they exist/It is unlikely that I'll read/I'll never read.
 
-The list of items is stored in [`bookshelf.txt`](./bookshelf.txt) in the following format:
+The list of items is stored in [`bookshelf.tsv`](./bookshelf.tsv) in the following format:
 
     item_name1 \t link1 \t tag1 \t tag2 \t ...
     item_name2 \t link2 \t tag1 \t tag2 \t ...
@@ -38,6 +38,13 @@ A more structured solution would be to use a database, but too much time to inse
 
 ## What?
 You'll find many textbooks, papers, articles, blog posts, readings and similar in the field of Computer Science and related. You might find also documents about topics like Math, Physics and other scientific fields, as well as non-scientific ones like economics and philosophy.
+
+## How?
+
+You can effectively access to the bookshelf in two ways:
+
+- The Github page: [marcofavorito.github.io/my-bookshelf](https://marcofavorito.github.io/my-bookshelf/)
+- By open the [bookshelf.tsv](https://github.com/MarcoFavorito/my-bookshelf/blob/master/bookshelf.tsv) file on Github, by leveraging [the rendering functionalities](https://help.github.com/articles/rendering-csv-and-tsv-data/)
 
 ## Tag examples
 
