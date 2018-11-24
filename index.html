@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="My Bookshelf">
+        <meta name="keywords" content="bookshelf">
+        <meta name="author" content="Marco Favorito">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Bookshelf</title>
+
+        <link rel="stylesheet" type="text/css" href="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.min.js"></script>
+        <script src="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.caret.min.js"></script>
+        <script src="js/classes.js"></script>
+    </head>
+    <body>
+        <a href="https://github.com/MarcoFavorito/my-bookshelf"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>My bookshelf</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="available-tags">
+                    Available tags:
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea id="tagEditor"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="booksList"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+        var bookshelf;
+        fetch('./bookshelf.tsv')
+            .then(function(response) {
+              return response.text();
+          }).then(function(text){
+                main(text);
+          });
+
+
+        function getItemFromLine(line){
+            var tokens = line.split("\t");
+            var name = tokens[0];
+            var link = tokens[1];
+            var b = new Item(name, link);
+            return b;
+        }
+
+        function getTagsFromLine(line){
+            var tags = line.split("\t").slice(2);
+            return new Set(tags);
+        }
+
+        function parseBookshelfFile(text){
+            var tag2items = new Map();
+            var item2tags = new Map();
+
+            lines = text.split("\n");
+            for (var i=1; i<lines.length-1; i++){
+                var cur_line = lines[i];
+                var b = getItemFromLine(cur_line);
+                var tags = getTagsFromLine(cur_line);
+                item2tags.set(b, tags);
+                for (var cur_tag of tags){
+                    if (!(tag2items.has(cur_tag))){
+                        tag2items.set(cur_tag, new Set());
+                    }
+                    tag2items.get(cur_tag).add(b);
+                }
+
+            }
+            return new Bookshelf(item2tags, tag2items);
+        }
+
+        function buildItemList(items, bookshelf){
+            var list = "";
+            for (var item of items){
+                var item_tags = bookshelf.item2tags.get(item);
+                var item_array = Array.from(item_tags);
+                var tag_string = item_array.join(", ");
+                var dot = "<li><a href='" + item.link +
+                    "' title='" + tag_string + "'>" + item.name + "</a></li>";
+                list = list + "\n" + dot;
+            }
+            return "<ul>" + list + "</ul>\n";
+        }
+
+        function findItemsFromTagListAND(tags, bookshelf){
+            var temp_items = new Set();
+            var items = new Set();
+            for (var i=0; i<tags.length; i++){
+                var items_from_tag = bookshelf.tag2items.get(tags[i]);
+                if (i==0){
+                    temp_items = new Set(items_from_tag);
+                }
+                else{
+                    temp_items = new Set([...items_from_tag]
+                        .filter(x => items.has(x)));
+                }
+
+                items = new Set(temp_items);
+                temp_items = new Set();
+            }
+            return items;
+        }
+
+        function onTagChange(field, editor, tags) {
+            $("#booksList").empty();
+            if (tags.length==0 || field==null){
+                $("#booksList").append("<h2>All tags</h2>");
+                tags = bookshelf.tag2items.keys();
+            }
+           else if (tags.length > 1) {
+               items = findItemsFromTagListAND(tags, bookshelf);
+               $("#booksList").append("<h2>" + new Array(tags).join(" & ") + "</h2>");
+               var list = buildItemList(items, bookshelf);
+               $("#booksList").append(list);
+           }
+            for (var tag of tags){
+                var items_from_tag = bookshelf.tag2items.get(tag);
+                var list = buildItemList(items_from_tag, bookshelf);
+                $("#booksList").append("<h2>" + tag + "</h2>");
+                $("#booksList").append(list);
+            }
+        }
+
+        function setup_tag_editor(tags){
+            $('#tagEditor').tagEditor({
+                 autocomplete: {
+                     autoFocus: true,
+                     source: tags,
+                     minLength: 1,
+                     delay: 0
+                 },
+                 placeholder: 'Enter tags, e.g. machine-learning, algorithms, computer-programming, papers, textbooks, websites,  ...',
+                 onChange: onTagChange,
+             });
+
+             onTagChange(null, null, tags);
+        }
+
+        function setup_tag_list(tags){
+            var container = $('#available-tags');
+            for (var tag of tags){
+                var tag_id = `#tag-${tag}`;
+                var code_tag = $(`<code id=\"${tag_id}\">${tag}</code>`);
+                code_tag.click(onclick_tag(tag));
+                code_tag.addClass("tag_code tag_off")
+                container.append(code_tag);
+                container.append(" ");
+
+            }
+
+        }
+
+        function onclick_tag(tag){
+
+            var f = function(){
+                var current_tag = tag;
+                var clicked = false;
+                return function(){
+                    if (clicked == false){
+                        $('#tagEditor').tagEditor('addTag', current_tag);
+                        clicked = true;
+                    }
+                    else{
+                        $('#tagEditor').tagEditor('removeTag', current_tag);
+                        clicked = false;
+                    }
+                };
+            }();
+            return f;
+        }
+
+        function main(text){
+            bookshelf = parseBookshelfFile(text);
+            var tags = bookshelf.tag2items.keys();
+            var tag_array = Array.from(tags);
+
+            setup_tag_editor(tag_array);
+            setup_tag_list(tag_array);
+
+
+        }
+
+        </script>
+
+
+    </body>
+</html>
