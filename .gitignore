@@ -20,4 +20,19 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-deadlinks.txt
+__pycache__/
+deadlinks.tsv
+out
+download
+dump.log
+dump.tar.gz
+dump.zip
+
+#wget stuff
+download/
+download?doi=*
+url?sa=*
+index.html?reload*
+stamp.jsp*
+
+.idea

@@ -52,6 +52,13 @@ Tag for kind of document, e.g.: `blogs`, `books`, `papers`, `readings`, `textboo
 
 Tag for topic, e.g.: `algorithms`, `artificial-intelligence`, `blockchain`, `computer-programming`, `computer-science`, `deep-learning`, `distributed-systems`, `logic`, `machine-learning`, `mathematics`, `operating-systems`, `philosophy`, `physics`, `reinforcement-learning`.
 
+## CLI utils
+
+- `check_dead_links.py`: check if the urls are alive. 
+In `deadlinks.tsv` you will find the log of the unsuccessful requests.
+
+- `dump.py`: download the entire websites/files associated to the URLs, recursively (!!!).
+
 ## Credits
 
 The tag editor is built with [jQuery-tagEditor](https://github.com/Pixabay/jQuery-tagEditor).
