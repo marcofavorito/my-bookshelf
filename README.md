@@ -54,10 +54,12 @@ Tag for topic, e.g.: `algorithms`, `artificial-intelligence`, `blockchain`, `com
 
 ## CLI utils
 
-- `check_dead_links.py`: check if the urls are alive. 
+- `scripts/check_dead_links.py`: check if the urls are alive. 
 In `deadlinks.tsv` you will find the log of the unsuccessful requests.
 
-- `dump.py`: download the entire websites/files associated to the URLs.
+- `scripts/dump.py`: download the entire websites/files associated to the URLs.
+
+Run them from the root of the repository.
 
 ## Credits
 
