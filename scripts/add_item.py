@@ -16,5 +16,5 @@ if __name__ == "__main__":
     tags = "\t".join(args.tags)
     N = 17
     current_n = len(args.tags) + 2
-    f.write("\t".join([args.title, args.url, tags] + [""]*(N-current_n)))
+    f.write("\t".join([args.title, args.url, tags] + [""]*(N-current_n)) + "\n")
 
