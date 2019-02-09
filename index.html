@@ -64,7 +64,9 @@
 
         function getTagsFromLine(line){
             var tags = line.split("\t").slice(2);
-            return new Set(tags);
+            tags = new Set(tags);
+            tags.delete("");
+            return tags
         }
 
         function parseBookshelfFile(text){
