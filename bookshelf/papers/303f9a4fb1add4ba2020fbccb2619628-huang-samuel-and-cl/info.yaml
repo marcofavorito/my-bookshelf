@@ -1,0 +1,29 @@
+abstract: This paper describes a method for converting formulas in finite propositional
+  linear-time temporal logic (Finite LTL) into finite-state automata whose languages
+  are the models of the given formula. Finite LTL differs from traditional LTL in
+  that formulas are interpreted with respect to finite, rather than infinite, sequences
+  of states; this fact means that traditional finite-state automata, rather than omega-automata
+  such as those developed by Buchi and others, suffice for recognizing models of formulas.
+  The approach considered is based on well-known tableau-construction techniques developed
+  for LTL, which we adapt here for the setting of Finite LTL. The resulting automata
+  may be used as a basis for model checking, satisfiability testing, and property
+  monitoring of systems.
+archiveprefix: arXiv
+author: Huang, Samuel and Cleaveland, Rance
+author_list:
+- family: Huang
+  given: Samuel
+- family: Cleaveland
+  given: Rance
+eprint: 1910.09339v1
+file: 1910.09339v1.pdf
+files:
+- huang-samuel-and-cleaveland-rancea-tableau-construction-for-finite-linear-time-temporal-logic2019.pdf
+month: Oct
+primaryclass: cs.LO
+ref: 1910.09339v1
+tags: temporal-logic ltl tableau automata
+title: A Tableau Construction for Finite Linear-Time Temporal Logic
+type: article
+url: http://arxiv.org/abs/1910.09339v1
+year: '2019'

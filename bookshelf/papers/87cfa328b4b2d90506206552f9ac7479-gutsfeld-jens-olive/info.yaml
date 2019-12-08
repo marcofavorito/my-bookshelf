@@ -1,0 +1,31 @@
+abstract: Computation Tree Logic (CTL) and its extensions CTL* and CTL+ are widely
+  used in automated verification as a basis for common model checking tools. But while
+  they can express many properties of interest like reachability, even simple regular
+  properties like "Every other index is labelled a cannot be expressed in these logics.
+  While many extensions were developed to include regular or even non-regular (e.g.
+  visibly pushdown) languages, the first generic framework, Extended CTL, for CTL
+  with arbitrary language classes was given by Axelsson et. al. and applied to regular,
+  visibly pushdown and (deterministic) context-free languages. We extend this framework
+  to CTL* and CTL+ and analyse it with regard to decidability, complexity, expressivity
+  and satisfiability.
+archiveprefix: arXiv
+author: Gutsfeld, Jens Oliver and Müller-Olm, Markus and Dielitz, Christian
+author_list:
+- family: Gutsfeld
+  given: Jens Oliver
+- family: Müller-Olm
+  given: Markus
+- family: Dielitz
+  given: Christian
+eprint: 1910.11594v1
+file: 1910.11594v1.pdf
+files:
+- gutsfeld-jens-oliver-and-muller-olm-markus-and-dielitz-christiantemporal-logics-with-language-parameters2019.pdf
+month: Oct
+primaryclass: cs.LO
+ref: 1910.11594v1
+tags: temporal-logic
+title: Temporal Logics with Language Parameters
+type: article
+url: http://arxiv.org/abs/1910.11594v1
+year: '2019'

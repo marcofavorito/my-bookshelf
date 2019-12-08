@@ -1,0 +1,43 @@
+abstract: The Arcade Learning Environment (ALE) is an evaluation platform that poses
+  the challenge of building AI agents with general competency across dozens of Atari
+  2600 games. It supports a variety of different problem settings and it has been
+  receiving increasing attention from the scientific community, leading to some high-profile
+  success stories such as the much publicized Deep Q-Networks (DQN). In this article
+  we take a big picture look at how the ALE is being used by the research community.
+  We show how diverse the evaluation methodologies in the ALE have become with time,
+  and highlight some key concerns when evaluating agents in the ALE. We use this discussion
+  to present some methodological best practices and provide new benchmark results
+  using these best practices. To further the progress in the field, we introduce a
+  new version of the ALE that supports multiple game modes and provides a form of
+  stochasticity we call sticky actions. We conclude this big picture look by revisiting
+  challenges posed when the ALE was introduced, summarizing the state-of-the-art in
+  various problems and highlighting problems that remain open.
+archiveprefix: arXiv
+author: Machado, Marlos C. and Bellemare, Marc G. and Talvitie, Erik and Veness, Joel
+  and Hausknecht, Matthew and Bowling, Michael
+author_list:
+- family: Machado
+  given: Marlos C.
+- family: Bellemare
+  given: Marc G.
+- family: Talvitie
+  given: Erik
+- family: Veness
+  given: Joel
+- family: Hausknecht
+  given: Matthew
+- family: Bowling
+  given: Michael
+eprint: 1709.06009v2
+file: 1709.06009v2.pdf
+files:
+- machado-marlos-c.-and-bellemare-marc-g.-and-talvitie-erik-and-veness-joel-and-hausknecht-matthew-and-bowling-michaelrevisiting-the-arcade-learni.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1709.06009v2
+tags: deep-reinforcement-learning reinforcement-learning
+title: 'Revisiting the Arcade Learning Environment: Evaluation Protocols and   Open
+  Problems for General Agents'
+type: article
+url: http://arxiv.org/abs/1709.06009v2
+year: '2017'

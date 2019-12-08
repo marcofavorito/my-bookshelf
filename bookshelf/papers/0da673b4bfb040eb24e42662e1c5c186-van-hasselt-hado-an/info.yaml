@@ -1,0 +1,36 @@
+abstract: Most learning algorithms are not invariant to the scale of the function
+  that is being approximated. We propose to adaptively normalize the targets used
+  in learning. This is useful in value-based reinforcement learning, where the magnitude
+  of appropriate value approximations can change over time when we update the policy
+  of behavior. Our main motivation is prior work on learning to play Atari games,
+  where the rewards were all clipped to a predetermined range. This clipping facilitates
+  learning across many different games with a single learning algorithm, but a clipped
+  reward function can result in qualitatively different behavior. Using the adaptive
+  normalization we can remove this domain-specific heuristic without diminishing overall
+  performance.
+archiveprefix: arXiv
+author: van Hasselt, Hado and Guez, Arthur and Hessel, Matteo and Mnih, Volodymyr
+  and Silver, David
+author_list:
+- family: van Hasselt
+  given: Hado
+- family: Guez
+  given: Arthur
+- family: Hessel
+  given: Matteo
+- family: Mnih
+  given: Volodymyr
+- family: Silver
+  given: David
+eprint: 1602.07714v2
+file: 1602.07714v2.pdf
+files:
+- van-hasselt-hado-and-guez-arthur-and-hessel-matteo-and-mnih-volodymyr-and-silver-davidlearning-values-across-many-orders-of-magnitude2016.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1602.07714v2
+tags: reinforcement-learning
+title: Learning values across many orders of magnitude
+type: article
+url: http://arxiv.org/abs/1602.07714v2
+year: '2016'

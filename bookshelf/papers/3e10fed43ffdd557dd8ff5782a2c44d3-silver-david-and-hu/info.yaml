@@ -1,0 +1,56 @@
+abstract: The game of chess is the most widely-studied domain in the history of artificial
+  intelligence. The strongest programs are based on a combination of sophisticated
+  search techniques, domain-specific adaptations, and handcrafted evaluation functions
+  that have been refined by human experts over several decades. In contrast, the AlphaGo
+  Zero program recently achieved superhuman performance in the game of Go, by tabula
+  rasa reinforcement learning from games of self-play. In this paper, we generalise
+  this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman
+  performance in many challenging domains. Starting from random play, and given no
+  domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman
+  level of play in the games of chess and shogi (Japanese chess) as well as Go, and
+  convincingly defeated a world-champion program in each case.
+archiveprefix: arXiv
+author: Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou,
+  Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and
+  Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen
+  and Hassabis, Demis
+author_list:
+- family: Silver
+  given: David
+- family: Hubert
+  given: Thomas
+- family: Schrittwieser
+  given: Julian
+- family: Antonoglou
+  given: Ioannis
+- family: Lai
+  given: Matthew
+- family: Guez
+  given: Arthur
+- family: Lanctot
+  given: Marc
+- family: Sifre
+  given: Laurent
+- family: Kumaran
+  given: Dharshan
+- family: Graepel
+  given: Thore
+- family: Lillicrap
+  given: Timothy
+- family: Simonyan
+  given: Karen
+- family: Hassabis
+  given: Demis
+eprint: 1712.01815v1
+file: 1712.01815v1.pdf
+files:
+- silver-david-and-hubert-thomas-and-schrittwieser-julian-and-antonoglou-ioannis-and-lai-matthew-and-guez-arthur-and-lanctot-marc-and-sifre-laur.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 1712.01815v1
+tags: deep-reinforcement-learning
+title: Mastering Chess and Shogi by Self-Play with a General Reinforcement   Learning
+  Algorithm
+type: article
+url: http://arxiv.org/abs/1712.01815v1
+year: '2017'

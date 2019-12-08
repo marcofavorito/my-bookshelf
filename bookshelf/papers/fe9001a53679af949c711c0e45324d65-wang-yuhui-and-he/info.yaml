@@ -1,0 +1,35 @@
+abstract: 'Proximal policy optimization (PPO) is one of the most successful deep reinforcement
+  learning methods, achieving state-of-the-art performance across a wide range of
+  challenging tasks. However, its optimization behavior is still far from being fully
+  understood. In this paper, we show that PPO could neither strictly restrict the
+  probability ratio as it devotes nor enforce a well-defined trust region constraint,
+  which means that it may still suffer from the risk of performance instability. To
+  address this issue, we present an enhanced PPO method, named Trust Region-based
+  PPO with Rollback (TR-PPO-RB). Two critical improvements are made in our method:
+  1) it adopts a new clipping function to support a rollback behavior to restrict
+  the ratio between the new policy and the old one; 2) the triggering condition for
+  clipping is replaced with a trust region-based one, which is theoretically justified
+  according to the trust region theorem. It seems, by adhering more truly to the "proximal"
+  property - restricting the policy within the trust region, the new algorithm improves
+  the original PPO on both stability and sample efficiency.'
+archiveprefix: arXiv
+author: Wang, Yuhui and He, Hao and Tan, Xiaoyang
+author_list:
+- family: Wang
+  given: Yuhui
+- family: He
+  given: Hao
+- family: Tan
+  given: Xiaoyang
+eprint: 1903.07940v1
+file: 1903.07940v1.pdf
+files:
+- wang-yuhui-and-he-hao-and-tan-xiaoyangtruly-proximal-policy-optimization2019.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1903.07940v1
+tags: deep-reinforcement-learning reinforcement-learning tppo
+title: Truly Proximal Policy Optimization
+type: article
+url: http://arxiv.org/abs/1903.07940v1
+year: '2019'

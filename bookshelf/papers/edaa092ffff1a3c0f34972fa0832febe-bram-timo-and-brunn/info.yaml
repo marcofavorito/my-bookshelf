@@ -1,0 +1,34 @@
+abstract: Sharing knowledge between tasks is vital for efficient learning in a multi-task
+  setting. However, most research so far has focused on the easier case where knowledge
+  transfer is not harmful, i.e., where knowledge from one task cannot negatively impact
+  the performance on another task. In contrast, we present an approach to multi-task
+  deep reinforcement learning based on attention that does not require any a-priori
+  assumptions about the relationships between tasks. Our attention network automatically
+  groups task knowledge into sub-networks on a state level granularity. It thereby
+  achieves positive knowledge transfer if possible, and avoids negative transfer in
+  cases where tasks interfere. We test our algorithm against two state-of-the-art
+  multi-task/transfer learning approaches and show comparable or superior performance
+  while requiring fewer network parameters.
+archiveprefix: arXiv
+author: Bram, Timo and Brunner, Gino and Richter, Oliver and Wattenhofer, Roger
+author_list:
+- family: Bram
+  given: Timo
+- family: Brunner
+  given: Gino
+- family: Richter
+  given: Oliver
+- family: Wattenhofer
+  given: Roger
+eprint: 1907.02874v1
+file: 1907.02874v1.pdf
+files:
+- bram-timo-and-brunner-gino-and-richter-oliver-and-wattenhofer-rogerattentive-multi-task-deep-reinforcement-learning2019.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1907.02874v1
+tags: deep-reinforcement-learning
+title: Attentive Multi-Task Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1907.02874v1
+year: '2019'

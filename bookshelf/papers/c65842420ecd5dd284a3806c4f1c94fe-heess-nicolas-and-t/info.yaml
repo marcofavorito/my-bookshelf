@@ -1,0 +1,55 @@
+abstract: The reinforcement learning paradigm allows, in principle, for complex behaviours
+  to be learned directly from simple reward signals. In practice, however, it is common
+  to carefully hand-design the reward function to encourage a particular solution,
+  or to derive it from demonstration data. In this paper explore how a rich environment
+  can help to promote the learning of complex behavior. Specifically, we train agents
+  in diverse environmental contexts, and find that this encourages the emergence of
+  robust behaviours that perform well across a suite of tasks. We demonstrate this
+  principle for locomotion -- behaviours that are known for their sensitivity to the
+  choice of reward. We train several simulated bodies on a diverse set of challenging
+  terrains and obstacles, using a simple reward function based on forward progress.
+  Using a novel scalable variant of policy gradient reinforcement learning, our agents
+  learn to run, jump, crouch and turn as required by the environment without explicit
+  reward-based guidance. A visual depiction of highlights of the learned behavior
+  can be viewed following https://youtu.be/hx_bgoTF7bs .
+archiveprefix: arXiv
+author: Heess, Nicolas and TB, Dhruva and Sriram, Srinivasan and Lemmon, Jay and Merel,
+  Josh and Wayne, Greg and Tassa, Yuval and Erez, Tom and Wang, Ziyu and Eslami, S.
+  M. Ali and Riedmiller, Martin and Silver, David
+author_list:
+- family: Heess
+  given: Nicolas
+- family: TB
+  given: Dhruva
+- family: Sriram
+  given: Srinivasan
+- family: Lemmon
+  given: Jay
+- family: Merel
+  given: Josh
+- family: Wayne
+  given: Greg
+- family: Tassa
+  given: Yuval
+- family: Erez
+  given: Tom
+- family: Wang
+  given: Ziyu
+- family: Eslami
+  given: S. M. Ali
+- family: Riedmiller
+  given: Martin
+- family: Silver
+  given: David
+eprint: 1707.02286v2
+file: 1707.02286v2.pdf
+files:
+- heess-nicolas-and-tb-dhruva-and-sriram-srinivasan-and-lemmon-jay-and-merel-josh-and-wayne-greg-and-tassa-yuval-and-erez-tom-and-wang-ziyu-and.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 1707.02286v2
+tags: deep-reinfrocement-learning reinforcement-learning
+title: Emergence of Locomotion Behaviours in Rich Environments
+type: article
+url: http://arxiv.org/abs/1707.02286v2
+year: '2017'

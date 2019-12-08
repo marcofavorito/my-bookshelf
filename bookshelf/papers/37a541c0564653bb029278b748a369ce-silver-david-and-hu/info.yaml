@@ -1,0 +1,169 @@
+abstract: <jats:p>The game of chess is the longest-studied domain in the history of
+  artificial intelligence. The strongest programs are based on a combination of sophisticated
+  search techniques, domain-specific adaptations, and handcrafted evaluation functions
+  that have been refined by human experts over several decades. By contrast, the AlphaGo
+  Zero program recently achieved superhuman performance in the game of Go by reinforcement
+  learning from self-play. In this paper, we generalize this approach into a single
+  AlphaZero algorithm that can achieve superhuman performance in many challenging
+  games. Starting from random play and given no domain knowledge except the game rules,
+  AlphaZero convincingly defeated a world champion program in the games of chess and
+  shogi (Japanese chess), as well as Go.</jats:p>
+author: Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou,
+  Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and
+  Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen
+  and Hassabis, Demis
+author_list:
+- affiliation: []
+  family: Silver
+  given: David
+- affiliation: []
+  family: Hubert
+  given: Thomas
+- affiliation: []
+  family: Schrittwieser
+  given: Julian
+- affiliation: []
+  family: Antonoglou
+  given: Ioannis
+- affiliation: []
+  family: Lai
+  given: Matthew
+- affiliation: []
+  family: Guez
+  given: Arthur
+- affiliation: []
+  family: Lanctot
+  given: Marc
+- affiliation: []
+  family: Sifre
+  given: Laurent
+- affiliation: []
+  family: Kumaran
+  given: Dharshan
+- affiliation: []
+  family: Graepel
+  given: Thore
+- affiliation: []
+  family: Lillicrap
+  given: Timothy
+- affiliation: []
+  family: Simonyan
+  given: Karen
+- affiliation: []
+  family: Hassabis
+  given: Demis
+citations:
+- doi: 10.1016/S0004-3702(01)00129-1
+- unstructured: 'F.-H. Hsu, Behind Deep Blue: Building the Computer That Defeated
+    the World Chess Champion (Princeton Univ., 2002).'
+- doi: 10.1111/j.1467-8640.1996.tb00258.x
+- article-title: 'General game playing: overview of the AAAI competition'
+  author: Genesereth
+  first-page: '62'
+  journal-title: AI Mag.
+  volume: '26'
+  year: '2005'
+- doi: 10.1147/rd.116.0601
+- doi: 10.1162/neco.1994.6.2.215
+- unstructured: C. J. Maddison, A. Huang, I. Sutskever, D. Silver, paper presented
+    at the International Conference on Learning Representations 2015, San Diego, CA,
+    7 to 9 May 2015.
+- doi: 10.1038/nature16961
+- doi: 10.1038/nature24270
+- unstructured: 'Stockfish: Strong open source chess engine; https://stockfishchess.org/
+    [accessed 29 November 2017].'
+- unstructured: D. N. L. Levy, M. Newborn, How Computers Play Chess (Ishi Press, 2009).
+- unstructured: V. Allis, “Searching for solutions in games and artificial intelligence,”
+    Ph.D. thesis, Transnational University Limburg, Maastricht, Netherlands (1994).
+- doi: 10.1016/S0004-3702(01)00157-6
+- unstructured: Computer Shogi Association, Results of the 27th world computer shogi
+    championship; www2.computer-shogi.org/wcsc27/index_e.html [accessed 29 November
+    2017].
+- unstructured: W. Steinitz, The Modern Chess Instructor (Edition Olms, 1990).
+- unstructured: E. Lasker, Common Sense in Chess (Dover Publications, 1965).
+- unstructured: J. Knudsen, Essential Chess Quotations (iUniverse, 2000).
+- unstructured: N. P. Jouppi, C. Young, N. Patil, D. Patterson, G. Agrawal, R. Bajwa,
+    S. Bates, S. Bhatia, N. Boden, A. Borchers, R. Boyle, P. Cantin, C. Chao, C. Clark,
+    J. Coriell, M. Daley, M. Dau, J. Dean, B. Gelb, T. V. Ghaemmaghami, R. Gottipati,
+    W. Gulland, R. Hagmann, C. R. Ho, D. Hogberg, J. Hu, R. Hundt, D. Hurt, J. Ibarz,
+    A. Jaffey, A. Jaworski, A. Kaplan, H. Khaitan, D. Killebrew, A. Koch, N. Kumar,
+    S. Lacy, J. Laudon, J. Law, D. Le, C. Leary, Z. Liu, K. Lucke, A. Lundin, G. MacKean,
+    A. Maggiore, M. Mahony, K. Miller, R. Nagarajan, R. Narayanaswami, R. Ni, K. Nix,
+    T. Norrie, M. Omernick, N. Penukonda, A. Phelps, J. Ross, M. Ross, A. Salek, E.
+    Samadiani, C. Severn, G. Sizikov, M. Snelham, J. Souter, D. Steinberg, A. Swing,
+    M. Tan, G. Thorson, B. Tian, H. Toma, E. Tuttle, V. Vasudevan, R. Walter, W. Wang,
+    E. Wilcox, D. H. Yoon, in Proceedings of the 44th Annual International Symposium
+    on Computer Architecture, Toronto, Canada, 24 to 28 June 2017 (Association for
+    Computing Machinery, 2017), pp. 1–12.
+- doi: 10.1007/978-3-540-87608-3_11
+  unstructured: R. Coulom, in Proceedings of the Sixth International Conference on
+    Computers and Games, Beijing, China, 29 September to 1 October 2008 (Springer,
+    2008), pp. 113–124.
+- unstructured: Newest available version of Stockfish as of 13 January 2018 (resolved_base
+    b508f9561cc2302c129efe8d60f201ff03ee72c8), from https://github.com/official-stockfish/Stockfish/commit/.
+- unstructured: Aperyqhapaq’s evaluation files are available at https://github.com/qhapaq-49/qhapaq-bin/releases/tag/eloqhappa.
+- doi: 10.1016/S0304-3975(00)00078-5
+- unstructured: O. Arenz, “Monte Carlo chess,” master’s thesis, Technische Universität
+    Darmstadt (2012).
+- unstructured: O. E. David, N. S. Netanyahu, L. Wolf, in Artificial Neural Networks
+    and Machine Learning—ICANN 2016, Part II, Barcelona, Spain, 6 to 9 September 2016
+    (Springer, 2016), pp. 88–96.
+- unstructured: T. Marsland, Encyclopedia of Artificial Intelligence, S. Shapiro,
+    Ed. (Wiley, 1987).
+- doi: 10.1613/jair.4217
+- article-title: On-line policy improvement using Monte-Carlo search
+  author: Tesauro
+  first-page: '1068'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '9'
+  year: '1996'
+- article-title: Is learning the n-th thing any easier than learning the first?
+  author: Thrun
+  first-page: '1069'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '8'
+  year: '1995'
+- doi: 10.1016/0004-3702(75)90019-3
+- doi: 10.1016/S0304-3975(00)00078-5
+- doi: 10.1007/s10472-011-9258-6
+- article-title: Bootstrapping from game tree search
+  author: Veness
+  first-page: '1937'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '22'
+  year: '2009'
+- unstructured: T. Kaneko, K. Hoki, in Advances in Computer Games – 13th International
+    Conference, ACG 2011, Revised Selected Papers, Tilburg, Netherlands, 20 to 22
+    November 2011 (Springer, 2012), pp. 158–169.
+- doi: 10.1613/jair.4217
+- unstructured: 'M. Lai, “Giraffe: Using deep reinforcement learning to play chess,”
+    master’s thesis, Imperial College London (2015).'
+- article-title: Thinking fast and slow with Deep Learning and Tree Search
+  author: Anthony
+  first-page: '5366'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '30'
+  year: '2017'
+- doi: 10.1016/0004-3702(75)90019-3
+- unstructured: R. Ramanujan, A. Sabharwal, B. Selman, in Proceedings of the 26th
+    Conference on Uncertainty in Artificial Intelligence (UAI 2010), Catalina Island,
+    CA, 8 to 11 July (AUAI Press, 2010).
+- doi: 10.1007/s10472-011-9258-6
+- unstructured: K. He, X. Zhang, S. Ren, J. Sun, in Computer Vision – ECCV 2016, 14th
+    European Conference, Part IV, Amsterdam, Netherlands, 11 to 14 October 2016 (Springer,
+    2016), pp. 630–645.
+- unstructured: '365Chess: Chess Games Database Online; https://www.365chess.com/.'
+doi: 10.1126/science.aar6404
+issue: '6419'
+journal: Science
+language: en
+month: 12
+pages: 1140--1144
+publisher: American Association for the Advancement of Science (AAAS)
+tags: deep-reinforcement-learning go
+title: A general reinforcement learning algorithm that masters chess, shogi, and Go
+  through self-play
+type: article
+url: http://dx.doi.org/10.1126/science.aar6404
+volume: '362'
+year: 2018

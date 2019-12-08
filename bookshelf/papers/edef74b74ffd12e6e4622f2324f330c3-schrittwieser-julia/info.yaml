@@ -1,0 +1,56 @@
+abstract: 'Constructing agents with planning capabilities has long been one of the
+  main challenges in the pursuit of artificial intelligence. Tree-based planning methods
+  have enjoyed huge success in challenging domains, such as chess and Go, where a
+  perfect simulator is available. However, in real-world problems the dynamics governing
+  the environment are often complex and unknown. In this work we present the MuZero
+  algorithm which, by combining a tree-based search with a learned model, achieves
+  superhuman performance in a range of challenging and visually complex domains, without
+  any knowledge of their underlying dynamics. MuZero learns a model that, when applied
+  iteratively, predicts the quantities most directly relevant to planning: the reward,
+  the action-selection policy, and the value function. When evaluated on 57 different
+  Atari games - the canonical video game environment for testing AI techniques, in
+  which model-based planning approaches have historically struggled - our new algorithm
+  achieved a new state of the art. When evaluated on Go, chess and shogi, without
+  any knowledge of the game rules, MuZero matched the superhuman performance of the
+  AlphaZero algorithm that was supplied with the game rules.'
+archiveprefix: arXiv
+author: Schrittwieser, Julian and Antonoglou, Ioannis and Hubert, Thomas and Simonyan,
+  Karen and Sifre, Laurent and Schmitt, Simon and Guez, Arthur and Lockhart, Edward
+  and Hassabis, Demis and Graepel, Thore and Lillicrap, Timothy and Silver, David
+author_list:
+- family: Schrittwieser
+  given: Julian
+- family: Antonoglou
+  given: Ioannis
+- family: Hubert
+  given: Thomas
+- family: Simonyan
+  given: Karen
+- family: Sifre
+  given: Laurent
+- family: Schmitt
+  given: Simon
+- family: Guez
+  given: Arthur
+- family: Lockhart
+  given: Edward
+- family: Hassabis
+  given: Demis
+- family: Graepel
+  given: Thore
+- family: Lillicrap
+  given: Timothy
+- family: Silver
+  given: David
+eprint: 1911.08265v1
+file: 1911.08265v1.pdf
+files:
+- schrittwieser-julian-and-antonoglou-ioannis-and-hubert-thomas-and-simonyan-karen-and-sifre-laurent-and-schmitt-simon-and-guez-arthur-and-lockha.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.08265v1
+tags: deep-reinforcement-learning
+title: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model
+type: article
+url: http://arxiv.org/abs/1911.08265v1
+year: '2019'

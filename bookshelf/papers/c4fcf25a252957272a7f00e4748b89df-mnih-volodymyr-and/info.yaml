@@ -1,0 +1,44 @@
+abstract: We propose a conceptually simple and lightweight framework for deep reinforcement
+  learning that uses asynchronous gradient descent for optimization of deep neural
+  network controllers. We present asynchronous variants of four standard reinforcement
+  learning algorithms and show that parallel actor-learners have a stabilizing effect
+  on training allowing all four methods to successfully train neural network controllers.
+  The best performing method, an asynchronous variant of actor-critic, surpasses the
+  current state-of-the-art on the Atari domain while training for half the time on
+  a single multi-core CPU instead of a GPU. Furthermore, we show that asynchronous
+  actor-critic succeeds on a wide variety of continuous motor control problems as
+  well as on a new task of navigating random 3D mazes using a visual input.
+archiveprefix: arXiv
+author: Mnih, Volodymyr and Badia, Adrià Puigdomènech and Mirza, Mehdi and Graves,
+  Alex and Lillicrap, Timothy P. and Harley, Tim and Silver, David and Kavukcuoglu,
+  Koray
+author_list:
+- family: Mnih
+  given: Volodymyr
+- family: Badia
+  given: Adrià Puigdomènech
+- family: Mirza
+  given: Mehdi
+- family: Graves
+  given: Alex
+- family: Lillicrap
+  given: Timothy P.
+- family: Harley
+  given: Tim
+- family: Silver
+  given: David
+- family: Kavukcuoglu
+  given: Koray
+eprint: 1602.01783v2
+file: 1602.01783v2.pdf
+files:
+- mnih-volodymyr-and-badia-adria-puigdomenech-and-mirza-mehdi-and-graves-alex-and-lillicrap-timothy-p.-and-harley-tim-and-silver-david-and-kavukc.pdf
+month: Feb
+note: ICML 2016
+primaryclass: cs.LG
+ref: 1602.01783v2
+tags: deep-reinforcement-learning asynchronous
+title: Asynchronous Methods for Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1602.01783v2
+year: '2016'

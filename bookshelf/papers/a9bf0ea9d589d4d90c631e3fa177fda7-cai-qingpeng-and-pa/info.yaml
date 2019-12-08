@@ -1,0 +1,42 @@
+abstract: We study a reinforcement learning setting, where the state transition function
+  is a convex combination of a stochastic continuous function and a deterministic
+  function. Such a setting generalizes the widely-studied stochastic state transition
+  setting, namely the setting of deterministic policy gradient (DPG).   We firstly
+  give a simple example to illustrate that the deterministic policy gradient may be
+  infinite under deterministic state transitions, and introduce a theoretical technique
+  to prove the existence of the policy gradient in this generalized setting. Using
+  this technique, we prove that the deterministic policy gradient indeed exists for
+  a certain set of discount factors, and further prove two conditions that guarantee
+  the existence for all discount factors. We then derive a closed form of the policy
+  gradient whenever exists. Furthermore, to overcome the challenge of high sample
+  complexity of DPG in this setting, we propose the Generalized Deterministic Policy
+  Gradient (GDPG) algorithm. The main innovation of the algorithm is a new method
+  of applying model-based techniques to the model-free algorithm, the deep deterministic
+  policy gradient algorithm (DDPG). GDPG optimize the long-term rewards of the model-based
+  augmented MDP subject to a constraint that the long-rewards of the MDP is less than
+  the original one.   We finally conduct extensive experiments comparing GDPG with
+  state-of-the-art methods and the direct model-based extension method of DDPG on
+  several standard continuous control benchmarks. Results demonstrate that GDPG substantially
+  outperforms DDPG, the model-based extension of DDPG and other baselines in terms
+  of both convergence and long-term rewards in most environments.
+archiveprefix: arXiv
+author: Cai, Qingpeng and Pan, Ling and Tang, Pingzhong
+author_list:
+- family: Cai
+  given: Qingpeng
+- family: Pan
+  given: Ling
+- family: Tang
+  given: Pingzhong
+eprint: 1807.03708v3
+file: 1807.03708v3.pdf
+files:
+- cai-qingpeng-and-pan-ling-and-tang-pingzhongdeterministic-policy-gradients-with-general-state-transitions2018.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1807.03708v3
+tags: deep-reinforcement-learning policy-gradient
+title: Deterministic Policy Gradients With General State Transitions
+type: article
+url: http://arxiv.org/abs/1807.03708v3
+year: '2018'

@@ -1,0 +1,33 @@
+abstract: The popular Q-learning algorithm is known to overestimate action values
+  under certain conditions. It was not previously known whether, in practice, such
+  overestimations are common, whether they harm performance, and whether they can
+  generally be prevented. In this paper, we answer all these questions affirmatively.
+  In particular, we first show that the recent DQN algorithm, which combines Q-learning
+  with a deep neural network, suffers from substantial overestimations in some games
+  in the Atari 2600 domain. We then show that the idea behind the Double Q-learning
+  algorithm, which was introduced in a tabular setting, can be generalized to work
+  with large-scale function approximation. We propose a specific adaptation to the
+  DQN algorithm and show that the resulting algorithm not only reduces the observed
+  overestimations, as hypothesized, but that this also leads to much better performance
+  on several games.
+archiveprefix: arXiv
+author: van Hasselt, Hado and Guez, Arthur and Silver, David
+author_list:
+- family: van Hasselt
+  given: Hado
+- family: Guez
+  given: Arthur
+- family: Silver
+  given: David
+eprint: 1509.06461v3
+file: 1509.06461v3.pdf
+files:
+- van-hasselt-hado-and-guez-arthur-and-silver-daviddeep-reinforcement-learning-with-double-q-learning2015.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1509.06461v3
+tags: deep-learning deep-reinforcement-learning reinforcement-learning q-learning
+title: Deep Reinforcement Learning with Double Q-learning
+type: article
+url: http://arxiv.org/abs/1509.06461v3
+year: '2015'

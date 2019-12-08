@@ -1,0 +1,44 @@
+abstract: 'We introduce FeUdal Networks (FuNs): a novel architecture for hierarchical
+  reinforcement learning. Our approach is inspired by the feudal reinforcement learning
+  proposal of Dayan and Hinton, and gains power and efficacy by decoupling end-to-end
+  learning across multiple levels -- allowing it to utilise different resolutions
+  of time. Our framework employs a Manager module and a Worker module. The Manager
+  operates at a lower temporal resolution and sets abstract goals which are conveyed
+  to and enacted by the Worker. The Worker generates primitive actions at every tick
+  of the environment. The decoupled structure of FuN conveys several benefits -- in
+  addition to facilitating very long timescale credit assignment it also encourages
+  the emergence of sub-policies associated with different goals set by the Manager.
+  These properties allow FuN to dramatically outperform a strong baseline agent on
+  tasks that involve long-term credit assignment or memorisation. We demonstrate the
+  performance of our proposed system on a range of tasks from the ATARI suite and
+  also from a 3D DeepMind Lab environment.'
+archiveprefix: arXiv
+author: Vezhnevets, Alexander Sasha and Osindero, Simon and Schaul, Tom and Heess,
+  Nicolas and Jaderberg, Max and Silver, David and Kavukcuoglu, Koray
+author_list:
+- family: Vezhnevets
+  given: Alexander Sasha
+- family: Osindero
+  given: Simon
+- family: Schaul
+  given: Tom
+- family: Heess
+  given: Nicolas
+- family: Jaderberg
+  given: Max
+- family: Silver
+  given: David
+- family: Kavukcuoglu
+  given: Koray
+eprint: 1703.01161v2
+file: 1703.01161v2.pdf
+files:
+- vezhnevets-alexander-sasha-and-osindero-simon-and-schaul-tom-and-heess-nicolas-and-jaderberg-max-and-silver-david-and-kavukcuoglu-korayfeudal-n.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 1703.01161v2
+tags: deep-reinfrocement-learning hierarchical-reinforcement-learning reinforcement-learning
+title: FeUdal Networks for Hierarchical Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1703.01161v2
+year: '2017'

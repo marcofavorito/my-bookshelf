@@ -1,0 +1,318 @@
+author: Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei
+  A. and Veness, Joel and Bellemare, Marc G. and Graves, Alex and Riedmiller, Martin
+  and Fidjeland, Andreas K. and Ostrovski, Georg and Petersen, Stig and Beattie, Charles
+  and Sadik, Amir and Antonoglou, Ioannis and King, Helen and Kumaran, Dharshan and
+  Wierstra, Daan and Legg, Shane and Hassabis, Demis
+author_list:
+- affiliation: []
+  family: Mnih
+  given: Volodymyr
+- affiliation: []
+  family: Kavukcuoglu
+  given: Koray
+- affiliation: []
+  family: Silver
+  given: David
+- affiliation: []
+  family: Rusu
+  given: Andrei A.
+- affiliation: []
+  family: Veness
+  given: Joel
+- affiliation: []
+  family: Bellemare
+  given: Marc G.
+- affiliation: []
+  family: Graves
+  given: Alex
+- affiliation: []
+  family: Riedmiller
+  given: Martin
+- affiliation: []
+  family: Fidjeland
+  given: Andreas K.
+- affiliation: []
+  family: Ostrovski
+  given: Georg
+- affiliation: []
+  family: Petersen
+  given: Stig
+- affiliation: []
+  family: Beattie
+  given: Charles
+- affiliation: []
+  family: Sadik
+  given: Amir
+- affiliation: []
+  family: Antonoglou
+  given: Ioannis
+- affiliation: []
+  family: King
+  given: Helen
+- affiliation: []
+  family: Kumaran
+  given: Dharshan
+- affiliation: []
+  family: Wierstra
+  given: Daan
+- affiliation: []
+  family: Legg
+  given: Shane
+- affiliation: []
+  family: Hassabis
+  given: Demis
+citations:
+- author: R Sutton
+  unstructured: 'Sutton, R. & Barto, A. Reinforcement Learning: An Introduction (MIT
+    Press, 1998)'
+  volume-title: 'Reinforcement Learning: An Introduction'
+  year: '1998'
+- author: EL Thorndike
+  doi: 10.5962/bhl.title.55072
+  unstructured: 'Thorndike, E. L. Animal Intelligence: Experimental studies (Macmillan,
+    1911)'
+  volume-title: 'Animal Intelligence: Experimental studies'
+  year: '1911'
+- author: W Schultz
+  doi: 10.1126/science.275.5306.1593
+  first-page: '1593'
+  journal-title: Science
+  unstructured: Schultz, W., Dayan, P. & Montague, P. R. A neural substrate of prediction
+    and reward. Science 275, 1593–1599 (1997)
+  volume: '275'
+  year: '1997'
+- author: T Serre
+  first-page: '994'
+  unstructured: Serre, T., Wolf, L. & Poggio, T. Object recognition with features
+    inspired by visual cortex. Proc. IEEE. Comput. Soc. Conf. Comput. Vis. Pattern.
+    Recognit. 994–1000 (2005)
+  volume-title: Proc. IEEE. Comput. Soc. Conf. Comput. Vis. Pattern. Recognit.
+  year: '2005'
+- author: K Fukushima
+  doi: 10.1007/BF00344251
+  first-page: '193'
+  journal-title: Biol. Cybern.
+  unstructured: 'Fukushima, K. Neocognitron: A self-organizing neural network model
+    for a mechanism of pattern recognition unaffected by shift in position. Biol.
+    Cybern. 36, 193–202 (1980)'
+  volume: '36'
+  year: '1980'
+- author: G Tesauro
+  doi: 10.1145/203330.203343
+  first-page: '58'
+  journal-title: Commun. ACM
+  unstructured: Tesauro, G. Temporal difference learning and TD-Gammon. Commun. ACM
+    38, 58–68 (1995)
+  volume: '38'
+  year: '1995'
+- author: M Riedmiller
+  doi: 10.1007/s10514-009-9120-4
+  first-page: '55'
+  journal-title: Auton. Robots
+  unstructured: Riedmiller, M., Gabel, T., Hafner, R. & Lange, S. Reinforcement learning
+    for robot soccer. Auton. Robots 27, 55–73 (2009)
+  volume: '27'
+  year: '2009'
+- author: C Diuk
+  first-page: '240'
+  unstructured: Diuk, C., Cohen, A. & Littman, M. L. An object-oriented representation
+    for efficient reinforcement learning. Proc. Int. Conf. Mach. Learn. 240–247 (2008)
+  volume-title: Proc. Int. Conf. Mach. Learn.
+  year: '2008'
+- author: Y Bengio
+  doi: 10.1561/2200000006
+  first-page: '1'
+  journal-title: Foundations and Trends in Machine Learning
+  unstructured: Bengio, Y. Learning deep architectures for AI. Foundations and Trends
+    in Machine Learning 2, 1–127 (2009)
+  volume: '2'
+  year: '2009'
+- author: A Krizhevsky
+  first-page: '1106'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: Krizhevsky, A., Sutskever, I. & Hinton, G. ImageNet classification
+    with deep convolutional neural networks. Adv. Neural Inf. Process. Syst. 25, 1106–1114
+    (2012)
+  volume: '25'
+  year: '2012'
+- author: GE Hinton
+  doi: 10.1126/science.1127647
+  first-page: '504'
+  journal-title: Science
+  unstructured: Hinton, G. E. & Salakhutdinov, R. R. Reducing the dimensionality of
+    data with neural networks. Science 313, 504–507 (2006)
+  volume: '313'
+  year: '2006'
+- author: MG Bellemare
+  doi: 10.1613/jair.3912
+  first-page: '253'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Bellemare, M. G., Naddaf, Y., Veness, J. & Bowling, M. The arcade
+    learning environment: An evaluation platform for general agents. J. Artif. Intell.
+    Res. 47, 253–279 (2013)'
+  volume: '47'
+  year: '2013'
+- author: S Legg
+  doi: 10.1007/s11023-007-9079-x
+  first-page: '391'
+  journal-title: Minds Mach.
+  unstructured: 'Legg, S. & Hutter, M. Universal Intelligence: a definition of machine
+    intelligence. Minds Mach. 17, 391–444 (2007)'
+  volume: '17'
+  year: '2007'
+- author: M Genesereth
+  first-page: '62'
+  journal-title: AI Mag.
+  unstructured: 'Genesereth, M., Love, N. & Pell, B. General game playing: overview
+    of the AAAI competition. AI Mag. 26, 62–72 (2005)'
+  volume: '26'
+  year: '2005'
+- author: MG Bellemare
+  first-page: '864'
+  unstructured: Bellemare, M. G., Veness, J. & Bowling, M. Investigating contingency
+    awareness using Atari 2600 games. Proc. Conf. AAAI. Artif. Intell. 864–871 (2012)
+  volume-title: Proc. Conf. AAAI. Artif. Intell.
+  year: '2012'
+- author: JL McClelland
+  unstructured: 'McClelland, J. L., Rumelhart, D. E. & Group, T. P. R. Parallel Distributed
+    Processing: Explorations in the Microstructure of Cognition (MIT Press, 1986)'
+  volume-title: 'Parallel Distributed Processing: Explorations in the Microstructure
+    of Cognition'
+  year: '1986'
+- author: Y LeCun
+  doi: 10.1109/5.726791
+  first-page: '2278'
+  journal-title: Proc. IEEE
+  unstructured: LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. Gradient-based learning
+    applied to document recognition. Proc. IEEE 86, 2278–2324 (1998)
+  volume: '86'
+  year: '1998'
+- author: DH Hubel
+  doi: 10.1113/jphysiol.1963.sp007079
+  first-page: '559'
+  journal-title: J. Physiol.
+  unstructured: Hubel, D. H. & Wiesel, T. N. Shape and arrangement of columns in cat’s
+    striate cortex. J. Physiol. 165, 559–568 (1963)
+  volume: '165'
+  year: '1963'
+- author: CJ Watkins
+  first-page: '279'
+  journal-title: Mach. Learn.
+  unstructured: Watkins, C. J. & Dayan, P. Q-learning. Mach. Learn. 8, 279–292 (1992)
+  volume: '8'
+  year: '1992'
+- author: J Tsitsiklis
+  doi: 10.1109/9.580874
+  first-page: '674'
+  journal-title: IEEE Trans. Automat. Contr.
+  unstructured: Tsitsiklis, J. & Roy, B. V. An analysis of temporal-difference learning
+    with function approximation. IEEE Trans. Automat. Contr. 42, 674–690 (1997)
+  volume: '42'
+  year: '1997'
+- author: JL McClelland
+  doi: 10.1037/0033-295X.102.3.419
+  first-page: '419'
+  journal-title: Psychol. Rev.
+  unstructured: 'McClelland, J. L., McNaughton, B. L. & O’Reilly, R. C. Why there
+    are complementary learning systems in the hippocampus and neocortex: insights
+    from the successes and failures of connectionist models of learning and memory.
+    Psychol. Rev. 102, 419–457 (1995)'
+  volume: '102'
+  year: '1995'
+- author: J O’Neill
+  doi: 10.1016/j.tins.2010.01.006
+  first-page: '220'
+  journal-title: Trends Neurosci.
+  unstructured: 'O’Neill, J., Pleydell-Bouverie, B., Dupret, D. & Csicsvari, J. Play
+    it again: reactivation of waking experience and memory. Trends Neurosci. 33, 220–229
+    (2010)'
+  volume: '33'
+  year: '2010'
+- unstructured: Lin, L.-J. Reinforcement learning for robots using neural networks.
+    Technical Report, DTIC Document. (1993)
+- author: M Riedmiller
+  first-page: '317'
+  journal-title: 'Mach. Learn.: ECML'
+  unstructured: 'Riedmiller, M. Neural fitted Q iteration - first experiences with
+    a data efficient neural reinforcement learning method. Mach. Learn.: ECML 3720,
+    317–328 (Springer, 2005)'
+  volume: '3720'
+  year: '2005'
+- author: LJP Van der Maaten
+  first-page: '2579'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Van der Maaten, L. J. P. & Hinton, G. E. Visualizing high-dimensional
+    data using t-SNE. J. Mach. Learn. Res. 9, 2579–2605 (2008)
+  volume: '9'
+  year: '2008'
+- author: S Lange
+  first-page: '1'
+  unstructured: Lange, S. & Riedmiller, M. Deep auto-encoder neural networks in reinforcement
+    learning. Proc. Int. Jt. Conf. Neural. Netw. 1–8 (2010)
+  volume-title: Proc. Int. Jt. Conf. Neural. Netw.
+  year: '2010'
+- author: C-T Law
+  doi: 10.1038/nn.2304
+  first-page: '655'
+  journal-title: Nature Neurosci.
+  unstructured: Law, C.-T. & Gold, J. I. Reinforcement learning can account for associative
+    and perceptual learning on a visual decision task. Nature Neurosci. 12, 655 (2009)
+  volume: '12'
+  year: '2009'
+- author: N Sigala
+  doi: 10.1038/415318a
+  first-page: '318'
+  journal-title: Nature
+  unstructured: Sigala, N. & Logothetis, N. K. Visual categorization shapes feature
+    selectivity in the primate temporal cortex. Nature 415, 318–320 (2002)
+  volume: '415'
+  year: '2002'
+- author: D Bendor
+  doi: 10.1038/nn.3203
+  first-page: '1439'
+  journal-title: Nature Neurosci.
+  unstructured: Bendor, D. & Wilson, M. A. Biasing the content of hippocampal replay
+    during sleep. Nature Neurosci. 15, 1439–1444 (2012)
+  volume: '15'
+  year: '2012'
+- author: A Moore
+  first-page: '103'
+  journal-title: Mach. Learn.
+  unstructured: 'Moore, A. & Atkeson, C. Prioritized sweeping: reinforcement learning
+    with less data and less real time. Mach. Learn. 13, 103–130 (1993)'
+  volume: '13'
+  year: '1993'
+- author: K Jarrett
+  first-page: '2146'
+  unstructured: Jarrett, K., Kavukcuoglu, K., Ranzato, M. A. & LeCun, Y. What is the
+    best multi-stage architecture for object recognition? Proc. IEEE. Int. Conf. Comput.
+    Vis. 2146–2153 (2009)
+  volume-title: Proc. IEEE. Int. Conf. Comput. Vis.
+  year: '2009'
+- unstructured: Nair, V. & Hinton, G. E. Rectified linear units improve restricted
+    Boltzmann machines. Proc. Int. Conf. Mach. Learn. 807–814 (2010)
+- author: LP Kaelbling
+  doi: 10.1016/S0004-3702(98)00023-X
+  first-page: '99'
+  journal-title: Artificial Intelligence
+  unstructured: Kaelbling, L. P., Littman, M. L. & Cassandra, A. R. Planning and acting
+    in partially observable stochastic domains. Artificial Intelligence 101, 99–134
+    (1994)
+  volume: '101'
+  year: '1994'
+doc_url: http://www.nature.com/articles/nature14236
+doi: 10.1038/nature14236
+files:
+- mnih-volodymyr-and-kavukcuoglu-koray-and-silver-david-and-rusu-andrei-a.-and-veness-joel-and-bellemare-marc-g.-and-graves-alex-and-riedmiller.data
+issue: '7540'
+journal: Nature
+language: en
+month: 2
+pages: 529--533
+publisher: Springer Science and Business Media LLC
+tags: deep-reinforcement-learning atari
+title: Human-level control through deep reinforcement learning
+type: article
+url: http://dx.doi.org/10.1038/nature14236
+volume: '518'
+year: 2015
