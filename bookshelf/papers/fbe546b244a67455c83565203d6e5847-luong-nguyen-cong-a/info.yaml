@@ -1,0 +1,50 @@
+abstract: This paper presents a comprehensive literature review on applications of
+  deep reinforcement learning in communications and networking. Modern networks, e.g.,
+  Internet of Things (IoT) and Unmanned Aerial Vehicle (UAV) networks, become more
+  decentralized and autonomous. In such networks, network entities need to make decisions
+  locally to maximize the network performance under uncertainty of network environment.
+  Reinforcement learning has been efficiently used to enable the network entities
+  to obtain the optimal policy including, e.g., decisions or actions, given their
+  states when the state and action spaces are small. However, in complex and large-scale
+  networks, the state and action spaces are usually large, and the reinforcement learning
+  may not be able to find the optimal policy in reasonable time. Therefore, deep reinforcement
+  learning, a combination of reinforcement learning with deep learning, has been developed
+  to overcome the shortcomings. In this survey, we first give a tutorial of deep reinforcement
+  learning from fundamental concepts to advanced models. Then, we review deep reinforcement
+  learning approaches proposed to address emerging issues in communications and networking.
+  The issues include dynamic network access, data rate control, wireless caching,
+  data offloading, network security, and connectivity preservation which are all important
+  to next generation networks such as 5G and beyond. Furthermore, we present applications
+  of deep reinforcement learning for traffic routing, resource sharing, and data collection.
+  Finally, we highlight important challenges, open issues, and future research directions
+  of applying deep reinforcement learning.
+archiveprefix: arXiv
+author: Luong, Nguyen Cong and Hoang, Dinh Thai and Gong, Shimin and Niyato, Dusit
+  and Wang, Ping and Liang, Ying-Chang and Kim, Dong In
+author_list:
+- family: Luong
+  given: Nguyen Cong
+- family: Hoang
+  given: Dinh Thai
+- family: Gong
+  given: Shimin
+- family: Niyato
+  given: Dusit
+- family: Wang
+  given: Ping
+- family: Liang
+  given: Ying-Chang
+- family: Kim
+  given: Dong In
+eprint: 1810.07862v1
+file: 1810.07862v1.pdf
+files:
+- luong-nguyen-cong-and-hoang-dinh-thai-and-gong-shimin-and-niyato-dusit-and-wang-ping-and-liang-ying-chang-and-kim-dong-inapplications-of-deep-r.pdf
+month: Oct
+primaryclass: cs.NI
+ref: 1810.07862v1
+title: 'Applications of Deep Reinforcement Learning in Communications and   Networking:
+  A Survey'
+type: article
+url: http://arxiv.org/abs/1810.07862v1
+year: '2018'

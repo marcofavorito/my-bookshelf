@@ -1,0 +1,40 @@
+abstract: Countless learning tasks require dealing with sequential data. Image captioning,
+  speech synthesis, and music generation all require that a model produce outputs
+  that are sequences. In other domains, such as time series prediction, video analysis,
+  and musical information retrieval, a model must learn from inputs that are sequences.
+  Interactive tasks, such as translating natural language, engaging in dialogue, and
+  controlling a robot, often demand both capabilities. Recurrent neural networks (RNNs)
+  are connectionist models that capture the dynamics of sequences via cycles in the
+  network of nodes. Unlike standard feedforward neural networks, recurrent networks
+  retain a state that can represent information from an arbitrarily long context window.
+  Although recurrent neural networks have traditionally been difficult to train, and
+  often contain millions of parameters, recent advances in network architectures,
+  optimization techniques, and parallel computation have enabled successful large-scale
+  learning with them. In recent years, systems based on long short-term memory (LSTM)
+  and bidirectional (BRNN) architectures have demonstrated ground-breaking performance
+  on tasks as varied as image captioning, language translation, and handwriting recognition.
+  In this survey, we review and synthesize the research that over the past three decades
+  first yielded and then made practical these powerful learning models. When appropriate,
+  we reconcile conflicting notation and nomenclature. Our goal is to provide a self-contained
+  explication of the state of the art together with a historical perspective and references
+  to primary research.
+archiveprefix: arXiv
+author: Lipton, Zachary C. and Berkowitz, John and Elkan, Charles
+author_list:
+- family: Lipton
+  given: Zachary C.
+- family: Berkowitz
+  given: John
+- family: Elkan
+  given: Charles
+eprint: 1506.00019v4
+file: 1506.00019v4.pdf
+files:
+- lipton-zachary-c.-and-berkowitz-john-and-elkan-charlesa-critical-review-of-recurrent-neural-networks-for-sequence-learning2015.pdf
+month: May
+primaryclass: cs.LG
+ref: 1506.00019v4
+title: A Critical Review of Recurrent Neural Networks for Sequence Learning
+type: article
+url: http://arxiv.org/abs/1506.00019v4
+year: '2015'

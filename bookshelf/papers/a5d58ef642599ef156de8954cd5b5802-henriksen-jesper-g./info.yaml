@@ -1,0 +1,132 @@
+author: Henriksen, Jesper G. and Jensen, Jakob and Jørgensen, Michael and Klarlund,
+  Nils and Paige, Robert and Rauhe, Theis and Sandholm, Anders
+author_list:
+- affiliation: []
+  family: Henriksen
+  given: Jesper G.
+- affiliation: []
+  family: Jensen
+  given: Jakob
+- affiliation: []
+  family: Jørgensen
+  given: Michael
+- affiliation: []
+  family: Klarlund
+  given: Nils
+- affiliation: []
+  family: Paige
+  given: Robert
+- affiliation: []
+  family: Rauhe
+  given: Theis
+- affiliation: []
+  family: Sandholm
+  given: Anders
+citations:
+- unstructured: A. Aho, J. Hopcroft, and J. Ullman. Design and Analysis of Computer
+    Algorithms. Addison-Wesley, 1974.
+- doi: 10.7146/brics.v2i7.19509
+  unstructured: D. Basin and N. Klarlund. Hardware verification using monadic second-order
+    logic. Technical Report RS-96-7, BRICS, 1995. To appear in CAV '95 Proceedings.
+- author: R.E. Bryant
+  doi: 10.1109/TC.1986.1676819
+  first-page: '677'
+  issue: '8'
+  journal-title: IEEE Transactions on Computers
+  unstructured: R.E. Bryant. Graph-based algorithms for boolean function manipulation.
+    IEEE Transactions on Computers, C-35(8):677–691, Aug 1986.
+  volume: C-35
+  year: '1986'
+- author: R. E. Bryant
+  doi: 10.1145/136035.136043
+  first-page: '293'
+  issue: '3'
+  journal-title: ACM Computing surveys
+  unstructured: R. E. Bryant. Symbolic Boolean manipulation with ordered binary-decision
+    diagrams. ACM Computing surveys, 24(3):293–318, September 1992.
+  volume: '24'
+  year: '1992'
+- author: F. Balarin
+  first-page: '29'
+  journal-title: LNCS
+  unstructured: F. Balarin and A.L. Sangiovanni-Vincentelli. An iterative approach
+    to language containment. In Computer Aided Verification, CAV '93, LNCS 697, pages
+    29–40, 1993.
+  volume: '697'
+  year: '1993'
+- unstructured: J. Cai and R. Paige. Using multiset discrimination to solve language
+    processing problems without hashing. to appear Theoretical Computer Science, 1994.
+    also, U. of Copenhagen Tech. Report, DIKU-TR Num. D-209, 94/16, URL ftp://ftp.diku.dk/diku/semantics/papers/D-209.ps.z.
+- author: M-M Corsini
+  first-page: '180'
+  journal-title: LNCS
+  unstructured: 'M-M Corsini and A. Rauzy. Symbolic model checking and constraint
+    logic programming: a cross-fertilisation. In 5th. Europ. Symp. on Programming,
+    LNCS 788, pages 180–194, 1994.'
+  volume: '788'
+  year: '1994'
+- author: A. Gupta
+  first-page: '15'
+  journal-title: LNCS
+  unstructured: A. Gupta and A.L. Fisher. Parametric circuit representation using
+    inductive boolean functions. In Computer Aided Verification, CAV '93, LNCS 697,
+    pages 15–28, 1993.
+  volume: '697'
+  year: '1993'
+- doi: 10.1016/B978-0-12-417750-5.50022-1
+  unstructured: J. Hopcroft. An n log n algorithm for minimizing states in a finite
+    automaton. In Z. Kohavi and Paz A., editors, Theory of machines and computations,
+    pages 189–196. Academic Press, 1971.
+- doi: 10.7146/brics.v1i10.21660
+  unstructured: J. Jensen, M. Jørgensen, and N. Klarlund. Monadic second-order logic
+    for parameterized verification. Technical report, BRICS Report Series RS-94-10,
+    Department of Computer Science, University of Aarhus, 1994.
+- doi: 10.1145/72981.72998
+  unstructured: B. Kurshan and K. McMillan. A structural induction theorem for processes.
+    In Proc. Eigth Symp. Princ. of Distributed Computing, pages 239–247, 1989.
+- doi: 10.1137/0216062
+  unstructured: R. Paige and R. Tarjan. Three efficient algorithms based on partition
+    refinement. SIAM Journal of Computing, 16(6), 1987.
+- author: D. Revuz
+  doi: 10.1016/0304-3975(92)90142-3
+  first-page: '181'
+  issue: '1'
+  journal-title: Theoretical Computer Science
+  unstructured: D. Revuz. Minimisation of acyclic deterministic automata in linear
+    time. Theoretical Computer Science, 92(1):181–189, 1992.
+  volume: '92'
+  year: '1992'
+- author: J-K. Rho
+  first-page: '123'
+  journal-title: LNCS
+  unstructured: J-K. Rho and F. Somenzi. Automatic generation of network invariants
+    for the verification of iterative sequential systems. In Computer Aided Verification,
+    CAV '93, LNCS 697, pages 123–137, 1993.
+  volume: '697'
+  year: '1993'
+- unstructured: 'M. Steinmann. Übersetzung von logischen Ausdrücken in Baumautomaten:
+    Entwicklung eines Verfahrens und seine Implementierung. Unpublished, 1993.'
+- author: D. Sieling
+  doi: 10.1016/0020-0190(93)90256-9
+  first-page: '139'
+  journal-title: IPL
+  unstructured: D. Sieling and I. Wegener. Reduction of OBDDs in linear time. IPL,
+    48:139–144, 1993.
+  volume: '48'
+  year: '1993'
+- doi: 10.1016/B978-0-444-88074-1.50009-3
+  unstructured: W. Thomas. Automata on infinite objects. In J. van Leeuwen, editor,
+    Handbook of Theoretical Computer Science, volume B, pages 133–191. MIT Press/Elsevier,
+    1990.
+doi: 10.1007/3-540-60630-0_5
+isbn:
+- '9783540606307'
+- '9783540485094'
+journal: Tools and Algorithms for the Construction and Analysis of Systems
+month: 6
+pages: 89--110
+publisher: Springer Berlin Heidelberg
+title: 'Mona: Monadic second-order logic in practice'
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-60630-0_5
+year: 1995

@@ -1,0 +1,31 @@
+abstract: In recent years, non-monotonic Inductive Logic Programming has received
+  growing interest. Specifically, several new learning frameworks and algorithms have
+  been introduced for learning under the answer set semantics, allowing the learning
+  of common-sense knowledge involving defaults and exceptions, which are essential
+  aspects of human reasoning. In this paper, we present a noise-tolerant generalisation
+  of the learning from answer sets framework. We evaluate our ILASP3 system, both
+  on synthetic and on real datasets, represented in the new framework. In particular,
+  we show that on many of the datasets ILASP3 achieves a higher accuracy than other
+  ILP systems that have previously been applied to the datasets, including a recently
+  proposed differentiable learning framework.
+archiveprefix: arXiv
+author: Law, Mark and Russo, Alessandra and Broda, Krysia
+author_list:
+- family: Law
+  given: Mark
+- family: Russo
+  given: Alessandra
+- family: Broda
+  given: Krysia
+eprint: 1808.08441v1
+file: 1808.08441v1.pdf
+files:
+- law-mark-and-russo-alessandra-and-broda-krysiainductive-learning-of-answer-set-programs-from-noisy-examples2018.pdf
+month: Aug
+primaryclass: cs.AI
+ref: 1808.08441v1
+tags: answer-set programming
+title: Inductive Learning of Answer Set Programs from Noisy Examples
+type: article
+url: http://arxiv.org/abs/1808.08441v1
+year: '2018'

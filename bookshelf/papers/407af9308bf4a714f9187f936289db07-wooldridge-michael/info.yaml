@@ -1,0 +1,750 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>The concept of an <jats:italic>agent</jats:italic>
+  has become important in both artificial intelligence (AT) and mainstream computer
+  science. Our aim in this paper is to point the reader at what we perceive to be
+  the most important theoretical and practical issues associated with the design and
+  construction of intelligent agents. For convenience, we divide these issues into
+  three areas (though as the reader will see, the divisions are at times somewhat
+  arbitrary). <jats:italic>Agent theory</jats:italic> is concerned with the question
+  of what an agent is, and the use of mathematical formalisms for representing and
+  reasoning about the properties of agents. <jats:italic>Agent architectures</jats:italic>
+  can be thought of as software engineering models of agents; researchers in this
+  area are primarily concerned with the problem of designing software or hardware
+  systems that will satisfy the properties specified by agent theorists. Finally,
+  <jats:italic>agent languages</jats:italic> are software systems for programming
+  and experimenting with agents; these languages may embody principles proposed by
+  theorists. The paper is <jats:italic>not</jats:italic> intended to serve as a tutorial
+  introduction to all the issues mentioned; we hope instead simply to identify the
+  most important issues, and point to work that elaborates on them. The article includes
+  a short review of current and potential applications of agent technology.</jats:p>
+author: Wooldridge, Michael and Jennings, Nicholas R.
+author_list:
+- affiliation: []
+  family: Wooldridge
+  given: Michael
+- affiliation: []
+  family: Jennings
+  given: Nicholas R.
+citations:
+- doi: 10.1002/int.4550060504
+- doi: 10.1006/imms.1993.1020
+- author: Singh
+  first-page: '69'
+  volume-title: Proceedings of the Twelfth International Joint Conference on Artificial
+    Intelligence (IJCAI-91)
+  year: '1991'
+- unstructured: 'Singh MP , 1990a. “Group intentions” In: Proceedings of the Tenth
+    International Workshop on Distributed Artificial Intelligence (IWDAI-90).'
+- author: Singh
+  first-page: '364'
+  volume-title: Proceedings of the Tenth European Conference on Artificial Intelligence
+    (ECAI-92)
+  year: '1992'
+- author: Allen
+  volume-title: Reasoning About Plans
+  year: '1991'
+- doi: 10.1007/BF00413468
+- doi: 10.1016/0004-3702(93)90034-9
+- doi: 10.1017/CBO9781139173438
+- unstructured: 'Sadek MD , 1992. “A study in the logic of intention” In: Rich C ,
+    Swartout W and Nebel B (eds.) Proceedings of Knowledge Representation and Reasoning
+    (KR&R-92), pp 462–473.'
+- author: Lespérance
+  first-page: '868'
+  volume-title: Proceedings of the Eleventh International Joint Conference on Artificial
+    Intelligence (IJCAI-89)
+  year: '1989'
+- author: Sacerdoti
+  first-page: '206'
+  volume-title: Proceedings of the Fourth International Joint Conference on Artificial
+    Intelligence (IJCAI-75)
+  year: '1975'
+- author: Castelfranchi
+  first-page: '49'
+  volume-title: Decentralized Al—Proceedings of the First European Workshop on Modelling
+    Autonomous Agents in Multi-Agent Worlds (MAAMAW89)
+  year: '1990'
+- author: Russell
+  volume-title: Do the Right Thing—Studies in Limited Rationality
+  year: '1991'
+- author: Connah
+  first-page: '197'
+  volume-title: Decentralized Al–Proceedings of the First European Workshop on Modelling
+    Autonomous Agents in Multi-Agent Worlds (MAAMAW-89)
+  year: '1990'
+- doi: 10.1017/S0269888900004884
+- author: Rao
+  first-page: '473'
+  volume-title: Proceedings of Knowledge Representation and Reasoning (KRandR–91)
+  year: '1991'
+- author: Rao
+  first-page: '498'
+  volume-title: Proceedings of the Twelfth International Joint Conference on Artificial
+    Intelligence (IJCAI–91)
+  year: '1991'
+- doi: 10.1007/3-540-58855-8_22
+- author: Schoppers
+  first-page: '1039'
+  volume-title: Proceedings of the Tenth International Joint Conference on Artificial
+    Intelligence (IJCAI-87)
+  year: '1987'
+- author: Georgeff
+  volume-title: Reasoning About Actions and Plans–Proceedings of the 1986 Workshop
+  year: '1986'
+- doi: 10.1016/0004-3702(88)90038-0
+- author: Patil
+  first-page: '777'
+  volume-title: Proceedings of Knowledge Representation and Reasoning (KRandR-92)
+  year: '1992'
+- doi: 10.1142/S0218215792000088
+- doi: 10.1016/B978-0-934613-38-5.50008-8
+- doi: 10.1145/360018.360022
+- author: Muller
+  first-page: '709'
+  volume-title: Proceedings of the Eleventh European Conference on Artificial Intelligence
+    (ECAI-94)
+  year: '1994'
+- doi: 10.1016/0004-3702(91)90052-L
+- doi: 10.1007/3-540-58855-8_18
+- doi: 10.1145/122344.122367
+- author: Schwuttke
+  first-page: '332'
+  volume-title: Proceedings of the Thirteenth International Joint Conference on Artificial
+    Intelligence (IJCAI93)
+  year: '1993'
+- author: Maes
+  first-page: '991'
+  volume-title: Proceedings of the Eleventh International Joint Conference on Artificial
+    Intelligence (IJCAI-89)
+  year: '1989'
+- author: Chu
+  first-page: '61'
+  volume-title: Proceedings of the 1992 Workshop on Cooperating Knowledge Based Systems
+    (CKBS-92)
+  year: '1993'
+- author: Konolige
+  volume-title: A Deduction Model of Belief
+  year: '1986'
+- author: Kinny
+  first-page: '226'
+  volume-title: Artificial Social Systems—Selected Papers from the Fourth European
+    Workshop on Modelling Autonomous Agents and Multi-Agent Worlds, MAAAMAW-92 (LNAI
+    Volume 830)
+  year: '1992'
+- author: Kaelbling
+  first-page: '395'
+  volume-title: Reasoning About Actions and Plans—Proceeding of the 1986 Workshop
+  year: '1986'
+- doi: 10.1016/0952-1976(93)90016-Q
+- author: Singh
+  volume-title: 'Multiagent Systems: A Theoretical Framework for Intentions, Know-How,
+    and Communications (LNAI Volume 799)'
+  year: '1994'
+- article-title: Controlling cooperative problem solving in industrial multi-agent
+    systems using joint intentions
+  author: Jennings
+  journal-title: Artificial Intelligence
+  volume: '74'
+  year: '1995'
+- doi: 10.1142/S0218215793000137
+- author: Parunak
+  volume-title: Foundations of Distributed Al
+  year: '1995'
+- doi: 10.1016/0004-3702(77)90033-9
+- author: Jennings
+  first-page: '93'
+  volume-title: Decentralized Al 3— Proceedings of the Third European Workshop on
+    Modelling Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- author: Shoham
+  first-page: '954'
+  volume-title: Proceedings of the Eleventh International Joint Conference on Artificial
+    Intelligence (IJCAI-89)
+  year: '1989'
+- author: Singh
+  first-page: '604'
+  volume-title: Proceedings of the Ninth European Conference on Artificial Intelligence
+    (ECAI-90)
+  year: '1990'
+- author: Hughes
+  volume-title: Introduction to Modal Logic
+  year: '1968'
+- author: Bussman
+  volume-title: Proceedings of the IEEE International Conference on Intelligent Robots
+    and Systems (IROS-94)
+  year: '1994'
+- author: Singh
+  first-page: '472'
+  volume-title: Logics in Al—Proceedings of the European Workshop JELIA-90 (LNAI Volume
+    478)
+  year: '1991'
+- doi: 10.1007/BF03037076
+  unstructured: Rosenschein S , 1985. “Formal theories of knowledge in AI and robotics”
+    New Generation Computing, pp 345–357.
+- author: Henz
+  first-page: '404'
+  volume-title: Proceedings of the Thirteenth International Joint Conference on Artificial
+    Intelligence (IJCAI-93)
+  year: '1993'
+- author: Ginsberg
+  volume-title: Essentials of Artificial bitelligence
+  year: '1993'
+- author: Hendler
+  volume-title: 'Artificial Intelligence Planning: Proceedings of the First International
+    Conference'
+  year: '1992'
+- author: Haugeneder
+  first-page: '31'
+  volume-title: Proceedings of the 1994 International Working Conference on Cooperating
+    Knowledge Based Systems (CKBS-94)
+  year: '1994'
+- author: Haugeneder
+  first-page: '83'
+  volume-title: Proceedings of the 1993 Workshop on Cooperating Knowledge Based Systems
+    (CKBS-93)
+  year: '1994'
+- unstructured: 'White JE , 1994. “Telescript technology: The foundation for the electronic
+    marketplace”, White paper, General Magic, Inc., 2465 Latham Street, Mountain View,
+    CA 94040.'
+- author: Rao
+  first-page: '318'
+  volume-title: Proceedings of the Thirteenth International Joint Conference on Artificial
+    Intelligence (IJCAI93)
+  year: '1993'
+- author: Gruber
+  volume-title: Proceedings of Knowledge Representation and Reasoning (KRandR-91)
+  year: '1991'
+- author: Maes
+  first-page: '71'
+  volume-title: Software Agents—Papers from the 1994 Spring Symposium (Technical Report
+    SS-94–03)
+  year: '1994'
+- author: Cohen
+  first-page: '221'
+  volume-title: Intentions in Communication
+  year: '1990'
+- author: Rosenschein
+  first-page: '83'
+  volume-title: Proceedings of the 1986 Conference on Theoretical Aspects of Reasoning
+    About Knowledge
+  year: '1986'
+- doi: 10.1145/176789.176800
+- doi: 10.1016/B978-0-934613-38-5.50014-3
+- doi: 10.1017/CBO9780511621192
+- doi: 10.1007/3-540-58855-8_14
+- author: Allen
+  volume-title: Readings in Planning
+  year: '1990'
+- author: Chapman
+  first-page: '411'
+  volume-title: ReasoningAboutActions and Plans—Proceedings of the 1986 Workshop
+  year: '1986'
+- doi: 10.1016/0004-3702(90)90055-5
+- doi: 10.1145/176789.176794
+- author: Konolige
+  first-page: '241'
+  volume-title: Proceedings of the 1986 Conference on Theoretical Aspects of Reasoning
+    About Knowledge
+  year: '1986'
+- doi: 10.1007/BF01840468
+- author: Burmeister
+  first-page: '77'
+  volume-title: Decentralized Al 3–Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMA W-91)
+  year: '1992'
+- doi: 10.1146/annurev.cs.02.060187.002043
+- author: Dean
+  doi: 10.21236/ADA254568
+  volume-title: Planning and Control
+  year: '1991'
+- author: Brooks
+  first-page: '569'
+  volume-title: Proceedings of the Twelfth International Joint Conference on Artificial
+    Intelligence (IJCAI-91)
+  year: '1991'
+- author: Aylett
+  first-page: '3'
+  volume-title: Proceedings of the 1993 Workshop on Cooperating Knowledge Based Systems
+    (CKBS-93)
+  year: '1994'
+- author: Mack
+  first-page: '573'
+  volume-title: Proceedings of the Eleventh European Conference on Artificial Intelligence
+    (ECAI-94)
+  year: '1994'
+- unstructured: Galliers JR , 1988b. A Theoretical Framework for Computer Models of
+    Cooperative Dialogue, Acknowledging Multi-Agent Conflict, PhD thesis, Open University,
+    UK.
+- author: Bratman
+  volume-title: Intentions, Plans, and Practical Reason
+  year: '1987'
+- author: Bratman
+  first-page: '15'
+  volume-title: Intentions in Communication
+  year: '1990'
+- author: Brooks
+  first-page: '3'
+  volume-title: Designing Autonomous Agents
+  year: '1990'
+- author: Steels
+  first-page: '175'
+  volume-title: Decentralized Al—Proceedings of the First European Workshop on Modelling
+    Autonomous Agents in Multi-Agent Worlds (MAAMAW-89)
+  year: '1990'
+- author: Goldman
+  volume-title: Technical Report TUTR 93–101
+  year: '1991'
+- author: Haddadi
+  first-page: '13'
+  volume-title: Proceedings of the 1993 Workshop on Cooperating Knowledge Based Systems
+    (CKBS-93)
+  year: '1994'
+- unstructured: Shardlow N , 1990. “Action and agency in cognitive science”, Master's
+    thesis, Department of Psychology, University of Manchester, Oxford Road, Manchester
+    M13 9PL, UK.
+- author: Huhns
+  first-page: '32'
+  volume-title: Proceedings of the International Conference on Intelligent and Cooperative
+    Information Systems
+  year: '1992'
+- doi: 10.1007/3-540-58855-8_3
+- doi: 10.1145/122344.122361
+- author: McGregor
+  first-page: '228'
+  volume-title: Proceedings of Groupware-92
+  year: '1992'
+- unstructured: Bates J , Bryan Loyall A and Scott Reilly W , 1992b. “Integrating
+    reactivity, goals, and emotion in a broad agent”. Technical Report CMU-CS-92–142,
+    School of Computer Science, Carnegie-Mellon University, Pittsburgh, PA.
+- author: Pollack
+  first-page: '183'
+  volume-title: Proceedings of the Eighth National Conference on Artificial Intelligence
+    (AAAI-90)
+  year: '1990'
+- author: Wooldridge
+  first-page: '279'
+  volume-title: Proceedings of the Eleventh European Conference on Artificial Intelligence
+    (ECAI-94)
+  year: '1994'
+- author: Agha
+  volume-title: 'ACTORS: A Model of Concurrent Computation in Distributed Systems'
+  year: '1986'
+- doi: 10.1007/3-540-58855-8_20
+- doi: 10.1016/0004-3702(91)90053-M
+- doi: 10.1111/j.1467-8640.1988.tb00284.x
+- author: Lakemeyer
+  first-page: '333'
+  volume-title: 'JELIA-90: Proceedings of the European Workshop on Logics in Al (LNAI
+    Volume 478)'
+  year: '1991'
+- author: Barringer
+  first-page: '94'
+  volume-title: 'REX Workshop on Stepwise Refinement of Distributed Systems: Models,
+    Formalisms, Correctness (LNCS Volume 430)'
+  year: '1989'
+- author: Singh
+  first-page: '127'
+  volume-title: Decentralized A12— Proceedings of the Second European Workshop on
+    Modelling Autonomous Agents and Multi-Agent Worlds (MAAMAW-90)
+  year: '1991'
+- author: Agha
+  doi: 10.7551/mitpress/2087.001.0001
+  volume-title: Research Directions in Concurrent Object-Oriented Programming
+  year: '1993'
+- author: Fagin
+  first-page: '480'
+  volume-title: Proceedings of the Ninth International Joint Conference on Artificial
+    Intelligence (IJ CA 1–85)
+  year: '1985'
+- doi: 10.1207/s15516709cog0303_1
+- author: Werner
+  first-page: '109'
+  volume-title: Decentralized AI 2—Proceedings of the Second European Workshop on
+    Modelling Autonomous Agents and Multi-Agent Worlds (MAAMAW-90)
+  year: '1991'
+- author: Baecker
+  volume-title: Readings in Groupware and Computer-Supported Cooperative Work
+  year: '1993'
+- unstructured: Davies NJ , 1993. Truth, Modality, and Action, PhD thesis, Department
+    of Computer Science, University of Essex, Coichester, UK.
+- author: Georgcff
+  first-page: '677'
+  volume-title: Proceedings of the Sixth National Conference on Artificial Intelligence
+    (AAAI-87)
+  year: '1987'
+- doi: 10.1016/B978-0-934613-63-7.50011-5
+- unstructured: 'Sargent P , 1992. “Back to school for a brand new ABC” In: The Guardian,
+    12 03, p 28.'
+- doi: 10.1016/0004-3702(86)90051-2
+- unstructured: Bates J , Bryan Loyall A and Scott Reilly, W , 1992a. “An architecture
+    for action, motion, and social behaviour”. Technical Report CMU-CS-92–144, School
+    of Computer Science, Carnegie-Mellon University, Pittsburgh, PA.
+- doi: 10.1016/0004-3702(87)90092-0
+- author: Israel
+  first-page: '1'
+  volume-title: Handbook of Logic in Artificial Intelligence and Logic Programming
+  year: '1993'
+- author: Kiss
+  first-page: '115'
+  volume-title: Decentralized Al 3—Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- author: Ferguson
+  first-page: '249'
+  volume-title: Decentralized Al 3—Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- article-title: 'Trial by fire: Understanding the design requirements for agents
+    in complex environments'
+  author: Cohen
+  first-page: '32'
+  journal-title: Al Magazine
+  volume: '10'
+  year: '1989'
+- author: Dennett
+  volume-title: Brainstorms
+  year: '1978'
+- author: Shoham
+  volume-title: 'Reasoning About Change: Time and Causation from the Standpoint of
+    Artificial Intelligence'
+  year: '1988'
+- doi: 10.1111/j.1755-2567.1988.tb00717.x
+- author: Austin
+  volume-title: How to Do Things With Words
+  year: '1962'
+- author: Wainer
+  first-page: '269'
+  volume-title: Proceedings of the Eleventh European Conference on Artificial Intelligence
+    (ECIA-94)
+  year: '1994'
+- author: Rao
+  first-page: '57'
+  volume-title: Decentralized AI 3—Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- doi: 10.1017/S0269888900000205
+- doi: 10.2307/2108182
+- unstructured: Thomas SR , 1993. PLACA, an Agent Oriented Programming Language, PhD
+    thesis, Computer Science Department, Stanford University, Stanford, CA 94305.
+    (Available as technical report STAN-CS–93–1487).
+- author: Fischer
+  volume-title: Proceedings of the Fifth European Workshop on Modelling Autonomous
+    Agents and Multi-Agent Worlds (MAAMAW-93)
+  year: '1993'
+- author: Levy
+  first-page: '64'
+  volume-title: Software Agents—Papers from the 1994 Spring Symposium (Technical Report
+    SS-94–03)
+  year: '1994'
+- doi: 10.1002/malq.19630090502
+- author: Morgenstern
+  first-page: '867'
+  volume-title: Proceedings of the Tenth International Joint Conference on Artificial
+    Intelligence (IJCAI-87)
+  year: '1987'
+- doi: 10.1145/176789.176792
+- author: Goldblatt
+  volume-title: Logics of Time and Computation
+  year: '1987'
+- unstructured: 'Houlder V , 1994. “Special agents” In: Financial Times, 15 08, p
+    12.'
+- doi: 10.1007/BFb0052946
+- author: Morley
+  volume-title: Proceedings of the NSF Workshop on Dynamic Scheduling
+  year: '1993'
+- author: Konolige
+  first-page: '41'
+  volume-title: Machine Intelligence 10
+  year: '1982'
+- author: Doyle
+  volume-title: Methodologies for Intelligent Systems–Sixth International Symposium,
+    ISMIS-91 (LNAI Volume 542)
+  year: '1991'
+- author: des
+  first-page: '115'
+  volume-title: Proceedings of the 1986 Conference on Theoretical Aspects of Reasoning
+    About Knowledge
+  year: '1986'
+- author: Etzioni
+  first-page: '9'
+  volume-title: Software Agents—Papers from the 1994 Spring Symposium (Technical Report
+    SS-94–03)
+  year: '1994'
+- author: Halpern
+  first-page: '1'
+  volume-title: Proceedings of the 1986 Conference on Theoretical Aspects of Reasoning
+    About Knowledge
+  year: '1986'
+- doi: 10.1002/(SICI)1097-4571(198605)37:3<123::AID-ASI3>3.0.CO;2-3
+- author: Bond
+  volume-title: Readings in Distributed Artificial Intelligence
+  year: '1988'
+- author: Firby
+  first-page: '202'
+  volume-title: Proceedings of the Tenth internatjonal joint Conference on Artificial
+    Intelligence (IJCA 1–8 7)
+  year: '1987'
+- doi: 10.1016/0004-3702(74)90026-5
+- doi: 10.1007/3-540-58855-8_21
+- author: Levesque
+  first-page: '94'
+  volume-title: Proceedings of the Eighth National Conference on Artificial Intelligence
+    (AAA1–90)
+  year: '1990'
+- author: Wooldridge
+  first-page: '403'
+  volume-title: Proceedings of the Thirteenth International Workshop on Distributed
+    Artificial Intelligence (IWDAI-94)
+  year: '1994'
+- author: Catach
+  first-page: '491'
+  volume-title: Proceedings of the Seventh National Conference on Artificial Intelligence
+    (AAAI-88)
+  year: '1988'
+- doi: 10.1016/0004-3702(71)90010-5
+- doi: 10.1007/BF00485267
+- author: Geissler
+  first-page: '309'
+  volume-title: Proceedings of the 1986 Conference on TheoreticalAspects of Reasoning
+    About Knowledge
+  year: '1986'
+- author: Fisher
+  first-page: '13'
+  volume-title: Progress in Artificial Intelligence–Sixth Portuguese Conference on
+    Artificial Intelligence (LNAI Volume 727)
+  year: '1993'
+- author: Galliers
+  first-page: '415'
+  volume-title: Proceedings of the Eighth European Conference on Artificial Intelligence
+    (ECAI-88)
+  year: '1988'
+- author: Barwise
+  volume-title: Situations and Attitudes
+  year: '1983'
+- doi: 10.1016/0004-3702(92)90049-4
+- unstructured: 'Ferguson IA , 1992a. Touring Machines: An Architecture for Dynamic,
+    Rational, Mobile Agents, PhD thesis, Clare Hall, University of Cambridge, UK.
+    (Also available as Technical Report No. 273, University of Cambridge Computer
+    Laboratory.)'
+- author: Agre
+  first-page: '268'
+  volume-title: Proceedings of the Sixth National Conference on Artificial Intelligence
+    (AAAI-87)
+  year: '1987'
+- author: Genesereth
+  volume-title: Logical Foundations of Artificial Intelligence
+  year: '1987'
+- doi: 10.1145/176789.176803
+- author: Gasser
+  first-page: '81'
+  volume-title: 'Distributed Artificial Intelligence: Theory and Praxis'
+  year: '1992'
+- doi: 10.1007/3-540-58855-8_17
+- unstructured: Haugeneder H , 1994. IMAGINE final project report.
+- author: Maes
+  first-page: '49'
+  volume-title: Designing Autonomous Agents
+  year: '1990'
+- author: Grnytrasicwicz
+  first-page: '396'
+  volume-title: Proceedings of the Thirteenth International Joint Conference on Artificial
+    Intelligence (IJCAI-93)
+  year: '1993'
+- author: Goodwin
+  volume-title: Technical Report CMU-CS-93–159
+  year: '1993'
+- doi: 10.1016/0304-3975(88)90024-2
+- author: Grosz
+  first-page: '417'
+  volume-title: Intentions in Communication
+  year: '1990'
+- author: Moore
+  first-page: '480'
+  volume-title: Readings in Planning
+  year: '1990'
+- doi: 10.1145/176789.176804
+- article-title: Syntactical treatments of modality, with corollaries on refiexion
+    principles and finite axiomatizations
+  author: Montague
+  first-page: '153'
+  journal-title: Acta Philosophica Fennica
+  volume: '16'
+  year: '1963'
+- article-title: Bringing it about
+  author: Segcrberg
+  first-page: '327'
+  journal-title: Journal of Philosophical Logic
+  volume: '18'
+  year: '1989'
+- doi: 10.1016/0022-0000(89)90039-1
+- author: Georgeff
+  first-page: '972'
+  volume-title: Proceedings of the Eleventh International Joint Conference on Artificial
+    Intelligence (IJC'AI-89)
+  year: '1989'
+- author: Castelfranchi
+  first-page: '215'
+  volume-title: Decentralized AI 3–Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- doi: 10.1007/978-94-009-6259-0_10
+- doi: 10.1016/0957-4174(94)90080-9
+- author: Wavish
+  first-page: '297'
+  volume-title: Decentralized AI 3—Proceedings of the Third European Workshop on Modelling
+    Autonomous Agents and Multi-Agent Worlds (MAAMAW-91)
+  year: '1992'
+- doi: 10.1007/3-540-58855-8_24
+- unstructured: Shoham Y , 1990. “Agent-oriented programming”, Technical Report STAN-CS-1335–90,
+    Computer Science Department, Stanford University, Stanford, CA 94305.
+- unstructured: Seel N , 1989. Agent Theories and Architectures, PhD thesis, Surrey
+    University, Guildford, UK.
+- doi: 10.1007/3-540-58855-8_25
+- author: Weihmayer
+  volume-title: AI Approaches to Telecommunications and Network Management
+  year: '1994'
+- author: Werner
+  first-page: '129'
+  volume-title: Proceedings of the Second Conference on Theoretical Aspects of Reasoning
+    About Knowledge
+  year: '1988'
+- author: Levesque
+  first-page: '198'
+  volume-title: Proceedings of the Fourth National Conference on Artificial Intelligence
+    (AAAI-84)
+  year: '1984'
+- doi: 10.1016/B978-1-55860-092-8.50005-8
+- author: Werner
+  first-page: '694'
+  volume-title: Proceedings of the Ninth European Conference on Artificial Intelligence
+    (ECAI-90)
+  year: '1990'
+- author: Hintikka
+  volume-title: Knowledge and Belief
+  year: '1962'
+- author: Konolige
+  first-page: '390'
+  volume-title: Proceedings of the Thirteenth International Joint Conference on Artificial
+    Intelligence (IJCAI-93)
+  year: '1993'
+- author: Wilkins
+  volume-title: 'Practical Planning: Extending the Classical AI Planning Paradigm'
+  year: '1988'
+- author: Turner
+  volume-title: Truth and Modality for Knowledge Representation
+  year: '1990'
+- author: Wittig
+  volume-title: 'ARCHON: An Architecture for Multi-Agent Systems'
+  year: '1992'
+- unstructured: Nilsson NJ , 1992. “Towards agent programs with circuit semantics”,
+    Technical Report STAN-CS-92–1412, Computer Science Department, Stanford University,
+    Stanford, CA 94305.
+- author: Wooldridge
+  first-page: '234'
+  volume-title: Proceedings of the Tenth European Conference on Artificial Intelligence
+    (ECAI-92)
+  year: '1992'
+- author: Wood
+  volume-title: Planning and Decision Making in Dynamic Domains
+  year: '1993'
+- unstructured: Wooldridge M , 1992. The Logical Modelling of Computational Multi-Agent
+    Systems, PhD thesis, Department of Computation, UMIST, Manchester, UK. (Also available
+    as Technical Report MMU-DOC-94–01, Department of Computing, Manchester Metropolitan
+    University, Chester Street, Manchester, UK.)
+- doi: 10.1007/3-540-58855-8_10
+- author: Wooldridge
+  first-page: '317'
+  volume-title: Temporal Logic—Proceedings of the First International Conference (LNAI
+    Volume 827)
+  year: '1994'
+- author: Ambros-Ingerson
+  first-page: '83'
+  volume-title: Proceedings of the Seventh National Conference on Artificial Intelligence
+    (AAAI-88)
+  year: '1988'
+- author: Yonezawa
+  volume-title: ABCL—An Object-Oriented Concurrent System
+  year: '1990'
+- author: Müller
+  first-page: '213'
+  volume-title: Proceedings of the Second International Working Conference on Cooperating
+    Knowledge Based Systems (CKBS-94)
+  year: '1994'
+- author: Smith
+  volume-title: A Framework for Distributed Problem Solving
+  year: '1980'
+- doi: 10.1146/annurev.cs.02.060187.000345
+- unstructured: McCarthy J , 1978. “Ascribing mental qualities to machines.” Technical
+    report, Stanford University Al Lab., Stanford, CA 94305.
+- doi: 10.1016/0004-3702(84)90008-0
+- author: Kaelbling
+  first-page: '35'
+  volume-title: Designing Autonomous Agents
+  year: '1990'
+- author: Reichgelt
+  first-page: '143'
+  volume-title: Logic Based Knowledge Representation
+  year: '1989'
+- author: Emerson
+  first-page: '996'
+  volume-title: Handbook of Theoretical Computer Science
+  year: '1990'
+- doi: 10.1007/BF00155579
+- author: Maes
+  doi: 10.1016/S0921-8890(05)80024-7
+  volume-title: Designing Autonomous Agents
+  year: '1990'
+- author: Dennett
+  volume-title: The Intentional Stance
+  year: '1987'
+- doi: 10.1109/JRA.1986.1087032
+- article-title: Computer control system for iron and steel plants
+  author: Mori
+  first-page: '251'
+  journal-title: Hitachi Review
+  volume: '37'
+  year: '1988'
+- doi: 10.1145/4904.4999
+- doi: 10.1016/0004-3702(85)90075-X
+- author: Fisher
+  first-page: '480'
+  volume-title: Temporal Logic—Proceedings of the First International Conference (LNAI
+    Volume 827)
+  year: '1994'
+- author: Voorhees
+  first-page: '126'
+  volume-title: Software Agents— Papers from the 1994 Spring Symposium (Technical
+    Report SS-94–03)
+  year: '1994'
+- doi: 10.1109/2.179153
+- author: Devlin
+  volume-title: Logic and Information
+  year: '1991'
+- doi: 10.1111/j.1467-8640.1990.tb00128.x
+- doi: 10.1145/128749.150945
+- author: Rosenschein
+  first-page: '91'
+  volume-title: Proceedings of the Ninth International Joint Conference on Artificial
+    Intelligence (IJCAI-85)
+  year: '1985'
+- author: Dongha
+  first-page: '86'
+  volume-title: 'IntelligentAgents: Theories, Architectures, and Languages (LNA1 Volume
+    890)'
+  year: '1995'
+- author: Rao
+  first-page: '439'
+  volume-title: Proceedings of Knowledge Representation and Reasoning (KRandR-92)
+  year: '1992'
+- doi: 10.1007/3-540-58855-8_2
+doi: 10.1017/s0269888900008122
+issue: '2'
+journal: The Knowledge Engineering Review
+language: en
+month: 6
+pages: 115--152
+publisher: Cambridge University Press (CUP)
+title: 'Intelligent agents: theory and practice'
+type: article
+url: http://dx.doi.org/10.1017/s0269888900008122
+volume: '10'
+year: 1995

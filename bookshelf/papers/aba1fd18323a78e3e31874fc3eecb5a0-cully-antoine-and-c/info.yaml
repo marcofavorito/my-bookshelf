@@ -1,0 +1,42 @@
+abstract: 'As robots leave the controlled environments of factories to autonomously
+  function in more complex, natural environments, they will have to respond to the
+  inevitable fact that they will become damaged. However, while animals can quickly
+  adapt to a wide variety of injuries, current robots cannot "think outside the box"
+  to find a compensatory behavior when damaged: they are limited to their pre-specified
+  self-sensing abilities, can diagnose only anticipated failure modes, and require
+  a pre-programmed contingency plan for every type of potential damage, an impracticality
+  for complex robots. Here we introduce an intelligent trial and error algorithm that
+  allows robots to adapt to damage in less than two minutes, without requiring self-diagnosis
+  or pre-specified contingency plans. Before deployment, a robot exploits a novel
+  algorithm to create a detailed map of the space of high-performing behaviors: This
+  map represents the robot''s intuitions about what behaviors it can perform and their
+  value. If the robot is damaged, it uses these intuitions to guide a trial-and-error
+  learning algorithm that conducts intelligent experiments to rapidly discover a compensatory
+  behavior that works in spite of the damage. Experiments reveal successful adaptations
+  for a legged robot injured in five different ways, including damaged, broken, and
+  missing legs, and for a robotic arm with joints broken in 14 different ways. This
+  new technique will enable more robust, effective, autonomous robots, and suggests
+  principles that animals may use to adapt to injury.'
+archiveprefix: arXiv
+author: Cully, Antoine and Clune, Jeff and Tarapore, Danesh and Mouret, Jean-Baptiste
+author_list:
+- family: Cully
+  given: Antoine
+- family: Clune
+  given: Jeff
+- family: Tarapore
+  given: Danesh
+- family: Mouret
+  given: Jean-Baptiste
+doi: 10.1038/nature14422
+eprint: 1407.3501v4
+file: 1407.3501v4.pdf
+files:
+- cully-antoine-and-clune-jeff-and-tarapore-danesh-and-mouret-jean-baptisterobots-that-can-adapt-like-animals2014.pdf
+month: Jul
+primaryclass: cs.RO
+ref: 1407.3501v4
+title: Robots that can adapt like animals
+type: article
+url: http://arxiv.org/abs/1407.3501v4
+year: '2014'

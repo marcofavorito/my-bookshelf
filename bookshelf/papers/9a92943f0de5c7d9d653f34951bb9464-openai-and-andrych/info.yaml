@@ -1,0 +1,61 @@
+abstract: 'We use reinforcement learning (RL) to learn dexterous in-hand manipulation
+  policies which can perform vision-based object reorientation on a physical Shadow
+  Dexterous Hand. The training is performed in a simulated environment in which we
+  randomize many of the physical properties of the system like friction coefficients
+  and an object''s appearance. Our policies transfer to the physical robot despite
+  being trained entirely in simulation. Our method does not rely on any human demonstrations,
+  but many behaviors found in human manipulation emerge naturally, including finger
+  gaiting, multi-finger coordination, and the controlled use of gravity. Our results
+  were obtained using the same distributed RL system that was used to train OpenAI
+  Five. We also include a video of our results: https://youtu.be/jwSbzNHGflM'
+archiveprefix: arXiv
+author: OpenAI,  and Andrychowicz, Marcin and Baker, Bowen and Chociej, Maciek and
+  Jozefowicz, Rafal and McGrew, Bob and Pachocki, Jakub and Petron, Arthur and Plappert,
+  Matthias and Powell, Glenn and Ray, Alex and Schneider, Jonas and Sidor, Szymon
+  and Tobin, Josh and Welinder, Peter and Weng, Lilian and Zaremba, Wojciech
+author_list:
+- family: OpenAI
+  given: ''
+- family: Andrychowicz
+  given: Marcin
+- family: Baker
+  given: Bowen
+- family: Chociej
+  given: Maciek
+- family: Jozefowicz
+  given: Rafal
+- family: McGrew
+  given: Bob
+- family: Pachocki
+  given: Jakub
+- family: Petron
+  given: Arthur
+- family: Plappert
+  given: Matthias
+- family: Powell
+  given: Glenn
+- family: Ray
+  given: Alex
+- family: Schneider
+  given: Jonas
+- family: Sidor
+  given: Szymon
+- family: Tobin
+  given: Josh
+- family: Welinder
+  given: Peter
+- family: Weng
+  given: Lilian
+- family: Zaremba
+  given: Wojciech
+eprint: 1808.00177v5
+file: 1808.00177v5.pdf
+files:
+- openai-and-andrychowicz-marcin-and-baker-bowen-and-chociej-maciek-and-jozefowicz-rafal-and-mcgrew-bob-and-pachocki-jakub-and-petron-arthur-an.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1808.00177v5
+title: Learning Dexterous In-Hand Manipulation
+type: article
+url: http://arxiv.org/abs/1808.00177v5
+year: '2018'

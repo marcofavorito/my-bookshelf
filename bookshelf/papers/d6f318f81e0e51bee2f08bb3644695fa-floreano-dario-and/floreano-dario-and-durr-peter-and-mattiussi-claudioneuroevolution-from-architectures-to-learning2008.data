@@ -1,0 +1,1201 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Springer-Verlag"/>
+    <meta name="citation_title" content="Neuroevolution: from architectures to learning"/>
+    <meta name="citation_doi" content="10.1007/s12065-007-0002-4"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/article/10.1007/s12065-007-0002-4"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s12065-007-0002-4"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2Fs12065-007-0002-4.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s12065-007-0002-4&amp;api_key="/>
+    <meta name="citation_firstpage" content="47"/>
+    <meta name="citation_lastpage" content="62"/>
+    <meta name="citation_author" content="Dario Floreano"/>
+    <meta name="citation_author_institution" content="Ecole Polytechnique Fédérale de Lausanne Laboratory of Intelligent Systems"/>
+    <meta name="citation_author" content="Peter Dürr"/>
+    <meta name="citation_author_institution" content="Ecole Polytechnique Fédérale de Lausanne Laboratory of Intelligent Systems"/>
+    <meta name="citation_author_email" content="peter.duerr@epfl.ch"/>
+    <meta name="citation_author" content="Claudio Mattiussi"/>
+    <meta name="citation_author_institution" content="Ecole Polytechnique Fédérale de Lausanne Laboratory of Intelligent Systems"/>
+    <meta name="dc.identifier" content="10.1007/s12065-007-0002-4"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="Artificial neural networks (ANNs) are applied to many real-world problems, ranging from pattern classification to robot control. In order to design a neural network for a particular task, the choice..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Neuroevolution: from architectures to learning"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/12065/1/1.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="Artificial neural networks (ANNs) are applied to many real-world problems, ranging from pattern classification to robot control. In order to design a neural network for a particular task, the choice..."/>
+    <meta name="citation_journal_title" content="Evolutionary Intelligence"/>
+    <meta name="citation_journal_abbrev" content="Evol. Intel."/>
+    <meta name="citation_volume" content="1"/>
+    <meta name="citation_issue" content="1"/>
+    <meta name="citation_issn" content="1864-5909"/>
+    <meta name="citation_issn" content="1864-5917"/>
+    <meta name="citation_online_date" content="2008/01/10"/>
+    <meta name="citation_cover_date" content="2008/03/01"/>
+    <meta name="citation_article_type" content="Review Article"/>
+    <meta property="og:title" content="Neuroevolution: from architectures to learning"/>
+    <meta property="og:type" content="Article"/>
+    <meta property="og:url" content="https://link.springer.com/article/10.1007/s12065-007-0002-4"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/journal/12065/1/1.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="Artificial neural networks (ANNs) are applied to many real-world problems, ranging from pattern classification to robot control. In order to design a neural network for a particular task, the choice..."/>
+
+        <title>Neuroevolution: from architectures to learning | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/article/10.1007/s12065-007-0002-4"/>
+        <link rel="shortcut icon" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/632953562/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/632953562/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/632953562/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/632953562/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/632953562/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Article",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/s12065-007-0002-4",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-s12065-007-0002-4",
+                'hasAccess':"N",
+                'Full HTML':"N",
+                'Has Body':"Y",
+                'Static Hash':"632953562",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},
+                'content':{"serial":{"eissn":"1864-5917","pissn":"1864-5909"},"type":"Article","category":{"pmc":{"primarySubject":"Engineering","primarySubjectCode":"T","secondarySubjects":{"4":"Control, Robotics, Mechatronics","5":"Bioinformatics","6":"Applications of Mathematics","1":"Mathematical and Computational Engineering","2":"Artificial Intelligence","3":"Statistical Physics and Dynamical Systems"},"secondarySubjectCodes":{"4":"T19000","5":"L15001","6":"M13003","1":"T11006","2":"I21000","3":"P19090"}},"sucode":"SC8"}},
+                'Access Type':"noaccess",
+                'Page':"article",
+                'Bpids':"",
+                'Bpnames':"",
+                'SubjectCodes':"SCT, SCT11006, SCI21000, SCP19090, SCT19000, SCL15001, SCM13003",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"Neural networks, Evolution, Learning",
+                'Country':"IT",
+                'Journal Id':"12065",
+                'Journal Title':"Evolutionary Intelligence",
+
+                    'doi': "10.1007-s12065-007-0002-4",
+                    'kwrd': ["Neural_networks","Evolution","Learning"],
+                    'pmc': ["T","T11006","I21000","P19090","T19000","L15001","M13003"],
+                    'BPID': ["1"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/632953562/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+</div>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                        <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+        <image width="148" height="30" alt="" src="/springerlink-static/632953562/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/632953562/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12065-007-0002-4">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+            <main id="main-content" class="main-wrapper" tabindex="-1">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="cover-image test-cover" itemscope>
+                                    <a class="test-cover-link" href="/journal/12065">
+        <span class="u-screenreader-only">Evolutionary Intelligence</span>
+        <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover/journal/12065/1/1.jpg" itemprop="image" alt=""/>
+    </a>
+
+
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                        
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration"><p><a href="/journal/12065" title="Evolutionary Intelligence" data-track="click" data-track-action="Journal title" data-track-label=""><span class="JournalTitle">Evolutionary Intelligence</span></a></p><p class="icon--meta-keyline"><span class="ArticleCitation_Year"><time datetime="2008-03">March 2008</time>, </span><span class="ArticleCitation_Volume">Volume 1, </span><a class="ArticleCitation_Issue" href="/journal/12065/1/1/page/1" data-track="click" data-track-action="Article issue" data-track-label="">Issue 1</a>,
+                       <span class="ArticleCitation_Pages"> pp 47–62</span><span class="u-inline-block u-ml-4"> | <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Enumeration section">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ArticleTitle" lang="en">Neuroevolution: from architectures to learning</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="#authorsandaffiliations" data-track="click" data-track-action="Authors and affiliations tab" data-track-label="">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Dario Floreano</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Peter Dürr</span><span class="author-information"><span class="authors__contact"><a href="mailto:peter.duerr@epfl.ch" title="peter.duerr@epfl.ch" itemprop="email" data-track="click" data-track-action="Email author" data-track-label=""><img src="/springerlink-static/images/svg/email.svg" height="24" width="24" alt="Email author" /></a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Claudio Mattiussi</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><span class="test-render-category">Review Article</span></span><div class="article-dates"><span class="article-dates__label">First Online: </span><span class="article-dates__first-online"><time datetime="2008-01-10">10 January 2008</time></span></div></div><div class="main-context__column">    <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-socialmediamentions-count" href="http://www.altmetric.com/details.php?citation_id&#x3D;20979339&amp;domain&#x3D;link.springer.com" target="_blank" rel="noopener"
+                       title="Visit Altmetric for full social mention details" id="socialmediamentions-link">
+                            <span id="socialmediamentions-count-number" class="test-metric-count c-button-circle gtm-socialmediamentions-count">94</span>
+                       <span class="test-metric-name article-metrics__label gtm-socialmediamentions-count">Shares</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                     <span class="article-metrics__views">3.2k</span>
+                     <span class="article-metrics__label">Downloads</span>
+            </li>
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-citations-count" href="https://citations.springer.com/item?doi&#x3D;10.1007/s12065-007-0002-4" target="_blank" rel="noopener"
+                       title="Visit Springer Citations for full citation details" id="citations-link">
+                            <span id="citations-count-number" class="test-metric-count c-button-circle gtm-citations-count">265</span>
+                       <span class="test-metric-name article-metrics__label gtm-citations-count">Citations</span>
+                    </a>
+            </li>
+    </ul>
+</div></div></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p class="Para">Artificial neural networks (ANNs) are applied to many real-world problems, ranging from pattern classification to robot control. In order to design a neural network for a particular task, the choice of an architecture (including the choice of a neuron model), and the choice of a learning algorithm have to be addressed. Evolutionary search methods can provide an automatic solution to these problems. New insights in both neuroscience and evolutionary biology have led to the development of increasingly powerful neuroevolution techniques over the last decade. This paper gives an overview of the most prominent methods for evolving ANNs with a special focus on recent advances in the synthesis of learning architectures.</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">Neural networks </span><span class="Keyword">Evolution </span><span class="Keyword">Learning </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div id="article_no_access_banner">This is a preview of subscription content, <a id="test-login-banner-link" href="/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12065-007-0002-4" data-track="click" data-track-action="Preview banner - Log in" data-track-label="">log in</a> to check access.</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><section id="Notes" class="Section1 RenderAsSection1"><h2 class="Heading">Notes</h2><div class="content"><section><h3 class="Heading">Acknowledgements</h3><p class="SimplePara">This work was supported by the Swiss National Science Foundation, grant no. 200021-112060. Thanks to Daniel Marbach for the illustrations and the two anonymous reviewers for their helpful comments.</p></section></div></section><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">Ackley DH, Littman ML (1992) Interactions between learning and evolution. In: Langton C, Farmer J, Rasmussen S, Taylor C (eds) Artificial Life II: Proceedings volume of Santa Fe conference, vol XI. Addison Wesley, Redwood City, pp 487–510<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Ackley%20DH%2C%20Littman%20ML%20%281992%29%20Interactions%20between%20learning%20and%20evolution.%20In%3A%20Langton%20C%2C%20Farmer%20J%2C%20Rasmussen%20S%2C%20Taylor%20C%20%28eds%29%20Artificial%20Life%20II%3A%20Proceedings%20volume%20of%20Santa%20Fe%20conference%2C%20vol%20XI.%20Addison%20Wesley%2C%20Redwood%20City%2C%20pp%20487%E2%80%93510"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">Bailey CH, Giustetto M, Huang Y.-Y, Hawkins RD, Kandel ER (2000) Is heterosynaptic modulation essential for stabilizing Hebbian plasticity and memory? Nat Rev Neurosci 1(1):11–20<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1038/35036191"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Is%20heterosynaptic%20modulation%20essential%20for%20stabilizing%20Hebbian%20plasticity%20and%20memory%3F&amp;author=CH.%20Bailey&amp;author=M.%20Giustetto&amp;author=Y.-Y.%20Huang&amp;author=RD.%20Hawkins&amp;author=ER.%20Kandel&amp;journal=Nat%20Rev%20Neurosci&amp;volume=1&amp;issue=1&amp;pages=11-20&amp;publication_year=2000"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">Baldwin JM (1896) A new factor in evolution. Am Nat 30:441–451<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1086/276408"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20new%20factor%20in%20evolution&amp;author=JM.%20Baldwin&amp;journal=Am%20Nat&amp;volume=30&amp;pages=441-451&amp;publication_year=1896"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">Banzhaf W, Nordin P, Keller RE, Francone FD (1998) Genetic programming—an introduction. In: On the automatic evolution of computer programs and its applications. Morgan Kaufmann, San Francisco<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Banzhaf%20W%2C%20Nordin%20P%2C%20Keller%20RE%2C%20Francone%20FD%20%281998%29%20Genetic%20programming%E2%80%94an%20introduction.%20In%3A%20On%20the%20automatic%20evolution%20of%20computer%20programs%20and%20its%20applications.%20Morgan%20Kaufmann%2C%20San%20Francisco"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">Barto AG (1995) Adaptive critic and the basal ganglia. In: Houk JC, Davis JL, Beiser DG (eds) Models of information processing in the basal ganglia. MIT Press, Cambridge, pp 215–232<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Barto%20AG%20%281995%29%20Adaptive%20critic%20and%20the%20basal%20ganglia.%20In%3A%20Houk%20JC%2C%20Davis%20JL%2C%20Beiser%20DG%20%28eds%29%20Models%20of%20information%20processing%20in%20the%20basal%20ganglia.%20MIT%20Press%2C%20Cambridge%2C%20pp%20215%E2%80%93232"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">Baxter J (1992) The evolution of learning algorithms for artificial neural networks. In: Green D, Bossomaier T (eds) Complex Systems. IOS Press<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Baxter%20J%20%281992%29%20The%20evolution%20of%20learning%20algorithms%20for%20artificial%20neural%20networks.%20In%3A%20Green%20D%2C%20Bossomaier%20T%20%28eds%29%20Complex%20Systems.%20IOS%20Press"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">Beer RD, Gallagher JC (1992) Evolving dynamical neural networks for adaptive behavior. Adapt Behav 1:91–122<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/105971239200100105"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20dynamical%20neural%20networks%20for%20adaptive%20behavior&amp;author=RD.%20Beer&amp;author=JC.%20Gallagher&amp;journal=Adapt%20Behav&amp;volume=1&amp;pages=91-122&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">Belew RK, McInerney J, Schraudolph NN (1992) Evolving networks: using the genetic algorithm with connectionistic learning. In: Langton CG, Taylor C, Farmer JD, Rasmussen S (eds) Proceedings of the 2nd Conference on Artificial Life. Addison-Wesley, Reading, pp 511–548<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Belew%20RK%2C%20McInerney%20J%2C%20Schraudolph%20NN%20%281992%29%20Evolving%20networks%3A%20using%20the%20genetic%20algorithm%20with%20connectionistic%20learning.%20In%3A%20Langton%20CG%2C%20Taylor%20C%2C%20Farmer%20JD%2C%20Rasmussen%20S%20%28eds%29%20Proceedings%20of%20the%202nd%20Conference%20on%20Artificial%20Life.%20Addison-Wesley%2C%20Reading%2C%20pp%20511%E2%80%93548"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">Blynel J, Floreano D (2003) Exploring the T-maze: evolving learning-like robot behaviors using CTRNNs. In: Raidl Ge AE (ed) 2nd European workshop on evolutionary robotics (EvoRob’2003)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Blynel%20J%2C%20Floreano%20D%20%282003%29%20Exploring%20the%20T-maze%3A%20evolving%20learning-like%20robot%20behaviors%20using%20CTRNNs.%20In%3A%20Raidl%20Ge%20AE%20%28ed%29%202nd%20European%20workshop%20on%20evolutionary%20robotics%20%28EvoRob%E2%80%992003%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">Bongard J (2002) Evolving modular genetic regulatory networks. In: Proceedings of the 2002 congress on evolutionary computation 2002, CEC ’02, vol 2, pp 1872–1877<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Bongard%20J%20%282002%29%20Evolving%20modular%20genetic%20regulatory%20networks.%20In%3A%20Proceedings%20of%20the%202002%20congress%20on%20evolutionary%20computation%202002%2C%20CEC%20%E2%80%9902%2C%20vol%202%2C%20pp%201872%E2%80%931877"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">Chalmers DJ (1990) The evolution of learning: an experiment in genetic connectionism. In: Touretzky DS, Elman JL, Sejnowski T, Hinton GE (eds) Proceedings of the 1990 connectionist models summer school. Morgan Kaufmann, San Mateo, pp 81–90<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Chalmers%20DJ%20%281990%29%20The%20evolution%20of%20learning%3A%20an%20experiment%20in%20genetic%20connectionism.%20In%3A%20Touretzky%20DS%2C%20Elman%20JL%2C%20Sejnowski%20T%2C%20Hinton%20GE%20%28eds%29%20Proceedings%20of%20the%201990%20connectionist%20models%20summer%20school.%20Morgan%20Kaufmann%2C%20San%20Mateo%2C%20pp%2081%E2%80%9390"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">Chandra A, Yao X (2006) Ensemble learning using multi-objective evolutionary algorithms. J Math Model Algorithms 5(4):417–445<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?1114.68054"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/s10852-005-9020-3"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=2244276"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Ensemble%20learning%20using%20multi-objective%20evolutionary%20algorithms&amp;author=A.%20Chandra&amp;author=X.%20Yao&amp;journal=J%20Math%20Model%20Algorithms&amp;volume=5&amp;issue=4&amp;pages=417-445&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">Chellapilla K, Fogel D (2001) Evolving an expert checkers playing program without using humanexpertise. IEEE Trans Evol Comput 5(4):422–428<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/4235.942536"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20an%20expert%20checkers%20playing%20program%20without%20using%20humanexpertise&amp;author=K.%20Chellapilla&amp;author=D.%20Fogel&amp;journal=IEEE%20Trans%20Evol%20Comput&amp;volume=5&amp;issue=4&amp;pages=422-428&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">Dasdan A, Oflazer K (1993) Genetic synthesis of unsupervised learning algorithms. In: Proceedings of the 2nd Turkish symposium on artificial intelligence and ANNs. Department of Computer Engineering and Information Science, Bilkent University, Ankara<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Dasdan%20A%2C%20Oflazer%20K%20%281993%29%20Genetic%20synthesis%20of%20unsupervised%20learning%20algorithms.%20In%3A%20Proceedings%20of%20the%202nd%20Turkish%20symposium%20on%20artificial%20intelligence%20and%20ANNs.%20Department%20of%20Computer%20Engineering%20and%20Information%20Science%2C%20Bilkent%20University%2C%20Ankara"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">DiPaolo E (2003) Evolving spike-timing-dependent plasticity for single-trial learning in robots. Phil Trans R Soc Lond A 361:2299–2319<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1098/rsta.2003.1256"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=2029784"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20spike-timing-dependent%20plasticity%20for%20single-trial%20learning%20in%20robots&amp;author=E.%20DiPaolo&amp;journal=Phil%20Trans%20R%20Soc%20Lond%20A&amp;volume=361&amp;pages=2299-2319&amp;publication_year=2003"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">Dürr P, Mattiussi C, Floreano D (2006) Neuroevolution with Analog Genetic Encoding. In: Parallel problem solving from nature—PPSN iX, vol 9. Springer, Berlin, pp 671–680<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=D%C3%BCrr%20P%2C%20Mattiussi%20C%2C%20Floreano%20D%20%282006%29%20Neuroevolution%20with%20Analog%20Genetic%20Encoding.%20In%3A%20Parallel%20problem%20solving%20from%20nature%E2%80%94PPSN%20iX%2C%20vol%209.%20Springer%2C%20Berlin%2C%20pp%20671%E2%80%93680"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">Federici D (2005) Evolving developing spiking neural networks. In: Proceedings of CEC 2005 IEEE congress on evolutionary computation<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Federici%20D%20%282005%29%20Evolving%20developing%20spiking%20neural%20networks.%20In%3A%20Proceedings%20of%20CEC%202005%20IEEE%20congress%20on%20evolutionary%20computation"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">Fellous J-M, Linster C (1998) Computational models of neuromodulation. Neural Comput 10(4):771–805<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/089976698300017476"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Computational%20models%20of%20neuromodulation&amp;author=J-M.%20Fellous&amp;author=C.%20Linster&amp;journal=Neural%20Comput&amp;volume=10&amp;issue=4&amp;pages=771-805&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">Floreano D, Mattiussi C (2001) Evolution of spiking neural controllers for autonomous vision-based robots. In: Gomi T (ed) Evolutionary robotics. From intelligent robotics to artificial life. Springer, Tokyo<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolution%20of%20spiking%20neural%20controllers%20for%20autonomous%20vision-based%20robots&amp;author=D.%20Floreano&amp;author=C.%20Mattiussi&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">Floreano D, Mondada F (1996) Evolution of plastic neurocontrollers for situated agents. In: Maes P, Matarić M, Meyer J, Pollack J, Roitblat H, Wilson S (eds) From animals to animats IV: proceedings of the 4th international conference on simulation of adaptive behavior. MIT Press-Bradford Books, Cambridge, pp 402–410<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Floreano%20D%2C%20Mondada%20F%20%281996%29%20Evolution%20of%20plastic%20neurocontrollers%20for%20situated%20agents.%20In%3A%20Maes%20P%2C%20Matari%C4%87%20M%2C%20Meyer%20J%2C%20Pollack%20J%2C%20Roitblat%20H%2C%20Wilson%20S%20%28eds%29%20From%20animals%20to%20animats%20IV%3A%20proceedings%20of%20the%204th%20international%20conference%20on%20simulation%20of%20adaptive%20behavior.%20MIT%20Press-Bradford%20Books%2C%20Cambridge%2C%20pp%20402%E2%80%93410"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">Floreano D, Urzelai J (2000) Evolutionary robots with online self-organization and behavioral fitness. Neural Netw 13:431–443<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/S0893-6080(00)00032-0"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolutionary%20robots%20with%20online%20self-organization%20and%20behavioral%20fitness&amp;author=D.%20Floreano&amp;author=J.%20Urzelai&amp;journal=Neural%20Netw&amp;volume=13&amp;pages=431-443&amp;publication_year=2000"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">Floreano D, Urzelai J (2001) Evolution of plastic control networks. Autonom Robots 11(3):311–317<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?1012.68623"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1023/A%3A1012459627968"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolution%20of%20plastic%20control%20networks&amp;author=D.%20Floreano&amp;author=J.%20Urzelai&amp;journal=Autonom%20Robots&amp;volume=11&amp;issue=3&amp;pages=311-317&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">Fontanari JF, Meir R (1991) Evolving a learning algorithm for the binary perceptron. Network 2:353–359<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1088/0954-898X/2/4/002"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20a%20learning%20algorithm%20for%20the%20binary%20perceptron&amp;author=JF.%20Fontanari&amp;author=R.%20Meir&amp;journal=Network&amp;volume=2&amp;pages=353-359&amp;publication_year=1991"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">24.</div><div class="CitationContent" id="CR24">Funahashi K, Nakamura Y (1993) Approximation of dynamical systems by continuous time recurrent neural networks. Neural Netw 6(6):801–806<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/S0893-6080(05)80125-X"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Approximation%20of%20dynamical%20systems%20by%20continuous%20time%20recurrent%20neural%20networks&amp;author=K.%20Funahashi&amp;author=Y.%20Nakamura&amp;journal=Neural%20Netw&amp;volume=6&amp;issue=6&amp;pages=801-806&amp;publication_year=1993"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">25.</div><div class="CitationContent" id="CR25">Geard NL, Wiles J (2003) Structure and dynamics of a gene network model incorporating small RNAs. In: Proceedings of 2003 congress on evolutionary computation, pp 199–206<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Geard%20NL%2C%20Wiles%20J%20%282003%29%20Structure%20and%20dynamics%20of%20a%20gene%20network%20model%20incorporating%20small%20RNAs.%20In%3A%20Proceedings%20of%202003%20congress%20on%20evolutionary%20computation%2C%20pp%20199%E2%80%93206"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">26.</div><div class="CitationContent" id="CR26">Gerstner W (1999) Spiking neurons. In: Maass W, Bishop CM (eds) Pulsed neural networks. MIT Press-Bradford Books, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Gerstner%20W%20%281999%29%20Spiking%20neurons.%20In%3A%20Maass%20W%2C%20Bishop%20CM%20%28eds%29%20Pulsed%20neural%20networks.%20MIT%20Press-Bradford%20Books%2C%20Cambridge"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">27.</div><div class="CitationContent" id="CR27">Gomez F, Miikkulainen R (1997) Incremental evolution of complex general behavior. Adapt Behav 5(3–4):317–342<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/105971239700500305"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Incremental%20evolution%20of%20complex%20general%20behavior&amp;author=F.%20Gomez&amp;author=R.%20Miikkulainen&amp;journal=Adapt%20Behav&amp;volume=5&amp;issue=3%E2%80%934&amp;pages=317-342&amp;publication_year=1997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">28.</div><div class="CitationContent" id="CR28">Gruau F (1995) Automatic definition of modular neural networks. Adapt Behav 3(2):151–183<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/105971239400300202"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Automatic%20definition%20of%20modular%20neural%20networks&amp;author=F.%20Gruau&amp;journal=Adapt%20Behav&amp;volume=3&amp;issue=2&amp;pages=151-183&amp;publication_year=1995"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">29.</div><div class="CitationContent" id="CR29">Gruau, F, Whitley, D, and Pyeatt, L (1996) A comparison between cellular encoding and direct encoding for genetic neural networks. In: Koza JR, Goldberg DE, Fogel DB, Riolo RL (eds) Genetic programming 1996: proceedings of the first annual conference. MIT Press, Stanford University, pp 81–89<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Gruau%2C%20F%2C%20Whitley%2C%20D%2C%20and%20Pyeatt%2C%20L%20%281996%29%20A%20comparison%20between%20cellular%20encoding%20and%20direct%20encoding%20for%20genetic%20neural%20networks.%20In%3A%20Koza%20JR%2C%20Goldberg%20DE%2C%20Fogel%20DB%2C%20Riolo%20RL%20%28eds%29%20Genetic%20programming%201996%3A%20proceedings%20of%20the%20first%20annual%20conference.%20MIT%20Press%2C%20Stanford%20University%2C%20pp%2081%E2%80%9389"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">30.</div><div class="CitationContent" id="CR30">Hansen N, Ostermeier A (2001) Completely derandomized self-adaptation in evolution strategies. Evol Comput 9(2):159–195<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/106365601750190398"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Completely%20derandomized%20self-adaptation%20in%20evolution%20strategies&amp;author=N.%20Hansen&amp;author=A.%20Ostermeier&amp;journal=Evol%20Comput&amp;volume=9&amp;issue=2&amp;pages=159-195&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">31.</div><div class="CitationContent" id="CR31">Haykin, S (1999) Neural networks. a comprehensive foundation, 2nd edn. Prentice Hall, Upper Saddle River<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0934.68076"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Neural%20networks.%20a%20comprehensive%20foundation&amp;author=S.%20Haykin&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">32.</div><div class="CitationContent" id="CR32">Hebb DO (1949) The organisation of behavior. Wiley, New York<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20organisation%20of%20behavior&amp;author=DO.%20Hebb&amp;publication_year=1949"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">33.</div><div class="CitationContent" id="CR33">Hinton GE, Nowlan SJ (1987) How learning can guide evolution. Complex Syst 1:495–502<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0651.92015"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=How%20learning%20can%20guide%20evolution&amp;author=GE.%20Hinton&amp;author=SJ.%20Nowlan&amp;journal=Complex%20Syst&amp;volume=1&amp;pages=495-502&amp;publication_year=1987"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">34.</div><div class="CitationContent" id="CR34">Hodgkin AL, Huxley AF (1952) A quantitative description of membrane current and its application to conduction and excitation in nerve. J Physiol (Lond) 108:500–544<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20quantitative%20description%20of%20membrane%20current%20and%20its%20application%20to%20conduction%20and%20excitation%20in%20nerve&amp;author=AL.%20Hodgkin&amp;author=AF.%20Huxley&amp;journal=J%20Physiol%20%28Lond%29&amp;volume=108&amp;pages=500-544&amp;publication_year=1952"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">35.</div><div class="CitationContent" id="CR35">Hurst J, Bull L (2006) A neural learning classifier system with self-adaptive constructivism for mobile robot control. Artif Life 12 (3):353–380<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/artl.2006.12.3.353"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20neural%20learning%20classifier%20system%20with%20self-adaptive%20constructivism%20for%20mobile%20robot%20control&amp;author=J.%20Hurst&amp;author=L.%20Bull&amp;journal=Artif%20Life&amp;volume=12&amp;issue=%283&amp;pages=353-380&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">36.</div><div class="CitationContent" id="CR36">Husbands P, Harvey I, Cliff D, Miller G (1994) The use of genetic algorithms for the development of sensorimotor control systems. In: Gaussier P, Nicoud J-D (eds) From perceptin to action. IEEE Press, Los Alamitos<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20use%20of%20genetic%20algorithms%20for%20the%20development%20of%20sensorimotor%20control%20systems&amp;author=P.%20Husbands&amp;author=I.%20Harvey&amp;author=D.%20Cliff&amp;author=G.%20Miller&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">37.</div><div class="CitationContent" id="CR37">Husbands P, Smith T, Jakobi N, O’Shea M (1998) Better living through chemistry: evolving gasnets for robot control. Connect Sci 10:185–210<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1080/095400998116404"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Better%20living%20through%20chemistry%3A%20evolving%20gasnets%20for%20robot%20control&amp;author=P.%20Husbands&amp;author=T.%20Smith&amp;author=N.%20Jakobi&amp;author=M.%20O%E2%80%99Shea&amp;journal=Connect%20Sci&amp;volume=10&amp;pages=185-210&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">38.</div><div class="CitationContent" id="CR38">Igel, C (2003) Neuroevolution for reinforcement learning using evolution strategies. In: Sarker R, et al (eds) Congress on evolutionary computation, vol 4. IEEE Press, New York, pp 2588–2595<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Neuroevolution%20for%20reinforcement%20learning%20using%20evolution%20strategies&amp;author=C.%20Igel&amp;pages=2588-2595&amp;publication_year=2003"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">39.</div><div class="CitationContent" id="CR39">Katz PS (1999) What are we talking about? Modes of neuronal communication. In: Katz P (eds) Beyond neurotransmission: neuromodulation and its importance for information processing, chap 1. Oxford University Press, Oxford, pp 1–28<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=What%20are%20we%20talking%20about%3F%20Modes%20of%20neuronal%20communication&amp;author=PS.%20Katz&amp;pages=1-28&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">40.</div><div class="CitationContent" id="CR40">Kitano H (1990) Designing neural networks by genetic algorithms using graph generation system. Complex Syst J 4:461–476<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0709.92539"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Designing%20neural%20networks%20by%20genetic%20algorithms%20using%20graph%20generation%20system&amp;author=H.%20Kitano&amp;journal=Complex%20Syst%20J&amp;volume=4&amp;pages=461-476&amp;publication_year=1990"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">41.</div><div class="CitationContent" id="CR41">Korkin M, Nawa NE, de Garis H (1998) A ’spike interval information coding’ representation for ATR’s CAM-brain machine (CBM) In: Proceedings of the 2nd international conference on evolvable systems: from biology to hardware (ICES’98). Springer, Heidelberg<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Korkin%20M%2C%20Nawa%20NE%2C%20de%20Garis%20H%20%281998%29%20A%20%E2%80%99spike%20interval%20information%20coding%E2%80%99%20representation%20for%20ATR%E2%80%99s%20CAM-brain%20machine%20%28CBM%29%20In%3A%20Proceedings%20of%20the%202nd%20international%20conference%20on%20evolvable%20systems%3A%20from%20biology%20to%20hardware%20%28ICES%E2%80%9998%29.%20Springer%2C%20Heidelberg"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">42.</div><div class="CitationContent" id="CR42">Koza JR (1994) Genetic programming II: automatic discovery of reusable programs. MIT Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0850.68160"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Genetic%20programming%20II%3A%20automatic%20discovery%20of%20reusable%20programs&amp;author=JR.%20Koza&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">43.</div><div class="CitationContent" id="CR43">Magg S, Philippides A (2006) Gasnets and CTRNNs : a comparison in terms of evolvability. In: From animals to animats 9: proceedings of the 9th international conference on simulation of adaptive behavior. Springer, Heidelberg, pp 461–472<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Magg%20S%2C%20Philippides%20A%20%282006%29%20Gasnets%20and%20CTRNNs%20%3A%20a%20comparison%20in%20terms%20of%20evolvability.%20In%3A%20From%20animals%20to%20animats%209%3A%20proceedings%20of%20the%209th%20international%20conference%20on%20simulation%20of%20adaptive%20behavior.%20Springer%2C%20Heidelberg%2C%20pp%20461%E2%80%93472"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">44.</div><div class="CitationContent" id="CR44">Mattiussi C, Floreano D (2004) Evolution of analog networks using local string alignment on highly reorganizable genomes. In: Zebulum RS et al (eds) NASA/DoD conference on evolvable hardware (EH’2004), pp 30–37<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Mattiussi%20C%2C%20Floreano%20D%20%282004%29%20Evolution%20of%20analog%20networks%20using%20local%20string%20alignment%20on%20highly%20reorganizable%20genomes.%20In%3A%20Zebulum%20RS%20et%C2%A0al%20%28eds%29%20NASA%2FDoD%20conference%20on%20evolvable%20hardware%20%28EH%E2%80%992004%29%2C%20pp%2030%E2%80%9337"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">45.</div><div class="CitationContent" id="CR45">Mattiussi C, Dürr P, Floreano D (2007a) Center of mass encoding: a self-adaptive representation with adjustable redundancy for real-valued parameters. In: GECCO 2007. ACM Press, New York, pp 1304–1311<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1145/1276958.1277205"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Center%20of%20mass%20encoding%3A%20a%20self-adaptive%20representation%20with%20adjustable%20redundancy%20for%20real-valued%20parameters&amp;author=C.%20Mattiussi&amp;author=P.%20D%C3%BCrr&amp;author=D.%20Floreano&amp;pages=1304-1311&amp;publication_year=2007"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">46.</div><div class="CitationContent" id="CR46">Mattiussi C, Marbach D, Dürr P, Floreano D (2007b) The age of analog networks. AI Magazine (in press)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Mattiussi%20C%2C%20Marbach%20D%2C%20D%C3%BCrr%20P%2C%20Floreano%20D%20%282007b%29%20The%20age%20of%20analog%20networks.%20AI%20Magazine%20%28in%20press%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">47.</div><div class="CitationContent" id="CR47">Mayley G (1996) Landscapes, learning costs and genetic assimilation. Evol Comput 4(3):213–234<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Landscapes%2C%20learning%20costs%20and%20genetic%20assimilation&amp;author=G.%20Mayley&amp;journal=Evol%20Comput&amp;volume=4&amp;issue=3&amp;pages=213-234&amp;publication_year=1996"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">48.</div><div class="CitationContent" id="CR48">McHale G, Husbands P (2004) Gasnets and other evolvable neural networks applied to bipedal locomotion. In: Schaal S (ed) Proceedings from animals to animats 8: proceedings of the 8th international conference on simulation of adaptive behaviour (SAB’2004). MIT Press, Cambridge, pp 163–172<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Gasnets%20and%20other%20evolvable%20neural%20networks%20applied%20to%20bipedal%20locomotion&amp;author=G.%20McHale&amp;author=P.%20Husbands&amp;pages=163-172&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">49.</div><div class="CitationContent" id="CR49">Mizutani E, Dreyfus SE (1998) Totally model-free reinforcement learning by actor-critic elman networks in non-markovian domains. In: Proceedings of the IEEE world congress on computational intelligence. IEEE Press, New York<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Mizutani%20E%2C%20Dreyfus%20SE%20%281998%29%20Totally%20model-free%20reinforcement%20learning%20by%20actor-critic%20elman%20networks%20in%20non-markovian%20domains.%20In%3A%20Proceedings%20of%20the%20IEEE%20world%20congress%20on%20computational%20intelligence.%20IEEE%20Press%2C%20New%20York"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">50.</div><div class="CitationContent" id="CR50">Montague P, Dayan P, Sejnowski T (1996) A framework for mesencephalic dopamine systems based on predictive Hebbian learning. J Neurosci 16(5):1936–1947<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20framework%20for%20mesencephalic%20dopamine%20systems%20based%20on%20predictive%20Hebbian%20learning&amp;author=P.%20Montague&amp;author=P.%20Dayan&amp;author=T.%20Sejnowski&amp;journal=J%20Neurosci&amp;volume=16&amp;issue=5&amp;pages=1936-1947&amp;publication_year=1996"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">51.</div><div class="CitationContent" id="CR51">Montana D, Davis L (1989) Training feed forward neural networks using genetic algorithms. In: Proceedings of the 11th international joint conference on artificial intelligence. Morgan Kaufmann, San Mateo, pp 529–538<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Montana%20D%2C%20Davis%20L%20%281989%29%20Training%20feed%20forward%20neural%20networks%20using%20genetic%20algorithms.%20In%3A%20Proceedings%20of%20the%2011th%20international%20joint%20conference%20on%20artificial%20intelligence.%20Morgan%20Kaufmann%2C%20San%20Mateo%2C%20pp%20529%E2%80%93538"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">52.</div><div class="CitationContent" id="CR52">Moriarty DE, Miikkulainen R (1996) Efficient reinforcement learning through symbiotic evolution. Machine Learn 22:11–32<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Efficient%20reinforcement%20learning%20through%20symbiotic%20evolution&amp;author=DE.%20Moriarty&amp;author=R.%20Miikkulainen&amp;journal=Machine%20Learn&amp;volume=22&amp;pages=11-32&amp;publication_year=1996"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">53.</div><div class="CitationContent" id="CR53">Moscato P (1989) On evolution, search, optimization, genetic algorithms and martial arts: towards memetic algorithms. In: Technical report C3P 826, Pasadena<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Moscato%20P%20%281989%29%20On%20evolution%2C%20search%2C%20optimization%2C%20genetic%20algorithms%20and%20martial%20arts%3A%20towards%20memetic%20algorithms.%20In%3A%20Technical%20report%20C3P%20826%2C%20Pasadena"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">54.</div><div class="CitationContent" id="CR54">Niv Y, Joel D, Meilijson I, Ruppin E (2002) Evolution of reinforcement learning in uncertain environments: A simple explanation for complex foraging behaviors. Adapt Behav 10(1):5–24<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/10597123020101001"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolution%20of%20reinforcement%20learning%20in%20uncertain%20environments%3A%20a%20simple%20explanation%20for%20complex%20foraging%20behaviors&amp;author=Y.%20Niv&amp;author=D.%20Joel&amp;author=I.%20Meilijson&amp;author=E.%20Ruppin&amp;journal=Adapt%20Behav&amp;volume=10&amp;issue=1&amp;pages=5-24&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">55.</div><div class="CitationContent" id="CR55">Nolfi S, Floreano D (1999) Learning and evolution. Auton Robots 7(1):89–113<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1023/A%3A1008973931182"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20and%20evolution&amp;author=S.%20Nolfi&amp;author=D.%20Floreano&amp;journal=Autonom%20Robots&amp;volume=7&amp;issue=1&amp;pages=89-113&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">56.</div><div class="CitationContent" id="CR56">Nolfi S, Parisi D (1996) Learning to adapt to changing environments in evolving neural networks. Adapt Behav 5(1):75–98<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/105971239600500104"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20to%20adapt%20to%20changing%20environments%20in%20evolving%20neural%20networks&amp;author=S.%20Nolfi&amp;author=D.%20Parisi&amp;journal=Adapt%20Behav&amp;volume=5&amp;issue=1&amp;pages=75-98&amp;publication_year=1996"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">57.</div><div class="CitationContent" id="CR57">Nolfi S, Miglino O, Parisi D (1994) Phenotypic plasticity in evolving neural networks. In: Gaussier P, Nicoud J-D (eds) From perception to action. IEEE Press, Los Alamitos<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Phenotypic%20plasticity%20in%20evolving%20neural%20networks&amp;author=S.%20Nolfi&amp;author=O.%20Miglino&amp;author=D.%20Parisi&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">58.</div><div class="CitationContent" id="CR58">Pfeifer R, Scheier C (1999) Understanding Intelligence. MIT Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Understanding%20intelligence&amp;author=R.%20Pfeifer&amp;author=C.%20Scheier&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">59.</div><div class="CitationContent" id="CR59">Purves D (1994) Neural activity in the growth of the brain. Cambridge University Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Neural%20activity%20in%20the%20growth%20of%20the%20brain&amp;author=D.%20Purves&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">60.</div><div class="CitationContent" id="CR60">Quartz S, Sejnowski TJ (1997) The neural basis of cognitive development: a constructivist manifesto. Behav Brain Sci 4:537–555<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1017/S0140525X97001581"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20neural%20basis%20of%20cognitive%20development%3A%20a%20constructivist%20manifesto&amp;author=S.%20Quartz&amp;author=TJ.%20Sejnowski&amp;journal=Behav%20Brain%20Sci&amp;volume=4&amp;pages=537-555&amp;publication_year=1997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">61.</div><div class="CitationContent" id="CR61">Radcliffe NJ (1991) Form an analysis and random respectful recombination. In: Belew RK, Booker LB (eds) Proceedings of the 4th international conference on genetic algorithms. Morgan Kaufmann, San Mateo<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Radcliffe%20NJ%20%281991%29%20Form%20an%20analysis%20and%20random%20respectful%20recombination.%20In%3A%20Belew%20RK%2C%20Booker%20LB%20%28eds%29%20Proceedings%20of%20the%204th%20international%20conference%20on%20genetic%20algorithms.%20Morgan%20Kaufmann%2C%20San%20Mateo"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">62.</div><div class="CitationContent" id="CR62">Rechenberg I (1973) Evolutionsstrategie—Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Fommann-Holzboog, Stuttgart<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolutionsstrategie%E2%80%94Optimierung%20technischer%20Systeme%20nach%20Prinzipien%20der%20biologischen%20Evolution&amp;author=I.%20Rechenberg&amp;publication_year=1973"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">63.</div><div class="CitationContent" id="CR63">Reil T (1999) Dynamics of gene expression in an artificial genome—implications for biological and artificial ontogeny. In: Proceedings of the 5th European conference on artificial life, pp 457–466<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Reil%20T%20%281999%29%20Dynamics%20of%20gene%20expression%20in%20an%20artificial%20genome%E2%80%94implications%20for%20biological%20and%20artificial%20ontogeny.%20In%3A%20Proceedings%20of%20the%205th%20European%20conference%20on%20artificial%20life%2C%20pp%20457%E2%80%93466"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">64.</div><div class="CitationContent" id="CR64">Reil T (2003) On growth, form and computers. In: Artificial genomes as models of gene regulation. Academic Press, London, pp 256–277<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Reil%20T%20%282003%29%20On%20growth%2C%20form%20and%20computers.%20In%3A%20Artificial%20genomes%20as%20models%20of%20gene%20regulation.%20Academic%20Press%2C%20London%2C%20pp%20256%E2%80%93277"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">65.</div><div class="CitationContent" id="CR65">Reisinger J, Miikkulainen R (2007) Acquiring evolvability through adaptive representations. In: Proceedings of genetic and evolutionary computation conference (GECCO 2007)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Reisinger%20J%2C%20Miikkulainen%20R%20%282007%29%20Acquiring%20evolvability%20through%20adaptive%20representations.%20In%3A%20Proceedings%20of%20genetic%20and%20evolutionary%20computation%20conference%20%28GECCO%202007%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">66.</div><div class="CitationContent" id="CR66">Reisinger J, Bahçeci E, Karpov I, Miikkulainen R (2007) Coevolving strategies for general game playing. In: Proceedings of the IEEE symposium on computational intelligence and games (CIG-2007)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Reisinger%20J%2C%20Bah%C3%A7eci%20E%2C%20Karpov%20I%2C%20Miikkulainen%20R%20%282007%29%20Coevolving%20strategies%20for%20general%20game%20playing.%20In%3A%20Proceedings%20of%20the%20IEEE%20symposium%20on%20computational%20intelligence%20and%20games%20%28CIG-2007%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">67.</div><div class="CitationContent" id="CR67">Rieke F, Warland D, van Steveninck R, Bialek W (1997) Spikes. Exploring the neural code. MIT Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Spikes.%20Exploring%20the%20neural%20code&amp;author=F.%20Rieke&amp;author=D.%20Warland&amp;author=R.%20Steveninck&amp;author=W.%20Bialek&amp;publication_year=1997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">68.</div><div class="CitationContent" id="CR68">Rumelhart DE, Hinton GE, Williams RJ (1986a) Learning representations by back-propagation of errors. Nature 323:533–536<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1038/323533a0"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20representations%20by%20back-propagation%20of%20errors&amp;author=DE.%20Rumelhart&amp;author=GE.%20Hinton&amp;author=RJ.%20Williams&amp;journal=Nature&amp;volume=323&amp;pages=533-536&amp;publication_year=1986"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">69.</div><div class="CitationContent" id="CR69">Rumelhart DE, McClelland J, the PDP Research Group (1986b) Parallel distributed processing: explorations in the microstructure of cognition. Foundations, vol 1. MIT Press-Bradford Books, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Rumelhart%20DE%2C%20McClelland%20J%2C%20the%20PDP%20Research%20Group%20%281986b%29%20Parallel%20distributed%20processing%3A%20explorations%20in%20the%20microstructure%20of%20cognition.%20Foundations%2C%20vol%201.%20MIT%20Press-Bradford%20Books%2C%20Cambridge"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">70.</div><div class="CitationContent" id="CR70">Saggie K, Keinan A, Ruppin E (2004) Spikes that count: rethinking spikiness in neurally embedded systems. Neurocomputing 58-60:303–311<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.neucom.2004.01.060"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Spikes%20that%20count%3A%20rethinking%20spikiness%20in%20neurally%20embedded%20systems&amp;author=K.%20Saggie&amp;author=A.%20Keinan&amp;author=E.%20Ruppin&amp;journal=Neurocomputing&amp;volume=58%E2%80%9360&amp;pages=303-311&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">71.</div><div class="CitationContent" id="CR71">Sasaki T, Tokoro M (1997) Adaptation toward changing environments: Why Darwinian in nature?. In: Husbands P, Harvey I (eds) Proceedings of the 4th European conference on artificial life. MIT Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sasaki%20T%2C%20Tokoro%20M%20%281997%29%20Adaptation%20toward%20changing%20environments%3A%20Why%20Darwinian%20in%20nature%3F.%20In%3A%20Husbands%20P%2C%20Harvey%20I%20%28eds%29%20Proceedings%20of%20the%204th%20European%20conference%20on%20artificial%20life.%20MIT%20Press%2C%20Cambridge"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">72.</div><div class="CitationContent" id="CR72">Schaffer JD, Whitley D, Eshelman LJ (1992) Combinations of genetic algorithms and neural networks: a survey of the state of the art. In: Whitley D, Schaffer JD (eds) Proceedings of an international workshop on the combinations of genetic algorithms and neural networks (COGANN-92). IEEE Press, New York<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Schaffer%20JD%2C%20Whitley%20D%2C%20Eshelman%20LJ%20%281992%29%20Combinations%20of%20genetic%20algorithms%20and%20neural%20networks%3A%20a%20survey%20of%20the%20state%20of%20the%20art.%20In%3A%20Whitley%20D%2C%20Schaffer%20JD%20%28eds%29%20Proceedings%20of%20an%20international%20workshop%20on%20the%20combinations%20of%20genetic%20algorithms%20and%20neural%20networks%20%28COGANN-92%29.%20IEEE%20Press%2C%20New%20York"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">73.</div><div class="CitationContent" id="CR73">Schraudolph NN, Belew RK (1992) Dynamic parameter encoding for genetic algorithms. Machine Learn 9:9–21<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Dynamic%20parameter%20encoding%20for%20genetic%20algorithms&amp;author=NN.%20Schraudolph&amp;author=RK.%20Belew&amp;journal=Machine%20Learn&amp;volume=9&amp;pages=9-21&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">74.</div><div class="CitationContent" id="CR74">Schultz W, Dayan P, Montague PR (1997) A neural substrate of prediction and reward. Science 275(5306):1593–1599<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1126/science.275.5306.1593"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20neural%20substrate%20of%20prediction%20and%20reward&amp;author=W.%20Schultz&amp;author=P.%20Dayan&amp;author=PR.%20Montague&amp;journal=Science&amp;volume=275&amp;issue=5306&amp;pages=1593-1599&amp;publication_year=1997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">75.</div><div class="CitationContent" id="CR75">Shapiro J (2005) A 21st century view of evolution: genome system architecture, repetitive DNA, and natural genetic engineering. Gene 345(1):91–100<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.gene.2004.11.020"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%2021st%20century%20view%20of%20evolution%3A%20genome%20system%20architecture%2C%20repetitive%20DNA%2C%20and%20natural%20genetic%20engineering&amp;author=J.%20Shapiro&amp;journal=Gene&amp;volume=345&amp;issue=1&amp;pages=91-100&amp;publication_year=2005"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">76.</div><div class="CitationContent" id="CR76">Siddiqi A, Lucas S (1998) A comparison of matrix rewriting versus direct encoding for evolving neural networks. In: Proceedings of the 1998 IEEE international conference on evolutionary computation. Piscataway, NJ, pp 392–397<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Siddiqi%20A%2C%20Lucas%20S%20%281998%29%20A%20comparison%20of%20matrix%20rewriting%20versus%20direct%20encoding%20for%20evolving%20neural%20networks.%20In%3A%20Proceedings%20of%20the%201998%20IEEE%20international%20conference%20on%20evolutionary%20computation.%20Piscataway%2C%20NJ%2C%20pp%20392%E2%80%93397"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">77.</div><div class="CitationContent" id="CR77">Singer W, Gray CM (1995) Visual feature integration and the temporal correlation hypothesis. Annu Rev Neurosci 18:555–586<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1146/annurev.ne.18.030195.003011"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Visual%20feature%20integration%20and%20the%20temporal%20correlation%20hypothesis&amp;author=W.%20Singer&amp;author=CM.%20Gray&amp;journal=Annu%20Rev%20Neurosci&amp;volume=18&amp;pages=555-586&amp;publication_year=1995"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">78.</div><div class="CitationContent" id="CR78">Soltoggio A, Duerr P, Mattiussi C, Floreano D (2007) Evolving neuromodulatory topologies for reinforcement learning-like problems. In: Angeline P, Michaelewicz M, Schonauer G, Yao X, Zalzala Z (eds) Proceedings of the 2007 congress on evolutionary computation. IEEE Press, New York<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Soltoggio%20A%2C%20Duerr%20P%2C%20Mattiussi%20C%2C%20Floreano%20D%20%282007%29%20Evolving%20neuromodulatory%20topologies%20for%20reinforcement%20learning-like%20problems.%20In%3A%20Angeline%20P%2C%20Michaelewicz%20M%2C%20Schonauer%20G%2C%20Yao%20X%2C%20Zalzala%20Z%20%28eds%29%20Proceedings%20of%20the%202007%20congress%20on%20evolutionary%20computation.%20IEEE%20Press%2C%20New%20York"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">79.</div><div class="CitationContent" id="CR79">Stanley K, Miikkulainen R (2002) Evolving neural networks through augmenting topologies. Evol Comput 10(2):99–127<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/106365602320169811"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20neural%20networks%20through%20augmenting%20topologies&amp;author=K.%20Stanley&amp;author=R.%20Miikkulainen&amp;journal=Evol%20Comput&amp;volume=10&amp;issue=2&amp;pages=99-127&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">80.</div><div class="CitationContent" id="CR80">Stanley KO, Miikkulainen R (2004) Competitive coevolution through evolutionary complexification. J Artif Intell Res 21:63–100<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Competitive%20coevolution%20through%20evolutionary%20complexification&amp;author=KO.%20Stanley&amp;author=R.%20Miikkulainen&amp;journal=J%20Artif%20Intell%20Res&amp;volume=21&amp;pages=63-100&amp;publication_year=2004"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">81.</div><div class="CitationContent" id="CR81">Stanley K, Kohl N, Sherony R, Miikkulainen R (2005a) Neuroevolution of an automobile crash warning system. In: Proceedings of genetic and evolutionary computation conference (GECCO 2005)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Stanley%20K%2C%20Kohl%20N%2C%20Sherony%20R%2C%20Miikkulainen%20R%20%282005a%29%20Neuroevolution%20of%20an%20automobile%20crash%20warning%20system.%20In%3A%20Proceedings%20of%20genetic%20and%20evolutionary%20computation%20conference%20%28GECCO%202005%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">82.</div><div class="CitationContent" id="CR82">Stanley KO, Cornelius R, Miikkulainen R, D’Silva T, Gold A (2005b) Real-time learning in the nero video game. In: Proceedings of the artificial intelligence and interactive digital entertainment conference (AIIDE 2005) demo papers<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Stanley%20KO%2C%20Cornelius%20R%2C%20Miikkulainen%20R%2C%20D%E2%80%99Silva%20T%2C%20Gold%20A%20%282005b%29%20Real-time%20learning%20in%20the%20nero%20video%20game.%20In%3A%20Proceedings%20of%20the%20artificial%20intelligence%20and%20interactive%20digital%20entertainment%20conference%20%28AIIDE%202005%29%20demo%20papers"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">83.</div><div class="CitationContent" id="CR83">Sutton RS (1988) Learning to predict by the method of temporal difference. Machine Learn 3:9–44<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20to%20predict%20by%20the%20method%20of%20temporal%20difference&amp;author=RS.%20Sutton&amp;journal=Machine%20Learn&amp;volume=3&amp;pages=9-44&amp;publication_year=1988"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">84.</div><div class="CitationContent" id="CR84">Sutton RS, Barto AG (1998) Reinforcement learning. an introduction. MIT Press, Cambridge<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Reinforcement%20learning.%20an%20introduction&amp;author=RS.%20Sutton&amp;author=AG.%20Barto&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">85.</div><div class="CitationContent" id="CR85">Trianni V, Ampatzis C, Christensen A, Tuci E, Dorigo M, Nolfi S (2007) From solitary to collective behaviours: decision making and cooperation. In: Advances in artificial life, proceedings of ECAL 2007. Lecture Notes in Artificial Intelligence, vol LNAI 4648. Springer, Berlin, pp 575–584<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Trianni%20V%2C%20Ampatzis%20C%2C%20Christensen%20A%2C%20Tuci%20E%2C%20Dorigo%20M%2C%20Nolfi%20S%20%282007%29%20From%20solitary%20to%20collective%20behaviours%3A%20decision%20making%20and%20cooperation.%20In%3A%20Advances%20in%20artificial%20life%2C%20proceedings%20of%20ECAL%202007.%20Lecture%20Notes%20in%20Artificial%20Intelligence%2C%20vol%20LNAI%204648.%20Springer%2C%20Berlin%2C%20pp%20575%E2%80%93584"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">86.</div><div class="CitationContent" id="CR86">Tuci E, Quinn M, Harvey I (2002) An evolutionary ecological approach to the study of learning behavior using a robot-based model. Adapt Behav 10(3–4):201–221<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/1059712302010003004"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=An%20evolutionary%20ecological%20approach%20to%20the%20study%20of%20learning%20behavior%20using%20a%20robot-based%20model&amp;author=E.%20Tuci&amp;author=M.%20Quinn&amp;author=I.%20Harvey&amp;journal=Adapt%20Behav&amp;volume=10&amp;issue=3-4&amp;pages=201-221&amp;publication_year=2002"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">87.</div><div class="CitationContent" id="CR87">Urzelai J, Floreano D (2001) Evolution of adaptive synapses: robots with fast adaptive behavior in new environments. Evol Comput 9:495–524<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1162/10636560152642887"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolution%20of%20adaptive%20synapses%3A%20robots%20with%20fast%20adaptive%20behavior%20in%20new%20environments&amp;author=J.%20Urzelai&amp;author=D.%20Floreano&amp;journal=Evol%20Comput&amp;volume=9&amp;pages=495-524&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">88.</div><div class="CitationContent" id="CR88">Whitley D, Starkweather T, Bogart C (1990) Genetic algorithms and neural networks: optimizing connections and connectivity. Parallel Comput 14:347–361<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/0167-8191(90)90086-O"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Genetic%20algorithms%20and%20neural%20networks%3A%20optimizing%20connections%20and%20connectivity&amp;author=D.%20Whitley&amp;author=T.%20Starkweather&amp;author=C.%20Bogart&amp;journal=Parallel%20Comput&amp;volume=14&amp;pages=347-361&amp;publication_year=1990"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">89.</div><div class="CitationContent" id="CR89">Widrow B, Hoff ME (1960) Adaptive switching circuits. In: Proceedings of the 1960 IRE WESCON convention, vol IV, New York. IRE. Reprinted in Anderson and Rosenfeld, 1988, pp 96–104<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Widrow%20B%2C%20Hoff%20ME%20%281960%29%20Adaptive%20switching%20circuits.%20In%3A%20Proceedings%20of%20the%201960%20IRE%20WESCON%20convention%2C%20vol%20IV%2C%20New%20York.%20IRE.%20Reprinted%20in%20Anderson%20and%20Rosenfeld%2C%201988%2C%20pp%2096%E2%80%93104"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">90.</div><div class="CitationContent" id="CR90">Yamauchi BM, Beer RD (1994) Sequential behavior and learning in evolved dynamical neural networks. Adapt Behav 2(3):219–246<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1177/105971239400200301"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Sequential%20behavior%20and%20learning%20in%20evolved%20dynamical%20neural%20networks&amp;author=BM.%20Yamauchi&amp;author=RD.%20Beer&amp;journal=Adapt%20Behav&amp;volume=2&amp;issue=3&amp;pages=219-246&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">91.</div><div class="CitationContent" id="CR91">Yao X (1999) Evolving artificial neural networks. Proc IEEE 87(9):1423–1447<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/5.784219"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Evolving%20artificial%20neural%20networks&amp;author=X.%20Yao&amp;journal=Proc%20IEEE&amp;volume=87&amp;issue=9&amp;pages=1423-1447&amp;publication_year=1999"><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ArticleCopyright">© Springer-Verlag 2008</div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Dario Floreano</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Peter Dürr</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul><span class="author-information"><span class="author-information__contact u-icon-before"><a href="mailto:peter.duerr@epfl.ch" title="peter.duerr@epfl.ch" itemprop="email" data-track="click" data-track-action="Email author" data-track-label="">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Claudio Mattiussi</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Ecole Polytechnique Fédérale de Lausanne Laboratory of Intelligent Systems</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Lausanne</span><span itemprop="addressCountry" class="affiliation__country">Switzerland</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this article</h2>
+    <div class="section__content bibliographic-information">
+        
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas" tabindex="-1">
+    <dt class="test-cite-heading">
+        Cite this article as:
+    </dt>
+    <dd id="citethis-text">Floreano, D., Dürr, P. & Mattiussi, C. Evol. Intel. (2008) 1: 47. https://doi.org/10.1007/s12065-007-0002-4</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">Received</span>
+            <span class="bibliographic-information__value u-overflow-wrap">05 October 2007</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">Accepted</span>
+            <span class="bibliographic-information__value u-overflow-wrap">17 October 2007</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">First Online</span>
+            <span class="bibliographic-information__value u-overflow-wrap">10 January 2008</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">DOI</span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/s12065-007-0002-4</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Springer-Verlag</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISSN</span>
+                <span class="bibliographic-information__value" id="print-issn">1864-5909</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Online ISSN</span>
+                <span class="bibliographic-information__value" id="electronic-issn">1864-5917</span>
+            </li>
+
+        
+    </ul>
+
+            <ul class="bibliographic-information__list">
+        <li class="bibliographic-information__item">
+            <a id="about-journal" class="bibliographic-information__misc-links"
+               title="Visit Springer.com for information about this article&#39;s journal"
+               href="//www.springer.com/journal/12065/about">About this journal</a>
+        </li>
+        <li class="bibliographic-information__item">
+            <a id="reprintsandpermissions-link" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;copyright&#x3D;Springer-Verlag&amp;author&#x3D;Dario+Floreano%2C+Peter+D%C3%BCrr%2C+Claudio+Mattiussi&amp;issueNum&#x3D;1&amp;contentID&#x3D;10.1007%2Fs12065-007-0002-4&amp;endPage&#x3D;62&amp;publicationDate&#x3D;2008&amp;startPage&#x3D;47&amp;volumeNum&#x3D;1&amp;title&#x3D;Neuroevolution%3A+from+architectures+to+learning&amp;imprint&#x3D;Springer-Verlag&amp;publication&#x3D;1864-5909" title="Visit RightsLink for information about reusing this article" data-track="click" data-track-action="Reprints and Permissions" data-track-label="">Reprints and Permissions</a>
+        </li>
+</ul>
+
+
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="/springerlink-static/632953562/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                                <div id="doubleclick-native-ad" data-component="SpringerLink.GoogleAds" data-namespace="native"></div>
+
+                        
+
+    <div class="sticky-banner sticky-banner--buybox u-interface u-hide" data-component="SpringerLink.StickyBanner" data-namespace="hasLink">
+        <div class="sticky-banner__container">
+                <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                
+
+
+
+                <div class="sticky-banner__buybox-link sticky-banner__buybox-link--sticky">
+        <a href="#buy" class="gtm-buybox-anchor">
+            Buy options
+        </a>
+    </div>
+
+        </div>
+    </div>
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only" aria-hidden="true">Actions</h2>
+
+                                        <div id="buy">
+                                            
+<style type="text/css">
+    .buybox {
+        margin: 16px 0 0;
+        position: relative;
+    }
+    .buybox {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+    .buybox {
+        zoom: 1;
+    }
+    .buybox:after,
+    .buybox:before {
+        content: '';
+        display: table;
+    }
+    .buybox:after {
+        clear: both;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__header {
+        border: 1px solid #b3b3b3;
+        border-bottom: 0;
+        padding: 8px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+    .buybox__header .buybox__login {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+        letter-spacing: .017em;
+        display: inline-block;
+        line-height: 1.2;
+        padding: 0;
+    }
+    .buybox__header .buybox__login:before {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: perspective(1px) translateY(-50%);
+        transform: perspective(1px) translateY(-50%);
+        content: '\A';
+        width: 34px;
+        height: 34px;
+        left: 10px;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__body {
+        padding: 0;
+        padding-bottom: 16px;
+        position: relative;
+        text-align: center;
+        background-color: #fcfcfc;
+        border: 1px solid #b3b3b3;
+    }
+    /******/
+    .buybox__body .buybox__section {
+        padding: 16px 12px 0 12px;
+        text-align: left;
+    }
+    .buybox__section .buybox__buttons {
+        text-align: center;
+        width: 100%;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__body {
+        background-color: transparent;
+    }
+    .buybox.mycopy__buybox .buybox__section .buybox__buttons {
+        border-top: 0;
+        padding-top: 0;
+    }
+    /******/
+    .buybox__section:nth-child(2) .buybox__buttons {
+        border-top: 1px solid #b3b3b3;
+        padding-top: 20px;
+    }
+    .buybox__buttons .buybox__buy-button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        max-width: 180px
+    }
+    .buybox__buttons .buybox__price {
+        white-space: nowrap;
+        text-align: center;
+        font-size: larger;
+        padding-top: 6px;
+    }
+    .buybox__section .buybox__meta {
+        letter-spacing: 0;
+        padding-top: 12px;
+    }
+    .buybox__section .buybox__meta:only-of-type {
+        padding-top: 0;
+        position: relative;
+        bottom: 6px;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__section .buybox__meta {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /******/
+    .buybox__meta .buybox__product-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .buybox__meta .buybox__list {
+        line-height: 1.3;
+    }
+    .buybox__meta .buybox__list li {
+        position: relative;
+        padding-left: 1em;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .buybox__meta .buybox__list li:before {
+        font-size: 1em;
+        content: '\2022';
+        float: left;
+        position: relative;
+        top: .1em;
+        font-family: serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: inherit;
+        color: #666;
+        width: auto;
+        margin-left: -1em;
+    }
+    .buybox__meta .buybox__list li:last-child {
+        margin-bottom: 0;
+    }
+    /********** chapter buybox specific **********/
+    .buybox.chapter__buybox .buybox__section .buybox__meta {
+        border-top: 1px solid #d3d3d3;
+        padding-top: 12px;
+    }
+    .buybox.chapter__buybox .buybox__section .buybox__buy-ebook {
+        margin-bottom: 12px;
+    }
+    /******/
+    /*---------------------------------*/
+    .buybox .buybox__footer {
+        border: 1px solid #b3b3b3;
+        border-top: 0;
+        padding: 8px;
+        position: relative;
+        border-style: dashed;
+        line-height: 1.3;
+    }
+    .buybox .deepdyve {
+        display: none;
+        text-align: left;
+        margin: 8px 12px 0 12px;
+        padding-top: 5px;
+        border-top: 1px solid #d3d3d3;
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (min-width: 460px) and (max-width: 1074px) {
+        .buybox__body .buybox__section {
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px 12px;
+            padding-bottom: 0;
+            text-align: left;
+            width: 48%;
+        }
+        .buybox__body .buybox__section {
+            padding-top: 16px;
+            padding-left: 0;
+        }
+        .buybox__section:nth-of-type(2) .buybox__meta {
+            border-left: 1px solid #d3d3d3;
+            padding-left: 28px;
+        }
+        .buybox__section:nth-of-type(2) .buybox__buttons {
+            border-top: 0;
+            padding-top: 0;
+            padding-left: 16px ;
+        }
+        .buybox__buttons .buybox__buy-button {
+        }
+        /********** article buybox specific **********/
+        .buybox.article__buybox .buybox__section:nth-of-type(2) {
+            margin-top: 16px;
+            padding-top: 0;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta {
+            margin-top: 40px;
+            padding-top: 0;
+            padding-bottom: 45px;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta:only-of-type {
+            margin-top: 8px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__section:first-child {
+            width: 69%;
+            padding-left: 12px ;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            width: 29%;
+        }
+        /********** chapter buybox specific **********/
+        .buybox.chapter__buybox .buybox__body {
+            display: flex;
+            align-items: stretch;
+            padding-left: 12px;
+            padding-top: 12px;
+        }
+        .buybox.chapter__buybox .buybox__section .buybox__meta {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            border-top: 0;
+            padding-top: 0;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (max-width: 459px) {
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__body {
+            padding-bottom: 5px;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            text-align: center;
+            width: 100%;
+        }
+        .buybox.mycopy__buybox .buybox__buttons {
+            display: inline-block;
+            width: 150px ;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+</style>
+
+<div class="buybox article__buybox" data-webtrekkTrackId="196033507532344" data-webtrekkContentId="SL-article">
+    <div class="buybox__header">
+        <span class="buybox__login">Log in to check access</span>
+    </div>
+    <div class="buybox__body">
+        
+
+
+
+
+
+
+
+<div class="buybox__section buybox__article">
+    <div class="buybox__buttons">
+        <form class="buybox__form buybox__article" action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article" method="POST">
+            
+                <input type="hidden" name="type" value="article"/>
+            
+                <input type="hidden" name="doi" value="10.1007/s12065-007-0002-4"/>
+            
+                <input type="hidden" name="isxn" value="1864-5917"/>
+            
+                <input type="hidden" name="contenttitle" value="Neuroevolution: from architectures to learning"/>
+            
+                <input type="hidden" name="copyrightyear" value="2008"/>
+            
+                <input type="hidden" name="year" value="2008"/>
+            
+                <input type="hidden" name="authors" value="Dario Floreano, Peter Dürr, Claudio Mattiussi"/>
+            
+                <input type="hidden" name="title" value="Evolutionary Intelligence"/>
+            
+                <input type="hidden" name="mac" value="7fff95ad7c7bb00eaf031b73433eebc9"/>
+            
+                <input type="hidden" name="returnurl" value="http://link.springer.com/article/10.1007/s12065-007-0002-4"/>
+            
+            <button
+            class="buybox__buy-button c-button c-button--blue"
+            data-product-id="10.1007/s12065-007-0002-4_Neuroevolution: from architectures"
+            data-tracking-category="ppv"
+            data-eCommerceParam_11="article-page"
+            data-gtm="buybox__buy-button">
+                <span class="buybox__buy" data-gtm="buybox__buy-button">Buy article (PDF)</span>
+            </button>
+            <div class="buybox__price" data-gtm="buybox__buy-button">
+                EUR&nbsp;42.64
+            </div>
+        </form>
+    </div>
+    <div class="buybox__meta">
+        <ul class="buybox__list">
+            <li>Unlimited access to the article</li>
+            <li>Instant PDF download</li>
+        </ul>
+    </div>
+</div>
+
+        
+
+
+
+
+
+
+    <div class="buybox__section buybox__journal">
+    
+        
+            <div class="buybox__buttons">
+    <form class="buybox__form buybox__journal" action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal" method="POST">
+        
+            <input type="hidden" name="type" value="journal"/>
+        
+            <input type="hidden" name="contenttitle" value="Neuroevolution: from architectures to learning"/>
+        
+            <input type="hidden" name="journalnumber" value="12065"/>
+        
+            <input type="hidden" name="pricetype" value="PSE"/>
+        
+            <input type="hidden" name="countrycode" value="IT"/>
+        
+        <button
+        class="buybox__buy-button c-button c-button--blue"
+        data-product-id="10.1007/s12065-007-0002-4_Neuroevolution: from architectures"
+        data-tracking-category="journal"
+        data-eCommerceParam_11="article-page"
+        data-gtm="buybox__buy-button-subscription">
+            <span class="buybox__buy" data-gtm="buybox__buy-button">Buy journal subscription</span>
+        </button>
+
+        <div class="buybox__price buybox__subscription-price" data-gtm="buybox__buy-button">
+            EUR&nbsp;81.00
+        </div>
+    </form>
+</div>
+<div class="buybox__meta">
+    <ul class="buybox__list">
+        <li>Immediate access to your online only subscription</li>
+        <li>Includes issues from January to December 2019</li>
+        <li>Automatic annual renewal</li>
+    </ul>
+</div>
+
+         
+    
+    </div>
+
+
+        <div id="deepdyve" class="deepdyve">
+    <a id="deepdyve-link" href="#" target="deepdyve" data-event="Article__rent_article">Rent this article via DeepDyve</a>
+</div>
+<script type="text/javascript">
+    function deepDyveResponse(data) {
+        if(data.status === "ok") {
+            document.getElementById("deepdyve").style.display = "inline-block";
+            document.getElementById("deepdyve-link").setAttribute("href", data.url);
+        }
+    }
+    var script = document.createElement('script');
+    script.src = "//www.deepdyve.com/rental-link?docId=10.1007/s12065-007-0002-4&journal=1864-5917&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse";
+    document.body.appendChild(script);
+</script>
+    </div>
+    <div class="buybox__footer">
+    <a class="js-buybox__inst-sub-link" data-gtm="buybox__inst-sub-link" href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&utm_medium=referral&utm_campaign=sl-buybox_articlePage_institutionalCustomers">
+        Learn about institutional subscriptions</a>
+</div>
+</div>
+
+<script>
+(function () {
+    var forEach = function (array, callback, scope) {
+        for (var i = 0; i < array.length; i++) {
+            callback.call(scope, i, array[i]);
+        }
+    };
+
+    var trackDomain = 'springergmbh01.webtrekk.net';
+    var domain = 'link.springer.com';
+    var loadEventSent = false;
+
+    var buyboxRoot = document.getElementsByClassName('buybox')[0];
+    var webtrekkTrackId = buyboxRoot.getAttribute('data-webtrekkTrackId');
+    var webtrekkContentId = buyboxRoot.getAttribute('data-webtrekkContentId');
+
+    function LinkTrack(webtrekkTrackId) {
+        if (!webtrekkTrackId) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: 'springer_com.buybox',
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function Track(product, webtrekkTrackId, eCommerceParam_11, action) {
+        if (!product) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: webtrekkContentId,
+            product: product.id,
+            productStatus: action,
+            productCategory: {
+                1: product.trackingCategory
+            },
+            customEcommerceParameter: {
+                9: domain,
+                11: eCommerceParam_11
+            },
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function track(trackingConfig) {
+        return function(payload) {
+            if (!trackingConfig) return
+            if (payload) {
+                trackingConfig.sendinfo(payload)
+            } else {
+                trackingConfig.sendinfo()
+            }
+            return true
+        }
+    }
+
+    function trackAddToCart(trackingConfig) {
+        return track(trackingConfig)()
+    }
+
+    function trackOnLoad(trackingConfig) {
+        if (loadEventSent) return;
+        loadEventSent = true;
+        return track(trackingConfig)()
+    }
+
+    function trackSubscription(trackingConfig) {
+        return track(trackingConfig)({linkId: 'inst. subscription info'})
+    }
+
+    function trackDeepDyve(trackingConfig) {
+        return track(trackingConfig)({linkId: 'Rent Article'})
+    }
+
+    function getBusinessPartnerIds() {
+        var businessPartnerIDs = [];
+        try {
+            var ids = window.dataLayer[0]["user"]["license"]["businessPartnerID"];
+            if(ids && ids.length) businessPartnerIDs = ids;
+        } catch(e) {}
+        return businessPartnerIDs.join(";");
+    }
+
+    var bindClickLinkHandle = function (link) {
+        if (!link) return;
+
+        link.addEventListener('click', function (event) {
+            trackSubscription(LinkTrack(webtrekkTrackId));
+        });
+    };
+
+    var bindLoadButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        window.addEventListener('load', function (event) {
+            trackOnLoad(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'view'));
+        });
+    };
+
+    var bindClickButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        button.addEventListener('click', function (event) {
+            trackAddToCart(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'add'));
+        });
+    };
+
+    var buyButtons = document.getElementsByClassName('buybox__buy-button');
+    forEach(buyButtons, function (index, button) {
+        bindLoadButtonHandle(button);
+        bindClickButtonHandle(button);
+    });
+
+    var sublinks = document.getElementsByClassName('js-buybox__inst-sub-link');
+    forEach(sublinks, function (index, link) {
+        bindClickLinkHandle(link);
+    });
+
+    var bindDeepDyveClickHandle = function (link) {
+        if (!link) return
+
+        link.addEventListener('click', function (event) {
+            trackDeepDyve(LinkTrack(webtrekkTrackId))
+        })
+    }
+
+    var deepDyveLink = document.getElementById('deepdyve-link')
+    bindDeepDyveClickHandle(deepDyveLink)
+})();
+</script>
+
+                                        </div>
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s12065-007-0002-4?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                            
+
+
+
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper">
+        <div class="skyscraper-ad__wrapper">
+            <p class="skyscraper-ad__label">Advertisement</p>
+            <button class="skyscraper-ad__hide" title="Hide this advertisement" data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+            <div id="doubleclick-ad" class="skyscraper-ad__ad"></div>
+        </div>
+    </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/article/10.1007/s12065-007-0002-4&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/article/10.1007/s12065-007-0002-4&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Cookie settings</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/632953562/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/632953562/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Not affiliated</span>
+                    <span>151.19.63.251</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/632953562';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+    <script>
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            var scriptMathJax = document.createElement('script');
+            scriptMathJax.async = false;
+            scriptMathJax.src = '/springerlink-static/632953562/js/mathJax.js';
+            var s0 = document.getElementsByTagName('script')[0];
+            s0.parentNode.insertBefore(scriptMathJax, s0);
+        }
+    })();
+</script>
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/12065/article';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+        
+    </body>
+</html>

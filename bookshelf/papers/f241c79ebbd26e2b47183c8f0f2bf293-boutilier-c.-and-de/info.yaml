@@ -1,0 +1,45 @@
+abstract: Planning under uncertainty is a central problem in the study of automated
+  sequential decision making, and has been addressed by researchers in many different
+  fields, including AI planning, decision analysis, operations research, control theory
+  and economics. While the assumptions and perspectives adopted in these areas often
+  differ in substantial ways, many planning problems of interest to researchers in
+  these fields can be modeled as Markov decision processes (MDPs) and analyzed using
+  the techniques of decision theory. This paper presents an overview and synthesis
+  of MDP-related methods, showing how they provide a unifying framework for modeling
+  many classes of planning problems studied in AI. It also describes structural properties
+  of MDPs that, when exhibited by particular classes of problems, can be exploited
+  in the construction of optimal or approximately optimal policies or plans. Planning
+  problems commonly possess structure in the reward and value functions used to describe
+  performance criteria, in the functions used to describe state transitions and observations,
+  and in the relationships among features used to describe states, actions, rewards,
+  and observations. Specialized representations, and algorithms employing these representations,
+  can achieve computational leverage by exploiting these various forms of structure.
+  Certain AI techniques -- in particular those based on the use of structured, intensional
+  representations -- can be viewed in this way. This paper surveys several types of
+  representations for both classical and decision-theoretic planning problems, and
+  planning algorithms that exploit these representations in a number of different
+  ways to ease the computational burden of constructing policies or plans. It focuses
+  primarily on abstraction, aggregation and decomposition techniques based on AI-style
+  representations.
+archiveprefix: arXiv
+author: Boutilier, C. and Dean, T. and Hanks, S.
+author_list:
+- family: Boutilier
+  given: C.
+- family: Dean
+  given: T.
+- family: Hanks
+  given: S.
+doi: 10.1613/jair.575
+eprint: 1105.5460v1
+file: 1105.5460v1.pdf
+files:
+- boutilier-c.-and-dean-t.-and-hanks-s.decision-theoretic-planning-structural-assumptions-and-computational-leverage2011.pdf
+month: May
+note: Journal Of Artificial Intelligence Research, Volume 11, pages   1-94, 1999
+primaryclass: cs.AI
+ref: 1105.5460v1
+title: 'Decision-Theoretic Planning: Structural Assumptions and Computational   Leverage'
+type: article
+url: http://arxiv.org/abs/1105.5460v1
+year: '2011'

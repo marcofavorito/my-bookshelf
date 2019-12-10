@@ -1,0 +1,36 @@
+abstract: In this paper, we introduce a new set of reinforcement learning (RL) tasks
+  in Minecraft (a flexible 3D world). We then use these tasks to systematically compare
+  and contrast existing deep reinforcement learning (DRL) architectures with our new
+  memory-based DRL architectures. These tasks are designed to emphasize, in a controllable
+  manner, issues that pose challenges for RL methods including partial observability
+  (due to first-person visual observations), delayed rewards, high-dimensional visual
+  observations, and the need to use active perception in a correct manner so as to
+  perform well in the tasks. While these tasks are conceptually simple to describe,
+  by virtue of having all of these challenges simultaneously they are difficult for
+  current DRL architectures. Additionally, we evaluate the generalization performance
+  of the architectures on environments not used during training. The experimental
+  results show that our new architectures generalize to unseen environments better
+  than existing DRL architectures.
+archiveprefix: arXiv
+author: Oh, Junhyuk and Chockalingam, Valliappa and Singh, Satinder and Lee, Honglak
+author_list:
+- family: Oh
+  given: Junhyuk
+- family: Chockalingam
+  given: Valliappa
+- family: Singh
+  given: Satinder
+- family: Lee
+  given: Honglak
+eprint: 1605.09128v1
+file: 1605.09128v1.pdf
+files:
+- oh-junhyuk-and-chockalingam-valliappa-and-singh-satinder-and-lee-honglakcontrol-of-memory-active-perception-and-action-in-minecraft2016.pdf
+month: May
+primaryclass: cs.AI
+ref: 1605.09128v1
+tags: reinforcement-learning
+title: Control of Memory, Active Perception, and Action in Minecraft
+type: article
+url: http://arxiv.org/abs/1605.09128v1
+year: '2016'

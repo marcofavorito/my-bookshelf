@@ -1,0 +1,39 @@
+abstract: Market makers play an important role in providing liquidity to markets by
+  continuously quoting prices at which they are willing to buy and sell, and managing
+  inventory risk. In this paper, we build a multi-agent simulation of a dealer market
+  and demonstrate that it can be used to understand the behavior of a reinforcement
+  learning (RL) based market maker agent. We use the simulator to train an RL-based
+  market maker agent with different competitive scenarios, reward formulations and
+  market price trends (drifts). We show that the reinforcement learning agent is able
+  to learn about its competitor's pricing policy; it also learns to manage inventory
+  by smartly selecting asymmetric prices on the buy and sell sides (skewing), and
+  maintaining a positive (or negative) inventory depending on whether the market price
+  drift is positive (or negative). Finally, we propose and test reward formulations
+  for creating risk averse RL-based market maker agents.
+archiveprefix: arXiv
+author: Ganesh, Sumitra and Vadori, Nelson and Xu, Mengda and Zheng, Hua and Reddy,
+  Prashant and Veloso, Manuela
+author_list:
+- family: Ganesh
+  given: Sumitra
+- family: Vadori
+  given: Nelson
+- family: Xu
+  given: Mengda
+- family: Zheng
+  given: Hua
+- family: Reddy
+  given: Prashant
+- family: Veloso
+  given: Manuela
+eprint: 1911.05892v1
+file: 1911.05892v1.pdf
+files:
+- ganesh-sumitra-and-vadori-nelson-and-xu-mengda-and-zheng-hua-and-reddy-prashant-and-veloso-manuelareinforcement-learning-for-market-making-in-a.pdf
+month: Nov
+primaryclass: q-fin.TR
+ref: 1911.05892v1
+title: Reinforcement Learning for Market Making in a Multi-agent Dealer Market
+type: article
+url: http://arxiv.org/abs/1911.05892v1
+year: '2019'

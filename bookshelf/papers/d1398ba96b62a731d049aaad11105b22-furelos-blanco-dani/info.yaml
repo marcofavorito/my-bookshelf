@@ -1,0 +1,39 @@
+abstract: 'In this work we present ISA, a novel approach for learning and exploiting
+  subgoals in reinforcement learning (RL). Our method relies on inducing an automaton
+  whose transitions are subgoals expressed as propositional formulas over a set of
+  observable events. A state-of-the-art inductive logic programming system is used
+  to learn the automaton from observation traces perceived by the RL agent. The reinforcement
+  learning and automaton learning processes are interleaved: a new refined automaton
+  is learned whenever the RL agent generates a trace not recognized by the current
+  automaton. We evaluate ISA in several gridworld problems and show that it performs
+  similarly to a method for which automata are given in advance. We also show that
+  the learned automata can be exploited to speed up convergence through reward shaping
+  and transfer learning across multiple tasks. Finally, we analyze the running time
+  and the number of traces that ISA needs to learn an automata, and the impact that
+  the number of observable events has on the learner''s performance.'
+archiveprefix: arXiv
+author: Furelos-Blanco, Daniel and Law, Mark and Russo, Alessandra and Broda, Krysia
+  and Jonsson, Anders
+author_list:
+- family: Furelos-Blanco
+  given: Daniel
+- family: Law
+  given: Mark
+- family: Russo
+  given: Alessandra
+- family: Broda
+  given: Krysia
+- family: Jonsson
+  given: Anders
+eprint: 1911.13152v1
+file: 1911.13152v1.pdf
+files:
+- furelos-blanco-daniel-and-law-mark-and-russo-alessandra-and-broda-krysia-and-jonsson-andersinduction-of-subgoal-automata-for-reinforcement-learni.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.13152v1
+tags: automata-learning reinforcement-learning multi-task-reinforcement-learning options
+title: Induction of Subgoal Automata for Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1911.13152v1
+year: '2019'

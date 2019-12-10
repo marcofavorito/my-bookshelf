@@ -1,0 +1,29 @@
+abstract: The standard RL world model is that of a Markov Decision Process (MDP).
+  A basic premise of MDPs is that the rewards depend on the last state and action
+  only. Yet, many real-world rewards are non-Markovian. For example, a reward for
+  bringing coffee only if requested earlier and not yet served, is non-Markovian if
+  the state only records current requests and deliveries. Past work considered the
+  problem of modeling and solving MDPs with non-Markovian rewards (NMR), but we know
+  of no principled approaches for RL with NMR. Here, we address the problem of policy
+  learning from experience with such rewards. We describe and evaluate empirically
+  four combinations of the classical RL algorithm Q-learning and R-max with automata
+  learning algorithms to obtain new RL algorithms for domains with NMR. We also prove
+  that some of these variants converge to an optimal policy in the limit.
+archiveprefix: arXiv
+author: Gaon, Maor and Brafman, Ronen I.
+author_list:
+- family: Gaon
+  given: Maor
+- family: Brafman
+  given: Ronen I.
+eprint: 1912.02552v1
+file: 1912.02552v1.pdf
+files:
+- gaon-maor-and-brafman-ronen-i.reinforcement-learning-with-non-markovian-rewards2019.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 1912.02552v1
+title: Reinforcement Learning with Non-Markovian Rewards
+type: article
+url: http://arxiv.org/abs/1912.02552v1
+year: '2019'
