@@ -1,0 +1,33 @@
+abstract: We present a novel hierarchical approach to multi-class classification which
+  is generic in that it can be applied to different classification models (e.g., support
+  vector machines, perceptrons), and makes no explicit assumptions about the probabilistic
+  structure of the problem as it is usually done in multi-class classification. By
+  adding a cascade of additional classifiers, each of which receives the previous
+  classifier's output in addition to regular input data, the approach harnesses unused
+  information that manifests itself in the form of, e.g., correlations between predicted
+  classes. Using multilayer perceptrons as a classification model, we demonstrate
+  the validity of this approach by testing it on a complex ten-class 3D gesture recognition
+  task.
+archiveprefix: arXiv
+author: Kopinski, Thomas and Magand, Stéphane and Handmann, Uwe and Gepperth, Alexander
+author_list:
+- family: Kopinski
+  given: Thomas
+- family: Magand
+  given: Stéphane
+- family: Handmann
+  given: Uwe
+- family: Gepperth
+  given: Alexander
+doi: 10.1109/IJCNN.2015.7280768
+eprint: 1601.01121v1
+file: 1601.01121v1.pdf
+files:
+- kopinski-thomas-and-magand-stephane-and-handmann-uwe-and-gepperth-alexandera-pragmatic-approach-to-multi-class-classification2016.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1601.01121v1
+title: A pragmatic approach to multi-class classification
+type: article
+url: http://arxiv.org/abs/1601.01121v1
+year: '2016'

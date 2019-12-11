@@ -1,0 +1,38 @@
+abstract: Generative Adversarial Networks (GAN) have received wide attention in the
+  machine learning field for their potential to learn high-dimensional, complex real
+  data distribution. Specifically, they do not rely on any assumptions about the distribution
+  and can generate real-like samples from latent space in a simple manner. This powerful
+  property leads GAN to be applied to various applications such as image synthesis,
+  image attribute editing, image translation, domain adaptation and other academic
+  fields. In this paper, we aim to discuss the details of GAN for those readers who
+  are familiar with, but do not comprehend GAN deeply or who wish to view GAN from
+  various perspectives. In addition, we explain how GAN operates and the fundamental
+  meaning of various objective functions that have been suggested recently. We then
+  focus on how the GAN can be combined with an autoencoder framework. Finally, we
+  enumerate the GAN variants that are applied to various tasks and other fields for
+  those who are interested in exploiting GAN for their research.
+archiveprefix: arXiv
+author: Hong, Yongjun and Hwang, Uiwon and Yoo, Jaeyoon and Yoon, Sungroh
+author_list:
+- family: Hong
+  given: Yongjun
+- family: Hwang
+  given: Uiwon
+- family: Yoo
+  given: Jaeyoon
+- family: Yoon
+  given: Sungroh
+doi: 10.1145/3301282
+eprint: 1711.05914v10
+file: 1711.05914v10.pdf
+files:
+- hong-yongjun-and-hwang-uiwon-and-yoo-jaeyoon-and-yoon-sungrohhow-generative-adversarial-networks-and-their-variants-work-an-overview2017.pdf
+month: Nov
+note: ACM Computing Surveys (CSUR) Volume 52 Issue 1, February 2019   Article No.
+  10
+primaryclass: cs.LG
+ref: 1711.05914v10
+title: 'How Generative Adversarial Networks and Their Variants Work: An Overview'
+type: article
+url: http://arxiv.org/abs/1711.05914v10
+year: '2017'

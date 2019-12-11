@@ -1,0 +1,36 @@
+abstract: We define the relevant information in a signal $x\in X$ as being the information
+  that this signal provides about another signal $y\in \Y$. Examples include the information
+  that face images provide about the names of the people portrayed, or the information
+  that speech sounds provide about the words spoken. Understanding the signal $x$
+  requires more than just predicting $y$, it also requires specifying which features
+  of $\X$ play a role in the prediction. We formalize this problem as that of finding
+  a short code for $\X$ that preserves the maximum information about $\Y$. That is,
+  we squeeze the information that $\X$ provides about $\Y$ through a `bottleneck'
+  formed by a limited set of codewords $\tX$. This constrained optimization problem
+  can be seen as a generalization of rate distortion theory in which the distortion
+  measure $d(x,\x)$ emerges from the joint statistics of $\X$ and $\Y$. This approach
+  yields an exact set of self consistent equations for the coding rules $X \to \tX$
+  and $\tX \to \Y$. Solutions to these equations can be found by a convergent re-estimation
+  method that generalizes the Blahut-Arimoto algorithm. Our variational principle
+  provides a surprisingly rich framework for discussing a variety of problems in signal
+  processing and learning, as will be described in detail elsewhere.
+archiveprefix: arXiv
+author: Tishby, Naftali and Pereira, Fernando C. and Bialek, William
+author_list:
+- family: Tishby
+  given: Naftali
+- family: Pereira
+  given: Fernando C.
+- family: Bialek
+  given: William
+eprint: physics/0004057v1
+file: physics/0004057v1.pdf
+files:
+- tishby-naftali-and-pereira-fernando-c.-and-bialek-williamthe-information-bottleneck-method2000.pdf
+month: Apr
+primaryclass: physics.data-an
+ref: physics/0004057v1
+title: The information bottleneck method
+type: article
+url: http://arxiv.org/abs/physics/0004057v1
+year: '2000'
