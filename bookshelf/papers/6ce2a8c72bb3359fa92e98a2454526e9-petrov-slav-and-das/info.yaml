@@ -1,0 +1,29 @@
+abstract: To facilitate future research in unsupervised induction of syntactic structure
+  and to standardize best-practices, we propose a tagset that consists of twelve universal
+  part-of-speech categories. In addition to the tagset, we develop a mapping from
+  25 different treebank tagsets to this universal set. As a result, when combined
+  with the original treebank data, this universal tagset and mapping produce a dataset
+  consisting of common parts-of-speech for 22 different languages. We highlight the
+  use of this resource via two experiments, including one that reports competitive
+  accuracies for unsupervised grammar induction without gold standard part-of-speech
+  tags.
+archiveprefix: arXiv
+author: Petrov, Slav and Das, Dipanjan and McDonald, Ryan
+author_list:
+- family: Petrov
+  given: Slav
+- family: Das
+  given: Dipanjan
+- family: McDonald
+  given: Ryan
+eprint: 1104.2086v1
+file: 1104.2086v1.pdf
+files:
+- petrov-slav-and-das-dipanjan-and-mcdonald-ryana-universal-part-of-speech-tagset2011.pdf
+month: Apr
+primaryclass: cs.CL
+ref: 1104.2086v1
+title: A Universal Part-of-Speech Tagset
+type: article
+url: http://arxiv.org/abs/1104.2086v1
+year: '2011'

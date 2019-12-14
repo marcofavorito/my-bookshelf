@@ -1,0 +1,46 @@
+abstract: We consider the problem of building high-level, class-specific feature detectors
+  from only unlabeled data. For example, is it possible to learn a face detector using
+  only unlabeled images? To answer this, we train a 9-layered locally connected sparse
+  autoencoder with pooling and local contrast normalization on a large dataset of
+  images (the model has 1 billion connections, the dataset has 10 million 200x200
+  pixel images downloaded from the Internet). We train this network using model parallelism
+  and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days.
+  Contrary to what appears to be a widely-held intuition, our experimental results
+  reveal that it is possible to train a face detector without having to label images
+  as containing a face or not. Control experiments show that this feature detector
+  is robust not only to translation but also to scaling and out-of-plane rotation.
+  We also find that the same network is sensitive to other high-level concepts such
+  as cat faces and human bodies. Starting with these learned features, we trained
+  our network to obtain 15.8% accuracy in recognizing 20,000 object categories from
+  ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.
+archiveprefix: arXiv
+author: Le, Quoc V. and Ranzato, Marc'Aurelio and Monga, Rajat and Devin, Matthieu
+  and Chen, Kai and Corrado, Greg S. and Dean, Jeff and Ng, Andrew Y.
+author_list:
+- family: Le
+  given: Quoc V.
+- family: Ranzato
+  given: Marc'Aurelio
+- family: Monga
+  given: Rajat
+- family: Devin
+  given: Matthieu
+- family: Chen
+  given: Kai
+- family: Corrado
+  given: Greg S.
+- family: Dean
+  given: Jeff
+- family: Ng
+  given: Andrew Y.
+eprint: 1112.6209v5
+file: 1112.6209v5.pdf
+files:
+- le-quoc-v.-and-ranzato-marc-aurelio-and-monga-rajat-and-devin-matthieu-and-chen-kai-and-corrado-greg-s.-and-dean-jeff-and-ng-andrew-y.building.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1112.6209v5
+title: Building high-level features using large scale unsupervised learning
+type: article
+url: http://arxiv.org/abs/1112.6209v5
+year: '2011'

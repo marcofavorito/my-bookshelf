@@ -1,0 +1,42 @@
+abstract: In recent years, methods of approximate parameter estimation have attracted
+  considerable interest in complex problems where exact likelihoods are hard to obtain.
+  In their most basic form, Bayesian methods such as Approximate Bayesian Computation
+  (ABC) involve sampling from the parameter space and keeping those parameters that
+  produce data that fit sufficiently well to the actually observed data. Exploring
+  the whole parameter space, however, makes this approach inefficient in high dimensional
+  problems. This led to the proposal of more sophisticated iterative methods of inference
+  such as particle filters.   Here, we propose an alternative approach that is based
+  on stochastic gradient methods and applicable both in a frequentist and a Bayesian
+  setting. By moving along a simulated gradient, the algorithm produces a sequence
+  of estimates that will eventually converge either to the maximum likelihood estimate
+  or to the maximum of the posterior distribution, in each case under a set of observed
+  summary statistics. To avoid reaching only a local maximum, we propose to run the
+  algorithm from a set of random starting values.   As good tuning of the algorithm
+  is important, we explored several tuning strategies, and propose a set of guidelines
+  that worked best in our simulations. We investigate the performance of our approach
+  in simulation studies, and also apply the algorithm to two models with intractable
+  likelihood functions. First, we present an application to inference in the context
+  of queuing systems. We also re-analyze population genetic data and estimate parameters
+  describing the demographic history of Sumatran and Bornean orang-utan populations.
+archiveprefix: arXiv
+author: Bertl, Johanna and Ewing, Gregory and Kosiol, Carolin and Futschik, Andreas
+author_list:
+- family: Bertl
+  given: Johanna
+- family: Ewing
+  given: Gregory
+- family: Kosiol
+  given: Carolin
+- family: Futschik
+  given: Andreas
+eprint: 1507.04553v1
+file: 1507.04553v1.pdf
+files:
+- bertl-johanna-and-ewing-gregory-and-kosiol-carolin-and-futschik-andreasapproximate-maximum-likelihood-estimation2015.pdf
+month: Jul
+primaryclass: stat.CO
+ref: 1507.04553v1
+title: Approximate Maximum Likelihood Estimation
+type: article
+url: http://arxiv.org/abs/1507.04553v1
+year: '2015'

@@ -1,0 +1,31 @@
+abstract: This paper outlines the results of sentence level linguistics based rules
+  for improving part-of-speech tagging. It is well known that the performance of complex
+  NLP systems is negatively affected if one of the preliminary stages is less than
+  perfect. Errors in the initial stages in the pipeline have a snowballing effect
+  on the pipeline's end performance. We have created a set of linguistics based rules
+  at the sentence level which adjust part-of-speech tags from state-of-the-art taggers.
+  Comparison with state-of-the-art taggers on widely used benchmarks demonstrate significant
+  improvements in tagging accuracy and consequently in the quality and accuracy of
+  NLP systems.
+archiveprefix: arXiv
+author: Jatav, Vishaal and Teja, Ravi and Bharadwaj, Srini and Srinivasan, Venkat
+author_list:
+- family: Jatav
+  given: Vishaal
+- family: Teja
+  given: Ravi
+- family: Bharadwaj
+  given: Srini
+- family: Srinivasan
+  given: Venkat
+eprint: 1708.00241v1
+file: 1708.00241v1.pdf
+files:
+- jatav-vishaal-and-teja-ravi-and-bharadwaj-srini-and-srinivasan-venkatimproving-part-of-speech-tagging-for-nlp-pipelines2017.pdf
+month: Aug
+primaryclass: cs.CL
+ref: 1708.00241v1
+title: Improving Part-of-Speech Tagging for NLP Pipelines
+type: article
+url: http://arxiv.org/abs/1708.00241v1
+year: '2017'

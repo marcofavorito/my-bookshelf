@@ -1,0 +1,768 @@
+author: LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey
+author_list:
+- affiliation: []
+  family: LeCun
+  given: Yann
+- affiliation: []
+  family: Bengio
+  given: Yoshua
+- affiliation: []
+  family: Hinton
+  given: Geoffrey
+citations:
+- author: A Krizhevsky
+  first-page: '1090'
+  unstructured: Krizhevsky, A., Sutskever, I. & Hinton, G. ImageNet classification
+    with deep convolutional neural networks. In Proc. Advances in Neural Information
+    Processing Systems 25 1090–1098 (2012). This report was a breakthrough that used
+    convolutional nets to almost halve the error rate for object recognition, and
+    precipitated the rapid adoption of deep learning by the computer vision community.
+  volume-title: Proc. Advances in Neural Information Processing Systems 25
+  year: '2012'
+- author: C Farabet
+  doi: 10.1109/TPAMI.2012.231
+  first-page: '1915'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  unstructured: Farabet, C., Couprie, C., Najman, L. & LeCun, Y. Learning hierarchical
+    features for scene labeling. IEEE Trans. Pattern Anal. Mach. Intell. 35, 1915–1929
+    (2013).
+  volume: '35'
+  year: '2013'
+- author: J Tompson
+  first-page: '1799'
+  unstructured: Tompson, J., Jain, A., LeCun, Y. & Bregler, C. Joint training of a
+    convolutional network and a graphical model for human pose estimation. In Proc.
+    Advances in Neural Information Processing Systems 27 1799–1807 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- unstructured: "Szegedy, C. et al. Going deeper with convolutions. Preprint at \n\
+    \                    http://arxiv.org/abs/1409.4842\n                    \n  \
+    \                 (2014)."
+- author: T Mikolov
+  first-page: '196'
+  unstructured: Mikolov, T., Deoras, A., Povey, D., Burget, L. & Cernocky, J. Strategies
+    for training large scale neural network language models. In Proc. Automatic Speech
+    Recognition and Understanding 196–201 (2011).
+  volume-title: Proc. Automatic Speech Recognition and Understanding
+  year: '2011'
+- author: G Hinton
+  doi: 10.1109/MSP.2012.2205597
+  first-page: '82'
+  journal-title: IEEE Signal Processing Magazine
+  unstructured: Hinton, G. et al. Deep neural networks for acoustic modeling in speech
+    recognition. IEEE Signal Processing Magazine 29, 82–97 (2012). This joint paper
+    from the major speech recognition laboratories, summarizing the breakthrough achieved
+    with deep learning on the task of phonetic classification for automatic speech
+    recognition, was the first major industrial application of deep learning.
+  volume: '29'
+  year: '2012'
+- author: T Sainath
+  first-page: '8614'
+  unstructured: Sainath, T., Mohamed, A.-R., Kingsbury, B. & Ramabhadran, B. Deep
+    convolutional neural networks for LVCSR. In Proc. Acoustics, Speech and Signal
+    Processing 8614–8618 (2013).
+  volume-title: Proc. Acoustics, Speech and Signal Processing
+  year: '2013'
+- author: J Ma
+  doi: 10.1021/ci500747n
+  first-page: '263'
+  journal-title: J. Chem. Inf. Model.
+  unstructured: Ma, J., Sheridan, R. P., Liaw, A., Dahl, G. E. & Svetnik, V. Deep
+    neural nets as a method for quantitative structure-activity relationships. J.
+    Chem. Inf. Model. 55, 263–274 (2015).
+  volume: '55'
+  year: '2015'
+- author: T Ciodaro
+  doi: 10.1088/1742-6596/368/1/012030
+  first-page: '012030'
+  journal-title: J. Phys. Conf. Series
+  unstructured: Ciodaro, T., Deva, D., de Seixas, J. & Damazio, D. Online particle
+    detection with neural networks based on topological calorimetry information. J.
+    Phys. Conf. Series 368, 012030 (2012).
+  volume: '368'
+  year: '2012'
+- unstructured: "Kaggle. Higgs boson machine learning challenge. Kaggle \n       \
+    \             https://www.kaggle.com/c/higgs-boson\n                    \n   \
+    \                (2014)."
+- author: M Helmstaedter
+  doi: 10.1038/nature12346
+  first-page: '168'
+  journal-title: Nature
+  unstructured: Helmstaedter, M. et al. Connectomic reconstruction of the inner plexiform
+    layer in the mouse retina. Nature 500, 168–174 (2013).
+  volume: '500'
+  year: '2013'
+- author: MK Leung
+  doi: 10.1093/bioinformatics/btu277
+  first-page: i121
+  journal-title: Bioinformatics
+  unstructured: Leung, M. K., Xiong, H. Y., Lee, L. J. & Frey, B. J. Deep learning
+    of the tissue-regulated splicing code. Bioinformatics 30, i121–i129 (2014).
+  volume: '30'
+  year: '2014'
+- author: HY Xiong
+  doi: 10.1126/science.1254806
+  first-page: '6218'
+  journal-title: Science
+  unstructured: Xiong, H. Y. et al. The human splicing code reveals new insights into
+    the genetic determinants of disease. Science 347, 6218 (2015).
+  volume: '347'
+  year: '2015'
+- author: R Collobert
+  first-page: '2493'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Collobert, R., et al. Natural language processing (almost) from scratch.
+    J. Mach. Learn. Res. 12, 2493–2537 (2011).
+  volume: '12'
+  year: '2011'
+- author: A Bordes
+  unstructured: "Bordes, A., Chopra, S. & Weston, J. Question answering with subgraph\
+    \ embeddings. In Proc. Empirical Methods in Natural Language Processing \n   \
+    \                 http://arxiv.org/abs/1406.3676v3\n                    \n   \
+    \                (2014)."
+  volume-title: Proc. Empirical Methods in Natural Language Processing
+  year: '2014'
+- author: S Jean
+  unstructured: "Jean, S., Cho, K., Memisevic, R. & Bengio, Y. On using very large\
+    \ target vocabulary for neural machine translation. In Proc. ACL-IJCNLP \n   \
+    \                 http://arxiv.org/abs/1412.2007\n                    \n     \
+    \              (2015)."
+  volume-title: Proc. ACL-IJCNLP
+  year: '2015'
+- author: I Sutskever
+  first-page: '3104'
+  unstructured: Sutskever, I. Vinyals, O. & Le. Q. V. Sequence to sequence learning
+    with neural networks. In Proc. Advances in Neural Information Processing Systems
+    27 3104–3112 (2014). This paper showed state-of-the-art machine translation results
+    with the architecture introduced in ref. 72, with a recurrent network trained
+    to read a sentence in one language, produce a semantic representation of its meaning,
+    and generate a translation in another language.
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: L Bottou
+  first-page: '161'
+  unstructured: Bottou, L. & Bousquet, O. The tradeoffs of large scale learning. In
+    Proc. Advances in Neural Information Processing Systems 20 161–168 (2007).
+  volume-title: Proc. Advances in Neural Information Processing Systems 20
+  year: '2007'
+- author: RO Duda
+  unstructured: Duda, R. O. & Hart, P. E. Pattern Classification and Scene Analysis
+    (Wiley, 1973).
+  volume-title: Pattern Classification and Scene Analysis
+  year: '1973'
+- author: B Schölkopf
+  unstructured: Schölkopf, B. & Smola, A. Learning with Kernels (MIT Press, 2002).
+  volume-title: Learning with Kernels
+  year: '2002'
+- author: Y Bengio
+  first-page: '107'
+  unstructured: Bengio, Y., Delalleau, O. & Le Roux, N. The curse of highly variable
+    functions for local kernel machines. In Proc. Advances in Neural Information Processing
+    Systems 18 107–114 (2005).
+  volume-title: Proc. Advances in Neural Information Processing Systems 18
+  year: '2005'
+- author: OG Selfridge
+  first-page: '513'
+  unstructured: 'Selfridge, O. G. Pandemonium: a paradigm for learning in mechanisation
+    of thought processes. In Proc. Symposium on Mechanisation of Thought Processes
+    513–526 (1958).'
+  volume-title: Proc. Symposium on Mechanisation of Thought Processes
+  year: '1958'
+- author: F Rosenblatt
+  unstructured: Rosenblatt, F. The Perceptron — A Perceiving and Recognizing Automaton.
+    Tech. Rep. 85-460-1 (Cornell Aeronautical Laboratory, 1957).
+  volume-title: The Perceptron — A Perceiving and Recognizing Automaton
+  year: '1957'
+- author: P Werbos
+  unstructured: 'Werbos, P. Beyond Regression: New Tools for Prediction and Analysis
+    in the Behavioral Sciences. PhD thesis, Harvard Univ. (1974).'
+  volume-title: 'Beyond Regression: New Tools for Prediction and Analysis in the Behavioral
+    Sciences'
+  year: '1974'
+- author: DB Parker
+  unstructured: Parker, D. B. Learning Logic Report TR–47 (MIT Press, 1985).
+  volume-title: Learning Logic
+  year: '1985'
+- author: Y LeCun
+  first-page: '599'
+  unstructured: 'LeCun, Y. Une procédure d''apprentissage pour Réseau à seuil assymétrique
+    in Cognitiva 85: a la Frontière de l''Intelligence Artificielle, des Sciences
+    de la Connaissance et des Neurosciences [in French] 599–604 (1985).'
+  volume-title: 'Cognitiva 85: a la Frontière de l''Intelligence Artificielle, des
+    Sciences de la Connaissance et des Neurosciences'
+  year: '1985'
+- author: DE Rumelhart
+  doi: 10.1038/323533a0
+  first-page: '533'
+  journal-title: Nature
+  unstructured: Rumelhart, D. E., Hinton, G. E. & Williams, R. J. Learning representations
+    by back-propagating errors. Nature 323, 533–536 (1986).
+  volume: '323'
+  year: '1986'
+- author: X Glorot
+  first-page: '315'
+  unstructured: Glorot, X., Bordes, A. & Bengio. Y. Deep sparse rectifier neural networks.
+    In Proc. 14th International Conference on Artificial Intelligence and Statistics
+    315–323 (2011). This paper showed that supervised training of very deep neural
+    networks is much faster if the hidden layers are composed of ReLU.
+  volume-title: Proc. 14th International Conference on Artificial Intelligence and
+    Statistics
+  year: '2011'
+- author: Y Dauphin
+  first-page: '2933'
+  unstructured: Dauphin, Y. et al. Identifying and attacking the saddle point problem
+    in high-dimensional non-convex optimization. In Proc. Advances in Neural Information
+    Processing Systems 27 2933–2941 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: A Choromanska
+  unstructured: "Choromanska, A., Henaff, M., Mathieu, M., Arous, G. B. & LeCun, Y.\
+    \ The loss surface of multilayer networks. In Proc. Conference on AI and Statistics\
+    \ \n                    http://arxiv.org/abs/1412.0233\n                    \n\
+    \                   (2014)."
+  volume-title: Proc. Conference on AI and Statistics
+  year: '2014'
+- author: GE Hinton
+  first-page: '1765'
+  unstructured: Hinton, G. E. What kind of graphical model is the brain? In Proc.
+    19th International Joint Conference on Artificial intelligence 1765–1775 (2005).
+  volume-title: Proc. 19th International Joint Conference on Artificial intelligence
+  year: '2005'
+- author: GE Hinton
+  doi: 10.1162/neco.2006.18.7.1527
+  first-page: '1527'
+  journal-title: Neural Comp.
+  unstructured: Hinton, G. E., Osindero, S. & Teh, Y.-W. A fast learning algorithm
+    for deep belief nets. Neural Comp. 18, 1527–1554 (2006). This paper introduced
+    a novel and effective way of training very deep neural networks by pre-training
+    one hidden layer at a time using the unsupervised learning procedure for restricted
+    Boltzmann machines.
+  volume: '18'
+  year: '2006'
+- unstructured: Bengio, Y., Lamblin, P., Popovici, D. & Larochelle, H. Greedy layer-wise
+    training of deep networks. In Proc. Advances in Neural Information Processing
+    Systems 19 153–160 (2006). This report demonstrated that the unsupervised pre-training
+    method introduced in ref. 32 significantly improves performance on test data and
+    generalizes the method to other unsupervised representation-learning techniques,
+    such as auto-encoders.
+- author: M Ranzato
+  first-page: '1137'
+  unstructured: Ranzato, M., Poultney, C., Chopra, S. & LeCun, Y. Efficient learning
+    of sparse representations with an energy-based model. In Proc. Advances in Neural
+    Information Processing Systems 19 1137–1144 (2006).
+  volume-title: Proc. Advances in Neural Information Processing Systems 19
+  year: '2006'
+- author: GE Hinton
+  doi: 10.1126/science.1127647
+  first-page: '504'
+  journal-title: Science
+  unstructured: Hinton, G. E. & Salakhutdinov, R. Reducing the dimensionality of data
+    with neural networks. Science 313, 504–507 (2006).
+  volume: '313'
+  year: '2006'
+- author: P Sermanet
+  unstructured: "Sermanet, P., Kavukcuoglu, K., Chintala, S. & LeCun, Y. Pedestrian\
+    \ detection with unsupervised multi-stage feature learning. In Proc. International\
+    \ Conference on Computer Vision and Pattern Recognition \n                   \
+    \ http://arxiv.org/abs/1212.0142\n                    \n                   (2013)."
+  volume-title: Proc. International Conference on Computer Vision and Pattern Recognition
+  year: '2013'
+- author: R Raina
+  first-page: '873'
+  unstructured: Raina, R., Madhavan, A. & Ng, A. Y. Large-scale deep unsupervised
+    learning using graphics processors. In Proc. 26th Annual International Conference
+    on Machine Learning 873–880 (2009).
+  volume-title: Proc. 26th Annual International Conference on Machine Learning
+  year: '2009'
+- author: A-R Mohamed
+  doi: 10.1109/TASL.2011.2109382
+  first-page: '14'
+  journal-title: IEEE Trans. Audio Speech Lang. Process.
+  unstructured: Mohamed, A.-R., Dahl, G. E. & Hinton, G. Acoustic modeling using deep
+    belief networks. IEEE Trans. Audio Speech Lang. Process. 20, 14–22 (2012).
+  volume: '20'
+  year: '2012'
+- author: GE Dahl
+  first-page: '33'
+  journal-title: IEEE Trans. Audio Speech Lang. Process.
+  unstructured: Dahl, G. E., Yu, D., Deng, L. & Acero, A. Context-dependent pre-trained
+    deep neural networks for large vocabulary speech recognition. IEEE Trans. Audio
+    Speech Lang. Process. 20, 33–42 (2012).
+  volume: '20'
+  year: '2012'
+- author: Y Bengio
+  doi: 10.1109/TPAMI.2013.50
+  first-page: '1798'
+  journal-title: IEEE Trans. Pattern Anal. Machine Intell.
+  unstructured: 'Bengio, Y., Courville, A. & Vincent, P. Representation learning:
+    a review and new perspectives. IEEE Trans. Pattern Anal. Machine Intell. 35, 1798–1828
+    (2013).'
+  volume: '35'
+  year: '2013'
+- author: Y LeCun
+  first-page: '396'
+  unstructured: LeCun, Y. et al. Handwritten digit recognition with a back-propagation
+    network. In Proc. Advances in Neural Information Processing Systems 396–404 (1990).
+    This is the first paper on convolutional networks trained by backpropagation for
+    the task of classifying low-resolution images of handwritten digits.
+  volume-title: Proc. Advances in Neural Information Processing Systems
+  year: '1990'
+- author: Y LeCun
+  doi: 10.1109/5.726791
+  first-page: '2278'
+  journal-title: Proc. IEEE
+  unstructured: LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. Gradient-based learning
+    applied to document recognition. Proc. IEEE 86, 2278–2324 (1998). This overview
+    paper on the principles of end-to-end training of modular systems such as deep
+    neural networks using gradient-based optimization showed how neural networks (and
+    in particular convolutional nets) can be combined with search or inference mechanisms
+    to model complex outputs that are interdependent, such as sequences of characters
+    associated with the content of a document.
+  volume: '86'
+  year: '1998'
+- author: DH Hubel
+  doi: 10.1113/jphysiol.1962.sp006837
+  first-page: '106'
+  journal-title: J. Physiol.
+  unstructured: Hubel, D. H. & Wiesel, T. N. Receptive fields, binocular interaction,
+    and functional architecture in the cat's visual cortex. J. Physiol. 160, 106–154
+    (1962).
+  volume: '160'
+  year: '1962'
+- author: DJ Felleman
+  doi: 10.1093/cercor/1.1.1
+  first-page: '1'
+  journal-title: Cereb. Cortex
+  unstructured: Felleman, D. J. & Essen, D. C. V. Distributed hierarchical processing
+    in the primate cerebral cortex. Cereb. Cortex 1, 1–47 (1991).
+  volume: '1'
+  year: '1991'
+- author: CF Cadieu
+  doi: 10.1371/journal.pcbi.1003963
+  first-page: e1003963
+  journal-title: PLoS Comp. Biol.
+  unstructured: Cadieu, C. F. et al. Deep neural networks rival the representation
+    of primate it cortex for core visual object recognition. PLoS Comp. Biol. 10,
+    e1003963 (2014).
+  volume: '10'
+  year: '2014'
+- author: K Fukushima
+  doi: 10.1016/0031-3203(82)90024-3
+  first-page: '455'
+  journal-title: Pattern Recognition
+  unstructured: 'Fukushima, K. & Miyake, S. Neocognitron: a new algorithm for pattern
+    recognition tolerant of deformations and shifts in position. Pattern Recognition
+    15, 455–469 (1982).'
+  volume: '15'
+  year: '1982'
+- author: A Waibel
+  doi: 10.1109/29.21701
+  first-page: '328'
+  journal-title: IEEE Trans. Acoustics Speech Signal Process.
+  unstructured: Waibel, A., Hanazawa, T., Hinton, G. E., Shikano, K. & Lang, K. Phoneme
+    recognition using time-delay neural networks. IEEE Trans. Acoustics Speech Signal
+    Process. 37, 328–339 (1989).
+  volume: '37'
+  year: '1989'
+- author: L Bottou
+  first-page: '537'
+  unstructured: Bottou, L., Fogelman-Soulié, F., Blanchet, P. & Lienard, J. Experiments
+    with time delay networks and dynamic time warping for speaker independent isolated
+    digit recognition. In Proc. EuroSpeech 89 537–540 (1989).
+  volume-title: Proc. EuroSpeech 89
+  year: '1989'
+- author: D Simard
+  first-page: '958'
+  unstructured: Simard, D., Steinkraus, P. Y. & Platt, J. C. Best practices for convolutional
+    neural networks. In Proc. Document Analysis and Recognition 958–963 (2003).
+  volume-title: Proc. Document Analysis and Recognition
+  year: '2003'
+- author: R Vaillant
+  first-page: '245'
+  unstructured: Vaillant, R., Monrocq, C. & LeCun, Y. Original approach for the localisation
+    of objects in images. In Proc. Vision, Image, and Signal Processing 141, 245–250
+    (1994).
+  volume-title: Proc. Vision, Image, and Signal Processing
+  year: '1994'
+- author: S Nowlan
+  first-page: '901'
+  unstructured: Nowlan, S. & Platt, J. in Neural Information Processing Systems 901–908
+    (1995).
+  volume-title: Neural Information Processing Systems
+  year: '1995'
+- author: S Lawrence
+  doi: 10.1109/72.554195
+  first-page: '98'
+  journal-title: IEEE Trans. Neural Networks
+  unstructured: 'Lawrence, S., Giles, C. L., Tsoi, A. C. & Back, A. D. Face recognition:
+    a convolutional neural-network approach. IEEE Trans. Neural Networks 8, 98–113
+    (1997).'
+  volume: '8'
+  year: '1997'
+- author: D Ciresan
+  doi: 10.1016/j.neunet.2012.02.023
+  first-page: '333'
+  journal-title: Neural Networks
+  unstructured: Ciresan, D., Meier, U. Masci, J. & Schmidhuber, J. Multi-column deep
+    neural network for traffic sign classification. Neural Networks 32, 333–338 (2012).
+  volume: '32'
+  year: '2012'
+- author: F Ning
+  doi: 10.1109/TIP.2005.852470
+  first-page: '1360'
+  journal-title: IEEE Trans. Image Process.
+  unstructured: Ning, F. et al. Toward automatic phenotyping of developing embryos
+    from videos. IEEE Trans. Image Process. 14, 1360–1371 (2005).
+  volume: '14'
+  year: '2005'
+- author: SC Turaga
+  doi: 10.1162/neco.2009.10-08-881
+  first-page: '511'
+  journal-title: Neural Comput.
+  unstructured: Turaga, S. C. et al. Convolutional networks can learn to generate
+    affinity graphs for image segmentation. Neural Comput. 22, 511–538 (2010).
+  volume: '22'
+  year: '2010'
+- author: C Garcia
+  doi: 10.1109/TPAMI.2004.97
+  first-page: '1408'
+  journal-title: IEEE Trans. Pattern Anal. Machine Intell.
+  unstructured: 'Garcia, C. & Delakis, M. Convolutional face finder: a neural architecture
+    for fast and robust face detection. IEEE Trans. Pattern Anal. Machine Intell.
+    26, 1408–1423 (2004).'
+  volume: '26'
+  year: '2004'
+- author: M Osadchy
+  first-page: '1197'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Osadchy, M., LeCun, Y. & Miller, M. Synergistic face detection and
+    pose estimation with energy-based models. J. Mach. Learn. Res. 8, 1197–1215 (2007).
+  volume: '8'
+  year: '2007'
+- author: J Tompson
+  unstructured: "Tompson, J., Goroshin, R. R., Jain, A., LeCun, Y. Y. & Bregler, C.\
+    \ C. Efficient object localization using convolutional networks. In Proc. Conference\
+    \ on Computer Vision and Pattern Recognition \n                    http://arxiv.org/abs/1411.4280\n\
+    \                    \n                   (2014)."
+  volume-title: Proc. Conference on Computer Vision and Pattern Recognition
+  year: '2014'
+- author: Y Taigman
+  first-page: '1701'
+  unstructured: 'Taigman, Y., Yang, M., Ranzato, M. & Wolf, L. Deepface: closing the
+    gap to human-level performance in face verification. In Proc. Conference on Computer
+    Vision and Pattern Recognition 1701–1708 (2014).'
+  volume-title: Proc. Conference on Computer Vision and Pattern Recognition
+  year: '2014'
+- author: R Hadsell
+  doi: 10.1002/rob.20276
+  first-page: '120'
+  journal-title: J. Field Robot.
+  unstructured: Hadsell, R. et al. Learning long-range vision for autonomous off-road
+    driving. J. Field Robot. 26, 120–144 (2009).
+  volume: '26'
+  year: '2009'
+- author: C Farabet
+  unstructured: "Farabet, C., Couprie, C., Najman, L. & LeCun, Y. Scene parsing with\
+    \ multiscale feature learning, purity trees, and optimal covers. In Proc. International\
+    \ Conference on Machine Learning \n                    http://arxiv.org/abs/1202.2160\n\
+    \                    \n                   (2012)."
+  volume-title: Proc. International Conference on Machine Learning
+  year: '2012'
+- author: N Srivastava
+  first-page: '1929'
+  journal-title: J. Machine Learning Res.
+  unstructured: 'Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I. & Salakhutdinov,
+    R. Dropout: a simple way to prevent neural networks from overfitting. J. Machine
+    Learning Res. 15, 1929–1958 (2014).'
+  volume: '15'
+  year: '2014'
+- author: P Sermanet
+  unstructured: "Sermanet, P. et al. Overfeat: integrated recognition, localization\
+    \ and detection using convolutional networks. In Proc. International Conference\
+    \ on Learning Representations \n                    http://arxiv.org/abs/1312.6229\n\
+    \                    \n                   (2014)."
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2014'
+- author: R Girshick
+  first-page: '580'
+  unstructured: Girshick, R., Donahue, J., Darrell, T. & Malik, J. Rich feature hierarchies
+    for accurate object detection and semantic segmentation. In Proc. Conference on
+    Computer Vision and Pattern Recognition 580–587 (2014).
+  volume-title: Proc. Conference on Computer Vision and Pattern Recognition
+  year: '2014'
+- author: K Simonyan
+  unstructured: "Simonyan, K. & Zisserman, A. Very deep convolutional networks for\
+    \ large-scale image recognition. In Proc. International Conference on Learning\
+    \ Representations \n                    http://arxiv.org/abs/1409.1556\n     \
+    \               \n                   (2014)."
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2014'
+- author: B Boser
+  doi: 10.1109/4.104196
+  first-page: '2017'
+  journal-title: J. Solid State Circuits
+  unstructured: Boser, B., Sackinger, E., Bromley, J., LeCun, Y. & Jackel, L. An analog
+    neural network processor with programmable topology. J. Solid State Circuits 26,
+    2017–2025 (1991).
+  volume: '26'
+  year: '1991'
+- author: C Farabet
+  doi: 10.1017/CBO9781139042918.020
+  first-page: '399'
+  unstructured: 'Farabet, C. et al. Large-scale FPGA-based convolutional networks.
+    In Scaling up Machine Learning: Parallel and Distributed Approaches (eds Bekkerman,
+    R., Bilenko, M. & Langford, J.) 399–419 (Cambridge Univ. Press, 2011).'
+  volume-title: 'Scaling up Machine Learning: Parallel and Distributed Approaches'
+  year: '2011'
+- author: Y Bengio
+  unstructured: Bengio, Y. Learning Deep Architectures for AI (Now, 2009).
+  volume-title: Learning Deep Architectures for AI
+  year: '2009'
+- author: G Montufar
+  first-page: '321'
+  journal-title: J. Discrete Math.
+  unstructured: Montufar, G. & Morton, J. When does a mixture of products contain
+    a product of mixtures? J. Discrete Math. 29, 321–347 (2014).
+  volume: '29'
+  year: '2014'
+- author: GF Montufar
+  first-page: '2924'
+  unstructured: Montufar, G. F., Pascanu, R., Cho, K. & Bengio, Y. On the number of
+    linear regions of deep neural networks. In Proc. Advances in Neural Information
+    Processing Systems 27 2924–2932 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: Y Bengio
+  first-page: '932'
+  unstructured: Bengio, Y., Ducharme, R. & Vincent, P. A neural probabilistic language
+    model. In Proc. Advances in Neural Information Processing Systems 13 932–938 (2001).
+    This paper introduced neural language models, which learn to convert a word symbol
+    into a word vector or word embedding composed of learned semantic features in
+    order to predict the next word in a sequence.
+  volume-title: Proc. Advances in Neural Information Processing Systems 13
+  year: '2001'
+- author: K Cho
+  first-page: '1724'
+  unstructured: Cho, K. et al. Learning phrase representations using RNN encoder-decoder
+    for statistical machine translation. In Proc. Conference on Empirical Methods
+    in Natural Language Processing 1724–1734 (2014).
+  volume-title: Proc. Conference on Empirical Methods in Natural Language Processing
+  year: '2014'
+- author: H Schwenk
+  doi: 10.1016/j.csl.2006.09.003
+  first-page: '492'
+  journal-title: Computer Speech Lang.
+  unstructured: Schwenk, H. Continuous space language models. Computer Speech Lang.
+    21, 492–518 (2007).
+  volume: '21'
+  year: '2007'
+- author: R Socher
+  first-page: '129'
+  unstructured: Socher, R., Lin, C. C-Y., Manning, C. & Ng, A. Y. Parsing natural
+    scenes and natural language with recursive neural networks. In Proc. International
+    Conference on Machine Learning 129–136 (2011).
+  volume-title: Proc. International Conference on Machine Learning
+  year: '2011'
+- author: T Mikolov
+  first-page: '3111'
+  unstructured: Mikolov, T., Sutskever, I., Chen, K., Corrado, G. & Dean, J. Distributed
+    representations of words and phrases and their compositionality. In Proc. Advances
+    in Neural Information Processing Systems 26 3111–3119 (2013).
+  volume-title: Proc. Advances in Neural Information Processing Systems 26
+  year: '2013'
+- author: D Bahdanau
+  unstructured: "Bahdanau, D., Cho, K. & Bengio, Y. Neural machine translation by\
+    \ jointly learning to align and translate. In Proc. International Conference on\
+    \ Learning Representations \n                    http://arxiv.org/abs/1409.0473\n\
+    \                    \n                   (2015)."
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2015'
+- unstructured: Hochreiter, S. Untersuchungen zu dynamischen neuronalen Netzen [in
+    German] Diploma thesis, T.U. Münich (1991).
+- author: Y Bengio
+  doi: 10.1109/72.279181
+  first-page: '157'
+  journal-title: IEEE Trans. Neural Networks
+  unstructured: Bengio, Y., Simard, P. & Frasconi, P. Learning long-term dependencies
+    with gradient descent is difficult. IEEE Trans. Neural Networks 5, 157–166 (1994).
+  volume: '5'
+  year: '1994'
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  unstructured: Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput.
+    9, 1735–1780 (1997). This paper introduced LSTM recurrent networks, which have
+    become a crucial ingredient in recent advances with recurrent networks because
+    they are good at learning long-range dependencies.
+  volume: '9'
+  year: '1997'
+- author: S ElHihi
+  unstructured: "ElHihi, S. & Bengio, Y. Hierarchical recurrent neural networks for\
+    \ long-term dependencies. In Proc. Advances in Neural Information Processing Systems\
+    \ 8 \n                    http://papers.nips.cc/paper/1102-hierarchical-recurrent-neural-networks-for-long-term-dependencies\n\
+    \                    \n                   (1995)."
+  volume-title: Proc. Advances in Neural Information Processing Systems 8
+  year: '1995'
+- author: I Sutskever
+  unstructured: Sutskever, I. Training Recurrent Neural Networks. PhD thesis, Univ.
+    Toronto (2012).
+  volume-title: Training Recurrent Neural Networks
+  year: '2012'
+- author: R Pascanu
+  first-page: '1310'
+  unstructured: Pascanu, R., Mikolov, T. & Bengio, Y. On the difficulty of training
+    recurrent neural networks. In Proc. 30th International Conference on Machine Learning
+    1310–1318 (2013).
+  volume-title: Proc. 30th International Conference on Machine Learning
+  year: '2013'
+- author: I Sutskever
+  first-page: '1017'
+  unstructured: Sutskever, I., Martens, J. & Hinton, G. E. Generating text with recurrent
+    neural networks. In Proc. 28th International Conference on Machine Learning 1017–1024
+    (2011).
+  volume-title: Proc. 28th International Conference on Machine Learning
+  year: '2011'
+- author: G Lakoff
+  unstructured: Lakoff, G. & Johnson, M. Metaphors We Live By (Univ. Chicago Press,
+    2008).
+  volume-title: Metaphors We Live By
+  year: '2008'
+- author: TT Rogers
+  doi: 10.7551/mitpress/6161.001.0001
+  unstructured: 'Rogers, T. T. & McClelland, J. L. Semantic Cognition: A Parallel
+    Distributed Processing Approach (MIT Press, 2004).'
+  volume-title: 'Semantic Cognition: A Parallel Distributed Processing Approach'
+  year: '2004'
+- author: K Xu
+  unstructured: "Xu, K. et al. Show, attend and tell: Neural image caption generation\
+    \ with visual attention. In Proc. International Conference on Learning Representations\
+    \ \n                    http://arxiv.org/abs/1502.03044\n                    \n\
+    \                   (2015)."
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2015'
+- author: A Graves
+  first-page: '6645'
+  unstructured: Graves, A., Mohamed, A.-R. & Hinton, G. Speech recognition with deep
+    recurrent neural networks. In Proc. International Conference on Acoustics, Speech
+    and Signal Processing 6645–6649 (2013).
+  volume-title: Proc. International Conference on Acoustics, Speech and Signal Processing
+  year: '2013'
+- unstructured: "Graves, A., Wayne, G. & Danihelka, I. Neural Turing machines. \n\
+    \                    http://arxiv.org/abs/1410.5401\n                    \n  \
+    \                 (2014)."
+- unstructured: "Weston, J. Chopra, S. & Bordes, A. Memory networks. \n          \
+    \          http://arxiv.org/abs/1410.3916\n                    \n            \
+    \       (2014)."
+- unstructured: "Weston, J., Bordes, A., Chopra, S. & Mikolov, T. Towards AI-complete\
+    \ question answering: a set of prerequisite toy tasks. \n                    http://arxiv.org/abs/1502.05698\n\
+    \                    \n                   (2015)."
+- author: GE Hinton
+  doi: 10.1126/science.7761831
+  first-page: '1558'
+  journal-title: Science
+  unstructured: Hinton, G. E., Dayan, P., Frey, B. J. & Neal, R. M. The wake-sleep
+    algorithm for unsupervised neural networks. Science 268, 1558–1161 (1995).
+  volume: '268'
+  year: '1995'
+- author: R Salakhutdinov
+  first-page: '448'
+  unstructured: Salakhutdinov, R. & Hinton, G. Deep Boltzmann machines. In Proc. International
+    Conference on Artificial Intelligence and Statistics 448–455 (2009).
+  volume-title: Proc. International Conference on Artificial Intelligence and Statistics
+  year: '2009'
+- author: P Vincent
+  first-page: '1096'
+  unstructured: Vincent, P., Larochelle, H., Bengio, Y. & Manzagol, P.-A. Extracting
+    and composing robust features with denoising autoencoders. In Proc. 25th International
+    Conference on Machine Learning 1096–1103 (2008).
+  volume-title: Proc. 25th International Conference on Machine Learning
+  year: '2008'
+- author: K Kavukcuoglu
+  first-page: '1090'
+  unstructured: Kavukcuoglu, K. et al. Learning convolutional feature hierarchies
+    for visual recognition. In Proc. Advances in Neural Information Processing Systems
+    23 1090–1098 (2010).
+  volume-title: Proc. Advances in Neural Information Processing Systems 23
+  year: '2010'
+- author: K Gregor
+  first-page: '399'
+  unstructured: Gregor, K. & LeCun, Y. Learning fast approximations of sparse coding.
+    In Proc. International Conference on Machine Learning 399–406 (2010).
+  volume-title: Proc. International Conference on Machine Learning
+  year: '2010'
+- author: M Ranzato
+  doi: 10.1109/TPAMI.2013.29
+  first-page: '2206'
+  journal-title: IEEE Trans. Pattern Anal. Machine Intell.
+  unstructured: Ranzato, M., Mnih, V., Susskind, J. M. & Hinton, G. E. Modeling natural
+    images using gated MRFs. IEEE Trans. Pattern Anal. Machine Intell. 35, 2206–2222
+    (2013).
+  volume: '35'
+  year: '2013'
+- author: Y Bengio
+  first-page: '226'
+  unstructured: Bengio, Y., Thibodeau-Laufer, E., Alain, G. & Yosinski, J. Deep generative
+    stochastic networks trainable by backprop. In Proc. 31st International Conference
+    on Machine Learning 226–234 (2014).
+  volume-title: Proc. 31st International Conference on Machine Learning
+  year: '2014'
+- author: D Kingma
+  first-page: '3581'
+  unstructured: Kingma, D., Rezende, D., Mohamed, S. & Welling, M. Semi-supervised
+    learning with deep generative models. In Proc. Advances in Neural Information
+    Processing Systems 27 3581–3589 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: J Ba
+  unstructured: "Ba, J., Mnih, V. & Kavukcuoglu, K. Multiple object recognition with\
+    \ visual attention. In Proc. International Conference on Learning Representations\
+    \ \n                    http://arxiv.org/abs/1412.7755\n                    \n\
+    \                   (2014)."
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2014'
+- author: V Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  journal-title: Nature
+  unstructured: Mnih, V. et al. Human-level control through deep reinforcement learning.
+    Nature 518, 529–533 (2015).
+  volume: '518'
+  year: '2015'
+- author: L Bottou
+  doi: 10.1007/s10994-013-5335-x
+  first-page: '133'
+  journal-title: Mach. Learn.
+  unstructured: Bottou, L. From machine learning to machine reasoning. Mach. Learn.
+    94, 133–149 (2014).
+  volume: '94'
+  year: '2014'
+- author: O Vinyals
+  unstructured: "Vinyals, O., Toshev, A., Bengio, S. & Erhan, D. Show and tell: a\
+    \ neural image caption generator. In Proc. International Conference on Machine\
+    \ Learning \n                    http://arxiv.org/abs/1502.03044\n           \
+    \         \n                   (2014)."
+  volume-title: Proc. International Conference on Machine Learning
+  year: '2014'
+- author: L van der Maaten
+  first-page: '2579'
+  journal-title: J. Mach. Learn.Research
+  unstructured: van der Maaten, L. & Hinton, G. E. Visualizing data using t-SNE. J.
+    Mach. Learn.Research 9, 2579–2605 (2008).
+  volume: '9'
+  year: '2008'
+doc_url: http://www.nature.com/articles/nature14539
+doi: 10.1038/nature14539
+files:
+- lecun-yann-and-bengio-yoshua-and-hinton-geoffreydeep-learning2015.data
+issue: '7553'
+journal: Nature
+language: en
+month: 5
+pages: 436--444
+publisher: Springer Science and Business Media LLC
+title: Deep learning
+type: article
+url: http://dx.doi.org/10.1038/nature14539
+volume: '521'
+year: 2015

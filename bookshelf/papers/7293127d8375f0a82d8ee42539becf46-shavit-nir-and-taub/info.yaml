@@ -1,0 +1,227 @@
+author: Shavit, Nir and Taubenfeld, Gadi
+author_list:
+- affiliation: []
+  family: Shavit
+  given: Nir
+- affiliation: []
+  family: Taubenfeld
+  given: Gadi
+citations:
+- author: SV Adve
+  doi: 10.1109/2.546611
+  first-page: '66'
+  issue: '12'
+  journal-title: IEEE Comput.
+  unstructured: 'Adve, S.V., Gharachorloo, K.: Shared memory consistency models: a
+    tutorial. IEEE Comput. 29(12), 66–76 (1996)'
+  volume: '29'
+  year: '1996'
+- doi: 10.1007/978-3-642-15291-7_16
+  unstructured: 'Afek, Y., Korland, G., Natanzon, M., Shavit, N.: Scalable producer-consumer
+    pools based on elimination-diffraction trees. In: Proceedings of the 16th International
+    Euro-Par Conference on Parallel Processing: Part II, Euro-Par’10, pp. 151–162,
+    (2010)'
+- doi: 10.1007/978-3-642-17653-1_29
+  unstructured: 'Afek, Y., Korland, G., Yanovsky, E.: Quasi-linearizability: relaxed
+    consistency for improved concurrency. In: Proceedings of the 14th International
+    Conference on Principles of Distributed Systems, OPODIS’10, pp. 395–410 (2010)'
+- author: H Attiya
+  doi: 10.1145/1538902.1538908
+  first-page: '1'
+  issue: '4'
+  journal-title: J. ACM
+  unstructured: 'Attiya, H., Guerraoui, R., Hendler, D., Kuznetsov, P.: The complexity
+    of obstruction-free implementations. J. ACM 56(4), 1–33 (2009)'
+  volume: '56'
+  year: '2009'
+- doi: 10.1145/167088.167119
+  unstructured: 'Borowsky, E., Gafni, E.: Generalizecl FLP impossibility result for
+    $$t$$ t -resilient asynchronous computations. In: Proceedings of 25th ACM Symposium
+    on Theory of Computing, pp. 91–100 (1993)'
+- author: F Ellen
+  doi: 10.1137/08072646X
+  first-page: '519'
+  issue: '3'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Ellen, F., Hendler, D., Shavit, N.: On the inherent sequentiality
+    of concurrent objects. SIAM J. Comput. 41(3), 519–536 (2012)'
+  volume: '41'
+  year: '2012'
+- author: MJ Fischer
+  doi: 10.1145/3149.214121
+  first-page: '374'
+  issue: '2'
+  journal-title: J. ACM
+  unstructured: 'Fischer, M.J., Lynch, N.A., Paterson, M.S.: Impossibility of distributed
+    consensus with one faulty process. J. ACM 32(2), 374–382 (1985)'
+  volume: '32'
+  year: '1985'
+- doi: 10.1145/2312005.2312035
+  unstructured: 'Gidron, E., Keidar, I., Perelman, D., Perez, Yonathan Y.: Salsa:
+    scalable and low synchronization numa-aware algorithm for producer-consumer pools.
+    In: Proceeding of 24th Annual ACM Symposium on Parallelism in Algorithms and Architectures,
+    SPAA ’12, pp. 151–160 (2012)'
+- author: T Henzinger
+  doi: 10.1145/2480359.2429109
+  first-page: '317'
+  issue: '1'
+  journal-title: SIGPLAN Not.
+  unstructured: 'Henzinger, T., Kirsch, C., Payer, H., Sezgin, A., Sokolova, A.: Quantitative
+    relaxation of concurrent data structures. SIGPLAN Not. 48(1), 317–328 (2013)'
+  volume: '48'
+  year: '2013'
+- author: M Herlihy
+  unstructured: 'Herlihy, M., Shavit, N.: The Art of Multiprocessor Programming. Morgan
+    Kaufmann Publishers, Burlington (2008)'
+  volume-title: The Art of Multiprocessor Programming
+  year: '2008'
+- author: MP Herlihy
+  doi: 10.1145/114005.102808
+  first-page: '124'
+  issue: '1'
+  journal-title: ACM Trans. Program. Lang. Syst.
+  unstructured: 'Herlihy, M.P.: Wait-free synchronization. ACM Trans. Program. Lang.
+    Syst. 13(1), 124–149 (1991)'
+  volume: '13'
+  year: '1991'
+- doi: 10.1109/ICDCS.2003.1203503
+  unstructured: 'Herlihy, M.P., Luchangco, V., Moir, M.: Obstruction-free synchronization:
+    double-ended queues as an example. In: Proceedings of the 23rd International Conference
+    on Distributed Computing Systems, p. 522 (2003)'
+- author: MP Herlihy
+  doi: 10.1145/331524.331529
+  first-page: '858'
+  issue: '6'
+  journal-title: J. ACM
+  unstructured: 'Herlihy, M.P., Shavit, N.: The topological structure of asynchronous
+    computability. J. ACM 46(6), 858–923 (1999)'
+  volume: '46'
+  year: '1999'
+- author: MP Herlihy
+  doi: 10.1145/78969.78972
+  first-page: '463'
+  issue: '3'
+  journal-title: ACM Trans. Program. Lang. Syst.
+  unstructured: 'Herlihy, M.P., Wing, J.M.: Linearizability: a correctness condition
+    for concurrent objects. ACM Trans. Program. Lang. Syst. 12(3), 463–492 (1990)'
+  volume: '12'
+  year: '1990'
+- doi: 10.1007/3-540-56188-9_5
+  unstructured: 'Jayanti, P., Toueg, S.: Some results on the impossibility, universality,
+    and decidability of consensus. In: Proceedings of the 6th International Workshop
+    on Distributed Algorithms: LNCS 674, pp. 69–84 (1992)'
+- doi: 10.1007/978-3-642-33078-0_20
+  unstructured: 'Kirsch, C., Payer, H., Röck, H., Sokolova, A.: Performance, scalability,
+    and semantics of concurrent fifo queues. In: Proceedings of the 12th International
+    Conference on Algorithms and Architectures for Parallel Processing—Volume Part
+    I, LNCS 7439, pp. 273–287 (2012)'
+- author: L Lamport
+  doi: 10.1109/TC.1979.1675439
+  first-page: '690'
+  issue: '9'
+  journal-title: IEEE Trans. Comput.
+  unstructured: 'Lamport, L.: How to make a multiprocessor computer that correctly
+    executes multiprocess programs. IEEE Trans. Comput. 28(9), 690–691 (1979)'
+  volume: '28'
+  year: '1979'
+- author: L Lamport
+  doi: 10.1145/5383.5384
+  first-page: '313'
+  journal-title: J. ACM
+  unstructured: 'Lamport, L.: The mutual exclusion problem: part I—a theory of interprocess
+    communication. J. ACM 33, 313–326 (1986)'
+  volume: '33'
+  year: '1986'
+- author: L Lamport
+  doi: 10.1145/5383.5385
+  first-page: '327'
+  journal-title: J. ACM
+  unstructured: 'Lamport, L.: The mutual exclusion problem: part II—statement and
+    solutions. J. ACM 33, 327–348 (1986)'
+  volume: '33'
+  year: '1986'
+- author: L Lamport
+  doi: 10.1007/BF01786227
+  first-page: '77'
+  issue: '2'
+  journal-title: Distrib. Comput.
+  unstructured: 'Lamport, L.: On interprocess communication, parts I and II. Distrib.
+    Comput. 1(2), 77–101 (1986)'
+  volume: '1'
+  year: '1986'
+- author: MC Loui
+  first-page: '163'
+  journal-title: Adv. Comput. Res.
+  unstructured: 'Loui, M.C., Abu-Amara, H.: Memory requirements for agreement among
+    unreliable asynchronous processes. Adv. Comput. Res. 4, 163–183 (1987)'
+  volume: '4'
+  year: '1987'
+- author: PE McKenney
+  first-page: '2'
+  journal-title: Linux J.
+  unstructured: 'McKenney, P.E.: Memory ordering in modern microprocessors, part i.
+    Linux J. 136, 2 (2005). (Revised April 2009.)'
+  volume: '136'
+  year: '2005'
+- author: PE McKenney
+  first-page: '2'
+  journal-title: Linux J.
+  unstructured: 'McKenney, P.E.: Memory ordering in modern microprocessors, part ii.
+    Linux J. 137, 2 (2005). (Revised April 2009.)'
+  volume: '137'
+  year: '2005'
+- unstructured: 'Mckenney, P.E.: Memory barriers: a hardware view for software hackers
+    (2009, unpublished)'
+- doi: 10.1145/322186.322188
+  unstructured: 'Pease, M., Shostak, R., Lamport, L.: Reaching agreement in the presence
+    of faults. J. ACM 27(2), 228–234 (1980)'
+- author: M Saks
+  doi: 10.1137/S0097539796307698
+  first-page: '1449'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Saks, M., Zaharoglou, F.: Wait-free $$k$$ k -set agreement is impossible:
+    the topology of public knowledge. SIAM J. Comput. 29, 1449–1483 (2000)'
+  volume: '29'
+  year: '2000'
+- author: N Shavit
+  doi: 10.1145/1897852.1897873
+  first-page: '76'
+  issue: '3'
+  journal-title: Commun. ACM
+  unstructured: 'Shavit, N.: Data structures in the multicore age. Commun. ACM 54(3),
+    76–84 (2011)'
+  volume: '54'
+  year: '2011'
+- doi: 10.1007/978-3-319-25258-2_29
+  unstructured: 'Shavit, N., Taubenfeld, G.: The computability of relaxed data structures:
+    queues and stacks as examples. In: 22nd International Colloquium on Structural
+    Information and Communication Complexity (SIROCCO 2015) (July 2015)'
+- doi: 10.1145/1989493.1989550
+  unstructured: 'Sundell, H., Gidenstam, A., Papatriantafilou, M., Tsigas, P.: A lock-free
+    algorithm for concurrent bags. In: Proceedings of the Twenty-third Annual ACM
+    Symposium on Parallelism in Algorithms and Architectures, SPAA ’11, pp. 335–344
+    (2011)'
+- author: G Taubenfeld
+  unstructured: 'Taubenfeld, G.: Synchronization Algorithms and Concurrent Programming.
+    Pearson / Prentice-Hall, Upper Saddle River (2006). ISBN 0-131-97259-6'
+  volume-title: Synchronization Algorithms and Concurrent Programming
+  year: '2006'
+- doi: 10.1007/978-3-642-35668-1_29
+  unstructured: 'Taubenfeld, G.: Weak read/write registers. In: 14th International
+    Conference on Distributed Computing and Networking (ICDCN 2013), January 2013.
+    LNCS 7730 Springer Verlag 2013, 423–427. Full version is avaliable at: http://www.faculty.idc.ac.il/gadi/Publications.htm'
+doc_url: http://link.springer.com/article/10.1007/s00446-016-0272-0/fulltext.html
+doi: 10.1007/s00446-016-0272-0
+files:
+- shavit-nir-and-taubenfeld-gadithe-computability-of-relaxed-data-structures-queues-and-stacks-as-examples2016.data
+issue: '5'
+journal: Distributed Computing
+language: en
+month: 10
+pages: 395--407
+publisher: Springer Science and Business Media LLC
+title: 'The computability of relaxed data structures: queues and stacks as examples'
+type: article
+url: http://dx.doi.org/10.1007/s00446-016-0272-0
+volume: '29'
+year: 2016

@@ -1,0 +1,34 @@
+abstract: Neural machine translation is a relatively new approach to statistical machine
+  translation based purely on neural networks. The neural machine translation models
+  often consist of an encoder and a decoder. The encoder extracts a fixed-length representation
+  from a variable-length input sentence, and the decoder generates a correct translation
+  from this representation. In this paper, we focus on analyzing the properties of
+  the neural machine translation using two models; RNN Encoder--Decoder and a newly
+  proposed gated recursive convolutional neural network. We show that the neural machine
+  translation performs relatively well on short sentences without unknown words, but
+  its performance degrades rapidly as the length of the sentence and the number of
+  unknown words increase. Furthermore, we find that the proposed gated recursive convolutional
+  network learns a grammatical structure of a sentence automatically.
+archiveprefix: arXiv
+author: Cho, Kyunghyun and van Merrienboer, Bart and Bahdanau, Dzmitry and Bengio,
+  Yoshua
+author_list:
+- family: Cho
+  given: Kyunghyun
+- family: van Merrienboer
+  given: Bart
+- family: Bahdanau
+  given: Dzmitry
+- family: Bengio
+  given: Yoshua
+eprint: 1409.1259v2
+file: 1409.1259v2.pdf
+files:
+- cho-kyunghyun-and-van-merrienboer-bart-and-bahdanau-dzmitry-and-bengio-yoshuaon-the-properties-of-neural-machine-translation-encoder-decoder-ap.pdf
+month: Sep
+primaryclass: cs.CL
+ref: 1409.1259v2
+title: 'On the Properties of Neural Machine Translation: Encoder-Decoder   Approaches'
+type: article
+url: http://arxiv.org/abs/1409.1259v2
+year: '2014'

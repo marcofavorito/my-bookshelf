@@ -1,0 +1,103 @@
+author: Moir, Mark
+author_list:
+- affiliation: []
+  family: Moir
+  given: Mark
+citations:
+- doi: 10.1109/ISCA.1989.714578
+  unstructured: 'Agarwal A, Cherian M (1989) Adaptive backoff synchronization techniques.
+    In: Proceedings of the 16th annual international symposium on computer architecture.
+    ACM Press, New York, pp 396–406'
+- doi: 10.1007/11864219_37
+  unstructured: 'Aguilera MK, Frolund S, Hadzilacos V, Horn SL, Toueg S (2006) Brief
+    announcement: abortable and query-abortable objects. In: Proceedings of the 20th
+    annual international symposium on distributed computing'
+- doi: 10.1145/1146381.1146427
+  unstructured: 'Attiya H, Guerraoui R, Hendler D, Kouznetsov P (2006) Synchronizing
+    without locks is inherently expensive. In: PODC’06: proceedings of the twenty-fifth
+    annual ACM symposium on principles of distributed computing. ACM Press, New York,
+    pp 300–307'
+- doi: 10.1007/11561927_11
+  unstructured: 'Attiya H, Guerraoui R, Kouznetsov P (2005) Computing with reads and
+    writes in the absence of step contention. In: Proceedings of the 19th annual international
+    symposium on distributed computing'
+- doi: 10.1145/1168857.1168900
+  unstructured: 'Damron P, Fedorova A, Lev Y, Luchangco V, Moir M, Nussbaum D (2006)
+    Hybrid transactional memory. In: Proceedings of the 12th symposium on architectural
+    support for programming languages and operating systems'
+- doi: 10.1007/11561927_37
+  unstructured: 'Fich F, Luchangco V, Moir M, Shavit N (2005) Brief announcement:
+    obstruction-free step complexity: lock-free DCAS as an example. In: Proceedings
+    of the 19th annual international symposium on distributed computing'
+- doi: 10.1007/11561927_8
+  unstructured: 'Fich F, Luchangco V, Moir M, Shavit N (2005) Obstruction-free algorithms
+    can be practically wait-free. In: Proceedings of the 19th annual international
+    symposium on distributed computing'
+- unstructured: Fraser K, Harris T (2004) Concurrent programming without locks. http://www.cl.cam.ac.uk/netos/papers/2004-cpwl-submission.pdf
+- doi: 10.1007/11561927_23
+  unstructured: 'Guerraoui R, Herlihy M, Pochon B (2005) Polymorphic contention management.
+    In: Proceedings of the 19th annual international symposium on distributed computing'
+- doi: 10.1145/1073814.1073863
+  unstructured: 'Guerraoui R, Herlihy M, Pochon B (2005) Toward a theory of transactional
+    contention managers. In: Proceedings of the 24th annual ACM symposium on principles
+    of distributed computing, pp 258–264'
+- doi: 10.1007/11864219_28
+  unstructured: 'Guerraoui R, Kapalka M, Kouznetsov P (2006) The weakest failure detector
+    to boost obstruction freedom. In: Proceedings of the 20th annual international
+    symposium on distributed computing'
+- doi: 10.1145/114005.102808
+  unstructured: Herlihy M (1991) Wait-free synchronization. ACM Trans Program Lang
+    Syst 13(1):124–149
+- doi: 10.1145/161468.161469
+  unstructured: Herlihy M (1993) A methodology for implementing highly concurrent
+    data objects. ACM Trans Program Lang Syst 15(5):745–770
+- unstructured: Herlihy M, Luchangco V, Moir M (2002) Obstruction-free mechanism for
+    atomic update of multiple non-contiguous locations in shared memory. US Patent
+    Application 20040034673
+- doi: 10.1109/ICDCS.2003.1203503
+  unstructured: 'Herlihy M, Luchangco V, Moir M (2003) Obstruction-free synchronization:
+    double-ended queues as an example. In: Proceedings of the 23rd international conference
+    on distributed computing systems'
+- unstructured: 'Herlihy M, Luchangco V, Moir M, Scherer W III (2003) Software transactional
+    memory for supporting dynamic-sized data structures. In: Proceedings of the 22th
+    annual ACM symposium on principles of distributed computing, pp 92–101'
+- doi: 10.1145/165123.165164
+  unstructured: 'Herlihy M, Moss JEB (1993) Transactional memory: architectural support
+    for lock-free data structures. In: Proceedings of the 20th annual international
+    symposium on computer architecture, pp 289–300'
+- unstructured: 'Luchangco V, Moir M, Shavit N (2005) On the uncontended complexity
+    of consensus. In: Proceedings of the 17th annual international symposium on distributed
+    computing'
+- doi: 10.1145/1345206.1345240
+  unstructured: 'Marathe VJ, Moir M (2008) Toward high performance nonblocking software
+    transactional memory. In: Proceedings of the 13th ACM SIGPLAN symposium on principles
+    and practice of parallel programming. ACM, New York, pp 227–236'
+- doi: 10.1007/11561927_26
+  unstructured: 'Marathe V, Scherer W, Scott M (2005) Adaptive software transactional
+    memory. In: Proceedings of the 19th annual international symposium on distributed
+    computing'
+- doi: 10.1006/jpdc.1998.1446
+  unstructured: Michael M, Scott M (1998) Nonblocking algorithms and preemption-safe
+    locking on multiprogrammed shared memory multiprocessors. J Parallel Distrib Comput
+    51(1):1–26
+- doi: 10.1145/1073814.1073861
+  unstructured: 'Scherer W, Scott M (2005) Advanced contention management for dynamic
+    software transactional memory. In: Proceedings of the 24th annual ACM symposium
+    on principles of distributed computing'
+- doi: 10.1007/s004460050028
+  unstructured: Shavit N, Touitou D (1997) Software transactional memory. Distrib
+    Comput Special Issue 10:99–116
+- unstructured: 'Treiber R (1986) Systems programming: coping with parallelism. Technical
+    Report RJ5118, IBM Almaden Research Center'
+doi: 10.1007/978-1-4939-2864-4_472
+isbn:
+- '9781493928637'
+- '9781493928644'
+journal: Encyclopedia of Algorithms
+month: 4
+pages: 2345--2351
+publisher: Springer New York
+title: Wait-Free Synchronization
+type: inbook
+url: http://dx.doi.org/10.1007/978-1-4939-2864-4_472
+year: 2016
