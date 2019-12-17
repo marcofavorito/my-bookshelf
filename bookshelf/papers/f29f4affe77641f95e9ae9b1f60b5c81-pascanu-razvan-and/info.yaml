@@ -1,0 +1,35 @@
+abstract: In this paper, we explore different ways to extend a recurrent neural network
+  (RNN) to a \textit{deep} RNN. We start by arguing that the concept of depth in an
+  RNN is not as clear as it is in feedforward neural networks. By carefully analyzing
+  and understanding the architecture of an RNN, however, we find three points of an
+  RNN which may be made deeper; (1) input-to-hidden function, (2) hidden-to-hidden
+  transition and (3) hidden-to-output function. Based on this observation, we propose
+  two novel architectures of a deep RNN which are orthogonal to an earlier attempt
+  of stacking multiple recurrent layers to build a deep RNN (Schmidhuber, 1992; El
+  Hihi and Bengio, 1996). We provide an alternative interpretation of these deep RNNs
+  using a novel framework based on neural operators. The proposed deep RNNs are empirically
+  evaluated on the tasks of polyphonic music prediction and language modeling. The
+  experimental result supports our claim that the proposed deep RNNs benefit from
+  the depth and outperform the conventional, shallow RNNs.
+archiveprefix: arXiv
+author: Pascanu, Razvan and Gulcehre, Caglar and Cho, Kyunghyun and Bengio, Yoshua
+author_list:
+- family: Pascanu
+  given: Razvan
+- family: Gulcehre
+  given: Caglar
+- family: Cho
+  given: Kyunghyun
+- family: Bengio
+  given: Yoshua
+eprint: 1312.6026v5
+file: 1312.6026v5.pdf
+files:
+- pascanu-razvan-and-gulcehre-caglar-and-cho-kyunghyun-and-bengio-yoshuahow-to-construct-deep-recurrent-neural-networks2013.pdf
+month: Dec
+primaryclass: cs.NE
+ref: 1312.6026v5
+title: How to Construct Deep Recurrent Neural Networks
+type: article
+url: http://arxiv.org/abs/1312.6026v5
+year: '2013'

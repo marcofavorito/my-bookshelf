@@ -1,0 +1,35 @@
+abstract: 'In this work we explore recent advances in Recurrent Neural Networks for
+  large scale Language Modeling, a task central to language understanding. We extend
+  current models to deal with two key challenges present in this task: corpora and
+  vocabulary sizes, and complex, long term structure of language. We perform an exhaustive
+  study on techniques such as character Convolutional Neural Networks or Long-Short
+  Term Memory, on the One Billion Word Benchmark. Our best single model significantly
+  improves state-of-the-art perplexity from 51.3 down to 30.0 (whilst reducing the
+  number of parameters by a factor of 20), while an ensemble of models sets a new
+  record by improving perplexity from 41.0 down to 23.7. We also release these models
+  for the NLP and ML community to study and improve upon.'
+archiveprefix: arXiv
+author: Jozefowicz, Rafal and Vinyals, Oriol and Schuster, Mike and Shazeer, Noam
+  and Wu, Yonghui
+author_list:
+- family: Jozefowicz
+  given: Rafal
+- family: Vinyals
+  given: Oriol
+- family: Schuster
+  given: Mike
+- family: Shazeer
+  given: Noam
+- family: Wu
+  given: Yonghui
+eprint: 1602.02410v2
+file: 1602.02410v2.pdf
+files:
+- jozefowicz-rafal-and-vinyals-oriol-and-schuster-mike-and-shazeer-noam-and-wu-yonghuiexploring-the-limits-of-language-modeling2016.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 1602.02410v2
+title: Exploring the Limits of Language Modeling
+type: article
+url: http://arxiv.org/abs/1602.02410v2
+year: '2016'

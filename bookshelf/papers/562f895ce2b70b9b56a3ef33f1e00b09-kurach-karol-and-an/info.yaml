@@ -1,0 +1,30 @@
+abstract: In this paper, we propose and investigate a new neural network architecture
+  called Neural Random Access Machine. It can manipulate and dereference pointers
+  to an external variable-size random-access memory. The model is trained from pure
+  input-output examples using backpropagation.   We evaluate the new model on a number
+  of simple algorithmic tasks whose solutions require pointer manipulation and dereferencing.
+  Our results show that the proposed model can learn to solve algorithmic tasks of
+  such type and is capable of operating on simple data structures like linked-lists
+  and binary trees. For easier tasks, the learned solutions generalize to sequences
+  of arbitrary length. Moreover, memory access during inference can be done in a constant
+  time under some assumptions.
+archiveprefix: arXiv
+author: Kurach, Karol and Andrychowicz, Marcin and Sutskever, Ilya
+author_list:
+- family: Kurach
+  given: Karol
+- family: Andrychowicz
+  given: Marcin
+- family: Sutskever
+  given: Ilya
+eprint: 1511.06392v3
+file: 1511.06392v3.pdf
+files:
+- kurach-karol-and-andrychowicz-marcin-and-sutskever-ilyaneural-random-access-machines2015.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1511.06392v3
+title: Neural Random-Access Machines
+type: article
+url: http://arxiv.org/abs/1511.06392v3
+year: '2015'

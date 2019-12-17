@@ -1,0 +1,31 @@
+abstract: 'The Neural Turing Machine (NTM) is more expressive than all previously
+  considered models because of its external memory. It can be viewed as a broader
+  effort to use abstract external Interfaces and to learn a parametric model that
+  interacts with them.   The capabilities of a model can be extended by providing
+  it with proper Interfaces that interact with the world. These external Interfaces
+  include memory, a database, a search engine, or a piece of software such as a theorem
+  verifier. Some of these Interfaces are provided by the developers of the model.
+  However, many important existing Interfaces, such as databases and search engines,
+  are discrete.   We examine feasibility of learning models to interact with discrete
+  Interfaces. We investigate the following discrete Interfaces: a memory Tape, an
+  input Tape, and an output Tape. We use a Reinforcement Learning algorithm to train
+  a neural network that interacts with such Interfaces to solve simple algorithmic
+  tasks. Our Interfaces are expressive enough to make our model Turing complete.'
+archiveprefix: arXiv
+author: Zaremba, Wojciech and Sutskever, Ilya
+author_list:
+- family: Zaremba
+  given: Wojciech
+- family: Sutskever
+  given: Ilya
+eprint: 1505.00521v3
+file: 1505.00521v3.pdf
+files:
+- zaremba-wojciech-and-sutskever-ilyareinforcement-learning-neural-turing-machines-revised2015.pdf
+month: May
+primaryclass: cs.LG
+ref: 1505.00521v3
+title: Reinforcement Learning Neural Turing Machines - Revised
+type: article
+url: http://arxiv.org/abs/1505.00521v3
+year: '2015'

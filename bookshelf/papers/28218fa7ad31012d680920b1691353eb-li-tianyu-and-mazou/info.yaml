@@ -1,0 +1,33 @@
+abstract: 'Learning and planning in partially-observable domains is one of the most
+  difficult problems in reinforcement learning. Traditional methods consider these
+  two problems as independent, resulting in a classical two-stage paradigm: first
+  learn the environment dynamics and then plan accordingly. This approach, however,
+  disconnects the two problems and can consequently lead to algorithms that are sample
+  inefficient and time consuming. In this paper, we propose a novel algorithm that
+  combines learning and planning together. Our algorithm is closely related to the
+  spectral learning algorithm for predicitive state representations and offers appealing
+  theoretical guarantees and time complexity. We empirically show on two domains that
+  our approach is more sample and time efficient compared to classical methods.'
+archiveprefix: arXiv
+author: Li, Tianyu and Mazoure, Bogdan and Precup, Doina and Rabusseau, Guillaume
+author_list:
+- family: Li
+  given: Tianyu
+- family: Mazoure
+  given: Bogdan
+- family: Precup
+  given: Doina
+- family: Rabusseau
+  given: Guillaume
+eprint: 1911.05010v2
+file: 1911.05010v2.pdf
+files:
+- li-tianyu-and-mazoure-bogdan-and-precup-doina-and-rabusseau-guillaumeefficient-planning-under-partial-observability-with-unnormalized-q-function.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1911.05010v2
+title: Efficient Planning under Partial Observability with Unnormalized Q   Functions
+  and Spectral Learning
+type: article
+url: http://arxiv.org/abs/1911.05010v2
+year: '2019'

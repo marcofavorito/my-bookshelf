@@ -1,0 +1,86 @@
+abstract: <jats:p>We consider the optimal stopping problem of maximizing the probability
+  of stopping on any of the last <jats:italic>m</jats:italic> successes of a sequence
+  of independent Bernoulli trials of length <jats:italic>n</jats:italic>, where <jats:italic>m</jats:italic>
+  and <jats:italic>n</jats:italic> are predetermined integers such that 1 ≤ <jats:italic>m</jats:italic>
+  &lt; <jats:italic>n</jats:italic>. The optimal stopping rule of this problem has
+  a nice interpretation, that is, it stops on the first success for which the sum
+  of the <jats:italic>m</jats:italic>-fold multiplicative odds of success for the
+  future trials is less than or equal to 1. This result can be viewed as a generalization
+  of Bruss' (2000) odds theorem. Application will be made to the secretary problem.
+  For more generality, we extend the problem in several directions in the same manner
+  that Ferguson (2008) used to extend the odds theorem. We apply this extended result
+  to the full-information analogue of the secretary problem, and derive the optimal
+  stopping rule and the probability of win explicitly. The asymptotic results, as
+  <jats:italic>n</jats:italic> tends to ∞, are also obtained via the planar Poisson
+  process approach.</jats:p>
+author: Tamaki, Mitsushi
+author_list:
+- affiliation: []
+  family: Tamaki
+  given: Mitsushi
+citations:
+- author: Chow
+  volume-title: 'Great Expectations: The Theory of Optimal Stopping'
+  year: '1971'
+- doi: 10.2307/2985407
+- article-title: A natural variation of the standard secretary problem
+  author: Hsiau
+  first-page: '639'
+  journal-title: Statistica Sinica
+  volume: '10'
+  year: '2000'
+- doi: 10.1137/1117078
+- doi: 10.1090/conm/125/1160621
+- doi: 10.1017/S0021900200022506
+- doi: 10.1007/978-1-4612-4304-5
+- doi: 10.1007/BF02759948
+- article-title: The optimal choice of the instant for stopping a Markov process
+  author: Dynkin
+  first-page: '627'
+  journal-title: Soviet Math. Dokl.
+  volume: '4'
+  year: '1963'
+- doi: 10.1002/9781118150412
+- doi: 10.1016/0304-4149(80)90013-7
+- doi: 10.1017/S002190020001559X
+- doi: 10.1017/S0001867800013537
+- article-title: 'The secretary problem of minimizing the expected rank: a simple
+    suboptimal approach with generalizations'
+  author: Krieger
+  doi: 10.1239/aap/1261669585
+  first-page: '1041'
+  journal-title: Adv. Appl. Prob.
+  volume: '41'
+  year: '2009'
+- doi: 10.1214/ss/1177012493
+- doi: 10.1017/S002190020000615X
+- doi: 10.2307/2325085
+- doi: 10.1214/aop/1176996936
+- doi: 10.1016/j.spa.2003.12.005
+- author: Samuels
+  first-page: '381'
+  volume-title: Handbook of Sequential Analysis
+  year: '1991'
+- doi: 10.1017/S0021900200100117
+- doi: 10.1214/aop/1068646368
+- doi: 10.1017/S0021900200005192
+- unstructured: Ferguson T. S. (2006). Optimal Stopping and Applications. Available
+    at http://www.math.ucla.edu/simtom/Stopping/Contents.html.
+- doi: 10.1214/aop/1019160340
+- doi: 10.1080/01621459.1966.10502008
+- doi: 10.1017/S0001867800003165
+- unstructured: Ferguson T. S. (2008). The sum-the-odds theorem with application to
+    a stopping game of Sakaguchi. Preprint.
+- doi: 10.1137/1111050
+doi: 10.1239/jap/1285335408
+issue: '3'
+journal: Journal of Applied Probability
+language: en
+month: 9
+pages: 761--777
+publisher: Cambridge University Press (CUP)
+title: Sum the Multiplicative Odds to One and Stop
+type: article
+url: http://dx.doi.org/10.1239/jap/1285335408
+volume: '47'
+year: 2010

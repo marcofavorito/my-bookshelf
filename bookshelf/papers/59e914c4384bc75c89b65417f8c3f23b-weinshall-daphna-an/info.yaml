@@ -1,0 +1,34 @@
+abstract: We provide theoretical investigation of curriculum learning in the context
+  of stochastic gradient descent when optimizing the convex linear regression loss.
+  We prove that the rate of convergence of an ideal curriculum learning method is
+  monotonically increasing with the difficulty of the examples. Moreover, among all
+  equally difficult points, convergence is faster when using points which incur higher
+  loss with respect to the current hypothesis. We then analyze curriculum learning
+  in the context of training a CNN. We describe a method which infers the curriculum
+  by way of transfer learning from another network, pre-trained on a different task.
+  While this approach can only approximate the ideal curriculum, we observe empirically
+  similar behavior to the one predicted by the theory, namely, a significant boost
+  in convergence speed at the beginning of training. When the task is made more difficult,
+  improvement in generalization performance is also observed. Finally, curriculum
+  learning exhibits robustness against unfavorable conditions such as excessive regularization.
+archiveprefix: arXiv
+author: Weinshall, Daphna and Cohen, Gad and Amir, Dan
+author_list:
+- family: Weinshall
+  given: Daphna
+- family: Cohen
+  given: Gad
+- family: Amir
+  given: Dan
+eprint: 1802.03796v4
+file: 1802.03796v4.pdf
+files:
+- weinshall-daphna-and-cohen-gad-and-amir-dancurriculum-learning-by-transfer-learning-theory-and-experiments-with-deep-networks2018.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1802.03796v4
+title: 'Curriculum Learning by Transfer Learning: Theory and Experiments with   Deep
+  Networks'
+type: article
+url: http://arxiv.org/abs/1802.03796v4
+year: '2018'

@@ -1,0 +1,45 @@
+abstract: The dominant sequence transduction models are based on complex recurrent
+  or convolutional neural networks in an encoder-decoder configuration. The best performing
+  models also connect the encoder and decoder through an attention mechanism. We propose
+  a new simple network architecture, the Transformer, based solely on attention mechanisms,
+  dispensing with recurrence and convolutions entirely. Experiments on two machine
+  translation tasks show these models to be superior in quality while being more parallelizable
+  and requiring significantly less time to train. Our model achieves 28.4 BLEU on
+  the WMT 2014 English-to-German translation task, improving over the existing best
+  results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation
+  task, our model establishes a new single-model state-of-the-art BLEU score of 41.8
+  after training for 3.5 days on eight GPUs, a small fraction of the training costs
+  of the best models from the literature. We show that the Transformer generalizes
+  well to other tasks by applying it successfully to English constituency parsing
+  both with large and limited training data.
+archiveprefix: arXiv
+author: Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and
+  Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia
+author_list:
+- family: Vaswani
+  given: Ashish
+- family: Shazeer
+  given: Noam
+- family: Parmar
+  given: Niki
+- family: Uszkoreit
+  given: Jakob
+- family: Jones
+  given: Llion
+- family: Gomez
+  given: Aidan N.
+- family: Kaiser
+  given: Lukasz
+- family: Polosukhin
+  given: Illia
+eprint: 1706.03762v5
+file: 1706.03762v5.pdf
+files:
+- vaswani-ashish-and-shazeer-noam-and-parmar-niki-and-uszkoreit-jakob-and-jones-llion-and-gomez-aidan-n.-and-kaiser-lukasz-and-polosukhin-illiaa.pdf
+month: Jun
+primaryclass: cs.CL
+ref: 1706.03762v5
+title: Attention Is All You Need
+type: article
+url: http://arxiv.org/abs/1706.03762v5
+year: '2017'

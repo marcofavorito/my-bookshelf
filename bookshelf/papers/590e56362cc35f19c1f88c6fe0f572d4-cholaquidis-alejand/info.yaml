@@ -1,0 +1,35 @@
+abstract: Semi-supervised learning deals with the problem of how, if possible, to
+  take advantage of a huge amount of unclassified data, to perform a classification
+  in situations when, typically, there is little labeled data. Even though this is
+  not always possible (it depends on how useful, for inferring the labels, it would
+  be to know the distribution of the unlabeled data), several algorithm have been
+  proposed recently. %but in general they are not proved to outperform   A new algorithm
+  is proposed, that under almost necessary conditions, %and it is proved that it attains
+  asymptotically the performance of the best theoretical rule as the amount of unlabeled
+  data tends to infinity. The set of necessary assumptions, although reasonable, show
+  that semi-supervised classification only works for very well conditioned problems.
+  The focus is on understanding when and why semi-supervised learning works when the
+  size of the initial training sample remains fixed and the asymptotic is on the size
+  of the unlabeled data. The performance of the algorithm is assessed in the well
+  known "Isolet" real-data of phonemes, where a strong dependence on the choice of
+  the initial training sample is shown.
+archiveprefix: arXiv
+author: Cholaquidis, Alejandro and Fraimand, Ricardo and Sued, Mariela
+author_list:
+- family: Cholaquidis
+  given: Alejandro
+- family: Fraimand
+  given: Ricardo
+- family: Sued
+  given: Mariela
+eprint: 1805.09180v3
+file: 1805.09180v3.pdf
+files:
+- cholaquidis-alejandro-and-fraimand-ricardo-and-sued-marielaon-semi-supervised-learning2018.pdf
+month: May
+primaryclass: stat.ML
+ref: 1805.09180v3
+title: On semi-supervised learning
+type: article
+url: http://arxiv.org/abs/1805.09180v3
+year: '2018'

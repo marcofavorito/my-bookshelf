@@ -1,0 +1,29 @@
+abstract: Training neural networks involves solving large-scale non-convex optimization
+  problems. This task has long been believed to be extremely difficult, with fear
+  of local minima and other obstacles motivating a variety of schemes to improve optimization,
+  such as unsupervised pretraining. However, modern neural networks are able to achieve
+  negligible training error on complex tasks, using only direct training with stochastic
+  gradient descent. We introduce a simple analysis technique to look for evidence
+  that such networks are overcoming local optima. We find that, in fact, on a straight
+  path from initialization to solution, a variety of state of the art neural networks
+  never encounter any significant obstacles.
+archiveprefix: arXiv
+author: Goodfellow, Ian J. and Vinyals, Oriol and Saxe, Andrew M.
+author_list:
+- family: Goodfellow
+  given: Ian J.
+- family: Vinyals
+  given: Oriol
+- family: Saxe
+  given: Andrew M.
+eprint: 1412.6544v6
+file: 1412.6544v6.pdf
+files:
+- goodfellow-ian-j.-and-vinyals-oriol-and-saxe-andrew-m.qualitatively-characterizing-neural-network-optimization-problems2014.pdf
+month: Dec
+primaryclass: cs.NE
+ref: 1412.6544v6
+title: Qualitatively characterizing neural network optimization problems
+type: article
+url: http://arxiv.org/abs/1412.6544v6
+year: '2014'

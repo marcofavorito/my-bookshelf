@@ -1,0 +1,677 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+    <meta name="citation_title" content="Representation and Reasoning about Evolutions of the World in the Context of Reasoning about Actions"/>
+    <meta name="citation_doi" content="10.1007/s11225-005-0493-x"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/article/10.1007/s11225-005-0493-x"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s11225-005-0493-x"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2Fs11225-005-0493-x.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s11225-005-0493-x&amp;api_key="/>
+    <meta name="citation_firstpage" content="33"/>
+    <meta name="citation_lastpage" content="46"/>
+    <meta name="citation_author" content="Chitta Baral"/>
+    <meta name="citation_author_institution" content="Arizona State University"/>
+    <meta name="citation_author_email" content="baral@asu.edu"/>
+    <meta name="citation_author" content="Nam Tran"/>
+    <meta name="citation_author_institution" content="Arizona State University"/>
+    <meta name="dc.identifier" content="10.1007/s11225-005-0493-x"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="The first step in reasoning about actions and change involves reasoning about how the world would evolve if a certain action is executed in a certain state. Most research on this assumes the..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Representation and Reasoning about Evolutions of the World in the Cont"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/11225/79/1.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="The first step in reasoning about actions and change involves reasoning about how the world would evolve if a certain action is executed in a certain state. Most research on this assumes the..."/>
+    <meta name="citation_journal_title" content="Studia Logica"/>
+    <meta name="citation_journal_abbrev" content="Stud Logica"/>
+    <meta name="citation_volume" content="79"/>
+    <meta name="citation_issue" content="1"/>
+    <meta name="citation_issn" content="0039-3215"/>
+    <meta name="citation_issn" content="1572-8730"/>
+    <meta name="citation_cover_date" content="2005/02/01"/>
+    <meta name="citation_article_type" content="Article"/>
+    <meta property="og:title" content="Representation and Reasoning about Evolutions of the World in the Context of Reasoning about Actions"/>
+    <meta property="og:type" content="Article"/>
+    <meta property="og:url" content="https://link.springer.com/article/10.1007/s11225-005-0493-x"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/journal/11225/79/1.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="The first step in reasoning about actions and change involves reasoning about how the world would evolve if a certain action is executed in a certain state. Most research on this assumes the..."/>
+
+        <title>Representation and Reasoning about Evolutions of the World in the Context of Reasoning about Actions | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/article/10.1007/s11225-005-0493-x"/>
+        <link rel="shortcut icon" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/632953562/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/632953562/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/632953562/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/632953562/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/632953562/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Article",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/s11225-005-0493-x",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-s11225-005-0493-x",
+                'hasAccess':"Y",
+                'Full HTML':"N",
+                'Has Body':"N",
+                'Static Hash':"632953562",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":["2000328745","3000155420","3000180852","3003532199"],"businessPartnerIDString":"2000328745|3000155420|3000180852|3003532199"}},
+                'content':{"serial":{"eissn":"1572-8730","pissn":"0039-3215"},"type":"Article","category":{"pmc":{"primarySubject":"Philosophy","primarySubjectCode":"E","secondarySubjects":{"1":"Logic","2":"Mathematical Logic and Foundations","3":"Computational Linguistics"},"secondarySubjectCodes":{"1":"E16000","2":"M24005","3":"N22000"}},"sucode":"SC21"}},
+                'Access Type':"subscription",
+                'Page':"article",
+                'Bpids':"2000328745, 3000155420, 3000180852, 3003532199",
+                'Bpnames':"Università degli Studi di Roma La Sapienza, CRUI-CARE Italy, CARE 2009 & 2010, Care Nature",
+                'SubjectCodes':"SCE, SCE16000, SCM24005, SCN22000",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"reasoning about actions, triggers, triggered evolutions, linear temporal logic, probabilistic triggers, randomized strategies",
+                'Country':"IT",
+                'Journal Id':"11225",
+                'Journal Title':"Studia Logica",
+
+                    'doi': "10.1007-s11225-005-0493-x",
+                    'kwrd': ["reasoning_about_actions","triggers","triggered_evolutions","linear_temporal_logic","probabilistic_triggers","randomized_strategies"],
+                    'pmc': ["E","E16000","M24005","N22000"],
+                    'BPID': ["2000328745","3000155420","3000180852","3003532199"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/632953562/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a class="skip-to__link skip-to__link--contents pseudo-focus" href="#article-contents">Skip to sections</a>
+</div>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                        <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+        <image width="148" height="30" alt="" src="/springerlink-static/632953562/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/632953562/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11225-005-0493-x">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+            <main id="main-content" class="main-wrapper" tabindex="-1">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="cover-image test-cover" itemscope>
+                                    <a class="test-cover-link" href="/journal/11225">
+        <span class="u-screenreader-only">Studia Logica</span>
+        <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover/journal/11225/79/1.jpg" itemprop="image" alt=""/>
+    </a>
+
+
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                                <div class="cta-button-container cta-button-container--top cta-button-container--stacked u-mb-16 u-hide-two-col">
+                    <div>
+            <a href="/content/pdf/10.1007%2Fs11225-005-0493-x.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+        </div>
+
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration"><p><a href="/journal/11225" title="Studia Logica" data-track="click" data-track-action="Journal title" data-track-label=""><span class="JournalTitle">Studia Logica</span></a></p><p class="icon--meta-keyline"><span class="ArticleCitation_Year"><time datetime="2005-02">February 2005</time>, </span><span class="ArticleCitation_Volume">Volume 79, </span><a class="ArticleCitation_Issue" href="/journal/11225/79/1/page/1" data-track="click" data-track-action="Article issue" data-track-label="">Issue 1</a>,
+                       <span class="ArticleCitation_Pages"> pp 33–46</span><span class="u-inline-block u-ml-4"> | <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Enumeration section">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ArticleTitle" lang="en">Representation and Reasoning about Evolutions of the World in the Context of Reasoning about Actions</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="#authorsandaffiliations" data-track="click" data-track-action="Authors and affiliations tab" data-track-label="">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Chitta Baral</span><span class="author-information"><span class="authors__contact"><a href="mailto:baral@asu.edu" title="baral@asu.edu" itemprop="email" data-track="click" data-track-action="Email author" data-track-label=""><img src="/springerlink-static/images/svg/email.svg" height="24" width="24" alt="Email author" /></a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Nam Tran</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><span class="test-render-category">Article</span></span></div><div class="main-context__column">    <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                     <span class="article-metrics__views">34</span>
+                     <span class="article-metrics__label">Downloads</span>
+            </li>
+    </ul>
+</div></div></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p class="Para">The first step in reasoning about actions and change involves reasoning about how the world would evolve if a certain action is executed in a certain state. Most research on this assumes the evolution to be only a single step and focus on formulating the transition function that defines changes between states due to actions. In this paper we consider cases where the evolution is more than just a single change between one state and another. This is manifested when the execution of an action may trigger execution of other actions, or when multiple agents act on the environment following certain strategies.</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">reasoning about actions </span><span class="Keyword">triggers </span><span class="Keyword">triggered evolutions </span><span class="Keyword">linear temporal logic </span><span class="Keyword">probabilistic triggers </span><span class="Keyword">randomized strategies </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div>Access to this content is enabled by <strong>Sapienza Università di Roma</strong></div><div>    <a href="/content/pdf/10.1007%2Fs11225-005-0493-x.pdf" target="_blank" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">Download</a>
+ to read the full article text</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">BARAL, C., M. GELFOND, and A. PROVETTI, ‘Representing actions: Laws, observations and hypothesis’, <em class="EmphasisTypeItalic ">Journal of Logic Programming</em>, 31(1–3):201–243, May 1997.<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/S0743-1066(96)00141-0"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Representing%20actions%3A%20Laws%2C%20observations%20and%20hypothesis&amp;author=C..%20BARAL&amp;author=M..%20GELFOND&amp;author=A..%20PROVETTI&amp;journal=Journal%20of%20Logic%20Programming&amp;volume=31&amp;issue=1%E2%80%933&amp;pages=201-243&amp;publication_year=May%201997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">BARAL, C., V. KREINOVICH, and R. TREJO, ‘Computational complexity of planning with temporal goals’, in <em class="EmphasisTypeItalic ">Proc. IJCAI'01</em>, 2001.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=BARAL%2C%20C.%2C%20V.%20KREINOVICH%2C%20and%20R.%20TREJO%2C%20%E2%80%98Computational%20complexity%20of%20planning%20with%20temporal%20goals%E2%80%99%2C%20in%20Proc.%20IJCAI%2701%2C%202001."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">BARAL, C., N. TRAN, and T. LE, ‘Reasoning about actions in a probabilistic setting’, in <em class="EmphasisTypeItalic ">Proc. AAAI'02</em>, 2002, pp. 507–512.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=BARAL%2C%20C.%2C%20N.%20TRAN%2C%20and%20T.%20LE%2C%20%E2%80%98Reasoning%20about%20actions%20in%20a%20probabilistic%20setting%E2%80%99%2C%20in%20Proc.%20AAAI%2702%2C%202002%2C%20pp.%20507%E2%80%93512."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">CALVANESE, D., G. DE GIACOMO, and M. VARDI, ‘Reasoning about actions and planning in LTL action theories’, in <em class="EmphasisTypeItalic ">Proc. KR'02</em>, 2002, pp. 593–602.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=CALVANESE%2C%20D.%2C%20G.%20DE%20GIACOMO%2C%20and%20M.%20VARDI%2C%20%E2%80%98Reasoning%20about%20actions%20and%20planning%20in%20LTL%20action%20theories%E2%80%99%2C%20in%20Proc.%20KR%2702%2C%202002%2C%20pp.%20593%E2%80%93602."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">GELFOND, M., and V. LIFSCHITZ, ‘Representing actions and change by logic programs’, <em class="EmphasisTypeItalic ">J. Logic Prog</em>., 17:301–323, 1993.<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/0743-1066(93)90035-F"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Representing%20actions%20and%20change%20by%20logic%20programs&amp;author=M..%20GELFOND&amp;author=V..%20LIFSCHITZ&amp;journal=J.%20Logic%20Prog.&amp;volume=17&amp;pages=301-323&amp;publication_year=1993"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">GEORGEFF, M., (ed.), <em class="EmphasisTypeItalic ">Journal of Logic and Computation, Special issue on Action and Processes</em>, volume 4, Oxford University Press, October 1994.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=GEORGEFF%2C%20M.%2C%20%28ed.%29%2C%20Journal%20of%20Logic%20and%20Computation%2C%20Special%20issue%20on%20Action%20and%20Processes%2C%20volume%204%2C%20Oxford%20University%20Press%2C%20October%201994."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">HANCOCK, J., <em class="EmphasisTypeItalic ">Cell signalling</em>, Longman, 1997.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=HANCOCK%2C%20J.%2C%20Cell%20signalling%2C%20Longman%2C%201997."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">LEVESQUE, H., ‘What is planning in the presence of sensing’, in <em class="EmphasisTypeItalic ">Proc. AAAI'96</em>, 1996, pp. 1139–1146,<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=LEVESQUE%2C%20H.%2C%20%E2%80%98What%20is%20planning%20in%20the%20presence%20of%20sensing%E2%80%99%2C%20in%20Proc.%20AAAI%2796%2C%201996%2C%20pp.%201139%E2%80%931146%2C"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">LIFSCHITZ, V., (ed.), <em class="EmphasisTypeItalic ">Special issue of Journal of Logic Programming on reasoning about actions and change</em>, volume 31, May 1997.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=LIFSCHITZ%2C%20V.%2C%20%28ed.%29%2C%20Special%20issue%20of%20Journal%20of%20Logic%20Programming%20on%20reasoning%20about%20actions%20and%20change%2C%20volume%2031%2C%20May%201997."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">MCCAIN, N., and H. TURNER, ‘A causal theory of ramifications and qualifications’, in <em class="EmphasisTypeItalic ">Proc. of IJCAI'95</em>, 1995, pp. 1978–1984.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=MCCAIN%2C%20N.%2C%20and%20H.%20TURNER%2C%20%E2%80%98A%20causal%20theory%20of%20ramifications%20and%20qualifications%E2%80%99%2C%20in%20Proc.%20of%20IJCAI%2795%2C%201995%2C%20pp.%201978%E2%80%931984."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">PEARL, J., ‘Reasoning with cause and effect’, in <em class="EmphasisTypeItalic ">Proc. of IJCAI'99</em>, 1999, pp. 1437–1449.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=PEARL%2C%20J.%2C%20%E2%80%98Reasoning%20with%20cause%20and%20effect%E2%80%99%2C%20in%20Proc.%20of%20IJCAI%2799%2C%201999%2C%20pp.%201437%E2%80%931449."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">PEARL, J., <em class="EmphasisTypeItalic ">Causality</em>, Cambridge University Press, 2000.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=PEARL%2C%20J.%2C%20Causality%2C%20Cambridge%20University%20Press%2C%202000."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">PINTO, J. A., <em class="EmphasisTypeItalic ">Temporal reasoning in the situation calculus</em>, PhD thesis, University of Toronto, Department of Computer Science, 1994.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=PINTO%2C%20J.%20A.%2C%20Temporal%20reasoning%20in%20the%20situation%20calculus%2C%20PhD%20thesis%2C%20University%20of%20Toronto%2C%20Department%20of%20Computer%20Science%2C%201994."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">PIRRI, F., and R. Reiter, <em class="EmphasisTypeItalic ">Planning with natural actions in the situation calculus</em>, 2000, pp. 213–231.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=PIRRI%2C%20F.%2C%20and%20R.%20Reiter%2C%20Planning%20with%20natural%20actions%20in%20the%20situation%20calculus%2C%202000%2C%20pp.%20213%E2%80%93231."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">POOLE, D., ‘The independent choice logic for modelling multiple agents under uncertainty’, <em class="EmphasisTypeItalic ">AI journal</em>, 94:7–56, 1997.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20independent%20choice%20logic%20for%20modelling%20multiple%20agents%20under%20uncertainty&amp;author=D..%20POOLE&amp;journal=AI%20journal&amp;volume=94&amp;pages=7-56&amp;publication_year=1997"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">REITER, R., ‘Natural actions, concurrency and continuous time in the situation calculus’, in L. Aiello, J. Doyle, and S. Shapiro, (eds.), KR'96, 1996, pp. 2–13,<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=REITER%2C%20R.%2C%20%E2%80%98Natural%20actions%2C%20concurrency%20and%20continuous%20time%20in%20the%20situation%20calculus%E2%80%99%2C%20in%20L.%20Aiello%2C%20J.%20Doyle%2C%20and%20S.%20Shapiro%2C%20%28eds.%29%2C%20KR%2796%2C%201996%2C%20pp.%202%E2%80%9313%2C"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">REITER, R., <em class="EmphasisTypeItalic ">A formal account of planning with concurrency, continuous time and natural actions</em>.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=REITER%2C%20R.%2C%20A%20formal%20account%20of%20planning%20with%20concurrency%2C%20continuous%20time%20and%20natural%20actions."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">SANDEWALL, E., Special issue, ETAI, 2(3-4):159–330, 1998.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Special%20issue&amp;author=E..%20SANDEWALL&amp;journal=ETAI&amp;volume=2&amp;issue=3%E2%80%934&amp;pages=159-330&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">SANDEWALL, E., ‘Combining logic and di.erential equations for describing real-world systems’, in R. Brachman, H. Levesque, and R. Reiter, (eds.), <em class="EmphasisTypeItalic ">Proceedings of KR</em>, Morgan Kaufmann, Toronto, Canada, 1989, pp. 412–420.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Combining%20logic%20and%20di.erential%20equations%20for%20describing%20real-world%20systems&amp;author=E..%20SANDEWALL&amp;pages=412-420&amp;publication_year=1989"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">SHANAHAN, M., ‘Representing continuous change in the event calculus’, in <em class="EmphasisTypeItalic ">European Conference on Artificial Intelligence</em>, 1990, pp. 598–603.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=SHANAHAN%2C%20M.%2C%20%E2%80%98Representing%20continuous%20change%20in%20the%20event%20calculus%E2%80%99%2C%20in%20European%20Conference%20on%20Artificial%20Intelligence%2C%201990%2C%20pp.%20598%E2%80%93603."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">SON, T., and C. BARAL, ‘Formalizing sensing actions: a transition function based approach’, <em class="EmphasisTypeItalic ">AI journal</em>, 125(1-2):19–93, 2001.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Formalizing%20sensing%20actions%3A%20a%20transition%20function%20based%20approach&amp;author=T..%20SON&amp;author=C..%20BARAL&amp;journal=AI%20journal&amp;volume=125&amp;issue=1-2&amp;pages=19-93&amp;publication_year=2001"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">THIELSCHER, M., ‘Modeling actions with ramifications in nondeterministic, concurrent, and continuous domains — and a case study’, in <em class="EmphasisTypeItalic ">Proceedings of AAAI/IAAI 2000</em>, 2000, pp. 497–502.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=THIELSCHER%2C%20M.%2C%20%E2%80%98Modeling%20actions%20with%20ramifications%20in%20nondeterministic%2C%20concurrent%2C%20and%20continuous%20domains%20%E2%80%94%20and%20a%20case%20study%E2%80%99%2C%20in%20Proceedings%20of%20AAAI%2FIAAI%202000%2C%202000%2C%20pp.%20497%E2%80%93502."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">WIDOM, J., and S. CERI, (eds.), <em class="EmphasisTypeItalic ">Active Database Systems - Triggers and Rules for advanced database processing</em>, Morgan Kaufmann, 1996.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=WIDOM%2C%20J.%2C%20and%20S.%20CERI%2C%20%28eds.%29%2C%20Active%20Database%20Systems%20-%20Triggers%20and%20Rules%20for%20advanced%20database%20processing%2C%20Morgan%20Kaufmann%2C%201996."><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ArticleCopyright">© Springer Science + Business Media, Inc. 2005</div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Chitta Baral</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul><span class="author-information"><span class="author-information__contact u-icon-before"><a href="mailto:baral@asu.edu" title="baral@asu.edu" itemprop="email" data-track="click" data-track-action="Email author" data-track-label="">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Nam Tran</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Department of Computer Science &amp; Engineering</span><span itemprop="name" class="affiliation__name">Arizona State University</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Tempe</span><span itemprop="addressCountry" class="affiliation__country">USA</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this article</h2>
+    <div class="section__content bibliographic-information">
+        
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas" tabindex="-1">
+    <dt class="test-cite-heading">
+        Cite this article as:
+    </dt>
+    <dd id="citethis-text">Baral, C. & Tran, N. Stud Logica (2005) 79: 33. https://doi.org/10.1007/s11225-005-0493-x</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">DOI</span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/s11225-005-0493-x</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Kluwer Academic Publishers</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISSN</span>
+                <span class="bibliographic-information__value" id="print-issn">0039-3215</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Online ISSN</span>
+                <span class="bibliographic-information__value" id="electronic-issn">1572-8730</span>
+            </li>
+
+        
+    </ul>
+
+            <ul class="bibliographic-information__list">
+        <li class="bibliographic-information__item">
+            <a id="about-journal" class="bibliographic-information__misc-links"
+               title="Visit Springer.com for information about this article&#39;s journal"
+               href="//www.springer.com/journal/11225/about">About this journal</a>
+        </li>
+        <li class="bibliographic-information__item">
+            <a id="reprintsandpermissions-link" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;copyright&#x3D;Springer+Science+%2B+Business+Media%2C+Inc.&amp;author&#x3D;Chitta+Baral%2C+Nam+Tran&amp;issueNum&#x3D;1&amp;contentID&#x3D;10.1007%2Fs11225-005-0493-x&amp;endPage&#x3D;46&amp;publicationDate&#x3D;2005&amp;startPage&#x3D;33&amp;volumeNum&#x3D;79&amp;title&#x3D;Representation+and+Reasoning+about+Evolutions+of+the+World+in+the+Context+of+Reasoning+about+Actions&amp;imprint&#x3D;Springer+Science+%2B+Business+Media%2C+Inc.&amp;publication&#x3D;0039-3215" title="Visit RightsLink for information about reusing this article" data-track="click" data-track-action="Reprints and Permissions" data-track-label="">Reprints and Permissions</a>
+        </li>
+</ul>
+
+
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="/springerlink-static/632953562/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                                <div id="doubleclick-native-ad" data-component="SpringerLink.GoogleAds" data-namespace="native"></div>
+
+                                    <div class="sticky-banner 
+            u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasButton">
+                <div class="sticky-banner__container">
+                        <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                            <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/s11225-005-0493-x" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">article</span>
+        </a>
+    </div>
+
+
+
+
+                                    <div>
+            <a href="/content/pdf/10.1007%2Fs11225-005-0493-x.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+                </div>
+            </div>
+
+
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only" aria-hidden="true">Actions</h2>
+
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+
+                                                <div class="download-article test-pdf-link">
+                                                            <div>
+            <a href="/content/pdf/10.1007%2Fs11225-005-0493-x.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+                                                </div>
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/s11225-005-0493-x?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                                <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/s11225-005-0493-x" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">article</span>
+        </a>
+    </div>
+
+
+
+
+                                    </div>
+                                </div>
+                                <nav class="toc" aria-label="article contents">
+    <h2 class="u-screenreader-only" aria-hidden="true">Table of contents</h2>
+    <ul id="article-contents" class="article-contents" tabindex="-1">
+            <li>
+                <a title="Article" href="#enumeration"><span class="u-overflow-ellipsis">Article</span></a>
+            </li>
+            <li>
+                <a title="Abstract" href="#Abs1"><span class="u-overflow-ellipsis">Abstract</span></a>
+            </li>
+            <li>
+                <a title="References" href="#Bib1"><span class="u-overflow-ellipsis">References</span></a>
+            </li>
+            <li>
+                <a title="Copyright information" href="#copyrightInformation"><span class="u-overflow-ellipsis">Copyright information</span></a>
+            </li>
+            <li>
+                <a title="Authors and Affiliations" href="#authorsandaffiliations"><span class="u-overflow-ellipsis">Authors and Affiliations</span></a>
+            </li>
+            <li>
+                <a title="About this article" href="#aboutcontent"><span class="u-overflow-ellipsis">About this article</span></a>
+            </li>
+    </ul>
+</nav>
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper">
+        <div class="skyscraper-ad__wrapper">
+            <p class="skyscraper-ad__label">Advertisement</p>
+            <button class="skyscraper-ad__hide" title="Hide this advertisement" data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+            <div id="doubleclick-ad" class="skyscraper-ad__ad"></div>
+        </div>
+    </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/article/10.1007/s11225-005-0493-x&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/article/10.1007/s11225-005-0493-x&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Cookie settings</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/632953562/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/632953562/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Università degli Studi di Roma La Sapienza (2000328745) - CRUI-CARE Italy (3000155420) - CARE 2009 &amp; 2010 (3000180852) - Care Nature (3003532199)</span>
+                    <span>151.100.59.194</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/632953562';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/11225/article';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+                    <noscript>
+                <img aria-hidden="true" role="presentation" src="https://ssl-springer.met.vgwort.de/na/pw-vgzm.415900-10.1007-s11225-005-0493-x" width='1' height='1' alt='' />
+            </noscript>
+
+        
+    </body>
+</html>

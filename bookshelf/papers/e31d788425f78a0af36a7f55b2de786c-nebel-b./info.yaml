@@ -1,0 +1,34 @@
+abstract: The recent approaches of extending the GRAPHPLAN algorithm to handle more
+  expressive planning formalisms raise the question of what the formal meaning of
+  "expressive power" is. We formalize the intuition that expressive power is a measure
+  of how concisely planning domains and plans can be expressed in a particular formalism
+  by introducing the notion of "compilation schemes" between planning formalisms.
+  Using this notion, we analyze the expressiveness of a large family of propositional
+  planning formalisms, ranging from basic STRIPS to a formalism with conditional effects,
+  partial state specifications, and propositional formulae in the preconditions. One
+  of the results is that conditional effects cannot be compiled away if plan size
+  should grow only linearly but can be compiled away if we allow for polynomial growth
+  of the resulting plans. This result confirms that the recently proposed extensions
+  to the GRAPHPLAN algorithm concerning conditional effects are optimal with respect
+  to the "compilability" framework. Another result is that general propositional formulae
+  cannot be compiled into conditional effects if the plan size should be preserved
+  linearly. This implies that allowing general propositional formulae in preconditions
+  and effect conditions adds another level of difficulty in generating a plan.
+archiveprefix: arXiv
+author: Nebel, B.
+author_list:
+- family: Nebel
+  given: B.
+doi: 10.1613/jair.735
+eprint: 1106.0247v1
+file: 1106.0247v1.pdf
+files:
+- nebel-b.on-the-compilability-and-expressive-power-of-propositional-planning-formalisms2011.pdf
+month: Jun
+note: Journal Of Artificial Intelligence Research, Volume 12, pages   271-315, 2000
+primaryclass: cs.AI
+ref: 1106.0247v1
+title: On the Compilability and Expressive Power of Propositional Planning   Formalisms
+type: article
+url: http://arxiv.org/abs/1106.0247v1
+year: '2011'

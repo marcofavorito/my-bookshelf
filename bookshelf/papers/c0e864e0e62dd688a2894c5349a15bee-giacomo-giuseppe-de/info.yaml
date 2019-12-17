@@ -1,0 +1,35 @@
+abstract: In this work we investigate on the concept of "restraining bolt", envisioned
+  in Science Fiction. Specifically we introduce a novel problem in AI. We have two
+  distinct sets of features extracted from the world, one by the agent and one by
+  the authority imposing restraining specifications (the "restraining bolt"). The
+  two sets are apparently unrelated since of interest to independent parties, however
+  they both account for (aspects of) the same world. We consider the case in which
+  the agent is a reinforcement learning agent on the first set of features, while
+  the restraining bolt is specified logically using linear time logic on finite traces
+  LTLf/LDLf over the second set of features. We show formally, and illustrate with
+  examples, that, under general circumstances, the agent can learn while shaping its
+  goals to suitably conform (as much as possible) to the restraining bolt specifications.
+archiveprefix: arXiv
+author: Giacomo, Giuseppe De and Iocchi, Luca and Favorito, Marco and Patrizi, Fabio
+author_list:
+- family: Giacomo
+  given: Giuseppe De
+- family: Iocchi
+  given: Luca
+- family: Favorito
+  given: Marco
+- family: Patrizi
+  given: Fabio
+eprint: 1807.06333v2
+file: 1807.06333v2.pdf
+files:
+- ldlf.pdf
+month: Jul
+note: 'ICAPS 2019: 128-136'
+primaryclass: cs.LG
+ref: 1807.06333v2
+title: 'Foundations for Restraining Bolts: Reinforcement Learning with LTLf/LDLf   restraining
+  specifications'
+type: article
+url: http://arxiv.org/abs/1807.06333v2
+year: '2018'

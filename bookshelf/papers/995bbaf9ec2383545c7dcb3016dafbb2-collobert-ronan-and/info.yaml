@@ -1,0 +1,36 @@
+abstract: 'We propose a unified neural network architecture and learning algorithm
+  that can be applied to various natural language processing tasks including: part-of-speech
+  tagging, chunking, named entity recognition, and semantic role labeling. This versatility
+  is achieved by trying to avoid task-specific engineering and therefore disregarding
+  a lot of prior knowledge. Instead of exploiting man-made input features carefully
+  optimized for each task, our system learns internal representations on the basis
+  of vast amounts of mostly unlabeled training data. This work is then used as a basis
+  for building a freely available tagging system with good performance and minimal
+  computational requirements.'
+archiveprefix: arXiv
+author: Collobert, Ronan and Weston, Jason and Bottou, Leon and Karlen, Michael and
+  Kavukcuoglu, Koray and Kuksa, Pavel
+author_list:
+- family: Collobert
+  given: Ronan
+- family: Weston
+  given: Jason
+- family: Bottou
+  given: Leon
+- family: Karlen
+  given: Michael
+- family: Kavukcuoglu
+  given: Koray
+- family: Kuksa
+  given: Pavel
+eprint: 1103.0398v1
+file: 1103.0398v1.pdf
+files:
+- collobert-ronan-and-weston-jason-and-bottou-leon-and-karlen-michael-and-kavukcuoglu-koray-and-kuksa-pavelnatural-language-processing-almost-fr.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1103.0398v1
+title: Natural Language Processing (almost) from Scratch
+type: article
+url: http://arxiv.org/abs/1103.0398v1
+year: '2011'
