@@ -1,0 +1,41 @@
+abstract: Graph-structured data arise naturally in many different application domains.
+  By representing data as graphs, we can capture entities (i.e., nodes) as well as
+  their relationships (i.e., edges) with each other. Many useful insights can be derived
+  from graph-structured data as demonstrated by an ever-growing body of work focused
+  on graph mining. However, in the real-world, graphs can be both large - with many
+  complex patterns - and noisy which can pose a problem for effective graph mining.
+  An effective way to deal with this issue is to incorporate "attention" into graph
+  mining solutions. An attention mechanism allows a method to focus on task-relevant
+  parts of the graph, helping it to make better decisions. In this work, we conduct
+  a comprehensive and focused survey of the literature on the emerging field of graph
+  attention models. We introduce three intuitive taxonomies to group existing work.
+  These are based on problem setting (type of input and output), the type of attention
+  mechanism used, and the task (e.g., graph classification, link prediction, etc.).
+  We motivate our taxonomies through detailed examples and use each to survey competing
+  approaches from a unique standpoint. Finally, we highlight several challenges in
+  the area and discuss promising directions for future work.
+archiveprefix: arXiv
+author: Lee, John Boaz and Rossi, Ryan A. and Kim, Sungchul and Ahmed, Nesreen K.
+  and Koh, Eunyee
+author_list:
+- family: Lee
+  given: John Boaz
+- family: Rossi
+  given: Ryan A.
+- family: Kim
+  given: Sungchul
+- family: Ahmed
+  given: Nesreen K.
+- family: Koh
+  given: Eunyee
+eprint: 1807.07984v1
+file: 1807.07984v1.pdf
+files:
+- lee-john-boaz-and-rossi-ryan-a.-and-kim-sungchul-and-ahmed-nesreen-k.-and-koh-eunyeeattention-models-in-graphs-a-survey2018.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 1807.07984v1
+title: 'Attention Models in Graphs: A Survey'
+type: article
+url: http://arxiv.org/abs/1807.07984v1
+year: '2018'

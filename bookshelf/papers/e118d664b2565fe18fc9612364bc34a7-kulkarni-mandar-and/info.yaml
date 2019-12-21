@@ -1,0 +1,32 @@
+abstract: Deep learning has shown promising results in many machine learning applications.
+  The hierarchical feature representation built by deep networks enable compact and
+  precise encoding of the data. A kernel analysis of the trained deep networks demonstrated
+  that with deeper layers, more simple and more accurate data representations are
+  obtained. In this paper, we propose an approach for layer-wise training of a deep
+  network for the supervised classification task. A transformation matrix of each
+  layer is obtained by solving an optimization aimed at a better representation where
+  a subsequent layer builds its representation on the top of the features produced
+  by a previous layer. We compared the performance of our approach with a DNN trained
+  using back-propagation which has same architecture as ours. Experimental results
+  on the real image datasets demonstrate efficacy of our approach. We also performed
+  kernel analysis of layer representations to validate the claim of better feature
+  encoding.
+archiveprefix: arXiv
+author: Kulkarni, Mandar and Karande, Shirish
+author_list:
+- family: Kulkarni
+  given: Mandar
+- family: Karande
+  given: Shirish
+eprint: 1703.07115v1
+file: 1703.07115v1.pdf
+files:
+- kulkarni-mandar-and-karande-shirishlayer-wise-training-of-deep-networks-using-kernel-similarity2017.pdf
+month: Mar
+note: Deep Learning for Pattern Recognition (DLPR) workshop at ICPR 2016
+primaryclass: cs.LG
+ref: 1703.07115v1
+title: Layer-wise training of deep networks using kernel similarity
+type: article
+url: http://arxiv.org/abs/1703.07115v1
+year: '2017'

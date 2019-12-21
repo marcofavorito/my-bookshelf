@@ -1,0 +1,31 @@
+abstract: In this paper we investigate the problem of automatically naming pieces
+  of assembly code. Where by naming we mean assigning to portion of code the string
+  of words that would be likely assigned by an human reverse engineer. We precisely
+  define the framework in which our investigation takes place. That is we define problem,
+  we provide reasonable justifications for the choice that we made during our designing
+  of the training and test steps and we performed a statistical analysis of function
+  names in a large real-world corpora of over 4 millions of functions. In such framework
+  we test several baselines coming from the field of NLP.
+archiveprefix: arXiv
+author: Artuso, Fiorella and Luna, Giuseppe Antonio Di and Massarelli, Luca and Querzoni,
+  Leonardo
+author_list:
+- family: Artuso
+  given: Fiorella
+- family: Luna
+  given: Giuseppe Antonio Di
+- family: Massarelli
+  given: Luca
+- family: Querzoni
+  given: Leonardo
+eprint: 1912.07946v1
+file: 1912.07946v1.pdf
+files:
+- artuso-fiorella-and-luna-giuseppe-antonio-di-and-massarelli-luca-and-querzoni-leonardofunction-naming-in-stripped-binaries-using-neural-networks20.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1912.07946v1
+title: Function Naming in Stripped Binaries Using Neural Networks
+type: article
+url: http://arxiv.org/abs/1912.07946v1
+year: '2019'

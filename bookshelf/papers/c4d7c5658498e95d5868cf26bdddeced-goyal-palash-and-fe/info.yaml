@@ -1,0 +1,38 @@
+abstract: Graphs, such as social networks, word co-occurrence networks, and communication
+  networks, occur naturally in various real-world applications. Analyzing them yields
+  insight into the structure of society, language, and different patterns of communication.
+  Many approaches have been proposed to perform the analysis. Recently, methods which
+  use the representation of graph nodes in vector space have gained traction from
+  the research community. In this survey, we provide a comprehensive and structured
+  analysis of various graph embedding techniques proposed in the literature. We first
+  introduce the embedding task and its challenges such as scalability, choice of dimensionality,
+  and features to be preserved, and their possible solutions. We then present three
+  categories of approaches based on factorization methods, random walks, and deep
+  learning, with examples of representative algorithms in each category and analysis
+  of their performance on various tasks. We evaluate these state-of-the-art methods
+  on a few common datasets and compare their performance against one another. Our
+  analysis concludes by suggesting some potential applications and future directions.
+  We finally present the open-source Python library we developed, named GEM (Graph
+  Embedding Methods, available at https://github.com/palash1992/GEM), which provides
+  all presented algorithms within a unified interface to foster and facilitate research
+  on the topic.
+archiveprefix: arXiv
+author: Goyal, Palash and Ferrara, Emilio
+author_list:
+- family: Goyal
+  given: Palash
+- family: Ferrara
+  given: Emilio
+doi: 10.1016/j.knosys.2018.03.022
+eprint: 1705.02801v4
+file: 1705.02801v4.pdf
+files:
+- goyal-palash-and-ferrara-emiliograph-embedding-techniques-applications-and-performance-a-survey2017.pdf
+month: May
+note: Knowledge Based Systems, Volume 151, 1 July 2018, Pages 78-94,   2018
+primaryclass: cs.SI
+ref: 1705.02801v4
+title: 'Graph Embedding Techniques, Applications, and Performance: A Survey'
+type: article
+url: http://arxiv.org/abs/1705.02801v4
+year: '2017'

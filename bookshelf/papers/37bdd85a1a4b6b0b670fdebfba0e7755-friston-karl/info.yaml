@@ -1,0 +1,621 @@
+author: Friston, Karl
+author_list:
+- affiliation: []
+  family: Friston
+  given: Karl
+citations:
+- article-title: Variational filtering.
+  author: KJ Friston
+  doi: 10.1016/j.neuroimage.2008.03.017
+  first-page: '747'
+  journal-title: Neuroimage
+  volume: 41(3)
+  year: '2008'
+- article-title: 'DEM: a variational treatment of dynamic systems.'
+  author: KJ Friston
+  doi: 10.1016/j.neuroimage.2008.02.054
+  first-page: '849'
+  journal-title: Neuroimage
+  volume: 41(3)
+  year: '2008'
+- article-title: Learning and inference in the brain.
+  author: KJ Friston
+  doi: 10.1016/j.neunet.2003.06.005
+  first-page: '1325'
+  journal-title: Neural Netw
+  volume: '16'
+  year: '2003'
+- article-title: A theory of cortical responses.
+  author: KJ Friston
+  doi: 10.1098/rstb.2005.1622
+  first-page: '815'
+  journal-title: Philos Trans R Soc Lond B Biol Sci
+  volume: '360'
+  year: '2005'
+- article-title: A free energy principle for the brain.
+  author: K Friston
+  doi: 10.1016/j.jphysparis.2006.10.001
+  first-page: '70'
+  journal-title: J Physiol Paris
+  volume: 100(1–3)
+  year: '2006'
+- article-title: Topics in the Theory of Random Noise
+  author: RL Stratonovich
+  year: '1967'
+- article-title: Stochastic Processes and Filtering Theory
+  author: AH Jazwinski
+  first-page: '122'
+  year: '1970'
+- article-title: Approximate Bayesian inference in conditionally independent hierarchical
+    models (parametric empirical Bayes models).
+  author: RE Kass
+  doi: 10.1080/01621459.1989.10478825
+  first-page: '717'
+  journal-title: J Am Stat Assoc
+  volume: '407'
+  year: '1989'
+- article-title: Stein&apos;s estimation rule and its competitors – an empirical Bayes
+    approach.
+  author: B Efron
+  first-page: '117'
+  journal-title: J Am Stats Assoc
+  volume: '68'
+  year: '1973'
+- article-title: The theory of stochastic processes.
+  author: DR Cox
+  year: '1965'
+- article-title: Statistical mechanics
+  author: RP Feynman
+  year: '1972'
+- article-title: Keeping neural networks simple by minimising the description length
+    of weights.
+  author: GE Hinton
+  first-page: '5'
+  year: '1993'
+- article-title: Free-energy minimisation algorithm for decoding and cryptoanalysis.
+  author: DJC MacKay
+  first-page: '445'
+  journal-title: Electron Lett
+  volume: '31'
+  year: '1995'
+- article-title: A view of the EM algorithm that justifies incremental sparse and
+    other variants.
+  author: RM Neal
+  year: '1998'
+- article-title: Variational Bayes and the Laplace approximation.
+  author: K Friston
+  doi: 10.1016/j.neuroimage.2006.08.035
+  first-page: '220'
+  journal-title: Neuroimage
+  volume: '34'
+  year: '2007'
+- article-title: 'The variational Bayesian EM algorithm for incomplete Data: with
+    application to scoring graphical model structures.'
+  author: MJ Beal
+  year: '2003'
+- article-title: Maximum likelihood from incomplete data via the EM algorithm.
+  author: AP Dempster
+  first-page: '1'
+  journal-title: J R Stat Soc Ser B
+  volume: '39'
+  year: '1977'
+- article-title: Maximum likelihood approaches to variance component estimation and
+    to related problems.
+  author: DA Harville
+  doi: 10.1080/01621459.1977.10480998
+  first-page: '320'
+  journal-title: J Am Stat Assoc
+  volume: '72'
+  year: '1977'
+- article-title: 'A bridge between nonlinear time-series models and nonlinear stochastic
+    dynamical systems: A local linearization approach.'
+  author: T Ozaki
+  first-page: '113'
+  journal-title: Stat Sin
+  volume: '2'
+  year: '1992'
+- article-title: A unifying review of linear Gaussian models.
+  author: S Roweis
+  doi: 10.1162/089976699300016674
+  first-page: '305'
+  journal-title: Neural Comput
+  volume: 11(2)
+  year: '1999'
+- article-title: Learning internal representations by error propagations.
+  author: DE Rumelhart
+  first-page: '318'
+  volume: Vol. 1
+  year: '1986'
+- article-title: Universal approximation to nonlinear operators by neural networks
+    with arbitrary activation functions and its application to dynamical systems.
+  author: T Chen
+  first-page: '918'
+  journal-title: IEEE Trans Neural Netw
+  volume: 6(4)
+  year: '1995'
+- article-title: An algebraic approach to nonlinear functional expansions.
+  author: M Fliess
+  doi: 10.1109/TCS.1983.1085397
+  first-page: '554'
+  journal-title: IEEE Trans Circuits Syst
+  volume: '30'
+  year: '1983'
+- article-title: 'Bayesian estimation of dynamical systems: an application to fMRI.'
+  author: KJ Friston
+  doi: 10.1006/nimg.2001.1044
+  first-page: '513'
+  journal-title: Neuroimage
+  volume: 16(2)
+  year: '2002'
+- article-title: 'MEG source localization under multiple constraints: an extended
+    Bayesian framework.'
+  author: J Mattout
+  doi: 10.1016/j.neuroimage.2005.10.037
+  first-page: '753'
+  journal-title: Neuroimage
+  volume: '30'
+  year: '2006'
+- article-title: Sparse Bayesian learning and the Relevance Vector Machine.
+  author: ME Tipping
+  first-page: '211'
+  journal-title: J Mach Learn Res
+  volume: '1'
+  year: '2001'
+- article-title: Flexible Nonlinear Approaches to Classification.
+  author: BD Ripley
+  first-page: '105'
+  year: '1994'
+- article-title: 'Evaluation of Gaussian Processes and Other Methods for Nonlinear
+    Regression [PhD thesis]. Toronto, Canada: Department of Computer Science, University
+    of Toronto.'
+  author: CE Rasmussen
+  year: '1996'
+- article-title: Bayesian Gaussian process classification with the EM-EP algorithm.
+  author: H-C Kim
+  first-page: '1948'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  volume: 28(12)
+  year: '2006'
+- article-title: A new approach to linear filtering and prediction problems.
+  author: R Kalman
+  doi: 10.1115/1.3662552
+  first-page: '35'
+  journal-title: ASME Trans J Basic Eng
+  volume: 82(1)
+  year: '1960'
+- article-title: Variational Bayesian inference for partially observed diffusions.
+    Technical Report 04-4, University of Glasgow.
+  author: B Wang
+  year: '2004'
+- article-title: 'Parametric inference for diffusion processes observed at discrete
+    points in time: a survey.'
+  author: H Sørensen
+  first-page: '337'
+  journal-title: Int Stat Rev
+  volume: 72(3)
+  year: '2004'
+- article-title: Unsupervised Learning.
+  author: Z Ghahramani
+  doi: 10.1007/978-3-540-28650-9_5
+  year: '2004'
+- article-title: 'Nonlinear PCA: characterizing interactions between modes of brain
+    activity.'
+  author: K Friston
+  doi: 10.1098/rstb.2000.0554
+  first-page: '135'
+  journal-title: Philos Trans R Soc Lond B Biol Sci
+  volume: 355(1393)
+  year: '2000'
+- article-title: Probabilistic principal component analysis.
+  author: ME Tipping
+  doi: 10.1111/1467-9868.00196
+  first-page: '611'
+  journal-title: J R Stat Soc Ser B
+  volume: 61(3)
+  year: '1999'
+- article-title: An information maximisation approach to blind separation and blind
+    de-convolution.
+  author: AJ Bell
+  doi: 10.1162/neco.1995.7.6.1129
+  first-page: '1129'
+  journal-title: Neural Comput
+  volume: '7'
+  year: '1995'
+- article-title: Emergence of simple-cell receptive field properties by learning a
+    sparse code for natural images.
+  author: BA Olshausen
+  doi: 10.1038/381607a0
+  first-page: '607'
+  journal-title: Nature
+  volume: '381'
+  year: '1996'
+- article-title: The connections of the middle temporal visual area (MT) and their
+    relationship to a cortical hierarchy in the macaque monkey.
+  author: JH Maunsell
+  doi: 10.1523/JNEUROSCI.03-12-02563.1983
+  first-page: '2563'
+  journal-title: J Neurosci
+  volume: '3'
+  year: '1983'
+- article-title: The functional logic of cortical connections.
+  author: S Zeki
+  doi: 10.1038/335311a0
+  first-page: '311'
+  journal-title: Nature
+  volume: '335'
+  year: '1988'
+- article-title: Distributed hierarchical processing in the primate cerebral cortex.
+  author: DJ Felleman
+  doi: 10.1093/cercor/1.1.1
+  first-page: '1'
+  journal-title: Cereb Cortex
+  volume: '1'
+  year: '1991'
+- article-title: From sensation to cognition.
+  author: MM Mesulam
+  doi: 10.1093/brain/121.6.1013
+  first-page: '1013'
+  journal-title: Brain
+  volume: '121'
+  year: '1998'
+- article-title: Laminar origins and terminations of cortical connections of the occipital
+    lobe in the rhesus monkey.
+  author: KS Rockland
+  doi: 10.1016/0006-8993(79)90485-2
+  first-page: '3'
+  journal-title: Brain Res
+  volume: '179'
+  year: '1979'
+- article-title: Corticofugal feedback influences the generation of length tuning
+    in the visual pathway.
+  author: PC Murphy
+  doi: 10.1038/329727a0
+  first-page: '727'
+  journal-title: Nature
+  volume: '329'
+  year: '1987'
+- article-title: 'On the actions that one nerve cell can have on another: distinguishing
+    “drivers” from “modulators”.'
+  author: SM Sherman
+  doi: 10.1073/pnas.95.12.7121
+  first-page: '7121'
+  journal-title: Proc Natl Acad Sci U S A
+  volume: '95'
+  year: '1998'
+- article-title: Circuits for local and global signal integration in primary visual
+    cortex.
+  author: A Angelucci
+  doi: 10.1523/JNEUROSCI.22-19-08633.2002
+  first-page: '8633'
+  journal-title: J Neurosci
+  volume: '22'
+  year: '2002'
+- article-title: 'Microstructure of the neocortex: comparative aspects.'
+  author: J DeFelipe
+  doi: 10.1023/A:1024130211265
+  first-page: '299'
+  journal-title: J Neurocytol
+  volume: '31'
+  year: '2002'
+- article-title: Cortical feedback improves discrimination between figure and background
+    by V1, V2 and V3 neurons.
+  author: JM Hupe
+  doi: 10.1038/29537
+  first-page: '784'
+  journal-title: Nature
+  volume: '394'
+  year: '1998'
+- article-title: Laminar distribution of NMDA receptors in cat and monkey visual cortex
+    visualized by [3H]-MK-801 binding.
+  author: AM Rosier
+  doi: 10.1002/cne.903350307
+  first-page: '369'
+  journal-title: J Comp Neurol
+  volume: '335'
+  year: '1993'
+- article-title: On the computational architecture of the neocortex. II. The role
+    of cortico-cortical loops.
+  author: D Mumford
+  doi: 10.1007/BF00198477
+  first-page: '241'
+  journal-title: Biol Cybern
+  volume: '66'
+  year: '1992'
+- article-title: 'Neural Darwinism: selection and reentrant signaling in higher brain
+    function.'
+  author: GM Edelman
+  doi: 10.1016/0896-6273(93)90304-A
+  first-page: '115'
+  journal-title: Neuron
+  volume: '10'
+  year: '1993'
+- article-title: Temporal dynamics of decision-making during motion perception in
+    the visual cortex.
+  author: S Grossberg
+  doi: 10.1016/j.visres.2008.02.019
+  first-page: '1345'
+  journal-title: Vis Res
+  volume: '48'
+  year: '2008'
+- article-title: Spikes, synchrony, and attentive learning by laminar thalamocortical
+    circuits.
+  author: S Grossberg
+  doi: 10.1016/j.brainres.2008.04.024
+  first-page: '278'
+  journal-title: Brain Res
+  volume: '1218'
+  year: '2008'
+- article-title: Processing asymmetry of transitions between order and disorder in
+    human auditory cortex.
+  author: M Chait
+  doi: 10.1523/JNEUROSCI.0318-07.2007
+  first-page: '5207'
+  journal-title: J Neurosci
+  volume: 27(19)
+  year: '2007'
+- article-title: 'Constraints on cortical and thalamic projections: the no-strong-loops
+    hypothesis.'
+  author: F Crick
+  doi: 10.1038/34584
+  first-page: '245'
+  journal-title: Nature
+  volume: 391(6664)
+  year: '1998'
+- article-title: Dendritic computation.
+  author: M London
+  doi: 10.1146/annurev.neuro.28.061604.135703
+  first-page: '503'
+  journal-title: Annu Rev Neurosci
+  volume: '28'
+  year: '2005'
+- article-title: 'Cortical plasticity: from synapses to maps.'
+  author: DV Buonomano
+  doi: 10.1146/annurev.neuro.21.1.149
+  first-page: '149'
+  journal-title: Annu Rev Neurosci
+  volume: '21'
+  year: '1998'
+- article-title: 'Synaptic plasticity and memory: an evaluation of the hypothesis.'
+  author: SJ Martin
+  doi: 10.1146/annurev.neuro.23.1.649
+  first-page: '649'
+  journal-title: Annu Rev Neurosci
+  volume: '23'
+  year: '2000'
+- article-title: Attentional modulation of visual motion processing in cortical areas
+    MT and MST.
+  author: S Treue
+  doi: 10.1038/382539a0
+  first-page: '539'
+  journal-title: Nature
+  volume: '382'
+  year: '1996'
+- article-title: Feature-based attention increases the selectivity of population responses
+    in primate visual cortex.
+  author: JC Martinez-Trujillo
+  doi: 10.1016/j.cub.2004.04.028
+  first-page: '744'
+  journal-title: Curr Biol
+  volume: '14'
+  year: '2004'
+- article-title: A neural basis for visual search in inferior temporal cortex.
+  author: L Chelazzi
+  doi: 10.1038/363345a0
+  first-page: '345'
+  journal-title: Nature
+  volume: '363'
+  year: '1993'
+- article-title: Neural mechanisms for visual memory and their role in attention.
+  author: R Desimone
+  doi: 10.1073/pnas.93.24.13494
+  first-page: '13494'
+  journal-title: Proc Natl Acad Sci U S A
+  volume: 93(24)
+  year: '1996'
+- article-title: Determinants and mechanisms of attentional modulation of neural processing.
+  author: CE Schroeder
+  doi: 10.2741/A634
+  first-page: D672
+  journal-title: Front Biosci
+  volume: '6'
+  year: '2001'
+- article-title: Uncertainty, neuromodulation and attention.
+  author: AJ Yu
+  doi: 10.1016/j.neuron.2005.04.026
+  first-page: '681'
+  journal-title: Neuron
+  volume: '46'
+  year: '2005'
+- article-title: 'Predictive coding in the visual cortex: a functional interpretation
+    of some extra-classical receptive field effects.'
+  author: RP Rao
+  doi: 10.1038/4580
+  first-page: '79'
+  journal-title: Nat Neurosci
+  volume: '2'
+  year: '1998'
+- article-title: Dopamine-glutamate interactions controlling prefrontal cortical pyramidal
+    cell excitability involve multiple signaling mechanisms.
+  author: KY Tseng
+  doi: 10.1523/JNEUROSCI.1021-04.2004
+  first-page: '5131'
+  journal-title: J Neurosci
+  volume: '24'
+  year: '2004'
+- article-title: Agonists of cholinergic and noradrenergic receptors facilitate synergistically
+    the induction of long-term potentiation in slices of rat visual cortex.
+  author: S Brocher
+  doi: 10.1016/0006-8993(92)90110-U
+  first-page: '27'
+  journal-title: Brain Res
+  volume: '573'
+  year: '1992'
+- article-title: Neuromodulatory transmitter systems in the cortex and their role
+    in cortical plasticity.
+  author: Q Gu
+  doi: 10.1016/S0306-4522(02)00026-X
+  first-page: '815'
+  journal-title: Neuroscience
+  volume: '111'
+  year: '2002'
+- article-title: 'Value-dependent selection in the brain: simulation in a synthetic
+    neural model.'
+  author: KJ Friston
+  doi: 10.1016/0306-4522(94)90592-4
+  first-page: '229'
+  journal-title: Neuroscience
+  volume: 59(2)
+  year: '1994'
+- article-title: Bee foraging in uncertain environments using predictive Hebbian learning.
+  author: PR Montague
+  doi: 10.1038/377725a0
+  first-page: '725'
+  journal-title: Nature
+  volume: 377(6551)
+  year: '1995'
+- article-title: Multiple dopamine functions at different time courses.
+  author: W Schultz
+  doi: 10.1146/annurev.neuro.28.061604.135722
+  first-page: '259'
+  journal-title: Annu Rev Neurosci
+  volume: '30'
+  year: '2007'
+- article-title: Dopamine, uncertainty and TD learning.
+  author: Y Niv
+  first-page: '1'
+  journal-title: Behav Brain Funct
+  volume: '4'
+  year: '2005'
+- article-title: A forward-inverse optics model of reciprocal connections between
+    visual cortical areas.
+  author: M Kawato
+  doi: 10.1088/0954-898X_4_4_001
+  first-page: '415'
+  journal-title: Network
+  volume: '4'
+  year: '1993'
+- article-title: Neural mechanisms of selective visual attention.
+  author: R Desimone
+  doi: 10.1146/annurev.ne.18.030195.001205
+  first-page: '193'
+  journal-title: Annu Rev Neurosci
+  volume: '18'
+  year: '1995'
+- article-title: Synaptic depression and cortical gain control.
+  author: LF Abbott
+  first-page: '220'
+  journal-title: Science
+  volume: 275(5297)
+  year: '1997'
+- article-title: Gaussian process approximations of stochastic differential equations.
+  author: C Archambeau
+  first-page: '1'
+  year: '2007'
+- article-title: An introduction to stochastic control theory, path integrals and
+    reinforcement learning.
+  author: HJ Kappen
+  year: '2008'
+- article-title: Switchboard versus statistical theories of learning and memory.
+  author: ER John
+  doi: 10.1126/science.177.4052.850
+  first-page: '850'
+  journal-title: Science
+  volume: 177(4052)
+  year: '1972'
+- article-title: A pseudo-equilibrium thermodynamic model of information processing
+    in nonlinear brain dynamics.
+  author: WJ Freeman
+  doi: 10.1016/j.neunet.2007.12.011
+  first-page: '257'
+  journal-title: Neural Netw
+  volume: 21(2–3)
+  year: '2008'
+- article-title: Exact and computationally efficient likelihood-based estimation for
+    discretely observed diffusion processes (with discussion).
+  author: A Beskos
+  doi: 10.1111/j.1467-9868.2006.00552.x
+  first-page: '333'
+  journal-title: J R Stat Soc Ser B
+  volume: '68'
+  year: '2006'
+- article-title: An ensemble Kalman smoother for nonlinear dynamics.
+  author: G Evensen
+  doi: 10.1175/1520-0493(2000)128<1852:AEKSFN>2.0.CO;2
+  first-page: '1852'
+  journal-title: Mon Weather Rev
+  volume: 128(6)
+  year: '2000'
+- article-title: Kalman filter control of a model of spatiotemporal cortical dynamics.
+  author: SJ Schiff
+  doi: 10.1088/1741-2560/5/1/001
+  first-page: '1'
+  journal-title: J Neural Eng
+  volume: 5(1)
+  year: '2008'
+- article-title: A path integral method for data assimilation.
+  author: JM Restrepo
+  doi: 10.1016/j.physd.2007.07.020
+  first-page: '14'
+  journal-title: Physica D
+  volume: 237(1)
+  year: '2008'
+- article-title: Predictive coding under the free energy principle.
+  author: KJ Friston
+  doi: 10.1098/rstb.2008.0300
+  year: '2009'
+- article-title: Neuroimaging evidence for dissociable forms of repetition priming.
+  author: R Henson
+  doi: 10.1126/science.287.5456.1269
+  first-page: '1269'
+  journal-title: Science
+  volume: '287'
+  year: '2000'
+- article-title: 'Mismatch negativity: clinical research and possible applications.'
+  author: R Näätänen
+  doi: 10.1016/S0167-8760(03)00053-9
+  first-page: '179'
+  journal-title: Int J Psychophysiol
+  volume: '48'
+  year: '2003'
+- article-title: Hierarchical Bayesian inference in the visual cortex.
+  author: TS Lee
+  doi: 10.1364/JOSAA.20.001434
+  first-page: '1434'
+  journal-title: J Opt Soc Am A
+  volume: '20'
+  year: '2003'
+- article-title: Handbuch der Physiologischen Optik. English translation.
+  author: H Helmholtz
+  year: '1860'
+- article-title: Possible principles underlying the transformation of sensory messages.
+  author: HB Barlow
+  year: '1961'
+- article-title: Cognitive psychology
+  author: U Neisser
+  year: '1967'
+- article-title: Parallel visual computation.
+  author: DH Ballard
+  doi: 10.1038/306021a0
+  first-page: '21'
+  journal-title: Nature
+  volume: '306'
+  year: '1983'
+- article-title: The Helmholtz machine.
+  author: P Dayan
+  doi: 10.1162/neco.1995.7.5.889
+  first-page: '889'
+  journal-title: Neural Comput
+  volume: '7'
+  year: '1995'
+doi: 10.1371/journal.pcbi.1000211
+issue: '11'
+journal: PLoS Computational Biology
+language: en
+month: 11
+pages: e1000211
+publisher: Public Library of Science (PLoS)
+title: Hierarchical Models in the Brain
+type: article
+url: http://dx.doi.org/10.1371/journal.pcbi.1000211
+volume: '4'
+year: 2008

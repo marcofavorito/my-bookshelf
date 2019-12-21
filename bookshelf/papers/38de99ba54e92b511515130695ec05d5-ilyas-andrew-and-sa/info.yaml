@@ -1,0 +1,36 @@
+abstract: 'Adversarial examples have attracted significant attention in machine learning,
+  but the reasons for their existence and pervasiveness remain unclear. We demonstrate
+  that adversarial examples can be directly attributed to the presence of non-robust
+  features: features derived from patterns in the data distribution that are highly
+  predictive, yet brittle and incomprehensible to humans. After capturing these features
+  within a theoretical framework, we establish their widespread existence in standard
+  datasets. Finally, we present a simple setting where we can rigorously tie the phenomena
+  we observe in practice to a misalignment between the (human-specified) notion of
+  robustness and the inherent geometry of the data.'
+archiveprefix: arXiv
+author: Ilyas, Andrew and Santurkar, Shibani and Tsipras, Dimitris and Engstrom, Logan
+  and Tran, Brandon and Madry, Aleksander
+author_list:
+- family: Ilyas
+  given: Andrew
+- family: Santurkar
+  given: Shibani
+- family: Tsipras
+  given: Dimitris
+- family: Engstrom
+  given: Logan
+- family: Tran
+  given: Brandon
+- family: Madry
+  given: Aleksander
+eprint: 1905.02175v4
+file: 1905.02175v4.pdf
+files:
+- ilyas-andrew-and-santurkar-shibani-and-tsipras-dimitris-and-engstrom-logan-and-tran-brandon-and-madry-aleksanderadversarial-examples-are-not-bug.pdf
+month: May
+primaryclass: stat.ML
+ref: 1905.02175v4
+title: Adversarial Examples Are Not Bugs, They Are Features
+type: article
+url: http://arxiv.org/abs/1905.02175v4
+year: '2019'

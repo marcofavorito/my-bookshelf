@@ -1,0 +1,36 @@
+abstract: A first line of attack in exploratory data analysis is data visualization,
+  i.e., generating a 2-dimensional representation of data that makes clusters of similar
+  points visually identifiable. Standard Johnson-Lindenstrauss dimensionality reduction
+  does not produce data visualizations. The t-SNE heuristic of van der Maaten and
+  Hinton, which is based on non-convex optimization, has become the de facto standard
+  for visualization in a wide range of applications.   This work gives a formal framework
+  for the problem of data visualization - finding a 2-dimensional embedding of clusterable
+  data that correctly separates individual clusters to make them visually identifiable.
+  We then give a rigorous analysis of the performance of t-SNE under a natural, deterministic
+  condition on the "ground-truth" clusters (similar to conditions assumed in earlier
+  analyses of clustering) in the underlying data. These are the first provable guarantees
+  on t-SNE for constructing good data visualizations.   We show that our deterministic
+  condition is satisfied by considerably general probabilistic generative models for
+  clusterable data such as mixtures of well-separated log-concave distributions. Finally,
+  we give theoretical evidence that t-SNE provably succeeds in partially recovering
+  cluster structure even when the above deterministic condition is not met.
+archiveprefix: arXiv
+author: Arora, Sanjeev and Hu, Wei and Kothari, Pravesh K.
+author_list:
+- family: Arora
+  given: Sanjeev
+- family: Hu
+  given: Wei
+- family: Kothari
+  given: Pravesh K.
+eprint: 1803.01768v2
+file: 1803.01768v2.pdf
+files:
+- arora-sanjeev-and-hu-wei-and-kothari-pravesh-k.an-analysis-of-the-t-sne-algorithm-for-data-visualization2018.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1803.01768v2
+title: An Analysis of the t-SNE Algorithm for Data Visualization
+type: article
+url: http://arxiv.org/abs/1803.01768v2
+year: '2018'

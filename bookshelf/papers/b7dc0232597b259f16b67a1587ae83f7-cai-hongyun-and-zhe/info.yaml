@@ -1,0 +1,35 @@
+abstract: Graph is an important data representation which appears in a wide diversity
+  of real-world scenarios. Effective graph analytics provides users a deeper understanding
+  of what is behind the data, and thus can benefit a lot of useful applications such
+  as node classification, node recommendation, link prediction, etc. However, most
+  graph analytics methods suffer the high computation and space cost. Graph embedding
+  is an effective yet efficient way to solve the graph analytics problem. It converts
+  the graph data into a low dimensional space in which the graph structural information
+  and graph properties are maximally preserved. In this survey, we conduct a comprehensive
+  review of the literature in graph embedding. We first introduce the formal definition
+  of graph embedding as well as the related concepts. After that, we propose two taxonomies
+  of graph embedding which correspond to what challenges exist in different graph
+  embedding problem settings and how the existing work address these challenges in
+  their solutions. Finally, we summarize the applications that graph embedding enables
+  and suggest four promising future research directions in terms of computation efficiency,
+  problem settings, techniques and application scenarios.
+archiveprefix: arXiv
+author: Cai, Hongyun and Zheng, Vincent W. and Chang, Kevin Chen-Chuan
+author_list:
+- family: Cai
+  given: Hongyun
+- family: Zheng
+  given: Vincent W.
+- family: Chang
+  given: Kevin Chen-Chuan
+eprint: 1709.07604v3
+file: 1709.07604v3.pdf
+files:
+- cai-hongyun-and-zheng-vincent-w.-and-chang-kevin-chen-chuana-comprehensive-survey-of-graph-embedding-problems-techniques-and-applications2017.pdf
+month: Sep
+primaryclass: cs.AI
+ref: 1709.07604v3
+title: 'A Comprehensive Survey of Graph Embedding: Problems, Techniques and   Applications'
+type: article
+url: http://arxiv.org/abs/1709.07604v3
+year: '2017'

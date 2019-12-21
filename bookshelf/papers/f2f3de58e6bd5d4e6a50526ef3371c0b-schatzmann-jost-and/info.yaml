@@ -1,0 +1,52 @@
+abstract: <jats:p>Within the broad field of spoken dialogue systems, the application
+  of machine-learning approaches to dialogue management strategy design is a rapidly
+  growing research area. The main motivation is the hope of building systems that
+  learn through trial-and-error interaction what constitutes a good dialogue strategy.
+  Training of such systems could in theory be done using human users or using corpora
+  of human–computer dialogue, but in practice the typically vast space of possible
+  dialogue states and strategies cannot be explored without the use of automatic user
+  simulation tools.</jats:p><jats:p>This requirement for training statistical dialogue
+  models has created an interesting new application area for predictive statistical
+  user modelling and a variety of different techniques for simulating user behaviour
+  have been presented in the literature ranging from simple Markov models to Bayesian
+  networks. The development of reliable user simulation tools is critical to further
+  progress on automatic dialogue management design but it holds many challenges, some
+  of which have been encountered in other areas of current research on statistical
+  user modelling, such as the problem of ‘concept drift’, the problem of combining
+  content-based and collaboration-based modelling techniques, and user model evaluation.
+  The latter topic is of particular interest, because simulation-based learning is
+  currently one of the few applications of statistical user modelling that employs
+  both direct ‘accuracy-based’ and indirect ‘utility-based’ evaluation techniques.</jats:p><jats:p>In
+  this paper, we briefly summarize the role of the dialogue manager in a spoken dialogue
+  system, give a short introduction to reinforcement-learning of dialogue management
+  strategies and review the literature on user modelling for simulation-based strategy
+  learning. We further describe recent work on user model evaluation and discuss some
+  of the current research issues in simulation-based learning from a user modelling
+  perspective.</jats:p>
+author: SCHATZMANN, JOST and WEILHAMMER, KARL and STUTTLE, MATT and YOUNG, STEVE
+author_list:
+- affiliation: []
+  family: SCHATZMANN
+  given: JOST
+- affiliation: []
+  family: WEILHAMMER
+  given: KARL
+- affiliation: []
+  family: STUTTLE
+  given: MATT
+- affiliation: []
+  family: YOUNG
+  given: STEVE
+doi: 10.1017/s0269888906000944
+issue: '2'
+journal: The Knowledge Engineering Review
+language: en
+month: 6
+pages: 97--126
+publisher: Cambridge University Press (CUP)
+title: A survey of statistical user simulation techniques for reinforcement-learning
+  of dialogue management strategies
+type: article
+url: http://dx.doi.org/10.1017/s0269888906000944
+volume: '21'
+year: 2006

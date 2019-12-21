@@ -1,0 +1,43 @@
+abstract: With the widespread use of information technologies, information networks
+  are becoming increasingly popular to capture complex relationships across various
+  disciplines, such as social networks, citation networks, telecommunication networks,
+  and biological networks. Analyzing these networks sheds light on different aspects
+  of social life such as the structure of societies, information diffusion, and communication
+  patterns. In reality, however, the large scale of information networks often makes
+  network analytic tasks computationally expensive or intractable. Network representation
+  learning has been recently proposed as a new learning paradigm to embed network
+  vertices into a low-dimensional vector space, by preserving network topology structure,
+  vertex content, and other side information. This facilitates the original network
+  to be easily handled in the new vector space for further analysis. In this survey,
+  we perform a comprehensive review of the current literature on network representation
+  learning in the data mining and machine learning field. We propose new taxonomies
+  to categorize and summarize the state-of-the-art network representation learning
+  techniques according to the underlying learning mechanisms, the network information
+  intended to preserve, as well as the algorithmic designs and methodologies. We summarize
+  evaluation protocols used for validating network representation learning including
+  published benchmark datasets, evaluation methods, and open source algorithms. We
+  also perform empirical studies to compare the performance of representative algorithms
+  on common datasets, and analyze their computational complexity. Finally, we suggest
+  promising research directions to facilitate future study.
+archiveprefix: arXiv
+author: Zhang, Daokun and Yin, Jie and Zhu, Xingquan and Zhang, Chengqi
+author_list:
+- family: Zhang
+  given: Daokun
+- family: Yin
+  given: Jie
+- family: Zhu
+  given: Xingquan
+- family: Zhang
+  given: Chengqi
+eprint: 1801.05852v3
+file: 1801.05852v3.pdf
+files:
+- zhang-daokun-and-yin-jie-and-zhu-xingquan-and-zhang-chengqinetwork-representation-learning-a-survey2017.pdf
+month: Dec
+primaryclass: cs.SI
+ref: 1801.05852v3
+title: 'Network Representation Learning: A Survey'
+type: article
+url: http://arxiv.org/abs/1801.05852v3
+year: '2017'
