@@ -1,0 +1,35 @@
+abstract: 'We propose Teacher-Student Curriculum Learning (TSCL), a framework for
+  automatic curriculum learning, where the Student tries to learn a complex task and
+  the Teacher automatically chooses subtasks from a given set for the Student to train
+  on. We describe a family of Teacher algorithms that rely on the intuition that the
+  Student should practice more those tasks on which it makes the fastest progress,
+  i.e. where the slope of the learning curve is highest. In addition, the Teacher
+  algorithms address the problem of forgetting by also choosing tasks where the Student''s
+  performance is getting worse. We demonstrate that TSCL matches or surpasses the
+  results of carefully hand-crafted curricula in two tasks: addition of decimal numbers
+  with LSTM and navigation in Minecraft. Using our automatically generated curriculum
+  enabled to solve a Minecraft maze that could not be solved at all when training
+  directly on solving the maze, and the learning was an order of magnitude faster
+  than uniform sampling of subtasks.'
+archiveprefix: arXiv
+author: Matiisen, Tambet and Oliver, Avital and Cohen, Taco and Schulman, John
+author_list:
+- family: Matiisen
+  given: Tambet
+- family: Oliver
+  given: Avital
+- family: Cohen
+  given: Taco
+- family: Schulman
+  given: John
+eprint: 1707.00183v2
+file: 1707.00183v2.pdf
+files:
+- matiisen-tambet-and-oliver-avital-and-cohen-taco-and-schulman-johnteacher-student-curriculum-learning2017.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1707.00183v2
+title: Teacher-Student Curriculum Learning
+type: article
+url: http://arxiv.org/abs/1707.00183v2
+year: '2017'

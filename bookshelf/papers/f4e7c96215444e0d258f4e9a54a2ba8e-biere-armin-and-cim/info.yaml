@@ -1,0 +1,136 @@
+author: Biere, Armin and Cimatti, Alessandro and Clarke, Edmund and Zhu, Yunshan
+author_list:
+- affiliation: []
+  family: Biere
+  given: Armin
+- affiliation: []
+  family: Cimatti
+  given: Alessandro
+- affiliation: []
+  family: Clarke
+  given: Edmund
+- affiliation: []
+  family: Zhu
+  given: Yunshan
+citations:
+- author: A. Borälv
+  series-title: Lect Notes Comput Sci
+  unstructured: Arne Borälv. The industrial success of verification tools based on
+    Stålmarck’s Method. In Orna Grumberg, editor, International Conference on Computer-Aided
+    Verification (CAV’97), number 1254 in LNCS. Springer-Verlag, 1997.
+  volume-title: International Conference on Computer-Aided Verification (CAV’97)
+  year: '1997'
+- author: R. E. Bryant
+  doi: 10.1109/TC.1986.1676819
+  first-page: '677'
+  issue: '8'
+  journal-title: IEEE Transactions on Computers
+  unstructured: R. E. Bryant. Graph-based algorithms for boolean function manipulation.
+    IEEE Transactions on Computers, 35(8):677–691, 1986.
+  volume: '35'
+  year: '1986'
+- author: J. R. Burch
+  doi: 10.1016/0890-5401(92)90017-A
+  first-page: '142'
+  journal-title: Information and Computation
+  unstructured: 'J. R. Burch, E. M. Clarke, and K. L. McMillan. Symbolic model checking:
+    1020 states and beyond. Information and Computation, 98:142–170, 1992.'
+  volume: '98'
+  year: '1992'
+- author: E. Clarke
+  first-page: '52'
+  series-title: Lect Notes Comput Sci
+  unstructured: E. Clarke and E. A. Emerson. Design and synthesis of synchronization
+    skeletons using branching time temporal logic. In Proceedings of the IBM Workshop
+    on Logics of Programs, volume 131 of LNCS, pages 52–71. Springer-Verlag, 1981.
+  volume-title: Proceedings of the IBM Workshop on Logics of Programs
+  year: '1981'
+- author: E. Clarke
+  doi: 10.1007/3-540-58179-0_72
+  first-page: '415'
+  series-title: Lect Notes Comput Sci
+  unstructured: E. Clarke, O. Grumberg, and K. Hamaguchi. Another look at LTL model
+    checking. In David L. Dill, editor, Computer Aided Verification, 6th International
+    Conference (CAV’94), volume 818 of LNCS, pages 415–427. Springer-Verlag, June
+    1994.
+  volume-title: Computer Aided Verification, 6th International Conference (CAV’94)
+  year: '1994'
+- author: E. M. Clarke
+  doi: 10.1145/186025.186051
+  first-page: '1512'
+  issue: '5'
+  journal-title: ACM Transactions on Programming Languages and Systems
+  unstructured: Edmund M. Clarke, Orna Grumberg, and David E. Long. Model checking
+    and abstraction. ACM Transactions on Programming Languages and Systems, 16(5):1512–1542,
+    1994.
+  volume: '16'
+  year: '1994'
+- author: M. Davis
+  doi: 10.1145/321033.321034
+  first-page: '201'
+  journal-title: Journal of the Association for Computing Machinery
+  unstructured: M. Davis and H. Putnam. A computing procedure for quantification theory.
+    Journal of the Association for Computing Machinery, 7:201–215, 1960.
+  volume: '7'
+  year: '1960'
+- author: E. A. Emerson
+  doi: 10.1016/0167-6423(87)90036-0
+  first-page: '275'
+  journal-title: Science of Computer Programming
+  unstructured: 'E. A. Emerson and C.-L. Lei. Modalities for model checking: Branching
+    time strikes back. Science of Computer Programming, 8:275–306, 1986.'
+  volume: '8'
+  year: '1986'
+- doi: 10.1007/3-540-61511-3_115
+  unstructured: F. Giunchiglia and R. Sebastiani. Building decision procedures for
+    modal logics from propositional decision procedures-the case study of modal K.
+    In Proc. of the 13th Conference on Automated Deduction, Lecture Notes in Artificial
+    Intelligence. Springer-Verlag, 1996.
+- unstructured: D. S. Johnson and M. A. Trick, editors. The second DIMACS implementation
+    challenge, DIMACS Series in Discrete Mathematics and Theoretical Computer Science,
+    1993. (see http://dimacs.rutgers.edu/Challenges/ ).
+- unstructured: 'H. Kautz and B. Selman. Pushing the envelope: planning, propositional
+    logic, and stochastic search. In Proc. AAAI’96, Portland, OR, 1996.'
+- doi: 10.1145/318593.318622
+  unstructured: O. Lichtenstein and A. Pnueli. Checking that finite state concurrent
+    programs satisfy their linear specification. In Poceedings of the Twelfth Annual
+    ACM Symposium on Principles of Programming Languages, pages 97–107, 1985.
+- unstructured: A. J. Martin. The design of a self-timed circuit for distributed mutual
+    exclusion. In H. Fuchs, editor, Proceedings of the 1985 Chapel Hill Conference
+    on Very Large Scale Integration, 1985.
+- doi: 10.1007/978-1-4615-3190-6
+  unstructured: 'K. L. McMillan. Symbolic Model Checking: An Approach to the State
+    Explosion Problem. Kluwer Academic Publishers, 1993.'
+- author: A. P. Sistla
+  doi: 10.1145/3828.3837
+  first-page: '733'
+  issue: '3'
+  journal-title: Journal of Assoc. Comput. Mach.
+  unstructured: A. P. Sistla and E. M. Clarke. The complexity of propositional linear
+    temporal logics. Journal of Assoc. Comput. Mach., 32(3):733–749, 1985.
+  volume: '32'
+  year: '1985'
+- doi: 10.1016/B978-0-08-040953-5.50011-8
+  unstructured: G. Stålmarck and M. Säflund. Modeling and verifying systems and software
+    in propositional logic. In B. K. Daniels, editor, Safety of Computer Control Systems
+    (SAFECOMP’ 90), pages 31–36. Pergamon Press, 1990.
+- unstructured: P. R. Stephan, R. K. Brayton, and A. L. Sangiovanni-Vincentelli. Combinational
+    test generation using satisfiability. Technical Report M92/112, Departement of
+    Electrical Engineering and Computer Science, University of California at Berkley,
+    October 1992.
+- doi: 10.1007/3-540-63104-6_28
+  unstructured: 'H. Zhang. SATO: An efficient propositional prover. In International
+    Conference on Automated Deduction (CADE’97), number 1249 in LNAI, pages 272–275.
+    Springer-Verlag, 1997.'
+doi: 10.1007/3-540-49059-0_14
+isbn:
+- '9783540657033'
+- '9783540490593'
+journal: Tools and Algorithms for the Construction and Analysis of Systems
+month: 3
+pages: 193--207
+publisher: Springer Berlin Heidelberg
+title: Symbolic Model Checking without BDDs
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-49059-0_14
+year: 1999

@@ -1,0 +1,205 @@
+abstract: <jats:p>Growing interest in reinforcement learning approaches to robotic
+  planning and control raises concerns of predictability and safety of robot behaviors
+  realized solely through learned control policies. In addition, formally defining
+  reward functions for complex tasks is challenging, and faulty rewards are prone
+  to exploitation by the learning agent. Here, we propose a formal methods approach
+  to reinforcement learning that (i) provides a formal specification language that
+  integrates high-level, rich, task specifications with a priori, domain-specific
+  knowledge; (ii) makes the reward generation process easily interpretable; (iii)
+  guides the policy generation process according to the specification; and (iv) guarantees
+  the satisfaction of the (critical) safety component of the specification. The main
+  ingredients of our computational framework are a predicate temporal logic specifically
+  tailored for robotic tasks and an automaton-guided, safe reinforcement learning
+  algorithm based on control barrier functions. Although the proposed framework is
+  quite general, we motivate it and illustrate it experimentally for a robotic cooking
+  task, in which two manipulators worked together to make hot dogs.</jats:p>
+author: Li, Xiao and Serlin, Zachary and Yang, Guang and Belta, Calin
+author_list:
+- affiliation: []
+  family: Li
+  given: Xiao
+- affiliation: []
+  family: Serlin
+  given: Zachary
+- affiliation: []
+  family: Yang
+  given: Guang
+- affiliation: []
+  family: Belta
+  given: Calin
+citations:
+- unstructured: D. Amodei, C. Olah, J. Steinhardt, P. Christiano, J. Schulman, D.
+    Mané, Concrete problems in AI safety. arXiv:1606.06565 [cs.AI] (2016).
+- unstructured: T. Arnold, D. Kasenberg, M. Scheutz, Value Alignment or Misalignment—What
+    Will Keep Systems Accountable? AAAI Workshops (2017).
+- unstructured: 'A. Y. Ng, D. Harada, S. J. Russell, Policy invariance under reward
+    transformations: Theory and application to reward shaping, in Proceedings of the
+    Sixteenth International Conference on Machine Learning (ICML, 1999), pp. 278–287.'
+- unstructured: P. F. Christiano, M. Abate, D. Amodei, Supervising strong learners
+    by amplifying weak experts. arXiv:1810.08575 [cs.LG] (2018).
+- unstructured: D. Hadfield-Menell, S. J. Russell, P. Abbeel, A. Dragan, Cooperative
+    inverse reinforcement learning, in Proceedings of Advances in Neural Information
+    Processing Systems (NeurIPS, 2016), pp. 3909–3917.
+- unstructured: 'J. Leike, D. Krueger, T. Everitt, M. Martic, V. Maini, S. Legg, Scalable
+    agent alignment via reward modeling: A research direction. arXiv:1811.07871 [cs.LG]
+    (2018).'
+- doi: 10.5220/0006156001050117
+  unstructured: G. Mason, R. Calinescu, D. Kudenko, A. Banks, Assured reinforcement
+    learning with formally verified abstract policies, in Proceedings of the 9th International
+    Conference on Agents and Artificial Intelligence (ICAART 2017), Porto, Portugal,
+    pp. 105–117.
+- unstructured: O. Bastani, Y. Pu, A. Solar-Lezama, Verifiable reinforcement learning
+    via policy extraction, in Proceedings of Advances in Neural Information Processing
+    Systems (NeurIPS, 2018), pp. 2494–2504.
+- article-title: 'Peeking inside the black-box: A survey on explainable artificial
+    intelligence (XAI)'
+  author: Adadi
+  doi: 10.1109/ACCESS.2018.2870052
+  first-page: '52138'
+  journal-title: IEEE Access
+  volume: '6'
+  year: '2018'
+- unstructured: 'G. De Giacomo, L. Iocchi, M. Favorito, F. Patrizi, Foundations for
+    restraining bolts: Reinforcement learning with LTLf/LDLf restraining specifications,
+    in Proceedings of the International Conference on Automated Planning and Scheduling
+    (ICAPS, 2019), pp. 128–136.'
+- unstructured: 'A. Camacho, O. Chen, S. Sanner, S. A. Mcllraith, Non-Markovian rewards
+    expressed in LTL: Guiding search via reward shaping, in The 10th Annual Symposium
+    on Combinatorial Search (SoCS, 2017), pp. 159–160.'
+- doi: 10.1109/CDC.2016.7799279
+  unstructured: D. Aksaray, A. Jones, Z. Kong, M. Schwager, C. Belta, Q-learning for
+    robust satisfaction of signal temporal logic specifications, in Proceedings of
+    the IEEE 55th Conference on Decision and Control (CDC, 2016), pp. 6565–6570.
+- doi: 10.1145/3302504.3313355
+  unstructured: 'A. Balakrishnan, J. Deshmukh, Structured reward functions using STL,
+    in Proceedings of the 22nd ACM International Conference on Hybrid Systems: Computation
+    and Control (HSCC, 2019), pp. 270–271.'
+- doi: 10.24963/ijcai.2017/426
+  unstructured: M. Wen, I. Papusha, U. Topcu, Learning from demonstrations with high-level
+    side information, in Proceedings of the 26th International Joint Conference on
+    Artificial Intelligence (IJCAI, 2017), pp. 3055–3061.
+- unstructured: M. Alshiekh, R. Bloem, R. Ehlers, B. Könighofer, S. Niekum, U. Topcu,
+    Safe reinforcement learning via shielding, in Proceedings of the 32nd AAAI Conference
+    on Artificial Intelligence (AAAI, 2018), pp. 2669–2678.
+- doi: 10.1145/3302509.3311053
+  unstructured: Q. Gao, D. Hajinezhad, Y. Zhang, Y, Kantaros, M, Zavlanos, Reduced
+    variance deep reinforcement learning with temporal logic specifications, in Proceedings
+    of the 10th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS,
+    2019), pp. 237–248.
+- unstructured: M. L. Littman, U. Topcu, J. Fu, C. l. Isbell, M. Wen, J. MacGlashan,
+    Environment-independent task specifications via GLTL. arXiv:1704.04341 [cs.AI]
+    (2017).
+- doi: 10.1007/978-3-030-17462-0_27
+  unstructured: E. M. Hahn, M. Perez, S. Schewe, F. Somenzi, A. Trivedi, D. Wojtczak,
+    Omega-regular objectives in model-free reinforcement learning, in International
+    Conference on Tools and Algorithms for the Construction and Analysis of Systems
+    (TACAS, Springer, 2019), pp. 395–412.
+- unstructured: R. Toro Icarte, T. Q. Klassen, R. A. Valenzano, S. A. Mcllraith, Using
+    reward machines for high-level task specification and decomposition in reinforcement
+    learning, in International Conference on Machine Learning (ICML, 2018), pp. 2112–2121.
+- doi: 10.15607/RSS.2019.XV.064
+  unstructured: 'B. Araki, K. Vodrahalli, T. Leech, C. I. Vasile, M. Donahue, D. Rus,
+    Learning to plan with logical automata, in Robotic: Science and Systems (RSS,
+    2019), pp. 1–9.'
+- article-title: Decision-theoretic planning with non-Markovian rewards
+  author: Thiébaux
+  doi: 10.1613/jair.1676
+  first-page: '17'
+  journal-title: J. Artif. Intell. Res.
+  volume: '25'
+  year: '2006'
+- unstructured: F. Bacchus, C. Boutilier, A. J. Grove, Structured solution methods
+    for non-Markovian decision processes, in Proceedings of the Fourteenth National
+    Conference on Artificial Intelligence and Ninth Conference on Innovative Applications
+    of Artificial Intelligence (AAAI, 1997), pp. 112–117.
+- unstructured: F. Bacchus, C. Boutilier, A. Grove, Rewarding behaviors, in Proceedings
+    of the Thirteenth National Conference on Artificial Intelligence (AAAI, 1996),
+    pp. 1160–1167.
+- doi: 10.1109/CDC.2014.7040372
+  unstructured: A. D. Ames, J. W. Grizzle, P. Tabuada, Control barrier function based
+    quadratic programs with application to adaptive cruise control, in Proceedings
+    of the 53rd IEEE Conference on Decision and Control (IEEE, 2014), pp. 6271–6278.
+- article-title: Barrier-certified adaptive reinforcement learning with applications
+    to brushbot navigation
+  author: Ohnishi
+  doi: 10.1109/TRO.2019.2920206
+  first-page: '1186'
+  journal-title: IEEE Trans. Robot.
+  volume: '35'
+  year: '2019'
+- doi: 10.1609/aaai.v33i01.33013387
+  unstructured: R. Cheng, G. Orosz, R. M. Murray, J. W. Burdick, End-to-end safe reinforcement
+    learning through barrier functions for safety-critical continuous control tasks,
+    in The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI, 2019), pp.
+    3387–3395.
+- doi: 10.1109/CDC.2018.8619142
+  unstructured: 'P. Nilsson, A. D. Ames, Barrier functions: Bridging the gap between
+    planning from specifications and safety critical control, in IEEE Conference on
+    Decision and Control (CDC, 2018), pp. 765–772.'
+- doi: 10.1109/IROS.2017.8206234
+  unstructured: X. Li, C.-I. Vasile, C. Belta, Reinforcement learning with temporal
+    logic rewards, in Proceedings of IEEE/RSJ International Conference on Intelligent
+    Robots and Systems (IROS, 2017), pp. 3834–3839.
+- doi: 10.1109/IROS.2013.6696520
+  unstructured: 'M. F. E. Rohmer, S. P. N. Singh, V-REP: A versatile and scalable
+    robot simulation framework, in Proceedings of IEEE/RSJ International Conference
+    on Intelligent Robots and Systems (IROS, 2013), pp. 1321–1326.'
+- unstructured: J. Ho, S. Ermon, Generative adversarial imitation learning, in Proceedings
+    of Advances in Neural Information Processing Systems (NeurIPS, 2016), pp. 4565–4573.
+- unstructured: P. Dhariwal, C. Hesse, O. Klimov, A. Nichol, M. Plappert, A. Radford,
+    J. Schulman, S. Sidor, Y. Wu, P. Zhokhov, Openai baselines (2017); https://github.com/openai/baselines.
+- doi: 10.1109/CDC.2010.5717131
+  unstructured: X. C. Ding, C. Belta, C. G. Cassandras, Receding horizon surveillance
+    with temporal logic specifications, in Proceedings of the 49th IEEE Conference
+    on Descision and Control (CDC, 2010), pp. 256–261.
+- doi: 10.1109/TNN.1998.712192
+  unstructured: 'R. S. Sutton, A. G. Barto, Reinforcement Learning: An Introduction
+    (MIT Press, 1998).'
+- doi: 10.1038/nature14236
+- unstructured: R. S. Sutton, D. A. McAllester, S. P. Singh, Y. Mansour, Policy gradient
+    methods for reinforcement learning with function approximation, in Proceedings
+    of the 12th International Conference on Neural Information Processing Systems
+    (NeurIPS, 1999), pp. 1057–1063.
+- unstructured: T. Degris, M. White, R. S. Sutton, Off-policy actor-critic. arXiv:1205.4839
+    [cs.LG] (2012).
+- unstructured: J. Schulman, F. Wolski, P. Dhariwal, A. Radford, O. Klimov, Proximal
+    policy optimization algorithms. arXiv:1707.06347 [cs.LG] (2017).
+- unstructured: C. Baier, J. P. Katoen, Principles of Model Checking (MIT Press, 2008).
+- doi: 10.1609/aaai.v33i01.33013387
+  unstructured: R. Cheng, G. Orosz, R. M. Murray, J. W. Burdick, End-to-end safe reinforcement
+    learning through barrier functions for safety-critical continuous control tasks.
+    arXiv:1903.08792 [cs.LG] (2019).
+- doi: 10.15607/RSS.2017.XIII.073
+  unstructured: 'A. Agrawal, K. Sreenath, Discrete control barrier functions for safety-critical
+    control of discrete systems with application to bipedal robot navigation, in Robotics:
+    Science and Systems (2017).'
+- unstructured: Gurobi Optimization, Gurobi optimizer reference manual (2018).
+- doi: 10.1007/3-540-44829-2_5
+  unstructured: T. Latvala, Efficient model checking of safety properties, in International
+    SPIN Workshop on Model Checking of Software (Springer, 2003), pp. 74–88.
+- unstructured: C. Vasile, A. Ulusoy, LTL Optimal Multi-Agent Planner (LOMAP), Github
+    repository, (2017); https://github.com/wasserfeder/lomap.
+- doi: 10.1007/978-3-540-30206-3_12
+  unstructured: O. Maler, D. Nickovic, Monitoring temporal properties of continuous
+    signals, in Formal Techniques, Modelling and Analysis of Timed and Fault-Tolerant
+    Systems (Springer, 2004), pp. 152–166.
+- unstructured: K. Y. Rozier, “Explicit or symbolic translation of linear temporal
+    logic to automata,” thesis, Rice University (2013).
+- unstructured: 'M. Bjelonic, YOLO ROS: Real-time object detection for ROS, Github
+    repository, (2016–2018); https://github.com/leggedrobotics/darknet_ros.'
+doc_url: https://syndication.highwire.org/content/doi/10.1126/scirobotics.aay6276
+doi: 10.1126/scirobotics.aay6276
+files:
+- li-xiao-and-serlin-zachary-and-yang-guang-and-belta-calina-formal-methods-approach-to-interpretable-reinforcement-learning-for-robotic-planning201.data
+issue: '37'
+journal: Science Robotics
+language: en
+month: 12
+pages: eaay6276
+publisher: American Association for the Advancement of Science (AAAS)
+title: A formal methods approach to interpretable reinforcement learning for robotic
+  planning
+type: article
+url: http://dx.doi.org/10.1126/scirobotics.aay6276
+volume: '4'
+year: 2019

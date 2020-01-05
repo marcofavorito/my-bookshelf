@@ -1,0 +1,44 @@
+abstract: "<jats:p>Finite automata and various extensions of them, such as transducers,\
+  \ \nare used in areas as \ndiverse as compilers, spelling checking, natural language\
+  \ grammar checking, \ncommunication \nprotocol design, digital circuit simulation,\
+  \ digital flight control, \nspeech recognition and synthesis, genetic sequencing,\
+  \ and Java program \nverification. Unfortunately, as the number of \napplications\
+  \ has grown, so has the variety of implementations and \nimplementation techniques.\
+  \ \nTypically, programmers will be confused enough to resort to their \ntext books\
+  \ for the most \nelementary algorithms. Recently, advances have been made in \n\
+  taxonomizing algorithms for \nconstructing and minimizing automata and in evaluating\
+  \ various \nimplementation strategies \nWatson 1995. Armed with this, a number of\
+  \ general-purpose toolkits \nhave been developed \nat universities and companies.\
+  \ One of these, FIRE Lite, was developed \nat the Eindhoven \nUniversity of Technology,\
+  \ while its commercial successor, FIRE \nEngine II, has been developed \nat Ribbit\
+  \ Software Systems Inc. Both of these toolkits provide \nimplementations of all\
+  \ of the \nknown algorithms for constructing automata from regular expressions,\
+  \ \nand all of the known \nalgorithms for minimizing deterministic finite automata.\
+  \ While the two \ntoolkits have a great \ndeal in common, we will concentrate on\
+  \ the structure and use of \nthe noncommercial FIRE \nLite. The prototype version\
+  \ of FIRE Lite was designed with compilers \nin mind. More recently, computation\
+  \ linguists and communications protocol \ndesigners have become interested \nin\
+  \ using the toolkit. This has led to the development of a much more \ngeneral interface\
+  \ to \nFIRE Lite, including the support of both Mealy and Moore regular \ntransducers.\
+  \ While such \na toolkit may appear extremely complex, there are only a few choices\
+  \ \nto be made. We also \nconsider a ‘recipe’ for making good use of the toolkits.\
+  \ \nLastly, we consider the future of FIRE \nLite. While FIRE Engine II has obvious\
+  \ commercial value, we are \ncommitted to maintaining \na version which is freely\
+  \ available for academic use.</jats:p>"
+author: WATSON, BRUCE W.
+author_list:
+- affiliation: []
+  family: WATSON
+  given: BRUCE W.
+doi: 10.1017/s135132499700154x
+issue: '4'
+journal: Natural Language Engineering
+language: en
+month: 12
+pages: 295--302
+publisher: Cambridge University Press (CUP)
+title: Implementing and using finite automata toolkits
+type: article
+url: http://dx.doi.org/10.1017/s135132499700154x
+volume: '2'
+year: 1996

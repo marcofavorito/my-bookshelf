@@ -1,0 +1,30 @@
+abstract: We first propose algorithms for checking language equivalence of finite
+  automata over a large alphabet. We use symbolic automata, where the transition function
+  is compactly represented using a (multi-terminal) binary decision diagrams (BDD).
+  The key idea consists in computing a bisimulation by exploring reachable pairs symbolically,
+  so as to avoid redundancies. This idea can be combined with already existing optimisations,
+  and we show in particular a nice integration with the disjoint sets forest data-structure
+  from Hopcroft and Karp's standard algorithm. Then we consider Kleene algebra with
+  tests (KAT), an algebraic theory that can be used for verification in various domains
+  ranging from compiler optimisation to network programming analysis. This theory
+  is decidable by reduction to language equivalence of automata on guarded strings,
+  a particular kind of automata that have exponentially large alphabets. We propose
+  several methods allowing to construct symbolic automata out of KAT expressions,
+  based either on Brzozowski's derivatives or standard automata constructions. All
+  in all, this results in efficient algorithms for deciding equivalence of KAT expressions.
+archiveprefix: arXiv
+author: Pous, Damien
+author_list:
+- family: Pous
+  given: Damien
+eprint: 1407.3213v1
+file: 1407.3213v1.pdf
+files:
+- pous-damiensymbolic-algorithms-for-language-equivalence-and-kleene-algebra-with-tests2014.pdf
+month: Jul
+primaryclass: cs.FL
+ref: 1407.3213v1
+title: Symbolic Algorithms for Language Equivalence and Kleene Algebra with   Tests
+type: article
+url: http://arxiv.org/abs/1407.3213v1
+year: '2014'

@@ -1,0 +1,37 @@
+abstract: This report focuses on the architecture and performance of the Intelligence
+  Processing Unit (IPU), a novel, massively parallel platform recently introduced
+  by Graphcore and aimed at Artificial Intelligence/Machine Learning (AI/ML) workloads.
+  We dissect the IPU's performance behavior using microbenchmarks that we crafted
+  for the purpose. We study the IPU's memory organization and performance. We study
+  the latency and bandwidth that the on-chip and off-chip interconnects offer, both
+  in point-to-point transfers and in a spectrum of collective operations, under diverse
+  loads. We evaluate the IPU's compute power over matrix multiplication, convolution,
+  and AI/ML primitives. We discuss actual performance in comparison with its theoretical
+  limits. Our findings reveal how the IPU's architectural design affects its performance.
+  Moreover, they offer simple mental models to predict an application's performance
+  on the IPU, on the basis of the computation and communication steps it involves.
+  This report is the natural extension to a novel architecture of a continuing effort
+  of ours that focuses on the microbenchmark-based discovery of massively parallel
+  architectures.
+archiveprefix: arXiv
+author: Jia, Zhe and Tillman, Blake and Maggioni, Marco and Scarpazza, Daniele Paolo
+author_list:
+- family: Jia
+  given: Zhe
+- family: Tillman
+  given: Blake
+- family: Maggioni
+  given: Marco
+- family: Scarpazza
+  given: Daniele Paolo
+eprint: 1912.03413v1
+file: 1912.03413v1.pdf
+files:
+- jia-zhe-and-tillman-blake-and-maggioni-marco-and-scarpazza-daniele-paolodissecting-the-graphcore-ipu-architecture-via-microbenchmarking2019.pdf
+month: Dec
+primaryclass: cs.DC
+ref: 1912.03413v1
+title: Dissecting the Graphcore IPU Architecture via Microbenchmarking
+type: article
+url: http://arxiv.org/abs/1912.03413v1
+year: '2019'

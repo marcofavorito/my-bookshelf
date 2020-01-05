@@ -1,0 +1,50 @@
+abstract: Collective learning can be greatly enhanced when agents effectively exchange
+  knowledge with their peers. In particular, recent work studying agents that learn
+  to teach other teammates has demonstrated that action advising accelerates team-wide
+  learning. However, the prior work has simplified the learning of advising policies
+  by using simple function approximations and only considering advising with primitive
+  (low-level) actions, limiting the scalability of learning and teaching to complex
+  domains. This paper introduces a novel learning-to-teach framework, called hierarchical
+  multiagent teaching (HMAT), that improves scalability to complex environments by
+  using the deep representation for student policies and by advising with more expressive
+  extended action sequences over multiple levels of temporal abstraction. Our empirical
+  evaluations demonstrate that HMAT improves team-wide learning progress in large,
+  complex domains where previous approaches fail. HMAT also learns teaching policies
+  that can effectively transfer knowledge to different teammates with knowledge of
+  different tasks, even when the teammates have heterogeneous action spaces.
+archiveprefix: arXiv
+author: Kim, Dong-Ki and Liu, Miao and Omidshafiei, Shayegan and Lopez-Cot, Sebastian
+  and Riemer, Matthew and Habibi, Golnaz and Tesauro, Gerald and Mourad, Sami and
+  Campbell, Murray and How, Jonathan P.
+author_list:
+- family: Kim
+  given: Dong-Ki
+- family: Liu
+  given: Miao
+- family: Omidshafiei
+  given: Shayegan
+- family: Lopez-Cot
+  given: Sebastian
+- family: Riemer
+  given: Matthew
+- family: Habibi
+  given: Golnaz
+- family: Tesauro
+  given: Gerald
+- family: Mourad
+  given: Sami
+- family: Campbell
+  given: Murray
+- family: How
+  given: Jonathan P.
+eprint: 1903.03216v4
+file: 1903.03216v4.pdf
+files:
+- kim-dong-ki-and-liu-miao-and-omidshafiei-shayegan-and-lopez-cot-sebastian-and-riemer-matthew-and-habibi-golnaz-and-tesauro-gerald-and-mourad-s.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1903.03216v4
+title: Learning Hierarchical Teaching Policies for Cooperative Agents
+type: article
+url: http://arxiv.org/abs/1903.03216v4
+year: '2019'

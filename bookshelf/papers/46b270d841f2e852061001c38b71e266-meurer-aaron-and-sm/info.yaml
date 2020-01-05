@@ -1,0 +1,480 @@
+abstract: <jats:p>SymPy is an open source computer algebra system written in pure
+  Python. It is built with a focus on extensibility and ease of use, through both
+  interactive and programmatic applications. These characteristics have led SymPy
+  to become a popular symbolic library for the scientific Python ecosystem. This paper
+  presents the architecture of SymPy, a description of its features, and a discussion
+  of select submodules. The supplementary material provide additional examples and
+  further outline details of the architecture and features of SymPy.</jats:p>
+author: Meurer, Aaron and Smith, Christopher P. and Paprocki, Mateusz and Čertík,
+  Ondřej and Kirpichev, Sergey B. and Rocklin, Matthew and Kumar, AMiT and Ivanov,
+  Sergiu and Moore, Jason K. and Singh, Sartaj and Rathnayake, Thilina and Vig, Sean
+  and Granger, Brian E. and Muller, Richard P. and Bonazzi, Francesco and Gupta, Harsh
+  and Vats, Shivam and Johansson, Fredrik and Pedregosa, Fabian and Curry, Matthew
+  J. and Terrel, Andy R. and Roučka, Štěpán and Saboo, Ashutosh and Fernando, Isuru
+  and Kulal, Sumith and Cimrman, Robert and Scopatz, Anthony
+author_list:
+- affiliation:
+  - name: Department of Mechanical Engineering, University of South Carolina, Columbia,
+      SC, United States
+  family: Meurer
+  given: Aaron
+- affiliation:
+  - name: Polar Semiconductor, Inc., Bloomington, MN, United States
+  family: Smith
+  given: Christopher P.
+- affiliation:
+  - name: Continuum Analytics, Inc., Austin, TX, United States
+  family: Paprocki
+  given: Mateusz
+- affiliation:
+  - name: Los Alamos National Laboratory, Los Alamos, NM, United States
+  family: Čertík
+  given: Ondřej
+- affiliation:
+  - name: Faculty of Physics, Moscow State University, Moscow, Russia
+  family: Kirpichev
+  given: Sergey B.
+- affiliation:
+  - name: Continuum Analytics, Inc., Austin, TX, United States
+  family: Rocklin
+  given: Matthew
+- affiliation:
+  - name: Department of Applied Mathematics, Delhi Technological University, New Delhi,
+      India
+  family: Kumar
+  given: AMiT
+- affiliation:
+  - name: Université Paris Est Créteil, Créteil, France
+  family: Ivanov
+  given: Sergiu
+- affiliation:
+  - name: Mechanical and Aerospace Engineering, University of California, Davis, CA,
+      United States
+  family: Moore
+  given: Jason K.
+- affiliation:
+  - name: Mathematical Sciences, Indian Institute of Technology (BHU), Varanasi, Uttar
+      Pradesh, India
+  family: Singh
+  given: Sartaj
+- affiliation:
+  - name: Department of Computer Science and Engineering, University of Moratuwa,
+      Katubedda, Moratuwa, Sri Lanka
+  family: Rathnayake
+  given: Thilina
+- affiliation:
+  - name: University of Illinois at Urbana-Champaign, Urbana, IL, United States
+  family: Vig
+  given: Sean
+- affiliation:
+  - name: California Polytechnic State University, San Luis Obispo, CA, United States
+  family: Granger
+  given: Brian E.
+- affiliation:
+  - name: Center for Computing Research, Sandia National Laboratories, Albuquerque,
+      NM, United States
+  family: Muller
+  given: Richard P.
+- affiliation:
+  - name: Department of Theory and Bio-Systems, Max Planck Institute of Colloids and
+      Interfaces, Potsdam, Germany
+  family: Bonazzi
+  given: Francesco
+- affiliation:
+  - name: Indian Institute of Technology Kharagpur, Kharagpur, West Bengal, India
+  family: Gupta
+  given: Harsh
+- affiliation:
+  - name: Indian Institute of Technology Kharagpur, Kharagpur, West Bengal, India
+  family: Vats
+  given: Shivam
+- affiliation:
+  - name: INRIA Bordeaux-Sud-Ouest—LFANT project-team, Talence, France
+  family: Johansson
+  given: Fredrik
+- affiliation:
+  - name: INRIA—SIERRA project-team, Paris, France
+  family: Pedregosa
+  given: Fabian
+- affiliation:
+  - name: Department of Physics and Astronomy, University of New Mexico, Albuquerque,
+      NM, United States
+  - name: Center for Quantum Information and Control, University of New Mexico, Albuquerque,
+      NM, United States
+  - name: Sandia National Laboratories, Albuquerque, NM, United States
+  family: Curry
+  given: Matthew J.
+- affiliation:
+  - name: Fashion Metric, Inc, Austin, TX, United States
+  - name: NumFOCUS, Austin, TX, United States
+  family: Terrel
+  given: Andy R.
+- affiliation:
+  - name: Department of Surface and Plasma Science, Faculty of Mathematics and Physics,
+      Charles University in Prague, Praha, Czech Republic
+  family: Roučka
+  given: Štěpán
+- affiliation:
+  - name: Department of Computer Science, Department of Mathematics, Birla Institute
+      of Technology and Science, Goa, India
+  family: Saboo
+  given: Ashutosh
+- affiliation:
+  - name: Department of Computer Science and Engineering, University of Moratuwa,
+      Katubedda, Moratuwa, Sri Lanka
+  family: Fernando
+  given: Isuru
+- affiliation:
+  - name: Indian Institute of Technology Bombay, Mumbai, Maharashtra, India
+  family: Kulal
+  given: Sumith
+- affiliation:
+  - name: New Technologies—Research Centre, University of West Bohemia, Plzeň, Czech
+      Republic
+  family: Cimrman
+  given: Robert
+- affiliation:
+  - name: Department of Mechanical Engineering, University of South Carolina, Columbia,
+      SC, United States
+  family: Scopatz
+  given: Anthony
+citations:
+- article-title: An introduction to Gröbner bases
+  author: Adams
+  issue: '3'
+  volume: Vol. 3
+  year: '1994'
+- article-title: A comparison of three high-precision quadrature schemes
+  author: Bailey
+  doi: 10.1080/10586458.2005.10128931
+  first-page: '317'
+  issue: '3'
+  journal-title: Experimental Mathematics
+  volume: '14'
+  year: '2005'
+- article-title: Advanced mathematical methods for scientists and engineers
+  author: Bender
+  edition: 1st edition
+  year: '1999'
+- article-title: Graph theory, 1736–1936
+  author: Biggs
+  year: '1976'
+- article-title: Geometric algebra/calculus modules for SymPy galgebra
+  author: Bromborsky
+  year: '2016'
+- article-title: pmint—The Poor Man’s Integrator
+  author: Bronstein
+  year: '2005'
+- article-title: 'Symbolic integration I: transcendental functions'
+  author: Bronstein
+  year: '2005'
+- article-title: Ein Algorithmus zum Auffinden der Basis Elemente des Restklassenrings
+    nach einem nulldimensionalen Polynomideal
+  author: Buchberger
+  journal-title: PhD thesis
+  year: '1965'
+- article-title: 'MathJax: a platform for mathematics on the Web'
+  author: Cervone
+  first-page: '312'
+  issue: '2'
+  journal-title: Notices of the AMS
+  volume: '59'
+  year: '2012'
+- article-title: SfePy—write your own FE application
+  author: Cimrman
+  first-page: '65'
+  journal-title: Proceedings of the 6th european conference on Python in science (EuroSciPy
+    2013)
+  year: '2014'
+- article-title: Google app engine
+  author: Ciurana
+  doi: 10.1007/978-1-4302-1832-6
+  volume-title: Developing with Google App Engine
+  year: '2009'
+- article-title: 'Ikfast: the robot kinematics compiler'
+  author: Diankov
+  year: '2010'
+- article-title: Production matching for large learning systems
+  author: Doorenbos
+  journal-title: PhD thesis
+  year: '1995'
+- article-title: A new efficient algorithm for computing Gröbner bases (F4)
+  author: Faugère
+  doi: 10.1016/S0022-4049(99)00005-5
+  first-page: '61'
+  issue: 1–3
+  journal-title: Journal of Pure and Applied Algebra
+  volume: '139'
+  year: '1999'
+- article-title: A new efficient algorithm for computing Gröbner bases without reduction
+    to zero (F5)
+  author: Faugère
+  doi: 10.1145/780506.7805161-58113-484-3
+  first-page: '75'
+  volume-title: 'ISSAC’02: proceedings of the 2002 international symposium on symbolic
+    and algebraic computation'
+  year: '2002'
+- author: Fetter
+  volume-title: Quantum theory of many-particle systems
+  year: '2003'
+- article-title: 'MPFR: a multiple-precision binary floating-point library with correct
+    rounding'
+  author: Fousse
+  doi: 10.1145/1236463.1236468
+  issue: '2'
+  journal-title: ACM Transactions on Mathematical Software
+  volume: '33'
+  year: '2007'
+- article-title: Automated and readable simplification of trigonometric expressions
+  author: Fu
+  doi: 10.1016/j.mcm.2006.04.002
+  first-page: '1169'
+  issue: 11–12
+  journal-title: Mathematical and Computer Modelling
+  volume: '55'
+  year: '2006'
+- article-title: 'Constrained multibody dynamics with Python: from symbolic equation
+    generation to publication'
+  author: Gede
+  first-page: V07BT10A051
+  year: '2013'
+- article-title: What every computer scientist should know about floating-point arithmetic
+  author: Goldberg
+  doi: 10.1145/103162.103163
+  first-page: '5'
+  issue: '1'
+  journal-title: ACM Computing Surveys (CSUR)
+  volume: '23'
+  year: '1991'
+- article-title: Decision procedure for indefinite hypergeometric summation
+  author: Gosper
+  doi: 10.1073/pnas.75.1.40
+  first-page: '40'
+  issue: '1'
+  journal-title: Proceedings of the National Academy of Sciences of the United States
+    of America
+  volume: '75'
+  year: '1978'
+- article-title: On computing limits in a symbolic manipulation system
+  author: Gruntz
+  journal-title: PhD thesis
+  year: '1996'
+- article-title: GMPY
+  author: Horsen
+  year: '2015'
+- article-title: Domain specific languages
+  author: Hudak
+  first-page: '39'
+  volume-title: 'Handbook of programming languages, vol. III: little languages and
+    tools, chapter 3'
+  year: '1998'
+- article-title: 'Matplotlib: a 2D graphics environment'
+  author: Hunter
+  doi: 10.1109/MCSE.2007.55
+  first-page: '90'
+  issue: '3'
+  journal-title: Computing in Science & Engineering
+  volume: '9'
+  year: '2007'
+- article-title: 'mpmath: a Python library for arbitrary-precision floating-point
+    arithmetic'
+  author: Johansson
+  year: '2014'
+- article-title: 'SciPy: open source scientific tools for Python'
+  author: Jones
+  year: '2001'
+- article-title: Dynamics, theory and applications
+  author: Kane
+  year: '1985'
+- article-title: Jupyter Notebooks—a publishing format for reproducible computational
+    workflows
+  author: Kluyver
+  first-page: '87'
+  year: '2016'
+- author: Lagrange
+  volume-title: Mécanique analytique. No. v.1
+  year: '1811'
+- article-title: Introduction to transcendental numbers
+  author: Lang
+  volume-title: Addison-Wesley series in mathematics
+  year: '1966'
+- author: Lutz
+  volume-title: Learning Python
+  year: '2013'
+- article-title: Mathpix — Solve and graph math using pictures
+  author: Mathpix, Inc
+  year: '2016'
+- article-title: 'Algebraic simplification: a guide for the Perplexed'
+  author: Moses
+  doi: 10.1145/800204.806298
+  first-page: '282'
+  year: '1971'
+- author: Nielsen
+  volume-title: Quantum computation and quantum information
+  year: '2011'
+- author: Nijenhuis
+  edition: second edition
+  volume-title: 'Combinatorial algorithms: for computers and calculators'
+  year: '1978'
+- article-title: Python for scientific computing
+  author: Oliphant
+  doi: 10.1109/MCSE.2007.58
+  first-page: '10'
+  issue: '3'
+  journal-title: Computing in Science & Engineering
+  volume: '9'
+  year: '2007'
+- article-title: Design and implementation issues of a computer algebra system in
+    an interpreted, dynamically typed programming language
+  author: Paprocki
+  journal-title: Master’s thesis
+  year: '2010'
+- article-title: 'Cadabra: a field-theory motivated symbolic computer algebra system'
+  author: Peeters
+  doi: 10.1016/j.cpc.2007.01.003
+  first-page: '550'
+  issue: '8'
+  journal-title: Computer Physics Communications
+  volume: '176'
+  year: '2007'
+- article-title: 'IPython: a system for interactive scientific computing'
+  author: Pérez
+  doi: 10.1109/MCSE.2007.53
+  first-page: '21'
+  issue: '3'
+  journal-title: Computing in Science & Engineering
+  volume: '9'
+  year: '2007'
+- article-title: Symbolic linearization of equations of motion of constrained multibody
+    systems
+  author: Peterson
+  doi: 10.1007/s11044-014-9436-5
+  first-page: '143'
+  issue: '2'
+  journal-title: Multibody System Dynamics
+  volume: '33'
+  year: '2014'
+- author: Petkovšek
+  first-page: 222+
+  volume-title: A = B
+  year: '1997'
+- article-title: The cathedral and the bazaar
+  author: Raymond
+  doi: 10.1007/s12130-999-1026-0
+  first-page: '23'
+  issue: '3'
+  journal-title: Knowledge, Technology & Policy
+  volume: '12'
+  year: '1999'
+- article-title: Hypergeometric function representations
+  author: Roach
+  doi: 10.1145/236869.2370880-89791-796-0
+  first-page: '301'
+  volume-title: 'ISSAC’96: proceedings of the 1996 international symposium on symbolic
+    and algebraic computation'
+  year: '1996'
+- author: Roach
+  doi: 10.1145/258726.2587840-89791-875-4
+  first-page: '205'
+  journal-title: Meijer G function representations
+  year: '1997'
+- article-title: Mathematically informed linear algebra codes through term rewriting
+  author: Rocklin
+  journal-title: PhD thesis
+  year: '2013'
+- article-title: Symbolic Statistics with SymPy
+  author: Rocklin
+  doi: 10.1109/MCSE.2012.56
+  first-page: '88'
+  issue: '3'
+  journal-title: Computing in Science and Engineering
+  volume: '14'
+  year: '2012'
+- article-title: XY-pic user’s guide
+  author: Rose
+  year: '1999'
+- author: Rosen
+  volume-title: 'Open source licensing: software freedom and intellectual property
+    law'
+  year: '2005'
+- article-title: Modern quantum mechanics
+  author: Sakurai
+  year: '2010'
+- author: Shaw
+  volume-title: 'Software architecture: perspectives on an emerging discipline'
+  year: '1996'
+- article-title: Functional differential geometry
+  author: Sussman
+  year: '2013'
+- article-title: 'Generalized vector and dyadic analysis: applied mathematics in field
+    theory'
+  author: Tai
+  volume: Vol. 9
+  year: '1997'
+- article-title: Double exponential formulas for numerical integration
+  author: Takahasi
+  doi: 10.2977/prims/1195192451
+  first-page: '721'
+  issue: '3'
+  journal-title: Publications of the Research Institute for Mathematical Sciences
+  volume: '9'
+  year: '1974'
+- article-title: Lcapy, a Python package for linear circuit analysis
+  author: The Lcapy Developers
+  year: '2016'
+- article-title: Mathics, a free, general-purpose online computer algebra system featuring
+    Mathematica-compatible syntax and functions
+  author: The Mathics Developers
+  year: '2016'
+- article-title: Quameon, quantum Monte Carlo in Python
+  author: The Quameon Developers
+  year: '2016'
+- article-title: SageMath, the sage mathematics software system
+  author: The Sage Developers
+  year: '2016'
+- article-title: The symbolic package for GNU Octave
+  author: The Symbolic Package Developers
+  year: '2016'
+- article-title: SymEngine, a fast symbolic manipulation library, written in C++
+  author: The SymPy Developers
+  year: '2016'
+- article-title: SymPy Gamma
+  author: The SymPy Developers
+  year: '2016'
+- article-title: SymPy.jl, a package to bring Python’s SymPy functionality into Julia
+    via PyCall
+  author: The SymPy.jl Developers
+  year: '2016'
+- article-title: 'Maple and Meijer’s G-function: a numerical instability and a cure'
+  author: Toth
+  year: '2007'
+- article-title: 'yt: a multi-code analysis toolkit for astrophysical simulation data'
+  author: Turk
+  doi: 10.1088/0067-0049/192/1/9
+  first-page: '9'
+  journal-title: The Astrophysical Journal Supplement Series
+  volume: '192'
+  year: '2011'
+- article-title: 'Angular momentum: understanding spatial aspects in chemistry and
+    physics'
+  author: Zare
+  year: '1991'
+- article-title: 'The finite element method: its basis and fundamentals'
+  author: Zienkiewicz
+  doi: 10.1016/B978-1-85617-633-0.00019-8978-1-85617-633-0
+  edition: Seventh edition
+  year: '2013'
+doc_url: https://peerj.com/articles/cs-103.xml
+doi: 10.7717/peerj-cs.103
+files:
+- meurer-aaron-and-smith-christopher-p.-and-paprocki-mateusz-and-certik-ondrej-and-kirpichev-sergey-b.-and-rocklin-matthew-and-kumar-amit-and-iva.data
+journal: PeerJ Computer Science
+language: en
+month: 1
+pages: e103
+publisher: PeerJ
+title: 'SymPy: symbolic computing in Python'
+type: article
+url: http://dx.doi.org/10.7717/peerj-cs.103
+volume: '3'
+year: 2017

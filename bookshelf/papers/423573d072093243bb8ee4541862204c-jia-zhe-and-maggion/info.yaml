@@ -1,0 +1,44 @@
+abstract: 'In 2019, the rapid rate at which GPU manufacturers refresh their designs,
+  coupled with their reluctance to disclose microarchitectural details, is still a
+  hurdle for those software designers who want to extract the highest possible performance.
+  Last year, these very reasons motivated us to dissect the Volta GPU architecture
+  using microbenchmarks.   The introduction in August 2018 of Turing, NVidia''s latest
+  architecture, pressed us to update our study. In this report, we examine Turing
+  and compare it quantitatively against previous NVidia GPU generations. Specifically,
+  we study the T4 GPU: a low-power board aiming at inference applications. We describe
+  its improvements against its inference-oriented predecessor: the P4 GPU based on
+  the Pascal architecture. Both T4 and P4 GPUs achieve significantly higher frequency-per-Watt
+  figures than their full-size counterparts.   We study the performance of the T4''s
+  TensorCores, finding a much higher throughput on low-precision operands than on
+  the P4 GPU. We reveal that Turing introduces new instructions that express matrix
+  math more succinctly. We map Turing''s instruction space, finding the same encoding
+  as Volta, and additional instructions. We reveal that the Turing TU104 chip has
+  the same memory hierarchy depth as the Volta GV100; cache levels sizes on the TU104
+  are frequently twice as large as those found on the Pascal GP104. We benchmark each
+  constituent of the T4 memory hierarchy and find substantial overall performance
+  improvements over its P4 predecessor. We studied how clock throttling affects compute-intensive
+  workloads that hit power or thermal limits.   Many of our findings are novel, published
+  here for the first time. All of them can guide high-performance software developers
+  get closer to the GPU''s peak performance.'
+archiveprefix: arXiv
+author: Jia, Zhe and Maggioni, Marco and Smith, Jeffrey and Scarpazza, Daniele Paolo
+author_list:
+- family: Jia
+  given: Zhe
+- family: Maggioni
+  given: Marco
+- family: Smith
+  given: Jeffrey
+- family: Scarpazza
+  given: Daniele Paolo
+eprint: 1903.07486v1
+file: 1903.07486v1.pdf
+files:
+- jia-zhe-and-maggioni-marco-and-smith-jeffrey-and-scarpazza-daniele-paolodissecting-the-nvidia-turing-t4-gpu-via-microbenchmarking2019.pdf
+month: Mar
+primaryclass: cs.DC
+ref: 1903.07486v1
+title: Dissecting the NVidia Turing T4 GPU via Microbenchmarking
+type: article
+url: http://arxiv.org/abs/1903.07486v1
+year: '2019'

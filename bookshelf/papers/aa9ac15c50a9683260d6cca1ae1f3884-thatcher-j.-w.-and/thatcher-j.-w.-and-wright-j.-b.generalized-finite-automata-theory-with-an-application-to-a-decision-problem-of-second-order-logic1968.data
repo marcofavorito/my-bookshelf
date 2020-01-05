@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Generalized finite automata theory with an application to a decision problem of second-order logic | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+    <link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+    <link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+    <link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+    <link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+    <link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+    <link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+    <link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+    <link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+    <link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+    <link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/core-article-f837ea88d2.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/enhanced-article-9120b115e5.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+
+    
+
+    <meta name="journal_id" content="224"/>
+
+    <meta name="dc.title" content="Generalized finite automata theory with an application to a decision problem of second-order logic"/>
+
+    <meta name="dc.source" content="Mathematical systems theory 1968 2:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1968 Springer-Verlag New York Inc."/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Many of the important concepts and results of conventional finite automata theory are developed for a generalization in which finite algebras take the place of finite automata. The standard closure theorems are proved for the class of sets &#8220;recognizable&#8221; by finite algebras, and a generalization of Kleene&#39;s regularity theory is presented. The theorems of the generalized theory are then applied to obtain a positive solution to a decision problem of second-order logic."/>
+
+    <meta name="prism.issn" content="1433-0490"/>
+
+    <meta name="prism.publicationName" content="Mathematical systems theory"/>
+
+    <meta name="prism.volume" content="2"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="57"/>
+
+    <meta name="prism.endingPage" content="81"/>
+
+    <meta name="prism.copyright" content="1968 Springer-Verlag New York Inc."/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF01691346"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF01691346"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF01691346.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF01691346"/>
+
+    <meta name="citation_journal_title" content="Mathematical systems theory"/>
+
+    <meta name="citation_journal_abbrev" content="Math. Systems Theory"/>
+
+    <meta name="citation_publisher" content="Springer-Verlag"/>
+
+    <meta name="citation_issn" content="1433-0490"/>
+
+    <meta name="citation_title" content="Generalized finite automata theory with an application to a decision problem of second-order logic"/>
+
+    <meta name="citation_volume" content="2"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="1968/03"/>
+
+    <meta name="citation_firstpage" content="57"/>
+
+    <meta name="citation_lastpage" content="81"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF01691346"/>
+
+    <meta name="DOI" content="10.1007/BF01691346"/>
+
+    <meta name="citation_doi" content="10.1007/BF01691346"/>
+
+    <meta name="description" content="Many of the important concepts and results of conventional finite automata theory are developed for a generalization in which finite algebras take the plac"/>
+
+    <meta name="dc.creator" content="J. W. Thatcher"/>
+
+    <meta name="dc.creator" content="J. B. Wright"/>
+
+    <meta name="dc.subject" content="Theory of Computation"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Proc. Cambridge Phil. Soc.; citation_title=On the structure of abstract algebras; citation_author=G. Birkhoff; citation_volume=31; citation_publication_date=1938; citation_pages=433-454; citation_id=CR1"/>
+
+    <meta name="citation_reference" content="
+G. Birkhoff,Lattice Theory, Amer. Math. Soc. Colloq. Publ., Vol. 25, New York, 1948."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Notices Amer. Math. Soc.; citation_title=Decision problems of weak second-order arithmetics and finite automata. Abstract 553-112; citation_author=J. R. B&#252;chi, C. C. Elgot; citation_volume=5; citation_publication_date=1958; citation_pages=834; citation_id=CR3"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Z. Math. Logik Grundlagen Math.; citation_title=&#8220;Weak second-order arithmetic and finite automata&#8221;. University of Michigan, Logic of Computers Group Technical Report, September 1959; citation_author=J. R. B&#252;chi; citation_volume=6; citation_publication_date=1960; citation_pages=66-92; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="
+J. R. B&#252;chi andJ. B. Wright, &#8220;Mathematical Theory of Automata&#8221;. Notes on material presented by J. R. B&#252;chi and J. B. Wright, Communication Sciences 403, Fall 1960, The University of Michigan."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Z. Angewandte Math. und Mech.; citation_title=Mathematische Theorie des Verhaltens endlicher Automaten; citation_author=J. R. B&#252;chi; citation_volume=42; citation_publication_date=1962; citation_pages=9-16; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J. Assoc. Comp. Mach.; citation_title=Realization of events by logical nets; citation_author=I. M. Copi, C. C. Elgot, J. B. Wright; citation_volume=5; citation_publication_date=1958; citation_pages=181-196; citation_id=CR7"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Notices Amer. Math. Soc.; citation_title=Decidability of the weak second-order theory of two successors. Abstract 65T-468; citation_author=J. E. Doner; citation_volume=12; citation_publication_date=1965; citation_pages=819; citation_id=CR8"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Trans. Amer. Math. Soc.; citation_title=&#8220;Decision problems of finite automaton design and related arithmetics&#8221;. University of Michigan, Department of Mathematics and Logic of Computers Group Technical Report, June 1959; citation_author=C. C. Elgot; citation_volume=98; citation_publication_date=1961; citation_pages=21-51; citation_id=CR9"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Fund. Math.; citation_title=The first-order properties of products of algebraic systems; citation_author=S. Feferman, R. L. Vaught; citation_volume=47; citation_publication_date=1959; citation_pages=57-103; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="citation_title=Representation of events in nerve nets and finite automata; citation_inbook_title=Automata Studies; citation_publication_date=1956; citation_pages=3-42; citation_id=CR11; citation_author=S. C. Kleene; citation_publisher=Princeton University Press"/>
+
+    <meta name="citation_reference" content="
+I. T. Medvedev, On a class of events representable in a finite automaton. Supplement to the Russian translation ofAutomata Studies (C. Shannon and J. McCarthy, eds.), published by the Publishing Agency for Foreign Literature, Moscow, 1956. Translated by Jacques J. Schorr-Kon for Lincoln Laboratory Report 34-73, June 1958. (Also in Moore [13].)"/>
+
+    <meta name="citation_reference" content="citation_title=Sequential Machines, Selected Papers; citation_publication_date=1964; citation_id=CR13; citation_author=E. F. Moore; citation_publisher=Addison-Wesley"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IBM J. Res. Develop.; citation_title=Finite automata and their decision problems; citation_author=M. O. Rabin, Dana Scott; citation_volume=3; citation_publication_date=1959; citation_pages=114-125; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Trans. Amer. Math. Soc.; citation_title=Classes of predictably computable functions; citation_author=R. W. Ritchie; citation_volume=106; citation_publication_date=1963; citation_pages=139-173; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Proc. Amer. Math. Soc.; citation_title=Restricted set-theoretic definitions in arithmetic; citation_author=Raphael M. Robinson; citation_volume=9; citation_publication_date=1958; citation_pages=238-242; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="
+J. W. Thatcher, &#8220;Notes on Mathematical Automata Theory&#8221;. University of Michigan Technical Note, December, 1963."/>
+
+    <meta name="citation_reference" content="
+J. W. Thatcher, &#8220;Decision Problems and Definability for Generalized Arithmetic&#8221;. Doctoral Dissertation, The University of Michigan; IBM Research Report RC 1316, November, 1964."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Notices Amer. Math. Soc.; citation_title=Generalized finite automata. Abstract 65T-469; citation_author=J. W. Thatcher, J. B. Wright; citation_volume=12; citation_publication_date=1965; citation_pages=820; citation_id=CR19"/>
+
+    <meta name="citation_author" content="J. W. Thatcher"/>
+
+    <meta name="citation_author_institution" content="IBM Watson Research Center, USA"/>
+
+    <meta name="citation_author" content="J. B. Wright"/>
+
+    <meta name="citation_author_institution" content="IBM Watson Research Center, USA"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="Generalized finite automata theory with an application to a decision p"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="Many of the important concepts and results of conventional finite automata theory are developed for a generalization in which finite algebras take the place of finite automata. The standard closure theorems are proved for the class of sets &#8220;recognizable&#8221; by finite algebras, and a generalization of Kleene&#39;s regularity theory is presented. The theorems of the generalized theory are then applied to obtain a positive solution to a decision problem of second-order logic."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/224/2/1.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF01691346&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1968/03/01"/>
+
+ 
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF01691346"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Theory of Computing Systems"/>
+        <meta property="og:title" content="Generalized finite automata theory with an application to a decision problem of second-order logic"/>
+        <meta property="og:description" content="Many of the important concepts and results of conventional finite automata theory are developed for a generalization in which finite algebras take the place of finite automata. The standard closure theorems are proved for the class of sets “recognizable” by finite algebras, and a generalization of Kleene&#x27;s regularity theory is presented. The theorems of the generalized theory are then applied to obtain a positive solution to a decision problem of second-order logic."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/224.jpg"/>
+    
+    <meta name="access" content="No">
+
+    <html>
+<head>
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF01691346","Journal Title":"Mathematical systems theory","Journal Id":224,"Keywords":"Computational Mathematic, Generalize Theory, Decision Problem, Important Concept, Finite Automaton","kwrd":["Computational_Mathematic","Generalize_Theory","Decision_Problem","Important_Concept","Finite_Automaton"],"Page":"article","Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"eventTrackerBaseUrl":"https://event-tracker.springernature.com","VG Wort Identifier":"pw-vgzm.415900-10.1007-BF01691346","Full HTML":"N","Subject Codes":["SCI","SCI16005"],"pmc":["I","I16005"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1433-0490","pissn":"0025-5661"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Theory of Computation"},"secondarySubjectCodes":{"1":"I16005"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF01691346"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+</head>
+</html>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+
+</head>
+<body class="shared-article-renderer">
+    <div class="u-vh-full">
+        <div class="c-ad c-ad--LB1">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/224/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;"></div>
+    </div>
+</div>
+
+<header class="c-header">
+    <div class="c-header__container">
+        <div class="c-header__brand">
+            <a id="logo" class="site-logo" href="/" title="Go to homepage">
+    
+        <div data-test="header-academic" class="u-visually-hidden">SpringerLink</div>
+        <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+            <image width="148" height="30"
+                   src=/oscar-static/images/springerlink/png/springerlink-58406caa4d.png
+                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg></image>
+        </svg>
+    
+    
+    
+</a>
+
+        </div>
+        <div class="c-header__navigation">
+            
+    <button type="button" class="c-header__link u-button-reset u-margin-right-lg js-search" data-test="header-search-button">
+        <span class="u-display-flex u-flex-align-center">
+            Search
+            <svg class="c-icon u-margin-left-xs" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path d="M16 13.751l-4.415-4.366c.61-.944.969-2.06.968-3.257C12.553 2.749 9.738 0 6.276 0 2.815 0 0 2.749 0 6.128c0 3.38 2.815 6.129 6.276 6.129a6.363 6.363 0 0 0 2.881-.689L13.641 16 16 13.751zM1.521 6.128c0-2.56 2.133-4.643 4.755-4.643 2.623 0 4.756 2.083 4.756 4.643 0 2.562-2.134 4.644-4.756 4.644-2.622-.001-4.755-2.083-4.755-4.644z"/></svg>
+        </span>
+    </button>
+    <nav>
+        <ul class="c-header__menu" data-header-menu>
+            <li class="c-header__item">
+                <a class="c-header__link" href="/">Home</a>
+            </li>
+
+            
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF01691346">Log in</a>
+                </li>
+            
+
+            
+        </ul>
+    </nav>
+
+
+
+
+        </div>
+    </div>
+</header>
+<!-- TODO: pending to use a component for this -->
+<div class="c-popup-search js-header-search u-js-hide">
+    <div class="c-popup-search__content">
+        <div class="u-container">
+            <div class="c-popup-search__container c-popup-search__content">
+    <div class="c-search">
+        <form role="search" method="GET" action="/search">
+            <label for="publisherSearch" class="c-search__label">Search SpringerLink</label>
+            <div class="c-search__content">
+                <input id="publisherSearch" class="c-search__input js-publisher-search-input" autocomplete="off" role="textbox" name="query" type="text" value="">
+                <button class="c-search__button" type="submit">
+                    <span class="u-visually-hidden">Search</span>
+                    <div class="c-search__icon">
+                        <!-- TODO: standarize the use of including svg icons -->
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M16 13.751l-4.415-4.366c.61-.944.969-2.06.968-3.257C12.553 2.749 9.738 0 6.276 0 2.815 0 0 2.749 0 6.128c0 3.38 2.815 6.129 6.276 6.129a6.363 6.363 0 0 0 2.881-.689L13.641 16 16 13.751zM1.521 6.128c0-2.56 2.133-4.643 4.755-4.643 2.623 0 4.756 2.083 4.756 4.643 0 2.562-2.134 4.644-4.756 4.644-2.622-.001-4.755-2.083-4.755-4.644z"/></svg>
+                    </div>
+                </button>
+                <input type="hidden" name="searchType" value="publisherSearch">
+            </div>
+        </form>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+        <div class="u-container u-margin-top-xl u-margin-bottom-xl" id="main-content" data-component="article-container">
+            <div class="c-page-layout c-page-layout--article" data-component="sticky-container">
+
+                <main class="c-page-layout__main">
+                    <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                        <div class="c-article-header">
+                            <header>
+                                <ul class="c-article-identifiers" data-test="article-identifier">
+                                    
+    
+    
+    
+
+                                    <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="1968-03" itemprop="datePublished">March 1968</time></a></li>
+                                </ul>
+
+                                
+                                <h1 class="c-article-title u-h1" data-test="article-title" data-article-title="" itemprop="name headline">Generalized finite automata theory with an application to a decision problem of second-order logic</h1>
+                                <ul class="c-author-list js-list-authors js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1">J. W. Thatcher</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="IBM Watson Research Center" /><meta itemprop="address" content="grid.410484.d, 0000000404002468, IBM Watson Research Center, USA" /></span></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-2">J. B. Wright</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="IBM Watson Research Center" /><meta itemprop="address" content="grid.410484.d, 0000000404002468, IBM Watson Research Center, USA" /></span></sup> </li></ul>
+                                <p class="c-article-info-details" data-container-section="info">
+                                    
+    <a data-test="journal-link" href="/journal/224"><i data-test="journal-title">Mathematical systems theory</i></a>
+
+                                    <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 2</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">57</span>–<span itemprop="pageEnd">81</span>(<span data-test="article-publication-year">1968</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                                </p>
+                                <p class="c-article-info-details" data-test="article-history-link">
+                                    
+    
+
+                                </p>
+                                <div data-test="article-metrics">
+                                    <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">623 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">384 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">3 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF01691346/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                        </li>
+                    
+                
+            </ul>
+        </div>
+    
+</div>
+
+                                </div>
+                                
+                                
+                            </header>
+                        </div>
+
+                        <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                            <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Many of the important concepts and results of conventional finite automata theory are developed for a generalization in which finite algebras take the place of finite automata. The standard closure theorems are proved for the class of sets “recognizable” by finite algebras, and a generalization of Kleene's regularity theory is presented. The theorems of the generalized theory are then applied to obtain a positive solution to a decision problem of second-order logic.</p></div></div></section>
+
+                            
+                                
+                                <div class="c-notes">
+                                    <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF01691346" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                                </div>
+                                
+                            <div class="c-article-buy-box">
+                                
+                            </div>
+                                <div class="u-display-none">
+                                    
+                                </div>
+                            
+
+                            
+
+                            
+
+                            <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.. Birkhoff, " /><meta itemprop="datePublished" content="1938" /><meta itemprop="headline" content="&#xA;G. Birkhoff, On the structure of abstract algebras.Proc. Cambridge Phil. Soc.&#xA;31 (1938), 433–454." /><span class="c-article-references__counter">[1]</span><p class="c-article-references__text" id="ref-CR1">
+<span class="u-small-caps">G. Birkhoff</span>, On the structure of abstract algebras.<i>Proc. Cambridge Phil. Soc.</i>
+<b>31</b> (1938), 433–454.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=On%20the%20structure%20of%20abstract%20algebras&amp;journal=Proc.%20Cambridge%20Phil.%20Soc.&amp;volume=31&amp;pages=433-454&amp;publication_year=1938&amp;author=Birkhoff%2CG.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;G. Birkhoff,Lattice Theory, Amer. Math. Soc. Colloq. Publ., Vol. 25, New York, 1948." /><span class="c-article-references__counter">[2]</span><p class="c-article-references__text" id="ref-CR2">
+<span class="u-small-caps">G. Birkhoff</span>,<i>Lattice Theory,</i> Amer. Math. Soc. Colloq. Publ., Vol. 25, New York, 1948.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. R.. Büchi, C. C.. Elgot, " /><meta itemprop="datePublished" content="1958" /><meta itemprop="headline" content="&#xA;J. R. Büchi andC. C. Elgot, Decision problems of weak second-order arithmetics and finite automata. Abstract " /><span class="c-article-references__counter">[3]</span><p class="c-article-references__text" id="ref-CR3">
+<span class="u-small-caps">J. R. Büchi</span> and<span class="u-small-caps">C. C. Elgot</span>, Decision problems of weak second-order arithmetics and finite automata. Abstract 553-112,<i>Notices Amer. Math. Soc.</i>
+<b>5</b> (1958), 834.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 3 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Decision%20problems%20of%20weak%20second-order%20arithmetics%20and%20finite%20automata.%20Abstract%20553-112&amp;journal=Notices%20Amer.%20Math.%20Soc.&amp;volume=5&amp;publication_year=1958&amp;author=B%C3%BCchi%2CJ.%20R.&amp;author=Elgot%2CC.%20C.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. R.. Büchi, " /><meta itemprop="datePublished" content="1960" /><meta itemprop="headline" content="&#xA;J. R. Büchi, “Weak second-order arithmetic and finite automata”. University of Michigan, Logic of Computers G" /><span class="c-article-references__counter">[4]</span><p class="c-article-references__text" id="ref-CR4">
+<span class="u-small-caps">J. R. Büchi</span>, “Weak second-order arithmetic and finite automata”. University of Michigan, Logic of Computers Group Technical Report, September 1959;<i>Z. Math. Logik Grundlagen Math.</i>
+<b>6</b> (1960), 66–92.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=%E2%80%9CWeak%20second-order%20arithmetic%20and%20finite%20automata%E2%80%9D.%20University%20of%20Michigan%2C%20Logic%20of%20Computers%20Group%20Technical%20Report%2C%20September%201959&amp;journal=Z.%20Math.%20Logik%20Grundlagen%20Math.&amp;volume=6&amp;pages=66-92&amp;publication_year=1960&amp;author=B%C3%BCchi%2CJ.%20R.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;J. R. Büchi andJ. B. Wright, “Mathematical Theory of Automata”. Notes on material presented by J. R. Büchi an" /><span class="c-article-references__counter">[5]</span><p class="c-article-references__text" id="ref-CR5">
+<span class="u-small-caps">J. R. Büchi</span> and<span class="u-small-caps">J. B. Wright</span>, “Mathematical Theory of Automata”. Notes on material presented by J. R. Büchi and J. B. Wright, Communication Sciences 403, Fall 1960, The University of Michigan.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. R.. Büchi, " /><meta itemprop="datePublished" content="1962" /><meta itemprop="headline" content="&#xA;J. R. Büchi, Mathematische Theorie des Verhaltens endlicher Automaten.Z. Angewandte Math. und Mech.&#xA;42 (1962)" /><span class="c-article-references__counter">[6]</span><p class="c-article-references__text" id="ref-CR6">
+<span class="u-small-caps">J. R. Büchi</span>, Mathematische Theorie des Verhaltens endlicher Automaten.<i>Z. Angewandte Math. und Mech.</i>
+<b>42</b> (1962), 9–16.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Mathematische%20Theorie%20des%20Verhaltens%20endlicher%20Automaten&amp;journal=Z.%20Angewandte%20Math.%20und%20Mech.&amp;volume=42&amp;pages=9-16&amp;publication_year=1962&amp;author=B%C3%BCchi%2CJ.%20R.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="I. M.. Copi, C. C.. Elgot, J. B.. Wright, " /><meta itemprop="datePublished" content="1958" /><meta itemprop="headline" content="&#xA;I. M. Copi, C. C. Elgot andJ. B. Wright, Realization of events by logical nets.J. Assoc. Comp. Mach.&#xA;5 (1958)" /><span class="c-article-references__counter">[7]</span><p class="c-article-references__text" id="ref-CR7">
+<span class="u-small-caps">I. M. Copi, C. C. Elgot</span> and<span class="u-small-caps">J. B. Wright</span>, Realization of events by logical nets.<i>J. Assoc. Comp. Mach.</i>
+<b>5</b> (1958) 181–196. (Also in Moore [13].)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Realization%20of%20events%20by%20logical%20nets&amp;journal=J.%20Assoc.%20Comp.%20Mach.&amp;volume=5&amp;pages=181-196&amp;publication_year=1958&amp;author=Copi%2CI.%20M.&amp;author=Elgot%2CC.%20C.&amp;author=Wright%2CJ.%20B.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. E.. Doner, " /><meta itemprop="datePublished" content="1965" /><meta itemprop="headline" content="&#xA;J. E. Doner, Decidability of the weak second-order theory of two successors. Abstract 65T-468,Notices Amer. M" /><span class="c-article-references__counter">[8]</span><p class="c-article-references__text" id="ref-CR8">
+<span class="u-small-caps">J. E. Doner</span>, Decidability of the weak second-order theory of two successors. Abstract 65T-468,<i>Notices Amer. Math. Soc.</i>
+<b>12</b> (1965), 819; erratum,<i>ibid.</i>
+<b>13</b> (1966), 513.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Decidability%20of%20the%20weak%20second-order%20theory%20of%20two%20successors.%20Abstract%2065T-468&amp;journal=Notices%20Amer.%20Math.%20Soc.&amp;volume=12&amp;publication_year=1965&amp;author=Doner%2CJ.%20E.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. C.. Elgot, " /><meta itemprop="datePublished" content="1961" /><meta itemprop="headline" content="&#xA;C. C. Elgot, “Decision problems of finite automaton design and related arithmetics”. University of Michigan, " /><span class="c-article-references__counter">[9]</span><p class="c-article-references__text" id="ref-CR9">
+<span class="u-small-caps">C. C. Elgot</span>, “Decision problems of finite automaton design and related arithmetics”. University of Michigan, Department of Mathematics and Logic of Computers Group Technical Report, June 1959;<i>Trans. Amer. Math. Soc.</i>
+<b>98</b> (1961), 21–51.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=%E2%80%9CDecision%20problems%20of%20finite%20automaton%20design%20and%20related%20arithmetics%E2%80%9D.%20University%20of%20Michigan%2C%20Department%20of%20Mathematics%20and%20Logic%20of%20Computers%20Group%20Technical%20Report%2C%20June%201959&amp;journal=Trans.%20Amer.%20Math.%20Soc.&amp;volume=98&amp;pages=21-51&amp;publication_year=1961&amp;author=Elgot%2CC.%20C.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S.. Feferman, R. L.. Vaught, " /><meta itemprop="datePublished" content="1959" /><meta itemprop="headline" content="&#xA;S. Feferman andR. L. Vaught, The first-order properties of products of algebraic systems.Fund. Math.&#xA;47 (1959" /><span class="c-article-references__counter">[10]</span><p class="c-article-references__text" id="ref-CR10">
+<span class="u-small-caps">S. Feferman</span> and<span class="u-small-caps">R. L. Vaught</span>, The first-order properties of products of algebraic systems.<i>Fund. Math.</i>
+<b>47</b> (1959), 57–103.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20first-order%20properties%20of%20products%20of%20algebraic%20systems&amp;journal=Fund.%20Math.&amp;volume=47&amp;pages=57-103&amp;publication_year=1959&amp;author=Feferman%2CS.&amp;author=Vaught%2CR.%20L.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S. C.. Kleene, " /><meta itemprop="datePublished" content="1956" /><meta itemprop="headline" content="&#xA;S. C. Kleene, Representation of events in nerve nets and finite automata.Automata Studies pp. 3–42, Annals of" /><span class="c-article-references__counter">[11]</span><p class="c-article-references__text" id="ref-CR11">
+<span class="u-small-caps">S. C. Kleene</span>, Representation of events in nerve nets and finite automata.<i>Automata Studies</i> pp. 3–42, Annals of Math. Studies, No. 34, Princeton University Press, Princeton, N. J., 1956.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Automata%20Studies&amp;pages=3-42&amp;publication_year=1956&amp;author=Kleene%2CS.%20C.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;I. T. Medvedev, On a class of events representable in a finite automaton. Supplement to the Russian translati" /><span class="c-article-references__counter">[12]</span><p class="c-article-references__text" id="ref-CR12">
+<span class="u-small-caps">I. T. Medvedev</span>, On a class of events representable in a finite automaton. Supplement to the Russian translation of<i>Automata Studies</i> (C. Shannon and J. McCarthy, eds.), published by the Publishing Agency for Foreign Literature, Moscow, 1956. Translated by Jacques J. Schorr-Kon for Lincoln Laboratory Report 34-73, June 1958. (Also in Moore [13].)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="E. F.. Moore, " /><meta itemprop="datePublished" content="1964" /><meta itemprop="headline" content="&#xA;E. F. Moore,Sequential Machines, Selected Papers. Addison-Wesley, Reading, Mass., 1964." /><span class="c-article-references__counter">[13]</span><p class="c-article-references__text" id="ref-CR13">
+<span class="u-small-caps">E. F. Moore</span>,<i>Sequential Machines, Selected Papers</i>. Addison-Wesley, Reading, Mass., 1964.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Sequential%20Machines%2C%20Selected%20Papers&amp;publication_year=1964&amp;author=Moore%2CE.%20F.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. O.. Rabin, Dana. Scott, " /><meta itemprop="datePublished" content="1959" /><meta itemprop="headline" content="&#xA;M. O. Rabin andDana Scott, Finite automata and their decision problems.IBM J. Res. Develop.&#xA;3 (1959), 114–125" /><span class="c-article-references__counter">[14]</span><p class="c-article-references__text" id="ref-CR14">
+<span class="u-small-caps">M. O. Rabin</span> and<span class="u-small-caps">Dana Scott</span>, Finite automata and their decision problems.<i>IBM J. Res. Develop.</i>
+<b>3</b> (1959), 114–125. (Also in Moore [13].)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Finite%20automata%20and%20their%20decision%20problems&amp;journal=IBM%20J.%20Res.%20Develop.&amp;volume=3&amp;pages=114-125&amp;publication_year=1959&amp;author=Rabin%2CM.%20O.&amp;author=Scott%2CDana">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. W.. Ritchie, " /><meta itemprop="datePublished" content="1963" /><meta itemprop="headline" content="&#xA;R. W. Ritchie, Classes of predictably computable functions.Trans. Amer. Math. Soc.&#xA;106 (1963), 139–173." /><span class="c-article-references__counter">[15]</span><p class="c-article-references__text" id="ref-CR15">
+<span class="u-small-caps">R. W. Ritchie</span>, Classes of predictably computable functions.<i>Trans. Amer. Math. Soc.</i>
+<b>106</b> (1963), 139–173.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Classes%20of%20predictably%20computable%20functions&amp;journal=Trans.%20Amer.%20Math.%20Soc.&amp;volume=106&amp;pages=139-173&amp;publication_year=1963&amp;author=Ritchie%2CR.%20W.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="Raphael M.. Robinson, " /><meta itemprop="datePublished" content="1958" /><meta itemprop="headline" content="&#xA;Raphael M. Robinson, Restricted set-theoretic definitions in arithmetic.Proc. Amer. Math. Soc.&#xA;9 (1958), 238–" /><span class="c-article-references__counter">[16]</span><p class="c-article-references__text" id="ref-CR16">
+<span class="u-small-caps">Raphael M. Robinson</span>, Restricted set-theoretic definitions in arithmetic.<i>Proc. Amer. Math. Soc.</i>
+<b>9</b> (1958), 238–242.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Restricted%20set-theoretic%20definitions%20in%20arithmetic&amp;journal=Proc.%20Amer.%20Math.%20Soc.&amp;volume=9&amp;pages=238-242&amp;publication_year=1958&amp;author=Robinson%2CRaphael%20M.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;J. W. Thatcher, “Notes on Mathematical Automata Theory”. University of Michigan Technical Note, December, 196" /><span class="c-article-references__counter">[17]</span><p class="c-article-references__text" id="ref-CR17">
+<span class="u-small-caps">J. W. Thatcher</span>, “Notes on Mathematical Automata Theory”. University of Michigan Technical Note, December, 1963.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;J. W. Thatcher, “Decision Problems and Definability for Generalized Arithmetic”. Doctoral Dissertation, The U" /><span class="c-article-references__counter">[18]</span><p class="c-article-references__text" id="ref-CR18">
+<span class="u-small-caps">J. W. Thatcher</span>, “Decision Problems and Definability for Generalized Arithmetic”. Doctoral Dissertation, The University of Michigan; IBM Research Report RC 1316, November, 1964.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. W.. Thatcher, J. B.. Wright, " /><meta itemprop="datePublished" content="1965" /><meta itemprop="headline" content="&#xA;J. W. Thatcher andJ. B. Wright, Generalized finite automata. Abstract 65T-469,Notices Amer. Math. Soc.&#xA;12 (19" /><span class="c-article-references__counter">[19]</span><p class="c-article-references__text" id="ref-CR19">
+<span class="u-small-caps">J. W. Thatcher</span> and<span class="u-small-caps">J. B. Wright</span>, Generalized finite automata. Abstract 65T-469,<i>Notices Amer. Math. Soc.</i>
+<b>12</b> (1965), 820.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Generalized%20finite%20automata.%20Abstract%2065T-469&amp;journal=Notices%20Amer.%20Math.%20Soc.&amp;volume=12&amp;publication_year=1965&amp;author=Thatcher%2CJ.%20W.&amp;author=Wright%2CJ.%20B.">
+                        Google Scholar</a></li></ul></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF01691346-references.ris?shared-article-renderer">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article-author-information__subtitle u-h3" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address u-h3">IBM Watson Research Center, USA</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">J. W. Thatcher</li><li class="c-article-author-affiliation__authors-item"> &amp; J. B. Wright</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article-author-information__subtitle u-h3">Authors</span><ol class="c-article-author-authors-search"><li id="auth-1"><span class="c-article-author-authors-search__title u-h3 js-search-name">Search for J. W. Thatcher in:</span><ul class="c-article-author-authors-search__list"><li class="c-article-author-authors-search__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=J. W.+Thatcher">PubMed</a><span class="bullet"> • </span></li><li class="c-article-author-authors-search__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22J. W.+Thatcher%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en">
+                        Google Scholar
+                    </a></li></ul></li><li id="auth-2"><span class="c-article-author-authors-search__title u-h3 js-search-name">Search for J. B. Wright in:</span><ul class="c-article-author-authors-search__list"><li class="c-article-author-authors-search__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=J. B.+Wright">PubMed</a><span class="bullet"> • </span></li><li class="c-article-author-authors-search__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22J. B.+Wright%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en">
+                        Google Scholar
+                    </a></li></ul></li></ol></div></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?imprint=Nature&amp;title=Generalized%20finite%20automata%20theory%20with%20an%20application%20to%20a%20decision%20problem%20of%20second-order%20logic&amp;author=J.%20W.%20Thatcher%20et%20al&amp;contentID=10.1007%2FBF01691346&amp;publication=Mathematical%20systems%20theory&amp;publicationDate=1968-03&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Thatcher, J.W., Wright, J.B. Generalized finite automata theory with an application to a decision problem of second-order logic.
+                    <i>Math. Systems Theory</i> <b>2, </b>57–81 (1968)  doi:10.1007/BF01691346</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF01691346.ris?shared-article-renderer">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><span class="u-h4">Received</span><p class="c-bibliographic-information__value"><time datetime="1967-08-01">01 August 1967</time></p></li><li class="c-bibliographic-information__list-item"><span class="u-h4">Issue Date</span><p class="c-bibliographic-information__value"><time datetime="1968-03">March 1968</time></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><span class="u-h4"><abbr title="Digital Object Identifier">DOI</abbr></span><p class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF01691346" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF01691346</a></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading u-h3">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Computational Mathematic</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Generalize Theory</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Decision Problem</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Important Concept</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Finite Automaton</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                            <placeholder type='Article History'/>
+                        </div>
+                    </article>
+                </main>
+
+                <div class="c-page-layout__side u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+                    <aside>
+                        <div data-test="download-article-link-wrapper">
+                            
+                        </div>
+
+                        <div class="u-hide" id="js-buy-button">
+                            <a href="#access-options" class="c-article__button" data-test="buy-button" data-track="click" data-track-action="buy or subscribe" data-track-label="button">
+                                <span>Buy or subscribe</span>
+                            </a>
+                        </div>
+
+                        <div data-test="collections">
+                            
+                        </div>
+
+                        <div data-test="editorial-summary">
+                            
+                        </div>
+
+                        <div class="c-reading-companion">
+                            <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                                <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                                    <div class="js-ad">
+                                        <div class="c-ad c-ad--MPU1">
+                                            <div class="c-ad c-ad__inner">
+                                                <p class="c-ad__label">Advertisement</p>
+                                                <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/224/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                                <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-page-layout__footer">
+            <footer class="c-footer" role="contentinfo">
+    <div class="c-footer__aside-wrapper u-hide-print">
+        <div class="c-footer__container">
+            <p class="c-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+            
+                <div class="c-footer__edition" data-component="SV.EditionSwitcher">
+                    <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                    <ul class="c-footer-edition-list u-list-inline" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                        <li class="selected">
+                            <a data-test="footer-academic-link"
+                               href="/siteEdition/link?id=siteedition-academic-link"
+                               id="siteedition-academic-link">Academic Edition</a>
+                        </li>
+                        <li>
+                            <a data-test="footer-corporate-link"
+                               href="/siteEdition/rd?id=siteedition-corporate-link"
+                               id="siteedition-corporate-link">Corporate Edition</a>
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </div>
+    <div class="c-footer__container">
+        <ul class="c-footer__nav u-list-inline u-hide-print">
+            <li><a href="/">Home</a></li>
+            <li><a href="/impressum">Impressum</a></li>
+            <li><a href="/termsandconditions">Legal information</a></li>
+            <li><a href="/privacystatement">Privacy statement</a></li>
+            <li><a href="/cookiepolicy">How we use cookies</a></li>
+            <li><a href="/accessibility">Accessibility</a></li>
+            <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+        </ul>
+        <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 185.128.27.154</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+        <a class="c-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+            <span class="u-visually-hidden">Springer Nature</span>
+            <svg width="125" height="12" focusable="false" aria-hidden="true">
+                <image width="125" height="12" alt="Springer Nature logo"
+                       src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                </image>
+            </svg>
+        </a>
+
+        <p class="c-footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+        
+    </div>
+
+    
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+    </svg>
+
+</footer>
+
+        </div>
+    </div>
+
+    <script>
+    window.config = {
+        mustardcut: false
+    };
+
+    
+    (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+
+        
+    var mustardcutlink = document.getElementById('js-mustard');
+    if (mustardcutlink && window.matchMedia && window.matchMedia(mustardcutlink.media).matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+<script src=/oscar-static/js/app-springerlink-bundle-30d63d4d0b.js></script>
+
+<script>
+    if (window.config && window.config.mustardcut) {
+        var globalArticle = document.createElement('script');
+
+        globalArticle.src = '/oscar-static/js/global-article-bundle-3cdf92e2e9.js';
+        
+        window.Component = {};
+        document.body.appendChild(globalArticle);
+        
+    }
+</script>
+
+    <div id="googleanalytics-container">
+    
+        
+    
+</div>
+<div id="google-tag-manager-head-container">
+    
+        
+            <!-- Google Tag Manager -->
+            <script>
+                (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+</div>
+
+<div id="google-tag-manager-body-container">
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+</div>
+
+</body>
+</html>

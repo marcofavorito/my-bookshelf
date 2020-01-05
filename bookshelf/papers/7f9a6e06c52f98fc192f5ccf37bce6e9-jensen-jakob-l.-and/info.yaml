@@ -1,0 +1,37 @@
+abstract: <jats:p>Much work in automatic verification considers families of similar
+  finite-state systems. But an often overlooked property is that sometimes a single
+  finite-state system can be used to describe a parameterized, infinite family of
+  systems. Thus verification of unbounded state spaces can take place by reduction
+  to finite ones.&lt;br /&gt; &lt;br /&gt;The purpose of this article is to introduce
+  Monadic Second-order Logic as a practical means of carrying out such reductions.
+  The logic is a highly succinct alternative to the use of regular expressions. We
+  have built a tool that acts as a decision procedure and translator to DFAs.&lt;br
+  /&gt; &lt;br /&gt;The potential applications are numerous. We discuss text processing,
+  Boolean circuits, and distributed systems. Our main example is an automatic proof
+  of properties for the ``Dining Philosophers with Encyclopedia'' example by Kurshan
+  and MacMillan. We establish these properties for the parameterized case &lt;em&gt;
+  without&lt;/em&gt; the use of induction.</jats:p>
+author: Jensen, Jakob L. and Jørgensen, Michael E. and Klarlund, Nils
+author_list:
+- affiliation: []
+  family: Jensen
+  given: Jakob L.
+- affiliation: []
+  family: Jørgensen
+  given: Michael E.
+- affiliation: []
+  family: Klarlund
+  given: Nils
+doc_url: http://ojs.statsbiblioteket.dk/index.php/brics/article/viewFile/21660/19097
+doi: 10.7146/brics.v1i10.21660
+files:
+- jensen-jakob-l.-and-jorgensen-michael-e.-and-klarlund-nilsmonadic-second-order-logic-for-parameterized-verification1994.pdf
+issue: '10'
+journal: BRICS Report Series
+month: 5
+publisher: Aarhus University Library
+title: Monadic Second-order Logic for Parameterized Verification
+type: article
+url: http://dx.doi.org/10.7146/brics.v1i10.21660
+volume: '1'
+year: 1994

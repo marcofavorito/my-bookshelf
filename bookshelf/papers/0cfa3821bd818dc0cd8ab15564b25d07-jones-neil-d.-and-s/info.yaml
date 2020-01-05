@@ -1,0 +1,86 @@
+abstract: <jats:p>H. Scholz [11] defined the <jats:italic>spectrum</jats:italic> of
+  a formula φ of first-order logic with equality to be the set of all natural numbers
+  <jats:italic>n</jats:italic> for which φ has a model of cardinality <jats:italic>n</jats:italic>.
+  He then asked for a characterization of spectra. Only partial progress has been
+  made. Computational aspects of this problem have been worked on by Gunter Asser
+  [1], A. Mostowski [9], and J. H. Bennett [2]. It is known that spectra include the
+  Grzegorczyk class <jats:inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+  mime-subtype="gif" xlink:type="simple" xlink:href="S0022481200065531_inline1" />
+  and are properly included in <jats:inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+  mime-subtype="gif" xlink:type="simple" xlink:href="S0022481200065531_inline2" />.
+  However, no progress has been made toward establishing whether spectra properly
+  include <jats:inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" mime-subtype="gif"
+  xlink:type="simple" xlink:href="S0022481200065531_inline1" />, or whether spectra
+  are closed under complementation.</jats:p><jats:p>A possible connection with automata
+  theory arises from the fact that <jats:inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+  mime-subtype="gif" xlink:type="simple" xlink:href="S0022481200065531_inline1" />
+  contains just those sets which are accepted by deterministic linear-bounded Turing
+  machines (Ritchie [10]). Another resemblance lies in the fact that the same two
+  problems (closure under complement, and proper inclusion of <jats:inline-graphic
+  xmlns:xlink="http://www.w3.org/1999/xlink" mime-subtype="gif" xlink:type="simple"
+  xlink:href="S0022481200065531_inline1" />) have remained open for the class of context
+  sensitive languages for several years.</jats:p><jats:p>In this paper we show that
+  these similarities are not accidental—that spectra and context sensitive languages
+  are closely related, and that their open questions are merely special cases of a
+  family of open questions which relate to the difference (if any) between deterministic
+  and nondeterministic time or space bounded Turing machines.</jats:p><jats:p>In particular
+  we show that spectra are just those sets which are acceptable by nondeterministic
+  Turing machines in time 2<jats:sup><jats:italic>cx</jats:italic></jats:sup>, where
+  <jats:italic>c</jats:italic> is constant and <jats:italic>x</jats:italic> is the
+  length of the input. Combining this result with results of Bennett [2], Ritchie
+  [10], Kuroda [7], and Cook [3], we obtain the “hierarchy” of classes of sets shown
+  in Figure 1. It is of interest to note that in all of these cases the amount of
+  unrestricted read/write memory appears to be too small to allow diagonalization
+  within the larger classes.</jats:p>
+author: Jones, Neil D. and Selman, Alan L.
+author_list:
+- affiliation: []
+  family: Jones
+  given: Neil D.
+- affiliation: []
+  family: Selman
+  given: Alan L.
+citations:
+- doi: 10.1090/S0002-9947-1963-0158822-2
+- doi: 10.1016/S0022-0000(69)80017-6
+- doi: 10.1016/S0019-9958(64)90120-2
+- doi: 10.1090/S0002-9947-1965-0170805-7
+- doi: 10.1145/321623.321625
+- unstructured: Bennett J. , On spectra, Doctoral Dissertation, Princeton University,
+    Princeton, N.J., 1962.
+- doi: 10.1002/malq.19550010403
+- doi: 10.1002/malq.19560021007
+- author: Scholz
+  first-page: '160'
+  journal-title: Problems
+  volume: '17'
+  year: '1952'
+- author: Cook
+  first-page: '151'
+  volume-title: Third ACM Symposium on Theory of Computing
+  year: '1971'
+- article-title: Impossibility of an algorithm for the decision problem in finite
+    classes
+  author: Tractenbrot
+  first-page: '569'
+  journal-title: Doklady Akademii Nauk SSSR
+  volume: '70'
+  year: '1950'
+- article-title: Some classes of recursive functions
+  author: Grzegorczyk
+  first-page: '1'
+  journal-title: Rozprawy Mathematyczne
+  volume: '44'
+  year: '1953'
+doi: 10.2307/2272354
+issue: '1'
+journal: Journal of Symbolic Logic
+language: en
+month: 3
+pages: 139--150
+publisher: Cambridge University Press (CUP)
+title: Turing machines and the spectra of first-order formulas
+type: article
+url: http://dx.doi.org/10.2307/2272354
+volume: '39'
+year: 1974

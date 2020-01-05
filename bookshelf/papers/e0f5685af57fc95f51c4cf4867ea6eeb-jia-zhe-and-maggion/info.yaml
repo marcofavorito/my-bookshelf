@@ -1,0 +1,37 @@
+abstract: Every year, novel NVIDIA GPU designs are introduced. This rapid architectural
+  and technological progression, coupled with a reluctance by manufacturers to disclose
+  low-level details, makes it difficult for even the most proficient GPU software
+  designers to remain up-to-date with the technological advances at a microarchitectural
+  level. To address this dearth of public, microarchitectural-level information on
+  the novel NVIDIA GPUs, independent researchers have resorted to microbenchmarks-based
+  dissection and discovery. This has led to a prolific line of publications that shed
+  light on instruction encoding, and memory hierarchy's geometry and features at each
+  level. Namely, research that describes the performance and behavior of the Kepler,
+  Maxwell and Pascal architectures. In this technical report, we continue this line
+  of research by presenting the microarchitectural details of the NVIDIA Volta architecture,
+  discovered through microbenchmarks and instruction set disassembly. Additionally,
+  we compare quantitatively our Volta findings against its predecessors, Kepler, Maxwell
+  and Pascal.
+archiveprefix: arXiv
+author: Jia, Zhe and Maggioni, Marco and Staiger, Benjamin and Scarpazza, Daniele
+  P.
+author_list:
+- family: Jia
+  given: Zhe
+- family: Maggioni
+  given: Marco
+- family: Staiger
+  given: Benjamin
+- family: Scarpazza
+  given: Daniele P.
+eprint: 1804.06826v1
+file: 1804.06826v1.pdf
+files:
+- jia-zhe-and-maggioni-marco-and-staiger-benjamin-and-scarpazza-daniele-p.dissecting-the-nvidia-volta-gpu-architecture-via-microbenchmarking2018.pdf
+month: Apr
+primaryclass: cs.DC
+ref: 1804.06826v1
+title: Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking
+type: article
+url: http://arxiv.org/abs/1804.06826v1
+year: '2018'

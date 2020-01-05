@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" dtd-version="1.1">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">peerj-cs</journal-id>
+         <journal-id journal-id-type="pmc">peerj-cs</journal-id>
+         <journal-id journal-id-type="nlm-ta">PeerJ Comput. Sci.</journal-id>
+         <journal-title-group>
+            <journal-title>PeerJ Computer Science</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">PeerJ Comput. Sci.</abbrev-journal-title>
+         </journal-title-group>
+         <issn pub-type="epub">2376-5992</issn>
+         <publisher>
+            <publisher-name>PeerJ Inc.</publisher-name>
+            <publisher-loc>San Francisco, USA</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">cs-103</article-id>
+         <article-id pub-id-type="doi">10.7717/peerj-cs.103</article-id>
+         <article-categories>
+            <subj-group subj-group-type="categories">
+               <subject>Scientific Computing and Simulation</subject>
+               <subject>Software Engineering</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>SymPy: symbolic computing in Python</article-title>
+         </title-group>
+         <contrib-group content-type="authors">
+            <contrib id="author-1" contrib-type="author" corresp="yes">
+               <name>
+                  <surname>Meurer</surname>
+                  <given-names>Aaron</given-names>
+               </name>
+               <email>asmeurer@gmail.com</email><xref ref-type="aff" rid="aff-1">1</xref></contrib>
+            <contrib id="author-2" contrib-type="author">
+               <name>
+                  <surname>Smith</surname>
+                  <given-names>Christopher P.</given-names>
+               </name><xref ref-type="aff" rid="aff-2">2</xref></contrib>
+            <contrib id="author-3" contrib-type="author">
+               <name>
+                  <surname>Paprocki</surname>
+                  <given-names>Mateusz</given-names>
+               </name><xref ref-type="aff" rid="aff-3">3</xref></contrib>
+            <contrib id="author-4" contrib-type="author">
+               <name>
+                  <surname>Čertík</surname>
+                  <given-names>Ondřej</given-names>
+               </name><xref ref-type="aff" rid="aff-4">4</xref></contrib>
+            <contrib id="author-5" contrib-type="author">
+               <name>
+                  <surname>Kirpichev</surname>
+                  <given-names>Sergey B.</given-names>
+               </name><xref ref-type="aff" rid="aff-5">5</xref></contrib>
+            <contrib id="author-6" contrib-type="author">
+               <name>
+                  <surname>Rocklin</surname>
+                  <given-names>Matthew</given-names>
+               </name><xref ref-type="aff" rid="aff-3">3</xref></contrib>
+            <contrib id="author-7" contrib-type="author">
+               <name>
+                  <surname>Kumar</surname>
+                  <given-names>AMiT</given-names>
+               </name><xref ref-type="aff" rid="aff-6">6</xref></contrib>
+            <contrib id="author-8" contrib-type="author">
+               <name>
+                  <surname>Ivanov</surname>
+                  <given-names>Sergiu</given-names>
+               </name><xref ref-type="aff" rid="aff-7">7</xref></contrib>
+            <contrib id="author-9" contrib-type="author">
+               <name>
+                  <surname>Moore</surname>
+                  <given-names>Jason K.</given-names>
+               </name><xref ref-type="aff" rid="aff-8">8</xref></contrib>
+            <contrib id="author-10" contrib-type="author">
+               <name>
+                  <surname>Singh</surname>
+                  <given-names>Sartaj</given-names>
+               </name><xref ref-type="aff" rid="aff-9">9</xref></contrib>
+            <contrib id="author-11" contrib-type="author">
+               <name>
+                  <surname>Rathnayake</surname>
+                  <given-names>Thilina</given-names>
+               </name><xref ref-type="aff" rid="aff-10">10</xref></contrib>
+            <contrib id="author-12" contrib-type="author">
+               <name>
+                  <surname>Vig</surname>
+                  <given-names>Sean</given-names>
+               </name><xref ref-type="aff" rid="aff-11">11</xref></contrib>
+            <contrib id="author-13" contrib-type="author">
+               <name>
+                  <surname>Granger</surname>
+                  <given-names>Brian E.</given-names>
+               </name><xref ref-type="aff" rid="aff-12">12</xref></contrib>
+            <contrib id="author-14" contrib-type="author">
+               <name>
+                  <surname>Muller</surname>
+                  <given-names>Richard P.</given-names>
+               </name><xref ref-type="aff" rid="aff-13">13</xref></contrib>
+            <contrib id="author-15" contrib-type="author">
+               <name>
+                  <surname>Bonazzi</surname>
+                  <given-names>Francesco</given-names>
+               </name><xref ref-type="aff" rid="aff-14">14</xref></contrib>
+            <contrib id="author-16" contrib-type="author">
+               <name>
+                  <surname>Gupta</surname>
+                  <given-names>Harsh</given-names>
+               </name><xref ref-type="aff" rid="aff-15">15</xref></contrib>
+            <contrib id="author-17" contrib-type="author">
+               <name>
+                  <surname>Vats</surname>
+                  <given-names>Shivam</given-names>
+               </name><xref ref-type="aff" rid="aff-15">15</xref></contrib>
+            <contrib id="author-18" contrib-type="author">
+               <name>
+                  <surname>Johansson</surname>
+                  <given-names>Fredrik</given-names>
+               </name><xref ref-type="aff" rid="aff-16">16</xref></contrib>
+            <contrib id="author-19" contrib-type="author">
+               <name>
+                  <surname>Pedregosa</surname>
+                  <given-names>Fabian</given-names>
+               </name><xref ref-type="aff" rid="aff-17">17</xref></contrib>
+            <contrib id="author-20" contrib-type="author">
+               <name>
+                  <surname>Curry</surname>
+                  <given-names>Matthew J.</given-names>
+               </name><xref ref-type="aff" rid="aff-18">18</xref><xref ref-type="aff" rid="aff-19">19</xref><xref ref-type="aff" rid="aff-20">20</xref></contrib>
+            <contrib id="author-21" contrib-type="author">
+               <name>
+                  <surname>Terrel</surname>
+                  <given-names>Andy R.</given-names>
+               </name><xref ref-type="aff" rid="aff-21">21</xref><xref ref-type="aff" rid="aff-22">22</xref></contrib>
+            <contrib id="author-22" contrib-type="author">
+               <name>
+                  <surname>Roučka</surname>
+                  <given-names>Štěpán</given-names>
+               </name><xref ref-type="aff" rid="aff-23">23</xref></contrib>
+            <contrib id="author-23" contrib-type="author">
+               <name>
+                  <surname>Saboo</surname>
+                  <given-names>Ashutosh</given-names>
+               </name><xref ref-type="aff" rid="aff-24">24</xref></contrib>
+            <contrib id="author-24" contrib-type="author">
+               <name>
+                  <surname>Fernando</surname>
+                  <given-names>Isuru</given-names>
+               </name><xref ref-type="aff" rid="aff-10">10</xref></contrib>
+            <contrib id="author-25" contrib-type="author">
+               <name>
+                  <surname>Kulal</surname>
+                  <given-names>Sumith</given-names>
+               </name><xref ref-type="aff" rid="aff-25">25</xref></contrib>
+            <contrib id="author-26" contrib-type="author">
+               <name>
+                  <surname>Cimrman</surname>
+                  <given-names>Robert</given-names>
+               </name><xref ref-type="aff" rid="aff-26">26</xref></contrib>
+            <contrib id="author-27" contrib-type="author">
+               <name>
+                  <surname>Scopatz</surname>
+                  <given-names>Anthony</given-names>
+               </name><xref ref-type="aff" rid="aff-1">1</xref></contrib>
+            <aff id="aff-1"><label>1</label><institution>Department of Mechanical Engineering, University of South Carolina</institution>, <city>Columbia</city>, <state>SC</state>, <country>United States</country></aff>
+            <aff id="aff-2"><label>2</label><institution>Polar Semiconductor, Inc.</institution>, <city>Bloomington</city>, <state>MN</state>, <country>United States</country></aff>
+            <aff id="aff-3"><label>3</label><institution>Continuum Analytics, Inc.</institution>, <city>Austin</city>, <state>TX</state>, <country>United States</country></aff>
+            <aff id="aff-4"><label>4</label><institution>Los Alamos National Laboratory</institution>, <city>Los Alamos</city>, <state>NM</state>, <country>United States</country></aff>
+            <aff id="aff-5"><label>5</label><institution>Faculty of Physics, Moscow State University</institution>, <city>Moscow</city>, <country>Russia</country></aff>
+            <aff id="aff-6"><label>6</label><institution>Department of Applied Mathematics, Delhi Technological University</institution>, <city>New Delhi</city>, <country>India</country></aff>
+            <aff id="aff-7"><label>7</label><institution>Université Paris Est Créteil</institution>, <city>Créteil</city>, <country>France</country></aff>
+            <aff id="aff-8"><label>8</label><institution>Mechanical and Aerospace Engineering, University of California</institution>, <city>Davis</city>, <state>CA</state>, <country>United States</country></aff>
+            <aff id="aff-9"><label>9</label><institution>Mathematical Sciences, Indian Institute of Technology (BHU)</institution>, <city>Varanasi</city>, <state>Uttar Pradesh</state>, <country>India</country></aff>
+            <aff id="aff-10"><label>10</label><institution>Department of Computer Science and Engineering, University of Moratuwa</institution>, <city>Katubedda</city>, <state>Moratuwa</state>, <country>Sri Lanka</country></aff>
+            <aff id="aff-11"><label>11</label><institution>University of Illinois at Urbana-Champaign</institution>, <city>Urbana</city>, <state>IL</state>, <country>United States</country></aff>
+            <aff id="aff-12"><label>12</label><institution>California Polytechnic State University</institution>, <city>San Luis Obispo</city>, <state>CA</state>, <country>United States</country></aff>
+            <aff id="aff-13"><label>13</label><institution>Center for Computing Research, Sandia National Laboratories</institution>, <city>Albuquerque</city>, <state>NM</state>, <country>United States</country></aff>
+            <aff id="aff-14"><label>14</label><institution>Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces</institution>, <city>Potsdam</city>, <country>Germany</country></aff>
+            <aff id="aff-15"><label>15</label><institution>Indian Institute of Technology Kharagpur</institution>, <city>Kharagpur</city>, <state>West Bengal</state>, <country>India</country></aff>
+            <aff id="aff-16"><label>16</label><institution>INRIA Bordeaux-Sud-Ouest—LFANT project-team</institution>, <city>Talence</city>, <country>France</country></aff>
+            <aff id="aff-17"><label>17</label><institution>INRIA—SIERRA project-team</institution>, <city>Paris</city>, <country>France</country></aff>
+            <aff id="aff-18"><label>18</label><institution>Department of Physics and Astronomy, University of New Mexico</institution>, <city>Albuquerque</city>, <state>NM</state>, <country>United States</country></aff>
+            <aff id="aff-19"><label>19</label><institution>Center for Quantum Information and Control, University of New Mexico</institution>, <city>Albuquerque</city>, <state>NM</state>, <country>United States</country></aff>
+            <aff id="aff-20"><label>20</label><institution>Sandia National Laboratories</institution>, <city>Albuquerque</city>, <state>NM</state>, <country>United States</country></aff>
+            <aff id="aff-21"><label>21</label><institution>Fashion Metric, Inc</institution>, <city>Austin</city>, <state>TX</state>, <country>United States</country></aff>
+            <aff id="aff-22"><label>22</label><institution>NumFOCUS</institution>, <city>Austin</city>, <state>TX</state>, <country>United States</country></aff>
+            <aff id="aff-23"><label>23</label><institution>Department of Surface and Plasma Science, Faculty of Mathematics and Physics, Charles University in Prague</institution>, <city>Praha</city>, <country>Czech Republic</country></aff>
+            <aff id="aff-24"><label>24</label><institution>Department of Computer Science, Department of Mathematics, Birla Institute of Technology and Science</institution>, <state>Goa</state>, <country>India</country></aff>
+            <aff id="aff-25"><label>25</label><institution>Indian Institute of Technology Bombay</institution>, <city>Mumbai</city>, <state>Maharashtra</state>, <country>India</country></aff>
+            <aff id="aff-26"><label>26</label><institution>New Technologies—Research Centre, University of West Bohemia</institution>, <city>Plzeň</city>, <country>Czech Republic</country></aff>
+         </contrib-group>
+         <contrib-group content-type="editors">
+            <contrib contrib-type="editor">
+               <name>
+                  <surname>Higham</surname>
+                  <given-names>Nick</given-names>
+               </name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="epub" date-type="pub" iso-8601-date="2017-01-02">
+            <day>02</day>
+            <month>01</month>
+            <year iso-8601-date="2017">2017</year>
+         </pub-date>
+         <volume>3</volume>
+         <elocation-id>e103</elocation-id>
+         <history>
+            <date date-type="received" iso-8601-date="2016-06-22">
+               <day>22</day>
+               <month>6</month>
+               <year iso-8601-date="2016">2016</year>
+            </date>
+            <date date-type="accepted" iso-8601-date="2016-11-21">
+               <day>21</day>
+               <month>11</month>
+               <year iso-8601-date="2016">2016</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>©2017 Meurer et al.</copyright-statement>
+            <copyright-year>2017</copyright-year>
+            <copyright-holder>Meurer et al.</copyright-holder>
+            <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ Computer Science) and either DOI or URL of the article must be cited.</license-p>
+            </license>
+         </permissions>
+         <self-uri xlink:href="https://peerj.com/articles/cs-103"/>
+         <abstract>
+            <p>SymPy is an open source computer algebra system written in pure Python. It is built with a focus on extensibility and ease of use, through both interactive and programmatic applications. These characteristics have led SymPy to become a popular symbolic library for the scientific Python ecosystem. This paper presents the architecture of SymPy, a description of its features, and a discussion of select submodules. The supplementary material provide additional examples and further outline details of the architecture and features of SymPy.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <kwd>Python</kwd>
+            <kwd>Computer algebra system</kwd>
+            <kwd>Symbolics</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group id="fund-1">
+               <funding-source>Google Summer of Code</funding-source>
+            </award-group>
+            <award-group id="fund-2">
+               <funding-source>Los Alamos National Laboratory</funding-source>
+               <award-id>No. DE-AC52-06NA25396</award-id>
+            </award-group>
+            <award-group id="fund-3">
+               <funding-source>Sandia National Laboratories</funding-source>
+               <award-id>DE-AC04-94AL85000</award-id>
+            </award-group>
+            <award-group id="fund-4">
+               <funding-source>International Research Training Group 1524</funding-source>
+            </award-group>
+            <funding-statement>Google Summer of Code provided financial support to students who contributed to SymPy. Ondřej Čertík was supported by the Los Alamos National Laboratory. The Los Alamos National Laboratory is operated by Los Alamos National Security, LLC, for the National Nuclear Security Administration of the US Department of Energy under Contract No. DE-AC52-06NA25396. Richard P. Muller was supported by Sandia National Laboratories. Sandia National Laboratories is a multi-program laboratory managed and operated by Sandia Corporation, a wholly owned subsidiary of Lockheed Martin Corporation, for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-AC04-94AL85000. Francesco Bonazzi was supported by Deutsche Forschungsgemeinschaft (DFG) via the International Research Training Group 1524 “Self- Assembled Soft Matter Nano-Structures at Interfaces.” The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+         </funding-group>
+      </article-meta>
+   </front>
+   <body>
+      <sec sec-type="intro">
+         <title>Introduction</title>
+         <p>SymPy is a full featured computer algebra system (CAS) written in the Python (<xref ref-type="bibr" rid="ref-32">Lutz, 2013</xref>) programming language. It is free and open source software, licensed under the 3-clause BSD license (<xref ref-type="bibr" rid="ref-49">Rosen, 2005</xref>). The SymPy project was started by Ondřej Čertík in 2005, and it has since grown to over 500 contributors. Currently, SymPy is developed on GitHub using a bazaar community model (<xref ref-type="bibr" rid="ref-43">Raymond, 1999</xref>). The accessibility of the codebase and the open community model allow SymPy to rapidly respond to the needs of users and developers.</p>
+         <p>Python is a dynamically typed programming language that has a focus on ease of use and readability.<xref ref-type="fn" rid="fn-1"><sup>1</sup></xref> <fn id="fn-1"><label>1</label><p>This paper assumes a moderate familiarity with the Python programming language.</p></fn>Due in part to this focus, it has become a popular language for scientific computing and data science, with a broad ecosystem of libraries (<xref ref-type="bibr" rid="ref-37">Oliphant, 2007</xref>). SymPy is itself used as a dependency by many libraries and tools to support research within a variety of domains, such as SageMath (<xref ref-type="bibr" rid="ref-58">The Sage Developers, 2016</xref>) (pure and applied mathematics), yt (<xref ref-type="bibr" rid="ref-64">Turk et al., 2011</xref>) (astronomy and astrophysics), PyDy (<xref ref-type="bibr" rid="ref-19">Gede et al., 2013</xref>) (multibody dynamics), and SfePy (<xref ref-type="bibr" rid="ref-10">Cimrman, 2014</xref>) (finite elements).</p>
+         <p>Unlike many CAS’s, SymPy does not invent its own programming language. Python itself is used both for the internal implementation and end user interaction. By using the operator overloading functionality of Python, SymPy follows the embedded domain specific language paradigm proposed by <xref ref-type="bibr" rid="ref-24">Hudak (1998)</xref>. The exclusive usage of a single programming language makes it easier for people already familiar with that language to use or develop SymPy. Simultaneously, it enables developers to focus on mathematics, rather than language design. SymPy version 1.0 officially supports Python 2.6, 2.7 and 3.2–3.5.</p>
+         <p>SymPy is designed with a strong focus on usability as a library. Extensibility is important in its application program interface (API) design. Thus, SymPy makes no attempt to extend the Python language itself. The goal is for users of SymPy to be able to include SymPy alongside other Python libraries in their workflow, whether that be in an interactive environment or as a programmatic part in a larger system.</p>
+         <p>Being a library, SymPy does not have a built-in graphical user interface (GUI). However, SymPy exposes a rich interactive display system, and supports registering display formatters with Jupyter (<xref ref-type="bibr" rid="ref-29">Kluyver et al., 2016</xref>) frontends, including the Notebook and Qt Console, which will render SymPy expressions using MathJax (<xref ref-type="bibr" rid="ref-9">Cervone, 2012</xref>) or <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-2.png" content-type="symbol"/>.</p>
+         <p>The remainder of this paper discusses key components of the SymPy library. Section ‘Overview of capabilities’ enumerates the features of SymPy and takes a closer look at some of the important ones. The Section ‘Numerics’ looks at the numerical features of SymPy and its dependency library, mpmath. Section ‘Physics Submodule’ looks at the domain specific physics submodules for performing symbolic and numerical calculations in classical mechanics and quantum mechanics. Section ‘Architecture’ discusses the architecture of SymPy. Section ‘Projects that Depend on SymPy’ looks at a selection of packages that depend on SymPy. Conclusions and future directions for SymPy are given in ‘Conclusion and Future Work’. All examples in this paper use SymPy version 1.0 and mpmath version 0.19.</p>
+         <p>Additionally, the <xref ref-type="supplementary-material" rid="supp-1">Supplemental Information 1</xref> takes a deeper look at a few SymPy topics. <xref ref-type="supplementary-material" rid="supp-1">Section S1</xref> discusses the Gruntz algorithm, which SymPy uses to calculate symbolic limits. <xref ref-type="supplementary-material" rid="supp-1">Sections S2</xref>–<xref ref-type="supplementary-material" rid="supp-1">S9</xref> of the supplement discuss the series, logic, Diophantine equations, sets, statistics, category theory, tensor, and numerical simplification submodules of SymPy, respectively. <xref ref-type="supplementary-material" rid="supp-1">Section S10</xref> provides additional examples for topics discussed in the main paper. <xref ref-type="supplementary-material" rid="supp-1">Section S11</xref> discusses the SymPy Gamma project. Finally, <xref ref-type="supplementary-material" rid="supp-1">Section S12</xref> of the supplement contains a brief comparison of SymPy with Wolfram Mathematica.</p>
+         <p>The following statement imports all SymPy functions into the global Python namespace.<xref ref-type="fn" rid="fn-2"><sup>2</sup></xref> <fn id="fn-2"><label>2</label><p> <monospace>import *</monospace> has been used here to aid the readability of the paper, but is best to avoid such wildcard import statements in production code, as they make it unclear which names are present in the namespace. Furthermore, imported names could clash with already existing imports from another package. For example, SymPy, the standard Python <monospace>math</monospace> library, and NumPy all define the <monospace>exp</monospace> function, but only the SymPy one will work with SymPy symbolic expressions.</p></fn>From here on, all examples in this paper assume that this statement has been executed<xref ref-type="fn" rid="fn-3"><sup>3</sup></xref>: <fn id="fn-3"><label>3</label><p>The three greater-than signs denote the user input for the Python interactive session, with the result, if there is one, shown on the next line.</p></fn></p>
+         <code language="python">&gt;&gt;&gt; from sympy import *</code>
+         <p>All the examples in this paper can be tested on <ext-link ext-link-type="uri" xlink:href="http://live.sympy.org">SymPy Live</ext-link>, an online Python shell that uses the Google App Engine (<xref ref-type="bibr" rid="ref-11">Ciurana, 2009</xref>) to execute SymPy code. SymPy Live is also integrated into the SymPy documentation at <ext-link ext-link-type="uri" xlink:href="http://docs.sympy.org">http://docs.sympy.org</ext-link>.</p>
+      </sec>
+      <sec>
+         <title>Overview of capabilities</title>
+         <p>This section gives a basic introduction of SymPy, and lists its features. A few features—assumptions, simplification, calculus, polynomials, printers, solvers, and matrices—are core components of SymPy and are discussed in depth. Many other features are discussed in depth in the <xref ref-type="supplementary-material" rid="supp-1">Supplemental Information 1</xref>.</p>
+         <sec>
+            <title>Basic usage</title>
+            <p>Symbolic variables, called symbols, must be defined and assigned to Python variables before they can be used. This is typically done through the <monospace>symbols</monospace> function, which may create multiple symbols in a single function call. For instance,</p>
+            <code language="python">&gt;&gt;&gt; x, y, z = symbols('x y z')</code>
+            <p>creates three symbols representing variables named <italic>x</italic>, <italic>y</italic>, and <italic>z</italic>. In this particular instance, these symbols are all assigned to Python variables of the same name. However, the user is free to assign them to different Python variables, while representing the same symbol, such as <monospace>a, b, c = symbols('x y z')</monospace>. In order to minimize potential confusion, though, all examples in this paper will assume that the symbols <monospace>x</monospace> , <monospace>y</monospace> , and <monospace>z</monospace> have been assigned to Python variables identical to their symbolic names.</p>
+            <p>Expressions are created from symbols using Python’s mathematical syntax. For instance, the following Python code creates the expression (<italic>x</italic><sup>2</sup> − 2<italic>x</italic> + 3)∕<italic>y</italic>. Note that the expression remains unevaluated: it is represented symbolically.</p>
+            <code language="python">&gt;&gt;&gt; (x**2 - 2*x + 3)/y 
+(x**2 - 2*x + 3)/y</code>
+         </sec>
+         <sec>
+            <title>List of features</title>
+            <p>Although SymPy’s extensive feature set cannot be covered in depth in this paper, bedrock areas, that is, those areas that are used throughout the library, are discussed in their own subsections below. Additionally, <xref ref-type="table" rid="table-1">Table 1</xref> gives a compact listing of all major capabilities present in the SymPy codebase. This grants a sampling from the breadth of topics and application domains that SymPy services. Unless stated otherwise, all features noted in <xref ref-type="table" rid="table-1">Table 1</xref> are symbolic in nature. Numeric features are discussed in Section ‘Numerics.’</p>
+            <table-wrap id="table-1">
+               <object-id pub-id-type="doi">10.7717/peerjcs.103/table-1</object-id><label>Table 1</label><caption>
+                  <title>SymPy features and descriptions.</title>
+               </caption>
+               <alternatives>
+                  <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/table-1.png"/>
+                  <table content-type="text">
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th>Feature (submodules)</th>
+                           <th>Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td style="text-align:left;white-space:normal;;">Calculus (<monospace>sympy.core</monospace>, <monospace>sympy.calculus</monospace>, <monospace>sympy.integrals</monospace>, <monospace>sympy.series</monospace>)</td>
+                           <td>Algorithms for computing derivatives, integrals, and limits.</td>
+                        </tr>
+                        <tr>
+                           <td>Category Theory (<monospace>sympy.categories</monospace>)</td>
+                           <td>Representation of objects, morphisms, and diagrams. Tools for drawing diagrams with Xy-pic (<xref ref-type="bibr" rid="ref-48">Rose, 1999</xref>).</td>
+                        </tr>
+                        <tr>
+                           <td>Code Generation (<monospace>sympy.printing</monospace>, <monospace>sympy.codegen</monospace>)</td>
+                           <td>Generation of compilable and executable code in a variety of different programming languages from expressions directly. Target languages include C, Fortran, Julia, JavaScript, Mathematica, MATLAB and Octave, Python, and Theano.</td>
+                        </tr>
+                        <tr>
+                           <td>Combinatorics &amp; Group Theory (<monospace>sympy.combinatorics</monospace>)</td>
+                           <td>Permutations, combinations, partitions, subsets, various permutation groups (such as polyhedral, Rubik, symmetric, and others), Gray codes (<xref ref-type="bibr" rid="ref-36">Nijenhuis &amp; Wilf, 1978</xref>), and Prufer sequences (<xref ref-type="bibr" rid="ref-4">Biggs, Lloyd &amp; Wilson, 1976</xref>).</td>
+                        </tr>
+                        <tr>
+                           <td>Concrete Math (<monospace>sympy.concrete</monospace>)</td>
+                           <td>Summation, products, tools for determining whether summation and product expressions are convergent, absolutely convergent, hypergeometric, and for determining other properties; computation of Gosper’s normal form (<xref ref-type="bibr" rid="ref-42">Petkovšek, Wilf &amp; Zeilberger, 1997</xref>) for two univariate polynomials.</td>
+                        </tr>
+                        <tr>
+                           <td>Cryptography (<monospace>sympy.crypto</monospace>)</td>
+                           <td>Block and stream ciphers, including shift, Affine, substitution, Vigenère’s, Hill’s, bifid, RSA, Kid RSA, linear-feedback shift registers, and Elgamal encryption.</td>
+                        </tr>
+                        <tr>
+                           <td>Differential Geometry (<monospace>sympy.diffgeom</monospace>)</td>
+                           <td>Representations of manifolds, metrics, tensor products, and coordinate systems in Riemannian and pseudo-Riemannian geometries (<xref ref-type="bibr" rid="ref-52">Sussman &amp; Wisdom, 2013</xref>).</td>
+                        </tr>
+                        <tr>
+                           <td>Geometry (<monospace>sympy.geometry</monospace>)</td>
+                           <td>Representations of 2D geometrical entities, such as lines and circles. Enables queries on these entities, such as asking the area of an ellipse, checking for collinearity of a set of points, or finding the intersection between objects.</td>
+                        </tr>
+                        <tr>
+                           <td>Lie Algebras (<monospace>sympy.liealgebras</monospace>)</td>
+                           <td>Representations of Lie algebras and root systems.</td>
+                        </tr>
+                        <tr>
+                           <td>Logic (<monospace>sympy.logic</monospace>)</td>
+                           <td>Boolean expressions, equivalence testing, satisfiability, and normal forms.</td>
+                        </tr>
+                        <tr>
+                           <td>Matrices (<monospace>sympy.matrices</monospace>)</td>
+                           <td>Tools for creating matrices of symbols and expressions. Both sparse and dense representations, as well as symbolic linear algebraic operations (e.g., inversion and factorization), are supported.</td>
+                        </tr>
+                        <tr>
+                           <td>Matrix Expressions (<monospace>sympy.matrices.expressions</monospace>)</td>
+                           <td>Matrices with symbolic dimensions (unspecified entries). Block matrices.</td>
+                        </tr>
+                        <tr>
+                           <td>Number Theory (<monospace>sympy.ntheory</monospace>)</td>
+                           <td>Prime number generation, primality testing, integer factorization, continued fractions, Egyptian fractions, modular arithmetic, quadratic residues, partitions, binomial and multinomial coefficients, prime number tools, hexidecimal digits of <italic>π</italic>, and integer factorization.</td>
+                        </tr>
+                        <tr>
+                           <td>Plotting (<monospace>sympy.plotting</monospace>)</td>
+                           <td>Hooks for visualizing expressions via matplotlib (<xref ref-type="bibr" rid="ref-25">Hunter, 2007</xref>) or as text drawings when lacking a graphical back-end. 2D function plotting, 3D function plotting, and 2D implicit function plotting are supported.</td>
+                        </tr>
+                        <tr>
+                           <td>Polynomials (<monospace>sympy.polys</monospace>)</td>
+                           <td>Polynomial algebras over various coefficient domains. Functionality ranges from simple operations (e.g., polynomial division) to advanced computations (e.g., Gröbner bases (<xref ref-type="bibr" rid="ref-1">Adams &amp; Loustaunau, 1994</xref>) and multivariate factorization over algebraic number domains).</td>
+                        </tr>
+                        <tr>
+                           <td>Printing (<monospace>sympy.printing</monospace>)</td>
+                           <td>Functions for printing SymPy expressions in the terminal with ASCII or Unicode characters and converting SymPy expressions to  <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-2.png" content-type="symbol"/> and MathML.</td>
+                        </tr>
+                        <tr>
+                           <td>Quantum Mechanics (<monospace>sympy.physics.quantum</monospace>)</td>
+                           <td>Quantum states, bra–ket notation, operators, basis sets, representations, tensor products, inner products, outer products, commutators, anticommutators, and specific quantum system implementations.</td>
+                        </tr>
+                        <tr>
+                           <td>Series (<monospace>sympy.series</monospace>)</td>
+                           <td>Series expansion, sequences, and limits of sequences. This includes Taylor, Laurent, and Puiseux series as well as special series, such as Fourier and formal power series.</td>
+                        </tr>
+                        <tr>
+                           <td>Sets (<monospace>sympy.sets</monospace>)</td>
+                           <td>Representations of empty, finite, and infinite sets (including special sets such as the natural, integer, and complex numbers). Operations on sets such as union, intersection, Cartesian product, and building sets from other sets are supported.</td>
+                        </tr>
+                        <tr>
+                           <td>Simplification (<monospace>sympy.simplify</monospace>)</td>
+                           <td>Functions for manipulating and simplifying expressions. Includes algorithms for simplifying hypergeometric functions, trigonometric expressions, rational functions, combinatorial functions, square root denesting, and common subexpression elimination.</td>
+                        </tr>
+                        <tr>
+                           <td>Solvers (<monospace>sympy.solvers</monospace>)</td>
+                           <td>Functions for symbolically solving equations, systems of equations, both linear and non-linear, inequalities, ordinary differential equations, partial differential equations, Diophantine equations, and recurrence relations.</td>
+                        </tr>
+                        <tr>
+                           <td>Special Functions (<monospace>sympy.functions</monospace>)</td>
+                           <td>Implementations of a number of well known special functions, including Dirac delta, Gamma, Beta, Gauss error functions, Fresnel integrals, Exponential integrals, Logarithmic integrals, Trigonometric integrals, Bessel, Hankel, Airy, B-spline, Riemann Zeta, Dirichlet eta, polylogarithm, Lerch transcendent, hypergeometric, elliptic integrals, Mathieu, Jacobi polynomials, Gegenbauer polynomial, Chebyshev polynomial, Legendre polynomial, Hermite polynomial, Laguerre polynomial, and spherical harmonic functions.</td>
+                        </tr>
+                        <tr>
+                           <td>Statistics (<monospace>sympy.stats</monospace>)</td>
+                           <td>Support for a random variable type as well as the ability to declare this variable from prebuilt distribution functions such as Normal, Exponential, Coin, Die, and other custom distributions (<xref ref-type="bibr" rid="ref-47">Rocklin &amp; Terrel, 2012</xref>).</td>
+                        </tr>
+                        <tr>
+                           <td>Tensors (<monospace>sympy.tensor</monospace>)</td>
+                           <td>Symbolic manipulation of indexed objects.</td>
+                        </tr>
+                        <tr>
+                           <td>Vectors (<monospace>sympy.vector</monospace>)</td>
+                           <td>Basic operations on vectors and differential calculus with respect to 3D Cartesian coordinate systems.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+            </table-wrap>
+         </sec>
+         <sec>
+            <title>Assumptions</title>
+            <p>The assumptions system allows users to specify that symbols have certain common mathematical properties, such as being positive, imaginary, or integer. SymPy is careful to never perform simplifications on an expression unless the assumptions allow them. For instance, the simplification <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-6.png"/>
+                  <tex-math id="tex-ieqn-6"><![CDATA[$\sqrt{{t}^{2}}=t$]]></tex-math>
+                  <mml:math id="mml-ieqn-6">
+                     <mml:msqrt>
+                        <mml:mrow>
+                           <mml:msup>
+                              <mml:mrow>
+                                 <mml:mi>t</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mn>2</mml:mn>
+                              </mml:mrow>
+                           </mml:msup>
+                        </mml:mrow>
+                     </mml:msqrt>
+                     <mml:mo>=</mml:mo>
+                     <mml:mi>t</mml:mi>
+                  </mml:math>
+               </alternatives></inline-formula> holds if <italic>t</italic> is nonnegative (<italic>t</italic> ≥ 0), but it does not hold for a general complex <italic>t</italic>.<xref ref-type="fn" rid="fn-4"><sup>4</sup></xref> <fn id="fn-4"><label>4</label><p>In SymPy, <inline-formula><alternatives>
+                     <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-10.png"/>
+                     <tex-math id="tex-ieqn-10"><![CDATA[$\sqrt{z}$]]></tex-math>
+                     <mml:math id="mml-ieqn-10">
+                        <mml:msqrt>
+                           <mml:mrow>
+                              <mml:mi>z</mml:mi>
+                           </mml:mrow>
+                        </mml:msqrt>
+                     </mml:math>
+                  </alternatives></inline-formula> is defined on the usual principal branch with the branch cut along the negative real axis.</p></fn></p>
+            <p>By default, SymPy performs all calculations assuming that symbols are complex valued. This assumption makes it easier to treat mathematical problems in full generality.</p>
+            <code language="python">&gt;&gt;&gt; t = Symbol('t') 
+&gt;&gt;&gt; sqrt(t**2) 
+sqrt(t**2)</code>
+            <p>By assuming the most general case, that <monospace>t</monospace> is complex by default, SymPy avoids performing mathematically invalid operations. However, in many cases users will wish to simplify expressions containing terms like <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-11.png"/>
+                  <tex-math id="tex-ieqn-11"><![CDATA[$\sqrt{{t}^{2}}$]]></tex-math>
+                  <mml:math id="mml-ieqn-11">
+                     <mml:msqrt>
+                        <mml:mrow>
+                           <mml:msup>
+                              <mml:mrow>
+                                 <mml:mi>t</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mn>2</mml:mn>
+                              </mml:mrow>
+                           </mml:msup>
+                        </mml:mrow>
+                     </mml:msqrt>
+                  </mml:math>
+               </alternatives></inline-formula>.</p>
+            <p>Assumptions are set on <monospace>Symbol</monospace> objects when they are created. For instance <monospace>Symbol('t', positive=True)</monospace> will create a symbol named <monospace>t</monospace> that is assumed to be positive.</p>
+            <code language="python">&gt;&gt;&gt; t = Symbol('t', positive=True) 
+&gt;&gt;&gt; sqrt(t**2) 
+t</code>
+            <p>Some of the common assumptions are <monospace>negative</monospace>, <monospace>real</monospace>, <monospace>nonpositive</monospace>, <monospace>integer</monospace>, <monospace>prime</monospace> and <monospace>commutative</monospace>.<xref ref-type="fn" rid="fn-5"><sup>5</sup></xref> <fn id="fn-5"><label>5</label><p>SymPy assumes that two expressions <italic>A</italic> and <italic>B</italic> commute with each other multiplicatively, that is, <italic>A</italic>⋅<italic>B</italic> = <italic>B</italic>⋅<italic>A</italic>, unless they both have <monospace>commutative=False</monospace>. Many algorithms in SymPy require special consideration to work correctly with noncommutative products.</p></fn>Assumptions on any SymPy object can be checked with the <monospace>is_</monospace> 
+        <monospace><italic>assumption</italic></monospace> attributes, like <monospace>t.is_positive</monospace> .</p>
+            <p>Assumptions are only needed to restrict a domain so that certain simplifications can be performed. They are not required to make the domain match the input of a function. For instance, one can create the object <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-15.png"/>
+                  <tex-math id="tex-ieqn-15"><![CDATA[${\mathop{\sum }\nolimits }_{n=0}^{m}\hspace*{1em}f(n)$]]></tex-math>
+                  <mml:math id="mml-ieqn-15">
+                     <mml:msubsup>
+                        <mml:mrow>
+                           <mml:mo>∑</mml:mo>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mi>n</mml:mi>
+                           <mml:mo>=</mml:mo>
+                           <mml:mn>0</mml:mn>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mi>m</mml:mi>
+                        </mml:mrow>
+                     </mml:msubsup>
+                     <mml:mspace width="1em"/>
+                     <mml:mi>f</mml:mi>
+                     <mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mi>n</mml:mi></mml:mfenced></mml:mrow>
+                  </mml:math>
+               </alternatives></inline-formula> as <monospace>Sum(f(n), (n, 0, m))</monospace> without setting <monospace>integer=True</monospace> when creating the Symbol object <monospace>n</monospace>.</p>
+            <p>The assumptions system additionally has deductive capabilities. The assumptions use a three-valued logic using the Python built in objects <monospace>True</monospace>, <monospace>False</monospace>, and <monospace>None</monospace>. Note that <monospace>False</monospace> is returned if the SymPy object doesn’t or can’t have the assumption. For example, both <monospace>I.is_real</monospace> and <monospace>I.is_prime</monospace> return <monospace>False</monospace> for the imaginary unit <monospace>I</monospace>.</p>
+            <p> <monospace>None</monospace> represents the “unknown” case. This could mean that given assumptions do not unambiguously specify the truth of an attribute. For instance, <monospace>Symbol('x', real=True).is_positive</monospace> will give <monospace>None</monospace> because a real symbol might be positive or negative. <monospace>None</monospace> could also mean that not enough is known or implemented to compute the given fact. For instance, <monospace>(pi + E).is_irrational</monospace> gives <monospace>None</monospace>—indeed, the rationality of <italic>π</italic> + <italic>e</italic> is an open problem in mathematics (<xref ref-type="bibr" rid="ref-31">Lang, 1966</xref>).</p>
+            <p>Basic implications between the facts are used to deduce assumptions. Deductions are made using the Rete algorithm (<xref ref-type="bibr" rid="ref-13">Doorenbos, 1995</xref>).<xref ref-type="fn" rid="fn-6"><sup>6</sup></xref> <fn id="fn-6"><label>6</label><p>For historical reasons, this algorithm is distinct from the <monospace>sympy.logic</monospace> submodule, which is discussed in <xref ref-type="supplementary-material" rid="supp-1">Section S3</xref>. SymPy also has an experimental assumptions system which stores facts separate from objects, and uses <monospace>sympy.logic</monospace> and a SAT solver for deduction. We will not discuss this system here.</p></fn>For instance, the assumptions system knows that being an integer implies being rational.</p>
+            <code language="python">&gt;&gt;&gt; i = Symbol('i', integer=True) 
+&gt;&gt;&gt; i.is_rational 
+True</code>
+            <p>Furthermore, expressions compute the assumptions on themselves based on the assumptions of their arguments. For instance, if <monospace>x</monospace> and <monospace>y</monospace> are both created with <monospace>positive=True</monospace>, then <monospace>(x + y).is_positive</monospace> will be <monospace>True</monospace> (whereas <monospace>(x - y).is_positive</monospace> will be <monospace>None</monospace>).</p>
+         </sec>
+         <sec>
+            <title>Simplification</title>
+            <p>The generic way to simplify an expression is by calling the <monospace>simplify</monospace> function. It must be emphasized that simplification is not a rigorously defined mathematical operation (<xref ref-type="bibr" rid="ref-34">Moses, 1971</xref>). The <monospace>simplify</monospace> function applies several simplification routines along with heuristics to make the output expression “simple”.<xref ref-type="fn" rid="fn-7"><sup>7</sup></xref> <fn id="fn-7"><label>7</label><p>The <monospace>measure</monospace> parameter of the <monospace>simplify</monospace> function lets the user specify the Python function used to determine how complex an expression is. The default measure function returns the total number of operations in the expression.</p></fn></p>
+            <p>It is often preferable to apply more directed simplification functions. These apply very specific rules to the input expression and are typically able to make guarantees about the output. For instance, the <monospace>factor</monospace> function, given a polynomial with rational coefficients in several variables, is guaranteed to produce a factorization into irreducible factors. <xref ref-type="table" rid="table-2">Table 2</xref> lists common simplification functions.</p>
+            <table-wrap id="table-2">
+               <object-id pub-id-type="doi">10.7717/peerjcs.103/table-2</object-id><label>Table 2</label><caption>
+                  <title>Some SymPy simplification functions.</title>
+               </caption>
+               <alternatives>
+                  <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/table-2.png"/>
+                  <table>
+                     <colgroup>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td>
+               <monospace> expand</monospace></td>
+                           <td>expand the expression</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> factor</monospace></td>
+                           <td>factor a polynomial into irreducibles</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> collect</monospace></td>
+                           <td>collect polynomial coefficients</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> cancel</monospace></td>
+                           <td>rewrite a rational function as <italic>p</italic>∕<italic>q</italic> with common factors canceled</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> apart</monospace></td>
+                           <td>compute the partial fraction decomposition of a rational function</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> trigsimp</monospace></td>
+                           <td>simplify trigonometric expressions (<xref ref-type="bibr" rid="ref-18">Fu, Zhong &amp; Zeng, 2006</xref>)</td>
+                        </tr>
+                        <tr>
+                           <td>
+               <monospace> hyperexpand</monospace></td>
+                           <td>expand hypergeometric functions (<xref ref-type="bibr" rid="ref-44">Roach, 1996</xref>; <xref ref-type="bibr" rid="ref-45">Roach, 1997</xref>)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+            </table-wrap>
+            <p>Examples for these simplification functions can be found in <xref ref-type="supplementary-material" rid="supp-1">Section S10</xref>.</p>
+         </sec>
+         <sec>
+            <title>Calculus</title>
+            <p>SymPy provides all the basic operations of calculus, such as calculating limits, derivatives, integrals, or summations.</p>
+            <p>Limits are computed with the <monospace>limit</monospace> function, using the Gruntz algorithm (<xref ref-type="bibr" rid="ref-22">Gruntz, 1996</xref>) for computing symbolic limits and heuristics (a description of the Gruntz algorithm may be found in <xref ref-type="supplementary-material" rid="supp-1">Section S1</xref>). For example, the following computes <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-18.png"/>
+                  <tex-math id="tex-ieqn-18"><![CDATA[$\lim _{x\rightarrow \infty }\hspace*{1em}x\sin ( \frac{1}{x} )=1$]]></tex-math>
+                  <mml:math id="mml-ieqn-18">
+                     <mml:munder>
+                        <mml:mrow>
+                           <mml:mo>lim</mml:mo>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mi>x</mml:mi>
+                           <mml:mo>→</mml:mo>
+                           <mml:mi>∞</mml:mi>
+                        </mml:mrow>
+                     </mml:munder>
+                     <mml:mspace width="1em"/>
+                     <mml:mi>x</mml:mi>
+                     <mml:mo>sin</mml:mo>
+                     <mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mfrac>
+                           <mml:mrow>
+                              <mml:mn>1</mml:mn>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi>x</mml:mi>
+                           </mml:mrow>
+                        </mml:mfrac></mml:mfenced></mml:mrow>
+                     <mml:mo>=</mml:mo>
+                     <mml:mn>1</mml:mn>
+                  </mml:math>
+               </alternatives></inline-formula>. Note that SymPy denotes ∞ as <monospace>oo</monospace> (two lower case “<monospace>o</monospace>”s).</p>
+            <code language="python">&gt;&gt;&gt; limit(x*sin(1/x), x, oo) 
+1</code>
+            <p>As a more complex example, SymPy computes <disp-formula id="NONUM-d2e1426">
+                  <alternatives>
+                     <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/NONUM-d2e1426.png"/>
+                     <tex-math id="tex-NONUM-d2e1426"><![CDATA[\begin{eqnarray*}\lim _{x\rightarrow 0}{ \left( 2{e}^{ \frac{1-\cos \nolimits \left( x \right) }{\sin \nolimits \left( x \right) } }-1 \right) }^{ \frac{\sinh \nolimits \left( x \right) }{{\mathrm{a}\tan \nolimits }^{2} \left( x \right) } }=e. \end{eqnarray*}]]></tex-math>
+                     <mml:math id="mml-NONUM-d2e1426">
+                        <mml:mstyle displaystyle="true">
+                           <mml:munder>
+                              <mml:mrow>
+                                 <mml:mo>lim</mml:mo>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>x</mml:mi>
+                                 <mml:mo>→</mml:mo>
+                                 <mml:mn>0</mml:mn>
+                              </mml:mrow>
+                           </mml:munder>
+                           <mml:msup>
+                              <mml:mrow>
+                                 <mml:mfenced separators="" open="(" close=")">
+                                    <mml:mrow>
+                                       <mml:mn>2</mml:mn>
+                                       <mml:msup>
+                                          <mml:mrow>
+                                             <mml:mi>e</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mfrac>
+                                                <mml:mrow>
+                                                   <mml:mn>1</mml:mn>
+                                                   <mml:mo>−</mml:mo>
+                                                   <mml:mo> cos</mml:mo>
+                                                   <mml:mfenced separators="" open="(" close=")">
+                                                      <mml:mrow>
+                                                         <mml:mi>x</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:mfenced>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:mo> sin</mml:mo>
+                                                   <mml:mfenced separators="" open="(" close=")">
+                                                      <mml:mrow>
+                                                         <mml:mi>x</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:mfenced>
+                                                </mml:mrow>
+                                             </mml:mfrac>
+                                          </mml:mrow>
+                                       </mml:msup>
+                                       <mml:mo>−</mml:mo>
+                                       <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                 </mml:mfenced>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:mo> sinh</mml:mo>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:msup>
+                                          <mml:mrow>
+                                             <mml:mi mathvariant="normal">a</mml:mi>
+                                             <mml:mo> tan</mml:mo>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mn>2</mml:mn>
+                                          </mml:mrow>
+                                       </mml:msup>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                              </mml:mrow>
+                           </mml:msup>
+                           <mml:mo>=</mml:mo>
+                           <mml:mi>e</mml:mi>
+                           <mml:mo>.</mml:mo>
+                        </mml:mstyle>
+                     </mml:math>
+                  </alternatives>
+               </disp-formula>
+            </p>
+            <code language="python">&gt;&gt;&gt; limit((2*exp((1-cos(x))/sin(x))-1)**(sinh(x)/atan(x)**2), x, 0) 
+E</code>
+            <p>Derivatives are computed with the <monospace>diff</monospace> function, which recursively uses the various differentiation rules.</p>
+            <code language="python">&gt;&gt;&gt; diff(sin(x)*exp(x), x) 
+exp(x)*sin(x) + exp(x)*cos(x)</code>
+            <p>Integrals are calculated with the <monospace>integrate</monospace> function. SymPy implements a combination of the Risch algorithm (<xref ref-type="bibr" rid="ref-7">Bronstein, 2005b</xref>), table lookups, a reimplementation of Manuel Bronstein’s “Poor Man’s Integrator” (<xref ref-type="bibr" rid="ref-6">Bronstein, 2005a</xref>), and an algorithm for computing integrals based on Meijer G-functions (<xref ref-type="bibr" rid="ref-44">Roach, 1996</xref>; <xref ref-type="bibr" rid="ref-45">Roach, 1997</xref>). These allow SymPy to compute a wide variety of indefinite and definite integrals. The Meijer G-function algorithm and the Risch algorithm are respectively demonstrated below by the computation of <disp-formula id="NONUM-d2e1531">
+                  <alternatives>
+                     <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/NONUM-d2e1531.png"/>
+                     <tex-math id="tex-NONUM-d2e1531"><![CDATA[\begin{eqnarray*}\int \nolimits \nolimits _{0}^{\infty }{e}^{-st}\log \nolimits \left( t \right) \hspace*{2.5pt}dt=- \frac{\log \nolimits \left( s \right) +\gamma }{s} \end{eqnarray*}]]></tex-math>
+                     <mml:math id="mml-NONUM-d2e1531">
+                        <mml:mstyle displaystyle="true">
+                           <mml:msubsup>
+                              <mml:mrow>
+                                 <mml:mo>∫</mml:mo>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mn>0</mml:mn>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>∞</mml:mi>
+                              </mml:mrow>
+                           </mml:msubsup>
+                           <mml:msup>
+                              <mml:mrow>
+                                 <mml:mi>e</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mo>−</mml:mo>
+                                 <mml:mi>s</mml:mi>
+                                 <mml:mi>t</mml:mi>
+                              </mml:mrow>
+                           </mml:msup>
+                           <mml:mo> log</mml:mo>
+                           <mml:mfenced separators="" open="(" close=")">
+                              <mml:mrow>
+                                 <mml:mi>t</mml:mi>
+                              </mml:mrow>
+                           </mml:mfenced>
+                           <mml:mspace width="2.5pt"/>
+                           <mml:mi>d</mml:mi>
+                           <mml:mi>t</mml:mi>
+                           <mml:mo>=</mml:mo>
+                           <mml:mo>−</mml:mo>
+                           <mml:mfrac>
+                              <mml:mrow>
+                                 <mml:mo>log</mml:mo>
+                                 <mml:mfenced separators="" open="(" close=")">
+                                    <mml:mrow>
+                                       <mml:mi>s</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfenced>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:mi>γ</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>s</mml:mi>
+                              </mml:mrow>
+                           </mml:mfrac>
+                        </mml:mstyle>
+                     </mml:math>
+                  </alternatives>
+               </disp-formula>
+            </p>
+            <p>and <disp-formula id="NONUM-d2e1591">
+                  <alternatives>
+                     <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/NONUM-d2e1591.png"/>
+                     <tex-math id="tex-NONUM-d2e1591"><![CDATA[\begin{eqnarray*}\int \nolimits \frac{-2{x}^{2} \left( \log \nolimits \left( x \right) +1 \right) {e}^{{x}^{2}}+{ \left( {e}^{{x}^{2}}+1 \right) }^{2}}{x{ \left( {e}^{{x}^{2}}+1 \right) }^{2} \left( \log \nolimits \left( x \right) +1 \right) } \hspace*{2.5pt}dx=\log \nolimits \left( \log \nolimits \left( x \right) +1 \right) + \frac{1}{{e}^{{x}^{2}}+1} . \end{eqnarray*}]]></tex-math>
+                     <mml:math id="mml-NONUM-d2e1591">
+                        <mml:mstyle displaystyle="true">
+                           <mml:mo>∫</mml:mo>
+                           <mml:mfrac>
+                              <mml:mrow>
+                                 <mml:mo>−</mml:mo>
+                                 <mml:mn>2</mml:mn>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mi>x</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mn>2</mml:mn>
+                                    </mml:mrow>
+                                 </mml:msup>
+                                 <mml:mfenced separators="" open="(" close=")">
+                                    <mml:mrow>
+                                       <mml:mo>log</mml:mo>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                       <mml:mo>+</mml:mo>
+                                       <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                 </mml:mfenced>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mi>e</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:msup>
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mn>2</mml:mn>
+                                          </mml:mrow>
+                                       </mml:msup>
+                                    </mml:mrow>
+                                 </mml:msup>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:msup>
+                                                <mml:mrow>
+                                                   <mml:mi>e</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:msup>
+                                                      <mml:mrow>
+                                                         <mml:mi>x</mml:mi>
+                                                      </mml:mrow>
+                                                      <mml:mrow>
+                                                         <mml:mn>2</mml:mn>
+                                                      </mml:mrow>
+                                                   </mml:msup>
+                                                </mml:mrow>
+                                             </mml:msup>
+                                             <mml:mo>+</mml:mo>
+                                             <mml:mn>1</mml:mn>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mn>2</mml:mn>
+                                    </mml:mrow>
+                                 </mml:msup>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>x</mml:mi>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:msup>
+                                                <mml:mrow>
+                                                   <mml:mi>e</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:msup>
+                                                      <mml:mrow>
+                                                         <mml:mi>x</mml:mi>
+                                                      </mml:mrow>
+                                                      <mml:mrow>
+                                                         <mml:mn>2</mml:mn>
+                                                      </mml:mrow>
+                                                   </mml:msup>
+                                                </mml:mrow>
+                                             </mml:msup>
+                                             <mml:mo>+</mml:mo>
+                                             <mml:mn>1</mml:mn>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mn>2</mml:mn>
+                                    </mml:mrow>
+                                 </mml:msup>
+                                 <mml:mfenced separators="" open="(" close=")">
+                                    <mml:mrow>
+                                       <mml:mo>log</mml:mo>
+                                       <mml:mfenced separators="" open="(" close=")">
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfenced>
+                                       <mml:mo>+</mml:mo>
+                                       <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                 </mml:mfenced>
+                              </mml:mrow>
+                           </mml:mfrac>
+                           <mml:mspace width="2.5pt"/>
+                           <mml:mi>d</mml:mi>
+                           <mml:mi>x</mml:mi>
+                           <mml:mo>=</mml:mo>
+                           <mml:mo> log</mml:mo>
+                           <mml:mfenced separators="" open="(" close=")">
+                              <mml:mrow>
+                                 <mml:mo>log</mml:mo>
+                                 <mml:mfenced separators="" open="(" close=")">
+                                    <mml:mrow>
+                                       <mml:mi>x</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfenced>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:mn>1</mml:mn>
+                              </mml:mrow>
+                           </mml:mfenced>
+                           <mml:mo>+</mml:mo>
+                           <mml:mfrac>
+                              <mml:mrow>
+                                 <mml:mn>1</mml:mn>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mi>e</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:msup>
+                                          <mml:mrow>
+                                             <mml:mi>x</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mn>2</mml:mn>
+                                          </mml:mrow>
+                                       </mml:msup>
+                                    </mml:mrow>
+                                 </mml:msup>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:mn>1</mml:mn>
+                              </mml:mrow>
+                           </mml:mfrac>
+                           <mml:mo>.</mml:mo>
+                        </mml:mstyle>
+                     </mml:math>
+                  </alternatives>
+               </disp-formula>
+            </p>
+            <p> 
+               <code language="python">&gt;&gt;&gt; s, t = symbols('s t', positive=True) 
+&gt;&gt;&gt; integrate(exp(-s*t)*log(t), (t, 0, oo)).simplify() 
+-(log(s) + EulerGamma)/s 
+&gt;&gt;&gt; integrate((-2*x**2*(log(x) + 1)*exp(x**2) + 
+... (exp(x**2) + 1)**2)/(x*(exp(x**2) + 1)**2*(log(x) + 1)), x) 
+log(log(x) + 1) + 1/(exp(x**2) + 1)</code>
+            </p>
+            <p>Summations are computed with the <monospace>summation</monospace> function, which uses a combination of Gosper’s algorithm (<xref ref-type="bibr" rid="ref-21">Gosper, 1978</xref>), an algorithm that uses Meijer G-functions (<xref ref-type="bibr" rid="ref-44">Roach, 1996</xref>; <xref ref-type="bibr" rid="ref-45">Roach, 1997</xref>), and heuristics. Products are computed with <monospace>product</monospace> function via a suite of heuristics.</p>
+            <code language="python">&gt;&gt;&gt; i, n = symbols('i n') 
+&gt;&gt;&gt; summation(2**i, (i, 0, n - 1)) 
+2**n - 1 
+&gt;&gt;&gt; summation(i*factorial(i), (i, 1, n)) 
+n*factorial(n) + factorial(n) - 1</code>
+            <p>Series expansions are computed with the <monospace>series</monospace> function. This example computes the power series of sin(<italic>x</italic>) around <italic>x</italic> = 0 up to <italic>x</italic><sup>6</sup>.</p>
+            <code language="python">&gt;&gt;&gt; series(sin(x), x, 0, 6) 
+x - x**3/6 + x**5/120 + O(x**6)</code>
+            <p><xref ref-type="supplementary-material" rid="supp-1">Section S2</xref> discusses series expansions methods in more depth. Integrals, derivatives, summations, products, and limits that cannot be computed return unevaluated objects. These can also be created directly if the user chooses.</p>
+            <code language="python">&gt;&gt;&gt; integrate(x**x, x) 
+Integral(x**x, x) 
+&gt;&gt;&gt; Sum(2**i, (i, 0, n - 1)) 
+Sum(2**i, (i, 0, n - 1))</code>
+         </sec>
+         <sec>
+            <title>Polynomials</title>
+            <p>SymPy implements a suite of algorithms for polynomial manipulation, which ranges from relatively simple algorithms for doing arithmetic of polynomials, to advanced methods for factoring multivariate polynomials into irreducibles, symbolically determining real and complex root isolation intervals, or computing Gröbner bases.</p>
+            <p>Polynomial manipulation is useful in its own right. Within SymPy, though, it is mostly used indirectly as a tool in other areas of the library. In fact, many mathematical problems in symbolic computing are first expressed using entities from the symbolic core, preprocessed, and then transformed into a problem in the polynomial algebra, where generic and efficient algorithms are used to solve the problem. The solutions to the original problem are subsequently recovered from the results. This is a common scheme in symbolic integration or summation algorithms.</p>
+            <p>SymPy implements dense and sparse polynomial representations.<xref ref-type="fn" rid="fn-8"><sup>8</sup></xref> <fn id="fn-8"><label>8</label><p>In a dense representation, the coefficients for all terms up to the degree of each variable are stored in memory. In a sparse representation, only the nonzero coefficients are stored.</p></fn>Both are used in the univariate and multivariate cases. The dense representation is the default for univariate polynomials. For multivariate polynomials, the choice of representation is based on the application. The most common case for the sparse representation is algorithms for computing Gröbner bases (Buchberger, F4, and F5) (<xref ref-type="bibr" rid="ref-8">Buchberger, 1965</xref>; <xref ref-type="bibr" rid="ref-14">Faugère, 1999</xref>; <xref ref-type="bibr" rid="ref-15">Faugère, 2002</xref>). This is because different monomial orderings can be expressed easily in this representation. However, algorithms for computing multivariate GCDs or factorizations, at least those currently implemented in SymPy (<xref ref-type="bibr" rid="ref-38">Paprocki, 2010</xref>), are better expressed when the representation is dense. The dense multivariate representation is specifically a recursively-dense representation, where polynomials in <italic>K</italic>[<italic>x</italic><sub>0</sub>, <italic>x</italic><sub>1</sub>, …, <italic>x</italic><sub><italic>n</italic></sub>] are viewed as a polynomials in <italic>K</italic>[<italic>x</italic><sub>0</sub>][<italic>x</italic><sub>1</sub>]…[<italic>x</italic><sub><italic>n</italic></sub>]. Note that despite this, the coefficient domain <italic>K</italic>, can be a multivariate polynomial domain as well. The dense recursive representation in Python gets inefficient as the number of variables increases.</p>
+            <p>Some examples for the <monospace>sympy.polys</monospace> submodule can be found in <xref ref-type="supplementary-material" rid="supp-2">Section S10</xref>.</p>
+         </sec>
+         <sec>
+            <title>Printers</title>
+            <p>SymPy has a rich collection of expression printers. By default, an interactive Python session will render the <monospace>str</monospace> form of an expression, which has been used in all the examples in this paper so far. The <monospace>str</monospace> form of an expression is valid Python and roughly matches what a user would type to enter the expression.<xref ref-type="fn" rid="fn-9"><sup>9</sup></xref> <fn id="fn-9"><label>9</label><p>Many Python libraries distinguish the <monospace>str</monospace> form of an object, which is meant to be human-readable, and the <monospace>repr</monospace> form, which is mean to be valid Python that recreates the object. In SymPy, <monospace>str(expr) == repr(expr)</monospace>. In other words, the string representation of an expression is designed to be compact, human-readable, and valid Python code that could be used to recreate the expression. As noted in Section ‘The core’, the <monospace>srepr</monospace> function prints the exact, verbose form of an expression.</p></fn></p>
+            <code language="python">&gt;&gt;&gt; phi0 = Symbol('phi0') 
+&gt;&gt;&gt; str(Integral(sqrt(phi0), phi0)) 
+'Integral(sqrt(phi0), phi0)'</code>
+            <p>A two-dimensional (2D) textual representation of the expression can be printed with monospace fonts via <monospace>pprint</monospace>. Unicode characters are used for rendering mathematical symbols such as integral signs, square roots, and parentheses. Greek letters and subscripts in symbol names that have Unicode code points associated are also rendered automatically.</p>
+            <p> 
+               <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-1.png" content-type="symbol-5x"/>
+            </p>
+            <p>Alternately, the <monospace>use_unicode=False</monospace> flag can be set, which causes the expression to be printed using only ASCII characters.</p>
+            <code language="python">&gt;&gt;&gt; pprint(Integral(sqrt(phi0 + 1), phi0), use_unicode=False) 
+  / 
+ | 
+ |   __________ 
+ | \/ phi0 + 1  d(phi0) 
+ | 
+/</code>
+            <p>The function <monospace>latex</monospace> returns a <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-2.png" content-type="symbol"/> representation of an expression.</p>
+            <code language="python">&gt;&gt;&gt; print(latex(Integral(sqrt(phi0 + 1), phi0))) 
+\int \sqrt{\phi_{0} + 1}\, d\phi_{0}</code>
+            <p>Users are encouraged to run the <monospace>init_printing</monospace> function at the beginning of interactive sessions, which automatically enables the best pretty printing supported by their environment. In the Jupyter Notebook or Qt Console (<xref ref-type="bibr" rid="ref-40">Pérez &amp; Granger, 2007</xref>), the <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-2.png" content-type="symbol"/> printer is used to render expressions using MathJax or <inline-graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/inlinefig-2.png" content-type="symbol"/>, if it is installed on the system. The 2D text representation is used otherwise.</p>
+            <p>Other printers such as MathML are also available. SymPy uses an extensible printer subsystem, which allows extending any given printer, and also allows custom objects to define their printing behavior for any printer. The code generation functionality of SymPy relies on this subsystem to convert expressions into code in various target programming languages.</p>
+         </sec>
+         <sec>
+            <title>Solvers</title>
+            <p>SymPy has equation solvers that can handle ordinary differential equations, recurrence relationships, Diophantine equations,<xref ref-type="fn" rid="fn-10"><sup>10</sup></xref> <fn id="fn-10"><label>10</label><p>See <xref ref-type="supplementary-material" rid="supp-1">Section S4</xref> for an in depth discussion on the Diophantine submodule.</p></fn>and algebraic equations. There is also rudimentary support for simple partial differential equations.</p>
+            <p>There are two functions for solving algebraic equations in SymPy: <monospace>solve</monospace> and <monospace>solveset</monospace>. <monospace>solveset</monospace> has several design changes with respect to the older <monospace>solve</monospace> function. This distinction is present in order to resolve the usability issues with the previous <monospace>solve</monospace> function API while maintaining backward compatibility with earlier versions of SymPy. <monospace>solveset</monospace> only requires essential input information from the user. The function signatures of <monospace>solve</monospace> and <monospace>solveset</monospace> are</p>
+            <code language="python">solve(f, *symbols, **flags) 
+solveset(f, symbol, domain=S.Complexes)</code>
+            <p>The <monospace>domain</monospace> parameter can be any set from the <monospace>sympy.sets</monospace> module (see <xref ref-type="supplementary-material" rid="supp-1">Section S5</xref> for details on <monospace>sympy.sets</monospace>), but is typically either <monospace>S.Complexes</monospace> (the default) or <monospace>S.Reals</monospace>; the latter causes <monospace>solveset</monospace> to only return real solutions.</p>
+            <p>An important difference between the two functions is that the output API of <monospace>solve</monospace> varies with input (sometimes returning a Python list and sometimes a Python dictionary) whereas <monospace>solveset</monospace> always returns a SymPy set object.</p>
+            <p>Both functions implicitly assume that expressions are equal to 0. For instance, <monospace>solveset(x - 1, x)</monospace> solves <italic>x</italic> − 1 = 0 for <italic>x</italic>.</p>
+            <p> <monospace>solveset</monospace> is under active development as a planned replacement for <monospace>solve</monospace>. There are certain features which are implemented in <monospace>solve</monospace> that are not yet implemented in <monospace>solveset</monospace>, including multivariate systems, and some transcendental equations.</p>
+            <p>Some examples for <monospace>solveset</monospace> and <monospace>solve</monospace> can be found in <xref ref-type="supplementary-material" rid="supp-1">Section S10</xref>.</p>
+         </sec>
+         <sec>
+            <title>Matrices</title>
+            <p>Besides being an important feature in its own right, computations on matrices with symbolic entries are important for many algorithms within SymPy. The following code shows some basic usage of the <monospace>Matrix</monospace> class.</p>
+            <code language="python">&gt;&gt;&gt; A = Matrix([[x, x + y], [y, x]]) 
+&gt;&gt;&gt; A 
+Matrix([ 
+[x, x + y], 
+[y,     x]])</code>
+            <p>SymPy matrices support common symbolic linear algebra manipulations, including matrix addition, multiplication, exponentiation, computing determinants, solving linear systems, singular values, and computing inverses using LU decomposition, LDL decomposition, Gauss-Jordan elimination, Cholesky decomposition, Moore–Penrose pseudoinverse, or adjugate matrices.</p>
+            <p>All operations are performed symbolically. For instance, eigenvalues are computed by generating the characteristic polynomial using the Berkowitz algorithm and then finding its zeros using polynomial routines.</p>
+            <code language="python">&gt;&gt;&gt; A.eigenvals() 
+{x - sqrt(y*(x + y)): 1, x + sqrt(y*(x + y)): 1}</code>
+            <p>Internally these matrices store the elements as Lists of Lists (LIL) (<xref ref-type="bibr" rid="ref-27">Jones et al., 2001</xref>), meaning the matrix is stored as a list of lists of entries (effectively, the input format used to create the matrix <monospace>A</monospace> above), making it a dense representation.<xref ref-type="fn" rid="fn-11"><sup>11</sup></xref> <fn id="fn-11"><label>11</label><p>Similar to the polynomials submodule, dense here means that all entries are stored in memory, contrasted with a sparse representation where only nonzero entries are stored.</p></fn>For storing sparse matrices, the <monospace>SparseMatrix</monospace> class can be used. Sparse matrices store their elements in Dictionary of Keys (DOK) format, meaning that the entries are stored as a <monospace>dict</monospace> of <monospace>(row, column)</monospace> pairs mapping to the elements.</p>
+            <p>SymPy also supports matrices with symbolic dimension values. <monospace>MatrixSymbol</monospace> represents a matrix with dimensions <italic>m</italic> × <italic>n</italic>, where <italic>m</italic> and <italic>n</italic> can be symbolic. Matrix addition and multiplication, scalar operations, matrix inverse, and transpose are stored symbolically as matrix expressions.</p>
+            <p>Block matrices are also implemented in SymPy. <monospace> BlockMatrix</monospace> elements can be any matrix expression, including explicit matrices, matrix symbols, and other block matrices. All functionalities of matrix expressions are also present in <monospace>BlockMatrix</monospace> .</p>
+            <p>When symbolic matrices are combined with the assumptions submodule for logical inference, they provide powerful reasoning over invertibility, semi-definiteness, orthogonality, etc., which are valuable in the construction of numerical linear algebra systems (<xref ref-type="bibr" rid="ref-46">Rocklin, 2013</xref>).</p>
+            <p>More examples for <monospace>Matrix</monospace> and <monospace>BlockMatrix</monospace> may be found in <xref ref-type="supplementary-material" rid="supp-1">Section S10</xref>.</p>
+         </sec>
+      </sec>
+      <sec>
+         <title>Numerics</title>
+         <p>While SymPy primarily focuses on symbolics, it is impossible to have a complete symbolic system without the ability to numerically evaluate expressions. Many operations directly use numerical evaluation, such as plotting a function, or solving an equation numerically. Beyond this, certain purely symbolic operations require numerical evaluation to effectively compute. For instance, determining the truth value of <italic>e</italic> + 1 &gt; <italic>π</italic> is most conveniently done by numerically evaluating both sides of the inequality and checking which is larger.</p>
+         <sec>
+            <title>Floating-point numbers</title>
+            <p>Floating-point numbers in SymPy are implemented by the <monospace>Float</monospace> class, which represents an arbitrary-precision binary floating-point number by storing its value and precision (in bits). This representation is distinct from the Python built-in <monospace>float</monospace> type, which is a wrapper around machine <monospace>double</monospace> types and uses a fixed precision (53-bit).</p>
+            <p>Because Python <monospace>float</monospace> literals are limited in precision, strings should be used to input precise decimal values:</p>
+            <code language="python">&gt;&gt;&gt; Float(1.1) 
+1.10000000000000 
+&gt;&gt;&gt; Float(1.1, 30)   # precision equivalent to 30 digits 
+1.10000000000000008881784197001 
+&gt;&gt;&gt; Float("1.1", 30) 
+1.10000000000000000000000000000</code>
+            <p>The <monospace>evalf</monospace> method converts a constant symbolic expression to a <monospace>Float</monospace> with the specified precision, here 25 digits:</p>
+            <code language="python">&gt;&gt;&gt; (pi + 1).evalf(25) 
+4.141592653589793238462643</code>
+            <p> <monospace>Float</monospace> numbers do not track their accuracy, and should be used with caution within symbolic expressions since familiar dangers of floating-point arithmetic apply (<xref ref-type="bibr" rid="ref-20">Goldberg, 1991</xref>). A notorious case is that of catastrophic cancellation:</p>
+            <code language="python">&gt;&gt;&gt; cos(exp(-100)).evalf(25) - 1 
+0</code>
+            <p>Applying the <monospace>evalf</monospace> method to the whole expression solves this problem. Internally, <monospace>evalf</monospace> estimates the number of accurate bits of the floating-point approximation for each sub-expression, and adaptively increases the working precision until the estimated accuracy of the final result matches the sought number of decimal digits:</p>
+            <code language="python">&gt;&gt;&gt; (cos(exp(-100)) - 1).evalf(25) 
+-6.919482633683687653243407e-88</code>
+            <p>The <monospace>evalf</monospace> method works with complex numbers and supports more complicated expressions, such as special functions, infinite series, and integrals. The internal error tracking does not provide rigorous error bounds (in the sense of interval arithmetic) and cannot be used to accurately track uncertainty in measurement data; the sole purpose is to mitigate loss of accuracy that typically occurs when converting symbolic expressions to numerical values.</p>
+         </sec>
+         <sec>
+            <title>The mpmath library</title>
+            <p>The implementation of arbitrary-precision floating-point arithmetic is supplied by the mpmath library (<xref ref-type="bibr" rid="ref-26">Johansson &amp; The mpmath Development Team, 2014</xref>). Originally, it was developed as a SymPy submodule but has subsequently been moved to a standalone pure-Python package. The basic datatypes in mpmath are <monospace>mpf</monospace> and <monospace>mpc</monospace>, which respectively act as multiprecision substitutes for Python’s <monospace>float</monospace> and <monospace>complex</monospace>. The floating-point precision is controlled by a global context:</p>
+            <code language="python">&gt;&gt;&gt; import mpmath 
+&gt;&gt;&gt; mpmath.mp.dps = 30    # 30 digits of precision 
+&gt;&gt;&gt; mpmath.mpf("0.1") + mpmath.exp(-50) 
+mpf('0.100000000000000000000192874984794') 
+&gt;&gt;&gt; print(_)   # pretty-printed 
+0.100000000000000000000192874985</code>
+            <p>Like SymPy, mpmath is a pure Python library. A design decision of SymPy is to keep it and its required dependencies pure Python. This is a primary advantage of mpmath over other multiple precision libraries such as GNU MPFR (<xref ref-type="bibr" rid="ref-17">Fousse et al., 2007</xref>), which is faster. Like SymPy, mpmath is also BSD licensed (GNU MPFR is licensed under the GNU Lesser General Public License (<xref ref-type="bibr" rid="ref-49">Rosen, 2005</xref>)).</p>
+            <p>Internally, mpmath represents a floating-point number (−1)<sup><italic>s</italic></sup><italic>x</italic>⋅2<sup><italic>y</italic></sup> by a tuple (<italic>s</italic>, <italic>x</italic>, <italic>y</italic>, <italic>b</italic>) where <italic>x</italic> and <italic>y</italic> are arbitrary-size Python integers and the redundant integer <italic>b</italic> stores the bit length of <italic>x</italic> for quick access. If GMPY (<xref ref-type="bibr" rid="ref-23">Horsen, 2015</xref>) is installed, mpmath automatically uses the <monospace>gmpy.mpz</monospace> type for <italic>x</italic>, and GMPY methods for rounding-related operations, improving performance.</p>
+            <p>Most mpmath and SymPy functions use the same naming scheme, although this is not true in every case. For example, the symbolic SymPy summation expression <monospace>Sum(f(x), (x, a, b))</monospace> representing <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-42.png"/>
+                  <tex-math id="tex-ieqn-42"><![CDATA[${\mathop{\sum }\nolimits }_{x=a}^{b}\hspace*{1em}f(x)$]]></tex-math>
+                  <mml:math id="mml-ieqn-42">
+                     <mml:msubsup>
+                        <mml:mrow>
+                           <mml:mo>∑</mml:mo>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mi>x</mml:mi>
+                           <mml:mo>=</mml:mo>
+                           <mml:mi>a</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mi>b</mml:mi>
+                        </mml:mrow>
+                     </mml:msubsup>
+                     <mml:mspace width="1em"/>
+                     <mml:mi>f</mml:mi>
+                     <mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mi>x</mml:mi></mml:mfenced></mml:mrow>
+                  </mml:math>
+               </alternatives></inline-formula> is represented in mpmath as <monospace>nsum(f, (a, b))</monospace>, where <monospace>f</monospace> is a numeric Python function.</p>
+            <p>The mpmath library supports special functions, root-finding, linear algebra, polynomial approximation, and numerical computation of limits, derivatives, integrals, infinite series, and solving ODEs. All features work in arbitrary precision and use algorithms that allow computing hundreds of digits rapidly (except in degenerate cases).</p>
+            <p>The double exponential (tanh-sinh) quadrature is used for numerical integration by default. For smooth integrands, this algorithm usually converges extremely rapidly, even when the integration interval is infinite or singularities are present at the endpoints (<xref ref-type="bibr" rid="ref-54">Takahasi &amp; Mori, 1974</xref>; <xref ref-type="bibr" rid="ref-2">Bailey, Jeyabalan &amp; Li, 2005</xref>). However, for good performance, singularities in the middle of the interval must be specified by the user. To evaluate slowly converging limits and infinite series, mpmath automatically tries Richardson extrapolation and the Shanks transformation (Euler-Maclaurin summation can also be used) (<xref ref-type="bibr" rid="ref-3">Bender &amp; Orszag, 1999</xref>). A function to evaluate oscillatory integrals by means of convergence acceleration is also available.</p>
+            <p>A wide array of higher mathematical functions is implemented with full support for complex values of all parameters and arguments, including complete and incomplete gamma functions, Bessel functions, orthogonal polynomials, elliptic functions and integrals, zeta and polylogarithm functions, the generalized hypergeometric function, and the Meijer G-function. The Meijer G-function instance <inline-formula><alternatives>
+                  <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-43.png"/>
+                  <tex-math id="tex-ieqn-43"><![CDATA[${G}_{1,3}^{3,0} \left( 0; \frac{1}{2} ,-1, \left. - \frac{3}{2} \right\vert x \right) $]]></tex-math>
+                  <mml:math id="mml-ieqn-43">
+                     <mml:msubsup>
+                        <mml:mrow>
+                           <mml:mi>G</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mn>1</mml:mn>
+                           <mml:mo>,</mml:mo>
+                           <mml:mn>3</mml:mn>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mn>3</mml:mn>
+                           <mml:mo>,</mml:mo>
+                           <mml:mn>0</mml:mn>
+                        </mml:mrow>
+                     </mml:msubsup>
+                     <mml:mfenced separators="" open="(" close=")">
+                        <mml:mrow>
+                           <mml:mn>0</mml:mn>
+                           <mml:mo>;</mml:mo>
+                           <mml:mfrac>
+                              <mml:mrow>
+                                 <mml:mn>1</mml:mn>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mn>2</mml:mn>
+                              </mml:mrow>
+                           </mml:mfrac>
+                           <mml:mo>,</mml:mo>
+                           <mml:mo>−</mml:mo>
+                           <mml:mn>1</mml:mn>
+                           <mml:mo>,</mml:mo>
+                           <mml:mfenced separators="" open="" close="|">
+                              <mml:mrow>
+                                 <mml:mo>−</mml:mo>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:mn>3</mml:mn>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mn>2</mml:mn>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                              </mml:mrow>
+                           </mml:mfenced>
+                           <mml:mi>x</mml:mi>
+                        </mml:mrow>
+                     </mml:mfenced>
+                  </mml:math>
+               </alternatives></inline-formula> is a good test case (<xref ref-type="bibr" rid="ref-63">Toth, 2007</xref>); past versions of both Maple and Mathematica produced incorrect numerical values for large <italic>x</italic> &gt; 0. Here, mpmath automatically removes an internal singularity and compensates for cancellations (amounting to 656 bits of precision when <italic>x</italic> = 10, 000), giving correct values:</p>
+            <code language="python">&gt;&gt;&gt; mpmath.mp.dps = 15 
+&gt;&gt;&gt; mpmath.meijerg([[],[0]], [[-0.5,-1,-1.5],[]], 10000) 
+mpf('2.4392576907199564e-94')</code>
+            <p>Equivalently, with SymPy’s interface this function can be evaluated as:</p>
+            <code language="python">&gt;&gt;&gt; meijerg([[],[0]], [[-S(1)/2,-1,-S(3)/2],[]], 10000).evalf() 
+2.43925769071996e-94</code>
+            <p>Symbolic integration and summation often produce hypergeometric and Meijer G-function closed forms (see Section ‘Calculus’); numerical evaluation of such special functions is a useful complement to direct numerical integration and summation.</p>
+         </sec>
+      </sec>
+      <sec>
+         <title>Physics submodule</title>
+         <p>SymPy includes several submodules that allow users to solve domain specific physics problems. For example, a comprehensive physics submodule is included that is useful for solving problems in mechanics, optics, and quantum mechanics along with support for manipulating physical quantities with units.</p>
+         <sec>
+            <title>Classical mechanics</title>
+            <p>One of the core domains that SymPy suports is the physics of classical mechanics. This is in turn separated into two distinct components: vector algebra and mechanics.</p>
+            <sec>
+               <title>Vector algebra</title>
+               <p>The <monospace>sympy.physics.vector</monospace> submodule provides reference frame-, time-, and space-aware vector and dyadic objects that allow for three-dimensional operations such as addition, subtraction, scalar multiplication, inner and outer products, and cross products. The vector and dyadic objects both can be written in very compact notation that make it easy to express the vectors and dyadics in terms of multiple reference frames with arbitrarily defined relative orientations. The vectors are used to specify the positions, velocities, and accelerations of points; orientations, angular velocities, and angular accelerations of reference frames; and forces and torques. The dyadics are essentially reference frame-aware 3 × 3 tensors (<xref ref-type="bibr" rid="ref-53">Tai, 1997</xref>). The vector and dyadic objects can be used for any one-, two-, or three-dimensional vector algebra, and they provide a strong framework for building physics and engineering tools.</p>
+               <p>The following Python code demonstrates how a vector is created using the orthogonal unit vectors of three reference frames that are oriented with respect to each other, and the result of expressing the vector in the <italic>A</italic> frame. The <italic>B</italic> frame is oriented with respect to the <italic>A</italic> frame using Z-X-Z Euler Angles of magnitude <italic>π</italic>, <inline-formula><alternatives>
+                     <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-51.png"/>
+                     <tex-math id="tex-ieqn-51"><![CDATA[$ \frac{\pi }{2} $]]></tex-math>
+                     <mml:math id="mml-ieqn-51">
+                        <mml:mfrac>
+                           <mml:mrow>
+                              <mml:mi>π</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>2</mml:mn>
+                           </mml:mrow>
+                        </mml:mfrac>
+                     </mml:math>
+                  </alternatives></inline-formula>, and <inline-formula><alternatives>
+                     <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-52.png"/>
+                     <tex-math id="tex-ieqn-52"><![CDATA[$ \frac{\pi }{3} $]]></tex-math>
+                     <mml:math id="mml-ieqn-52">
+                        <mml:mfrac>
+                           <mml:mrow>
+                              <mml:mi>π</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>3</mml:mn>
+                           </mml:mrow>
+                        </mml:mfrac>
+                     </mml:math>
+                  </alternatives></inline-formula>, respectively, whereas the <italic>C</italic> frame is oriented with respect to the <italic>B</italic> frame through a simple rotation about the <italic>B</italic> frame’s <italic>X</italic> unit vector through <inline-formula><alternatives>
+                     <inline-graphic xlink:href="https://peerj.com/articles/cs-103/ieqn-57.png"/>
+                     <tex-math id="tex-ieqn-57"><![CDATA[$ \frac{\pi }{2} $]]></tex-math>
+                     <mml:math id="mml-ieqn-57">
+                        <mml:mfrac>
+                           <mml:mrow>
+                              <mml:mi>π</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>2</mml:mn>
+                           </mml:mrow>
+                        </mml:mfrac>
+                     </mml:math>
+                  </alternatives></inline-formula>.</p>
+               <code language="python">&gt;&gt;&gt; from sympy.physics.vector import ReferenceFrame 
+&gt;&gt;&gt; A, B, C = symbols('A B C', cls=ReferenceFrame) 
+&gt;&gt;&gt; B.orient(A, 'body', (pi, pi/3, pi/4), 'zxz') 
+&gt;&gt;&gt; C.orient(B, 'axis', (pi/2, B.x)) 
+&gt;&gt;&gt; v = 1*A.x + 2*B.z + 3*C.y 
+&gt;&gt;&gt; v 
+A.x + 2*B.z + 3*C.y 
+&gt;&gt;&gt; v.express(A) 
+A.x + 5*sqrt(3)/2*A.y + 5/2*A.z</code>
+            </sec>
+            <sec>
+               <title>Mechanics</title>
+               <p>The <monospace>sympy.physics.mechanics</monospace> submodule utilizes the <monospace>sympy.physics.vector</monospace> submodule to populate time-aware particle and rigid-body objects to fully describe the kinematics and kinetics of a rigid multi-body system. These objects store all of the information needed to derive the ordinary differential or differential algebraic equations that govern the motion of the system, i.e., the equations of motion. These equations of motion abide by Newton’s laws of motion and can handle arbitrary kinematic constraints or complex loads. The submodule offers two automated methods for formulating the equations of motion based on Lagrangian Dynamics (<xref ref-type="bibr" rid="ref-30">Lagrange, 1811</xref>) and Kane’s Method (<xref ref-type="bibr" rid="ref-28">Kane &amp; Levinson, 1985</xref>). Lastly, there are automated linearization routines for constrained dynamical systems (<xref ref-type="bibr" rid="ref-41">Peterson, Gede &amp; Hubbard, 2014</xref>).</p>
+            </sec>
+         </sec>
+         <sec>
+            <title>Quantum mechanics</title>
+            <p>The <monospace>sympy.physics.quantum</monospace> submodule has extensive capabilities to solve problems in quantum mechanics, using Python objects to represent the different mathematical objects relevant in quantum theory (<xref ref-type="bibr" rid="ref-50">Sakurai &amp; Napolitano, 2010</xref>): states (bras and kets), operators (unitary, Hermitian, etc.), and basis sets, as well as operations on these objects such as representations, tensor products, inner products, outer products, commutators, and anticommutators. The base objects are designed in the most general way possible to enable any particular quantum system to be implemented by subclassing the base operators and defining the relevant class methods to provide system-specific logic.</p>
+            <p>Symbolic quantum operators and states may be defined, and one can perform a full range of operations with them.</p>
+            <code language="python">&gt;&gt;&gt; from sympy.physics.quantum import Commutator, Dagger, Operator 
+&gt;&gt;&gt; from sympy.physics.quantum import Ket, qapply 
+&gt;&gt;&gt; A, B, C, D = symbols('A B C D', cls=Operator) 
+&gt;&gt;&gt; a = Ket('a') 
+&gt;&gt;&gt; comm = Commutator(A, B) 
+&gt;&gt;&gt; comm 
+[A,B] 
+&gt;&gt;&gt; qapply(Dagger(comm*a)).doit() 
+-&lt;a|*(Dagger(A)*Dagger(B) - Dagger(B)*Dagger(A)) 
+Commutators can be expanded using common commutator identities: 
+&gt;&gt;&gt; Commutator(C+B, A*D).expand(commutator=True) 
+-[A,B]*D - [A,C]*D + A*[B,D] + A*[C,D]</code>
+            <p>On top of this set of base objects, a number of specific quantum systems have been implemented in a fully symbolic framework. These include:</p>
+            <list id="list-1" list-type="bullet">
+               <list-item><label>•</label><p>Many of the exactly solvable quantum systems, including simple harmonic oscillator states and raising/lowering operators, infinite square well states, and 3D position and momentum operators and states.</p>
+               </list-item>
+               <list-item><label>•</label><p>Second quantized formalism of non-relativistic many-body quantum mechanics (<xref ref-type="bibr" rid="ref-16">Fetter &amp; Walecka, 2003</xref>).</p>
+               </list-item>
+               <list-item><label>•</label><p>Quantum angular momentum (<xref ref-type="bibr" rid="ref-65">Zare, 1991</xref>). Spin operators and their eigenstates can be represented in any basis and for any quantum numbers. A rotation operator representing the Wigner D-matrix, which may be defined symbolically or numerically, is also implemented to rotate spin eigenstates. Functionality for coupling and uncoupling of arbitrary spin eigenstates is provided, including symbolic representations of Clebsch-Gordon coefficients and Wigner symbols.</p>
+               </list-item>
+               <list-item><label>•</label><p>Quantum information and computing (<xref ref-type="bibr" rid="ref-35">Nielsen &amp; Chuang, 2011</xref>). Multidimensional qubit states, and a full set of one- and two-qubit gates are provided and can be represented symbolically or as matrices/vectors. With these building blocks, it is possible to implement a number of basic quantum algorithms including the quantum Fourier transform, quantum error correction, quantum teleportation, Grover’s algorithm, dense coding, etc. In addition, any quantum circuit may be plotted using the <monospace>circuit_plot</monospace> function (<xref ref-type="fig" rid="fig-1">Fig. 1</xref>).</p>
+               </list-item>
+            </list>
+            <p>Here are a few short examples of the quantum information and computing capabilities in <monospace>sympy.physics.quantum</monospace> . Start with a simple four-qubit state and flip the second qubit from the right using a Pauli-X gate:</p>
+            <code language="python">&gt;&gt;&gt; from sympy.physics.quantum.qubit import Qubit 
+&gt;&gt;&gt; from sympy.physics.quantum.gate import XGate 
+&gt;&gt;&gt; q = Qubit('0101') 
+&gt;&gt;&gt; q 
+|0101&gt; 
+&gt;&gt;&gt; X = XGate(1) 
+&gt;&gt;&gt; qapply(X*q) 
+|0111&gt;</code>
+            <p>Qubit states can also be used in adjoint operations, tensor products, inner/outer products:</p>
+            <code language="python">&gt;&gt;&gt; Dagger(q) 
+&lt;0101| 
+&gt;&gt;&gt; ip = Dagger(q)*q 
+&gt;&gt;&gt; ip 
+&lt;0101|0101&gt; 
+&gt;&gt;&gt; ip.doit() 
+1</code>
+            <p>Quantum gates (unitary operators) can be applied to transform these states and then classical measurements can be performed on the results:</p>
+            <code language="python">&gt;&gt;&gt; from sympy.physics.quantum.qubit import measure_all 
+&gt;&gt;&gt; from sympy.physics.quantum.gate import H, X, Y, Z 
+&gt;&gt;&gt; c = H(0)*H(1)*Qubit('00') 
+&gt;&gt;&gt; c 
+H(0)*H(1)*|00&gt; 
+&gt;&gt;&gt; q = qapply(c) 
+&gt;&gt;&gt; measure_all(q) 
+[(|00&gt;, 1/4), (|01&gt;, 1/4), (|10&gt;, 1/4), (|11&gt;, 1/4)]</code>
+            <p>Lastly, the following example demonstrates creating a three-qubit quantum Fourier transform, decomposing it into one- and two-qubit gates, and then generating a circuit plot for the sequence of gates (see <xref ref-type="fig" rid="fig-1">Fig. 1</xref>).</p>
+            <fig id="fig-1">
+               <object-id pub-id-type="doi">10.7717/peerjcs.103/fig-1</object-id><label>Figure 1</label><caption>
+                  <title>The circuit diagram for a three-qubit quantum Fourier transform generated by SymPy.</title>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/fig-1.png"/>
+            </fig>
+            <code language="python">&gt;&gt;&gt; from sympy.physics.quantum.qft import QFT 
+&gt;&gt;&gt; from sympy.physics.quantum.circuitplot import circuit_plot 
+&gt;&gt;&gt; fourier = QFT(0,3).decompose() 
+&gt;&gt;&gt; fourier 
+SWAP(0,2)*H(0)*C((0),S(1))*H(1)*C((0),T(2))*C((1),S(2))*H(2) 
+&gt;&gt;&gt; c = circuit_plot(fourier, nqubits=3)</code>
+         </sec>
+      </sec>
+      <sec>
+         <title>Architecture</title>
+         <p>Software architecture is of central importance in any large software project because it establishes predictable patterns of usage and development (<xref ref-type="bibr" rid="ref-51">Shaw &amp; Garlan, 1996</xref>). This section describes the essential structural components of SymPy, provides justifications for the design decisions that have been made, and gives example user-facing code as appropriate.</p>
+         <sec>
+            <title>The core</title>
+            <p>A computer algebra system stores mathematical expressions as data structures. For example, the mathematical expression <italic>x</italic> + <italic>y</italic> is represented as a tree with three nodes, +, <italic>x</italic>, and <italic>y</italic>, where <italic>x</italic> and <italic>y</italic> are ordered children of +. As users manipulate mathematical expressions with traditional mathematical syntax, the CAS manipulates the underlying data structures. Symbolic computations such as integration, simplification, etc. are all functions that consume and produce expression trees.</p>
+            <p>In SymPy every symbolic expression is an instance of the class <monospace>Basic</monospace>,<xref ref-type="fn" rid="fn-12"><sup>12</sup></xref> <fn id="fn-12"><label>12</label><p>Some internal classes, such as those used in the polynomial submodule, do not follow this rule for efficiency reasons.</p></fn>the superclass of all SymPy types providing common methods to all SymPy tree-elements, such as traversals. The children of a node in the tree are held in the <monospace>args</monospace> attribute. A leaf node in the expression tree has empty <monospace>args</monospace>.</p>
+            <p>For example, consider the expression <italic>xy</italic> + 2:</p>
+            <code language="python">&gt;&gt;&gt; x, y = symbols('x y') 
+&gt;&gt;&gt; expr = x*y + 2</code>
+            <p>By order of operations, the parent of the expression tree for <monospace>expr</monospace> is an addition. It is of type <monospace>Add</monospace>. The child nodes of <monospace>expr</monospace> are <monospace>2</monospace> and <monospace>x*y</monospace>.</p>
+            <code language="python">&gt;&gt;&gt; type(expr) 
+&lt;class 'sympy.core.add.Add'&gt; 
+&gt;&gt;&gt; expr.args 
+(2, x*y)</code>
+            <p>Descending further down into the expression tree yields the full expression. For example, the next child node (given by <monospace>expr.args[0]</monospace>) is <monospace>2</monospace>. Its class is <monospace>Integer</monospace>, and it has an empty <monospace>args</monospace> tuple, indicating that it is a leaf node.</p>
+            <code language="python">&gt;&gt;&gt; expr.args[0] 
+2 
+&gt;&gt;&gt; type(expr.args[0]) 
+&lt;class 'sympy.core.numbers.Integer'&gt; 
+&gt;&gt;&gt; expr.args[0].args 
+()</code>
+            <p>Symbols or symbolic constants, like <italic>e</italic> or <italic>π</italic>, are other examples of leaf nodes.</p>
+            <code language="python">&gt;&gt;&gt; exp(1) 
+E 
+&gt;&gt;&gt; exp(1).args 
+() 
+&gt;&gt;&gt; x.args 
+()</code>
+            <p>A useful way to view an expression tree is using the <monospace>srepr</monospace> function, which returns a string representation of an expression as valid Python code<xref ref-type="fn" rid="fn-13"><sup>13</sup></xref> <fn id="fn-13"><label>13</label><p>The <monospace>dotprint</monospace> function from the <monospace>sympy.printing.dot</monospace> submodule prints output to dot format, which can be rendered with Graphviz to visualize expression trees graphically.</p></fn>with all the nested class constructor calls to create the given expression.</p>
+            <code language="python">&gt;&gt;&gt; srepr(expr) 
+"Add(Mul(Symbol('x'), Symbol('y')), Integer(2))"</code>
+            <p>Every SymPy expression satisfies a key identity invariant:</p>
+            <code language="python">expr.func(*expr.args) == expr</code>
+            <p>This means that expressions are rebuildable from their <monospace>args</monospace>.<xref ref-type="fn" rid="fn-14"><sup>14</sup></xref> <fn id="fn-14"><label>14</label><p> <monospace>expr.func</monospace> is used instead of <monospace>type(expr)</monospace> to allow the function of an expression to be distinct from its actual Python class. In most cases the two are the same.</p></fn>Note that in SymPy the <monospace>==</monospace> operator represents exact structural equality, not mathematical equality. This allows testing if any two expressions are equal to one another as expression trees. For example, even though (<italic>x</italic> + 1)<sup>2</sup> and <italic>x</italic><sup>2</sup> + 2<italic>x</italic> + 1 are equal mathematically, SymPy gives</p>
+            <code language="python">&gt;&gt;&gt; (x + 1)**2 == x**2 + 2*x + 1 
+False</code>
+            <p>because they are different as expression trees (the former is a <monospace>Pow</monospace> object and the latter is an <monospace>Add</monospace> object).</p>
+            <p>Another important property of SymPy expressions is that they are immutable. This simplifies the design of SymPy, and enables expression interning. It also enables expressions to be hashed, which allows expressions to be used as keys in Python dictionaries, and is used to implement caching in SymPy.</p>
+            <p>Python allows classes to override mathematical operators. The Python interpreter translates the above <monospace>x*y + 2</monospace> to, roughly, <monospace>(x.__mul__(y)).__add__(2)</monospace> . Both <monospace>x</monospace> and <monospace>y</monospace>, returned from the <monospace>symbols</monospace> function, are <monospace>Symbol</monospace> instances. The <monospace>2</monospace> in the expression is processed by Python as a literal, and is stored as Python’s built in <monospace>int</monospace> type. When <monospace>2</monospace> is passed to the <monospace>__add__</monospace> method of <monospace>Symbol</monospace>, it is converted to the SymPy type <monospace>Integer(2)</monospace> before being stored in the resulting expression tree. In this way, SymPy expressions can be built in the natural way using Python operators and numeric literals.</p>
+         </sec>
+         <sec>
+            <title>Extensibility</title>
+            <p>While the core of SymPy is relatively small, it has been extended to a wide variety of domains by a broad range of contributors. This is due, in part, to the fact that the same language, Python, is used both for the internal implementation and the external usage by users. All of the extensibility capabilities available to users are also utilized by SymPy itself. This eases the transition pathway from SymPy user to SymPy developer.</p>
+            <p>The typical way to create a custom SymPy object is to subclass an existing SymPy class, usually <monospace>Basic</monospace>, <monospace>Expr</monospace>, or <monospace>Function</monospace>. As it was stated before, all SymPy classes used for expression trees should be subclasses of the base class <monospace>Basic</monospace>. <monospace>Expr</monospace> is the <monospace>Basic</monospace> subclass for mathematical objects that can be added and multiplied together. The most commonly seen classes in SymPy are subclasses of <monospace>Expr</monospace>, including <monospace>Add</monospace>, <monospace>Mul</monospace>, and <monospace>Symbol</monospace>. Instances of <monospace>Expr</monospace> typically represent complex numbers, but may also include other “rings”, like matrix expressions. Not all SymPy classes are subclasses of <monospace>Expr</monospace>. For instance, logic expressions, such as <monospace>And(x, y)</monospace> , are subclasses of <monospace>Basic</monospace> but not of <monospace>Expr</monospace>.<xref ref-type="fn" rid="fn-15"><sup>15</sup></xref> <fn id="fn-15"><label>15</label><p>See <xref ref-type="supplementary-material" rid="supp-1">Section S3</xref> for more information on the <monospace>sympy.logic</monospace> submodule.</p></fn></p>
+            <p>The <monospace>Function</monospace> class is a subclass of <monospace>Expr</monospace> which makes it easier to define mathematical functions called with arguments. This includes named functions like sin(<italic>x</italic>) and log(<italic>x</italic>) as well as undefined functions like <italic>f</italic>(<italic>x</italic>). Subclasses of <monospace>Function</monospace> should define a class method <monospace>eval</monospace>, which returns an evaluated value for the function application (usually an instance of some other class, e.g., a <monospace>Number</monospace>), or <monospace>None</monospace> if for the given arguments it should not be automatically evaluated.</p>
+            <p>Many SymPy functions perform various evaluations down the expression tree. Classes define their behavior in such functions by defining a relevant <monospace>_eval_</monospace> 
+        <monospace><italic>*</italic></monospace> method. For instance, an object can indicate to the <monospace>diff</monospace> function how to take the derivative of itself by defining the <monospace> _eval_derivative(self, x)</monospace> method, which may in turn call <monospace>diff</monospace> on its <monospace>args</monospace>. (Subclasses of <monospace>Function</monospace> should implement the <monospace>fdiff</monospace> method instead; it returns the derivative of the function without considering the chain rule.) The most common <monospace> _eval_</monospace> 
+        <monospace><italic>*</italic></monospace> methods relate to the assumptions: <monospace>_eval_is_</monospace> 
+        <monospace><italic>assumption</italic></monospace> is used to deduce <italic>assumption</italic> on the object.</p>
+            <p>Listing 1 presents an example of this extensibility. It gives a stripped down version of the <monospace>gamma</monospace> function Γ(<italic>x</italic>) from SymPy. The methods defined allow it to evaluate itself on positive integer arguments, define the real assumption, allow it to be rewritten in terms of factorial (with <monospace>gamma(x).rewrite(factorial)</monospace> ), and allow it to be differentiated. <monospace>self.func</monospace> is used throughout instead of referencing <monospace>gamma</monospace> explicitly so that potential subclasses of <monospace>gamma</monospace> can reuse the methods.</p>
+            <code language="python">Listing 1: A minimal implementation of sympy.gamma. 
+from  sympy  import  Function, Integer, factorial, polygamma 
+class  gamma(Function): 
+     @classmethod 
+     def  eval(cls, arg): 
+          if  isinstance(arg, Integer) and  arg.is_positive: 
+               return  factorial(arg - 1) 
+     def  _eval_is_real(self): 
+          x = self.args[0] 
+          # noninteger  means  real  and  not  integer 
+          if x.is_positive  or x.is_noninteger: 
+               return  True 
+     def  _eval_rewrite_as_factorial(self, z): 
+          return  factorial(z - 1) 
+     def  fdiff(self, argindex=1): 
+          from  sympy.core.function  import  ArgumentIndexError 
+          if  argindex  == 1: 
+               return  self.func(self.args[0])*polygamma(0, self.args[0]) 
+          else: 
+               raise  ArgumentIndexError(self, argindex)</code>
+            <p>The gamma function implemented in SymPy has many more capabilities than the above listing, such as evaluation at rational points and series expansion.</p>
+         </sec>
+         <sec>
+            <title>Performance</title>
+            <p>Due to being written in pure Python without the use of extension modules, SymPy’s performance characteristics are generally poorer than that of its commercial competitors. For many applications, the performance of SymPy, as measured by clock cycles, memory usage, and memory layout, is sufficient. However, the boundaries for when SymPy’s pure Python strategy becomes insufficient are when the user requires handling of very long expressions or many small expressions. Where this boundray lies depends on the system at hand, but tends to be within the range of 10<sup>4</sup>–10<sup>6</sup> symbols for modern computers.</p>
+            <p>For this reason, a new project called SymEngine (<xref ref-type="bibr" rid="ref-60">The SymPy Developers, 2016a</xref>) has been started. The aim of this poject is to develop a library with better performance characteristics for symbolic manipulation. SymEngine is a pure C++ library, which allows it fine-grained control over the memory layout of expressions. SymEngine has thin wrappers to other languages (Python, Ruby, Julia, etc.). Its aim is to be the fastest symbolic manipulation library. Preliminary benchmarks suggest that SymEngine performs as well as its commercial and open source competitors.</p>
+            <p>The development version of SymPy has recently started to use SymEngine as an optional backend, initially in <monospace>sympy.physics.mechanics</monospace> only. Future work will involve allowing more algorithms in SymPy to use SymEngine as a backend.</p>
+         </sec>
+      </sec>
+      <sec>
+         <title>Projects that depend on SymPy</title>
+         <p>There are several projects that depend on SymPy as a library for implementing a part of their functionality. A selection of these projects are listed in <xref ref-type="table" rid="table-3">Table 3</xref>.</p>
+         <table-wrap id="table-3">
+            <object-id pub-id-type="doi">10.7717/peerjcs.103/table-3</object-id><label>Table 3</label><caption>
+               <title>Selected projects that depend on SymPy.</title>
+            </caption>
+            <alternatives>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/cs-103/table-3.png"/>
+               <table content-type="text">
+                  <colgroup>
+                     <col/>
+                     <col/>
+                  </colgroup>
+                  <thead>
+                     <tr>
+                        <th>Project name</th>
+                        <th>Description</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td style="text-align:left;white-space:normal;;"><bold><ext-link ext-link-type="uri" xlink:href="http://sympygamma.com/">SymPy Gamma</ext-link></bold></td>
+                        <td>An open source analog of Wolfram | Alpha that uses SymPy (<xref ref-type="bibr" rid="ref-61">The SymPy Developers, 2016b</xref>). There is more information about SymPy Gamma in <xref ref-type="supplementary-material" rid="supp-1">Section S11</xref>.</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://cadabra.science/index.html">Cadabra</ext-link></bold></td>
+                        <td>A CAS designed specifically for the resolution of problems encountered in field theory (<xref ref-type="bibr" rid="ref-39">Peeters, 2007</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="https://github.com/cbm755/octsympy">GNU Octave Symbolic Package</ext-link></bold></td>
+                        <td>An implementation of a symbolic toolbox for Octave using SymPy (<xref ref-type="bibr" rid="ref-59">The Symbolic Package Developers, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="https://github.com/jverzani/SymPy.jl">SymPy.jl</ext-link></bold></td>
+                        <td>A Julia interface to SymPy, provided using PyCall (<xref ref-type="bibr" rid="ref-62">The SymPy.jl Developers, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="https://mathics.github.io/">Mathics</ext-link></bold></td>
+                        <td>A free, online CAS featuring Mathematica compatible syntax and functions (<xref ref-type="bibr" rid="ref-56">The Mathics Developers, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://mathpix.com/">Mathpix</ext-link></bold></td>
+                        <td>An iOS App that detects handwritten math as input and uses SymPy Gamma to evaluate the math input and generate the relevant steps to solve the problem (<xref ref-type="bibr" rid="ref-33">Mathpix, Inc., 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://openrave.org/docs/latest_stable/openravepy/ikfast/">IKFast</ext-link></bold></td>
+                        <td>A robot kinematics compiler provided by <ext-link ext-link-type="uri" xlink:href="http://openrave.org/">OpenRAVE</ext-link> (<xref ref-type="bibr" rid="ref-12">Diankov, 2010</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://www.sagemath.org/">SageMath</ext-link></bold></td>
+                        <td>A free open-source mathematics software system, which builds on top of many existing open-source packages, including SymPy (<xref ref-type="bibr" rid="ref-58">The Sage Developers, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://www.pydy.org/">PyDy</ext-link></bold></td>
+                        <td>Multibody Dynamics with Python (<xref ref-type="bibr" rid="ref-19">Gede et al., 2013</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="https://github.com/brombo/galgebra">galgebra</ext-link></bold></td>
+                        <td>A Python package for geometric algebra (previously <monospace>sympy.galgebra</monospace>) (<xref ref-type="bibr" rid="ref-5">Bromborsky, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://yt-project.org/">yt</ext-link></bold></td>
+                        <td>A Python package for analyzing and visualizing volumetric data (<xref ref-type="bibr" rid="ref-64">Turk et al., 2011</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://sfepy.org/">SfePy</ext-link></bold></td>
+                        <td>A Python package for solving partial differential equations (PDEs) in 1D, 2D, and 3D by the finite element (FE) method (<xref ref-type="bibr" rid="ref-66">Zienkiewicz, Taylor &amp; Zhu, 2013</xref>; <xref ref-type="bibr" rid="ref-10">Cimrman, 2014</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://quameon.sourceforge.net/">Quameon</ext-link></bold></td>
+                        <td>Quantum Monte Carlo in Python (<xref ref-type="bibr" rid="ref-57">The Quameon Developers, 2016</xref>).</td>
+                     </tr>
+                     <tr>
+                        <td><bold><ext-link ext-link-type="uri" xlink:href="http://lcapy.elec.canterbury.ac.nz/">Lcapy</ext-link></bold></td>
+                        <td>An experimental Python package for teaching linear circuit analysis (<xref ref-type="bibr" rid="ref-55">The Lcapy Developers, 2016</xref>).</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </alternatives>
+         </table-wrap>
+      </sec>
+      <sec>
+         <title>Conclusion and future work</title>
+         <p>SymPy is a robust computer algebra system that provides a wide spectrum of features both in traditional computer algebra and in a plethora of scientific disciplines. It can be used in a first-class way with other Python projects, including the scientific Python stack.</p>
+         <p>SymPy supports a wide array of mathematical facilities. These include functions for assuming and deducing common mathematical facts, simplifying expressions, performing common calculus operations, manipulating polynomials, pretty printing expressions, solving equations, and representing symbolic matrices. Other supported facilities include discrete math, concrete math, plotting, geometry, statistics, sets, series, vectors, combinatorics, group theory, code generation, tensors, Lie algebras, cryptography, and special functions. SymPy has strong support for arbitrary precision numerics, backed by the mpmath package. Additionally, SymPy contains submodules targeting certain specific physics domains, such as classical mechanics and quantum mechanics. This breadth of domains has been engendered by a strong and vibrant user community. Anecdotally, many of these users chose SymPy because of its ease of access. SymPy is a dependency of many external projects across a wide spectrum of domains.</p>
+         <p>SymPy expressions are immutable trees of Python objects. Unlike many other CAS’s, SymPy is designed to be used in an extensible way: both as an end-user application and as a library. SymPy uses Python both as the internal language and the user language. This permits users to access the same methods used by the library itself in order to extend it for their needs.</p>
+         <p>Some of the planned future work for SymPy includes work on improving code generation, improvements to the speed of SymPy using SymEngine, improving the assumptions system, and improving the solvers submodule.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="supplemental-information">
+         <title> Supplemental Information</title>
+         <supplementary-material id="supp-1" mimetype="application" mime-subtype="pdf" xlink:href="https://peerj.com/articles/cs-103/supplement.pdf">
+            <object-id pub-id-type="doi">10.7717/peerj-cs.103/supp-1</object-id><label>Supplemental Information 1</label><caption>
+               <title>Supplementary Material</title>
+            </caption>
+         </supplementary-material>
+         <supplementary-material id="supp-2" xlink:href="https://peerj.com/articles/cs-103/quantum_examples.ipynb">
+            <object-id pub-id-type="doi">10.7717/peerj-cs.103/supp-2</object-id><label>Supplemental Information 2</label><caption>
+               <title>Quantum Examples Jupyter Notebook</title>
+            </caption>
+         </supplementary-material>
+      </sec>
+   </body>
+   <back>
+      <sec sec-type="additional-information">
+         <title>Additional Information and Declarations</title>
+         <fn-group content-type="competing-interests">
+            <title>Competing Interests</title><fn id="conflict-1" fn-type="conflict"><p>Christopher P. Smith is an employee of Polar Semiconductor, Inc., Bloomington, Minnesota, United States; Mateusz Paprocki and Matthew Rocklin are employees of Continuum Analytics, Inc., Austin, Texas, United States; Andy R. Terrel is an employee of Fashion Metric, Inc, Austin, Texas, United States.</p></fn></fn-group>
+         <fn-group content-type="author-contributions">
+            <title>Author Contributions</title><fn id="contribution-1" fn-type="con"><p><xref ref-type="contrib" rid="author-1">Aaron Meurer</xref>, <xref ref-type="contrib" rid="author-2">Christopher P. Smith</xref>, <xref ref-type="contrib" rid="author-3">Mateusz Paprocki</xref>, <xref ref-type="contrib" rid="author-4">Ondřej Čertík</xref>, <xref ref-type="contrib" rid="author-5">Sergey B. Kirpichev</xref>, <xref ref-type="contrib" rid="author-6">Matthew Rocklin</xref>, <xref ref-type="contrib" rid="author-7">AMiT Kumar</xref>, <xref ref-type="contrib" rid="author-8">Sergiu Ivanov</xref>, <xref ref-type="contrib" rid="author-9">Jason K. Moore</xref>, <xref ref-type="contrib" rid="author-10">Sartaj Singh</xref>, <xref ref-type="contrib" rid="author-11">Thilina Rathnayake</xref>, <xref ref-type="contrib" rid="author-12">Sean Vig</xref>, <xref ref-type="contrib" rid="author-13">Brian E. Granger</xref>, <xref ref-type="contrib" rid="author-14">Richard P. Muller</xref>, <xref ref-type="contrib" rid="author-15">Francesco Bonazzi</xref>, <xref ref-type="contrib" rid="author-16">Harsh Gupta</xref>, <xref ref-type="contrib" rid="author-17">Shivam Vats</xref>, <xref ref-type="contrib" rid="author-18">Fredrik Johansson</xref>, <xref ref-type="contrib" rid="author-19">Fabian Pedregosa</xref>, <xref ref-type="contrib" rid="author-20">Matthew J. Curry</xref>, <xref ref-type="contrib" rid="author-21">Andy R. Terrel</xref>, <xref ref-type="contrib" rid="author-22">Štěpán Roučka</xref>, <xref ref-type="contrib" rid="author-23">Ashutosh Saboo</xref>, <xref ref-type="contrib" rid="author-24">Isuru Fernando</xref>, <xref ref-type="contrib" rid="author-25">Sumith Kulal</xref>, <xref ref-type="contrib" rid="author-26">Robert Cimrman</xref> and <xref ref-type="contrib" rid="author-27">Anthony Scopatz</xref> wrote the paper, performed the computation work, reviewed drafts of the paper.</p></fn></fn-group>
+         <fn-group content-type="other">
+            <title>Data Availability</title><fn id="addinfo-1"><p>The following information was supplied regarding data availability:</p>
+            <p>The source for the paper is at <ext-link ext-link-type="uri" xlink:href="https://github.com/sympy/sympy-paper">https://github.com/sympy/sympy-paper</ext-link>. The source code for SymPy is at <ext-link ext-link-type="uri" xlink:href="https://github.com/sympy/sympy">https://github.com/sympy/sympy</ext-link>.</p></fn></fn-group>
+      </sec>
+      <ref-list content-type="authoryear">
+         <title>References</title>
+         <ref id="ref-1"><label>Adams &amp; Loustaunau (1994)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Adams</surname>
+                     <given-names>WW</given-names>
+                  </name>
+                  <name>
+                     <surname>Loustaunau</surname>
+                     <given-names>P</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1994">1994</year>
+               <article-title>An introduction to Gröbner bases</article-title>
+               <volume>Vol. 3</volume>
+               <issue>3</issue>
+               <publisher-loc>Boston</publisher-loc>
+               <publisher-name>American Mathematical Society</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-2"><label>Bailey, Jeyabalan &amp; Li (2005)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bailey</surname>
+                     <given-names>DH</given-names>
+                  </name>
+                  <name>
+                     <surname>Jeyabalan</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Li</surname>
+                     <given-names>XS</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2005">2005</year>
+               <article-title>A comparison of three high-precision quadrature schemes</article-title>
+               <source>Experimental Mathematics</source>
+               <volume>14</volume>
+               <issue>3</issue>
+               <fpage>317</fpage>
+               <lpage>329</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-3"><label>Bender &amp; Orszag (1999)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bender</surname>
+                     <given-names>CM</given-names>
+                  </name>
+                  <name>
+                     <surname>Orszag</surname>
+                     <given-names>SA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1999">1999</year>
+               <article-title>Advanced mathematical methods for scientists and engineers</article-title>
+               <publisher-name>Springer</publisher-name>
+               <publisher-loc>Berlin Heidelberg</publisher-loc>
+               <edition>1st edition</edition>
+            </element-citation>
+         </ref>
+         <ref id="ref-4"><label>Biggs, Lloyd &amp; Wilson (1976)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Biggs</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Lloyd</surname>
+                     <given-names>EK</given-names>
+                  </name>
+                  <name>
+                     <surname>Wilson</surname>
+                     <given-names>RJ</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1976">1976</year>
+               <article-title>Graph theory, 1736–1936</article-title>
+               <publisher-loc>Oxford</publisher-loc>
+               <publisher-name>Oxford University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-5"><label>Bromborsky (2016)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bromborsky</surname>
+                     <given-names>A</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Geometric algebra/calculus modules for SymPy galgebra</article-title>
+               <uri>https://github.com/brombo/galgebra</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-6"><label>Bronstein (2005a)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bronstein</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2005">2005a</year>
+               <article-title>pmint—The Poor Man’s Integrator</article-title>
+               <uri>http://www-sop.inria.fr/cafe/Manuel.Bronstein/pmint</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-7"><label>Bronstein (2005b)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bronstein</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2005">2005b</year>
+               <article-title>Symbolic integration I: transcendental functions</article-title>
+               <publisher-name>Springer–Verlag</publisher-name>
+               <publisher-loc>New York</publisher-loc>
+               <pub-id pub-id-type="other">3-540-21493-3</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-8"><label>Buchberger (1965)</label><element-citation publication-type="thesis">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Buchberger</surname>
+                     <given-names>B</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1965">1965</year>
+               <article-title>Ein Algorithmus zum Auffinden der Basis Elemente des Restklassenrings nach einem nulldimensionalen Polynomideal</article-title>
+               <source>PhD thesis</source>
+               <institution>University of Innsbruck, Innsbruck, Austria</institution>
+            </element-citation>
+         </ref>
+         <ref id="ref-9"><label>Cervone (2012)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cervone</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>MathJax: a platform for mathematics on the Web</article-title>
+               <source>Notices of the AMS</source>
+               <volume>59</volume>
+               <issue>2</issue>
+               <fpage>312</fpage>
+               <lpage>316</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-10"><label>Cimrman (2014)</label><element-citation publication-type="report">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cimrman</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2014">2014</year>
+               <article-title>SfePy—write your own FE application</article-title>
+               <source>Proceedings of the 6th european conference on Python in science (EuroSciPy 2013)</source>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>de Buyl</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Varoquaux</surname>
+                     <given-names>N</given-names>
+                  </name>
+               </person-group>
+               <fpage>65</fpage>
+               <lpage>70</lpage>
+               <uri>http://arxiv.org/abs/1404.6391</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-11"><label>Ciurana (2009)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Ciurana</surname>
+                     <given-names>E</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2009">2009</year>
+               <article-title>Google app engine</article-title>
+               <source>Developing with Google App Engine</source>
+               <series>FirstPress (En ligne)</series>
+               <publisher-loc>Berkeley</publisher-loc>
+               <publisher-name>Apress</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-12"><label>Diankov (2010)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Diankov</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Ikfast: the robot kinematics compiler</article-title>
+               <uri>http://openrave.org/docs/latest_stable/openravepy/ikfast/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-13"><label>Doorenbos (1995)</label><element-citation publication-type="thesis">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Doorenbos</surname>
+                     <given-names>RB</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1995">1995</year>
+               <article-title>Production matching for large learning systems</article-title>
+               <source>PhD thesis</source>
+               <institution>University of Southern California</institution>
+            </element-citation>
+         </ref>
+         <ref id="ref-14"><label>Faugère (1999)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Faugère</surname>
+                     <given-names>JC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1999">1999</year>
+               <article-title>A new efficient algorithm for computing Gröbner bases (F4)</article-title>
+               <source>Journal of Pure and Applied Algebra</source>
+               <volume>139</volume>
+               <issue>1–3</issue>
+               <fpage>61</fpage>
+               <lpage>88</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-15"><label>Faugère (2002)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Faugère</surname>
+                     <given-names>JC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2002">2002</year>
+               <article-title>A new efficient algorithm for computing Gröbner bases without reduction to zero (F5)</article-title>
+               <source>ISSAC’02: proceedings of the 2002 international symposium on symbolic and algebraic computation</source>
+               <publisher-name>ACM Press</publisher-name>
+               <publisher-loc>New York</publisher-loc>
+               <fpage>75</fpage>
+               <lpage>83</lpage>
+               <pub-id pub-id-type="other">1-58113-484-3</pub-id>
+               <pub-id pub-id-type="doi">10.1145/780506.7805161-58113-484-3</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-16"><label>Fetter &amp; Walecka (2003)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fetter</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Walecka</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2003">2003</year>
+               <source>Quantum theory of many-particle systems</source>
+               <publisher-name>Dover Publications</publisher-name>
+               <publisher-loc>Mineola</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-17"><label>Fousse et al. (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fousse</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Hanrot</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Lefèvre</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Pélissier</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Zimmermann</surname>
+                     <given-names>P</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>MPFR: a multiple-precision binary floating-point library with correct rounding</article-title>
+               <source>ACM Transactions on Mathematical Software</source>
+               <volume>33</volume>
+               <issue>2</issue>
+               <pub-id pub-id-type="doi">10.1145/1236463.1236468</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-18"><label>Fu, Zhong &amp; Zeng (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fu</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Zhong</surname>
+                     <given-names>X</given-names>
+                  </name>
+                  <name>
+                     <surname>Zeng</surname>
+                     <given-names>Z</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>Automated and readable simplification of trigonometric expressions</article-title>
+               <source>Mathematical and Computer Modelling</source>
+               <volume>55</volume>
+               <issue>11–12</issue>
+               <fpage>1169</fpage>
+               <lpage>1177</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.mcm.2006.04.002</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-19"><label>Gede et al. (2013)</label><element-citation publication-type="confproc">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gede</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Peterson</surname>
+                     <given-names>DL</given-names>
+                  </name>
+                  <name>
+                     <surname>Nanjangud</surname>
+                     <given-names>AS</given-names>
+                  </name>
+                  <name>
+                     <surname>Moore</surname>
+                     <given-names>JK</given-names>
+                  </name>
+                  <name>
+                     <surname>Hubbard</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Constrained multibody dynamics with Python: from symbolic equation generation to publication</article-title>
+               <conf-name>ASME 2013 international design engineering technical conferences and computers and information in engineering conference</conf-name>
+               <conf-loc>New York</conf-loc>
+               <conf-sponsor>American Society of Mechanical Engineers</conf-sponsor>
+               <fpage>V07BT10A051</fpage>
+               <lpage>V07BT10A051</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-20"><label>Goldberg (1991)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Goldberg</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1991">1991</year>
+               <article-title>What every computer scientist should know about floating-point arithmetic</article-title>
+               <source>ACM Computing Surveys (CSUR)</source>
+               <volume>23</volume>
+               <issue>1</issue>
+               <fpage>5</fpage>
+               <lpage>48</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-21"><label>Gosper (1978)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gosper</surname>
+                     <given-names>RW</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1978">1978</year>
+               <article-title>Decision procedure for indefinite hypergeometric summation</article-title>
+               <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+               <volume>75</volume>
+               <issue>1</issue>
+               <fpage>40</fpage>
+               <lpage>42</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-22"><label>Gruntz (1996)</label><element-citation publication-type="thesis">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gruntz</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1996">1996</year>
+               <article-title>On computing limits in a symbolic manipulation system</article-title>
+               <source>PhD thesis</source>
+               <institution>Swiss Federal Institute of Technology, Zürich, Switzerland</institution>
+            </element-citation>
+         </ref>
+         <ref id="ref-23"><label>Horsen (2015)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Horsen</surname>
+                     <given-names>CV</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>GMPY</article-title>
+               <uri>https://pypi.python.org/pypi/gmpy2</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-24"><label>Hudak (1998)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hudak</surname>
+                     <given-names>P</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1998">1998</year>
+               <article-title>Domain specific languages</article-title>
+               <source>Handbook of programming languages, vol. III: little languages and tools, chapter 3</source>
+               <publisher-loc>Indianapolis</publisher-loc>
+               <publisher-name>MacMillan</publisher-name>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Salas</surname>
+                     <given-names>PH</given-names>
+                  </name>
+               </person-group>
+               <fpage>39</fpage>
+               <lpage>60</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-25"><label>Hunter (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hunter</surname>
+                     <given-names>JD</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>Matplotlib: a 2D graphics environment</article-title>
+               <source>Computing in Science &amp; Engineering</source>
+               <volume>9</volume>
+               <issue>3</issue>
+               <fpage>90</fpage>
+               <lpage>95</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-26"><label>Johansson &amp; The mpmath Development Team (2014)</label><element-citation publication-type="software">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Johansson</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <collab>The mpmath Development Team</collab>
+               </person-group>
+               <year iso-8601-date="2014">2014</year>
+               <data-title>mpmath: a Python library for arbitrary-precision floating-point arithmetic</data-title>
+               <version designator="0.19">Version 0.19</version>
+               <uri>http://mpmath.org/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-27"><label>Jones et al. (2001)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Jones</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Oliphant</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Peterson</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <collab>The SciPy Development Team</collab>
+               </person-group>
+               <year iso-8601-date="2001">2001</year>
+               <article-title>SciPy: open source scientific tools for Python</article-title>
+               <uri>http://www.scipy.org/</uri>
+               <date-in-citation content-type="access-date" iso-8601-date="2015-09-16">28 September 2016</date-in-citation>
+            </element-citation>
+         </ref>
+         <ref id="ref-28"><label>Kane &amp; Levinson (1985)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kane</surname>
+                     <given-names>TR</given-names>
+                  </name>
+                  <name>
+                     <surname>Levinson</surname>
+                     <given-names>DA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1985">1985</year>
+               <article-title>Dynamics, theory and applications</article-title>
+               <publisher-loc>New York</publisher-loc>
+               <publisher-name>McGraw Hill</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-29"><label>Kluyver et al. (2016)</label><element-citation publication-type="confproc">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kluyver</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Ragan-Kelley</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Pérez</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Granger</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Bussonnier</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Frederic</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Kelley</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Hamrick</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Grout</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Corlay</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Ivanov</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Avila</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Abdalla</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Willing</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <collab>The Jupyter Development Team</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Jupyter Notebooks—a publishing format for reproducible computational workflows</article-title>
+               <conf-name>Positioning and power in academic publishing: players, agents and agendas: proceedings of the 20th international conference on electronic publishing</conf-name>
+               <conf-loc>Amsterdam</conf-loc>
+               <conf-sponsor>IOS Press</conf-sponsor>
+               <fpage>87</fpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-30"><label>Lagrange (1811)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lagrange</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1811">1811</year>
+               <source>Mécanique analytique. No. v.1</source>
+               <publisher-loc>Paris</publisher-loc>
+               <publisher-name>Ve Courcier</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-31"><label>Lang (1966)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lang</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1966">1966</year>
+               <article-title>Introduction to transcendental numbers</article-title>
+               <source>Addison-Wesley series in mathematics</source>
+               <publisher-loc>Reading</publisher-loc>
+               <publisher-name>Addison-Wesley Pub. Co</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-32"><label>Lutz (2013)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lutz</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <source>Learning Python</source>
+               <publisher-name>O’Reilly Media, Inc</publisher-name>
+               <publisher-loc>Sebastopol</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-33"><label>Mathpix, Inc. (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>Mathpix, Inc</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Mathpix — Solve and graph math using pictures</article-title>
+               <uri>http://mathpix.com/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-34"><label>Moses (1971)</label><element-citation publication-type="confproc">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Moses</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1971">1971</year>
+               <article-title>Algebraic simplification: a guide for the Perplexed</article-title>
+               <conf-name>SYMSAC’71: proceedings of the second ACM symposium on symbolic and algebraic computation</conf-name>
+               <conf-sponsor>ACM Press</conf-sponsor>
+               <conf-loc>New York</conf-loc>
+               <fpage>282</fpage>
+               <lpage>304</lpage>
+               <pub-id pub-id-type="doi">10.1145/800204.806298</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-35"><label>Nielsen &amp; Chuang (2011)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nielsen</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Chuang</surname>
+                     <given-names>I</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <source>Quantum computation and quantum information</source>
+               <publisher-loc>New York</publisher-loc>
+               <publisher-name>Cambridge University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-36"><label>Nijenhuis &amp; Wilf (1978)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nijenhuis</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Wilf</surname>
+                     <given-names>HS</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1978">1978</year>
+               <source>Combinatorial algorithms: for computers and calculators</source>
+               <publisher-name>Academic Press</publisher-name>
+               <publisher-loc>New York</publisher-loc>
+               <edition>second edition</edition>
+            </element-citation>
+         </ref>
+         <ref id="ref-37"><label>Oliphant (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Oliphant</surname>
+                     <given-names>TE</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>Python for scientific computing</article-title>
+               <source>Computing in Science &amp; Engineering</source>
+               <volume>9</volume>
+               <issue>3</issue>
+               <fpage>10</fpage>
+               <lpage>20</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-38"><label>Paprocki (2010)</label><element-citation publication-type="thesis">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Paprocki</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Design and implementation issues of a computer algebra system in an interpreted, dynamically typed programming language</article-title>
+               <source>Master’s thesis</source>
+               <institution>University of Technology of Wrocław, Poland</institution>
+            </element-citation>
+         </ref>
+         <ref id="ref-39"><label>Peeters (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Peeters</surname>
+                     <given-names>K</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>Cadabra: a field-theory motivated symbolic computer algebra system</article-title>
+               <source>Computer Physics Communications</source>
+               <volume>176</volume>
+               <issue>8</issue>
+               <fpage>550</fpage>
+               <lpage>558</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-40"><label>Pérez &amp; Granger (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Pérez</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Granger</surname>
+                     <given-names>BE</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>IPython: a system for interactive scientific computing</article-title>
+               <source>Computing in Science &amp; Engineering</source>
+               <volume>9</volume>
+               <issue>3</issue>
+               <fpage>21</fpage>
+               <lpage>29</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-41"><label>Peterson, Gede &amp; Hubbard (2014)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Peterson</surname>
+                     <given-names>DL</given-names>
+                  </name>
+                  <name>
+                     <surname>Gede</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Hubbard</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2014">2014</year>
+               <article-title>Symbolic linearization of equations of motion of constrained multibody systems</article-title>
+               <source>Multibody System Dynamics</source>
+               <volume>33</volume>
+               <issue>2</issue>
+               <fpage>143</fpage>
+               <lpage>161</lpage>
+               <pub-id pub-id-type="doi">10.1007/s11044-014-9436-5</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-42"><label>Petkovšek, Wilf &amp; Zeilberger (1997)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Petkovšek</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Wilf</surname>
+                     <given-names>HS</given-names>
+                  </name>
+                  <name>
+                     <surname>Zeilberger</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1997">1997</year>
+               <source>A = B</source>
+               <publisher-name>AK Peters, Ltd.</publisher-name>
+               <publisher-loc>Wellesley</publisher-loc>
+               <fpage>222+</fpage>
+               <uri>http://www.math.rutgers.edu/ zeilberg/AeqB.pdf</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-43"><label>Raymond (1999)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Raymond</surname>
+                     <given-names>E</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1999">1999</year>
+               <article-title>The cathedral and the bazaar</article-title>
+               <source>Knowledge, Technology &amp; Policy</source>
+               <volume>12</volume>
+               <issue>3</issue>
+               <fpage>23</fpage>
+               <lpage>49</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-44"><label>Roach (1996)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Roach</surname>
+                     <given-names>K</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1996">1996</year>
+               <article-title>Hypergeometric function representations</article-title>
+               <source>ISSAC’96: proceedings of the 1996 international symposium on symbolic and algebraic computation</source>
+               <publisher-name>ACM Press</publisher-name>
+               <publisher-loc>New York</publisher-loc>
+               <fpage>301</fpage>
+               <lpage>308</lpage>
+               <pub-id pub-id-type="doi">10.1145/236869.2370880-89791-796-0</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-45"><label>Roach (1997)</label><element-citation publication-type="confproc">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Roach</surname>
+                     <given-names>K</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1997">1997</year>
+               <source>Meijer G function representations</source>
+               <conf-name>ISSAC’97: proceedings of the 1997 international symposium on symbolic and algebraic computation</conf-name>
+               <conf-sponsor>ACM</conf-sponsor>
+               <conf-loc>New York</conf-loc>
+               <fpage>205</fpage>
+               <lpage>211</lpage>
+               <pub-id pub-id-type="doi">10.1145/258726.2587840-89791-875-4</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-46"><label>Rocklin (2013)</label><element-citation publication-type="thesis">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rocklin</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Mathematically informed linear algebra codes through term rewriting</article-title>
+               <source>PhD thesis</source>
+               <institution>University of Chicago</institution>
+            </element-citation>
+         </ref>
+         <ref id="ref-47"><label>Rocklin &amp; Terrel (2012)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rocklin</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Terrel</surname>
+                     <given-names>AR</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>Symbolic Statistics with SymPy</article-title>
+               <source>Computing in Science and Engineering</source>
+               <volume>14</volume>
+               <issue>3</issue>
+               <fpage>88</fpage>
+               <lpage>93</lpage>
+               <pub-id pub-id-type="doi">10.1109/MCSE.2012.56</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-48"><label>Rose (1999)</label><element-citation publication-type="software">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rose</surname>
+                     <given-names>KH</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1999">1999</year>
+               <data-title>XY-pic user’s guide</data-title>
+               <uri>http://ctan.org/tex-archive/macros/generic/diagrams/xypic/doc/xyguide.pdf</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-49"><label>Rosen (2005)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rosen</surname>
+                     <given-names>L</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2005">2005</year>
+               <source>Open source licensing: software freedom and intellectual property law</source>
+               <publisher-name>Prentice Hall</publisher-name>
+               <publisher-loc>Upper Saddle River</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-50"><label>Sakurai &amp; Napolitano (2010)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Sakurai</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Napolitano</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Modern quantum mechanics</article-title>
+               <publisher-name>Addison-Wesley</publisher-name>
+               <publisher-loc>Boston</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-51"><label>Shaw &amp; Garlan (1996)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Shaw</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Garlan</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1996">1996</year>
+               <source>Software architecture: perspectives on an emerging discipline</source>
+               <publisher-loc>Pittsburgh</publisher-loc>
+               <publisher-name>Prentice Hall</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-52"><label>Sussman &amp; Wisdom (2013)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Sussman</surname>
+                     <given-names>GJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Wisdom</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Functional differential geometry</article-title>
+               <publisher-name>Massachusetts Institute of Technology Press</publisher-name>
+               <publisher-loc>Cambridge</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-53"><label>Tai (1997)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tai</surname>
+                     <given-names>C-T</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1997">1997</year>
+               <article-title>Generalized vector and dyadic analysis: applied mathematics in field theory</article-title>
+               <volume>Vol. 9</volume>
+               <publisher-name>Wiley-IEEE Press</publisher-name>
+               <publisher-loc>Hoboken</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-54"><label>Takahasi &amp; Mori (1974)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Takahasi</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Mori</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1974">1974</year>
+               <article-title>Double exponential formulas for numerical integration</article-title>
+               <source>Publications of the Research Institute for Mathematical Sciences</source>
+               <volume>9</volume>
+               <issue>3</issue>
+               <fpage>721</fpage>
+               <lpage>741</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-55"><label>The Lcapy Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The Lcapy Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Lcapy, a Python package for linear circuit analysis</article-title>
+               <uri>http://lcapy.elec.canterbury.ac.nz/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-56"><label>The Mathics Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The Mathics Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Mathics, a free, general-purpose online computer algebra system featuring Mathematica-compatible syntax and functions</article-title>
+               <uri>https://mathics.github.io/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-57"><label>The Quameon Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The Quameon Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Quameon, quantum Monte Carlo in Python</article-title>
+               <uri>http://quameon.sourceforge.net/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-58"><label>The Sage Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The Sage Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>SageMath, the sage mathematics software system</article-title>
+               <uri>http://www.sagemath.org</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-59"><label>The Symbolic Package Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The Symbolic Package Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>The symbolic package for GNU Octave</article-title>
+               <uri>http://octave.sourceforge.net/symbolic</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-60"><label>The SymPy Developers (2016a)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The SymPy Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016a</year>
+               <article-title>SymEngine, a fast symbolic manipulation library, written in C++</article-title>
+               <uri>https://github.com/symengine/symengine</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-61"><label>The SymPy Developers (2016b)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The SymPy Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016b</year>
+               <article-title>SymPy Gamma</article-title>
+               <uri>http://www.sympygamma.com/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-62"><label>The SymPy.jl Developers (2016)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <collab>The SymPy.jl Developers</collab>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>SymPy.jl, a package to bring Python’s SymPy functionality into Julia via PyCall</article-title>
+               <uri>https://github.com/JuliaPy/SymPy.jl</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-63"><label>Toth (2007)</label><element-citation publication-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Toth</surname>
+                     <given-names>VT</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <article-title>Maple and Meijer’s G-function: a numerical instability and a cure</article-title>
+               <uri>http://www.vttoth.com/CMS/index.php/technical-notes/67</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-64"><label>Turk et al. (2011)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Turk</surname>
+                     <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Smith</surname>
+                     <given-names>BD</given-names>
+                  </name>
+                  <name>
+                     <surname>Oishi</surname>
+                     <given-names>JS</given-names>
+                  </name>
+                  <name>
+                     <surname>Skory</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Skillman</surname>
+                     <given-names>SW</given-names>
+                  </name>
+                  <name>
+                     <surname>Abel</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Norman</surname>
+                     <given-names>ML</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <article-title>yt: a multi-code analysis toolkit for astrophysical simulation data</article-title>
+               <source>The Astrophysical Journal Supplement Series</source>
+               <volume>192</volume>
+               <fpage>9</fpage>
+               <pub-id pub-id-type="doi">10.1088/0067-0049/192/1/9</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-65"><label>Zare (1991)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Zare</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1991">1991</year>
+               <article-title>Angular momentum: understanding spatial aspects in chemistry and physics</article-title>
+               <publisher-name>Wiley</publisher-name>
+               <publisher-loc>Hoboken</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-66"><label>Zienkiewicz, Taylor &amp; Zhu (2013)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Zienkiewicz</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Taylor</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Zhu</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>The finite element method: its basis and fundamentals</article-title>
+               <publisher-name>Butterworth-Heinemann</publisher-name>
+               <publisher-loc>Oxford</publisher-loc>
+               <pub-id pub-id-type="other">978-1-85617-633-0</pub-id>
+               <edition>Seventh edition</edition>
+               <pub-id pub-id-type="doi">10.1016/B978-1-85617-633-0.00019-8978-1-85617-633-0</pub-id>
+            </element-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>
