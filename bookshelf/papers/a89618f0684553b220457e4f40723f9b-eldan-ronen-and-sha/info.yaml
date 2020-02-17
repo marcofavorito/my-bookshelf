@@ -1,0 +1,27 @@
+abstract: We show that there is a simple (approximately radial) function on $\reals^d$,
+  expressible by a small 3-layer feedforward neural networks, which cannot be approximated
+  by any 2-layer network, to more than a certain constant accuracy, unless its width
+  is exponential in the dimension. The result holds for virtually all known activation
+  functions, including rectified linear units, sigmoids and thresholds, and formally
+  demonstrates that depth -- even if increased by 1 -- can be exponentially more valuable
+  than width for standard feedforward neural networks. Moreover, compared to related
+  results in the context of Boolean functions, our result requires fewer assumptions,
+  and the proof techniques and construction are very different.
+archiveprefix: arXiv
+author: Eldan, Ronen and Shamir, Ohad
+author_list:
+- family: Eldan
+  given: Ronen
+- family: Shamir
+  given: Ohad
+eprint: 1512.03965v4
+file: 1512.03965v4.pdf
+files:
+- eldan-ronen-and-shamir-ohadthe-power-of-depth-for-feedforward-neural-networks2015.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1512.03965v4
+title: The Power of Depth for Feedforward Neural Networks
+type: article
+url: http://arxiv.org/abs/1512.03965v4
+year: '2015'

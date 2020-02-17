@@ -1,0 +1,32 @@
+abstract: The success of machine learning algorithms generally depends on data representation,
+  and we hypothesize that this is because different representations can entangle and
+  hide more or less the different explanatory factors of variation behind the data.
+  Although specific domain knowledge can be used to help design representations, learning
+  with generic priors can also be used, and the quest for AI is motivating the design
+  of more powerful representation-learning algorithms implementing such priors. This
+  paper reviews recent work in the area of unsupervised feature learning and deep
+  learning, covering advances in probabilistic models, auto-encoders, manifold learning,
+  and deep networks. This motivates longer-term unanswered questions about the appropriate
+  objectives for learning good representations, for computing representations (i.e.,
+  inference), and the geometrical connections between representation learning, density
+  estimation and manifold learning.
+archiveprefix: arXiv
+author: Bengio, Yoshua and Courville, Aaron and Vincent, Pascal
+author_list:
+- family: Bengio
+  given: Yoshua
+- family: Courville
+  given: Aaron
+- family: Vincent
+  given: Pascal
+eprint: 1206.5538v3
+file: 1206.5538v3.pdf
+files:
+- bengio-yoshua-and-courville-aaron-and-vincent-pascalrepresentation-learning-a-review-and-new-perspectives2012.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1206.5538v3
+title: 'Representation Learning: A Review and New Perspectives'
+type: article
+url: http://arxiv.org/abs/1206.5538v3
+year: '2012'

@@ -1,0 +1,30 @@
+abstract: We consider deep neural networks, in which the output of each node is a
+  quadratic function of its inputs. Similar to other deep architectures, these networks
+  can compactly represent any function on a finite training set. The main goal of
+  this paper is the derivation of an efficient layer-by-layer algorithm for training
+  such networks, which we denote as the \emph{Basis Learner}. The algorithm is a universal
+  learner in the sense that the training error is guaranteed to decrease at every
+  iteration, and can eventually reach zero under mild conditions. We present practical
+  implementations of this algorithm, as well as preliminary experimental results.
+  We also compare our deep architecture to other shallow architectures for learning
+  polynomials, in particular kernel learning.
+archiveprefix: arXiv
+author: Livni, Roi and Shalev-Shwartz, Shai and Shamir, Ohad
+author_list:
+- family: Livni
+  given: Roi
+- family: Shalev-Shwartz
+  given: Shai
+- family: Shamir
+  given: Ohad
+eprint: 1304.7045v2
+file: 1304.7045v2.pdf
+files:
+- livni-roi-and-shalev-shwartz-shai-and-shamir-ohadan-algorithm-for-training-polynomial-networks2013.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1304.7045v2
+title: An Algorithm for Training Polynomial Networks
+type: article
+url: http://arxiv.org/abs/1304.7045v2
+year: '2013'

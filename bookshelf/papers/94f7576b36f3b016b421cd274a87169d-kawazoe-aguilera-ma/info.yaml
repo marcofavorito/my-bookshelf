@@ -1,0 +1,185 @@
+author: Kawazoe Aguilera, Marcos and Chen, Wei and Toueg, Sam
+author_list:
+- affiliation: []
+  family: Kawazoe Aguilera
+  given: Marcos
+- affiliation: []
+  family: Chen
+  given: Wei
+- affiliation: []
+  family: Toueg
+  given: Sam
+citations:
+- unstructured: 'M. K. Aguilera, W. Chen, and S. Toueg. Heartbeat: a timeout-free
+    failure detector for quiescent reliable communication. Technical Report 97–1631,
+    Department of Computer Science, Cornell University, May 1997.'
+- unstructured: M. K. Aguilera, W Chen, and S. Toueg. On the weakest failure detector
+    for quiescent reliable communication. Technical report, Department of Computer
+    Science, Cornell University, July 1997.
+- unstructured: M. K. Aguilera, W. Chen, and S. Toueg. Quiescent reliable communication
+    and quiescent consensus in partitionable networks. Technical Report 97–1632, Department
+    of Computer Science, Cornell University, June 1997.
+- doi: 10.1007/3-540-61769-8_3
+  unstructured: 'M. K. Aguilera and S. Toueg. Randomization and failure detection:
+    a hybrid approach to solve consensus. In Proceedings of the 10th International
+    Workshop on Distributed Algorithms, Lecture Notes on Computer Science, pages 29–39.
+    Springer-Verlag, Oct. 1996.'
+- author: Ö. Babaoĝlu
+  series-title: Technical Report UBLCS-97-1
+  unstructured: 'Ö. Babaoĝlu, R. Davoli, and A. Montresor. Partitionable group membership:
+    specification and algorithms. Technical Report UBLCS-97-1, Dept. of Computer Science,
+    University of Bologna, Bologna, Italy, January 1997.'
+  volume-title: 'Partitionable group membership: specification and algorithms'
+  year: '1997'
+- doi: 10.1007/3-540-61769-8_8
+  unstructured: A. Basu, B. Charron-Bost, and S. Toueg. Simulating reliable links
+    with unreliable links in the presence of process crashes. In Proceedings of the
+    10th International Workshop on Distributed Algorithms, Lecture Notes on Computer
+    Science, pages 105–122. Springer-Verlag, Oct. 1996.
+- doi: 10.1007/3-540-56188-9_12
+  unstructured: R. Bazzi and G. Neiger. Simulating crash failures with many faulty
+    processors. In A. Segal and S. Zaks, editors, Proceedings of the 6th International
+    Workshop on Distributed Algorithms, volume 647 of Lecture Notes on Computer Science,
+    pages 166-184. Springer-Verlag, 1992.
+- unstructured: 'M. Ben-Or. Another advantage of free choice: Completely asynchronous
+    agreement protocols. In Proceedings of the 2nd ACM Symposium on Principles of
+    Distributed Computing, pages 27–30, Aug. 1983.'
+- author: G. Bracha
+  doi: 10.1145/4221.214134
+  first-page: '824'
+  issue: '4'
+  journal-title: J. ACM
+  unstructured: G. Bracha and S. Toueg. Asynchronous consensus and broadcast protocols.
+    J. ACM, 32(4):824–840, Oct. 1985.
+  volume: '32'
+  year: '1985'
+- unstructured: T D. Chandra, April 1997. Private Communication.
+- author: T. D. Chandra
+  doi: 10.1145/234533.234549
+  first-page: '685'
+  issue: '4'
+  journal-title: Journal of the ACM
+  unstructured: T D. Chandra, V. Hadzilacos, and S. Toueg. The weakest failure detector
+    for solving consensus. Journal of the ACM, 43(4):685–722, July 1996.
+  volume: '43'
+  year: '1996'
+- author: T. D. Chandra
+  doi: 10.1145/226643.226647
+  first-page: '225'
+  issue: '2'
+  journal-title: Journal of the ACM
+  unstructured: T D. Chandra and S. Toueg. Unreliable failure detectors for reliable
+    distributed systems. Journal of the ACM, 43(2):225–267, March 1996.
+  volume: '43'
+  year: '1996'
+- author: S. Chaudhuri
+  doi: 10.1006/inco.1993.1043
+  first-page: '132'
+  issue: '1'
+  journal-title: Information and Computation
+  unstructured: 'S. Chaudhuri. More choices allow more faults: Set consensus problems
+    in totally asynchronous systems. Information and Computation, 105(1):132–158,
+    July 1993.'
+  volume: '105'
+  year: '1993'
+- author: B. Chor
+  doi: 10.1145/65950.65956
+  first-page: '591'
+  issue: '3'
+  journal-title: Journal of the ACM
+  unstructured: B. Chor, M. Merritt, and D. B. Shmoys. Simple constant-time consensus
+    protocols in realistic failure models. Journal of the ACM, 36(3):591–614,1989.
+  volume: '36'
+  year: '1989'
+- author: D. Dolev
+  series-title: Technical Report 96-1608
+  unstructured: D. Dolev, R. Friedman, I. Keidar, and D. Malkhi. Failure detectors
+    in omission failure environments. Technical Report 96-1608, Department of Computer
+    Science, Cornell University, Ithaca, New York, 1996.
+  volume-title: Failure detectors in omission failure environments
+  year: '1996'
+- author: D. Dolev
+  doi: 10.1145/5925.5931
+  first-page: '499'
+  issue: '3'
+  journal-title: J. ACM
+  unstructured: D. Dolev, N. A. Lynch, S. S. Pinter, E. W. Stark, and W. E. Weihl.
+    Reaching approximate agreement in the presence of faults. J. ACM, 33(3):499–516,
+    July 1986.
+  volume: '33'
+  year: '1986'
+- unstructured: P Feldman and S. Micali. An optimal algorithm for synchronous Byzantine
+    agreement. Technical Report MIT/LCS/TM-425, Laboratory for Computer Science, Massachusetts
+    Institute of Technology, June 1990.
+- author: M. J. Fischer
+  doi: 10.1145/3149.214121
+  first-page: '374'
+  issue: '2'
+  journal-title: J. ACM
+  unstructured: M. J. Fischer, N. A. Lynch, and M. S. Paterson. Impossibility of distributed
+    consensus with one faulty process. J. ACM, 32(2):374–382, Apr. 1985.
+  volume: '32'
+  year: '1985'
+- unstructured: 'A. Gopal. Fault-Tolerant Broadcasts and Multicasts: The Problem of
+    Inconsistency and Contamination. PhD thesis, Corneal University, Jan. 1992.'
+- author: R. Guerraoui
+  doi: 10.1007/BFb0022140
+  first-page: '87'
+  series-title: LNCS 972
+  unstructured: R. Guerraoui. Revisiting the relationship between non-blocking atomic
+    commitment and consensus. In Proceedings of the 9th International Workshop on
+    Distributed Algorithms, pages 87–100, Le Mont-St-Michel, France, 1995. Springer
+    Verlag, LNCS 972.
+  volume-title: Proceedings of the 9th International Workshop on Distributed Algorithms
+  year: '1995'
+- doi: 10.1109/RELDIS.1995.518722
+  unstructured: R. Guerraoui, M. Larrea, and A. Schiper. Non blocking atomic commitment
+    with an unreliable failure detector. In Proceedings of the 14th IEEE Symposium
+    on Reliable Distributed Systems, pages 13–15, 1995.
+- author: V. Hadzilacos
+  series-title: Technical Report 94-1425
+  unstructured: V. Hadzilacos and S. Toueg. A modular approach to fault-tolerant broadcasts
+    and related problems. Technical Report 94-1425, Department of Computer Science,
+    Cornell University, Ithaca, New York, May 1994.
+  volume-title: A modular approach to fault-tolerant broadcasts and related problems
+  year: '1994'
+- author: R. Koo
+  doi: 10.1016/0020-0190(88)90023-3
+  first-page: '181'
+  issue: '4'
+  journal-title: Inf. Process. Lett.
+  unstructured: R. Koo and S. Toueg. Effects of message loss on the termination of
+    distributed protocols. Inf. Process. Lett., 27(4):181–188, Apr. 1988.
+  volume: '27'
+  year: '1988'
+- doi: 10.1007/BFb0020440
+  unstructured: W.-K. Lo and V Hadzilacos. Using failure detectors to solve consensus
+    in asynchronous shared-memory systems. In Proceedings of the 8th International
+    Workshop on Distributed Algorithms, pages 280–295, Terschelling, The Netherlands,
+    1994.
+- unstructured: N. A. Lynch. Distributed Algorithms. Morgan Kaufmann Publishers, Inc.,
+    1996.
+- doi: 10.1109/SFCS.1983.48
+  unstructured: M. Rabin. Randomized Byzantine generals. In Proceedings of the 24th
+    Symposium on Foundations of Computer Science, pages 403–409. IEEE Computer Society
+    Press, Nov. 1983.
+- author: L. S. Sabel
+  series-title: Technical Report 95-1488
+  unstructured: L. S. Sabel and K. Marzullo. Election vs. consensus in asynchronous
+    systems. Technical Report 95-1488, Department of Computer Science, Cornell University,
+    Ithaca, New York, Febrary 1995.
+  volume-title: Election vs. consensus in asynchronous systems
+  year: '1995'
+- unstructured: R. van Renesse, April 1997. Private Communication.
+doi: 10.1007/bfb0030680
+isbn:
+- '9783540635758'
+- '9783540696001'
+journal: Distributed Algorithms
+month: 6
+pages: 126--140
+publisher: Springer Berlin Heidelberg
+title: 'Heartbeat: A timeout-free failure detector for quiescent reliable communication'
+type: inbook
+url: http://dx.doi.org/10.1007/bfb0030680
+year: 1997

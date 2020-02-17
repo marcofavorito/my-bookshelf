@@ -1,0 +1,38 @@
+abstract: Translating formulas of Linear Temporal Logic (LTL) over finite traces,
+  or LTLf, to symbolic Deterministic Finite Automata (DFA) plays an important role
+  not only in LTLf synthesis, but also in synthesis for Safety LTL formulas. The translation
+  is enabled by using MONA, a powerful tool for symbolic, BDD-based, DFA construction
+  from logic specifications. Recent works used a first-order encoding of LTLf formulas
+  to translate LTLf to First Order Logic (FOL), which is then fed to MONA to get the
+  symbolic DFA. This encoding was shown to perform well, but other encodings have
+  not been studied. Specifically, the natural question of whether second-order encoding,
+  which has significantly simpler quantificational structure, can outperform first-order
+  encoding remained open.   In this paper we address this challenge and study second-order
+  encodings for LTLf formulas. We first introduce a specific MSO encoding that captures
+  the semantics of LTLf in a natural way and prove its correctness. We then explore
+  is a Compact MSO encoding, which benefits from automata-theoretic minimization,
+  thus suggesting a possible practical advantage. To that end, we propose a formalization
+  of symbolic DFA in second-order logic, thus developing a novel connection between
+  BDDs and MSO. We then show by empirical evaluations that the first-order encoding
+  does perform better than both second-order encodings. The conclusion is that first-order
+  encoding is a better choice than second-order encoding in LTLf-to-Automata translation.
+archiveprefix: arXiv
+author: Zhu, Shufang and Pu, Geguang and Vardi, Moshe Y.
+author_list:
+- family: Zhu
+  given: Shufang
+- family: Pu
+  given: Geguang
+- family: Vardi
+  given: Moshe Y.
+eprint: 1901.06108v1
+file: 1901.06108v1.pdf
+files:
+- zhu-shufang-and-pu-geguang-and-vardi-moshe-y.first-order-vs.-second-order-encodings-for-ltlf-to-automata-translation2019.pdf
+month: Jan
+primaryclass: cs.LO
+ref: 1901.06108v1
+title: First-Order vs. Second-Order Encodings for LTLf-to-Automata Translation
+type: article
+url: http://arxiv.org/abs/1901.06108v1
+year: '2019'

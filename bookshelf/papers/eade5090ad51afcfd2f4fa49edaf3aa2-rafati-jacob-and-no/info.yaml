@@ -1,0 +1,37 @@
+abstract: 'Common approaches to Reinforcement Learning (RL) are seriously challenged
+  by large-scale applications involving huge state spaces and sparse delayed reward
+  feedback. Hierarchical Reinforcement Learning (HRL) methods attempt to address this
+  scalability issue by learning action selection policies at multiple levels of temporal
+  abstraction. Abstraction can be had by identifying a relatively small set of states
+  that are likely to be useful as subgoals, in concert with the learning of corresponding
+  skill policies to achieve those subgoals. Many approaches to subgoal discovery in
+  HRL depend on the analysis of a model of the environment, but the need to learn
+  such a model introduces its own problems of scale. Once subgoals are identified,
+  skills may be learned through intrinsic motivation, introducing an internal reward
+  signal marking subgoal attainment. In this paper, we present a novel model-free
+  method for subgoal discovery using incremental unsupervised learning over a small
+  memory of the most recent experiences (trajectories) of the agent. When combined
+  with an intrinsic motivation learning mechanism, this method learns both subgoals
+  and skills, based on experiences in the environment. Thus, we offer an original
+  approach to HRL that does not require the acquisition of a model of the environment,
+  suitable for large-scale applications. We demonstrate the efficiency of our method
+  on two RL problems with sparse delayed feedback: a variant of the rooms environment
+  and the first screen of the ATARI 2600 Montezuma''s Revenge game.'
+archiveprefix: arXiv
+author: Rafati, Jacob and Noelle, David C.
+author_list:
+- family: Rafati
+  given: Jacob
+- family: Noelle
+  given: David C.
+eprint: 1810.10096v3
+file: 1810.10096v3.pdf
+files:
+- rafati-jacob-and-noelle-david-c.learning-representations-in-model-free-hierarchical-reinforcement-learning2018.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1810.10096v3
+title: Learning Representations in Model-Free Hierarchical Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/1810.10096v3
+year: '2018'

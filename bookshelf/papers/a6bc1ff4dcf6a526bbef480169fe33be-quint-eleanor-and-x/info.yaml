@@ -1,0 +1,42 @@
+abstract: In order to satisfy safety conditions, a reinforcement learned (RL) agent
+  maybe constrained from acting freely, e.g., to prevent trajectories that might cause
+  unwanted behavior or physical damage in a robot. We propose a general framework
+  for augmenting a Markov decision process (MDP) with constraints that are described
+  in formal languages over sequences of MDP states and agent actions. Constraint enforcement
+  is implemented by filtering the allowed action set or by applying potential-based
+  reward shaping to implement hard and soft constraint enforcement, respectively.
+  We instantiate this framework using deterministic finite automata to encode constraints
+  and propose methods of augmenting MDP observations with the state of the constraint
+  automaton for learning. We empirically evaluate these methods with a variety of
+  constraints by training Deep Q-Networks in Atari games as well as Proximal Policy
+  Optimization in MuJoCo environments. We experimentally find that our approaches
+  are effective in significantly reducing or eliminating constraint violations with
+  either minimal negative or, depending on the constraint, a clear positive impact
+  on final performance.
+archiveprefix: arXiv
+author: Quint, Eleanor and Xu, Dong and Dogan, Haluk and Hakguder, Zeynep and Scott,
+  Stephen and Dwyer, Matthew
+author_list:
+- family: Quint
+  given: Eleanor
+- family: Xu
+  given: Dong
+- family: Dogan
+  given: Haluk
+- family: Hakguder
+  given: Zeynep
+- family: Scott
+  given: Stephen
+- family: Dwyer
+  given: Matthew
+eprint: 1910.01074v1
+file: 1910.01074v1.pdf
+files:
+- quint-eleanor-and-xu-dong-and-dogan-haluk-and-hakguder-zeynep-and-scott-stephen-and-dwyer-matthewformal-language-constraints-for-markov-decision.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1910.01074v1
+title: Formal Language Constraints for Markov Decision Processes
+type: article
+url: http://arxiv.org/abs/1910.01074v1
+year: '2019'

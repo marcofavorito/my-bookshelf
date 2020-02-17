@@ -1,0 +1,133 @@
+author: Manna, Zohar and Pnueli, Amir
+author_list:
+- affiliation: []
+  family: Manna
+  given: Zohar
+- affiliation: []
+  family: Pnueli
+  given: Amir
+citations:
+- author: K. Apt
+  doi: 10.1145/6490.6494
+  first-page: '724'
+  issue: '4'
+  journal-title: JACM
+  unstructured: K. Apt, G.D. Plotkin — Countable Nondeterminism and Random Assignment,
+    JACM 33,4 (1986), 724–767.
+  volume: '33'
+  year: '1986'
+- unstructured: B. Alpern, F.B. Schneider — Verifying Temporal Properties without
+    using Temporal Logic, to appear in TOPLAS.
+- author: E. M. Clarke
+  doi: 10.1145/5397.5399
+  first-page: '244'
+  issue: '2'
+  journal-title: TOPLAS
+  unstructured: E.M. Clarke, E.A. Emerson, A.P. Sistla — Automatic Verification of
+    Finite-State Concurrent Systems using Temporal Logic Specifications, TOPLAS 8,2
+    (April 1986), 244–263.
+  volume: '8'
+  year: '1986'
+- unstructured: E.W. Dijkstra — A Discipline of Programming, Prentice Hall (1976).
+- doi: 10.1145/318593.318620
+  unstructured: 'E.A. Emerson, C.L. Lei — Modalities for Model Checking: Branching
+    Time Strikes Back, 12th Symp. on Principles of Programming Languages (1985), 84–96.'
+- author: R. W. Floyd
+  doi: 10.1090/psapm/019/0235771
+  first-page: '19'
+  unstructured: R.W. Floyd — Assigning Meanings to Programs, in Mathematical Aspects
+    of Computer Science, 19th Symp. of Appl. Math., American Mathematical Society,
+    Providence (1967), 19–32.
+  volume-title: Mathematical Aspects of Computer Science, 19th Symp. of Appl. Math.
+  year: '1967'
+- doi: 10.1007/978-1-4612-4886-6
+  unstructured: N. Francez — Fairness, Springer-Verlag (1986).
+- author: O. Grumberg
+  doi: 10.1016/S0019-9958(85)80014-0
+  first-page: '83'
+  journal-title: Information and Control
+  unstructured: O. Grumberg, N. Francez, J.A. Makowsky, W.P. deRoever — A Proof Rule
+    for Fair Termination of Guarded Commands, Information and Control 66 (1985), 83–102.
+  volume: '66'
+  year: '1985'
+- unstructured: 'D. Harel — Statecharts: A Visual Formalism for Complex Systems, Technical
+    Report, Weizmann Institute (1984).'
+- author: D. Harel
+  doi: 10.1145/4904.4993
+  first-page: '224'
+  issue: '1'
+  journal-title: JACM
+  unstructured: D. Harel — Effective Transformations on Infinite Trees, with Applications
+    to High Undecidability, Dominoes, and Fairness, JACM 33,1 (1986), 224–248.
+  volume: '33'
+  year: '1986'
+- author: C. A. R. R. Hoare
+  doi: 10.1145/363235.363259
+  first-page: '576'
+  journal-title: CACM
+  unstructured: C.A.R. Hoare — An Axiomatic Approach to Computer Programming, CACM
+    12 (1969), 576–583.
+  volume: '12'
+  year: '1969'
+- doi: 10.1145/318593.318622
+  unstructured: O. Lichtenstein, A. Pnueli — Checking that Finite-State Concurrent
+    Programs Satisfy their Linear Specifications, 12th Symp. on Principles of Programming
+    Languages (1985), 97–107.
+- unstructured: 'D. Lehmann, A. Pnueli, J. Stavi — Impartiality, Justice and Fairness:
+    The Ethics of Concurrent Termination, LNCS 115, Springer-Verlag (1981).'
+- doi: 10.21236/ADA106750
+  unstructured: 'Z. Manna, A. Pnueli — Verification of Concurrent Programs: The Temporal
+    Framework, in The Correctness Problem in Computer Science (R.S. Boyer, J.S. Moore,
+    eds.), Academic Press (1981), 215–274.'
+- author: Z. Manna
+  doi: 10.1016/0167-6423(84)90003-0
+  first-page: '257'
+  journal-title: Science of Computer Programming
+  unstructured: Z. Manna, A. Pnueli — Adequate Proof Principles for Invariance and
+    Liveness Properties of Concurrent Programs, Science of Computer Programming 4
+    (1984), 257–289.
+  volume: '4'
+  year: '1984'
+- author: S. Owicki
+  doi: 10.1145/357172.357178
+  first-page: '455'
+  issue: '3'
+  journal-title: TOPLAS
+  unstructured: S. Owicki, L. Lamport — Proving Liveness Properties of Concurrent
+    Programs, TOPLAS 4,3 (1982), 455–495.
+  volume: '4'
+  year: '1982'
+- author: G. L. Peterson
+  doi: 10.1016/0020-0190(81)90106-X
+  first-page: '115'
+  issue: '3'
+  journal-title: Information Processing Letters
+  unstructured: G.L. Peterson — Myths about the Mutual-Exclusion Problem, Information
+    Processing Letters 12,3 (1981), 115–116.
+  volume: '12'
+  year: '1981'
+- unstructured: F.A. Stomp, W.P. deRoever, R.T. Gerth — The μ-Calculus as an Assertion
+    Language for Fairness Arguments, Technical Report 84–12, Utrecht (1984).
+- unstructured: 'M.Y. Vardi — Verification of Concurrent Programs: The Automata-Theoretic
+    Framework, 2nd Symp. on Logic in Computer Science, Ithaca (1987), 167–176.'
+- unstructured: M.Y. Vardi, P. Wolper — An Automata-Theoretic Approach to Automatic
+    Program Verification, IEEE Symp. on Logic in Computer Science, Cambridge (1986),
+    332–344.
+- doi: 10.1109/SFCS.1981.44
+  unstructured: P. Wolper — Temporal Logic can be More Expressive, 22nd Symp. on Foundations
+    of Computer Science (1981), 340–348.
+- doi: 10.1109/SFCS.1983.51
+  unstructured: P. Wolper, M.Y. Vardi, A.P. Sistla — Reasoning about Infinite Computation
+    Paths, 24th Symp. on Foundations of Computer Science, Tucson (1983), 185–194.
+doi: 10.1007/3-540-51803-7_24
+isbn:
+- '9783540518037'
+- '9783540468110'
+journal: Temporal Logic in Specification
+month: 5
+pages: 124--164
+publisher: Springer Berlin Heidelberg
+title: Specification and verification of concurrent programs by ∀-automata
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-51803-7_24
+year: 1989

@@ -1,0 +1,34 @@
+abstract: 'In this paper, we consider the important problem of safe exploration in
+  reinforcement learning. While reinforcement learning is well-suited to domains with
+  complex transition dynamics and high-dimensional state-action spaces, an additional
+  challenge is posed by the need for safe and efficient exploration. Traditional exploration
+  techniques are not particularly useful for solving dangerous tasks, where the trial
+  and error process may lead to the selection of actions whose execution in some states
+  may result in damage to the learning system (or any other system). Consequently,
+  when an agent begins an interaction with a dangerous and high-dimensional state-action
+  space, an important question arises; namely, that of how to avoid (or at least minimize)
+  damage caused by the exploration of the state-action space. We introduce the PI-SRL
+  algorithm which safely improves suboptimal albeit robust behaviors for continuous
+  state and action control tasks and which efficiently learns from the experience
+  gained from the environment. We evaluate the proposed method in four complex tasks:
+  automatic car parking, pole-balancing, helicopter hovering, and business management.'
+archiveprefix: arXiv
+author: Garcia, Javier and Fernandez, Fernando
+author_list:
+- family: Garcia
+  given: Javier
+- family: Fernandez
+  given: Fernando
+doi: 10.1613/jair.3761
+eprint: 1402.0560v1
+file: 1402.0560v1.pdf
+files:
+- garcia-javier-and-fernandez-fernandosafe-exploration-of-state-and-action-spaces-in-reinforcement-learning2014.pdf
+month: Feb
+note: Journal Of Artificial Intelligence Research, Volume 45, pages   515-564, 2012
+primaryclass: cs.LG
+ref: 1402.0560v1
+title: Safe Exploration of State and Action Spaces in Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1402.0560v1
+year: '2014'

@@ -1,0 +1,35 @@
+abstract: Recent researches show that machine learning has the potential to learn
+  better heuristics than the one designed by human for solving combinatorial optimization
+  problems. The deep neural network is used to characterize the input instance for
+  constructing a feasible solution incrementally. Recently, an attention model is
+  proposed to solve routing problems. In this model, the state of an instance is represented
+  by node features that are fixed over time. However, the fact is, the state of an
+  instance is changed according to the decision that the model made at different construction
+  steps, and the node features should be updated correspondingly. Therefore, this
+  paper presents a dynamic attention model with dynamic encoder-decoder architecture,
+  which enables the model to explore node features dynamically and exploit hidden
+  structure information effectively at different construction steps. This paper focuses
+  on a challenging NP-hard problem, vehicle routing problem. The experiments indicate
+  that our model outperforms the previous methods and also shows a good generalization
+  performance.
+archiveprefix: arXiv
+author: Peng, Bo and Wang, Jiahai and Zhang, Zizhen
+author_list:
+- family: Peng
+  given: Bo
+- family: Wang
+  given: Jiahai
+- family: Zhang
+  given: Zizhen
+eprint: 2002.03282v1
+file: 2002.03282v1.pdf
+files:
+- peng-bo-and-wang-jiahai-and-zhang-zizhena-deep-reinforcement-learning-algorithm-using-dynamic-attention-model-for-vehicle-routing-problems2020.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2002.03282v1
+title: A Deep Reinforcement Learning Algorithm Using Dynamic Attention Model   for
+  Vehicle Routing Problems
+type: article
+url: http://arxiv.org/abs/2002.03282v1
+year: '2020'

@@ -1,0 +1,41 @@
+abstract: We present a suite of reinforcement learning environments illustrating various
+  safety properties of intelligent agents. These problems include safe interruptibility,
+  avoiding side effects, absent supervisor, reward gaming, safe exploration, as well
+  as robustness to self-modification, distributional shift, and adversaries. To measure
+  compliance with the intended safe behavior, we equip each environment with a performance
+  function that is hidden from the agent. This allows us to categorize AI safety problems
+  into robustness and specification problems, depending on whether the performance
+  function corresponds to the observed reward function. We evaluate A2C and Rainbow,
+  two recent deep reinforcement learning agents, on our environments and show that
+  they are not able to solve them satisfactorily.
+archiveprefix: arXiv
+author: Leike, Jan and Martic, Miljan and Krakovna, Victoria and Ortega, Pedro A.
+  and Everitt, Tom and Lefrancq, Andrew and Orseau, Laurent and Legg, Shane
+author_list:
+- family: Leike
+  given: Jan
+- family: Martic
+  given: Miljan
+- family: Krakovna
+  given: Victoria
+- family: Ortega
+  given: Pedro A.
+- family: Everitt
+  given: Tom
+- family: Lefrancq
+  given: Andrew
+- family: Orseau
+  given: Laurent
+- family: Legg
+  given: Shane
+eprint: 1711.09883v2
+file: 1711.09883v2.pdf
+files:
+- leike-jan-and-martic-miljan-and-krakovna-victoria-and-ortega-pedro-a.-and-everitt-tom-and-lefrancq-andrew-and-orseau-laurent-and-legg-shaneai.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1711.09883v2
+title: AI Safety Gridworlds
+type: article
+url: http://arxiv.org/abs/1711.09883v2
+year: '2017'

@@ -1,0 +1,36 @@
+abstract: Despite the great empirical success of deep reinforcement learning, its
+  theoretical foundation is less well understood. In this work, we make the first
+  attempt to theoretically understand the deep Q-network (DQN) algorithm (Mnih et
+  al., 2015) from both algorithmic and statistical perspectives. In specific, we focus
+  on a slight simplification of DQN that fully captures its key features. Under mild
+  assumptions, we establish the algorithmic and statistical rates of convergence for
+  the action-value functions of the iterative policy sequence obtained by DQN. In
+  particular, the statistical error characterizes the bias and variance that arise
+  from approximating the action-value function using deep neural network, while the
+  algorithmic error converges to zero at a geometric rate. As a byproduct, our analysis
+  provides justifications for the techniques of experience replay and target network,
+  which are crucial to the empirical success of DQN. Furthermore, as a simple extension
+  of DQN, we propose the Minimax-DQN algorithm for zero-sum Markov game with two players.
+  Borrowing the analysis of DQN, we also quantify the difference between the policies
+  obtained by Minimax-DQN and the Nash equilibrium of the Markov game in terms of
+  both the algorithmic and statistical rates of convergence.
+archiveprefix: arXiv
+author: Yang, Zhuora and Xie, Yuchen and Wang, Zhaoran
+author_list:
+- family: Yang
+  given: Zhuora
+- family: Xie
+  given: Yuchen
+- family: Wang
+  given: Zhaoran
+eprint: 1901.00137v2
+file: 1901.00137v2.pdf
+files:
+- yang-zhuora-and-xie-yuchen-and-wang-zhaorana-theoretical-analysis-of-deep-q-learning2019.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1901.00137v2
+title: A Theoretical Analysis of Deep Q-Learning
+type: article
+url: http://arxiv.org/abs/1901.00137v2
+year: '2019'

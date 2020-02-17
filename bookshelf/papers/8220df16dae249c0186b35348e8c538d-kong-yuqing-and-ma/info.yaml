@@ -1,0 +1,41 @@
+abstract: In future, information may become one of the most important assets in economy.
+  However, unlike common goods (e.g. clothing), information is troublesome in trading
+  since the information commodities are \emph{vulnerable}, as they lose their values
+  immediately after revelation, and possibly unverifiable, as they can be subjective.
+  By authorizing a trusted center (e.g. Amazon) to help manage the information trade,
+  traders are ``forced'' to give the trusted center the ability to become an information
+  monopolist.   To this end, we need a trust-free (i.e. without a trusted center and
+  with only strategic traders) unverifiable information trade protocol such that it
+  1) motivates the sellers to provide high quality information, and the buyer to pay
+  for the information with a fair price (truthful); 2) except the owner, the information
+  is known only to its buyer if the trade is executed (secure).   In an unverifiable
+  information trade scenario (e.g. a medical company wants to buy experts' opinions
+  on multiple difficult medical images with unknown pathological truth from several
+  hospitals), we design a trust-free, truthful, and secure protocol, Smart Info-Dealer
+  (SMind), for information trading, by borrowing three cutting-edge tools that include
+  peer prediction, secure multi-party computation, and smart contract. With SMind,
+  without a trusted center, a seller with high-quality information is able to sell
+  her information securely at a fair price and those with low-quality information
+  cannot earn extra money with poor information or steal information from other sellers.
+  We believe SMind will help describe a free and secure information trade scenario
+  in the future.
+archiveprefix: arXiv
+author: Kong, Yuqing and Ma, Yiping and Wu, Yifan
+author_list:
+- family: Kong
+  given: Yuqing
+- family: Ma
+  given: Yiping
+- family: Wu
+  given: Yifan
+eprint: 1903.07379v1
+file: 1903.07379v1.pdf
+files:
+- kong-yuqing-and-ma-yiping-and-wu-yifansecurely-trading-unverifiable-information-without-trust2019.pdf
+month: Mar
+primaryclass: cs.GT
+ref: 1903.07379v1
+title: Securely Trading Unverifiable Information without Trust
+type: article
+url: http://arxiv.org/abs/1903.07379v1
+year: '2019'

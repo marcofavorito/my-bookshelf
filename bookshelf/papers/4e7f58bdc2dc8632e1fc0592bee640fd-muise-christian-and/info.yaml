@@ -1,0 +1,42 @@
+abstract: <jats:p>Partial-order plans (POPs) are attractive because of their least-commitment
+  nature, which provides enhanced plan flexibility at execution time relative to sequential
+  plans. Current research on automated plan generation focuses on producing sequential
+  plans, despite the appeal of POPs. In this paper we examine POP generation by relaxing
+  or modifying the action orderings of a sequential plan to optimize for plan criteria
+  that promote flexibility. Our approach relies on a novel partial weighted MaxSAT
+  encoding of a sequential plan that supports the minimization of deordering or reordering
+  of actions. Using a similar technique, we further demonstrate how to remove redundant
+  actions from the plan, and how to combine this criterion with the objective of maximizing
+  a POP's flexibility. Our partial weighted MaxSAT encoding allows us to compute a
+  POP from a sequential plan effectively. We compare the efficiency of our approach
+  to previous methods for POP generation via sequential-plan relaxation. Our results
+  show that while an existing heuristic approach consistently produces the optimal
+  deordering of a sequential plan, our approach has greater flexibility when we consider
+  reordering the actions in the plan while also providing a guarantee of optimality.
+  We also investigate and confirm the accuracy of the standard flex metric typically
+  used to predict the true flexibility of a POP as measured by the number of linearizations
+  it represents.</jats:p>
+author: Muise, Christian and Beck, J. Christopher and McIlraith, Sheila A.
+author_list:
+- affiliation: []
+  family: Muise
+  given: Christian
+- affiliation: []
+  family: Beck
+  given: J. Christopher
+- affiliation: []
+  family: McIlraith
+  given: Sheila A.
+doc_url: https://jair.org/index.php/jair/article/download/11024/26188
+doi: 10.1613/jair.5128
+files:
+- muise-christian-and-beck-j.-christopher-and-mcilraith-sheila-a.optimal-partial-order-plan-relaxation-via-maxsat2016.ps
+journal: Journal of Artificial Intelligence Research
+month: 9
+pages: 113--149
+publisher: AI Access Foundation
+title: Optimal Partial-Order Plan Relaxation via MaxSAT
+type: article
+url: http://dx.doi.org/10.1613/jair.5128
+volume: '57'
+year: 2016

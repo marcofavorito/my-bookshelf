@@ -1,0 +1,37 @@
+abstract: We present the first deep learning model to successfully learn control policies
+  directly from high-dimensional sensory input using reinforcement learning. The model
+  is a convolutional neural network, trained with a variant of Q-learning, whose input
+  is raw pixels and whose output is a value function estimating future rewards. We
+  apply our method to seven Atari 2600 games from the Arcade Learning Environment,
+  with no adjustment of the architecture or learning algorithm. We find that it outperforms
+  all previous approaches on six of the games and surpasses a human expert on three
+  of them.
+archiveprefix: arXiv
+author: Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex
+  and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin
+author_list:
+- family: Mnih
+  given: Volodymyr
+- family: Kavukcuoglu
+  given: Koray
+- family: Silver
+  given: David
+- family: Graves
+  given: Alex
+- family: Antonoglou
+  given: Ioannis
+- family: Wierstra
+  given: Daan
+- family: Riedmiller
+  given: Martin
+eprint: 1312.5602v1
+file: 1312.5602v1.pdf
+files:
+- mnih-volodymyr-and-kavukcuoglu-koray-and-silver-david-and-graves-alex-and-antonoglou-ioannis-and-wierstra-daan-and-riedmiller-martinplaying-ata.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1312.5602v1
+title: Playing Atari with Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1312.5602v1
+year: '2013'

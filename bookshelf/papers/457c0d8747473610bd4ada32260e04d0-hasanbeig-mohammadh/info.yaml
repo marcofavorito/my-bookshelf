@@ -1,0 +1,40 @@
+abstract: We present the first model-free Reinforcement Learning (RL) algorithm to
+  synthesise policies for an unknown Markov Decision Process (MDP), such that a linear
+  time property is satisfied. The given temporal property is converted into a Limit
+  Deterministic Buchi Automaton (LDBA) and a robust reward function is defined over
+  the state-action pairs of the MDP according to the resulting LDBA. With this reward
+  function, the policy synthesis procedure is "constrained" by the given specification.
+  These constraints guide the MDP exploration so as to minimize the solution time
+  by only considering the portion of the MDP that is relevant to satisfaction of the
+  LTL property. This improves performance and scalability of the proposed method by
+  avoiding an exhaustive update over the whole state space while the efficiency of
+  standard methods such as dynamic programming is hindered by excessive memory requirements,
+  caused by the need to store a full-model in memory. Additionally, we show that the
+  RL procedure sets up a local value iteration method to efficiently calculate the
+  maximum probability of satisfying the given property, at any given state of the
+  MDP. We prove that our algorithm is guaranteed to find a policy whose traces probabilistically
+  satisfy the LTL property if such a policy exists, and additionally we show that
+  our method produces reasonable control policies even when the LTL property cannot
+  be satisfied. The performance of the algorithm is evaluated via a set of numerical
+  examples. We observe an improvement of one order of magnitude in the number of iterations
+  required for the synthesis compared to existing approaches.
+archiveprefix: arXiv
+author: Hasanbeig, Mohammadhosein and Abate, Alessandro and Kroening, Daniel
+author_list:
+- family: Hasanbeig
+  given: Mohammadhosein
+- family: Abate
+  given: Alessandro
+- family: Kroening
+  given: Daniel
+eprint: 1801.08099v8
+file: 1801.08099v8.pdf
+files:
+- hasanbeig-mohammadhosein-and-abate-alessandro-and-kroening-daniellogically-constrained-reinforcement-learning2018.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1801.08099v8
+title: Logically-Constrained Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1801.08099v8
+year: '2018'

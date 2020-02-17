@@ -1,0 +1,39 @@
+abstract: 'Learning goal-directed behavior in environments with sparse feedback is
+  a major challenge for reinforcement learning algorithms. The primary difficulty
+  arises due to insufficient exploration, resulting in an agent being unable to learn
+  robust value functions. Intrinsically motivated agents can explore new behavior
+  for its own sake rather than to directly solve problems. Such intrinsic behaviors
+  could eventually help the agent solve tasks posed by the environment. We present
+  hierarchical-DQN (h-DQN), a framework to integrate hierarchical value functions,
+  operating at different temporal scales, with intrinsically motivated deep reinforcement
+  learning. A top-level value function learns a policy over intrinsic goals, and a
+  lower-level function learns a policy over atomic actions to satisfy the given goals.
+  h-DQN allows for flexible goal specifications, such as functions over entities and
+  relations. This provides an efficient space for exploration in complicated environments.
+  We demonstrate the strength of our approach on two problems with very sparse, delayed
+  feedback: (1) a complex discrete stochastic decision process, and (2) the classic
+  ATARI game `Montezuma''s Revenge''.'
+archiveprefix: arXiv
+author: Kulkarni, Tejas D. and Narasimhan, Karthik R. and Saeedi, Ardavan and Tenenbaum,
+  Joshua B.
+author_list:
+- family: Kulkarni
+  given: Tejas D.
+- family: Narasimhan
+  given: Karthik R.
+- family: Saeedi
+  given: Ardavan
+- family: Tenenbaum
+  given: Joshua B.
+eprint: 1604.06057v2
+file: 1604.06057v2.pdf
+files:
+- kulkarni-tejas-d.-and-narasimhan-karthik-r.-and-saeedi-ardavan-and-tenenbaum-joshua-b.hierarchical-deep-reinforcement-learning-integrating-tempor.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1604.06057v2
+title: 'Hierarchical Deep Reinforcement Learning: Integrating Temporal   Abstraction
+  and Intrinsic Motivation'
+type: article
+url: http://arxiv.org/abs/1604.06057v2
+year: '2016'

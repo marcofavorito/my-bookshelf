@@ -1,0 +1,27 @@
+abstract: The paper briefy reviews several recent results on hierarchical architectures
+  for learning from examples, that may formally explain the conditions under which
+  Deep Convolutional Neural Networks perform much better in function approximation
+  problems than shallow, one-hidden layer architectures. The paper announces new results
+  for a non-smooth activation function - the ReLU function - used in present-day neural
+  networks, as well as for the Gaussian networks. We propose a new definition of relative
+  dimension to encapsulate different notions of sparsity of a function class that
+  can possibly be exploited by deep networks but not by shallow ones to drastically
+  reduce the complexity required for approximation and learning.
+archiveprefix: arXiv
+author: Mhaskar, Hrushikesh and Poggio, Tomaso
+author_list:
+- family: Mhaskar
+  given: Hrushikesh
+- family: Poggio
+  given: Tomaso
+eprint: 1608.03287v1
+file: 1608.03287v1.pdf
+files:
+- mhaskar-hrushikesh-and-poggio-tomasodeep-vs.-shallow-networks-an-approximation-theory-perspective2016.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1608.03287v1
+title: 'Deep vs. shallow networks : An approximation theory perspective'
+type: article
+url: http://arxiv.org/abs/1608.03287v1
+year: '2016'

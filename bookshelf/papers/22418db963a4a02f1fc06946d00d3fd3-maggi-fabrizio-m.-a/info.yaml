@@ -1,0 +1,30 @@
+abstract: Temporal logics over finite traces have recently seen wide application in
+  a number of areas, from business process modelling, monitoring, and mining to planning
+  and decision making. However, real-life dynamic systems contain a degree of uncertainty
+  which cannot be handled with classical logics. We thus propose a new probabilistic
+  temporal logic over finite traces using superposition semantics, where all possible
+  evolutions are possible, until observed. We study the properties of the logic and
+  provide automata-based mechanisms for deriving probabilistic inferences from its
+  formulas. We then study a fragment of the logic with better computational properties.
+  Notably, formulas in this fragment can be discovered from event log data using off-the-shelf
+  existing declarative process discovery techniques.
+archiveprefix: arXiv
+author: Maggi, Fabrizio M. and Montali, Marco and Peñaloza, Rafael
+author_list:
+- family: Maggi
+  given: Fabrizio M.
+- family: Montali
+  given: Marco
+- family: Peñaloza
+  given: Rafael
+eprint: 1903.04940v2
+file: 1903.04940v2.pdf
+files:
+- maggi-fabrizio-m.-and-montali-marco-and-penaloza-rafaeltemporal-logics-over-finite-traces-with-uncertainty-technical-report-2019.pdf
+month: Mar
+primaryclass: cs.LO
+ref: 1903.04940v2
+title: Temporal Logics Over Finite Traces with Uncertainty (Technical Report)
+type: article
+url: http://arxiv.org/abs/1903.04940v2
+year: '2019'

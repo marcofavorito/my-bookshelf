@@ -1,0 +1,72 @@
+abstract: <jats:p> Markov decision processes (MDP) have become one of the standard
+  models for decisiontheoretic planning problems under uncertainty. In its standard
+  form, rewards are assumed to be numerical additive scalars. In this paper, we propose
+  a generalization of this model allowing rewards to be functional. The value of a
+  history is recursively computed by composing the reward functions. We show that
+  several variants of MDPs presented in the literature can be instantiated in this
+  setting. We then identify sufficient conditions on these reward functions for dynamic
+  programming to be valid. We also discuss the infinite horizon case and the case
+  where a maximum operator does not exist. In order to show the potential of our framework,
+  we conclude the paper by presenting several illustrative examples. </jats:p>
+author: Weng, Paul and Spanjaard, Olivier
+author_list:
+- affiliation:
+  - name: SYSU-CMU Joint Institute of Engineering, Guangzhou, China
+  - name: SYSU-CMU Joint Research Institute, Shunde, China
+  - name: School of Electronics and Information Technology, SYSU, 132 Eastern Waihuan
+      Road, Guangzhou Higher Education Mega Center, Guangzhou, 510006, China
+  family: Weng
+  given: Paul
+- affiliation:
+  - name: Sorbonne Universités, UPMC Univ Paris 06, UMR 7606, LIP6, F-75005, Paris,
+      France
+  - name: CNRS, UMR 7606, LIP6, F-75005, Paris, France
+  - name: 4 Place Jussieu, 75005, Paris, France
+  family: Spanjaard
+  given: Olivier
+citations:
+- author: Littman M. L.
+  first-page: '394'
+  journal-title: Morgan Kaufmann
+  volume: '199'
+- author: Boyan J.
+  first-page: '1026'
+  journal-title: NIPS
+  volume: '200'
+- author: Regan K.
+  first-page: '444'
+  journal-title: Morgan Kaufmann
+  volume: '200'
+- doi: 10.1016/j.ejor.2005.03.042
+- doi: 10.2307/1913656
+- doi: 10.2307/1912348
+- doi: 10.1016/S0004-3702(00)00033-3
+- author: Bertsekas D.
+  first-page: '580'
+  journal-title: Operations Research
+  volume: '16'
+  year: '1991'
+- doi: 10.2307/1905540
+- author: Carmon Y.
+  journal-title: Operations Research Letters
+  volume: '37'
+- doi: 10.1007/BF01582110
+- author: Machina M.
+  first-page: '232'
+  journal-title: Macmillan
+  volume: '198'
+- doi: 10.1145/358172.358406
+doi: 10.1142/s0218213017600144
+files:
+- weng-paul-and-spanjaard-olivierfunctional-reward-markov-decision-processes-theory-and-applications2017.pdf
+issue: '03'
+journal: International Journal on Artificial Intelligence Tools
+language: en
+month: 6
+pages: '1760014'
+publisher: World Scientific Pub Co Pte Lt
+title: 'Functional Reward Markov Decision Processes: Theory and Applications'
+type: article
+url: http://dx.doi.org/10.1142/s0218213017600144
+volume: '26'
+year: 2017

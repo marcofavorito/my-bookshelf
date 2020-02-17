@@ -1,0 +1,35 @@
+abstract: Intelligent creatures can explore their environments and learn useful skills
+  without supervision. In this paper, we propose DIAYN ('Diversity is All You Need'),
+  a method for learning useful skills without a reward function. Our proposed method
+  learns skills by maximizing an information theoretic objective using a maximum entropy
+  policy. On a variety of simulated robotic tasks, we show that this simple objective
+  results in the unsupervised emergence of diverse skills, such as walking and jumping.
+  In a number of reinforcement learning benchmark environments, our method is able
+  to learn a skill that solves the benchmark task despite never receiving the true
+  task reward. We show how pretrained skills can provide a good parameter initialization
+  for downstream tasks, and can be composed hierarchically to solve complex, sparse
+  reward tasks. Our results suggest that unsupervised discovery of skills can serve
+  as an effective pretraining mechanism for overcoming challenges of exploration and
+  data efficiency in reinforcement learning.
+archiveprefix: arXiv
+author: Eysenbach, Benjamin and Gupta, Abhishek and Ibarz, Julian and Levine, Sergey
+author_list:
+- family: Eysenbach
+  given: Benjamin
+- family: Gupta
+  given: Abhishek
+- family: Ibarz
+  given: Julian
+- family: Levine
+  given: Sergey
+eprint: 1802.06070v6
+file: 1802.06070v6.pdf
+files:
+- eysenbach-benjamin-and-gupta-abhishek-and-ibarz-julian-and-levine-sergeydiversity-is-all-you-need-learning-skills-without-a-reward-function2018.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1802.06070v6
+title: 'Diversity is All You Need: Learning Skills without a Reward Function'
+type: article
+url: http://arxiv.org/abs/1802.06070v6
+year: '2018'

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+            <link rel="canonical" href="https://www.emerald.com/insight/content/doi/10.1108/02686900210429669/full/html" />
+            <meta name="citation_xml_url" content="https://www.emerald.com/insight/content/doi/10.1108/02686900210429669/full/xml"/>
+    
+    <!-- CC: -->
+    <!-- 2020-01-23T11:22:00Z -->
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="Hz1YCRRkBGH0JTr6tQfxcC52TSiSKlycP3jTOPvh">
+
+    <!-- Add Analytics snippets - Oct 2018 -->
+    <!-- start Mixpanel -->
+
+
+<script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.crossOrigin='anonymous';b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);</script>
+
+<script>
+mixpanel.init('8e8ac8d2dbd2378f29bd1dd9116a0c9a', {api_host: "https://api.mixpanel.com"});
+</script>
+<!-- end Mixpanel -->
+
+
+<!-- Google Tag Manager - head section - June 2018 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KGFMJXR');</script>
+<!-- End Google Tag Manager -->
+
+
+
+    <title>     An adaptation to ISO 9001:2000 for certified organisations
+ |  Emerald Insight</title>
+
+    
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+
+    
+    <!--[if IE]>
+    <link href="/insight/static/css/bootstrap-ie9.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link href="/css/bootstrap-ie8.css" rel="stylesheet">
+    <![endif]-->
+
+    
+    
+    <link href="/insight/static/css/app.css?id=eb4f95d6222d329cfc3c" rel="stylesheet">
+
+    
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+    
+            <!--dublincore-->
+
+        <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/">
+         <meta name="dc.Title" content="An adaptation to ISO 9001:2000 for certified organisations">          <meta name="citation_journal_title" content="Managerial Auditing Journal">          <meta name="dc.Subject" content="ISO 9000,Kaizen,Customer satisfaction">          <meta name="dc.Description" content="On 15 December 2000, the International Organisation for Standardisation published a new series of ISO 9000 standards. There are significant changes in this third edition standard. Several specific surveys and analysis revealed the key concerned areas of the certified companies and the significant changes in the new standard are on the key system areas. Develops a new model explicatory to assist those certified organisations to link their concerned areas with that of the new standard. In this model, management activity is the key element. The information can be used in the analysis to determine the areas for continual improvement. Reveals that top management are still weak in the adoption of quality management systems, establishment and implementation of the quality policy and objectives. Recommends use of SMART approach. At the same time, certified organisations spend a lot of effort for the compliance with the process approach management. Discusses the benefits of using process approach management. Besides the plan‐do‐check‐act approach in continuous improvement, introduces the Xerox Management Model. Finally, introduces the consideration of improving quality management systems in areas of effectiveness, efficiency, productivity, flexibility and adaptability, rather than product.">          <meta name="dc.Date" scheme="WTN8601" content="2002-07-01T00:00:00Z">          <meta name="dc.Type" content="article">          <meta name="dc.Format" content="text/html">          <meta name="dc.Identifier" scheme="doi" content="10.1108/02686900210429669">          <meta name="dc.Identifier" scheme="issn" content="0268-6902">                          <meta name="dc.Language" content="en">          <meta name="dc.Coverage" content="world">          <meta name="keywords" content="ISO 9000,Kaizen,Customer satisfaction">          <meta name="dc.Publisher" content="MCB UP Ltd">          <meta name="DCTERMS.bibliographicCitation" scheme="KEV.ctx" content="&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.spage=245&amp;rft.epage=250&amp;rft.volume=17&amp;rft.issue=5">                 
+                            
+                                    <meta name="dc.Contributor" content="Y.C. Tsim">
+                            <meta name="dc.Contributor" content="V.W.S. Yeung">
+                            <meta name="dc.Contributor" content="Edgar T.C. Leung">
+                        <!--dublincore end-->
+    
+            <meta name="description" content="On 15 December 2000, the International Organisation for Standardisation published a new series of ISO 9000 standards. There are significant changes in this third edition standard. Several specific surveys and analysis revealed the key concerned areas of the certified companies and the significant changes in the new standard are on the key system areas. Develops a new model explicatory to assist those certified organisations to link their concerned areas with that of the new standard. In this model, management activity is the key element. The information can be used in the analysis to determine the areas for continual improvement. Reveals that top management are still weak in the adoption of quality management systems, establishment and implementation of the quality policy and objectives. Recommends use of SMART approach. At the same time, certified organisations spend a lot of effort for the compliance with the process approach management. Discusses the benefits of using process approach management. Besides the plan‐do‐check‐act approach in continuous improvement, introduces the Xerox Management Model. Finally, introduces the consideration of improving quality management systems in areas of effectiveness, efficiency, productivity, flexibility and adaptability, rather than product.">
+    </head>
+
+<body data-spy="scroll" data-target=".table-of-contents" data-offset="145" class="">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGFMJXR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="app" class=" nav-padding-login-search">
+
+    <header class="mb-4 mb-lg-0 fixed-top">
+    <div id="support-banner" style="display:inline">
+    <support-banner root="/insight/"></support-banner>
+</div>
+
+    <page-header
+            id="login-header"
+            theme="light"
+            message="Welcome "
+            root="/insight/"
+            defaultusername="Guest user"
+            reloadpageonlogin="true"
+            routes="{&quot;caseStudies&quot;:&quot;\/insight\/content\/case-studies&quot;,&quot;open-access&quot;:&quot;\/insight\/content\/open-access&quot;,&quot;journals&quot;:&quot;\/insight\/content\/journals&quot;,&quot;books&quot;:&quot;\/insight\/content\/books&quot;,&quot;briefings&quot;:&quot;\/insight\/content\/briefings&quot;,&quot;logout&quot;:&quot;\/insight\/logout&quot;,&quot;login&quot;:&quot;\/insight\/login&quot;,&quot;register&quot;:&quot;\/insight\/register&quot;,&quot;savedSearches&quot;:&quot;\/insight\/savedSearches&quot;,&quot;myProducts&quot;:&quot;\/insight\/products&quot;,&quot;myProfile&quot;:&quot;\/insight\/profile&quot;,&quot;home&quot;:&quot;\/insight&quot;}">
+    </page-header>
+
+            <div class="nav-div nav-div-search bg-primary py-3 pl-3 text-dark">
+    <div class="container d-md-flex d-flex-row align-items-center">
+        <div class="flex-grow-1">
+            <form class="intent_header_search_form form-inline w-100" method="get" action="/insight/search">
+                <div class="input-group w-100 border rounded-pill">
+                                        <input type="text" id="terms" name="q"
+                        value=""
+                        class="rounded-left-override  intent_input_query form-control text-ellipsis text-dark border-0"
+                        placeholder="Enter your search terms here"
+                        aria-label="Search" />
+                    <span class="input-group-append">
+                        <button type="submit" class="intent_button_submit btn rounded-right-override text-uppercase bg-white">
+                            <i class="fas fa-search text-muted"></i><span class="sr-only">Search</span>
+                        </button>
+                    </span>
+                </div>
+
+                
+                <input id="showAll" name="showAll" type="hidden" value="true">
+                            </form>
+        </div>
+
+        <div class=" d-sm-flex d-flex-row align-items-center justify-content-end">
+            <div class="pr-0 small mr-0 my-0 text-center text-sm-right text-md-left">
+                <a class="intent_AdvancedSearch font-size-small btn btn-link rounded-0 p-2 text-light" href="/insight/advanced-search">Advanced search</a>
+            </div>
+
+                    </div>
+    </div>
+</div>
+    
+</header>
+
+    <main role="main" class="main-content " id="mainContent">
+        
+    
+    <div class="container content_block">
+        <div class="row">
+            <div class="offset-md-2 col-md-10">
+                <header class="py-3">
+    <h1 class="intent_article_title mt-0 mb-3">An adaptation to ISO 9001:2000 for certified organisations</h1>
+    <section id="intent_contributors" class="mt-4 intent_contributors">
+    <contributor-block block="&lt;span class=&quot;m:contributor-display&quot;&gt;&lt;div class=&quot;contrib_block__contrib intent_contributor&quot; contrib-type=&quot;author&quot;&gt;&lt;a class=&quot;contrib-search&quot; href=&quot;/insight/search?q=Y.C. Tsim&quot;&gt; &lt;span class=&quot;given-names&quot;&gt;Y.C.&lt;/span&gt;  &lt;span class=&quot;surname&quot;&gt;Tsim&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;contrib_block__aff--italic intent_contributor_affiliate&quot;&gt;
+            (Department of Manufacturing Engineering, The Hong Kong Polytechnic University, Hong Kong)
+        &lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;div class=&quot;contrib_block__contrib intent_contributor&quot; contrib-type=&quot;author&quot;&gt;&lt;a class=&quot;contrib-search&quot; href=&quot;/insight/search?q=V.W.S. Yeung&quot;&gt; &lt;span class=&quot;given-names&quot;&gt;V.W.S.&lt;/span&gt;  &lt;span class=&quot;surname&quot;&gt;Yeung&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;contrib_block__aff--italic intent_contributor_affiliate&quot;&gt;
+            (Department of Manufacturing Engineering, The Hong Kong Polytechnic University, Hong Kong)
+        &lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;div class=&quot;contrib_block__contrib intent_contributor&quot; contrib-type=&quot;author&quot;&gt;&lt;a class=&quot;contrib-search&quot; href=&quot;/insight/search?q=Edgar T.C. Leung&quot;&gt; &lt;span class=&quot;given-names&quot;&gt;Edgar T.C.&lt;/span&gt;  &lt;span class=&quot;surname&quot;&gt;Leung&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;contrib_block__aff--italic intent_contributor_affiliate&quot;&gt;
+            (Lloyd’s Register Quality Assurance, Hong Kong)
+        &lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" contrib-count="3" affil-count="3">
+        <span class="m:contributor-display"><div class="contrib_block__contrib intent_contributor" contrib-type="author"><a class="contrib-search" href="/insight/search?q=Y.C. Tsim"> <span class="given-names">Y.C.</span>  <span class="surname">Tsim</span></a><span class="contrib_block__aff--italic intent_contributor_affiliate">
+            (Department of Manufacturing Engineering, The Hong Kong Polytechnic University, Hong Kong)
+        </span></div><span class="x">
+</span><div class="contrib_block__contrib intent_contributor" contrib-type="author"><a class="contrib-search" href="/insight/search?q=V.W.S. Yeung"> <span class="given-names">V.W.S.</span>  <span class="surname">Yeung</span></a><span class="contrib_block__aff--italic intent_contributor_affiliate">
+            (Department of Manufacturing Engineering, The Hong Kong Polytechnic University, Hong Kong)
+        </span></div><span class="x">
+</span><div class="contrib_block__contrib intent_contributor" contrib-type="author"><a class="contrib-search" href="/insight/search?q=Edgar T.C. Leung"> <span class="given-names">Edgar T.C.</span>  <span class="surname">Leung</span></a><span class="contrib_block__aff--italic intent_contributor_affiliate">
+            (Lloyd’s Register Quality Assurance, Hong Kong)
+        </span></div></span>
+    </contributor-block>
+</section>
+    <div class="mb-2">
+    
+            <p>
+            <span class="intent_journal_title"><a href="/insight/publication/issn/0268-6902">Managerial Auditing Journal</a></span>
+        </p>
+    
+    
+            <p class="mt-0">
+            <span>
+                <abbr title="International Standard Serial Number." class="font-weight-normal">ISSN</abbr>:
+                <span class="intent_journal_issn">0268-6902</span>
+            </span>
+        </p>
+    
+    <p class="mt-0">
+        
+        <span class="intent_journal_publication_date">Publication date: 1 July 2002</span>
+        
+                    <span class="ml-2" id="rights-link">
+                <rights-link-button
+    root="/insight/"
+    img-src="/insight/static/img/rightsLink.png"
+    doi="10.1108/02686900210429669">
+</rights-link-button>
+            </span>
+            </p>
+</div>
+    </header>
+            </div>
+        </div>
+    </div>
+    <div class="container content_block">
+        <div class="row">
+            <div class="offset-md-2 col-md-7">
+
+                <section id="abstract" class="intent_abstract pt-2 Abstract">
+            <h2 class="intent_title Abstract__title">Abstract</h2>
+                            
+                                <div class="intent_sub_item Abstract__block">
+
+                    
+                    
+                                            <h3 class="intent_sub_title Abstract__block__title mb-1 mt-1"></h3>
+                                        <section class="intent_sub_content Abstract__block__text">
+                        <p>On 15 December 2000, the International Organisation for Standardisation published a new series of ISO 9000 standards. There are significant changes in this third edition standard. Several specific surveys and analysis revealed the key concerned areas of the certified companies and the significant changes in the new standard are on the key system areas. Develops a new model explicatory to assist those certified organisations to link their concerned areas with that of the new standard. In this model, management activity is the key element. The information can be used in the analysis to determine the areas for continual improvement. Reveals that top management are still weak in the adoption of quality management systems, establishment and implementation of the quality policy and objectives. Recommends use of SMART approach. At the same time, certified organisations spend a lot of effort for the compliance with the process approach management. Discusses the benefits of using process approach management. Besides the plan‐do‐check‐act approach in continuous improvement, introduces the Xerox Management Model. Finally, introduces the consideration of improving quality management systems in areas of effectiveness, efficiency, productivity, flexibility and adaptability, rather than product.</p>
+                    </section>
+                </div><!--/ Abstract__block -->
+
+                    </section><!--/ Abstract -->
+
+    
+
+                <section id="keywords_list" class="intent_keywords">
+        <h2 class="intent_title" id="page__keywords-label">Keywords</h2>
+        <ul class="intent_paragraph list-inline" aria-labelledby="page__keywords-label">
+                            <li class="list-inline-item mr-0"> <a href="/insight/search?q=ISO+9000"class="intent_link btn btn-outline-secondary btn-sm my-1"title="Search for keyword ISO 9000"><span class="intent_text">ISO 9000</span></a></li>
+                            <li class="list-inline-item mr-0"> <a href="/insight/search?q=Kaizen"class="intent_link btn btn-outline-secondary btn-sm my-1"title="Search for keyword Kaizen"><span class="intent_text">Kaizen</span></a></li>
+                            <li class="list-inline-item mr-0"> <a href="/insight/search?q=Customer+satisfaction"class="intent_link btn btn-outline-secondary btn-sm my-1"title="Search for keyword Customer satisfaction"><span class="intent_text">Customer satisfaction</span></a></li>
+                    </ul>
+    </section>
+
+                
+                                    <section class="Citation mb-2">
+    <h4 class="intent_citation Citation__title">Citation</h4>
+    <p>
+        <a href="/insight/search?q=Y.C. Tsim" title="Y.C. Tsim" class="font-weight-light link-dark">Tsim, Y.</a>, <a href="/insight/search?q=V.W.S. Yeung" title="V.W.S. Yeung" class="font-weight-light link-dark">Yeung, V.</a> and <a href="/insight/search?q=Edgar T.C. Leung" title="Edgar T.C. Leung" class="font-weight-light link-dark">Leung, E.</a> (2002), "An adaptation to ISO 9001:2000 for certified organisations", <i><a href="/insight/publication/issn/0268-6902">Managerial Auditing Journal</a></i>, Vol. 17 No. 5, pp. 245-250. <a class='intent_doi_link Citation__identifier__link' href='https://doi.org/10.1108/02686900210429669' title='DOI: https://doi.org/10.1108/02686900210429669'>https://doi.org/10.1108/02686900210429669</a>
+    </p>
+
+    <a href="/insight/content/doi/10.1108/02686900210429669/full/ris" class="intent_ris_link d-inline-block" rel="nofollow">
+        <i class="fas fa-file-alt icon-small" aria-hidden="true"></i> Download as .RIS
+    </a>
+</section><!--/ Citation -->
+                
+                <section class="mt-1 Body" v-pre>
+        <h3 class="d-inline h4" id="page__publisher-label">Publisher</h3>:
+        <p class="publisher d-inline" aria-labelledby="page__publisher-label">MCB UP Ltd</p>
+    </section><!--/ Body -->
+
+                <p class="Citation__identifier">
+        Copyright <span
+            class="intent_copyright_text">&copy; 2002, MCB UP Limited</span>
+    </p>
+            </div>
+        </div><!--/ row -->
+    </div>
+
+    <div id="turnaway-block" class="border-bottom mt-4 pb-3 container-fluid content_block turnaway">
+        <div class="row turnaway__message">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-2 col-md-10 py-3">
+                                                <h4 class="mb-0">Please note you might not have access to this content</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row align-middle">
+        <div class="col-lg-2 col-sm-0"></div>
+        <div class="col-xl-5 col-lg-4 col-sm-12 py-3">
+            <span class="d-inline-block">You may be able to access this content by login via Shibboleth, Open Athens or with your Emerald account.</span>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 py-3">
+            <a
+                href="/insight/login"
+                target="_blank"
+                class="intent_wayf_login btn btn-primary rounded-pill p-0 ml-3 mb-3 d-flex align-items-center justify-content-end turnaway__button"
+            >
+                <span class="flex-grow-1 pr-1">Login</span>
+                <i class="rounded-circle bg-insight far fa-user text-white align-self-center turnaway__button-icon"></i>
+            </a>
+        </div>
+        <div class="col-lg-2 col-sm-0"></div>
+    </div>
+    
+        <div class="row align-middle">
+        <div class="col-lg-2 col-sm-0"></div>
+        <div class="col-xl-5 col-lg-4 col-sm-12 py-3">
+            <span class="d-inline-block">To rent this content from Deepdyve, please click the button.</span>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 py-3">
+                <a
+                    data-event-name="Rent Content"
+                    href="https://www.deepdyve.com/doc-view?docId=10.1108/02686900210429669&fieldName=journal_doi&journal=0268-6902&affiliateId=emerald"
+                    target="_blank"
+                    class="clickIntercept btn btn-primary rounded-pill p-0 ml-3 text-center d-flex turnaway__button"
+                >
+                    <span class="flex-grow-1 align-self-center pr-1">Rent from Deepdyve</span>
+                    <i class="rounded-circle bg-insight fas fa-caret-right text-white align-self-center turnaway__button-icon"></i>
+                </a>
+        </div>
+        <div class="col-lg-2 col-sm-0"></div>
+    </div>
+    
+    
+    <usage-token-access
+        doi="10.1108/02686900210429669"
+        root="/insight/">
+    </usage-token-access>
+
+    <div class="row align-middle">
+        <div class="col-lg-2 col-sm-0"></div>
+        <div class="col-xl-5 col-lg-4 col-sm-12 py-3">
+            <span class="d-inline-block">If you think you should have access to this content, click the button to contact our support team.</span>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-12 py-3">
+            <a
+                data-event-name="Submit Turnaway Enquiry"
+                href="https://emeraldpublishinggroup.freshdesk.com/support/home"
+                target="_blank"
+                class="clickIntercept intent_wayf_enquiry btn btn-primary rounded-pill p-0 ml-3 text-center d-flex turnaway__button"
+            >
+                <span class="flex-grow-1 align-self-center pr-1">Contact us</span>
+                <i class="rounded-circle bg-insight fas fa-caret-right text-white align-self-center turnaway__button-icon"></i>
+            </a>
+        </div>
+        <div class="col-lg-2 col-sm-0"></div>
+    </div>
+</div>    </div><!--/ #turnaway-block -->
+
+    
+    </main>
+
+    <flash message=""></flash>
+
+    <footer class="bg-dark pt-4 pb-5 text-center text-white">
+    <div class="container">
+        <div class="row px-lg-5 pb-3">
+            <div class="col-12 col-md-3 text-md-left pl-md-2 pb-4 pb-md-0 text-white">
+                <img src="/insight/static/img/emerald_publishing_logo-white.png" class="img-fluid" alt="Emerald Publishing" />
+                <div class="mt-2 mt-md-4 mt-xl-5 ml-md-n1 d-flex flex-row justify-content-center justify-content-md-start align-self-center">
+                    <ul class="list-inline my-0 mt-md-2 mt-lg-0">
+                        <li class="list-inline-item"><a href="https://twitter.com/EmeraldGlobal" target="_blank" rel="noopener noreferrer" title="Twitter" class="text-white font-size-small p-1"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only"> Opens in new window</span></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/EmeraldPublishingImpact/" target="_blank" rel="noopener noreferrer" title="Facebook" class="text-white font-size-small p-1"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only"> Opens in new window</span></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/emerald-group-publishing-limited" target="_blank" rel="noopener noreferrer" title="Linkedin" class="text-white font-size-small p-1"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only"> Opens in new window</span></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/user/EmeraldPublishing67" target="_blank" rel="noopener noreferrer" title="Youtube" class="text-white font-size-small p-1"><i class="fab fa-youtube-square" aria-hidden="true"></i><span class="sr-only"> Opens in new window</span></a></li>
+                    </ul>
+                </div>
+                <div class="text-white font-size-small font-weight-light">&copy; 2020 Emerald Publishing Limited</div>
+            </div>
+            <div class="col-12 col-md-3 text-md-left pl-md-4 pb-4 pb-md-0">
+                <h4 class="my-0">Services</h4>
+                <ul class="list-unstyled my-0">
+                    <li><a href="http://www.emeraldgrouppublishing.com/authors/" class="intent_footer_link_services_authors text-white font-size-small font-weight-light" target="_blank" rel="noopener noreferrer" title="Authors">Authors<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/editors/" class="intent_footer_link_services_editors text-white font-size-small font-weight-light" target="_blank" rel="noopener noreferrer" title="Editors">Editors<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/librarians/" class="intent_footer_link_services_librarians text-white font-size-small font-weight-light" target="_blank" rel="noopener noreferrer" title="Librarians">Librarians<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/research/" class="intent_footer_link_services_research text-white font-size-small font-weight-light" target="_blank" rel="noopener noreferrer" title="Researchers">Researchers<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/reviewers/" class="intent_footer_link_services_reviewers text-white font-size-small font-weight-light" target="_blank" rel="noopener noreferrer" title="Reviewers">Reviewers<span class="sr-only"> Opens in new window</span></a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3 text-md-left pb-4 pb-md-0">
+                <h4 class="my-0">About</h4>
+                <ul class="list-unstyled my-0">
+                    <li><a href="http://www.emeraldgrouppublishing.com/about/" target="_blank" rel="noopener noreferrer" title="About Emerald" class="intent_footer_link_about_emerald text-white font-size-small font-weight-light">About Emerald<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="https://careers.emeraldpublishing.com" target="_blank" rel="noopener noreferrer" title="Working for Emerald" class="intent_footer_link_about_working text-white font-size-small font-weight-light">Working for Emerald<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/about/contact.htm" target="_blank" rel="noopener noreferrer" title="Contact us" class="intent_footer_link_about_contact text-white font-size-small font-weight-light">Contact us<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="/insight/sitemap/publications" class="intent_footer_link_publication_sitemap text-white font-size-small font-weight-light">Publication Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3 text-md-left">
+                <h4 class="my-0">Policies and information</h4>
+                <ul class="list-unstyled my-0">
+                    <li><a href="http://www.emeraldgrouppublishing.com/about/policies/" target="_blank" title="Legal" class="intent_footer_link_policies_legal text-white font-size-small font-weight-light">Legal<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/about/policies/editorial.htm" target="_blank" rel="noopener noreferrer" title="Editorial policy" class="intent_footer_link_policies_editorial text-white font-size-small font-weight-light">Editorial policy<span class="sr-only"> Opens in new window</span></a> <span class="text-white font-size-small font-weight-light">&amp;</span> <a href="http://www.emeraldgrouppublishing.com/authors/writing/originality.htm" target="_blank" rel="noopener noreferrer" title="originality guidelines" class="intent_footer_link_policies_originality_guidelines text-white font-size-small font-weight-light">originality guidelines<span class="sr-only"> Opens in new window</span></a></li>
+                    <li><a href="/insight/site-policies" title="Site policies" class="intent_footer_link_policies_site_policies text-white font-size-small font-weight-light">Site policies</a></li>
+                    <li><a href="http://www.emeraldgrouppublishing.com/about/policies/modern_slavery.pdf" target="_blank" rel="noopener noreferrer" title="Modern Slavery Act" class="intent_footer_link_policies_modern_slavery text-white font-size-small font-weight-light">Modern Slavery Act<span class="sr-only"> Opens in new window</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="topscroll">
+    <top-scroll text="Back to top" visibleoffset="500"></top-scroll>
+</div>
+    
+</div>
+
+<div id="cookies-consent">
+    <cookies-consent
+        root="/insight/"
+        class=""></cookies-consent>
+</div>
+<script src="/insight/static/js/manifest.js?id=922fc46aee287e6e4878"></script>
+<script src="/insight/static/js/vendor.js?id=dac14831c793b9ef71ca"></script>
+<script src="/insight/static/js/app.js?id=1386fc96a63a80f82964"></script>
+
+<script type="text/javascript">
+  function registerSuperProperties(props) {
+    const {accountId, name} = props;
+    
+    /** Please read this before changing the keys in superProperties
+     *
+     * The way super properties work is that they are stored in the user's browser.
+     * MixPanel's register function only adds new super properties without replacing old ones.
+     * If you change the key for one of them, then any user will still keep a property under the old key.
+     * This means that they will keep emitting events with that old property forever.
+     * To prevent this, you need to add its key to oldSuperProperties.
+     * (You can make an exception if you're certain that the property you are removing is not going to be
+     *   deployed to production before your commit is merged)
+     *
+     * Using mixpanel.reset() instead has been attempted, but it broke things and couldn't be made to work.
+     */
+    const superProperties = {
+      'Name': name,
+      'Organisation Name': props.organisationName,
+      'Account ID': accountId,
+      'Authentication Type': props.authenticationType,
+      'Session ID': props.sessionId,
+      'Publisher Name': props.publisherName
+    }
+    mixpanel.register(superProperties);
+
+    if (props.isAuthPerson) {
+      mixpanel.people.set({
+        'Account ID': accountId,
+        '$name': name
+      })
+      mixpanel.identify(accountId)
+    }
+  }
+  
+  const root = "/insight/"
+  axios.get(`${root}api/account_properties`).then(res => {
+    registerSuperProperties(res.data)
+  })
+
+  /**
+   * Add keys here to stop them being registered as super properties. This is necessary if a key has previously been added
+   * Only add items to this array, never remove anything unless it is to become a superProperty key again
+   */
+  const oldSuperProperties = ['Account Name', 'Oranisation Name'];
+
+  for (const oldProperty of oldSuperProperties) {
+    mixpanel.unregister(oldProperty);
+  }
+</script>
+<script type="text/javascript">
+  $(function () {
+    $showallClass = '.accessibility-showall'
+    $($showallClass).removeClass($showallClass)
+  })
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    const subDir = "/insight/"
+    $.get(subDir + 'api/banner', function (data) {
+      if (data.status === 'Down') {
+        let bodyElement = $('body')
+        $('.nav-padding-login-search').addClass('nav-padding-login-search-support')
+        bodyElement.attr('data-offset', 215)
+
+        let scrollMagnet = $('.scroll-magnet-item')
+        let observer = new MutationObserver(function () {
+          const scrollingBanner = 'is-scrolling--support-banner'
+          const isScrolling = 'is-scrolling'
+
+          if (scrollMagnet.hasClass(isScrolling) && !scrollMagnet.hasClass(scrollingBanner)) {
+            scrollMagnet.addClass(scrollingBanner)
+          }
+
+          if (!scrollMagnet.hasClass(isScrolling) && scrollMagnet.hasClass(scrollingBanner)) {
+            scrollMagnet.removeClass(scrollingBanner)
+          }
+        })
+
+        observer.observe(scrollMagnet[0], {
+          attributes: true,
+          attributeFilter: ['class'],
+          childList: false,
+          characterData: false
+        })
+      }
+    })
+  })
+</script>
+
+    <div id="shivPlaceholder" class="shivContents position-relative text-center mt-3 mb-3 px-5 py-3 pt-4 border table-responsive" style="display: none">
+    <div style="z-index: 999; right: 1rem; top: 0;" class="position-absolute shiv-header row text-right">
+        <button style="font-size: 2.1rem; width:2.1rem; height:2.1rem; outline: 0 none;" type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="shivContent d-inline-block m-auto text-left position-relative"></div>
+</div>
+
+<script>
+var action_methods = {
+    init: function(){
+        obj = this;
+        $('#app').on("click", ".Link", this.doClick);
+    },
+    doClick: function(e){
+        e.preventDefault();
+
+        var $this = $(this);
+        var shivId = $this.data('shiv');
+
+        if(!shivId) {
+            var target_ids = $this.data('target').split(' ');
+            var data_chunks = target_ids.map(function(x) {
+              return $('#' + x).html()
+            });
+            if(target_ids.length === 0) return;
+
+            var $placeToAddShiv = obj.identifyPlaceToAddShiv($this);
+            var newShivId = obj.uuid();
+            obj.addShiv( $placeToAddShiv, data_chunks, newShivId);
+            $this.data("shiv", newShivId);
+            $this.attr("data-shiv", newShivId);
+        }
+        $shiv = $("#"+shivId);
+        if ($shiv.is(":visible")) { $shiv.hide(); } else { $shiv.show(); }
+        $("#"+shivId+" .shivContents").show();
+    },
+    identifyPlaceToAddShiv: function($sourceElement) {
+        var parentElement = $sourceElement.parent();
+        var contentsArr = parentElement.contents().toArray();
+        var offset = contentsArr.indexOf($sourceElement[0]);
+        var subsequentText = (contentsArr.length > offset) ? contentsArr[offset+1] : '';
+
+        if( subsequentText == '' || typeof subsequentText == 'undefined' ) {
+            return $sourceElement;
+        }
+
+        var charsToSkipRegex = /^(\)?[.,;]?)/;
+        var match = charsToSkipRegex.exec(subsequentText.textContent);
+
+        if (match) {
+            var newNode = $("<span></span>");
+            var textAfterBracket = (subsequentText.textContent.length > 1) ? subsequentText.textContent.replace(match[1],"") : "";
+
+            $sourceElement.after(textAfterBracket);
+            $sourceElement.after(newNode);
+            $sourceElement.after(match[1]);
+            subsequentText.textContent="";
+            return newNode;
+        } else {
+            return $sourceElement;
+        }
+    },
+    addShiv: function($placeToAddShiv, data_chunks, newShivId) {
+        var placeholder = "<span class='shivContainer' id='"+newShivId+"'></span>";
+        var $placeholderEl = $(placeholder);
+        $placeholderEl.attr("id", newShivId);
+
+        for (var i = 0; i<data_chunks.length; i++) {
+            var data_chunk = data_chunks[i];
+            var $wrapper = $("#shivPlaceholder").clone();
+            $wrapper.removeAttr("id").removeAttr("style");
+            $wrapper.find(".shivContent").append(data_chunk);
+            $placeholderEl.append($wrapper);
+        }
+
+        $placeToAddShiv.after($placeholderEl);
+        window.existingBlazy.revalidate();
+        $placeholderEl.find(".close").click(function() {
+            var shivToClose = $($(this).parents(".shivContents")[0]);
+            shivToClose.hide();
+            var remainingShivs = shivToClose.siblings(".shivContents:visible");
+            if (remainingShivs.length === 0){
+                $(this).parents(".shivContainer").hide();
+            }
+        });
+    },
+    uuid: function() {
+        var uuid = '';
+        for (i = 0; i < 16; i++) {
+            var r = Math.floor(Math.random()*16).toString(16).substring(0,1);
+            uuid = uuid + r;
+        }
+        return uuid;
+    }
+};
+
+action_methods.init();
+
+</script>    <script>
+  function trackingEnabled() {
+    const isLockss = (navigator.userAgent === 'LOCKSS cache');
+    const shouldSkipTracking = (window.location.href.indexOf('skipTracking=true') > -1);
+    return !isLockss && !shouldSkipTracking;
+  };
+</script>
+
+
+<script>
+  const mixPanelJson = {"URI":"\/content\/doi\/10.1108\/02686900210429669\/full\/html","Format":"HTML","Denied, Reason":"No License","Content ID \/ DOI":"10.1108\/02686900210429669","Content Title":"An adaptation to ISO 9001:2000 for certified organisations","Parent Title":"Managerial Auditing Journal","Year Of Publication":"2002","Publication Date":"1 July 2002","Access Method":"User","Access Type":"controlled","Parent Type":"journal","ISSN":"0268-6902","Parent ID \/ DOI":"10.1108\/maj","pISBN":"","eISBN":"","ISBN":"","Content Type":"article"};
+  const mixPanelCurrentPageEvent = 'Turnaway';
+  const currentDate = '2020-01-23T11:22:00+00:00';
+  const isAuthenticatedPerson = '';
+
+  let teachingNotesAlreadyClicked = false;
+  let caseStudyAlreadyClicked = false;
+
+  function mixpanelTrack(eventName, mixPanelData) {
+    mixpanel.push(['track', eventName, mixPanelData]);
+
+    if(isAuthenticatedPerson) {
+        if (['Download', 'Turnaway', 'Saved Search'].includes(eventName)) {
+          mixpanel.people.increment('# of ' + eventName + 's');
+        }
+
+        if (eventName === 'Download') {
+          mixpanel.people.set({'Last Download Date': currentDate});
+          mixpanel.identify('00001');
+        }
+    }
+
+  };
+
+  function trackTeachingNoteDownload() {
+    if (teachingNotesAlreadyClicked) {
+      return;
+    }
+    teachingNotesAlreadyClicked = true;
+
+    const mixPanelData = JSON.parse(JSON.stringify(mixPanelJson));
+    mixPanelData['Content Type'] = 'Teaching Note';
+    mixpanelTrack('Download', mixPanelData);
+  }
+
+  function trackCaseStudyDownload() {
+    if (caseStudyAlreadyClicked) {
+      return;
+    }
+    caseStudyAlreadyClicked = true;
+
+    const mixPanelData = JSON.parse(JSON.stringify(mixPanelJson));
+    mixPanelData['Content Type'] = 'case study';
+    mixpanelTrack('Download', mixPanelData);
+  }
+
+  function eventInterceptInit() {
+    $('a.clickIntercept').on('click', function (e) {
+        e.preventDefault();
+
+        const $this = $(this);
+        switch($this.data("contentType")) {
+          case 'Case Study':
+            trackCaseStudyDownload();
+            break;
+          case 'Teaching Note':
+            trackTeachingNoteDownload();
+            break;
+          default:
+            const mixPanelData = JSON.parse(JSON.stringify(mixPanelJson));
+            const clickEventName = $this.data("eventName");
+            mixpanelTrack(clickEventName, mixPanelData);
+        }
+
+        const $targetValue = $this.attr('target');
+        const $linkLocation = $this.attr('href');
+
+        if ($targetValue === '_blank') {
+          window.open($linkLocation)
+        } else {
+          window.location = $linkLocation;
+        };
+    });
+  };
+
+  // Check if the tabs were already clicked on page land, if it was then track the relevant event
+  function checkSelectedTabs() {
+    if ($('#teaching-notes').attr('aria-selected') === 'true') {
+      trackTeachingNoteDownload();
+    } else if($('#cases').attr('aria-selected') === 'true') {
+      trackCaseStudyDownload();
+    } else {
+      mixpanelTrack(mixPanelCurrentPageEvent, mixPanelJson);
+    }
+  }
+
+  (function(){
+    if (trackingEnabled()) {
+      checkSelectedTabs();
+      eventInterceptInit();
+    };
+  })();
+</script>
+
+
+
+<script>
+var _ll = _ll || [];
+
+function counterTrack(endpoint) {
+  window._ll = [];
+
+  window._ll.push(['setEndpoint', endpoint ]);
+
+  window._ll.push(['setDefaults', {"pid":"0959a6c7150c5e64","plname":"Emerald Publishing Limited"} ]);
+
+  var counterJson = {"tm":{"title":"Managerial Auditing Journal","dt":"journal","issnp":"0268-6902","doi":"10.1108\/maj"},"im":{"doi":"10.1108\/02686900210429669","title":"An adaptation to ISO 9001:2000 for certified organisations","yop":"2002","pdate":"1 July 2002","stype":"article","dt":"article"},"aid":"00001","aname":"Guest User","sid":"laravelid2QxzvHaUbuUiwVGKPOJH7zLzQ6W4kGLVNG22fRTy","uri":"\/content\/doi\/10.1108\/02686900210429669\/full\/html","fmt":"HTML","deny":"No_License","am":"regular","at":"controlled"};
+
+  
+    window._ll.push(['trackDenial', counterJson ]);
+
+     // track turnaway abtract page as investigation
+        window._ll.push(['trackItemInvestigation', counterJson ]);
+    
+  };
+
+function counterLoadScript(){
+  let d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+
+      const liblynxSuffix = '/log/js/counter5.min.js';
+  
+  const liblynxPrefixOne = "https://connect.lib";
+  const liblynxPrefixTwo = "lynx.com";
+
+  const liblynxSrc = liblynxPrefixOne + liblynxPrefixTwo + liblynxSuffix;
+
+  g.type='text/javascript';
+  g.async=true;
+  g.id='counter_script';
+  g.defer=true;
+  g.src=liblynxSrc;
+  s.parentNode.insertBefore(g,s);
+};
+
+function counterGetEndpoint() {
+  const baseUrlOne = "https://connect.lib".replace('https:','').replace('http:','');
+  const baseUrlTwo = "lynx.com";
+  return baseUrlOne + baseUrlTwo + '/log/counter';
+};
+
+(function(){
+  if (trackingEnabled()) {
+    counterTrack(counterGetEndpoint());
+    counterLoadScript();
+  };
+})();
+</script>
+
+
+<div id="feedback-strip" class="header-feedback dropdown  ">
+  <div class="header-feedback__link ">
+    <button
+      type="button"
+      class="intent_header_feedback_link header-feedback__link-button collapsed"
+      data-toggle="collapse"
+      data-target="#header-feedback-content"
+      aria-expanded="false"
+    >
+      <div class="header-feedback__link-left font-weight-bold text-md-center text-lg-left">
+        <span id="header-feedback__link-text">Share feedback</span> <span id="header-feedback__link-caret" class="toggleCaret fas fa-caret-up fa-lg ml-1"></span>
+      </div>
+    </button>
+  </div>
+
+  <div id="header-feedback-content" class="intent_header_feedback_content header-feedback__content collapse  pt-4 pb-4 text-center text-white">
+    <div class="container">
+      <div class="row px-lg-5">
+
+        <div class="col-12 col-md-6 text-left pl-md-2 pb-2 pb-md-0">
+          <h2 class="h2 mb-2">We’re listening &mdash; tell us what you think</h2>
+          <ul class="emerald-list mb-2 pt-1">
+            <li>
+              <h3 class="h4">Something didn’t work…</h3>
+              <p><a href="https://emeraldpublishinggroup.freshdesk.com/support/home">Report bugs here</a></p>
+            </li>
+            <li>
+              <h3 class="h4">All feedback is valuable</h3>
+              <p>Please <a href="mailto:feedback@emeraldgroup.com?subject=Feedback%20for%20Emerald%20Insight" target="_blank">share your general feedback</a></p>
+            </li>
+            <li>
+              <h3 class="h4">Member of Emerald’s Library Advisory Network?</h3>
+              <p>You can <a href="https://crescendo.ex-plor.com/groups/37" target="_blank">start or join in a discussion here</a>.<br> If you’d like to know more about The Network, please <a href="mailto:welcome@emeraldgroup.com">email us</a></p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 text-left pl-md-2 pb-2 pb-md-0">
+          <h2 class="h2 mb-2">Join us on our journey</h2>
+          <ul class="emerald-list mb-2 pt-1">
+            <li>
+              <h3 class="h4">Platform update page</h3>
+              <p>Visit <a href="http://www.emeraldpublishing.com/platformupdate" target="_blank">emeraldpublishing.com/platformupdate</a> to discover the latest news and updates</p>
+            </li>
+            <li>
+              <h3 class="h4">Frequently Asked Questions</h3>
+              <p>Your <a href="/insight/faq" class="intent_beta_strip_linK_faq">questions answered here</a></p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="feedback-underlay">
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.header-feedback__link-button ').click(function () {
+      $('#header-feedback__link-caret').toggleClass('fa-caret-up fa-caret-down');
+      if( $('#header-feedback__link-text').text() == 'Close')
+      {
+        $('#header-feedback__link-text').text('Share feedback');
+        $('#feedback-underlay').hide();
+      } else {
+        $('#header-feedback__link-text').text('Close');
+        $('#feedback-underlay').show();
+      };
+    });
+  });
+</script>
+</body>
+</html>

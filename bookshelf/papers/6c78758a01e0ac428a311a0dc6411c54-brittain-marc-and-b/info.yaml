@@ -1,0 +1,31 @@
+abstract: Experience replay is widely used in deep reinforcement learning algorithms
+  and allows agents to remember and learn from experiences from the past. In an effort
+  to learn more efficiently, researchers proposed prioritized experience replay (PER)
+  which samples important transitions more frequently. In this paper, we propose Prioritized
+  Sequence Experience Replay (PSER) a framework for prioritizing sequences of experience
+  in an attempt to both learn more efficiently and to obtain better performance. We
+  compare performance of uniform, PER and PSER sampling techniques in DQN on the Atari
+  2600 benchmark and show DQN with PSER substantially outperforms PER and uniform
+  sampling.
+archiveprefix: arXiv
+author: Brittain, Marc and Bertram, Josh and Yang, Xuxi and Wei, Peng
+author_list:
+- family: Brittain
+  given: Marc
+- family: Bertram
+  given: Josh
+- family: Yang
+  given: Xuxi
+- family: Wei
+  given: Peng
+eprint: 1905.12726v1
+file: 1905.12726v1.pdf
+files:
+- brittain-marc-and-bertram-josh-and-yang-xuxi-and-wei-pengprioritized-sequence-experience-replay2019.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.12726v1
+title: Prioritized Sequence Experience Replay
+type: article
+url: http://arxiv.org/abs/1905.12726v1
+year: '2019'

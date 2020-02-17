@@ -1,0 +1,34 @@
+abstract: Stochastic Shortest Path (SSP) MDPs is a problem class widely studied in
+  AI, especially in probabilistic planning. They describe a wide range of scenarios
+  but make the restrictive assumption that the goal is reachable from any state, i.e.,
+  that dead-end states do not exist. Because of this, SSPs are unable to model various
+  scenarios that may have catastrophic events (e.g., an airplane possibly crashing
+  if it flies into a storm). Even though MDP algorithms have been used for solving
+  problems with dead ends, a principled theory of SSP extensions that would allow
+  dead ends, including theoretically sound algorithms for solving such MDPs, has been
+  lacking. In this paper, we propose three new MDP classes that admit dead ends under
+  increasingly weaker assumptions. We present Value Iteration-based as well as the
+  more efficient heuristic search algorithms for optimally solving each class, and
+  explore theoretical relationships between these classes. We also conduct a preliminary
+  empirical study comparing the performance of our algorithms on different MDP classes,
+  especially on scenarios with unavoidable dead ends.
+archiveprefix: arXiv
+author: Kolobov, Andrey and Mausam,  and Weld, Daniel
+author_list:
+- family: Kolobov
+  given: Andrey
+- family: Mausam
+  given: ''
+- family: Weld
+  given: Daniel
+eprint: 1210.4875v1
+file: 1210.4875v1.pdf
+files:
+- kolobov-andrey-and-mausam-and-weld-daniela-theory-of-goal-oriented-mdps-with-dead-ends2012.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1210.4875v1
+title: A Theory of Goal-Oriented MDPs with Dead Ends
+type: article
+url: http://arxiv.org/abs/1210.4875v1
+year: '2012'

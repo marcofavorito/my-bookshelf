@@ -1,0 +1,36 @@
+abstract: Reinforcement learning (RL) depends critically on the choice of reward functions
+  used to capture the de- sired behavior and constraints of a robot. Usually, these
+  are handcrafted by a expert designer and represent heuristics for relatively simple
+  tasks. Real world applications typically involve more complex tasks with rich temporal
+  and logical structure. In this paper we take advantage of the expressive power of
+  temporal logic (TL) to specify complex rules the robot should follow, and incorporate
+  domain knowledge into learning. We propose Truncated Linear Temporal Logic (TLTL)
+  as specifications language, that is arguably well suited for the robotics applications,
+  together with quantitative semantics, i.e., robustness degree. We propose a RL approach
+  to learn tasks expressed as TLTL formulae that uses their associated robustness
+  degree as reward functions, instead of the manually crafted heuristics trying to
+  capture the same specifications. We show in simulated trials that learning is faster
+  and policies obtained using the proposed approach outperform the ones learned using
+  heuristic rewards in terms of the robustness degree, i.e., how well the tasks are
+  satisfied. Furthermore, we demonstrate the proposed RL approach in a toast-placing
+  task learned by a Baxter robot.
+archiveprefix: arXiv
+author: Li, Xiao and Vasile, Cristian-Ioan and Belta, Calin
+author_list:
+- family: Li
+  given: Xiao
+- family: Vasile
+  given: Cristian-Ioan
+- family: Belta
+  given: Calin
+eprint: 1612.03471v2
+file: 1612.03471v2.pdf
+files:
+- li-xiao-and-vasile-cristian-ioan-and-belta-calinreinforcement-learning-with-temporal-logic-rewards2016.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 1612.03471v2
+title: Reinforcement Learning With Temporal Logic Rewards
+type: article
+url: http://arxiv.org/abs/1612.03471v2
+year: '2016'

@@ -1,0 +1,29 @@
+abstract: We present a rigorous framework for the composition of Web Services within
+  a higher order logic theorem prover. Our approach is based on the proofs-as-processes
+  paradigm that enables inference rules of Classical Linear Logic (CLL) to be translated
+  into pi-calculus processes. In this setting, composition is achieved by representing
+  available web services as CLL sentences, proving the requested composite service
+  as a conjecture, and then extracting the constructed pi-calculus term from the proof.
+  Our framework, implemented in HOL Light, not only uses an expressive logic that
+  allows us to incorporate multiple Web Services properties in the composition process,
+  but also provides guarantees of soundness and correctness for the composition.
+archiveprefix: arXiv
+author: Papapanagiotou, Petros and Fleuriot, Jacques D.
+author_list:
+- family: Papapanagiotou
+  given: Petros
+- family: Fleuriot
+  given: Jacques D.
+doi: 10.4204/EPTCS.61.1
+eprint: 1108.2348v1
+file: 1108.2348v1.pdf
+files:
+- papapanagiotou-petros-and-fleuriot-jacques-d.a-theorem-proving-framework-for-the-formal-verification-of-web-services-composition2011.pdf
+month: Aug
+note: EPTCS 61, 2011, pp. 1-16
+primaryclass: cs.LO
+ref: 1108.2348v1
+title: A theorem proving framework for the formal verification of Web Services   Composition
+type: article
+url: http://arxiv.org/abs/1108.2348v1
+year: '2011'

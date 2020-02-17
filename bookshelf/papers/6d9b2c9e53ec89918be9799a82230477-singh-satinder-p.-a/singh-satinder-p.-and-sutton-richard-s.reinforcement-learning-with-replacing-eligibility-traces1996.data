@@ -1,0 +1,699 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+    <meta name="citation_title" content="Reinforcement learning with replacing eligibility traces"/>
+    <meta name="citation_doi" content="10.1007/BF00114726"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/article/10.1007/BF00114726"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF00114726"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2FBF00114726.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF00114726&amp;api_key="/>
+    <meta name="citation_firstpage" content="123"/>
+    <meta name="citation_lastpage" content="158"/>
+    <meta name="citation_author" content="Satinder P. Singh"/>
+    <meta name="citation_author_institution" content="Massachusetts Institute of Technology"/>
+    <meta name="citation_author" content="Richard S. Sutton"/>
+    <meta name="citation_author_institution" content="University of Massachusetts"/>
+    <meta name="dc.identifier" content="10.1007/BF00114726"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="citation_fulltext_world_readable" content=""/>
+    <meta name="description" content="The eligibility trace is one of the basic mechanisms used in reinforcement learning to handle delayed reward. In this paper we introduce a new kind of eligibility trace, the replacingtrace, analyze..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Reinforcement learning with replacing eligibility traces"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10994/22/1.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="The eligibility trace is one of the basic mechanisms used in reinforcement learning to handle delayed reward. In this paper we introduce a new kind of eligibility trace, the replacingtrace, analyze..."/>
+    <meta name="citation_journal_title" content="Machine Learning"/>
+    <meta name="citation_journal_abbrev" content="Mach Learn"/>
+    <meta name="citation_volume" content="22"/>
+    <meta name="citation_issue" content="1-3"/>
+    <meta name="citation_issn" content="0885-6125"/>
+    <meta name="citation_issn" content="1573-0565"/>
+    <meta name="citation_cover_date" content="1996/03/01"/>
+    <meta name="citation_article_type" content="Article"/>
+    <meta property="og:title" content="Reinforcement learning with replacing eligibility traces"/>
+    <meta property="og:type" content="Article"/>
+    <meta property="og:url" content="https://link.springer.com/article/10.1007/BF00114726"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/journal/10994/22/1.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="The eligibility trace is one of the basic mechanisms used in reinforcement learning to handle delayed reward. In this paper we introduce a new kind of eligibility trace, the replacingtrace, analyze..."/>
+
+        <title>Reinforcement learning with replacing eligibility traces | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/article/10.1007/BF00114726"/>
+        <link rel="shortcut icon" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/632953562/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/632953562/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/632953562/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/632953562/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/632953562/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Article",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/BF00114726",
+                'VG Wort Identifier':"vgzm.415900-10.1007-BF00114726",
+                'hasAccess':"Y",
+                'Full HTML':"N",
+                'Has Body':"N",
+                'Static Hash':"632953562",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},
+                'content':{"serial":{"eissn":"1573-0565","pissn":"0885-6125"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"4":"Simulation and Modeling","5":"Natural Language Processing (NLP)","1":"Artificial Intelligence","2":"Control, Robotics, Mechatronics","3":"Artificial Intelligence"},"secondarySubjectCodes":{"4":"I19000","5":"I21040","1":"I21000","2":"T19000","3":"I21000"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"bunsen"}},
+                'Access Type':"subscription",
+                'Page':"article",
+                'Bpids':"",
+                'Bpnames':"",
+                'SubjectCodes':"SCI, SCI21000, SCT19000, SCI21000, SCI19000, SCI21040",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"reinforcement learning, temporal difference learning, eligibility trace, Monte Carlo method, Markov chain, CMAC",
+                'Country':"IT",
+                'Journal Id':"10994",
+                'Journal Title':"Machine Learning",
+
+                    'doi': "10.1007-BF00114726",
+                    'kwrd': ["reinforcement_learning","temporal_difference_learning","eligibility_trace","Monte_Carlo_method","Markov_chain","CMAC"],
+                    'pmc': ["I","I21000","T19000","I21000","I19000","I21040"],
+                    'BPID': ["1"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/632953562/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a class="skip-to__link skip-to__link--contents pseudo-focus" href="#article-contents">Skip to sections</a>
+</div>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                        <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+        <image width="148" height="30" alt="" src="/springerlink-static/632953562/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/632953562/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00114726">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+            <main id="main-content" class="main-wrapper" tabindex="-1">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="cover-image test-cover" itemscope>
+                                    <a class="test-cover-link" href="/journal/10994">
+        <span class="u-screenreader-only">Machine Learning</span>
+        <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover/journal/10994/22/1.jpg" itemprop="image" alt=""/>
+    </a>
+
+
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                                <div class="cta-button-container cta-button-container--top cta-button-container--stacked u-mb-16 u-hide-two-col">
+                    <div>
+            <a href="/content/pdf/10.1007%2FBF00114726.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+        </div>
+
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration"><p><a href="/journal/10994" title="Machine Learning" data-track="click" data-track-action="Journal title" data-track-label=""><span class="JournalTitle">Machine Learning</span></a></p><p class="icon--meta-keyline"><span class="ArticleCitation_Year"><time datetime="1996-03">March 1996</time>, </span><span class="ArticleCitation_Volume">Volume 22, </span><a class="ArticleCitation_Issue" href="/journal/10994/22/1/page/1" data-track="click" data-track-action="Article issue" data-track-label="">Issue 1–3</a>,
+                       <span class="ArticleCitation_Pages"> pp 123–158</span><span class="u-inline-block u-ml-4"> | <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Enumeration section">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ArticleTitle" lang="en">Reinforcement learning with replacing eligibility traces</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="#authorsandaffiliations" data-track="click" data-track-action="Authors and affiliations tab" data-track-label="">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Satinder P. Singh</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Richard S. Sutton</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><span class="test-render-category">Article</span></span></div><div class="main-context__column">    <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-socialmediamentions-count" href="http://www.altmetric.com/details.php?citation_id&#x3D;41405779&amp;domain&#x3D;link.springer.com" target="_blank" rel="noopener"
+                       title="Visit Altmetric for full social mention details" id="socialmediamentions-link">
+                            <span id="socialmediamentions-count-number" class="test-metric-count c-button-circle gtm-socialmediamentions-count">1</span>
+                       <span class="test-metric-name article-metrics__label gtm-socialmediamentions-count">Shares</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                     <span class="test-metric-count article-metrics__views">2.4k</span>
+                     <span class="test-metric-name article-metrics__label">Downloads</span>
+            </li>
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-citations-count" href="https://citations.springer.com/item?doi&#x3D;10.1007/BF00114726" target="_blank" rel="noopener"
+                       title="Visit Springer Citations for full citation details" id="citations-link">
+                            <span id="citations-count-number" class="test-metric-count c-button-circle gtm-citations-count">138</span>
+                       <span class="test-metric-name article-metrics__label gtm-citations-count">Citations</span>
+                    </a>
+            </li>
+    </ul>
+</div></div></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p class="Para">The eligibility trace is one of the basic mechanisms used in reinforcement learning to handle delayed reward. In this paper we introduce a new kind of eligibility trace, the<em class="EmphasisTypeItalic ">replacing</em> trace, analyze it theoretically, and show that it results in faster, more reliable learning than the conventional trace. Both kinds of trace assign credit to prior events according to how recently they occurred, but only the conventional trace gives greater credit to repeated events. Our analysis is for conventional and replace-trace versions of the offline TD(1) algorithm applied to undiscounted absorbing Markov chains. First, we show that these methods converge under repeated presentations of the training set to the same predictions as two well known Monte Carlo methods. We then analyze the relative efficiency of the two Monte Carlo methods. We show that the method corresponding to conventional TD is biased, whereas the method corresponding to replace-trace TD is unbiased. In addition, we show that the method corresponding to replacing traces is closely related to the maximum likelihood solution for these tasks, and that its mean squared error is always lower in the long run. Computational results confirm these analyses and show that they are applicable more generally. In particular, we show that replacing traces significantly improve performance and reduce parameter sensitivity on the "Mountain-Car" task, a full reinforcement-learning problem with a continuous state space, when using a feature-based function approximator.</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">reinforcement learning </span><span class="Keyword">temporal difference learning </span><span class="Keyword">eligibility trace </span><span class="Keyword">Monte Carlo method </span><span class="Keyword">Markov chain </span><span class="Keyword">CMAC </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div>    <a href="/content/pdf/10.1007%2FBF00114726.pdf" target="_blank" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">Download</a>
+ to read the full article text</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationContent" id="CR1">Albus, J. S., (1981).<em class="EmphasisTypeItalic ">Brain, Behavior, and Robotics</em>, chapter 6, pages 139–179, Byte Books.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Albus%2C%20J.%20S.%2C%20%281981%29.Brain%2C%20Behavior%2C%20and%20Robotics%2C%20chapter%206%2C%20pages%20139%E2%80%93179%2C%20Byte%20Books."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR2">Baase, S., (1988).<em class="EmphasisTypeItalic ">Computer Algorithms: Introduction to design and analysis</em>. Reading, MA: Addison-Wesley.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Computer%20Algorithms%3A%20Introduction%20to%20design%20and%20analysis&amp;author=S..%20Baase&amp;publication_year=1988"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR3">Barnard, E., (1993). Temporal-difference methods and Markov models.<em class="EmphasisTypeItalic ">IEEE Transactions on Systems, Man. and Cybernetics</em>,<em class="EmphasisTypeItalic ">23</em>(2), 357–365.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Temporal-difference%20methods%20and%20Markov%20models&amp;author=E..%20Barnard&amp;journal=IEEE%20Transactions%20on%20Systems%2C%20Man.%20and%20Cybernetics&amp;volume=23&amp;issue=2&amp;pages=357-365&amp;publication_year=1993"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR4">Barto, A. G. &amp; Duff, M., (1994). Monte Carlo matrix inversion and reinforcement learning. In<em class="EmphasisTypeItalic ">Advances in Neural Information Processing Systems 6</em>, pages 687–694, San Mateo, CA, Morgan Kaufrnann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Monte%20Carlo%20matrix%20inversion%20and%20reinforcement%20learning&amp;author=A.%20G..%20Barto&amp;author=M..%20Duff&amp;pages=687-694&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR5">Barto, A. G., Sutton, R. S., &amp; Anderson, C. W., (1983). Neuronlike elements that can solve difficult learning control problems.<em class="EmphasisTypeItalic ">IEEE Trans. on Systems, Man, and Cybernetics</em>,<em class="EmphasisTypeItalic ">13</em>, 835–846.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Neuronlike%20elements%20that%20can%20solve%20difficult%20learning%20control%20problems&amp;author=A.%20G..%20Barto&amp;author=R.%20S..%20Sutton&amp;author=C.%20W..%20Anderson&amp;journal=IEEE%20Trans.%20on%20Systems%2C%20Man%2C%20and%20Cybernetics&amp;volume=13&amp;pages=835-846&amp;publication_year=1983"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR6">Bellman, R. E., (1957).<em class="EmphasisTypeItalic ">Dynamic Programming</em>. Princeton, NJ: Princeton University Press.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Dynamic%20Programming&amp;author=R.%20E..%20Bellman&amp;publication_year=1957"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR7">Curtiss, J. H., (1954). A theoretical comparison of the efficiencies of two classical methods and a Monte Carlo method for computing one component of the solution of a set of linear algebraic equations. In Meyer, H. A. (Ed.),<em class="EmphasisTypeItalic ">Symposium on Monte Carlo Methods</em>, pages 191–233, New York: Wiley.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20theoretical%20comparison%20of%20the%20efficiencies%20of%20two%20classical%20methods%20and%20a%20Monte%20Carlo%20method%20for%20computing%20one%20component%20of%20the%20solution%20of%20a%20set%20of%20linear%20algebraic%20equations&amp;author=J.%20H..%20Curtiss&amp;pages=191-233&amp;publication_year=1954"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR8">Dayan, P., (1992). The convergence of TD(λ) for general λ.<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">8</em>(3/4), 341–362.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=The%20convergence%20of%20TD%28%CE%BB%29%20for%20general%20%CE%BB&amp;author=P..%20Dayan&amp;journal=Machine%20Learning&amp;volume=8&amp;issue=3%2F4&amp;pages=341-362&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR9">Dayan, P., (1993). Improving generalization for temporal difference learning: The successor representation.<em class="EmphasisTypeItalic ">Neural Computation</em>,<em class="EmphasisTypeItalic ">5</em>(4), 613–624.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Improving%20generalization%20for%20temporal%20difference%20learning%3A%20The%20successor%20representation&amp;author=P..%20Dayan&amp;journal=Neural%20Computation&amp;volume=5&amp;issue=4&amp;pages=613-624&amp;publication_year=1993"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR10">Dayan, P. &amp; Sejnowski, T., (1994). TD(λ) converges with probability 1.<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">14</em>, 295–301.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=TD%28%CE%BB%29%20converges%20with%20probability%201&amp;author=P..%20Dayan&amp;author=T..%20Sejnowski&amp;journal=Machine%20Learning&amp;volume=14&amp;pages=295-301&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR11">Holland, J. H., (1986).<em class="EmphasisTypeItalic ">Escaping brittleness: The possibilities of general-purpose learning algorithms applied to parallel rule-based systems</em>, Volume 2 of<em class="EmphasisTypeItalic ">Machine Learning: An Artificial Intelligence Approach</em>. chapter 20. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Holland%2C%20J.%20H.%2C%20%281986%29.Escaping%20brittleness%3A%20The%20possibilities%20of%20general-purpose%20learning%20algorithms%20applied%20to%20parallel%20rule-based%20systems%2C%20Volume%202%20ofMachine%20Learning%3A%20An%20Artificial%20Intelligence%20Approach.%20chapter%2020.%20Morgan%20Kaufmann."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR12">Jaakkola, T., Jordan, M. I., &amp; Singh, S. P., (1994). On the convergence of stochastic iterative dynamic programming algorithms.<em class="EmphasisTypeItalic ">Neural Computation</em>,<em class="EmphasisTypeItalic ">6</em>(6), 1185–1201.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=On%20the%20convergence%20of%20stochastic%20iterative%20dynamic%20programming%20algorithms&amp;author=T..%20Jaakkola&amp;author=M.%20I..%20Jordan&amp;author=S.%20P..%20Singh&amp;journal=Neural%20Computation&amp;volume=6&amp;issue=6&amp;pages=1185-1201&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR13">Jaakkola, T., Singh, S. P., &amp; Jordan, M. I., (1995). Reinforcement learning algorithm for partially observable Markov decision problems. In<em class="EmphasisTypeItalic ">Advances in Neural Information Processing Systems 7</em>. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Jaakkola%2C%20T.%2C%20Singh%2C%20S.%20P.%2C%20%26%20Jordan%2C%20M.%20I.%2C%20%281995%29.%20Reinforcement%20learning%20algorithm%20for%20partially%20observable%20Markov%20decision%20problems.%20InAdvances%20in%20Neural%20Information%20Processing%20Systems%207.%20Morgan%20Kaufmann."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR14">Klopf, A. H., (1972). Brain function and adaptive systems—A heterostatic theory. Technical Report AFCRL 72–0164, Air Force Cambridge Research Laboratories, Bedford, MA.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Brain%20function%20and%20adaptive%20systems%E2%80%94A%20heterostatic%20theory&amp;author=A.%20H..%20Klopf&amp;publication_year=1972"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR15">Kumar, P. R. &amp; Varaiya, P. P., (1986).<em class="EmphasisTypeItalic ">Stochastic Systems: Estimation. Identification, and Adaptive Control</em> Englewood Cliffs, N.J.: Prentice Hall.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Stochastic%20Systems%3A%20Estimation.%20Identification%2C%20and%20Adaptive%20Control&amp;author=P.%20R..%20Kumar&amp;author=P.%20P..%20Varaiya&amp;publication_year=1986"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR16">Lin, L. J., (1992). Self-improving reactive agents based on reinforcement learning, planning and teaching<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">8</em>(3/4), 293–321.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Self-improving%20reactive%20agents%20based%20on%20reinforcement%20learning%2C%20planning%20and%20teaching&amp;author=L.%20J..%20Lin&amp;journal=Machine%20Learning&amp;volume=8&amp;issue=3%2F4&amp;pages=293-321&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR17">Miller, W. T., Glanz, F. H., &amp; Kraft, L. G., (1990). CMAC: An associative neural network alternative to backpropagation.<em class="EmphasisTypeItalic ">Proc. of the IEEE</em>,<em class="EmphasisTypeItalic ">78</em>, 1561–1567.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=CMAC%3A%20An%20associative%20neural%20network%20alternative%20to%20backpropagation&amp;author=W.%20T..%20Miller&amp;author=F.%20H..%20Glanz&amp;author=L.%20G..%20Kraft&amp;journal=Proc.%20of%20the%20IEEE&amp;volume=78&amp;pages=1561-1567&amp;publication_year=1990"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR18">Moore, A. W., (1991). Variable resolution dynamic programming: Efficiently learning action maps in multi variate real-valued state-spaces. In<em class="EmphasisTypeItalic ">Machine Learning: Proceedings of the Eighth International Workshop</em>, pages 333–337, San Mateo, CA. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Variable%20resolution%20dynamic%20programming%3A%20Efficiently%20learning%20action%20maps%20in%20multi%20variate%20real-valued%20state-spaces&amp;author=A.%20W..%20Moore&amp;pages=333-337&amp;publication_year=1991"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR19">Peng, J., (1993).<em class="EmphasisTypeItalic ">Dynamic Programming-based Learning for Control</em>. PhD thesis, Northeastern University.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Peng%2C%20J.%2C%20%281993%29.Dynamic%20Programming-based%20Learning%20for%20Control.%20PhD%20thesis%2C%20Northeastern%20University."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR20">Peng, J. &amp; Williams, R. J., (1994). Incremental multi-step Q-learning. In<em class="EmphasisTypeItalic ">Machine Learning: Proceedings of the Eleventh International Conference</em>, pages 226–232. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Peng%2C%20J.%20%26%20Williams%2C%20R.%20J.%2C%20%281994%29.%20Incremental%20multi-step%20Q-learning.%20InMachine%20Learning%3A%20Proceedings%20of%20the%20Eleventh%20International%20Conference%2C%20pages%20226%E2%80%93232.%20Morgan%20Kaufmann."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR21">Rubinstein, R., (1981).<em class="EmphasisTypeItalic ">Simulation and the Monte Carlo method</em>. New York, John Wiley Sons.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Simulation%20and%20the%20Monte%20Carlo%20method&amp;author=R..%20Rubinstein&amp;publication_year=1981"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR22">Rummery, G. A. &amp; Niranjan, M., (1994). On-line Q-learning using connectionist systems. Technical Report CUED/F-INFENG/TR 166, Cambridge University Engineering Dept.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Rummery%2C%20G.%20A.%20%26%20Niranjan%2C%20M.%2C%20%281994%29.%20On-line%20Q-learning%20using%20connectionist%20systems.%20Technical%20Report%20CUED%2FF-INFENG%2FTR%20166%2C%20Cambridge%20University%20Engineering%20Dept."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR23">Sutton, R. S., (1984).<em class="EmphasisTypeItalic ">Temporal Credit Assignment in Reinforcement Learning</em>. PhD thesis, University of Massachusetts, Amherst, MA.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sutton%2C%20R.%20S.%2C%20%281984%29.Temporal%20Credit%20Assignment%20in%20Reinforcement%20Learning.%20PhD%20thesis%2C%20University%20of%20Massachusetts%2C%20Amherst%2C%20MA."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR24">Sutton, R. S., (1988). Learning to predict by the methods of temporal differences.<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">3</em>, 9–44.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20to%20predict%20by%20the%20methods%20of%20temporal%20differences&amp;author=R.%20S..%20Sutton&amp;journal=Machine%20Learning&amp;volume=3&amp;pages=9-44&amp;publication_year=1988"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR25">Sutton, R. S., (1995). TD models: Modeling the world at a mixture of time scales. In<em class="EmphasisTypeItalic ">Machine Learning Proceedings of the Twelth International Conference</em>, pages 531–539. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sutton%2C%20R.%20S.%2C%20%281995%29.%20TD%20models%3A%20Modeling%20the%20world%20at%20a%20mixture%20of%20time%20scales.%20InMachine%20Learning%20Proceedings%20of%20the%20Twelth%20International%20Conference%2C%20pages%20531%E2%80%93539.%20Morgan%20Kaufmann."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR26">Sutton, R. S. &amp; Barto, A. G., (1987). A temporal-difference model of classical conditioning. In<em class="EmphasisTypeItalic ">Proceedings of the Ninth Annual Conference of the Cognitive Science Society</em>, pages 355–378, Hillsdale, NJ, Erlbaum.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20temporal-difference%20model%20of%20classical%20conditioning&amp;author=R.%20S..%20Sutton&amp;author=A.%20G..%20Barto&amp;pages=355-378&amp;publication_year=1987"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR27">Sutton, R. S. &amp; Barto, A. G., (1990). Time-derivative models of Pavlovian conditioning. In Gabriel, M. &amp; Moore, J. W. (Eds.),<em class="EmphasisTypeItalic ">Learning and Computational Neuroscience</em>, pages 497–537. Cambridge, MA, MIT Press.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Time-derivative%20models%20of%20Pavlovian%20conditioning&amp;author=R.%20S..%20Sutton&amp;author=A.%20G..%20Barto&amp;pages=497-537&amp;publication_year=1990"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR28">Sutton, R. S. &amp; Singh, S. P., (1994). On step-size and bias in temporal-difference learning. In<em class="EmphasisTypeItalic ">Eighth Yale Workshop on Adaptive and Learning Systems</em>, pages 91–96, New Haven, CT.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sutton%2C%20R.%20S.%20%26%20Singh%2C%20S.%20P.%2C%20%281994%29.%20On%20step-size%20and%20bias%20in%20temporal-difference%20learning.%20InEighth%20Yale%20Workshop%20on%20Adaptive%20and%20Learning%20Systems%2C%20pages%2091%E2%80%9396%2C%20New%20Haven%2C%20CT."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR29">Sutton, R. S. &amp; Whitehead, S. D., (1993). Online learning with random representations. In<em class="EmphasisTypeItalic ">Machine Learning Proceedings of the Tenth Int. Conference</em>, pages 314–321. Morgan Kaufmann.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sutton%2C%20R.%20S.%20%26%20Whitehead%2C%20S.%20D.%2C%20%281993%29.%20Online%20learning%20with%20random%20representations.%20InMachine%20Learning%20Proceedings%20of%20the%20Tenth%20Int.%20Conference%2C%20pages%20314%E2%80%93321.%20Morgan%20Kaufmann."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR30">Tesauro, G. J., (1992). Practical issues in temporal difference learning.<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">8</em>(3/4), 257–277.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Practical%20issues%20in%20temporal%20difference%20learning&amp;author=G.%20J..%20Tesauro&amp;journal=Machine%20Learning&amp;volume=8&amp;issue=3%2F4&amp;pages=257-277&amp;publication_year=1992"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR31">Tsitsiklis, J., (1994). Asynchronous stochastic approximation and Q-learning.<em class="EmphasisTypeItalic ">Machine Learning</em>,<em class="EmphasisTypeItalic ">16</em>(3). 185–202.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Asynchronous%20stochastic%20approximation%20and%20Q-learning&amp;author=J..%20Tsitsiklis&amp;journal=Machine%20Learning&amp;volume=16&amp;issue=3&amp;pages=185-202&amp;publication_year=1994"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR32">Wasow, W. R., (1952). A note on the inversion of matrices by random walks.<em class="EmphasisTypeItalic ">Math. Tables Other Aids Comput.</em>,<em class="EmphasisTypeItalic ">6</em>, 78–81.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20note%20on%20the%20inversion%20of%20matrices%20by%20random%20walks&amp;author=W.%20R..%20Wasow&amp;journal=Math.%20Tables%20Other%20Aids%20Comput.&amp;volume=6&amp;pages=78-81&amp;publication_year=1952"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR33">Watkins, C. J. C. H., (1989).<em class="EmphasisTypeItalic ">Learning from Delayed Rewards</em>. PhD thesis, Cambridge Univ. Cambridge, England.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Watkins%2C%20C.%20J.%20C.%20H.%2C%20%281989%29.Learning%20from%20Delayed%20Rewards.%20PhD%20thesis%2C%20Cambridge%20Univ.%20Cambridge%2C%20England."><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationContent" id="CR34">Wilson, S. W., (to appear). Classifier fitness based on accuracy.<em class="EmphasisTypeItalic ">Evolutionary Computation</em>.<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Wilson%2C%20S.%20W.%2C%20%28to%20appear%29.%20Classifier%20fitness%20based%20on%20accuracy.Evolutionary%20Computation."><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ArticleCopyright">© Kluwer Academic Publishers 1996</div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Satinder P. Singh</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Richard S. Sutton</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Dept. of Brain and Cognitive Sciences</span><span itemprop="name" class="affiliation__name">Massachusetts Institute of Technology</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Cambridge</span></span></span></li><li class="affiliation" data-test="affiliation-2" data-affiliation-highlight="affiliation-2" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">2.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Dept. of Computer Science</span><span itemprop="name" class="affiliation__name">University of Massachusetts</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Amherst</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this article</h2>
+    <div class="section__content bibliographic-information">
+        
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas" tabindex="-1">
+    <dt class="test-cite-heading">
+        Cite this article as:
+    </dt>
+    <dd id="citethis-text">Singh, S.P. & Sutton, R.S. Mach Learn (1996) 22: 123. https://doi.org/10.1007/BF00114726</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">Received</span>
+            <span class="bibliographic-information__value u-overflow-wrap">07 November 1994</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">Accepted</span>
+            <span class="bibliographic-information__value u-overflow-wrap">10 March 1995</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">DOI</span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/BF00114726</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Kluwer Academic Publishers</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISSN</span>
+                <span class="bibliographic-information__value" id="print-issn">0885-6125</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Online ISSN</span>
+                <span class="bibliographic-information__value" id="electronic-issn">1573-0565</span>
+            </li>
+
+        
+    </ul>
+
+            <ul class="bibliographic-information__list">
+        <li class="bibliographic-information__item">
+            <a id="about-journal" class="bibliographic-information__misc-links"
+               title="Visit Springer.com for information about this article&#39;s journal"
+               href="//www.springer.com/journal/10994/about">About this journal</a>
+        </li>
+        <li class="bibliographic-information__item">
+            <a id="reprintsandpermissions-link" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;copyright&#x3D;Kluwer+Academic+Publishers&amp;author&#x3D;Satinder+P.+Singh%2C+Richard+S.+Sutton&amp;issueNum&#x3D;1&amp;contentID&#x3D;10.1007%2FBF00114726&amp;endPage&#x3D;158&amp;publicationDate&#x3D;1996&amp;startPage&#x3D;123&amp;volumeNum&#x3D;22&amp;title&#x3D;Reinforcement+learning+with+replacing+eligibility+traces&amp;imprint&#x3D;Kluwer+Academic+Publishers&amp;publication&#x3D;0885-6125" title="Visit RightsLink for information about reusing this article" data-track="click" data-track-action="Reprints and Permissions" data-track-label="">Reprints and Permissions</a>
+        </li>
+</ul>
+
+
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="/springerlink-static/632953562/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                                <div id="doubleclick-native-ad" data-component="SpringerLink.GoogleAds" data-namespace="native"></div>
+
+                                    <div class="sticky-banner 
+            u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasButton">
+                <div class="sticky-banner__container">
+                        <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                            <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/BF00114726" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">article</span>
+        </a>
+    </div>
+
+
+
+
+                                    <div>
+            <a href="/content/pdf/10.1007%2FBF00114726.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+                </div>
+            </div>
+
+
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only" aria-hidden="true">Actions</h2>
+
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+
+                                                <div class="download-article test-pdf-link">
+                                                            <div>
+            <a href="/content/pdf/10.1007%2FBF00114726.pdf" target="_blank" class="c-button c-button--blue c-button__icon-right" title="Download this article in PDF format" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#fff"><g transform="translate(12.000000, 5.000000)"><path d="M7 7.3L7 1C7 0.4 6.6 0 6 0 5.4 0 5 0.4 5 1L5 7.3 3.5 5.7C3.1 5.3 2.5 5.3 2.1 5.7L2.1 5.7C1.7 6.1 1.7 6.7 2.1 7.1L5.3 10.3C5.7 10.7 6.3 10.7 6.7 10.3L9.9 7.1C10.3 6.7 10.3 6.1 9.9 5.7L9.9 5.7C9.5 5.3 8.9 5.3 8.5 5.7L7 7.3 7 7.3ZM0 13C0 12.4 0.5 12 1 12L11 12C11.6 12 12 12.4 12 13 12 13.6 11.5 14 11 14L1 14C0.4 14 0 13.6 0 13L0 13Z"/></g></g></g></svg>
+                <span class="hide-text-small">Download</span>
+                <span>PDF</span>
+            </a>
+        </div>
+
+                                                </div>
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">article</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/BF00114726?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this article&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                                <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/BF00114726" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">article</span>
+        </a>
+    </div>
+
+
+
+
+                                    </div>
+                                </div>
+                                <nav class="toc" aria-label="article contents">
+    <h2 class="u-screenreader-only" aria-hidden="true">Table of contents</h2>
+    <ul id="article-contents" class="article-contents" tabindex="-1">
+            <li>
+                <a title="Article" href="#enumeration"><span class="u-overflow-ellipsis">Article</span></a>
+            </li>
+            <li>
+                <a title="Abstract" href="#Abs1"><span class="u-overflow-ellipsis">Abstract</span></a>
+            </li>
+            <li>
+                <a title="References" href="#Bib1"><span class="u-overflow-ellipsis">References</span></a>
+            </li>
+            <li>
+                <a title="Copyright information" href="#copyrightInformation"><span class="u-overflow-ellipsis">Copyright information</span></a>
+            </li>
+            <li>
+                <a title="Authors and Affiliations" href="#authorsandaffiliations"><span class="u-overflow-ellipsis">Authors and Affiliations</span></a>
+            </li>
+            <li>
+                <a title="About this article" href="#aboutcontent"><span class="u-overflow-ellipsis">About this article</span></a>
+            </li>
+    </ul>
+</nav>
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper">
+        <div class="skyscraper-ad__wrapper">
+            <p class="skyscraper-ad__label">Advertisement</p>
+            <button class="skyscraper-ad__hide" title="Hide this advertisement" data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+            <div id="doubleclick-ad" class="skyscraper-ad__ad"></div>
+        </div>
+    </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/article/10.1007/BF00114726&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/article/10.1007/BF00114726&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Cookie settings</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/632953562/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/632953562/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Not affiliated</span>
+                    <span>82.48.80.91</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/632953562';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/10994/article';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+                    <noscript>
+                <img aria-hidden="true" role="presentation" src="https://ssl-springer.met.vgwort.de/na/vgzm.415900-10.1007-BF00114726" width='1' height='1' alt='' />
+            </noscript>
+
+        
+    </body>
+</html>

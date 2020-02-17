@@ -1,0 +1,38 @@
+abstract: We develop a metalearning approach for learning hierarchically structured
+  policies, improving sample efficiency on unseen tasks through the use of shared
+  primitives---policies that are executed for large numbers of timesteps. Specifically,
+  a set of primitives are shared within a distribution of tasks, and are switched
+  between by task-specific policies. We provide a concrete metric for measuring the
+  strength of such hierarchies, leading to an optimization problem for quickly reaching
+  high reward on unseen tasks. We then present an algorithm to solve this problem
+  end-to-end through the use of any off-the-shelf reinforcement learning method, by
+  repeatedly sampling new tasks and resetting task-specific policies. We successfully
+  discover meaningful motor primitives for the directional movement of four-legged
+  robots, solely by interacting with distributions of mazes. We also demonstrate the
+  transferability of primitives to solve long-timescale sparse-reward obstacle courses,
+  and we enable 3D humanoid robots to robustly walk and crawl with the same policy.
+archiveprefix: arXiv
+author: Frans, Kevin and Ho, Jonathan and Chen, Xi and Abbeel, Pieter and Schulman,
+  John
+author_list:
+- family: Frans
+  given: Kevin
+- family: Ho
+  given: Jonathan
+- family: Chen
+  given: Xi
+- family: Abbeel
+  given: Pieter
+- family: Schulman
+  given: John
+eprint: 1710.09767v1
+file: 1710.09767v1.pdf
+files:
+- frans-kevin-and-ho-jonathan-and-chen-xi-and-abbeel-pieter-and-schulman-johnmeta-learning-shared-hierarchies2017.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1710.09767v1
+title: Meta Learning Shared Hierarchies
+type: article
+url: http://arxiv.org/abs/1710.09767v1
+year: '2017'

@@ -1,0 +1,54 @@
+abstract: '<jats:p>Fast Downward is a classical planning system based on heuristic
+  search. It can deal with general deterministic planning problems encoded in the
+  propositional fragment of PDDL2.2, including advanced features like ADL conditions
+  and effects and derived predicates (axioms). Like other well-known planners such
+  as HSP and FF, Fast Downward is a progression planner, searching the space of world
+  states of a planning task in the forward direction. However, unlike other PDDL planning
+  systems, Fast Downward does not use the propositional PDDL representation of a planning
+  task directly. Instead, the input is first translated into an alternative representation
+  called multi-valued planning tasks, which makes many of the implicit constraints
+  of a propositional planning task explicit. Exploiting this alternative representation,
+  Fast Downward uses hierarchical decompositions of planning tasks for computing its
+  heuristic function, called the causal graph heuristic, which is very different from
+  traditional HSP-like heuristics based on ignoring negative interactions of operators.
+
+
+  In this article, we give a full account of Fast Downward''s approach to solving
+  multi-valued planning tasks. We extend our earlier discussion of the causal graph
+  heuristic to tasks involving axioms and conditional effects and present some novel
+  techniques for search control that are used within Fast Downward''s best-first search
+  algorithm: preferred operators transfer the idea of helpful actions from local search
+  to global best-first search, deferred evaluation of heuristic functions mitigates
+  the negative effect of large branching factors on search performance, and multi-heuristic
+  best-first search combines several heuristic evaluation functions within a single
+  search algorithm in an orthogonal way. We also describe efficient data structures
+  for fast state expansion (successor generators and axiom evaluators) and present
+  a new non-heuristic search algorithm called focused iterative-broadening search,
+  which utilizes the information encoded in causal graphs in a novel way.
+
+
+  Fast Downward has proven remarkably successful: It won the "classical'''' (i.e.,
+  propositional, non-optimising) track of the 4th International Planning Competition
+  at ICAPS 2004, following in the footsteps of planners such as FF and LPG. Our experiments
+  show that it also performs very well on the benchmarks of the earlier planning competitions
+  and provide some insights about the usefulness of the new search enhancements.
+
+  </jats:p>'
+author: Helmert, M.
+author_list:
+- affiliation: []
+  family: Helmert
+  given: M.
+doc_url: https://jair.org/index.php/jair/article/download/10457/25067
+doi: 10.1613/jair.1705
+files:
+- helmert-m.the-fast-downward-planning-system2006.ps
+journal: Journal of Artificial Intelligence Research
+month: 7
+pages: 191--246
+publisher: AI Access Foundation
+title: The Fast Downward Planning System
+type: article
+url: http://dx.doi.org/10.1613/jair.1705
+volume: '26'
+year: 2006

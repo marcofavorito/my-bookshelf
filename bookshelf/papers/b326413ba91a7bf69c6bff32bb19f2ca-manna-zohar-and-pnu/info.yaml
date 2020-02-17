@@ -1,0 +1,116 @@
+author: Manna, Zohar and Pnueli, Amir
+author_list:
+- affiliation: []
+  family: Manna
+  given: Zohar
+- affiliation: []
+  family: Pnueli
+  given: Amir
+citations:
+- doi: 10.1145/567532.567551
+  unstructured: Ben-Ari, M., Z. Manna and A. Pnueli, “The temporal logic of branching
+    time,” Proceedings of the Eighth ACM Symposium on Principles of Programming Languages,
+    Williamsburg, VA, Jan. 1981, pp. 169–176.
+- unstructured: Burstall, R.M., “Program proving as hand simulation with a little
+    induction,” Proc. IFIP Congress, Amsterdam, The Netherlands (1974), North Holland,
+    pp. 308–312.
+- author: E.M. Clarke
+  doi: 10.1145/357103.357109
+  first-page: '338'
+  issue: '3'
+  journal-title: ACM Trans. on Programming Languages and Systems
+  unstructured: Clarke, E.M., “Synthesis of resource invariants for concurrent programs,”
+    ACM Trans. on Programming Languages and Systems, Vol. 2, No. 3 (July 1980), pp.
+    338–358.
+  volume: '2'
+  year: '1980'
+- author: E.W. Dijkstra
+  first-page: '43'
+  unstructured: Dijkstra, E.W., “Cooperating sequential processes”, in Programming
+    Languages and Systems (F. Genvys ed.), Academic Press, New York, NY, 1968, pp.
+    43–112.
+  volume-title: Programming Languages and Systems
+  year: '1968'
+- author: N. Francez
+  unstructured: Francez, N., “The analysis of cyclic programs,” Ph.D. Thesis, Applied
+    Mathematics Dept., The Weizmann Institute of Science, Rehovot, Israel, July 1976.
+  volume-title: The analysis of cyclic programs
+  year: '1976'
+- author: R.M. Keller
+  doi: 10.1145/360248.360251
+  first-page: '371'
+  issue: '7'
+  journal-title: CACM
+  unstructured: Keller, R.M., “Formal verification of parallel programs,” CACM, Vol.19,
+    No. 7 (July 1976), pp. 371–384.
+  volume: '19'
+  year: '1976'
+- author: L. Lamport
+  doi: 10.1109/TSE.1977.229904
+  first-page: '125'
+  issue: '7'
+  journal-title: IEEE Transactions on Software Engineering
+  unstructured: Lamport, L., “Proving the correctness of multiprocess programs,” IEEE
+    Transactions on Software Engineering, Vol. SE-3, No. 7 (March 1977), pp. 125–143.
+  volume: SE-3
+  year: '1977'
+- unstructured: Manna, Z., “Logics of programs,” Proc. IFIP Congress, Tokyo and Melbourne
+    (October 1980), North Holland, pp. 41–51.
+- author: Z. Manna
+  series-title: NATO Scientific Series
+  unstructured: 'Manna, Z., “Verification of sequential programs: Temporal axiomatization”
+    in Theoretical Foundations of Programming Methodology (F.L. Bauer, ed.), NATO
+    Scientific Series, D. Riedel Pub. Co., Dordrecht, Holland, 1981.'
+  volume-title: Theoretical Foundations of Programming Methodology
+  year: '1981'
+- doi: 10.1007/3-540-09510-1_31
+  unstructured: Manna, Z. and A. Pnueli, “The modal logic of programs,” Proc. 6th
+    International Colloquium on Automata, Languages and Programming, Graz, Austria
+    (July 1979). Lecture Notes in Computer Science, Vol. 71, Springer Verlag, pp.
+    385–409.
+- author: Z. Manna
+  series-title: International Lecture Series in Computer Science
+  unstructured: 'Manna, Z. and A. Pnueli, “Verification of concurrent programs: The
+    temporal framework,” in The Correctness Problem in Computer Science (R.S. Boyer
+    and J.S. Moore, eds.), International Lecture Series in Computer Science, Academic
+    Press, London, 1981.'
+  volume-title: The Correctness Problem in Computer Science
+  year: '1981'
+- author: Z. Manna
+  doi: 10.1145/359340.359353
+  first-page: '159'
+  issue: '2'
+  journal-title: CACM
+  unstructured: 'Manna, Z. and R. Waldinger, “Is ''sometime’ sometimes better than
+    ‘Always''?: Intermittent assertions in proving program correctness,” CACM, Vol.
+    21, No. 2, pp. 159–172 (February 1978), pp. 159–172.'
+  volume: '21'
+  year: '1978'
+- author: S. Owicki
+  doi: 10.1007/BF00268134
+  first-page: '319'
+  journal-title: Acta Informatica
+  unstructured: Owicki, S. and D. Gries, “An axiomatic proof technique for parallel
+    programs,” Acta Informatica, Vol. 6 (1976), pp. 319–340.
+  volume: '6'
+  year: '1976'
+- unstructured: Owicki, S. and L. Lamport, “Proving liveness properties of concurrent
+    programs,” unpublished report (october 1980).
+- doi: 10.1109/SFCS.1977.32
+  unstructured: Pnueli, A., “The temporal logic of programs,” Proc. 18th FOCS, Providence,
+    RI (November 1977), pp. 46–57.
+- doi: 10.1007/BFb0022460
+  unstructured: Pnueli, A., “The temporal semantics of concurrent programs,” Proc.
+    Symposium on Semantics of Concurrent Computations, Evian, France (July 1979),
+    Lecture Notes in Computer Science, Vol. 70, Springer Verlag, pp. 1–20.
+doi: 10.1007/bfb0025785
+files:
+- manna-zohar-and-pnueli-amirverification-of-concurrent-programs-temporal-proof-principles.pdf
+isbn:
+- 354011212X
+journal: Logics of Programs
+pages: 200--252
+publisher: Springer-Verlag
+title: 'Verification of concurrent programs: Temporal proof principles'
+type: inbook
+url: http://dx.doi.org/10.1007/bfb0025785

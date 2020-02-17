@@ -1,0 +1,29 @@
+abstract: We present two novel algorithms for learning formulas in Linear Temporal
+  Logic (LTL) from examples. The first learning algorithm reduces the learning task
+  to a series of satisfiability problems in propositional Boolean logic and produces
+  a smallest LTL formula (in terms of the number of subformulas) that is consistent
+  with the given data. Our second learning algorithm, on the other hand, combines
+  the SAT-based learning algorithm with classical algorithms for learning decision
+  trees. The result is a learning algorithm that scales to real-world scenarios with
+  hundreds of examples, but can no longer guarantee to produce minimal consistent
+  LTL formulas. We compare both learning algorithms and demonstrate their performance
+  on a wide range of synthetic benchmarks. Additionally, we illustrate their usefulness
+  on the task of understanding executions of a leader election protocol.
+archiveprefix: arXiv
+author: Neider, Daniel and Gavran, Ivan
+author_list:
+- family: Neider
+  given: Daniel
+- family: Gavran
+  given: Ivan
+eprint: 1806.03953v3
+file: 1806.03953v3.pdf
+files:
+- neider-daniel-and-gavran-ivanlearning-linear-temporal-properties2018.pdf
+month: Jun
+primaryclass: cs.LO
+ref: 1806.03953v3
+title: Learning Linear Temporal Properties
+type: article
+url: http://arxiv.org/abs/1806.03953v3
+year: '2018'

@@ -1,0 +1,51 @@
+abstract: 'TensorFlow has been the most widely adopted Machine/Deep Learning framework.
+  However, little exists in the literature that provides a thorough understanding
+  of the capabilities which TensorFlow offers for the distributed training of large
+  ML/DL models that need computation and communication at scale. Most commonly used
+  distributed training approaches for TF can be categorized as follows: 1) Google
+  Remote Procedure Call (gRPC), 2) gRPC+X: X=(InfiniBand Verbs, Message Passing Interface,
+  and GPUDirect RDMA), and 3) No-gRPC: Baidu Allreduce with MPI, Horovod with MPI,
+  and Horovod with NVIDIA NCCL. In this paper, we provide an in-depth performance
+  characterization and analysis of these distributed training approaches on various
+  GPU clusters including the Piz Daint system (6 on Top500). We perform experiments
+  to gain novel insights along the following vectors: 1) Application-level scalability
+  of DNN training, 2) Effect of Batch Size on scaling efficiency, 3) Impact of the
+  MPI library used for no-gRPC approaches, and 4) Type and size of DNN architectures.
+  Based on these experiments, we present two key insights: 1) Overall, No-gRPC designs
+  achieve better performance compared to gRPC-based approaches for most configurations,
+  and 2) The performance of No-gRPC is heavily influenced by the gradient aggregation
+  using Allreduce. Finally, we propose a truly CUDA-Aware MPI Allreduce design that
+  exploits CUDA kernels and pointer caching to perform large reductions efficiently.
+  Our proposed designs offer 5-17X better performance than NCCL2 for small and medium
+  messages, and reduces latency by 29% for large messages. The proposed optimizations
+  help Horovod-MPI to achieve approximately 90% scaling efficiency for ResNet-50 training
+  on 64 GPUs. Further, Horovod-MPI achieves 1.8X and 3.2X higher throughput than the
+  native gRPC method for ResNet-50 and MobileNet, respectively, on the Piz Daint cluster.'
+archiveprefix: arXiv
+author: Awan, Ammar Ahmad and Bedorf, Jeroen and Chu, Ching-Hsiang and Subramoni,
+  Hari and Panda, Dhabaleswar K.
+author_list:
+- family: Awan
+  given: Ammar Ahmad
+- family: Bedorf
+  given: Jeroen
+- family: Chu
+  given: Ching-Hsiang
+- family: Subramoni
+  given: Hari
+- family: Panda
+  given: Dhabaleswar K.
+doi: 10.1109/CCGRID.2019.00064
+eprint: 1810.11112v1
+file: 1810.11112v1.pdf
+files:
+- awan-ammar-ahmad-and-bedorf-jeroen-and-chu-ching-hsiang-and-subramoni-hari-and-panda-dhabaleswar-k.scalable-distributed-dnn-training-using-tensor.pdf
+month: Oct
+note: IEEE CCGrid, 2019
+primaryclass: cs.DC
+ref: 1810.11112v1
+title: 'Scalable Distributed DNN Training using TensorFlow and CUDA-Aware MPI:   Characterization,
+  Designs, and Performance Evaluation'
+type: article
+url: http://arxiv.org/abs/1810.11112v1
+year: '2018'

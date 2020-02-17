@@ -1,0 +1,35 @@
+abstract: Reducing hardware overhead of neural networks for faster or lower power
+  inference and training is an active area of research. Uniform quantization using
+  integer multiply-add has been thoroughly investigated, which requires learning many
+  quantization parameters, fine-tuning training or other prerequisites. Little effort
+  is made to improve floating point relative to this baseline; it remains energy inefficient,
+  and word size reduction yields drastic loss in needed dynamic range. We improve
+  floating point to be more energy efficient than equivalent bit width integer hardware
+  on a 28 nm ASIC process while retaining accuracy in 8 bits with a novel hybrid log
+  multiply/linear add, Kulisch accumulation and tapered encodings from Gustafson's
+  posit format. With no network retraining, and drop-in replacement of all math and
+  float32 parameters via round-to-nearest-even only, this open-sourced 8-bit log float
+  is within 0.9% top-1 and 0.2% top-5 accuracy of the original float32 ResNet-50 CNN
+  model on ImageNet. Unlike int8 quantization, it is still a general purpose floating
+  point arithmetic, interpretable out-of-the-box. Our 8/38-bit log float multiply-add
+  is synthesized and power profiled at 28 nm at 0.96x the power and 1.12x the area
+  of 8/32-bit integer multiply-add. In 16 bits, our log float multiply-add is 0.59x
+  the power and 0.68x the area of IEEE 754 float16 fused multiply-add, maintaining
+  the same signficand precision and dynamic range, proving useful for training ASICs
+  as well.
+archiveprefix: arXiv
+author: Johnson, Jeff
+author_list:
+- family: Johnson
+  given: Jeff
+eprint: 1811.01721v1
+file: 1811.01721v1.pdf
+files:
+- johnson-jeffrethinking-floating-point-for-deep-learning2018.pdf
+month: Nov
+primaryclass: cs.NA
+ref: 1811.01721v1
+title: Rethinking floating point for deep learning
+type: article
+url: http://arxiv.org/abs/1811.01721v1
+year: '2018'

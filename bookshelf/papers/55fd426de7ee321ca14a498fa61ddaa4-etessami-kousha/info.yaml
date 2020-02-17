@@ -1,0 +1,147 @@
+author: Etessami, Kousha
+author_list:
+- affiliation: []
+  family: Etessami
+  given: Kousha
+citations:
+- unstructured: J. R. Büchi. On a decision method in restricted second-order arithmetic.
+    In Proceedings of the International Congress on Logic, Methodology, and Philosophy
+    of Science, 1960. Stanford University Press, 1962.
+- doi: 10.1016/B978-0-444-88074-1.50021-4
+  unstructured: E. A. Emerson. Temporal and modal logics. In J. van Leeuwen, editor,
+    Handbook of Theoret. Comput. Sci., volume B, pages 995–1072. Elsevier, Amsterdam,
+    1990.
+- unstructured: K. Etessami. Stutter-invariant languages, ω-automata, and temporal
+    logic. Technical Report BL011272-980611-07TM, Bell Laboratories, June 11 1998.
+- doi: 10.1007/978-0-387-34892-6_1
+  unstructured: R. Gerth, D. Peled, M. Y. Vardi, and P. Wolper. Simple on-the-fly
+    automatic verification oflinear temporal logic. In PSTV95, Protocol Specification
+    Testing and Verification, pages 3–18, 1995.
+- doi: 10.1109/LICS.1991.151664
+  unstructured: P. Godefroid and P. Wolper. A partial approach to model checking.
+    In Proc. 6th Ann. IEEE Symp. on Logic in Computer Science, pages 406–415, 1991.
+- author: G. J. Holzmann
+  doi: 10.1109/32.588521
+  first-page: '279'
+  issue: '5'
+  journal-title: IEEE Transactions on Software Engineering
+  unstructured: G. J. Holzmann. The model checker spin. IEEE Transactions on Software
+    Engineering, 23(5):279–295, 1997.
+  volume: '23'
+  year: '1997'
+- unstructured: G. J. Holzmann and D. Peled. An improvement in formal verification.
+    In 7th International Conference on Formal Description Techniques, pages 177–194,
+    1994.
+- author: O. Kupferman
+  doi: 10.1093/logcom/7.1.1
+  first-page: '1'
+  journal-title: Journal of Logic and Computation
+  unstructured: O. Kupferman. Augmenting branching temporal logics with existential
+    quantification over atomic propositions. Journal of Logic and Computation, 7:1–14,
+    1997.
+  volume: '7'
+  year: '1997'
+- unstructured: 'L. Lamport. What good is temporal logic. In R. E. A. Mason, editor,
+    Information Processing’ 83: Proc. IFIP 9th World Computer Congress, pages 657–668,
+    1983.'
+- doi: 10.1145/177492.177726
+  unstructured: L. Lamport. The temporal logic ofactions. ACM Transactions on Programming
+    Languages and Systems, pages 872–923, 1994.
+- doi: 10.1145/41625.41626
+  unstructured: Z. Manna and A. Pnueli. Specification and verification ofconcurren
+    t programs by ω-automata. In Proc. 14th Ann. ACM Symp. on Principles of Programming
+    Languages, pages 1–12, 1987.
+- unstructured: K. McMillan, 1998. See http://www-cad.eecs.berkeley.edu/kenmcmil for
+    recent versions ofSMV and its documentation.
+- author: R. McNaughton
+  doi: 10.1016/S0019-9958(66)80013-X
+  first-page: '521'
+  journal-title: Information and Control
+  unstructured: R. McNaughton. Testing and generating infinite sequences by a finite
+    automaton. Information and Control, 9:521–530, 1966.
+  volume: '9'
+  year: '1966'
+- author: D. Peled
+  doi: 10.1007/BF00121262
+  first-page: '39'
+  journal-title: Formal Methods in System Design
+  unstructured: D. Peled. Combining partial order reductions with on-the-fly model
+    checking. Formal Methods in System Design, 8:39–64, 1996.
+  volume: '8'
+  year: '1996'
+- author: D. Peled
+  doi: 10.1016/S0020-0190(97)00133-6
+  first-page: '243'
+  journal-title: Information Processing Letters
+  unstructured: D. Peled and T. Wilke. Stutter-invariant temporal properties are expressible
+    without the next-time operator. Information Processing Letters, 63:243–246, 1997.
+  volume: '63'
+  year: '1997'
+- doi: 10.1109/SFCS.1977.32
+  unstructured: A. Pnueli. The temporal logic ofprograms. In Proc. 18th Symp. on Foundations
+    of Computer Science, pages 46–57, 1977.
+- doi: 10.1007/BFb0055772
+  unstructured: A. Rabinovich. Expressive completeness oftemp oral logic ofactions.
+    In Mathematical Foundations of Computer Science, pages 229–238, August 1998.
+- author: A. P. Sistla
+  doi: 10.1145/3828.3837
+  first-page: '733'
+  issue: '3'
+  journal-title: Journal of the ACM
+  unstructured: A. P. Sistla and E. M. Clarke. The complexity ofprop ositional linear
+    temporal logics. Journal of the ACM, 32(3):733–749, 1985.
+  volume: '32'
+  year: '1985'
+- author: A. P. Sistla
+  doi: 10.1016/0304-3975(87)90008-9
+  first-page: '217'
+  journal-title: Theoretical Computer Science
+  unstructured: A. P. Sistla, M. Y. Vardi, and P. Wolper. The complementation problem
+    for büchi automata with applications to temporal logic. Theoretical Computer Science,
+    49:217–237, 1987.
+  volume: '49'
+  year: '1987'
+- author: W. Thomas
+  doi: 10.1016/0022-0000(82)90016-2
+  first-page: '360'
+  journal-title: Journal of Computer and System Sciences
+  unstructured: Thomas, W. Classifying regular events in symbolic logic. Journal of
+    Computer and System Sciences, 25:360–376, 1982.
+  volume: '25'
+  year: '1982'
+- author: A. Valmari
+  doi: 10.1007/BF00709154
+  first-page: '297'
+  journal-title: Formal Methods in System Design
+  unstructured: A. Valmari. A stubborn attack on state explosion. Formal Methods in
+    System Design, 1:297–322, 1992.
+  volume: '1'
+  year: '1992'
+- author: M. Y. Vardi
+  doi: 10.1006/inco.1994.1092
+  first-page: '1'
+  journal-title: Information and Computation
+  unstructured: M. Y. Vardi and P. Wolper. Reasoning about infinite computation. Information
+    and Computation, 115:1–37, 1994.
+  volume: '115'
+  year: '1994'
+- author: P. Wolper
+  doi: 10.1016/S0019-9958(83)80051-5
+  first-page: '72'
+  journal-title: Information and Control
+  unstructured: Pierre Wolper. Temporal logic can be more expressive. Information
+    and Control, 56:72–99, 1983.
+  volume: '56'
+  year: '1983'
+doi: 10.1007/3-540-48683-6_22
+isbn:
+- '9783540662020'
+- '9783540486831'
+journal: Computer Aided Verification
+month: 1
+pages: 236--248
+publisher: Springer Berlin Heidelberg
+title: Stutter-Invariant Languages, ω-Automata, and Temporal Logic
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-48683-6_22
+year: 1999
