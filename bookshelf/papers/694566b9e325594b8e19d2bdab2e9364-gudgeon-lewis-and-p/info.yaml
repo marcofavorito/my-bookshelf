@@ -1,0 +1,44 @@
+abstract: The Global Financial Crisis of 2008, caused by excessive financial risk,
+  inspired Nakamoto to create Bitcoin. Now, more than ten years later, Decentralized
+  Finance (DeFi), a peer-to-peer financial paradigm which leverages blockchain-based
+  smart contracts to ensure its integrity and security, contains over 1bn USD of capital
+  as of February 2020. Yet as this ecosystem develops, with protocols intertwining
+  and the complexity of financial products increasing, it is at risk of the very sort
+  of financial meltdown it is supposed to be preventing.   In this paper we explore
+  how design weaknesses in DeFi protocols could lead to a DeFi crisis. First, overcollateralized
+  DeFi protocols are vulnerable to exogenous price shocks. We quantify the robustness
+  of DeFi lending protocols in the presence of significant falls in the value of the
+  assets these protocols are based on, showing for a range of parameters the speed
+  at which a DeFi protocol would become undercollateralized. Second, we present a
+  governance attack on Maker - the largest DeFi protocol by market share - that allows
+  an attacker to steal all 0.5bn USD worth of collateral. Moreover, we present a novel
+  strategy that would allow an attacker to steal the Maker collateral within just
+  two transactions and without the need to lock any tokens. This paper shows that
+  with the composition of collateralized debt in these DeFi protocols, the failure
+  of one protocol may lead to financial contagion, resulting in losses ranging from
+  145m USD to in excess of 246m USD.
+archiveprefix: arXiv
+author: Gudgeon, Lewis and Perez, Daniel and Harz, Dominik and Gervais, Arthur and
+  Livshits, Benjamin
+author_list:
+- family: Gudgeon
+  given: Lewis
+- family: Perez
+  given: Daniel
+- family: Harz
+  given: Dominik
+- family: Gervais
+  given: Arthur
+- family: Livshits
+  given: Benjamin
+eprint: 2002.08099v1
+file: 2002.08099v1.pdf
+files:
+- gudgeon-lewis-and-perez-daniel-and-harz-dominik-and-gervais-arthur-and-livshits-benjaminthe-decentralized-financial-crisis-attacking-defi2020.pdf
+month: Feb
+primaryclass: cs.CR
+ref: 2002.08099v1
+title: 'The Decentralized Financial Crisis: Attacking DeFi'
+type: article
+url: http://arxiv.org/abs/2002.08099v1
+year: '2020'

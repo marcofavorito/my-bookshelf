@@ -1,0 +1,35 @@
+abstract: A number of recent works have demonstrated that API access to machine learning
+  models leaks information about the dataset records used to train the models. Further,
+  the work of \cite{somesh-overfit} shows that such membership inference attacks (MIAs)
+  may be sufficient to construct a stronger breed of attribute inference attacks (AIAs),
+  which given a partial view of a record can guess the missing attributes. In this
+  work, we show (to the contrary) that MIA may not be sufficient to build a successful
+  AIA. This is because the latter requires the ability to distinguish between similar
+  records (differing only in a few attributes), and, as we demonstrate, the current
+  breed of MIA are unsuccessful in distinguishing member records from similar non-member
+  records. We thus propose a relaxed notion of AIA, whose goal is to only approximately
+  guess the missing attributes and argue that such an attack is more likely to be
+  successful, if MIA is to be used as a subroutine for inferring training record attributes.
+archiveprefix: arXiv
+author: Zhao, Benjamin Zi Hao and Asghar, Hassan Jameel and Bhaskar, Raghav and Kaafar,
+  Mohamed Ali
+author_list:
+- family: Zhao
+  given: Benjamin Zi Hao
+- family: Asghar
+  given: Hassan Jameel
+- family: Bhaskar
+  given: Raghav
+- family: Kaafar
+  given: Mohamed Ali
+eprint: 1908.10558v2
+file: 1908.10558v2.pdf
+files:
+- zhao-benjamin-zi-hao-and-asghar-hassan-jameel-and-bhaskar-raghav-and-kaafar-mohamed-alion-inferring-training-data-attributes-in-machine-learning-m.pdf
+month: Aug
+primaryclass: cs.CR
+ref: 1908.10558v2
+title: On Inferring Training Data Attributes in Machine Learning Models
+type: article
+url: http://arxiv.org/abs/1908.10558v2
+year: '2019'

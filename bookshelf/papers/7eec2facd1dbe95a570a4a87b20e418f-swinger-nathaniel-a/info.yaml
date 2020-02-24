@@ -1,0 +1,42 @@
+abstract: 'This paper presents an algorithm for enumerating biases in word embeddings.
+  The algorithm exposes a large number of offensive associations related to sensitive
+  features such as race and gender on publicly available embeddings, including a supposedly
+  "debiased" embedding. These biases are concerning in light of the widespread use
+  of word embeddings. The associations are identified by geometric patterns in word
+  embeddings that run parallel between people''s names and common lower-case tokens.
+  The algorithm is highly unsupervised: it does not even require the sensitive features
+  to be pre-specified. This is desirable because: (a) many forms of discrimination--such
+  as racial discrimination--are linked to social constructs that may vary depending
+  on the context, rather than to categories with fixed definitions; and (b) it makes
+  it easier to identify biases against intersectional groups, which depend on combinations
+  of sensitive features. The inputs to our algorithm are a list of target tokens,
+  e.g. names, and a word embedding. It outputs a number of Word Embedding Association
+  Tests (WEATs) that capture various biases present in the data. We illustrate the
+  utility of our approach on publicly available word embeddings and lists of names,
+  and evaluate its output using crowdsourcing. We also show how removing names may
+  not remove potential proxy bias.'
+archiveprefix: arXiv
+author: Swinger, Nathaniel and De-Arteaga, Maria and IV, Neil Thomas Heffernan and
+  Leiserson, Mark DM and Kalai, Adam Tauman
+author_list:
+- family: Swinger
+  given: Nathaniel
+- family: De-Arteaga
+  given: Maria
+- family: IV
+  given: Neil Thomas Heffernan
+- family: Leiserson
+  given: Mark DM
+- family: Kalai
+  given: Adam Tauman
+eprint: 1812.08769v4
+file: 1812.08769v4.pdf
+files:
+- swinger-nathaniel-and-de-arteaga-maria-and-iv-neil-thomas-heffernan-and-leiserson-mark-dm-and-kalai-adam-taumanwhat-are-the-biases-in-my-word-emb.pdf
+month: Dec
+primaryclass: cs.CL
+ref: 1812.08769v4
+title: What are the biases in my word embedding?
+type: article
+url: http://arxiv.org/abs/1812.08769v4
+year: '2018'

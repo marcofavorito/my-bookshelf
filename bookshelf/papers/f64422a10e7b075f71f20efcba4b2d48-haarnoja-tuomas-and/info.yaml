@@ -1,0 +1,44 @@
+abstract: Deep reinforcement learning (deep RL) holds the promise of automating the
+  acquisition of complex controllers that can map sensory inputs directly to low-level
+  actions. In the domain of robotic locomotion, deep RL could enable learning locomotion
+  skills with minimal engineering and without an explicit model of the robot dynamics.
+  Unfortunately, applying deep RL to real-world robotic tasks is exceptionally difficult,
+  primarily due to poor sample complexity and sensitivity to hyperparameters. While
+  hyperparameters can be easily tuned in simulated domains, tuning may be prohibitively
+  expensive on physical systems, such as legged robots, that can be damaged through
+  extensive trial-and-error learning. In this paper, we propose a sample-efficient
+  deep RL algorithm based on maximum entropy RL that requires minimal per-task tuning
+  and only a modest number of trials to learn neural network policies. We apply this
+  method to learning walking gaits on a real-world Minitaur robot. Our method can
+  acquire a stable gait from scratch directly in the real world in about two hours,
+  without relying on any model or simulation, and the resulting policy is robust to
+  moderate variations in the environment. We further show that our algorithm achieves
+  state-of-the-art performance on simulated benchmarks with a single set of hyperparameters.
+  Videos of training and the learned policy can be found on the project website.
+archiveprefix: arXiv
+author: Haarnoja, Tuomas and Ha, Sehoon and Zhou, Aurick and Tan, Jie and Tucker,
+  George and Levine, Sergey
+author_list:
+- family: Haarnoja
+  given: Tuomas
+- family: Ha
+  given: Sehoon
+- family: Zhou
+  given: Aurick
+- family: Tan
+  given: Jie
+- family: Tucker
+  given: George
+- family: Levine
+  given: Sergey
+eprint: 1812.11103v3
+file: 1812.11103v3.pdf
+files:
+- haarnoja-tuomas-and-ha-sehoon-and-zhou-aurick-and-tan-jie-and-tucker-george-and-levine-sergeylearning-to-walk-via-deep-reinforcement-learning201.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1812.11103v3
+title: Learning to Walk via Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1812.11103v3
+year: '2018'

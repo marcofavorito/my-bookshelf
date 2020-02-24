@@ -1,0 +1,31 @@
+abstract: There has been a recent explosion in the capabilities of game-playing artificial
+  intelligence. Many classes of RL tasks, from Atari games to motor control to board
+  games, are now solvable by fairly generic algorithms, based on deep learning, that
+  learn to play from experience with minimal knowledge of the specific domain of interest.
+  In this work, we will investigate the performance of these methods on Super Smash
+  Bros. Melee (SSBM), a popular console fighting game. The SSBM environment has complex
+  dynamics and partial observability, making it challenging for human and machine
+  alike. The multi-player aspect poses an additional challenge, as the vast majority
+  of recent advances in RL have focused on single-agent environments. Nonetheless,
+  we will show that it is possible to train agents that are competitive against and
+  even surpass human professionals, a new result for the multi-player video game setting.
+archiveprefix: arXiv
+author: Firoiu, Vlad and Whitney, William F. and Tenenbaum, Joshua B.
+author_list:
+- family: Firoiu
+  given: Vlad
+- family: Whitney
+  given: William F.
+- family: Tenenbaum
+  given: Joshua B.
+eprint: 1702.06230v3
+file: 1702.06230v3.pdf
+files:
+- firoiu-vlad-and-whitney-william-f.-and-tenenbaum-joshua-b.beating-the-world-s-best-at-super-smash-bros.-with-deep-reinforcement-learning2017.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1702.06230v3
+title: Beating the World's Best at Super Smash Bros. with Deep Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/1702.06230v3
+year: '2017'
