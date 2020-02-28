@@ -1,0 +1,60 @@
+abstract: 'We present Open Images V4, a dataset of 9.2M images with unified annotations
+  for image classification, object detection and visual relationship detection. The
+  images have a Creative Commons Attribution license that allows to share and adapt
+  the material, and they have been collected from Flickr without a predefined list
+  of class names or tags, leading to natural class statistics and avoiding an initial
+  design bias. Open Images V4 offers large scale across several dimensions: 30.1M
+  image-level labels for 19.8k concepts, 15.4M bounding boxes for 600 object classes,
+  and 375k visual relationship annotations involving 57 classes. For object detection
+  in particular, we provide 15x more bounding boxes than the next largest datasets
+  (15.4M boxes on 1.9M images). The images often show complex scenes with several
+  objects (8 annotated objects per image on average). We annotated visual relationships
+  between them, which support visual relationship detection, an emerging task that
+  requires structured reasoning. We provide in-depth comprehensive statistics about
+  the dataset, we validate the quality of the annotations, we study how the performance
+  of several modern models evolves with increasing amounts of training data, and we
+  demonstrate two applications made possible by having unified annotations of multiple
+  types coexisting in the same images. We hope that the scale, quality, and variety
+  of Open Images V4 will foster further research and innovation even beyond the areas
+  of image classification, object detection, and visual relationship detection.'
+archiveprefix: arXiv
+author: Kuznetsova, Alina and Rom, Hassan and Alldrin, Neil and Uijlings, Jasper and
+  Krasin, Ivan and Pont-Tuset, Jordi and Kamali, Shahab and Popov, Stefan and Malloci,
+  Matteo and Kolesnikov, Alexander and Duerig, Tom and Ferrari, Vittorio
+author_list:
+- family: Kuznetsova
+  given: Alina
+- family: Rom
+  given: Hassan
+- family: Alldrin
+  given: Neil
+- family: Uijlings
+  given: Jasper
+- family: Krasin
+  given: Ivan
+- family: Pont-Tuset
+  given: Jordi
+- family: Kamali
+  given: Shahab
+- family: Popov
+  given: Stefan
+- family: Malloci
+  given: Matteo
+- family: Kolesnikov
+  given: Alexander
+- family: Duerig
+  given: Tom
+- family: Ferrari
+  given: Vittorio
+eprint: 1811.00982v2
+file: 1811.00982v2.pdf
+files:
+- kuznetsova-alina-and-rom-hassan-and-alldrin-neil-and-uijlings-jasper-and-krasin-ivan-and-pont-tuset-jordi-and-kamali-shahab-and-popov-stefan-a.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 1811.00982v2
+title: 'The Open Images Dataset V4: Unified image classification, object   detection,
+  and visual relationship detection at scale'
+type: article
+url: http://arxiv.org/abs/1811.00982v2
+year: '2018'

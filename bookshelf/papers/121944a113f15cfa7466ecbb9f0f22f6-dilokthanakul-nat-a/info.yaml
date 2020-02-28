@@ -1,0 +1,41 @@
+abstract: We study a variant of the variational autoencoder model (VAE) with a Gaussian
+  mixture as a prior distribution, with the goal of performing unsupervised clustering
+  through deep generative models. We observe that the known problem of over-regularisation
+  that has been shown to arise in regular VAEs also manifests itself in our model
+  and leads to cluster degeneracy. We show that a heuristic called minimum information
+  constraint that has been shown to mitigate this effect in VAEs can also be applied
+  to improve unsupervised clustering performance with our model. Furthermore we analyse
+  the effect of this heuristic and provide an intuition of the various processes with
+  the help of visualizations. Finally, we demonstrate the performance of our model
+  on synthetic data, MNIST and SVHN, showing that the obtained clusters are distinct,
+  interpretable and result in achieving competitive performance on unsupervised clustering
+  to the state-of-the-art results.
+archiveprefix: arXiv
+author: Dilokthanakul, Nat and Mediano, Pedro A. M. and Garnelo, Marta and Lee, Matthew
+  C. H. and Salimbeni, Hugh and Arulkumaran, Kai and Shanahan, Murray
+author_list:
+- family: Dilokthanakul
+  given: Nat
+- family: Mediano
+  given: Pedro A. M.
+- family: Garnelo
+  given: Marta
+- family: Lee
+  given: Matthew C. H.
+- family: Salimbeni
+  given: Hugh
+- family: Arulkumaran
+  given: Kai
+- family: Shanahan
+  given: Murray
+eprint: 1611.02648v2
+file: 1611.02648v2.pdf
+files:
+- dilokthanakul-nat-and-mediano-pedro-a.-m.-and-garnelo-marta-and-lee-matthew-c.-h.-and-salimbeni-hugh-and-arulkumaran-kai-and-shanahan-murraydee.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1611.02648v2
+title: Deep Unsupervised Clustering with Gaussian Mixture Variational   Autoencoders
+type: article
+url: http://arxiv.org/abs/1611.02648v2
+year: '2016'
