@@ -1,0 +1,136 @@
+author: Schewe, Sven
+author_list:
+- affiliation: []
+  family: Schewe
+  given: Sven
+citations:
+- author: M. Abadi
+  doi: 10.1007/BFb0035748
+  first-page: '1'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Abadi, M., Lamport, L., Wolper, P.: Realizable and unrealizable concurrent
+    program specifications. In: Ronchi Della Rocca, S., Ausiello, G., Dezani-Ciancaglini,
+    M. (eds.) ICALP 1989. LNCS, vol. 372, pp. 1–17. Springer, Heidelberg (1989)'
+  volume-title: Automata, Languages and Programming
+  year: '1989'
+- author: A. Anuchitanukul
+  doi: 10.1007/3-540-58179-0_51
+  first-page: '156'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Anuchitanukul, A., Manna, Z.: Realizability and synthesis of reactive
+    modules. In: Dill, D.L. (ed.) CAV 1994. LNCS, vol. 818, pp. 156–168. Springer,
+    Heidelberg (1994)'
+  volume-title: Computer Aided Verification
+  year: '1994'
+- author: E.M. Clarke
+  first-page: '52'
+  unstructured: 'Clarke, E.M., Emerson, E.A.: Design and synthesis of synchronization
+    skeletons using branching time temporal logic. In: Proc. IBM Workshop on Logics
+    of Programs, pp. 52–71. Springer, Heidelberg (1981)'
+  volume-title: Proc. IBM Workshop on Logics of Programs
+  year: '1981'
+- author: C. Courcoubetis
+  doi: 10.1145/210332.210339
+  first-page: '857'
+  issue: '4'
+  journal-title: J. ACM
+  unstructured: 'Courcoubetis, C., Yannakakis, M.: The complexity of probabilistic
+    verification. J. ACM 42(4), 857–907 (1995)'
+  volume: '42'
+  year: '1995'
+- doi: 10.1016/S1571-0661(05)80597-3
+  unstructured: 'de Alfaro, L.: From fairness to chance. In: Proc. PROBMIV 1998 (1999)'
+- author: B. Finkbeiner
+  first-page: '321'
+  unstructured: 'Finkbeiner, B., Schewe, S.: Uniform distributed synthesis. In: Proc.
+    LICS, pp. 321–330. IEEE Computer Society Press, Los Alamitos (2005)'
+  volume-title: Proc. LICS
+  year: '2005'
+- author: Y. Gurevich
+  first-page: '60'
+  journal-title: Trees, automata and games
+  unstructured: 'Gurevich, Y., Harrington, L.: Trees, automata and games 14, 60–65
+    (1982)'
+  volume: '14'
+  year: '1982'
+- author: H. Hansson
+  doi: 10.1007/BF01211866
+  first-page: '512'
+  issue: '5'
+  journal-title: Formal Aspects of Computing
+  unstructured: 'Hansson, H., Jonsson, B.: A logic for reasoning about time and reliability.
+    Formal Aspects of Computing 6(5), 512–535 (1994)'
+  volume: '6'
+  year: '1994'
+- unstructured: 'Kupferman, O., Vardi, M.: Freedom, weakness, and determinism: From
+    linear-time to branching-time. In: Proc. LICS (June 1995)'
+- unstructured: 'Kupferman, O., Vardi, M.Y.: Synthesis with incomplete information.
+    In: Proc. ICTL, Manchester, pp. 91–106 (July 1997)'
+- author: O. Kupferman
+  doi: 10.2307/421091
+  first-page: '245'
+  issue: '2'
+  journal-title: The bulletin of Symbolic Logic
+  unstructured: 'Kupferman, O., Vardi, M.Y.: Church’s problem revisited. The bulletin
+    of Symbolic Logic 5(2), 245–263 (1999)'
+  volume: '5'
+  year: '1999'
+- author: O. Kupferman
+  first-page: '389'
+  unstructured: 'Kupferman, O., Vardi, M.Y.: Synthesizing distributed systems. In:
+    Proc. LICS 2001, pp. 389–398. IEEE Computer Society Press, Los Alamitos (2001)'
+  volume-title: Proc. LICS 2001
+  year: '2001'
+- author: D. Lehmann
+  first-page: '133'
+  unstructured: 'Lehmann, D., Rabin, M.O.: On the advantages of free choice: a symmetric
+    and fully distributed solution to the dining philosophers problem. In: Proc. POPL
+    1981, pp. 133–138. ACM Press, New York (1981)'
+  volume-title: Proc. POPL 1981
+  year: '1981'
+- author: D.E. Muller
+  doi: 10.1016/0304-3975(94)00214-4
+  first-page: '69'
+  issue: 1-2
+  journal-title: Theor. Comput. Sci.
+  unstructured: 'Muller, D.E., Schupp, P.E.: Simulating alternating tree automata
+    by nondeterministic automata: new results and new proofs of the theorems of Rabin,
+    McNaughton and Safra. Theor. Comput. Sci. 141(1-2), 69–107 (1995)'
+  volume: '141'
+  year: '1995'
+- author: A. Pnueli
+  first-page: '179'
+  unstructured: 'Pnueli, A., Rosner, R.: On the synthesis of a reactive module. In:
+    Proc. POPL, pp. 179–190. ACM Press, New York (1989)'
+  volume-title: Proc. POPL
+  year: '1989'
+- author: A. Pnueli
+  doi: 10.1007/BFb0035790
+  first-page: '652'
+  unstructured: 'Pnueli, A., Rosner, R.: On the synthesis of an asynchronous reactive
+    module. In: Automata, Languages and Programming, pp. 652–671. Springer, Heidelberg
+    (1989)'
+  volume-title: Automata, Languages and Programming
+  year: '1989'
+- author: L.J. Stockmeyer
+  doi: 10.1137/0208013
+  first-page: '151'
+  issue: '2'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Stockmeyer, L.J., Chandra, A.K.: Provably difficult combinatorial
+    games. SIAM J. Comput. 8(2), 151–174 (1979)'
+  volume: '8'
+  year: '1979'
+- unstructured: 'Wolper, P.: Synthesis of Communicating Processes from Temporal-Logic
+    Specifications. PhD thesis, Stanford University (1982)'
+doi: 10.1007/11901914_20
+isbn:
+- '9783540472377'
+- '9783540472384'
+journal: Automated Technology for Verification and Analysis
+pages: 245--259
+publisher: Springer Berlin Heidelberg
+title: Synthesis for Probabilistic Environments
+type: inbook
+url: http://dx.doi.org/10.1007/11901914_20
+year: 2006

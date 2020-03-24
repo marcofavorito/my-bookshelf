@@ -1,0 +1,29 @@
+abstract: Reactive synthesis is a technology for the automatic construction of reactive
+  systems from logical specifications. In these lecture notes, we study different
+  algorithms for the reactive synthesis problem of linear-time temporal logic (LTL).
+  The classic game-based synthesis algorithm is input-sensitive in the sense that
+  its performance is asymptotically optimal in the size of the specification, but
+  it produces implementations that may be larger than necessary. We contrast this
+  algorithm with output-sensitive algorithms for reactive synthesis, i.e., algorithms
+  that are optimized towards the size or structural complexity of the synthesized
+  system. We study the bounded synthesis algorithm, which produces an implementation
+  with a minimal number of states, and the bounded cycle synthesis algorithm, which
+  additionally guarantees that the number of cycles of the implementation is minimal.
+archiveprefix: arXiv
+author: Finkbeiner, Bernd and Klein, Felix
+author_list:
+- family: Finkbeiner
+  given: Bernd
+- family: Klein
+  given: Felix
+eprint: 1803.10104v1
+file: 1803.10104v1.pdf
+files:
+- finkbeiner-bernd-and-klein-felixreactive-synthesis-towards-output-sensitive-algorithms2018.pdf
+month: Mar
+primaryclass: cs.LO
+ref: 1803.10104v1
+title: 'Reactive Synthesis: Towards Output-Sensitive Algorithms'
+type: article
+url: http://arxiv.org/abs/1803.10104v1
+year: '2018'

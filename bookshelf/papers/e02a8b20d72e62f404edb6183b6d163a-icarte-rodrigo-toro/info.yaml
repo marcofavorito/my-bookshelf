@@ -1,0 +1,37 @@
+abstract: In this paper we propose Reward Machines {—} a type of finite state machine
+  that supports the specification of reward functions while exposing reward function
+  structure to the learner and supporting decomposition. We then present Q-Learning
+  for Reward Machines (QRM), an algorithm which appropriately decomposes the reward
+  machine and uses off-policy q-learning to simultaneously learn subpolicies for the
+  different components. QRM is guaranteed to converge to an optimal policy in the
+  tabular case, in contrast to Hierarchical Reinforcement Learning methods which might
+  converge to suboptimal policies. We demonstrate this behavior experimentally in
+  two discrete domains. We also show how function approximation methods like neural
+  networks can be incorporated into QRM, and that doing so can find better policies
+  more quickly than hierarchical methods in a domain with a continuous state space.
+address: Stockholmsmässan, Stockholm Sweden
+author: Icarte, Rodrigo Toro and Klassen, Toryn and Valenzano, Richard and McIlraith,
+  Sheila
+author_list:
+- family: Icarte
+  given: Rodrigo Toro
+- family: Klassen
+  given: Toryn
+- family: Valenzano
+  given: Richard
+- family: McIlraith
+  given: Sheila
+booktitle: Proceedings of the 35th International Conference on Machine Learning
+editor: Dy, Jennifer and Krause, Andreas
+month: 10--15 Jul
+pages: 2107--2116
+pdf: http://proceedings.mlr.press/v80/icarte18a/icarte18a.pdf
+publisher: PMLR
+ref: pmlr-v80-icarte18a
+series: Proceedings of Machine Learning Research
+title: Using Reward Machines for High-Level Task Specification and Decomposition in
+  Reinforcement Learning
+type: inproceedings
+url: http://proceedings.mlr.press/v80/icarte18a.html
+volume: '80'
+year: '2018'

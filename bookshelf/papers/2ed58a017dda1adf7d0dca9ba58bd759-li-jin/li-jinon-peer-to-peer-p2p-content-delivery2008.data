@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+    
+
+    <meta name="journal_id" content="12083"/>
+
+    <meta name="dc.title" content="On peer-to-peer (P2P) content delivery"/>
+
+    <meta name="dc.source" content="Peer-to-Peer Networking and Applications 2008 1:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2008-01-20"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2008 Springer Science + Business Media, LLC"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="In both academia and industry, peer-to-peer (P2P) applications have attracted great attentions. P2P applications such as Napster, Gnutella, FastTrack, BitTorrent, Skype and PPLive, have witnessed tremendous success among the end users. Unlike a client-server based system, peers bring with them serving capacity. Therefore, as the demand of a P2P system grows, the capacity of the network grows, too. This enables a P2P application to be cheap to build and superb in scalability. In this paper, we survey the state of the art of the research and the development of P2P content delivery application. Using examples of the deployed P2P applications and research prototypes, we survey the best practices in P2P overlay building and P2P scheduling. We hope that the information may help the readers to build a reliable, robust P2P content delivery application."/>
+
+    <meta name="prism.issn" content="1936-6450"/>
+
+    <meta name="prism.publicationName" content="Peer-to-Peer Networking and Applications"/>
+
+    <meta name="prism.publicationDate" content="2008-01-20"/>
+
+    <meta name="prism.volume" content="1"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="45"/>
+
+    <meta name="prism.endingPage" content="63"/>
+
+    <meta name="prism.copyright" content="2008 Springer Science + Business Media, LLC"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s12083-007-0003-1"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s12083-007-0003-1"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s12083-007-0003-1.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s12083-007-0003-1"/>
+
+    <meta name="citation_journal_title" content="Peer-to-Peer Networking and Applications"/>
+
+    <meta name="citation_journal_abbrev" content="Peer-to-Peer Netw. Appl."/>
+
+    <meta name="citation_publisher" content="Springer US"/>
+
+    <meta name="citation_issn" content="1936-6450"/>
+
+    <meta name="citation_title" content="On peer-to-peer (P2P) content delivery"/>
+
+    <meta name="citation_volume" content="1"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="2008/03"/>
+
+    <meta name="citation_online_date" content="2008/01/20"/>
+
+    <meta name="citation_firstpage" content="45"/>
+
+    <meta name="citation_lastpage" content="63"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s12083-007-0003-1"/>
+
+    <meta name="DOI" content="10.1007/s12083-007-0003-1"/>
+
+    <meta name="citation_doi" content="10.1007/s12083-007-0003-1"/>
+
+    <meta name="description" content="In both academia and industry, peer-to-peer (P2P) applications have attracted great attentions. P2P applications such as Napster, Gnutella, FastTrack, BitT"/>
+
+    <meta name="dc.creator" content="Jin Li"/>
+
+    <meta name="dc.subject" content="Communications Engineering, Networks"/>
+
+    <meta name="dc.subject" content="Information Systems and Communication Service"/>
+
+    <meta name="dc.subject" content="Computer Communication Networks"/>
+
+    <meta name="dc.subject" content="Signal,Image and Speech Processing"/>
+
+    <meta name="citation_reference" content="A&amp;M Records, Inc vs. Napster Inc, United States District Court, Northern District of California, Mar. 2001"/>
+
+    <meta name="citation_reference" content="&#8220;Testimony of Mr. Shawn Fanning&#8221;, United States Senate Committee on the Judiciary, hearings on the Utah&#8217;s digital economy and the future: peer-to-peer and other emerging technologies. Oct. 9, 2000"/>
+
+    <meta name="citation_reference" content="Report: Napster users lose that sharing feeling,&#8221; in CNN news, URL: 
+                    http://archives.cnn.com/2001/TECH/Internet/06/28/napster.usage/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="citation_title=Trends and statistics in peer-to-peer. Workshop on technical and legal aspects of peer-to-peer television; citation_publication_date=2006; citation_id=CR4; citation_author=D Ferguson; citation_publisher=Amsterdam"/>
+
+    <meta name="citation_reference" content="Winer D. Clary shirky on P2P. URL: 
+                    http://davenet.scripting.com/2000/11/15/clayShirkyOnP2p
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Schollmeier R (2001) A definition of peer-to-peer networking for the classification of peer-to-peer architectures and applications. Proc. of 1st Intern. Conf. on Peer-to-Peer Computing, Linkoping, Sweden, pp. 101&#8211;102, Aug"/>
+
+    <meta name="citation_reference" content="Sundsted T. The practice of peer-to-peer computing: Introduction and history.&#8221; URL: 
+                    http://www-106.ibm.com/developerworks/java/library/j-p2p
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Steve Saporta, &#8220;Multiple bit rate streams&#8221;, Jun. 1, 2002, URL: 
+                    http://www.midicorp.com/articles.php?section=articles&amp;id=24
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="citation_title=Peer-to-peer architecture case study: Gnutella network. Internet2 workshop: collaborative computing in higher education: peer-to-peer and beyond; citation_publication_date=2002; citation_id=CR9; citation_author=M Ripeanu; citation_publisher=Tempe"/>
+
+    <meta name="citation_reference" content="Ritter J. Why Gnutella can&#8217;t scale. No, really. URL: 
+                    http://www.darkridge.com/~jpr5/doc/gnutella.html
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Llie D (2006) Gnutella network traffic measurements and Characteristics. Licentiate Dissertation Series No. 2006:05, ISBN: 91-7295-084-6, April"/>
+
+    <meta name="citation_reference" content="Liang J, Kumar R, Xi Y, Ross KW (2005) Pollution in P2P file sharing systems. Proc. of INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies, 13&#8211;17 March, Miami, FL"/>
+
+    <meta name="citation_reference" content="Ho&#223;feld T, Leibnitz K, Pries R, Tutschku K, Tran-Gia P, Pawlikowski K (2004) Information diffusion in eDonkey file sharing networks. University of W&#252;rzburg, Research Report No. 341, Sept"/>
+
+    <meta name="citation_reference" content="Comparison of BitTorrent software. From Wikipedia, URL: 
+                    http://en.wikipedia.org/wiki/Comparison_of_BitTorrent_software
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="RawFlow Ltd., URL: 
+                    http://www.rawflow.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Abacast Online, URL: 
+                    http://www.abacast.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="PPLive.com, URL: 
+                    http://www.pplive.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="PPStream, URL: 
+                    http://www.ppstream.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="UUSee, URL: 
+                    http://www.uusee.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Roxbeam media network, URL: 
+                    http://www.roxbeam.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Mysee, URL: 
+                    http://www.mysee.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Hei X, Liang C, Liang J, Liu Y, Ross KW (2006) Insights into PPLive: a measurement study of a large-scale P2P IPTV system. In: Workshop on Internet Protocol TV (IPTV) services over World Wide Web in conjunction with WWW2006, Edinburgh, Scotland, May"/>
+
+    <meta name="citation_reference" content="Liang J, Naoumov N, Ross KW (2006) The index poisoning attack in P2P file-sharing systems. Proc. of INFOCOM 2006. 25th Annual Joint Conference of the IEEE Computer and Communications Societies, Barcelona, Spain, Apr"/>
+
+    <meta name="citation_reference" content="Daswani N, Garcia-Molina H (2002) Query-flood DoS attacks in Gnutella. 9th ACM Computer and Communications Security Conference (CCS), Washington, Dc, Nov"/>
+
+    <meta name="citation_reference" content="Naoumov N, Ross KW (2006) Exploiting P2P systems for DDoS attacks. International workshop on peer-to-peer information management (keynote address). Hong Kong, May"/>
+
+    <meta name="citation_reference" content="Liang J, Kumar R, Ross KW (2005) The Kazaa overlay: a measurement study. Computer networks: special issue on overlays"/>
+
+    <meta name="citation_reference" content="Guha S, Daswani N, Jain R (2006) An experimental study of the Skype peer-to-peer VoIP system. In: Proceedings of the IPTPS&#8217;06. Santa Barbara, CA, Feb"/>
+
+    <meta name="citation_reference" content="BitComet tracker overview, URL: 
+                    http://www.bitcomet.com/tracker/index.htm
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Padmanabhan VN, Wang HJ, Chou PA, Sripanidkulchai K (2002) Distributing streaming media content using cooperative networking. ACM NOSSDAV, Miami Beach, FL, USA, May"/>
+
+    <meta name="citation_reference" content="Banerjee S, Bhattacharjee B, Kommareddy C (2002) Scalable application layer multicast. In: Proceedings of ACM SIGCOMM 2002. Pittsburgh, PA, August"/>
+
+    <meta name="citation_reference" content="Tran D, Hua K, Do T (2003) Zigzag: an efficient peer-to-peer scheme for media streaming. Proc. of INFOCOM 2003, the 22nd Annual Joint Conference of the IEEE Computer and Communications Societies, San Francisco, CA, Apr"/>
+
+    <meta name="citation_reference" content="Chu Y, Rao SG, Seshan S, Zhang H (2002) A case for end system multicast. IEEE Journal on Selected Areas in Communication (JSAC), Special Issue on Networking Support for Multicast 20(8)"/>
+
+    <meta name="citation_reference" content="Ratnasamy S, Francis P, Handley M, Karp R, Shenker S (2001) A scalable content-addressable network. In: Proceedings of ACM SIGCOMM 2001. San Diego, CA, Aug"/>
+
+    <meta name="citation_reference" content="Stoica I, Morris R, Karger D, Frans Kaashoek M, Balakrishnan H (2001) Chord: a scalable peer-to-peer lookup service for internet applications. In: Proceedings of ACM SIGCOMM 2001. San Diego, CA, pp 149&#8211;160, August"/>
+
+    <meta name="citation_reference" content="Rowstron A, Druschel P (2001) Pastry: scalable, distributed object location and routing for large-scale peer-to-peer systems. IFIP/ACM International Conference on Distributed Systems Platforms (Middleware). Heidelberg, Germany, pp 329&#8211;350, November"/>
+
+    <meta name="citation_reference" content="Zhao BY, Huang L, Stribling J, Rhea SC, Joseph AD, Kubiatowcz JD (2004) Tapestry: a resilient global-scale overlay for service deployment. IEEE J Sel Areas Commun 22(1), Jan"/>
+
+    <meta name="citation_reference" content="Yl&#228;-J&#228;&#228;ski A, Kasinskaja N (eds) (2005) Peer-to-peer technologies, networks and systems, Helsinki University of Technology, T-110.551 Seminar on Internetworking in the spring"/>
+
+    <meta name="citation_reference" content="Maymounkov P, Mazi&#232;res D (2002) Kademlia: a peer-to-peer information system based on the XOR metric. In: 1st international workshop on peer-to-peer systems (IPTPS 2002). Cambridge, MA, Mar"/>
+
+    <meta name="citation_reference" content="Castro M, Druschel P, Kermarrec A-M, Nandi A, Rowstron A, Singh A (2003) SplitStream: high-bandwidth multicast in a cooperative environment. SOSP&#8217;03, Lake Bolton, New York, October"/>
+
+    <meta name="citation_reference" content="Ng TSE, Zhang H (2002) Predicting Internet network distance with coordinates-based approaches. Proc. of INFOCOM 2002, the 21st Annual Joint Conference of the IEEE Computer and Communications Societies, New York, NY, June"/>
+
+    <meta name="citation_reference" content="Costa M, Castro M, Rowstron A, Key P (2004) Practical internet coordinates for distance estimation. Proc. ICDCS 2004, the 24th International Conf. on Distributed Computing Systems, Tokyo, Japan, Mar"/>
+
+    <meta name="citation_reference" content="Pias M, Crowcroft J, Wilbur S, Bhatti S, Harris T (2003) Lighthouses for scalable distributed location. In 2nd International Workshop on Peer-to-Peer Systems (IPTPS &#8217;03). Berkeley, CA, Feb"/>
+
+    <meta name="citation_reference" content="Tang L, Crovella M (2003) Virtual landmarks for the internet. Proc. of the ACM/SIGCOMM Internet Measurement Conference 2003. Miami, FL, pp 143&#8211;152, Oct"/>
+
+    <meta name="citation_reference" content="Bindal R, Pei C, Chan W, Medved J, Suwala G, Bates T, Zhang A (2006) Improving traffic locality in BitTorrent via biased neighbor selection. Proc. ICDCS 2006, the 26th IEEE International Conference on the Distributed Computing Systems, Lisboa, Portugal, July"/>
+
+    <meta name="citation_reference" content="Li J, Sollins K (2004) Exploiting autonomous system information in structured peer-to-peer networks. Proc. ICCCN2004, the 13th IEEE International Conference on Computer Communications and Networks, Chicago, IL, October"/>
+
+    <meta name="citation_reference" content="Skitter, URL: 
+                    http://www.caida.org/tools/measurement/skitter/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="RouterViews, URL: 
+                    http://www.routeviews.org/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Dimitropoulos X, Krioukov D, Riley G, Claffy KC (2006) Revealing the autonomous system taxonomy: the machine learning approach. Proc. Passive and active measurements workshop (PAM). Adelaide, Austria, Mar"/>
+
+    <meta name="citation_reference" content="Hu N, Li LE, Mao ZM, Steenkiste P, Wang J (2004) Locating Internet bottlenecks: algorithms, measurements, and implications. Proc. SIGCOMM 2004. Portland, OR, Sept"/>
+
+    <meta name="citation_reference" content="Setton E, Noh J, Girod B (2006) Low latency video streaming over peer-to-peer networks. Proc. ICME 2006, IEEE Int. Conf. Multimedia and Expo. Toronto, Canada, July"/>
+
+    <meta name="citation_reference" content="Internet protocol multicast, ch 43 of Internetworking Technology Handbook, 
+                    http://www.cisco.com/univercd/cc/td/doc/cisintwk/ito_doc/index.htm
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Chawathe Y (2000) Scattercast: an architecture for internet broadcast distribution as an infrastructure service. PhD thesis, University of California, Berkeley, August"/>
+
+    <meta name="citation_reference" content="Jannotti J, Gifford DK, Johnson KL, Kaashoek MF, O&#8217;Toole Jr. JW (2000) Overcast: reliable multicasting with an overlay network. In Proc. of the Fourth Symposium on Operating System Design and Implementation (OSDI), October"/>
+
+    <meta name="citation_reference" content="Li J, Chou PA, Zhang C (2005) Mutualcast: an efficient mechanism for content distribution in a P2P network. Proc. Acm Sigcomm Asia Workshop. Beijing, China, Apr. 10&#8211;12"/>
+
+    <meta name="citation_reference" content="Cherkasova L, Lee J (2003) FastReplica: efficient large file distribution within content delivery networks. In: Proc. of the 4-th USENIX Symposium on Internet Technologies and Systems. Seattle, Washington, March 26&#8211;28"/>
+
+    <meta name="citation_reference" content="Huang C, Li J (2006) DISCOVR: distributed collaborative video recorder. 2006 International Conference on Multimedia &amp; Expo (ICME&#8217;2006), Toronto, Canada, Jul. 9&#8211;12"/>
+
+    <meta name="citation_reference" content="Gkantsidis C, Rodriguez P (2005) Network Coding for Large Scale Content Distribution. Proc. of INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies, Miami, FL, 13&#8211;17 March"/>
+
+    <meta name="citation_reference" content="Zhang M, Luo JG, Zhao L, Yang SQ ( 2005) A peer-to-peer network for live media streaming using a push-pull approach. Proc. ACM Multimedia 2005, Singapore, pp 287&#8211;290, Sept"/>
+
+    <meta name="citation_reference" content="BitTorrent Specification, URL: 
+                    http://wiki.theory.org/BitTorrentSpecification
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="Li J, Cui Y (2007) PeerStreaming: design and implementation of an on-demand distributed streaming system. To be published in ACM Multimedia Systems Journal"/>
+
+    <meta name="citation_reference" content="Kostic D, Braud R, Killian C, Vandekieft E, Anderson JW, Snoeren AC, Vahdat A (2005) Maintaining high-bandwidth under dynamic network conditions. Proceedings of 2005 USENIX Annual Technical Conference (USENIX 2005). April"/>
+
+    <meta name="citation_reference" content="Katabi D, Handley M, Rohrs C (2002) Internet congestion control for high bandwidth-delay product networks. In: Proceedings of ACM SIGCOMM, August"/>
+
+    <meta name="citation_reference" content="Microsoft Research ConfXP, URL: 
+                    http://www.learningwebservices.com/
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="citation_title=Edge-disjoint branchings; citation_inbook_title=Combinatorial Algorithms; citation_publication_date=1973; citation_pages=91-96; citation_id=CR64; citation_author=J Edmonds; citation_publisher=Academic Press"/>
+
+    <meta name="citation_reference" content="Chou PA, WuY, Jain K (2003) Practical network coding. Proc. 51st Allerton Conf. Communication, Control and Computing, Oct"/>
+
+    <meta name="citation_reference" content="Byers JW, Luby M, Mitzenmacher M, Rege A (1998) A digital fountain approach to reliable distribution of bulk data. Proc. ACM SIGCOMM. Vancouver, BC, Sept"/>
+
+    <meta name="citation_reference" content="Li J (2005) The efficient implementation of Reed-Solomon high rate erasure resilient codes. Proc. IEEE International Conference on Acoustics, Speech, and Signal Processing (2005). Philadelphia, PA, Mar. 19&#8211;23"/>
+
+    <meta name="citation_reference" content="Krohn M, Freedman MJ, Mazi&#232;res D (2004) On-the-fly verification of rateless erasure codes for efficient content distribution Proc. IEEE Symposium on Security and Privacy, Oakland, CA, May"/>
+
+    <meta name="citation_reference" content="Gkantsidis C, Rodriguez P (2006) Cooperative security for network coding file distribution. IEEE/INFOCOM&#8217;06. Barcelona, April"/>
+
+    <meta name="citation_reference" content="Charles D, Jain K, Lauter K (2006) Signatures for network coding. Conf. on Information Sciences and Systems, Mar"/>
+
+    <meta name="citation_reference" content="Gummadi K, Gribble S, Ratnasamy S, Shenker S, Stoica I (2003) The impact of DHT routing geometry on resilience and proximity. Proc. Proc. ACM SIGCOMM&#8217;03. Karlsruhe, Germany"/>
+
+    <meta name="citation_reference" content="Castro M, Costa M, Rowstron A. Performance and dependability of structured peer-to-peer overlays. Technical report MSR-TR2003-94"/>
+
+    <meta name="citation_reference" content="Huang G (2007) PPLive &#8211; a practical P2P live system with huge amount of users. keynote speech at P2PTV workshop, Kyoto, Japan"/>
+
+    <meta name="citation_reference" content="Li J (2007) Locality aware peer assisted delivery: the way to scale Internet video to the world. 16th Packet Video workshop (PV 2007). Lausanne, Switzerland, Nov"/>
+
+    <meta name="citation_reference" content="Karagiannis T, Rodriguez P, Papagiannaki K (2005) Should Internet service providers fear peer-assisted content distribution? In: Proc. Internet Measurement Conference 2005. Berkeley, CA, Oct"/>
+
+    <meta name="citation_reference" content="Huang C, Li J, Ross K (2007) Can internet video-on-demand be profitable. Proc. ACM Sigcomm&#8217;07. Kyoto, Japan, Aug"/>
+
+    <meta name="citation_reference" content="Pakkala D, Latvakoski J (2005) Towards a peer-to-peer extended content delivery network. 14th IST Mobile &amp; Wireless Communications Summit, Dresden, June"/>
+
+    <meta name="citation_reference" content="Xu D, Chai HK, Rosenberg C, Kulkami S (2003) Analysis of a hybrid architecture for cost-effective streaming media distribution. SPIE/ACM Conf. on Multimedia Computing and Networking (MMCN&#8217;03). San Jose, CA, Jan"/>
+
+    <meta name="citation_reference" content="The VeriSign Intelligent CDN, VeriSign, 2007"/>
+
+    <meta name="citation_author" content="Jin Li"/>
+
+    <meta name="citation_author_email" content="jinl@microsoft.com"/>
+
+    <meta name="citation_author_institution" content="Microsoft Research, Communication and Collaboration Systems, One Microsoft Way, Redmond, USA"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="On peer-to-peer (P2P) content delivery"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="In both academia and industry, peer-to-peer (P2P) applications have attracted great attentions. P2P applications such as Napster, Gnutella, FastTrack, BitTorrent, Skype and PPLive, have witnessed tremendous success among the end users. Unlike a client-server based system, peers bring with them serving capacity. Therefore, as the demand of a P2P system grows, the capacity of the network grows, too. This enables a P2P application to be cheap to build and superb in scalability. In this paper, we survey the state of the art of the research and the development of P2P content delivery application. Using examples of the deployed P2P applications and research prototypes, we survey the best practices in P2P overlay building and P2P scheduling. We hope that the information may help the readers to build a reliable, robust P2P content delivery application."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/12083/1/1.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s12083-007-0003-1&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2008/03/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s12083-007-0003-1"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Peer-to-Peer Networking and Applications"/>
+        <meta property="og:title" content="On peer-to-peer (P2P) content delivery"/>
+        <meta property="og:description" content="In both academia and industry, peer-to-peer (P2P) applications have attracted great attentions. P2P applications such as Napster, Gnutella, FastTrack, BitTorrent, Skype and PPLive, have witnessed tremendous success among the end users. Unlike a client-server based system, peers bring with them serving capacity. Therefore, as the demand of a P2P system grows, the capacity of the network grows, too. This enables a P2P application to be cheap to build and superb in scalability. In this paper, we survey the state of the art of the research and the development of P2P content delivery application. Using examples of the deployed P2P applications and research prototypes, we survey the best practices in P2P overlay building and P2P scheduling. We hope that the information may help the readers to build a reliable, robust P2P content delivery application."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/12083.jpg"/>
+    
+    <title>On peer-to-peer (P2P) content delivery | SpringerLink</title>
+        <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+    <link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+    <link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+    <link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+    <link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+    <link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+    <link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+    <link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+    <link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+    <link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+    <link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-2e8ab716a5.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-1d76ed1d73.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-s12083-007-0003-1","Journal Title":"Peer-to-Peer Networking and Applications","Journal Id":12083,"Keywords":"Peer-to-peer (P2P), P2P file sharing, P2P streaming, P2P broadcast, Survey, Overlay, Scheduling, Efficiency, Reliability, Robustness, Quality of service (QoS)","kwrd":["Peer-to-peer_(P2P)","P2P_file_sharing","P2P_streaming","P2P_broadcast","Survey","Overlay","Scheduling","Efficiency","Reliability","Robustness","Quality_of_service_(QoS)"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"Y","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s12083-007-0003-1","Full HTML":"N","Subject Codes":["SCT","SCT24035","SCI18008","SCI13022","SCT24051"],"pmc":["T","T24035","I18008","I13022","T24051"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1936-6450","pissn":"1936-6442"},"type":"Article","category":{"pmc":{"primarySubject":"Engineering","primarySubjectCode":"T","secondarySubjects":{"1":"Communications Engineering, Networks","2":"Information Systems and Communication Service","3":"Computer Communication Networks","4":"Signal,Image and Speech Processing"},"secondarySubjectCodes":{"1":"T24035","2":"I18008","3":"I13022","4":"T24051"}},"sucode":"SC8"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/s12083-007-0003-1","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+
+</head>
+<body class="shared-article-renderer">
+    <div class="u-vh-full">
+        <div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/12083/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=3;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu" data-enhanced-menu>
+                
+                    <li class="c-header__item u-hide-at-lt-lg">
+                        <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12083-007-0003-1">Log in</a>
+                    </li>
+                
+
+
+
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+            <main class="c-article-main-column u-float-left js-main-column">
+                <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                    <div class="c-article-header">
+                        <header>
+                            <ul class="c-article-identifiers" data-test="article-identifier">
+                                
+    
+    
+    
+
+                                <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="2008-01-20" itemprop="datePublished">20 January 2008</time></a></li>
+                            </ul>
+
+                            
+                            <h1 class="c-article-title u-h1" data-test="article-title" data-article-title="" itemprop="name headline">On peer-to-peer (P2P) content delivery</h1>
+                            <ul class="c-author-list js-list-authors js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1" data-corresp-id="c1">Jin Li<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Microsoft Research, Communication and Collaboration Systems, One Microsoft Way" /><meta itemprop="address" content="grid.419815.0, 0000000121813404, Microsoft Research, Communication and Collaboration Systems, One Microsoft Way, Redmond, WA, 98052, USA" /></span></sup> </li></ul>
+                            <p class="c-article-info-details" data-container-section="info">
+                                
+    <a data-test="journal-link" href="/journal/12083"><i data-test="journal-title">Peer-to-Peer Networking and Applications</i></a>
+
+                                <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 1</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">45</span>–<span itemprop="pageEnd">63</span>(<span data-test="article-publication-year">2008</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                            </p>
+                            
+    
+
+                            <div data-test="article-metrics">
+                                <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">770 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">38 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">3 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs12083-007-0003-1/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                            </div>
+                            
+                            
+                            
+                        </header>
+                    </div>
+
+                    <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                        <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>In both academia and industry, peer-to-peer (P2P) applications have attracted great attentions. P2P applications such as Napster, Gnutella, FastTrack, BitTorrent, Skype and PPLive, have witnessed tremendous success among the end users. Unlike a client-server based system, peers bring with them serving capacity. Therefore, as the demand of a P2P system grows, the capacity of the network grows, too. This enables a P2P application to be cheap to build and superb in scalability. In this paper, we survey the state of the art of the research and the development of P2P content delivery application. Using examples of the deployed P2P applications and research prototypes, we survey the best practices in P2P overlay building and P2P scheduling. We hope that the information may help the readers to build a reliable, robust P2P content delivery application.</p></div></div></section>
+                        
+    
+
+
+                        
+                            
+                                <div class="c-notes">
+                                    <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12083-007-0003-1" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                                </div>
+                            
+                            
+                                <div class="c-article-buy-box c-article-buy-box--article">
+                                    <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">37,40 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s12083-007-0003-1">
+     <input type="hidden" name="isxn" value="1936-6450">
+     <input type="hidden" name="contenttitle" value="On peer-to-peer (P2P) content delivery">
+     <input type="hidden" name="copyrightyear" value="2008">
+     <input type="hidden" name="year" value="2008">
+     <input type="hidden" name="authors" value="Jin Li">
+     <input type="hidden" name="title" value="Peer-to-Peer Networking and Applications">
+     <input type="hidden" name="mac" value="EE4E8B87E57375E40BD58366ABD396AC">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Peer-to-Peer Networking and Applications">
+     <input type="hidden" name="journalnumber" value="12083">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s12083-007-0003-1&journal=1936-6450&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                                </div>
+                            
+                            <div class="u-display-none">
+                                <div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-1"><figure><figcaption><b id="Fig1" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 1</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><picture><source type="image/webp" srcset="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig1_HTML.gif?as=webp"></source><img src="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig1_HTML.gif" alt="" loading="lazy" /></picture></div></div></figure></div><div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-2"><figure><figcaption><b id="Fig2" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 2</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><picture><source type="image/webp" srcset="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig2_HTML.gif?as=webp"></source><img src="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig2_HTML.gif" alt="" loading="lazy" /></picture></div></div></figure></div><div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-3"><figure><figcaption><b id="Fig3" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 3</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><picture><source type="image/webp" srcset="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig3_HTML.gif?as=webp"></source><img src="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig3_HTML.gif" alt="" loading="lazy" /></picture></div></div></figure></div><div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-4"><figure><figcaption><b id="Fig4" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 4</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><picture><source type="image/webp" srcset="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig4_HTML.gif?as=webp"></source><img src="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig4_HTML.gif" alt="" loading="lazy" /></picture></div></div></figure></div><div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-5"><figure><figcaption><b id="Fig5" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 5</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><picture><source type="image/webp" srcset="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig5_HTML.gif?as=webp"></source><img src="//media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12083-007-0003-1/MediaObjects/12083_2007_3_Fig5_HTML.gif" alt="" loading="lazy" /></picture></div></div></figure></div>
+                            </div>
+                        
+
+                        
+
+                        
+
+                        <section aria-labelledby="notes"><div class="c-article-section" id="notes-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="notes">Notes</h2><div class="c-article-section__content" id="notes-content"><ol class="c-article-footnote c-article-footnote--listed"><li class="c-article-footnote--listed__item" id="Fn1"><span class="c-article-footnote--listed__index">1.</span><div class="c-article-footnote--listed__content"><p>Some optimization of Kademlia allows the <i>k</i>-bucket with different prefix to split to a max depth <i>d</i>.</p></div></li><li class="c-article-footnote--listed__item" id="Fn2"><span class="c-article-footnote--listed__index">2.</span><div class="c-article-footnote--listed__content"><p>Since Reed-Solomon is a maximum distance separable (MDS) erasure code, only exact <i>k </i>distinctive coded blocks are needed. If fountain code or random linear code is used, we may need (1 + <i>ɛ</i>)<i>k </i>blocks, with <i>ɛ</i> being a very small number for random linear code, and being around 0.03–0.25 for fountain code.</p></div></li><li class="c-article-footnote--listed__item" id="Fn3"><span class="c-article-footnote--listed__index">3.</span><div class="c-article-footnote--listed__content"><p>Avalanche 0 uses a push based confirmation process to ensure exact <i>k</i> blocks are needed to decode the original. In Avalanche, the sender first proposes to the receiver the code vector of the transmitted block. The receiver checks whether the code vector is linearly independent to the code vectors of the already received blocks, and accepts or rejects the code vector. This way, no bandwidth is wasted. Nevertheless, it may increase the latency in the delivery.</p></div></li></ol></div></div></section><section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="A&amp;M Records, Inc vs. Napster Inc, United States District Court, Northern District of California, Mar. 2001" /><span class="c-article-references__counter">1.</span><p class="c-article-references__text" id="ref-CR1">A&amp;M Records, Inc vs. Napster Inc, United States District Court, Northern District of California, Mar. 2001</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="“Testimony of Mr. Shawn Fanning”, United States Senate Committee on the Judiciary, hearings on the Utah’s digi" /><span class="c-article-references__counter">2.</span><p class="c-article-references__text" id="ref-CR2">“Testimony of Mr. Shawn Fanning”, United States Senate Committee on the Judiciary, hearings on the Utah’s digital economy and the future: peer-to-peer and other emerging technologies. Oct. 9, 2000</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Report: Napster users lose that sharing feeling,” in CNN news, URL: http://archives.cnn.com/2001/TECH/Internet" /><span class="c-article-references__counter">3.</span><p class="c-article-references__text" id="ref-CR3">Report: Napster users lose that sharing feeling,” in CNN news, URL: <a href="http://archives.cnn.com/2001/TECH/Internet/06/28/napster.usage/">http://archives.cnn.com/2001/TECH/Internet/06/28/napster.usage/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D. Ferguson, " /><meta itemprop="datePublished" content="2006" /><meta itemprop="headline" content="Ferguson D (2006) Trends and statistics in peer-to-peer. Workshop on technical and legal aspects of peer-to-pe" /><span class="c-article-references__counter">4.</span><p class="c-article-references__text" id="ref-CR4">Ferguson D (2006) Trends and statistics in peer-to-peer. Workshop on technical and legal aspects of peer-to-peer television. Amsterdam, Netherlands, Mar. 17</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Trends%20and%20statistics%20in%20peer-to-peer.%20Workshop%20on%20technical%20and%20legal%20aspects%20of%20peer-to-peer%20television&amp;publication_year=2006&amp;author=Ferguson%2CD">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Winer D. Clary shirky on P2P. URL: http://davenet.scripting.com/2000/11/15/clayShirkyOnP2p&#xA;                   " /><span class="c-article-references__counter">5.</span><p class="c-article-references__text" id="ref-CR5">Winer D. Clary shirky on P2P. URL: <a href="http://davenet.scripting.com/2000/11/15/clayShirkyOnP2p">http://davenet.scripting.com/2000/11/15/clayShirkyOnP2p</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Schollmeier R (2001) A definition of peer-to-peer networking for the classification of peer-to-peer architectu" /><span class="c-article-references__counter">6.</span><p class="c-article-references__text" id="ref-CR6">Schollmeier R (2001) A definition of peer-to-peer networking for the classification of peer-to-peer architectures and applications. Proc. of 1st Intern. Conf. on Peer-to-Peer Computing, Linkoping, Sweden, pp. 101–102, Aug</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Sundsted T. The practice of peer-to-peer computing: Introduction and history.” URL: http://www-106.ibm.com/dev" /><span class="c-article-references__counter">7.</span><p class="c-article-references__text" id="ref-CR7">Sundsted T. The practice of peer-to-peer computing: Introduction and history.” URL: <a href="http://www-106.ibm.com/developerworks/java/library/j-p2p">http://www-106.ibm.com/developerworks/java/library/j-p2p</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Steve Saporta, “Multiple bit rate streams”, Jun. 1, 2002, URL: http://www.midicorp.com/articles.php?section=ar" /><span class="c-article-references__counter">8.</span><p class="c-article-references__text" id="ref-CR8">Steve Saporta, “Multiple bit rate streams”, Jun. 1, 2002, URL: <a href="http://www.midicorp.com/articles.php?section=articles&amp;id=24">http://www.midicorp.com/articles.php?section=articles&amp;id=24</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="M. Ripeanu, " /><meta itemprop="datePublished" content="2002" /><meta itemprop="headline" content="Ripeanu M (2002) Peer-to-peer architecture case study: Gnutella network. Internet2 workshop: collaborative com" /><span class="c-article-references__counter">9.</span><p class="c-article-references__text" id="ref-CR9">Ripeanu M (2002) Peer-to-peer architecture case study: Gnutella network. Internet2 workshop: collaborative computing in higher education: peer-to-peer and beyond. Tempe, Arizona, January 30–31</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Peer-to-peer%20architecture%20case%20study%3A%20Gnutella%20network.%20Internet2%20workshop%3A%20collaborative%20computing%20in%20higher%20education%3A%20peer-to-peer%20and%20beyond&amp;publication_year=2002&amp;author=Ripeanu%2CM">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ritter J. Why Gnutella can’t scale. No, really. URL: http://www.darkridge.com/~jpr5/doc/gnutella.html&#xA;        " /><span class="c-article-references__counter">10.</span><p class="c-article-references__text" id="ref-CR10">Ritter J. Why Gnutella can’t scale. No, really. URL: <a href="http://www.darkridge.com/~jpr5/doc/gnutella.html">http://www.darkridge.com/~jpr5/doc/gnutella.html</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Llie D (2006) Gnutella network traffic measurements and Characteristics. Licentiate Dissertation Series No. 20" /><span class="c-article-references__counter">11.</span><p class="c-article-references__text" id="ref-CR11">Llie D (2006) Gnutella network traffic measurements and Characteristics. Licentiate Dissertation Series No. 2006:05, ISBN: 91-7295-084-6, April</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Liang J, Kumar R, Xi Y, Ross KW (2005) Pollution in P2P file sharing systems. Proc. of INFOCOM 2005. 24th Annu" /><span class="c-article-references__counter">12.</span><p class="c-article-references__text" id="ref-CR12">Liang J, Kumar R, Xi Y, Ross KW (2005) Pollution in P2P file sharing systems. Proc. of INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies, 13–17 March, Miami, FL</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Hoßfeld T, Leibnitz K, Pries R, Tutschku K, Tran-Gia P, Pawlikowski K (2004) Information diffusion in eDonkey " /><span class="c-article-references__counter">13.</span><p class="c-article-references__text" id="ref-CR13">Hoßfeld T, Leibnitz K, Pries R, Tutschku K, Tran-Gia P, Pawlikowski K (2004) Information diffusion in eDonkey file sharing networks. University of Würzburg, Research Report No. 341, Sept</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Comparison of BitTorrent software. From Wikipedia, URL: http://en.wikipedia.org/wiki/Comparison_of_BitTorrent_" /><span class="c-article-references__counter">14.</span><p class="c-article-references__text" id="ref-CR14">Comparison of BitTorrent software. From Wikipedia, URL: <a href="http://en.wikipedia.org/wiki/Comparison_of_BitTorrent_software">http://en.wikipedia.org/wiki/Comparison_of_BitTorrent_software</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="RawFlow Ltd., URL: http://www.rawflow.com/&#xA;                        " /><span class="c-article-references__counter">15.</span><p class="c-article-references__text" id="ref-CR15">RawFlow Ltd., URL: <a href="http://www.rawflow.com/">http://www.rawflow.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Abacast Online, URL: http://www.abacast.com/&#xA;                        " /><span class="c-article-references__counter">16.</span><p class="c-article-references__text" id="ref-CR16">Abacast Online, URL: <a href="http://www.abacast.com/">http://www.abacast.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="PPLive.com, URL: http://www.pplive.com/&#xA;                        " /><span class="c-article-references__counter">17.</span><p class="c-article-references__text" id="ref-CR17">PPLive.com, URL: <a href="http://www.pplive.com/">http://www.pplive.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="PPStream, URL: http://www.ppstream.com/&#xA;                        " /><span class="c-article-references__counter">18.</span><p class="c-article-references__text" id="ref-CR18">PPStream, URL: <a href="http://www.ppstream.com/">http://www.ppstream.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="UUSee, URL: http://www.uusee.com/&#xA;                        " /><span class="c-article-references__counter">19.</span><p class="c-article-references__text" id="ref-CR19">UUSee, URL: <a href="http://www.uusee.com/">http://www.uusee.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Roxbeam media network, URL: http://www.roxbeam.com/&#xA;                        " /><span class="c-article-references__counter">20.</span><p class="c-article-references__text" id="ref-CR20">Roxbeam media network, URL: <a href="http://www.roxbeam.com/">http://www.roxbeam.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Mysee, URL: http://www.mysee.com/&#xA;                        " /><span class="c-article-references__counter">21.</span><p class="c-article-references__text" id="ref-CR21">Mysee, URL: <a href="http://www.mysee.com/">http://www.mysee.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Hei X, Liang C, Liang J, Liu Y, Ross KW (2006) Insights into PPLive: a measurement study of a large-scale P2P " /><span class="c-article-references__counter">22.</span><p class="c-article-references__text" id="ref-CR22">Hei X, Liang C, Liang J, Liu Y, Ross KW (2006) Insights into PPLive: a measurement study of a large-scale P2P IPTV system. In: Workshop on Internet Protocol TV (IPTV) services over World Wide Web in conjunction with WWW2006, Edinburgh, Scotland, May</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Liang J, Naoumov N, Ross KW (2006) The index poisoning attack in P2P file-sharing systems. Proc. of INFOCOM 20" /><span class="c-article-references__counter">23.</span><p class="c-article-references__text" id="ref-CR23">Liang J, Naoumov N, Ross KW (2006) The index poisoning attack in P2P file-sharing systems. Proc. of INFOCOM 2006. 25th Annual Joint Conference of the IEEE Computer and Communications Societies, Barcelona, Spain, Apr</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Daswani N, Garcia-Molina H (2002) Query-flood DoS attacks in Gnutella. 9th ACM Computer and Communications Sec" /><span class="c-article-references__counter">24.</span><p class="c-article-references__text" id="ref-CR24">Daswani N, Garcia-Molina H (2002) Query-flood DoS attacks in Gnutella. 9th ACM Computer and Communications Security Conference (CCS), Washington, Dc, Nov</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Naoumov N, Ross KW (2006) Exploiting P2P systems for DDoS attacks. International workshop on peer-to-peer info" /><span class="c-article-references__counter">25.</span><p class="c-article-references__text" id="ref-CR25">Naoumov N, Ross KW (2006) Exploiting P2P systems for DDoS attacks. International workshop on peer-to-peer information management (keynote address). Hong Kong, May</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Liang J, Kumar R, Ross KW (2005) The Kazaa overlay: a measurement study. Computer networks: special issue on o" /><span class="c-article-references__counter">26.</span><p class="c-article-references__text" id="ref-CR26">Liang J, Kumar R, Ross KW (2005) The Kazaa overlay: a measurement study. Computer networks: special issue on overlays</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Guha S, Daswani N, Jain R (2006) An experimental study of the Skype peer-to-peer VoIP system. In: Proceedings " /><span class="c-article-references__counter">27.</span><p class="c-article-references__text" id="ref-CR27">Guha S, Daswani N, Jain R (2006) An experimental study of the Skype peer-to-peer VoIP system. In: Proceedings of the IPTPS’06. Santa Barbara, CA, Feb</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="BitComet tracker overview, URL: http://www.bitcomet.com/tracker/index.htm&#xA;                        " /><span class="c-article-references__counter">28.</span><p class="c-article-references__text" id="ref-CR28">BitComet tracker overview, URL: <a href="http://www.bitcomet.com/tracker/index.htm">http://www.bitcomet.com/tracker/index.htm</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Padmanabhan VN, Wang HJ, Chou PA, Sripanidkulchai K (2002) Distributing streaming media content using cooperat" /><span class="c-article-references__counter">29.</span><p class="c-article-references__text" id="ref-CR29">Padmanabhan VN, Wang HJ, Chou PA, Sripanidkulchai K (2002) Distributing streaming media content using cooperative networking. ACM NOSSDAV, Miami Beach, FL, USA, May</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Banerjee S, Bhattacharjee B, Kommareddy C (2002) Scalable application layer multicast. In: Proceedings of ACM " /><span class="c-article-references__counter">30.</span><p class="c-article-references__text" id="ref-CR30">Banerjee S, Bhattacharjee B, Kommareddy C (2002) Scalable application layer multicast. In: Proceedings of ACM SIGCOMM 2002. Pittsburgh, PA, August</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Tran D, Hua K, Do T (2003) Zigzag: an efficient peer-to-peer scheme for media streaming. Proc. of INFOCOM 2003" /><span class="c-article-references__counter">31.</span><p class="c-article-references__text" id="ref-CR31">Tran D, Hua K, Do T (2003) Zigzag: an efficient peer-to-peer scheme for media streaming. Proc. of INFOCOM 2003, the 22nd Annual Joint Conference of the IEEE Computer and Communications Societies, San Francisco, CA, Apr</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chu Y, Rao SG, Seshan S, Zhang H (2002) A case for end system multicast. IEEE Journal on Selected Areas in Com" /><span class="c-article-references__counter">32.</span><p class="c-article-references__text" id="ref-CR32">Chu Y, Rao SG, Seshan S, Zhang H (2002) A case for end system multicast. IEEE Journal on Selected Areas in Communication (JSAC), Special Issue on Networking Support for Multicast 20(8)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ratnasamy S, Francis P, Handley M, Karp R, Shenker S (2001) A scalable content-addressable network. In: Procee" /><span class="c-article-references__counter">33.</span><p class="c-article-references__text" id="ref-CR33">Ratnasamy S, Francis P, Handley M, Karp R, Shenker S (2001) A scalable content-addressable network. In: Proceedings of ACM SIGCOMM 2001. San Diego, CA, Aug</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Stoica I, Morris R, Karger D, Frans Kaashoek M, Balakrishnan H (2001) Chord: a scalable peer-to-peer lookup se" /><span class="c-article-references__counter">34.</span><p class="c-article-references__text" id="ref-CR34">Stoica I, Morris R, Karger D, Frans Kaashoek M, Balakrishnan H (2001) Chord: a scalable peer-to-peer lookup service for internet applications. In: Proceedings of ACM SIGCOMM 2001. San Diego, CA, pp 149–160, August</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Rowstron A, Druschel P (2001) Pastry: scalable, distributed object location and routing for large-scale peer-t" /><span class="c-article-references__counter">35.</span><p class="c-article-references__text" id="ref-CR35">Rowstron A, Druschel P (2001) Pastry: scalable, distributed object location and routing for large-scale peer-to-peer systems. IFIP/ACM International Conference on Distributed Systems Platforms (Middleware). Heidelberg, Germany, pp 329–350, November</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Zhao BY, Huang L, Stribling J, Rhea SC, Joseph AD, Kubiatowcz JD (2004) Tapestry: a resilient global-scale ove" /><span class="c-article-references__counter">36.</span><p class="c-article-references__text" id="ref-CR36">Zhao BY, Huang L, Stribling J, Rhea SC, Joseph AD, Kubiatowcz JD (2004) Tapestry: a resilient global-scale overlay for service deployment. IEEE J Sel Areas Commun 22(1), Jan</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ylä-Jääski A, Kasinskaja N (eds) (2005) Peer-to-peer technologies, networks and systems, Helsinki University o" /><span class="c-article-references__counter">37.</span><p class="c-article-references__text" id="ref-CR37">Ylä-Jääski A, Kasinskaja N (eds) (2005) Peer-to-peer technologies, networks and systems, Helsinki University of Technology, T-110.551 Seminar on Internetworking in the spring</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Maymounkov P, Mazières D (2002) Kademlia: a peer-to-peer information system based on the XOR metric. In: 1st i" /><span class="c-article-references__counter">38.</span><p class="c-article-references__text" id="ref-CR38">Maymounkov P, Mazières D (2002) Kademlia: a peer-to-peer information system based on the XOR metric. In: 1st international workshop on peer-to-peer systems (IPTPS 2002). Cambridge, MA, Mar</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Castro M, Druschel P, Kermarrec A-M, Nandi A, Rowstron A, Singh A (2003) SplitStream: high-bandwidth multicast" /><span class="c-article-references__counter">39.</span><p class="c-article-references__text" id="ref-CR39">Castro M, Druschel P, Kermarrec A-M, Nandi A, Rowstron A, Singh A (2003) SplitStream: high-bandwidth multicast in a cooperative environment. SOSP’03, Lake Bolton, New York, October</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ng TSE, Zhang H (2002) Predicting Internet network distance with coordinates-based approaches. Proc. of INFOCO" /><span class="c-article-references__counter">40.</span><p class="c-article-references__text" id="ref-CR40">Ng TSE, Zhang H (2002) Predicting Internet network distance with coordinates-based approaches. Proc. of INFOCOM 2002, the 21st Annual Joint Conference of the IEEE Computer and Communications Societies, New York, NY, June</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Costa M, Castro M, Rowstron A, Key P (2004) Practical internet coordinates for distance estimation. Proc. ICDC" /><span class="c-article-references__counter">41.</span><p class="c-article-references__text" id="ref-CR41">Costa M, Castro M, Rowstron A, Key P (2004) Practical internet coordinates for distance estimation. Proc. ICDCS 2004, the 24th International Conf. on Distributed Computing Systems, Tokyo, Japan, Mar</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Pias M, Crowcroft J, Wilbur S, Bhatti S, Harris T (2003) Lighthouses for scalable distributed location. In 2nd" /><span class="c-article-references__counter">42.</span><p class="c-article-references__text" id="ref-CR42">Pias M, Crowcroft J, Wilbur S, Bhatti S, Harris T (2003) Lighthouses for scalable distributed location. In 2nd International Workshop on Peer-to-Peer Systems (IPTPS ’03). Berkeley, CA, Feb</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Tang L, Crovella M (2003) Virtual landmarks for the internet. Proc. of the ACM/SIGCOMM Internet Measurement Co" /><span class="c-article-references__counter">43.</span><p class="c-article-references__text" id="ref-CR43">Tang L, Crovella M (2003) Virtual landmarks for the internet. Proc. of the ACM/SIGCOMM Internet Measurement Conference 2003. Miami, FL, pp 143–152, Oct</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Bindal R, Pei C, Chan W, Medved J, Suwala G, Bates T, Zhang A (2006) Improving traffic locality in BitTorrent " /><span class="c-article-references__counter">44.</span><p class="c-article-references__text" id="ref-CR44">Bindal R, Pei C, Chan W, Medved J, Suwala G, Bates T, Zhang A (2006) Improving traffic locality in BitTorrent via biased neighbor selection. Proc. ICDCS 2006, the 26th IEEE International Conference on the Distributed Computing Systems, Lisboa, Portugal, July</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Li J, Sollins K (2004) Exploiting autonomous system information in structured peer-to-peer networks. Proc. ICC" /><span class="c-article-references__counter">45.</span><p class="c-article-references__text" id="ref-CR45">Li J, Sollins K (2004) Exploiting autonomous system information in structured peer-to-peer networks. Proc. ICCCN2004, the 13th IEEE International Conference on Computer Communications and Networks, Chicago, IL, October</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Skitter, URL: http://www.caida.org/tools/measurement/skitter/&#xA;                        " /><span class="c-article-references__counter">46.</span><p class="c-article-references__text" id="ref-CR46">Skitter, URL: <a href="http://www.caida.org/tools/measurement/skitter/">http://www.caida.org/tools/measurement/skitter/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="RouterViews, URL: http://www.routeviews.org/&#xA;                        " /><span class="c-article-references__counter">47.</span><p class="c-article-references__text" id="ref-CR47">RouterViews, URL: <a href="http://www.routeviews.org/">http://www.routeviews.org/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Dimitropoulos X, Krioukov D, Riley G, Claffy KC (2006) Revealing the autonomous system taxonomy: the machine l" /><span class="c-article-references__counter">48.</span><p class="c-article-references__text" id="ref-CR48">Dimitropoulos X, Krioukov D, Riley G, Claffy KC (2006) Revealing the autonomous system taxonomy: the machine learning approach. Proc. Passive and active measurements workshop (PAM). Adelaide, Austria, Mar</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Hu N, Li LE, Mao ZM, Steenkiste P, Wang J (2004) Locating Internet bottlenecks: algorithms, measurements, and " /><span class="c-article-references__counter">49.</span><p class="c-article-references__text" id="ref-CR49">Hu N, Li LE, Mao ZM, Steenkiste P, Wang J (2004) Locating Internet bottlenecks: algorithms, measurements, and implications. Proc. SIGCOMM 2004. Portland, OR, Sept</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Setton E, Noh J, Girod B (2006) Low latency video streaming over peer-to-peer networks. Proc. ICME 2006, IEEE " /><span class="c-article-references__counter">50.</span><p class="c-article-references__text" id="ref-CR50">Setton E, Noh J, Girod B (2006) Low latency video streaming over peer-to-peer networks. Proc. ICME 2006, IEEE Int. Conf. Multimedia and Expo. Toronto, Canada, July</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Internet protocol multicast, ch 43 of Internetworking Technology Handbook, http://www.cisco.com/univercd/cc/td" /><span class="c-article-references__counter">51.</span><p class="c-article-references__text" id="ref-CR51">Internet protocol multicast, ch 43 of Internetworking Technology Handbook, <a href="http://www.cisco.com/univercd/cc/td/doc/ cisintwk/ito_doc/index.htm">http://www.cisco.com/univercd/cc/td/doc/cisintwk/ito_doc/index.htm</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chawathe Y (2000) Scattercast: an architecture for internet broadcast distribution as an infrastructure servic" /><span class="c-article-references__counter">52.</span><p class="c-article-references__text" id="ref-CR52">Chawathe Y (2000) Scattercast: an architecture for internet broadcast distribution as an infrastructure service. PhD thesis, University of California, Berkeley, August</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Jannotti J, Gifford DK, Johnson KL, Kaashoek MF, O’Toole Jr. JW (2000) Overcast: reliable multicasting with an" /><span class="c-article-references__counter">53.</span><p class="c-article-references__text" id="ref-CR53">Jannotti J, Gifford DK, Johnson KL, Kaashoek MF, O’Toole Jr. JW (2000) Overcast: reliable multicasting with an overlay network. In Proc. of the Fourth Symposium on Operating System Design and Implementation (OSDI), October</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Li J, Chou PA, Zhang C (2005) Mutualcast: an efficient mechanism for content distribution in a P2P network. Pr" /><span class="c-article-references__counter">54.</span><p class="c-article-references__text" id="ref-CR54">Li J, Chou PA, Zhang C (2005) Mutualcast: an efficient mechanism for content distribution in a P2P network. Proc. Acm Sigcomm Asia Workshop. Beijing, China, Apr. 10–12</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Cherkasova L, Lee J (2003) FastReplica: efficient large file distribution within content delivery networks. In" /><span class="c-article-references__counter">55.</span><p class="c-article-references__text" id="ref-CR55">Cherkasova L, Lee J (2003) FastReplica: efficient large file distribution within content delivery networks. In: Proc. of the 4-th USENIX Symposium on Internet Technologies and Systems. Seattle, Washington, March 26–28</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Huang C, Li J (2006) DISCOVR: distributed collaborative video recorder. 2006 International Conference on Multi" /><span class="c-article-references__counter">56.</span><p class="c-article-references__text" id="ref-CR56">Huang C, Li J (2006) DISCOVR: distributed collaborative video recorder. 2006 International Conference on Multimedia &amp; Expo (ICME’2006), Toronto, Canada, Jul. 9–12</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Gkantsidis C, Rodriguez P (2005) Network Coding for Large Scale Content Distribution. Proc. of INFOCOM 2005. 2" /><span class="c-article-references__counter">57.</span><p class="c-article-references__text" id="ref-CR57">Gkantsidis C, Rodriguez P (2005) Network Coding for Large Scale Content Distribution. Proc. of INFOCOM 2005. 24th Annual Joint Conference of the IEEE Computer and Communications Societies, Miami, FL, 13–17 March</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Zhang M, Luo JG, Zhao L, Yang SQ ( 2005) A peer-to-peer network for live media streaming using a push-pull app" /><span class="c-article-references__counter">58.</span><p class="c-article-references__text" id="ref-CR58">Zhang M, Luo JG, Zhao L, Yang SQ ( 2005) A peer-to-peer network for live media streaming using a push-pull approach. Proc. ACM Multimedia 2005, Singapore, pp 287–290, Sept</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="BitTorrent Specification, URL: http://wiki.theory.org/BitTorrentSpecification&#xA;                        " /><span class="c-article-references__counter">59.</span><p class="c-article-references__text" id="ref-CR59">BitTorrent Specification, URL: <a href="http://wiki.theory.org/BitTorrentSpecification">http://wiki.theory.org/BitTorrentSpecification</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Li J, Cui Y (2007) PeerStreaming: design and implementation of an on-demand distributed streaming system. To b" /><span class="c-article-references__counter">60.</span><p class="c-article-references__text" id="ref-CR60">Li J, Cui Y (2007) PeerStreaming: design and implementation of an on-demand distributed streaming system. To be published in ACM Multimedia Systems Journal</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kostic D, Braud R, Killian C, Vandekieft E, Anderson JW, Snoeren AC, Vahdat A (2005) Maintaining high-bandwidt" /><span class="c-article-references__counter">61.</span><p class="c-article-references__text" id="ref-CR61">Kostic D, Braud R, Killian C, Vandekieft E, Anderson JW, Snoeren AC, Vahdat A (2005) Maintaining high-bandwidth under dynamic network conditions. Proceedings of 2005 USENIX Annual Technical Conference (USENIX 2005). April</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Katabi D, Handley M, Rohrs C (2002) Internet congestion control for high bandwidth-delay product networks. In:" /><span class="c-article-references__counter">62.</span><p class="c-article-references__text" id="ref-CR62">Katabi D, Handley M, Rohrs C (2002) Internet congestion control for high bandwidth-delay product networks. In: Proceedings of ACM SIGCOMM, August</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Microsoft Research ConfXP, URL: http://www.learningwebservices.com/&#xA;                        " /><span class="c-article-references__counter">63.</span><p class="c-article-references__text" id="ref-CR63">Microsoft Research ConfXP, URL: <a href="http://www.learningwebservices.com/">http://www.learningwebservices.com/</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="J. Edmonds, " /><meta itemprop="datePublished" content="1973" /><meta itemprop="headline" content="Edmonds J (1973) Edge-disjoint branchings. In: Rustin R (ed) Combinatorial Algorithms. Academic Press, NY, pp " /><span class="c-article-references__counter">64.</span><p class="c-article-references__text" id="ref-CR64">Edmonds J (1973) Edge-disjoint branchings. In: Rustin R (ed) Combinatorial Algorithms. Academic Press, NY, pp 91–96</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 64 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Combinatorial%20Algorithms&amp;pages=91-96&amp;publication_year=1973&amp;author=Edmonds%2CJ">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chou PA, WuY, Jain K (2003) Practical network coding. Proc. 51st Allerton Conf. Communication, Control and Com" /><span class="c-article-references__counter">65.</span><p class="c-article-references__text" id="ref-CR65">Chou PA, WuY, Jain K (2003) Practical network coding. Proc. 51st Allerton Conf. Communication, Control and Computing, Oct</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Byers JW, Luby M, Mitzenmacher M, Rege A (1998) A digital fountain approach to reliable distribution of bulk d" /><span class="c-article-references__counter">66.</span><p class="c-article-references__text" id="ref-CR66">Byers JW, Luby M, Mitzenmacher M, Rege A (1998) A digital fountain approach to reliable distribution of bulk data. Proc. ACM SIGCOMM. Vancouver, BC, Sept</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Li J (2005) The efficient implementation of Reed-Solomon high rate erasure resilient codes. Proc. IEEE Interna" /><span class="c-article-references__counter">67.</span><p class="c-article-references__text" id="ref-CR67">Li J (2005) The efficient implementation of Reed-Solomon high rate erasure resilient codes. Proc. IEEE International Conference on Acoustics, Speech, and Signal Processing (2005). Philadelphia, PA, Mar. 19–23</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Krohn M, Freedman MJ, Mazières D (2004) On-the-fly verification of rateless erasure codes for efficient conten" /><span class="c-article-references__counter">68.</span><p class="c-article-references__text" id="ref-CR68">Krohn M, Freedman MJ, Mazières D (2004) On-the-fly verification of rateless erasure codes for efficient content distribution Proc. IEEE Symposium on Security and Privacy, Oakland, CA, May</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Gkantsidis C, Rodriguez P (2006) Cooperative security for network coding file distribution. IEEE/INFOCOM’06. B" /><span class="c-article-references__counter">69.</span><p class="c-article-references__text" id="ref-CR69">Gkantsidis C, Rodriguez P (2006) Cooperative security for network coding file distribution. IEEE/INFOCOM’06. Barcelona, April</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Charles D, Jain K, Lauter K (2006) Signatures for network coding. Conf. on Information Sciences and Systems, M" /><span class="c-article-references__counter">70.</span><p class="c-article-references__text" id="ref-CR70">Charles D, Jain K, Lauter K (2006) Signatures for network coding. Conf. on Information Sciences and Systems, Mar</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Gummadi K, Gribble S, Ratnasamy S, Shenker S, Stoica I (2003) The impact of DHT routing geometry on resilience" /><span class="c-article-references__counter">71.</span><p class="c-article-references__text" id="ref-CR71">Gummadi K, Gribble S, Ratnasamy S, Shenker S, Stoica I (2003) The impact of DHT routing geometry on resilience and proximity. Proc. Proc. ACM SIGCOMM’03. Karlsruhe, Germany</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Castro M, Costa M, Rowstron A. Performance and dependability of structured peer-to-peer overlays. Technical re" /><span class="c-article-references__counter">72.</span><p class="c-article-references__text" id="ref-CR72">Castro M, Costa M, Rowstron A. Performance and dependability of structured peer-to-peer overlays. Technical report MSR-TR2003-94</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Huang G (2007) PPLive – a practical P2P live system with huge amount of users. keynote speech at P2PTV worksho" /><span class="c-article-references__counter">73.</span><p class="c-article-references__text" id="ref-CR73">Huang G (2007) PPLive – a practical P2P live system with huge amount of users. keynote speech at P2PTV workshop, Kyoto, Japan</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Li J (2007) Locality aware peer assisted delivery: the way to scale Internet video to the world. 16th Packet V" /><span class="c-article-references__counter">74.</span><p class="c-article-references__text" id="ref-CR74">Li J (2007) Locality aware peer assisted delivery: the way to scale Internet video to the world. 16th Packet Video workshop (PV 2007). Lausanne, Switzerland, Nov</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Karagiannis T, Rodriguez P, Papagiannaki K (2005) Should Internet service providers fear peer-assisted content" /><span class="c-article-references__counter">75.</span><p class="c-article-references__text" id="ref-CR75">Karagiannis T, Rodriguez P, Papagiannaki K (2005) Should Internet service providers fear peer-assisted content distribution? In: Proc. Internet Measurement Conference 2005. Berkeley, CA, Oct</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Huang C, Li J, Ross K (2007) Can internet video-on-demand be profitable. Proc. ACM Sigcomm’07. Kyoto, Japan, A" /><span class="c-article-references__counter">76.</span><p class="c-article-references__text" id="ref-CR76">Huang C, Li J, Ross K (2007) Can internet video-on-demand be profitable. Proc. ACM Sigcomm’07. Kyoto, Japan, Aug</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Pakkala D, Latvakoski J (2005) Towards a peer-to-peer extended content delivery network. 14th IST Mobile &amp; Wir" /><span class="c-article-references__counter">77.</span><p class="c-article-references__text" id="ref-CR77">Pakkala D, Latvakoski J (2005) Towards a peer-to-peer extended content delivery network. 14th IST Mobile &amp; Wireless Communications Summit, Dresden, June</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Xu D, Chai HK, Rosenberg C, Kulkami S (2003) Analysis of a hybrid architecture for cost-effective streaming me" /><span class="c-article-references__counter">78.</span><p class="c-article-references__text" id="ref-CR78">Xu D, Chai HK, Rosenberg C, Kulkami S (2003) Analysis of a hybrid architecture for cost-effective streaming media distribution. SPIE/ACM Conf. on Multimedia Computing and Networking (MMCN’03). San Jose, CA, Jan</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="The VeriSign Intelligent CDN, VeriSign, 2007" /><span class="c-article-references__counter">79.</span><p class="c-article-references__text" id="ref-CR79">The VeriSign Intelligent CDN, VeriSign, 2007</p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/s12083-007-0003-1-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article-author-information__subtitle u-h3" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address u-h3">Microsoft Research, Communication and Collaboration Systems, One Microsoft Way, Redmond, WA, 98052, USA</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Jin Li</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article-author-information__subtitle u-h3">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Jin Li</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Jin+Li&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Jin+Li" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Jin+Li%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div><h3 class="c-article-author-information__subtitle u-h3" id="corresponding-author">Corresponding author</h3><p>Correspondence to
+                <a id="corresp-c1" rel="nofollow" href="/article/10.1007/s12083-007-0003-1/email/correspondent/c1/new">Jin Li</a>.</p></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=On%20peer-to-peer%20%28P2P%29%20content%20delivery&amp;author=Jin%20Li&amp;contentID=10.1007%2Fs12083-007-0003-1&amp;publication=1936-6442&amp;publicationDate=2008-01-20&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Li, J. On peer-to-peer (P2P) content delivery.
+                    <i>Peer-to-Peer Netw. Appl.</i> <b>1, </b>45–63 (2008). https://doi.org/10.1007/s12083-007-0003-1</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/s12083-007-0003-1.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2007-05-16">16 May 2007</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2007-11-29">29 November 2007</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2008-01-20">20 January 2008</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2008-03">March 2008</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/s12083-007-0003-1" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/s12083-007-0003-1</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading u-h3">Keyword</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Peer-to-peer (P2P)</span></li><li class="c-article-subject-list__subject"><span itemprop="about">P2P file sharing</span></li><li class="c-article-subject-list__subject"><span itemprop="about">P2P streaming</span></li><li class="c-article-subject-list__subject"><span itemprop="about">P2P broadcast</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Survey</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Overlay</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Scheduling</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Efficiency</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Reliability</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Robustness</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Quality of service (QoS)</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                    </div>
+                </article>
+            </main>
+
+            <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+                <aside>
+                    <div data-test="download-article-link-wrapper">
+                        
+                    </div>
+
+                    <div data-test="collections">
+                        
+                    </div>
+
+                    <div data-test="editorial-summary">
+                        
+                    </div>
+
+                    <div class="c-reading-companion">
+                        <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                            
+                                <div class="c-article-buy-box">
+                                    <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">37,40 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s12083-007-0003-1">
+     <input type="hidden" name="isxn" value="1936-6450">
+     <input type="hidden" name="contenttitle" value="On peer-to-peer (P2P) content delivery">
+     <input type="hidden" name="copyrightyear" value="2008">
+     <input type="hidden" name="year" value="2008">
+     <input type="hidden" name="authors" value="Jin Li">
+     <input type="hidden" name="title" value="Peer-to-Peer Networking and Applications">
+     <input type="hidden" name="mac" value="EE4E8B87E57375E40BD58366ABD396AC">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Peer-to-Peer Networking and Applications">
+     <input type="hidden" name="journalnumber" value="12083">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s12083-007-0003-1&journal=1936-6450&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                                </div>
+                            
+
+                            <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                                <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/12083/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=3;"></div>
+        </div>
+    </div>
+</div>
+
+                            </div>
+                            <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                            <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="c-page-layout__footer">
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 37.120.135.135</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+
+    <script>
+    window.config = {
+        mustardcut: false
+    };
+
+    
+    (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);
+
+        
+    var mustardcutlink = document.getElementById('js-mustard');
+    if (mustardcutlink && window.matchMedia && window.matchMedia(mustardcutlink.media).matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+<script src=/oscar-static/app-springerlink/js/app-bundle-6338d05819.js></script>
+
+<script>
+    if (window.config && window.config.mustardcut) {
+        var globalArticle = document.createElement('script');
+
+        globalArticle.src = '/oscar-static/app-springerlink/js/global-article-bundle-b23c68aacc.js';
+        
+        window.Component = {};
+        document.body.appendChild(globalArticle);
+        
+    }
+</script>
+
+    <div id="googleanalytics-container">
+    
+        
+    
+</div>
+<div id="google-tag-manager-head-container">
+    
+        
+            <!-- Google Tag Manager -->
+            <script>
+                (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+</div>
+
+<div id="google-tag-manager-body-container">
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+</div>
+
+</body>
+</html>
