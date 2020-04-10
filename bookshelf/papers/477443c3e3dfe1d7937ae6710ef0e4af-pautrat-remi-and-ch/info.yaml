@@ -1,0 +1,33 @@
+abstract: One of the most interesting features of Bayesian optimization for direct
+  policy search is that it can leverage priors (e.g., from simulation or from previous
+  tasks) to accelerate learning on a robot. In this paper, we are interested in situations
+  for which several priors exist but we do not know in advance which one fits best
+  the current situation. We tackle this problem by introducing a novel acquisition
+  function, called Most Likely Expected Improvement (MLEI), that combines the likelihood
+  of the priors and the expected improvement. We evaluate this new acquisition function
+  on a transfer learning task for a 5-DOF planar arm and on a possibly damaged, 6-legged
+  robot that has to learn to walk on flat ground and on stairs, with priors corresponding
+  to different stairs and different kinds of damages. Our results show that MLEI effectively
+  identifies and exploits the priors, even when there is no obvious match between
+  the current situations and the priors.
+archiveprefix: arXiv
+author: Pautrat, Rémi and Chatzilygeroudis, Konstantinos and Mouret, Jean-Baptiste
+author_list:
+- family: Pautrat
+  given: Rémi
+- family: Chatzilygeroudis
+  given: Konstantinos
+- family: Mouret
+  given: Jean-Baptiste
+eprint: 1709.06919v2
+file: 1709.06919v2.pdf
+files:
+- pautrat-remi-and-chatzilygeroudis-konstantinos-and-mouret-jean-baptistebayesian-optimization-with-automatic-prior-selection-for-data-efficient-di.pdf
+month: Sep
+primaryclass: cs.RO
+ref: 1709.06919v2
+title: Bayesian Optimization with Automatic Prior Selection for Data-Efficient   Direct
+  Policy Search
+type: article
+url: http://arxiv.org/abs/1709.06919v2
+year: '2017'

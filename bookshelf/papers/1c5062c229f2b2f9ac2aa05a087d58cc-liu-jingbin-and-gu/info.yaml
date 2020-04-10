@@ -1,0 +1,33 @@
+abstract: When DQN is announced by deepmind in 2013, the whole world is surprised
+  by the simplicity and promising result, but due to the low efficiency and stability
+  of this method, it is hard to solve many problems. After all these years, people
+  purposed more and more complicated ideas for improving, many of them use distributed
+  Deep-RL which needs tons of cores to run the simulators. However, the basic ideas
+  behind all this technique are sometimes just a modified DQN. So we asked a simple
+  question, is there a more elegant way to improve the DQN model? Instead of adding
+  more and more small fixes on it, we redesign the problem setting under a popular
+  entropy regularization framework which leads to better performance and theoretical
+  guarantee. Finally, we purposed SQN, a new off-policy algorithm with better performance
+  and stability.
+archiveprefix: arXiv
+author: Liu, Jingbin and Gu, Xinyang and Liu, Shuai and Zhang, Dexiang
+author_list:
+- family: Liu
+  given: Jingbin
+- family: Gu
+  given: Xinyang
+- family: Liu
+  given: Shuai
+- family: Zhang
+  given: Dexiang
+eprint: 1912.10891v1
+file: 1912.10891v1.pdf
+files:
+- liu-jingbin-and-gu-xinyang-and-liu-shuai-and-zhang-dexiangsoft-q-network2019.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1912.10891v1
+title: Soft Q-network
+type: article
+url: http://arxiv.org/abs/1912.10891v1
+year: '2019'

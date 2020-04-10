@@ -1,0 +1,31 @@
+abstract: <jats:p>Partially observable Markov decision processes (POMDPs)    provide
+  an elegant mathematical framework for modeling complex    decision and planning
+  problems in stochastic domains in which states    of the system are observable only
+  indirectly, via a set of imperfect    or noisy observations. The modeling advantage
+  of POMDPs, however,    comes at a price -- exact methods for solving them are computationally    very
+  expensive and thus applicable in practice only to very simple    problems. We focus
+  on efficient approximation (heuristic) methods that    attempt to alleviate the
+  computational problem and trade off accuracy    for speed. We have two objectives
+  here. First, we survey various    approximation methods, analyze their properties
+  and relations and    provide some new insights into their differences. Second, we
+  present a    number of new approximation methods and novel refinements of existing    techniques.
+  The theoretical results are supported by experiments on a    problem from the agent
+  navigation domain.</jats:p>
+author: Hauskrecht, M.
+author_list:
+- affiliation: []
+  family: Hauskrecht
+  given: M.
+doc_url: https://jair.org/index.php/jair/article/download/10262/24451
+doi: 10.1613/jair.678
+files:
+- hauskrecht-m.value-function-approximations-for-partially-observable-markov-decision-processes2000.ps
+journal: Journal of Artificial Intelligence Research
+month: 8
+pages: 33--94
+publisher: AI Access Foundation
+title: Value-Function Approximations for Partially Observable Markov Decision Processes
+type: article
+url: http://dx.doi.org/10.1613/jair.678
+volume: '13'
+year: 2000

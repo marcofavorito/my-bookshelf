@@ -1,0 +1,40 @@
+abstract: Recent years have produced great advances in training large, deep neural
+  networks (DNNs), including notable successes in training convolutional neural networks
+  (convnets) to recognize natural images. However, our understanding of how these
+  models work, especially what computations they perform at intermediate layers, has
+  lagged behind. Progress in the field will be further accelerated by the development
+  of better tools for visualizing and interpreting neural nets. We introduce two such
+  tools here. The first is a tool that visualizes the activations produced on each
+  layer of a trained convnet as it processes an image or video (e.g. a live webcam
+  stream). We have found that looking at live activations that change in response
+  to user input helps build valuable intuitions about how convnets work. The second
+  tool enables visualizing features at each layer of a DNN via regularized optimization
+  in image space. Because previous versions of this idea produced less recognizable
+  images, here we introduce several new regularization methods that combine to produce
+  qualitatively clearer, more interpretable visualizations. Both tools are open source
+  and work on a pre-trained convnet with minimal setup.
+archiveprefix: arXiv
+author: Yosinski, Jason and Clune, Jeff and Nguyen, Anh and Fuchs, Thomas and Lipson,
+  Hod
+author_list:
+- family: Yosinski
+  given: Jason
+- family: Clune
+  given: Jeff
+- family: Nguyen
+  given: Anh
+- family: Fuchs
+  given: Thomas
+- family: Lipson
+  given: Hod
+eprint: 1506.06579v1
+file: 1506.06579v1.pdf
+files:
+- yosinski-jason-and-clune-jeff-and-nguyen-anh-and-fuchs-thomas-and-lipson-hodunderstanding-neural-networks-through-deep-visualization2015.pdf
+month: Jun
+primaryclass: cs.CV
+ref: 1506.06579v1
+title: Understanding Neural Networks Through Deep Visualization
+type: article
+url: http://arxiv.org/abs/1506.06579v1
+year: '2015'

@@ -1,0 +1,41 @@
+abstract: Reinforcement learning holds the promise of enabling autonomous robots to
+  learn large repertoires of behavioral skills with minimal human intervention. However,
+  robotic applications of reinforcement learning often compromise the autonomy of
+  the learning process in favor of achieving training times that are practical for
+  real physical systems. This typically involves introducing hand-engineered policy
+  representations and human-supplied demonstrations. Deep reinforcement learning alleviates
+  this limitation by training general-purpose neural network policies, but applications
+  of direct deep reinforcement learning algorithms have so far been restricted to
+  simulated settings and relatively simple tasks, due to their apparent high sample
+  complexity. In this paper, we demonstrate that a recent deep reinforcement learning
+  algorithm based on off-policy training of deep Q-functions can scale to complex
+  3D manipulation tasks and can learn deep neural network policies efficiently enough
+  to train on real physical robots. We demonstrate that the training times can be
+  further reduced by parallelizing the algorithm across multiple robots which pool
+  their policy updates asynchronously. Our experimental evaluation shows that our
+  method can learn a variety of 3D manipulation skills in simulation and a complex
+  door opening skill on real robots without any prior demonstrations or manually designed
+  representations.
+archiveprefix: arXiv
+author: Gu, Shixiang and Holly, Ethan and Lillicrap, Timothy and Levine, Sergey
+author_list:
+- family: Gu
+  given: Shixiang
+- family: Holly
+  given: Ethan
+- family: Lillicrap
+  given: Timothy
+- family: Levine
+  given: Sergey
+eprint: 1610.00633v2
+file: 1610.00633v2.pdf
+files:
+- gu-shixiang-and-holly-ethan-and-lillicrap-timothy-and-levine-sergeydeep-reinforcement-learning-for-robotic-manipulation-with-asynchronous-off-po.pdf
+month: Oct
+primaryclass: cs.RO
+ref: 1610.00633v2
+title: Deep Reinforcement Learning for Robotic Manipulation with Asynchronous   Off-Policy
+  Updates
+type: article
+url: http://arxiv.org/abs/1610.00633v2
+year: '2016'

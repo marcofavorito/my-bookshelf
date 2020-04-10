@@ -1,0 +1,34 @@
+abstract: Neural Architecture Search (NAS) was first proposed to achieve state-of-the-art
+  performance through the discovery of new architecture patterns, without human intervention.
+  An over-reliance on expert knowledge in the search space design has however led
+  to increased performance (local optima) without significant architectural breakthroughs,
+  thus preventing truly novel solutions from being reached. In this work we propose
+  1) to cast NAS as a problem of finding the optimal network generator and 2) a new,
+  hierarchical and graph-based search space capable of representing an extremely large
+  variety of network types, yet only requiring few continuous hyper-parameters. This
+  greatly reduces the dimensionality of the problem, enabling the effective use of
+  Bayesian Optimisation as a search strategy. At the same time, we expand the range
+  of valid architectures, motivating a multi-objective learning approach. We demonstrate
+  the effectiveness of our strategy on six benchmark datasets and show that our search
+  space generates extremely lightweight yet highly competitive models illustrating
+  the benefits of a NAS approach that optimises over network generator selection.
+archiveprefix: arXiv
+author: Ru, Binxin and Esperanca, Pedro and Carlucci, Fabio
+author_list:
+- family: Ru
+  given: Binxin
+- family: Esperanca
+  given: Pedro
+- family: Carlucci
+  given: Fabio
+eprint: 2004.01395v1
+file: 2004.01395v1.pdf
+files:
+- ru-binxin-and-esperanca-pedro-and-carlucci-fabioneural-architecture-generator-optimization2020.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2004.01395v1
+title: Neural Architecture Generator Optimization
+type: article
+url: http://arxiv.org/abs/2004.01395v1
+year: '2020'

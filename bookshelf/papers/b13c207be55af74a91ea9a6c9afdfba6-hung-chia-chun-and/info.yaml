@@ -1,0 +1,47 @@
+abstract: Humans spend a remarkable fraction of waking life engaged in acts of "mental
+  time travel". We dwell on our actions in the past and experience satisfaction or
+  regret. More than merely autobiographical storytelling, we use these event recollections
+  to change how we will act in similar scenarios in the future. This process endows
+  us with a computationally important ability to link actions and consequences across
+  long spans of time, which figures prominently in addressing the problem of long-term
+  temporal credit assignment; in artificial intelligence (AI) this is the question
+  of how to evaluate the utility of the actions within a long-duration behavioral
+  sequence leading to success or failure in a task. Existing approaches to shorter-term
+  credit assignment in AI cannot solve tasks with long delays between actions and
+  consequences. Here, we introduce a new paradigm for reinforcement learning where
+  agents use recall of specific memories to credit actions from the past, allowing
+  them to solve problems that are intractable for existing algorithms. This paradigm
+  broadens the scope of problems that can be investigated in AI and offers a mechanistic
+  account of behaviors that may inspire computational models in neuroscience, psychology,
+  and behavioral economics.
+archiveprefix: arXiv
+author: Hung, Chia-Chun and Lillicrap, Timothy and Abramson, Josh and Wu, Yan and
+  Mirza, Mehdi and Carnevale, Federico and Ahuja, Arun and Wayne, Greg
+author_list:
+- family: Hung
+  given: Chia-Chun
+- family: Lillicrap
+  given: Timothy
+- family: Abramson
+  given: Josh
+- family: Wu
+  given: Yan
+- family: Mirza
+  given: Mehdi
+- family: Carnevale
+  given: Federico
+- family: Ahuja
+  given: Arun
+- family: Wayne
+  given: Greg
+eprint: 1810.06721v2
+file: 1810.06721v2.pdf
+files:
+- hung-chia-chun-and-lillicrap-timothy-and-abramson-josh-and-wu-yan-and-mirza-mehdi-and-carnevale-federico-and-ahuja-arun-and-wayne-gregoptimizi.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1810.06721v2
+title: Optimizing Agent Behavior over Long Time Scales by Transporting Value
+type: article
+url: http://arxiv.org/abs/1810.06721v2
+year: '2018'

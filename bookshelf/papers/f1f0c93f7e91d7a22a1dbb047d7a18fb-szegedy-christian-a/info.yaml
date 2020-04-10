@@ -1,0 +1,44 @@
+abstract: 'Deep neural networks are highly expressive models that have recently achieved
+  state of the art performance on speech and visual recognition tasks. While their
+  expressiveness is the reason they succeed, it also causes them to learn uninterpretable
+  solutions that could have counter-intuitive properties. In this paper we report
+  two such properties.   First, we find that there is no distinction between individual
+  high level units and random linear combinations of high level units, according to
+  various methods of unit analysis. It suggests that it is the space, rather than
+  the individual units, that contains of the semantic information in the high layers
+  of neural networks.   Second, we find that deep neural networks learn input-output
+  mappings that are fairly discontinuous to a significant extend. We can cause the
+  network to misclassify an image by applying a certain imperceptible perturbation,
+  which is found by maximizing the network''s prediction error. In addition, the specific
+  nature of these perturbations is not a random artifact of learning: the same perturbation
+  can cause a different network, that was trained on a different subset of the dataset,
+  to misclassify the same input.'
+archiveprefix: arXiv
+author: Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan
+  and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob
+author_list:
+- family: Szegedy
+  given: Christian
+- family: Zaremba
+  given: Wojciech
+- family: Sutskever
+  given: Ilya
+- family: Bruna
+  given: Joan
+- family: Erhan
+  given: Dumitru
+- family: Goodfellow
+  given: Ian
+- family: Fergus
+  given: Rob
+eprint: 1312.6199v4
+file: 1312.6199v4.pdf
+files:
+- szegedy-christian-and-zaremba-wojciech-and-sutskever-ilya-and-bruna-joan-and-erhan-dumitru-and-goodfellow-ian-and-fergus-robintriguing-properti.pdf
+month: Dec
+primaryclass: cs.CV
+ref: 1312.6199v4
+title: Intriguing properties of neural networks
+type: article
+url: http://arxiv.org/abs/1312.6199v4
+year: '2013'

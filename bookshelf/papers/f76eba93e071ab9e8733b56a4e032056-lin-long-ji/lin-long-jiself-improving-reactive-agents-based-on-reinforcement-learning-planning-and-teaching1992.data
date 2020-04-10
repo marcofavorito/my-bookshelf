@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="Yes">
+    
+
+    <meta name="journal_id" content="10994"/>
+
+    <meta name="dc.title" content="Self-improving reactive agents based on reinforcement learning, planning and teaching"/>
+
+    <meta name="dc.source" content="Machine Learning 1992 8:3"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1992 Kluwer Academic Publishers"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="To date, reinforcement learning has mostly been studied solving simple learning tasks. Reinforcement learning methods that have been studied so far typically converge slowly. The purpose of this work is thus two-fold: 1) to investigate the utility of reinforcement learning in solving much more complicated learning tasks than previously studied, and 2) to investigate methods that will speed up reinforcement learning. This paper compares eight reinforcement learning frameworks:adaptive heuristic critic (AHC) learning due to Sutton,Q-learning due to Watkins, and three extensions to both basic methods for speeding up learning. The three extensions are experience replay, learning action models for planning, and teaching. The frameworks were investigated using connectionism as an approach to generalization. To evaluate the performance of different frameworks, a dynamic environment was used as a testbed. The environment is moderately complex and nondeterministic. This paper describes these frameworks and algorithms in detail and presents empirical evaluation of the frameworks."/>
+
+    <meta name="prism.issn" content="1573-0565"/>
+
+    <meta name="prism.publicationName" content="Machine Learning"/>
+
+    <meta name="prism.volume" content="8"/>
+
+    <meta name="prism.number" content="3"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="293"/>
+
+    <meta name="prism.endingPage" content="321"/>
+
+    <meta name="prism.copyright" content="1992 Kluwer Academic Publishers"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF00992699"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF00992699"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF00992699.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF00992699"/>
+
+    <meta name="citation_journal_title" content="Machine Learning"/>
+
+    <meta name="citation_journal_abbrev" content="Mach Learn"/>
+
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+
+    <meta name="citation_issn" content="1573-0565"/>
+
+    <meta name="citation_title" content="Self-improving reactive agents based on reinforcement learning, planning and teaching"/>
+
+    <meta name="citation_volume" content="8"/>
+
+    <meta name="citation_issue" content="3"/>
+
+    <meta name="citation_publication_date" content="1992/05"/>
+
+    <meta name="citation_firstpage" content="293"/>
+
+    <meta name="citation_lastpage" content="321"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_fulltext_world_readable" content=""/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF00992699"/>
+
+    <meta name="DOI" content="10.1007/BF00992699"/>
+
+    <meta name="citation_doi" content="10.1007/BF00992699"/>
+
+    <meta name="description" content="To date, reinforcement learning has mostly been studied solving simple learning tasks. Reinforcement learning methods that have been studied so far typical"/>
+
+    <meta name="dc.creator" content="Long-Ji Lin"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Control, Robotics, Mechatronics"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Simulation and Modeling"/>
+
+    <meta name="dc.subject" content="Natural Language Processing (NLP)"/>
+
+    <meta name="citation_reference" content="Anderson, C.W. (1987). Strategy learning with multilayer connectionist representations.Proceedings of the Fourth International Workshop on Machine Learning (pp. 103&#8211;114)."/>
+
+    <meta name="citation_reference" content="Barto, A.G., Sutton, R.S., &amp; Watkins, C.J.C.H. (1990). Learning and sequential decision making. In: M. Gabriel &amp; J.W. Moore (Eds.),Learning and computational neuroscience. MIT Press."/>
+
+    <meta name="citation_reference" content="Barto, A.G., Bradtke, S.J., &amp; Singh, S.P. (1991).Real-time learning and control using asynchronous dynamic programming. (Technical Report 91&#8211;57). University of Massachusetts, Computer Science Department."/>
+
+    <meta name="citation_reference" content="Chapman, D. &amp; Kaelbling, L.P. (1991). Input generalization in delayed reinforcement learning: An algorithm and performance comparisons.Proceedings of IJCAI-91."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=The convergence of TD(&#955;) for general &#955;; citation_author=P. Dayan; citation_volume=8; citation_publication_date=1992; citation_pages=341-362; citation_id=CR5"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=Learning sequential decision rules using simulation models and competition; citation_author=J.J. Grefenstette, C.L. Ramsey, A.C. Schultz; citation_volume=5; citation_publication_date=1990; citation_pages=355-382; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="Hinton, G.E., McClelland, J.L., &amp; Rumelhart, D.E. (1986). Distributed representations.Parallel distributed processing: Explorations in the microstructure of cognition, Vol. 1, Bradford Books/MIT Press."/>
+
+    <meta name="citation_reference" content="citation_title=Dynamic programming and Markov processes; citation_publication_date=1960; citation_id=CR8; citation_author=R.A. Howard; citation_publisher=Wiley"/>
+
+    <meta name="citation_reference" content="Kaelbling, L.P. (1990).Learning in embedded systems. Ph.D. Thesis, Department of Computer Science, Stanford University."/>
+
+    <meta name="citation_reference" content="Lang, K.J. (1989).A time-delay neural network architecture for speech recognition. Ph.D. Thesis, School of Computer Science, Carnegie Mellon University."/>
+
+    <meta name="citation_reference" content="Lin, Long-Ji. (1991a). Self-improving reactive agents: Case studies of reinforcement learning frameworks.Proceedings of the First International Conference on Simulation of Adaptive Behavior: From Animals to Animats (pp. 297&#8211;305). Also Technical Report CMU-CS-90-109, Carnegie Mellon University."/>
+
+    <meta name="citation_reference" content="Lin, Long-Ji. (1991b). Self-improvement based on reinforcement learning, planning and teaching.Proceedings of the Eighth International Workshop on Machine Learning (pp. 323&#8211;327)."/>
+
+    <meta name="citation_reference" content="Lin, Long-Ji. (1991c). Programming robots using reinforcement learning and teaching.Proceedings of AAAI-91 (pp. 781&#8211;786)."/>
+
+    <meta name="citation_reference" content="Mahadevan, S. &amp; Connell, J. (1991). Scaling reinforcement learning to robotics by exploiting the subsumption architecture.Proceedings of the Eighth International Workshop on Machine Learning (pp. 328&#8211;332)."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Articial Intelligence; citation_title=Generalization as search; citation_author=T.M. Mitchell; citation_volume=18; citation_publication_date=1982; citation_pages=203-226; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="Moore, A.W. (1991). Variable resolution dynamic programming: Efficiently learning action maps in multivariate real-valued state-spaces.Proceedings of the Eighth International Workshop on Machine Learning (pp. 333&#8211;337)."/>
+
+    <meta name="citation_reference" content="Mozer, M.C. (1986).RAMBOT: A connectionist expert system that learns by example. (Institute for Cognitive Science Report 8610). University of California at San Diego."/>
+
+    <meta name="citation_reference" content="Pomerleau, D.A. (1989).ALVINN: An autonomous land vehicle in a neural network (Technical Report CMU-CS-89-107). Carnegie Mellon University."/>
+
+    <meta name="citation_reference" content="Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation.Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1. Bradford Books/MIT Press."/>
+
+    <meta name="citation_reference" content="Sutton, R.S. (1984).Temporal credit assignment in reinforcement learning. Ph.D. Thesis, Dept. of Computer and Information Science, University of Massachusetts."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=Learning to predict by the methods of temporal differences; citation_author=R.S. Sutton; citation_volume=3; citation_publication_date=1988; citation_pages=9-44; citation_id=CR21"/>
+
+    <meta name="citation_reference" content="Sutton, R.S. (1990). Integrated architectures for learning, planning, and reacting based on approximating dynamic programming.Proceedings of the Seventh International Workshop on Machine Learning (pp. 216&#8211;224)."/>
+
+    <meta name="citation_reference" content="Tan, Ming. (1991). Learning a cost-sensitive internal representation for reinforcement learning.Proceedings of the Eighth International Workshop on Machine Learning (pp. 358&#8211;362)."/>
+
+    <meta name="citation_reference" content="Thrun, S.B., M&#246;ller, K., &amp; Linden, A. (1991). Planning with an adaptive world model. In D.S. Touretzky (Ed.),Advances in neural information processing systems 3, Morgan Kaufmann."/>
+
+    <meta name="citation_reference" content="Thrun, S.B. &amp; M&#246;ller, K. (1992). Active exploration in dynamic environments. To appear in D.S. Touretzky (Ed.),Advances in neural information processing systems 4, Morgan Kaufmann."/>
+
+    <meta name="citation_reference" content="citation_title=Learning from delayed rewards; citation_publication_date=1989; citation_id=CR26; citation_author=C.J.C.H. Watkins; citation_publisher=King&#39;s College"/>
+
+    <meta name="citation_reference" content="Williams, R.J. &amp; Zipser, D. (1988).A learning algorithm for continually running fully recurrent neural networks (Institute for Cognitive Science Report 8805). University of California at San Diego."/>
+
+    <meta name="citation_reference" content="Whitehead, S.D. &amp; Ballard, D.H. (1989). A role for anticipation in reactive systems that learn.Proceedings of the Sixth International Workshop on Machine Learning (pp. 354&#8211;357)."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=Learning to perceive and act by trial and error; citation_author=S.D. Whitehead, D.H. Ballard; citation_volume=7; citation_publication_date=1991; citation_pages=45-83; citation_id=CR29"/>
+
+    <meta name="citation_reference" content="Whitehead, S.D. (1991b). Complexity and cooperation in Q-learning.Proceedings of the Eighth International Workshop on Machine Learning (pp. 363&#8211;367)."/>
+
+    <meta name="citation_author" content="Long-Ji Lin"/>
+
+    <meta name="citation_author_email" content="ljl@cs.cmu.edu"/>
+
+    <meta name="citation_author_institution" content="School of Computer Science, Carnegie Mellon University, Pittsburgh"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="Self-improving reactive agents based on reinforcement learning, planni"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="To date, reinforcement learning has mostly been studied solving simple learning tasks. Reinforcement learning methods that have been studied so far typically converge slowly. The purpose of this work is thus two-fold: 1) to investigate the utility of reinforcement learning in solving much more complicated learning tasks than previously studied, and 2) to investigate methods that will speed up reinforcement learning. This paper compares eight reinforcement learning frameworks:adaptive heuristic critic (AHC) learning due to Sutton,Q-learning due to Watkins, and three extensions to both basic methods for speeding up learning. The three extensions are experience replay, learning action models for planning, and teaching. The frameworks were investigated using connectionism as an approach to generalization. To evaluate the performance of different frameworks, a dynamic environment was used as a testbed. The environment is moderately complex and nondeterministic. This paper describes these frameworks and algorithms in detail and presents empirical evaluation of the frameworks."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10994/8/3.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF00992699&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1992/05/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF00992699"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Machine Learning"/>
+        <meta property="og:title" content="Self-improving reactive agents based on reinforcement learning, planning and teaching"/>
+        <meta property="og:description" content="To date, reinforcement learning has mostly been studied solving simple learning tasks. Reinforcement learning methods that have been studied so far typically converge slowly. The purpose of this work is thus two-fold: 1) to investigate the utility of reinforcement learning in solving much more complicated learning tasks than previously studied, and 2) to investigate methods that will speed up reinforcement learning. This paper compares eight reinforcement learning frameworks:adaptive heuristic critic (AHC) learning due to Sutton,Q-learning due to Watkins, and three extensions to both basic methods for speeding up learning. The three extensions are experience replay, learning action models for planning, and teaching. The frameworks were investigated using connectionism as an approach to generalization. To evaluate the performance of different frameworks, a dynamic environment was used as a testbed. The environment is moderately complex and nondeterministic. This paper describes these frameworks and algorithms in detail and presents empirical evaluation of the frameworks."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10994.jpg"/>
+    
+    <title>Self-improving reactive agents based on reinforcement learning, planning and teaching | SpringerLink</title>
+        <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+    <link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+    <link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+    <link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+    <link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+    <link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+    <link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+    <link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+    <link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+    <link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+    <link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+    <link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-2e8ab716a5.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-1af6c9bc14.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF00992699","Journal Title":"Machine Learning","Journal Id":10994,"Keywords":"Reinforcement learning, planning, teaching, connectionist networks","kwrd":["Reinforcement_learning","planning","teaching","connectionist_networks"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"Y","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"subscription","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-BF00992699","Full HTML":"N","Subject Codes":["SCI","SCI21000","SCT19000","SCI19000","SCI21040"],"pmc":["I","I21000","T19000","I19000","I21040"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-0565","pissn":"0885-6125"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Artificial Intelligence","2":"Control, Robotics, Mechatronics","3":"Artificial Intelligence","4":"Simulation and Modeling","5":"Natural Language Processing (NLP)"},"secondarySubjectCodes":{"1":"I21000","2":"T19000","3":"I21000","4":"I19000","5":"I21040"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF00992699","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+
+</head>
+<body class="shared-article-renderer">
+    <div class="u-vh-full">
+        <div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=BF00992699;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu" data-enhanced-menu>
+                
+                    <li class="c-header__item u-hide-at-lt-lg">
+                        <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00992699">Log in</a>
+                    </li>
+                
+
+
+
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+            <main class="c-article-main-column u-float-left js-main-column">
+                <div id="pdflink-container" class="download-article test-pdf-link">
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00992699.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+</div>
+
+                <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                    <div class="c-article-header">
+                        <header>
+                            <ul class="c-article-identifiers" data-test="article-identifier">
+                                
+    
+    
+    
+
+                                <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="1992-05" itemprop="datePublished">May 1992</time></a></li>
+                            </ul>
+
+                            
+                            <h1 class="c-article-title u-h1" data-test="article-title" data-article-title="" itemprop="name headline">Self-improving reactive agents based on reinforcement learning, planning and teaching</h1>
+                            <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1">Long-Ji Lin</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Carnegie Mellon University" /><meta itemprop="address" content="grid.147455.6, 0000000120970344, School of Computer Science, Carnegie Mellon University, 15213, Pittsburgh, Pennsylvania" /></span></sup> </li></ul>
+                            <p class="c-article-info-details" data-container-section="info">
+                                
+    <a data-test="journal-link" href="/journal/10994"><i data-test="journal-title">Machine Learning</i></a>
+
+                                <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 8</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">293</span>–<span itemprop="pageEnd">321</span>(<span data-test="article-publication-year">1992</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                            </p>
+                            
+    
+
+                            <div data-test="article-metrics">
+                                <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">4729 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">320 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">1 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF00992699/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                            </div>
+                            
+                            
+                            
+                        </header>
+                    </div>
+
+                    <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                        <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>To date, reinforcement learning has mostly been studied solving simple learning tasks. Reinforcement learning methods that have been studied so far typically converge slowly. The purpose of this work is thus two-fold: 1) to investigate the utility of reinforcement learning in solving much more complicated learning tasks than previously studied, and 2) to investigate methods that will speed up reinforcement learning.</p><p>This paper compares eight reinforcement learning frameworks:<i>adaptive heuristic critic (AHC)</i> learning due to Sutton,<i>Q-learning</i> due to Watkins, and three extensions to both basic methods for speeding up learning. The three extensions are experience replay, learning action models for planning, and teaching. The frameworks were investigated using connectionism as an approach to generalization. To evaluate the performance of different frameworks, a dynamic environment was used as a testbed. The environment is moderately complex and nondeterministic. This paper describes these frameworks and algorithms in detail and presents empirical evaluation of the frameworks.</p></div></div></section>
+                        
+    
+
+
+                        
+
+                        
+    <div class="note test-pdf-link" id="cobranding-and-download-availability-text">
+        <div class="c-article-access-provider" aria-hidden="true" data-component="provided-by-box">
+            
+            
+                <p class="c-article-access-provider__text">
+                    <a href="/content/pdf/10.1007/BF00992699.pdf" target="_blank" rel="noopener"
+                    data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="inline link">Download</a> to read the full article text
+                </p>
+            
+        </div>
+    </div>
+
+
+                        
+                            
+                                
+                            
+                        
+
+                        <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Anderson, C.W. (1987). Strategy learning with multilayer connectionist representations.Proceedings of the Four" /><p class="c-article-references__text" id="ref-CR1">Anderson, C.W. (1987). Strategy learning with multilayer connectionist representations.<i>Proceedings of the Fourth International Workshop on Machine Learning</i> (pp. 103–114).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Barto, A.G., Sutton, R.S., &amp; Watkins, C.J.C.H. (1990). Learning and sequential decision making. In: M. Gabriel" /><p class="c-article-references__text" id="ref-CR2">Barto, A.G., Sutton, R.S., &amp; Watkins, C.J.C.H. (1990). Learning and sequential decision making. In: M. Gabriel &amp; J.W. Moore (Eds.),<i>Learning and computational neuroscience</i>. MIT Press.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Barto, A.G., Bradtke, S.J., &amp; Singh, S.P. (1991).Real-time learning and control using asynchronous dynamic pro" /><p class="c-article-references__text" id="ref-CR3">Barto, A.G., Bradtke, S.J., &amp; Singh, S.P. (1991).<i>Real-time learning and control using asynchronous dynamic programming</i>. (Technical Report 91–57). University of Massachusetts, Computer Science Department.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chapman, D. &amp; Kaelbling, L.P. (1991). Input generalization in delayed reinforcement learning: An algorithm and" /><p class="c-article-references__text" id="ref-CR4">Chapman, D. &amp; Kaelbling, L.P. (1991). Input generalization in delayed reinforcement learning: An algorithm and performance comparisons.<i>Proceedings of IJCAI-91</i>.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="P.. Dayan, " /><meta itemprop="datePublished" content="1992" /><meta itemprop="headline" content="Dayan, P. (1992). The convergence of TD(λ) for general λ.Machine Learning, 8, 341–362." /><p class="c-article-references__text" id="ref-CR5">Dayan, P. (1992). The convergence of TD(λ) for general λ.<i>Machine Learning, 8</i>, 341–362.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 5 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20convergence%20of%20TD%28%CE%BB%29%20for%20general%20%CE%BB&amp;journal=Machine%20Learning&amp;volume=8&amp;pages=341-362&amp;publication_year=1992&amp;author=Dayan%2CP.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.J.. Grefenstette, C.L.. Ramsey, A.C.. Schultz, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Grefenstette, J.J., Ramsey, C.L., &amp; Schultz, A.C. (1990). Learning sequential decision rules using simulation " /><p class="c-article-references__text" id="ref-CR6">Grefenstette, J.J., Ramsey, C.L., &amp; Schultz, A.C. (1990). Learning sequential decision rules using simulation models and competition.<i>Machine Learning, 5</i>, 355–382.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20sequential%20decision%20rules%20using%20simulation%20models%20and%20competition&amp;journal=Machine%20Learning&amp;volume=5&amp;pages=355-382&amp;publication_year=1990&amp;author=Grefenstette%2CJ.J.&amp;author=Ramsey%2CC.L.&amp;author=Schultz%2CA.C.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Hinton, G.E., McClelland, J.L., &amp; Rumelhart, D.E. (1986). Distributed representations.Parallel distributed pro" /><p class="c-article-references__text" id="ref-CR7">Hinton, G.E., McClelland, J.L., &amp; Rumelhart, D.E. (1986). Distributed representations.<i>Parallel distributed processing: Explorations in the microstructure of cognition, Vol. 1</i>, Bradford Books/MIT Press.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.A.. Howard, " /><meta itemprop="datePublished" content="1960" /><meta itemprop="headline" content="Howard, R.A. (1960).Dynamic programming and Markov processes. Wiley, New York." /><p class="c-article-references__text" id="ref-CR8">Howard, R.A. (1960).<i>Dynamic programming and Markov processes</i>. Wiley, New York.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Dynamic%20programming%20and%20Markov%20processes&amp;publication_year=1960&amp;author=Howard%2CR.A.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kaelbling, L.P. (1990).Learning in embedded systems. Ph.D. Thesis, Department of Computer Science, Stanford Un" /><p class="c-article-references__text" id="ref-CR9">Kaelbling, L.P. (1990).<i>Learning in embedded systems</i>. Ph.D. Thesis, Department of Computer Science, Stanford University.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lang, K.J. (1989).A time-delay neural network architecture for speech recognition. Ph.D. Thesis, School of Com" /><p class="c-article-references__text" id="ref-CR10">Lang, K.J. (1989).<i>A time-delay neural network architecture for speech recognition</i>. Ph.D. Thesis, School of Computer Science, Carnegie Mellon University.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lin, Long-Ji. (1991a). Self-improving reactive agents: Case studies of reinforcement learning frameworks.Proce" /><p class="c-article-references__text" id="ref-CR11">Lin, Long-Ji. (1991a). Self-improving reactive agents: Case studies of reinforcement learning frameworks.<i>Proceedings of the First International Conference on Simulation of Adaptive Behavior: From Animals to Animats</i> (pp. 297–305). Also Technical Report CMU-CS-90-109, Carnegie Mellon University.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lin, Long-Ji. (1991b). Self-improvement based on reinforcement learning, planning and teaching.Proceedings of " /><p class="c-article-references__text" id="ref-CR12">Lin, Long-Ji. (1991b). Self-improvement based on reinforcement learning, planning and teaching.<i>Proceedings of the Eighth International Workshop on Machine Learning</i> (pp. 323–327).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lin, Long-Ji. (1991c). Programming robots using reinforcement learning and teaching.Proceedings of AAAI-91 (pp" /><p class="c-article-references__text" id="ref-CR13">Lin, Long-Ji. (1991c). Programming robots using reinforcement learning and teaching.<i>Proceedings of AAAI-91</i> (pp. 781–786).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Mahadevan, S. &amp; Connell, J. (1991). Scaling reinforcement learning to robotics by exploiting the subsumption a" /><p class="c-article-references__text" id="ref-CR14">Mahadevan, S. &amp; Connell, J. (1991). Scaling reinforcement learning to robotics by exploiting the subsumption architecture.<i>Proceedings of the Eighth International Workshop on Machine Learning</i> (pp. 328–332).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="T.M.. Mitchell, " /><meta itemprop="datePublished" content="1982" /><meta itemprop="headline" content="Mitchell, T.M. (1982). Generalization as search.Articial Intelligence, 18, 203–226." /><p class="c-article-references__text" id="ref-CR15">Mitchell, T.M. (1982). Generalization as search.<i>Articial Intelligence</i>, 18, 203–226.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Generalization%20as%20search&amp;journal=Articial%20Intelligence&amp;volume=18&amp;pages=203-226&amp;publication_year=1982&amp;author=Mitchell%2CT.M.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Moore, A.W. (1991). Variable resolution dynamic programming: Efficiently learning action maps in multivariate " /><p class="c-article-references__text" id="ref-CR16">Moore, A.W. (1991). Variable resolution dynamic programming: Efficiently learning action maps in multivariate real-valued state-spaces.<i>Proceedings of the Eighth International Workshop on Machine Learning</i> (pp. 333–337).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Mozer, M.C. (1986).RAMBOT: A connectionist expert system that learns by example. (Institute for Cognitive Scie" /><p class="c-article-references__text" id="ref-CR17">Mozer, M.C. (1986).<i>RAMBOT: A connectionist expert system that learns by example</i>. (Institute for Cognitive Science Report 8610). University of California at San Diego.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Pomerleau, D.A. (1989).ALVINN: An autonomous land vehicle in a neural network (Technical Report CMU-CS-89-107)" /><p class="c-article-references__text" id="ref-CR18">Pomerleau, D.A. (1989).<i>ALVINN: An autonomous land vehicle in a neural network</i> (Technical Report CMU-CS-89-107). Carnegie Mellon University.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation" /><p class="c-article-references__text" id="ref-CR19">Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation.<i>Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1</i>. Bradford Books/MIT Press.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Sutton, R.S. (1984).Temporal credit assignment in reinforcement learning. Ph.D. Thesis, Dept. of Computer and " /><p class="c-article-references__text" id="ref-CR20">Sutton, R.S. (1984).<i>Temporal credit assignment in reinforcement learning</i>. Ph.D. Thesis, Dept. of Computer and Information Science, University of Massachusetts.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.S.. Sutton, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Sutton, R.S. (1988). Learning to predict by the methods of temporal differences.Machine Learning, 3, 9–44." /><p class="c-article-references__text" id="ref-CR21">Sutton, R.S. (1988). Learning to predict by the methods of temporal differences.<i>Machine Learning</i>, 3, 9–44.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 21 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20to%20predict%20by%20the%20methods%20of%20temporal%20differences&amp;journal=Machine%20Learning&amp;volume=3&amp;pages=9-44&amp;publication_year=1988&amp;author=Sutton%2CR.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Sutton, R.S. (1990). Integrated architectures for learning, planning, and reacting based on approximating dyna" /><p class="c-article-references__text" id="ref-CR22">Sutton, R.S. (1990). Integrated architectures for learning, planning, and reacting based on approximating dynamic programming.<i>Proceedings of the Seventh International Workshop on Machine Learning</i> (pp. 216–224).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Tan, Ming. (1991). Learning a cost-sensitive internal representation for reinforcement learning.Proceedings of" /><p class="c-article-references__text" id="ref-CR23">Tan, Ming. (1991). Learning a cost-sensitive internal representation for reinforcement learning.<i>Proceedings of the Eighth International Workshop on Machine Learning</i> (pp. 358–362).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Thrun, S.B., Möller, K., &amp; Linden, A. (1991). Planning with an adaptive world model. In D.S. Touretzky (Ed.),A" /><p class="c-article-references__text" id="ref-CR24">Thrun, S.B., Möller, K., &amp; Linden, A. (1991). Planning with an adaptive world model. In D.S. Touretzky (Ed.),<i>Advances in neural information processing systems 3</i>, Morgan Kaufmann.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Thrun, S.B. &amp; Möller, K. (1992). Active exploration in dynamic environments. To appear in D.S. Touretzky (Ed.)" /><p class="c-article-references__text" id="ref-CR25">Thrun, S.B. &amp; Möller, K. (1992). Active exploration in dynamic environments. To appear in D.S. Touretzky (Ed.),<i>Advances in neural information processing systems 4</i>, Morgan Kaufmann.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="C.J.C.H.. Watkins, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Watkins, C.J.C.H. (1989).Learning from delayed rewards. Ph.D. Thesis, King's College, Cambridge." /><p class="c-article-references__text" id="ref-CR26">Watkins, C.J.C.H. (1989).<i>Learning from delayed rewards</i>. Ph.D. Thesis, King's College, Cambridge.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20from%20delayed%20rewards&amp;publication_year=1989&amp;author=Watkins%2CC.J.C.H.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Williams, R.J. &amp; Zipser, D. (1988).A learning algorithm for continually running fully recurrent neural network" /><p class="c-article-references__text" id="ref-CR27">Williams, R.J. &amp; Zipser, D. (1988).<i>A learning algorithm for continually running fully recurrent neural networks</i> (Institute for Cognitive Science Report 8805). University of California at San Diego.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Whitehead, S.D. &amp; Ballard, D.H. (1989). A role for anticipation in reactive systems that learn.Proceedings of " /><p class="c-article-references__text" id="ref-CR28">Whitehead, S.D. &amp; Ballard, D.H. (1989). A role for anticipation in reactive systems that learn.<i>Proceedings of the Sixth International Workshop on Machine Learning</i> (pp. 354–357).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S.D.. Whitehead, D.H.. Ballard, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Whitehead, S.D. &amp; Ballard, D.H. (1991a). Learning to perceive and act by trial and error.Machine Learning, 7 4" /><p class="c-article-references__text" id="ref-CR29">Whitehead, S.D. &amp; Ballard, D.H. (1991a). Learning to perceive and act by trial and error.<i>Machine Learning, 7</i> 45–83.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 29 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20to%20perceive%20and%20act%20by%20trial%20and%20error&amp;journal=Machine%20Learning&amp;volume=7&amp;pages=45-83&amp;publication_year=1991&amp;author=Whitehead%2CS.D.&amp;author=Ballard%2CD.H.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Whitehead, S.D. (1991b). Complexity and cooperation in Q-learning.Proceedings of the Eighth International Work" /><p class="c-article-references__text" id="ref-CR30">Whitehead, S.D. (1991b). Complexity and cooperation in Q-learning.<i>Proceedings of the Eighth International Workshop on Machine Learning</i> (pp. 363–367).</p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF00992699-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article-author-information__subtitle u-h3" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address u-h3">School of Computer Science, Carnegie Mellon University, 15213, Pittsburgh, Pennsylvania</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Long-Ji Lin</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article-author-information__subtitle u-h3">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Long-Ji Lin</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Long-Ji+Lin&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Long-Ji+Lin" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Long-Ji+Lin%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Self-improving%20reactive%20agents%20based%20on%20reinforcement%20learning%2C%20planning%20and%20teaching&amp;author=Long-Ji%20Lin&amp;contentID=10.1007%2FBF00992699&amp;publication=0885-6125&amp;publicationDate=1992-05&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Lin, L. Self-improving reactive agents based on reinforcement learning, planning and teaching.
+                    <i>Mach Learn</i> <b>8, </b>293–321 (1992). https://doi.org/10.1007/BF00992699</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF00992699.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="1992-05">May 1992</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF00992699" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF00992699</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading u-h3">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Reinforcement learning</span></li><li class="c-article-subject-list__subject"><span itemprop="about">planning</span></li><li class="c-article-subject-list__subject"><span itemprop="about">teaching</span></li><li class="c-article-subject-list__subject"><span itemprop="about">connectionist networks</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                    </div>
+                </article>
+            </main>
+
+            <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+                <aside>
+                    <div data-test="download-article-link-wrapper">
+                        <div id="pdflink-container" class="download-article test-pdf-link">
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00992699.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+</div>
+
+                    </div>
+
+                    <div data-test="collections">
+                        
+                    </div>
+
+                    <div data-test="editorial-summary">
+                        
+                    </div>
+
+                    <div class="c-reading-companion">
+                        <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                            
+
+                            <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                                <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=BF00992699;"></div>
+        </div>
+    </div>
+</div>
+
+                            </div>
+                            <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                            <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="c-page-layout__footer">
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 79.12.216.170</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+
+    <script>
+    window.config = {
+        mustardcut: false
+    };
+
+    
+    (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);
+
+        
+    var mustardcutlink = document.getElementById('js-mustard');
+    if (mustardcutlink && window.matchMedia && window.matchMedia(mustardcutlink.media).matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+<script src=/oscar-static/app-springerlink/js/app-bundle-baa27ae2fe.js></script>
+
+<script>
+    if (window.config && window.config.mustardcut) {
+        var globalArticle = document.createElement('script');
+
+        globalArticle.src = '/oscar-static/app-springerlink/js/global-article-bundle-53273b47c8.js';
+        
+        window.Component = {};
+        document.body.appendChild(globalArticle);
+        
+    }
+</script>
+
+    <div id="googleanalytics-container">
+    
+        
+    
+</div>
+<div id="google-tag-manager-head-container">
+    
+        
+            <!-- Google Tag Manager -->
+            <script>
+                (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+</div>
+
+<div id="google-tag-manager-body-container">
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+</div>
+
+</body>
+</html>

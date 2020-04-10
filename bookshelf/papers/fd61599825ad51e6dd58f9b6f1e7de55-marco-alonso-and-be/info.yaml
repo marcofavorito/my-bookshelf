@@ -1,0 +1,43 @@
+abstract: In practice, the parameters of control policies are often tuned manually.
+  This is time-consuming and frustrating. Reinforcement learning is a promising alternative
+  that aims to automate this process, yet often requires too many experiments to be
+  practical. In this paper, we propose a solution to this problem by exploiting prior
+  knowledge from simulations, which are readily available for most robotic platforms.
+  Specifically, we extend Entropy Search, a Bayesian optimization algorithm that maximizes
+  information gain from each experiment, to the case of multiple information sources.
+  The result is a principled way to automatically combine cheap, but inaccurate information
+  from simulations with expensive and accurate physical experiments in a cost-effective
+  manner. We apply the resulting method to a cart-pole system, which confirms that
+  the algorithm can find good control policies with fewer experiments than standard
+  Bayesian optimization on the physical system only.
+archiveprefix: arXiv
+author: Marco, Alonso and Berkenkamp, Felix and Hennig, Philipp and Schoellig, Angela
+  P. and Krause, Andreas and Schaal, Stefan and Trimpe, Sebastian
+author_list:
+- family: Marco
+  given: Alonso
+- family: Berkenkamp
+  given: Felix
+- family: Hennig
+  given: Philipp
+- family: Schoellig
+  given: Angela P.
+- family: Krause
+  given: Andreas
+- family: Schaal
+  given: Stefan
+- family: Trimpe
+  given: Sebastian
+doi: 10.1109/ICRA.2017.7989186
+eprint: 1703.01250v1
+file: 1703.01250v1.pdf
+files:
+- marco-alonso-and-berkenkamp-felix-and-hennig-philipp-and-schoellig-angela-p.-and-krause-andreas-and-schaal-stefan-and-trimpe-sebastianvirtual-v.pdf
+month: Mar
+primaryclass: cs.RO
+ref: 1703.01250v1
+title: 'Virtual vs. Real: Trading Off Simulations and Physical Experiments in   Reinforcement
+  Learning with Bayesian Optimization'
+type: article
+url: http://arxiv.org/abs/1703.01250v1
+year: '2017'
