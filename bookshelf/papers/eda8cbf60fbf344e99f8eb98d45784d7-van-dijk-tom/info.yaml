@@ -1,0 +1,32 @@
+abstract: This thesis studies the parallelization of decision diagrams, a fundamental
+  data-structure with applications in many fields, in particular symbolic model checking.
+  Research into parallel processing is essential, as multi-core and many-core computers
+  are ubiquitous. Graph algorithms such as decision diagram operations are known to
+  be difficult to parallelize, as well as difficult to reason about. This is one of
+  the reasons why parallelizing symbolic model checking is difficult. The main result
+  of this research is the multi-core decision diagram package Sylvan. We investigate
+  scalable hash tables, load balancing via work stealing, using Sylvan for symbolic
+  state space exploration and for symbolic bisimulation minimization. The experimental
+  results show high parallel speedup of up to 38x for benchmarks on a 48-core computer.
+  Experiments that compare Sylvan to non-parallel decision diagram packages show that
+  Sylvan is competitive when run with a single core, and faster when run with multiple
+  cores.
+author: '{van Dijk}, Tom'
+author_list:
+- family: '{van Dijk}'
+  given: Tom
+day: '13'
+doi: 10.3990/1.9789036541602
+files:
+- van-dijk-tomsylvan-multi-core-decision-diagrams2016.pdf
+isbn: 978-90-365-4160-2
+keywords: IR-100676, METIS-317253
+language: English
+month: '7'
+note: CTIT Ph.D. thesis series no. 16-398 IPA dissertation series no. 2016-09
+publisher: Universiteit Twente
+ref: b8ef8a430b7b4955a0bdf00e07ab55d2
+school: University of Twente
+title: 'Sylvan: multi-core decision diagrams'
+type: phdthesis
+year: '2016'
