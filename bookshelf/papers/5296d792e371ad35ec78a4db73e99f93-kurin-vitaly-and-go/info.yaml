@@ -1,0 +1,38 @@
+abstract: We present GQSAT, a branching heuristic in a Boolean SAT solver trained
+  with value-based reinforcement learning (RL) using Graph Neural Networks for function
+  approximation. Solvers using GQSAT are complete SAT solvers that either provide
+  a satisfying assignment or a proof of unsatisfiability, which is required for many
+  SAT applications. The branching heuristic commonly used in SAT solvers today suffers
+  from bad decisions during their warm-up period, whereas GQSAT has been trained to
+  examine the structure of the particular problem instance to make better decisions
+  at the beginning of the search. Training GQSAT is data efficient and does not require
+  elaborate dataset preparation or feature engineering to train. We train GQSAT on
+  small SAT problems using RL interfacing with an existing SAT solver. We show that
+  GQSAT is able to reduce the number of iterations required to solve SAT problems
+  by 2-3X, and it generalizes to unsatisfiable SAT instances, as well as to problems
+  with 5X more variables than it was trained on. We also show that, to a lesser extent,
+  it generalizes to SAT problems from different domains by evaluating it on graph
+  coloring. Our experiments show that augmenting SAT solvers with agents trained with
+  RL and graph neural networks can improve performance on the SAT search problem.
+archiveprefix: arXiv
+author: Kurin, Vitaly and Godil, Saad and Whiteson, Shimon and Catanzaro, Bryan
+author_list:
+- family: Kurin
+  given: Vitaly
+- family: Godil
+  given: Saad
+- family: Whiteson
+  given: Shimon
+- family: Catanzaro
+  given: Bryan
+eprint: 1909.11830v1
+file: 1909.11830v1.pdf
+files:
+- kurin-vitaly-and-godil-saad-and-whiteson-shimon-and-catanzaro-bryanimproving-sat-solver-heuristics-with-graph-networks-and-reinforcement-learnin.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1909.11830v1
+title: Improving SAT Solver Heuristics with Graph Networks and Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/1909.11830v1
+year: '2019'
