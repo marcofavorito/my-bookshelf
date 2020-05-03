@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<html lang="en" class="pb-page"  data-request-id="60a55c6b-d391-425f-ad8b-85caeed94769"  
+><head data-pb-dropzone="head"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="pbContext" content=";article:article:doi\:10.1002/spe.686;page:string:Article/Chapter View;ctype:string:Journal Content;subPage:string:Abstract;website:website:pericles;issue:issue:doi\:10.1002/spe.v36%3A2;journal:journal:1097024x;wgroup:string:Publication Websites;pageGroup:string:Publication Pages;requestedJournal:journal:1097024x"/>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">var $DoubleClickZone = "softw-pract-experience_spe";var $DoubleClickSite =  "wly.compu.sci_000038";</script><script id="analyticDigitalData">digitalData = {"site":{"ip":"87.6.214.254","environment":"LIVE","website":"onlinelibrary.wiley.com","serverDate":"2020-04-25","server":"web117"},"identities":[{"type":"RegionUser","uuid":"20d013f5-e22b-4df0-ba93-d6d925db9e32"},{"type":"BasicGroup","uuid":"1e79306a-0394-427e-b8ee-e700fe0a77a2","customerRecords":[{"customerDomain":"ALM-CU","customerNumber":"COCHRANEITALIA"}]},{"type":"BasicGroup","uuid":"e623deab-c83b-41e3-84a2-d9f1d46c5f17"},{"type":"RegionUser","uuid":"9926c849-2b29-43c5-a433-c176f68d5ad0"},{"type":"BasicGroup","uuid":"197fe835-5b5f-4f4e-b8e9-a74d68491a84"},{"type":"SmartGroupUser","uuid":"77da7ca2-c9f3-4f94-9737-922e1d15b7d9"}],"publication":{"item":{"title":"Fast dynamic casting","doi":"10.1002/spe.686","access":"no","earliestDate":"2005-09-15","formats":["Abstract","Cited by","First page image","PDF","References"],"topics":[{"taxonomyUri":"global-subject-codes","topicLabel":"Computer Science - General Interest","topicUri":"cs20"},{"taxonomyUri":"global-subject-codes","topicLabel":"Software Engineering","topicUri":"csj0"},{"taxonomyUri":"global-subject-codes","topicLabel":"COMPUTER SCIENCE","topicUri":"cs"},{"taxonomyUri":"global-subject-codes","topicLabel":"General \u0026 Introductory Computer Science","topicUri":"cs00"},{"taxonomyUri":"global-subject-codes","topicLabel":"Information Technologies","topicUri":"cs30"},{"taxonomyUri":"global-subject-codes","topicLabel":"Web Site Development","topicUri":"cs70"},{"taxonomyUri":"global-subject-codes","topicLabel":"Object Technologies","topicUri":"cs60"},{"taxonomyUri":"global-subject-codes","topicLabel":"Programming \u0026 Software Development","topicUri":"cs50"}]},"group":{"doi":"10.1002/spe.v36:2","access":"no","volume":"36","issue":"2","coverDate":"2006-02-01","topics":[{"taxonomyUri":"global-subject-codes","topicLabel":"Computer Science - General Interest","topicUri":"cs20"},{"taxonomyUri":"global-subject-codes","topicLabel":"Software Engineering","topicUri":"csj0"},{"taxonomyUri":"global-subject-codes","topicLabel":"COMPUTER SCIENCE","topicUri":"cs"},{"taxonomyUri":"global-subject-codes","topicLabel":"General \u0026 Introductory Computer Science","topicUri":"cs00"},{"taxonomyUri":"global-subject-codes","topicLabel":"Information Technologies","topicUri":"cs30"},{"taxonomyUri":"global-subject-codes","topicLabel":"Web Site Development","topicUri":"cs70"},{"taxonomyUri":"global-subject-codes","topicLabel":"Object Technologies","topicUri":"cs60"},{"taxonomyUri":"global-subject-codes","topicLabel":"Programming \u0026 Software Development","topicUri":"cs50"}]},"series":{"title":"Software: Practice and Experience","doi":"10.1002/(ISSN)1097-024X","access":"no","code":"1097024x","issn":"0038-0644","eissn":"1097-024X","topics":[{"taxonomyUri":"gpt-zonename","topicLabel":"softw-pract-experience_SPE","topicUri":"softw-pract-experience_spe"},{"taxonomyUri":"global-subject-codes","topicLabel":"Computer Science - General Interest","topicUri":"cs20"},{"taxonomyUri":"global-subject-codes","topicLabel":"Software Engineering","topicUri":"csj0"},{"taxonomyUri":"global-subject-codes","topicLabel":"COMPUTER SCIENCE","topicUri":"cs"},{"taxonomyUri":"global-subject-codes","topicLabel":"General \u0026 Introductory Computer Science","topicUri":"cs00"},{"taxonomyUri":"global-subject-codes","topicLabel":"Information Technologies","topicUri":"cs30"},{"taxonomyUri":"global-subject-codes","topicLabel":"Web Site Development","topicUri":"cs70"},{"taxonomyUri":"global-subject-codes","topicLabel":"Object Technologies","topicUri":"cs60"},{"taxonomyUri":"global-subject-codes","topicLabel":"Programming \u0026 Software Development","topicUri":"cs50"},{"taxonomyUri":"gpt-sitename","topicLabel":"wly.compu.sci_000038","topicUri":"wly.compu.sci_000038"}]}},"page":{"subPage":"Abstract","page":"Article/Chapter View","pageGroup":"Publication Pages","title":"title","errorCode":200}}</script>
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+<meta name="robots" content="noarchive"/>
+<meta name="pb-robots-disabled">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    <meta property="og:title" content="Fast dynamic casting"/>
+
+
+    <meta property="og:type" content="Article"/>
+
+
+        <meta property="og:url" content="https://onlinelibrary.wiley.com/doi/10.1002/spe.686"/>
+    
+
+        
+        <meta property="og:image" content="https://onlinelibrary.wiley.com/cms/asset/f2cceb18-82a7-4cc0-80cc-c6b89657833a/spe.v50.5.cover.gif"/>
+    
+
+    <meta property="og:site_name" content="Wiley Online Library"/>
+
+
+
+        
+
+        <meta property="og:description" content="We describe a scheme for implementing dynamic casts suitable for systems where the performance and predictability of performance is essential. A dynamic cast from a base class to a derived class in a..."/>
+    
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+    <meta name="apple-itunes-app" content="app-id=1093113559"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <meta name="citation_doi" content="10.1002/spe.686"/>
+
+    <meta name="dc.identifier" content="10.1002/spe.686"/>
+
+
+
+
+<meta name="citation_journal_title" content="Software: Practice and Experience">
+<meta name="citation_title" content="Fast dynamic casting">
+<meta name="citation_keywords" content="dynamic casting">
+<meta name="citation_keywords" content="C++">
+<meta name="citation_keywords" content="modulo">
+<meta name="citation_keywords" content="embedded systems">
+<meta name="citation_keywords" content="hard real&#x2010;time">
+<meta name="citation_volume" content="36">
+<meta name="citation_issue" content="2">
+<meta name="citation_firstpage" content="139">
+<meta name="citation_lastpage" content="156">
+<meta name="citation_publication_date" content="2006/02/01">
+<meta name="citation_online_date" content="2005/09/15">
+<meta name="citation_issn" content="1097-024X">
+<meta name="citation_language" content="en">
+<meta name="citation_author" content="Michael Gibbs">
+<meta name="citation_author_institution" content="Lockheed Martin Aerospace, MZ 6602, P.O. Box 748, Fort Worth, TX 76101, U.S.A.">
+<meta name="citation_author" content="Bjarne Stroustrup">
+<meta name="citation_author_institution" content="Department of Computer Science, TAMU 3112, Texas A&M University, College Station, TX 77843, U.S.A.">
+<meta name="citation_abstract_html_url" content="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.686">
+<meta name="citation_fulltext_html_url" content="https://onlinelibrary.wiley.com/doi/full/10.1002/spe.686">
+<meta name="citation_pdf_url" content="https://onlinelibrary.wiley.com/doi/pdf/10.1002/spe.686">
+<meta name="citation_publisher" content="John Wiley & Sons, Ltd">
+<meta name="article_references" content="Gibbs, M. and Stroustrup, B. (2006), Fast dynamic casting. Softw: Pract. Exper., 36: 139-156. doi:10.1002/spe.686">
+<meta name="epdf_available" content="false">
+<meta name="Description" content="Abstract We describe a scheme for implementing dynamic casts suitable for systems where the performance and predictability of performance is essential. A dynamic cast from a base class to a derived...">
+
+
+<title>Fast dynamic casting - Gibbs - 2006 - Software: Practice and Experience - Wiley Online Library</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/wro/iqr2~product.css">
+
+
+    <link rel="stylesheet" href="/products/pericles/releasedAssets/css/build-3ef1575c1bd9ffe67a3d.css"/><link rel="stylesheet" href="/products/pericles/releasedAssets/css/print-3ef1575c1bd9ffe67a3d.css" media="print"/><link rel="stylesheet" href="/specs/plugins/owl-carousel/css/owl.carousel.css"/>
+
+
+
+
+
+<script async src="/pb-assets/catchpoint-1549680351760.js"></script>
+<meta name="referrer" content="origin-when-cross-origin"/>
+
+
+<link rel="stylesheet" type="text/css" href="/pb-assets/hub-assets/pericles/hub-1585729361327.css">
+
+
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/iucr-1510734465460.css">
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/readcube-1510565373110.css">
+<link rel="stylesheet" type="text/css" href="/pb-assets/css/dr-overrides-1552321492860.css">
+<!-- link rel="stylesheet" type="text/css" href="/pb-assets/css/temporary-1525702334993.css" -->
+
+<style>
+/* PERICLES-7186: distorted cover images */
+.journal-info-container .cover-image__image img {
+    min-height: unset;
+}
+
+/* TEMPORARY CSS HACK TO FIX LIT-220590 */
+.icon-icon-Rss::before {
+    content: "\e629";
+}
+
+/* TEMPORARY CSS TO FIX ALIGNMENT OF TOP AD IN RIGHT RAIL */
+.publication-cover-info {
+    margin-bottom: 20px;
+}
+
+.article-row-right > .pb-ad {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+/* TEMPORARY HACK FOR PERICLES-6763 */
+.table-of-content .issue-item h2 {
+    font-size: 16px;
+}
+
+.table-of-content .issue-item h2 a.issue-item__title {
+    display: inline;
+}
+
+/* TEMPORARY CSS FOR PERICLES-7445 */
+
+input.saml__consent__yes {
+    background: #005274;
+    font-size: 12px;
+    font-size: .75rem;
+    padding: 12px 20px;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+input.saml__consent__yes:hover {
+    background: #003951;
+}
+
+/* PERICLES-2166: Site-wide maintenance message */
+
+.admin-message {
+    background-color: #005274;
+    color: white;
+}
+
+/* TEMPORARY CSS FOR STAY-CONNECTED SOCIAL MEDIA ICONS */
+.stay-connected ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stay-connected i {
+    margin-right: 10px;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.stay-connected i.icon-hubs-rg-icon,
+.stay-connected i.icon-hubs-soundcloud-icon {
+    font-size: 41px;
+}
+
+.stay-connected .icon-hubs-pinterest-icon:before {
+    color: white;
+}
+
+.stay-connected .icon-hubs-pinterest-icon {
+    background-color: #BD081C;
+    border: solid #BD081C;
+    border-width: 8px;
+}
+
+/* PERICLES-5833: TEMPORARY CSS TO ADJUST POSITION OF ADS */
+.article-mpu-bottom .pb-ad {
+    margin: 0 0 0 195px;
+}
+
+
+.article-mpu-top .pb-ad {
+    padding-top: 20px;
+    margin: 0 0 -35px 0;
+}
+
+.banner-wrapper .pb-ad {
+    padding: 0;
+}
+
+/* TEMPORARY CSS FOR THE SOCIETY MEMBER LOGIN PAGE */
+.society-member-login .widget__header,
+.society-member-login .show-registration,
+.society-member-login .show-request-reset-password {
+    display: none;
+}
+
+.society-member-login .login-form {
+    margin-top: 20px;
+}
+
+.society-member-login .widget__body .input-group+.input-group {
+    margin-top: 15px;
+}
+
+
+/* TEMPORARY CSS TO HIDE FPI IN TOP CONTENT ACTION WIDGET */
+.top-content .firstPageImage {
+	display: none;
+}
+
+/* PERICLES-5518: TEMPORARY CSS TO FIX ANCHOR TAG OFFSET ON CUSTOM PAGES */
+.custom-page-hub .main-content :target:before {
+	content: "";
+	display: block;
+	height: 205px;
+	margin: -205px 0 0;
+}
+
+.custom-page-pericles .main-content :target:before {
+	content: "";
+	display: block;
+	height: 140px;
+	margin: -140px 0 0;
+}
+
+/* PERICLES-4777: TEMPORARY CSS TO HIDE OPTIONS IN THE SIDEBAR ON MRW PAGES */
+.journal-resources li#TableofContents,
+.journal-resources li#Topics,
+.journal-resources li#ArticleTitlesAZ {
+	display: none;
+}
+
+/* TEMPORARY FIX FOR UNWANTED MARGIN BELOW COVER IMAGES ON BOOK SERIES PAGES */
+.remove-margin .cover-image {
+	margin: 0;
+}
+
+/* TEMPORARY FIX TO MAKE IT POSSIBLE TO EDIT RICH TEXT WIDGETS IN SLIDESHOWS */
+.bs .modal-backdrop {
+	display: none;
+}
+
+/* TEMPORARY FIX FOR MENU POSITION */
+.hubpage-menu nav {
+	padding-bottom: 0;
+	position: relative;
+}
+
+/* TEMPORARY FOR MARGIN AROUND ADS */
+.advert.advert-leaderboard {
+	margin: 15px 0;
+}
+
+.banner-wrapper {
+	box-shadow: none;
+}
+
+/* TEMPORARY TO FIX OVERFLOW FOR P IN JOURNAL-NEWS SLIDESHOWS */
+.journal-news .slide-item p {
+	overflow: unset;
+}
+
+/* EDITOR HIGHLIGHTS CSS */
+div.ancillary-content.relateditem div.content {
+	height: 10em;
+}
+div.ancillary-content.listitem div.content {
+	height: 4em;
+}
+
+/* TEMPORARY Fix heading on Topical Index widget for MRWs */
+.topical-index h2 {
+    margin: 15px 0;
+    font-size: 1.75rem;
+    line-height: 28px;
+    color: #1c1d1e;
+    font-family: Source Serif Pro,serif;
+    font-weight: normal;
+}
+
+/* PERICLES-7288 */
+.issue-supplementary-files, .cover-image__virtual-issue {
+    margin-bottom: 15px;
+}
+
+/* PERICLES-8875 */
+.journal-news .slide-item img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* DO NOT REMOVE */
+li[heading="Restore Points"].ng-isolate-scope,
+li[heading="Disable Widgets"].ng-isolate-scope {
+    display: none!important;
+}
+
+.modal-header .widgetOrigin {
+    display: none;
+}
+
+/* PERICLES-10090 */
+.cover-image__image img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* LIT-282003 */
+.journal-info-container span.info_value:after {
+    content: '\003B';
+}
+
+.journal-info-container span.info_value:last-child:after {
+    content: '';
+}
+
+/* LIT-299510 */
+h1.citation__title {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+@media (max-width: 991px) {
+    h1.citation__title {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+    h1.citation__title:after {
+        content: "";
+    }
+}
+
+/* LIT-295816 */
+.search__item .item__body .meta__details a.publication_meta_serial:after {
+    content: "";
+    margin: 0;
+}
+.search__item .item__body .meta__details a.publication_meta_volume_issue:before {
+    content: "|";
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* PPV */
+.cart-indicator__wrapper {
+    padding: 0;
+}
+</style>
+
+<!-- The Adobe DTM script. Must come after the digitalData object -->
+<script src="//assets.adobedtm.com/6e626c9ec247e474f6b98eb15a79a185cf7e26a5/satelliteLib-c1ac050bbdc647f13a62578e71f0d817f8a6cbb5.js"></script>
+
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="ffz4i4DxIJCdGpRXe0XN6KG6o4FYI-nnFW9I_dg8piM" />
+
+<!-- KRUX Implementation-->
+<script class="kxct" data-id="JMOONjNh" data-timing="async" data-version="1.9" type="text/javascript">
+
+	window.Krux || (( Krux = function () {
+		Krux.q.push ( arguments )
+	}).q = []);
+
+	( function () {
+		var k , m , s , src;
+		k = document.createElement ( 'script' );
+		k.type 	= 'text/javascript';
+		k.async = true;
+		src = ( m = location.href.match ( /\bkxsrc=([^&]+)/ )) && decodeURIComponent ( m [ 1 ]);
+		k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test ( src ) ? src : src === 'disable' ? '' : ( location.protocol === 'https:'?'https:':'http:' ) + '//cdn.krxd.net/controltag?confid=JMOONjNh';
+		s = document.getElementsByTagName ( 'script' ) [ 0 ];
+		s.parentNode.insertBefore ( k , s );
+	} ());
+</script>
+
+<!-- KRUX Implementation cont'd -->
+<script type="text/javascript">
+	window.Krux || (( Krux = function () {
+		Krux.q.push ( arguments );
+	}).q = []);
+
+	( function () {
+		function retrieve ( n ) {
+			var m , k = 'kx' + n;
+			if ( window.localStorage ) {
+				return window.localStorage [ k ] || '';
+			} else if ( navigator.cookieEnabled ) {
+				m = document.cookie.match ( k + '=([^;]*)' );
+				return ( m && unescape ( m [ 1 ])) || '';
+			} else {
+				return '';
+			}
+		}
+
+		Krux.user = retrieve ( 'user' );
+		Krux.segments = retrieve ( 'segs' ) && retrieve ( 'segs' ).split ( ',' ) || [];
+	}) ();
+</script>
+
+<!-- Grapeshot Implementation -->
+<script>
+	var gs_channels = 'default';
+</script>
+
+<script src="//wiley.grapeshot.co.uk/main/channels.cgi?url=https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.686" async></script>
+
+<!-- DoubleClick Implementation -->
+<script type="text/javascript">
+	var $WileyGooglePublisherID = 2215;
+
+	if (!$DoubleClickSite) {
+		switch("pericles") {
+      case "acsess.onlinelibrary.wiley.com":
+				var $DoubleClickSite = "wly.agriculture_000018";
+				break;
+			case "afspubs":
+				var $DoubleClickSite = "wly.aqua.fish_000017";
+				break;
+			case "aasldpubs":
+  				var $DoubleClickSite = "wly.gastro.hep_000059";
+  				break;
+			case "headachejournal":
+  				var $DoubleClickSite = "wly.neurology_000086";
+  				break;
+			default:
+				var $DoubleClickSite = "undefined-site";
+		};
+  	};
+
+	if (!$DoubleClickZone) {
+		switch("pericles") {
+      case "acsess.onlinelibrary.wiley.com":
+        var $DoubleClickZone = "Agriculture_ACSESS_Hub";
+        break;
+			case "afspubs":
+				var $DoubleClickZone = "AFS_HUB";
+				break;
+      case "aasldpubs":
+        var $DoubleClickZone = "AASLD-pubs_HUB";
+        break;
+      case "headachejournal":
+        var $DoubleClickZone = "headache_HUB";
+        break;
+			default:
+				var $DoubleClickZone = "undefined-zone";
+		};
+	};
+
+	var $GooglePublisherCategory = "/" + $WileyGooglePublisherID + "/" + $DoubleClickSite + "/" + $DoubleClickZone;
+</script>
+
+<script>
+	var googletag = googletag || {};
+
+	googletag.cmd = googletag.cmd || [];
+
+	( function () {
+
+		var gads = document.createElement ( 'script' ) ,
+		node = document.getElementsByTagName ( 'script' ) [ 0 ] ;
+
+		gads.async = true;
+		gads.src = document.location.protocol + '//www.googletagservices.com/tag/js/gpt.js';
+
+		node.parentNode.insertBefore ( gads , node );
+
+	}) ();
+</script>
+
+<script>
+	googletag.cmd.push ( function () {
+
+		var sizes = {
+			leaderboard : googletag.sizeMapping ()
+				.addSize ([ 300 , 100 ] , [ 300 , 50 ])
+				.addSize ([ 740 , 100 ] , [ 728 , 90 ])
+				.addSize ([ 0 , 0 ] , 'fluid')
+				.build () ,
+			rail : googletag.sizeMapping ()
+				.addSize ([ 0 , 0 ] , [ 300 , 250 ])
+				.build ()
+		};
+
+
+		gptPage = window.digitalData && digitalData.page && digitalData.page.page ? digitalData.page.page : "blank";
+		gptSubPage = window.digitalData && digitalData.page && digitalData.page.subPage ? digitalData.page.subPage : "blank";
+
+
+		function gptClean(gptText){
+			if(typeof(gptText)=="string"){
+				gptText = gptText.replace(/\&/g,'%26');
+
+
+				return gptText.replace(/\^|\*|#|\$|\"|\'|\=|\,|\!|\+|\~|\;|\(|\)|\<|\>|\[|\]|\?|\%|\:|\@|\;|\/|\&|\||\{|\}|\\|/g,'');
+
+			}
+			return "blank";
+		}
+
+
+		googletag.pubads ()
+			.setTargeting ( 'property' 	, 'value-of-property' 	) 	// Change and duplicate this line for as many additional keywords to send
+			.setTargeting ( 'doi' , '10.1002/spe.686') // Publication DOI
+			.setTargeting ( 'gs_cat' 	, gs_channels 		) 	// Grapeshot
+			.setTargeting ( 'ksg' 		, Krux.segments 	) 	// Krux
+			.setTargeting ( 'kuid' 		, Krux.user 		) 	// Krux
+			.setTargeting ( 'pbPage', gptClean(gptPage) )
+			.setTargeting ( 'pbSubPage', gptClean(gptSubPage) );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-leaderboard' )
+			.defineSizeMapping ( sizes.leaderboard )
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-rail-1' )
+			.defineSizeMapping ( sizes.rail )
+			.setTargeting ( 'Position', 'advert-rail-1')
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.defineSlot ( $GooglePublisherCategory, 'fluid', 'advert-rail-2' )
+			.defineSizeMapping ( sizes.rail )
+			.setTargeting ( 'Position', 'advert-rail-2')
+			.addService ( googletag.pubads ())
+			.setCollapseEmptyDiv ( true );
+
+		googletag.pubads ().enableSingleRequest ();
+		googletag.enableServices ();
+	});
+	//]]>
+</script>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Get whether TNSI is in live or test mode --> 
+    
+    <!-- Get the configured TNSI Javascript version number --> 
+    
+    <!-- Get the configured TNSI MerchantID --> 
+    
+    <!-- Add "TEST" to beginning of merchant ID when running in test mode -->
+    
+
+    <script id= "TNSISessionJS" src="https://secure.na.tnspayments.com/form/version/53/merchant/WILEYABA-USS/session.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="//scholar.google.com/scholar_js/casa.js" async></script>
+
+
+
+
+
+
+
+    
+
+
+<script>
+    var digitalData = window.digitalData ? window.digitalData : {};
+    digitalData.page.title = "Fast dynamic casting - Gibbs - 2006 - Software: Practice and Experience - Wiley Online Library";
+</script>
+
+</head>
+<body class="pb-ui">
+
+<div class="skip-links">
+    <ul class="rlist">
+        
+                <li><a href="#article__content" tabindex="1">Skip to Article Content</a></li>
+                <li><a href="#pane-pcw-detailscon" tabindex="1">Skip to Article Information</a></li>
+            
+    </ul>
+</div>
+
+
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageHeader" data-widget-id="62175478-b98a-43d5-90f2-1f2045ac1a7e" class="pageHeader fixed-element">
+        
+
+
+
+        
+        <header class="page-header">
+    <div data-pb-dropzone="main">
+    
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="bb5b5e2c-d3d6-4015-b586-eeade38f59d4" class="admin-message">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div>
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <div style="background=blue;">
+    <div class="container">
+        <p style="text-align: center;"><b>COVID-19 campus closures:</b> see options for <a href="/action/clickThrough?id=101169&url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fresearchers%2Fread%2Faccess-options&loc=%2Fdoi%2Fabs%2F10.1002%2Fspe.686&pubId=45749073&placeholderId=1029&productId=1011" target="_blank"><font color="white"><u>Remote Access</u></font></a> to subscribed content.</p>
+    </div>
+</div>
+        </div>
+    
+
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="container"><span class="cookiePolicy-popup__content">By continuing to browse this site, you agree to its use of cookies as described in our <a class="cookie-policy-popup__content" href="https://www.wiley.com/cookies">Cookie Policy</a>.</span><a href="#" aria-label="Agree to cookie policy and close message" class="cookiePolicy-popup__close close">&times;</a></div></div>
+
+
+
+
+        
+        <div class="container"><div class="row"><div class="contents col-md-12">
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="ff262197-0fb8-4973-aaa2-2fceba4b5a61" class="logo-container hidden-xs hidden-sm hidden-md">
+        
+
+
+
+        
+        <a href="/" title="Wiley Online Library"><img id="mainLogo" alt="Wiley Online Library" src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="6b601b23-7301-47c8-8889-242d041241c4" class="logo-container-mobile hidden-lg hidden-md hidden-sm">
+        
+
+
+
+        
+        <a href="/" title="Wiley Online Library"><img id="mobileLogo" alt="Wiley Online Library" src="/pb-assets/hub-assets/pericles/mobilehublogo-1518781861020.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3QuickSearchWidget" data-widget-id="48175bb0-0f70-46e6-bb89-7e2781fdb8e4" class="header-quicksearch">
+        
+
+
+
+        
+        <div class="quick-search-wrapper"><a href="#" title="search" aria-label="Search" class="quick-search__item"><i aria-hidden="true" class="icon-search"></i><span class="quick-search__item__arrow"></span></a><div data-linkto-page="true" class="quick-search quickSearchFormContainer"><div class="main-search-field-wrapper"><div class="tab clearfix"><input type="search" placeholder="Search" value="" tabindex="13" class="fakeQSInput quickSearchFilter"/><label for="search-within" class="sr-only">Search within</label><select name="search-within" id="search-within" role="tablist" tabindex="10" class="search-within"><option value="#pane-67065c09-4a88-49cd-934c-ac707951d35c0">This Journal</option><option value="#pane-67065c09-4a88-49cd-934c-ac707951d35c1">Anywhere</option></select><ul role="tablist" class="rlist tab__content"><li id="pane-67065c09-4a88-49cd-934c-ac707951d35c0" aria-labelledby="pane-67065c09-4a88-49cd-934c-ac707951d35c0-con" role="tab" class="tab__pane quick-search-pane__anywhere active"><form action="/action/doSearch" name="thisJournalQuickSearch" method="get" title="Quick Search"><div class="input-group option-0"><label for="searchField0" class="hiddenLabel">Search term</label><input type="search" name="AllField" id="searchField0" placeholder="Search" onfocus="this.value = this.value;" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" tabindex="9" class="autocomplete actualQSInput quickSearchFilter"/><input type="hidden" name="SeriesKey" value="1097024x"/><div class="search-options-wrapper quickSearchFilter"><a href="https://onlinelibrary.wiley.com/search/advanced?publication=1097024x" title="" tabindex="12" class="advanced">  Advanced Search</a><a href="https://onlinelibrary.wiley.com/search/advanced?publication=1097024x#citation" title="" tabindex="12" class="citation">  Citation Search</a></div></div><button id="quick-search-btn" type="submit" title="Search" tabindex="11" aria-label="Submit Search" class="btn quick-search__button icon-search"></button></form></li><li id="pane-67065c09-4a88-49cd-934c-ac707951d35c1" aria-labelledby="pane-67065c09-4a88-49cd-934c-ac707951d35c1-con" role="tab" class="tab__pane quick-search-pane__anywhere"><form action="https://onlinelibrary.wiley.com/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search"><div class="input-group option-1"><label for="searchField1" class="hiddenLabel">Search term</label><input type="search" name="AllField" id="searchField1" placeholder="Search" onfocus="this.value = this.value;" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" tabindex="9" class="autocomplete actualQSInput quickSearchFilter"/><div class="search-options-wrapper quickSearchFilter"><a href="https://onlinelibrary.wiley.com/search/advanced" title="" tabindex="12" class="advanced">  Advanced Search</a><a href="https://onlinelibrary.wiley.com/search/advanced#citation" title="" tabindex="12" class="citation">  Citation Search</a></div></div><button id="quick-search-btn" type="submit" title="Search" tabindex="11" aria-label="Submit Search" class="btn quick-search__button icon-search"></button></form></li></ul></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="5ef13ed1-f4ac-4b62-a426-07ec9576a586" class="cart-indicator__wrapper">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="eCommerceCartIndicatorWidget" data-widget-id="4a9f7c04-a273-4a25-91fb-8e7bd9970288" class="cart-indicator__wrapper">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumNavigationLoginBar" data-widget-id="d384ca92-7137-45d6-b3c2-78c9c0a98c2b" class="login-bar-container">
+        
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <div class="loginBar login-open">
+        <a href="/action/showLogin?uri=%2Fdoi%2Fabs%2F10.1002%2Fspe.686&amp;aria-label=Log+in+or+Register" class="show-login" role="button" uri="/doi/abs/10.1002/spe.686" aria-label="Log in or Register">
+            <span class="icon-profile_empty"></span>
+            <span class="sign-in-label">Login / Register</span>
+        </a>
+            
+    </div>
+
+
+
+        </div>
+    
+</div>
+
+        </div>
+    
+</div>
+</div></div></div>
+    </div>
+</header>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageBody" data-widget-id="72100436-7a82-49fc-933b-c6c9d8c42914" class="pageBody body-text">
+        
+
+
+
+        
+        <main id="main-content" tabindex="-1">
+    <!--begin pagefulltext-->
+    <div class="page-body pagefulltext">
+        <div data-pb-dropzone="main">
+        
+
+
+
+        
+        <div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="0220a30b-90c0-4b51-8637-141edf12f86a" class="banner-wrapper">
+        
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <aside role="complementary">
+		<div id="advert-leaderboard" class="advert advert-leaderboard">
+			<script>
+				googletag.cmd.push 		( function () {
+					googletag.display 	( 'advert-leaderboard' );
+				});
+			</script>
+
+			<!-- No JavaScript support is a call to an image -->
+			<noscript>
+				<a href="/action/clickThrough?id=1013&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D728x90%26amp%3Btile%3D1%26amp%3Bc%3D%24random&loc=%2Fdoi%2Fabs%2F10.1002%2Fspe.686&pubId=45749073&placeholderId=1015&productId=101018" target="_blank">
+					<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=728x90&amp;tile=1&amp;c=$random">
+				</a>
+			</noscript>
+		</div>
+	</aside>
+        </div>
+    
+
+
+        </div>
+    
+
+
+
+
+        
+        <style type="text/css">li.menu-item[data-menu-label="Accepted Articles"] {
+  display: none;
+}</style>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <section data-widget-def="ux3-layout-widget" data-widget-id="0f7bccba-8328-4dbd-a1fa-e84c526dd9ab">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class=" col-md-12">
+
+
+
+        
+        <div>
+
+
+
+        
+        <article data-related="/action/ajaxShowRecommended?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1002%2Fspe.686&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1002%2Fspe.686%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3BsubPage%3Astring%3AAbstract%3Bwebsite%3Awebsite%3Apericles%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Fspe.v36%253A2%3Bjournal%3Ajournal%3A1097024x%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BrequestedJournal%3Ajournal%3A1097024x&amp;accordionHeadingWrapper=h2&amp;showSubjects=true&amp;taxonomiesCodes=enter+your+taxonomy+codes+here&amp;displayCitedByLink=true&amp;displayAlmetricDropzone=true&amp;taxonomyUri=publication-features&amp;topicUri=hide-issue-metadata" data-details="/action/ajaxShowPubInfo?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1002%2Fspe.686&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1002%2Fspe.686%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3BsubPage%3Astring%3AAbstract%3Bwebsite%3Awebsite%3Apericles%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Fspe.v36%253A2%3Bjournal%3Ajournal%3A1097024x%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BrequestedJournal%3Ajournal%3A1097024x&amp;accordionHeadingWrapper=h2&amp;showSubjects=true&amp;taxonomiesCodes=enter+your+taxonomy+codes+here&amp;displayCitedByLink=true&amp;displayAlmetricDropzone=true&amp;taxonomyUri=publication-features&amp;topicUri=hide-issue-metadata" data-mathjax="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><div class="row article-row"><div id="article__content" tabindex="-1" class="col-sm-12 col-md-8 col-lg-8 article__content article-row-left"><div data-pb-dropzone="mrwBannerDropZone" class="mrw-banner-dropzone">
+
+
+
+        
+        
+</div><div class="article-citation"><div class="citation">
+   <div class="pb-dropzone" data-pb-dropzone="publicaitonContent-series-title">
+      <div id="journal-banner-text" class="journal-banner-text"><a href="/journal/1097024x" title="Software: Practice and Experience homepage">Software: Practice and Experience</a></div><a href="/toc/1097024x/2006/36/2" class="volume-issue">Volume 36, Issue 2</a><a href="/journal/1097024x" title="Software: Practice and Experience homepage" class="citation--logo"><img id="journal-banner-image" test="test-value" alt="Software: Practice and Experience" src="/pb-assets/journal-banners/1097024x-1501384659327.jpg" class="journal-banner-image"></a><script>var image = new Image();
+
+image.onerror = function() {
+  // if the image does not exist
+  //document.getElementById("journal-banner-text").style.marginBottom = "15px";
+  document.getElementById("journal-banner-text").style.fontSize = "22px";
+  document.getElementById("journal-banner-image").style.display = "none";
+}
+
+image.src = "/pb-assets/journal-banners/1097024x-1501384659327.jpg";</script>
+   </div>
+   <div class="doi-access-container clearfix"><span class="primary-heading"><span class="primary-heading">Research Article</span></span>
+      </div>
+   <h1 class="citation__title">Fast dynamic casting</h1>
+   <div class="rlist--inline loa comma visible-xs mobile-authors loa-authors-trunc">
+      <div class="accordion-tabbed__tab-mobile  accordion__closed"><a href="/action/doSearch?ContribAuthorStored=Gibbs%2C+Michael" class="author-name accordion-tabbed__control" data-id="am1" data-db-target-for="am1" aria-controls="am1" aria-haspopup="true" id="am1_Ctrl" role="button"><span>Michael Gibbs<i aria-hidden="true" class="icon-mail_outline"></i></span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><div class="author-info accordion-tabbed__content" data-db-target-of="am1" aria-labelledby="am1_Ctrl" role="region" id="am1">
+            <p class="author-type">Corresponding Author</p>
+            <p>
+               <p><span>E-mail address: </span><a title="&#xA;                            Link to email address&#xA;                        " href="mailto:james.m.gibbs@lmco.com">james.m.gibbs@lmco.com</a></p>
+            </p>
+            <p>Lockheed Martin Aerospace, MZ 6602, P.O. Box 748, Fort Worth, TX 76101, U.S.A.</p>Lockheed Martin Aerospace, MZ 6602, P.O. Box 748, Fort Worth, TX 76101, U.S.A.<a class="moreInfoLink" href="/action/doSearch?ContribAuthorStored=Gibbs%2C+Michael">Search for more papers by this author</a></div>
+      </div>
+      <div class="accordion-tabbed__tab-mobile  accordion__closed"><a href="/action/doSearch?ContribAuthorStored=Stroustrup%2C+Bjarne" class="author-name accordion-tabbed__control" data-id="am2" data-db-target-for="am2" aria-controls="am2" aria-haspopup="true" id="am2_Ctrl" role="button"><span>Bjarne Stroustrup</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><div class="author-info accordion-tabbed__content" data-db-target-of="am2" aria-labelledby="am2_Ctrl" role="region" id="am2">
+            <p>Department of Computer Science, TAMU 3112, Texas A&M University, College Station, TX 77843, U.S.A.</p><a class="moreInfoLink" href="/action/doSearch?ContribAuthorStored=Stroustrup%2C+Bjarne">Search for more papers by this author</a></div>
+      </div>
+   </div>
+   <div class="loa-wrapper loa-authors hidden-xs">
+      <div id="sb-1" class="accordion">
+         <div class="accordion-tabbed">
+            <div class="accordion-tabbed__tab-mobile  accordion__closed"><a href="/action/doSearch?ContribAuthorStored=Gibbs%2C+Michael" class="author-name accordion-tabbed__control" data-id="a1" data-db-target-for="a1" aria-controls="a1" aria-haspopup="true" id="a1_Ctrl" role="button"><span>Michael Gibbs<i aria-hidden="true" class="icon-mail_outline"></i></span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><div class="author-info accordion-tabbed__content" data-db-target-of="a1" aria-labelledby="a1_Ctrl" role="region" id="a1">
+                  <p class="author-type">Corresponding Author</p>
+                  <p>
+                     <p><span>E-mail address: </span><a title="&#xA;                            Link to email address&#xA;                        " href="mailto:james.m.gibbs@lmco.com">james.m.gibbs@lmco.com</a></p>
+                  </p>
+                  <p>Lockheed Martin Aerospace, MZ 6602, P.O. Box 748, Fort Worth, TX 76101, U.S.A.</p>Lockheed Martin Aerospace, MZ 6602, P.O. Box 748, Fort Worth, TX 76101, U.S.A.<a class="moreInfoLink" href="/action/doSearch?ContribAuthorStored=Gibbs%2C+Michael">Search for more papers by this author</a></div>
+            </div>
+            <div class="accordion-tabbed__tab-mobile  accordion__closed"><a href="/action/doSearch?ContribAuthorStored=Stroustrup%2C+Bjarne" class="author-name accordion-tabbed__control" data-id="a2" data-db-target-for="a2" aria-controls="a2" aria-haspopup="true" id="a2_Ctrl" role="button"><span>Bjarne Stroustrup</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><div class="author-info accordion-tabbed__content" data-db-target-of="a2" aria-labelledby="a2_Ctrl" role="region" id="a2">
+                  <p>Department of Computer Science, TAMU 3112, Texas A&M University, College Station, TX 77843, U.S.A.</p><a class="moreInfoLink" href="/action/doSearch?ContribAuthorStored=Stroustrup%2C+Bjarne">Search for more papers by this author</a></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="epub-sections"><div class="epub-section"><span class="epub-state">First published: </span><span class="epub-date">15 September 2005</span></div>
+      <div class="epub-section"><a class="epub-doi" aria-label="Digital Object Identifier" href="https://doi.org/10.1002/spe.686">https://doi.org/10.1002/spe.686</a></div><div class="epub-section cited-by-count"><span>Citations: <a href="#citedby-section">5</a></span></div>
+   </div>
+</div></div><div class="fixed-element fixedToolbar"><nav aria-label="Article navigation and tools" class="coolBar stickybar"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="rlist coolBar__zone"><div class="coolBar__section"><a href="#" data-db-target-for="article" data-db-switch="icon-close_thin" aria-haspopup="true" aria-controls="article_Pop" role="button" id="article_Ctrl" class="coolBar__ctrl hidden-lg"><i class="icon-abstract"></i><span>About</span></a><div data-db-target-of="article" aria-labelledby="article_Ctrl" role="menu" id="article_Pop" class="coolBar__drop fixed rlist dropBlock__holder"><div data-target=".article-row-right .tab__nav, .coolBar--download" data-remove="false" data-targetClass="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div></div><div class="coolBar__second rlist"><div class="coolBar__section coolBar--download PdfLink scroll-to-target"><a href="/doi/epdf/10.1002/spe.686" title="ePDF" class="coolBar__ctrl pdf-download"><img src="/products/pericles/releasedAssets/images/pdf-icon.png" alt="PDF"/>PDF</a></div>
+
+
+
+        
+        <div class="relative"><a href="#" data-db-target-for="0e406ce9-5c43-4e2d-b741-e0b43d1f1865" data-db-switch="icon-close_thin" aria-haspopup="true" aria-controls="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Pop" role="button" id="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Ctrl" class="article-tools__ctrl"><i aria-hidden="true" class="icon-Icon_Tools"></i><span>Tools</span></a><div data-db-target-of="0e406ce9-5c43-4e2d-b741-e0b43d1f1865" aria-labelledby="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Ctrl" role="menu" id="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Pop" class="article-tools__block fixed dropBlock__holder"><ul class="rlist w-slide--list"><li role="presentation" class="article-tool"><a href="https://onlinelibrary.wiley.com/action/rightsLink?doi=10.1002%2Fspe.686&amp;mode=" role="menuitem" target="_blank"><i aria-hidden="true" class="icon-permissions-key"></i><span>Request permission</span></a></li><li role="presentation" class="article-tool"><a href="/action/showCitFormats?doi=10.1002%2Fspe.686" role="menuitem" target="_self"><i aria-hidden="true" class="icon-export-icon"></i><span>Export citation</span></a></li><li role="presentation" class="article-tool"><a href="/personalize/addFavoritePublication?doi=10.1002%2Fspe.686" role="menuitem" target="_self"><i aria-hidden="true" class="icon-favorites"></i><span>Add to favorites</span></a></li><li role="presentation" class="article-tool"><a href="/action/addCitationAlert?doi=10.1002%2Fspe.686" role="menuitem" target="_self"><i aria-hidden="true" class="icon-Icon_Track-citations"></i><span>Track citation</span></a></li></ul></div></div>
+
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="relative"><a id="share-access__ctrl" href="#" data-db-target-for="dff42abe-4b17-4fe9-a9c5-625405cd1007" data-db-switch="icon-close_thin" aria-haspopup="true" aria-controls="share_Pop" role="button" class="share-access__ctrl"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><a id="share__ctrl" href="#" data-db-target-for="dff42abe-4b17-4fe9-a9c5-625405cd1007" data-db-switch="icon-close_thin" aria-haspopup="true" aria-controls="share_Pop" role="button" class="share__ctrl hidden"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><div data-db-target-of="dff42abe-4b17-4fe9-a9c5-625405cd1007" aria-labelledby="share-access__ctrl" role="menu" id="share_Pop" class="share__block dropBlock__holder fixed">
+
+
+
+        
+        <div data-share-access="/action/authorizeSharing?doi=10.1002/spe.686&amp;shareType=P2P" class="share-access hidden"><p>Give access</p><a href="#" data-toggle="modal" data-target="#shareAccess" class="share-access__link"><i class="icon-users"></i>Share full text access</a></div><div class="ux-modal-container share-access__modal"><div id="shareAccess" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><p>Share full-text access</p></div><div class="modal__body"><form method="post"><fieldset><legend>Please review our <a href="https://onlinelibrary.wiley.com/termsAndConditions" target="_blank">Terms and Conditions of Use</a> and check box below to share full-text version of article.</legend><div class="input-group"><label for="terms-and-conditions" class="checkbox--primary"><input id="terms-and-conditions" type="checkbox" value="yes" required="" name="terms-and-conditions" data-ajax-link="/action/generateShareUrl?doi=10.1002/spe.686&amp;shareType=P2P&amp;format=FULL-TEXT" data-shareable-link=""/><span class="label-txt">I have read and accept the Wiley Online Library Terms and Conditions of Use</span></label></div></fieldset><hr class="separator"/><div class="shareable"><label>Shareable Link</label><p>Use the link below to share a full-text version of this article with your friends and colleagues. <a href="https://onlinelibrary.wiley.com/researchers/tools-resources/sharing" target="_blank" class="emphasis">Learn more.</a></p><div class="shareable__box"><div class="shareable__text"><div class="shareable__field"><span id="shareable__text"></span></div></div><button type="submit" disabled="" class="btn shareable__btn">Copy URL</button></div><div class="error shareable__error hidden"></div></div></form></div></div></div></div>
+<p>Share a link</p><span class="sr-only">Share on</span><ul class="rlist w-slide--list addthis addthis_toolbox addthis_default_style addthis_32x32_style"><li><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Email"></i>Email</a></li><li><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-facebook"></i>Facebook</a></li><li><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-twitter-t"></i>Twitter</a></li><li><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i>Linked In</a></li><li><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-reddit-alien"></i>Reddit</a></li><li><a role="link" class="addthis_button_wechat"><i aria-hidden="true" class="at-icon-wrapper icon-wechat"></i>Wechat</a></li></ul></div></div>
+</div></div></nav></div><div id="accessDenialslot" class="accessDenialslot"></div><div class="article__body "><div class="abstract-group">
+   <section class="article-section article-section__abstract" lang="en" data-lang="en" id="section-1-en">
+      <h3 class="article-section__header main abstractlang_en main">Abstract</h3>
+      <div class="article-section__content en main">
+         
+         
+         <p>We describe a scheme for implementing dynamic casts suitable for systems where the performance and predictability of performance is essential. A dynamic cast from a base class to a derived class in an object‐oriented language can be performed quickly by having the linker assign an integer type ID to each class. A simple integer arithmetic operation verifies whether the cast is legal at run time. The type ID scheme presented uses the modulo function to check that one class derives from another. A 64‐bit type ID is sufficient to handle class hierarchies of large size at least nine levels of derivation deep. We also discuss the pointer adjustments required for a C++ dynamic_cast. All examples will be drawn from the C++ language. Copyright © 2005 John Wiley & Sons, Ltd.</p>
+         
+      </div>
+   </section>
+</div>
+<div class="pb-dropzone" data-pb-dropzone="below-abstract-group">
+   <!-- Empty dropzone -->
+</div>
+<section id="citedBy" class="article-section article-section__citedBy" data-source="https://onlinelibrary.wiley.com/action/ajaxShowCitedBy?doi=10.1002%2Fspe.686">
+   <div class="accordion article-accordion">
+      <h2>
+         <div tabindex="0" class="accordion__control" role="button" aria-controls="idss15" aria-expanded="false"><span class="section__title" id="citedby-section">Citing Literature</span><i aria-hidden="true" class="icon-section_arrow_d"></i></div>
+      </h2>
+      <div class="accordion__content" role="region" aria-labelledby="citedby-section" id="idss15"></div>
+   </div>
+</section></div></div><div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm hidden-md article-row-right fixed-element"><div class="publication-cover-info clearfix">
+
+
+
+        
+        <div class="cover-image-wrapper cover-image__image hasDetails"><a href="/toc/1097024x/2006/36/2"><img src="/cms/asset/959eb414-0e9a-4319-9af5-10db1d1d5bfa/spe.v50.5.cover.jpg" alt="Publication cover image"/></a></div><div class="extra-info-wrapper cover-image__details"><p class="volume-issue"><a href="/toc/1097024x/2006/36/2"><span>Volume</span><span class="val">36</span>, <span>Issue</span><span class="val">2</span></a></p><p>February 2006</p><p class="page-range"><span>Pages</span><span> 139-156</span></p>
+
+
+
+        
+        
+</div>
+</div>
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <div id="advert-rail-1" class="advert advert-rail">
+			<script>
+
+				googletag.cmd.push 		( function () {
+					googletag.display 	( 'advert-rail-1' );
+				});
+
+			</script>
+
+			<!-- No JavaScript support is a call to an image -->
+			<noscript>
+				<a href="/action/clickThrough?id=1011&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&loc=%2Fdoi%2Fabs%2F10.1002%2Fspe.686&pubId=45749073&placeholderId=1014&productId=101018" target="_blank">
+					<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random">
+				</a>
+			</noscript>
+		</div>
+        </div>
+    
+
+<div class="sticko__parent scrollThenFix"><div class="tab tab--slide tab--flex sticko__md tabs--xs dynamic-sticko  tab--flex tabs--xs"><ul data-mobile-toggle="slide" role="tablist" class="rlist tab__nav w-slide--list"><li role="presentation"><a data-slide-clone="self" href="#pane-pcw-related" aria-controls="#pane-pcw-related" role="tab" data-toggle="tab" id="pane-pcw-relatedcon" data-slide-target="#pane-pcw-related" class="article-row-right__tabLinks w-slide__btn related-tab"><i aria-hidden="true" class="icon-related-circles-extend-button"></i><h2>Related</h2></a></li><li role="presentation"><a data-slide-clone="self" href="#pane-pcw-details" aria-controls="#pane-pcw-details" role="tab" data-toggle="tab" id="pane-pcw-detailscon" data-slide-target="#pane-pcw-details" class="article-row-right__tabLinks w-slide__btn details-tab"><i aria-hidden="true" class="icon-Icon_Information"></i><h2>Information</h2></a></li></ul><ul role="presentation" class="rlist tab__content sticko__child"><li id="pane-pcw-related" aria-labelledby="pane-pcw-relatedcon" role="tabpanel" class="tab__pane article-row-right__panes"></li><li id="pane-pcw-details" aria-labelledby="pane-pcw-detailscon" role="tabpanel" class="tab__pane article-row-right__panes empty"><div class="contentTab"></div><div class="emptyTab">
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <aside>
+	<div id="advert-rail-2" class="advert advert-rail">
+		<script>
+
+			googletag.cmd.push 		( function () {
+				googletag.display 	( 'advert-rail-2' );
+			});
+
+		</script>
+
+		<!-- No JavaScript support is a call to an image -->
+		<noscript>
+			<a href="/action/clickThrough?id=1012&url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&loc=%2Fdoi%2Fabs%2F10.1002%2Fspe.686&pubId=45749073&placeholderId=1013&productId=101018" target="_blank">
+				<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random">
+			</a>
+		</noscript>
+	</div>
+</aside>
+        </div>
+    
+
+</div></li><li class="tab__spinner"><img src="/ux3/widgets/publication-content/images/spinner.gif" id="spinner" style="width: 100%" alt=""/></li></ul></div></div></div></div></article><script>var articleRef = document.querySelector('.article__body:not(.show-references) .article__references');
+if (articleRef) { articleRef.style.display = "none"; }
+
+</script><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a href="#" data-ux3-role="controller" role="button" class="figure-viewer__ctrl__close"><span class="icon-close_thin"><span class="sr-only">Close Figure Viewer</span></span></a></div><div class="figure-viewer__top__left"><a href="#" role="button" class="figure-viewer__ctrl__browse"><span class="icon-allfigures"><span class="sr-only">Browse All Figures</span></span></a><a href="#" role="button" class="figure-viewer__ctrl__return is-hidden"><span class="icon-arrow-left"><span class="sr-only">Return to Figure</span></span></a><button title="zoom out" class="figure-viewer__label__zoom icon-zoom-out zoom-out"></button><span tabindex="1" class="zoomSlider js__zoom-slider ui-slider"><input type="range" class="zoom-range"/></span><button title="zoom in" class="figure-viewer__label__zoom icon-zoom-in zoom-in"></button></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><a href="#" role="button" class="figure-viewer__ctrl__prev"><span class="icon-arrow_l"><span class="sr-only">Previous Figure</span></span></a><a href="#" role="button" class="figure-viewer__ctrl__next"><span class="icon-arrow_r"><span class="sr-only">Next Figure</span></span></a><div class="figure-viewer__hold__fig"><figure class="holder"></figure></div><div class="figure-viewer__hold__list clearfix container"></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__title"><a title="Open/Close Caption" href="#" class="figure-viewer__ctrl__caption"><span class="icon-doublearrow"></span><span class="figure-viewer__caption__label">Caption</span></a><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div>
+</div>
+</div></div></div>
+
+        </section>
+    
+        </div>
+    </div><!--end pagefulltext-->
+</main>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageFooter" data-widget-id="053994f3-7d80-4bb1-97a4-c67fbc4768cd" class="pageFooter">
+        
+
+
+
+        
+        <footer class="page-footer">
+    <div data-pb-dropzone="main">
+    
+
+
+
+        
+        <div class="main-footer">
+
+
+
+        
+        <style>
+    .footer-links {
+        text-align: center;
+    }
+    .footer-links h3 {
+        font-weight: 300;
+    }
+    .footer-links a {
+        font-weight: 600;
+    }
+    @media (min-width: 992px) {
+        .footer-links {
+            text-align: left;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="2753bec1-a79d-4403-827b-6c788ddd6db3" class="footer-sections">
+        
+
+
+
+        
+            <h2 class="sr-only">
+                Additional links
+            </h2>
+        
+        <div class="container"><div class="row"><div class=" col-md-3">
+
+
+
+        
+        <div class="footer-links mb-3">
+  <h3>About Wiley Online Library</h3>
+  <ul class="rlist">
+    <li><a href="https://www.wiley.com/privacy">Privacy Policy</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/terms-and-conditions">Terms of Use</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/cookies">Cookies</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/accessibility">Accessibility</a></li>
+  </ul>
+</div>
+</div><div class=" col-md-3">
+
+
+
+        
+         <div class="footer-links mb-3">
+    <h3>Help & Support</h3>
+    <ul class="rlist">
+      <li><a href="https://hub.wiley.com/community/support/onlinelibrary">Contact Us</a></li>
+    </ul>
+  </div>
+</div><div class=" col-md-3">
+
+
+
+        
+         <div class="footer-links mb-3">
+    <h3>Opportunities</h3>
+    <ul class="rlist">
+      <li><a href="https://onlinelibrary.wiley.com/agents">Subscription Agents</a></li>
+      <li><a href="https://onlinelibrary.wiley.com/advertisers">Advertisers & Corporate Partners</a></li>
+    </ul>
+  </div>
+</div><div class=" col-md-3">
+
+
+
+        
+        <div class="footer-links mb-3">
+    <h3>Connect with Wiley</h3>
+    <ul class="rlist">
+      <li><a href="https://hub.wiley.com/community/exchanges/">The Wiley Network</a></li>
+      <li><a href="http://newsroom.wiley.com/">Wiley Press Room</a></li>
+    </ul>
+  </div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="86584e25-e4db-4118-9550-9b4f5341a4ac" class="copyright-container">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class=" col-md-12">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="bfbf6c5d-a650-4662-828f-5275fada9120" class="copyright">
+        
+
+
+
+        
+        <div class="copyright pull-left">Copyright &copy; 1999-2020 <a href="http://www.wiley.com">John Wiley &amp; Sons, Inc</a>. All rights reserved</div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="footer-logo pull-right">
+        
+<a href="http://www.wiley.com" title="Wiley Home Page" aria-label="Wiley"><img alt="Wiley Home Page" src="/pb-assets/tmp-images/footer-logo-wiley-1510029248417.png"></a>
+
+</div>
+</div></div></div>
+
+        </div>
+    
+</div>
+    </div>
+</footer>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- [Tag{id&#x3D;103397, code&#x3D;softw-pract-experience_spe, name&#x3D;softw-pract-experience_SPE}, Tag{id&#x3D;432, code&#x3D;cs20, name&#x3D;Computer Science - General Interest}, Tag{id&#x3D;418, code&#x3D;csj0, name&#x3D;Software Engineering}, Tag{id&#x3D;68, code&#x3D;cs, name&#x3D;COMPUTER SCIENCE}, Tag{id&#x3D;424, code&#x3D;cs00, name&#x3D;General &amp; Introductory Computer Science}, Tag{id&#x3D;425, code&#x3D;cs30, name&#x3D;Information Technologies}, Tag{id&#x3D;426, code&#x3D;cs70, name&#x3D;Web Site Development}, Tag{id&#x3D;427, code&#x3D;cs60, name&#x3D;Object Technologies}, Tag{id&#x3D;429, code&#x3D;cs50, name&#x3D;Programming &amp; Software Development}, Tag{id&#x3D;101730, code&#x3D;wly.compu.sci_000038, name&#x3D;wly.compu.sci_000038}] -->                      <div id="iucr-failure"> <p><i class="icon-notice"></i>The full text of this article hosted at iucr.org is unavailable due to technical difficulties.<a href="#" class="close-iucr-failure"><i class="icon-x"></i></a> </p> </div> 
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="popup login-popup hidden" role="dialog" tabindex="-1" aria-labelledby="loginPopupHead">
+
+
+
+    <div class="content">
+        <a href="#" class="close" role="button" aria-label="Cancel Login"><i class="icon-tools_close"></i></a>
+        <div class="modal__header">
+            <div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+        </div>
+
+        <div class="modal__body">
+            <div class="ssoLogin">
+                
+            </div>
+
+            <h2 id="loginPopupHead">Log in to Wiley Online Library</h2>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="login-form">
+    
+
+    
+
+    
+    <form action="/action/doLogin?societyURLCode=" class="bordered" method="post"><input type="hidden" name="id" value="67065c09-4a88-49cd-934c-ac707951d35c" />
+        
+            <input type="hidden" name="popup" value="true" />
+        
+        
+
+        
+        <input type="hidden" name="loginUri" value="/doi/abs/10.1002/spe.686" />
+        
+            
+
+
+
+
+<input type="hidden" name="redirectUri" value="/doi/abs/10.1002/spe.686" />
+<input type="hidden" name="loginUri" value="/doi/abs/10.1002/spe.686" />
+            
+        
+        
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    <div class="input-group">
+        <div class="label">
+
+            
+                    <label for="username">Email or Customer ID</label>
+                
+        </div>
+        
+        
+                <input id="username" class="login" type="text" name="login" value="" size="15" placeholder="Enter your email"autocorrect="off"spellcheck="false"autocapitalize="off"required="true" />
+            
+        
+                    
+                        <div class="actions">
+                            
+                        </div>
+                    
+                
+    </div>
+
+
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="input-group">
+        <div class="label">
+            <label for="password">Password</label>
+        </div>
+        
+        
+                <input id="password" class="password" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password"autocorrect="off"spellcheck="false"autocapitalize="off"required="true" />
+            
+        <span class="password-eye-icon icon-eye hidden"></span>
+        
+                
+    </div>
+
+                
+                    
+                        <div class="actions">
+                            
+                            <a href="/action/requestResetPassword" class="link show-request-reset-password">
+                                Forgot password?
+                            </a>
+                        </div>
+                    
+                
+            
+        
+        <div class="loginExtraBeans-dropZone" data-pb-dropzone="loginExtraBeans">
+            
+        </div>
+
+        
+                <div class="align-end">
+                    
+                    
+                            
+                            <span class="submit ">
+                                <input class="button btn submit primary no-margin-bottom accessSubmit" type="submit" name="submitButton" value="Log In" />
+                            </span>
+                        
+                </div></form>
+    <div class="societySpecificInstructions">
+        
+    </div>
+</div>
+
+            
+                <div class="login-container clearfix form-btn">
+                    <a href="/action/registration" class="linkBtn float-left">
+                        
+                        NEW USER <span aria-hidden="true">></span>
+                    </a>
+                    
+                        <a href="/action/ssostart?redirectUri=%2Fdoi%2Fabs%2F10.1002%2Fspe.686" class="linkBtn float-right instituation-login">
+                            
+                            INSTITUTIONAL LOGIN <span aria-hidden="true">></span>
+                        </a>
+                    
+                </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        
+
+
+
+
+
+
+<div class="popup change-password-drawer hidden" role="dialog" tabindex="-1" aria-labelledby="changePasswordPopupHead">
+    <div class="content">
+        <a href="#" class="close cancel" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+        <div class="modal__header">
+            <div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+
+            <h2 id="changePasswordPopupHead">Change Password</h2>
+        </div>
+        <div class="modal__body">
+
+            <div class="form">
+
+                <form action="/action/changePassword" method="post"><div class="message error"></div>
+                    <input type="hidden" name="submit" value="submit" />
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="a589574e-bb98-4c6e-8fed-67365ff05357-old">Old Password</label>
+                        </div>
+                        <input id="a589574e-bb98-4c6e-8fed-67365ff05357-old" class="old" type="password" name="old" value="" autocomplete="off" />
+                        <span class="password-eye-icon icon-eye hidden"></span>
+                    </div>
+                    <div class="input-group">
+                        <div class="label">
+                            <label for="a589574e-bb98-4c6e-8fed-67365ff05357-new">New Password</label>
+                        </div>
+                        <input id="a589574e-bb98-4c6e-8fed-67365ff05357-new" class="pass-hint new" type="password" name="new" value="" autocomplete="off" />
+                        <span class="password-eye-icon icon-eye hidden"></span>
+                        
+                            
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+<div class="password-strength-indicator" data-min="10" data-max="32" data-strength="3">
+    <span class="text too-short">Too Short</span>
+    <span class="text weak">Weak</span>
+    <span class="text medium">Medium</span>
+    <span class="text strong">Strong</span>
+    <span class="text very-strong">Very Strong</span>
+    <span class="text too-long">Too Long</span>
+</div>
+                        
+                    </div>
+                    <input class="button primary submit" type="submit" value="Submit" disabled="disabled" /></form>
+                <a href="#" class="fakeFormLastElement"></a>
+            </div>
+            <div class="success-template hidden">
+                <h2>Password Changed Successfully</h2>
+                <p>Your password has been changed</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        
+        
+
+
+
+
+
+<div class="popup registration-popup hidden"  role="dialog" tabindex="-1" aria-labelledby="createAccountPopupHead">
+
+
+
+    <div class="content">
+        <a href="#" class="close" role="button" aria-label="close dialog"><i class="icon-tools_close"></i></a>
+        <div class="modal__header">
+            <div class="logoDropZone" data-pb-dropzone="logoDropZone">
+                
+            </div>
+
+            <h2 id="createAccountPopupHead">Create a new account</h2>
+        </div>
+
+        <div class="modal__body">
+            <form action="/action/registration" class="registration-form" method="post"><input type="hidden" name="redirectUri" value="/doi/abs/10.1002/spe.686" />
+                <div class="input-group">
+                    <div class="label">
+                        <label for="4e647394-f751-4441-baa4-df426bca4b6e.email">Email or Customer ID</label>
+                    </div>
+                    <input id="4e647394-f751-4441-baa4-df426bca4b6e.email" class="email" type="text" name="email" value="" size="15" />
+                </div>
+                <div class="submit">
+                    <input class="button submit primary" type="submit" value="Register" />
+                </div></form>
+            <div class="center">
+                <a href="/action/showLogin" class="show-login">
+                    
+                    Returning user
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        
+
+
+
+<div class="popup top-drawer request-reset-password-drawer hidden" role="dialog" tabindex="-1" aria-labelledby="resetPasswordPopupHead">
+    <div class="content">
+        <div class="modal__header">
+            <a href="#" class="cancel close" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+
+            <div class="header_logo">
+    <img src="/pb-assets/hub-assets/pericles/logo-header-1526603583437.png" alt="">
+</div>
+
+            <h2 id="resetPasswordPopupHead">Forgot your password?</h2>
+
+            <p class="sub">Enter your email address below. </p>
+
+        </div>
+
+        <div class="modal__body">
+
+            
+
+
+
+
+
+
+
+
+
+<div class="error"></div>
+
+
+<form action="/action/requestResetPassword" class="request-reset-password-form" method="post"><input type="hidden" name="requestResetPassword" value="true" />
+    
+            <div class="input-group">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    <div class="input-group">
+        <div class="label">
+
+            
+                    <label for="email">Email or Customer ID</label>
+                
+        </div>
+        
+        
+                <input id="email" class="email" type="email" name="email" value="" placeholder="Enter your email"autocorrect="off"spellcheck="false"autocapitalize="off" />
+            
+        
+    </div>
+
+            </div>
+        
+
+
+    
+            <div class="password-recaptcha-ajax"></div>
+        
+
+    <div class="form-btn">
+        <input class="button btn primary submit" type="submit" name="submit" value="RESET PASSWORD" disabled="disabled" />
+    </div></form>
+            
+
+            <div class="message error"></div>
+
+            <div class="success-template hidden">
+
+                <p>Please check your email for instructions on resetting your password.
+                    If you do not receive an email within 10 minutes, your email address may not be registered,
+                    and you may need to create a new Wiley Online Library account.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        
+        <div><div class="pb-dropzone" data-pb-dropzone="col-0" title="col-0"></div></div>
+
+
+
+
+        
+        
+
+
+
+
+<div class="popup top-drawer request-username-drawer username-popup hidden"  role="dialog" tabindex="-1" aria-labelledby="requestUsernamePopupHead">
+    <a href="#" class="close" role="button" aria-label="close dialog"><i class="icon-close_thin"></i></a>
+    <div class="content">
+        <h2 id="requestUsernamePopupHead">Request Username</h2>
+        <div class="form">
+            <p>Can't sign in? Forgot your username?</p>
+            <p class="sub">Enter your email address below and we will send you your username</p>
+            <div class="message error"></div>
+            <form action="/action/requestUsername" method="post"><input type="hidden" name="requestUsername" value="requestUsername" />
+                <div class="input-group">
+                    <div class="label">
+                        <label for="ac834f24-aa07-4ad2-9d13-f77c843f21cb.email">Email or Customer ID</label>
+                    </div>
+                    <input id="ac834f24-aa07-4ad2-9d13-f77c843f21cb.email" class="email" type="text" name="email" value="" size="15" />
+                </div>
+
+                <div class="username-recaptcha-ajax">
+                </div>
+
+                <input class="button primary submit" type="submit" name="submit" value="Submit" disabled="disabled" />
+                <div class="center">
+                    <a href="#" class="cancel">Close</a>
+                </div></form>
+        </div>
+        <div class="success-template hidden note">
+            <p>If the address matches an existing account you will receive an email with instructions to retrieve your username</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        <!-- Belongs at the bottom of the page -->
+
+<script type="text/javascript">
+if(window._satellite) { 
+_satellite.pageBottom(); 
+}
+</script>
+        </div>
+    </div>
+<script src="/products/pericles/releasedAssets/js/build.lazyload.bundle-9cebc5d839efeb2579a4.js"></script><script src="/products/pericles/releasedAssets/js/main.bundle-06665ccc3afaeabd1315.js"></script>
+<script type="text/javascript" src="/wro/iqr2~product.js"></script>
+<script>var _prum=[['id','59e8fecb3847311aab7b23c6'],['mark','firstbyte',(new Date()).getTime()]];(function(){var s=document.getElementsByTagName('script')[0],p=document.createElement('script');p.async='async';p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>

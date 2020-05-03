@@ -1,0 +1,1729 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="This book constitutes the refereed proceedings of the 7th International Conference on Mathematical Aspects of Computer and Information Sciences, MACIS 2017, held in Vienna, Austria, in November 2017. "/>
+
+        <title>Mathematical Aspects of Computer and Information Sciences | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/book/10.1007/978-3-319-72453-9"/>
+        <link rel="shortcut icon" href="/springerlink-static/409335052/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/409335052/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/409335052/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/409335052/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/409335052/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/409335052/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/409335052/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/409335052/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/409335052/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/409335052/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/409335052/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/409335052/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/409335052/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/409335052/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/409335052/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/409335052/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/409335052/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Conference Proceedings",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/978-3-319-72453-9",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-978-3-319-72453-9",
+                'hasAccess':"N",
+                'Full HTML':"N",
+                'Has Body':"N",
+                'Static Hash':"409335052",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},
+                'content':{"serial":{"eissn":"1611-3349","pissn":"0302-9743"},"book":{"seriesTitle":"Lecture Notes in Computer Science","eisbn":"978-3-319-72453-9","pisbn":"978-3-319-72452-2","bookProductType":"Proceedings","seriesId":"558","title":"Mathematical Aspects of Computer and Information Sciences","doi":"10.1007/978-3-319-72453-9"},"attributes":{"deliveryPlatform":"bunsen"},"category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"4":"Artificial Intelligence","5":"Mathematical Logic and Formal Languages","6":"Special Purpose and Application-Based Systems","1":"Mathematics of Computing","2":"Software Engineering","3":"Systems and Data Security"},"secondarySubjectCodes":{"4":"I21000","5":"I16048","6":"I13030","1":"I17001","2":"I14029","3":"I28060"}},"sucode":"SUCO11645"},"type":"ConferenceProceedings"},
+                'Access Type':"noaccess",
+                'Page':"book",
+                'Bpids':"",
+                'Bpnames':"",
+                'SubjectCodes':"SCI, SCI17001, SCI14029, SCI28060, SCI21000, SCI16048, SCI13030",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"artificial intelligence, cryptography, data mining, data security, eigenvalues and eigenfunctions, formal logic, matrix algebra, numerical methods, probability, problem solving, project management, regular expressions, robots, satisfiability, semantics, set theory, software engineering, stream ciphers, surveillance systems, theorem proving",
+                'Country':"IT",
+                'ConferenceSeriesId':"icmacis",
+
+                    'doi': "10.1007-978-3-319-72453-9",
+                    'kwrd': ["artificial_intelligence","cryptography","data_mining","data_security","eigenvalues_and_eigenfunctions","formal_logic","matrix_algebra","numerical_methods","probability","problem_solving","project_management","regular_expressions","robots","satisfiability","semantics","set_theory","software_engineering","stream_ciphers","surveillance_systems","theorem_proving"],
+                    'pmc': ["I","I17001","I14029","I28060","I21000","I16048","I13030"],
+                    'BPID': ["1"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/409335052/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a href="#toc" class="skip-to__link skip-to__link--contents pseudo-focus">Skip to table of contents</a>
+</div>
+        <div class="page-wrapper page-wrapper--book">
+                        <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+            <picture>
+    <source type="image/svg+xml" srcset="/springerlink-static/409335052/images/svg/springerlink.svg">
+    <img class="site-logo__springer" src="/springerlink-static/409335052/images/png/springerlink.png" alt="SpringerLink" width="148" height="30" data-test="springer-logo">
+</picture>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%252F978-3-319-72453-9">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+
+            <main id="main-content" tabindex="-1">
+                <article class="main-wrapper main-wrapper--no-gradient main-wrapper--dual-main">
+                    <div class="main-container">
+                        <aside class="main-sidebar-left u-three-col-pl-0">
+                            <div class="main-sidebar-left__content">
+                                <div class="cover-image">
+                                    <div class="cover-image--book test-cover" itemscope>
+                                        
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-319-72453-9" itemprop="image" alt=""/>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <div class="main-body u-mb-36 u-pb-0 main-body--no-background" data-role="NavigationContainer">
+                            <div class="main-body__content">
+
+                                <div class="main-context main-context--buybox">
+                                    <div class="evaluation-section">
+                                        <div class="evaluation-section__text-col">
+                                            <div id="enumeration" class="enumeration">    <div>
+        <a data-test="ConfSeriesLink" href="/conference/icmacis">
+                <span data-test="ConferenceAcronym">MACIS:</span>
+            <span data-test="ConfSeriesName"> International Conference on Mathematical Aspects of Computer and Information Sciences</span>
+        </a>
+    </div>
+</div>
+
+                                            <div data-test="book-title" class="page-title">
+                                                <h1>Mathematical Aspects of Computer and Information Sciences</h1>
+                                                    <h2 class="page-title__subtitle">7th International Conference, MACIS 2017, Vienna, Austria, November 15-17, 2017, Proceedings</h2>
+                                            </div>
+
+                                            
+                                                <div id="editors" class="persons u-clearfix" data-component="SV.Persons">
+        <ul class="u-inline-list persons__title">
+            <li>
+                <span class="u-strong">Editors</span>
+            </li>
+            <li>
+                <a href="#editorsandaffiliations">(view affiliations)</a>
+            </li>
+        </ul>
+        <div class="persons__list" data-role="PersonsList">
+            <ul xmlns="http://www.w3.org/1999/xhtml" class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Johannes Blömer</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Ilias S. Kotsireas</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Temur Kutsia</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Dimitris E. Simos</span></li></ul>
+        </div>
+    </div>
+
+                                        </div>
+
+                                        <div class="evaluation-section__image-col">
+                                            <div class="cover-image">
+                                                <div class="cover-image--book test-cover" itemscope>
+                                                    
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-319-72453-9" itemprop="image" alt=""/>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="evaluation-section__text-col">
+                                        <div class="main-context__container main-context__container--duel main-context__container--with-metrics" data-component="SpringerLink.ArticleMetrics">
+                                            <div class="main-context__column">
+                                                <span>
+                                                    
+                                                        <span class="test-content-type" id="content-type">Conference proceedings</span>
+                                                </span>
+
+                                                    <strong class="conference-acronym" data-test="ConferenceAcronymAndYear">MACIS 2017</strong>
+                                            </div>
+
+                                                <div class="main-context__column main-context__column--books-metrics">
+                                                        <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-bookcitations-count" href="https://citations.springer.com/book?doi&#x3D;10.1007/978-3-319-72453-9" target="_blank" rel="noopener"
+                       title="Visit Springer Citations for full citation details" id="bookcitations-link">
+                            <span id="bookcitations-count-number" class="test-metric-count c-button-circle gtm-bookcitations-count">16</span>
+                       <span class="test-metric-name article-metrics__label gtm-bookcitations-count">Citations</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-bookmentions-count" href="http://www.altmetric.com/details.php?citation_id&#x3D;35974915" target="_blank" rel="noopener"
+                       title="Visit Altmetric for full social mention details" id="bookmentions-link">
+                            <span id="bookmentions-count-number" class="test-metric-count c-button-circle gtm-bookmentions-count">10</span>
+                       <span class="test-metric-name article-metrics__label gtm-bookmentions-count">Mentions</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                     <span class="test-metric-count article-metrics__views">12k</span>
+                     <span class="test-metric-name article-metrics__label">Downloads</span>
+            </li>
+    </ul>
+
+                                                </div>
+                                        </div>
+                                     </div>
+                                            <div class="vol-info u-interface">
+        <p data-test="test-series">
+            Part of the
+            <a href="/bookseries/558">Lecture Notes in Computer Science</a>
+            book series
+              <span class="test-AbbreviationVolumeNumber">(LNCS, volume 10693)</span>
+
+        </p>
+
+            <p data-test="test-subseries">
+                Also part of the
+                <a href="http://springer.com/series/7407">Theoretical Computer Science and General Issues</a>
+                book sub series
+                  <span class="test-AbbreviationVolumeNumber">(LNTCS, volume 10693)</span>
+
+            </p>
+    </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <aside class="main-sidebar-right u-pb-36 u-two-col-pb-0  u-interface">
+                            <div class="main-sidebar-right__content u-composite-layer">
+                                <div id="article-actions" class="article-actions">
+                                        <div id="buy">
+                                            
+<style type="text/css">
+    .buybox {
+        margin: 16px 0 0;
+        position: relative;
+    }
+    .buybox {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+    .buybox {
+        zoom: 1;
+    }
+    .buybox:after,
+    .buybox:before {
+        content: '';
+        display: table;
+    }
+    .buybox:after {
+        clear: both;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__header {
+        border: 1px solid #b3b3b3;
+        border-bottom: 0;
+        padding: 8px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+    .buybox__header .buybox__login {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+        letter-spacing: .017em;
+        display: inline-block;
+        line-height: 1.2;
+        padding: 0;
+    }
+    .buybox__header .buybox__login:before {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: perspective(1px) translateY(-50%);
+        transform: perspective(1px) translateY(-50%);
+        content: '\A';
+        width: 34px;
+        height: 34px;
+        left: 10px;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__body {
+        padding: 0;
+        padding-bottom: 16px;
+        position: relative;
+        text-align: center;
+        background-color: #fcfcfc;
+        border: 1px solid #b3b3b3;
+    }
+    /******/
+    .buybox__body .buybox__section {
+        padding: 16px 12px 0 12px;
+        text-align: left;
+    }
+    .buybox__section .buybox__buttons {
+        text-align: center;
+        width: 100%;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__body {
+        background-color: transparent;
+    }
+    .buybox.mycopy__buybox .buybox__section .buybox__buttons {
+        border-top: 0;
+        padding-top: 0;
+    }
+    /******/
+    .buybox__section:nth-child(2) .buybox__buttons {
+        border-top: 1px solid #b3b3b3;
+        padding-top: 20px;
+    }
+    .buybox__buttons .buybox__buy-button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        max-width: 180px
+    }
+    .buybox__buttons .buybox__price {
+        white-space: nowrap;
+        text-align: center;
+        font-size: larger;
+        padding-top: 6px;
+    }
+    .buybox__section .buybox__meta {
+        letter-spacing: 0;
+        padding-top: 12px;
+    }
+    .buybox__section .buybox__meta:only-of-type {
+        padding-top: 0;
+        position: relative;
+        bottom: 6px;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__section .buybox__meta {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /******/
+    .buybox__meta .buybox__product-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .buybox__meta .buybox__list {
+        line-height: 1.3;
+    }
+    .buybox__meta .buybox__list li {
+        position: relative;
+        padding-left: 1em;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .buybox__meta .buybox__list li:before {
+        font-size: 1em;
+        content: '\2022';
+        float: left;
+        position: relative;
+        top: .1em;
+        font-family: serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: inherit;
+        color: #666;
+        width: auto;
+        margin-left: -1em;
+    }
+    .buybox__meta .buybox__list li:last-child {
+        margin-bottom: 0;
+    }
+    /********** chapter buybox specific **********/
+    .buybox.chapter__buybox .buybox__section .buybox__meta {
+        border-top: 1px solid #d3d3d3;
+        padding-top: 12px;
+    }
+    .buybox.chapter__buybox .buybox__section .buybox__buy-ebook {
+        margin-bottom: 12px;
+    }
+    /******/
+    /*---------------------------------*/
+    .buybox .buybox__footer {
+        border: 1px solid #b3b3b3;
+        border-top: 0;
+        padding: 8px;
+        position: relative;
+        border-style: dashed;
+        line-height: 1.3;
+    }
+    .buybox .deepdyve {
+        display: none;
+        text-align: left;
+        margin: 8px 12px 0 12px;
+        padding-top: 5px;
+        border-top: 1px solid #d3d3d3;
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (min-width: 460px) and (max-width: 1074px) {
+        .buybox__body .buybox__section {
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px 12px;
+            padding-bottom: 0;
+            text-align: left;
+            width: 48%;
+        }
+        .buybox__body .buybox__section {
+            padding-top: 16px;
+            padding-left: 0;
+        }
+        .buybox__section:nth-of-type(2) .buybox__meta {
+            border-left: 1px solid #d3d3d3;
+            padding-left: 28px;
+        }
+        .buybox__section:nth-of-type(2) .buybox__buttons {
+            border-top: 0;
+            padding-top: 0;
+            padding-left: 16px ;
+        }
+        .buybox__buttons .buybox__buy-button {
+        }
+        /********** article buybox specific **********/
+        .buybox.article__buybox .buybox__section:nth-of-type(2) {
+            margin-top: 16px;
+            padding-top: 0;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta {
+            margin-top: 40px;
+            padding-top: 0;
+            padding-bottom: 45px;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta:only-of-type {
+            margin-top: 8px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__section:first-child {
+            width: 69%;
+            padding-left: 12px ;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            width: 29%;
+        }
+        /********** chapter buybox specific **********/
+        .buybox.chapter__buybox .buybox__body {
+            display: flex;
+            align-items: stretch;
+            padding-left: 12px;
+            padding-top: 12px;
+        }
+        .buybox.chapter__buybox .buybox__section .buybox__meta {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            border-top: 0;
+            padding-top: 0;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (max-width: 459px) {
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__body {
+            padding-bottom: 5px;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            text-align: center;
+            width: 100%;
+        }
+        .buybox.mycopy__buybox .buybox__buttons {
+            display: inline-block;
+            width: 150px ;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+</style>
+
+<div class="buybox book__buybox" data-webtrekkTrackId="196033507532344" data-webtrekkContentId="SL-book">
+    <div class="buybox__header">
+        <span class="buybox__login">Log in to check access</span>
+    </div>
+    <div class="buybox__body">
+        <div class="buybox__section">
+            <div class="buybox__buttons">
+
+                    <form id="ebook_cart__new" style="display: none" class="buybox__form buybox__ebook" action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_bookPage_ebook" method="POST">
+                        <input type="hidden" name="type" value="ebook">
+                        <input type="hidden" name="doi" value="10.1007/978-3-319-72453-9">
+                        <input type="hidden" name="isxn" value="978-3-319-72453-9">
+                        <input type="hidden" name="contenttitle" value="Mathematical Aspects of Computer and Information Sciences">
+                        <button
+                            data-product-id="978-3-319-72453-9_Mathematical Aspects of Computer a"
+                            data-tracking-category="ebook"
+                            data-eCommerceParam_11="book-page"
+                            type="submit"
+                            class="buybox__buy-button c-button c-button--blue"
+                            data-gtm="buybox__buy-button">
+                                <span data-test-id="test-buy-book" class="buybox__buy" data-gtm="buybox__buy-button">Buy eBook</span>
+                        </button>
+                        <div data-test-id="test-book-price" class="buybox__price" data-gtm="buybox__buy-button">
+                            EUR&nbsp;53.49
+                        </div>
+                    </form>
+
+                <div id="ebook_cart__old">
+                    <a
+                        data-product-id="978-3-319-72453-9_Mathematical Aspects of Computer a"
+                        data-tracking-category="ebook"
+                        data-eCommerceParam_11="book-page"
+                        href="https://checkout.springer.com/checkout/add?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_bookPage_ebook&isbn=978-3-319-72453-9"
+                        class="buybox__buy-button c-button c-button--blue"
+                        data-gtm="buybox__buy-button-ebook">
+                            <span class="buybox__buy" data-gtm="buybox__buy-button">Buy eBook</span>
+                    </a>
+                    <div data-test-id="book-price" class="buybox__price" data-gtm="buybox__buy-button">
+                        EUR&nbsp;53.49
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buybox__section">
+            <div class="buybox__meta">
+                <ul class="buybox__list">
+                    <li>Instant download</li>
+                    <li>Readable on all devices</li>
+                    <li>Own it forever</li>
+                    <li>Local sales tax included if applicable</li>
+                </ul>
+            </div>
+        </div>
+        
+                <div id="buybox__section__physical-book" class="buybox__section" style="margin-top: 16px; border-top: 1px dashed #b3b3b3;">
+                    <a class="buybox__buy-button c-button" href=https://www.springer.com/9783319724522?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_bookPage_print#otherversion=9783319724522 style="white-space: nowrap;">
+                        Buy Physical Book
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" style="margin-left: 4px; margin-right: 0; transform: translateY(-1px);">
+                            <path d="M4 0v1.3H2.7c-.7 0-1.3.6-1.3 1.3v10.7c0 .7.6 1.3 1.3 1.3h10.7c.7 0 1.3-.6 1.3-1.3V12H16v1.3c0 1.5-1.2 2.7-2.7 2.7H2.7C1.2 16 0 14.8 0 13.3V2.7C0 1.2 1.2 0 2.7 0H4zm11.3 0c.4 0 .7.3.7.7v6.2c0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7V2.2L8.9 8c-.2.3-.7.3-.9 0-.3-.2-.3-.7 0-.9l5.8-5.8H9.1c-.4 0-.7-.3-.7-.6 0-.4.3-.7.7-.7h6.2z" fill="#666"/>
+                        </svg>
+                    </a>
+                </div>
+            
+    </div>
+    <div class="buybox__footer">
+    <a class="js-buybox__inst-sub-link" data-gtm="buybox__inst-sub-link" href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&utm_medium=referral&utm_campaign=sl-buybox_bookPage_institutionalCustomers">
+        Learn about institutional subscriptions</a>
+</div>
+
+    
+
+    <script>
+            (function() {
+                try {
+                    var featureFlag = (new URL(document.URL)).searchParams.get("feature--new-ebook-checkout")
+                    if (featureFlag === "") {
+                        document.querySelector("#ebook_cart__old").style.display = "none"
+                        document.querySelector("#ebook_cart__new").style.display = "block"
+                    }
+                } catch {}
+            })()
+    </script>
+
+</div>
+
+<script>
+(function () {
+    var forEach = function (array, callback, scope) {
+        for (var i = 0; i < array.length; i++) {
+            callback.call(scope, i, array[i]);
+        }
+    };
+
+    var trackDomain = 'springergmbh01.webtrekk.net';
+    var domain = 'link.springer.com';
+    var loadEventSent = false;
+
+    var buyboxRoot = document.getElementsByClassName('buybox')[0];
+    var webtrekkTrackId = buyboxRoot.getAttribute('data-webtrekkTrackId');
+    var webtrekkContentId = buyboxRoot.getAttribute('data-webtrekkContentId');
+
+    function LinkTrack(webtrekkTrackId) {
+        if (!webtrekkTrackId) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: 'springer_com.buybox',
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function Track(product, webtrekkTrackId, eCommerceParam_11, action) {
+        if (!product) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: webtrekkContentId,
+            product: product.id,
+            productStatus: action,
+            productCategory: {
+                1: product.trackingCategory
+            },
+            customEcommerceParameter: {
+                9: domain,
+                11: eCommerceParam_11
+            },
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function track(trackingConfig) {
+        return function(payload) {
+            if (!trackingConfig) return
+            if (payload) {
+                trackingConfig.sendinfo(payload)
+            } else {
+                trackingConfig.sendinfo()
+            }
+            return true
+        }
+    }
+
+    function trackAddToCart(trackingConfig) {
+        return track(trackingConfig)()
+    }
+
+    function trackOnLoad(trackingConfig) {
+        if (loadEventSent) return;
+        loadEventSent = true;
+        return track(trackingConfig)()
+    }
+
+    function trackSubscription(trackingConfig) {
+        return track(trackingConfig)({linkId: 'inst. subscription info'})
+    }
+
+    function trackDeepDyve(trackingConfig) {
+        return track(trackingConfig)({linkId: 'Rent Article'})
+    }
+
+    function getBusinessPartnerIds() {
+        var businessPartnerIDs = [];
+        try {
+            var ids = window.dataLayer[0]["user"]["license"]["businessPartnerID"];
+            if(ids && ids.length) businessPartnerIDs = ids;
+        } catch(e) {}
+        return businessPartnerIDs.join(";");
+    }
+
+    var bindClickLinkHandle = function (link) {
+        if (!link) return;
+
+        link.addEventListener('click', function (event) {
+            trackSubscription(LinkTrack(webtrekkTrackId));
+        });
+    };
+
+    var bindLoadButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        window.addEventListener('load', function (event) {
+            trackOnLoad(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'view'));
+        });
+    };
+
+    var bindClickButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        button.addEventListener('click', function (event) {
+            trackAddToCart(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'add'));
+        });
+    };
+
+    var buyButtons = document.getElementsByClassName('buybox__buy-button');
+    forEach(buyButtons, function (index, button) {
+        bindLoadButtonHandle(button);
+        bindClickButtonHandle(button);
+    });
+
+    var sublinks = document.getElementsByClassName('js-buybox__inst-sub-link');
+    forEach(sublinks, function (index, link) {
+        bindClickLinkHandle(link);
+    });
+
+    var bindDeepDyveClickHandle = function (link) {
+        if (!link) return
+
+        link.addEventListener('click', function (event) {
+            trackDeepDyve(LinkTrack(webtrekkTrackId))
+        })
+    }
+
+    var deepDyveLink = document.getElementById('deepdyve-link')
+    bindDeepDyveClickHandle(deepDyveLink)
+})();
+</script>
+
+                                        </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </article>
+
+                <article class="main-wrapper main-wrapper--no-gradient">
+                    <div class="main-container">
+                        <aside class="main-sidebar-left" aria-hidden="true">
+                            <div class="main-sidebar-left__content">
+                            </div>
+                        </aside>
+
+                        <div class="main-body main-body u-pb-70 u-pt-0" data-role="NavigationContainer">
+                            <div class="main-body__content">
+                                <div id="tabs" class="c-tabs c-tabs--off" data-component="SV.Tabs">
+                                    <ul class="c-tabs__list">
+                                        <li class="c-tabs__list-item">
+                                            <a href="#toc" class="c-tabs__list-link" data-test="toc-link"
+                                               title="Table of contents (36 papers)">
+                                                <span class="u-hide-small" aria-hidden="true">Papers</span>
+                                                <span class="u-hide u-show-small">Table of contents <span class="c-tabs__deemphasize" data-test="no-of-chapters">(36 papers)</span></span>
+                                            </a>
+                                        </li>
+
+                                        <li class="c-tabs__list-item">
+                                            <a href="#about" class="c-tabs__list-link" title="About these proceedings">
+                                                <span class="u-hide-small" aria-hidden="true">About</span>
+                                                <span class="u-hide u-show-small">About these proceedings</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="c-tabs__content">
+                                        <div id="toc" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                            <h2 class="section__heading">Table of contents </h2>
+                                            <div class="c-tabs__block c-tabs__block--content-type-list">
+
+                                                    <div class="interface-bar">
+                                                        <form class="u-form-single-input-right" action="/search" method="get" role="search">
+    <input type="hidden" name="facet-conf-event-id" value="icmacis2017"/>
+    <input type="hidden" name="facet-content-type" value="Chapter"/>
+    <label for="springerlink-event-search" class="u-pr-8">Search within event</label>
+    <div class="u-relative">
+        <input id="springerlink-event-search" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit"
+               title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1"
+             xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z"
+                  stroke="none" fill-rule="evenodd"/>
+        </svg>
+   </div>
+</form>
+
+                                                    </div>
+
+
+                                                <div class="book-toc-container" id="booktoc">
+                                                    <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages I-XI</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-319-72453-9%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="part-item">
+                <h3 class="content-type-list__subheading">Foundation of Algorithms in Mathematics, Engineering and Scientific Computation</h3>
+                <div class="content-type-list__subcontainer">
+                    <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 1-1</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-319-72453-9%2F1%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_1">Automated Reasoning for Knot Semigroups and <span xmlns="http://www.w3.org/1999/xhtml" class="InlineEquation" id="IEq1">\(\pi \)</span>-orbifold Groups of Knots</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Alexei Lisitsa, Alexei Vernitski</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 3-18</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_2">Balancing Expression Dags for More Efficient Lazy Adaptive Evaluation</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Martin Wilhelm</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 19-33</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_3">Certification Using Newton-Invariant Subspaces</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Jonathan D. Hauenstein</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 34-50</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_4">Decomposition of Low Rank Multi-symmetric Tensor</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Jouhayna Harmouch, Bernard Mourrain, Houssam Khalil</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 51-66</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_5">Dimension Quasi-polynomials of Inversive Difference Field Extensions with Weighted Translations</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Alexander Levin</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 67-80</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_6">Efficient Certification of Numeric Solutions to Eigenproblems</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Joris van der Hoeven, Bernard Mourrain</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 81-94</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_7">Fast Chinese Remaindering in Practice</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Joris van der Hoeven</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 95-106</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_8">Homotopies for Connected Components of Algebraic Sets with Application to Computing Critical Sets</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Daniel J. Bates, Dani A. Brake, Jonathan D. Hauenstein, Andrew J. Sommese, Charles W. Wampler</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 107-120</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_9">Implementing Fast Carryless Multiplication</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Joris van der Hoeven, Robin Larrieu, Grégoire Lecerf</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 121-136</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_10">Improving Enclosure of Interval Scalar Projection Operation</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Tomasz Dobrowolski</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 137-146</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_11">Integrating Algebraic and SAT Solvers</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Jan Horáček, Jan Burchard, Bernd Becker, Martin Kreuzer</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 147-162</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_12">Isabelle Formalization of Set Theoretic Structures and Set Comprehensions</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Cezary Kaliszyk, Karol Pąk</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 163-178</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_13">Jordan Canonical Form with Parameters from Frobenius Form with Parameters</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Robert M. Corless, Marc Moreno Maza, Steven E. Thornton</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 179-194</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_14">Knowledge-Based Interoperability for Mathematical Software Systems</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Michael Kohlhase, Luca De Feo, Dennis Müller, Markus Pfeiffer, Florian Rabe, Nicolas M. Thiéry et al.</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 195-210</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_15">On Interval Methods with Zero Rewriting and Exact Geometric Computation</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Stefan Schirra, Martin Wilhelm</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 211-226</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_16">Sparse Rational Function Interpolation with Finitely Many Values for the Coefficients</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Qiao-Long Huang, Xiao-Shan Gao</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 227-242</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_17">Virtual Theories – A Uniform Interface to Mathematical Knowledge Bases</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Tom Wiesing, Michael Kohlhase, Florian Rabe</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 243-257</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_18">On Real Roots Counting for Non-radical Parametric Ideals</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Ryoya Fukasaku, Yosuke Sato</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 258-263</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_19">On the Bit-Size of Non-radical Triangular Sets</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Xavier Dahan</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 264-269</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_20">Rapidly Convergent Integrals and Function Evaluation</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Heba al Kafri, David J. Jeffrey, Robert M. Corless</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 270-274</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_21">Stirling Numbers, Lambert W and the Gamma Function</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">David J. Jeffrey, Nick Murdoch</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 275-279</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_22">The Potential and Challenges of CAD with Equational Constraints for SC-Square</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">James H. Davenport, Matthew England</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 280-285</span>
+                    </div>
+                </div>
+
+            </li>
+</ol>
+                </div>
+            </li>
+            <li class="part-item">
+                <h3 class="content-type-list__subheading">Combinatorics and Codes in Computer Science</h3>
+                <div class="content-type-list__subcontainer">
+                    <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 287-287</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-319-72453-9%2F2%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_23">New Small 4-Designs with Nonabelian Automorphism Groups</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Vedran Krčadinac, Mario Osvin Pavčević</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 289-294</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_24">On Classifying Steiner Triple Systems by Their 3-Rank</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dieter Jungnickel, Spyros S. Magliveras, Vladimir D. Tonchev, Alfred Wassermann</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 295-305</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_25">Right-Justified Characterization for Generating Regular Pattern Avoiding Permutations</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Phan Thuan Do, Thi Thu Huong Tran, Vincent Vajnovszki</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 306-319</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_26">Experimental Study of the Ehrhart Interpolation Polytope</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Vissarion Fisikopoulos, Zafeirakis Zafeirakopoulos</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 320-324</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_27">On Testing Isomorphism of Graphs of Bounded Eigenvalue Multiplicity</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Takunari Miyazaki</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 325-329</span>
+                    </div>
+                </div>
+
+            </li>
+</ol>
+                </div>
+            </li>
+            <li class="part-item">
+                <h3 class="content-type-list__subheading">Data Modeling and Analysis</h3>
+                <div class="content-type-list__subcontainer">
+                    <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 331-331</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-319-72453-9%2F3%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_28">A Simple Streaming Bit-Parallel Algorithm for Swap Pattern Matching</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Václav Blažej, Ondřej Suchý, Tomáš Valla</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 333-348</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_29">Epidemic Intelligence Statistical Modelling for Biosurveillance</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Christina Parpoula, Alex Karagrigoriou, Angeliki Lambrou</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 349-363</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_30">Mining Acute Stroke Patients’ Data Using Supervised Machine Learning</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Ritu Kundu, Toktam Mahmoodi</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 364-377</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_31">Parallel and Robust Empirical Risk Minimization via the Median Trick</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Alexander Kogler, Patrick Traxler</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 378-391</span>
+                    </div>
+                </div>
+
+            </li>
+</ol>
+                </div>
+            </li>
+            <li class="part-item">
+                <h3 class="content-type-list__subheading">Mathematical Aspects of Information Security and Cryptography</h3>
+                <div class="content-type-list__subcontainer">
+                    <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 393-393</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-319-72453-9%2F4%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_32">Leakage-Resilient Riffle Shuffle</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Paweł Lorek, Michał Kulis, Filip Zagórski</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 395-408</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_33">Ordinary Pairing-Friendly Genus 2 Hyperelliptic Curves with Absolutely Simple Jacobians</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Georgios Fotiadis, Elisavet Konstantinou</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 409-424</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_34">Statistical Testing of PRNG: Generalized Gambler’s Ruin Problem</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Paweł Lorek, Marcin Słowik, Filip Zagórski</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 425-437</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_35">Subtleties in Security Definitions for Predicate Encryption with Public Index</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Johannes Blömer, Gennadij Liske</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 438-453</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-3-319-72453-9_36">Code-Based Key Encapsulation from McEliece’s Cryptosystem</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Edoardo Persichetti</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 454-459</span>
+                    </div>
+                </div>
+
+            </li>
+</ol>
+                </div>
+            </li>
+            <li class="back-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Back Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 461-462</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bbm%3A978-3-319-72453-9%2F1.pdf" aria-label="Download PDF - Back Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Back matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+</ol>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div id="about" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                            <h2 class="section__heading">About these proceedings</h2>
+                                            <div class="c-tabs__block">
+                                                        <h3>Introduction</h3>
+        <div id="book-description" class="u-content u-overflow-wrap">This book constitutes the refereed&nbsp;proceedings of the 7th International Conference on Mathematical Aspects&nbsp;of Computer and Information Sciences, MACIS 2017, held in Vienna,&nbsp;Austria, in November 2017. <p>The 28 revised papers and 8 short papers presented were&nbsp;carefully reviewed and selected from 67 submissions. The papers&nbsp;are organized in the following topical sections:&nbsp;foundation of algorithms in mathematics, engineering and scientific computation; combinatorics and codes in computer science; data modeling and analysis; and mathematical aspects of information security and cryptography.</p></div>
+        <h3>Keywords</h3>
+        <div class="u-content u-mb-24">
+          <span data-test="book-keyword" class="Keyword">artificial intelligence </span><span data-test="book-keyword" class="Keyword">cryptography </span><span data-test="book-keyword" class="Keyword">data mining </span><span data-test="book-keyword" class="Keyword">data security </span><span data-test="book-keyword" class="Keyword">eigenvalues and eigenfunctions </span><span data-test="book-keyword" class="Keyword">formal logic </span><span data-test="book-keyword" class="Keyword">matrix algebra </span><span data-test="book-keyword" class="Keyword">numerical methods </span><span data-test="book-keyword" class="Keyword">probability </span><span data-test="book-keyword" class="Keyword">problem solving </span><span data-test="book-keyword" class="Keyword">project management </span><span data-test="book-keyword" class="Keyword">regular expressions </span><span data-test="book-keyword" class="Keyword">robots </span><span data-test="book-keyword" class="Keyword">satisfiability </span><span data-test="book-keyword" class="Keyword">semantics </span><span data-test="book-keyword" class="Keyword">set theory </span><span data-test="book-keyword" class="Keyword">software engineering </span><span data-test="book-keyword" class="Keyword">stream ciphers </span><span data-test="book-keyword" class="Keyword">surveillance systems </span><span data-test="book-keyword" class="Keyword">theorem proving </span>
+        </div>
+
+                                                
+                                                    <div id="editorsandaffiliations" class="editors-and-affiliations u-mb-24 u-two-col-mb-0" tabindex="-1">
+        <div class="page-title">
+            <h3>Editors and affiliations</h3>
+        </div>
+        <div class="authors-affiliations u-interface"><ul xmlns="http://www.w3.org/1999/xhtml" class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Johannes Blömer</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Ilias S. Kotsireas</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Temur Kutsia</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-3">3</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Dimitris E. Simos</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-4">4</li></ul></li></ul><ol xmlns="http://www.w3.org/1999/xhtml" class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">University of Paderborn</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Paderborn</span><span itemprop="addressCountry" class="affiliation__country">Germany</span></span></span></li><li class="affiliation" data-test="affiliation-2" data-affiliation-highlight="affiliation-2" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">2.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Wilfrid Laurier University</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Waterloo</span><span itemprop="addressCountry" class="affiliation__country">Canada</span></span></span></li><li class="affiliation" data-test="affiliation-3" data-affiliation-highlight="affiliation-3" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">3.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Johannes Kepler University Linz</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Linz</span><span itemprop="addressCountry" class="affiliation__country">Austria</span></span></span></li><li class="affiliation" data-test="affiliation-4" data-affiliation-highlight="affiliation-4" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">4.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">SBA Research</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Vienna</span><span itemprop="addressCountry" class="affiliation__country">Austria</span></span></span></li></ol></div>
+    </div>
+
+                                                    <div id="bibliographic-info">
+        <h3>Bibliographic information</h3>
+
+        <div class="bibliographic-information">
+            <ul class="bibliographic-information__list--inline">
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">DOI</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/978-3-319-72453-9</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Copyright Information</span>
+                    <span class="bibliographic-information__value" id="copyright-info">Springer International Publishing AG 2017</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Publisher Name</span>
+                    <span class="bibliographic-information__value" id="publisher-name">Springer, Cham</span>
+                </li>
+
+                        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">eBook Packages</span>
+                <span class="bibliographic-information__value"><a id="ebook-package" href="/search?facet-content-type&#x3D;%22Book%22&amp;package&#x3D;11645&amp;facet-start-year&#x3D;2017&amp;facet-end-year&#x3D;2017">Computer Science</a></span>
+        </li>
+
+
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Print ISBN</span>
+                        <span class="bibliographic-information__value" id="print-isbn">978-3-319-72452-2</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Online ISBN</span>
+                        <span class="bibliographic-information__value" id="electronic-isbn">978-3-319-72453-9</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series Print ISSN</span>
+                        <span class="bibliographic-information__value" id="print-issn">0302-9743</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series Online ISSN</span>
+                        <span class="bibliographic-information__value" id="electronic-issn">1611-3349</span>
+                    </li>
+                        <li class="bibliographic-information__item">
+                            <a id="about-book" href="//www.springer.com/978-3-319-72453-9?utm_source&#x3D;springerlink&amp;utm_medium&#x3D;referral&amp;utm_campaign&#x3D;bookpage_about_buyonpublisherssite" >Buy this book on publisher's site</a>
+                        </li>
+            </ul>
+
+            
+
+
+                
+        </div>
+    </div>
+
+                                                
+                                            </div>
+                                        </div>
+                                        
+
+
+
+    <div class="sticky-banner sticky-banner--buybox u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasLink">
+        <div class="sticky-banner__container">
+                <div class="sticky-banner__buybox-link sticky-banner__buybox-link--sticky">
+        <a href="#buy" class="gtm-buybox-anchor">
+            Buy options
+        </a>
+    </div>
+
+        </div>
+    </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <aside class="main-sidebar-right main-sidebar-right--buybox u-interface">
+                        </aside>
+                    </div>
+                </article>
+            </main>
+
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/book/10.1007%2F978-3-319-72453-9&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/book/10.1007%2F978-3-319-72453-9&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Cookie settings</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/409335052/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/409335052/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Not affiliated</span>
+                    <span>87.6.214.254</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/409335052';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+    <script>
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            var scriptMathJax = document.createElement('script');
+            scriptMathJax.async = false;
+            scriptMathJax.src = '/springerlink-static/409335052/js/mathJax.js';
+            var s0 = document.getElementsByTagName('script')[0];
+            s0.parentNode.insertBefore(scriptMathJax, s0);
+        }
+    })();
+</script>
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/book';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+        
+    </body>
+</html>

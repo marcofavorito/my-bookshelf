@@ -1,0 +1,34 @@
+abstract: 'Process calculi based on logic, such as $\pi$DILL and CP, provide a foundation
+  for deadlock-free concurrent programming. However, in previous work, there is a
+  mismatch between the rules for constructing proofs and the term constructors of
+  the $\pi$-calculus: the fundamental operator for parallel composition does not correspond
+  to any rule of linear logic. Kokke et al. (2019) introduced Hypersequent Classical
+  Processes (HCP), which addresses this mismatch using hypersequents (collections
+  of sequents) to register parallelism in the typing judgements. However, the step
+  from CP to HCP is a big one. As of yet, HCP does not have reduction semantics, and
+  the addition of delayed actions means that CP processes interpreted as HCP processes
+  do not behave as they would in CP. We introduce HCP-, a variant of HCP with reduction
+  semantics and without delayed actions. We prove progress, preservation, and termination,
+  and show that HCP- supports the same communication protocols as CP.'
+archiveprefix: arXiv
+author: Kokke, Wen and Montesi, Fabrizio and Peressotti, Marco
+author_list:
+- family: Kokke
+  given: Wen
+- family: Montesi
+  given: Fabrizio
+- family: Peressotti
+  given: Marco
+doi: 10.4204/EPTCS.292.5
+eprint: 1904.06848v1
+file: 1904.06848v1.pdf
+files:
+- kokke-wen-and-montesi-fabrizio-and-peressotti-marcotaking-linear-logic-apart2019.pdf
+month: Apr
+note: EPTCS 292, 2019, pp. 90-103
+primaryclass: cs.LO
+ref: 1904.06848v1
+title: Taking Linear Logic Apart
+type: article
+url: http://arxiv.org/abs/1904.06848v1
+year: '2019'

@@ -1,0 +1,36 @@
+abstract: We present the first class of mathematically rigorous, general, fully self-referential,
+  self-improving, optimally efficient problem solvers. Inspired by Kurt Goedel's celebrated
+  self-referential formulas (1931), such a problem solver rewrites any part of its
+  own code as soon as it has found a proof that the rewrite is useful, where the problem-dependent
+  utility function and the hardware and the entire initial code are described by axioms
+  encoded in an initial proof searcher which is also part of the initial code. The
+  searcher systematically and efficiently tests computable proof techniques (programs
+  whose outputs are proofs) until it finds a provably useful, computable self-rewrite.
+  We show that such a self-rewrite is globally optimal - no local maxima! - since
+  the code first had to prove that it is not useful to continue the proof search for
+  alternative self-rewrites. Unlike previous non-self-referential methods based on
+  hardwired proof searchers, ours not only boasts an optimal order of complexity but
+  can optimally reduce any slowdowns hidden by the O()-notation, provided the utility
+  of such speed-ups is provable at all.
+archiveprefix: arXiv
+author: Schmidhuber, Juergen
+author_list:
+- family: Schmidhuber
+  given: Juergen
+eprint: cs/0309048v5
+file: cs/0309048v5.pdf
+files:
+- schmidhuber-juergengoedel-machines-self-referential-universal-problem-solvers-making-provably-optimal-self-improvements2003.pdf
+month: Sep
+note: 'Variants published in "Adaptive Agents and Multi-Agent Systems   II", LNCS
+  3394, p. 1-23, Springer, 2005: ISBN 978-3-540-25260-3; as well as   in Proc. ICANN
+  2005, LNCS 3697, p. 223-233, Springer, 2005 (plenary talk); as   well as in "Artificial
+  General Intelligence", Series: Cognitive Technologies,   Springer, 2006: ISBN-13:
+  978-3-540-23733-4'
+primaryclass: cs.LO
+ref: cs/0309048v5
+title: 'Goedel Machines: Self-Referential Universal Problem Solvers Making   Provably
+  Optimal Self-Improvements'
+type: article
+url: http://arxiv.org/abs/cs/0309048v5
+year: '2003'

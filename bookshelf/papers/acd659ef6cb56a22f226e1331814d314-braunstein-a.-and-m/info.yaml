@@ -1,0 +1,36 @@
+abstract: 'We study the satisfiability of randomly generated formulas formed by $M$
+  clauses of exactly $K$ literals over $N$ Boolean variables. For a given value of
+  $N$ the problem is known to be most difficult with $\alpha=M/N$ close to the experimental
+  threshold $\alpha_c$ separating the region where almost all formulas are SAT from
+  the region where all formulas are UNSAT. Recent results from a statistical physics
+  analysis suggest that the difficulty is related to the existence of a clustering
+  phenomenon of the solutions when $\alpha$ is close to (but smaller than) $\alpha_c$.
+  We introduce a new type of message passing algorithm which allows to find efficiently
+  a satisfiable assignment of the variables in the difficult region. This algorithm
+  is iterative and composed of two main parts. The first is a message-passing procedure
+  which generalizes the usual methods like Sum-Product or Belief Propagation: it passes
+  messages that are surveys over clusters of the ordinary messages. The second part
+  uses the detailed probabilistic information obtained from the surveys in order to
+  fix variables and simplify the problem. Eventually, the simplified problem that
+  remains is solved by a conventional heuristic.'
+archiveprefix: arXiv
+author: Braunstein, A. and Mezard, M. and Zecchina, R.
+author_list:
+- family: Braunstein
+  given: A.
+- family: Mezard
+  given: M.
+- family: Zecchina
+  given: R.
+eprint: cs/0212002v4
+file: cs/0212002v4.pdf
+files:
+- braunstein-a.-and-mezard-m.-and-zecchina-r.survey-propagation-an-algorithm-for-satisfiability2002.pdf
+month: Dec
+note: Random Structures and Algorithms 27, 201-226 (2005)
+primaryclass: cs.CC
+ref: cs/0212002v4
+title: 'Survey propagation: an algorithm for satisfiability'
+type: article
+url: http://arxiv.org/abs/cs/0212002v4
+year: '2002'
