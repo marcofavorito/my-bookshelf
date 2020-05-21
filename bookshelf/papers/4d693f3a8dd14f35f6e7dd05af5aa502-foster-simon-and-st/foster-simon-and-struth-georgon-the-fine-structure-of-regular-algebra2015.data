@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="journal_id" content="10817"/>
+
+    <meta name="dc.title" content="On the Fine-Structure of Regular Algebra"/>
+
+    <meta name="dc.source" content="Journal of Automated Reasoning 2014 54:2"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2014-12-03"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2014 Springer Science+Business Media Dordrecht"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Regular algebra is the algebra of regular expressions as induced by regular language identity. We use Isabelle/HOL for a detailed systematic study of the regular algebra axioms given by Boffa, Conway, Kozen and Salomaa. We investigate the relationships between these systems, formalise a soundness proof for the smallest class (Salomaa&#8217;s) and obtain completeness for the largest one (Boffa&#8217;s) relative to a deep result by Krob. As a case study in formalised mathematics, our investigations also shed some light on the power of theorem proving technology for reasoning with algebras and their models, including proof automation and counterexample generation."/>
+
+    <meta name="prism.issn" content="1573-0670"/>
+
+    <meta name="prism.publicationName" content="Journal of Automated Reasoning"/>
+
+    <meta name="prism.publicationDate" content="2014-12-03"/>
+
+    <meta name="prism.volume" content="54"/>
+
+    <meta name="prism.number" content="2"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="165"/>
+
+    <meta name="prism.endingPage" content="197"/>
+
+    <meta name="prism.copyright" content="2014 Springer Science+Business Media Dordrecht"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s10817-014-9318-9"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s10817-014-9318-9"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s10817-014-9318-9.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s10817-014-9318-9"/>
+
+    <meta name="citation_journal_title" content="Journal of Automated Reasoning"/>
+
+    <meta name="citation_journal_abbrev" content="J Autom Reasoning"/>
+
+    <meta name="citation_publisher" content="Springer Netherlands"/>
+
+    <meta name="citation_issn" content="1573-0670"/>
+
+    <meta name="citation_title" content="On the Fine-Structure of Regular Algebra"/>
+
+    <meta name="citation_volume" content="54"/>
+
+    <meta name="citation_issue" content="2"/>
+
+    <meta name="citation_publication_date" content="2015/02"/>
+
+    <meta name="citation_online_date" content="2014/12/03"/>
+
+    <meta name="citation_firstpage" content="165"/>
+
+    <meta name="citation_lastpage" content="197"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s10817-014-9318-9"/>
+
+    <meta name="DOI" content="10.1007/s10817-014-9318-9"/>
+
+    <meta name="citation_doi" content="10.1007/s10817-014-9318-9"/>
+
+    <meta name="description" content="Regular algebra is the algebra of regular expressions as induced by regular language identity. We use Isabelle/HOL for a detailed systematic study of the r"/>
+
+    <meta name="dc.creator" content="Simon Foster"/>
+
+    <meta name="dc.creator" content="Georg Struth"/>
+
+    <meta name="dc.subject" content="Mathematical Logic and Formal Languages"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Mathematical Logic and Foundations"/>
+
+    <meta name="dc.subject" content="Symbolic and Algebraic Manipulation"/>
+
+    <meta name="citation_reference" content="Armstrong, A., Struth, G., Weber, T.: Kleene algebra. Archive of Formal Proofs 2013 (2013)"/>
+
+    <meta name="citation_reference" content="Benzm&#252;ller, C., Sultana, N.: Leo-II Version 1.5. In: Blanchette, J.C., Urban, J. (eds.) PxTP 2013, EPiC Series, vol. 14, pp. 2&#8211;10. EasyChair (2013)"/>
+
+    <meta name="citation_reference" content="Blanchette, J.C., Bulwahn, L., Nipkow, T.: Automatic proof and disproof in Isabelle/HOL. In: Tinelli, C., Sofronie-Stokkermans, V. (eds.) FroCos 2011, LNAI, vol. 6989, pp. 12&#8211;27. Springer (2011)"/>
+
+    <meta name="citation_reference" content="Blanchette, J.C., Nipkow, T.: Nitpick: A counterexample generator for higher-order logic based on a relational model finder. In: Kaufmann, M., Paulson, L.C. (eds.) Interactive Theorem Proving, LNCS, vol. 6172, pp. 131&#8211;146. Springer (2010)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Math. Struct. Comput. Sci.; citation_title=Equational axioms for regular sets; citation_author=SL Bloom, Z &#201;sik; citation_volume=3; citation_issue=1; citation_publication_date=1993; citation_pages=1-24; citation_doi=10.1017/S0960129500000104; citation_id=CR5"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Inf. th&#233;orique et Appl.; citation_title=Une remarque sur les syst&#232;mes complets d&#8217;identit&#233;s rationnelles; citation_author=M Boffa; citation_volume=24; citation_issue=4; citation_publication_date=1990; citation_pages=419-423; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Inf. th&#233;orique et Appl.; citation_title=Une condition impliquant toutes les identit&#233;s rationnelles; citation_author=M Boffa; citation_volume=29; citation_issue=6; citation_publication_date=1995; citation_pages=515-518; citation_id=CR7"/>
+
+    <meta name="citation_reference" content="Braibant, T., Pous, D.: An efficient Coq tactic for deciding Kleene algebras. In: Kaufmann, M., Paulson, L. (eds.) ITP 2010, LNCS, vol. 6172, pp. 163&#8211;178. Springer (2010)"/>
+
+    <meta name="citation_reference" content="Bulwahn, L.: The new Quickcheck for Isabelle. In: Hawblitzel, C., Miller, D. (eds.) Certified Programs and Proofs, LNCS, vol. 7679, pp. 92&#8211;108. Springer (2012)"/>
+
+    <meta name="citation_reference" content="Conway, J.H.: Regular Algebra and Finite Machines. Chapman and Hall (1971)"/>
+
+    <meta name="citation_reference" content="Eilenberg, S.: Automata, Languages and Machines. Academic Press (1976)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Inf. Comput.; citation_title=Group axioms for iteration; citation_author=Z &#201;sik; citation_volume=148; citation_issue=2; citation_publication_date=1999; citation_pages=131-180; citation_doi=10.1006/inco.1998.2746; citation_id=CR12"/>
+
+    <meta name="citation_reference" content="Foster, S., Struth, G.: Regular algebras. Archive of Formal Proofs 2014 (2014)"/>
+
+    <meta name="citation_reference" content="Ginzburg, A.: Algebraic Theory of Automata. Academic Press (1968)"/>
+
+    <meta name="citation_reference" content="Gordon, M.J.C., Reynolds, J., Hunt, W.A., Kaufmann, M.: An integration of HOL and ACL2, FMCAD 2006, pp 153&#8211;160. IEEE Computer Society (2006)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J. Logic Algebraic Program.; citation_title=Algebraic notions of nontermination: Omega and divergence in idempotent semirings; citation_author=P H&#246;fner, G Struth; citation_volume=79; citation_issue=8; citation_publication_date=2010; citation_pages=794-811; citation_doi=10.1016/j.jlap.2010.07.016; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="Huffman, B., Kuncar, O.: Lifting and transfer: A modular design for quotients in Isabelle/HOL. In: Gonthier, G., Norrish, M. (eds.) CPP 2013, LNCS, vol. 8307, pp. 131&#8211;146. Springer International Publishing (2013)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Math. Struct. Comput. Sci.; citation_title=Formalizing foundations of mathematics; citation_author=M Iancu, F Rabe; citation_volume=21; citation_publication_date=2011; citation_pages=883-911; citation_doi=10.1017/S0960129511000144; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="Kleene, S.C.: Representation of events in nerve nets and finite automata. In: Shannon, C.E., McCarthy, J. (eds.) Automata Studies, chapter 1956, pp 3&#8211;41. Princeton University Press (1956)"/>
+
+    <meta name="citation_reference" content="Kozen, D.: On Kleene algebras and closed semirings. In: Rovan, B. (ed.) MFCS&#8217;90, LNCS, vol. 452, pp 26&#8211;47. Springer (1990)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Inf. Comput.; citation_title=A completeness theorem for Kleene algebras and the algebra of regular events; citation_author=D Kozen; citation_volume=110; citation_issue=2; citation_publication_date=1994; citation_pages=366-390; citation_doi=10.1006/inco.1994.1037; citation_id=CR21"/>
+
+    <meta name="citation_reference" content="Kozen, D., Silva, A.: Left-handed completeness. In: Kahl, W., Griffin, T.G. (eds.) RAMiCS 2012, LNCS, vol. 7560, pp 162&#8211;178. Springer (2012)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Theor. Comput. Sci.; citation_title=Complete systems of 
+                      
+                      
+                    -rational identities; citation_author=D Krob; citation_volume=89; citation_publication_date=1991; citation_pages=207-343; citation_doi=10.1016/0304-3975(91)90395-I; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="Nipkow, T., Paulson, L.C., Wenzel, M.: Isabelle/HOL: A Proof Assistant for Higher-Order Logic, LNCS, vol. 2283. Springer (2002)"/>
+
+    <meta name="citation_reference" content="Nipkow, T., Traytel, D.: Unified decision procedures for regular expression equivalence. In: Klein, G., Gamboa, R. (eds.) ITP 2014, LNCS, vol. 8558, pp 450&#8211;466. Springer (2014)"/>
+
+    <meta name="citation_reference" content="Pratt, V.: Action logic and pure induction. Technical Report STAN-CS-90-1343, Department of Computer Science. Stanford University (1990)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Ukrain. Math. Z; citation_title=On the determining totality of an algebra of regular events; citation_author=VN Redko; citation_volume=16; citation_publication_date=1964; citation_pages=120-126; citation_id=CR27"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J. ACM; citation_title=Two complete axiom systems for the algebra of regular events; citation_author=A Salomaa; citation_volume=13; citation_issue=1; citation_publication_date=1966; citation_pages=158-169; citation_doi=10.1145/321312.321326; citation_id=CR28"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J. Autom. Reason.; citation_title=A formalisation of the myhill-nerode theorem based on regular expressions; citation_author=C Wu, X Zhang, C Urban; citation_volume=52; citation_issue=4; citation_publication_date=2014; citation_pages=451-480; citation_doi=10.1007/s10817-013-9297-2; citation_id=CR29"/>
+
+    <meta name="citation_author" content="Simon Foster"/>
+
+    <meta name="citation_author_email" content="simon.foster@york.ac.uk"/>
+
+    <meta name="citation_author_institution" content="Department of Computer Science, University of York, York, UK"/>
+
+    <meta name="citation_author" content="Georg Struth"/>
+
+    <meta name="citation_author_email" content="g.struth@sheffield.ac.uk"/>
+
+    <meta name="citation_author_institution" content="Department of Computer Science, University of Sheffield, Sheffield, UK"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="On the Fine-Structure of Regular Algebra"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="Regular algebra is the algebra of regular expressions as induced by regular language identity. We use Isabelle/HOL for a detailed systematic study of the regular algebra axioms given by Boffa, Conway, Kozen and Salomaa. We investigate the relationships between these systems, formalise a soundness proof for the smallest class (Salomaa&#8217;s) and obtain completeness for the largest one (Boffa&#8217;s) relative to a deep result by Krob. As a case study in formalised mathematics, our investigations also shed some light on the power of theorem proving technology for reasoning with algebras and their models, including proof automation and counterexample generation."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10817/54/2.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s10817-014-9318-9&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2015/02/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s10817-014-9318-9"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Journal of Automated Reasoning"/>
+        <meta property="og:title" content="On the Fine-Structure of Regular Algebra"/>
+        <meta property="og:description" content="Regular algebra is the algebra of regular expressions as induced by regular language identity. We use Isabelle/HOL for a detailed systematic study of the regular algebra axioms given by Boffa, Conway, Kozen and Salomaa. We investigate the relationships between these systems, formalise a soundness proof for the smallest class (Salomaa’s) and obtain completeness for the largest one (Boffa’s) relative to a deep result by Krob. As a case study in formalised mathematics, our investigations also shed some light on the power of theorem proving technology for reasoning with algebras and their models, including proof automation and counterexample generation."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10817.jpg"/>
+    
+
+    <title>On the Fine-Structure of Regular Algebra | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-c36432aacc.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-b62189e5ed.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-s10817-014-9318-9","Journal Title":"Journal of Automated Reasoning","Journal Id":10817,"Keywords":"Regular algebra, Kleene algebra, Regular languages, Interactive theorem proving, Automated theorem proving, Formalised mathematics","kwrd":["Regular_algebra","Kleene_algebra","Regular_languages","Interactive_theorem_proving","Automated_theorem_proving","Formalised_mathematics"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s10817-014-9318-9","Full HTML":"N","Subject Codes":["SCI","SCI16048","SCI21000","SCM24005","SCI17052"],"pmc":["I","I16048","I21000","M24005","I17052"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-0670","pissn":"0168-7433"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Mathematical Logic and Formal Languages","2":"Artificial Intelligence","3":"Mathematical Logic and Foundations","4":"Symbolic and Algebraic Manipulation"},"secondarySubjectCodes":{"1":"I16048","2":"I21000","3":"M24005","4":"I17052"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/s10817-014-9318-9","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    (function(w, d) {
+        window.config = window.config || {};
+        window.config.mustardcut = false;
+
+        var ctmLinkEl = d.getElementById('js-mustard');
+
+        if (ctmLinkEl && w.matchMedia && w.matchMedia(ctmLinkEl.media).matches) {
+            window.config.mustardcut = true;
+
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return !(scriptEl.hasOwnProperty('noModule')) && scriptEl.hasOwnProperty('onbeforeload');
+            }
+
+            var headScripts = [
+                { 'src' : '/oscar-static/js/polyfill-es5-bundle-ab77bcf8ba.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es5-bundle-5a82bc1fe4.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es6-bundle-cba6a3f7dc.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                { 'src' : '/oscar-static/js/app-es5-bundle-dc94dc76aa.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/app-es6-bundle-0535bd1dc3.js', 'async': false, 'module': true}
+                
+                
+                    , { 'src' : '/oscar-static/js/global-article-es5-bundle-cda72a2f15.js', 'async': false, 'module': false},
+                    { 'src' : '/oscar-static/js/global-article-es6-bundle-cfa69aa341.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i=0; i<headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i=0; i<bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        }
+    })(window, document);
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+<div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10817/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=9318;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10817-014-9318-9">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="c-banner c-banner--marketing">
+	<div class="u-container">
+		<p class="u-ma-0">
+			We'd like to understand how you use our websites in order to improve them.
+			<a class="c-banner__link u-underline"
+				href="https://www.surveymonkey.co.uk/r/F2JMQ6L" data-track="click"
+				data-track-action="Survey click" data-track-category="Blue Banner"
+				data-track-label=10.1007/s10817-014-9318-9>Register your interest.</a>
+		</p>
+	</div>
+</div>
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+        <main class="c-article-main-column u-float-left js-main-column">
+            
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="2014-12-03" itemprop="datePublished">03 December 2014</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title u-h1" data-test="article-title" data-article-title="" itemprop="name headline">On the Fine-Structure of Regular Algebra</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1">Simon Foster</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of York" /><meta itemprop="address" content="grid.5685.e, 0000000419369668, Department of Computer Science, University of York, York, UK" /></span></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-2" data-corresp-id="c1">Georg Struth<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Sheffield" /><meta itemprop="address" content="grid.11835.3e, 0000000419369262, Department of Computer Science, University of Sheffield, Sheffield, UK" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/10817"><i data-test="journal-title">Journal of Automated Reasoning</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 54</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">165</span>–<span itemprop="pageEnd">197</span>(<span data-test="article-publication-year">2015</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">252 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">3 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">0 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs10817-014-9318-9/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Regular algebra is the algebra of regular expressions as induced by regular language identity. We use Isabelle/HOL for a detailed systematic study of the regular algebra axioms given by Boffa, Conway, Kozen and Salomaa. We investigate the relationships between these systems, formalise a soundness proof for the smallest class (Salomaa’s) and obtain completeness for the largest one (Boffa’s) relative to a deep result by Krob. As a case study in formalised mathematics, our investigations also shed some light on the power of theorem proving technology for reasoning with algebras and their models, including proof automation and counterexample generation.</p></div></div></section>
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10817-014-9318-9" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s10817-014-9318-9">
+     <input type="hidden" name="isxn" value="1573-0670">
+     <input type="hidden" name="contenttitle" value="On the Fine-Structure of Regular Algebra">
+     <input type="hidden" name="copyrightyear" value="2014">
+     <input type="hidden" name="year" value="2014">
+     <input type="hidden" name="authors" value="Simon Foster, Georg Struth">
+     <input type="hidden" name="title" value="Journal of Automated Reasoning">
+     <input type="hidden" name="mac" value="23230E20CF830771AB08F3914B9E7B1A">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Journal of Automated Reasoning">
+     <input type="hidden" name="journalnumber" value="10817">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s10817-014-9318-9&journal=1573-0670&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Armstrong, A., Struth, G., Weber, T.: Kleene algebra. Archive of Formal Proofs 2013 (2013)" /><span class="c-article-references__counter">1.</span><p class="c-article-references__text" id="ref-CR1">Armstrong, A., Struth, G., Weber, T.: Kleene algebra. Archive of Formal Proofs 2013 (2013)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Benzmüller, C., Sultana, N.: Leo-II Version 1.5. In: Blanchette, J.C., Urban, J. (eds.) PxTP 2013, EPiC Series" /><span class="c-article-references__counter">2.</span><p class="c-article-references__text" id="ref-CR2">Benzmüller, C., Sultana, N.: Leo-II Version 1.5. In: Blanchette, J.C., Urban, J. (eds.) PxTP 2013, EPiC Series, vol. 14, pp. 2–10. EasyChair (2013)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Blanchette, J.C., Bulwahn, L., Nipkow, T.: Automatic proof and disproof in Isabelle/HOL. In: Tinelli, C., Sofr" /><span class="c-article-references__counter">3.</span><p class="c-article-references__text" id="ref-CR3">Blanchette, J.C., Bulwahn, L., Nipkow, T.: Automatic proof and disproof in Isabelle/HOL. In: Tinelli, C., Sofronie-Stokkermans, V. (eds.) FroCos 2011, LNAI, vol. 6989, pp. 12–27. Springer (2011)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Blanchette, J.C., Nipkow, T.: Nitpick: A counterexample generator for higher-order logic based on a relational" /><span class="c-article-references__counter">4.</span><p class="c-article-references__text" id="ref-CR4">Blanchette, J.C., Nipkow, T.: Nitpick: A counterexample generator for higher-order logic based on a relational model finder. In: Kaufmann, M., Paulson, L.C. (eds.) Interactive Theorem Proving, <i>LNCS</i>, vol. 6172, pp. 131–146. Springer (2010)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="SL. Bloom, Z. Ésik, " /><meta itemprop="datePublished" content="1993" /><meta itemprop="headline" content="Bloom, S.L., Ésik, Z.: Equational axioms for regular sets. Math. Struct. Comput. Sci. 3(1), 1–24 (1993)" /><span class="c-article-references__counter">5.</span><p class="c-article-references__text" id="ref-CR5">Bloom, S.L., Ésik, Z.: Equational axioms for regular sets. Math. Struct. Comput. Sci. <b>3</b>(1), 1–24 (1993)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1017%2FS0960129500000104" aria-label="View reference 5">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0796.68153" aria-label="View reference 5 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 5 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Equational%20axioms%20for%20regular%20sets&amp;journal=Math.%20Struct.%20Comput.%20Sci.&amp;volume=3&amp;issue=1&amp;pages=1-24&amp;publication_year=1993&amp;author=Bloom%2CSL&amp;author=%C3%89sik%2CZ">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. Boffa, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Boffa, M.: Une remarque sur les systèmes complets d’identités rationnelles. Inf. théorique et Appl. 24(4), 419" /><span class="c-article-references__counter">6.</span><p class="c-article-references__text" id="ref-CR6">Boffa, M.: Une remarque sur les systèmes complets d’identités rationnelles. Inf. théorique et Appl. <b>24</b>(4), 419–423 (1990)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1079723" aria-label="View reference 6 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0701.68059" aria-label="View reference 6 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Une%20remarque%20sur%20les%20syst%C3%A8mes%20complets%20d%E2%80%99identit%C3%A9s%20rationnelles&amp;journal=Inf.%20th%C3%A9orique%20et%20Appl.&amp;volume=24&amp;issue=4&amp;pages=419-423&amp;publication_year=1990&amp;author=Boffa%2CM">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. Boffa, " /><meta itemprop="datePublished" content="1995" /><meta itemprop="headline" content="Boffa, M.: Une condition impliquant toutes les identités rationnelles. Inf. théorique et Appl. 29(6), 515–518 " /><span class="c-article-references__counter">7.</span><p class="c-article-references__text" id="ref-CR7">Boffa, M.: Une condition impliquant toutes les identités rationnelles. Inf. théorique et Appl. <b>29</b>(6), 515–518 (1995)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1377029" aria-label="View reference 7 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0881.68071" aria-label="View reference 7 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Une%20condition%20impliquant%20toutes%20les%20identit%C3%A9s%20rationnelles&amp;journal=Inf.%20th%C3%A9orique%20et%20Appl.&amp;volume=29&amp;issue=6&amp;pages=515-518&amp;publication_year=1995&amp;author=Boffa%2CM">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Braibant, T., Pous, D.: An efficient Coq tactic for deciding Kleene algebras. In: Kaufmann, M., Paulson, L. (e" /><span class="c-article-references__counter">8.</span><p class="c-article-references__text" id="ref-CR8">Braibant, T., Pous, D.: An efficient Coq tactic for deciding Kleene algebras. In: Kaufmann, M., Paulson, L. (eds.) ITP 2010, LNCS, vol. 6172, pp. 163–178. Springer (2010)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Bulwahn, L.: The new Quickcheck for Isabelle. In: Hawblitzel, C., Miller, D. (eds.) Certified Programs and Pro" /><span class="c-article-references__counter">9.</span><p class="c-article-references__text" id="ref-CR9">Bulwahn, L.: The new Quickcheck for Isabelle. In: Hawblitzel, C., Miller, D. (eds.) Certified Programs and Proofs, LNCS, vol. 7679, pp. 92–108. Springer (2012)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Conway, J.H.: Regular Algebra and Finite Machines. Chapman and Hall (1971)" /><span class="c-article-references__counter">10.</span><p class="c-article-references__text" id="ref-CR10">Conway, J.H.: Regular Algebra and Finite Machines. Chapman and Hall (1971)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Eilenberg, S.: Automata, Languages and Machines. Academic Press (1976)" /><span class="c-article-references__counter">11.</span><p class="c-article-references__text" id="ref-CR11">Eilenberg, S.: Automata, Languages and Machines. Academic Press (1976)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="Z. Ésik, " /><meta itemprop="datePublished" content="1999" /><meta itemprop="headline" content="Ésik, Z.: Group axioms for iteration. Inf. Comput. 148(2), 131–180 (1999)" /><span class="c-article-references__counter">12.</span><p class="c-article-references__text" id="ref-CR12">Ésik, Z.: Group axioms for iteration. Inf. Comput. <b>148</b>(2), 131–180 (1999)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1006%2Finco.1998.2746" aria-label="View reference 12">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0924.68143" aria-label="View reference 12 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Group%20axioms%20for%20iteration&amp;journal=Inf.%20Comput.&amp;volume=148&amp;issue=2&amp;pages=131-180&amp;publication_year=1999&amp;author=%C3%89sik%2CZ">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Foster, S., Struth, G.: Regular algebras. Archive of Formal Proofs 2014 (2014)" /><span class="c-article-references__counter">13.</span><p class="c-article-references__text" id="ref-CR13">Foster, S., Struth, G.: Regular algebras. Archive of Formal Proofs 2014 (2014)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ginzburg, A.: Algebraic Theory of Automata. Academic Press (1968)" /><span class="c-article-references__counter">14.</span><p class="c-article-references__text" id="ref-CR14">Ginzburg, A.: Algebraic Theory of Automata. Academic Press (1968)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Gordon, M.J.C., Reynolds, J., Hunt, W.A., Kaufmann, M.: An integration of HOL and ACL2, FMCAD 2006, pp 153–160" /><span class="c-article-references__counter">15.</span><p class="c-article-references__text" id="ref-CR15">Gordon, M.J.C., Reynolds, J., Hunt, W.A., Kaufmann, M.: An integration of HOL and ACL2, FMCAD 2006, pp 153–160. IEEE Computer Society (2006)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="P. Höfner, G. Struth, " /><meta itemprop="datePublished" content="2010" /><meta itemprop="headline" content="Höfner, P., Struth, G.: Algebraic notions of nontermination: Omega and divergence in idempotent semirings. J. " /><span class="c-article-references__counter">16.</span><p class="c-article-references__text" id="ref-CR16">Höfner, P., Struth, G.: Algebraic notions of nontermination: Omega and divergence in idempotent semirings. J. Logic Algebraic Program. <b>79</b>(8), 794–811 (2010)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1016%2Fj.jlap.2010.07.016" aria-label="View reference 16">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1205.68111" aria-label="View reference 16 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Algebraic%20notions%20of%20nontermination%3A%20Omega%20and%20divergence%20in%20idempotent%20semirings&amp;journal=J.%20Logic%20Algebraic%20Program.&amp;volume=79&amp;issue=8&amp;pages=794-811&amp;publication_year=2010&amp;author=H%C3%B6fner%2CP&amp;author=Struth%2CG">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Huffman, B., Kuncar, O.: Lifting and transfer: A modular design for quotients in Isabelle/HOL. In: Gonthier, G" /><span class="c-article-references__counter">17.</span><p class="c-article-references__text" id="ref-CR17">Huffman, B., Kuncar, O.: Lifting and transfer: A modular design for quotients in Isabelle/HOL. In: Gonthier, G., Norrish, M. (eds.) CPP 2013, LNCS, vol. 8307, pp. 131–146. Springer International Publishing (2013)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. Iancu, F. Rabe, " /><meta itemprop="datePublished" content="2011" /><meta itemprop="headline" content="Iancu, M., Rabe, F.: Formalizing foundations of mathematics. Math. Struct. Comput. Sci. 21, 883–911 (2011)" /><span class="c-article-references__counter">18.</span><p class="c-article-references__text" id="ref-CR18">Iancu, M., Rabe, F.: Formalizing foundations of mathematics. Math. Struct. Comput. Sci. <b>21</b>, 883–911 (2011)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1017%2FS0960129511000144" aria-label="View reference 18">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2817883" aria-label="View reference 18 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1242.03031" aria-label="View reference 18 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Formalizing%20foundations%20of%20mathematics&amp;journal=Math.%20Struct.%20Comput.%20Sci.&amp;volume=21&amp;pages=883-911&amp;publication_year=2011&amp;author=Iancu%2CM&amp;author=Rabe%2CF">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kleene, S.C.: Representation of events in nerve nets and finite automata. In: Shannon, C.E., McCarthy, J. (eds" /><span class="c-article-references__counter">19.</span><p class="c-article-references__text" id="ref-CR19">Kleene, S.C.: Representation of events in nerve nets and finite automata. In: Shannon, C.E., McCarthy, J. (eds.) Automata Studies, chapter 1956, pp 3–41. Princeton University Press (1956)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kozen, D.: On Kleene algebras and closed semirings. In: Rovan, B. (ed.) MFCS’90, LNCS, vol. 452, pp 26–47. Spr" /><span class="c-article-references__counter">20.</span><p class="c-article-references__text" id="ref-CR20">Kozen, D.: On Kleene algebras and closed semirings. In: Rovan, B. (ed.) MFCS’90, LNCS, vol. 452, pp 26–47. Springer (1990)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D. Kozen, " /><meta itemprop="datePublished" content="1994" /><meta itemprop="headline" content="Kozen, D.: A completeness theorem for Kleene algebras and the algebra of regular events. Inf. Comput. 110(2), " /><span class="c-article-references__counter">21.</span><p class="c-article-references__text" id="ref-CR21">Kozen, D.: A completeness theorem for Kleene algebras and the algebra of regular events. Inf. Comput. <b>110</b>(2), 366–390 (1994)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1006%2Finco.1994.1037" aria-label="View reference 21">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1276741" aria-label="View reference 21 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0806.68082" aria-label="View reference 21 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 21 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20completeness%20theorem%20for%20Kleene%20algebras%20and%20the%20algebra%20of%20regular%20events&amp;journal=Inf.%20Comput.&amp;volume=110&amp;issue=2&amp;pages=366-390&amp;publication_year=1994&amp;author=Kozen%2CD">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kozen, D., Silva, A.: Left-handed completeness. In: Kahl, W., Griffin, T.G. (eds.) RAMiCS 2012, LNCS, vol. 756" /><span class="c-article-references__counter">22.</span><p class="c-article-references__text" id="ref-CR22">Kozen, D., Silva, A.: Left-handed completeness. In: Kahl, W., Griffin, T.G. (eds.) RAMiCS 2012, LNCS, vol. 7560, pp 162–178. Springer (2012)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D. Krob, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Krob, D.: Complete systems of \(\mathcal {B}\)-rational identities. Theor. Comput. Sci. 89, 207–343 (1991)" /><span class="c-article-references__counter">23.</span><p class="c-article-references__text" id="ref-CR23">Krob, D.: Complete systems of <span class="mathjax-tex">\(\mathcal {B}\)</span>-rational identities. Theor. Comput. Sci. <b>89</b>, 207–343 (1991)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1016%2F0304-3975%2891%2990395-I" aria-label="View reference 23">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1133622" aria-label="View reference 23 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0737.68053" aria-label="View reference 23 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Complete%20systems%20of%20%E2%84%AC%20%24%5Cmathcal%20%7BB%7D%24%20-rational%20identities&amp;journal=Theor.%20Comput.%20Sci.&amp;volume=89&amp;pages=207-343&amp;publication_year=1991&amp;author=Krob%2CD">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Nipkow, T., Paulson, L.C., Wenzel, M.: Isabelle/HOL: A Proof Assistant for Higher-Order Logic, LNCS, vol. 2283" /><span class="c-article-references__counter">24.</span><p class="c-article-references__text" id="ref-CR24">Nipkow, T., Paulson, L.C., Wenzel, M.: Isabelle/HOL: A Proof Assistant for Higher-Order Logic, LNCS, vol. 2283. Springer (2002)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Nipkow, T., Traytel, D.: Unified decision procedures for regular expression equivalence. In: Klein, G., Gamboa" /><span class="c-article-references__counter">25.</span><p class="c-article-references__text" id="ref-CR25">Nipkow, T., Traytel, D.: Unified decision procedures for regular expression equivalence. In: Klein, G., Gamboa, R. (eds.) ITP 2014, LNCS, vol. 8558, pp 450–466. Springer (2014)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Pratt, V.: Action logic and pure induction. Technical Report STAN-CS-90-1343, Department of Computer Science. " /><span class="c-article-references__counter">26.</span><p class="c-article-references__text" id="ref-CR26">Pratt, V.: Action logic and pure induction. Technical Report STAN-CS-90-1343, Department of Computer Science. Stanford University (1990)</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="VN. Redko, " /><meta itemprop="datePublished" content="1964" /><meta itemprop="headline" content="Redko, V.N.: On the determining totality of an algebra of regular events. Ukrain. Math. Z 16, 120–126 (1964). " /><span class="c-article-references__counter">27.</span><p class="c-article-references__text" id="ref-CR27">Redko, V.N.: On the determining totality of an algebra of regular events. Ukrain. Math. Z <b>16</b>, 120–126 (1964). (in Russian)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=179033" aria-label="View reference 27 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=On%20the%20determining%20totality%20of%20an%20algebra%20of%20regular%20events&amp;journal=Ukrain.%20Math.%20Z&amp;volume=16&amp;pages=120-126&amp;publication_year=1964&amp;author=Redko%2CVN">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A. Salomaa, " /><meta itemprop="datePublished" content="1966" /><meta itemprop="headline" content="Salomaa, A.: Two complete axiom systems for the algebra of regular events. J. ACM 13(1), 158–169 (1966)" /><span class="c-article-references__counter">28.</span><p class="c-article-references__text" id="ref-CR28">Salomaa, A.: Two complete axiom systems for the algebra of regular events. J. ACM <b>13</b>(1), 158–169 (1966)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1145%2F321312.321326" aria-label="View reference 28">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=189995" aria-label="View reference 28 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0149.24902" aria-label="View reference 28 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 28 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Two%20complete%20axiom%20systems%20for%20the%20algebra%20of%20regular%20events&amp;journal=J.%20ACM&amp;volume=13&amp;issue=1&amp;pages=158-169&amp;publication_year=1966&amp;author=Salomaa%2CA">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. Wu, X. Zhang, C. Urban, " /><meta itemprop="datePublished" content="2014" /><meta itemprop="headline" content="Wu, C., Zhang, X., Urban, C.: A formalisation of the myhill-nerode theorem based on regular expressions. J. Au" /><span class="c-article-references__counter">29.</span><p class="c-article-references__text" id="ref-CR29">Wu, C., Zhang, X., Urban, C.: A formalisation of the myhill-nerode theorem based on regular expressions. J. Autom. Reason. <b>52</b>(4), 451–480 (2014)</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1007%2Fs10817-013-9297-2" aria-label="View reference 29">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=3177987" aria-label="View reference 29 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 29 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20formalisation%20of%20the%20myhill-nerode%20theorem%20based%20on%20regular%20expressions&amp;journal=J.%20Autom.%20Reason.&amp;volume=52&amp;issue=4&amp;pages=451-480&amp;publication_year=2014&amp;author=Wu%2CC&amp;author=Zhang%2CX&amp;author=Urban%2CC">
+                        Google Scholar</a></li></ul></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/s10817-014-9318-9-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article-author-information__subtitle u-h3" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address u-h3">Department of Computer Science, University of York, York, UK</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Simon Foster</li></ul></li><li id="Aff2"><span class="c-article-author-affiliation__address u-h3">Department of Computer Science, University of Sheffield, Sheffield, UK</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Georg Struth</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article-author-information__subtitle u-h3">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Simon Foster</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Simon+Foster&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Simon+Foster" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Simon+Foster%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li><li id="auth-2"><span class="c-article-authors-search__title u-h3 js-search-name">Georg Struth</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Georg+Struth&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Georg+Struth" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Georg+Struth%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div><h3 class="c-article-author-information__subtitle u-h3" id="corresponding-author">Corresponding author</h3><p>Correspondence to
+                <a id="corresp-c1" rel="nofollow" href="/article/10.1007/s10817-014-9318-9/email/correspondent/c1/new">Georg Struth</a>.</p></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=On%20the%20Fine-Structure%20of%20Regular%20Algebra&amp;author=Simon%20Foster%20et%20al&amp;contentID=10.1007%2Fs10817-014-9318-9&amp;publication=0168-7433&amp;publicationDate=2014-12-03&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="u-hide-print c-bibliographic-information__column c-bibliographic-information__column--border"><a data-crossmark="10.1007/s10817-014-9318-9" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007/s10817-014-9318-9" data-track="click" data-track-action="Click Crossmark" data-track-category="article body" data-track-label="link" data-test="crossmark"><img width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgxIiB3aWR0aD0iNTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJtMTcuMzUgMzUuNDUgMjEuMy0xNC4ydi0xNy4wM2gtMjEuMyIgZmlsbD0iIzk4OTg5OCIvPjxwYXRoIGQ9Im0zOC42NSAzNS40NS0yMS4zLTE0LjJ2LTE3LjAzaDIxLjMiIGZpbGw9IiM3NDc0NzQiLz48cGF0aCBkPSJtMjggLjVjLTEyLjk4IDAtMjMuNSAxMC41Mi0yMy41IDIzLjVzMTAuNTIgMjMuNSAyMy41IDIzLjUgMjMuNS0xMC41MiAyMy41LTIzLjVjMC02LjIzLTIuNDgtMTIuMjEtNi44OC0xNi42Mi00LjQxLTQuNC0xMC4zOS02Ljg4LTE2LjYyLTYuODh6bTAgNDEuMjVjLTkuOCAwLTE3Ljc1LTcuOTUtMTcuNzUtMTcuNzVzNy45NS0xNy43NSAxNy43NS0xNy43NSAxNy43NSA3Ljk1IDE3Ljc1IDE3Ljc1YzAgNC43MS0xLjg3IDkuMjItNS4yIDEyLjU1cy03Ljg0IDUuMi0xMi41NSA1LjJ6IiBmaWxsPSIjNTM1MzUzIi8+PHBhdGggZD0ibTQxIDM2Yy01LjgxIDYuMjMtMTUuMjMgNy40NS0yMi40MyAyLjktNy4yMS00LjU1LTEwLjE2LTEzLjU3LTcuMDMtMjEuNWwtNC45Mi0zLjExYy00Ljk1IDEwLjctMS4xOSAyMy40MiA4Ljc4IDI5LjcxIDkuOTcgNi4zIDIzLjA3IDQuMjIgMzAuNi00Ljg2eiIgZmlsbD0iIzljOWM5YyIvPjxwYXRoIGQ9Im0uMiA1OC40NWMwLS43NS4xMS0xLjQyLjMzLTIuMDFzLjUyLTEuMDkuOTEtMS41Yy4zOC0uNDEuODMtLjczIDEuMzQtLjk0LjUxLS4yMiAxLjA2LS4zMiAxLjY1LS4zMi41NiAwIDEuMDYuMTEgMS41MS4zNS40NC4yMy44MS41IDEuMS44MWwtLjkxIDEuMDFjLS4yNC0uMjQtLjQ5LS40Mi0uNzUtLjU2LS4yNy0uMTMtLjU4LS4yLS45My0uMi0uMzkgMC0uNzMuMDgtMS4wNS4yMy0uMzEuMTYtLjU4LjM3LS44MS42Ni0uMjMuMjgtLjQxLjYzLS41MyAxLjA0LS4xMy40MS0uMTkuODgtLjE5IDEuMzkgMCAxLjA0LjIzIDEuODYuNjggMi40Ni40NS41OSAxLjA2Ljg4IDEuODQuODguNDEgMCAuNzctLjA3IDEuMDctLjIzcy41OS0uMzkuODUtLjY4bC45MSAxYy0uMzguNDMtLjguNzYtMS4yOC45OS0uNDcuMjItMSAuMzQtMS41OC4zNC0uNTkgMC0xLjEzLS4xLTEuNjQtLjMxLS41LS4yLS45NC0uNTEtMS4zMS0uOTEtLjM4LS40LS42Ny0uOS0uODgtMS40OC0uMjItLjU5LS4zMy0xLjI2LS4zMy0yLjAyem04LjQtNS4zM2gxLjYxdjIuNTRsLS4wNSAxLjMzYy4yOS0uMjcuNjEtLjUxLjk2LS43MnMuNzYtLjMxIDEuMjQtLjMxYy43MyAwIDEuMjcuMjMgMS42MS43MS4zMy40Ny41IDEuMTQuNSAyLjAydjQuMzFoLTEuNjF2LTQuMWMwLS41Ny0uMDgtLjk3LS4yNS0xLjIxLS4xNy0uMjMtLjQ1LS4zNS0uODMtLjM1LS4zIDAtLjU2LjA4LS43OS4yMi0uMjMuMTUtLjQ5LjM2LS43OC42NHY0LjhoLTEuNjF6bTcuMzcgNi40NWMwLS41Ni4wOS0xLjA2LjI2LTEuNTEuMTgtLjQ1LjQyLS44My43MS0xLjE0LjI5LS4zLjYzLS41NCAxLjAxLS43MS4zOS0uMTcuNzgtLjI1IDEuMTgtLjI1LjQ3IDAgLjg4LjA4IDEuMjMuMjQuMzYuMTYuNjUuMzguODkuNjdzLjQyLjYzLjU0IDEuMDNjLjEyLjQxLjE4Ljg0LjE4IDEuMzIgMCAuMzItLjAyLjU3LS4wNy43NmgtNC4zNmMuMDcuNjIuMjkgMS4xLjY1IDEuNDQuMzYuMzMuODIuNSAxLjM4LjUuMjkgMCAuNTctLjA0LjgzLS4xM3MuNTEtLjIxLjc2LS4zN2wuNTUgMS4wMWMtLjMzLjIxLS42OS4zOS0xLjA5LjUzLS40MS4xNC0uODMuMjEtMS4yNi4yMS0uNDggMC0uOTItLjA4LTEuMzQtLjI1LS40MS0uMTYtLjc2LS40LTEuMDctLjctLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDQtLjI2LS45NS0uMjYtMS41MnptNC42LS42MmMwLS41NS0uMTEtLjk4LS4zNC0xLjI4LS4yMy0uMzEtLjU4LS40Ny0xLjA2LS40Ny0uNDEgMC0uNzcuMTUtMS4wNy40NS0uMzEuMjktLjUuNzMtLjU4IDEuM3ptMi41LjYyYzAtLjU3LjA5LTEuMDguMjgtMS41My4xOC0uNDQuNDMtLjgyLjc1LTEuMTNzLjY5LS41NCAxLjEtLjcxYy40Mi0uMTYuODUtLjI0IDEuMzEtLjI0LjQ1IDAgLjg0LjA4IDEuMTcuMjNzLjYxLjM0Ljg1LjU3bC0uNzcgMS4wMmMtLjE5LS4xNi0uMzgtLjI4LS41Ni0uMzctLjE5LS4wOS0uMzktLjE0LS42MS0uMTQtLjU2IDAtMS4wMS4yMS0xLjM1LjYzLS4zNS40MS0uNTIuOTctLjUyIDEuNjcgMCAuNjkuMTcgMS4yNC41MSAxLjY2LjM0LjQxLjc4LjYyIDEuMzIuNjIuMjggMCAuNTQtLjA2Ljc4LS4xNy4yNC0uMTIuNDUtLjI2LjY0LS40MmwuNjcgMS4wM2MtLjMzLjI5LS42OS41MS0xLjA4LjY1LS4zOS4xNS0uNzguMjMtMS4xOC4yMy0uNDYgMC0uOS0uMDgtMS4zMS0uMjQtLjQtLjE2LS43NS0uMzktMS4wNS0uN3MtLjUzLS42OS0uNy0xLjEzYy0uMTctLjQ1LS4yNS0uOTYtLjI1LTEuNTN6bTYuOTEtNi40NWgxLjU4djYuMTdoLjA1bDIuNTQtMy4xNmgxLjc3bC0yLjM1IDIuOCAyLjU5IDQuMDdoLTEuNzVsLTEuNzctMi45OC0xLjA4IDEuMjN2MS43NWgtMS41OHptMTMuNjkgMS4yN2MtLjI1LS4xMS0uNS0uMTctLjc1LS4xNy0uNTggMC0uODcuMzktLjg3IDEuMTZ2Ljc1aDEuMzR2MS4yN2gtMS4zNHY1LjZoLTEuNjF2LTUuNmgtLjkydi0xLjJsLjkyLS4wN3YtLjcyYzAtLjM1LjA0LS42OC4xMy0uOTguMDgtLjMxLjIxLS41Ny40LS43OXMuNDItLjM5LjcxLS41MWMuMjgtLjEyLjYzLS4xOCAxLjA0LS4xOC4yNCAwIC40OC4wMi42OS4wNy4yMi4wNS40MS4xLjU3LjE3em0uNDggNS4xOGMwLS41Ny4wOS0xLjA4LjI3LTEuNTMuMTctLjQ0LjQxLS44Mi43Mi0xLjEzLjMtLjMxLjY1LS41NCAxLjA0LS43MS4zOS0uMTYuOC0uMjQgMS4yMy0uMjRzLjg0LjA4IDEuMjQuMjRjLjQuMTcuNzQuNCAxLjA0Ljcxcy41NC42OS43MiAxLjEzYy4xOS40NS4yOC45Ni4yOCAxLjUzcy0uMDkgMS4wOC0uMjggMS41M2MtLjE4LjQ0LS40Mi44Mi0uNzIgMS4xM3MtLjY0LjU0LTEuMDQuNy0uODEuMjQtMS4yNC4yNC0uODQtLjA4LTEuMjMtLjI0LS43NC0uMzktMS4wNC0uN2MtLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDUtLjI3LS45Ni0uMjctMS41M3ptMS42NSAwYzAgLjY5LjE0IDEuMjQuNDMgMS42Ni4yOC40MS42OC42MiAxLjE4LjYyLjUxIDAgLjktLjIxIDEuMTktLjYyLjI5LS40Mi40NC0uOTcuNDQtMS42NiAwLS43LS4xNS0xLjI2LS40NC0xLjY3LS4yOS0uNDItLjY4LS42My0xLjE5LS42My0uNSAwLS45LjIxLTEuMTguNjMtLjI5LjQxLS40My45Ny0uNDMgMS42N3ptNi40OC0zLjQ0aDEuMzNsLjEyIDEuMjFoLjA1Yy4yNC0uNDQuNTQtLjc5Ljg4LTEuMDIuMzUtLjI0LjctLjM2IDEuMDctLjM2LjMyIDAgLjU5LjA1Ljc4LjE0bC0uMjggMS40LS4zMy0uMDljLS4xMS0uMDEtLjIzLS4wMi0uMzgtLjAyLS4yNyAwLS41Ni4xLS44Ni4zMXMtLjU1LjU4LS43NyAxLjF2NC4yaC0xLjYxem0tNDcuODcgMTVoMS42MXY0LjFjMCAuNTcuMDguOTcuMjUgMS4yLjE3LjI0LjQ0LjM1LjgxLjM1LjMgMCAuNTctLjA3LjgtLjIyLjIyLS4xNS40Ny0uMzkuNzMtLjczdi00LjdoMS42MXY2Ljg3aC0xLjMybC0uMTItMS4wMWgtLjA0Yy0uMy4zNi0uNjMuNjQtLjk4Ljg2LS4zNS4yMS0uNzYuMzItMS4yNC4zMi0uNzMgMC0xLjI3LS4yNC0xLjYxLS43MS0uMzMtLjQ3LS41LTEuMTQtLjUtMi4wMnptOS40NiA3LjQzdjIuMTZoLTEuNjF2LTkuNTloMS4zM2wuMTIuNzJoLjA1Yy4yOS0uMjQuNjEtLjQ1Ljk3LS42My4zNS0uMTcuNzItLjI2IDEuMS0uMjYuNDMgMCAuODEuMDggMS4xNS4yNC4zMy4xNy42MS40Ljg0LjcxLjI0LjMxLjQxLjY4LjUzIDEuMTEuMTMuNDIuMTkuOTEuMTkgMS40NCAwIC41OS0uMDkgMS4xMS0uMjUgMS41Ny0uMTYuNDctLjM4Ljg1LS42NSAxLjE2LS4yNy4zMi0uNTguNTYtLjk0LjczLS4zNS4xNi0uNzIuMjUtMS4xLjI1LS4zIDAtLjYtLjA3LS45LS4ycy0uNTktLjMxLS44Ny0uNTZ6bTAtMi4zYy4yNi4yMi41LjM3LjczLjQ1LjI0LjA5LjQ2LjEzLjY2LjEzLjQ2IDAgLjg0LS4yIDEuMTUtLjYuMzEtLjM5LjQ2LS45OC40Ni0xLjc3IDAtLjY5LS4xMi0xLjIyLS4zNS0xLjYxLS4yMy0uMzgtLjYxLS41Ny0xLjEzLS41Ny0uNDkgMC0uOTkuMjYtMS41Mi43N3ptNS44Ny0xLjY5YzAtLjU2LjA4LTEuMDYuMjUtMS41MS4xNi0uNDUuMzctLjgzLjY1LTEuMTQuMjctLjMuNTgtLjU0LjkzLS43MXMuNzEtLjI1IDEuMDgtLjI1Yy4zOSAwIC43My4wNyAxIC4yLjI3LjE0LjU0LjMyLjgxLjU1bC0uMDYtMS4xdi0yLjQ5aDEuNjF2OS44OGgtMS4zM2wtLjExLS43NGgtLjA2Yy0uMjUuMjUtLjU0LjQ2LS44OC42NC0uMzMuMTgtLjY5LjI3LTEuMDYuMjctLjg3IDAtMS41Ni0uMzItMi4wNy0uOTVzLS43Ni0xLjUxLS43Ni0yLjY1em0xLjY3LS4wMWMwIC43NC4xMyAxLjMxLjQgMS43LjI2LjM4LjY1LjU4IDEuMTUuNTguNTEgMCAuOTktLjI2IDEuNDQtLjc3di0zLjIxYy0uMjQtLjIxLS40OC0uMzYtLjctLjQ1LS4yMy0uMDgtLjQ2LS4xMi0uNy0uMTItLjQ1IDAtLjgyLjE5LTEuMTMuNTktLjMxLjM5LS40Ni45NS0uNDYgMS42OHptNi4zNSAxLjU5YzAtLjczLjMyLTEuMy45Ny0xLjcxLjY0LS40IDEuNjctLjY4IDMuMDgtLjg0IDAtLjE3LS4wMi0uMzQtLjA3LS41MS0uMDUtLjE2LS4xMi0uMy0uMjItLjQzcy0uMjItLjIyLS4zOC0uM2MtLjE1LS4wNi0uMzQtLjEtLjU4LS4xLS4zNCAwLS42OC4wNy0xIC4ycy0uNjMuMjktLjkzLjQ3bC0uNTktMS4wOGMuMzktLjI0LjgxLS40NSAxLjI4LS42My40Ny0uMTcuOTktLjI2IDEuNTQtLjI2Ljg2IDAgMS41MS4yNSAxLjkzLjc2cy42MyAxLjI1LjYzIDIuMjF2NC4wN2gtMS4zMmwtLjEyLS43NmgtLjA1Yy0uMy4yNy0uNjMuNDgtLjk4LjY2cy0uNzMuMjctMS4xNC4yN2MtLjYxIDAtMS4xLS4xOS0xLjQ4LS41Ni0uMzgtLjM2LS41Ny0uODUtLjU3LTEuNDZ6bTEuNTctLjEyYzAgLjMuMDkuNTMuMjcuNjcuMTkuMTQuNDIuMjEuNzEuMjEuMjggMCAuNTQtLjA3Ljc3LS4ycy40OC0uMzEuNzMtLjU2di0xLjU0Yy0uNDcuMDYtLjg2LjEzLTEuMTguMjMtLjMxLjA5LS41Ny4xOS0uNzYuMzFzLS4zMy4yNS0uNDEuNGMtLjA5LjE1LS4xMy4zMS0uMTMuNDh6bTYuMjktMy42M2gtLjk4di0xLjJsMS4wNi0uMDcuMi0xLjg4aDEuMzR2MS44OGgxLjc1djEuMjdoLTEuNzV2My4yOGMwIC44LjMyIDEuMi45NyAxLjIuMTIgMCAuMjQtLjAxLjM3LS4wNC4xMi0uMDMuMjQtLjA3LjM0LS4xMWwuMjggMS4xOWMtLjE5LjA2LS40LjEyLS42NC4xNy0uMjMuMDUtLjQ5LjA4LS43Ni4wOC0uNCAwLS43NC0uMDYtMS4wMi0uMTgtLjI3LS4xMy0uNDktLjMtLjY3LS41Mi0uMTctLjIxLS4zLS40OC0uMzctLjc4LS4wOC0uMy0uMTItLjY0LS4xMi0xLjAxem00LjM2IDIuMTdjMC0uNTYuMDktMS4wNi4yNy0xLjUxcy40MS0uODMuNzEtMS4xNGMuMjktLjMuNjMtLjU0IDEuMDEtLjcxLjM5LS4xNy43OC0uMjUgMS4xOC0uMjUuNDcgMCAuODguMDggMS4yMy4yNC4zNi4xNi42NS4zOC44OS42N3MuNDIuNjMuNTQgMS4wM2MuMTIuNDEuMTguODQuMTggMS4zMiAwIC4zMi0uMDIuNTctLjA3Ljc2aC00LjM3Yy4wOC42Mi4yOSAxLjEuNjUgMS40NC4zNi4zMy44Mi41IDEuMzguNS4zIDAgLjU4LS4wNC44NC0uMTMuMjUtLjA5LjUxLS4yMS43Ni0uMzdsLjU0IDEuMDFjLS4zMi4yMS0uNjkuMzktMS4wOS41M3MtLjgyLjIxLTEuMjYuMjFjLS40NyAwLS45Mi0uMDgtMS4zMy0uMjUtLjQxLS4xNi0uNzctLjQtMS4wOC0uNy0uMy0uMzEtLjU0LS42OS0uNzItMS4xMy0uMTctLjQ0LS4yNi0uOTUtLjI2LTEuNTJ6bTQuNjEtLjYyYzAtLjU1LS4xMS0uOTgtLjM0LTEuMjgtLjIzLS4zMS0uNTgtLjQ3LTEuMDYtLjQ3LS40MSAwLS43Ny4xNS0xLjA4LjQ1LS4zMS4yOS0uNS43My0uNTcgMS4zem0zLjAxIDIuMjNjLjMxLjI0LjYxLjQzLjkyLjU3LjMuMTMuNjMuMi45OC4yLjM4IDAgLjY1LS4wOC44My0uMjNzLjI3LS4zNS4yNy0uNmMwLS4xNC0uMDUtLjI2LS4xMy0uMzctLjA4LS4xLS4yLS4yLS4zNC0uMjgtLjE0LS4wOS0uMjktLjE2LS40Ny0uMjNsLS41My0uMjJjLS4yMy0uMDktLjQ2LS4xOC0uNjktLjMtLjIzLS4xMS0uNDQtLjI0LS42Mi0uNHMtLjMzLS4zNS0uNDUtLjU1Yy0uMTItLjIxLS4xOC0uNDYtLjE4LS43NSAwLS42MS4yMy0xLjEuNjgtMS40OS40NC0uMzggMS4wNi0uNTcgMS44My0uNTcuNDggMCAuOTEuMDggMS4yOS4yNXMuNzEuMzYuOTkuNTdsLS43NC45OGMtLjI0LS4xNy0uNDktLjMyLS43My0uNDItLjI1LS4xMS0uNTEtLjE2LS43OC0uMTYtLjM1IDAtLjYuMDctLjc2LjIxLS4xNy4xNS0uMjUuMzMtLjI1LjU0IDAgLjE0LjA0LjI2LjEyLjM2cy4xOC4xOC4zMS4yNmMuMTQuMDcuMjkuMTQuNDYuMjFsLjU0LjE5Yy4yMy4wOS40Ny4xOC43LjI5cy40NC4yNC42NC40Yy4xOS4xNi4zNC4zNS40Ni41OC4xMS4yMy4xNy41LjE3LjgyIDAgLjMtLjA2LjU4LS4xNy44My0uMTIuMjYtLjI5LjQ4LS41MS42OC0uMjMuMTktLjUxLjM0LS44NC40NS0uMzQuMTEtLjcyLjE3LTEuMTUuMTctLjQ4IDAtLjk1LS4wOS0xLjQxLS4yNy0uNDYtLjE5LS44Ni0uNDEtMS4yLS42OHoiIGZpbGw9IiM1MzUzNTMiLz48L2c+PC9zdmc+" /></a></div><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Foster, S., Struth, G. On the Fine-Structure of Regular Algebra.
+                    <i>J Autom Reasoning</i> <b>54, </b>165–197 (2015). https://doi.org/10.1007/s10817-014-9318-9</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/s10817-014-9318-9.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2014-06-10">10 June 2014</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2014-11-19">19 November 2014</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2014-12-03">03 December 2014</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2015-02">February 2015</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/s10817-014-9318-9" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/s10817-014-9318-9</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading u-h3">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Regular algebra</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Kleene algebra</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Regular languages</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Interactive theorem proving</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Automated theorem proving</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Formalised mathematics</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s10817-014-9318-9">
+     <input type="hidden" name="isxn" value="1573-0670">
+     <input type="hidden" name="contenttitle" value="On the Fine-Structure of Regular Algebra">
+     <input type="hidden" name="copyrightyear" value="2014">
+     <input type="hidden" name="year" value="2014">
+     <input type="hidden" name="authors" value="Simon Foster, Georg Struth">
+     <input type="hidden" name="title" value="Journal of Automated Reasoning">
+     <input type="hidden" name="mac" value="23230E20CF830771AB08F3914B9E7B1A">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Journal of Automated Reasoning">
+     <input type="hidden" name="journalnumber" value="10817">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s10817-014-9318-9&journal=1573-0670&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10817/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=9318;"></div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 37.120.135.187</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

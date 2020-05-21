@@ -1,0 +1,41 @@
+abstract: 'Concentration inequalities are fundamental tools in probabilistic combinatorics
+  and theoretical computer science for proving that random functions are near their
+  means. Of particular importance is the case where f(X) is a function of independent
+  random variables X=(X_1, ..., X_n). Here the well known bounded differences inequality
+  (also called McDiarmid''s or Hoeffding-Azuma inequality) establishes sharp concentration
+  if the function f does not depend too much on any of the variables. One attractive
+  feature is that it relies on a very simple Lipschitz condition (L): it suffices
+  to show that |f(X)-f(X'')| \leq c_k whenever X,X'' differ only in X_k. While this
+  is easy to check, the main disadvantage is that it considers worst-case changes
+  c_k, which often makes the resulting bounds too weak to be useful.   In this paper
+  we prove a variant of the bounded differences inequality which can be used to establish
+  concentration of functions f(X) where (i) the typical changes are small although
+  (ii) the worst case changes might be very large. One key aspect of this inequality
+  is that it relies on a simple condition that (a) is easy to check and (b) coincides
+  with heuristic considerations why concentration should hold. Indeed, given an event
+  \Gamma that holds with very high probability, we essentially relax the Lipschitz
+  condition (L) to situations where \Gamma occurs. The point is that the resulting
+  typical changes c_k are often much smaller than the worst case ones.   To illustrate
+  its application we consider the reverse H-free process, where H is 2-balanced. We
+  prove that the final number of edges in this process is concentrated, and also determine
+  its likely value up to constant factors. This answers a question of Bollob\''as
+  and Erd\H{o}s.'
+archiveprefix: arXiv
+author: Warnke, Lutz
+author_list:
+- family: Warnke
+  given: Lutz
+doi: 10.1017/S0963548315000103
+eprint: 1212.5796v1
+file: 1212.5796v1.pdf
+files:
+- warnke-lutzon-the-method-of-typical-bounded-differences2012.pdf
+month: Dec
+note: Combinator. Probab. Comp. 25 (2016) 269-299
+primaryclass: math.CO
+ref: 1212.5796v1
+time-added: 2020-05-16-17:10:26
+title: On the method of typical bounded differences
+type: article
+url: http://arxiv.org/abs/1212.5796v1
+year: '2012'

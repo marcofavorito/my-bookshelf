@@ -1,0 +1,33 @@
+abstract: The objective is to study an on-line Hidden Markov model (HMM) estimation-based
+  Q-learning algorithm for partially observable Markov decision process (POMDP) on
+  finite state and action sets. When the full state observation is available, Q-learning
+  finds the optimal action-value function given the current action (Q function). However,
+  Q-learning can perform poorly when the full state observation is not available.
+  In this paper, we formulate the POMDP estimation into a HMM estimation problem and
+  propose a recursive algorithm to estimate both the POMDP parameter and Q function
+  concurrently. Also, we show that the POMDP estimation converges to a set of stationary
+  points for the maximum likelihood estimate, and the Q function estimation converges
+  to a fixed point that satisfies the Bellman optimality equation weighted on the
+  invariant distribution of the state belief determined by the HMM estimation process.
+archiveprefix: arXiv
+author: Yoon, Hyung-Jin and Lee, Donghwan and Hovakimyan, Naira
+author_list:
+- family: Yoon
+  given: Hyung-Jin
+- family: Lee
+  given: Donghwan
+- family: Hovakimyan
+  given: Naira
+eprint: 1809.06401v2
+file: 1809.06401v2.pdf
+files:
+- yoon-hyung-jin-and-lee-donghwan-and-hovakimyan-nairahidden-markov-model-estimation-based-q-learning-for-partially-observable-markov-decision-proc.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1809.06401v2
+time-added: 2020-05-16-16:13:44
+title: Hidden Markov Model Estimation-Based Q-learning for Partially Observable   Markov
+  Decision Process
+type: article
+url: http://arxiv.org/abs/1809.06401v2
+year: '2018'

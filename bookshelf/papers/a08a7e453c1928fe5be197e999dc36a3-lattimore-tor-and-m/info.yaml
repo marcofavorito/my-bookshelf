@@ -1,0 +1,25 @@
+abstract: We study a new type of K-armed bandit problem where the expected return
+  of one arm may depend on the returns of other arms. We present a new algorithm for
+  this general class of problems and show that under certain circumstances it is possible
+  to achieve finite expected cumulative regret. We also give problem-dependent lower
+  bounds on the cumulative regret showing that at least in special cases the new algorithm
+  is nearly optimal.
+archiveprefix: arXiv
+author: Lattimore, Tor and Munos, Remi
+author_list:
+- family: Lattimore
+  given: Tor
+- family: Munos
+  given: Remi
+eprint: 1411.2919v1
+file: 1411.2919v1.pdf
+files:
+- lattimore-tor-and-munos-remibounded-regret-for-finite-armed-structured-bandits2014.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1411.2919v1
+time-added: 2020-05-17-19:17:50
+title: Bounded Regret for Finite-Armed Structured Bandits
+type: article
+url: http://arxiv.org/abs/1411.2919v1
+year: '2014'

@@ -1,0 +1,31 @@
+abstract: 'In this paper, we unravel a fundamental connection between weighted finite
+  automata~(WFAs) and second-order recurrent neural networks~(2-RNNs): in the case
+  of sequences of discrete symbols, WFAs and 2-RNNs with linear activation functions
+  are expressively equivalent. Motivated by this result, we build upon a recent extension
+  of the spectral learning algorithm to vector-valued WFAs and propose the first provable
+  learning algorithm for linear 2-RNNs defined over sequences of continuous input
+  vectors. This algorithm relies on estimating low rank sub-blocks of the so-called
+  Hankel tensor, from which the parameters of a linear 2-RNN can be provably recovered.
+  The performances of the proposed method are assessed in a simulation study.'
+archiveprefix: arXiv
+author: Rabusseau, Guillaume and Li, Tianyu and Precup, Doina
+author_list:
+- family: Rabusseau
+  given: Guillaume
+- family: Li
+  given: Tianyu
+- family: Precup
+  given: Doina
+eprint: 1807.01406v2
+file: 1807.01406v2.pdf
+files:
+- rabusseau-guillaume-and-li-tianyu-and-precup-doinaconnecting-weighted-automata-and-recurrent-neural-networks-through-spectral-learning2018.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1807.01406v2
+time-added: 2020-05-16-17:49:14
+title: Connecting Weighted Automata and Recurrent Neural Networks through   Spectral
+  Learning
+type: article
+url: http://arxiv.org/abs/1807.01406v2
+year: '2018'

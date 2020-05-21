@@ -1,0 +1,31 @@
+abstract: 'Three factors drive the advance of AI: algorithmic innovation, data, and
+  the amount of compute available for training. Algorithmic progress has traditionally
+  been more difficult to quantify than compute and data. In this work, we argue that
+  algorithmic progress has an aspect that is both straightforward to measure and interesting:
+  reductions over time in the compute needed to reach past capabilities. We show that
+  the number of floating-point operations required to train a classifier to AlexNet-level
+  performance on ImageNet has decreased by a factor of 44x between 2012 and 2019.
+  This corresponds to algorithmic efficiency doubling every 16 months over a period
+  of 7 years. By contrast, Moore''s Law would only have yielded an 11x cost improvement.
+  We observe that hardware and algorithmic efficiency gains multiply and can be on
+  a similar scale over meaningful horizons, which suggests that a good model of AI
+  progress should integrate measures from both.'
+archiveprefix: arXiv
+author: Hernandez, Danny and Brown, Tom B.
+author_list:
+- family: Hernandez
+  given: Danny
+- family: Brown
+  given: Tom B.
+eprint: 2005.04305v1
+file: 2005.04305v1.pdf
+files:
+- hernandez-danny-and-brown-tom-b.measuring-the-algorithmic-efficiency-of-neural-networks2020.pdf
+month: May
+primaryclass: cs.LG
+ref: 2005.04305v1
+time-added: 2020-05-19-17:01:09
+title: Measuring the Algorithmic Efficiency of Neural Networks
+type: article
+url: http://arxiv.org/abs/2005.04305v1
+year: '2020'

@@ -1,0 +1,33 @@
+abstract: Spectral methods propose new and elegant solutions in probabilistic grammatical
+  inference. We propose two ways to improve them. We show how a linear representation,
+  or equivalently a weighted automata, output by the spectral learning algorithm can
+  be taken as an initial point for the Baum Welch algorithm, in order to increase
+  the likelihood of the observation data. Secondly, we show how the inference problem
+  can naturally be expressed in the framework of Structured Low-Rank Approximation.
+  Both ideas are tested on a benchmark extracted from the PAutomaC challenge.
+address: Kyoto, Japan
+author: Gybels, Mattias and Denis, François and Habrard, Amaury
+author_list:
+- family: Gybels
+  given: Mattias
+- family: Denis
+  given: François
+- family: Habrard
+  given: Amaury
+booktitle: The 12th International Conference on Grammatical Inference
+editor: Alexander Clark and Makoto Kanazawa and Ryo Yoshinaka
+files:
+- gybels-mattias-and-denis-francois-and-habrard-amaurysome-improvements-of-the-spectral-learning-approach-for-probabilistic-grammatical-inference2014.pdf
+month: 17--19 Sep
+pages: 64--78
+pdf: http://proceedings.mlr.press/v34/gybels14a.pdf
+publisher: PMLR
+ref: pmlr-v34-gybels14a
+series: Proceedings of Machine Learning Research
+time-added: 2020-05-16-01:40:58
+title: Some improvements of the spectral learning approach for probabilistic grammatical
+  inference
+type: inproceedings
+url: http://proceedings.mlr.press/v34/gybels14a.html
+volume: '34'
+year: '2014'

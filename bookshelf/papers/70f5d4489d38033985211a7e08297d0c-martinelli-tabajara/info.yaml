@@ -1,0 +1,46 @@
+abstract: <jats:p>Decomposition is a general principle in computational thinking,
+  aiming at decomposing a problem instance into easier subproblems. Indeed, decomposing
+  a transition system into a partitioned transition relation was critical to scaling
+  BDD-based model checking to large state spaces. Since then, it has become a standard
+  technique for dealing with related problems, such as Boolean synthesis. More recently,
+  partitioning has begun to be explored in the synthesis of reactive systems. LTLf
+  synthesis, a finite-horizon version of reactive synthesis with applications in areas
+  such as robotics, seems like a promising candidate for partitioning techniques.
+  After all, the state of the art is based on a BDD-based symbolic algorithm similar
+  to those from model checking, and partitioning could be a potential solution to
+  the current bottleneck of this approach, which is the construction of the state
+  space. In this work, however, we expose fundamental limitations of partitioning
+  that hinder its effective application to symbolic LTLf synthesis. We not only provide
+  evidence for this fact through an extensive experimental evaluation, but also perform
+  an in-depth analysis to identify the reason for these results. We trace the issue
+  to an overall increase in the size of the explored state space, caused by an inability
+  of partitioning to fully exploit state-space minimization, which has a crucial effect
+  on performance. We conclude that more specialized decomposition techniques are needed
+  for LTLf synthesis which take into account the effects of minimization.</jats:p>
+author: Martinelli Tabajara, Lucas and Y. Vardi, Moshe
+author_list:
+- affiliation:
+  - name: Rice University
+  family: Martinelli Tabajara
+  given: Lucas
+- affiliation:
+  - name: Rice University
+  family: Y. Vardi
+  given: Moshe
+booktitle: Twenty-Eighth International Joint Conference on Artificial Intelligence
+  {IJCAI-19}
+doi: 10.24963/ijcai.2019/777
+files:
+- martinelli-tabajara-lucas-and-y.-vardi-moshepartitioning-techniques-in-ltlf-synthesis2019.pdf
+isbn:
+- '9780999241141'
+journal: Proceedings of the Twenty-Eighth International Joint Conference on Artificial
+  Intelligence
+month: 8
+publisher: International Joint Conferences on Artificial Intelligence Organization
+time-added: 2020-05-12-16:39:09
+title: Partitioning Techniques in LTLf Synthesis
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2019/777
+venue: Macao, China
+year: 2019

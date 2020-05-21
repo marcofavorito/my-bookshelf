@@ -1,0 +1,480 @@
+author: Gupta, Aarti and Ganai, Malay K. and Wang, Chao
+author_list:
+- affiliation: []
+  family: Gupta
+  given: Aarti
+- affiliation: []
+  family: Ganai
+  given: Malay K.
+- affiliation: []
+  family: Wang
+  given: Chao
+citations:
+- author: E.M. Clarke
+  unstructured: 'Clarke, E.M., Grumberg, O., Peled, D.: Model Checking. MIT Press,
+    Cambridge (1999)'
+  volume-title: Model Checking
+  year: '1999'
+- author: R. Burch
+  doi: 10.1109/43.275352
+  first-page: '401'
+  issue: '4'
+  journal-title: IEEE Transactions on Computer-Aided Design of Integrated Circuits
+    and Systems
+  unstructured: 'Burch, R., Clarke, E.M., Long, D.E., McMillan, K.L., Dill, D.: Symbolic
+    model checking for sequential circuit verification. IEEE Transactions on Computer-Aided
+    Design of Integrated Circuits and Systems 13(4), 401–424 (1994)'
+  volume: '13'
+  year: '1994'
+- author: K.L. McMillan
+  doi: 10.1007/978-1-4615-3190-6
+  unstructured: 'McMillan, K.L.: Symbolic Model Checking: An Approach to the State
+    Explosion Problem. Kluwer Academic Publishers, Dordrecht (1993)'
+  volume-title: 'Symbolic Model Checking: An Approach to the State Explosion Problem'
+  year: '1993'
+- author: R.E. Bryant
+  doi: 10.1109/TC.1986.1676819
+  first-page: '677'
+  issue: '8'
+  journal-title: IEEE Transactions on Computers
+  unstructured: 'Bryant, R.E.: Graph-based algorithms for Boolean function manipulation.
+    IEEE Transactions on Computers C-35(8), 677–691 (1986)'
+  volume: C-35
+  year: '1986'
+- author: J.P. Marques-Silva
+  doi: 10.1109/12.769433
+  first-page: '506'
+  journal-title: IEEE Transactions on Computers
+  unstructured: 'Marques-Silva, J.P., Sakallah, K.A.: GRASP: A Search Algorithm for
+    Propositional Satisfiability. IEEE Transactions on Computers 48, 506–521 (1999)'
+  volume: '48'
+  year: '1999'
+- doi: 10.1145/378239.379017
+  unstructured: 'Moskewicz, M., Madigan, C., Zhao, Y., Zhang, L., Malik, S.: Chaff:
+    Engineering an Efficient SAT Solver. In: Proceedings of Design Automation Conference
+    (2001)'
+- doi: 10.1007/3-540-63104-6_28
+  unstructured: 'Zhang, H.: SATO: An efficient propositional prover. In: Proceedings
+    of International Conference on Automated Deduction, pp. 272–275 (1997)'
+- unstructured: 'Goldberg, E., Novikov, Y.: BerkMin: A Fast and Robust SAT-Solver.
+    In: Proceedings of Conference on Design Automation & Test Europe (DATE), pp. 142–149
+    (2002)'
+- author: L. Zhang
+  doi: 10.1007/3-540-45657-0_2
+  first-page: '17'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zhang, L., Malik, S.: The Quest for Efficient Boolean Satisfiability
+    Solvers. In: Brinksma, E., Larsen, K.G. (eds.) CAV 2002. LNCS, vol. 2404, pp.
+    17–36. Springer, Heidelberg (2002)'
+  volume-title: Computer Aided Verification
+  year: '2002'
+- author: M. Prasad
+  doi: 10.1007/s10009-004-0183-4
+  first-page: '156'
+  issue: '2'
+  journal-title: Software Tools for Technology Transfer
+  unstructured: 'Prasad, M., Biere, A., Gupta, A.: A survey of recent advances in
+    SAT-based formal verification. Software Tools for Technology Transfer 7(2), 156–173
+    (2005)'
+  volume: '7'
+  year: '2005'
+- doi: 10.1145/775832.775947
+  unstructured: 'Lu, F., Wang, L.-C., Cheng, K.-T., Moondanos, J., Hanna, Z.: A signal
+    correlation guided ATPG solver and its applications for solving difficult industrial
+    cases. In: Proceedings of the Design Automation Conference, pp. 436–441 (2003)'
+- author: A. Biere
+  doi: 10.1007/3-540-49059-0_14
+  first-page: '193'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Biere, A., Cimatti, A., Clarke, E., Zhu, Y.: Symbolic Model Checking
+    without BDDs. In: Cleaveland, W.R. (ed.) TACAS 1999. LNCS, vol. 1579, p. 193.
+    Springer, Heidelberg (1999)'
+  volume-title: Tools and Algorithms for the Construction of Analysis of Systems
+  year: '1999'
+- doi: 10.1145/776038.776040
+  unstructured: 'Gupta, A., Ganai, M., Wang, C., Yang, Z., Ashar, P.: Learning from
+    BDDs in SAT-based bounded model checking. In: Design Automation Conference (2003)'
+- author: M.K. Ganai
+  doi: 10.1007/978-3-540-39724-3_30
+  first-page: '334'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Ganai, M.K., Gupta, A., Yang, Z.-J., Ashar, P.: Efficient distributed
+    SAT and SAT-based distributed bounded model checking. In: Geist, D., Tronci, E.
+    (eds.) CHARME 2003. LNCS, vol. 2860, pp. 334–347. Springer, Heidelberg (2003)'
+  volume-title: Correct Hardware Design and Verification Methods
+  year: '2003'
+- doi: 10.1145/1065579.1065773
+  unstructured: 'Ganai, M., Gupta, A., Ashar, P.: Beyond safety: Customized SAT-based
+    model checking. In: Proceedings of the Design Automation Conference, pp. 738–743
+    (2005)'
+- author: M. Sheeran
+  doi: 10.1007/3-540-40922-X_8
+  first-page: '108'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Sheeran, M., Singh, S., Stålmarck, G.: Checking safety properties
+    using induction and a SAT-solver. In: Johnson, S.D., Hunt Jr., W.A. (eds.) FMCAD
+    2000. LNCS, vol. 1954, pp. 108–125. Springer, Heidelberg (2000)'
+  volume-title: Formal Methods in Computer-Aided Design
+  year: '2000'
+- author: A. Gupta
+  doi: 10.1007/978-3-540-45069-6_20
+  first-page: '206'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Gupta, A., Ganai, M.K., Wang, C., Yang, Z.-J., Ashar, P.: Abstraction
+    and BDDs complement SAT-based BMC in diVer. In: Hunt Jr., W.A., Somenzi, F. (eds.)
+    CAV 2003. LNCS, vol. 2725, pp. 206–209. Springer, Heidelberg (2003)'
+  volume-title: Computer Aided Verification
+  year: '2003'
+- author: A. Gupta
+  doi: 10.1007/3-540-40922-X_22
+  first-page: '354'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Gupta, A., Yang, Z.-J., Ashar, P., Gupta, A.: SAT-based image computation
+    with application in reachability analysis. In: Johnson, S.D., Hunt Jr., W.A. (eds.)
+    FMCAD 2000. LNCS, vol. 1954, pp. 354–371. Springer, Heidelberg (2000)'
+  volume-title: Formal Methods in Computer-Aided Design
+  year: '2000'
+- doi: 10.1145/378239.379018
+  unstructured: 'Gupta, A., Yang, Z., Ashar, P.: Dynamic detection and removal of
+    inactive clauses in SAT with application in image computation. In: Proceedings
+    of Design Automation Conference (2001)'
+- unstructured: 'Gupta, A., Yang, Z., Ashar, P., Zhang, L., Malik, S.: Partition-Based
+    Decision Heuristics for Image Computation using SAT and BDDs. In: Proceedings
+    of International Conference on Computer-Aided Design (2001)'
+- unstructured: 'Ganai, M., Gupta, A., Ashar, P.: Efficient SAT-based unbounded symbolic
+    model checking using circuit cofactoring. In: Proceedings of the International
+    Conference on Computer-Aided Design, pp. 510–517 (2004)'
+- unstructured: 'Gupta, A., Ganai, M., Yang, J., Ashar, P.: Iterative Abstraction
+    using SAT-based BMC with Proof Analysis. In: Proceedings of International Conference
+    on Computer Aided Design (ICCAD) (2003)'
+- unstructured: 'Gupta, A., Ganai, M., Ashar, P.: Lazy constraints and SAT heuristics
+    for proof-based abstraction. In: Proceedings of the International Conference on
+    VLSI Design, pp. 183–188 (2005)'
+- unstructured: 'Ganai, M., Kuehlmann, A.: On-the-fly compression of logical circuits.
+    In: Proceedings of International Workshop on Logic Synthesis (2000)'
+- doi: 10.1145/514100.514105
+  unstructured: 'Ganai, M., Zhang, L., Ashar, P., Gupta, A.: Combining Strengths of
+    Circuit-based and CNF-based Algorithms for a High Performance SAT Solver. In:
+    Proceedings of the Design Automation Conference (2002)'
+- author: M. Abramovici
+  unstructured: 'Abramovici, M., Breuer, M.A., Friedman, A.D.: Digital Systems Testing
+    and Testable Design. Computer Science Press, Rockville (1990)'
+  volume-title: Digital Systems Testing and Testable Design
+  year: '1990'
+- author: M.K. Ganai
+  doi: 10.1007/978-3-540-27813-9_34
+  first-page: '440'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Ganai, M.K., Gupta, A., Ashar, P.: Efficient modeling of embedded
+    memories in bounded model checking. In: Alur, R., Peled, D.A. (eds.) CAV 2004.
+    LNCS, vol. 3114, pp. 440–452. Springer, Heidelberg (2004)'
+  volume-title: Computer Aided Verification
+  year: '2004'
+- unstructured: 'Ganai, M., Gupta, A., Ashar, P.: Verification of embedded memory
+    systems using efficient memory modeling. In: Proceedings of Design Automation
+    and Test Europe (DATE), pp. 1096–1101 (2005)'
+- author: M. Ganai
+  doi: 10.1007/978-3-540-31980-1_41
+  first-page: '575'
+  unstructured: 'Ganai, M., Gupta, A., Ashar, P.: DiVer: SAT-based model checking
+    platform for verifying large scale systems. In: Proceedings of Tools and Algorithms
+    for the Construction and Analysis of Systems (TACAS), pp. 575–580. Springer, Heidelberg
+    (2005)'
+  volume-title: Proceedings of Tools and Algorithms for the Construction and Analysis
+    of Systems (TACAS)
+  year: '2005'
+- author: K. Wakabayashi
+  doi: 10.1007/978-1-4615-3966-7_6
+  first-page: '127'
+  unstructured: 'Wakabayashi, K.: Cyber: High level synthesis system from software
+    into ASIC. In: Camposano, R., Wolf, W. (eds.) High Level VLSI Synthesis, pp. 127–151.
+    Kluwer Academic Publishers, Dordrecht (1991)'
+  volume-title: High Level VLSI Synthesis
+  year: '1991'
+- author: F. Ivančić
+  doi: 10.1007/11513988_31
+  first-page: '301'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Ivančić, F., Yang, Z., Ganai, M.K., Gupta, A., Shlyakhter, I., Ashar,
+    P.: F-Soft: Software Verification Platform. In: Etessami, K., Rajamani, S.K. (eds.)
+    CAV 2005. LNCS, vol. 3576, pp. 301–306. Springer, Heidelberg (2005)'
+  volume-title: Computer Aided Verification
+  year: '2005'
+- unstructured: 'Ivancic, F., Shlyakhter, I., Gupta, A., Ganai, M., Kahlon, V., Wang,
+    C., Yang, Z.: Model checking C programs using F-Soft. In: Proceedings of the International
+    Conference on Computer Design, pp. 297–308 (2005)'
+- author: C.W. Barrett
+  doi: 10.1007/3-540-45657-0_18
+  first-page: '236'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Barrett, C.W., Dill, D.L., Stump, A.: Checking satisfiability of
+    first-order formulas by incremental translation to SAT. In: Brinksma, E., Larsen,
+    K.G. (eds.) CAV 2002. LNCS, vol. 2404, pp. 236–249. Springer, Heidelberg (2002)'
+  volume-title: Computer Aided Verification
+  year: '2002'
+- doi: 10.1145/775944.775945
+  unstructured: 'Seshia, S., Lahiri, S., Bryant, R.E.: A hybrid SAT-based decision
+    procedure for separation logic with uninterpreted functions. In: Design Automation
+    Conference (2003)'
+- author: C. Wang
+  doi: 10.1007/11591191_23
+  first-page: '322'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Wang, C., Ivančić, F., Ganai, M.K., Gupta, A.: Deciding separation
+    logic formulae by SAT and incremental negative cycle elimination. In: Sutcliffe,
+    G., Voronkov, A. (eds.) LPAR 2005. LNCS, vol. 3835, pp. 322–336. Springer, Heidelberg
+    (2005)'
+  volume-title: Logic for Programming, Artificial Intelligence, and Reasoning
+  year: '2005'
+- doi: 10.1007/11691372_9
+  unstructured: 'Ganai, M., Talupur, M., Gupta, A.: SDSAT: Tight integration of small
+    domain encoding and lazy approaches in a separation logic solver. In: Proceedings
+    of Tools and Algorithms for the Construction and Analysis of Systems (2006)'
+- author: M.R. Garey
+  unstructured: 'Garey, M.R., Johnson, D.S.: Computers and Intractability: A guide
+    to the theory of NP-Completeness. W.H. Freeman and Co., New York (1979)'
+  volume-title: 'Computers and Intractability: A guide to the theory of NP-Completeness'
+  year: '1979'
+- author: T. Larrabee
+  doi: 10.1109/43.108614
+  first-page: '4'
+  issue: '1'
+  journal-title: IEEE Transactions on Computer-Aided Design of Integrated Circuits
+    and Systems
+  unstructured: 'Larrabee, T.: Test pattern generation using Boolean Satisfiability.
+    IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 11(1),
+    4–15 (1992)'
+  volume: '11'
+  year: '1992'
+- author: M. Davis
+  doi: 10.1145/368273.368557
+  first-page: '394'
+  journal-title: Communications of the ACM
+  unstructured: 'Davis, M., Longeman, G., Loveland, D.: A Machine Program for Theorem
+    Proving. Communications of the ACM 5, 394–397 (1962)'
+  volume: '5'
+  year: '1962'
+- unstructured: 'Zhang, L., Malik, S.: Validating SAT Solvers Using an Independent
+    Resolution-Based Checker: Practical Implementations and Other Applications. In:
+    Proceedings of Conference on Design Automation & Test Europe (DATE) (2003)'
+- unstructured: 'Goldberg, E., Novikov, Y.: Verification of Proofs of Unsatisfiability
+    for CNF Formulas. In: Proceedings of Conference on Design Automation & Test Europe
+    (DATE) (2003)'
+- author: K.L. McMillan
+  doi: 10.1007/3-540-36577-X_2
+  first-page: '2'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'McMillan, K.L., Amla, N.: Automatic Abstraction without Counterexamples.
+    In: Garavel, H., Hatcliff, J. (eds.) TACAS 2003. LNCS, vol. 2619, pp. 2–17. Springer,
+    Heidelberg (2003)'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2003'
+- author: H. Fujiwara
+  doi: 10.1109/TC.1983.1676174
+  first-page: '265'
+  issue: '12'
+  journal-title: IEEE Transactions on Computers
+  unstructured: 'Fujiwara, H., Shimono, T.: On the Acceleration of Test Generation
+    Algorithms. IEEE Transactions on Computers C-32(12), 265–272 (1983)'
+  volume: C-32
+  year: '1983'
+- author: P. Goel
+  doi: 10.1109/TC.1981.1675757
+  first-page: '215'
+  issue: '3'
+  journal-title: IEEE Transactions on Computers
+  unstructured: 'Goel, P.: An implicit enumeration algorithm to generate tests for
+    Combinational circuits. IEEE Transactions on Computers C-30(3), 215–222 (1981)'
+  volume: C-30
+  year: '1981'
+- doi: 10.1145/378239.378470
+  unstructured: 'Kuehlmann, A., Ganai, M., Paruthi, V.: Circuit-based Boolean Reasoning.
+    In: Proceedings of Design Automation Conference (2001)'
+- author: A. Kuehlmann
+  doi: 10.1109/TCAD.2002.804386
+  first-page: '1377'
+  issue: '12'
+  journal-title: IEEE Transactions on Computer-Aided Design of Integrated Circuits
+    and Systems
+  unstructured: 'Kuehlmann, A., Paruthi, V., Krohm, F., Ganai, M.: Robust Boolean
+    Reasoning for Equivalence Checking and Functional Property Verification. IEEE
+    Transactions on Computer-Aided Design of Integrated Circuits and Systems 21(12),
+    1377–1394 (2002)'
+  volume: '21'
+  year: '2002'
+- doi: 10.1109/ICCAD.2003.159706
+  unstructured: 'Iyer, M., Parthasarthy, G., Cheng, K.-T.: SATORI – A fast sequential
+    SAT engine for circuits. In: Proceedings of the International Conference on Computer-Aided
+    Design, pp. 320–325 (2003)'
+- author: H. Jin
+  doi: 10.1007/978-3-540-27813-9_50
+  first-page: '519'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Jin, H., Awedh, M., Somenzi, F.: CirCUs: A satisfiability solver
+    geared towards bounded model checking. In: Alur, R., Peled, D.A. (eds.) CAV 2004.
+    LNCS, vol. 3114, pp. 519–522. Springer, Heidelberg (2004)'
+  volume-title: Computer Aided Verification
+  year: '2004'
+- author: G.J. Holzmann
+  doi: 10.1109/32.588521
+  first-page: '279'
+  issue: '5'
+  journal-title: IEEE Transactions of Software Engineering
+  unstructured: 'Holzmann, G.J.: The Model Checker SPIN. IEEE Transactions of Software
+    Engineering 23(5), 279–295 (1997)'
+  volume: '23'
+  year: '1997'
+- author: D. Kröning
+  doi: 10.1007/3-540-36384-X_24
+  first-page: '298'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Kröning, D., Strichman, O.: Efficient Computation of Recurrence Diameters.
+    In: Zuck, L.D., Attie, P.C., Cortesi, A., Mukhopadhyay, S. (eds.) VMCAI 2003.
+    LNCS, vol. 2575, pp. 298–309. Springer, Heidelberg (2002)'
+  volume-title: Verification, Model Checking, and Abstract Interpretation
+  year: '2002'
+- doi: 10.1007/10722167_36
+  unstructured: 'Shtrichman, O.: Tuning SAT Checkers for Bounded Model Checking. In:
+    Proceedings of International Conference on Computer-Aided Verification (2000)'
+- doi: 10.1007/3-540-44798-9_4
+  unstructured: 'Shtrichman, O.: Pruning Techniques for the SAT-based bounded model
+    checking. In: Proceedings of Workshop on Tools and Algorithms for the Analysis
+    and Construction of Systems (TACAS) (2001)'
+- author: N. Een
+  unstructured: 'Een, N., Sorensson, N.: Temporal induction by incremental SAT solving.
+    In: Proceedings of the First International Workshop on Bounded Model Checking
+    (BMC). Elsevier, Amsterdam (2003)'
+  volume-title: Proceedings of the First International Workshop on Bounded Model Checking
+    (BMC)
+  year: '2003'
+- author: J. Baumgartner
+  doi: 10.1007/3-540-45657-0_12
+  first-page: '151'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Baumgartner, J., Kuehlmann, A., Abraham, J.A.: Property Checking
+    via Structural Analysis. In: Brinksma, E., Larsen, K.G. (eds.) CAV 2002. LNCS,
+    vol. 2404, p. 151. Springer, Heidelberg (2002)'
+  volume-title: Computer Aided Verification
+  year: '2002'
+- doi: 10.1145/1119772.1119790
+  unstructured: 'Mneimneh, M., Sakallah, K.: SAT-based sequential depth computation.
+    In: Proceedings of the First International Workshop on Constraints in Formal Verification
+    (2002)'
+- doi: 10.1145/266021.266090
+  unstructured: 'Kuehlmann, A., Krohm, F.: Equivalence Checking using Cuts and Heaps.
+    In: Proceedings of Design Automation Conference (1997)'
+- doi: 10.1145/378239.379019
+  unstructured: 'Whittemore, J., Kim, J., Sakallah, K.: SATIRE: A new incremental
+    SAT engine. In: Proceedings of the Design Automation Conference (2001)'
+- unstructured: 'Ganai, M., Aziz, A.: Improved SAT-based Bounded Reachability Analysis.
+    In: Proceedings of VLSI Design Conference (2002)'
+- unstructured: 'Brayton, R., Somenzi, F., et al.: VIS: Verification Interacting with
+    Synthesis (2002), http://vlsi.colorado.edu/~vis'
+- unstructured: 'Cabodi, S.N., Quer, S.: Improving SAT-based bounded model checking
+    by means of BDD-based approximate traversals. In: Proceedings of Design Automation
+    and Test Europe, pp. 898–903 (2003)'
+- author: R.P. Kurshan
+  unstructured: 'Kurshan, R.P.: Computer-Aided Verification of Co-ordinating Processes:
+    The Automata-Theoretic Approach. Princeton University Press, Princeton (1994)'
+  volume-title: 'Computer-Aided Verification of Co-ordinating Processes: The Automata-Theoretic
+    Approach'
+  year: '1994'
+- author: Y. Zhao
+  unstructured: 'Zhao, Y.: Accelerating Boolean Satisfiability through Application
+    Specific Processing. In: Electrical Engineering, Princeton University, Princeton
+    (2001)'
+  volume-title: Electrical Engineering
+  year: '2001'
+- doi: 10.1007/3-540-58179-0_44
+  unstructured: 'Burch, J.R., Dill, D.: Automatic verification of pipelined microprocessor
+    control. In: Proceedings of the International Conference on Computer Aided Verification
+    (1994)'
+- unstructured: 'Bryant, R.E., German, S., Velev, M.N.: Processor verification using
+    efficient reductions of the logic of uninterpreted functions to propositional
+    logic. In: Proceedings of the International Conference on Computer Aided Verification
+    (1999)'
+- author: M.N. Velev
+  doi: 10.1007/3-540-45319-9_18
+  first-page: '252'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Velev, M.N.: Automatic abstraction of memories in the formal verification
+    of superscalar microprocessors. In: Margaria, T., Yi, W. (eds.) TACAS 2001. LNCS,
+    vol. 2031, p. 252. Springer, Heidelberg (2001)'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2001'
+- doi: 10.1007/3-540-45657-0_7
+  unstructured: 'Bryant, R.E., Lahiri, S., Seshia, S.: Modeling and Verifying Systems
+    using a Logic of Counter Arithmetic with Lambda Expressions and Uninterpreted
+    Functions. In: Proceedings of Conference on Computer Aided Verification (2002)'
+- author: P. Bjesse
+  doi: 10.1007/3-540-40922-X_23
+  first-page: '372'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Bjesse, P., Claessen, K.: SAT-based verification without state space
+    traversal. In: Johnson, S.D., Hunt Jr., W.A. (eds.) FMCAD 2000. LNCS, vol. 1954,
+    pp. 372–389. Springer, Heidelberg (2000)'
+  volume-title: Formal Methods in Computer-Aided Design
+  year: '2000'
+- doi: 10.1007/10722167_15
+  unstructured: 'Clarke, E.M., Grumberg, O., Jha, S., Lu, Y., Veith, H.: Counterexample-guided
+    abstraction refinement. In: Proceedings of Conference on Computer Aided Verification,
+    pp. 154–169 (2000)'
+- doi: 10.1007/3-540-36126-X_3
+  unstructured: 'Chauhan, P., Clarke, E.M., Kukula, J., Sapra, S., Veith, H., Wang,
+    D.: Automated Abstraction Refinement for Model Checking Large State Spaces using
+    SAT based Conflict Analysis. In: Proceedings of Conference on Formal Methods in
+    CAD (FMCAD) (2002)'
+- doi: 10.1007/978-3-540-45069-6_1
+  unstructured: 'McMillan, K.L.: Interpolation and SAT-based Model Checking. In: Proceedings
+    of Conference on Computer-Aided Verification (2003)'
+- author: P.A. Abdulla
+  doi: 10.1007/3-540-46419-0_28
+  first-page: '411'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Abdulla, P.A., Bjesse, P., Eén, N.: Symbolic Reachability Analysis
+    Based on SAT-Solvers. In: Schwartzbach, M.I., Graf, S. (eds.) TACAS 2000. LNCS,
+    vol. 1785, p. 411. Springer, Heidelberg (2000)'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2000'
+- doi: 10.1007/10722167_13
+  unstructured: 'Williams, P., Biere, A., Clarke, E.M., Gupta, A.: Combining Decision
+    Diagrams and SAT Procedures for Efficient Symbolic Model Checking. In: Proceedings
+    of International Conference on Computer-Aided Verification, pp. 124–138 (2000)'
+- author: K.L. McMillan
+  doi: 10.1007/3-540-45657-0_19
+  first-page: '250'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'McMillan, K.L.: Applying SAT methods in unbounded symbolic model
+    checking. In: Brinksma, E., Larsen, K.G. (eds.) CAV 2002. LNCS, vol. 2404, p.
+    250. Springer, Heidelberg (2002)'
+  volume-title: Computer Aided Verification
+  year: '2002'
+- doi: 10.1145/776038.776043
+  unstructured: 'Kang, H.-J., Park, I.-C.: SAT-based unbounded symbolic model checking.
+    In: Proceedings of the Design Automation Conference (2003)'
+- doi: 10.1007/11513988_12
+  unstructured: 'Tang, D., Malik, S., Gupta, A., Ip, N.: Symmetry reduction in SAT-based
+    model checking. In: Proceedings of the International Conference on Computer Aided
+    Verification, pp. 125–138 (2005)'
+- unstructured: VIS Home page, http://www-cad.eecs.berkeley.edu/~vis
+- author: A. Gupta
+  unstructured: 'Gupta, A., Bayazit, A.A., Mahajan, Y.: Verification Languages. In:
+    The Industrial Information Technology Handbook. CRC Press, Boca Raton (2005)'
+  volume-title: The Industrial Information Technology Handbook
+  year: '2005'
+- unstructured: 'Williams, S.: Icarus Verilog, http://www.icarus.com/eda/verilog'
+doi: 10.1007/11757283_5
+files:
+- gupta-aarti-and-ganai-malay-k.-and-wang-chaosat-based-verification-methods-and-applications-in-hardware-verification2006.pdf
+- gupta-aarti-and-ganai-malay-k.-and-wang-chaosat-based-verification-methods-and-applications-in-hardware-verification2006-a.pdf
+isbn:
+- '9783540343042'
+- '9783540343059'
+journal: Formal Methods for Hardware Verification
+pages: 108--143
+publisher: Springer Berlin Heidelberg
+time-added: 2020-05-11-01:00:09
+title: SAT-Based Verification Methods and Applications in Hardware Verification
+type: inbook
+url: http://dx.doi.org/10.1007/11757283_5
+year: 2006

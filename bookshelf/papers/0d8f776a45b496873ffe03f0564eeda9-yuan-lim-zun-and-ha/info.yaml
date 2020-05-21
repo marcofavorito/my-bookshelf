@@ -1,0 +1,33 @@
+abstract: We propose an actor-critic, model-free, and online Reinforcement Learning
+  (RL) framework for continuous-state continuous-action Markov Decision Processes
+  (MDPs) when the reward is highly sparse but encompasses a high-level temporal structure.
+  We represent this temporal structure by a finite-state machine and construct an
+  on-the-fly synchronised product with the MDP and the finite machine. The temporal
+  structure acts as a guide for the RL agent within the product, where a modular Deep
+  Deterministic Policy Gradient (DDPG) architecture is proposed to generate a low-level
+  control policy. We evaluate our framework in a Mars rover experiment and we present
+  the success rate of the synthesised policy.
+archiveprefix: arXiv
+author: Yuan, Lim Zun and Hasanbeig, Mohammadhosein and Abate, Alessandro and Kroening,
+  Daniel
+author_list:
+- family: Yuan
+  given: Lim Zun
+- family: Hasanbeig
+  given: Mohammadhosein
+- family: Abate
+  given: Alessandro
+- family: Kroening
+  given: Daniel
+eprint: 1909.11591v2
+file: 1909.11591v2.pdf
+files:
+- yuan-lim-zun-and-hasanbeig-mohammadhosein-and-abate-alessandro-and-kroening-danielmodular-deep-reinforcement-learning-with-temporal-logic-specific.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1909.11591v2
+time-added: 2020-05-20-13:07:57
+title: Modular Deep Reinforcement Learning with Temporal Logic Specifications
+type: article
+url: http://arxiv.org/abs/1909.11591v2
+year: '2019'

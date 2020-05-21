@@ -1,0 +1,41 @@
+abstract: '<jats:p>Temporal-difference (TD) learning is an attractive, computationally
+  efficient framework for model- free reinforcement learning. Q-learning is one of
+  the most widely used TD learning technique that enables an agent to learn the optimal
+  action-value function, i.e. Q-value function. Contrary to its widespread use, Q-learning
+  has only been proven to converge on Markov Decision Processes (MDPs) and Q-uniform
+  abstractions of finite-state MDPs. On the other hand, most real-world problems are
+  inherently non-Markovian: the full true state of the environment is not revealed
+  by recent observations. In this paper, we investigate the behavior of Q-learning
+  when applied to non-MDP and non-ergodic domains which may have infinitely many underlying
+  states. We prove that the convergence guarantee of Q-learning can be extended to
+  a class of such non-MDP problems, in particular, to some non-stationary domains.
+  We show that state-uniformity of the optimal Q-value function is a necessary and
+  sufficient condition for Q-learning to converge even in the case of infinitely many
+  internal states.</jats:p>'
+author: Majeed, Sultan Javed and Hutter, Marcus
+author_list:
+- affiliation:
+  - name: Research School of Computer Science, Australian National University
+  family: Majeed
+  given: Sultan Javed
+- affiliation:
+  - name: Research School of Computer Science, Australian National University
+  family: Hutter
+  given: Marcus
+booktitle: Twenty-Seventh International Joint Conference on Artificial Intelligence
+  {IJCAI-18}
+doi: 10.24963/ijcai.2018/353
+files:
+- majeed-sultan-javed-and-hutter-marcuson-q-learning-convergence-for-non-markov-decision-processes2018.pdf
+isbn:
+- '9780999241127'
+journal: Proceedings of the Twenty-Seventh International Joint Conference on Artificial
+  Intelligence
+month: 7
+publisher: International Joint Conferences on Artificial Intelligence Organization
+time-added: 2020-05-15-21:46:25
+title: On Q-learning Convergence for Non-Markov Decision Processes
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2018/353
+venue: Stockholm, Sweden
+year: 2018

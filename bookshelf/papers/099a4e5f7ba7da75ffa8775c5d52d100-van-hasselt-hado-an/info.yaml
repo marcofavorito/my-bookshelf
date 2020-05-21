@@ -1,0 +1,38 @@
+abstract: We know from reinforcement learning theory that temporal difference learning
+  can fail in certain cases. Sutton and Barto (2018) identify a deadly triad of function
+  approximation, bootstrapping, and off-policy learning. When these three properties
+  are combined, learning can diverge with the value estimates becoming unbounded.
+  However, several algorithms successfully combine these three properties, which indicates
+  that there is at least a partial gap in our understanding. In this work, we investigate
+  the impact of the deadly triad in practice, in the context of a family of popular
+  deep reinforcement learning models - deep Q-networks trained with experience replay
+  - analysing how the components of this system play a role in the emergence of the
+  deadly triad, and in the agent's performance
+archiveprefix: arXiv
+author: van Hasselt, Hado and Doron, Yotam and Strub, Florian and Hessel, Matteo and
+  Sonnerat, Nicolas and Modayil, Joseph
+author_list:
+- family: van Hasselt
+  given: Hado
+- family: Doron
+  given: Yotam
+- family: Strub
+  given: Florian
+- family: Hessel
+  given: Matteo
+- family: Sonnerat
+  given: Nicolas
+- family: Modayil
+  given: Joseph
+eprint: 1812.02648v1
+file: 1812.02648v1.pdf
+files:
+- van-hasselt-hado-and-doron-yotam-and-strub-florian-and-hessel-matteo-and-sonnerat-nicolas-and-modayil-josephdeep-reinforcement-learning-and-the.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 1812.02648v1
+time-added: 2020-05-18-14:51:44
+title: Deep Reinforcement Learning and the Deadly Triad
+type: article
+url: http://arxiv.org/abs/1812.02648v1
+year: '2018'

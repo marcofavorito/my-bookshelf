@@ -1,0 +1,36 @@
+abstract: We propose two models of random quantified boolean formulas and their natural
+  random disjunctive logic program counterparts. The models extend the standard models
+  of random k-CNF formulas and the Chen-Interian model of random 2QBFs. The first
+  model controls the generation of programs and QSAT formulas by imposing a specific
+  structure on rules and clauses, respectively. The second model is based on a family
+  of QSAT formulas in a non-clausal form. We provide theoretical bounds for the phase
+  transition region in our models, and show experimentally the presence of the easy-hard-easy
+  pattern and its alignment with the location of the phase transition. We show that
+  boolean formulas and logic programs from our models are significantly harder than
+  those obtained from the standard k-CNF and Chen-Interian models, and that their
+  combination yields formulas and programs that are "super-hard" to evaluate. We also
+  provide evidence suggesting that formulas from one of our models are well suited
+  for assessing solvers tuned to real-world instances. Finally, it is noteworthy that,
+  to the best of our knowledge, our models and results on random disjunctive logic
+  programs are the first of their kind.
+archiveprefix: arXiv
+author: Amendola, Giovanni and Ricca, Francesco and Truszczynski, Miroslaw
+author_list:
+- family: Amendola
+  given: Giovanni
+- family: Ricca
+  given: Francesco
+- family: Truszczynski
+  given: Miroslaw
+eprint: 1802.03828v1
+file: 1802.03828v1.pdf
+files:
+- amendola-giovanni-and-ricca-francesco-and-truszczynski-miroslawnew-models-for-generating-hard-random-boolean-formulas-and-disjunctive-logic-progr.pdf
+month: Feb
+primaryclass: cs.LO
+ref: 1802.03828v1
+title: New Models for Generating Hard Random Boolean Formulas and Disjunctive   Logic
+  Programs
+type: article
+url: http://arxiv.org/abs/1802.03828v1
+year: '2018'

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="Yes">
+
+    
+
+    <meta name="journal_id" content="10994"/>
+
+    <meta name="dc.title" content="Simple statistical gradient-following algorithms for connectionist reinforcement learning"/>
+
+    <meta name="dc.source" content="Machine Learning 1992 8:3"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1992 Kluwer Academic Publishers"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algorithms, called REINFORCE algorithms, are shown to make weight adjustments in a direction that lies along the gradient of expected reinforcement in both immediate-reinforcement tasks and certain limited forms of delayed-reinforcement tasks, and they do this without explicitly computing gradient estimates or even storing information from which such estimates could be computed. Specific examples of such algorithms are presented, some of which bear a close relationship to certain existing algorithms while others are novel but potentially interesting in their own right. Also given are results that show how such algorithms can be naturally integrated with backpropagation. We close with a brief discussion of a number of additional issues surrounding the use of such algorithms, including what is known about their limiting behaviors as well as further considerations that might be used to help develop similar but potentially more powerful reinforcement learning algorithms."/>
+
+    <meta name="prism.issn" content="1573-0565"/>
+
+    <meta name="prism.publicationName" content="Machine Learning"/>
+
+    <meta name="prism.volume" content="8"/>
+
+    <meta name="prism.number" content="3"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="229"/>
+
+    <meta name="prism.endingPage" content="256"/>
+
+    <meta name="prism.copyright" content="1992 Kluwer Academic Publishers"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF00992696"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF00992696"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF00992696.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF00992696"/>
+
+    <meta name="citation_journal_title" content="Machine Learning"/>
+
+    <meta name="citation_journal_abbrev" content="Mach Learn"/>
+
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+
+    <meta name="citation_issn" content="1573-0565"/>
+
+    <meta name="citation_title" content="Simple statistical gradient-following algorithms for connectionist reinforcement learning"/>
+
+    <meta name="citation_volume" content="8"/>
+
+    <meta name="citation_issue" content="3"/>
+
+    <meta name="citation_publication_date" content="1992/05"/>
+
+    <meta name="citation_firstpage" content="229"/>
+
+    <meta name="citation_lastpage" content="256"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_fulltext_world_readable" content=""/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF00992696"/>
+
+    <meta name="DOI" content="10.1007/BF00992696"/>
+
+    <meta name="citation_doi" content="10.1007/BF00992696"/>
+
+    <meta name="description" content="This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algori"/>
+
+    <meta name="dc.creator" content="Ronald J. Williams"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Control, Robotics, Mechatronics"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Simulation and Modeling"/>
+
+    <meta name="dc.subject" content="Natural Language Processing (NLP)"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Human Neurobiology; citation_title=Learning by statistical cooperation of self-interested neuron-like computing elements; citation_author=A.G. Barto; citation_volume=4; citation_publication_date=1985; citation_pages=229-256; citation_id=CR1"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Transactions on Systems, Man, and Cybernetics; citation_title=Pattern recognizing stochastic learning automata; citation_author=A.G. Barto, P. Anandan; citation_volume=15; citation_publication_date=1985; citation_pages=360-374; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="Barto, A.G. &amp; Anderson, C.W. (1985). Structural learning in connectionist systems.Proceedings of the Seventh Annual Conference of the Cognitive Science Society, (pp. 43&#8211;53). Irvine, CA."/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Transactions on Systems, Man, and Cybernetics; citation_title=Neuronlike elements that can solve difficult learning control problems; citation_author=A.G. Barto, R.S. Sutton, C.W. Anderson; citation_volume=13; citation_publication_date=1983; citation_pages=835-846; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Biological Cybernetics; citation_title=Associative search network: A reinforcement learning associative memory; citation_author=A.G. Barto, R.S. Sutton, P.S. Brouwer; citation_volume=40; citation_publication_date=1981; citation_pages=201-211; citation_id=CR5"/>
+
+    <meta name="citation_reference" content="Barto, A.G., &amp; Jordan, M.I. (1987). Gradient following without back-propagation in layered networks.Proceedings of the First Annual International Conference on Neural Networks, Vol. II (pp. 629&#8211;636). San Diego, CA."/>
+
+    <meta name="citation_reference" content="citation_title=Learning and sequential decision making; citation_inbook_title=Learning and computational neuroscience: Foundations of adaptive networks; citation_publication_date=1990; citation_id=CR7; citation_author=A.G. Barto; citation_author=R.S. Sutton; citation_author=C.J.C.H. Watkins; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="citation_title=Reinforcement comparison; citation_inbook_title=Proceedings of the 1990 Connectionist Models Summer School; citation_publication_date=1990; citation_pages=45-51; citation_id=CR8; citation_author=P. Dayan; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Adaptive filtering prediction and control; citation_publication_date=1984; citation_id=CR9; citation_author=G.C. Goodwin; citation_author=K.S. Sin; citation_publisher=Prentice-Hall"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Neural Networks; citation_title=A stochastic reinforcement learning algorithm for learning real-valued functions; citation_author=V. Gullapalli; citation_volume=3; citation_publication_date=1990; citation_pages=671-692; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="citation_title=Learning and relearning in Boltzmann machines; citation_inbook_title=Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1: Foundations; citation_publication_date=1986; citation_id=CR11; citation_author=G.E. Hinton; citation_author=T.J. Sejnowski; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="citation_title=Forward models: supervised learning with a distal teacher; citation_publication_date=1990; citation_id=CR12; citation_author=M.I. Jordan; citation_author=D.E. Rumelhart; citation_publisher=Massachusetts Institute of Technology, Center for Cognitive Science"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Proceedings of Cognitiva; citation_title=Une procedure d&#39;apprentissage pour resau a sequil assymetrique [A learning procedure for asymmetric threshold networks]; citation_author=Y. leCun; citation_volume=85; citation_publication_date=1985; citation_pages=599-604; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="Munro, P. (1987). A dual back-propagation scheme for scalar reward learning.Proceedings of the Ninth Annual Conference of the Cognitive Science Society (pp. 165&#8211;176). Seattle, WA."/>
+
+    <meta name="citation_reference" content="citation_title=Learning Automata: An introduction; citation_publication_date=1989; citation_id=CR15; citation_author=K.S. Narendra; citation_author=M.A.L. Thathatchar; citation_publisher=Prentice Hall"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Transactions on Systems, Man, and Cybernetics; citation_title=AnN-player sequential stochastic game with identical payoffs; citation_author=K.S. Narendra, R.M. Wheeler; citation_volume=13; citation_publication_date=1983; citation_pages=1154-1158; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="citation_title=Principles of artificial intelligence; citation_publication_date=1980; citation_id=CR17; citation_author=N.J. Nilsson; citation_publisher=Tioga"/>
+
+    <meta name="citation_reference" content="citation_title=Learning-logic; citation_publication_date=1985; citation_id=CR18; citation_author=D.B. Parker; citation_publisher=Massachusetts Institute of Technology, Center for Computational Research in Economics and Management Science"/>
+
+    <meta name="citation_reference" content="citation_title=An introduction to probability theory and mathematical statistics; citation_publication_date=1976; citation_id=CR19; citation_author=V.K. Rohatgi; citation_publisher=Wiley"/>
+
+    <meta name="citation_reference" content="citation_title=Learning internal representations by error propagation; citation_inbook_title=Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1: Foundations; citation_publication_date=1986; citation_id=CR20; citation_author=D.E. Rumelhart; citation_author=G.E. Hinton; citation_author=R.J. Williams; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="Schmidhuber, J.H. &amp; Huber, R. (1990). Learning to generate focus trajectories for attentive vision. (Technical Report FKI-128-90). Technische Universit&#228;t M&#252;nchen, Institut f&#252;r Informatik."/>
+
+    <meta name="citation_reference" content="citation_title=Temporal credit assignment in reinforcement learning; citation_publication_date=1984; citation_id=CR22; citation_author=R.S. Sutton; citation_publisher=Dept. of Computer and Information Science, University of Massachusetts"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=Learning to predict by the methods of temporal differences; citation_author=R.S. Sutton; citation_volume=3; citation_publication_date=1988; citation_pages=9-44; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Transactions on Systems, Man, and Cybernetics; citation_title=A new approach to the design of reinforcement schemes for learning automata; citation_author=M.A.L. Thathatchar, P.S. Sastry; citation_volume=15; citation_publication_date=1985; citation_pages=168-175; citation_id=CR24"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Transactions on Automatic Control; citation_title=Decentralized learning in finite Markov chains; citation_author=R.M. Wheeler, K.S. Narendra; citation_volume=31; citation_publication_date=1986; citation_pages=519-526; citation_id=CR25"/>
+
+    <meta name="citation_reference" content="citation_title=Learning from delayed rewards; citation_publication_date=1989; citation_id=CR26; citation_author=C.J.C.H. Watkins; citation_publisher=Cambridge University"/>
+
+    <meta name="citation_reference" content="citation_title=Beyond regression: new tools for prediction and analysis in the behavioral sciences; citation_publication_date=1974; citation_id=CR27; citation_author=P.J. Werbos; citation_publisher=Harvard University"/>
+
+    <meta name="citation_reference" content="citation_title=Reinforcement learning in connectionist networks: A mathematical analysis; citation_publication_date=1986; citation_id=CR28; citation_author=R.J. Williams; citation_publisher=University of California, Institute for Cognitive Science"/>
+
+    <meta name="citation_reference" content="citation_title=Reinforcement-learning connectionist systems; citation_publication_date=1987; citation_id=CR29; citation_author=R.J. Williams; citation_publisher=Northeastern University, College of Computer Science"/>
+
+    <meta name="citation_reference" content="Williams, R.J. (1987b). A class of gradient-estimating algorithms for reinforcement learning in neural networks.Proceedings of the First Annual International Conference on Neural Networks, Vol. II (pp. 601&#8211;608). San Diego, CA."/>
+
+    <meta name="citation_reference" content="Williams, R.J. (1988a). On the use of backpropagation in associative reinforcement learning.Proceedings of the Second Annual International Conference on Neural Networks, Vol. I (pp. 263&#8211;270). San Diego, CA."/>
+
+    <meta name="citation_reference" content="citation_title=Toward a theory of reinforcement-learning connectionist systems; citation_publication_date=1988; citation_id=CR32; citation_author=R.J. Williams; citation_publisher=Northeastern University, College of Computer Science"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Connection Science; citation_title=Function optimization using connectionist reinforcement learning algorithms; citation_author=R.J. Williams, J. Peng; citation_volume=3; citation_publication_date=1991; citation_pages=241-268; citation_id=CR33"/>
+
+    <meta name="citation_author" content="Ronald J. Williams"/>
+
+    <meta name="citation_author_email" content="rjw@corwin.ccs.northeastern.edu"/>
+
+    <meta name="citation_author_institution" content="College of Computer Science, 161 CN, Northeastern University, Boston"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="Simple statistical gradient-following algorithms for connectionist rei"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algorithms, called REINFORCE algorithms, are shown to make weight adjustments in a direction that lies along the gradient of expected reinforcement in both immediate-reinforcement tasks and certain limited forms of delayed-reinforcement tasks, and they do this without explicitly computing gradient estimates or even storing information from which such estimates could be computed. Specific examples of such algorithms are presented, some of which bear a close relationship to certain existing algorithms while others are novel but potentially interesting in their own right. Also given are results that show how such algorithms can be naturally integrated with backpropagation. We close with a brief discussion of a number of additional issues surrounding the use of such algorithms, including what is known about their limiting behaviors as well as further considerations that might be used to help develop similar but potentially more powerful reinforcement learning algorithms."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10994/8/3.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF00992696&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1992/05/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF00992696"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Machine Learning"/>
+        <meta property="og:title" content="Simple statistical gradient-following algorithms for connectionist reinforcement learning"/>
+        <meta property="og:description" content="This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algorithms, called REINFORCE algorithms, are shown to make weight adjustments in a direction that lies along the gradient of expected reinforcement in both immediate-reinforcement tasks and certain limited forms of delayed-reinforcement tasks, and they do this without explicitly computing gradient estimates or even storing information from which such estimates could be computed. Specific examples of such algorithms are presented, some of which bear a close relationship to certain existing algorithms while others are novel but potentially interesting in their own right. Also given are results that show how such algorithms can be naturally integrated with backpropagation. We close with a brief discussion of a number of additional issues surrounding the use of such algorithms, including what is known about their limiting behaviors as well as further considerations that might be used to help develop similar but potentially more powerful reinforcement learning algorithms."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10994.jpg"/>
+    
+
+    <title>Simple statistical gradient-following algorithms for connectionist reinforcement learning | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-c36432aacc.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-b62189e5ed.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF00992696","Journal Title":"Machine Learning","Journal Id":10994,"Keywords":"Reinforcement learning, connectionist networks, gradient descent, mathematical analysis","kwrd":["Reinforcement_learning","connectionist_networks","gradient_descent","mathematical_analysis"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"Y","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"subscription","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-BF00992696","Full HTML":"N","Subject Codes":["SCI","SCI21000","SCT19000","SCI19000","SCI21040"],"pmc":["I","I21000","T19000","I19000","I21040"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-0565","pissn":"0885-6125"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Artificial Intelligence","2":"Control, Robotics, Mechatronics","3":"Artificial Intelligence","4":"Simulation and Modeling","5":"Natural Language Processing (NLP)"},"secondarySubjectCodes":{"1":"I21000","2":"T19000","3":"I21000","4":"I19000","5":"I21040"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF00992696","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    (function(w, d) {
+        window.config = window.config || {};
+        window.config.mustardcut = false;
+
+        var ctmLinkEl = d.getElementById('js-mustard');
+
+        if (ctmLinkEl && w.matchMedia && w.matchMedia(ctmLinkEl.media).matches) {
+            window.config.mustardcut = true;
+
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return !(scriptEl.hasOwnProperty('noModule')) && scriptEl.hasOwnProperty('onbeforeload');
+            }
+
+            var headScripts = [
+                { 'src' : '/oscar-static/js/polyfill-es5-bundle-ab77bcf8ba.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es5-bundle-5a82bc1fe4.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es6-bundle-cba6a3f7dc.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                { 'src' : '/oscar-static/js/app-es5-bundle-dc94dc76aa.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/app-es6-bundle-0535bd1dc3.js', 'async': false, 'module': true}
+                
+                
+                    , { 'src' : '/oscar-static/js/global-article-es5-bundle-cda72a2f15.js', 'async': false, 'module': false},
+                    { 'src' : '/oscar-static/js/global-article-es6-bundle-cfa69aa341.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i=0; i<headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i=0; i<bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        }
+    })(window, document);
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+<div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=BF00992696;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00992696">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="c-banner c-banner--marketing">
+	<div class="u-container">
+		<p class="u-ma-0">
+			We'd like to understand how you use our websites in order to improve them.
+			<a class="c-banner__link u-underline"
+				href="https://www.surveymonkey.co.uk/r/F2JMQ6L" data-track="click"
+				data-track-action="Survey click" data-track-category="Blue Banner"
+				data-track-label=10.1007/BF00992696>Register your interest.</a>
+		</p>
+	</div>
+</div>
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+        <main class="c-article-main-column u-float-left js-main-column">
+            <div id="pdflink-container" class="download-article test-pdf-link">
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00992696.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+</div>
+
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="1992-05" itemprop="datePublished">May 1992</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title u-h1" data-test="article-title" data-article-title="" itemprop="name headline">Simple statistical gradient-following algorithms for connectionist reinforcement learning</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1">Ronald J. Williams</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Northeastern University" /><meta itemprop="address" content="grid.261112.7, 0000000121733359, College of Computer Science, 161 CN, Northeastern University, 360 Huntington Ave., 02115, Boston, MA" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/10994"><i data-test="journal-title">Machine Learning</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 8</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">229</span>–<span itemprop="pageEnd">256</span>(<span data-test="article-publication-year">1992</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">23k <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">1087 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">6 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF00992696/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algorithms, called REINFORCE algorithms, are shown to make weight adjustments in a direction that lies along the gradient of expected reinforcement in both immediate-reinforcement tasks and certain limited forms of delayed-reinforcement tasks, and they do this without explicitly computing gradient estimates or even storing information from which such estimates could be computed. Specific examples of such algorithms are presented, some of which bear a close relationship to certain existing algorithms while others are novel but potentially interesting in their own right. Also given are results that show how such algorithms can be naturally integrated with backpropagation. We close with a brief discussion of a number of additional issues surrounding the use of such algorithms, including what is known about their limiting behaviors as well as further considerations that might be used to help develop similar but potentially more powerful reinforcement learning algorithms.</p></div></div></section>
+                    
+    
+
+
+                    
+
+                    
+    <div class="note test-pdf-link" id="cobranding-and-download-availability-text">
+        <div class="c-article-access-provider" aria-hidden="true" data-component="provided-by-box">
+            
+            
+                <p class="c-article-access-provider__text">
+                    <a href="/content/pdf/10.1007/BF00992696.pdf" target="_blank" rel="noopener"
+                    data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="inline link">Download</a> to read the full article text
+                </p>
+            
+        </div>
+    </div>
+
+
+                    
+                        
+                            
+                        
+                    
+
+                    <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.G.. Barto, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Barto, A.G. (1985). Learning by statistical cooperation of self-interested neuron-like computing elements.Huma" /><p class="c-article-references__text" id="ref-CR1">Barto, A.G. (1985). Learning by statistical cooperation of self-interested neuron-like computing elements.<i>Human Neurobiology</i>, 4, 229–256.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20by%20statistical%20cooperation%20of%20self-interested%20neuron-like%20computing%20elements&amp;journal=Human%20Neurobiology&amp;volume=4&amp;pages=229-256&amp;publication_year=1985&amp;author=Barto%2CA.G.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.G.. Barto, P.. Anandan, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Barto, A.G. &amp; Anandan, P. (1985). Pattern recognizing stochastic learning automata.IEEE Transactions on System" /><p class="c-article-references__text" id="ref-CR2">Barto, A.G. &amp; Anandan, P. (1985). Pattern recognizing stochastic learning automata.<i>IEEE Transactions on Systems, Man, and Cybernetics</i>, 15, 360–374.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Pattern%20recognizing%20stochastic%20learning%20automata&amp;journal=IEEE%20Transactions%20on%20Systems%2C%20Man%2C%20and%20Cybernetics&amp;volume=15&amp;pages=360-374&amp;publication_year=1985&amp;author=Barto%2CA.G.&amp;author=Anandan%2CP.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Barto, A.G. &amp; Anderson, C.W. (1985). Structural learning in connectionist systems.Proceedings of the Seventh A" /><p class="c-article-references__text" id="ref-CR3">Barto, A.G. &amp; Anderson, C.W. (1985). Structural learning in connectionist systems.<i>Proceedings of the Seventh Annual Conference of the Cognitive Science Society</i>, (pp. 43–53). Irvine, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.G.. Barto, R.S.. Sutton, C.W.. Anderson, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Barto, A.G., Sutton, R.S., &amp; Anderson, C.W. (1983). Neuronlike elements that can solve difficult learning cont" /><p class="c-article-references__text" id="ref-CR4">Barto, A.G., Sutton, R.S., &amp; Anderson, C.W. (1983). Neuronlike elements that can solve difficult learning control problems.<i>IEEE Transactions on Systems, Man, and Cybernetics</i>, 13, 835–846.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Neuronlike%20elements%20that%20can%20solve%20difficult%20learning%20control%20problems&amp;journal=IEEE%20Transactions%20on%20Systems%2C%20Man%2C%20and%20Cybernetics&amp;volume=13&amp;pages=835-846&amp;publication_year=1983&amp;author=Barto%2CA.G.&amp;author=Sutton%2CR.S.&amp;author=Anderson%2CC.W.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.G.. Barto, R.S.. Sutton, P.S.. Brouwer, " /><meta itemprop="datePublished" content="1981" /><meta itemprop="headline" content="Barto, A.G., Sutton, R.S., &amp; Brouwer, P.S. (1981). Associative search network: A reinforcement learning associ" /><p class="c-article-references__text" id="ref-CR5">Barto, A.G., Sutton, R.S., &amp; Brouwer, P.S. (1981). Associative search network: A reinforcement learning associative memory.<i>Biological Cybernetics</i>, 40, 201–211.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 5 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Associative%20search%20network%3A%20A%20reinforcement%20learning%20associative%20memory&amp;journal=Biological%20Cybernetics&amp;volume=40&amp;pages=201-211&amp;publication_year=1981&amp;author=Barto%2CA.G.&amp;author=Sutton%2CR.S.&amp;author=Brouwer%2CP.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Barto, A.G., &amp; Jordan, M.I. (1987). Gradient following without back-propagation in layered networks.Proceeding" /><p class="c-article-references__text" id="ref-CR6">Barto, A.G., &amp; Jordan, M.I. (1987). Gradient following without back-propagation in layered networks.<i>Proceedings of the First Annual International Conference on Neural Networks</i>, Vol. II (pp. 629–636). San Diego, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="A.G.. Barto, R.S.. Sutton, C.J.C.H.. Watkins, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Barto, A.G., Sutton, R.S., &amp; Watkins, C.J.C.H. (1990). Learning and sequential decision making. In: M. Gabriel" /><p class="c-article-references__text" id="ref-CR7">Barto, A.G., Sutton, R.S., &amp; Watkins, C.J.C.H. (1990). Learning and sequential decision making. In: M. Gabriel &amp; J.W. Moore (Eds.),<i>Learning and computational neuroscience: Foundations of adaptive networks</i>. Cambridge, MA: MIT Press.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20and%20computational%20neuroscience%3A%20Foundations%20of%20adaptive%20networks&amp;publication_year=1990&amp;author=Barto%2CA.G.&amp;author=Sutton%2CR.S.&amp;author=Watkins%2CC.J.C.H.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="P.. Dayan, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Dayan, P. (1990). Reinforcement comparison. In D.S. Touretzky, J.L. Elman, T.J. Sejnowski, &amp; G.E. Hinton (Eds." /><p class="c-article-references__text" id="ref-CR8">Dayan, P. (1990). Reinforcement comparison. In D.S. Touretzky, J.L. Elman, T.J. Sejnowski, &amp; G.E. Hinton (Eds.),<i>Proceedings of the 1990 Connectionist Models Summer School</i> (pp. 45–51). San Mateo, CA: Morgan Kaufmann.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Proceedings%20of%20the%201990%20Connectionist%20Models%20Summer%20School&amp;pages=45-51&amp;publication_year=1990&amp;author=Dayan%2CP.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.C.. Goodwin, K.S.. Sin, " /><meta itemprop="datePublished" content="1984" /><meta itemprop="headline" content="Goodwin, G.C. &amp; Sin, K.S. (1984).Adaptive filtering prediction and control. Englewood Cliffs, NJ: Prentice-Hal" /><p class="c-article-references__text" id="ref-CR9">Goodwin, G.C. &amp; Sin, K.S. (1984).<i>Adaptive filtering prediction and control</i>. Englewood Cliffs, NJ: Prentice-Hall.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Adaptive%20filtering%20prediction%20and%20control&amp;publication_year=1984&amp;author=Goodwin%2CG.C.&amp;author=Sin%2CK.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="V.. Gullapalli, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Gullapalli, V. (1990). A stochastic reinforcement learning algorithm for learning real-valued functions.Neural" /><p class="c-article-references__text" id="ref-CR10">Gullapalli, V. (1990). A stochastic reinforcement learning algorithm for learning real-valued functions.<i>Neural Networks</i>, 3, 671–692.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20stochastic%20reinforcement%20learning%20algorithm%20for%20learning%20real-valued%20functions&amp;journal=Neural%20Networks&amp;volume=3&amp;pages=671-692&amp;publication_year=1990&amp;author=Gullapalli%2CV.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.E.. Hinton, T.J.. Sejnowski, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Hinton, G.E. &amp; Sejnowski, T.J. (1986). Learning and relearning in Boltzmann machines. In: D.E. Rumelhart &amp; J.L" /><p class="c-article-references__text" id="ref-CR11">Hinton, G.E. &amp; Sejnowski, T.J. (1986). Learning and relearning in Boltzmann machines. In: D.E. Rumelhart &amp; J.L. McClelland, (Eds.),<i>Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1: Foundations</i>. Cambridge, MA: MIT Press.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Parallel%20distributed%20processing%3A%20Explorations%20in%20the%20microstructure%20of%20cognition.%20Vol.%201%3A%20Foundations&amp;publication_year=1986&amp;author=Hinton%2CG.E.&amp;author=Sejnowski%2CT.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="M.I.. Jordan, D.E.. Rumelhart, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Jordan, M.I. &amp; Rumelhart, D.E. (1990).Forward models: supervised learning with a distal teacher. (Occasional P" /><p class="c-article-references__text" id="ref-CR12">Jordan, M.I. &amp; Rumelhart, D.E. (1990).<i>Forward models: supervised learning with a distal teacher</i>. (Occasional Paper — 40). Cambridge, MA: Massachusetts Institute of Technology, Center for Cognitive Science.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Forward%20models%3A%20supervised%20learning%20with%20a%20distal%20teacher&amp;publication_year=1990&amp;author=Jordan%2CM.I.&amp;author=Rumelhart%2CD.E.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="Y.. leCun, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="leCun, Y. (1985). Une procedure d'apprentissage pour resau a sequil assymetrique [A learning procedure for asy" /><p class="c-article-references__text" id="ref-CR13">leCun, Y. (1985). Une procedure d'apprentissage pour resau a sequil assymetrique [A learning procedure for asymmetric threshold networks].<i>Proceedings of Cognitiva, 85</i>, 599–604.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Une%20procedure%20d%27apprentissage%20pour%20resau%20a%20sequil%20assymetrique%20%5BA%20learning%20procedure%20for%20asymmetric%20threshold%20networks%5D&amp;journal=Proceedings%20of%20Cognitiva&amp;volume=85&amp;pages=599-604&amp;publication_year=1985&amp;author=leCun%2CY.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Munro, P. (1987). A dual back-propagation scheme for scalar reward learning.Proceedings of the Ninth Annual Co" /><p class="c-article-references__text" id="ref-CR14">Munro, P. (1987). A dual back-propagation scheme for scalar reward learning.<i>Proceedings of the Ninth Annual Conference of the Cognitive Science Society</i> (pp. 165–176). Seattle, WA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="K.S.. Narendra, M.A.L.. Thathatchar, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Narendra, K.S. &amp; Thathatchar, M.A.L. (1989).Learning Automata: An introduction. Englewood Cliffs, NJ: Prentice" /><p class="c-article-references__text" id="ref-CR15">Narendra, K.S. &amp; Thathatchar, M.A.L. (1989).<i>Learning Automata: An introduction</i>. Englewood Cliffs, NJ: Prentice Hall.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20Automata%3A%20An%20introduction&amp;publication_year=1989&amp;author=Narendra%2CK.S.&amp;author=Thathatchar%2CM.A.L.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="K.S.. Narendra, R.M.. Wheeler, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Narendra, K.S. &amp; Wheeler, R.M., Jr. (1983). AnN-player sequential stochastic game with identical payoffs.IEEE " /><p class="c-article-references__text" id="ref-CR16">Narendra, K.S. &amp; Wheeler, R.M., Jr. (1983). An<i>N</i>-player sequential stochastic game with identical payoffs.<i>IEEE Transactions on Systems, Man, and Cybernetics</i>, 13, 1154–1158.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=AnN-player%20sequential%20stochastic%20game%20with%20identical%20payoffs&amp;journal=IEEE%20Transactions%20on%20Systems%2C%20Man%2C%20and%20Cybernetics&amp;volume=13&amp;pages=1154-1158&amp;publication_year=1983&amp;author=Narendra%2CK.S.&amp;author=Wheeler%2CR.M.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="N.J.. Nilsson, " /><meta itemprop="datePublished" content="1980" /><meta itemprop="headline" content="Nilsson, N.J. (1980).Principles of artificial intelligence. Palo Alto, CA: Tioga." /><p class="c-article-references__text" id="ref-CR17">Nilsson, N.J. (1980).<i>Principles of artificial intelligence</i>. Palo Alto, CA: Tioga.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 17 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Principles%20of%20artificial%20intelligence&amp;publication_year=1980&amp;author=Nilsson%2CN.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.B.. Parker, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Parker, D.B. (1985).Learning-logic. (Technical Report TR-47). Cambridge, MA: Massachusetts Institute of Techno" /><p class="c-article-references__text" id="ref-CR18">Parker, D.B. (1985).<i>Learning-logic</i>. (Technical Report TR-47). Cambridge, MA: Massachusetts Institute of Technology, Center for Computational Research in Economics and Management Science.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning-logic&amp;publication_year=1985&amp;author=Parker%2CD.B.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="V.K.. Rohatgi, " /><meta itemprop="datePublished" content="1976" /><meta itemprop="headline" content="Rohatgi, V.K. (1976)An introduction to probability theory and mathematical statistics. New York: Wiley." /><p class="c-article-references__text" id="ref-CR19">Rohatgi, V.K. (1976)<i>An introduction to probability theory and mathematical statistics</i>. New York: Wiley.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20introduction%20to%20probability%20theory%20and%20mathematical%20statistics&amp;publication_year=1976&amp;author=Rohatgi%2CV.K.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.E.. Rumelhart, G.E.. Hinton, R.J.. Williams, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation" /><p class="c-article-references__text" id="ref-CR20">Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation. In: D.E. Rumelhart &amp; J.L. McClelland, (Eds.),<i>Parallel distributed processing: Explorations in the microstructure of cognition. Vol. 1: Foundations</i>. Cambridge: MIT Press.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Parallel%20distributed%20processing%3A%20Explorations%20in%20the%20microstructure%20of%20cognition.%20Vol.%201%3A%20Foundations&amp;publication_year=1986&amp;author=Rumelhart%2CD.E.&amp;author=Hinton%2CG.E.&amp;author=Williams%2CR.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Schmidhuber, J.H. &amp; Huber, R. (1990). Learning to generate focus trajectories for attentive vision. (Technical" /><p class="c-article-references__text" id="ref-CR21">Schmidhuber, J.H. &amp; Huber, R. (1990). Learning to generate focus trajectories for attentive vision. (Technical Report FKI-128-90). Technische Universität München, Institut für Informatik.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.S.. Sutton, " /><meta itemprop="datePublished" content="1984" /><meta itemprop="headline" content="Sutton, R.S. (1984).Temporal credit assignment in reinforcement learning. Ph.D. Dissertation, Dept. of Compute" /><p class="c-article-references__text" id="ref-CR22">Sutton, R.S. (1984).<i>Temporal credit assignment in reinforcement learning</i>. Ph.D. Dissertation, Dept. of Computer and Information Science, University of Massachusetts, Amherst, MA.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Temporal%20credit%20assignment%20in%20reinforcement%20learning&amp;publication_year=1984&amp;author=Sutton%2CR.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.S.. Sutton, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Sutton, R.S. (1988). Learning to predict by the methods of temporal differences.Machine Learning, 3, 9–44." /><p class="c-article-references__text" id="ref-CR23">Sutton, R.S. (1988). Learning to predict by the methods of temporal differences.<i>Machine Learning</i>, 3, 9–44.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20to%20predict%20by%20the%20methods%20of%20temporal%20differences&amp;journal=Machine%20Learning&amp;volume=3&amp;pages=9-44&amp;publication_year=1988&amp;author=Sutton%2CR.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M.A.L.. Thathatchar, P.S.. Sastry, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Thathatchar, M.A.L. &amp; Sastry, P.S. (1985). A new approach to the design of reinforcement schemes for learning " /><p class="c-article-references__text" id="ref-CR24">Thathatchar, M.A.L. &amp; Sastry, P.S. (1985). A new approach to the design of reinforcement schemes for learning automata.<i>IEEE Transactions on Systems, Man, and Cybernetics</i>, 15, 168–175.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20new%20approach%20to%20the%20design%20of%20reinforcement%20schemes%20for%20learning%20automata&amp;journal=IEEE%20Transactions%20on%20Systems%2C%20Man%2C%20and%20Cybernetics&amp;volume=15&amp;pages=168-175&amp;publication_year=1985&amp;author=Thathatchar%2CM.A.L.&amp;author=Sastry%2CP.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.M.. Wheeler, K.S.. Narendra, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Wheeler, R.M., Jr. &amp; Narendra K.S. (1986). Decentralized learning in finite Markov chains.IEEE Transactions on" /><p class="c-article-references__text" id="ref-CR25">Wheeler, R.M., Jr. &amp; Narendra K.S. (1986). Decentralized learning in finite Markov chains.<i>IEEE Transactions on Automatic Control</i>, 31, 519–526.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 25 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Decentralized%20learning%20in%20finite%20Markov%20chains&amp;journal=IEEE%20Transactions%20on%20Automatic%20Control&amp;volume=31&amp;pages=519-526&amp;publication_year=1986&amp;author=Wheeler%2CR.M.&amp;author=Narendra%2CK.S.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="C.J.C.H.. Watkins, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Watkins, C.J.C.H. (1989).Learning from delayed rewards. Ph.D. Dissertation, Cambridge University, Cambridge, E" /><p class="c-article-references__text" id="ref-CR26">Watkins, C.J.C.H. (1989).<i>Learning from delayed rewards</i>. Ph.D. Dissertation, Cambridge University, Cambridge, England.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20from%20delayed%20rewards&amp;publication_year=1989&amp;author=Watkins%2CC.J.C.H.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="P.J.. Werbos, " /><meta itemprop="datePublished" content="1974" /><meta itemprop="headline" content="Werbos, P.J. (1974).Beyond regression: new tools for prediction and analysis in the behavioral sciences. Ph.D." /><p class="c-article-references__text" id="ref-CR27">Werbos, P.J. (1974).<i>Beyond regression: new tools for prediction and analysis in the behavioral sciences</i>. Ph.D. Dissertation, Harvard University, Cambridge, MA.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Beyond%20regression%3A%20new%20tools%20for%20prediction%20and%20analysis%20in%20the%20behavioral%20sciences&amp;publication_year=1974&amp;author=Werbos%2CP.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.J.. Williams, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Williams, R.J. (1986).Reinforcement learning in connectionist networks: A mathematical analysis. (Technical Re" /><p class="c-article-references__text" id="ref-CR28">Williams, R.J. (1986).<i>Reinforcement learning in connectionist networks: A mathematical analysis</i>. (Technical Report 8605). San Diego: University of California, Institute for Cognitive Science.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 28 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Reinforcement%20learning%20in%20connectionist%20networks%3A%20A%20mathematical%20analysis&amp;publication_year=1986&amp;author=Williams%2CR.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.J.. Williams, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Williams, R.J. (1987a).Reinforcement-learning connectionist systems. (Technical Report NU-CCS-87-3). Boston, M" /><p class="c-article-references__text" id="ref-CR29">Williams, R.J. (1987a).<i>Reinforcement-learning connectionist systems</i>. (Technical Report NU-CCS-87-3). Boston, MA: Northeastern University, College of Computer Science.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 29 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Reinforcement-learning%20connectionist%20systems&amp;publication_year=1987&amp;author=Williams%2CR.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Williams, R.J. (1987b). A class of gradient-estimating algorithms for reinforcement learning in neural network" /><p class="c-article-references__text" id="ref-CR30">Williams, R.J. (1987b). A class of gradient-estimating algorithms for reinforcement learning in neural networks.<i>Proceedings of the First Annual International Conference on Neural Networks</i>, Vol. II (pp. 601–608). San Diego, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Williams, R.J. (1988a). On the use of backpropagation in associative reinforcement learning.Proceedings of the" /><p class="c-article-references__text" id="ref-CR31">Williams, R.J. (1988a). On the use of backpropagation in associative reinforcement learning.<i>Proceedings of the Second Annual International Conference on Neural Networks</i>, Vol. I (pp. 263–270). San Diego, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.J.. Williams, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Williams, R.J. (1988b).Toward a theory of reinforcement-learning connectionist systems. (Technical Report NU-C" /><p class="c-article-references__text" id="ref-CR32">Williams, R.J. (1988b).<i>Toward a theory of reinforcement-learning connectionist systems</i>. (Technical Report NU-CCS-88-3). Boston, MA: Northeastern University, College of Computer Science.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 32 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Toward%20a%20theory%20of%20reinforcement-learning%20connectionist%20systems&amp;publication_year=1988&amp;author=Williams%2CR.J.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.J.. Williams, J.. Peng, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Williams, R.J. &amp; Peng, J. (1991). Function optimization using connectionist reinforcement learning algorithms." /><p class="c-article-references__text" id="ref-CR33">Williams, R.J. &amp; Peng, J. (1991). Function optimization using connectionist reinforcement learning algorithms.<i>Connection Science</i>, 3, 241–268.</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 33 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Function%20optimization%20using%20connectionist%20reinforcement%20learning%20algorithms&amp;journal=Connection%20Science&amp;volume=3&amp;pages=241-268&amp;publication_year=1991&amp;author=Williams%2CR.J.&amp;author=Peng%2CJ.">
+                        Google Scholar</a></li></ul></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF00992696-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article-author-information__subtitle u-h3" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address u-h3">College of Computer Science, 161 CN, Northeastern University, 360 Huntington Ave., 02115, Boston, MA</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Ronald J. Williams</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article-author-information__subtitle u-h3">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Ronald J. Williams</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Ronald J.+Williams&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Ronald J.+Williams" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Ronald J.+Williams%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Simple%20statistical%20gradient-following%20algorithms%20for%20connectionist%20reinforcement%20learning&amp;author=Ronald%20J.%20Williams&amp;contentID=10.1007%2FBF00992696&amp;publication=0885-6125&amp;publicationDate=1992-05&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title u-h2 js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Williams, R.J. Simple statistical gradient-following algorithms for connectionist reinforcement learning.
+                    <i>Mach Learn</i> <b>8, </b>229–256 (1992). https://doi.org/10.1007/BF00992696</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/BF00992696.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="1992-05">May 1992</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF00992696" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF00992696</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading u-h3">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Reinforcement learning</span></li><li class="c-article-subject-list__subject"><span itemprop="about">connectionist networks</span></li><li class="c-article-subject-list__subject"><span itemprop="about">gradient descent</span></li><li class="c-article-subject-list__subject"><span itemprop="about">mathematical analysis</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    <div id="pdflink-container" class="download-article test-pdf-link">
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00992696.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-category="article body" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+</div>
+
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=BF00992696;"></div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 82.57.170.81</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

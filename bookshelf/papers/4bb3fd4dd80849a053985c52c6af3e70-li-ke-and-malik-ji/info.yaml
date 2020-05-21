@@ -1,0 +1,28 @@
+abstract: Algorithm design is a laborious process and often requires many iterations
+  of ideation and validation. In this paper, we explore automating algorithm design
+  and present a method to learn an optimization algorithm, which we believe to be
+  the first method that can automatically discover a better algorithm. We approach
+  this problem from a reinforcement learning perspective and represent any particular
+  optimization algorithm as a policy. We learn an optimization algorithm using guided
+  policy search and demonstrate that the resulting algorithm outperforms existing
+  hand-engineered algorithms in terms of convergence speed and/or the final objective
+  value.
+archiveprefix: arXiv
+author: Li, Ke and Malik, Jitendra
+author_list:
+- family: Li
+  given: Ke
+- family: Malik
+  given: Jitendra
+eprint: 1606.01885v1
+file: 1606.01885v1.pdf
+files:
+- li-ke-and-malik-jitendralearning-to-optimize2016.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1606.01885v1
+time-added: 2020-05-17-19:17:30
+title: Learning to Optimize
+type: article
+url: http://arxiv.org/abs/1606.01885v1
+year: '2016'

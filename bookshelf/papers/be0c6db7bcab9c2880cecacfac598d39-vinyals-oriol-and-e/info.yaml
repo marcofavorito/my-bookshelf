@@ -1,0 +1,91 @@
+abstract: This paper introduces SC2LE (StarCraft II Learning Environment), a reinforcement
+  learning environment based on the StarCraft II game. This domain poses a new grand
+  challenge for reinforcement learning, representing a more difficult class of problems
+  than considered in most prior work. It is a multi-agent problem with multiple players
+  interacting; there is imperfect information due to a partially observed map; it
+  has a large action space involving the selection and control of hundreds of units;
+  it has a large state space that must be observed solely from raw input feature planes;
+  and it has delayed credit assignment requiring long-term strategies over thousands
+  of steps. We describe the observation, action, and reward specification for the
+  StarCraft II domain and provide an open source Python-based interface for communicating
+  with the game engine. In addition to the main game maps, we provide a suite of mini-games
+  focusing on different elements of StarCraft II gameplay. For the main game maps,
+  we also provide an accompanying dataset of game replay data from human expert players.
+  We give initial baseline results for neural networks trained from this data to predict
+  game outcomes and player actions. Finally, we present initial baseline results for
+  canonical deep reinforcement learning agents applied to the StarCraft II domain.
+  On the mini-games, these agents learn to achieve a level of play that is comparable
+  to a novice player. However, when trained on the main game, these agents are unable
+  to make significant progress. Thus, SC2LE offers a new and challenging environment
+  for exploring deep reinforcement learning algorithms and architectures.
+archiveprefix: arXiv
+author: Vinyals, Oriol and Ewalds, Timo and Bartunov, Sergey and Georgiev, Petko and
+  Vezhnevets, Alexander Sasha and Yeo, Michelle and Makhzani, Alireza and Küttler,
+  Heinrich and Agapiou, John and Schrittwieser, Julian and Quan, John and Gaffney,
+  Stephen and Petersen, Stig and Simonyan, Karen and Schaul, Tom and van Hasselt,
+  Hado and Silver, David and Lillicrap, Timothy and Calderone, Kevin and Keet, Paul
+  and Brunasso, Anthony and Lawrence, David and Ekermo, Anders and Repp, Jacob and
+  Tsing, Rodney
+author_list:
+- family: Vinyals
+  given: Oriol
+- family: Ewalds
+  given: Timo
+- family: Bartunov
+  given: Sergey
+- family: Georgiev
+  given: Petko
+- family: Vezhnevets
+  given: Alexander Sasha
+- family: Yeo
+  given: Michelle
+- family: Makhzani
+  given: Alireza
+- family: Küttler
+  given: Heinrich
+- family: Agapiou
+  given: John
+- family: Schrittwieser
+  given: Julian
+- family: Quan
+  given: John
+- family: Gaffney
+  given: Stephen
+- family: Petersen
+  given: Stig
+- family: Simonyan
+  given: Karen
+- family: Schaul
+  given: Tom
+- family: van Hasselt
+  given: Hado
+- family: Silver
+  given: David
+- family: Lillicrap
+  given: Timothy
+- family: Calderone
+  given: Kevin
+- family: Keet
+  given: Paul
+- family: Brunasso
+  given: Anthony
+- family: Lawrence
+  given: David
+- family: Ekermo
+  given: Anders
+- family: Repp
+  given: Jacob
+- family: Tsing
+  given: Rodney
+eprint: 1708.04782v1
+file: 1708.04782v1.pdf
+files:
+- vinyals-oriol-and-ewalds-timo-and-bartunov-sergey-and-georgiev-petko-and-vezhnevets-alexander-sasha-and-yeo-michelle-and-makhzani-alireza-and-k.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1708.04782v1
+time-added: 2020-05-16-21:48:46
+title: 'StarCraft II: A New Challenge for Reinforcement Learning'
+type: article
+url: http://arxiv.org/abs/1708.04782v1
+year: '2017'

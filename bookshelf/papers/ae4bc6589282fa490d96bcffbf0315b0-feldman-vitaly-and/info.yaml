@@ -1,0 +1,47 @@
+abstract: 'We prove the following strong hardness result for learning: Given a distribution
+  of labeled examples from the hypercube such that there exists a monomial consistent
+  with $(1-\eps)$ of the examples, it is NP-hard to find a halfspace that is correct
+  on $(1/2+\eps)$ of the examples, for arbitrary constants $\eps > 0$. In learning
+  theory terms, weak agnostic learning of monomials is hard, even if one is allowed
+  to output a hypothesis from the much bigger concept class of halfspaces. This hardness
+  result subsumes a long line of previous results, including two recent hardness results
+  for the proper learning of monomials and halfspaces. As an immediate corollary of
+  our result we show that weak agnostic learning of decision lists is NP-hard.   Our
+  techniques are quite different from previous hardness proofs for learning. We define
+  distributions on positive and negative examples for monomials whose first few moments
+  match. We use the invariance principle to argue that regular halfspaces (all of
+  whose coefficients have small absolute value relative to the total $\ell_2$ norm)
+  cannot distinguish between distributions whose first few moments match. For highly
+  non-regular subspaces, we use a structural lemma from recent work on fooling halfspaces
+  to argue that they are ``junta-like'''' and one can zero out all but the top few
+  coefficients without affecting the performance of the halfspace. The top few coefficients
+  form the natural list decoding of a halfspace in the context of dictatorship tests/Label
+  Cover reductions.   We note that unlike previous invariance principle based proofs
+  which are only known to give Unique-Games hardness, we are able to reduce from a
+  version of Label Cover problem that is known to be NP-hard. This has inspired follow-up
+  work on bypassing the Unique Games conjecture in some optimal geometric inapproximability
+  results.'
+archiveprefix: arXiv
+author: Feldman, Vitaly and Guruswami, Venkatesan and Raghavendra, Prasad and Wu,
+  Yi
+author_list:
+- family: Feldman
+  given: Vitaly
+- family: Guruswami
+  given: Venkatesan
+- family: Raghavendra
+  given: Prasad
+- family: Wu
+  given: Yi
+eprint: 1012.0729v1
+file: 1012.0729v1.pdf
+files:
+- feldman-vitaly-and-guruswami-venkatesan-and-raghavendra-prasad-and-wu-yiagnostic-learning-of-monomials-by-halfspaces-is-hard2010.pdf
+month: Dec
+primaryclass: cs.CC
+ref: 1012.0729v1
+time-added: 2020-05-18-18:33:36
+title: Agnostic Learning of Monomials by Halfspaces is Hard
+type: article
+url: http://arxiv.org/abs/1012.0729v1
+year: '2010'

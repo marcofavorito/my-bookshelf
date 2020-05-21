@@ -1,0 +1,42 @@
+abstract: 'We present probabilistic arithmetic automata (PAAs), a general model to
+  describe chains of operations whose operands depend on chance, along with two different
+  algorithms to exactly calculate the distribution of the results obtained by such
+  probabilistic calculations. PAAs provide a unifying framework to approach many problems
+  arising in computational biology and elsewhere. Here, we present five different
+  applications, namely (1) pattern matching statistics on random texts, including
+  the computation of the distribution of occurrence counts, waiting time and clump
+  size under HMM background models; (2) exact analysis of window-based pattern matching
+  algorithms; (3) sensitivity of filtration seeds used to detect candidate sequence
+  alignments; (4) length and mass statistics of peptide fragments resulting from enzymatic
+  cleavage reactions; and (5) read length statistics of 454 sequencing reads. The
+  diversity of these applications indicates the flexibility and unifying character
+  of the presented framework.   While the construction of a PAA depends on the particular
+  application, we single out a frequently applicable construction method for pattern
+  statistics: We introduce deterministic arithmetic automata (DAAs) to model deterministic
+  calculations on sequences, and demonstrate how to construct a PAA from a given DAA
+  and a finite-memory random text model. We show how to transform a finite automaton
+  into a DAA and then into the corresponding PAA.'
+archiveprefix: arXiv
+author: Marschall, Tobias and Herms, Inke and Kaltenbach, Hans-Michael and Rahmann,
+  Sven
+author_list:
+- family: Marschall
+  given: Tobias
+- family: Herms
+  given: Inke
+- family: Kaltenbach
+  given: Hans-Michael
+- family: Rahmann
+  given: Sven
+eprint: 1011.5778v1
+file: 1011.5778v1.pdf
+files:
+- marschall-tobias-and-herms-inke-and-kaltenbach-hans-michael-and-rahmann-svenprobabilistic-arithmetic-automata-and-their-applications2010.pdf
+month: Nov
+primaryclass: cs.FL
+ref: 1011.5778v1
+time-added: 2020-05-16-00:07:50
+title: Probabilistic Arithmetic Automata and their Applications
+type: article
+url: http://arxiv.org/abs/1011.5778v1
+year: '2010'

@@ -1,0 +1,35 @@
+abstract: Hidden Markov Models (HMMs) are one of the most fundamental and widely used
+  statistical tools for modeling discrete time series. In general, learning HMMs from
+  data is computationally hard (under cryptographic assumptions), and practitioners
+  typically resort to search heuristics which suffer from the usual local optima issues.
+  We prove that under a natural separation condition (bounds on the smallest singular
+  value of the HMM parameters), there is an efficient and provably correct algorithm
+  for learning HMMs. The sample complexity of the algorithm does not explicitly depend
+  on the number of distinct (discrete) observations---it implicitly depends on this
+  quantity through spectral properties of the underlying HMM. This makes the algorithm
+  particularly applicable to settings with a large number of observations, such as
+  those in natural language processing where the space of observation is sometimes
+  the words in a language. The algorithm is also simple, employing only a singular
+  value decomposition and matrix multiplications.
+archiveprefix: arXiv
+author: Hsu, Daniel and Kakade, Sham M. and Zhang, Tong
+author_list:
+- family: Hsu
+  given: Daniel
+- family: Kakade
+  given: Sham M.
+- family: Zhang
+  given: Tong
+eprint: 0811.4413v6
+file: 0811.4413v6.pdf
+files:
+- hsu-daniel-and-kakade-sham-m.-and-zhang-tonga-spectral-algorithm-for-learning-hidden-markov-models2008.pdf
+month: Nov
+note: Journal of Computer and System Sciences, 78(5):1460-1480, 2012
+primaryclass: cs.LG
+ref: 0811.4413v6
+time-added: 2020-05-16-17:04:05
+title: A Spectral Algorithm for Learning Hidden Markov Models
+type: article
+url: http://arxiv.org/abs/0811.4413v6
+year: '2008'

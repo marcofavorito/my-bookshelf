@@ -1,0 +1,33 @@
+abstract: Recurrent neural networks (RNNs) are an effective representation of control
+  policies for a wide range of reinforcement and imitation learning problems. RNN
+  policies, however, are particularly difficult to explain, understand, and analyze
+  due to their use of continuous-valued memory vectors and observation features. In
+  this paper, we introduce a new technique, Quantized Bottleneck Insertion, to learn
+  finite representations of these vectors and features. The result is a quantized
+  representation of the RNN that can be analyzed to improve our understanding of memory
+  use and general behavior. We present results of this approach on synthetic environments
+  and six Atari games. The resulting finite representations are surprisingly small
+  in some cases, using as few as 3 discrete memory states and 10 observations for
+  a perfect Pong policy. We also show that these finite policy representations lead
+  to improved interpretability.
+archiveprefix: arXiv
+author: Koul, Anurag and Greydanus, Sam and Fern, Alan
+author_list:
+- family: Koul
+  given: Anurag
+- family: Greydanus
+  given: Sam
+- family: Fern
+  given: Alan
+eprint: 1811.12530v1
+file: 1811.12530v1.pdf
+files:
+- koul-anurag-and-greydanus-sam-and-fern-alanlearning-finite-state-representations-of-recurrent-policy-networks2018.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1811.12530v1
+time-added: 2020-05-17-13:09:13
+title: Learning Finite State Representations of Recurrent Policy Networks
+type: article
+url: http://arxiv.org/abs/1811.12530v1
+year: '2018'

@@ -1,0 +1,31 @@
+abstract: 'Understanding how a learned black box works is of crucial interest for
+  the future of Machine Learning. In this paper, we pioneer the question of the global
+  interpretability of learned black box models that assign numerical values to symbolic
+  sequential data. To tackle that task, we propose a spectral algorithm for the extraction
+  of weighted automata (WA) from such black boxes. This algorithm does not require
+  the access to a dataset or to the inner representation of the black box: the inferred
+  model can be obtained solely by querying the black box, feeding it with inputs and
+  analyzing its outputs. Experiments using Recurrent Neural Networks (RNN) trained
+  on a wide collection of 48 synthetic datasets and 2 real datasets show that the
+  obtained approximation is of great quality.'
+archiveprefix: arXiv
+author: Ayache, Stephane and Eyraud, Remi and Goudian, Noe
+author_list:
+- family: Ayache
+  given: Stephane
+- family: Eyraud
+  given: Remi
+- family: Goudian
+  given: Noe
+eprint: 1810.05741v1
+file: 1810.05741v1.pdf
+files:
+- ayache-stephane-and-eyraud-remi-and-goudian-noeexplaining-black-boxes-on-sequential-data-using-weighted-automata2018.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1810.05741v1
+time-added: 2020-05-15-21:57:18
+title: Explaining Black Boxes on Sequential Data using Weighted Automata
+type: article
+url: http://arxiv.org/abs/1810.05741v1
+year: '2018'

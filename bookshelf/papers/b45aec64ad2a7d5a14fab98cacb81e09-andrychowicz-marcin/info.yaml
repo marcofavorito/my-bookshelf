@@ -1,0 +1,49 @@
+abstract: 'Dealing with sparse rewards is one of the biggest challenges in Reinforcement
+  Learning (RL). We present a novel technique called Hindsight Experience Replay which
+  allows sample-efficient learning from rewards which are sparse and binary and therefore
+  avoid the need for complicated reward engineering. It can be combined with an arbitrary
+  off-policy RL algorithm and may be seen as a form of implicit curriculum.   We demonstrate
+  our approach on the task of manipulating objects with a robotic arm. In particular,
+  we run experiments on three different tasks: pushing, sliding, and pick-and-place,
+  in each case using only binary rewards indicating whether or not the task is completed.
+  Our ablation studies show that Hindsight Experience Replay is a crucial ingredient
+  which makes training possible in these challenging environments. We show that our
+  policies trained on a physics simulation can be deployed on a physical robot and
+  successfully complete the task.'
+archiveprefix: arXiv
+author: Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas
+  and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Abbeel,
+  Pieter and Zaremba, Wojciech
+author_list:
+- family: Andrychowicz
+  given: Marcin
+- family: Wolski
+  given: Filip
+- family: Ray
+  given: Alex
+- family: Schneider
+  given: Jonas
+- family: Fong
+  given: Rachel
+- family: Welinder
+  given: Peter
+- family: McGrew
+  given: Bob
+- family: Tobin
+  given: Josh
+- family: Abbeel
+  given: Pieter
+- family: Zaremba
+  given: Wojciech
+eprint: 1707.01495v3
+file: 1707.01495v3.pdf
+files:
+- andrychowicz-marcin-and-wolski-filip-and-ray-alex-and-schneider-jonas-and-fong-rachel-and-welinder-peter-and-mcgrew-bob-and-tobin-josh-and-abb.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1707.01495v3
+time-added: 2020-05-17-12:45:50
+title: Hindsight Experience Replay
+type: article
+url: http://arxiv.org/abs/1707.01495v3
+year: '2017'

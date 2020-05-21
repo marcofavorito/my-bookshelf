@@ -1,0 +1,473 @@
+author: Sorin, Daniel J. and Hill, Mark D. and Wood, David A.
+author_list:
+- affiliation: []
+  family: Sorin
+  given: Daniel J.
+- affiliation: []
+  family: Hill
+  given: Mark D.
+- affiliation: []
+  family: Wood
+  given: David A.
+citations:
+- doi: 10.1145/325096.325102
+  unstructured: K. Gharachorloo, D. Lenoski, J. Laudon, P. Gibbons, A. Gupta, and
+    J. Hennessy. Memory Consistency and Event Ordering in Scalable Shared-Memory.
+    In Proceedings of the 17th Annual International Symposium on Computer Architecture,
+    pp.15-26, May 1990.
+- author: Hennessy J. L.
+  volume-title: 'Computer Architecture: A Quantitative Approach. Morgan Kaufmann'
+  year: '2007'
+- author: BM.
+  volume-title: July
+  year: '2010'
+- doi: 10.1109/ISCA.2003.1206999
+  unstructured: 'M. M. K. Martin, M. D. Hill, and D. A. Wood. Token Coherence: Decoupling
+    Performance and Correctness. In Proceedings of the 30th Annual International Symposium
+    on Computer Architecture, June 2003. doi:10.1109/ISCA.2003.1206999'
+- doi: 10.1145/1555754.1555785
+  unstructured: 'C. Blundell, M. M. K. Martin, and T. F. Wenisch. InvisiFence: Performance-Transparent
+    Memory Ordering in Conventional Multiprocessors. In Proceedings of the 36th Annual
+    International Symposium on Computer Architecture, June 2009.'
+- doi: 10.1109/ISCA.2004.1310766
+  unstructured: 'H. W. Cain and M. H. Lipasti. Memory Ordering: A Value-Based Approach.
+    In Proceedings of the 31st Annual International Symposium on Computer Architecture,
+    June 2004. doi:10.1109/ISCA.2004.1310766'
+- doi: 10.1145/1250662.1250697
+  unstructured: 'L. Ceze, J. Tuck, P. Montesinos, and J. Torrellas. BulkSC: Bulk Enforcement
+    of Sequential Consistency. In Proceedings of the 34th Annual International Symposium
+    on Computer Architecture, June 2007.'
+- unstructured: K. Gharachorloo, A. Gupta, and J. Hennessy. Two Techniques to Enhance
+    the Performance of Memory Consistency Models. InProceedings of the International
+    Conference on Parallel Processing, volumeI, pp.355-364, Aug. 1991.
+- doi: 10.1145/307338.300993
+  unstructured: C. Gniady, B. Falsafi, and T. Vijaykumar. Is SC + ILP = RC? InProceedings
+    of the 26th Annual International Symposium on Computer Architecture, pp.162-171,
+    May 1999.
+- author: Gray J.
+  volume-title: 'Transaction Processing: Concepts and Techniques'
+  year: '1993'
+- unstructured: L. Hammond Transactional Memory Coherence and Consistency. In Proceedings
+    of the 31st Annual International Symposium on Computer Architecture, June 2004.
+- author: Lamport L.
+  doi: 10.1109/TC.1979.1675439
+  first-page: '690'
+  journal-title: IEEE Transactions on Computers
+  year: '1979'
+- doi: 10.1109/MICRO.1996.566464
+  unstructured: M. H. Lipasti and J. P. Shen. Exceeding the Dataflow Limit via Value
+    Prediction. InProceedings of the 29th Annual IEEE/ACM International Symposium
+    on Microarchitecture, pp.226-237, Dec 1996. doi:10.1109/MICRO.1996.566464
+- doi: 10.1109/MICRO.2001.991130
+  unstructured: M. M. K. Martin, D. J. Sorin, H. W. Cain, M. D. Hill, and M. H. Lipasti.
+    Correctly Implementing Value Prediction in Microprocessors that Support Multithreading
+    or Multiprocessing. InProceedings of the 34th Annual IEEE/ACM International Symposium
+    on Microarchitecture, pp.328-337, Dec. 2001. doi:10.1109/MICRO.2001.991130
+- doi: 10.1109/DSN.2006.29
+  unstructured: A. Meixner and D. J. Sorin. Dynamic Verification of Memory Consistency
+    in Cache-Coherent Multithreaded Computer Architectures. In Proceedings of the
+    International Conference on Dependable Systems and Networks, pp.73-82, June 2006.
+    doi:10.1109/DSN.2006.29
+- author: Meixner A.
+  doi: 10.1109/TDSC.2007.70243
+  first-page: '282'
+  issue: '1'
+  journal-title: IEEE Transactions on Dependable and Secure Computing
+  volume: '6'
+  year: '2009'
+- doi: 10.1145/258492.258512
+  unstructured: P. Ranganathan, V. S. Pai, and S. V. Adve. Using Speculative Retirement
+    and Larger Instruction Windows to Narrow the Performance Gap between Memory Consistency
+    Models. InProceedings of the Ninth ACM Symposium on Parallel Algorithms and Architectures,
+    pp.199-210, June 1997. doi:10.1145/258492.258512
+- doi: 10.1109/ISCA.2005.48
+  unstructured: 'A. Roth. Store Vulnerability Window (SVW): Re-Execution Filtering
+    for Enhanced Load Optimization. InProceedings of the 32nd Annual International
+    Symposium on Computer Architecture, June 2005. doi:10.1109/ISCA.2005.48'
+- author: Shasha D.
+  doi: 10.1145/42190.42277
+  first-page: '282'
+  issue: '2'
+  journal-title: ACM Transactions on Programming Languages and Systems
+  volume: '10'
+  year: '1988'
+- doi: 10.1145/1250662.1250696
+  unstructured: T . F. Wenisch, A. Ailamaki, A. Moshovos , and B. Falsafi . Mechanisms
+    for Store-waitfree Multiprocessors. In Proceedings of the 34th Annual International
+    Symposium on Computer Architecture, June 2007.
+- author: Weaver D. L.
+  series-title: Version 9
+  volume-title: SPARC Architecture Manual
+  year: '1994'
+- author: Yeager K. C.
+  doi: 10.1109/40.491460
+  first-page: '28'
+  issue: '2'
+  journal-title: IEEE Micro
+  volume: '16'
+  year: '1996'
+- author: Collier W. W.
+  volume-title: Reasoning about Parallel Architectures
+  year: '1990'
+- doi: 10.1145/325096.325102
+  unstructured: K. Gharachorloo, D. Lenoski, J. Laudon, P. Gibbons, A. Gupta, and
+    J. Hennessy. Memory Consistency and Event Ordering in Scalable Shared-Memory.
+    In Proceedings of the 17th Annual International Symposium on Computer Architecture,
+    pp.15-26, May 1990.
+- doi: 10.1007/978-3-642-03359-9_27
+  unstructured: 'S. Owens, S. Sarkar, and P. Sewell. A Better x86 Memory Model: x86-TSO.
+    InProceedings of the Conference on Theorem Proving in Higher Order Logics, 2009.'
+- doi: 10.1145/1480881.1480929
+  unstructured: S. Sarkar, P. Sewell, F. Z. Nardelli, S. Owens, T. Ridge, T. Braibant,
+    M. O. Myreen, and J. Alglave. The Semantics of x86-CC Multiprocessor Machine Code.
+    InProceedings of the 36th Annual ACM SIGPLAN-SIGACT Symposium on Principles of
+    Programming Languages, pp.379-391, 2009. doi:10.1145/1480881.1480929
+- doi: 10.1145/1785414.1785443
+  unstructured: 'P. Sewell, S. Sarkar, S. Owens, F. Z. Nardelli, and M. O. Myreen.
+    x86-TSO: A Rigorous and Usable Programmer''s Model for x86 Multiprocessors. Communications
+    of the ACM, July 2010.'
+- author: Adve S. V.
+  doi: 10.1109/2.546611
+  first-page: '66'
+  issue: '12'
+  journal-title: IEEE Computer
+  volume: '29'
+  year: '1996'
+- doi: 10.1109/ISCA.1990.134502
+  unstructured: S. V. Adve and M. D. Hill. Weak Ordering-A New Definition. In Proceedings
+    of the 17th Annual International Symposium on Computer Architecture, pp.2-14,
+    May 1990. doi:10.1109/ ISCA.1990.134502
+- author: Adve S. V.
+  journal-title: IEEE Transactions on Parallel and Distributed Systems
+  year: '1993'
+- doi: 10.1145/115952.115976
+  unstructured: S. V. Adve, M. D. Hill, B. P. Miller, and R. H. B. Netzer. Detecting
+    Data Races on Weak Memory Systems. In Proceedings of the 18th Annual International
+    Symposium on Computer Architecture, pp.234-243, May 1991. doi:10.1145/115952.115976
+- doi: 10.1007/978-3-642-14295-6_25
+  unstructured: 'J. Alglave, L. Maranget, S. Sarkar, and P. Sewell. Fences in Weak
+    Memory Models. In Proceedings of the International Conference on Computer Aided
+    Verification, July 2010. doi: 10.1007/978-3-642-14295-6_25'
+- doi: 10.1007/978-3-642-19835-9_5
+  unstructured: 'J. Alglave, L. Maranget, S. Sarkar, and P. Sewell. Litmus: Running
+    Tests Against Hardware. In Proceedings of the International Conference on Tools
+    and Algorithms for the Construction and Analysis of Systems, Mar. 2011. doi:10.1007/978-3-642-19835-9_5'
+- unstructured: ARM. ARM Architecture Reference Manual, ARMv7-A and ARMv7-R Edition
+    Errata Markup. Downloaded January13,2011.
+- doi: 10.1145/1375581.1375591
+  unstructured: H.J. Boehm and S. V. Adve. Foundations of the C++ Concurrency Memory
+    Model. InProceedings of the Conference on Programming Language Design and Implementation,
+    June 2008. doi:10.1145/1375581.1375591
+- doi: 10.1109/ISCA.2004.1310766
+  unstructured: 'H. W. Cain and M. H. Lipasti. Memory Ordering: A Value-Based Approach.
+    In Proceedings of the 31st Annual International Symposium on Computer Architecture,
+    June 2004. doi: 10.1109/ISCA.2004.1310766'
+- doi: 10.1145/1250662.1250697
+  unstructured: 'L. Ceze, J. Tuck, P. Montesinos, and J. Torrellas. BulkSC: Bulk Enforcement
+    of Sequential Consistency. In Proceedings of the 34th Annual International Symposium
+    on Computer Architecture, June 2007.'
+- doi: 10.1145/17356.17406
+  unstructured: M. Dubois, C. Scheurich, and F. A. Briggs. Memory Access Buffering
+    in Multiprocessors. In Proceedings of the 13th Annual International Symposium
+    on Computer Architecture, pp.434-442, June 1986.
+- doi: 10.1109/ISCA.1990.134503
+  unstructured: K. Gharachorloo, D. Lenoski, J. Laudon, P. Gibbons, A. Gupta, and
+    J. Hennessy. Memory Consistency and Event Ordering in Scalable Shared-Memory.
+    In Proceedings of the 17th Annual International Symposium on Computer Architecture,
+    pp.15-26, May 1990.
+- doi: 10.1145/307338.300993
+  unstructured: C. Gniady, B. Falsafi, and T. Vijaykumar. Is SC + ILP = RC? InProceedings
+    of the 26th Annual International Symposium on Computer Architecture, pp.162-171,
+    May 1999.
+- author: Hill M. D.
+  doi: 10.1109/2.707614
+  first-page: '28'
+  issue: '8'
+  journal-title: IEEE Computer
+  volume: '31'
+  year: '1998'
+- author: BM.
+  volume-title: July
+  year: '2010'
+- unstructured: 'IBM Corporation. Book E: Enhanced PowerPC Architecture, version 0.91,
+    July 21, 2001.'
+- author: Kernighan B. W.
+  volume-title: The C Programming Language
+  year: '1988'
+- doi: 10.1007/978-3-642-14295-6_26
+  unstructured: S. Mador-Haim, R. Alur, and M. M. K. Martin. Generating Litmus Tests
+    for Contrasting Memory Consistency Models. In Proceedings of the 22nd International
+    Conference on Computer Aided Verification, July 2010. doi:10.1007/978-3-642-14295-6_26
+- doi: 10.1145/1040305
+  unstructured: J. Manson, W. Pugh, and S. V. Adve. The Java Memory Model. In Proceedings
+    of the 32nd Symposium on Principles of Programming Languages, Jan. 2005. doi:10.1145/1040305
+    .1040336
+- author: McKenney P. E.
+  volume-title: And, If So, What Can You Do About It?. http:// kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2011.01.%
+    05a.pd
+  year: '2011'
+- doi: 10.1109/DSN.2006.29
+  unstructured: A. Meixner and D. J. Sorin. Dynamic Verification of Memory Consistency
+    in Cache-Coherent Multithreaded Computer Architectures. In Proceedings of the
+    International Conference on Dependable Systems and Networks, pp.73-82, June 2006.
+    doi:10.1109/DSN.2006.29
+- author: Meixner A.
+  journal-title: IEEE Transactions on Dependable and Secure Computing
+  year: '2009'
+- author: Pugh W.
+  doi: 10.1002/(SICI)1096-9128(200001)12:1<1::AID-CPE433>3.0.CO;2-S
+  first-page: '1'
+  issue: '1'
+  journal-title: Practice and Experience
+  volume: '12'
+  year: '2000'
+- author: Sites R. L.
+  volume-title: Alpha Architecture Reference Manual
+  year: '1992'
+- author: Weaver D. L.
+  series-title: Version 9
+  volume-title: SPARC Architecture Manual
+  year: '1994'
+- doi: 10.1109/HIS.2001.946691
+  unstructured: A. Charlesworth. The Sun Fireplane SMP Interconnect in the Sun 6800.
+    InProceedings of 9th Hot Interconnects Symposium, Aug. 2001. doi:10.1109/HIS.2001.946691
+- author: Conway P.
+  doi: 10.1109/MM.2007.43
+  first-page: '10'
+  issue: '2'
+  journal-title: IEEE Micro
+  volume: '27'
+  year: '2007'
+- first-page: '164'
+  issue: '1'
+  journal-title: J. Frank. Tightly Coupled Multiprocessor System Speeds Memory-access
+    Times. Electronics
+  volume: '57'
+  year: '1984'
+- unstructured: D. Kroft. Lockup-free Instruction Fetch/Prefetch Cache Organization.
+    In Proceedings of the 8th Annual Symposium on Computer Architecture, May 1981.
+- author: Le H. Q.
+  issue: '6'
+  journal-title: IBM Journal of Research and Development
+  volume: '51'
+  year: '2007'
+- doi: 10.1109/HPCA.2002.995715
+  unstructured: M. M. K. Martin, D. J. Sorin, M. D. Hill, and D. A. Wood. Bandwidth
+    Adaptive Snooping. In Proceedings of the Eighth IEEE Symposium on High-Performance
+    Computer Architecture, pp.251-262, Jan. 2002. doi:10.1109/HPCA.2002.995715
+- doi: 10.1109/HICSS.1994.323149
+  unstructured: A. Nowatzyk, G. Aybay, M. Browne, E. Kelly, and M. Parkin. The S3.mp
+    Scalable Shared Memory Multiprocessor. InProceedings of the International Conference
+    on Parallel Processing, volumeI, pp.1-10, Aug. 1995.
+- doi: 10.1109/HPCA.1996.501197
+  unstructured: A. Raynaud, Z. Zhang, and J. Torrellas. Distance-Adaptive Update Protocols
+    for Scalable Shared-Memory Multiprocesors. In Proceedings of the Second IEEE Symposium
+    on High-Performance Computer Architecture, Feb. 1996. doi:10.1109/HPCA.1996.501197
+- author: Sorin D. J.
+  doi: 10.1109/TPDS.2002.1011412
+  first-page: '556'
+  issue: '6'
+  journal-title: IEEE Transactions on Parallel and Distributed Systems
+  volume: '13'
+  year: '2002'
+- doi: 10.1145/17356.17404
+  unstructured: P. Sweazey and A. J. Smith. A Class of Compatible Cache Consistency
+    Protocols and their Support by the IEEE Futurebus. InProceedings of the 13th Annual
+    International Symposium on Computer Architecture, pp.414-423, June 1986.
+- unstructured: 'N. Agarwal, L.S. Peh, and N. K. Jha. In-Network Snoop Ordering (INSO):
+    Snoopy Coherence on Unordered Interconnects. InProceedings of the Fourteenth International
+    Symposium on High-Performance Computer Architecture, pp.67-78, Feb. 2009. doi:10.1109/HPCA
+    .2009.4798238'
+- unstructured: L. A. Barroso and M. Dubois. Cache Coherence on a Slotted Ring. InProceedings
+    of the 20th International Conference on Parallel Processing, Aug. 1991.
+- author: Charlesworth A.
+  doi: 10.1109/40.653032
+  first-page: '39'
+  issue: '1'
+  journal-title: IEEE Micro
+  volume: '18'
+  year: '1998'
+- unstructured: 'S. Frank, H. Burkhardt, III, and J. Rothnie. The KSR1: Bridging the
+    Gap Between Shared Memory and MPPs. InProceedings of the 38th Annual IEEE Computer
+    Society Computer Conference (COMPCON), pp.285-295, Feb. 1993.'
+- doi: 10.1109/HICSS.1994.323177
+  unstructured: M. Galles and E. Williams. Performance Optimizations, Implementation,
+    and Verification of the SGI Challenge Multiprocessor. InProceedings of the Hawaii
+    International Conference on System Sciences, 1994. doi:10.1109/HICSS.1994.323177
+- doi: 10.1145/378993.378998
+  unstructured: 'M. M. K. Martin, D. J. Sorin, A. Ailamaki, A. R. Alameldeen, R. M.
+    Dickson, C. J. Mauer, K. E. Moore, M. Plakal, M. D. Hill, and D. A. Wood. Timestamp
+    Snooping: An Approach for Extending SMPs. In Proceedings of the Ninth International
+    Conference on Architectural Support for Programming Languages and Operating Systems,
+    pp.25-36, Nov. 2000.'
+- doi: 10.1109/MICRO.2006.14
+  unstructured: M. R. Marty and M. D. Hill. Coherence Ordering for Ring-based Chip
+    Multiprocessors. In Proceedings of the 39th Annual IEEE/ACM International Symposium
+    on Microarchitecture, Dec. 2006. doi:10.1109/MICRO.2006.14
+- author: Sinharoy B.
+  issue: '4'
+  journal-title: IBM Journal of Research and Development
+  volume: '49'
+  year: '2005'
+- doi: 10.1109/IPDPS.2003.1213087
+  unstructured: 'D. Abts, S. Scott, and D. J. Lilja. So Many States, So Little Time:
+    Verifying Memory Coherence in the Cray X1. InProceedings of the International
+    Parallel and Distributed Processing Symposium, 2003. doi:10.1109/IPDPS.2003.1213087'
+- doi: 10.1109/ISCA.1988.5238
+  unstructured: A. Agarwal, R. Simoni, M. Horowitz, and J. Hennessy. An Evaluation
+    of Directory Schemes for Cache Coherence. In Proceedings of the 15th Annual International
+    Symposium on Computer Architecture, pp.280-289, May 1988. doi:10.1109/ISCA.1988.5238
+- doi: 10.1145/800015.808205
+  unstructured: J. K. Archibald and J.L. Baer. An Economical Solution to the Cache
+    Coherence Problem. InProceedings of the 11th Annual International Symposium on
+    Computer Architecture, pp.355-362, June 1984. doi:10.1145/800015.808205
+- doi: 10.1109/ISCA.1988.5212
+  unstructured: J.L. Baer and W.H. Wang. On the Inclusion Properties for Multi-Level
+    Cache Hierarchies. In Proceedings of the 15th Annual International Symposium on
+    Computer Architecture, pp.73-80, May 1988. doi:10.1109/ISCA.1988.5212
+- author: Conway P.
+  doi: 10.1109/MM.2007.43
+  first-page: '10'
+  issue: '2'
+  journal-title: IEEE Micro
+  volume: '27'
+  year: '2007'
+- author: Conway P.
+  doi: 10.1109/MM.2010.31
+  first-page: '16'
+  issue: '2'
+  journal-title: IEEE Micro
+  volume: '30'
+  year: '2010'
+- unstructured: A. Gupta, W.D. Weber, and T. Mowry. Reducing Memory and Traffic Requirements
+    for Scalable Directory-Based Cache Coherence Schemes. In Proceedings of the International
+    Conference on Parallel Processing, 1990.
+- author: Hill M. D.
+  doi: 10.1145/161541.161544
+  first-page: '300'
+  issue: '4'
+  journal-title: ACM Transactions on Computer Systems
+  volume: '11'
+  year: '1993'
+- author: Intel Corporation
+  volume-title: Jan.
+  year: '2009'
+- doi: 10.1145/384286.264206
+  unstructured: 'J. Laudon and D. Lenoski. The SGI Origin: A ccNUMA Highly Scalable
+    Server. InProceedings of the 24th Annual International Symposium on Computer Architecture,
+    pp.241-251, June 1997.'
+- author: Lenoski D.
+  doi: 10.1109/2.121510
+  first-page: '63'
+  issue: '3'
+  journal-title: IEEE Computer
+  volume: '25'
+  year: '1992'
+- author: Maddox R. A.
+  volume-title: 'Weaving High Performance Multiprocessor Fabric: Architecture Insights
+    into the Intel QuickPath Interconnect'
+  year: '2009'
+- doi: 10.1145/1250662.1250670
+  unstructured: M. R. Marty and M. D. Hill. Virtual Hierarchies to Support Server
+    Consolidation. InProceedings of the 34th Annual International Symposium on Computer
+    Architecture, June 2007.
+- doi: 10.1145/237090.237144
+  unstructured: S. L. Scott. Synchronization and Communication in the Cray T3E Multiprocessor.
+    InProceedings of the Seventh International Conference on Architectural Support
+    for Programming Languages and Operating Systems, pp.26-36, Oct. 1996.
+- author: Conway P.
+  doi: 10.1109/MM.2007.43
+  first-page: '10'
+  issue: '2'
+  journal-title: IEEE Micro
+  volume: '27'
+  year: '2007'
+- doi: 10.1145/165123.165146
+  unstructured: A. L. Cox and R. J. Fowler. Adaptive Cache Coherency for Detecting
+    Migratory Shared Data. In Proceedings of the 20th Annual International Symposium
+    on Computer Architecture, pp.98-108, May 1993. doi:10.1145/165123.165146
+- author: Dally W. J.
+  doi: 10.1109/71.127260
+  first-page: '194'
+  issue: '2'
+  journal-title: IEEE Transactions on Parallel and Distributed Systems
+  volume: '3'
+  year: '1992'
+- doi: 10.1145/378993.378997
+  unstructured: 'K. Gharachorloo, M. Sharma, S. Steely, and S. V. Doren. Architecture
+    and Design of AlphaServer GS320. InProceedings of the Ninth International Conference
+    on Architectural Support for Programming Languages and Operating Systems, pp.13-24,
+    Nov. 2000. doi: 10.1145/378993.378997'
+- doi: 10.1109/HPCA.1999.744361
+  unstructured: 'E. Hagersten and M. Koster. WildFire: A Scalable Path for SMPs. In
+    Proceedings of the Fifth IEEE Symposium on High-Performance Computer Architecture,
+    pp.172-181, Jan. 1999. doi:10.1109/HPCA.1999.744361'
+- doi: 10.1145/1024393.1024406
+  unstructured: 'J. Huh, J. Chang, D. Burger, and G. S. Sohi. Coherence Decoupling:
+    Making Use of Incoherence. In Proceedings of the Eleventh International Conference
+    on Architectural Support for Programming Languages and Operating Systems, Oct.
+    2004.'
+- doi: 10.1109/ICCD.1995.528827
+  unstructured: M. Kadiyala and L. N. Bhuyan. A Dynamic Cache Sub-block Design to
+    Reduce False Sharing. InProceedings of the 1995 International Conference on Computer
+    Design, 1995. doi:10.1109/ICCD.1995.528827
+- doi: 10.1145/143365.143540
+  unstructured: J. Kubiatowicz, D. Chaiken, and A. Agarwal. Closing the Window of
+    Vulnerability in Multiphase Memory Transactions. In Proceedings of the Fifth International
+    Conference on Architectural Support for Programming Languages and Operating Systems,
+    pp.274-284, Oct. 1992. doi:10.1145/143365.143540
+- author: Le H. Q.
+  issue: '6'
+  journal-title: IBM Journal of Research and Development
+  volume: '51'
+  year: '2007'
+- doi: 10.1109/ISCA.1990.134520
+  unstructured: D. Lenoski, J. Laudon, K. Gharachorloo, A. Gupta, and J. Hennessy.
+    The Directory-Based Cache Coherence Protocol for the DASH Multiprocessor. In Proceedings
+    of the 17th Annual International Symposium on Computer Architecture, pp.148-159,
+    May 1990. doi:10.1109/ ISCA.1990.134520
+- doi: 10.1109/ISCA.2003.1206999
+  unstructured: 'M. M. K. Martin, M. D. Hill, and D. A. Wood. Token Coherence: Decoupling
+    Performance and Correctness. In Proceedings of the 30th Annual International Symposium
+    on Computer Architecture, June 2003. doi:10.1109/ISCA.2003.1206999'
+- doi: 10.1145/1250662.1250670
+  unstructured: M. R. Marty and M. D. Hill. Virtual Hierarchies to Support Server
+    Consolidation. InProceedings of the 34th Annual International Symposium on Computer
+    Architecture, June 2007.
+- doi: 10.1109/ISCA.1998.694773
+  unstructured: S. S. Mukherjee and M. D. Hill. Using Prediction to Accelerate Coherence
+    Protocols. InProceedings of the 25th Annual International Symposium on Computer
+    Architecture, pp.179-190, June 1998. doi:10.1109/ISCA.1998.694773
+- doi: 10.1109/ICPP.1999.797410
+  unstructured: J. Nilsson and F. Dahlgren. Improving Performance of Load-Store Sequences
+    for Transaction Processing Workloads on Multiprocessors. In Proceedings of the
+    International Conference on Parallel Processing, pp.246-255, Sept. 1999. doi:10.1109/ICPP.1999.797410
+- doi: 10.1109/HPCA.2010.5416643
+  unstructured: 'B. F. Romanescu, A. R. Lebeck, D. J. Sorin, and A. Bracy. UNified
+    Instruction/Translation/Data (UNITD) Coherence: One Protocol to Rule Them All.
+    InProceedings of the Fifteenth International Symposium on High-Performance Computer
+    Architecture, Jan. 2010. doi:10.1109/HPCA.2010.5416643'
+- doi: 10.1145/165123.165147
+  unstructured: P. Stenström, M. Brorsson, and L. Sandberg. Adaptive Cache Coherence
+    Protocol Optimized for Migratory Sharing. In Proceedings of the 20th Annual International
+    Symposium on Computer Architecture, pp.109-118, May 1993. doi:10.1145/165123.165147
+- first-page: '26'
+  issue: '6'
+  journal-title: J. Teller. Translation-Lookaside Buffer Consistency. IEEE Computer
+  volume: '23'
+  year: '1990'
+doi: 10.2200/s00346ed1v01y201104cac016
+files:
+- sorin-daniel-j.-and-hill-mark-d.-and-wood-david-a.a-primer-on-memory-consistency-and-cache-coherence2011.pdf
+issue: '3'
+journal: Synthesis Lectures on Computer Architecture
+language: en
+month: 11
+pages: 1--212
+publisher: Morgan & Claypool Publishers LLC
+time-added: 2020-05-19-21:47:37
+title: A Primer on Memory Consistency and Cache Coherence
+type: article
+url: http://dx.doi.org/10.2200/s00346ed1v01y201104cac016
+volume: '6'
+year: 2011

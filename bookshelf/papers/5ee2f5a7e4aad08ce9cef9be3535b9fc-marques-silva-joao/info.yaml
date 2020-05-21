@@ -1,0 +1,37 @@
+abstract: Boolean Satisfiability (SAT) is arguably the archetypical NP-complete decision
+  problem. Progress in SAT solving algorithms has motivated an ever increasing number
+  of practical applications in recent years. However, many practical uses of SAT involve
+  solving function as opposed to decision problems. Concrete examples include computing
+  minimal unsatisfiable subsets, minimal correction subsets, prime implicates and
+  implicants, minimal models, backbone literals, and autarkies, among several others.
+  In most cases, solving a function problem requires a number of adaptive or non-adaptive
+  calls to a SAT solver. Given the computational complexity of SAT, it is therefore
+  important to develop algorithms that either require the smallest possible number
+  of calls to the SAT solver, or that involve simpler instances. This paper addresses
+  a number of representative function problems defined on Boolean formulas, and shows
+  that all these function problems can be reduced to a generic problem of computing
+  a minimal set subject to a monotone predicate. This problem is referred to as the
+  Minimal Set over Monotone Predicate (MSMP) problem. This exercise provides new ways
+  for solving well-known function problems, including prime implicates, minimal correction
+  subsets, backbone literals, independent variables and autarkies, among several others.
+  Moreover, this exercise motivates the development of more efficient algorithms for
+  the MSMP problem. Finally the paper outlines a number of areas of future research
+  related with extensions of the MSMP problem.
+archiveprefix: arXiv
+author: Marques-Silva, Joao and Janota, Mikolas
+author_list:
+- family: Marques-Silva
+  given: Joao
+- family: Janota
+  given: Mikolas
+eprint: 1402.3011v2
+file: 1402.3011v2.pdf
+files:
+- marques-silva-joao-and-janota-mikolascomputing-minimal-sets-on-propositional-formulae-i-problems-reductions2014.pdf
+month: Feb
+primaryclass: cs.LO
+ref: 1402.3011v2
+title: 'Computing Minimal Sets on Propositional Formulae I: Problems &   Reductions'
+type: article
+url: http://arxiv.org/abs/1402.3011v2
+year: '2014'

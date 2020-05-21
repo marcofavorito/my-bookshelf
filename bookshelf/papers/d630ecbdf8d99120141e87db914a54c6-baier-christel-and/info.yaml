@@ -1,0 +1,35 @@
+abstract: 'Probabilistic omega-automata are variants of nondeterministic automata
+  for infinite words where all choices are resolved by probabilistic distributions.
+  Acceptance of an infinite input word can be defined in different ways: by requiring
+  that (i) the probability for the accepting runs is positive (probable semantics),
+  or (ii) almost all runs are accepting (almost-sure semantics), or (iii) the probability
+  measure of the accepting runs is greater than a certain threshold (threshold semantics).
+  The underlying notion of an accepting run can be defined as for standard omega-automata
+  by means of a Buechi condition or other acceptance conditions, e.g., Rabin or Streett
+  conditions. In this paper, we put the main focus on the probable semantics and provide
+  a summary of the fundamental properties of probabilistic omega-automata concerning
+  expressiveness, efficiency, and decision problems.'
+archiveprefix: arXiv
+author: Baier, Christel and Bertrand, Nathalie and Größer, Marcus
+author_list:
+- family: Baier
+  given: Christel
+- family: Bertrand
+  given: Nathalie
+- family: Größer
+  given: Marcus
+doi: 10.4204/EPTCS.3.1
+eprint: 0907.4760v1
+file: 0907.4760v1.pdf
+files:
+- baier-christel-and-bertrand-nathalie-and-grosser-marcusprobabilistic-automata-over-infinite-words-expressiveness-efficiency-and-decidability200.pdf
+month: Jul
+note: EPTCS 3, 2009, pp. 3-16
+primaryclass: cs.FL
+ref: 0907.4760v1
+time-added: 2020-05-16-00:08:03
+title: 'Probabilistic Automata over Infinite Words: Expressiveness, Efficiency,   and
+  Decidability'
+type: article
+url: http://arxiv.org/abs/0907.4760v1
+year: '2009'

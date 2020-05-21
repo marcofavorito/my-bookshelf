@@ -1,0 +1,36 @@
+abstract: We consider how to learn multi-step predictions efficiently. Conventional
+  algorithms wait until observing actual outcomes before performing the computations
+  to update their predictions. If predictions are made at a high rate or span over
+  a large amount of time, substantial computation can be required to store all relevant
+  observations and to update all predictions when the outcome is finally observed.
+  We show that the exact same predictions can be learned in a much more computationally
+  congenial way, with uniform per-step computation that does not depend on the span
+  of the predictions. We apply this idea to various settings of increasing generality,
+  repeatedly adding desired properties and each time deriving an equivalent span-independent
+  algorithm for the conventional algorithm that satisfies these desiderata. Interestingly,
+  along the way several known algorithmic constructs emerge spontaneously from our
+  derivations, including dutch eligibility traces, temporal difference errors, and
+  averaging. This allows us to link these constructs one-to-one to the corresponding
+  desiderata, unambiguously connecting the `how' to the `why'. Each step, we make
+  sure that the derived algorithm subsumes the previous algorithms, thereby retaining
+  their properties. Ultimately we arrive at a single general temporal-difference algorithm
+  that is applicable to the full setting of reinforcement learning.
+archiveprefix: arXiv
+author: van Hasselt, Hado and Sutton, Richard S.
+author_list:
+- family: van Hasselt
+  given: Hado
+- family: Sutton
+  given: Richard S.
+eprint: 1508.04582v1
+file: 1508.04582v1.pdf
+files:
+- van-hasselt-hado-and-sutton-richard-s.learning-to-predict-independent-of-span2015.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1508.04582v1
+time-added: 2020-05-18-14:59:58
+title: Learning to Predict Independent of Span
+type: article
+url: http://arxiv.org/abs/1508.04582v1
+year: '2015'
