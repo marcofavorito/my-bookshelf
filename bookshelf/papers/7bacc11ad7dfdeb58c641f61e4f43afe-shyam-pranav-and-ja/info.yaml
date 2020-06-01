@@ -1,0 +1,33 @@
+abstract: Efficient exploration is an unsolved problem in Reinforcement Learning which
+  is usually addressed by reactively rewarding the agent for fortuitously encountering
+  novel situations. This paper introduces an efficient active exploration algorithm,
+  Model-Based Active eXploration (MAX), which uses an ensemble of forward models to
+  plan to observe novel events. This is carried out by optimizing agent behaviour
+  with respect to a measure of novelty derived from the Bayesian perspective of exploration,
+  which is estimated using the disagreement between the futures predicted by the ensemble
+  members. We show empirically that in semi-random discrete environments where directed
+  exploration is critical to make progress, MAX is at least an order of magnitude
+  more efficient than strong baselines. MAX scales to high-dimensional continuous
+  environments where it builds task-agnostic models that can be used for any downstream
+  task.
+archiveprefix: arXiv
+author: Shyam, Pranav and Jaśkowski, Wojciech and Gomez, Faustino
+author_list:
+- family: Shyam
+  given: Pranav
+- family: Jaśkowski
+  given: Wojciech
+- family: Gomez
+  given: Faustino
+eprint: 1810.12162v5
+file: 1810.12162v5.pdf
+files:
+- shyam-pranav-and-jaskowski-wojciech-and-gomez-faustinomodel-based-active-exploration2018.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1810.12162v5
+time-added: 2020-05-26-22:07:39
+title: Model-Based Active Exploration
+type: article
+url: http://arxiv.org/abs/1810.12162v5
+year: '2018'

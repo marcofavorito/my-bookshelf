@@ -1,0 +1,43 @@
+abstract: This paper studies few-shot learning via representation learning, where
+  one uses $T$ source tasks with $n_1$ data per task to learn a representation in
+  order to reduce the sample complexity of a target task for which there is only $n_2
+  (\ll n_1)$ data. Specifically, we focus on the setting where there exists a good
+  \emph{common representation} between source and target, and our goal is to understand
+  how much of a sample size reduction is possible. First, we study the setting where
+  this common representation is low-dimensional and provide a fast rate of $O\left(\frac{\mathcal{C}\left(\Phi\right)}{n_1T}
+  + \frac{k}{n_2}\right)$; here, $\Phi$ is the representation function class, $\mathcal{C}\left(\Phi\right)$
+  is its complexity measure, and $k$ is the dimension of the representation. When
+  specialized to linear representation functions, this rate becomes $O\left(\frac{dk}{n_1T}
+  + \frac{k}{n_2}\right)$ where $d (\gg k)$ is the ambient input dimension, which
+  is a substantial improvement over the rate without using representation learning,
+  i.e. over the rate of $O\left(\frac{d}{n_2}\right)$. Second, we consider the setting
+  where the common representation may be high-dimensional but is capacity-constrained
+  (say in norm); here, we again demonstrate the advantage of representation learning
+  in both high-dimensional linear regression and neural network learning. Our results
+  demonstrate representation learning can fully utilize all $n_1T$ samples from source
+  tasks.
+archiveprefix: arXiv
+author: Du, Simon S. and Hu, Wei and Kakade, Sham M. and Lee, Jason D. and Lei, Qi
+author_list:
+- family: Du
+  given: Simon S.
+- family: Hu
+  given: Wei
+- family: Kakade
+  given: Sham M.
+- family: Lee
+  given: Jason D.
+- family: Lei
+  given: Qi
+eprint: 2002.09434v1
+file: 2002.09434v1.pdf
+files:
+- du-simon-s.-and-hu-wei-and-kakade-sham-m.-and-lee-jason-d.-and-lei-qifew-shot-learning-via-learning-the-representation-provably2020.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2002.09434v1
+time-added: 2020-05-30-18:24:30
+title: Few-Shot Learning via Learning the Representation, Provably
+type: article
+url: http://arxiv.org/abs/2002.09434v1
+year: '2020'

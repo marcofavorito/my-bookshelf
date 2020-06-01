@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="journal_id" content="224"/>
+
+    <meta name="dc.title" content="Why Almost All k -Colorable Graphs Are Easy to Color"/>
+
+    <meta name="dc.source" content="Theory of Computing Systems 2009 46:3"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2009-08-04"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2009 Springer Science+Business Media, LLC"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Coloring a k-colorable graph using k colors (k&#8805;3) is a notoriously hard problem. Considering average case analysis allows for better results. In this work we consider the uniform distribution over k-colorable graphs with n vertices and exactly cn edges, c greater than some sufficiently large constant. We rigorously show that all proper k-colorings of most such graphs lie in a single &#8220;cluster&#8221;, and agree on all but a small, though constant, portion of the vertices. We also describe a polynomial time algorithm that whp finds a proper k-coloring of such a random k-colorable graph, thus asserting that most such graphs are easy to color. This should be contrasted with the setting of very sparse random graphs (which are k-colorable whp), where experimental results show some regime of edge density to be difficult for many coloring heuristics."/>
+
+    <meta name="prism.issn" content="1433-0490"/>
+
+    <meta name="prism.publicationName" content="Theory of Computing Systems"/>
+
+    <meta name="prism.publicationDate" content="2009-08-04"/>
+
+    <meta name="prism.volume" content="46"/>
+
+    <meta name="prism.number" content="3"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="523"/>
+
+    <meta name="prism.endingPage" content="565"/>
+
+    <meta name="prism.copyright" content="2009 Springer Science+Business Media, LLC"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s00224-009-9231-5"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s00224-009-9231-5"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s00224-009-9231-5.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s00224-009-9231-5"/>
+
+    <meta name="citation_journal_title" content="Theory of Computing Systems"/>
+
+    <meta name="citation_journal_abbrev" content="Theory Comput Syst"/>
+
+    <meta name="citation_publisher" content="Springer-Verlag"/>
+
+    <meta name="citation_issn" content="1433-0490"/>
+
+    <meta name="citation_title" content="Why Almost All k -Colorable Graphs Are Easy to Color"/>
+
+    <meta name="citation_volume" content="46"/>
+
+    <meta name="citation_issue" content="3"/>
+
+    <meta name="citation_publication_date" content="2010/04"/>
+
+    <meta name="citation_online_date" content="2009/08/04"/>
+
+    <meta name="citation_firstpage" content="523"/>
+
+    <meta name="citation_lastpage" content="565"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s00224-009-9231-5"/>
+
+    <meta name="DOI" content="10.1007/s00224-009-9231-5"/>
+
+    <meta name="citation_doi" content="10.1007/s00224-009-9231-5"/>
+
+    <meta name="description" content="Coloring a k-colorable graph using k colors (k&#8805;3) is a notoriously hard problem. Considering average case analysis allows for better results. In this"/>
+
+    <meta name="dc.creator" content="Amin Coja-Oghlan"/>
+
+    <meta name="dc.creator" content="Michael Krivelevich"/>
+
+    <meta name="dc.creator" content="Dan Vilenchik"/>
+
+    <meta name="dc.subject" content="Theory of Computation"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Random Struct. Algorithms; citation_title=A sharp threshold for k-colorability; citation_author=D. Achlioptas, E. Friedgut; citation_volume=14; citation_issue=1; citation_publication_date=1999; citation_pages=63-70; citation_doi=10.1002/(SICI)1098-2418(1999010)14:1&lt;63::AID-RSA3&gt;3.0.CO;2-7; citation_id=CR1"/>
+
+    <meta name="citation_reference" content="citation_journal_title=SIAM J. Comput.; citation_title=Random k-sat: Two moments suffice to cross a sharp threshold; citation_author=D. Achlioptas, C. Moore; citation_volume=36; citation_issue=3; citation_publication_date=2006; citation_pages=740-762; citation_doi=10.1137/S0097539703434231; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="
+Achlioptas,&#160;D., Ricci-Tersenghi,&#160;F.: On the solution-space geometry of random constraint satisfaction problems. In: Proc. 38th ACM Symp. on Theory of Computing
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=SIAM J. Comput.; citation_title=A spectral technique for coloring random 3-colorable graphs; citation_author=N. Alon, N. Kahale; citation_volume=26; citation_issue=6; citation_publication_date=1997; citation_pages=1733-1748; citation_doi=10.1137/S0097539794270248; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="
+Ben-Shimon,&#160;S., Krivelevich,&#160;M.: Random regular graphs of non-constant degree: edge distribution and applications. Manuscript (2006)
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Algorithms; citation_title=Coloring random and semi-random k-colorable graphs; citation_author=A. Blum, J. Spencer; citation_volume=19; citation_issue=2; citation_publication_date=1995; citation_pages=204-234; citation_doi=10.1006/jagm.1995.1034; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Combinatorica; citation_title=The chromatic number of random graphs; citation_author=B. Bollob&#225;s; citation_volume=8; citation_issue=1; citation_publication_date=1988; citation_pages=49-55; citation_doi=10.1007/BF02122551; citation_id=CR7"/>
+
+    <meta name="citation_reference" content="
+B&#246;ttcher,&#160;J.: Coloring sparse random k-colorable graphs in polynomial expected time. In: Proc. 30th International Symp. on Mathematical Foundations of Computer Science, pp. 156&#8211;167 (2005)
+"/>
+
+    <meta name="citation_reference" content="
+Braunstein,&#160;A., M&#233;zard,&#160;M., Weigt,&#160;M., Zecchina,&#160;R.: Constraint satisfaction by survey propagation. Comput. Complex. Stat. Phys. (2005)
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Random Struct. Algorithms; citation_title=Survey propagation: an algorithm for satisfiability; citation_author=A. Braunstein, M. Mezard, R. Zecchina; citation_volume=27; citation_publication_date=2005; citation_pages=201-226; citation_doi=10.1002/rsa.20057; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="
+Coja-Oghlan,&#160;A.: Coloring semirandom graphs optimally. In: Proc. 31st International Colloquium on Automata, Languages, and Programming, pp. 383&#8211;395 (2004)
+"/>
+
+    <meta name="citation_reference" content="
+Coja-Oghlan,&#160;A., Krivelevich,&#160;M., Vilenchik,&#160;D.: Why almost all satisfiable k-cnf formulas are easy. In: 13th Conference on Analysis of Algorithms, DMTCS Proceedings, pp. 89&#8211;102 (2007)
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Theoret. Comput. Sci.; citation_title=Pairs of sat-assignments in random boolean formul&#230;; citation_author=H. Daud&#233;, M. M&#233;zard, T. Mora, R. Zecchina; citation_volume=393; citation_issue=1&#8211;3; citation_publication_date=2008; citation_pages=260-279; citation_doi=10.1016/j.tcs.2008.01.005; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Algorithms; citation_title=The solution of some random np-hard problems in polynomial expected time; citation_author=M.E. Dyer, A.M. Frieze; citation_volume=10; citation_issue=4; citation_publication_date=1989; citation_pages=451-489; citation_doi=10.1016/0196-6774(89)90001-1; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Comput. Syst. Sci.; citation_title=Zero knowledge and the chromatic number; citation_author=U. Feige, J. Kilian; citation_volume=57; citation_issue=2; citation_publication_date=1998; citation_pages=187-199; citation_doi=10.1006/jcss.1998.1587; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Comput. Syst. Sci.; citation_title=Heuristics for semirandom graph problems; citation_author=U. Feige, J. Kilian; citation_volume=63; citation_issue=4; citation_publication_date=2001; citation_pages=639-671; citation_doi=10.1006/jcss.2001.1773; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="
+Feige,&#160;U., Mossel,&#160;E., Vilenchik,&#160;D.: Complete convergence of message passing algorithms for some satisfiability problems. In: Random, pp. 339&#8211;350 (2006)
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Random Struct. Algorithms; citation_title=Spectral techniques applied to sparse random graphs; citation_author=U. Feige, E. Ofek; citation_volume=27; citation_issue=2; citation_publication_date=2005; citation_pages=251-275; citation_doi=10.1002/rsa.20089; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="
+Friedman,&#160;J., Kahn,&#160;J., Szemer&#233;di,&#160;E.: On the second eigenvalue in random regular graphs. In: Proc. 21st ACM Symp. on Theory of Computing, pp. 587&#8211;598 (1989)
+"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Am. Stat. Assoc.; citation_title=Probability inequalities for sums of bounded random variables; citation_author=W. Hoeffding; citation_volume=58; citation_publication_date=1963; citation_pages=13-30; citation_doi=10.2307/2282952; citation_id=CR20"/>
+
+    <meta name="citation_reference" content="
+Krivelevich,&#160;M., Vilenchik,&#160;D.: Semirandom models as benchmarks for coloring algorithms. In: 3rd Workshop on Analytic Algorithmics and Combinatorics, pp. 211&#8211;221 (2006)
+"/>
+
+    <meta name="citation_reference" content="citation_title=Expected behavior of graph coloring algorithms; citation_inbook_title=Proc. Fundamentals of Computation Theory; citation_publication_date=1977; citation_pages=447-451; citation_id=CR22; citation_author=L. Ku&#269;era; citation_publisher=Springer"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Combinatorica; citation_title=The chromatic number of random graphs; citation_author=T. &#321;uczak; citation_volume=11; citation_issue=1; citation_publication_date=1991; citation_pages=45-54; citation_doi=10.1007/BF01375472; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Phys. Rev. Lett.; citation_title=Coloring random graphs; citation_author=R. Mulet, A. Pagnani, M. Weigt, R. Zecchina; citation_volume=89; citation_issue=26; citation_publication_date=2002; citation_pages=268701; citation_doi=10.1103/PhysRevLett.89.268701; citation_id=CR24"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Random Struct. Algorithms; citation_title=Random l-colorable graphs; citation_author=H. Pr&#246;mel, A. Steger; citation_volume=6; citation_publication_date=1995; citation_pages=21-37; citation_doi=10.1002/rsa.3240060104; citation_id=CR25"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J.&#160;Algorithms; citation_title=Almost all k-colorable graphs are easy to color; citation_author=J.S. Turner; citation_volume=9; citation_issue=1; citation_publication_date=1988; citation_pages=63-82; citation_doi=10.1016/0196-6774(88)90005-3; citation_id=CR26"/>
+
+    <meta name="citation_author" content="Amin Coja-Oghlan"/>
+
+    <meta name="citation_author_email" content="acoghlan@inf.ed.ac.uk"/>
+
+    <meta name="citation_author_institution" content="School of Informatics, University of Edinburgh, Edinburgh, UK"/>
+
+    <meta name="citation_author" content="Michael Krivelevich"/>
+
+    <meta name="citation_author_email" content="krivelev@post.tau.ac.il"/>
+
+    <meta name="citation_author_institution" content="School of Mathematical Sciences, Sackler Faculty of Exact Sciences, Tel-Aviv University, Tel-Aviv, Israel"/>
+
+    <meta name="citation_author" content="Dan Vilenchik"/>
+
+    <meta name="citation_author_email" content="danny.vilenchik@gmail.com"/>
+
+    <meta name="citation_author_institution" content="Department of Mathematics, UCLA, Los Angeles, USA"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="Why Almost All k -Colorable Graphs Are Easy to Color"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="Coloring a k-colorable graph using k colors (k&#8805;3) is a notoriously hard problem. Considering average case analysis allows for better results. In this work we consider the uniform distribution over k-colorable graphs with n vertices and exactly cn edges, c greater than some sufficiently large constant. We rigorously show that all proper k-colorings of most such graphs lie in a single &#8220;cluster&#8221;, and agree on all but a small, though constant, portion of the vertices. We also describe a polynomial time algorithm that whp finds a proper k-coloring of such a random k-colorable graph, thus asserting that most such graphs are easy to color. This should be contrasted with the setting of very sparse random graphs (which are k-colorable whp), where experimental results show some regime of edge density to be difficult for many coloring heuristics."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/224/46/3.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s00224-009-9231-5&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2010/04/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s00224-009-9231-5"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Theory of Computing Systems"/>
+        <meta property="og:title" content="Why Almost All k -Colorable Graphs Are Easy to Color"/>
+        <meta property="og:description" content="Coloring a k-colorable graph using k colors (k≥3) is a notoriously hard problem. Considering average case analysis allows for better results. In this work we consider the uniform distribution over k-colorable graphs with n vertices and exactly cn edges, c greater than some sufficiently large constant. We rigorously show that all proper k-colorings of most such graphs lie in a single “cluster”, and agree on all but a small, though constant, portion of the vertices. We also describe a polynomial time algorithm that whp finds a proper k-coloring of such a random k-colorable graph, thus asserting that most such graphs are easy to color. This should be contrasted with the setting of very sparse random graphs (which are k-colorable whp), where experimental results show some regime of edge density to be difficult for many coloring heuristics."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/224.jpg"/>
+    
+
+    <title>Why Almost All k -Colorable Graphs Are Easy to Color | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-c36432aacc.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-93f23c06eb.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-s00224-009-9231-5","Journal Title":"Theory of Computing Systems","Journal Id":224,"Keywords":"Average case analysis, k-colorability, Random graphs, Spectral analysis","kwrd":["Average_case_analysis","k-colorability","Random_graphs","Spectral_analysis"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s00224-009-9231-5","Full HTML":"N","Subject Codes":["SCI","SCI16005"],"pmc":["I","I16005"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1433-0490","pissn":"1432-4350"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Theory of Computation"},"secondarySubjectCodes":{"1":"I16005"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/s00224-009-9231-5","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    (function(w, d) {
+        window.config = window.config || {};
+        window.config.mustardcut = false;
+
+        var ctmLinkEl = d.getElementById('js-mustard');
+
+        if (ctmLinkEl && w.matchMedia && w.matchMedia(ctmLinkEl.media).matches) {
+            window.config.mustardcut = true;
+
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return !(scriptEl.hasOwnProperty('noModule')) && scriptEl.hasOwnProperty('onbeforeload');
+            }
+
+            var headScripts = [
+                { 'src' : '/oscar-static/js/polyfill-es5-bundle-ab77bcf8ba.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es5-bundle-e2d6891114.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es6-bundle-babf1d1bee.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                { 'src' : '/oscar-static/js/app-es5-bundle-0c761bb6f7.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/app-es6-bundle-db63800f6b.js', 'async': false, 'module': true}
+                
+                
+                    , { 'src' : '/oscar-static/js/global-article-es5-bundle-675d268b68.js', 'async': false, 'module': false},
+                    { 'src' : '/oscar-static/js/global-article-es6-bundle-0d579dbecb.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i=0; i<headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i=0; i<bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        }
+    })(window, document);
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+<div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/224/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=9231;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00224-009-9231-5">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="c-banner c-banner--marketing">
+	<div class="u-container">
+		<p class="u-ma-0">
+			We'd like to understand how you use our websites in order to improve them.
+			<a class="c-banner__link u-underline"
+				href="https://www.surveymonkey.co.uk/r/F2JMQ6L" data-track="click"
+				data-track-action="Survey click" data-track-category="Blue Banner"
+				data-track-label=10.1007/s00224-009-9231-5>Register your interest.</a>
+		</p>
+	</div>
+</div>
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+        <main class="c-article-main-column u-float-left js-main-column">
+            
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-category="article body" data-track-label="link">Published: <time datetime="2009-08-04" itemprop="datePublished">04 August 2009</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">Why Almost All <i>k</i>-Colorable Graphs Are Easy to Color</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-1">Amin Coja-Oghlan</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Edinburgh" /><meta itemprop="address" content="grid.4305.2, 0000000419367988, School of Informatics, University of Edinburgh, Edinburgh, UK" /></span></sup>, </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-2">Michael Krivelevich</a></span><sup class="u-js-hide"><a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Tel-Aviv University" /><meta itemprop="address" content="grid.12136.37, 0000000419370546, School of Mathematical Sciences, Sackler Faculty of Exact Sciences, Tel-Aviv University, Tel-Aviv, 69978, Israel" /></span></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-category="article body" data-track-label="link" href="#auth-3" data-corresp-id="c1">Dan Vilenchik<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff3">3</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="UCLA" /><meta itemprop="address" content="grid.19006.3e, 0000000096326718, Department of Mathematics, UCLA, Los Angeles, CA, 90095, USA" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/224"><i data-test="journal-title">Theory of Computing Systems</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 46</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">523</span>–<span itemprop="pageEnd">565</span>(<span data-test="article-publication-year">2010</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-category="article body" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">85 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">4 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">0 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs00224-009-9231-5/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Coloring a <i>k</i>-colorable graph using <i>k</i> colors (<i>k</i>≥3) is a notoriously hard problem. Considering average case analysis allows for better results. In this work we consider the uniform distribution over <i>k</i>-colorable graphs with <i>n</i> vertices and exactly <i>cn</i> edges, <i>c</i> greater than some sufficiently large constant. We rigorously show that all proper <i>k</i>-colorings of most such graphs lie in a single “cluster”, and agree on all but a small, though constant, portion of the vertices. We also describe a polynomial time algorithm that <i>whp</i> finds a proper <i>k</i>-coloring of such a random <i>k</i>-colorable graph, thus asserting that most such graphs are easy to color. This should be contrasted with the setting of very sparse random graphs (which are <i>k</i>-colorable <i>whp</i>), where experimental results show some regime of edge density to be difficult for many coloring heuristics.</p></div></div></section>
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00224-009-9231-5" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s00224-009-9231-5">
+     <input type="hidden" name="isxn" value="1433-0490">
+     <input type="hidden" name="contenttitle" value="Why Almost All k-Colorable Graphs Are Easy to Color">
+     <input type="hidden" name="copyrightyear" value="2009">
+     <input type="hidden" name="year" value="2009">
+     <input type="hidden" name="authors" value="Amin Coja-Oghlan, Michael Krivelevich, Dan Vilenchik">
+     <input type="hidden" name="title" value="Theory of Computing Systems">
+     <input type="hidden" name="mac" value="4AFF5F305DC4C0DE46E1678AAEB62C45">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Theory of Computing Systems">
+     <input type="hidden" name="journalnumber" value="224">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s00224-009-9231-5&journal=1433-0490&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D.. Achlioptas, E.. Friedgut, " /><meta itemprop="datePublished" content="1999" /><meta itemprop="headline" content="&#xA;Achlioptas, D., Friedgut, E.: A sharp threshold for k-colorability. Random Struct. Algorithms 14(1), 63–70 (1" /><span class="c-article-references__counter">1.</span><p class="c-article-references__text" id="ref-CR1">
+Achlioptas, D., Friedgut, E.: A sharp threshold for <i>k</i>-colorability. Random Struct. Algorithms <b>14</b>(1), 63–70 (1999)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0962.05055" aria-label="View reference 1 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1002%2F%28SICI%291098-2418%281999010%2914%3A1%3C63%3A%3AAID-RSA3%3E3.0.CO%3B2-7" aria-label="View reference 1">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1662274" aria-label="View reference 1 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20sharp%20threshold%20for%20k-colorability&amp;journal=Random%20Struct.%20Algorithms&amp;volume=14&amp;issue=1&amp;pages=63-70&amp;publication_year=1999&amp;author=Achlioptas%2CD.&amp;author=Friedgut%2CE.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D.. Achlioptas, C.. Moore, " /><meta itemprop="datePublished" content="2006" /><meta itemprop="headline" content="&#xA;Achlioptas, D., Moore, C.: Random k-sat: Two moments suffice to cross a sharp threshold. SIAM J. Comput. 36(3" /><span class="c-article-references__counter">2.</span><p class="c-article-references__text" id="ref-CR2">
+Achlioptas, D., Moore, C.: Random <i>k</i>-sat: Two moments suffice to cross a sharp threshold. SIAM J. Comput. <b>36</b>(3), 740–762 (2006)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1120.68096" aria-label="View reference 2 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1137%2FS0097539703434231" aria-label="View reference 2">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2263010" aria-label="View reference 2 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Random%20k-sat%3A%20Two%20moments%20suffice%20to%20cross%20a%20sharp%20threshold&amp;journal=SIAM%20J.%20Comput.&amp;volume=36&amp;issue=3&amp;pages=740-762&amp;publication_year=2006&amp;author=Achlioptas%2CD.&amp;author=Moore%2CC.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Achlioptas, D., Ricci-Tersenghi, F.: On the solution-space geometry of random constraint satisfaction problem" /><span class="c-article-references__counter">3.</span><p class="c-article-references__text" id="ref-CR3">
+Achlioptas, D., Ricci-Tersenghi, F.: On the solution-space geometry of random constraint satisfaction problems. In: Proc. 38th ACM Symp. on Theory of Computing
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="N.. Alon, N.. Kahale, " /><meta itemprop="datePublished" content="1997" /><meta itemprop="headline" content="&#xA;Alon, N., Kahale, N.: A spectral technique for coloring random 3-colorable graphs. SIAM J. Comput. 26(6), 173" /><span class="c-article-references__counter">4.</span><p class="c-article-references__text" id="ref-CR4">
+Alon, N., Kahale, N.: A spectral technique for coloring random 3-colorable graphs. SIAM J. Comput. <b>26</b>(6), 1733–1748 (1997)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0884.05042" aria-label="View reference 4 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1137%2FS0097539794270248" aria-label="View reference 4">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1484153" aria-label="View reference 4 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20spectral%20technique%20for%20coloring%20random%203-colorable%20graphs&amp;journal=SIAM%20J.%20Comput.&amp;volume=26&amp;issue=6&amp;pages=1733-1748&amp;publication_year=1997&amp;author=Alon%2CN.&amp;author=Kahale%2CN.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Ben-Shimon, S., Krivelevich, M.: Random regular graphs of non-constant degree: edge distribution and applicat" /><span class="c-article-references__counter">5.</span><p class="c-article-references__text" id="ref-CR5">
+Ben-Shimon, S., Krivelevich, M.: Random regular graphs of non-constant degree: edge distribution and applications. Manuscript (2006)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Blum, J.. Spencer, " /><meta itemprop="datePublished" content="1995" /><meta itemprop="headline" content="&#xA;Blum, A., Spencer, J.: Coloring random and semi-random k-colorable graphs. J. Algorithms 19(2), 204–234 (1995" /><span class="c-article-references__counter">6.</span><p class="c-article-references__text" id="ref-CR6">
+Blum, A., Spencer, J.: Coloring random and semi-random <i>k</i>-colorable graphs. J. Algorithms <b>19</b>(2), 204–234 (1995)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0834.05025" aria-label="View reference 6 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1006%2Fjagm.1995.1034" aria-label="View reference 6">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1344544" aria-label="View reference 6 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Coloring%20random%20and%20semi-random%20k-colorable%20graphs&amp;journal=J.%C2%A0Algorithms&amp;volume=19&amp;issue=2&amp;pages=204-234&amp;publication_year=1995&amp;author=Blum%2CA.&amp;author=Spencer%2CJ.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="B.. Bollobás, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="&#xA;Bollobás, B.: The chromatic number of random graphs. Combinatorica 8(1), 49–55 (1988)&#xA;" /><span class="c-article-references__counter">7.</span><p class="c-article-references__text" id="ref-CR7">
+Bollobás, B.: The chromatic number of random graphs. Combinatorica <b>8</b>(1), 49–55 (1988)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0666.05033" aria-label="View reference 7 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1007%2FBF02122551" aria-label="View reference 7">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=951992" aria-label="View reference 7 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20chromatic%20number%20of%20random%20graphs&amp;journal=Combinatorica&amp;volume=8&amp;issue=1&amp;pages=49-55&amp;publication_year=1988&amp;author=Bollob%C3%A1s%2CB.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Böttcher, J.: Coloring sparse random k-colorable graphs in polynomial expected time. In: Proc. 30th Internati" /><span class="c-article-references__counter">8.</span><p class="c-article-references__text" id="ref-CR8">
+Böttcher, J.: Coloring sparse random <i>k</i>-colorable graphs in polynomial expected time. In: Proc. 30th International Symp. on Mathematical Foundations of Computer Science, pp. 156–167 (2005)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Braunstein, A., Mézard, M., Weigt, M., Zecchina, R.: Constraint satisfaction by survey propagation. Comput. C" /><span class="c-article-references__counter">9.</span><p class="c-article-references__text" id="ref-CR9">
+Braunstein, A., Mézard, M., Weigt, M., Zecchina, R.: Constraint satisfaction by survey propagation. Comput. Complex. Stat. Phys. (2005)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Braunstein, M.. Mezard, R.. Zecchina, " /><meta itemprop="datePublished" content="2005" /><meta itemprop="headline" content="&#xA;Braunstein, A., Mezard, M., Zecchina, R.: Survey propagation: an algorithm for satisfiability. Random Struct." /><span class="c-article-references__counter">10.</span><p class="c-article-references__text" id="ref-CR10">
+Braunstein, A., Mezard, M., Zecchina, R.: Survey propagation: an algorithm for satisfiability. Random Struct. Algorithms <b>27</b>, 201–226 (2005)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1087.68126" aria-label="View reference 10 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1002%2Frsa.20057" aria-label="View reference 10">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2155706" aria-label="View reference 10 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Survey%20propagation%3A%20an%20algorithm%20for%20satisfiability&amp;journal=Random%20Struct.%20Algorithms&amp;volume=27&amp;pages=201-226&amp;publication_year=2005&amp;author=Braunstein%2CA.&amp;author=Mezard%2CM.&amp;author=Zecchina%2CR.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Coja-Oghlan, A.: Coloring semirandom graphs optimally. In: Proc. 31st International Colloquium on Automata, L" /><span class="c-article-references__counter">11.</span><p class="c-article-references__text" id="ref-CR11">
+Coja-Oghlan, A.: Coloring semirandom graphs optimally. In: Proc. 31st International Colloquium on Automata, Languages, and Programming, pp. 383–395 (2004)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Coja-Oghlan, A., Krivelevich, M., Vilenchik, D.: Why almost all satisfiable k-cnf formulas are easy. In: 13th" /><span class="c-article-references__counter">12.</span><p class="c-article-references__text" id="ref-CR12">
+Coja-Oghlan, A., Krivelevich, M., Vilenchik, D.: Why almost all satisfiable <i>k</i>-cnf formulas are easy. In: 13th Conference on Analysis of Algorithms, DMTCS Proceedings, pp. 89–102 (2007)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H.. Daudé, M.. Mézard, T.. Mora, R.. Zecchina, " /><meta itemprop="datePublished" content="2008" /><meta itemprop="headline" content="&#xA;Daudé, H., Mézard, M., Mora, T., Zecchina, R.: Pairs of sat-assignments in random boolean formulæ. Theoret. C" /><span class="c-article-references__counter">13.</span><p class="c-article-references__text" id="ref-CR13">
+Daudé, H., Mézard, M., Mora, T., Zecchina, R.: Pairs of sat-assignments in random boolean formulæ. Theoret. Comput. Sci. <b>393</b>(1–3), 260–279 (2008)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1136.68049" aria-label="View reference 13 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1016%2Fj.tcs.2008.01.005" aria-label="View reference 13">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2397257" aria-label="View reference 13 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Pairs%20of%20sat-assignments%20in%20random%20boolean%20formul%C3%A6&amp;journal=Theoret.%20Comput.%20Sci.&amp;volume=393&amp;issue=1%E2%80%933&amp;pages=260-279&amp;publication_year=2008&amp;author=Daud%C3%A9%2CH.&amp;author=M%C3%A9zard%2CM.&amp;author=Mora%2CT.&amp;author=Zecchina%2CR.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M.E.. Dyer, A.M.. Frieze, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="&#xA;Dyer, M.E., Frieze, A.M.: The solution of some random np-hard problems in polynomial expected time. J. Algori" /><span class="c-article-references__counter">14.</span><p class="c-article-references__text" id="ref-CR14">
+Dyer, M.E., Frieze, A.M.: The solution of some random np-hard problems in polynomial expected time. J. Algorithms <b>10</b>(4), 451–489 (1989)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0689.68049" aria-label="View reference 14 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1016%2F0196-6774%2889%2990001-1" aria-label="View reference 14">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1022107" aria-label="View reference 14 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20solution%20of%20some%20random%20np-hard%20problems%20in%20polynomial%20expected%20time&amp;journal=J.%C2%A0Algorithms&amp;volume=10&amp;issue=4&amp;pages=451-489&amp;publication_year=1989&amp;author=Dyer%2CM.E.&amp;author=Frieze%2CA.M.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="U.. Feige, J.. Kilian, " /><meta itemprop="datePublished" content="1998" /><meta itemprop="headline" content="&#xA;Feige, U., Kilian, J.: Zero knowledge and the chromatic number. J. Comput. Syst. Sci. 57(2), 187–199 (1998)&#xA;" /><span class="c-article-references__counter">15.</span><p class="c-article-references__text" id="ref-CR15">
+Feige, U., Kilian, J.: Zero knowledge and the chromatic number. J. Comput. Syst. Sci. <b>57</b>(2), 187–199 (1998)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0921.68089" aria-label="View reference 15 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1006%2Fjcss.1998.1587" aria-label="View reference 15">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1661790" aria-label="View reference 15 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Zero%20knowledge%20and%20the%20chromatic%20number&amp;journal=J.%C2%A0Comput.%20Syst.%20Sci.&amp;volume=57&amp;issue=2&amp;pages=187-199&amp;publication_year=1998&amp;author=Feige%2CU.&amp;author=Kilian%2CJ.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="U.. Feige, J.. Kilian, " /><meta itemprop="datePublished" content="2001" /><meta itemprop="headline" content="&#xA;Feige, U., Kilian, J.: Heuristics for semirandom graph problems. J. Comput. Syst. Sci. 63(4), 639–671 (2001)&#xA;" /><span class="c-article-references__counter">16.</span><p class="c-article-references__text" id="ref-CR16">
+Feige, U., Kilian, J.: Heuristics for semirandom graph problems. J. Comput. Syst. Sci. <b>63</b>(4), 639–671 (2001)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1006.68103" aria-label="View reference 16 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1006%2Fjcss.2001.1773" aria-label="View reference 16">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1894527" aria-label="View reference 16 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Heuristics%20for%20semirandom%20graph%20problems&amp;journal=J.%C2%A0Comput.%20Syst.%20Sci.&amp;volume=63&amp;issue=4&amp;pages=639-671&amp;publication_year=2001&amp;author=Feige%2CU.&amp;author=Kilian%2CJ.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Feige, U., Mossel, E., Vilenchik, D.: Complete convergence of message passing algorithms for some satisfiabil" /><span class="c-article-references__counter">17.</span><p class="c-article-references__text" id="ref-CR17">
+Feige, U., Mossel, E., Vilenchik, D.: Complete convergence of message passing algorithms for some satisfiability problems. In: Random, pp. 339–350 (2006)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="U.. Feige, E.. Ofek, " /><meta itemprop="datePublished" content="2005" /><meta itemprop="headline" content="&#xA;Feige, U., Ofek, E.: Spectral techniques applied to sparse random graphs. Random Struct. Algorithms 27(2), 25" /><span class="c-article-references__counter">18.</span><p class="c-article-references__text" id="ref-CR18">
+Feige, U., Ofek, E.: Spectral techniques applied to sparse random graphs. Random Struct. Algorithms <b>27</b>(2), 251–275 (2005)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?1076.05073" aria-label="View reference 18 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1002%2Frsa.20089" aria-label="View reference 18">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2155709" aria-label="View reference 18 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Spectral%20techniques%20applied%20to%20sparse%20random%20graphs&amp;journal=Random%20Struct.%20Algorithms&amp;volume=27&amp;issue=2&amp;pages=251-275&amp;publication_year=2005&amp;author=Feige%2CU.&amp;author=Ofek%2CE.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Friedman, J., Kahn, J., Szemerédi, E.: On the second eigenvalue in random regular graphs. In: Proc. 21st ACM " /><span class="c-article-references__counter">19.</span><p class="c-article-references__text" id="ref-CR19">
+Friedman, J., Kahn, J., Szemerédi, E.: On the second eigenvalue in random regular graphs. In: Proc. 21st ACM Symp. on Theory of Computing, pp. 587–598 (1989)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="W.. Hoeffding, " /><meta itemprop="datePublished" content="1963" /><meta itemprop="headline" content="&#xA;Hoeffding, W.: Probability inequalities for sums of bounded random variables. J. Am. Stat. Assoc. 58, 13–30 (" /><span class="c-article-references__counter">20.</span><p class="c-article-references__text" id="ref-CR20">
+Hoeffding, W.: Probability inequalities for sums of bounded random variables. J. Am. Stat. Assoc. <b>58</b>, 13–30 (1963)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0127.10602" aria-label="View reference 20 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.2307%2F2282952" aria-label="View reference 20">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=144363" aria-label="View reference 20 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Probability%20inequalities%20for%20sums%20of%20bounded%20random%20variables&amp;journal=J.%C2%A0Am.%20Stat.%20Assoc.&amp;volume=58&amp;pages=13-30&amp;publication_year=1963&amp;author=Hoeffding%2CW.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="&#xA;Krivelevich, M., Vilenchik, D.: Semirandom models as benchmarks for coloring algorithms. In: 3rd Workshop on " /><span class="c-article-references__counter">21.</span><p class="c-article-references__text" id="ref-CR21">
+Krivelevich, M., Vilenchik, D.: Semirandom models as benchmarks for coloring algorithms. In: 3rd Workshop on Analytic Algorithmics and Combinatorics, pp. 211–221 (2006)
+</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="L.. Kučera, " /><meta itemprop="datePublished" content="1977" /><meta itemprop="headline" content="&#xA;Kučera, L.: Expected behavior of graph coloring algorithms. In: Proc. Fundamentals of Computation Theory. Lec" /><span class="c-article-references__counter">22.</span><p class="c-article-references__text" id="ref-CR22">
+Kučera, L.: Expected behavior of graph coloring algorithms. In: Proc. Fundamentals of Computation Theory. Lecture Notes in Comput. Sci., vol. 56, pp. 447–451. Springer, Berlin (1977)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Proc.%20Fundamentals%20of%20Computation%20Theory&amp;pages=447-451&amp;publication_year=1977&amp;author=Ku%C4%8Dera%2CL.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="T.. Łuczak, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="&#xA;Łuczak, T.: The chromatic number of random graphs. Combinatorica 11(1), 45–54 (1991)&#xA;" /><span class="c-article-references__counter">23.</span><p class="c-article-references__text" id="ref-CR23">
+Łuczak, T.: The chromatic number of random graphs. Combinatorica <b>11</b>(1), 45–54 (1991)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0771.05090" aria-label="View reference 23 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1007%2FBF01375472" aria-label="View reference 23">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1112273" aria-label="View reference 23 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20chromatic%20number%20of%20random%20graphs&amp;journal=Combinatorica&amp;volume=11&amp;issue=1&amp;pages=45-54&amp;publication_year=1991&amp;author=%C5%81uczak%2CT.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Mulet, A.. Pagnani, M.. Weigt, R.. Zecchina, " /><meta itemprop="datePublished" content="2002" /><meta itemprop="headline" content="&#xA;Mulet, R., Pagnani, A., Weigt, M., Zecchina, R.: Coloring random graphs. Phys. Rev. Lett. 89(26), 268701 (200" /><span class="c-article-references__counter">24.</span><p class="c-article-references__text" id="ref-CR24">
+Mulet, R., Pagnani, A., Weigt, M., Zecchina, R.: Coloring random graphs. Phys. Rev. Lett. <b>89</b>(26), 268701 (2002)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1103%2FPhysRevLett.89.268701" aria-label="View reference 24">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1949690" aria-label="View reference 24 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Coloring%20random%20graphs&amp;journal=Phys.%20Rev.%20Lett.&amp;volume=89&amp;issue=26&amp;publication_year=2002&amp;author=Mulet%2CR.&amp;author=Pagnani%2CA.&amp;author=Weigt%2CM.&amp;author=Zecchina%2CR.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H.. Prömel, A.. Steger, " /><meta itemprop="datePublished" content="1995" /><meta itemprop="headline" content="&#xA;Prömel, H., Steger, A.: Random l-colorable graphs. Random Struct. Algorithms 6, 21–37 (1995)&#xA;" /><span class="c-article-references__counter">25.</span><p class="c-article-references__text" id="ref-CR25">
+Prömel, H., Steger, A.: Random <i>l</i>-colorable graphs. Random Struct. Algorithms <b>6</b>, 21–37 (1995)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0817.05052" aria-label="View reference 25 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1002%2Frsa.3240060104" aria-label="View reference 25">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 25 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Random%20l-colorable%20graphs&amp;journal=Random%20Struct.%20Algorithms&amp;volume=6&amp;pages=21-37&amp;publication_year=1995&amp;author=Pr%C3%B6mel%2CH.&amp;author=Steger%2CA.">
+                        Google Scholar</a></li></ul></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.S.. Turner, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="&#xA;Turner, J.S.: Almost all k-colorable graphs are easy to color. J. Algorithms 9(1), 63–82 (1988)&#xA;" /><span class="c-article-references__counter">26.</span><p class="c-article-references__text" id="ref-CR26">
+Turner, J.S.: Almost all k-colorable graphs are easy to color. J. Algorithms <b>9</b>(1), 63–82 (1988)
+</p><ul class="c-article-references__links u-hide-print"><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.emis.de/MATH-item?0661.68066" aria-label="View reference 26 on MATH">MATH</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="https://doi.org/10.1016%2F0196-6774%2888%2990005-3" aria-label="View reference 26">Article</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=925598" aria-label="View reference 26 on MathSciNet">MathSciNet</a></li><li><a data-track="click" data-track-action="outbound reference" data-track-category="article body" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Almost%20all%20k-colorable%20graphs%20are%20easy%20to%20color&amp;journal=J.%C2%A0Algorithms&amp;volume=9&amp;issue=1&amp;pages=63-82&amp;publication_year=1988&amp;author=Turner%2CJ.S.">
+                        Google Scholar</a></li></ul></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-category="article body" data-track-label="link" href="/article/10.1007/s00224-009-9231-5-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address">School of Informatics, University of Edinburgh, Edinburgh, UK</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Amin Coja-Oghlan</li></ul></li><li id="Aff2"><span class="c-article-author-affiliation__address">School of Mathematical Sciences, Sackler Faculty of Exact Sciences, Tel-Aviv University, Tel-Aviv, 69978, Israel</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Michael Krivelevich</li></ul></li><li id="Aff3"><span class="c-article-author-affiliation__address">Department of Mathematics, UCLA, Los Angeles, CA, 90095, USA</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Dan Vilenchik</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Amin Coja-Oghlan</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Amin+Coja-Oghlan&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Amin+Coja-Oghlan" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Amin+Coja-Oghlan%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li><li id="auth-2"><span class="c-article-authors-search__title u-h3 js-search-name">Michael Krivelevich</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Michael+Krivelevich&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Michael+Krivelevich" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Michael+Krivelevich%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li><li id="auth-3"><span class="c-article-authors-search__title u-h3 js-search-name">Dan Vilenchik</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Dan+Vilenchik&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Dan+Vilenchik" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Dan+Vilenchik%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div><h3 class="c-article__sub-heading" id="corresponding-author">Corresponding author</h3><p>Correspondence to
+                <a id="corresp-c1" rel="nofollow" href="/article/10.1007/s00224-009-9231-5/email/correspondent/c1/new">Dan Vilenchik</a>.</p></div></div></section><section aria-labelledby="additional-information"><div class="c-article-section" id="additional-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="additional-information">Additional information</h2><div class="c-article-section__content" id="additional-information-content"><p>Research of M. Krivelevich was supported in part by USA-Israel BSF Grant 2002-133, and by grant 526/05 from the Israel Science Foundation.</p></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-category="article body" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Why%20Almost%20All%20k-Colorable%20Graphs%20Are%20Easy%20to%20Color&amp;author=Amin%20Coja-Oghlan%20et%20al&amp;contentID=10.1007%2Fs00224-009-9231-5&amp;publication=1432-4350&amp;publicationDate=2009-08-04&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Coja-Oghlan, A., Krivelevich, M. &amp; Vilenchik, D. Why Almost All <i>k</i>-Colorable Graphs Are Easy to Color.
+                    <i>Theory Comput Syst</i> <b>46, </b>523–565 (2010). https://doi.org/10.1007/s00224-009-9231-5</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-category="article body" data-track-label="link" href="/article/10.1007/s00224-009-9231-5.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2009-05-29">29 May 2009</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2009-07-06">06 July 2009</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2009-08-04">04 August 2009</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="2010-04">April 2010</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/s00224-009-9231-5" data-track="click" data-track-action="view doi" data-track-category="article body" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/s00224-009-9231-5</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Average case analysis</span></li><li class="c-article-subject-list__subject"><span itemprop="about"><i>k</i>-colorability</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Random graphs</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Spectral analysis</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s00224-009-9231-5">
+     <input type="hidden" name="isxn" value="1433-0490">
+     <input type="hidden" name="contenttitle" value="Why Almost All k-Colorable Graphs Are Easy to Color">
+     <input type="hidden" name="copyrightyear" value="2009">
+     <input type="hidden" name="year" value="2009">
+     <input type="hidden" name="authors" value="Amin Coja-Oghlan, Michael Krivelevich, Dan Vilenchik">
+     <input type="hidden" name="title" value="Theory of Computing Systems">
+     <input type="hidden" name="mac" value="4AFF5F305DC4C0DE46E1678AAEB62C45">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Theory of Computing Systems">
+     <input type="hidden" name="journalnumber" value="224">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s00224-009-9231-5&journal=1433-0490&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/224/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=9231;"></div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 79.49.21.188</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+abstract: Value function approximation has demonstrated phenomenal empirical success
+  in reinforcement learning (RL). Nevertheless, despite a handful of recent progress
+  on developing theory for RL with linear function approximation, the understanding
+  of general function approximation schemes largely remains missing. In this paper,
+  we establish the first provable efficiently RL algorithm with general value function
+  approximation. In particular, we show that if the value functions admit an approximation
+  with a function class $\mathcal{F}$, our algorithm achieves a regret bound of $\widetilde{O}(\mathrm{poly}(dH)\sqrt{T})$
+  where $d$ is a complexity measure of $\mathcal{F}$, $H$ is the planning horizon,
+  and $T$ is the number interactions with the environment. Our theory strictly generalizes
+  recent progress on RL with linear function approximation and does not make explicit
+  assumptions on the model of the environment. Moreover, our algorithm is model-free
+  and provides a framework to justify algorithms used in practice.
+archiveprefix: arXiv
+author: Wang, Ruosong and Salakhutdinov, Ruslan and Yang, Lin F.
+author_list:
+- family: Wang
+  given: Ruosong
+- family: Salakhutdinov
+  given: Ruslan
+- family: Yang
+  given: Lin F.
+eprint: 2005.10804v1
+file: 2005.10804v1.pdf
+files:
+- wang-ruosong-and-salakhutdinov-ruslan-and-yang-lin-f.provably-efficient-reinforcement-learning-with-general-value-function-approximation2020.pdf
+month: May
+primaryclass: cs.LG
+ref: 2005.10804v1
+time-added: 2020-05-26-16:40:11
+title: Provably Efficient Reinforcement Learning with General Value Function   Approximation
+type: article
+url: http://arxiv.org/abs/2005.10804v1
+year: '2020'

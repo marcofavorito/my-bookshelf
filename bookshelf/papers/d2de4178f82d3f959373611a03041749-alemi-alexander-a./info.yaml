@@ -1,0 +1,32 @@
+abstract: We present a variational approximation to the information bottleneck of
+  Tishby et al. (1999). This variational approach allows us to parameterize the information
+  bottleneck model using a neural network and leverage the reparameterization trick
+  for efficient training. We call this method "Deep Variational Information Bottleneck",
+  or Deep VIB. We show that models trained with the VIB objective outperform those
+  that are trained with other forms of regularization, in terms of generalization
+  performance and robustness to adversarial attack.
+archiveprefix: arXiv
+author: Alemi, Alexander A. and Fischer, Ian and Dillon, Joshua V. and Murphy, Kevin
+author_list:
+- family: Alemi
+  given: Alexander A.
+- family: Fischer
+  given: Ian
+- family: Dillon
+  given: Joshua V.
+- family: Murphy
+  given: Kevin
+eprint: 1612.00410v7
+file: 1612.00410v7.pdf
+files:
+- alemi-alexander-a.-and-fischer-ian-and-dillon-joshua-v.-and-murphy-kevindeep-variational-information-bottleneck2016.pdf
+month: Dec
+note: Proceedings of the International Conference on Learning   Representations (ICLR)
+  2017
+primaryclass: cs.LG
+ref: 1612.00410v7
+time-added: 2020-05-26-21:23:06
+title: Deep Variational Information Bottleneck
+type: article
+url: http://arxiv.org/abs/1612.00410v7
+year: '2016'

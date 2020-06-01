@@ -1,0 +1,32 @@
+abstract: We introduce Embed to Control (E2C), a method for model learning and control
+  of non-linear dynamical systems from raw pixel images. E2C consists of a deep generative
+  model, belonging to the family of variational autoencoders, that learns to generate
+  image trajectories from a latent space in which the dynamics is constrained to be
+  locally linear. Our model is derived directly from an optimal control formulation
+  in latent space, supports long-term prediction of image sequences and exhibits strong
+  performance on a variety of complex control problems.
+archiveprefix: arXiv
+author: Watter, Manuel and Springenberg, Jost Tobias and Boedecker, Joschka and Riedmiller,
+  Martin
+author_list:
+- family: Watter
+  given: Manuel
+- family: Springenberg
+  given: Jost Tobias
+- family: Boedecker
+  given: Joschka
+- family: Riedmiller
+  given: Martin
+eprint: 1506.07365v3
+file: 1506.07365v3.pdf
+files:
+- watter-manuel-and-springenberg-jost-tobias-and-boedecker-joschka-and-riedmiller-martinembed-to-control-a-locally-linear-latent-dynamics-model-for.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1506.07365v3
+time-added: 2020-05-26-21:48:04
+title: 'Embed to Control: A Locally Linear Latent Dynamics Model for Control   from
+  Raw Images'
+type: article
+url: http://arxiv.org/abs/1506.07365v3
+year: '2015'

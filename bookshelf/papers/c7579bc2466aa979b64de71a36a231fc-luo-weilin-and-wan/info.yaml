@@ -1,0 +1,41 @@
+abstract: Prime compilation, i.e., the generation of all prime implicates or implicants
+  (primes for short) of formulae, is a prominent fundamental issue for AI. Recently,
+  the prime compilation for non-clausal formulae has received great attention. The
+  state-of-the-art approaches generate all primes along with a prime cover constructed
+  by prime implicates using dual rail encoding. However, the dual rail encoding potentially
+  expands search space. In addition, constructing a prime cover, which is necessary
+  for their methods, is time-consuming. To address these issues, we propose a novel
+  two-phase method -- CoAPI. The two phases are the key to construct a cover without
+  using dual rail encoding. Specifically, given a non-clausal formula, we first propose
+  a core-guided method to rewrite the non-clausal formula into a cover constructed
+  by over-approximate implicates in the first phase. Then, we generate all the primes
+  based on the cover in the second phase. In order to reduce the size of the cover,
+  we provide a multi-order based shrinking method, with a good tradeoff between the
+  small size and efficiency, to compress the size of cover considerably. The experimental
+  results show that CoAPI outperforms state-of-the-art approaches. Particularly, for
+  generating all prime implicates, CoAPI consumes about one order of magnitude less
+  time.
+archiveprefix: arXiv
+author: Luo, Weilin and Wan, Hai and Zhong, Hongzhen and Wei, Ou
+author_list:
+- family: Luo
+  given: Weilin
+- family: Wan
+  given: Hai
+- family: Zhong
+  given: Hongzhen
+- family: Wei
+  given: Ou
+eprint: 1906.03085v1
+file: 1906.03085v1.pdf
+files:
+- luo-weilin-and-wan-hai-and-zhong-hongzhen-and-wei-oucoapi-an-efficient-two-phase-algorithm-using-core-guided-over-approximate-cover-for-prime-c.pdf
+month: Jun
+primaryclass: cs.AI
+ref: 1906.03085v1
+time-added: 2020-05-30-15:46:06
+title: 'CoAPI: An Efficient Two-Phase Algorithm Using Core-Guided   Over-Approximate
+  Cover for Prime Compilation of Non-Clausal Formulae'
+type: article
+url: http://arxiv.org/abs/1906.03085v1
+year: '2019'

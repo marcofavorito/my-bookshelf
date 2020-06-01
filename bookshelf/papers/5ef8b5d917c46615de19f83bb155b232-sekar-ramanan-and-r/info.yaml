@@ -1,0 +1,41 @@
+abstract: Reinforcement learning allows solving complex tasks, however, the learning
+  tends to be task-specific and the sample efficiency remains a challenge. We present
+  Plan2Explore, a self-supervised reinforcement learning agent that tackles both these
+  challenges through a new approach to self-supervised exploration and fast adaptation
+  to new tasks, which need not be known during exploration. During exploration, unlike
+  prior methods which retrospectively compute the novelty of observations after the
+  agent has already reached them, our agent acts efficiently by leveraging planning
+  to seek out expected future novelty. After exploration, the agent quickly adapts
+  to multiple downstream tasks in a zero or a few-shot manner. We evaluate on challenging
+  control tasks from high-dimensional image inputs. Without any training supervision
+  or task-specific interaction, Plan2Explore outperforms prior self-supervised exploration
+  methods, and in fact, almost matches the performances oracle which has access to
+  rewards. Videos and code at https://ramanans1.github.io/plan2explore/
+archiveprefix: arXiv
+author: Sekar, Ramanan and Rybkin, Oleh and Daniilidis, Kostas and Abbeel, Pieter
+  and Hafner, Danijar and Pathak, Deepak
+author_list:
+- family: Sekar
+  given: Ramanan
+- family: Rybkin
+  given: Oleh
+- family: Daniilidis
+  given: Kostas
+- family: Abbeel
+  given: Pieter
+- family: Hafner
+  given: Danijar
+- family: Pathak
+  given: Deepak
+eprint: 2005.05960v1
+file: 2005.05960v1.pdf
+files:
+- sekar-ramanan-and-rybkin-oleh-and-daniilidis-kostas-and-abbeel-pieter-and-hafner-danijar-and-pathak-deepakplanning-to-explore-via-self-supervise.pdf
+month: May
+primaryclass: cs.LG
+ref: 2005.05960v1
+time-added: 2020-05-26-21:47:44
+title: Planning to Explore via Self-Supervised World Models
+type: article
+url: http://arxiv.org/abs/2005.05960v1
+year: '2020'

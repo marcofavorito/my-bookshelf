@@ -1,0 +1,60 @@
+abstract: The field of exact exponential time algorithms for NP-hard problems has
+  thrived over the last decade. While exhaustive search remains asymptotically the
+  fastest known algorithm for some basic problems, difficult and non-trivial exponential
+  time algorithms have been found for a myriad of problems, including Graph Coloring,
+  Hamiltonian Path, Dominating Set and 3-CNF-Sat. In some instances, improving these
+  algorithms further seems to be out of reach. The CNF-Sat problem is the canonical
+  example of a problem for which the trivial exhaustive search algorithm runs in time
+  O(2^n), where n is the number of variables in the input formula. While there exist
+  non-trivial algorithms for CNF-Sat that run in time o(2^n), no algorithm was able
+  to improve the growth rate 2 to a smaller constant, and hence it is natural to conjecture
+  that 2 is the optimal growth rate. The strong exponential time hypothesis (SETH)
+  by Impagliazzo and Paturi [JCSS 2001] goes a little bit further and asserts that,
+  for every epsilon<1, there is a (large) integer k such that that k-CNF-Sat cannot
+  be computed in time 2^{epsilon n}.   In this paper, we show that, for every epsilon
+  < 1, the problems Hitting Set, Set Splitting, and NAE-Sat cannot be computed in
+  time O(2^{epsilon n}) unless SETH fails. Here n is the number of elements or variables
+  in the input. For these problems, we actually get an equivalence to SETH in a certain
+  sense. We conjecture that SETH implies a similar statement for Set Cover, and prove
+  that, under this assumption, the fastest known algorithms for Steinter Tree, Connected
+  Vertex Cover, Set Partitioning, and the pseudo-polynomial time algorithm for Subset
+  Sum cannot be significantly improved. Finally, we justify our assumption about the
+  hardness of Set Cover by showing that the parity of the number of set covers cannot
+  be computed in time O(2^{epsilon n}) for any epsilon<1 unless SETH fails.
+archiveprefix: arXiv
+author: Cygan, Marek and Dell, Holger and Lokshtanov, Daniel and Marx, Daniel and
+  Nederlof, Jesper and Okamoto, Yoshio and Paturi, Ramamohan and Saurabh, Saket and
+  Wahlstrom, Magnus
+author_list:
+- family: Cygan
+  given: Marek
+- family: Dell
+  given: Holger
+- family: Lokshtanov
+  given: Daniel
+- family: Marx
+  given: Daniel
+- family: Nederlof
+  given: Jesper
+- family: Okamoto
+  given: Yoshio
+- family: Paturi
+  given: Ramamohan
+- family: Saurabh
+  given: Saket
+- family: Wahlstrom
+  given: Magnus
+doi: 10.1145/2925416 10.1109/CCC.2012.36
+eprint: 1112.2275v3
+file: 1112.2275v3.pdf
+files:
+- cygan-marek-and-dell-holger-and-lokshtanov-daniel-and-marx-daniel-and-nederlof-jesper-and-okamoto-yoshio-and-paturi-ramamohan-and-saurabh-sake.pdf
+month: Dec
+note: 'ACM Trans. Algorithms 12(3): 41:1-41:24 (2016)'
+primaryclass: cs.DS
+ref: 1112.2275v3
+time-added: 2020-05-29-23:45:42
+title: On Problems as Hard as CNFSAT
+type: article
+url: http://arxiv.org/abs/1112.2275v3
+year: '2011'

@@ -1,0 +1,41 @@
+abstract: Combining deep model-free reinforcement learning with on-line planning is
+  a promising approach to building on the successes of deep RL. On-line planning with
+  look-ahead trees has proven successful in environments where transition models are
+  known a priori. However, in complex environments where transition models need to
+  be learned from data, the deficiencies of learned models have limited their utility
+  for planning. To address these challenges, we propose TreeQN, a differentiable,
+  recursive, tree-structured model that serves as a drop-in replacement for any value
+  function network in deep RL with discrete actions. TreeQN dynamically constructs
+  a tree by recursively applying a transition model in a learned abstract state space
+  and then aggregating predicted rewards and state-values using a tree backup to estimate
+  Q-values. We also propose ATreeC, an actor-critic variant that augments TreeQN with
+  a softmax layer to form a stochastic policy network. Both approaches are trained
+  end-to-end, such that the learned model is optimised for its actual use in the tree.
+  We show that TreeQN and ATreeC outperform n-step DQN and A2C on a box-pushing task,
+  as well as n-step DQN and value prediction networks (Oh et al. 2017) on multiple
+  Atari games. Furthermore, we present ablation studies that demonstrate the effect
+  of different auxiliary losses on learning transition models.
+archiveprefix: arXiv
+author: Farquhar, Gregory and Rocktäschel, Tim and Igl, Maximilian and Whiteson, Shimon
+author_list:
+- family: Farquhar
+  given: Gregory
+- family: Rocktäschel
+  given: Tim
+- family: Igl
+  given: Maximilian
+- family: Whiteson
+  given: Shimon
+eprint: 1710.11417v2
+file: 1710.11417v2.pdf
+files:
+- farquhar-gregory-and-rocktaschel-tim-and-igl-maximilian-and-whiteson-shimontreeqn-and-atreec-differentiable-tree-structured-models-for-deep-rei.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1710.11417v2
+time-added: 2020-05-22-22:02:44
+title: 'TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep   Reinforcement
+  Learning'
+type: article
+url: http://arxiv.org/abs/1710.11417v2
+year: '2017'

@@ -1,0 +1,32 @@
+abstract: Learned world models summarize an agent's experience to facilitate learning
+  complex behaviors. While learning world models from high-dimensional sensory inputs
+  is becoming feasible through deep learning, there are many potential ways for deriving
+  behaviors from them. We present Dreamer, a reinforcement learning agent that solves
+  long-horizon tasks from images purely by latent imagination. We efficiently learn
+  behaviors by propagating analytic gradients of learned state values back through
+  trajectories imagined in the compact state space of a learned world model. On 20
+  challenging visual control tasks, Dreamer exceeds existing approaches in data-efficiency,
+  computation time, and final performance.
+archiveprefix: arXiv
+author: Hafner, Danijar and Lillicrap, Timothy and Ba, Jimmy and Norouzi, Mohammad
+author_list:
+- family: Hafner
+  given: Danijar
+- family: Lillicrap
+  given: Timothy
+- family: Ba
+  given: Jimmy
+- family: Norouzi
+  given: Mohammad
+eprint: 1912.01603v3
+file: 1912.01603v3.pdf
+files:
+- hafner-danijar-and-lillicrap-timothy-and-ba-jimmy-and-norouzi-mohammaddream-to-control-learning-behaviors-by-latent-imagination2019.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1912.01603v3
+time-added: 2020-05-26-21:20:02
+title: 'Dream to Control: Learning Behaviors by Latent Imagination'
+type: article
+url: http://arxiv.org/abs/1912.01603v3
+year: '2019'

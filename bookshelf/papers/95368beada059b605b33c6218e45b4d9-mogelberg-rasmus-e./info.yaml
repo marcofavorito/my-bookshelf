@@ -1,0 +1,38 @@
+abstract: Just like any other branch of mathematics, denotational semantics of programming
+  languages should be formalised in type theory, but adapting traditional domain theoretic
+  semantics, as originally formulated in classical set theory to type theory has proven
+  challenging. This paper is part of a project on formulating denotational semantics
+  in type theories with guarded recursion. This should have the benefit of not only
+  giving simpler semantics and proofs of properties such as adequacy, but also hopefully
+  in the future to scale to languages with advanced features, such as general references,
+  outside the reach of traditional domain theoretic techniques. Working in Guarded
+  Dependent Type Theory (GDTT), we develop denotational semantics for FPC, the simply
+  typed lambda calculus extended with recursive types, modelling the recursive types
+  of FPC using the guarded recursive types of GDTT. We prove soundness and computational
+  adequacy of the model in GDTT using a logical relation between syntax and semantics
+  constructed also using guarded recursive types. The denotational semantics is intensional
+  in the sense that it counts the number of unfold-fold reductions needed to compute
+  the value of a term, but we construct a relation relating the denotations of extensionally
+  equal terms, i.e., pairs of terms that compute the same value in a different number
+  of steps. Finally we show how the denotational semantics of terms can be executed
+  inside type theory and prove that executing the denotation of a boolean term computes
+  the same value as the operational semantics of FPC.
+archiveprefix: arXiv
+author: Møgelberg, Rasmus E. and Paviotti, Marco
+author_list:
+- family: Møgelberg
+  given: Rasmus E.
+- family: Paviotti
+  given: Marco
+eprint: 1805.00289v2
+file: 1805.00289v2.pdf
+files:
+- mogelberg-rasmus-e.-and-paviotti-marcodenotational-semantics-of-recursive-types-in-synthetic-guarded-domain-theory2018.pdf
+month: May
+primaryclass: cs.LO
+ref: 1805.00289v2
+time-added: 2020-05-31-21:26:19
+title: Denotational semantics of recursive types in synthetic guarded domain   theory
+type: article
+url: http://arxiv.org/abs/1805.00289v2
+year: '2018'

@@ -1,0 +1,41 @@
+abstract: 'Perhaps the most ambitious scientific quest in human history is the creation
+  of general artificial intelligence, which roughly means AI that is as smart or smarter
+  than humans. The dominant approach in the machine learning community is to attempt
+  to discover each of the pieces required for intelligence, with the implicit assumption
+  that some future group will complete the Herculean task of figuring out how to combine
+  all of those pieces into a complex thinking machine. I call this the "manual AI
+  approach". This paper describes another exciting path that ultimately may be more
+  successful at producing general AI. It is based on the clear trend in machine learning
+  that hand-designed solutions eventually are replaced by more effective, learned
+  solutions. The idea is to create an AI-generating algorithm (AI-GA), which automatically
+  learns how to produce general AI. Three Pillars are essential for the approach:
+  (1) meta-learning architectures, (2) meta-learning the learning algorithms themselves,
+  and (3) generating effective learning environments. I argue that either approach
+  could produce general AI first, and both are scientifically worthwhile irrespective
+  of which is the fastest path. Because both are promising, yet the ML community is
+  currently committed to the manual approach, I argue that our community should increase
+  its research investment in the AI-GA approach. To encourage such research, I describe
+  promising work in each of the Three Pillars. I also discuss AI-GA-specific safety
+  and ethical considerations. Because it it may be the fastest path to general AI
+  and because it is inherently scientifically interesting to understand the conditions
+  in which a simple algorithm can produce general AI (as happened on Earth where Darwinian
+  evolution produced human intelligence), I argue that the pursuit of AI-GAs should
+  be considered a new grand challenge of computer science research.'
+archiveprefix: arXiv
+author: Clune, Jeff
+author_list:
+- family: Clune
+  given: Jeff
+eprint: 1905.10985v2
+file: 1905.10985v2.pdf
+files:
+- clune-jeffai-gas-ai-generating-algorithms-an-alternate-paradigm-for-producing-general-artificial-intelligence2019.pdf
+month: May
+primaryclass: cs.AI
+ref: 1905.10985v2
+time-added: 2020-05-26-12:09:49
+title: 'AI-GAs: AI-generating algorithms, an alternate paradigm for producing   general
+  artificial intelligence'
+type: article
+url: http://arxiv.org/abs/1905.10985v2
+year: '2019'

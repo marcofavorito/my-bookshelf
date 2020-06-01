@@ -1,0 +1,37 @@
+abstract: Prime implicates and prime implicants have proven relevant to a number of
+  areas of artificial intelligence, most notably abductive reasoning and knowledge
+  compilation. The purpose of this paper is to examine how these notions might be
+  appropriately extended from propositional logic to the modal logic K. We begin the
+  paper by considering a number of potential definitions of clauses and terms for
+  K. The different definitions are evaluated with respect to a set of syntactic, semantic,
+  and complexity-theoretic properties characteristic of the propositional definition.
+  We then compare the definitions with respect to the properties of the notions of
+  prime implicates and prime implicants that they induce. While there is no definition
+  that perfectly generalizes the propositional notions, we show that there does exist
+  one definition which satisfies many of the desirable properties of the propositional
+  case. In the second half of the paper, we consider the computational properties
+  of the selected definition. To this end, we provide sound and complete algorithms
+  for generating and recognizing prime implicates, and we show the prime implicate
+  recognition task to be PSPACE-complete. We also prove upper and lower bounds on
+  the size and number of prime implicates. While the paper focuses on the logic K,
+  all of our results hold equally well for multi-modal K and for concept expressions
+  in the description logic ALC.
+archiveprefix: arXiv
+author: Bienvenu, Meghyn
+author_list:
+- family: Bienvenu
+  given: Meghyn
+doi: 10.1613/jair.2754
+eprint: 1401.3475v1
+file: 1401.3475v1.pdf
+files:
+- bienvenu-meghynprime-implicates-and-prime-implicants-from-propositional-to-modal-logic2014.pdf
+month: Jan
+note: Journal Of Artificial Intelligence Research, Volume 36, pages   71-128, 2009
+primaryclass: cs.LO
+ref: 1401.3475v1
+time-added: 2020-05-27-23:21:10
+title: 'Prime Implicates and Prime Implicants: From Propositional to Modal Logic'
+type: article
+url: http://arxiv.org/abs/1401.3475v1
+year: '2014'

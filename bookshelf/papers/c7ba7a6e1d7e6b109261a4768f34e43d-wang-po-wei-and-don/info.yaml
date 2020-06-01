@@ -1,0 +1,39 @@
+abstract: Integrating logical reasoning within deep learning architectures has been
+  a major goal of modern AI systems. In this paper, we propose a new direction toward
+  this goal by introducing a differentiable (smoothed) maximum satisfiability (MAXSAT)
+  solver that can be integrated into the loop of larger deep learning systems. Our
+  (approximate) solver is based upon a fast coordinate descent approach to solving
+  the semidefinite program (SDP) associated with the MAXSAT problem. We show how to
+  analytically differentiate through the solution to this SDP and efficiently solve
+  the associated backward pass. We demonstrate that by integrating this solver into
+  end-to-end learning systems, we can learn the logical structure of challenging problems
+  in a minimally supervised fashion. In particular, we show that we can learn the
+  parity function using single-bit supervision (a traditionally hard task for deep
+  networks) and learn how to play 9x9 Sudoku solely from examples. We also solve a
+  "visual Sudok" problem that maps images of Sudoku puzzles to their associated logical
+  solutions by combining our MAXSAT solver with a traditional convolutional architecture.
+  Our approach thus shows promise in integrating logical structures within deep learning.
+archiveprefix: arXiv
+author: Wang, Po-Wei and Donti, Priya L. and Wilder, Bryan and Kolter, Zico
+author_list:
+- family: Wang
+  given: Po-Wei
+- family: Donti
+  given: Priya L.
+- family: Wilder
+  given: Bryan
+- family: Kolter
+  given: Zico
+eprint: 1905.12149v1
+file: 1905.12149v1.pdf
+files:
+- wang-po-wei-and-donti-priya-l.-and-wilder-bryan-and-kolter-zicosatnet-bridging-deep-learning-and-logical-reasoning-using-a-differentiable-satis.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.12149v1
+time-added: 2020-05-29-23:39:13
+title: 'SATNet: Bridging deep learning and logical reasoning using a   differentiable
+  satisfiability solver'
+type: article
+url: http://arxiv.org/abs/1905.12149v1
+year: '2019'

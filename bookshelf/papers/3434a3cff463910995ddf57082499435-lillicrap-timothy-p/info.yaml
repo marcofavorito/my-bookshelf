@@ -1,0 +1,42 @@
+abstract: 'We adapt the ideas underlying the success of Deep Q-Learning to the continuous
+  action domain. We present an actor-critic, model-free algorithm based on the deterministic
+  policy gradient that can operate over continuous action spaces. Using the same learning
+  algorithm, network architecture and hyper-parameters, our algorithm robustly solves
+  more than 20 simulated physics tasks, including classic problems such as cartpole
+  swing-up, dexterous manipulation, legged locomotion and car driving. Our algorithm
+  is able to find policies whose performance is competitive with those found by a
+  planning algorithm with full access to the dynamics of the domain and its derivatives.
+  We further demonstrate that for many of the tasks the algorithm can learn policies
+  end-to-end: directly from raw pixel inputs.'
+archiveprefix: arXiv
+author: Lillicrap, Timothy P. and Hunt, Jonathan J. and Pritzel, Alexander and Heess,
+  Nicolas and Erez, Tom and Tassa, Yuval and Silver, David and Wierstra, Daan
+author_list:
+- family: Lillicrap
+  given: Timothy P.
+- family: Hunt
+  given: Jonathan J.
+- family: Pritzel
+  given: Alexander
+- family: Heess
+  given: Nicolas
+- family: Erez
+  given: Tom
+- family: Tassa
+  given: Yuval
+- family: Silver
+  given: David
+- family: Wierstra
+  given: Daan
+eprint: 1509.02971v6
+file: 1509.02971v6.pdf
+files:
+- lillicrap-timothy-p.-and-hunt-jonathan-j.-and-pritzel-alexander-and-heess-nicolas-and-erez-tom-and-tassa-yuval-and-silver-david-and-wierstra-d.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1509.02971v6
+time-added: 2020-05-28-14:58:54
+title: Continuous control with deep reinforcement learning
+type: article
+url: http://arxiv.org/abs/1509.02971v6
+year: '2015'

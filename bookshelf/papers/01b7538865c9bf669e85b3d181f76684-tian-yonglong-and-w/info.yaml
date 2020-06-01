@@ -1,0 +1,37 @@
+abstract: 'The focus of recent meta-learning research has been on the development
+  of learning algorithms that can quickly adapt to test time tasks with limited data
+  and low computational cost. Few-shot learning is widely used as one of the standard
+  benchmarks in meta-learning. In this work, we show that a simple baseline: learning
+  a supervised or self-supervised representation on the meta-training set, followed
+  by training a linear classifier on top of this representation, outperforms state-of-the-art
+  few-shot learning methods. An additional boost can be achieved through the use of
+  self-distillation. This demonstrates that using a good learned embedding model can
+  be more effective than sophisticated meta-learning algorithms. We believe that our
+  findings motivate a rethinking of few-shot image classification benchmarks and the
+  associated role of meta-learning algorithms. Code is available at: http://github.com/WangYueFt/rfs/.'
+archiveprefix: arXiv
+author: Tian, Yonglong and Wang, Yue and Krishnan, Dilip and Tenenbaum, Joshua B.
+  and Isola, Phillip
+author_list:
+- family: Tian
+  given: Yonglong
+- family: Wang
+  given: Yue
+- family: Krishnan
+  given: Dilip
+- family: Tenenbaum
+  given: Joshua B.
+- family: Isola
+  given: Phillip
+eprint: 2003.11539v1
+file: 2003.11539v1.pdf
+files:
+- tian-yonglong-and-wang-yue-and-krishnan-dilip-and-tenenbaum-joshua-b.-and-isola-philliprethinking-few-shot-image-classification-a-good-embedding.pdf
+month: Mar
+primaryclass: cs.CV
+ref: 2003.11539v1
+time-added: 2020-05-30-18:25:02
+title: 'Rethinking Few-Shot Image Classification: a Good Embedding Is All You   Need?'
+type: article
+url: http://arxiv.org/abs/2003.11539v1
+year: '2020'

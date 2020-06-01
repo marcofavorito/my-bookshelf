@@ -1,0 +1,39 @@
+abstract: 'In many real-world scenarios, rewards extrinsic to the agent are extremely
+  sparse, or absent altogether. In such cases, curiosity can serve as an intrinsic
+  reward signal to enable the agent to explore its environment and learn skills that
+  might be useful later in its life. We formulate curiosity as the error in an agent''s
+  ability to predict the consequence of its own actions in a visual feature space
+  learned by a self-supervised inverse dynamics model. Our formulation scales to high-dimensional
+  continuous state spaces like images, bypasses the difficulties of directly predicting
+  pixels, and, critically, ignores the aspects of the environment that cannot affect
+  the agent. The proposed approach is evaluated in two environments: VizDoom and Super
+  Mario Bros. Three broad settings are investigated: 1) sparse extrinsic reward, where
+  curiosity allows for far fewer interactions with the environment to reach the goal;
+  2) exploration with no extrinsic reward, where curiosity pushes the agent to explore
+  more efficiently; and 3) generalization to unseen scenarios (e.g. new levels of
+  the same game) where the knowledge gained from earlier experience helps the agent
+  explore new places much faster than starting from scratch. Demo video and code available
+  at https://pathak22.github.io/noreward-rl/'
+archiveprefix: arXiv
+author: Pathak, Deepak and Agrawal, Pulkit and Efros, Alexei A. and Darrell, Trevor
+author_list:
+- family: Pathak
+  given: Deepak
+- family: Agrawal
+  given: Pulkit
+- family: Efros
+  given: Alexei A.
+- family: Darrell
+  given: Trevor
+eprint: 1705.05363v1
+file: 1705.05363v1.pdf
+files:
+- pathak-deepak-and-agrawal-pulkit-and-efros-alexei-a.-and-darrell-trevorcuriosity-driven-exploration-by-self-supervised-prediction2017.pdf
+month: May
+primaryclass: cs.LG
+ref: 1705.05363v1
+time-added: 2020-05-26-22:05:25
+title: Curiosity-driven Exploration by Self-supervised Prediction
+type: article
+url: http://arxiv.org/abs/1705.05363v1
+year: '2017'
