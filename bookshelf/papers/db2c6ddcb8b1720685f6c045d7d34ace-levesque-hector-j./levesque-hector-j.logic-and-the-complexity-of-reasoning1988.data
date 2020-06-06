@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="journal_id" content="10992"/>
+
+    <meta name="dc.title" content="Logic and the complexity of reasoning"/>
+
+    <meta name="dc.source" content="Journal of Philosophical Logic 1988 17:4"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1988 Kluwer Academic Publishers"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content=""/>
+
+    <meta name="prism.issn" content="1573-0433"/>
+
+    <meta name="prism.publicationName" content="Journal of Philosophical Logic"/>
+
+    <meta name="prism.volume" content="17"/>
+
+    <meta name="prism.number" content="4"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="355"/>
+
+    <meta name="prism.endingPage" content="389"/>
+
+    <meta name="prism.copyright" content="1988 Kluwer Academic Publishers"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF00297511"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF00297511"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF00297511.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF00297511"/>
+
+    <meta name="citation_journal_title" content="Journal of Philosophical Logic"/>
+
+    <meta name="citation_journal_abbrev" content="J Philos Logic"/>
+
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+
+    <meta name="citation_issn" content="1573-0433"/>
+
+    <meta name="citation_title" content="Logic and the complexity of reasoning"/>
+
+    <meta name="citation_volume" content="17"/>
+
+    <meta name="citation_issue" content="4"/>
+
+    <meta name="citation_publication_date" content="1988/11"/>
+
+    <meta name="citation_firstpage" content="355"/>
+
+    <meta name="citation_lastpage" content="389"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF00297511"/>
+
+    <meta name="DOI" content="10.1007/BF00297511"/>
+
+    <meta name="citation_doi" content="10.1007/BF00297511"/>
+
+    <meta name="description" content=""/>
+
+    <meta name="dc.creator" content="Hector J. Levesque"/>
+
+    <meta name="dc.subject" content="Logic"/>
+
+    <meta name="citation_reference" content="citation_title=Entailment: The Logic of Relevance and Necessity; citation_publication_date=1975; citation_id=CR1; citation_author=A. Anderson; citation_author=N. Belnap; citation_publisher=Princeton University Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=The Behavioral and Brain Sciences; citation_title=Cortical connections and parallel processing: structure and function; citation_author=D. Ballard; citation_volume=9; citation_issue=1; citation_publication_date=1986; citation_pages=67-90; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="citation_title=Computational Complexity and Natural Language; citation_publication_date=1987; citation_id=CR3; citation_author=G. E. Barton; citation_author=R. Berwick; citation_author=E. Ristad; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Computer; citation_title=What is-a is and isn&#39;t: an analysis of taxonomic links in semantic networks; citation_author=R. Brachman; citation_volume=16; citation_issue=10; citation_publication_date=1983; citation_pages=30-36; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="Brachman, R. and Levesque, H.: 1984, The tractability of subsumption in frame-based description languages. In AAAI-84, pages 34&#8211;37, Austin, TX."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Journal of Philosophical Logic; citation_title=Generic terms and generic sentences; citation_author=G. Carlson; citation_volume=11; citation_publication_date=1982; citation_pages=145-182; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="citation_title=Minimal Rationality; citation_publication_date=1986; citation_id=CR7; citation_author=C. Cherniak; citation_publisher=Bradford Books"/>
+
+    <meta name="citation_reference" content="citation_journal_title=The Journal of Symbolic Logic; citation_title=A note on the Entscheidungsproblem; citation_author=A. Church; citation_volume=1; citation_publication_date=1936; citation_pages=40-41; citation_id=CR8"/>
+
+    <meta name="citation_reference" content="Cooks, S.: 1971, The complexity of theorem proving procedures. In The 3rd. Annual Symposium on the Theory of Computing, pages 151&#8211;158, New York, NY."/>
+
+    <meta name="citation_reference" content="de Kleer, J. and Brown, J. S.: 1983, The origin, form, and logic of qualitative physical laws. In IJCAI-83, pages 1158&#8211;1169, Karlsruhe, West Germany."/>
+
+    <meta name="citation_reference" content="citation_journal_title=The Journal of Logic Programming; citation_title=Linear-time algorithms for testing the satisfiability of propositional horn formulae; citation_author=W. Dowling, J. Gallier; citation_volume=3; citation_publication_date=1984; citation_pages=267-284; citation_id=CR11"/>
+
+    <meta name="citation_reference" content="citation_title=Mind over Machines; citation_publication_date=1986; citation_id=CR12; citation_author=H. Dreyfus; citation_author=S. Dreyfus; citation_publisher=Macmillan"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Philosophical Studies; citation_title=Intuitive semantics for first-degree entailments and &#8216;coupled trees&#8217;; citation_author=M. Dunn; citation_volume=29; citation_publication_date=1976; citation_pages=149-168; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_title=Computers and Intractability: A Guide to the Theory of NP-Completeness; citation_publication_date=1979; citation_id=CR14; citation_author=M. Garey; citation_author=D. Johnson; citation_publisher=W. H. Freeman"/>
+
+    <meta name="citation_reference" content="Genesereth, M.: 1983, An overview of meta-level architecture. In AAAI-83, pages 119&#8211;124, Washington, D.C."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Theoretical Computer Science; citation_title=The intractability of resolution; citation_author=A. Haken; citation_volume=39; citation_publication_date=1985; citation_pages=297-308; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="citation_title=Algorithmics: The Spirit of Computing; citation_publication_date=1986; citation_id=CR17; citation_author=D. Harel; citation_publisher=Addison-Wesley"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Computational Intelligence; citation_title=A critique of pure treason; citation_author=P. Hayes; citation_volume=3; citation_issue=3; citation_publication_date=1987; citation_pages=179-185; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="citation_title=Introduction to Expert Systems; citation_publication_date=1986; citation_id=CR19; citation_author=P. Jackson; citation_publisher=Addison-Wesley"/>
+
+    <meta name="citation_reference" content="citation_title=Mental Models; citation_publication_date=1983; citation_id=CR20; citation_author=P. Johnson-Laird; citation_publisher=Harvard University Press"/>
+
+    <meta name="citation_reference" content="Kirousis, L. and Papadimitriou, C.: 1985, The complexity of recognizing polyhedral scenes. In The 26th Annual Symposium on the Foundations of Computer Science, Portland, Oregon."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=Linear resolution with selection functions; citation_author=R. Kowalski, D. Kuehner; citation_volume=2; citation_publication_date=1971; citation_pages=227-260; citation_id=CR22"/>
+
+    <meta name="citation_reference" content="Kramer, B.: 1984, Representing control strategies using reflection. In CSCSI-84, pages 153&#8211;158, London, Ontario."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=Soar: an architecture for general intelligence; citation_author=J. E. Laird, A. Newell, P. S. Rosenbloom; citation_volume=33; citation_issue=1; citation_publication_date=1987; citation_pages=1-64; citation_id=CR24"/>
+
+    <meta name="citation_reference" content="Levesque, H.: 1984, A logic of implicit and explicit belief. In AAAI-84, pages 198&#8211;202, Austin, TX."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=Making believers out of computers; citation_author=H. Levesque; citation_volume=30; citation_issue=1; citation_publication_date=1986; citation_pages=81-108; citation_id=CR26"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Annual Reviews of Computer Science; citation_title=Knowledge representation and reasoning; citation_author=H. Levesque; citation_volume=1; citation_publication_date=1986; citation_pages=255-287; citation_id=CR27"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Computational Intelligence; citation_title=Taking issue: guest editor&#39;s introduction; citation_author=H. Levesque; citation_volume=3; citation_issue=3; citation_publication_date=1987; citation_pages=149-150; citation_id=CR28"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Annual Reviews of Computer Science; citation_title=Linear programming (1986); citation_author=N. Megiddo; citation_volume=2; citation_publication_date=1987; citation_pages=119-145; citation_id=CR29"/>
+
+    <meta name="citation_reference" content="Moore, R.: 1982, The role of logic in knowledge representation and commonsense reasoning. In AAAI-82, pages 428&#8211;433, Pittsburgh, PA."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=The knowledge level; citation_author=A. Newell; citation_volume=18; citation_issue=1; citation_publication_date=1982; citation_pages=87-127; citation_id=CR31"/>
+
+    <meta name="citation_reference" content="Patel-Schneider, P.: 1985, A decidable first-order logic for knowledge representation. In IJCAI-85, pages 455&#8211;458, Los Angeles, CA."/>
+
+    <meta name="citation_reference" content="citation_title=Computation and Cognition: Towards a Foundation for Cognitive Science; citation_publication_date=1984; citation_id=CR33; citation_author=Z. Pylyshyn; citation_publisher=Bradford Books"/>
+
+    <meta name="citation_reference" content="citation_title=On closed world databases; citation_inbook_title=Logic and Databases; citation_publication_date=1978; citation_pages=55-76; citation_id=CR34; citation_author=R. Reiter; citation_publisher=Plenum Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Annual Reviews of Computer Science; citation_title=Nonmonotonic reasoning; citation_author=R. Reiter; citation_volume=2; citation_publication_date=1987; citation_pages=147-186; citation_id=CR35"/>
+
+    <meta name="citation_reference" content="citation_title=Parallel Distributed Processing; citation_publication_date=1986; citation_id=CR36; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="Selman, B. and Kautz, H.: 1988, The complexity of model-preference default theories. In CSCSI-88, Edmonton, Alberta."/>
+
+    <meta name="citation_reference" content="citation_title=The Sciences of the Artificial; citation_publication_date=1969; citation_id=CR38; citation_author=H. Simon; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=International Journal of Computer Vision; citation_title=A complexity level analysis of immediate vision; citation_author=J. Tsotsos; citation_volume=4; citation_publication_date=1988; citation_pages=303-320; citation_id=CR39"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Theoretical Computer Science; citation_title=NP is as easy as detecting unique solutions; citation_author=L. Valiant, V. Vazirani; citation_volume=47; citation_publication_date=1986; citation_pages=85-93; citation_id=CR40"/>
+
+    <meta name="citation_author" content="Hector J. Levesque"/>
+
+    <meta name="citation_author_institution" content="Department of Computer Science, University of Toronto, Toronto, Canada"/>
+
+    <meta name="citation_author_institution" content="Canadian Institute for Advanced Research, University of Toronto, Toronto, Canada"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="Logic and the complexity of reasoning"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content=""/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10992/17/4.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF00297511&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1988/11/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF00297511"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Journal of Philosophical Logic"/>
+        <meta property="og:title" content="Logic and the complexity of reasoning"/>
+        
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10992.jpg"/>
+    
+
+    <title>Logic and the complexity of reasoning | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-b0cd12fb00.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-8654d7330d.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF00297511","Journal Title":"Journal of Philosophical Logic","Journal Id":10992,"Keywords":"","kwrd":[],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-BF00297511","Full HTML":"N","Subject Codes":["SCE","SCE16000"],"pmc":["E","E16000"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-0433","pissn":"0022-3611"},"type":"Article","category":{"pmc":{"primarySubject":"Philosophy","primarySubjectCode":"E","secondarySubjects":{"1":"Logic"},"secondarySubjectCodes":{"1":"E16000"}},"sucode":"SC21"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF00297511","Page":"article"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    (function(w, d) {
+        window.config = window.config || {};
+        window.config.mustardcut = false;
+
+        var ctmLinkEl = d.getElementById('js-mustard');
+
+        if (ctmLinkEl && w.matchMedia && w.matchMedia(ctmLinkEl.media).matches) {
+            window.config.mustardcut = true;
+
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return !(scriptEl.hasOwnProperty('noModule')) && scriptEl.hasOwnProperty('onbeforeload');
+            }
+
+            var headScripts = [
+                { 'src' : '/oscar-static/js/polyfill-es5-bundle-ab77bcf8ba.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es5-bundle-adc270d8b8.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es6-bundle-9800922eb8.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                { 'src' : '/oscar-static/js/app-es5-bundle-0c761bb6f7.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/app-es6-bundle-db63800f6b.js', 'async': false, 'module': true}
+                
+                
+                    , { 'src' : '/oscar-static/js/global-article-es5-bundle-0fa22b3244.js', 'async': false, 'module': false},
+                    { 'src' : '/oscar-static/js/global-article-es6-bundle-b52a6ca335.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i=0; i<headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i=0; i<bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        }
+    })(window, document);
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+<div class="c-ad c-ad--LB1" data-test="springer-doubleclick-ad">
+    <div class="c-ad c-ad__inner">
+        <p class="c-ad__label">Advertisement</p>
+        <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10992/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=BF00297511;"></div>
+    </div>
+</div>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00297511">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="c-banner c-banner--marketing">
+	<div class="u-container">
+		<p class="u-ma-0">
+			We'd like to understand how you use our websites in order to improve them.
+			<a class="c-banner__link u-underline"
+				href="https://www.surveymonkey.co.uk/r/F2JMQ6L" data-track="click"
+				data-track-action="Survey click" data-track-category="Blue Banner"
+				data-track-label=10.1007/BF00297511>Register your interest.</a>
+		</p>
+	</div>
+</div>
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="1988-11" itemprop="datePublished">November 1988</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">Logic and the complexity of reasoning</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-1">Hector J. Levesque</a></span><sup class="u-js-hide"><a href="#Aff1">1</a>,<a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Toronto" /><meta itemprop="address" content="grid.17063.33, Department of Computer Science, University of Toronto, M5S 1A4, Toronto, Canada" /></span><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Toronto" /><meta itemprop="address" content="grid.17063.33, Canadian Institute for Advanced Research, University of Toronto, M5S 1A4, Toronto, Canada" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/10992"><i data-test="journal-title">Journal of Philosophical Logic</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 17</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">355</span>–<span itemprop="pageEnd">389</span>(<span data-test="article-publication-year">1988</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-inline">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">169 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">85 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">0 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF00297511/metrics" data-track="click" data-track-action="view metrics" data-track-category="article body" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00297511" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/BF00297511">
+     <input type="hidden" name="isxn" value="1573-0433">
+     <input type="hidden" name="contenttitle" value="Logic and the complexity of reasoning">
+     <input type="hidden" name="copyrightyear" value="1988">
+     <input type="hidden" name="year" value="">
+     <input type="hidden" name="authors" value="Hector J. Levesque">
+     <input type="hidden" name="title" value="Journal of Philosophical Logic">
+     <input type="hidden" name="mac" value="B9F8462D89850DB3F37AADD663526783">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Journal of Philosophical Logic">
+     <input type="hidden" name="journalnumber" value="10992">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/BF00297511&journal=1573-0433&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="A.. Anderson, N.. Belnap, " /><meta itemprop="datePublished" content="1975" /><meta itemprop="headline" content="Anderson, A. and Belnap, N.: 1975, Entailment: The Logic of Relevance and Necessity. Princeton University Pres" /><p class="c-article-references__text" id="ref-CR1">Anderson, A. and Belnap, N.: 1975, <i>Entailment: The Logic of Relevance and Necessity</i>. Princeton University Press, Princeton, NJ.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Entailment%3A%20The%20Logic%20of%20Relevance%20and%20Necessity&amp;publication_year=1975&amp;author=Anderson%2CA.&amp;author=Belnap%2CN.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D.. Ballard, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Ballard, D.: 1986. Cortical connections and parallel processing: structure and function. The Behavioral and Br" /><p class="c-article-references__text" id="ref-CR2">Ballard, D.: 1986. Cortical connections and parallel processing: structure and function. <i>The Behavioral and Brain Sciences</i>
+<b>9</b>(1) 67–90.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Cortical%20connections%20and%20parallel%20processing%3A%20structure%20and%20function&amp;journal=The%20Behavioral%20and%20Brain%20Sciences&amp;volume=9&amp;issue=1&amp;pages=67-90&amp;publication_year=1986&amp;author=Ballard%2CD.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G. E.. Barton, R.. Berwick, E.. Ristad, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Barton, G. E., Berwick, R. and Ristad, E.: 1987, Computational Complexity and Natural Language. MIT Press, Cam" /><p class="c-article-references__text" id="ref-CR3">Barton, G. E., Berwick, R. and Ristad, E.: 1987, <i>Computational Complexity and Natural Language</i>. MIT Press, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 3 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Computational%20Complexity%20and%20Natural%20Language&amp;publication_year=1987&amp;author=Barton%2CG.%20E.&amp;author=Berwick%2CR.&amp;author=Ristad%2CE.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Brachman, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Brachman, R.: 1983, What is-a is and isn't: an analysis of taxonomic links in semantic networks. IEEE Computer" /><p class="c-article-references__text" id="ref-CR4">Brachman, R.: 1983, What is-a is and isn't: an analysis of taxonomic links in semantic networks. <i>IEEE Computer</i>
+<b>16</b>(10): 30–36.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=What%20is-a%20is%20and%20isn%27t%3A%20an%20analysis%20of%20taxonomic%20links%20in%20semantic%20networks&amp;journal=IEEE%20Computer&amp;volume=16&amp;issue=10&amp;pages=30-36&amp;publication_year=1983&amp;author=Brachman%2CR.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Brachman, R. and Levesque, H.: 1984, The tractability of subsumption in frame-based description languages. In " /><p class="c-article-references__text" id="ref-CR5">Brachman, R. and Levesque, H.: 1984, The tractability of subsumption in frame-based description languages. In <i>AAAI-84</i>, pages 34–37, Austin, TX.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.. Carlson, " /><meta itemprop="datePublished" content="1982" /><meta itemprop="headline" content="Carlson, G.: 1982, Generic terms and generic sentences. Journal of Philosophical Logic&#xA;11: 145–182." /><p class="c-article-references__text" id="ref-CR6">Carlson, G.: 1982, Generic terms and generic sentences. <i>Journal of Philosophical Logic</i>
+<b>11</b>: 145–182.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Generic%20terms%20and%20generic%20sentences&amp;journal=Journal%20of%20Philosophical%20Logic&amp;volume=11&amp;pages=145-182&amp;publication_year=1982&amp;author=Carlson%2CG.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="C.. Cherniak, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Cherniak, C.: 1986, Minimal Rationality. Bradford Books, Cambridge, MA." /><p class="c-article-references__text" id="ref-CR7">Cherniak, C.: 1986, <i>Minimal Rationality</i>. Bradford Books, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Minimal%20Rationality&amp;publication_year=1986&amp;author=Cherniak%2CC.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Church, " /><meta itemprop="datePublished" content="1936" /><meta itemprop="headline" content="Church, A.: 1936, A note on the Entscheidungsproblem. The Journal of Symbolic Logic&#xA;1: 40–41." /><p class="c-article-references__text" id="ref-CR8">Church, A.: 1936, A note on the Entscheidungsproblem. <i>The Journal of Symbolic Logic</i>
+<b>1</b>: 40–41.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20note%20on%20the%20Entscheidungsproblem&amp;journal=The%20Journal%20of%20Symbolic%20Logic&amp;volume=1&amp;pages=40-41&amp;publication_year=1936&amp;author=Church%2CA.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Cooks, S.: 1971, The complexity of theorem proving procedures. In The 3rd. Annual Symposium on the Theory of C" /><p class="c-article-references__text" id="ref-CR9">Cooks, S.: 1971, The complexity of theorem proving procedures. In <i>The 3rd. Annual Symposium on the Theory of Computing</i>, pages 151–158, New York, NY.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="de Kleer, J. and Brown, J. S.: 1983, The origin, form, and logic of qualitative physical laws. In IJCAI-83, pa" /><p class="c-article-references__text" id="ref-CR10">de Kleer, J. and Brown, J. S.: 1983, The origin, form, and logic of qualitative physical laws. In <i>IJCAI-83</i>, pages 1158–1169, Karlsruhe, West Germany.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="W.. Dowling, J.. Gallier, " /><meta itemprop="datePublished" content="1984" /><meta itemprop="headline" content="Dowling, W. and Gallier, J.: 1984, Linear-time algorithms for testing the satisfiability of propositional horn" /><p class="c-article-references__text" id="ref-CR11">Dowling, W. and Gallier, J.: 1984, Linear-time algorithms for testing the satisfiability of propositional horn formulae. <i>The Journal of Logic Programming</i>
+<b>3</b>: 267–284.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Linear-time%20algorithms%20for%20testing%20the%20satisfiability%20of%20propositional%20horn%20formulae&amp;journal=The%20Journal%20of%20Logic%20Programming&amp;volume=3&amp;pages=267-284&amp;publication_year=1984&amp;author=Dowling%2CW.&amp;author=Gallier%2CJ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="H.. Dreyfus, S.. Dreyfus, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Dreyfus, H. and Dreyfus, S.: 1986, Mind over Machines. Macmillan, New York, NY." /><p class="c-article-references__text" id="ref-CR12">Dreyfus, H. and Dreyfus, S.: 1986, <i>Mind over Machines</i>. Macmillan, New York, NY.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Mind%20over%20Machines&amp;publication_year=1986&amp;author=Dreyfus%2CH.&amp;author=Dreyfus%2CS.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M.. Dunn, " /><meta itemprop="datePublished" content="1976" /><meta itemprop="headline" content="Dunn, M.: 1976, Intuitive semantics for first-degree entailments and ‘coupled trees’. Philosophical Studies&#xA;29" /><p class="c-article-references__text" id="ref-CR13">Dunn, M.: 1976, Intuitive semantics for first-degree entailments and ‘coupled trees’. <i>Philosophical Studies</i>
+<b>29</b>: 149–168.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Intuitive%20semantics%20for%20first-degree%20entailments%20and%20%E2%80%98coupled%20trees%E2%80%99&amp;journal=Philosophical%20Studies&amp;volume=29&amp;pages=149-168&amp;publication_year=1976&amp;author=Dunn%2CM.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="M.. Garey, D.. Johnson, " /><meta itemprop="datePublished" content="1979" /><meta itemprop="headline" content="Garey, M. and Johnson, D.: 1979, Computers and Intractability: A Guide to the Theory of NP-Completeness. W. H." /><p class="c-article-references__text" id="ref-CR14">Garey, M. and Johnson, D.: 1979, <i>Computers and Intractability: A Guide to the Theory of NP-Completeness</i>. W. H. Freeman, San Francisco, CA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Computers%20and%20Intractability%3A%20A%20Guide%20to%20the%20Theory%20of%20NP-Completeness&amp;publication_year=1979&amp;author=Garey%2CM.&amp;author=Johnson%2CD.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Genesereth, M.: 1983, An overview of meta-level architecture. In AAAI-83, pages 119–124, Washington, D.C." /><p class="c-article-references__text" id="ref-CR15">Genesereth, M.: 1983, An overview of meta-level architecture. In <i>AAAI-83</i>, pages 119–124, Washington, D.C.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Haken, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Haken, A.: 1985, The intractability of resolution. Theoretical Computer Science&#xA;39: 297–308." /><p class="c-article-references__text" id="ref-CR16">Haken, A.: 1985, The intractability of resolution. <i>Theoretical Computer Science</i>
+<b>39</b>: 297–308.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20intractability%20of%20resolution&amp;journal=Theoretical%20Computer%20Science&amp;volume=39&amp;pages=297-308&amp;publication_year=1985&amp;author=Haken%2CA.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.. Harel, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Harel, D.: 1986, Algorithmics: The Spirit of Computing. Addison-Wesley, Don Mills, Ontario." /><p class="c-article-references__text" id="ref-CR17">Harel, D.: 1986, <i>Algorithmics: The Spirit of Computing</i>. Addison-Wesley, Don Mills, Ontario.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 17 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Algorithmics%3A%20The%20Spirit%20of%20Computing&amp;publication_year=1986&amp;author=Harel%2CD.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="P.. Hayes, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Hayes, P.: 1987, A critique of pure treason. Computational Intelligence&#xA;3(3): 179–185." /><p class="c-article-references__text" id="ref-CR18">Hayes, P.: 1987, A critique of pure treason. <i>Computational Intelligence</i>
+<b>3</b>(3): 179–185.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20critique%20of%20pure%20treason&amp;journal=Computational%20Intelligence&amp;volume=3&amp;issue=3&amp;pages=179-185&amp;publication_year=1987&amp;author=Hayes%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="P.. Jackson, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Jackson, P.: 1986, Introduction to Expert Systems. Addison-Wesley, Don Mills, Ontario." /><p class="c-article-references__text" id="ref-CR19">Jackson, P.: 1986, <i>Introduction to Expert Systems</i>. Addison-Wesley, Don Mills, Ontario.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Introduction%20to%20Expert%20Systems&amp;publication_year=1986&amp;author=Jackson%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="P.. Johnson-Laird, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Johnson-Laird, P.: 1983, Mental Models. Harvard University Press, Cambridge, MA." /><p class="c-article-references__text" id="ref-CR20">Johnson-Laird, P.: 1983, <i>Mental Models</i>. Harvard University Press, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Mental%20Models&amp;publication_year=1983&amp;author=Johnson-Laird%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kirousis, L. and Papadimitriou, C.: 1985, The complexity of recognizing polyhedral scenes. In The 26th Annual " /><p class="c-article-references__text" id="ref-CR21">Kirousis, L. and Papadimitriou, C.: 1985, The complexity of recognizing polyhedral scenes. In <i>The 26th Annual Symposium on the Foundations of Computer Science</i>, Portland, Oregon.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Kowalski, D.. Kuehner, " /><meta itemprop="datePublished" content="1971" /><meta itemprop="headline" content="Kowalski, R. and Kuehner, D.: 1971, Linear resolution with selection functions. Artificial Intelligence&#xA;2: 227" /><p class="c-article-references__text" id="ref-CR22">Kowalski, R. and Kuehner, D.: 1971, Linear resolution with selection functions. <i>Artificial Intelligence</i>
+<b>2</b>: 227–260.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Linear%20resolution%20with%20selection%20functions&amp;journal=Artificial%20Intelligence&amp;volume=2&amp;pages=227-260&amp;publication_year=1971&amp;author=Kowalski%2CR.&amp;author=Kuehner%2CD.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kramer, B.: 1984, Representing control strategies using reflection. In CSCSI-84, pages 153–158, London, Ontari" /><p class="c-article-references__text" id="ref-CR23">Kramer, B.: 1984, Representing control strategies using reflection. In <i>CSCSI-84</i>, pages 153–158, London, Ontario.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. E.. Laird, A.. Newell, P. S.. Rosenbloom, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Laird, J. E., Newell, A., and Rosenbloom, P. S.: 1987, Soar: an architecture for general intelligence. Artific" /><p class="c-article-references__text" id="ref-CR24">Laird, J. E., Newell, A., and Rosenbloom, P. S.: 1987, Soar: an architecture for general intelligence. <i>Artificial Intelligence</i>
+<b>33</b>(1): 1–64.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Soar%3A%20an%20architecture%20for%20general%20intelligence&amp;journal=Artificial%20Intelligence&amp;volume=33&amp;issue=1&amp;pages=1-64&amp;publication_year=1987&amp;author=Laird%2CJ.%20E.&amp;author=Newell%2CA.&amp;author=Rosenbloom%2CP.%20S.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Levesque, H.: 1984, A logic of implicit and explicit belief. In AAAI-84, pages 198–202, Austin, TX." /><p class="c-article-references__text" id="ref-CR25">Levesque, H.: 1984, A logic of implicit and explicit belief. In <i>AAAI-84</i>, pages 198–202, Austin, TX.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H.. Levesque, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Levesque, H.: 1986a, Making believers out of computers. Artificial Intelligence&#xA;30(1): 81–108." /><p class="c-article-references__text" id="ref-CR26">Levesque, H.: 1986a, Making believers out of computers. <i>Artificial Intelligence</i>
+<b>30</b>(1): 81–108.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Making%20believers%20out%20of%20computers&amp;journal=Artificial%20Intelligence&amp;volume=30&amp;issue=1&amp;pages=81-108&amp;publication_year=1986&amp;author=Levesque%2CH.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H.. Levesque, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Levesque, H.: 1986b, Knowledge representation and reasoning. Annual Reviews of Computer Science&#xA;1: 255–287." /><p class="c-article-references__text" id="ref-CR27">Levesque, H.: 1986b, Knowledge representation and reasoning. <i>Annual Reviews of Computer Science</i>
+<b>1</b>: 255–287.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Knowledge%20representation%20and%20reasoning&amp;journal=Annual%20Reviews%20of%20Computer%20Science&amp;volume=1&amp;pages=255-287&amp;publication_year=1986&amp;author=Levesque%2CH.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H.. Levesque, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Levesque, H.: 1987, Taking issue: guest editor's introduction. Computational Intelligence&#xA;3(3): 149–150." /><p class="c-article-references__text" id="ref-CR28">Levesque, H.: 1987, Taking issue: guest editor's introduction. <i>Computational Intelligence</i>
+<b>3</b>(3): 149–150.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 28 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Taking%20issue%3A%20guest%20editor%27s%20introduction&amp;journal=Computational%20Intelligence&amp;volume=3&amp;issue=3&amp;pages=149-150&amp;publication_year=1987&amp;author=Levesque%2CH.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="N.. Megiddo, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Megiddo, N.: 1987, Linear programming (1986). Annual Reviews of Computer Science&#xA;2: 119–145." /><p class="c-article-references__text" id="ref-CR29">Megiddo, N.: 1987, Linear programming (1986). <i>Annual Reviews of Computer Science</i>
+<b>2</b>: 119–145.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 29 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Linear%20programming%20%281986%29&amp;journal=Annual%20Reviews%20of%20Computer%20Science&amp;volume=2&amp;pages=119-145&amp;publication_year=1987&amp;author=Megiddo%2CN.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Moore, R.: 1982, The role of logic in knowledge representation and commonsense reasoning. In AAAI-82, pages 42" /><p class="c-article-references__text" id="ref-CR30">Moore, R.: 1982, The role of logic in knowledge representation and commonsense reasoning. In <i>AAAI-82</i>, pages 428–433, Pittsburgh, PA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Newell, " /><meta itemprop="datePublished" content="1982" /><meta itemprop="headline" content="Newell, A.: 1982, The knowledge level. Artificial Intelligence&#xA;18(1): 87–127." /><p class="c-article-references__text" id="ref-CR31">Newell, A.: 1982, The knowledge level. <i>Artificial Intelligence</i>
+<b>18</b>(1): 87–127.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 31 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20knowledge%20level&amp;journal=Artificial%20Intelligence&amp;volume=18&amp;issue=1&amp;pages=87-127&amp;publication_year=1982&amp;author=Newell%2CA.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Patel-Schneider, P.: 1985, A decidable first-order logic for knowledge representation. In IJCAI-85, pages 455–" /><p class="c-article-references__text" id="ref-CR32">Patel-Schneider, P.: 1985, A decidable first-order logic for knowledge representation. In <i>IJCAI-85</i>, pages 455–458, Los Angeles, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="Z.. Pylyshyn, " /><meta itemprop="datePublished" content="1984" /><meta itemprop="headline" content="Pylyshyn, Z.: 1984, Computation and Cognition: Towards a Foundation for Cognitive Science. Bradford Books, Cam" /><p class="c-article-references__text" id="ref-CR33">Pylyshyn, Z.: 1984, <i>Computation and Cognition: Towards a Foundation for Cognitive Science</i>. Bradford Books, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 33 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Computation%20and%20Cognition%3A%20Towards%20a%20Foundation%20for%20Cognitive%20Science&amp;publication_year=1984&amp;author=Pylyshyn%2CZ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.. Reiter, " /><meta itemprop="datePublished" content="1978" /><meta itemprop="headline" content="Reiter, R.: 1978, On closed world databases. In Gallaire, H. and Minker, J., editors, Logic and Databases, pag" /><p class="c-article-references__text" id="ref-CR34">Reiter, R.: 1978, On closed world databases. In Gallaire, H. and Minker, J., editors, <i>Logic and Databases</i>, pages 55–76, Plenum Press, New York, NY.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 34 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Logic%20and%20Databases&amp;pages=55-76&amp;publication_year=1978&amp;author=Reiter%2CR.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Reiter, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Reiter, R.: 1987, Nonmonotonic reasoning. Annual Reviews of Computer Science&#xA;2: 147–186." /><p class="c-article-references__text" id="ref-CR35">Reiter, R.: 1987, Nonmonotonic reasoning. <i>Annual Reviews of Computer Science</i>
+<b>2</b>: 147–186.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 35 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Nonmonotonic%20reasoning&amp;journal=Annual%20Reviews%20of%20Computer%20Science&amp;volume=2&amp;pages=147-186&amp;publication_year=1987&amp;author=Reiter%2CR.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Rumelhart, D. and McClelland, J. (editors): 1986, Parallel Distributed Processing. MIT Press, Cambridge, MA." /><p class="c-article-references__text" id="ref-CR36">Rumelhart, D. and McClelland, J. (editors): 1986, <i>Parallel Distributed Processing</i>. MIT Press, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 36 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Parallel%20Distributed%20Processing&amp;publication_year=1986">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Selman, B. and Kautz, H.: 1988, The complexity of model-preference default theories. In CSCSI-88, Edmonton, Al" /><p class="c-article-references__text" id="ref-CR37">Selman, B. and Kautz, H.: 1988, The complexity of model-preference default theories. In <i>CSCSI-88</i>, Edmonton, Alberta.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="H.. Simon, " /><meta itemprop="datePublished" content="1969" /><meta itemprop="headline" content="Simon, H.: 1969. The Sciences of the Artificial. MIT Press, Cambridge, MA." /><p class="c-article-references__text" id="ref-CR38">Simon, H.: 1969. <i>The Sciences of the Artificial</i>. MIT Press, Cambridge, MA.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 38 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20Sciences%20of%20the%20Artificial&amp;publication_year=1969&amp;author=Simon%2CH.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.. Tsotsos, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Tsotsos, J.: 1988, A complexity level analysis of immediate vision. International Journal of Computer Vision&#xA;4" /><p class="c-article-references__text" id="ref-CR39">Tsotsos, J.: 1988, A complexity level analysis of immediate vision. <i>International Journal of Computer Vision</i>
+<b>4</b>: 303–320.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 39 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20complexity%20level%20analysis%20of%20immediate%20vision&amp;journal=International%20Journal%20of%20Computer%20Vision&amp;volume=4&amp;pages=303-320&amp;publication_year=1988&amp;author=Tsotsos%2CJ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="L.. Valiant, V.. Vazirani, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Valiant, L. and Vazirani, V.: 1986, NP is as easy as detecting unique solutions. Theoretical Computer Science&#xA;" /><p class="c-article-references__text" id="ref-CR40">Valiant, L. and Vazirani, V.: 1986, NP is as easy as detecting unique solutions. <i>Theoretical Computer Science</i>
+<b>47</b>: 85–93.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 40 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=NP%20is%20as%20easy%20as%20detecting%20unique%20solutions&amp;journal=Theoretical%20Computer%20Science&amp;volume=47&amp;pages=85-93&amp;publication_year=1986&amp;author=Valiant%2CL.&amp;author=Vazirani%2CV.">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="/article/10.1007/BF00297511-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><span class="c-article-author-affiliation__address">Department of Computer Science, University of Toronto, M5S 1A4, Toronto, Canada</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Hector J. Levesque</li></ul></li><li id="Aff2"><span class="c-article-author-affiliation__address">Canadian Institute for Advanced Research, University of Toronto, M5S 1A4, Toronto, Canada</span><ul class="c-article-author-affiliation__authors-list"><li class="c-article-author-affiliation__authors-item">Hector J. Levesque</li></ul></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Hector J. Levesque</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Hector J.+Levesque&#34;" class="c-article-button" data-track="click" data-track-category="Article body" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><span class="search-in-title-js">You can also search for this author in </span><ul class="c-article-identifiers"><li class="c-article-identifiers__item"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Hector J.+Levesque" data-track="click" data-track-category="Article body" data-track-action="author link - pubmed" data-track-label="link">PubMed</a></li><li class="c-article-identifiers__item"><a href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Hector J.+Levesque%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-category="Article body" data-track-action="author link - scholar" data-track-label="link">
+                                Google Scholar
+                            </a></li></ul></div></div></li></ol></div></div></div></section><section aria-labelledby="additional-information"><div class="c-article-section" id="additional-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="additional-information">Additional information</h2><div class="c-article-section__content" id="additional-information-content"><p>This paper is based on a seminar I gave in 1987 at York University, Carnegie Mellon University, Harvard University, the University of Western Ontario, and the University of California at San Diego. Thanks to my hosts at these institutions, and to all the others who attended the lecture and tried to keep me honest. Thanks also to Wolfgang Bibel, Ron Brachman, Tim Horton, David Israel, Joe Nunes, Ray Reiter, Jim des Rivières, Bart Selman, Rich Thomason, and John Tsotsos for reading an earlier draft and snaring several falsehoods. The ones that got away are not their fault, of course. Financial support was gratefully received from the Natural Sciences and Engineering Research Council of Canada.</p></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Logic%20and%20the%20complexity%20of%20reasoning&amp;author=Hector%20J.%20Levesque&amp;contentID=10.1007%2FBF00297511&amp;publication=0022-3611&amp;publicationDate=1988-11&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Levesque, H.J. Logic and the complexity of reasoning.
+                    <i>J Philos Logic</i> <b>17, </b>355–389 (1988). https://doi.org/10.1007/BF00297511</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" href="/article/10.1007/BF00297511.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><time datetime="1988-11">November 1988</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="u-clearfix c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF00297511" data-track="click" data-track-action="view doi" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF00297511</a></span></p></li></ul><div data-component="share-box"></div><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/BF00297511">
+     <input type="hidden" name="isxn" value="1573-0433">
+     <input type="hidden" name="contenttitle" value="Logic and the complexity of reasoning">
+     <input type="hidden" name="copyrightyear" value="1988">
+     <input type="hidden" name="year" value="">
+     <input type="hidden" name="authors" value="Hector J. Levesque">
+     <input type="hidden" name="title" value="Journal of Philosophical Logic">
+     <input type="hidden" name="mac" value="B9F8462D89850DB3F37AADD663526783">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Journal of Philosophical Logic">
+     <input type="hidden" name="journalnumber" value="10992">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/BF00297511&journal=1573-0433&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <div class="c-ad c-ad--MPU1">
+        <div class="c-ad c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10992/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=BF00297511;"></div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 185.183.105.148</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 14 14">
+            <path d="M13.545 12.648a.641.641 0 01.006.903.646.646 0 01-.903-.006l-2.664-2.663a6.125 6.125 0 11.897-.898l2.664 2.664zm-7.42-1.273a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5z"></path>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+abstract: We adopt deep learning models to directly optimise the portfolio Sharpe
+  ratio. The framework we present circumvents the requirements for forecasting expected
+  returns and allows us to directly optimise portfolio weights by updating model parameters.
+  Instead of selecting individual assets, we trade Exchange-Traded Funds (ETFs) of
+  market indices to form a portfolio. Indices of different asset classes show robust
+  correlations and trading them substantially reduces the spectrum of available assets
+  to choose from. We compare our method with a wide range of algorithms with results
+  showing that our model obtains the best performance over the testing period, from
+  2011 to the end of April 2020, including the financial instabilities of the first
+  quarter of 2020. A sensitivity analysis is included to understand the relevance
+  of input features and we further study the performance of our approach under different
+  cost rates and different risk levels via volatility scaling.
+archiveprefix: arXiv
+author: Zhang, Zihao and Zohren, Stefan and Roberts, Stephen
+author_list:
+- family: Zhang
+  given: Zihao
+- family: Zohren
+  given: Stefan
+- family: Roberts
+  given: Stephen
+eprint: 2005.13665v1
+file: 2005.13665v1.pdf
+files:
+- zhang-zihao-and-zohren-stefan-and-roberts-stephendeep-learning-for-portfolio-optimisation2020.pdf
+month: May
+primaryclass: q-fin.PM
+ref: 2005.13665v1
+time-added: 2020-06-02-22:11:27
+title: Deep Learning for Portfolio Optimisation
+type: article
+url: http://arxiv.org/abs/2005.13665v1
+year: '2020'

@@ -1,0 +1,37 @@
+abstract: 'Solomonoff unified Occam''s razor and Epicurus'' principle of multiple
+  explanations to one elegant, formal, universal theory of inductive inference, which
+  initiated the field of algorithmic information theory. His central result is that
+  the posterior of his universal semimeasure M converges rapidly to the true sequence
+  generating posterior mu, if the latter is computable. Hence, M is eligible as a
+  universal predictor in case of unknown mu. We investigate the existence and convergence
+  of computable universal (semi)measures for a hierarchy of computability classes:
+  finitely computable, estimable, enumerable, and approximable. For instance, M is
+  known to be enumerable, but not finitely computable, and to dominate all enumerable
+  semimeasures. We define seven classes of (semi)measures based on these four computability
+  concepts. Each class may or may not contain a (semi)measure which dominates all
+  elements of another class. The analysis of these 49 cases can be reduced to four
+  basic cases, two of them being new. The results hold for discrete and continuous
+  semimeasures. We also investigate more closely the types of convergence, possibly
+  implied by universality: in difference and in ratio, with probability 1, in mean
+  sum, and for Martin-Loef random sequences. We introduce a generalized concept of
+  randomness for individual sequences and use it to exhibit difficulties regarding
+  these issues.'
+archiveprefix: arXiv
+author: Hutter, Marcus
+author_list:
+- family: Hutter
+  given: Marcus
+eprint: cs/0305052v1
+file: cs/0305052v1.pdf
+files:
+- hutter-marcuson-the-existence-and-convergence-computable-universal-priors2003.pdf
+month: May
+note: Proceedings of the 14th International Conference on Algorithmic   Learning Theory
+  (ALT-2003) 298-312
+primaryclass: cs.LG
+ref: cs/0305052v1
+time-added: 2020-06-06-13:47:54
+title: On the Existence and Convergence Computable Universal Priors
+type: article
+url: http://arxiv.org/abs/cs/0305052v1
+year: '2003'

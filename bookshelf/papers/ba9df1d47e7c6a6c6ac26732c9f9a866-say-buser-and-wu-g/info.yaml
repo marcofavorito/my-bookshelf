@@ -1,0 +1,52 @@
+abstract: <jats:p>In many real-world hybrid (mixed discrete continuous) planning problems
+  such as Reservoir Control, Heating, Ventilation and Air Conditioning (HVAC), and
+  Navigation, it is difficult to obtain a model of the complex nonlinear dynamics
+  that govern state evolution.  However, the ubiquity of modern sensors allow us to
+  collect large quantities of data from each of these complex systems and build accurate,
+  nonlinear deep network models of their state transitions.  But there remains one
+  major problem for the task of control -- how can we plan with deep network learned
+  transition models without resorting to Monte Carlo Tree Search and other black-box
+  transition model techniques that ignore model structure and do not easily extend
+  to mixed discrete and continuous domains? In this paper, we make the critical observation
+  that the popular Rectified Linear Unit (ReLU) transfer function for deep networks
+  not only allows accurate nonlinear deep net model learning, but also permits a direct
+  compilation of the deep network transition model to a Mixed-Integer Linear Program
+  (MILP) encoding in a planner we call Hybrid Deep MILP Planning (HD-MILP-PLAN). We
+  identify deep net specific optimizations and a simple sparsification method for
+  HD-MILP-PLAN that improve performance over a naive encoding, and show that we are
+  able to plan optimally with respect to the learned deep network.</jats:p>
+author: Say, Buser and Wu, Ga and Zhou, Yu Qing and Sanner, Scott
+author_list:
+- affiliation:
+  - name: Mechanical and Industrial Engineering, University of Toronto
+  family: Say
+  given: Buser
+- affiliation:
+  - name: Mechanical and Industrial Engineering, University of Toronto
+  family: Wu
+  given: Ga
+- affiliation:
+  - name: Mechanical and Industrial Engineering, University of Toronto
+  family: Zhou
+  given: Yu Qing
+- affiliation:
+  - name: Mechanical and Industrial Engineering, University of Toronto
+  family: Sanner
+  given: Scott
+booktitle: Twenty-Sixth International Joint Conference on Artificial Intelligence
+doi: 10.24963/ijcai.2017/104
+files:
+- say-buser-and-wu-ga-and-zhou-yu-qing-and-sanner-scottnonlinear-hybrid-planning-with-deep-net-learned-transition-models-and-mixed-integer-linear-pr.pdf
+isbn:
+- '9780999241103'
+journal: Proceedings of the Twenty-Sixth International Joint Conference on Artificial
+  Intelligence
+month: 8
+publisher: International Joint Conferences on Artificial Intelligence Organization
+time-added: 2020-06-04-15:41:17
+title: Nonlinear Hybrid Planning with Deep Net Learned Transition Models and Mixed-Integer
+  Linear Programming
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2017/104
+venue: Melbourne, Australia
+year: 2017

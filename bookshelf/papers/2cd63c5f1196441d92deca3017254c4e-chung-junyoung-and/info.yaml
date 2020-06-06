@@ -1,0 +1,36 @@
+abstract: In this paper, we explore the inclusion of latent random variables into
+  the dynamic hidden state of a recurrent neural network (RNN) by combining elements
+  of the variational autoencoder. We argue that through the use of high-level latent
+  random variables, the variational RNN (VRNN)1 can model the kind of variability
+  observed in highly structured sequential data such as natural speech. We empirically
+  evaluate the proposed model against related sequential models on four speech datasets
+  and one handwriting dataset. Our results show the important roles that latent random
+  variables can play in the RNN dynamic hidden state.
+archiveprefix: arXiv
+author: Chung, Junyoung and Kastner, Kyle and Dinh, Laurent and Goel, Kratarth and
+  Courville, Aaron and Bengio, Yoshua
+author_list:
+- family: Chung
+  given: Junyoung
+- family: Kastner
+  given: Kyle
+- family: Dinh
+  given: Laurent
+- family: Goel
+  given: Kratarth
+- family: Courville
+  given: Aaron
+- family: Bengio
+  given: Yoshua
+eprint: 1506.02216v6
+file: 1506.02216v6.pdf
+files:
+- chung-junyoung-and-kastner-kyle-and-dinh-laurent-and-goel-kratarth-and-courville-aaron-and-bengio-yoshuaa-recurrent-latent-variable-model-for-se.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1506.02216v6
+time-added: 2020-06-05-19:56:25
+title: A Recurrent Latent Variable Model for Sequential Data
+type: article
+url: http://arxiv.org/abs/1506.02216v6
+year: '2015'

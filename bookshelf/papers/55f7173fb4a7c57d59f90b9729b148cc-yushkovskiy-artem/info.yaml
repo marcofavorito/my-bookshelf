@@ -1,0 +1,35 @@
+abstract: The need for formal definition of the very basis of mathematics arose in
+  the last century. The scale and complexity of mathematics, along with discovered
+  paradoxes, revealed the danger of accumulating errors across theories. Although,
+  according to G\"odel's incompleteness theorems, it is not possible to construct
+  a single formal system which will describe all phenomena in the world, being complete
+  and consistent at the same time, it gave rise to rather practical areas of logic,
+  such as the theory of automated theorem proving. This is a set of techniques used
+  to verify mathematical statements mechanically using logical reasoning. Moreover,
+  it can be used to solve complex engineering problems as well, for instance, to prove
+  the security properties of a software system or an algorithm. This paper compares
+  two widespread tools for automated theorem proving, Isabelle/HOL and Coq, with respect
+  to expressiveness, limitations and usability. For this reason, it firstly gives
+  a brief introduction to the bases of formal systems and automated deduction theory,
+  their main problems and challenges, and then provides detailed comparison of most
+  notable features of the selected theorem provers with support of illustrative proof
+  examples.
+archiveprefix: arXiv
+author: Yushkovskiy, Artem
+author_list:
+- family: Yushkovskiy
+  given: Artem
+eprint: 1808.09701v2
+file: 1808.09701v2.pdf
+files:
+- hol-and-coq2018.pdf
+month: Aug
+note: In proceedings of the Seminar in Computer Science (CS-E4000),   Aalto Univeristy,
+  Autumn 2017
+primaryclass: cs.LO
+ref: 1808.09701v2
+time-added: 2020-06-05-18:56:57
+title: 'Comparison of Two Theorem Provers: Isabelle/HOL and Coq'
+type: article
+url: http://arxiv.org/abs/1808.09701v2
+year: '2018'

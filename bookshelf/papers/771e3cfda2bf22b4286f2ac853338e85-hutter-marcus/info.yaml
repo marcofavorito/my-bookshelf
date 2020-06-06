@@ -1,0 +1,30 @@
+abstract: An algorithm $M$ is described that solves any well-defined problem $p$ as
+  quickly as the fastest algorithm computing a solution to $p$, save for a factor
+  of 5 and low-order additive terms. $M$ optimally distributes resources between the
+  execution of provably correct $p$-solving programs and an enumeration of all proofs,
+  including relevant proofs of program correctness and of time bounds on program runtimes.
+  $M$ avoids Blum's speed-up theorem by ignoring programs without correctness proof.
+  $M$ has broader applicability and can be faster than Levin's universal search, the
+  fastest method for inverting functions save for a large multiplicative constant.
+  An extension of Kolmogorov complexity and two novel natural measures of function
+  complexity are used to show that the most efficient program computing some function
+  $f$ is also among the shortest programs provably computing $f$.
+archiveprefix: arXiv
+author: Hutter, Marcus
+author_list:
+- family: Hutter
+  given: Marcus
+eprint: cs/0206022v1
+file: cs/0206022v1.pdf
+files:
+- hutter-marcusthe-fastest-and-shortest-algorithm-for-all-well-defined-problems2002.pdf
+month: Jun
+note: International Journal of Foundations of Computer Science, Vol.13,   No.3, June
+  2002, 431-443
+primaryclass: cs.CC
+ref: cs/0206022v1
+time-added: 2020-06-05-19:29:30
+title: The Fastest and Shortest Algorithm for All Well-Defined Problems
+type: article
+url: http://arxiv.org/abs/cs/0206022v1
+year: '2002'

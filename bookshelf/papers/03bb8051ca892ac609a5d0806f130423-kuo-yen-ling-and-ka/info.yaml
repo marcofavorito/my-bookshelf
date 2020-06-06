@@ -1,0 +1,38 @@
+abstract: 'We demonstrate a reinforcement learning agent which uses a compositional
+  recurrent neural network that takes as input an LTL formula and determines satisfying
+  actions. The input LTL formulas have never been seen before, yet the network performs
+  zero-shot generalization to satisfy them. This is a novel form of multi-task learning
+  for RL agents where agents learn from one diverse set of tasks and generalize to
+  a new set of diverse tasks. The formulation of the network enables this capacity
+  to generalize. We demonstrate this ability in two domains. In a symbolic domain,
+  the agent finds a sequence of letters in that are accepted. In a Minecraft-like
+  environment, the agent finds a sequence of actions that conform to the formula.
+  While prior work could learn to execute one formula reliably given examples of that
+  formula, we demonstrate how to encode all formulas reliably. This could form the
+  basis of new multi-task agents that discover sub-tasks and execute them without
+  any additional training, as well as the agents which follow more complex linguistic
+  commands. The structures required for this generalization are specific to LTL formulas,
+  which opens up an interesting theoretical question: what structures are required
+  in neural networks for zero-shot generalization to different logics?'
+archiveprefix: arXiv
+author: Kuo, Yen-Ling and Katz, Boris and Barbu, Andrei
+author_list:
+- family: Kuo
+  given: Yen-Ling
+- family: Katz
+  given: Boris
+- family: Barbu
+  given: Andrei
+eprint: 2006.01110v1
+file: 2006.01110v1.pdf
+files:
+- kuo-yen-ling-and-katz-boris-and-barbu-andreiencoding-formulas-as-deep-networks-reinforcement-learning-for-zero-shot-execution-of-ltl-formulas202.pdf
+month: Jun
+primaryclass: cs.RO
+ref: 2006.01110v1
+time-added: 2020-06-06-16:23:52
+title: 'Encoding formulas as deep networks: Reinforcement learning for zero-shot   execution
+  of LTL formulas'
+type: article
+url: http://arxiv.org/abs/2006.01110v1
+year: '2020'

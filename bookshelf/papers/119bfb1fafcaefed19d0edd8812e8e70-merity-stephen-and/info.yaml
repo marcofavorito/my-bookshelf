@@ -1,0 +1,34 @@
+abstract: 'Recurrent neural networks (RNNs), such as long short-term memory networks
+  (LSTMs), serve as a fundamental building block for many sequence learning tasks,
+  including machine translation, language modeling, and question answering. In this
+  paper, we consider the specific problem of word-level language modeling and investigate
+  strategies for regularizing and optimizing LSTM-based models. We propose the weight-dropped
+  LSTM which uses DropConnect on hidden-to-hidden weights as a form of recurrent regularization.
+  Further, we introduce NT-ASGD, a variant of the averaged stochastic gradient method,
+  wherein the averaging trigger is determined using a non-monotonic condition as opposed
+  to being tuned by the user. Using these and other regularization strategies, we
+  achieve state-of-the-art word level perplexities on two data sets: 57.3 on Penn
+  Treebank and 65.8 on WikiText-2. In exploring the effectiveness of a neural cache
+  in conjunction with our proposed model, we achieve an even lower state-of-the-art
+  perplexity of 52.8 on Penn Treebank and 52.0 on WikiText-2.'
+archiveprefix: arXiv
+author: Merity, Stephen and Keskar, Nitish Shirish and Socher, Richard
+author_list:
+- family: Merity
+  given: Stephen
+- family: Keskar
+  given: Nitish Shirish
+- family: Socher
+  given: Richard
+eprint: 1708.02182v1
+file: 1708.02182v1.pdf
+files:
+- merity-stephen-and-keskar-nitish-shirish-and-socher-richardregularizing-and-optimizing-lstm-language-models2017.pdf
+month: Aug
+primaryclass: cs.CL
+ref: 1708.02182v1
+time-added: 2020-06-05-22:05:43
+title: Regularizing and Optimizing LSTM Language Models
+type: article
+url: http://arxiv.org/abs/1708.02182v1
+year: '2017'

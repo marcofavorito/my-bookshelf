@@ -1,0 +1,40 @@
+abstract: Deep reinforcement learning (RL) has achieved breakthrough results on many
+  tasks, but agents often fail to generalize beyond the environment they were trained
+  in. As a result, deep RL algorithms that promote generalization are receiving increasing
+  attention. However, works in this area use a wide variety of tasks and experimental
+  setups for evaluation. The literature lacks a controlled assessment of the merits
+  of different generalization schemes. Our aim is to catalyze community-wide progress
+  on generalization in deep RL. To this end, we present a benchmark and experimental
+  protocol, and conduct a systematic empirical study. Our framework contains a diverse
+  set of environments, our methodology covers both in-distribution and out-of-distribution
+  generalization, and our evaluation includes deep RL algorithms that specifically
+  tackle generalization. Our key finding is that `vanilla' deep RL algorithms generalize
+  better than specialized schemes that were proposed specifically to tackle generalization.
+archiveprefix: arXiv
+author: Packer, Charles and Gao, Katelyn and Kos, Jernej and Krähenbühl, Philipp and
+  Koltun, Vladlen and Song, Dawn
+author_list:
+- family: Packer
+  given: Charles
+- family: Gao
+  given: Katelyn
+- family: Kos
+  given: Jernej
+- family: Krähenbühl
+  given: Philipp
+- family: Koltun
+  given: Vladlen
+- family: Song
+  given: Dawn
+eprint: 1810.12282v2
+file: 1810.12282v2.pdf
+files:
+- packer-charles-and-gao-katelyn-and-kos-jernej-and-krahenbuhl-philipp-and-koltun-vladlen-and-song-dawnassessing-generalization-in-deep-reinforcem.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1810.12282v2
+time-added: 2020-06-05-19:27:27
+title: Assessing Generalization in Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1810.12282v2
+year: '2018'

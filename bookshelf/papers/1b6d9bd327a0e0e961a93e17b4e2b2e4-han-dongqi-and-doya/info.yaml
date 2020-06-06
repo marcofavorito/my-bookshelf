@@ -1,0 +1,33 @@
+abstract: 'In partially observable (PO) environments, deep reinforcement learning
+  (RL) agents often suffer from unsatisfactory performance, since two problems need
+  to be tackled together: how to extract information from the raw observations to
+  solve the task, and how to improve the policy. In this study, we propose an RL algorithm
+  for solving PO tasks. Our method comprises two parts: a variational recurrent model
+  (VRM) for modeling the environment, and an RL controller that has access to both
+  the environment and the VRM. The proposed algorithm was tested in two types of PO
+  robotic control tasks, those in which either coordinates or velocities were not
+  observable and those that require long-term memorization. Our experiments show that
+  the proposed algorithm achieved better data efficiency and/or learned more optimal
+  policy than other alternative approaches in tasks in which unobserved states cannot
+  be inferred from raw observations in a simple manner.'
+archiveprefix: arXiv
+author: Han, Dongqi and Doya, Kenji and Tani, Jun
+author_list:
+- family: Han
+  given: Dongqi
+- family: Doya
+  given: Kenji
+- family: Tani
+  given: Jun
+eprint: 1912.10703v2
+file: 1912.10703v2.pdf
+files:
+- han-dongqi-and-doya-kenji-and-tani-junvariational-recurrent-models-for-solving-partially-observable-control-tasks2019.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1912.10703v2
+time-added: 2020-06-05-19:53:00
+title: Variational Recurrent Models for Solving Partially Observable Control   Tasks
+type: article
+url: http://arxiv.org/abs/1912.10703v2
+year: '2019'
