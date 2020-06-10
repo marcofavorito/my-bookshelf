@@ -1,0 +1,47 @@
+abstract: 'To achieve general intelligence, agents must learn how to interact with
+  others in a shared environment: this is the challenge of multiagent reinforcement
+  learning (MARL). The simplest form is independent reinforcement learning (InRL),
+  where each agent treats its experience as part of its (non-stationary) environment.
+  In this paper, we first observe that policies learned using InRL can overfit to
+  the other agents'' policies during training, failing to sufficiently generalize
+  during execution. We introduce a new metric, joint-policy correlation, to quantify
+  this effect. We describe an algorithm for general MARL, based on approximate best
+  responses to mixtures of policies generated using deep reinforcement learning, and
+  empirical game-theoretic analysis to compute meta-strategies for policy selection.
+  The algorithm generalizes previous ones such as InRL, iterated best response, double
+  oracle, and fictitious play. Then, we present a scalable implementation which reduces
+  the memory requirement using decoupled meta-solvers. Finally, we demonstrate the
+  generality of the resulting policies in two partially observable settings: gridworld
+  coordination games and poker.'
+archiveprefix: arXiv
+author: Lanctot, Marc and Zambaldi, Vinicius and Gruslys, Audrunas and Lazaridou,
+  Angeliki and Tuyls, Karl and Perolat, Julien and Silver, David and Graepel, Thore
+author_list:
+- family: Lanctot
+  given: Marc
+- family: Zambaldi
+  given: Vinicius
+- family: Gruslys
+  given: Audrunas
+- family: Lazaridou
+  given: Angeliki
+- family: Tuyls
+  given: Karl
+- family: Perolat
+  given: Julien
+- family: Silver
+  given: David
+- family: Graepel
+  given: Thore
+eprint: 1711.00832v2
+file: 1711.00832v2.pdf
+files:
+- lanctot-marc-and-zambaldi-vinicius-and-gruslys-audrunas-and-lazaridou-angeliki-and-tuyls-karl-and-perolat-julien-and-silver-david-and-graepel.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1711.00832v2
+time-added: 2020-06-10-12:26:47
+title: A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1711.00832v2
+year: '2017'

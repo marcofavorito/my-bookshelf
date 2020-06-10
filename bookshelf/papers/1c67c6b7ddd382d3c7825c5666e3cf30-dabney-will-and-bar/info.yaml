@@ -1,0 +1,50 @@
+abstract: In value-based reinforcement learning (RL), unlike in supervised learning,
+  the agent faces not a single, stationary, approximation problem, but a sequence
+  of value prediction problems. Each time the policy improves, the nature of the problem
+  changes, shifting both the distribution of states and their values. In this paper
+  we take a novel perspective, arguing that the value prediction problems faced by
+  an RL agent should not be addressed in isolation, but rather as a single, holistic,
+  prediction problem. An RL algorithm generates a sequence of policies that, at least
+  approximately, improve towards the optimal policy. We explicitly characterize the
+  associated sequence of value functions and call it the value-improvement path. Our
+  main idea is to approximate the value-improvement path holistically, rather than
+  to solely track the value function of the current policy. Specifically, we discuss
+  the impact that this holistic view of RL has on representation learning. We demonstrate
+  that a representation that spans the past value-improvement path will also provide
+  an accurate value approximation for future policy improvements. We use this insight
+  to better understand existing approaches to auxiliary tasks and to propose new ones.
+  To test our hypothesis empirically, we augmented a standard deep RL agent with an
+  auxiliary task of learning the value-improvement path. In a study of Atari 2600
+  games, the augmented agent achieved approximately double the mean and median performance
+  of the baseline agent.
+archiveprefix: arXiv
+author: Dabney, Will and Barreto, André and Rowland, Mark and Dadashi, Robert and
+  Quan, John and Bellemare, Marc G. and Silver, David
+author_list:
+- family: Dabney
+  given: Will
+- family: Barreto
+  given: André
+- family: Rowland
+  given: Mark
+- family: Dadashi
+  given: Robert
+- family: Quan
+  given: John
+- family: Bellemare
+  given: Marc G.
+- family: Silver
+  given: David
+eprint: 2006.02243v1
+file: 2006.02243v1.pdf
+files:
+- dabney-will-and-barreto-andre-and-rowland-mark-and-dadashi-robert-and-quan-john-and-bellemare-marc-g.-and-silver-davidthe-value-improvement-pat.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.02243v1
+time-added: 2020-06-09-12:09:36
+title: 'The Value-Improvement Path: Towards Better Representations for   Reinforcement
+  Learning'
+type: article
+url: http://arxiv.org/abs/2006.02243v1
+year: '2020'

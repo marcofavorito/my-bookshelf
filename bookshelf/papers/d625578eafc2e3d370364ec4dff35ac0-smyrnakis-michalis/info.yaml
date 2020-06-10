@@ -1,0 +1,31 @@
+abstract: 'Decentralised optimisation tasks are important components of multi-agent
+  systems. These tasks can be interpreted as n-player potential games: therefore game-theoretic
+  learning algorithms can be used to solve decentralised optimisation tasks. Fictitious
+  play is the canonical example of these algorithms. Nevertheless fictitious play
+  implicitly assumes that players have stationary strategies. We present a novel variant
+  of fictitious play where players predict their opponents'' strategies using Extended
+  Kalman filters and use their predictions to update their strategies.   We show that
+  in 2 by 2 games with at least one pure Nash equilibrium and in potential games where
+  players have two available actions, the proposed algorithm converges to the pure
+  Nash equilibrium. The performance of the proposed algorithm was empirically tested,
+  in two strategic form games and an ad-hoc sensor network surveillance problem. The
+  proposed algorithm performs better than the classic fictitious play algorithm in
+  these games and therefore improves the performance of game-theoretical learning
+  in decentralised optimisation.'
+archiveprefix: arXiv
+author: Smyrnakis, Michalis
+author_list:
+- family: Smyrnakis
+  given: Michalis
+eprint: 1301.3347v1
+file: 1301.3347v1.pdf
+files:
+- smyrnakis-michalismulti-agent-learning-using-fictitious-play-and-extended-kalman-filter2013.pdf
+month: Jan
+primaryclass: cs.MA
+ref: 1301.3347v1
+time-added: 2020-06-10-12:24:11
+title: Multi-agent learning using Fictitious Play and Extended Kalman Filter
+type: article
+url: http://arxiv.org/abs/1301.3347v1
+year: '2013'

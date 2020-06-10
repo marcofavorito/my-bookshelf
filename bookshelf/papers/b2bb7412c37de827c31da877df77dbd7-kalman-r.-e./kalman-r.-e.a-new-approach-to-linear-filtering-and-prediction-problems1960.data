@@ -1,0 +1,1610 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>A New Approach to Linear Filtering and Prediction Problems | Journal of Fluids Engineering | ASME Digital Collection</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//asmedc.silverchair-cdn.com/Themes/Silver/app/js/jquery.2.2.4.min.js" type="text/javascript">\x3C/script>')</script>
+<script src="//asmedc.silverchair-cdn.com/Themes/Silver/app/vendor/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/Themes/Client/app/img/favicons/v-637255798211380878/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/Themes/Client/app/img/favicons/v-637255798211380878/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/Themes/Client/app/img/favicons/v-637255798211380878/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="/Themes/Client/app/img/favicons/v-637255798211380878/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/Themes/Client/app/img/favicons/v-637255798211380878/favicon.ico">
+  <link rel="manifest" href="/Themes/Client/app/img/favicons/v-637255798211380878/manifest.json">
+  <meta name="msapplication-config" content="/Themes/Client/app/img/favicons/v-637255798211380878/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+  <link rel="stylesheet" type="text/css" href="/Themes/Client/app/css/v-637261824345515506/site.min.css" />
+  <link rel="stylesheet" type="text/css" href="/Themes/Client/app/css/icons/v-637255798211380878/style.css" />
+  <link rel="stylesheet" type="text/css" href="/Themes/Client/app/css/v-637255798211224633/bg_img.css" />
+
+<link href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet" />
+
+<link rel="stylesheet" href="/Themes/Silver/app/vendor/prismjs/prism.css" />
+
+        
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P7J55T');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 0,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'fluidsengineering';
+            App.SiteURL = 'asmedigitalcollection.asme.org/fluidsengineering';
+        </script>
+    
+    
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+  <meta name="citation_author" content="Kalman, R. E." /><meta name="citation_author_institution" content="Research Institute for Advanced Study, Baltimore, Md." /><meta name="citation_title" content="A New Approach to Linear Filtering and Prediction Problems" /><meta name="citation_firstpage" content="35" /><meta name="citation_lastpage" content="45" /><meta name="citation_doi" content="10.1115/1.3662552" /><meta name="citation_keyword" content="Stochastic processes" /><meta name="citation_keyword" content="Statistics as topic" /><meta name="citation_keyword" content="Dynamic systems" /><meta name="citation_keyword" content="Errors" /><meta name="citation_journal_title" content="Journal of Basic Engineering" /><meta name="citation_journal_abbrev" content="J. Basic Eng" /><meta name="citation_volume" content="82" /><meta name="citation_issue" content="1" /><meta name="citation_publication_date" content="1960/03/01" /><meta name="citation_issn" content="0021-9223" /><meta name="citation_publisher" content="American Society of Mechanical Engineers Digital Collection" /><meta name="citation_pdf_url" content="https://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/82/1/35/5518977/35_1.pdf" /><meta name="dc.identifier" content="10.1115/1.3662552" />
+
+<meta name="citation_xml_url" content="https://asmedigitalcollection.asme.org/fluidsengineering/article-xml/82/1/35/397706" />
+
+
+
+    <link rel="canonical" href="https://asmedigitalcollection.asme.org/fluidsengineering/article/82/1/35/397706/A-New-Approach-to-Linear-Filtering-and-Prediction" />
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    googletag.cmd.push(function () {
+    googletag.pubads().disableInitialLoad();
+
+    
+    });
+</script>
+
+
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="j.fluidseng." class="off-canvas pg_Article pg_article  " theme-fluidsengineering data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7J55T"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="1000021" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="3000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="basic" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="basic" />
+    
+
+
+
+
+
+
+    <section class="master-header row vt-site-header">
+
+    <div class="ad-banner js-ad-banner">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-HeaderAd">
+        <div class="widget widget-dynamic " data-count="0">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+
+    </div>
+
+</div> 
+    </div>
+
+
+    </div>
+
+    <div class="widget-SitePageHeader widget-instance-SitePageHeader">
+            <div class="site-theme-header">
+        <div class="site-theme-header_contents global-nav-base">
+         
+
+<div class="global-nav">
+            <a class="js-dropdown-trigger global-nav-trigger" href="javascript:;">
+            <picture>
+                    <source media="(max-width: 600px)" srcset="/UI/app/svg/umbrella/mobile-logo.svg">
+                <source media="(min-width: 601px)" srcset="/UI/app/svg/umbrella/logo.svg">
+                <img id="logo-J.FluidsEng." class="site-theme-header-image" src="/UI/app/svg/umbrella/logo.svg" alt="American Society of Mechanical Engineers: Digital Collection" />
+            </picture>
+            <i class="icon-general_arrow-down arrow-icon"></i>
+        </a>
+        <nav class="navbar-menu global-nav-dropdown js-dropdown">
+            <div class="site-theme-header-logo">
+                <a href="/" class="site-theme-header-image-wrap">
+                        <picture>
+                                <source media="(max-width: 600px)" srcset="/UI/app/svg/umbrella/mobile-logo.svg">
+                            <source media="(min-width: 601px)" srcset="/UI/app/svg/umbrella/logo.svg">
+                            <img id="logo-J.FluidsEng." class="site-theme-header-image" src="/UI/app/svg/umbrella/logo.svg" alt="American Society of Mechanical Engineers: Digital Collection" />
+                        </picture>
+                </a>
+                <a href="javascript:;" class="icon-general-close menu-close"><span class="screenreader-text">Close</span></a>
+            </div>            
+            <ul class="site-menu site-menu-lvl-0"><li class="site-menu-item site-menu-lvl-0 site-menu-item-Journals " id="site-menu-item-120593"><a href="javascript:;" class="nav-link js-nav-link">Journals<i class="icon-general_arrow-down arrow-icon"></i></a><ul class="site-menu site-menu-lvl-1"><li class="site-menu-item site-menu-lvl-1 site-menu-item-All-Journals " id="site-menu-item-120600"><a href="/journals" class="nav-link">All Journals</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Mechanical-Engineering-Magazine-Select-Articles " id="site-menu-item-120601"><a href="/memagazineselect" class="nav-link">Mechanical Engineering Magazine Select Articles</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Applied-Mechanics-Reviews " id="site-menu-item-120602"><a href="/appliedmechanicsreviews" class="nav-link">Applied Mechanics Reviews</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-ASCE-ASME-Journal-of-Risk-and-Uncertainty-in-Engineering-Systems,-Part-B:--Mechanical-Engineering " id="site-menu-item-120603"><a href="/risk" class="nav-link">ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part B:  Mechanical Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-ASME-Letters-in-Dynamic-Systems-and-Control " id="site-menu-item-120604"><a href="/lettersdynsys" class="nav-link">ASME Letters in Dynamic Systems and Control</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Applied-Mechanics " id="site-menu-item-120605"><a href="/appliedmechanics" class="nav-link">Journal of Applied Mechanics</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Autonomous-Vehicles-and-Systems " id="site-menu-item-120606"><a href="/autonomousvehicles" class="nav-link">Journal of Autonomous Vehicles and Systems</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Biomechanical-Engineering " id="site-menu-item-120607"><a href="/biomechanical" class="nav-link">Journal of Biomechanical Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Computational-and-Nonlinear-Dynamics " id="site-menu-item-120608"><a href="/computationalnonlinear" class="nav-link">Journal of Computational and Nonlinear Dynamics</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Computing-and-Information-Science-in-Engineering " id="site-menu-item-120609"><a href="/computingengineering" class="nav-link">Journal of Computing and Information Science in Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Dynamic-Systems,-Measurement,-and-Control " id="site-menu-item-120610"><a href="/dynamicsystems" class="nav-link">Journal of Dynamic Systems, Measurement, and Control</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Electrochemical-Energy-Conversion-and-Storage " id="site-menu-item-120611"><a href="/electrochemical" class="nav-link">Journal of Electrochemical Energy Conversion and Storage</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Electronic-Packaging " id="site-menu-item-120612"><a href="/electronicpackaging" class="nav-link">Journal of Electronic Packaging</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Energy-Resources-Technology " id="site-menu-item-120613"><a href="/energyresources" class="nav-link">Journal of Energy Resources Technology</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Engineering-and-Science-in-Medical-Diagnostics-and-Therapy " id="site-menu-item-120614"><a href="/medicaldiagnostics" class="nav-link">Journal of Engineering and Science in Medical Diagnostics and Therapy</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Engineering-for-Gas-Turbines-and-Power " id="site-menu-item-120615"><a href="/gasturbinespower" class="nav-link">Journal of Engineering for Gas Turbines and Power</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Engineering-for-Sustainable-Buildings-and-Cities " id="site-menu-item-120616"><a href="/sustainablebuildings" class="nav-link">Journal of Engineering for Sustainable Buildings and Cities</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Engineering-Materials-and-Technology " id="site-menu-item-120617"><a href="/materialstechnology" class="nav-link">Journal of Engineering Materials and Technology</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Fluids-Engineering " id="site-menu-item-120618"><a href="/fluidsengineering" class="nav-link">Journal of Fluids Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Heat-Transfer " id="site-menu-item-120619"><a href="/heattransfer" class="nav-link">Journal of Heat Transfer</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Manufacturing-Science-and-Engineering " id="site-menu-item-120620"><a href="/manufacturingscience" class="nav-link">Journal of Manufacturing Science and Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Mechanical-Design " id="site-menu-item-120621"><a href="/mechanicaldesign" class="nav-link">Journal of Mechanical Design</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Mechanisms-and-Robotics " id="site-menu-item-120622"><a href="/mechanismsrobotics" class="nav-link">Journal of Mechanisms and Robotics</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Medical-Devices " id="site-menu-item-120623"><a href="/medicaldevices" class="nav-link">Journal of Medical Devices</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Micro-and-Nano-Manufacturing " id="site-menu-item-120624"><a href="/micronanomanufacturing" class="nav-link">Journal of Micro and Nano-Manufacturing</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Nanotechnology-in-Engineering-and-Medicine " id="site-menu-item-120625"><a href="/nanoengineeringmedical" class="nav-link">Journal of Nanotechnology in Engineering and Medicine</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Nondestructive-Evaluation,-Diagnostics-and-Prognostics-of-Engineering-Systems " id="site-menu-item-120626"><a href="/nondestructive" class="nav-link">Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Nuclear-Engineering-and-Radiation-Science " id="site-menu-item-120627"><a href="/nuclearengineering" class="nav-link">Journal of Nuclear Engineering and Radiation Science</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Offshore-Mechanics-and-Arctic-Engineering " id="site-menu-item-120628"><a href="/offshoremechanics" class="nav-link">Journal of Offshore Mechanics and Arctic Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Pressure-Vessel-Technology " id="site-menu-item-120629"><a href="/pressurevesseltech" class="nav-link">Journal of Pressure Vessel Technology</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Solar-Energy-Engineering " id="site-menu-item-120630"><a href="/solarenergyengineering" class="nav-link">Journal of Solar Energy Engineering</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Thermal-Science-and-Engineering-Applications " id="site-menu-item-120631"><a href="/thermalscienceapplication" class="nav-link">Journal of Thermal Science and Engineering Applications</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Tribology " id="site-menu-item-120632"><a href="/tribology" class="nav-link">Journal of Tribology</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Turbomachinery " id="site-menu-item-120633"><a href="/turbomachinery" class="nav-link">Journal of Turbomachinery</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Verification,-Validation-and-Uncertainty-Quantification " id="site-menu-item-120634"><a href="/verification" class="nav-link">Journal of Verification, Validation and Uncertainty Quantification</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Journal-of-Vibration-and-Acoustics " id="site-menu-item-120635"><a href="/vibrationacoustics" class="nav-link">Journal of Vibration and Acoustics</a></li></ul></li><li class="site-menu-item site-menu-lvl-0 site-menu-item-Conference-Proceedings " id="site-menu-item-120594"><a href="javascript:;" class="nav-link js-nav-link">Conference Proceedings<i class="icon-general_arrow-down arrow-icon"></i></a><ul class="site-menu site-menu-lvl-1"><li class="site-menu-item site-menu-lvl-1 site-menu-item-All-Conference-Proceedings " id="site-menu-item-120636"><a href="/proceedings" class="nav-link">All Conference Proceedings</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Browse-by-Series " id="site-menu-item-120637"><a href="/proceedings/pages/browse-by-series" class="nav-link">Browse by Series</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Browse-by-Subject-Category " id="site-menu-item-120638"><a href="/proceedings/pages/browse-by-subject-category" class="nav-link">Browse by Subject Category</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Browse-by-Year " id="site-menu-item-120639"><a href="/proceedings/browse-by-year" class="nav-link">Browse by Year</a></li></ul></li><li class="site-menu-item site-menu-lvl-0 site-menu-item-eBooks " id="site-menu-item-120640"><a href="/ebooks" class="nav-link">eBooks</a></li><li class="site-menu-item site-menu-lvl-0 site-menu-item-Standards " id="site-menu-item-120641"><a href="http://asmestandardscollection.org/Login.aspx" class="nav-link">Standards</a></li><li class="site-menu-item site-menu-lvl-0 site-menu-item-Topic-Collections " id="site-menu-item-120642"><a href="/pages/topic-collections" class="nav-link">Topic Collections</a></li><li class="site-menu-item site-menu-lvl-0 site-menu-item-Resources " id="site-menu-item-120595"><a href="javascript:;" class="nav-link js-nav-link">Resources<i class="icon-general_arrow-down arrow-icon"></i></a><ul class="site-menu site-menu-lvl-1"><li class="site-menu-item site-menu-lvl-1 site-menu-item-About " id="site-menu-item-120643"><a href="/pages/About" class="nav-link">About</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Library-Service-Center " id="site-menu-item-120644"><a href="/pages/Librarians" class="nav-link">Library Service Center</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-FAQs " id="site-menu-item-120645"><a href="/pages/FAQ" class="nav-link">FAQs</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Contact-Us " id="site-menu-item-120646"><a href="/contact-us" class="nav-link">Contact Us</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-ASME.ORG " id="site-menu-item-120647"><a href="https://www.asme.org/" class="nav-link">ASME.ORG</a></li><li class="site-menu-item site-menu-lvl-1 site-menu-item-Purchase " id="site-menu-item-120648"><a href="https://www.asme.org/publications-submissions/publishing-information/packages-rates" class="nav-link">Purchase</a></li></ul></li></ul>
+        </nav>
+    
+</div>
+
+
+<div class="tablet-menu-trigger_wrap">
+    <!-- MOBILE SHOPPING CART ICON -->
+
+<div class="site-theme-header-menu-item">
+    <a class="view-cart js-view-cart">
+    <i class="access-icon icon-availability_cart"></i> 
+        <div class="desktop-cart-text">
+            Cart <span class="items-in-cart"></span>
+        </div>
+    </a>
+</div>
+
+<form id="js-cart-form" action="https://www.asme.org/vendor/cart" method="post" >
+    <input type="hidden" class="js-cartguid" name="CartGuid" value="" />
+    <input type="hidden" class="js-asme-api" data-base-url="https://www.asme.org"/>
+</form>    <a href="javascript:;" class="js-tablet-menu-toggle tablet-sign-in">
+        <i class="icon-menu_account"><span class="screenreader-text">User Tools</span></i>
+    </a>
+</div>
+<div class="site-theme-header-menu-item_wrap tablet-menu">
+    <!-- DESKTOP SHOPPING CART ICON -->
+
+<div class="site-theme-header-menu-item">
+    <a class="view-cart js-view-cart">
+    <i class="access-icon icon-availability_cart"></i> 
+        <div class="desktop-cart-text">
+            Cart <span class="items-in-cart"></span>
+        </div>
+    </a>
+</div>
+
+<form id="js-cart-form" action="https://www.asme.org/vendor/cart" method="post" >
+    <input type="hidden" class="js-cartguid" name="CartGuid" value="" />
+    <input type="hidden" class="js-asme-api" data-base-url="https://www.asme.org"/>
+</form>
+    <!-- DESKTOP REGISTRATION -->
+
+    <!-- DESKTOP INSTITUTIONS -->
+
+    <!-- DESKTOP SIGN IN -->
+
+
+    <div class="site-theme-header-menu-item not-authenicated">
+        <a href="javascript:;" class="dropdown-toggle signin at-signin-dropdown at-signin-username" id="header-account-info-user-fullname">
+            
+Sign In            <i class="icon-general_arrow-down arrow-icon"></i>
+        </a>
+        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form at-signin-dropdown-panel">
+            <div class="spinner"></div>
+        </div><!-- /.dropdown-panel -->
+    </div>
+
+    <!-- LANGUAGE -->
+        <!-- <li class="site-theme-header-menu-item desktop">
+            <a href="" class="dropdown-toggle language">Language</a>
+            <div class="dropdown-panel">
+                <div class="dropdown-menu">
+                    <ul>
+                        foreach (var lang in Model.LanguageOptions)
+                        {
+                            string selectedClass = (lang.SiteId == Model.SiteId ? " selected" : "");
+                            Html.Raw(String.Format("<li class=\"header-language-item{0}\"><a href=\"//{1}\">{2}</a></li>", selectedClass, lang.SiteUrl, lang.LanguageText))
+                            ;
+                        }
+                    </ul>
+                </div>
+            </div>
+        </li> -->
+</div>
+
+        </div><!-- /.site-theme-header_content -->
+    </div><!-- /.site-theme-header- -->
+
+<div class="journal-logo_row">
+
+    <div class="journal-logo_wrap">
+        <a href="//asmedigitalcollection.asme.org/fluidsengineering" class="journal-logo-link">
+            <picture>
+                    <source media="(max-width: 600px)" srcset="//asmedc.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/fluidsengineering/mobile-fluidsengineering-title1772064526.svg">
+                <source media="(min-width: 601px)" srcset="//asmedc.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/fluidsengineering/fluidsengineering-title-755090498.svg">
+                <img id="logo-J.FluidsEng." class="journal-logo" src="//asmedc.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/fluidsengineering/fluidsengineering-title-755090498.svg" alt="J. Fluids Eng." />
+            </picture>
+        </a>
+    </div>
+
+
+</div>
+    <div class="journal-header journal-bg">
+        <div class="journal-header_content ">
+
+
+<div class="navbar-menu_wrap">
+            <a class="js-mobile-site-menu-toggle mobile-site-menu-toggle" href="javascript:;"><i class="icon-menu_hamburger"><span class="screenreader-text">Toggle Menu</span></i><span class="tablet-menu-label">Menu</span></a>
+            <nav class="navbar-menu">
+                        <ul class="site-menu site-menu-lvl-0">
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118050">
+
+                        <a href="/fluidsengineering/issue" class="nav-link">Issues</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118051">
+
+                        <a href="/fluidsengineering/accepted-manuscripts" class="nav-link">Accepted Manuscripts</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118052">
+
+                        <a href="/fluidsengineering/issue/browse-by-year" class="nav-link">All Years</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118053">
+
+                        <a href="https://www.asme.org/shop/journals/subscriptions" class="nav-link">Purchase</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118048">
+
+                        <a href="javascript:;" class="nav-link js-nav-link">For Authors<i class="nav-arrow icon-general_arrow-down arrow-icon"></i></a>
+
+                            <ul class="site-menu site-menu-lvl-1">
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118054">
+
+                        <a href="https://journaltool.asme.org/home/index.cfm" class="nav-link">Submit Paper</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118055">
+
+                        <a href="https://www.asme.org/shop/journals/information-for-authors" class="nav-link">Information for Authors</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118056">
+
+                        <a href="https://journaltool.asme.org/home/abstracts.cfm?journalid=9" class="nav-link">Indexing Information</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118057">
+
+                        <a href="http://www.asme.org/kb/journals/administration/permissions" class="nav-link">Permissions &amp; Reprints</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118058">
+
+                        <a href="https://www.asme.org/shop/journals/administration/call-for-papers" class="nav-link">Announcements and Call for Papers</a>
+
+                     
+                </li>
+        </ul>
+ 
+                </li>
+                <li class="site-menu-item site-menu-lvl-0 " id="site-menu-item-118049">
+
+                        <a href="javascript:;" class="nav-link js-nav-link">About<i class="nav-arrow icon-general_arrow-down arrow-icon"></i></a>
+
+                            <ul class="site-menu site-menu-lvl-1">
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118059">
+
+                        <a href="/fluidsengineering/pages/about" class="nav-link">About Journal of Fluids Engineering</a>
+
+                     
+                </li>
+                <li class="site-menu-item site-menu-lvl-1 " id="site-menu-item-118060">
+
+                        <a href="/fluidsengineering/pages/MeetTheEditors" class="nav-link">Meet the Editors</a>
+
+                     
+                </li>
+        </ul>
+ 
+                </li>
+        </ul>
+
+            </nav>
+</div><!-- /.navbar -->
+    <div class="mobile-menu-trigger_wrap mobile-search_wrap">
+        <a href="javascript:;" class="js-mobile-search_toggle mobile-search_toggle"><i class="icon-menu_search"><span class="screenreader-text">Search</span></i></a>
+    </div>
+    <div class="navbar-search-container js-mobile-search-dropdown mobile-dropdown search-dropdown">
+        <div class="navbar-search">
+            <div id="MicrositeSearch" class="microsite-search">
+                <div class="navbar-search-input_wrap">
+                    <label for="MicrositeSearchTerm"><span class="screenreader-text">search input</span></label>
+                    
+                    <input class="navbar-search-input microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SitePageHeader"
+                           data-autosuggest-results="micrositeAutoCompleteResults-SitePageHeader" data-autosuggest-id="MicrositeSearchTerm-SitePageHeader"
+                           data-searchfilter="search-filter-SitePageHeader" placeholder="Search..." type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+                    
+                    <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" id="hfSolrAutoSuggestMinimumCharactersLength" value="2" />
+                    <input type="hidden" name="hfSolrJournalName" id="hfSolrJournalName" value="" />
+                    <input type="hidden" name="hfSolrJournalID" id="hfSolrJournalID" value="" />
+                    <label for="micrositeSearchTermInputHint">
+                        <span class="screenreader-text">Search input auto suggest</span>
+                    </label>
+                    <input type="text" id="micrositeSearchTermInputHint" data-autosuggest-id="micrositeSearchTermInputHint-SitePageHeader" class="microsite-search-term-input-hint" autocomplete="off" />
+                    <ul id="micrositeAutoCompleteResults" data-autosuggest-id="micrositeAutoCompleteResults-SitePageHeader" class="term-list hidden"></ul>
+                </div>
+                    <div class="navbar-search-filter_wrap">
+                        <label for="navbar-search-filter-site">
+                            <span class="screenreader-text">search filter</span>
+                        </label>
+                        <select class="navbar-search-filter navbar-search-filter-site" id="navbar-search-filter-site" data-autosuggest-id="search-filter-SitePageHeader">
+<option class="header-search-bar-filters-item" value="/search-results?page=1&q={searchQuery}" data-siteid="0" >All Content</option><option class="header-search-bar-filters-item" value="/journals/search-results?page=1&q={searchQuery}&fl_SiteID=3&allJournals=1" data-siteid="3" >All Journals</option><option class="header-search-bar-filters-item selected" value="/fluidsengineering/search-results?page=1&q={searchQuery}&fl_SiteID=1000021" data-siteid="1000021" selected>J. Fluids Eng.</option>                        </select>
+                    </div>
+                <div class="navbar-search-submit_wrap">
+                    <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+                </div>
+            </div><!-- /#MicrositeSearch -->
+        </div><!-- /.navbar-search -->
+<div class="navbar-search-advanced">
+    <a href="/fluidsengineering/search-results" class="advanced-search">Advanced Search</a>
+</div>    </div><!-- /.navbar-search-container -->
+
+    <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals Gateway" />    
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="asmedigitalcollection.asme.org/fluidsengineering" />
+    <input type="hidden" id="hfQuickSearchUrl" value="/fluidsengineering/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=1000021" />    
+    <script type="text/javascript">
+        (function() {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+            })();
+    </script>
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-header -->
+
+
+<input id="routename" name="RouteName" type="hidden" value="fluidsengineering" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-card">
+        <section class="master-main row">
+            <div class="content-main_content">
+                <a href="#" id="skipNav" tabindex="-1"></a>
+                
+
+
+
+
+
+  <div class="article-browse_content  clearfix">
+<div id="InfoColumn" class="page-column page-column--left">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+
+    <div class="info-inner-wrap can-stick">
+
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article navigation</div>
+
+        <div class="info-widget-wrap">
+    <div class="widget-IssueInfo widget-instance-IssueInfo_Article">
+        
+
+<div id="issueInfo-IssueInfo_Article" class="article-info-wrap clearfix">
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+                    <a href="/fluidsengineering/issue/82/1">
+
+                <span class="volume issue">Volume 82, Issue 1</span>
+
+                </a>
+        </div>
+
+        <div class="ii-pub-date">
+March 1960        </div>
+
+            
+
+            <div class="issue-historical-title-wrap">
+                <div class="issue-old-title-label">This article was originally published in </div>
+                <div class="issue-old-title-journalName">Journal of Basic Engineering</div>
+            </div>
+
+    
+    </div>
+
+    <div class="article-issue-img">
+                <a href="/fluidsengineering/issue/82/1">
+            <img id="issueFallbackImage" class="fb-featured-image at-coverimage" src="//asmedc.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/fluidsengineering/fluidsengineering1052936353.jpg" alt="Issue Cover" />
+                </a>
+    </div>
+    
+
+
+</div> 
+    </div>
+                <div class="widget-ArticleNavLinks widget-instance-ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/fluidsengineering/article/82/1/34/397694/Closure-to-Discussion-of-The-Measurement-of-Oil"><i class="icon-general_arrow-left"></i>Previous <span>Article</span></a>
+        </li>
+            <li class="next arrow">
+            <a href="/fluidsengineering/article/82/1/46/397724/Shannon-s-Theory-and-Feedback-Systems">Next <span>Article</span><i class="icon-general_arrow-right"></i></a>
+        </li>
+</ul>
+ 
+    </div>
+
+                        <div class="content-nav">
+
+            </div>
+
+        </div>
+    </div>
+</div> 
+            
+      <div class="article-browse_content-wrap">
+          <div id="ContentColumn" class="page-column page-column--center can-stick">
+
+                  <div class="widget-ArticleMainView widget-instance-ArticleMainView_Abstract">
+        
+<div class="article-browse-top article-browse-mobile-nav">
+    <div class="article-browse-mobile-nav-inner">
+        <button class="toggle-left-col toggle-left-col__article btn-as-link">
+            Article Navigation
+        </button>
+    </div>
+</div>
+
+<div class="content-inner-wrap">
+
+
+    <div class="widget-ArticleTopInfo widget-instance-ArticleTopInfo_Abstract">
+        
+<div class="module-widget article-top-widget content-metadata_wrap">
+
+<div class="article-groups left-flag">
+    <span class="article-client_type">Research Papers</span>
+</div>
+
+
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    A New Approach to Linear Filtering and Prediction Problems
+<i class='icon-availability_cart' title='Available to Purchase' ></i>                </h1>
+    
+<div class="wi-authors">
+    <div class="al-authors-list">
+                <div class="al-author-name">
+
+                        <a class="linked-name" href="javascript:;">R. E. Kalman</a>
+                    
+
+                    <div class="al-author-info-wrap arrow-up">
+<div id="authorInfo_ArticleTopInfo_Abstract" class="info-card-author authorInfo_ArticleTopInfo_Abstract">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    R. E. Kalman
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Research Institute for Advanced Study, Baltimore, Md.</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/search-results?f_AllAuthors=R.+E.+Kalman">This Site</a>
+</div>
+
+    <div class="info-card-search info-card-search-pubmed">
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Kalman R">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:&quot;Kalman R&quot;">Google Scholar</a>
+    </div>
+</div>                    </div>
+                </div>
+    </div>
+</div>
+
+<div class="wi-crossmark-button">
+    <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+    <a href="javascript:;" data-target="crossmark">
+        <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="150" />
+    </a>
+</div>
+        
+    <div>
+        <a class="js-expand-collapse-metadata author-expand-collapse-metadata">
+            <i class="js-metadata-toggle-icon icon-general-add"></i>Author and Article Information
+        </a>
+    </div>
+    <div class="js-metadata-wrap metadata">
+<div id="authorInfoFullList" class="author-info-full-list">
+<div class="author-info-wrap">
+         <div class="author-full-name">
+R. E. Kalman                                   </div>
+
+                <div class="author-affiliation">
+                    <div class="aff">Research Institute for Advanced Study, Baltimore, Md.</div>
+                </div>
+        </div>
+
+</div>
+
+    </div>
+
+
+
+
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>J. Basic Eng</em>. Mar 1960, 82(1): 35-45 (11 pages)</div>
+        </div>
+        <div class="ww-citation-legacy-id">
+
+                <a class="ww-doi-link" href="https://doi.org/10.1115/1.3662552">https://doi.org/10.1115/1.3662552</a>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-publish-date-wrap">
+                <span class="publish-date-label"><b>Published Online:</b> March 1, 1960 </span> 
+            </div>
+                <div class="ww-citation-history-wrap">
+                    <a href="javascript:;" class="history-label js-history-dropdown-trigger">
+                        <span>Article history</span><i class="icon-history-small"></i>
+                    </a>
+
+                    <div class="ww-history history-dropdown">
+                            <div class="history-entry">
+                                <div class="wi-state">Received:</div>
+                                <div class="wi-date">February 24, 1959</div>
+                            </div>
+                            <div class="history-entry">
+                                <div class="wi-state">Online:</div>
+                                <div class="wi-date">November 4, 2011</div>
+                            </div>
+                    </div><!-- /.ww-history -->
+                </div>
+        </div>
+
+</div>
+
+
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget-ArticleLinks widget-instance-ArticleLinks_Discussed">
+         
+    </div>
+    <div class="widget-ArticleLinks widget-instance-ArticleLinks_Discussions">
+         
+    </div>
+    <div class="widget-ArticleLinks widget-instance-ArticleLinks_Closures">
+         
+    </div>
+    <div class="widget-ArticleLinks widget-instance-ArticleLinks_Abstract">
+         
+    </div>
+
+<div class="toolbar-wrap vt-toolbar-wrap" role="navigation">
+    <div class="toolbar-inner-wrap">
+<ul id="Toolbar" class="debug">
+
+<li class="toolbar-item item-with-dropdown item-views">
+  <a class="drop-trigger" data-dropdown="FilterDrop">
+    <i class="icon-menu_views"><span class="screenreader-text">Views Icon</span></i>
+    <span class="toolbar-label">
+      <span class="toolbar-text">Views</span>
+      <i class="icon-general_arrow-down arrow-icon"></i>
+    </span>
+  </a>
+  <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content>
+    <div class="arrow-up"></div>
+    <li class="article-content-filter" data-content-filter="article-content"><a><span>Article contents</span></a></li>
+    <li class="article-content-filter" data-content-filter="figures-tables"><a><span>Figures &amp; tables</span></a></li>
+    <li class="article-content-filter" data-content-filter="video"><a><span>Video</span></a></li>
+    <li class="article-content-filter" data-content-filter="audio"><a><span>Audio</span></a></li>
+    <li class="article-content-filter" data-content-filter="supplementary-data"><a><span>Supplementary Data</span></a></li>
+  </ul>
+</li>
+
+
+<li class="toolbar-item item-with-dropdown item-share">
+    <a href="javascript:;" class="drop-trigger" data-dropdown="ShareDrop">
+        <i class="icon-menu_share"><span class="screenreader-text">Share Icon</span></i>
+        <span class="toolbar-label">
+            <span class="toolbar-text">Share</span>
+            <i class="icon-general_arrow-down arrow-icon"></i>
+        </span>
+    </a>
+    <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content>
+            <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+            <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+            <li><a class="addthis_button_linkedin"><span>LinkedIn</span></a></li>
+            <li><a class="addthis_button_email"><span>Email</span></a></li>
+            </ul>
+</li>
+
+<li class="toolbar-item item-cite">
+<a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal>
+    <i class="icon-cite">
+        <span class="screenreader-text">Cite Icon</span>
+    </i>
+    <span>Cite</span>
+</a>
+</li>
+
+<li class="toolbar-item item-tools">
+    <div class="widget-ToolboxPermissions widget-instance-">
+            <div class="module-widget">
+            <a href="https://www.copyright.com/cccdirect.do?publishername=ASME&amp;WT.mc.id=ASME" id="PermissionsLink" class="" target="_blank">Permissions</a>
+    </div>
+ 
+    </div>
+
+</li>
+<li class="search-dropdown-trigger_wrap toolbar-item">
+    <a href="javascript:;" class="js-toolbar-search-trigger">
+        <i class="icon-menu_search"></i>
+        <span class="site-search-text">Search Site</span>
+    </a>
+</li>
+
+</ul>
+
+<div id="getCitation" class="reveal-modal vt-citation-modal" data-reveal>
+  <div class="modal-title">Citation</div>
+  <p>Kalman, R. E. (March 1, 1960). "A New Approach to Linear Filtering and Prediction Problems." ASME. <em>J. Basic Eng</em>. March 1960; 82(1): 35–45. <a href='https://doi.org/10.1115/1.3662552'>https://doi.org/10.1115/1.3662552</a></p>
+  <p class="citation-label">Download citation file:</p>
+  <ul>
+      <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">Ris (Zotero)</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">Reference Manager</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">EasyBib</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">Bookends</a></li>
+
+      <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">Mendeley</a></li>
+
+      <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">Papers</a></li>
+
+      <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=1">EndNote</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=3">RefWorks</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=2">BibTex</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=0">ProCite</a></li>
+          <li><a href="/Citation/Download?resourceId=397706&amp;resourceType=3&amp;citationFormat=3">Medlars</a></li>
+  </ul>
+  <hr />
+
+  <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+
+        <div class="toolbar-search">
+    <div class="widget-SitePageHeader widget-instance-SiteSearch_ArticleMainView_Abstract">
+            <div class="mobile-menu-trigger_wrap mobile-search_wrap">
+        <a href="javascript:;" class="js-mobile-search_toggle mobile-search_toggle"><i class="icon-menu_search"><span class="screenreader-text">Search</span></i></a>
+    </div>
+    <div class="navbar-search-container js-mobile-search-dropdown mobile-dropdown search-dropdown">
+        <div class="navbar-search">
+            <div id="MicrositeSearch" class="microsite-search">
+                <div class="navbar-search-input_wrap">
+                    <label for="MicrositeSearchTerm"><span class="screenreader-text">search input</span></label>
+                    
+                    <input class="navbar-search-input microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract"
+                           data-autosuggest-results="micrositeAutoCompleteResults-SiteSearch_ArticleMainView_Abstract" data-autosuggest-id="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract"
+                           data-searchfilter="search-filter-SiteSearch_ArticleMainView_Abstract" placeholder="Search..." type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+                    
+                    <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" id="hfSolrAutoSuggestMinimumCharactersLength" value="2" />
+                    <input type="hidden" name="hfSolrJournalName" id="hfSolrJournalName" value="" />
+                    <input type="hidden" name="hfSolrJournalID" id="hfSolrJournalID" value="" />
+                    <label for="micrositeSearchTermInputHint">
+                        <span class="screenreader-text">Search input auto suggest</span>
+                    </label>
+                    <input type="text" id="micrositeSearchTermInputHint" data-autosuggest-id="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract" class="microsite-search-term-input-hint" autocomplete="off" />
+                    <ul id="micrositeAutoCompleteResults" data-autosuggest-id="micrositeAutoCompleteResults-SiteSearch_ArticleMainView_Abstract" class="term-list hidden"></ul>
+                </div>
+                    <div class="navbar-search-filter_wrap">
+                        <label for="navbar-search-filter-site">
+                            <span class="screenreader-text">search filter</span>
+                        </label>
+                        <select class="navbar-search-filter navbar-search-filter-site" id="navbar-search-filter-site" data-autosuggest-id="search-filter-SiteSearch_ArticleMainView_Abstract">
+<option class="header-search-bar-filters-item" value="/search-results?page=1&q={searchQuery}" data-siteid="0" >All Content</option><option class="header-search-bar-filters-item" value="/journals/search-results?page=1&q={searchQuery}&fl_SiteID=3&allJournals=1" data-siteid="3" >All Journals</option><option class="header-search-bar-filters-item selected" value="/fluidsengineering/search-results?page=1&q={searchQuery}&fl_SiteID=1000021" data-siteid="1000021" selected>J. Fluids Eng.</option>                        </select>
+                    </div>
+                <div class="navbar-search-submit_wrap">
+                    <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+                </div>
+            </div><!-- /#MicrositeSearch -->
+        </div><!-- /.navbar-search -->
+<div class="navbar-search-advanced">
+    <a href="/fluidsengineering/search-results" class="advanced-search">Advanced Search</a>
+</div>    </div><!-- /.navbar-search-container -->
+
+    <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals Gateway" />    
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="asmedigitalcollection.asme.org/fluidsengineering" />
+    <input type="hidden" id="hfQuickSearchUrl" value="/fluidsengineering/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=1000021" />    
+    <script type="text/javascript">
+        (function() {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+            })();
+    </script>
+ 
+    </div>
+
+        </div>
+    </div><!-- /.toolbar-inner-wrap -->
+</div><!-- /.toolbar-wrap -->
+
+
+
+
+<div class="article-body">
+    <div id="ContentTab" class="content active">
+    <div class="widget-ArticleFulltext widget-instance-ArticleFulltext_Abstract">
+        <input type="hidden" name="js-hfArticleLinksReferencesDoiRegex" id="js-hfArticleLinksReferencesDoiRegex" value="" />
+<div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+        
+
+
+
+                <div class="article-section-wrapper js-article-section " >
+                    
+                    <section class="abstract"><p>The classical filtering and prediction problem is re-examined using the Bode-Shannon representation of random processes and the “state-transition” method of analysis of dynamic systems. New results are: (1) The formulation and methods of solution of the problem apply without modification to stationary and nonstationary statistics and to growing-memory and infinite-memory filters. (2) A nonlinear difference (or differential) equation is derived for the covariance matrix of the optimal estimation error. From the solution of this equation the co-efficients of the difference (or differential) equation of the optimal linear filter are obtained without further calculations. (3) The filtering problem is shown to be the dual of the noise-free regulator problem. The new method developed here is applied to two well-known problems, confirming and extending earlier results. The discussion is largely self-contained and proceeds from first principles; basic concepts of the theory of random processes are reviewed in the Appendix.</p></section>
+                </div>
+                    <div class="article-metadata-panel clearfix rs_skip">
+    <div class="widget-SolrResourceMetadata widget-instance-ContentMetadata_ArticleFulltext_Article">
+        
+        <div class="content-metadata-tocSections">
+            <div class="content-metadata-tocSections-title">Issue Section:</div>
+                <a href="/fluidsengineering/search-results?f_TocHeadingTitle=Research Papers">Research Papers</a>
+        </div>
+        <div class="content-metadata-topics">
+            <div class="content-metadata-topics-title">Topics:</div>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Filtration">Filtration</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Filters">Filters</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Stochastic processes">Stochastic processes</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Dynamic systems">Dynamic systems</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Errors">Errors</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Noise (Sound)">Noise (Sound)</a><span>,</span>
+                    <a href="/fluidsengineering/search-results?f_SemanticFilterTopics=Statistics as topic">Statistics as topic</a>
+        </div>
+
+ 
+    </div>
+
+                    </div>
+        <!-- /foreach -->
+                    <div class="article-metadata-standalone-panel clearfix"></div>
+
+                <div class="pdf-notice">
+                    This content is only available via PDF.
+                </div>
+
+
+
+
+        
+
+
+        <div class="permissionstatement-section-wrapper">
+            
+            <div class="copyright-container"><div class="copyright copyright-year">Copyright © 1960</div><div class="copyright copyright-holder"> by ASME</div></div>
+        </div>
+<!-- /foreach -->
+
+
+        <span id="UserHasAccess" data-userHasAccess="False"></span>
+
+    </div><!-- /.widget-items -->
+    </div><!-- /.module-widget -->
+ 
+    </div>
+    <div class="widget-SolrResourceMetadata widget-instance-SolrResourceMetadata_Abstract">
+        
+
+ 
+    </div>
+                <div class="article-top-info-user-restricted-options">
+                    You do not currently have access to this content.
+                </div>
+
+        <div id="ContentTabFilteredView"></div>
+        <div class="downloadImagesppt">
+            <a id="lnkDownloadAllImages" href="//asmedc.silverchair-cdn.com/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=397706&amp;xsltPath=~/UI/app/XSLT&amp;siteId=1000021"></a>
+        </div>
+        <div class="comments">
+    <div class="widget-UserCommentBody widget-instance-UserCommentBody_Abstract">
+        
+
+ 
+    </div>
+    <div class="widget-UserComment widget-instance-UserComment_Abstract">
+         
+    </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+ 
+    </div>
+
+              <div>    <a id="FullTextLink"></a></div>
+
+
+<div id="unauth" class="unauth-wrap">
+    <div class="widget-AsmeSso widget-instance-content_page">
+        <div class="signInBox" id="leftSignIn">
+    <div id="signInHeader">
+        <h4 id="signInHeader1">Sign In</h4>
+    </div>
+
+        <a class="button" href="/sign-in">Sign In or Register for Account</a>
+
+</div> 
+    </div>
+
+    <div class="widget-Ecommerce widget-instance-ArticlePage">
+        
+<div class="purchaseAccessbox">
+    <h4 class="purchaseAccessheader">Purchase this Content</h4>
+    <div class="purchase-access_wrap">
+        <div class="purchaseAccessContainer">
+            <div class="price">$25.00</div>
+            <div class="btn-wrap">
+                <a href="javascript:;" class="button" id="js-purchase-content" data-productCode="JFEGA4" data-parentProductCode="JFEGA4"
+                   data-doi="10.1115/1.3662552" data-title="A New Approach to Linear Filtering and Prediction Problems">Purchase</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="purchaseAccessFooter"><a href="http://www.asme.org/kb/journals/subscriptions">Learn about subscription and purchase options</a></div>
+</div>
+    <div id="js-ecommerce-success-modal" class="reveal-modal small ecommerce-success-modal" data-reveal>
+        <h3 class="js-result-message ecommerce-success-message">Product added to cart.</h3>
+        <span><a href="javascript:;" class="js-view-cart">Check Out</a></span>
+        <span><a href="javascript:;" id="js-continue-shopping">Continue Browsing</a></span>
+        <a href="javascript:;" class="close-reveal-modal js-close-modal"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+    </div>
+ 
+    </div>
+</div><!-- /.unauth-wrap -->
+
+          </div> 
+
+          <div id="Sidebar" class="page-column page-column--right">
+
+    <div class="widget-AdBlock widget-instance-ArticlePageTopSidebar">
+         
+    </div>
+
+
+              <div class="sidebar-widget_wrap">
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRail">
+        <div class="widget widget-dynamic " data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0">
+        <div class="widget widget-dynamic right-rail" data-count="6">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B0">
+        <div class="widget widget-dynamic article-alerts alerts" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-Alerts widget-instance-Article_RightRailB0B0article-alerts">
+            <div id="alerts" class="widget widget-alerts rail-widget_wrap vt-widget-alerts">
+        <h3 class="alerts-widget-header">Get Email Alerts</h3>
+        <div class="widget-links_wrap">
+                    <div class="userAlert alertType-1">
+                        <a class="js-open-alert-modal" href="javascript:;" data-userLoggedIn="False" data-alertType="1">Article Activity Alert</a>
+                    </div>
+                    <div class="userAlert alertType-3">
+                        <a class="js-open-alert-modal" href="javascript:;" data-userLoggedIn="False" data-alertType="3">Accepted Manuscript Alert</a>
+                    </div>
+                    <div class="userAlert alertType-23">
+                        <a class="js-open-alert-modal" href="javascript:;" data-userLoggedIn="False" data-alertType="23">New Issue Alert</a>
+                    </div>
+                        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+                <div class="userAlertSignUp"></div>
+                <a class="close-reveal-modal js-close-modal"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+            </div>
+        </div>
+    </div>
+ 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B1">
+        <div class="widget widget-dynamic article-article-cited-by article-cited-by" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-ArticleCitedBy widget-instance-Article_RightRailB0B1article-article-cited-by">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Cited By</h3>
+    <div class="widget-links_wrap">
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Fasmedigitalcollection.asme.org%2Ffluidsengineering%2Farticle%2F82%2F1%2F35%2F397706" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://asmedigitalcollection.asme.org/fluidsengineering/crossref-citedby/397706'>CrossRef</a>
+            </div>
+    </div>
+</div> 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B2">
+        <div class="widget widget-dynamic articlelistnewandpopular article-list-new-popular" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0B2Article_ArticleNewPopularCombined">
+            <div class="vt-new-and-popular-combined new-and-popular-combined">
+        <ul class="articleListNewAndPopularCombinedView">
+                <li>
+                    <a href="#" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </li>
+                <li>
+                    <a href="#" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </li>
+                <li>
+                    <a href="#" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </li>
+        </ul>
+            <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+    <div id="newPopularList-Article_RightRailB0B2Article_ArticleNewPopularCombined" class="fb new-and-popular vt-new-and-popular-Article_RightRailB0B2Article_ArticleNewPopularCombined">
+
+
+        <div class="widget-dynamic-entry-wrap">
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+        <a href="/fluidsengineering/article/doi/10.1115/1.4047229/1083836/Influence-of-Screw-Centrifugal-Inducer-on-Internal">Influence of Screw Centrifugal Inducer on Internal Flow Structure of Vortex Pump</a>
+
+            <div class="fb-item-desc">
+                <span class="j-name">J. Fluids Eng</span><span class="j-date"> (September 2020)</span>
+            </div>
+            </div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+        <a href="/fluidsengineering/article/doi/10.1115/1.4047231/1083837/Investigation-on-Energy-Loss-in-Centrifugal-Pump">Investigation on Energy Loss in Centrifugal Pump Based on Entropy Generation and High-Order Spectrum Analysis</a>
+
+            <div class="fb-item-desc">
+                <span class="j-name">J. Fluids Eng</span><span class="j-date"> (September 2020)</span>
+            </div>
+            </div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+        <a href="/fluidsengineering/article/doi/10.1115/1.4047287/1083947/Experimental-Investigations-of-Cavitation">Experimental Investigations of Cavitation Performance Breakdown in an Axial Waterjet Pump</a>
+
+            <div class="fb-item-desc">
+                <span class="j-name">J. Fluids Eng</span><span class="j-date"> (September 2020)</span>
+            </div>
+            </div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+        <a href="/fluidsengineering/article/doi/10.1115/1.4047232/1083835/Numerical-Investigation-to-Derive-Correlations-for">Numerical Investigation to Derive Correlations for Hydrodynamic Entrance Length in Very Low Reynolds Number Regime in Rectangular Microchannels</a>
+
+            <div class="fb-item-desc">
+                <span class="j-name">J. Fluids Eng</span><span class="j-date"> (September 2020)</span>
+            </div>
+            </div>
+</div>
+        </div>
+        
+
+
+    </div>
+            </section>
+            <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+            </section>
+            <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+            </section>
+    </div>
+ 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B3">
+        <div class="widget widget-dynamic article-related-content-solr-articles related-content-solr" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-RelatedContentSolr widget-instance-Article_RightRailB0B3Article_RightRail_RelatedContentArticles">
+            <div class="vt-related-content related-content_wrap rail-widget_wrap">
+        <h3>Related Articles</h3>
+
+        <div class="widget-links_wrap">
+                <div class="article-title">
+                    <a href="/dynamicsystems/article/125/3/451/459224/Gray-Box-Approach-for-Fault-Detection-of-Dynamical">Gray-Box Approach for Fault Detection of Dynamical Systems</a>
+    <div class="content-meta"><span class="j-name">J. Dyn. Sys., Meas., Control</span> <span class="j-date">(September, 2003)</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="/appliedmechanics/article/64/2/281/365921/Unified-Second-Order-Stochastic-Averaging-Approach">Unified Second-Order Stochastic Averaging Approach</a>
+    <div class="content-meta"><span class="j-name">J. Appl. Mech</span> <span class="j-date">(June, 1997)</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="/gasturbinespower/article/129/4/1072/471461/A-Study-on-Fluidized-Bed-Type-Particulate-Filter">A Study on Fluidized Bed-Type Particulate Filter for Diesel Engines</a>
+    <div class="content-meta"><span class="j-name">J. Eng. Gas Turbines Power</span> <span class="j-date">(October, 2007)</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="/appliedmechanics/article/80/2/021020/370705/A-Nearly-Exact-Reformulation-of-the-Girsanov">A Nearly Exact Reformulation of the Girsanov Linearization for Stochastically Driven Nonlinear Oscillators</a>
+    <div class="content-meta"><span class="j-name">J. Appl. Mech</span> <span class="j-date">(March, 2013)</span></div>
+
+                </div>
+        </div>
+    </div>
+ 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B4">
+        <div class="widget widget-dynamic split-view-article-related-content-solr-proceeding related-content-solr" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-RelatedContentSolr widget-instance-Article_RightRailB0B4Article_RightRail_RelatedContentProceedings">
+            <div class="vt-related-content related-content_wrap rail-widget_wrap">
+        <h3>Related Proceedings Papers</h3>
+
+        <div class="widget-links_wrap">
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/ESDA/proceedings/ESDA2014/45837/V001T02A020/232139">Application of Extended Kalman Filtering and Novel Spectral Methods in Stochastic Characterization of Quasi-Periodic Slow-Time Varying Rotating Machinery Processes</a>
+    <div class="content-meta"><span class="c-name">ESDA2014</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2009/49019/1979/345656">A Framework for Uncertainty Quantification in Nonlinear Multi-Body System Dynamics</a>
+    <div class="content-meta"><span class="c-name">IDETC-CIE2009</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/ICONE/proceedings/ICONE17/43512/749/339428">LBE and Pb as Coolants for Generation IV Reactors: The Impurities Problem</a>
+    <div class="content-meta"><span class="c-name">ICONE17</span></div>
+
+                </div>
+        </div>
+    </div>
+ 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B5">
+        <div class="widget widget-dynamic article-related-content-solr-chapters related-content-solr" data-count="1">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget-RelatedContentSolr widget-instance-Article_RightRailB0B5Article_RightRail_RelatedContentChapters">
+            <div class="vt-related-content related-content_wrap rail-widget_wrap">
+        <h3>Related Chapters</h3>
+
+        <div class="widget-links_wrap">
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/ebooks/book/187/chapter/36112/Measuring-Graph-Similarity-Using-Node-Indexing-and">Measuring Graph Similarity Using Node Indexing and Message Passing</a>
+    <div class="content-meta"><span class="b-name">International Conference on Computer Technology and Development, 3rd (ICCTD 2011)</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/ebooks/book/147/chapter/29181/Based-on-Hybrid-Recommendation-Personalized-of-the">Based on Hybrid Recommendation Personalized of the E-Learning System Study</a>
+    <div class="content-meta"><span class="b-name">Proceedings of the 2010 International Conference on Mechanical, Industrial, and Manufacturing Technologies (MIMT 2010)</span></div>
+
+                </div>
+                <div class="article-title">
+                    <a href="https://asmedigitalcollection.asme.org/ebooks/book/146/chapter/29285/Image-Smoothing-Based-on-Game-of-Life">Image Smoothing Based on Game of Life</a>
+    <div class="content-meta"><span class="b-name">International Conference on Advanced Computer Theory and Engineering (ICACTE 2009)</span></div>
+
+                </div>
+        </div>
+    </div>
+ 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+
+    </div>
+
+</div> 
+    </div>
+
+              </div>
+
+    <div class="widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+         
+    </div>
+
+
+
+          </div> 
+      </div>
+
+  </div>
+
+
+    <div class="widget-Lockss widget-instance-Article_Lockss">
+         
+    </div>
+
+            </div><!-- /.content-main_content -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+
+
+<div class="ad-banner js-ad-banner ad-banner-footer">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-FooterAd">
+        <div class="widget widget-dynamic " data-count="0">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+
+    </div>
+
+</div> 
+    </div>
+
+
+</div>
+
+    <div class="widget-SitePageFooter widget-instance-SitePageFooter">
+            <div class="journal-footer journal-bg">
+        <div class="journal-footer_content">
+    <div class="journal-footer-affiliations aff-left">
+        <!-- <h3>Affiliations</h3> -->
+            <a href="/fluidsengineering" target="">
+                <img id="footer-logo-JournalFooter" class="journal-footer-affiliations-logo" src="//asmedc.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/fluidsengineering/fluidsengineering-footer-499322900.svg" alt="Journal Footer" />
+            </a>
+    </div>
+
+    <div class="journal-footer-menu">
+            <ul>
+                <li class="link-0">
+                    <a href="/fluidsengineering/issue">Issues</a>
+                </li>
+                <li class="link-1">
+                    <a href="/fluidsengineering/accepted-manuscripts">Accepted Manuscripts</a>
+                </li>
+                <li class="link-2">
+                    <a href="/fluidsengineering/issue/browse-by-year">All Years</a>
+                </li>
+                <li class="link-3">
+                    <a href="https://www.asme.org/shop/journals/subscriptions">Purchase</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="link-0">
+                    <a href="https://twitter.com/ASMEJournals">Twitter</a>
+                </li>
+                <li class="link-1">
+                    <a href="/fluidsengineering/pages/about">About the Journal</a>
+                </li>
+                <li class="link-2">
+                    <a href="/fluidsengineering/pages/MeetTheEditors">Editorial Board</a>
+                </li>
+                <li class="link-3">
+                    <a href="https://www.asme.org/shop/journals/information-for-authors">Information for Authors</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="link-0">
+                    <a href="https://www.asme.org/shop/journals/administration/call-for-papers">Call for Papers</a>
+                </li>
+                <li class="link-1">
+                    <a href="https://www.asme.org/shop/journals/administration/permissions">Rights and Permission</a>
+                </li>
+            </ul>
+        
+    </div>
+
+    <div class="journal-footer-colophon">
+        <ul>
+                <li><span>Online ISSN</span> 1528-901X</li>
+                            <li><span>Print ISSN</span> 0098-2202</li>
+                    </ul>
+    </div>
+
+        </div>
+    </div>
+ 
+    </div>
+
+
+
+<div class="site-theme-footer">    
+            <div class="site-theme-footer_content">
+    <div class="widget-SelfServeContent widget-instance-UmbrellaFooterSelfServe">
+        
+<div class="global-footer-link-wrap">
+<div class="global-footer-navigation">
+<div class="footer-nav-half-1">
+<div class="global-footer-link-list-container">
+<h4 class="global-footer-link-list-header">Journals</h4>
+<ul class="global-footer-link-list">
+    <li><a href="https://www.asme.org/shop/journals/journals">About ASME Journals</a></li>
+    <li><a href="https://www.asme.org/shop/journals/information-for-authors">Information for Authors</a></li>
+    <li><a href="https://journaltool.asme.org/home/index.cfm">Submit a Paper</a></li>
+    <li><a href="https://www.asme.org/shop/journals/administration/call-for-papers">Call for Papers</a></li>
+    <li><a href="https://www.asme.org/shop/journals/administration/title-history">Title History</a></li>
+</ul>
+</div>
+<div class="global-footer-link-list-container">
+<h4 class="global-footer-link-list-header">Conference Proceedings</h4>
+<ul class="global-footer-link-list">
+    <li><a href="https://www.asme.org/shop/proceedings/conference-publications">About ASME Conference Publications and Proceedings</a></li>
+    <li><a href="https://www.asme.org/publications-submissions/proceedings/author-guidelines">Conference Proceedings Author Guidelines</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-nav-half-2">
+<div class="global-footer-link-list-container">
+<h4 class="global-footer-link-list-header">eBooks</h4>
+<ul class="global-footer-link-list">
+    <li><a href="https://asmedigitalcollection.asme.org/ebooks/pages/about">About ASME eBooks</a></li>
+    <li><a href="https://www.asme.org/shop/books/book-proposals/press-advisory-and-oversight-committee">ASME Press Advisory &amp; Oversight Committee</a></li>
+    <li><a href="https://www.asme.org/shop/books/book-proposals">Book Proposal Guidelines</a></li>
+</ul>
+</div>
+<div class="global-footer-link-list-container">
+<h4 class="global-footer-link-list-header">Resources</h4>
+<ul class="global-footer-link-list">
+    <li><a href="/contact-us">Contact Us</a></li>
+    <li><a href="/pages/Librarians">Library Service Center</a></li>
+    <li><a href="/pages/FAQ">Frequently Asked Questions</a></li>
+    <li><a href="https://www.asme.org/shop/journals/administration/permissions">Publication Permissions &amp; Reprints</a></li>
+    <li><a href="https://www.asme.org/membership">ASME Membership</a></li>
+</ul>
+<h4 class="global-footer-link-list-header">Opportunities</h4>
+<ul class="global-footer-link-list">
+    <li><a href="/facultypositions">Faculty Positions</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="global-footer-branding">
+<div>
+<ul class="global-footer-company-logo">
+    <li>
+    <a class="footer-logo" href="#">
+    <img src="/UI/app/svg/umbrella/logo.svg" alt="American Society of Mechanical Engineers Logo" class="site-theme-footer-image" />
+    </a>
+    </li>
+</ul>
+</div>
+<div>
+<ul class="social-icons">
+    <li><a class="social-link" href="https://community.asme.org/register.aspx"><em class="icon-social-group"><span class="screenreader-text">ASME Community</span></em></a></li>
+    <li><a class="social-link" href="https://www.facebook.com/ASME.org"><em class="icon-social-facebook"><span class="screenreader-text">Facebook</span></em></a></li>
+    <li><a class="social-link" href="https://twitter.com/asmedotorg"><em class="icon-social-twitter"><span class="screenreader-text">Twitter</span></em></a></li>
+    <li><a class="social-link" href="http://www.linkedin.com/company/asme?trk=top_nav_home"><em class="icon-social-linkedin"><span class="screenreader-text">LinkedIn</span></em></a></li>
+</ul>
+</div>
+<div class="footer-society-logo">
+<a href="https://www.asme.org/" target="new">
+<img alt="American Society of Mechanical Engineers Logo" src="/ImageLibrary/umbrella/ASMELogo.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="global-footer-logo-list">
+<ul class="logo-list">
+    <li><a href="http://www.crossref.org/"><img alt="Crossref Logo" src="/ImageLibrary/umbrella/footer-logo-crossref.png" /></a></li>
+    <li><a href="http://search.crossref.org/fundref"><img alt="Crossref Open Funder Registry Logo" src="/ImageLibrary/umbrella/crossref-funder-registry-logo.png" /></a></li>
+    <li><a href="https://www.crossref.org/services/cited-by/"><img alt="Crossref Open Cited-By Logo" src="/ImageLibrary/umbrella/crossref-cited-by-logo.png" /></a></li>
+    <li><a href="https://www.crossref.org/services/crossmark/"><img alt="Crossref Crossmark Logo" src="/ImageLibrary/umbrella/crossref-crossmark-logo.png" /></a></li>
+    <li><a href="http://www.crossref.org/crosscheck/crosscheck_for_researchers.html"><img alt="Crossref Similarity Check Logo" src="/ImageLibrary/umbrella/footer-logo-crossref-similarity.png" /></a></li>
+    <li><a href="http://www.chorusaccess.org/"><img alt="Chorus Logo" src="/ImageLibrary/umbrella/footer-logo-chorus.png" /></a></li>
+    <li><a href="http://www.projectcounter.org/"><img alt="Counter Logo" src="/ImageLibrary/umbrella/footer-logo-counter.png" /></a></li>
+    <li><a href="http://publicationethics.org/"><img alt="Cope Logo" src="/ImageLibrary/umbrella/footer-logo-cope.png" /></a></li>
+    <li><a href="https://www.stm-assoc.org/"><img alt="Cope Logo" src="/ImageLibrary/umbrella/STM_2020_logo.png" /></a></li>
+</ul>
+</div>
+<div class="global-footer-bottom">
+<div class="global-footer-bottom-details">
+<ul class="global-footer-site-details">
+    <li><a href="/pages/accessibility">Accessibility</a></li>
+    <li><a href="https://www.asme.org/privacy-and-security-statement">Privacy Statement</a></li>
+    <li><a href="https://www.asme.org/terms-of-use">Terms of Use</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Acrobat Reader</a></li>
+</ul>
+</div>
+<div class="global-footer-bottom-copyright">Copyright &copy; 2020 The American Society of Mechanical Engineers</div>
+</div>
+    
+    
+     
+    </div>
+                    
+            </div><!-- /.center-inner-row -->
+</div><!-- /.site-theme-footer -->
+<div class="ss-ui-only">
+
+    <div class="widget-SelfServeContent widget-instance-SSuiOnlySelfServe">
+        
+
+    
+    
+     
+    </div>
+
+</div>
+
+<div class="ad-banner js-ad-interstitial">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-Interstitial">
+        <div class="widget widget-dynamic " data-count="0">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+
+    </div>
+
+</div> 
+    </div>
+
+
+</div>
+    </section>
+
+
+
+
+
+    
+    
+
+
+    <div class="widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=1000021&amp;returnUrl=%2ffluidsengineering%2farticle-abstract%2f82%2f1%2f35%2f397706%2fA-New-Approach-to-Linear-Filtering-and-Prediction%3fredirectedFrom%3dPDF">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+    <div id="noAccessForm">
+        <div class="spinner"></div>
+    </div>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="/Themes/Client/app/jsdist/v-637261824342703046/site.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+  
+  <script async="async" src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+
+
+    
+
+        <script type="text/javascript">
+        $(document).ready(function () {
+            App.SearchAutoComplete.init(["SemanticFilterTopics_Lower"]);
+        });
+        </script>
+    
+    
+
+
+    <div class="widget-GdprCookieBanner widget-instance-GdprCookieBanner">
+        <div class="gdpr-cookie-wrapper at-gdprprompt">
+    <div class="gdpr-cookie-body">
+        This site uses cookies. By continuing to use our website, you are agreeing to <a href="https://www.asme.org/about-asme/privacy-and-security-statement">our privacy policy.</a>
+    </div>
+    <div class="gdpr-cookie-links_wrap">
+        <a href="javascript:;" class="js-gdpr-cookie-acceptLink at-acceptgdpr">Accept</a>
+    </div>
+            <input id="hdnDomain" type="hidden" value="asmedigitalcollection.asme.org" />
+
+    <input id="hdnDomainGdpr" type="hidden" value="asmedigitalcollection.asme.org" />
+    <input id="hdnClientIdGdpr" type="hidden" value="31" />
+</div> 
+    </div>
+
+
+    
+
+
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget-DynamicWidgetLayout widget-instance-RiserAd">
+        <div class="widget widget-dynamic " data-count="0">
+    
+
+    <div class="widget-dynamic-inner-wrap">
+
+
+    </div>
+
+</div> 
+    </div>
+
+
+    </div>
+
+
+</body>
+</html>
+

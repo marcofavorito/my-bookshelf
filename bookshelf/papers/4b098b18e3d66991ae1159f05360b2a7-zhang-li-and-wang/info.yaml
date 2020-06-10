@@ -1,0 +1,42 @@
+abstract: Researchers on artificial intelligence have achieved human-level intelligence
+  in large-scale perfect-information games, but it is still a challenge to achieve
+  (nearly) optimal results (in other words, an approximate Nash Equilibrium) in large-scale
+  imperfect-information games (i.e. war games, football coach or business strategies).
+  Neural Fictitious Self Play (NFSP) is an effective algorithm for learning approximate
+  Nash equilibrium of imperfect-information games from self-play without prior domain
+  knowledge. However, it relies on Deep Q-Network, which is off-line and is hard to
+  converge in online games with changing opponent strategy, so it can't approach approximate
+  Nash equilibrium in games with large search scale and deep search depth. In this
+  paper, we propose Monte Carlo Neural Fictitious Self Play (MC-NFSP), an algorithm
+  combines Monte Carlo tree search with NFSP, which greatly improves the performance
+  on large-scale zero-sum imperfect-information games. Experimentally, we demonstrate
+  that the proposed Monte Carlo Neural Fictitious Self Play can converge to approximate
+  Nash equilibrium in games with large-scale search depth while the Neural Fictitious
+  Self Play can't. Furthermore, we develop Asynchronous Neural Fictitious Self Play
+  (ANFSP). It use asynchronous and parallel architecture to collect game experience.
+  In experiments, we show that parallel actor-learners have a further accelerated
+  and stabilizing effect on training.
+archiveprefix: arXiv
+author: Zhang, Li and Wang, Wei and Li, Shijian and Pan, Gang
+author_list:
+- family: Zhang
+  given: Li
+- family: Wang
+  given: Wei
+- family: Li
+  given: Shijian
+- family: Pan
+  given: Gang
+eprint: 1903.09569v2
+file: 1903.09569v2.pdf
+files:
+- zhang-li-and-wang-wei-and-li-shijian-and-pan-gangmonte-carlo-neural-fictitious-self-play-approach-to-approximate-nash-equilibrium-of-imperfect.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 1903.09569v2
+time-added: 2020-06-10-12:29:39
+title: 'Monte Carlo Neural Fictitious Self-Play: Approach to Approximate Nash   equilibrium
+  of Imperfect-Information Games'
+type: article
+url: http://arxiv.org/abs/1903.09569v2
+year: '2019'

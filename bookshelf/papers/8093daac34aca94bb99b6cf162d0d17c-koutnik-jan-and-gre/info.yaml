@@ -1,0 +1,37 @@
+abstract: 'Sequence prediction and classification are ubiquitous and challenging problems
+  in machine learning that can require identifying complex dependencies between temporally
+  distant inputs. Recurrent Neural Networks (RNNs) have the ability, in theory, to
+  cope with these temporal dependencies by virtue of the short-term memory implemented
+  by their recurrent (feedback) connections. However, in practice they are difficult
+  to train successfully when the long-term memory is required. This paper introduces
+  a simple, yet powerful modification to the standard RNN architecture, the Clockwork
+  RNN (CW-RNN), in which the hidden layer is partitioned into separate modules, each
+  processing inputs at its own temporal granularity, making computations only at its
+  prescribed clock rate. Rather than making the standard RNN models more complex,
+  CW-RNN reduces the number of RNN parameters, improves the performance significantly
+  in the tasks tested, and speeds up the network evaluation. The network is demonstrated
+  in preliminary experiments involving two tasks: audio signal generation and TIMIT
+  spoken word classification, where it outperforms both RNN and LSTM networks.'
+archiveprefix: arXiv
+author: Koutník, Jan and Greff, Klaus and Gomez, Faustino and Schmidhuber, Jürgen
+author_list:
+- family: Koutník
+  given: Jan
+- family: Greff
+  given: Klaus
+- family: Gomez
+  given: Faustino
+- family: Schmidhuber
+  given: Jürgen
+eprint: 1402.3511v1
+file: 1402.3511v1.pdf
+files:
+- koutnik-jan-and-greff-klaus-and-gomez-faustino-and-schmidhuber-jurgena-clockwork-rnn2014.pdf
+month: Feb
+primaryclass: cs.NE
+ref: 1402.3511v1
+time-added: 2020-06-07-16:12:41
+title: A Clockwork RNN
+type: article
+url: http://arxiv.org/abs/1402.3511v1
+year: '2014'

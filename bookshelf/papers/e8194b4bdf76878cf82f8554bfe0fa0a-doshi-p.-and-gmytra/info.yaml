@@ -1,0 +1,40 @@
+abstract: This paper extends the framework of partially observable Markov decision
+  processes (POMDPs) to multi-agent settings by incorporating the notion of agent
+  models into the state space. Agents maintain beliefs over physical states of the
+  environment and over models of other agents, and they use Bayesian updates to maintain
+  their beliefs over time. The solutions map belief states to actions. Models of other
+  agents may include their belief states and are related to agent types considered
+  in games of incomplete information. We express the agents autonomy by postulating
+  that their models are not directly manipulable or observable by other agents. We
+  show that important properties of POMDPs, such as convergence of value iteration,
+  the rate of convergence, and piece-wise linearity and convexity of the value functions
+  carry over to our framework. Our approach complements a more traditional approach
+  to interactive settings which uses Nash equilibria as a solution paradigm. We seek
+  to avoid some of the drawbacks of equilibria which may be non-unique and do not
+  capture off-equilibrium behaviors. We do so at the cost of having to represent,
+  process and continuously revise models of other agents. Since the agents beliefs
+  may be arbitrarily nested, the optimal solutions to decision making problems are
+  only asymptotically computable. However, approximate belief updates and approximately
+  optimal plans are computable. We illustrate our framework using a simple application
+  domain, and we show examples of belief updates and value functions.
+archiveprefix: arXiv
+author: Doshi, P. and Gmytrasiewicz, P. J.
+author_list:
+- family: Doshi
+  given: P.
+- family: Gmytrasiewicz
+  given: P. J.
+doi: 10.1613/jair.1579
+eprint: 1109.2135v1
+file: 1109.2135v1.pdf
+files:
+- doshi-p.-and-gmytrasiewicz-p.-j.a-framework-for-sequential-planning-in-multi-agent-settings2011.pdf
+month: Sep
+note: Journal Of Artificial Intelligence Research, Volume 24, pages   49-79, 2005
+primaryclass: cs.AI
+ref: 1109.2135v1
+time-added: 2020-06-10-12:30:28
+title: A Framework for Sequential Planning in Multi-Agent Settings
+type: article
+url: http://arxiv.org/abs/1109.2135v1
+year: '2011'

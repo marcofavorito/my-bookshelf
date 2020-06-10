@@ -1,0 +1,40 @@
+abstract: 'Reinforcement learning algorithms can train agents that solve problems
+  in complex, interesting environments. Normally, the complexity of the trained agent
+  is closely related to the complexity of the environment. This suggests that a highly
+  capable agent requires a complex environment for training. In this paper, we point
+  out that a competitive multi-agent environment trained with self-play can produce
+  behaviors that are far more complex than the environment itself. We also point out
+  that such environments come with a natural curriculum, because for any skill level,
+  an environment full of agents of this level will have the right level of difficulty.
+  This work introduces several competitive multi-agent environments where agents compete
+  in a 3D world with simulated physics. The trained agents learn a wide variety of
+  complex and interesting skills, even though the environment themselves are relatively
+  simple. The skills include behaviors such as running, blocking, ducking, tackling,
+  fooling opponents, kicking, and defending using both arms and legs. A highlight
+  of the learned behaviors can be found here: https://goo.gl/eR7fbX'
+archiveprefix: arXiv
+author: Bansal, Trapit and Pachocki, Jakub and Sidor, Szymon and Sutskever, Ilya and
+  Mordatch, Igor
+author_list:
+- family: Bansal
+  given: Trapit
+- family: Pachocki
+  given: Jakub
+- family: Sidor
+  given: Szymon
+- family: Sutskever
+  given: Ilya
+- family: Mordatch
+  given: Igor
+eprint: 1710.03748v3
+file: 1710.03748v3.pdf
+files:
+- bansal-trapit-and-pachocki-jakub-and-sidor-szymon-and-sutskever-ilya-and-mordatch-igoremergent-complexity-via-multi-agent-competition2017.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1710.03748v3
+time-added: 2020-06-10-12:01:05
+title: Emergent Complexity via Multi-Agent Competition
+type: article
+url: http://arxiv.org/abs/1710.03748v3
+year: '2017'

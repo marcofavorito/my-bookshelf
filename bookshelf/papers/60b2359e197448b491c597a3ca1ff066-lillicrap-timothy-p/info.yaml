@@ -1,0 +1,41 @@
+abstract: The brain processes information through many layers of neurons. This deep
+  architecture is representationally powerful, but it complicates learning by making
+  it hard to identify the responsible neurons when a mistake is made. In machine learning,
+  the backpropagation algorithm assigns blame to a neuron by computing exactly how
+  it contributed to an error. To do this, it multiplies error signals by matrices
+  consisting of all the synaptic weights on the neuron's axon and farther downstream.
+  This operation requires a precisely choreographed transport of synaptic weight information,
+  which is thought to be impossible in the brain. Here we present a surprisingly simple
+  algorithm for deep learning, which assigns blame by multiplying error signals by
+  random synaptic weights. We show that a network can learn to extract useful information
+  from signals sent through these random feedback connections. In essence, the network
+  learns to learn. We demonstrate that this new mechanism performs as quickly and
+  accurately as backpropagation on a variety of problems and describe the principles
+  which underlie its function. Our demonstration provides a plausible basis for how
+  a neuron can be adapted using error signals generated at distal locations in the
+  brain, and thus dispels long-held assumptions about the algorithmic constraints
+  on learning in neural circuits.
+archiveprefix: arXiv
+author: Lillicrap, Timothy P. and Cownden, Daniel and Tweed, Douglas B. and Akerman,
+  Colin J.
+author_list:
+- family: Lillicrap
+  given: Timothy P.
+- family: Cownden
+  given: Daniel
+- family: Tweed
+  given: Douglas B.
+- family: Akerman
+  given: Colin J.
+eprint: 1411.0247v1
+file: 1411.0247v1.pdf
+files:
+- lillicrap-timothy-p.-and-cownden-daniel-and-tweed-douglas-b.-and-akerman-colin-j.random-feedback-weights-support-learning-in-deep-neural-networks2.pdf
+month: Nov
+primaryclass: q-bio.NC
+ref: 1411.0247v1
+time-added: 2020-06-07-13:26:32
+title: Random feedback weights support learning in deep neural networks
+type: article
+url: http://arxiv.org/abs/1411.0247v1
+year: '2014'

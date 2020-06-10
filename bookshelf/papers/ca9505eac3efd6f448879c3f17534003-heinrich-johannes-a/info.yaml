@@ -1,0 +1,29 @@
+abstract: Many real-world applications can be described as large-scale games of imperfect
+  information. To deal with these challenging domains, prior work has focused on computing
+  Nash equilibria in a handcrafted abstraction of the domain. In this paper we introduce
+  the first scalable end-to-end approach to learning approximate Nash equilibria without
+  prior domain knowledge. Our method combines fictitious self-play with deep reinforcement
+  learning. When applied to Leduc poker, Neural Fictitious Self-Play (NFSP) approached
+  a Nash equilibrium, whereas common reinforcement learning methods diverged. In Limit
+  Texas Holdem, a poker game of real-world scale, NFSP learnt a strategy that approached
+  the performance of state-of-the-art, superhuman algorithms based on significant
+  domain expertise.
+archiveprefix: arXiv
+author: Heinrich, Johannes and Silver, David
+author_list:
+- family: Heinrich
+  given: Johannes
+- family: Silver
+  given: David
+eprint: 1603.01121v2
+file: 1603.01121v2.pdf
+files:
+- heinrich-johannes-and-silver-daviddeep-reinforcement-learning-from-self-play-in-imperfect-information-games2016.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1603.01121v2
+time-added: 2020-06-10-12:09:26
+title: Deep Reinforcement Learning from Self-Play in Imperfect-Information   Games
+type: article
+url: http://arxiv.org/abs/1603.01121v2
+year: '2016'

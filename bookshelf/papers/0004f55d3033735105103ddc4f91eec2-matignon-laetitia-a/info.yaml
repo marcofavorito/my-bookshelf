@@ -1,0 +1,250 @@
+abstract: '<jats:title>Abstract</jats:title><jats:p>In the framework of fully cooperative
+  multi-agent systems, independent (non-communicative) agents that learn by reinforcement
+  must overcome several difficulties to manage to coordinate. This paper identifies
+  several challenges responsible for the non-coordination of independent agents: Pareto-selection,
+  non-stationarity, stochasticity, alter-exploration and shadowed equilibria. A selection
+  of multi-agent domains is classified according to those challenges: matrix games,
+  Boutilier''s coordination game, predators pursuit domains and a special multi-state
+  game. Moreover, the performance of a range of algorithms for independent reinforcement
+  learners is evaluated empirically. Those algorithms are Q-learning variants: decentralized
+  Q-learning, distributed Q-learning, hysteretic Q-learning, recursive frequency maximum
+  Q-value and win-or-learn fast policy hill climbing. An overview of the learning
+  algorithms’ strengths and weaknesses against each challenge concludes the paper
+  and can serve as a basis for choosing the appropriate algorithm for a new domain.
+  Furthermore, the distilled challenges may assist in the design of new learning algorithms
+  that overcome these problems and achieve higher performance in multi-agent applications.</jats:p>'
+author: Matignon, Laetitia and Laurent, Guillaume J. and Le Fort-Piat, Nadine
+author_list:
+- affiliation: []
+  family: Matignon
+  given: Laetitia
+- affiliation: []
+  family: Laurent
+  given: Guillaume J.
+- affiliation: []
+  family: Le Fort-Piat
+  given: Nadine
+citations:
+- author: Yang
+  volume-title: 'Multiagent Reinforcement Learning for Multi-Robot Systems: A Survey'
+  year: '2004'
+- doi: 10.1007/BF00992698
+- doi: 10.1017/S026988890500041X
+- doi: 10.1145/1329125.1329434
+  unstructured: 'Tumer K. , Agogino A. 2007. Distributed agent-based air traffic flow
+    management In AAMAS ‘07: Proceedings of the 6th International Joint Conference
+    on Autonomous Agents and Multiagent Systems, 1–8. ACM.'
+- unstructured: Wolpert D. H. , Tumer K. 1999. An Introduction to Collective Intelligence.
+    Technical Report NASA-ARC-IC-99-63, NASA Ames Research Center.
+- unstructured: Peshkin L. , Kim K.-E. , Meuleau N. , Kaelbling L. P. 2000. Learning
+    to cooperate via policy search. In 16th Conference on Uncertainty in Artificial
+    Intelligence, 307–314. Morgan Kaufmann.
+- article-title: 'Theoretical advantages of lenient learners: an evolutionary game
+    theoretic perspective'
+  author: Panait
+  first-page: '423'
+  journal-title: Journal of Machine Learning Research
+  volume: '9'
+  year: '2008'
+- doi: 10.1073/pnas.36.1.48
+- doi: 10.1007/978-3-540-77002-2_47
+  unstructured: 'Melo F. S. , Lopes M. C. 2007. Convergence of independent adaptive
+    learners. In Progress in Artificial Intelligence: 13th Portuguese Conference on
+    Artificial Intelligence, Lecture Notes in Artificial Intelligence, 4874, 555–567.
+    Springer-Verlag.'
+- article-title: Learning to cooperate in multi-agent systems by combining q-learning
+    and evolutionary strategy
+  author: McGlohon
+  first-page: '58'
+  journal-title: International Journal on Lateral Computing
+  volume: '1'
+  year: '2005'
+- doi: 10.1007/s10846-010-9396-9
+- unstructured: 'Matignon L. , Laurent G. J. , Le Fort-Piat N. 2008. A study of FMQ
+    heuristic in cooperative multi-agent games. In Proceedings of the 7th International
+    Conference on Autonomous Agents and Multiagent Systems. Workshop 10 : Multi-Agent
+    Sequential Decision Making in Uncertain Multi-Agent Domains (AAMAS 08), Estoril,
+    Portugal.'
+- doi: 10.1007/11840817_87
+  unstructured: 'Matignon L. , Laurent G. J. , Le Fort-Piat N. 2006. Reward function
+    and initial values : better choices for accelerated goal-directed reinforcement
+    learning. In Proceedings of the 16th International Conference on Artificial Neural
+    Networks (ICANN''06), Lecture Notes in Computer Science, 4131, 840–849. Springer.'
+- doi: 10.1080/095281398146806
+- doi: 10.1177/02783640122067543
+- doi: 10.1142/S0219525901000188
+- unstructured: Lauer M. , Riedmiller M. 2000. An algorithm for distributed reinforcement
+    learning in cooperative multi-agent systems. In Proceedings of the 17th International
+    Conference on Machine Learning, 535–542. Morgan Kaufmann.
+- unstructured: 'Kapetanakis S. , Kudenko D. 2004. Reinforcement learning of coordination
+    in heterogeneous cooperative multi-agent systems In AAMAS ‘04: Proceedings of
+    the 3rd International Joint Conference on Autonomous Agents and Multiagent Systems,
+    1258–1259. IEEE Computer Society.'
+- unstructured: Kapetanakis S. , Kudenko D. 2002. Reinforcement learning of coordination
+    in cooperative multi-agent systems. In Proceedings of the 9th NCAI, Dechter, R.,
+    Kearns, M. & Sutton, R. (eds.). Edmonton, Alberta, Canada.
+- doi: 10.1145/1553374.1553422
+  unstructured: 'Gomes E. R. , Kowalczyk R. 2009. Dynamic analysis of multiagent-learning
+    with &epsilon;-greedy exploration. In ICML''09: Proceedings of the 26th International
+    Conference on Machine Learning, 47. ACM.'
+- article-title: Multi-agent case-based reasoning for cooperative reinforcement learners
+  author: Gabel
+  first-page: '32'
+  journal-title: Proceedings of the ECCBR
+  year: '2006'
+- unstructured: Fulda N. , Ventura D. 2007. Predicting and preventing coordination
+    problems in cooperative q-learning systems. In Proceedings of the International
+    Joint Conference on Artificial Intelligence. Morgan Kaufmann Publishers Inc.
+- doi: 10.1109/ICARCV.2006.345351
+  unstructured: Busoniu L. , Babuska R. , De Schutter B. 2006. Decentralized reinforcement
+    learning control of a robotic manipulator. In Proceedings of the 9th International
+    Conference on Control, Automation, Robotics and Vision (ICARCV 2006), 1347–1352.
+    Singapore.
+- doi: 10.1007/978-3-540-32274-0_7
+- article-title: 'Learning to coordinate efficiently: a model-based approach'
+  author: Brafman
+  doi: 10.1613/jair.1154
+  first-page: '11'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '19'
+  year: '2003'
+- doi: 10.1016/S0004-3702(02)00121-2
+- author: Sutton
+  volume-title: 'Reinforcement Learning: An Introduction'
+  year: '1998'
+- article-title: Sequential optimality and coordination in multiagent systems
+  author: Boutilier
+  first-page: '478'
+  journal-title: IJCAI
+  year: '1999'
+- doi: 10.1017/S0269888906000956
+- article-title: Planning, learning and coordination in multiagent decision processes
+  author: Boutilier
+  first-page: '195'
+  journal-title: Theoretical Aspects of Rationality and Knowledge
+  year: '1996'
+- author: Benda
+  volume-title: On Optimal Cooperation of Knowledge Sources – an Experimental Investigation
+  year: '1986'
+- doi: 10.1080/09528130412331297956
+- article-title: 'Multi-agent reinforcement learning in common interest and fixed
+    sum stochastic games: an experimental study'
+  author: Bab
+  first-page: '2635'
+  journal-title: Journal of Machine Learning Research
+  volume: '9'
+  year: '2008'
+- doi: 10.1145/1082473.1082486
+  unstructured: Agogino A. , Turner K. 2005. Multi-agent reward analysis for learning
+    in noisy domains. In Proceedings of the 4th InternationalJoint Conference on Autonomous
+    Agents and Multiagent Systems, AAMAS'05, 81–88. ACM.
+- doi: 10.1073/pnas.39.10.1953
+- doi: 10.1007/978-3-540-32274-0_4
+- article-title: A multiagent reinforcement learning algorithm with non-linear dynamics
+  author: Abdallah
+  doi: 10.1613/jair.2628
+  first-page: '521'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '33'
+  year: '2008'
+- author: Bowling
+  first-page: '209'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2005'
+- doi: 10.1023/A:1007678930559
+- article-title: The world of independent learners is not Markovian
+  author: Laurent
+  journal-title: Innovation in Knowledge-Based and Intelligent Engineering Systems
+  volume: '15'
+  year: '2010'
+- unstructured: 'Wunder M. , Littman M. L. , Babes M. 2010. Classes of multiagent
+    q-learning dynamics with epsilon-greedy exploration. In ICML''10: Proceedings
+    of the 27th international Conference on Machine Learning, 1167–1174. Omni Press.'
+- doi: 10.1080/095281398146798
+- author: Osborne
+  volume-title: A Course in Game Theory
+  year: '1994'
+- article-title: 'Multi-robot box-pushing: single-agent q-learning vs. team q-learning'
+  author: Wang
+  first-page: '3694'
+  journal-title: Proceedings opf the IROS
+  year: '2006'
+- doi: 10.1007/s10458-006-9007-0
+- doi: 10.1016/B978-1-55860-307-3.50049-6
+  unstructured: 'Tan M. 1993. Multiagent reinforcement learning: independent vs. cooperative
+    agents. In Proceedings of the 10th International Conference on Machine Learning,
+    330–337. Morgan Kaufmann.'
+- doi: 10.1145/1160633.1160776
+  unstructured: 'Panait L. , Sullivan K. , Luke S. 2006. Lenient learners in cooperative
+    multiagent systems. In AAMAS ''06: Proceedings of the 5th International Joint
+    Conference on Autonomous Agents and Multiagent Systems, 801–803. ACM Press.'
+- doi: 10.1109/IROS.2007.4399095
+  unstructured: Matignon L. , Laurent G. J. , Le Fort-Piat N. 2007. Hysteretic q-learning
+    :an algorithm for decentralized reinforcement learning in cooperative multi-agent
+    teams. In Proceedings of IEEE/RSJ International Conference on Intelligent Robots
+    and Systems IROS 2007, 64–69.
+- unstructured: Sen S. , Sekaran M. , Hale J. 1994. Learning to coordinate without
+    sharing information. In Proceedings of the 12th National Conference on Artificial
+    Intelligence, 426–431, Seattle, WA.
+- article-title: 'Reinforcement learning: a survey'
+  author: Kaelbling
+  doi: 10.1613/jair.301
+  first-page: '237'
+  journal-title: Journal of Artificial Intelligence Research
+  volume: '4'
+  year: '1996'
+- doi: 10.1007/978-3-540-87479-9_61
+  unstructured: 'Kuyer L. , Whiteson S. , Bakker B. , Vlassis N. 2008. Multiagent
+    reinforcement learning for urban traffic control using coordination graphs. In
+    ECML PKDD ''08: Proceedings of the 2008 European Conference on Machine Learning
+    and Knowledge Discovery in Databases – Part I, Lecture Notes in Computer Science,
+    5211, 656–671. Springer.'
+- doi: 10.1109/TSMCC.2007.913919
+- doi: 10.1016/j.engappai.2007.05.006
+- unstructured: Bowling M. , Veloso M. 2000. An Analysis of Stochastic Game Theory
+    for Multiagent Reinforcement Learning. Technical report, Computer Science Department,
+    Carnegie Mellon University.
+- article-title: Nash q-learning for general-sum stochastic games
+  author: Hu
+  first-page: '1039'
+  journal-title: Journal of Machine Learning Research
+  volume: '4'
+  year: '2003'
+- unstructured: Claus C. , Boutilier C. 1998. The dynamics of reinforcement learning
+    in cooperative multiagent systems. In Proceedings of the 15th National Conference
+    on Artificial Intelligence, 746–752, American Association for Artificial Intelligence.
+- doi: 10.1023/A:1008942012299
+- doi: 10.1145/860575.860686
+  unstructured: 'Banerjee B. , Peng J. 2003. Adaptive policy gradient in multiagent
+    learning. In AAMAS ''03: Proceedings of the 2nd International Joint Conference
+    on Autonomous Agents and Multiagent Systems, 686–692. ACM.'
+- doi: 10.1016/S1389-0417(01)00015-8
+- article-title: A multiagent approach to managing air traffic flow
+  author: Tumer
+  first-page: '1'
+  journal-title: Journal of Autonomous Agents and Multi-Agent Systems
+  volume: '24'
+  year: '2010'
+- article-title: Reinforcement learning for stochastic cooperative multi-agent systems
+  author: Lauer
+  first-page: '1516'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  volume: '03'
+  year: '2004'
+- doi: 10.1007/BF00735341
+doi: 10.1017/s0269888912000057
+files:
+- matignon-laetitia-and-laurent-guillaume-j.-and-le-fort-piat-nadineindependent-reinforcement-learners-in-cooperative-markov-games-a-survey-regardin.pdf
+issue: '1'
+journal: The Knowledge Engineering Review
+language: en
+month: 2
+pages: 1--31
+publisher: Cambridge University Press (CUP)
+time-added: 2020-06-10-12:08:15
+title: 'Independent reinforcement learners in cooperative Markov games: a survey regarding
+  coordination problems'
+type: article
+url: http://dx.doi.org/10.1017/s0269888912000057
+volume: '27'
+year: 2012
