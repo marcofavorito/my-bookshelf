@@ -1,0 +1,36 @@
+abstract: Humans can understand and produce new utterances effortlessly, thanks to
+  their compositional skills. Once a person learns the meaning of a new verb "dax,"
+  he or she can immediately understand the meaning of "dax twice" or "sing and dax."
+  In this paper, we introduce the SCAN domain, consisting of a set of simple compositional
+  navigation commands paired with the corresponding action sequences. We then test
+  the zero-shot generalization capabilities of a variety of recurrent neural networks
+  (RNNs) trained on SCAN with sequence-to-sequence methods. We find that RNNs can
+  make successful zero-shot generalizations when the differences between training
+  and test commands are small, so that they can apply "mix-and-match" strategies to
+  solve the task. However, when generalization requires systematic compositional skills
+  (as in the "dax" example above), RNNs fail spectacularly. We conclude with a proof-of-concept
+  experiment in neural machine translation, suggesting that lack of systematicity
+  might be partially responsible for neural networks' notorious training data thirst.
+archiveprefix: arXiv
+author: Lake, Brenden M. and Baroni, Marco
+author_list:
+- family: Lake
+  given: Brenden M.
+- family: Baroni
+  given: Marco
+eprint: 1711.00350v3
+file: 1711.00350v3.pdf
+files:
+- lake-brenden-m.-and-baroni-marcogeneralization-without-systematicity-on-the-compositional-skills-of-sequence-to-sequence-recurrent-networks2017.pdf
+month: Oct
+note: 'Lake, B. M. and Baroni, M. (2018). Generalization without   systematicity:
+  On the compositional skills of sequence-to-sequence recurrent   networks. International
+  Conference on Machine Learning (ICML)'
+primaryclass: cs.CL
+ref: 1711.00350v3
+time-added: 2020-06-13-17:06:07
+title: 'Generalization without systematicity: On the compositional skills of   sequence-to-sequence
+  recurrent networks'
+type: article
+url: http://arxiv.org/abs/1711.00350v3
+year: '2017'
