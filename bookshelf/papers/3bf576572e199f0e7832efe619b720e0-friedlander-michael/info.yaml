@@ -1,0 +1,26 @@
+abstract: Stochastic-approximation gradient methods are attractive for large-scale
+  convex optimization because they offer inexpensive iterations. They are especially
+  popular in data-fitting and machine-learning applications where the data arrives
+  in a continuous stream, or it is necessary to minimize large sums of functions.
+  It is known that by appropriately decreasing the variance of the error at each iteration,
+  the expected rate of convergence matches that of the underlying deterministic gradient
+  method. Conditions are given under which this happens with overwhelming probability.
+archiveprefix: arXiv
+author: Friedlander, Michael P. and Goh, Gabriel
+author_list:
+- family: Friedlander
+  given: Michael P.
+- family: Goh
+  given: Gabriel
+eprint: 1304.5586v2
+file: 1304.5586v2.pdf
+files:
+- friedlander-michael-p.-and-goh-gabrieltail-bounds-for-stochastic-approximation2013.pdf
+month: Apr
+primaryclass: math.OC
+ref: 1304.5586v2
+time-added: 2020-06-20-22:28:59
+title: Tail bounds for stochastic approximation
+type: article
+url: http://arxiv.org/abs/1304.5586v2
+year: '2013'

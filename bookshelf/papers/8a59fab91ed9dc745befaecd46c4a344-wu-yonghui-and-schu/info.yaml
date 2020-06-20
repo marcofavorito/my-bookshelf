@@ -1,0 +1,107 @@
+abstract: Neural Machine Translation (NMT) is an end-to-end learning approach for
+  automated translation, with the potential to overcome many of the weaknesses of
+  conventional phrase-based translation systems. Unfortunately, NMT systems are known
+  to be computationally expensive both in training and in translation inference. Also,
+  most NMT systems have difficulty with rare words. These issues have hindered NMT's
+  use in practical deployments and services, where both accuracy and speed are essential.
+  In this work, we present GNMT, Google's Neural Machine Translation system, which
+  attempts to address many of these issues. Our model consists of a deep LSTM network
+  with 8 encoder and 8 decoder layers using attention and residual connections. To
+  improve parallelism and therefore decrease training time, our attention mechanism
+  connects the bottom layer of the decoder to the top layer of the encoder. To accelerate
+  the final translation speed, we employ low-precision arithmetic during inference
+  computations. To improve handling of rare words, we divide words into a limited
+  set of common sub-word units ("wordpieces") for both input and output. This method
+  provides a good balance between the flexibility of "character"-delimited models
+  and the efficiency of "word"-delimited models, naturally handles translation of
+  rare words, and ultimately improves the overall accuracy of the system. Our beam
+  search technique employs a length-normalization procedure and uses a coverage penalty,
+  which encourages generation of an output sentence that is most likely to cover all
+  the words in the source sentence. On the WMT'14 English-to-French and English-to-German
+  benchmarks, GNMT achieves competitive results to state-of-the-art. Using a human
+  side-by-side evaluation on a set of isolated simple sentences, it reduces translation
+  errors by an average of 60% compared to Google's phrase-based production system.
+archiveprefix: arXiv
+author: Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V. and Norouzi,
+  Mohammad and Macherey, Wolfgang and Krikun, Maxim and Cao, Yuan and Gao, Qin and
+  Macherey, Klaus and Klingner, Jeff and Shah, Apurva and Johnson, Melvin and Liu,
+  Xiaobing and Kaiser, Łukasz and Gouws, Stephan and Kato, Yoshikiyo and Kudo, Taku
+  and Kazawa, Hideto and Stevens, Keith and Kurian, George and Patil, Nishant and
+  Wang, Wei and Young, Cliff and Smith, Jason and Riesa, Jason and Rudnick, Alex and
+  Vinyals, Oriol and Corrado, Greg and Hughes, Macduff and Dean, Jeffrey
+author_list:
+- family: Wu
+  given: Yonghui
+- family: Schuster
+  given: Mike
+- family: Chen
+  given: Zhifeng
+- family: Le
+  given: Quoc V.
+- family: Norouzi
+  given: Mohammad
+- family: Macherey
+  given: Wolfgang
+- family: Krikun
+  given: Maxim
+- family: Cao
+  given: Yuan
+- family: Gao
+  given: Qin
+- family: Macherey
+  given: Klaus
+- family: Klingner
+  given: Jeff
+- family: Shah
+  given: Apurva
+- family: Johnson
+  given: Melvin
+- family: Liu
+  given: Xiaobing
+- family: Kaiser
+  given: Łukasz
+- family: Gouws
+  given: Stephan
+- family: Kato
+  given: Yoshikiyo
+- family: Kudo
+  given: Taku
+- family: Kazawa
+  given: Hideto
+- family: Stevens
+  given: Keith
+- family: Kurian
+  given: George
+- family: Patil
+  given: Nishant
+- family: Wang
+  given: Wei
+- family: Young
+  given: Cliff
+- family: Smith
+  given: Jason
+- family: Riesa
+  given: Jason
+- family: Rudnick
+  given: Alex
+- family: Vinyals
+  given: Oriol
+- family: Corrado
+  given: Greg
+- family: Hughes
+  given: Macduff
+- family: Dean
+  given: Jeffrey
+eprint: 1609.08144v2
+file: 1609.08144v2.pdf
+files:
+- wu-yonghui-and-schuster-mike-and-chen-zhifeng-and-le-quoc-v.-and-norouzi-mohammad-and-macherey-wolfgang-and-krikun-maxim-and-cao-yuan-and-gao.pdf
+month: Sep
+primaryclass: cs.CL
+ref: 1609.08144v2
+time-added: 2020-06-21-00:43:16
+title: 'Google''s Neural Machine Translation System: Bridging the Gap between   Human
+  and Machine Translation'
+type: article
+url: http://arxiv.org/abs/1609.08144v2
+year: '2016'

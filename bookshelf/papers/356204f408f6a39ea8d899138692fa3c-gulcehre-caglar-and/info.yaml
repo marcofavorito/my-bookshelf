@@ -1,0 +1,40 @@
+abstract: We explore the effect of introducing prior information into the intermediate
+  level of neural networks for a learning task on which all the state-of-the-art machine
+  learning algorithms tested failed to learn. We motivate our work from the hypothesis
+  that humans learn such intermediate concepts from other individuals via a form of
+  supervision or guidance using a curriculum. The experiments we have conducted provide
+  positive evidence in favor of this hypothesis. In our experiments, a two-tiered
+  MLP architecture is trained on a dataset with 64x64 binary inputs images, each image
+  with three sprites. The final task is to decide whether all the sprites are the
+  same or one of them is different. Sprites are pentomino tetris shapes and they are
+  placed in an image with different locations using scaling and rotation transformations.
+  The first part of the two-tiered MLP is pre-trained with intermediate-level targets
+  being the presence of sprites at each location, while the second part takes the
+  output of the first part as input and predicts the final task's target binary event.
+  The two-tiered MLP architecture, with a few tens of thousand examples, was able
+  to learn the task perfectly, whereas all other algorithms (include unsupervised
+  pre-training, but also traditional algorithms like SVMs, decision trees and boosting)
+  all perform no better than chance. We hypothesize that the optimization difficulty
+  involved when the intermediate pre-training is not performed is due to the {\em
+  composition} of two highly non-linear tasks. Our findings are also consistent with
+  hypotheses on cultural learning inspired by the observations of optimization problems
+  with deep learning, presumably because of effective local minima.
+archiveprefix: arXiv
+author: Gülçehre, Çağlar and Bengio, Yoshua
+author_list:
+- family: Gülçehre
+  given: Çağlar
+- family: Bengio
+  given: Yoshua
+eprint: 1301.4083v6
+file: 1301.4083v6.pdf
+files:
+- gulcehre-caglar-and-bengio-yoshuaknowledge-matters-importance-of-prior-information-for-optimization2013.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1301.4083v6
+time-added: 2020-06-21-00:19:42
+title: 'Knowledge Matters: Importance of Prior Information for Optimization'
+type: article
+url: http://arxiv.org/abs/1301.4083v6
+year: '2013'

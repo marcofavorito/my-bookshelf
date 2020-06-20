@@ -1,0 +1,31 @@
+abstract: In this paper we introduce deep Gaussian process (GP) models. Deep GPs are
+  a deep belief network based on Gaussian process mappings. The data is modeled as
+  the output of a multivariate GP. The inputs to that Gaussian process are then governed
+  by another GP. A single layer model is equivalent to a standard GP or the GP latent
+  variable model (GP-LVM). We perform inference in the model by approximate variational
+  marginalization. This results in a strict lower bound on the marginal likelihood
+  of the model which we use for model selection (number of layers and nodes per layer).
+  Deep belief networks are typically applied to relatively large data sets using stochastic
+  gradient descent for optimization. Our fully Bayesian treatment allows for the application
+  of deep models even when data is scarce. Model selection by our variational bound
+  shows that a five layer hierarchy is justified even when modelling a digit data
+  set containing only 150 examples.
+archiveprefix: arXiv
+author: Damianou, Andreas C. and Lawrence, Neil D.
+author_list:
+- family: Damianou
+  given: Andreas C.
+- family: Lawrence
+  given: Neil D.
+eprint: 1211.0358v2
+file: 1211.0358v2.pdf
+files:
+- damianou-andreas-c.-and-lawrence-neil-d.deep-gaussian-processes2012.pdf
+month: Nov
+primaryclass: stat.ML
+ref: 1211.0358v2
+time-added: 2020-06-21-00:58:06
+title: Deep Gaussian Processes
+type: article
+url: http://arxiv.org/abs/1211.0358v2
+year: '2012'

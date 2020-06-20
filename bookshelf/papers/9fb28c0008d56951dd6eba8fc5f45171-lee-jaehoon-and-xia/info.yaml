@@ -1,0 +1,44 @@
+abstract: A longstanding goal in deep learning research has been to precisely characterize
+  training and generalization. However, the often complex loss landscapes of neural
+  networks have made a theory of learning dynamics elusive. In this work, we show
+  that for wide neural networks the learning dynamics simplify considerably and that,
+  in the infinite width limit, they are governed by a linear model obtained from the
+  first-order Taylor expansion of the network around its initial parameters. Furthermore,
+  mirroring the correspondence between wide Bayesian neural networks and Gaussian
+  processes, gradient-based training of wide neural networks with a squared loss produces
+  test set predictions drawn from a Gaussian process with a particular compositional
+  kernel. While these theoretical results are only exact in the infinite width limit,
+  we nevertheless find excellent empirical agreement between the predictions of the
+  original network and those of the linearized version even for finite practically-sized
+  networks. This agreement is robust across different architectures, optimization
+  methods, and loss functions.
+archiveprefix: arXiv
+author: Lee, Jaehoon and Xiao, Lechao and Schoenholz, Samuel S. and Bahri, Yasaman
+  and Novak, Roman and Sohl-Dickstein, Jascha and Pennington, Jeffrey
+author_list:
+- family: Lee
+  given: Jaehoon
+- family: Xiao
+  given: Lechao
+- family: Schoenholz
+  given: Samuel S.
+- family: Bahri
+  given: Yasaman
+- family: Novak
+  given: Roman
+- family: Sohl-Dickstein
+  given: Jascha
+- family: Pennington
+  given: Jeffrey
+eprint: 1902.06720v4
+file: 1902.06720v4.pdf
+files:
+- lee-jaehoon-and-xiao-lechao-and-schoenholz-samuel-s.-and-bahri-yasaman-and-novak-roman-and-sohl-dickstein-jascha-and-pennington-jeffreywide-neu.pdf
+month: Feb
+primaryclass: stat.ML
+ref: 1902.06720v4
+time-added: 2020-06-21-00:02:08
+title: Wide Neural Networks of Any Depth Evolve as Linear Models Under Gradient   Descent
+type: article
+url: http://arxiv.org/abs/1902.06720v4
+year: '2019'

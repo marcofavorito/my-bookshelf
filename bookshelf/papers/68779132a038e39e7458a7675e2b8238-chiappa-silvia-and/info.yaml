@@ -1,0 +1,31 @@
+abstract: We offer a graphical interpretation of unfairness in a dataset as the presence
+  of an unfair causal path in the causal Bayesian network representing the data-generation
+  mechanism. We use this viewpoint to revisit the recent debate surrounding the COMPAS
+  pretrial risk assessment tool and, more generally, to point out that fairness evaluation
+  on a model requires careful considerations on the patterns of unfairness underlying
+  the training data. We show that causal Bayesian networks provide us with a powerful
+  tool to measure unfairness in a dataset and to design fair models in complex unfairness
+  scenarios.
+archiveprefix: arXiv
+author: Chiappa, Silvia and Isaac, William S.
+author_list:
+- family: Chiappa
+  given: Silvia
+- family: Isaac
+  given: William S.
+doi: 10.1007/978-3-030-16744-8_1
+eprint: 1907.06430v1
+file: 1907.06430v1.pdf
+files:
+- chiappa-silvia-and-isaac-william-s.a-causal-bayesian-networks-viewpoint-on-fairness2019.pdf
+month: Jul
+note: Privacy and Identity Management. Fairness, Accountability, and   Transparency
+  in the Age of Big Data. IFIP Advances in Information and   Communication Technology,
+  vol 547. Springer, Cham, 2019
+primaryclass: stat.ML
+ref: 1907.06430v1
+time-added: 2020-06-20-21:49:27
+title: A Causal Bayesian Networks Viewpoint on Fairness
+type: article
+url: http://arxiv.org/abs/1907.06430v1
+year: '2019'

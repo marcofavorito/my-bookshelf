@@ -1,0 +1,35 @@
+abstract: Neural Machine Translation (NMT) has shown remarkable progress over the
+  past few years with production systems now being deployed to end-users. One major
+  drawback of current architectures is that they are expensive to train, typically
+  requiring days to weeks of GPU time to converge. This makes exhaustive hyperparameter
+  search, as is commonly done with other neural network architectures, prohibitively
+  expensive. In this work, we present the first large-scale analysis of NMT architecture
+  hyperparameters. We report empirical results and variance numbers for several hundred
+  experimental runs, corresponding to over 250,000 GPU hours on the standard WMT English
+  to German translation task. Our experiments lead to novel insights and practical
+  advice for building and extending NMT architectures. As part of this contribution,
+  we release an open-source NMT framework that enables researchers to easily experiment
+  with novel techniques and reproduce state of the art results.
+archiveprefix: arXiv
+author: Britz, Denny and Goldie, Anna and Luong, Minh-Thang and Le, Quoc
+author_list:
+- family: Britz
+  given: Denny
+- family: Goldie
+  given: Anna
+- family: Luong
+  given: Minh-Thang
+- family: Le
+  given: Quoc
+eprint: 1703.03906v2
+file: 1703.03906v2.pdf
+files:
+- britz-denny-and-goldie-anna-and-luong-minh-thang-and-le-quocmassive-exploration-of-neural-machine-translation-architectures2017.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 1703.03906v2
+time-added: 2020-06-21-00:34:19
+title: Massive Exploration of Neural Machine Translation Architectures
+type: article
+url: http://arxiv.org/abs/1703.03906v2
+year: '2017'
