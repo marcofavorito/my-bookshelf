@@ -1,0 +1,31 @@
+abstract: We describe a new class of learning models called memory networks. Memory
+  networks reason with inference components combined with a long-term memory component;
+  they learn how to use these jointly. The long-term memory can be read and written
+  to, with the goal of using it for prediction. We investigate these models in the
+  context of question answering (QA) where the long-term memory effectively acts as
+  a (dynamic) knowledge base, and the output is a textual response. We evaluate them
+  on a large-scale QA task, and a smaller, but more complex, toy task generated from
+  a simulated world. In the latter, we show the reasoning power of such models by
+  chaining multiple supporting sentences to answer questions that require understanding
+  the intension of verbs.
+archiveprefix: arXiv
+author: Weston, Jason and Chopra, Sumit and Bordes, Antoine
+author_list:
+- family: Weston
+  given: Jason
+- family: Chopra
+  given: Sumit
+- family: Bordes
+  given: Antoine
+eprint: 1410.3916v11
+file: 1410.3916v11.pdf
+files:
+- weston-jason-and-chopra-sumit-and-bordes-antoinememory-networks2014.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1410.3916v11
+time-added: 2020-06-18-23:37:57
+title: Memory Networks
+type: article
+url: http://arxiv.org/abs/1410.3916v11
+year: '2014'

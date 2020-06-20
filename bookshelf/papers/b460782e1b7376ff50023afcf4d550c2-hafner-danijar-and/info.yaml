@@ -1,0 +1,32 @@
+abstract: We propose ThalNet, a deep learning model inspired by neocortical communication
+  via the thalamus. Our model consists of recurrent neural modules that send features
+  through a routing center, endowing the modules with the flexibility to share features
+  over multiple time steps. We show that our model learns to route information hierarchically,
+  processing input data by a chain of modules. We observe common architectures, such
+  as feed forward neural networks and skip connections, emerging as special cases
+  of our architecture, while novel connectivity patterns are learned for the text8
+  compression task. Our model outperforms standard recurrent neural networks on several
+  sequential benchmarks.
+archiveprefix: arXiv
+author: Hafner, Danijar and Irpan, Alex and Davidson, James and Heess, Nicolas
+author_list:
+- family: Hafner
+  given: Danijar
+- family: Irpan
+  given: Alex
+- family: Davidson
+  given: James
+- family: Heess
+  given: Nicolas
+eprint: 1706.05744v2
+file: 1706.05744v2.pdf
+files:
+- hafner-danijar-and-irpan-alex-and-davidson-james-and-heess-nicolaslearning-hierarchical-information-flow-with-recurrent-neural-modules2017.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1706.05744v2
+time-added: 2020-06-15-11:08:25
+title: Learning Hierarchical Information Flow with Recurrent Neural Modules
+type: article
+url: http://arxiv.org/abs/1706.05744v2
+year: '2017'

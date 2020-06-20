@@ -1,0 +1,32 @@
+abstract: We propose an alternative generator architecture for generative adversarial
+  networks, borrowing from style transfer literature. The new architecture leads to
+  an automatically learned, unsupervised separation of high-level attributes (e.g.,
+  pose and identity when trained on human faces) and stochastic variation in the generated
+  images (e.g., freckles, hair), and it enables intuitive, scale-specific control
+  of the synthesis. The new generator improves the state-of-the-art in terms of traditional
+  distribution quality metrics, leads to demonstrably better interpolation properties,
+  and also better disentangles the latent factors of variation. To quantify interpolation
+  quality and disentanglement, we propose two new, automated methods that are applicable
+  to any generator architecture. Finally, we introduce a new, highly varied and high-quality
+  dataset of human faces.
+archiveprefix: arXiv
+author: Karras, Tero and Laine, Samuli and Aila, Timo
+author_list:
+- family: Karras
+  given: Tero
+- family: Laine
+  given: Samuli
+- family: Aila
+  given: Timo
+eprint: 1812.04948v3
+file: 1812.04948v3.pdf
+files:
+- karras-tero-and-laine-samuli-and-aila-timoa-style-based-generator-architecture-for-generative-adversarial-networks2018.pdf
+month: Dec
+primaryclass: cs.NE
+ref: 1812.04948v3
+time-added: 2020-06-20-15:31:42
+title: A Style-Based Generator Architecture for Generative Adversarial Networks
+type: article
+url: http://arxiv.org/abs/1812.04948v3
+year: '2018'

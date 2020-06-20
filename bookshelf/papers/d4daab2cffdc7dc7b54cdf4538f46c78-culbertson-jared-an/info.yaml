@@ -1,0 +1,30 @@
+abstract: From the Bayesian perspective, the category of conditional probabilities
+  (a variant of the Kleisli category of the Giry monad, whose objects are measurable
+  spaces and arrows are Markov kernels) gives a nice framework for conceptualization
+  and analysis of many aspects of machine learning. Using categorical methods, we
+  construct models for parametric and nonparametric Bayesian reasoning on function
+  spaces, thus providing a basis for the supervised learning problem. In particular,
+  stochastic processes are arrows to these function spaces which serve as prior probabilities.
+  The resulting inference maps can often be analytically constructed in this symmetric
+  monoidal weakly closed category. We also show how to view general stochastic processes
+  using functor categories and demonstrate the Kalman filter as an archetype for the
+  hidden Markov model.
+archiveprefix: arXiv
+author: Culbertson, Jared and Sturtz, Kirk
+author_list:
+- family: Culbertson
+  given: Jared
+- family: Sturtz
+  given: Kirk
+eprint: 1312.1445v1
+file: 1312.1445v1.pdf
+files:
+- culbertson-jared-and-sturtz-kirkbayesian-machine-learning-via-category-theory2013.pdf
+month: Dec
+primaryclass: math.CT
+ref: 1312.1445v1
+time-added: 2020-06-20-15:34:41
+title: Bayesian machine learning via category theory
+type: article
+url: http://arxiv.org/abs/1312.1445v1
+year: '2013'

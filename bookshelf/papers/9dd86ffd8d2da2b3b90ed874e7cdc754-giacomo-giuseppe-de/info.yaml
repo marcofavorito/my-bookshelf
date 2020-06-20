@@ -1,0 +1,46 @@
+abstract: Runtime monitoring is one of the central tasks in the area of operational
+  decision support for business process management. In particular, it helps process
+  executors to check on-the-fly whether a running process instance satisfies business
+  constraints of interest, providing an immediate feedback when deviations occur.
+  We study runtime monitoring of properties expressed in LTL on finite traces (LTLf),
+  and in its extension LDLf. LDLf is a powerful logic that captures all monadic second
+  order logic on finite traces, and that is obtained by combining regular expressions
+  with LTLf, adopting the syntax of propositional dynamic logic (PDL). Interestingly,
+  in spite of its greater expressivity, \LDLf has exactly the same computational complexity
+  of LTLf.   We show that LDLf is able to declaratively express, in the logic itself,
+  not only the constraints to be monitored, but also the de-facto standard RV-LTL
+  monitors. On the one hand, this enables us to directly employ the standard characterization
+  of LDLf based on finite-state automata to monitor constraints in a fine-grained
+  way. On the other hand, it provides the basis for declaratively expressing sophisticated
+  metaconstraints that predicate on the monitoring state of other constraints, and
+  to check them by relying on standard logical services instead of ad-hoc algorithms.   In
+  addition, we devise a direct translation of LDLf formulae into nondeterministic
+  finite-state automata, avoiding to detour to Buchi automata or alternating automata.
+  We then report on how this approach has been effectively implemented using Java
+  to manipulate LDLf formulae and their corresponding monitors, and the well-known
+  ProM process mining suite as underlying operational decision support infrastructure.
+archiveprefix: arXiv
+author: Giacomo, Giuseppe De and Masellis, Riccardo De and Maggi, Fabrizio Maria and
+  Montali, Marco
+author_list:
+- family: Giacomo
+  given: Giuseppe De
+- family: Masellis
+  given: Riccardo De
+- family: Maggi
+  given: Fabrizio Maria
+- family: Montali
+  given: Marco
+eprint: 2004.01859v2
+file: 2004.01859v2.pdf
+files:
+- giacomo-giuseppe-de-and-masellis-riccardo-de-and-maggi-fabrizio-maria-and-montali-marcomonitoring-constraints-and-metaconstraints-with-temporal-lo.pdf
+month: Apr
+primaryclass: cs.LO
+ref: 2004.01859v2
+time-added: 2020-06-13-21:12:29
+title: Monitoring Constraints and Metaconstraints with Temporal Logics on   Finite
+  Traces
+type: article
+url: http://arxiv.org/abs/2004.01859v2
+year: '2020'

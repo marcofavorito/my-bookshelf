@@ -1,0 +1,34 @@
+abstract: We propose a simple data augmentation technique that can be applied to standard
+  model-free reinforcement learning algorithms, enabling robust learning directly
+  from pixels without the need for auxiliary losses or pre-training. The approach
+  leverages input perturbations commonly used in computer vision tasks to regularize
+  the value function. Existing model-free approaches, such as Soft Actor-Critic (SAC),
+  are not able to train deep networks effectively from image pixels. However, the
+  addition of our augmentation method dramatically improves SAC's performance, enabling
+  it to reach state-of-the-art performance on the DeepMind control suite, surpassing
+  model-based (Dreamer, PlaNet, and SLAC) methods and recently proposed contrastive
+  learning (CURL). Our approach can be combined with any model-free reinforcement
+  learning algorithm, requiring only minor modifications. An implementation can be
+  found at https://sites.google.com/view/data-regularized-q.
+archiveprefix: arXiv
+author: Kostrikov, Ilya and Yarats, Denis and Fergus, Rob
+author_list:
+- family: Kostrikov
+  given: Ilya
+- family: Yarats
+  given: Denis
+- family: Fergus
+  given: Rob
+eprint: 2004.13649v3
+file: 2004.13649v3.pdf
+files:
+- kostrikov-ilya-and-yarats-denis-and-fergus-robimage-augmentation-is-all-you-need-regularizing-deep-reinforcement-learning-from-pixels2020.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2004.13649v3
+time-added: 2020-06-18-23:18:23
+title: 'Image Augmentation Is All You Need: Regularizing Deep Reinforcement   Learning
+  from Pixels'
+type: article
+url: http://arxiv.org/abs/2004.13649v3
+year: '2020'

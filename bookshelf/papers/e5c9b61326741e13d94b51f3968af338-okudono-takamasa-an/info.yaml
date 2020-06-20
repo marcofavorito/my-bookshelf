@@ -1,0 +1,32 @@
+abstract: We present a method to extract a weighted finite automaton (WFA) from a
+  recurrent neural network (RNN). Our algorithm is based on the WFA learning algorithm
+  by Balle and Mohri, which is in turn an extension of Angluin's classic \lstar algorithm.
+  Our technical novelty is in the use of \emph{regression} methods for the so-called
+  equivalence queries, thus exploiting the internal state space of an RNN to prioritize
+  counterexample candidates. This way we achieve a quantitative/weighted extension
+  of the recent work by Weiss, Goldberg and Yahav that extracts DFAs. We experimentally
+  evaluate the accuracy, expressivity and efficiency of the extracted WFAs.
+archiveprefix: arXiv
+author: Okudono, Takamasa and Waga, Masaki and Sekiyama, Taro and Hasuo, Ichiro
+author_list:
+- family: Okudono
+  given: Takamasa
+- family: Waga
+  given: Masaki
+- family: Sekiyama
+  given: Taro
+- family: Hasuo
+  given: Ichiro
+eprint: 1904.02931v3
+file: 1904.02931v3.pdf
+files:
+- okudono-takamasa-and-waga-masaki-and-sekiyama-taro-and-hasuo-ichiroweighted-automata-extraction-from-recurrent-neural-networks-via-regression-on.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1904.02931v3
+time-added: 2020-06-18-16:06:29
+title: Weighted Automata Extraction from Recurrent Neural Networks via   Regression
+  on State Spaces
+type: article
+url: http://arxiv.org/abs/1904.02931v3
+year: '2019'

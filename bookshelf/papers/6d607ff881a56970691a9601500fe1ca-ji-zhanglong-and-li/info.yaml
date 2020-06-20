@@ -1,0 +1,38 @@
+abstract: The objective of machine learning is to extract useful information from
+  data, while privacy is preserved by concealing information. Thus it seems hard to
+  reconcile these competing interests. However, they frequently must be balanced when
+  mining sensitive data. For example, medical research represents an important application
+  where it is necessary both to extract useful information and protect patient privacy.
+  One way to resolve the conflict is to extract general characteristics of whole populations
+  without disclosing the private information of individuals.   In this paper, we consider
+  differential privacy, one of the most popular and powerful definitions of privacy.
+  We explore the interplay between machine learning and differential privacy, namely
+  privacy-preserving machine learning algorithms and learning-based data release mechanisms.
+  We also describe some theoretical results that address what can be learned differentially
+  privately and upper bounds of loss functions for differentially private algorithms.   Finally,
+  we present some open questions, including how to incorporate public data, how to
+  deal with missing data in private datasets, and whether, as the number of observed
+  samples grows arbitrarily large, differentially private machine learning algorithms
+  can be achieved at no cost to utility as compared to corresponding non-differentially
+  private algorithms.
+archiveprefix: arXiv
+author: Ji, Zhanglong and Lipton, Zachary C. and Elkan, Charles
+author_list:
+- family: Ji
+  given: Zhanglong
+- family: Lipton
+  given: Zachary C.
+- family: Elkan
+  given: Charles
+eprint: 1412.7584v1
+file: 1412.7584v1.pdf
+files:
+- ji-zhanglong-and-lipton-zachary-c.-and-elkan-charlesdifferential-privacy-and-machine-learning-a-survey-and-review2014.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1412.7584v1
+time-added: 2020-06-16-17:05:13
+title: 'Differential Privacy and Machine Learning: a Survey and Review'
+type: article
+url: http://arxiv.org/abs/1412.7584v1
+year: '2014'

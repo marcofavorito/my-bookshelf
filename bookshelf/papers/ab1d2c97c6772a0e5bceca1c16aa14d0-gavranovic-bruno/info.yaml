@@ -1,0 +1,32 @@
+abstract: Neural networks have become an increasingly popular tool for solving many
+  real-world problems. They are a general framework for differentiable optimization
+  which includes many other machine learning approaches as special cases. In this
+  thesis we build a category-theoretic formalism around a class of neural networks
+  exemplified by CycleGAN. CycleGAN is a collection of neural networks, closed under
+  composition, whose inductive bias is increased by enforcing composition invariants,
+  i.e. cycle-consistencies. Inspired by Functorial Data Migration, we specify the
+  interconnection of these networks using a categorical schema, and network instances
+  as set-valued functors on this schema. We also frame neural network architectures,
+  datasets, models, and a number of other concepts in a categorical setting and thus
+  show a special class of functors, rather than functions, can be learned using gradient
+  descent. We use the category-theoretic framework to conceive a novel neural network
+  architecture whose goal is to learn the task of object insertion and object deletion
+  in images with unpaired data. We test the architecture on three different datasets
+  and obtain promising results.
+archiveprefix: arXiv
+author: Gavranović, Bruno
+author_list:
+- family: Gavranović
+  given: Bruno
+eprint: 1907.08292v1
+file: 1907.08292v1.pdf
+files:
+- gavranovic-brunocompositional-deep-learning2019.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1907.08292v1
+time-added: 2020-06-20-14:59:11
+title: Compositional Deep Learning
+type: article
+url: http://arxiv.org/abs/1907.08292v1
+year: '2019'
