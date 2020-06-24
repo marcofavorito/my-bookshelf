@@ -1,0 +1,36 @@
+abstract: The ability to learn and act in novel situations is still a prerogative
+  of animate intelligence, as current machine learning methods mostly fail when moving
+  beyond the standard i.i.d. setting. What is the reason for this discrepancy? Most
+  machine learning tasks are anti-causal, i.e., we infer causes (labels) from effects
+  (observations). Typically, in supervised learning we build systems that try to directly
+  invert causal mechanisms. Instead, in this paper we argue that strong generalization
+  capabilities crucially hinge on searching and validating meaningful hypotheses,
+  requiring access to a causal model. In such a framework, we want to find a cause
+  that leads to the observed effect. Anti-causal models are used to drive this search,
+  but a causal model is required for validation. We investigate the fundamental differences
+  between causal and anti-causal tasks, discuss implications for topics ranging from
+  adversarial attacks to disentangling factors of variation, and provide extensive
+  evidence from the literature to substantiate our view. We advocate for incorporating
+  causal models in supervised learning to shift the paradigm from inference only,
+  to search and validation.
+archiveprefix: arXiv
+author: Kilbertus, Niki and Parascandolo, Giambattista and Schölkopf, Bernhard
+author_list:
+- family: Kilbertus
+  given: Niki
+- family: Parascandolo
+  given: Giambattista
+- family: Schölkopf
+  given: Bernhard
+eprint: 1812.00524v1
+file: 1812.00524v1.pdf
+files:
+- kilbertus-niki-and-parascandolo-giambattista-and-scholkopf-bernhardgeneralization-in-anti-causal-learning2018.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1812.00524v1
+time-added: 2020-06-22-14:30:03
+title: Generalization in anti-causal learning
+type: article
+url: http://arxiv.org/abs/1812.00524v1
+year: '2018'

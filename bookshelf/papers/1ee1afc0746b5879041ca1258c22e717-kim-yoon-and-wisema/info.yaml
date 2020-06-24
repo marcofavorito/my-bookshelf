@@ -1,0 +1,31 @@
+abstract: 'There has been much recent, exciting work on combining the complementary
+  strengths of latent variable models and deep learning. Latent variable modeling
+  makes it easy to explicitly specify model constraints through conditional independence
+  properties, while deep learning makes it possible to parameterize these conditional
+  likelihoods with powerful function approximators. While these "deep latent variable"
+  models provide a rich, flexible framework for modeling many real-world phenomena,
+  difficulties exist: deep parameterizations of conditional likelihoods usually make
+  posterior inference intractable, and latent variable objectives often complicate
+  backpropagation by introducing points of non-differentiability. This tutorial explores
+  these issues in depth through the lens of variational inference.'
+archiveprefix: arXiv
+author: Kim, Yoon and Wiseman, Sam and Rush, Alexander M.
+author_list:
+- family: Kim
+  given: Yoon
+- family: Wiseman
+  given: Sam
+- family: Rush
+  given: Alexander M.
+eprint: 1812.06834v3
+file: 1812.06834v3.pdf
+files:
+- kim-yoon-and-wiseman-sam-and-rush-alexander-m.a-tutorial-on-deep-latent-variable-models-of-natural-language2018.pdf
+month: Dec
+primaryclass: cs.CL
+ref: 1812.06834v3
+time-added: 2020-06-23-21:33:03
+title: A Tutorial on Deep Latent Variable Models of Natural Language
+type: article
+url: http://arxiv.org/abs/1812.06834v3
+year: '2018'

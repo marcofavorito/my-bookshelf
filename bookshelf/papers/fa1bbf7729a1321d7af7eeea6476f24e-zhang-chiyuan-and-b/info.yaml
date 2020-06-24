@@ -1,0 +1,41 @@
+abstract: Despite their massive size, successful deep artificial neural networks can
+  exhibit a remarkably small difference between training and test performance. Conventional
+  wisdom attributes small generalization error either to properties of the model family,
+  or to the regularization techniques used during training.   Through extensive systematic
+  experiments, we show how these traditional approaches fail to explain why large
+  neural networks generalize well in practice. Specifically, our experiments establish
+  that state-of-the-art convolutional networks for image classification trained with
+  stochastic gradient methods easily fit a random labeling of the training data. This
+  phenomenon is qualitatively unaffected by explicit regularization, and occurs even
+  if we replace the true images by completely unstructured random noise. We corroborate
+  these experimental findings with a theoretical construction showing that simple
+  depth two neural networks already have perfect finite sample expressivity as soon
+  as the number of parameters exceeds the number of data points as it usually does
+  in practice.   We interpret our experimental findings by comparison with traditional
+  models.
+archiveprefix: arXiv
+author: Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and
+  Vinyals, Oriol
+author_list:
+- family: Zhang
+  given: Chiyuan
+- family: Bengio
+  given: Samy
+- family: Hardt
+  given: Moritz
+- family: Recht
+  given: Benjamin
+- family: Vinyals
+  given: Oriol
+eprint: 1611.03530v2
+file: 1611.03530v2.pdf
+files:
+- zhang-chiyuan-and-bengio-samy-and-hardt-moritz-and-recht-benjamin-and-vinyals-oriolunderstanding-deep-learning-requires-rethinking-generalization.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1611.03530v2
+time-added: 2020-06-24-12:06:37
+title: Understanding deep learning requires rethinking generalization
+type: article
+url: http://arxiv.org/abs/1611.03530v2
+year: '2016'

@@ -1,0 +1,30 @@
+abstract: 'Large Convolutional Network models have recently demonstrated impressive
+  classification performance on the ImageNet benchmark. However there is no clear
+  understanding of why they perform so well, or how they might be improved. In this
+  paper we address both issues. We introduce a novel visualization technique that
+  gives insight into the function of intermediate feature layers and the operation
+  of the classifier. We also perform an ablation study to discover the performance
+  contribution from different model layers. This enables us to find model architectures
+  that outperform Krizhevsky \etal on the ImageNet classification benchmark. We show
+  our ImageNet model generalizes well to other datasets: when the softmax classifier
+  is retrained, it convincingly beats the current state-of-the-art results on Caltech-101
+  and Caltech-256 datasets.'
+archiveprefix: arXiv
+author: Zeiler, Matthew D and Fergus, Rob
+author_list:
+- family: Zeiler
+  given: Matthew D
+- family: Fergus
+  given: Rob
+eprint: 1311.2901v3
+file: 1311.2901v3.pdf
+files:
+- zeiler-matthew-d-and-fergus-robvisualizing-and-understanding-convolutional-networks2013.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 1311.2901v3
+time-added: 2020-06-23-22:27:25
+title: Visualizing and Understanding Convolutional Networks
+type: article
+url: http://arxiv.org/abs/1311.2901v3
+year: '2013'

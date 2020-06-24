@@ -1,0 +1,40 @@
+abstract: Machine learning is the science of discovering statistical dependencies
+  in data, and the use of those dependencies to perform predictions. During the last
+  decade, machine learning has made spectacular progress, surpassing human performance
+  in complex tasks such as object recognition, car driving, and computer gaming. However,
+  the central role of prediction in machine learning avoids progress towards general-purpose
+  artificial intelligence. As one way forward, we argue that causal inference is a
+  fundamental component of human intelligence, yet ignored by learning algorithms.   Causal
+  inference is the problem of uncovering the cause-effect relationships between the
+  variables of a data generating system. Causal structures provide understanding about
+  how these systems behave under changing, unseen environments. In turn, knowledge
+  about these causal dynamics allows to answer "what if" questions, describing the
+  potential responses of the system under hypothetical manipulations and interventions.
+  Thus, understanding cause and effect is one step from machine learning towards machine
+  reasoning and machine intelligence. But, currently available causal inference algorithms
+  operate in specific regimes, and rely on assumptions that are difficult to verify
+  in practice.   This thesis advances the art of causal inference in three different
+  ways. First, we develop a framework for the study of statistical dependence based
+  on copulas and random features. Second, we build on this framework to interpret
+  the problem of causal inference as the task of distribution classification, yielding
+  a family of novel causal inference algorithms. Third, we discover causal structures
+  in convolutional neural network features using our algorithms. The algorithms presented
+  in this thesis are scalable, exhibit strong theoretical guarantees, and achieve
+  state-of-the-art performance in a variety of real-world benchmarks.
+archiveprefix: arXiv
+author: Lopez-Paz, David
+author_list:
+- family: Lopez-Paz
+  given: David
+eprint: 1607.03300v1
+file: 1607.03300v1.pdf
+files:
+- lopez-paz-davidfrom-dependence-to-causation2016.pdf
+month: Jul
+primaryclass: stat.ML
+ref: 1607.03300v1
+time-added: 2020-06-22-12:10:25
+title: From Dependence to Causation
+type: article
+url: http://arxiv.org/abs/1607.03300v1
+year: '2016'

@@ -1,0 +1,36 @@
+abstract: Training a neural network is synonymous with learning the values of the
+  weights. By contrast, we demonstrate that randomly weighted neural networks contain
+  subnetworks which achieve impressive performance without ever training the weight
+  values. Hidden in a randomly weighted Wide ResNet-50 we show that there is a subnetwork
+  (with random weights) that is smaller than, but matches the performance of a ResNet-34
+  trained on ImageNet. Not only do these "untrained subnetworks" exist, but we provide
+  an algorithm to effectively find them. We empirically show that as randomly weighted
+  neural networks with fixed weights grow wider and deeper, an "untrained subnetwork"
+  approaches a network with learned weights in accuracy. Our code and pretrained models
+  are available at https://github.com/allenai/hidden-networks.
+archiveprefix: arXiv
+author: Ramanujan, Vivek and Wortsman, Mitchell and Kembhavi, Aniruddha and Farhadi,
+  Ali and Rastegari, Mohammad
+author_list:
+- family: Ramanujan
+  given: Vivek
+- family: Wortsman
+  given: Mitchell
+- family: Kembhavi
+  given: Aniruddha
+- family: Farhadi
+  given: Ali
+- family: Rastegari
+  given: Mohammad
+eprint: 1911.13299v2
+file: 1911.13299v2.pdf
+files:
+- ramanujan-vivek-and-wortsman-mitchell-and-kembhavi-aniruddha-and-farhadi-ali-and-rastegari-mohammadwhat-s-hidden-in-a-randomly-weighted-neural-ne.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 1911.13299v2
+time-added: 2020-06-24-00:09:23
+title: What's Hidden in a Randomly Weighted Neural Network?
+type: article
+url: http://arxiv.org/abs/1911.13299v2
+year: '2019'

@@ -1,0 +1,31 @@
+abstract: 'This paper presents LEXR, a framework for explaining the decision making
+  of recurrent neural networks (RNNs) using a formal description language called Linear
+  Temporal Logic (LTL). LTL is the de facto standard for the specification of temporal
+  properties in the context of formal verification and features many desirable properties
+  that make the generated explanations easy for humans to interpret: it is a descriptive
+  language, it has a variable-free syntax, and it can easily be translated into plain
+  English. To generate explanations, LEXR follows the principle of counterexample-guided
+  inductive synthesis and combines Valiant''s probably approximately correct learning
+  (PAC) with constraint solving. We prove that LEXR''s explanations satisfy the PAC
+  guarantee (provided the RNN can be described by LTL) and show empirically that these
+  explanations are more accurate and easier-to-understand than the ones generated
+  by recent algorithms that extract deterministic finite automata from RNNs.'
+archiveprefix: arXiv
+author: Ghosh, Bishwamittra and Neider, Daniel
+author_list:
+- family: Ghosh
+  given: Bishwamittra
+- family: Neider
+  given: Daniel
+eprint: 2006.07292v1
+file: 2006.07292v1.pdf
+files:
+- ghosh-bishwamittra-and-neider-daniela-formal-language-approach-to-explaining-rnns2020.pdf
+month: Jun
+primaryclass: cs.AI
+ref: 2006.07292v1
+time-added: 2020-06-21-14:09:52
+title: A Formal Language Approach to Explaining RNNs
+type: article
+url: http://arxiv.org/abs/2006.07292v1
+year: '2020'

@@ -1,0 +1,40 @@
+abstract: 'What is the difference of a prediction that is made with a causal model
+  and a non-causal model? Suppose we intervene on the predictor variables or change
+  the whole environment. The predictions from a causal model will in general work
+  as well under interventions as for observational data. In contrast, predictions
+  from a non-causal model can potentially be very wrong if we actively intervene on
+  variables. Here, we propose to exploit this invariance of a prediction under a causal
+  model for causal inference: given different experimental settings (for example various
+  interventions) we collect all models that do show invariance in their predictive
+  accuracy across settings and interventions. The causal model will be a member of
+  this set of models with high probability. This approach yields valid confidence
+  intervals for the causal relationships in quite general scenarios. We examine the
+  example of structural equation models in more detail and provide sufficient assumptions
+  under which the set of causal predictors becomes identifiable. We further investigate
+  robustness properties of our approach under model misspecification and discuss possible
+  extensions. The empirical properties are studied for various data sets, including
+  large-scale gene perturbation experiments.'
+archiveprefix: arXiv
+author: Peters, Jonas and Bühlmann, Peter and Meinshausen, Nicolai
+author_list:
+- family: Peters
+  given: Jonas
+- family: Bühlmann
+  given: Peter
+- family: Meinshausen
+  given: Nicolai
+eprint: 1501.01332v3
+file: 1501.01332v3.pdf
+files:
+- peters-jonas-and-buhlmann-peter-and-meinshausen-nicolaicausal-inference-using-invariant-prediction-identification-and-confidence-intervals2015.pdf
+month: Jan
+note: 'Journal of the Royal Statistical Society, Series B (with   discussion) 78(5):
+  947-1012 (2016)'
+primaryclass: stat.ME
+ref: 1501.01332v3
+time-added: 2020-06-22-12:24:15
+title: 'Causal inference using invariant prediction: identification and   confidence
+  intervals'
+type: article
+url: http://arxiv.org/abs/1501.01332v3
+year: '2015'

@@ -1,0 +1,31 @@
+abstract: 'Many tasks in machine learning and signal processing can be solved by minimizing
+  a convex function of a measure. This includes sparse spikes deconvolution or training
+  a neural network with a single hidden layer. For these problems, we study a simple
+  minimization method: the unknown measure is discretized into a mixture of particles
+  and a continuous-time gradient descent is performed on their weights and positions.
+  This is an idealization of the usual way to train neural networks with a large hidden
+  layer. We show that, when initialized correctly and in the many-particle limit,
+  this gradient flow, although non-convex, converges to global minimizers. The proof
+  involves Wasserstein gradient flows, a by-product of optimal transport theory. Numerical
+  experiments show that this asymptotic behavior is already at play for a reasonable
+  number of particles, even in high dimension.'
+archiveprefix: arXiv
+author: Chizat, Lenaic and Bach, Francis
+author_list:
+- family: Chizat
+  given: Lenaic
+- family: Bach
+  given: Francis
+eprint: 1805.09545v2
+file: 1805.09545v2.pdf
+files:
+- chizat-lenaic-and-bach-francison-the-global-convergence-of-gradient-descent-for-over-parameterized-models-using-optimal-transport2018.pdf
+month: May
+primaryclass: math.OC
+ref: 1805.09545v2
+time-added: 2020-06-21-12:52:36
+title: On the Global Convergence of Gradient Descent for Over-parameterized   Models
+  using Optimal Transport
+type: article
+url: http://arxiv.org/abs/1805.09545v2
+year: '2018'

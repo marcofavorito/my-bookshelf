@@ -1,0 +1,42 @@
+abstract: Attention and self-attention mechanisms, inspired by cognitive processes,
+  are now central to state-of-the-art deep learning on sequential tasks. However,
+  most recent progress hinges on heuristic approaches with limited understanding of
+  attention's role in model optimization and computation, and rely on considerable
+  memory and computational resources that scale poorly. In this work, we present a
+  formal analysis of how self-attention affects gradient propagation in recurrent
+  networks, and prove that it mitigates the problem of vanishing gradients when trying
+  to capture long-term dependencies. Building on these results, we propose a relevancy
+  screening mechanism, inspired by the cognitive process of memory consolidation,
+  that allows for a scalable use of sparse self-attention with recurrence. While providing
+  guarantees to avoid vanishing gradients, we use simple numerical experiments to
+  demonstrate the tradeoffs in performance and computational resources by efficiently
+  balancing attention and recurrence. Based on our results, we propose a concrete
+  direction of research to improve scalability of attentive networks.
+archiveprefix: arXiv
+author: Kerg, Giancarlo and Kanuparthi, Bhargav and Goyal, Anirudh and Goyette, Kyle
+  and Bengio, Yoshua and Lajoie, Guillaume
+author_list:
+- family: Kerg
+  given: Giancarlo
+- family: Kanuparthi
+  given: Bhargav
+- family: Goyal
+  given: Anirudh
+- family: Goyette
+  given: Kyle
+- family: Bengio
+  given: Yoshua
+- family: Lajoie
+  given: Guillaume
+eprint: 2006.09471v1
+file: 2006.09471v1.pdf
+files:
+- kerg-giancarlo-and-kanuparthi-bhargav-and-goyal-anirudh-and-goyette-kyle-and-bengio-yoshua-and-lajoie-guillaumeuntangling-tradeoffs-between-recu.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.09471v1
+time-added: 2020-06-23-13:50:34
+title: Untangling tradeoffs between recurrence and self-attention in neural   networks
+type: article
+url: http://arxiv.org/abs/2006.09471v1
+year: '2020'

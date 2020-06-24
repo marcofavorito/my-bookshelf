@@ -1,0 +1,31 @@
+abstract: 'Image representations, from SIFT and Bag of Visual Words to Convolutional
+  Neural Networks (CNNs), are a crucial component of almost any image understanding
+  system. Nevertheless, our understanding of them remains limited. In this paper we
+  conduct a direct analysis of the visual information contained in representations
+  by asking the following question: given an encoding of an image, to which extent
+  is it possible to reconstruct the image itself? To answer this question we contribute
+  a general framework to invert representations. We show that this method can invert
+  representations such as HOG and SIFT more accurately than recent alternatives while
+  being applicable to CNNs too. We then use this technique to study the inverse of
+  recent state-of-the-art CNN image representations for the first time. Among our
+  findings, we show that several layers in CNNs retain photographically accurate information
+  about the image, with different degrees of geometric and photometric invariance.'
+archiveprefix: arXiv
+author: Mahendran, Aravindh and Vedaldi, Andrea
+author_list:
+- family: Mahendran
+  given: Aravindh
+- family: Vedaldi
+  given: Andrea
+eprint: 1412.0035v1
+file: 1412.0035v1.pdf
+files:
+- mahendran-aravindh-and-vedaldi-andreaunderstanding-deep-image-representations-by-inverting-them2014.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 1412.0035v1
+time-added: 2020-06-23-22:27:55
+title: Understanding Deep Image Representations by Inverting Them
+type: article
+url: http://arxiv.org/abs/1412.0035v1
+year: '2014'

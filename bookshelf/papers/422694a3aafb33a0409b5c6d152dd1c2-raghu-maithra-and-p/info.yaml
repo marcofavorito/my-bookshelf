@@ -1,0 +1,36 @@
+abstract: 'We propose a new approach to the problem of neural network expressivity,
+  which seeks to characterize how structural properties of a neural network family
+  affect the functions it is able to compute. Our approach is based on an interrelated
+  set of measures of expressivity, unified by the novel notion of trajectory length,
+  which measures how the output of a network changes as the input sweeps along a one-dimensional
+  path. Our findings can be summarized as follows:   (1) The complexity of the computed
+  function grows exponentially with depth.   (2) All weights are not equal: trained
+  networks are more sensitive to their lower (initial) layer weights.   (3) Regularizing
+  on trajectory length (trajectory regularization) is a simpler alternative to batch
+  normalization, with the same performance.'
+archiveprefix: arXiv
+author: Raghu, Maithra and Poole, Ben and Kleinberg, Jon and Ganguli, Surya and Sohl-Dickstein,
+  Jascha
+author_list:
+- family: Raghu
+  given: Maithra
+- family: Poole
+  given: Ben
+- family: Kleinberg
+  given: Jon
+- family: Ganguli
+  given: Surya
+- family: Sohl-Dickstein
+  given: Jascha
+eprint: 1606.05336v6
+file: 1606.05336v6.pdf
+files:
+- raghu-maithra-and-poole-ben-and-kleinberg-jon-and-ganguli-surya-and-sohl-dickstein-jaschaon-the-expressive-power-of-deep-neural-networks2016.pdf
+month: Jun
+primaryclass: stat.ML
+ref: 1606.05336v6
+time-added: 2020-06-24-17:29:26
+title: On the Expressive Power of Deep Neural Networks
+type: article
+url: http://arxiv.org/abs/1606.05336v6
+year: '2016'

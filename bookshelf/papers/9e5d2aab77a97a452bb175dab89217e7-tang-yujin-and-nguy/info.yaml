@@ -1,0 +1,39 @@
+abstract: Inattentional blindness is the psychological phenomenon that causes one
+  to miss things in plain sight. It is a consequence of the selective attention in
+  perception that lets us remain focused on important parts of our world without distraction
+  from irrelevant details. Motivated by selective attention, we study the properties
+  of artificial agents that perceive the world through the lens of a self-attention
+  bottleneck. By constraining access to only a small fraction of the visual input,
+  we show that their policies are directly interpretable in pixel space. We find neuroevolution
+  ideal for training self-attention architectures for vision-based reinforcement learning
+  (RL) tasks, allowing us to incorporate modules that can include discrete, non-differentiable
+  operations which are useful for our agent. We argue that self-attention has similar
+  properties as indirect encoding, in the sense that large implicit weight matrices
+  are generated from a small number of key-query parameters, thus enabling our agent
+  to solve challenging vision based tasks with at least 1000x fewer parameters than
+  existing methods. Since our agent attends to only task critical visual hints, they
+  are able to generalize to environments where task irrelevant elements are modified
+  while conventional methods fail. Videos of our results and source code available
+  at https://attentionagent.github.io/
+archiveprefix: arXiv
+author: Tang, Yujin and Nguyen, Duong and Ha, David
+author_list:
+- family: Tang
+  given: Yujin
+- family: Nguyen
+  given: Duong
+- family: Ha
+  given: David
+doi: 10.1145/3377930.3389847
+eprint: 2003.08165v2
+file: 2003.08165v2.pdf
+files:
+- tang-yujin-and-nguyen-duong-and-ha-davidneuroevolution-of-self-interpretable-agents2020.pdf
+month: Mar
+primaryclass: cs.NE
+ref: 2003.08165v2
+time-added: 2020-06-24-13:01:19
+title: Neuroevolution of Self-Interpretable Agents
+type: article
+url: http://arxiv.org/abs/2003.08165v2
+year: '2020'

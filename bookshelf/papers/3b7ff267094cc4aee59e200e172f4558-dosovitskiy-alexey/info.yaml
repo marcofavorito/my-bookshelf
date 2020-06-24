@@ -1,0 +1,30 @@
+abstract: Feature representations, both hand-designed and learned ones, are often
+  hard to analyze and interpret, even when they are extracted from visual data. We
+  propose a new approach to study image representations by inverting them with an
+  up-convolutional neural network. We apply the method to shallow representations
+  (HOG, SIFT, LBP), as well as to deep networks. For shallow representations our approach
+  provides significantly better reconstructions than existing methods, revealing that
+  there is surprisingly rich information contained in these features. Inverting a
+  deep network trained on ImageNet provides several insights into the properties of
+  the feature representation learned by the network. Most strikingly, the colors and
+  the rough contours of an image can be reconstructed from activations in higher network
+  layers and even from the predicted class probabilities.
+archiveprefix: arXiv
+author: Dosovitskiy, Alexey and Brox, Thomas
+author_list:
+- family: Dosovitskiy
+  given: Alexey
+- family: Brox
+  given: Thomas
+eprint: 1506.02753v4
+file: 1506.02753v4.pdf
+files:
+- dosovitskiy-alexey-and-brox-thomasinverting-visual-representations-with-convolutional-networks2015.pdf
+month: Jun
+primaryclass: cs.NE
+ref: 1506.02753v4
+time-added: 2020-06-23-22:27:45
+title: Inverting Visual Representations with Convolutional Networks
+type: article
+url: http://arxiv.org/abs/1506.02753v4
+year: '2015'

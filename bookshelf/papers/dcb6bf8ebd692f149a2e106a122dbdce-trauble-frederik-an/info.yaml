@@ -1,0 +1,46 @@
+abstract: Despite impressive progress in the last decade, it still remains an open
+  challenge to build models that generalize well across multiple tasks and datasets.
+  One path to achieve this is to learn meaningful and compact representations, in
+  which different semantic aspects of data are structurally disentangled. The focus
+  of disentanglement approaches has been on separating independent factors of variation
+  despite the fact that real-world observations are often not structured into meaningful
+  independent causal variables to begin with. In this work we bridge the gap to real-world
+  scenarios by analyzing the behavior of most prominent methods and disentanglement
+  scores on correlated data in a large scale empirical study (including 3900 models).
+  We show that systematically induced correlations in the dataset are being learned
+  and reflected in the latent representations, while widely used disentanglement scores
+  fall short of capturing these latent correlations. Finally, we demonstrate how to
+  disentangle these latent correlations using weak supervision, even if we constrain
+  this supervision to be causally plausible. Our results thus support the argument
+  to learn independent mechanisms rather than independent factors of variations.
+archiveprefix: arXiv
+author: Träuble, Frederik and Creager, Elliot and Kilbertus, Niki and Goyal, Anirudh
+  and Locatello, Francesco and Schölkopf, Bernhard and Bauer, Stefan
+author_list:
+- family: Träuble
+  given: Frederik
+- family: Creager
+  given: Elliot
+- family: Kilbertus
+  given: Niki
+- family: Goyal
+  given: Anirudh
+- family: Locatello
+  given: Francesco
+- family: Schölkopf
+  given: Bernhard
+- family: Bauer
+  given: Stefan
+eprint: 2006.07886v1
+file: 2006.07886v1.pdf
+files:
+- trauble-frederik-and-creager-elliot-and-kilbertus-niki-and-goyal-anirudh-and-locatello-francesco-and-scholkopf-bernhard-and-bauer-stefanis-inde.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.07886v1
+time-added: 2020-06-23-21:30:08
+title: Is Independence all you need? On the Generalization of Representations   Learned
+  from Correlated Data
+type: article
+url: http://arxiv.org/abs/2006.07886v1
+year: '2020'

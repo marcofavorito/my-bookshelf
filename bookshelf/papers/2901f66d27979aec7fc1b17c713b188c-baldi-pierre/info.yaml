@@ -1,0 +1,34 @@
+abstract: Autoencoders play a fundamental role in unsupervised learning and in deep
+  architectures for transfer learning and other tasks. In spite of their fundamental
+  role, only linear autoencoders over the real numbers have been solved analytically.
+  Here we present a general mathematical framework for the study of both linear and
+  non-linear autoencoders. The framework allows one to derive an analytical treatment
+  for the most non-linear autoencoder, the Boolean autoencoder. Learning in the Boolean
+  autoencoder is equivalent to a clustering problem that can be solved in polynomial
+  time when the number of clusters is small and becomes NP complete when the number
+  of clusters is large. The framework sheds light on the different kinds of autoencoders,
+  their learning complexity, their horizontal and vertical composability in deep architectures,
+  their critical points, and their fundamental connections to clustering, Hebbian
+  learning, and information theory.
+address: Bellevue, Washington, USA
+author: Baldi, Pierre
+author_list:
+- family: Baldi
+  given: Pierre
+booktitle: Proceedings of ICML Workshop on Unsupervised and Transfer Learning
+editor: Isabelle Guyon and Gideon Dror and Vincent Lemaire and Graham Taylor and Daniel
+  Silver
+files:
+- baldi-pierreautoencoders-unsupervised-learning-and-deep-architectures2012.pdf
+month: 02 Jul
+pages: 37--49
+pdf: http://proceedings.mlr.press/v27/baldi12a/baldi12a.pdf
+publisher: PMLR
+ref: pmlr-v27-baldi12a
+series: Proceedings of Machine Learning Research
+time-added: 2020-06-21-12:28:39
+title: Autoencoders, Unsupervised Learning, and Deep Architectures
+type: inproceedings
+url: http://proceedings.mlr.press/v27/baldi12a.html
+volume: '27'
+year: '2012'

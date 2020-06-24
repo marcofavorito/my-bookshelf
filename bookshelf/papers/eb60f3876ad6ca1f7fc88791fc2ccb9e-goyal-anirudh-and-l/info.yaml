@@ -1,0 +1,39 @@
+abstract: Learning modular structures which reflect the dynamics of the environment
+  can lead to better generalization and robustness to changes which only affect a
+  few of the underlying causes. We propose Recurrent Independent Mechanisms (RIMs),
+  a new recurrent architecture in which multiple groups of recurrent cells operate
+  with nearly independent transition dynamics, communicate only sparingly through
+  the bottleneck of attention, and are only updated at time steps where they are most
+  relevant. We show that this leads to specialization amongst the RIMs, which in turn
+  allows for dramatically improved generalization on tasks where some factors of variation
+  differ systematically between training and evaluation.
+archiveprefix: arXiv
+author: Goyal, Anirudh and Lamb, Alex and Hoffmann, Jordan and Sodhani, Shagun and
+  Levine, Sergey and Bengio, Yoshua and Schölkopf, Bernhard
+author_list:
+- family: Goyal
+  given: Anirudh
+- family: Lamb
+  given: Alex
+- family: Hoffmann
+  given: Jordan
+- family: Sodhani
+  given: Shagun
+- family: Levine
+  given: Sergey
+- family: Bengio
+  given: Yoshua
+- family: Schölkopf
+  given: Bernhard
+eprint: 1909.10893v2
+file: 1909.10893v2.pdf
+files:
+- goyal-anirudh-and-lamb-alex-and-hoffmann-jordan-and-sodhani-shagun-and-levine-sergey-and-bengio-yoshua-and-scholkopf-bernhardrecurrent-independ.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1909.10893v2
+time-added: 2020-06-23-21:33:40
+title: Recurrent Independent Mechanisms
+type: article
+url: http://arxiv.org/abs/1909.10893v2
+year: '2019'

@@ -1,0 +1,39 @@
+abstract: Several recent trends in machine learning theory and practice, from the
+  design of state-of-the-art Gaussian Process to the convergence analysis of deep
+  neural nets (DNNs) under stochastic gradient descent (SGD), have found it fruitful
+  to study wide random neural networks. Central to these approaches are certain scaling
+  limits of such networks. We unify these results by introducing a notion of a straightline
+  \emph{tensor program} that can express most neural network computations, and we
+  characterize its scaling limit when its tensors are large and randomized. From our
+  framework follows (1) the convergence of random neural networks to Gaussian processes
+  for architectures such as recurrent neural networks, convolutional neural networks,
+  residual networks, attention, and any combination thereof, with or without batch
+  normalization; (2) conditions under which the \emph{gradient independence assumption}
+  -- that weights in backpropagation can be assumed to be independent from weights
+  in the forward pass -- leads to correct computation of gradient dynamics, and corrections
+  when it does not; (3) the convergence of the Neural Tangent Kernel, a recently proposed
+  kernel used to predict training dynamics of neural networks under gradient descent,
+  at initialization for all architectures in (1) without batch normalization. Mathematically,
+  our framework is general enough to rederive classical random matrix results such
+  as the semicircle and the Marchenko-Pastur laws, as well as recent results in neural
+  network Jacobian singular values. We hope our work opens a way toward design of
+  even stronger Gaussian Processes, initialization schemes to avoid gradient explosion/vanishing,
+  and deeper understanding of SGD dynamics in modern architectures.
+archiveprefix: arXiv
+author: Yang, Greg
+author_list:
+- family: Yang
+  given: Greg
+eprint: 1902.04760v3
+file: 1902.04760v3.pdf
+files:
+- yang-gregscaling-limits-of-wide-neural-networks-with-weight-sharing-gaussian-process-behavior-gradient-independence-and-neural-tangent-kernel-de.pdf
+month: Feb
+primaryclass: cs.NE
+ref: 1902.04760v3
+time-added: 2020-06-21-12:53:34
+title: 'Scaling Limits of Wide Neural Networks with Weight Sharing: Gaussian   Process
+  Behavior, Gradient Independence, and Neural Tangent Kernel Derivation'
+type: article
+url: http://arxiv.org/abs/1902.04760v3
+year: '2019'

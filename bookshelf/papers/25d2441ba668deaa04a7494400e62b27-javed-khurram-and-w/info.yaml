@@ -1,0 +1,39 @@
+abstract: Predictive models -- learned from observational data not covering the complete
+  data distribution -- can rely on spurious correlations in the data for making predictions.
+  These correlations make the models brittle and hinder generalization. One solution
+  for achieving strong generalization is to incorporate causal structures in the models;
+  such structures constrain learning by ignoring correlations that contradict them.
+  However, learning these structures is a hard problem in itself. Moreover, it's not
+  clear how to incorporate the machinery of causality with online continual learning.
+  In this work, we take an indirect approach to discovering causal models. Instead
+  of searching for the true causal model directly, we propose an online algorithm
+  that continually detects and removes spurious features. Our algorithm works on the
+  idea that the correlation of a spurious feature with a target is not constant over-time.
+  As a result, the weight associated with that feature is constantly changing. We
+  show that by continually removing such features, our method converges to solutions
+  that have strong generalization. Moreover, our method combined with random search
+  can also discover non-spurious features from raw sensory data. Finally, our work
+  highlights that the information present in the temporal structure of the problem
+  -- destroyed by shuffling the data -- is essential for detecting spurious features
+  online.
+archiveprefix: arXiv
+author: Javed, Khurram and White, Martha and Bengio, Yoshua
+author_list:
+- family: Javed
+  given: Khurram
+- family: White
+  given: Martha
+- family: Bengio
+  given: Yoshua
+eprint: 2006.07461v1
+file: 2006.07461v1.pdf
+files:
+- javed-khurram-and-white-martha-and-bengio-yoshualearning-causal-models-online2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.07461v1
+time-added: 2020-06-22-11:50:47
+title: Learning Causal Models Online
+type: article
+url: http://arxiv.org/abs/2006.07461v1
+year: '2020'

@@ -1,0 +1,36 @@
+abstract: The recent "Lottery Ticket Hypothesis" paper by Frankle & Carbin showed
+  that a simple approach to creating sparse networks (keeping the large weights) results
+  in models that are trainable from scratch, but only when starting from the same
+  initial weights. The performance of these networks often exceeds the performance
+  of the non-sparse base model, but for reasons that were not well understood. In
+  this paper we study the three critical components of the Lottery Ticket (LT) algorithm,
+  showing that each may be varied significantly without impacting the overall results.
+  Ablating these factors leads to new insights for why LT networks perform as well
+  as they do. We show why setting weights to zero is important, how signs are all
+  you need to make the reinitialized network train, and why masking behaves like training.
+  Finally, we discover the existence of Supermasks, masks that can be applied to an
+  untrained, randomly initialized network to produce a model with performance far
+  better than chance (86% on MNIST, 41% on CIFAR-10).
+archiveprefix: arXiv
+author: Zhou, Hattie and Lan, Janice and Liu, Rosanne and Yosinski, Jason
+author_list:
+- family: Zhou
+  given: Hattie
+- family: Lan
+  given: Janice
+- family: Liu
+  given: Rosanne
+- family: Yosinski
+  given: Jason
+eprint: 1905.01067v4
+file: 1905.01067v4.pdf
+files:
+- zhou-hattie-and-lan-janice-and-liu-rosanne-and-yosinski-jasondeconstructing-lottery-tickets-zeros-signs-and-the-supermask2019.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.01067v4
+time-added: 2020-06-24-00:11:03
+title: 'Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask'
+type: article
+url: http://arxiv.org/abs/1905.01067v4
+year: '2019'

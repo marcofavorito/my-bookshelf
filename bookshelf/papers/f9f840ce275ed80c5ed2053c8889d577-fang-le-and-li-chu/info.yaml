@@ -1,0 +1,39 @@
+abstract: 'Deep latent variable models (LVM) such as variational auto-encoder (VAE)
+  have recently played an important role in text generation. One key factor is the
+  exploitation of smooth latent structures to guide the generation. However, the representation
+  power of VAEs is limited due to two reasons: (1) the Gaussian assumption is often
+  made on the variational posteriors; and meanwhile (2) a notorious "posterior collapse"
+  issue occurs. In this paper, we advocate sample-based representations of variational
+  distributions for natural language, leading to implicit latent features, which can
+  provide flexible representation power compared with Gaussian-based posteriors. We
+  further develop an LVM to directly match the aggregated posterior to the prior.
+  It can be viewed as a natural extension of VAEs with a regularization of maximizing
+  mutual information, mitigating the "posterior collapse" issue. We demonstrate the
+  effectiveness and versatility of our models in various text generation scenarios,
+  including language modeling, unaligned style transfer, and dialog response generation.
+  The source code to reproduce our experimental results is available on GitHub.'
+archiveprefix: arXiv
+author: Fang, Le and Li, Chunyuan and Gao, Jianfeng and Dong, Wen and Chen, Changyou
+author_list:
+- family: Fang
+  given: Le
+- family: Li
+  given: Chunyuan
+- family: Gao
+  given: Jianfeng
+- family: Dong
+  given: Wen
+- family: Chen
+  given: Changyou
+eprint: 1908.11527v3
+file: 1908.11527v3.pdf
+files:
+- fang-le-and-li-chunyuan-and-gao-jianfeng-and-dong-wen-and-chen-changyouimplicit-deep-latent-variable-models-for-text-generation2019.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1908.11527v3
+time-added: 2020-06-23-21:33:15
+title: Implicit Deep Latent Variable Models for Text Generation
+type: article
+url: http://arxiv.org/abs/1908.11527v3
+year: '2019'

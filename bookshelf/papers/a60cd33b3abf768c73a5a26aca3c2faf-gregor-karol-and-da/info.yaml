@@ -1,0 +1,33 @@
+abstract: This paper introduces the Deep Recurrent Attentive Writer (DRAW) neural
+  network architecture for image generation. DRAW networks combine a novel spatial
+  attention mechanism that mimics the foveation of the human eye, with a sequential
+  variational auto-encoding framework that allows for the iterative construction of
+  complex images. The system substantially improves on the state of the art for generative
+  models on MNIST, and, when trained on the Street View House Numbers dataset, it
+  generates images that cannot be distinguished from real data with the naked eye.
+archiveprefix: arXiv
+author: Gregor, Karol and Danihelka, Ivo and Graves, Alex and Rezende, Danilo Jimenez
+  and Wierstra, Daan
+author_list:
+- family: Gregor
+  given: Karol
+- family: Danihelka
+  given: Ivo
+- family: Graves
+  given: Alex
+- family: Rezende
+  given: Danilo Jimenez
+- family: Wierstra
+  given: Daan
+eprint: 1502.04623v2
+file: 1502.04623v2.pdf
+files:
+- gregor-karol-and-danihelka-ivo-and-graves-alex-and-rezende-danilo-jimenez-and-wierstra-daandraw-a-recurrent-neural-network-for-image-generation2.pdf
+month: Feb
+primaryclass: cs.CV
+ref: 1502.04623v2
+time-added: 2020-06-23-23:12:28
+title: 'DRAW: A Recurrent Neural Network For Image Generation'
+type: article
+url: http://arxiv.org/abs/1502.04623v2
+year: '2015'

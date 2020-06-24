@@ -1,0 +1,49 @@
+abstract: Memory-based neural networks model temporal data by leveraging an ability
+  to remember information for long periods. It is unclear, however, whether they also
+  have an ability to perform complex relational reasoning with the information they
+  remember. Here, we first confirm our intuitions that standard memory architectures
+  may struggle at tasks that heavily involve an understanding of the ways in which
+  entities are connected -- i.e., tasks involving relational reasoning. We then improve
+  upon these deficits by using a new memory module -- a \textit{Relational Memory
+  Core} (RMC) -- which employs multi-head dot product attention to allow memories
+  to interact. Finally, we test the RMC on a suite of tasks that may profit from more
+  capable relational reasoning across sequential information, and show large gains
+  in RL domains (e.g. Mini PacMan), program evaluation, and language modeling, achieving
+  state-of-the-art results on the WikiText-103, Project Gutenberg, and GigaWord datasets.
+archiveprefix: arXiv
+author: Santoro, Adam and Faulkner, Ryan and Raposo, David and Rae, Jack and Chrzanowski,
+  Mike and Weber, Theophane and Wierstra, Daan and Vinyals, Oriol and Pascanu, Razvan
+  and Lillicrap, Timothy
+author_list:
+- family: Santoro
+  given: Adam
+- family: Faulkner
+  given: Ryan
+- family: Raposo
+  given: David
+- family: Rae
+  given: Jack
+- family: Chrzanowski
+  given: Mike
+- family: Weber
+  given: Theophane
+- family: Wierstra
+  given: Daan
+- family: Vinyals
+  given: Oriol
+- family: Pascanu
+  given: Razvan
+- family: Lillicrap
+  given: Timothy
+eprint: 1806.01822v2
+file: 1806.01822v2.pdf
+files:
+- santoro-adam-and-faulkner-ryan-and-raposo-david-and-rae-jack-and-chrzanowski-mike-and-weber-theophane-and-wierstra-daan-and-vinyals-oriol-and.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1806.01822v2
+time-added: 2020-06-24-15:00:02
+title: Relational recurrent neural networks
+type: article
+url: http://arxiv.org/abs/1806.01822v2
+year: '2018'

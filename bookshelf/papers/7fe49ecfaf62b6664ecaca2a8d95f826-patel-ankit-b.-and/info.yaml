@@ -1,0 +1,35 @@
+abstract: We develop a probabilistic framework for deep learning based on the Deep
+  Rendering Mixture Model (DRMM), a new generative probabilistic model that explicitly
+  capture variations in data due to latent task nuisance variables. We demonstrate
+  that max-sum inference in the DRMM yields an algorithm that exactly reproduces the
+  operations in deep convolutional neural networks (DCNs), providing a first principles
+  derivation. Our framework provides new insights into the successes and shortcomings
+  of DCNs as well as a principled route to their improvement. DRMM training via the
+  Expectation-Maximization (EM) algorithm is a powerful alternative to DCN back-propagation,
+  and initial training results are promising. Classification based on the DRMM and
+  other variants outperforms DCNs in supervised digit classification, training 2-3x
+  faster while achieving similar accuracy. Moreover, the DRMM is applicable to semi-supervised
+  and unsupervised learning tasks, achieving results that are state-of-the-art in
+  several categories on the MNIST benchmark and comparable to state of the art on
+  the CIFAR10 benchmark.
+archiveprefix: arXiv
+author: Patel, Ankit B. and Nguyen, Tan and Baraniuk, Richard G.
+author_list:
+- family: Patel
+  given: Ankit B.
+- family: Nguyen
+  given: Tan
+- family: Baraniuk
+  given: Richard G.
+eprint: 1612.01936v1
+file: 1612.01936v1.pdf
+files:
+- patel-ankit-b.-and-nguyen-tan-and-baraniuk-richard-g.a-probabilistic-framework-for-deep-learning2016.pdf
+month: Dec
+primaryclass: stat.ML
+ref: 1612.01936v1
+time-added: 2020-06-24-16:21:58
+title: A Probabilistic Framework for Deep Learning
+type: article
+url: http://arxiv.org/abs/1612.01936v1
+year: '2016'

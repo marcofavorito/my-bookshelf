@@ -1,0 +1,31 @@
+abstract: Not all neural network architectures are created equal, some perform much
+  better than others for certain tasks. But how important are the weight parameters
+  of a neural network compared to its architecture? In this work, we question to what
+  extent neural network architectures alone, without learning any weight parameters,
+  can encode solutions for a given task. We propose a search method for neural network
+  architectures that can already perform a task without any explicit weight training.
+  To evaluate these networks, we populate the connections with a single shared weight
+  parameter sampled from a uniform random distribution, and measure the expected performance.
+  We demonstrate that our method can find minimal neural network architectures that
+  can perform several reinforcement learning tasks without weight training. On a supervised
+  learning domain, we find network architectures that achieve much higher than chance
+  accuracy on MNIST using random weights. Interactive version of this paper at https://weightagnostic.github.io/
+archiveprefix: arXiv
+author: Gaier, Adam and Ha, David
+author_list:
+- family: Gaier
+  given: Adam
+- family: Ha
+  given: David
+eprint: 1906.04358v2
+file: 1906.04358v2.pdf
+files:
+- gaier-adam-and-ha-davidweight-agnostic-neural-networks2019.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1906.04358v2
+time-added: 2020-06-24-00:10:46
+title: Weight Agnostic Neural Networks
+type: article
+url: http://arxiv.org/abs/1906.04358v2
+year: '2019'
