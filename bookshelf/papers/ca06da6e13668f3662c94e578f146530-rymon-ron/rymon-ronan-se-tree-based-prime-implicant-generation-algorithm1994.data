@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="journal_id" content="10472"/>
+
+    <meta name="dc.title" content="An SE-tree-based prime implicant generation algorithm"/>
+
+    <meta name="dc.source" content="Annals of Mathematics and Artificial Intelligence 1994 11:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1994 J.C. Baltzer AG, Science Publishers"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Prime implicants/implicates (PIs) have been shown to be a useful tool in several problem domains. In model-based diagnosis (MBD), de Kleer et al. (Proc. AAAI-90) have used PIs to characterize diagnoses. We present a PI generation algorithm which, although based on thegeneral SE-tree-based search framework, is effectively an improvement of aparticular PI generation algorithm proposed by Slagle et al. (IEEE Trans. Comput. 19(4) (1970)). The improvement is achieved via adecomposition tactic which is boosted by the SE-tree-based framework. The new algorithm is also more flexible in a number of ways. We present empirical results comparing the new algorithm to the old one, as well as to current PI generation algorithms."/>
+
+    <meta name="prism.issn" content="1573-7470"/>
+
+    <meta name="prism.publicationName" content="Annals of Mathematics and Artificial Intelligence"/>
+
+    <meta name="prism.volume" content="11"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="351"/>
+
+    <meta name="prism.endingPage" content="365"/>
+
+    <meta name="prism.copyright" content="1994 J.C. Baltzer AG, Science Publishers"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF01530750"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF01530750"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF01530750.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF01530750"/>
+
+    <meta name="citation_journal_title" content="Annals of Mathematics and Artificial Intelligence"/>
+
+    <meta name="citation_journal_abbrev" content="Ann Math Artif Intell"/>
+
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+
+    <meta name="citation_issn" content="1573-7470"/>
+
+    <meta name="citation_title" content="An SE-tree-based prime implicant generation algorithm"/>
+
+    <meta name="citation_volume" content="11"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="1994/03"/>
+
+    <meta name="citation_firstpage" content="351"/>
+
+    <meta name="citation_lastpage" content="365"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF01530750"/>
+
+    <meta name="DOI" content="10.1007/BF01530750"/>
+
+    <meta name="citation_doi" content="10.1007/BF01530750"/>
+
+    <meta name="description" content="Prime implicants/implicates (PIs) have been shown to be a useful tool in several problem domains. In model-based diagnosis (MBD), de Kleer et al. (Proc. AA"/>
+
+    <meta name="dc.creator" content="Ron Rymon"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Mathematics, general"/>
+
+    <meta name="dc.subject" content="Computer Science, general"/>
+
+    <meta name="dc.subject" content="Complex Systems"/>
+
+    <meta name="citation_reference" content="C. Berge,Graphs and Hypergraphs (North-Holland, 1973) chap. 18."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=A comparative study of several proof procedures; citation_author=W. Bibel; citation_volume=18; citation_publication_date=1982; citation_pages=269-293; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="J. de Kleer and B.C. Williams, Diagnosis with behavioral modes,Proc. IJCAI-89, Detroit, MI, 1989, pp. 1324&#8211;1330."/>
+
+    <meta name="citation_reference" content="J. de Kleer, Exploiting locality in a TMS,Proc. AAAI-90, Boston, MA, 1990, pp. 254&#8211;271."/>
+
+    <meta name="citation_reference" content="J. de Kleer, A.K. Mackworth and R. Reiter, Characterizing diagnoses.Proc. AAAI-90, Boston, MA, 1990, pp. 324&#8211;330."/>
+
+    <meta name="citation_reference" content="J. de Kleer, Focusing on probable diagnoses.Proc. AAAI-91, Anaheim, CA, 1991, pp. 842&#8211;848."/>
+
+    <meta name="citation_reference" content="J. de Kleer, An improved incremental algorithm for generating prime implicates,Proc. AAAI-92, San Jose, CA, 1992, pp. 780&#8211;785."/>
+
+    <meta name="citation_reference" content="K.D. Forbus and J. de Kleer, Focusing the ATMS,Proc. AAAI-88, Saint Paul, MN, 1988, pp. 193&#8211;198."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=A circumscriptive theorem prover; citation_author=M. Ginsberg; citation_volume=39; citation_publication_date=1989; citation_pages=209-230; citation_id=CR9"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=A correction to the algorithm in Reiter&#39;s theory of diagnosis; citation_author=R. Greiner, B.A. Smith, R.W. Wilkerson; citation_volume=41; citation_publication_date=1989; citation_pages=79-88; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="L.J. Holzblatt, Diagnosing multiple failures using knowledge of component states,Proc. IEEE AI Applications, 1988, pp. 139&#8211;143."/>
+
+    <meta name="citation_reference" content="P. Jackson and J. Pais, Computing prime implicants,Proc. Conference on Automated Deduction, 1990, pp. 543&#8211;557."/>
+
+    <meta name="citation_reference" content="citation_journal_title=AIEE Trans. Commun. Electron.; citation_title=The map method for synthesis of combinational logic circuits; citation_author=G. Karnaugh; citation_volume=72; citation_publication_date=1953; citation_pages=593-599; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J. Symbolic Comput.; citation_title=An incremental method for generating prime implicants/implicates; citation_author=A. Kean, G. Tsiknis; citation_volume=9; citation_publication_date=1990; citation_pages=185-206; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="R.E. Korf, Linear-space best-first search: Summary of results, in:Proc. AAAI-92, San Jose, CA, 1992."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Bell Syst. Tech. J.; citation_title=Minimization of Boolean functions; citation_author=E. McCluskey; citation_volume=35; citation_publication_date=1956; citation_pages=1417-1444; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="T. Ngair, Convex spaces as an order-theoretic basis for problem solving, Ph.D. Thesis, Department of Computer and Information Science, University of Pennsylvania (1992)."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Am. Math. Monthly; citation_title=The problem of simplifying truth functions; citation_author=J.O.W. Quine; citation_volume=59; citation_publication_date=1952; citation_pages=521-531; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="O. Raiman and J. de Kleer, A minimality maintenance system, to appear inProc. KR-92, Cambridge MA, 1992."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=A theory of diagnosis from first principles; citation_author=R. Reiter; citation_volume=32; citation_publication_date=1987; citation_pages=57-95; citation_id=CR20"/>
+
+    <meta name="citation_reference" content="S. Russell, Efficient memory-bounded search algorithms, in:Proc. ECAI-92, Vienna, Austria, 1992."/>
+
+    <meta name="citation_reference" content="R. Rymon, Search through systematic set enumeration, to appear inProc. KR-92, Cambridge, MA, 1992."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Bell Syst. Tech. J.; citation_title=A mathematical theory of communication; citation_author=C.E. Shannon; citation_volume=27; citation_publication_date=1948; citation_pages=379-623; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="J.R. Slagle, C. Chang and R.C. Lee, A new algorithm for generating prime implicants, IEEE Trans. Comput. 19(4) (1970)."/>
+
+    <meta name="citation_reference" content="P. Struss and O. Dressler, Physical negation &#8212; Integrating fault models into the general diagnostic engine,Proc. IJCAI-89, Detroit, MI, 1989, pp. 1318&#8211;1323."/>
+
+    <meta name="citation_reference" content="R. Tarjan, Data structures and network algorithms,Society for Industrial and Applied Mathematics, Philadelphia, PA (1983)."/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Trans. Comput.; citation_title=Generalized consensus theory and application to the minimization of Boolean functions; citation_author=P. Tison; citation_volume=16; citation_issue=4; citation_publication_date=1967; citation_pages=446-456; citation_id=CR27"/>
+
+    <meta name="citation_reference" content="T.D. Wu, A problem decomposition method for efficient diagnosis and interpretation of multiple disorders;Proc. SCAMC-90, Washington, DC, 1990, pp. 86&#8211;92."/>
+
+    <meta name="citation_author" content="Ron Rymon"/>
+
+    <meta name="citation_author_institution" content="Department of Computer and Information Science, University of Pennsylvania, Philadelphia, USA"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:title" content="An SE-tree-based prime implicant generation algorithm"/>
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:description" content="Prime implicants/implicates (PIs) have been shown to be a useful tool in several problem domains. In model-based diagnosis (MBD), de Kleer et al. (Proc. AAAI-90) have used PIs to characterize diagnoses. We present a PI generation algorithm which, although based on thegeneral SE-tree-based search framework, is effectively an improvement of aparticular PI generation algorithm proposed by Slagle et al. (IEEE Trans. Comput. 19(4) (1970)). The improvement is achieved via adecomposition tactic which is boosted by the SE-tree-based framework. The new algorithm is also more flexible in a number of ways. We present empirical results comparing the new algorithm to the old one, as well as to current PI generation algorithms."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/10472/11/1.jpg"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF01530750&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1994/03/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF01530750"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Annals of Mathematics and Artificial Intelligence"/>
+        <meta property="og:title" content="An SE-tree-based prime implicant generation algorithm"/>
+        <meta property="og:description" content="Prime implicants/implicates (PIs) have been shown to be a useful tool in several problem domains. In model-based diagnosis (MBD), de Kleer et al. (Proc. AAAI-90) have used PIs to characterize diagnoses. We present a PI generation algorithm which, although based on thegeneral SE-tree-based search framework, is effectively an improvement of aparticular PI generation algorithm proposed by Slagle et al. (IEEE Trans. Comput. 19(4) (1970)). The improvement is achieved via adecomposition tactic which is boosted by the SE-tree-based framework. The new algorithm is also more flexible in a number of ways. We present empirical results comparing the new algorithm to the old one, as well as to current PI generation algorithms."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10472.jpg"/>
+    
+
+    <title>An SE-tree-based prime implicant generation algorithm | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-b0cd12fb00.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-b837c2eb68.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF01530750","Journal Title":"Annals of Mathematics and Artificial Intelligence","Journal Id":10472,"Keywords":"Neural Network, Artificial Intelligence, Complex System, Nonlinear Dynamics, Empirical Result","kwrd":["Neural_Network","Artificial_Intelligence","Complex_System","Nonlinear_Dynamics","Empirical_Result"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-BF01530750","Full HTML":"N","Subject Codes":["SCI","SCI21000","SCM00009","SCI00001","SCP33000"],"pmc":["I","I21000","M00009","I00001","P33000"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-7470","pissn":"1012-2443"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Artificial Intelligence","2":"Mathematics, general","3":"Computer Science, general","4":"Complex Systems"},"secondarySubjectCodes":{"1":"I21000","2":"M00009","3":"I00001","4":"P33000"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF01530750","Page":"article","page":{"attributes":{"environment":"live"}}}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    (function(w, d) {
+        window.config = window.config || {};
+        window.config.mustardcut = false;
+
+        var ctmLinkEl = d.getElementById('js-mustard');
+
+        if (ctmLinkEl && w.matchMedia && w.matchMedia(ctmLinkEl.media).matches) {
+            window.config.mustardcut = true;
+
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return !(scriptEl.hasOwnProperty('noModule')) && scriptEl.hasOwnProperty('onbeforeload');
+            }
+
+            var headScripts = [
+                { 'src' : '/oscar-static/js/polyfill-es5-bundle-ab77bcf8ba.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es5-bundle-41e6f66457.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/airbrake-es6-bundle-74435535df.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                { 'src' : '/oscar-static/js/app-es5-bundle-e1fd73bc93.js', 'async': false, 'module': false},
+                { 'src' : '/oscar-static/js/app-es6-bundle-b050fb65e4.js', 'async': false, 'module': true}
+                
+                
+                    , { 'src' : '/oscar-static/js/global-article-es5-bundle-5ec0812ffe.js', 'async': false, 'module': false},
+                    { 'src' : '/oscar-static/js/global-article-es6-bundle-90f98fe846.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i=0; i<headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i=0; i<bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        }
+    })(window, document);
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+    <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10472/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=BF01530750;"></div>
+        </div>
+    </aside>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="true"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="22" height="22" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF01530750">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+            
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="1994-03" itemprop="datePublished">March 1994</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">An SE-tree-based prime implicant generation algorithm</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-1">Ron Rymon</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Pennsylvania" /><meta itemprop="address" content="grid.25879.31, 0000000419368972, Department of Computer and Information Science, University of Pennsylvania, 19104, Philadelphia, PA, USA" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/10472"><i data-test="journal-title">Annals of Mathematics and Artificial Intelligence</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 11</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">351</span>–<span itemprop="pageEnd">365</span>(<span data-test="article-publication-year">1994</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-reset">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">94 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">15 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF01530750/metrics" data-track="click" data-track-action="view metrics" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Prime implicants/implicates (PIs) have been shown to be a useful tool in several problem domains. In model-based diagnosis (MBD), de Kleer et al. (Proc. AAAI-90) have used PIs to characterize diagnoses. We present a PI generation algorithm which, although based on the<i>general</i> SE-tree-based search framework, is effectively an improvement of a<i>particular</i> PI generation algorithm proposed by Slagle et al. (IEEE Trans. Comput. 19(4) (1970)). The improvement is achieved via a<i>decomposition</i> tactic which is boosted by the SE-tree-based framework. The new algorithm is also more flexible in a number of ways. We present empirical results comparing the new algorithm to the old one, as well as to current PI generation algorithms.</p></div></div></section>
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/signup-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF01530750" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/BF01530750">
+     <input type="hidden" name="isxn" value="1573-7470">
+     <input type="hidden" name="contenttitle" value="An SE-tree-based prime implicant generation algorithm">
+     <input type="hidden" name="copyrightyear" value="1994">
+     <input type="hidden" name="year" value="">
+     <input type="hidden" name="authors" value="Ron Rymon">
+     <input type="hidden" name="title" value="Annals of Mathematics and Artificial Intelligence">
+     <input type="hidden" name="mac" value="90281998F9FF8F251DB4E6CA054C3602">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Annals of Mathematics and Artificial Intelligence">
+     <input type="hidden" name="journalnumber" value="10472">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/BF01530750&journal=1573-7470&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="C. Berge,Graphs and Hypergraphs (North-Holland, 1973) chap. 18." /><span class="c-article-references__counter">[1]</span><p class="c-article-references__text" id="ref-CR1">C. Berge,<i>Graphs and Hypergraphs</i> (North-Holland, 1973) chap. 18.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="W.. Bibel, " /><meta itemprop="datePublished" content="1982" /><meta itemprop="headline" content="W. Bibel, A comparative study of several proof procedures, Artificial Intelligence 18 (1982) 269–293." /><span class="c-article-references__counter">[2]</span><p class="c-article-references__text" id="ref-CR2">W. Bibel, A comparative study of several proof procedures, Artificial Intelligence 18 (1982) 269–293.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20comparative%20study%20of%20several%20proof%20procedures&amp;journal=Artificial%20Intelligence&amp;volume=18&amp;pages=269-293&amp;publication_year=1982&amp;author=Bibel%2CW.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J. de Kleer and B.C. Williams, Diagnosis with behavioral modes,Proc. IJCAI-89, Detroit, MI, 1989, pp. 1324–133" /><span class="c-article-references__counter">[3]</span><p class="c-article-references__text" id="ref-CR3">J. de Kleer and B.C. Williams, Diagnosis with behavioral modes,<i>Proc. IJCAI-89</i>, Detroit, MI, 1989, pp. 1324–1330.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J. de Kleer, Exploiting locality in a TMS,Proc. AAAI-90, Boston, MA, 1990, pp. 254–271." /><span class="c-article-references__counter">[4]</span><p class="c-article-references__text" id="ref-CR4">J. de Kleer, Exploiting locality in a TMS,<i>Proc. AAAI-90</i>, Boston, MA, 1990, pp. 254–271.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J. de Kleer, A.K. Mackworth and R. Reiter, Characterizing diagnoses.Proc. AAAI-90, Boston, MA, 1990, pp. 324–3" /><span class="c-article-references__counter">[5]</span><p class="c-article-references__text" id="ref-CR5">J. de Kleer, A.K. Mackworth and R. Reiter, Characterizing diagnoses.<i>Proc. AAAI-90</i>, Boston, MA, 1990, pp. 324–330.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J. de Kleer, Focusing on probable diagnoses.Proc. AAAI-91, Anaheim, CA, 1991, pp. 842–848." /><span class="c-article-references__counter">[6]</span><p class="c-article-references__text" id="ref-CR6">J. de Kleer, Focusing on probable diagnoses.<i>Proc. AAAI-91</i>, Anaheim, CA, 1991, pp. 842–848.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J. de Kleer, An improved incremental algorithm for generating prime implicates,Proc. AAAI-92, San Jose, CA, 19" /><span class="c-article-references__counter">[7]</span><p class="c-article-references__text" id="ref-CR7">J. de Kleer, An improved incremental algorithm for generating prime implicates,<i>Proc. AAAI-92</i>, San Jose, CA, 1992, pp. 780–785.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="K.D. Forbus and J. de Kleer, Focusing the ATMS,Proc. AAAI-88, Saint Paul, MN, 1988, pp. 193–198." /><span class="c-article-references__counter">[8]</span><p class="c-article-references__text" id="ref-CR8">K.D. Forbus and J. de Kleer, Focusing the ATMS,<i>Proc. AAAI-88</i>, Saint Paul, MN, 1988, pp. 193–198.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M.. Ginsberg, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="M. Ginsberg, A circumscriptive theorem prover, Artificial Intelligence 39 (1989) 209–230." /><span class="c-article-references__counter">[9]</span><p class="c-article-references__text" id="ref-CR9">M. Ginsberg, A circumscriptive theorem prover, Artificial Intelligence 39 (1989) 209–230.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20circumscriptive%20theorem%20prover&amp;journal=Artificial%20Intelligence&amp;volume=39&amp;pages=209-230&amp;publication_year=1989&amp;author=Ginsberg%2CM.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Greiner, B.A.. Smith, R.W.. Wilkerson, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="R. Greiner, B.A. Smith and R.W. Wilkerson, A correction to the algorithm in Reiter's theory of diagnosis, Arti" /><span class="c-article-references__counter">[10]</span><p class="c-article-references__text" id="ref-CR10">R. Greiner, B.A. Smith and R.W. Wilkerson, A correction to the algorithm in Reiter's theory of diagnosis, Artificial Intelligence 41 (1989) 79–88.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20correction%20to%20the%20algorithm%20in%20Reiter%27s%20theory%20of%20diagnosis&amp;journal=Artificial%20Intelligence&amp;volume=41&amp;pages=79-88&amp;publication_year=1989&amp;author=Greiner%2CR.&amp;author=Smith%2CB.A.&amp;author=Wilkerson%2CR.W.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="L.J. Holzblatt, Diagnosing multiple failures using knowledge of component states,Proc. IEEE AI Applications, 1" /><span class="c-article-references__counter">[11]</span><p class="c-article-references__text" id="ref-CR11">L.J. Holzblatt, Diagnosing multiple failures using knowledge of component states,<i>Proc. IEEE AI Applications</i>, 1988, pp. 139–143.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="P. Jackson and J. Pais, Computing prime implicants,Proc. Conference on Automated Deduction, 1990, pp. 543–557." /><span class="c-article-references__counter">[12]</span><p class="c-article-references__text" id="ref-CR12">P. Jackson and J. Pais, Computing prime implicants,<i>Proc. Conference on Automated Deduction</i>, 1990, pp. 543–557.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.. Karnaugh, " /><meta itemprop="datePublished" content="1953" /><meta itemprop="headline" content="G. Karnaugh, The map method for synthesis of combinational logic circuits, AIEE Trans. Commun. Electron. 72 (1" /><span class="c-article-references__counter">[13]</span><p class="c-article-references__text" id="ref-CR13">G. Karnaugh, The map method for synthesis of combinational logic circuits, AIEE Trans. Commun. Electron. 72 (1953) 593–599.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20map%20method%20for%20synthesis%20of%20combinational%20logic%20circuits&amp;journal=AIEE%20Trans.%20Commun.%20Electron.&amp;volume=72&amp;pages=593-599&amp;publication_year=1953&amp;author=Karnaugh%2CG.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A.. Kean, G.. Tsiknis, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="A. Kean and G. Tsiknis, An incremental method for generating prime implicants/implicates, J. Symbolic Comput. " /><span class="c-article-references__counter">[14]</span><p class="c-article-references__text" id="ref-CR14">A. Kean and G. Tsiknis, An incremental method for generating prime implicants/implicates, J. Symbolic Comput. 9 (1990) 185–206.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20incremental%20method%20for%20generating%20prime%20implicants%2Fimplicates&amp;journal=J.%20Symbolic%20Comput.&amp;volume=9&amp;pages=185-206&amp;publication_year=1990&amp;author=Kean%2CA.&amp;author=Tsiknis%2CG.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="R.E. Korf, Linear-space best-first search: Summary of results, in:Proc. AAAI-92, San Jose, CA, 1992." /><span class="c-article-references__counter">[15]</span><p class="c-article-references__text" id="ref-CR15">R.E. Korf, Linear-space best-first search: Summary of results, in:<i>Proc. AAAI-92</i>, San Jose, CA, 1992.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="E.. McCluskey, " /><meta itemprop="datePublished" content="1956" /><meta itemprop="headline" content="E. McCluskey, Minimization of Boolean functions, Bell Syst. Tech. J. 35 (1956) 1417–1444." /><span class="c-article-references__counter">[16]</span><p class="c-article-references__text" id="ref-CR16">E. McCluskey, Minimization of Boolean functions, Bell Syst. Tech. J. 35 (1956) 1417–1444.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Minimization%20of%20Boolean%20functions&amp;journal=Bell%20Syst.%20Tech.%20J.&amp;volume=35&amp;pages=1417-1444&amp;publication_year=1956&amp;author=McCluskey%2CE.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="T. Ngair, Convex spaces as an order-theoretic basis for problem solving, Ph.D. Thesis, Department of Computer " /><span class="c-article-references__counter">[17]</span><p class="c-article-references__text" id="ref-CR17">T. Ngair, Convex spaces as an order-theoretic basis for problem solving, Ph.D. Thesis, Department of Computer and Information Science, University of Pennsylvania (1992).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.O.W.. Quine, " /><meta itemprop="datePublished" content="1952" /><meta itemprop="headline" content="J.O.W. Quine, The problem of simplifying truth functions, Am. Math. Monthly 59 (1952) 521–531." /><span class="c-article-references__counter">[18]</span><p class="c-article-references__text" id="ref-CR18">J.O.W. Quine, The problem of simplifying truth functions, Am. Math. Monthly 59 (1952) 521–531.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20problem%20of%20simplifying%20truth%20functions&amp;journal=Am.%20Math.%20Monthly&amp;volume=59&amp;pages=521-531&amp;publication_year=1952&amp;author=Quine%2CJ.O.W.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="O. Raiman and J. de Kleer, A minimality maintenance system, to appear inProc. KR-92, Cambridge MA, 1992." /><span class="c-article-references__counter">[19]</span><p class="c-article-references__text" id="ref-CR19">O. Raiman and J. de Kleer, A minimality maintenance system, to appear in<i>Proc. KR-92</i>, Cambridge MA, 1992.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R.. Reiter, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="R. Reiter, A theory of diagnosis from first principles, Artificial Intelligence 32 (1987) 57–95." /><span class="c-article-references__counter">[20]</span><p class="c-article-references__text" id="ref-CR20">R. Reiter, A theory of diagnosis from first principles, Artificial Intelligence 32 (1987) 57–95.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20theory%20of%20diagnosis%20from%20first%20principles&amp;journal=Artificial%20Intelligence&amp;volume=32&amp;pages=57-95&amp;publication_year=1987&amp;author=Reiter%2CR.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="S. Russell, Efficient memory-bounded search algorithms, in:Proc. ECAI-92, Vienna, Austria, 1992." /><span class="c-article-references__counter">[21]</span><p class="c-article-references__text" id="ref-CR21">S. Russell, Efficient memory-bounded search algorithms, in:<i>Proc. ECAI-92</i>, Vienna, Austria, 1992.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="R. Rymon, Search through systematic set enumeration, to appear inProc. KR-92, Cambridge, MA, 1992." /><span class="c-article-references__counter">[22]</span><p class="c-article-references__text" id="ref-CR22">R. Rymon, Search through systematic set enumeration, to appear in<i>Proc. KR-92</i>, Cambridge, MA, 1992.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C.E.. Shannon, " /><meta itemprop="datePublished" content="1948" /><meta itemprop="headline" content="C.E. Shannon, A mathematical theory of communication, Bell Syst. Tech. J. 27 (1948) 379–623." /><span class="c-article-references__counter">[23]</span><p class="c-article-references__text" id="ref-CR23">C.E. Shannon, A mathematical theory of communication, Bell Syst. Tech. J. 27 (1948) 379–623.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20mathematical%20theory%20of%20communication&amp;journal=Bell%20Syst.%20Tech.%20J.&amp;volume=27&amp;pages=379-623&amp;publication_year=1948&amp;author=Shannon%2CC.E.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="J.R. Slagle, C. Chang and R.C. Lee, A new algorithm for generating prime implicants, IEEE Trans. Comput. 19(4)" /><span class="c-article-references__counter">[24]</span><p class="c-article-references__text" id="ref-CR24">J.R. Slagle, C. Chang and R.C. Lee, A new algorithm for generating prime implicants, IEEE Trans. Comput. 19(4) (1970).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="P. Struss and O. Dressler, Physical negation — Integrating fault models into the general diagnostic engine,Pro" /><span class="c-article-references__counter">[25]</span><p class="c-article-references__text" id="ref-CR25">P. Struss and O. Dressler, Physical negation — Integrating fault models into the general diagnostic engine,<i>Proc. IJCAI-89</i>, Detroit, MI, 1989, pp. 1318–1323.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="R. Tarjan, Data structures and network algorithms,Society for Industrial and Applied Mathematics, Philadelphia" /><span class="c-article-references__counter">[26]</span><p class="c-article-references__text" id="ref-CR26">R. Tarjan, Data structures and network algorithms,<i>Society for Industrial and Applied Mathematics</i>, Philadelphia, PA (1983).</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="P.. Tison, " /><meta itemprop="datePublished" content="1967" /><meta itemprop="headline" content="P. Tison, Generalized consensus theory and application to the minimization of Boolean functions, IEEE Trans. C" /><span class="c-article-references__counter">[27]</span><p class="c-article-references__text" id="ref-CR27">P. Tison, Generalized consensus theory and application to the minimization of Boolean functions, IEEE Trans. Comput. 16(4) (1967) 446–456.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Generalized%20consensus%20theory%20and%20application%20to%20the%20minimization%20of%20Boolean%20functions&amp;journal=IEEE%20Trans.%20Comput.&amp;volume=16&amp;issue=4&amp;pages=446-456&amp;publication_year=1967&amp;author=Tison%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="T.D. Wu, A problem decomposition method for efficient diagnosis and interpretation of multiple disorders;Proc." /><span class="c-article-references__counter">[28]</span><p class="c-article-references__text" id="ref-CR28">T.D. Wu, A problem decomposition method for efficient diagnosis and interpretation of multiple disorders;<i>Proc. SCAMC-90</i>, Washington, DC, 1990, pp. 86–92.</p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="/article/10.1007/BF01530750-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><p class="c-article-author-affiliation__address">Department of Computer and Information Science, University of Pennsylvania, 19104, Philadelphia, PA, USA</p><p class="c-article-author-affiliation__authors-list">Ron Rymon</p></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-1"><span class="c-article-authors-search__title u-h3 js-search-name">Ron Rymon</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Ron+Rymon&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Ron+Rymon" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Ron+Rymon%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li></ol></div></div></div></section><section aria-labelledby="additional-information"><div class="c-article-section" id="additional-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="additional-information">Additional information</h2><div class="c-article-section__content" id="additional-information-content"><p>This research was supported in part by a graduate fellowship ARO Grant DAAL03-89-C0031PRI.</p></div></div></section><section aria-labelledby="rightslink"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=An%20SE-tree-based%20prime%20implicant%20generation%20algorithm&amp;author=Ron%20Rymon&amp;contentID=10.1007%2FBF01530750&amp;publication=1012-2443&amp;publicationDate=1994-03&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Rymon, R. An SE-tree-based prime implicant generation algorithm.
+                    <i>Ann Math Artif Intell</i> <b>11, </b>351–365 (1994). https://doi.org/10.1007/BF01530750</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" href="/article/10.1007/BF01530750.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="1994-03">March 1994</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF01530750" data-track="click" data-track-action="view doi" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF01530750</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Neural Network</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Artificial Intelligence</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Complex System</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Nonlinear Dynamics</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Empirical Result</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/BF01530750">
+     <input type="hidden" name="isxn" value="1573-7470">
+     <input type="hidden" name="contenttitle" value="An SE-tree-based prime implicant generation algorithm">
+     <input type="hidden" name="copyrightyear" value="1994">
+     <input type="hidden" name="year" value="">
+     <input type="hidden" name="authors" value="Ron Rymon">
+     <input type="hidden" name="title" value="Annals of Mathematics and Artificial Intelligence">
+     <input type="hidden" name="mac" value="90281998F9FF8F251DB4E6CA054C3602">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Annals of Mathematics and Artificial Intelligence">
+     <input type="hidden" name="journalnumber" value="10472">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/BF01530750&journal=1573-7470&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <aside class="c-ad c-ad--300x250">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10472/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=BF01530750;"></div>
+        </div>
+    </aside>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 95.246.216.245</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

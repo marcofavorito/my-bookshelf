@@ -1,0 +1,47 @@
+abstract: Byzantine Fault Tolerant (BFT) systems have seen extensive study for more
+  than two decades, yet we lack a principled strategy for testing BFT implementations.
+  This paper presents Twins, a new approach for testing BFT systems. The main idea
+  of Twins is that we can emulate Byzantine behavior by running two (or generally
+  up to $k$) instances of a node with the same identity. Each of the two instances
+  (or Twins) runs unmodified, correct code.   The Twins approach requires only a thin
+  network wrapper that delivers messages to/from both Twins. To the rest of the system,
+  the Twins appear indistinguishable from a single node behaving in a `questionable'
+  manner.   Twins generates `interesting' Byzantine behaviors, including equivocation,
+  double voting, and losing internal state, while forgoing `uninteresting' behaviors
+  that are trivially rejected by honest nodes, such as producing semantically invalid
+  messages. Building on this idea, Twins can systematically generate Byzantine attack
+  scenarios at scale, execute them in a controlled manner, and check for desired protocol
+  properties.   The paper demonstrates that Twins successfully reinstates several
+  famous attacks on BFT protocols. In all cases, protocols break within fewer than
+  a dozen protocol steps, hence it is realistic for the Twins approach to expose the
+  problems. In two of these attacks, it took the community more than a decade to discover
+  protocol flaws that Twins would have surfaced within minutes. Additionally, Twins
+  testing was successfully incorporated into a production setting in which Twins executed
+  3M Twins-generated scenarios, and exposed (self-injected) subtle safety bugs within
+  minutes of testing.
+archiveprefix: arXiv
+author: Bano, Shehar and Sonnino, Alberto and Chursin, Andrey and Perelman, Dmitri
+  and Malkhi, Dahlia
+author_list:
+- family: Bano
+  given: Shehar
+- family: Sonnino
+  given: Alberto
+- family: Chursin
+  given: Andrey
+- family: Perelman
+  given: Dmitri
+- family: Malkhi
+  given: Dahlia
+eprint: 2004.10617v1
+file: 2004.10617v1.pdf
+files:
+- bano-shehar-and-sonnino-alberto-and-chursin-andrey-and-perelman-dmitri-and-malkhi-dahliatwins-white-glove-approach-for-bft-testing2020.pdf
+month: Apr
+primaryclass: cs.CR
+ref: 2004.10617v1
+time-added: 2020-07-06-15:54:40
+title: 'Twins: White-Glove Approach for BFT Testing'
+type: article
+url: http://arxiv.org/abs/2004.10617v1
+year: '2020'

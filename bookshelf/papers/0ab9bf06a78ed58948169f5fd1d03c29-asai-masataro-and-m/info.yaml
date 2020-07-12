@@ -1,0 +1,34 @@
+abstract: We achieved a new milestone in the difficult task of enabling agents to
+  learn about their environment autonomously. Our neuro-symbolic architecture is trained
+  end-to-end to produce a succinct and effective discrete state transition model from
+  images alone. Our target representation (the Planning Domain Definition Language)
+  is already in a form that off-the-shelf solvers can consume, and opens the door
+  to the rich array of modern heuristic search capabilities. We demonstrate how the
+  sophisticated innate prior we place on the learning process significantly reduces
+  the complexity of the learned representation, and reveals a connection to the graph-theoretic
+  notion of "cube-like graphs", thus opening the door to a deeper understanding of
+  the ideal properties for learned symbolic representations. We show that the powerful
+  domain-independent heuristics allow our system to solve visual 15-Puzzle instances
+  which are beyond the reach of blind search, without resorting to the Reinforcement
+  Learning approach that requires a huge amount of training on the domain-dependent
+  reward information.
+archiveprefix: arXiv
+author: Asai, Masataro and Muise, Christian
+author_list:
+- family: Asai
+  given: Masataro
+- family: Muise
+  given: Christian
+eprint: 2004.12850v2
+file: 2004.12850v2.pdf
+files:
+- asai-masataro-and-muise-christianlearning-neural-symbolic-descriptive-planning-models-via-cube-space-priors-the-voyage-home-to-strips-2020.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 2004.12850v2
+time-added: 2020-06-25-16:52:20
+title: 'Learning Neural-Symbolic Descriptive Planning Models via Cube-Space   Priors:
+  The Voyage Home (to STRIPS)'
+type: article
+url: http://arxiv.org/abs/2004.12850v2
+year: '2020'
