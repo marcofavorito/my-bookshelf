@@ -1,0 +1,862 @@
+author: Neftci, Emre O. and Averbeck, Bruno B.
+author_list:
+- affiliation: []
+  family: Neftci
+  given: Emre O.
+- affiliation: []
+  family: Averbeck
+  given: Bruno B.
+citations:
+- unstructured: 'Sutton, R. S. & Barto, A. G. Reinforcement Learning: An Introduction
+    (MIT Press, Cambridge, 1998).'
+- author: KH Pribram
+  doi: 10.1146/annurev.ps.11.020160.000245
+  first-page: '1'
+  journal-title: Annu. Rev. Psychol.
+  unstructured: Pribram, K. H. A review of theory in physiological psychology. Annu.
+    Rev. Psychol. 11, 1–40 (1960).
+  volume: '11'
+  year: '1960'
+- author: PH Janak
+  doi: 10.1038/nature14188
+  first-page: '284'
+  journal-title: Nature
+  unstructured: Janak, P. H. & Tye, K. M. From circuits to behaviour in the amygdala.
+    Nature 517, 284–292 (2015).
+  volume: '517'
+  year: '2015'
+- author: P Namburi
+  doi: 10.1038/nature14366
+  first-page: '675'
+  journal-title: Nature
+  unstructured: Namburi, P. et al. A circuit mechanism for differentiating positive
+    and negative associations. Nature 520, 675–678 (2015).
+  volume: '520'
+  year: '2015'
+- author: JJ Paton
+  doi: 10.1038/nature04490
+  first-page: '865'
+  journal-title: Nature
+  unstructured: Paton, J. J., Belova, M. A., Morrison, S. E. & Salzman, C. D. The
+    primate amygdala represents the positive and negative value of visual stimuli
+    during learning. Nature 439, 865–870 (2006).
+  volume: '439'
+  year: '2006'
+- author: AA Hamid
+  doi: 10.1038/nn.4173
+  first-page: '117'
+  journal-title: Nat. Neurosci.
+  unstructured: Hamid, A. A. et al. Mesolimbic dopamine signals the value of work.
+    Nat. Neurosci. 19, 117–126 (2016).
+  volume: '19'
+  year: '2016'
+- author: VD Costa
+  doi: 10.1016/j.neuron.2016.09.025
+  first-page: '505'
+  journal-title: Neuron
+  unstructured: Costa, V. D., Dal Monte, O., Lucas, D. R., Murray, E. A. & Averbeck,
+    B. B. Amygdala and ventral striatum make distinct contributions to reinforcement
+    learning. Neuron 92, 505–517 (2016).
+  volume: '92'
+  year: '2016'
+- unstructured: 'Puterman, M. L. Markov Decision Processes: Discrete Stochastic Dynamic
+    Programming (Wiley, New York, 1994).'
+- unstructured: Bertsekas, D. P. Dynamic Programming and Optimal Control (Athena Scientific,
+    Belmont, 1995).
+- unstructured: Vapnik, V. The Nature of Statistical Learning Theory (Springer, New
+    York, 2013).
+- unstructured: "Hessel, M. et al. Multi-task deep reinforcement learning with PopArt.\
+    \ Preprint at \n                    https://arxiv.org/abs/1809.04474\n       \
+    \             \n                   (2018)."
+- author: J Kirkpatrick
+  doi: 10.1073/pnas.1611835114
+  first-page: '3521'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Kirkpatrick, J. et al. Overcoming catastrophic forgetting in neural
+    networks. Proc. Natl Acad. Sci. USA 114, 3521–3526 (2017).
+  volume: '114'
+  year: '2017'
+- author: A Banino
+  doi: 10.1038/s41586-018-0102-6
+  first-page: '429'
+  journal-title: Nature
+  unstructured: Banino, A. et al. Vector-based navigation using grid-like representations
+    in artificial agents. Nature 557, 429–433 (2018).
+  volume: '557'
+  year: '2018'
+- author: MG Mattar
+  doi: 10.1038/s41593-018-0232-z
+  first-page: '1609'
+  journal-title: Nat. Neurosci.
+  unstructured: Mattar, M. G. & Daw, N. D. Prioritized memory access explains planning
+    and hippocampal replay. Nat. Neurosci. 21, 1609–1617 (2018).
+  volume: '21'
+  year: '2018'
+- author: F Rosenblatt
+  doi: 10.1037/h0042519
+  first-page: '386'
+  journal-title: Psychol. Rev.
+  unstructured: 'Rosenblatt, F. The perceptron: a probabilistic model for information-storage
+    and organization in the brain. Psychol. Rev. 65, 386–408 (1958).'
+  volume: '65'
+  year: '1958'
+- author: GE Hinton
+  doi: 10.1126/science.7761831
+  first-page: '1158'
+  journal-title: Science
+  unstructured: Hinton, G. E., Dayan, P., Frey, B. J. & Neal, R. M. The “wake-sleep”
+    algorithm for unsupervised neural networks. Science 268, 1158–1161 (1995).
+  volume: '268'
+  year: '1995'
+- unstructured: 'Rescorla, R. A. & Wagner, A. R. in Classical Conditioning II: Current
+    Research and Theory (eds Black, A. H. & Prokasy, W. F.) 64–99 (Appleton-Century-Crofts,
+    New York, 1972).'
+- author: W Schultz
+  doi: 10.1126/science.275.5306.1593
+  first-page: '1593'
+  journal-title: Science
+  unstructured: Schultz, W., Dayan, P. & Montague, P. R. A neural substrate of prediction
+    and reward. Science 275, 1593–1599 (1997).
+  volume: '275'
+  year: '1997'
+- author: PR Montague
+  doi: 10.1523/JNEUROSCI.16-05-01936.1996
+  first-page: '1936'
+  journal-title: J. Neurosci.
+  unstructured: Montague, P. R., Dayan, P. & Sejnowski, T. J. A framework for mesencephalic
+    dopamine systems based on predictive Hebbian learning. J. Neurosci. 16, 1936–1947
+    (1996).
+  volume: '16'
+  year: '1996'
+- doi: 10.7551/mitpress/4708.001.0001
+  unstructured: Houk, J. C., Adamas, J. L. & Barto, A. G. in Models of Information
+    Processing in the Basal Ganglia (eds Houk, J. C., Davis, J. L. & Beiser, D. G.)
+    249–274 (MIT Press, Cambridge, 1995).
+- author: MJ Frank
+  doi: 10.1162/0898929052880093
+  first-page: '51'
+  journal-title: J. Cogn. Neurosci.
+  unstructured: 'Frank, M. J. Dynamic dopamine modulation in the basal ganglia: a
+    neurocomputational account of cognitive deficits in medicated and nonmedicated
+    Parkinsonism. J. Cogn. Neurosci. 17, 51–72 (2005).'
+  volume: '17'
+  year: '2005'
+- author: SN Haber
+  doi: 10.1523/JNEUROSCI.0271-06.2006
+  first-page: '8368'
+  journal-title: J. Neurosci.
+  unstructured: Haber, S. N., Kim, K. S., Mailly, P. & Calzavara, R. Reward-related
+    cortical inputs define a large striatal region in primates that interface with
+    associative cortical connections, providing a substrate for incentive-based learning.
+    J. Neurosci. 26, 8368–8376 (2006).
+  volume: '26'
+  year: '2006'
+- author: JW Mink
+  doi: 10.1016/S0301-0082(96)00042-1
+  first-page: '381'
+  journal-title: Prog. Neurobiol.
+  unstructured: 'Mink, J. W. The basal ganglia: focused selection and inhibition of
+    competing motor programs. Prog. Neurobiol. 50, 381–425 (1996).'
+  volume: '50'
+  year: '1996'
+- author: B Lau
+  doi: 10.1016/j.neuron.2008.02.021
+  first-page: '451'
+  journal-title: Neuron
+  unstructured: Lau, B. & Glimcher, P. W. Value representations in the primate striatum
+    during matching behavior. Neuron 58, 451–463 (2008).
+  volume: '58'
+  year: '2008'
+- author: J O’Doherty
+  doi: 10.1126/science.1094285
+  first-page: '452'
+  journal-title: Science
+  unstructured: O’Doherty, J. et al. Dissociable roles of ventral and dorsal striatum
+    in instrumental conditioning. Science 304, 452–454 (2004).
+  volume: '304'
+  year: '2004'
+- author: BB Averbeck
+  doi: 10.1038/nn.4506
+  first-page: '505'
+  journal-title: Nat. Neurosci.
+  unstructured: Averbeck, B. B. & Costa, V. D. Motivational neural circuits underlying
+    reinforcement learning. Nat. Neurosci. 20, 505–512 (2017).
+  volume: '20'
+  year: '2017'
+- author: RS Sutton
+  first-page: '9'
+  journal-title: Mach. Learn.
+  unstructured: Sutton, R. S. Learning to predict by the methods of temporal differences.
+    Mach. Learn. 3, 9–44 (1988).
+  volume: '3'
+  year: '1988'
+- unstructured: Schultz, W. Dopamine reward prediction error coding. Dialog. Clin.
+    Neurosci. 18, 23–32 (2016).
+- author: EE Steinberg
+  doi: 10.1038/nn.3413
+  first-page: '966'
+  journal-title: Nat. Neurosci.
+  unstructured: Steinberg, E. E. et al. A causal link between prediction errors, dopamine
+    neurons and learning. Nat. Neurosci. 16, 966–973 (2013).
+  volume: '16'
+  year: '2013'
+- author: BT Saunders
+  doi: 10.1038/s41593-018-0191-4
+  first-page: '1072'
+  journal-title: Nat. Neurosci.
+  unstructured: Saunders, B. T., Richard, J. M., Margolis, E. B. & Janak, P. H. Dopamine
+    neurons create Pavlovian conditioned stimuli with circuit-defined motivational
+    properties. Nat. Neurosci. 21, 1072–1083 (2018).
+  volume: '21'
+  year: '2018'
+- author: MJ Sharpe
+  doi: 10.1038/nn.4538
+  first-page: '735'
+  journal-title: Nat. Neurosci.
+  unstructured: Sharpe, M. J. et al. Dopamine transients are sufficient and necessary
+    for acquisition of model-based associations. Nat. Neurosci. 20, 735–742 (2017).
+  volume: '20'
+  year: '2017'
+- author: BB Averbeck
+  doi: 10.1038/nn1634
+  first-page: '276'
+  journal-title: Nat. Neurosci.
+  unstructured: Averbeck, B. B., Sohn, J. W. & Lee, D. Activity in prefrontal cortex
+    during dynamic selection of action sequences. Nat. Neurosci. 9, 276–282 (2006).
+  volume: '9'
+  year: '2006'
+- author: M Seo
+  doi: 10.1016/j.neuron.2012.03.037
+  first-page: '947'
+  journal-title: Neuron
+  unstructured: Seo, M., Lee, E. & Averbeck, B. B. Action selection and action value
+    in frontal-striatal circuits. Neuron 74, 947–960 (2012).
+  volume: '74'
+  year: '2012'
+- author: E Lee
+  doi: 10.1523/JNEUROSCI.4561-14.2015
+  first-page: '6298'
+  journal-title: J. Neurosci.
+  unstructured: Lee, E., Seo, M., Dal Monte, O. & Averbeck, B. B. Injection of a dopamine
+    type 2 receptor antagonist into the dorsal striatum disrupts choices driven by
+    previous outcomes, but not perceptual inference. J. Neurosci. 35, 6298–6306 (2015).
+  volume: '35'
+  year: '2015'
+- author: BB Averbeck
+  doi: 10.1523/JNEUROSCI.5806-12.2014
+  first-page: '9497'
+  journal-title: J. Neurosci.
+  unstructured: Averbeck, B. B., Lehman, J., Jacobson, M. & Haber, S. N. Estimates
+    of projection overlap and zones of convergence within frontal-striatal circuits.
+    J. Neurosci. 34, 9497–9505 (2014).
+  volume: '34'
+  year: '2014'
+- author: KM Rothenhoefer
+  doi: 10.1523/JNEUROSCI.0631-17.2017
+  first-page: '6902'
+  journal-title: J. Neurosci.
+  unstructured: Rothenhoefer, K. M. et al. Effects of ventral striatum lesions on
+    stimulus versus action based reinforcement learning. J. Neurosci. 37, 6902–6914
+    (2017).
+  volume: '37'
+  year: '2017'
+- author: DP Friedman
+  doi: 10.1002/cne.10336
+  first-page: '345'
+  journal-title: J. Comp. Neurol.
+  unstructured: 'Friedman, D. P., Aggleton, J. P. & Saunders, R. C. Comparison of
+    hippocampal, amygdala, and perirhinal projections to the nucleus accumbens: combined
+    anterograde and retrograde tracing study in the Macaque brain. J. Comp. Neurol.
+    450, 345–365 (2002).'
+  volume: '450'
+  year: '2002'
+- author: GE Alexander
+  doi: 10.1146/annurev.ne.09.030186.002041
+  first-page: '357'
+  journal-title: Annu. Rev. Neurosci.
+  unstructured: Alexander, G. E., DeLong, M. R. & Strick, P. L. Parallel organization
+    of functionally segregated circuits linking basal ganglia and cortex. Annu. Rev.
+    Neurosci. 9, 357–381 (1986).
+  volume: '9'
+  year: '1986'
+- doi: 10.1109/SSCI.2017.8285354
+  unstructured: Averbeck, B. B. Amygdala and ventral striatum population codes implement
+    multiple learning rates for reinforcement learning. In IEEE Symposium Series on
+    Computational Intelligence (IEEE, 2017).
+- author: RA Jacobs
+  doi: 10.1162/neco.1991.3.1.79
+  first-page: '79'
+  journal-title: Neural Comput.
+  unstructured: Jacobs, R. A., Jordan, M. I., Nowlan, S. J. & Hinton, G. E. Adaptive
+    mixtures of local experts. Neural Comput. 3, 79–87 (1991).
+  volume: '3'
+  year: '1991'
+- author: JP Pfister
+  doi: 10.1162/neco.2006.18.6.1318
+  first-page: '1318'
+  journal-title: Neural Comput.
+  unstructured: Pfister, J. P., Toyoizumi, T., Barber, D. & Gerstner, W. Optimal spike-timing-dependent
+    plasticity for precise action potential firing in supervised learning. Neural
+    Comput. 18, 1318–1348 (2006).
+  volume: '18'
+  year: '2006'
+- unstructured: "Benna, M. K. & Fusi, S. Computational principles of biological memory.\
+    \ Preprint at \n                    https://arxiv.org/abs/1507.07580\n       \
+    \             \n                   (2015)."
+- unstructured: Lahiri, S. & Ganguli, S. A memory frontier for complex synapses. In
+    Advances in Neural Information Processing Systems Vol. 26 (eds Burges, C. J. C.,
+    Bottou, L., Welling, M., Ghahramani, Z. & Weinberger, K. Q.) 1034–1042 (NIPS,
+    2013).
+- unstructured: "Koutnik, J., Greff, K., Gomez, F. & Schmidhuber, J. A clockwork RNN.\
+    \ Preprint at \n                    https://arxiv.org/abs/1402.3511\n        \
+    \            \n                   (2014)."
+- unstructured: 'Neil, D., M., P. & Liu, S.-C. Phased LSTM: accelerating recurrent
+    network training for long or event-based sequences. In Advances in Neural Information
+    Processing Systems Vol. 29 (eds Lee, D. D., Sugiyama, M., Luxburg, U. V., Guyon,
+    I. & Garnett, R.) 3882–3890 (NIPS, 2016).'
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  unstructured: Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput.
+    9, 1735–1780 (1997).
+  volume: '9'
+  year: '1997'
+- author: RC O’Reilly
+  doi: 10.1162/089976606775093909
+  first-page: '283'
+  journal-title: Neural Comput.
+  unstructured: 'O’Reilly, R. C. & Frank, M. J. Making working memory work: a computational
+    model of learning in the prefrontal cortex and basal ganglia. Neural Comput. 18,
+    283–328 (2006).'
+  volume: '18'
+  year: '2006'
+- unstructured: Bishop, C. M. Pattern Recognition and Machine Learning (Springer,
+    New York, 2006).
+- unstructured: Bottou, L. & LeCun, Y. Large scale online learning. In Advances in
+    Neural Information Processing Systems Vol. 16 (eds Thrun, S., Saul, L. K. & Schölkopf,
+    B.) (NIPS, 2004).
+- doi: 10.1016/S0079-7421(08)60536-8
+  unstructured: "McCloskey, M. & Cohen, N. J. in Psychology of Learning and Motivation\n\
+    \                           : Advances in Research and Theory Vol. 24 (ed. Bower,\
+    \ G. H.) 109–165 (1989)."
+- author: JL McClelland
+  doi: 10.1037/0033-295X.102.3.419
+  first-page: '419'
+  journal-title: Psychol. Rev.
+  unstructured: 'McClelland, J. L., McNaughton, B. L. & O’Reilly, R. C. Why there
+    are complementary learning systems in the hippocampus and neocortex: insights
+    from the successes and failures of connectionist models of learning and memory.
+    Psychol. Rev. 102, 419–457 (1995).'
+  volume: '102'
+  year: '1995'
+- author: D Kumaran
+  doi: 10.1016/j.tics.2016.05.004
+  first-page: '512'
+  journal-title: Trends Cogn. Sci.
+  unstructured: Kumaran, D., Hassabis, D. & McClelland, J. L. What learning systems
+    do intelligent agents need? Complementary learning systems theory updated. Trends
+    Cogn. Sci. 20, 512–534 (2016).
+  volume: '20'
+  year: '2016'
+- author: V Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  journal-title: Nature
+  unstructured: Mnih, V. et al. Human-level control through deep reinforcement learning.
+    Nature 518, 529–533 (2015).
+  volume: '518'
+  year: '2015'
+- author: LJ Lin
+  first-page: '293'
+  journal-title: Mach. Learn.
+  unstructured: Lin, L.-J. Self-improving reactive agents based on reinforcement learning,
+    planning and teaching. Mach. Learn. 8, 293–321 (1992).
+  volume: '8'
+  year: '1992'
+- unstructured: "Zenke, F., Poole, B. & Ganguli, S. Continual learning through synaptic\
+    \ intelligence. Preprint at \n                    https://arxiv.org/abs/1703.04200\n\
+    \                    \n                   (2017)."
+- unstructured: "Aljundi, R., Babiloni, F., Elhoseiny, M., Rohrbach, M. & Tuytelaars,\
+    \ T. Memory aware synapses: learning what (not) to forget. Preprint at \n    \
+    \                https://arxiv.org/abs/1711.09601\n                    \n    \
+    \               (2017)."
+- author: ND Daw
+  doi: 10.1038/nn1560
+  first-page: '1704'
+  journal-title: Nat. Neurosci.
+  unstructured: Daw, N. D., Niv, Y. & Dayan, P. Uncertainty-based competition between
+    prefrontal and dorsolateral striatal systems for behavioral control. Nat. Neurosci.
+    8, 1704–1711 (2005).
+  volume: '8'
+  year: '2005'
+- doi: 10.1523/JNEUROSCI.1989-14.2015
+  unstructured: 'Costa, V. D., Tran, V. L., Turchi, J. & Averbeck, B. B. Reversal
+    learning and dopamine: a Bayesian perspective. J. Neurosci. 35, 2407–2416 (2015).'
+- author: ND Daw
+  doi: 10.1016/j.neuron.2011.02.027
+  first-page: '1204'
+  journal-title: Neuron
+  unstructured: Daw, N. D., Gershman, S. J., Seymour, B., Dayan, P. & Dolan, R. J.
+    Model-based influences on humans’ choices and striatal prediction errors. Neuron
+    69, 1204–1215 (2011).
+  volume: '69'
+  year: '2011'
+- author: J Glascher
+  doi: 10.1016/j.neuron.2010.04.016
+  first-page: '585'
+  journal-title: Neuron
+  unstructured: 'Glascher, J., Daw, N., Dayan, P. & O’Doherty, J. P. States versus
+    rewards: dissociable neural prediction error signals underlying model-based and
+    model-free reinforcement learning. Neuron 66, 585–595 (2010).'
+  volume: '66'
+  year: '2010'
+- author: BB Doll
+  doi: 10.1016/j.conb.2012.08.003
+  first-page: '1075'
+  journal-title: Curr. Opin. Neurobiol.
+  unstructured: Doll, B. B., Simon, D. A. & Daw, N. D. The ubiquity of model-based
+    reinforcement learning. Curr. Opin. Neurobiol. 22, 1075–1081 (2012).
+  volume: '22'
+  year: '2012'
+- author: K Wunderlich
+  doi: 10.1016/j.neuron.2012.03.042
+  first-page: '418'
+  journal-title: Neuron
+  unstructured: Wunderlich, K., Smittenaar, P. & Dolan, R. J. Dopamine enhances model-based
+    over model-free choice behavior. Neuron 75, 418–424 (2012).
+  volume: '75'
+  year: '2012'
+- author: EK Miller
+  doi: 10.1038/35036228
+  first-page: '59'
+  journal-title: Nat. Rev. Neurosci.
+  unstructured: Miller, E. K. The prefrontal cortex and cognitive control. Nat. Rev.
+    Neurosci. 1, 59–65 (2000).
+  volume: '1'
+  year: '2000'
+- author: BW Balleine
+  doi: 10.1016/S0028-3908(98)00033-1
+  first-page: '407'
+  journal-title: Neuropharmacology
+  unstructured: 'Balleine, B. W. & Dickinson, A. Goal-directed instrumental action:
+    contingency and incentive learning and their cortical substrates. Neuropharmacology
+    37, 407–419 (1998).'
+  volume: '37'
+  year: '1998'
+- author: L Deserno
+  doi: 10.1073/pnas.1417219112
+  first-page: '1595'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Deserno, L. et al. Ventral striatal dopamine reflects behavioral and
+    neural signatures of model-based control during sequential decision making. Proc.
+    Natl Acad. Sci. USA 112, 1595–1600 (2015).
+  volume: '112'
+  year: '2015'
+- author: HF Harlow
+  doi: 10.1037/h0062474
+  first-page: '51'
+  journal-title: Psychol. Rev.
+  unstructured: Harlow, H. F. The formation of learning sets. Psychol. Rev. 56, 51–65
+    (1949).
+  volume: '56'
+  year: '1949'
+- author: SD Iversen
+  doi: 10.1007/BF00237911
+  first-page: '376'
+  journal-title: Exp. Brain Res.
+  unstructured: Iversen, S. D. & Mishkin, M. Perseverative interference in monkeys
+    following selective lesions of the inferior prefrontal convexity. Exp. Brain Res.
+    11, 376–386 (1970).
+  volume: '11'
+  year: '1970'
+- author: AI Jang
+  doi: 10.1523/JNEUROSCI.1594-15.2015
+  first-page: '11751'
+  journal-title: J. Neurosci.
+  unstructured: Jang, A. I. et al. The role of frontal cortical and medial-temporal
+    lobe brain areas in learning a Bayesian prior belief on reversals. J. Neurosci.
+    35, 11751–11760 (2015).
+  volume: '35'
+  year: '2015'
+- author: JX Wang
+  doi: 10.1038/s41593-018-0147-8
+  first-page: '860'
+  journal-title: Nat. Neurosci.
+  unstructured: Wang, J. X. et al. Prefrontal cortex as a meta-reinforcement learning
+    system. Nat. Neurosci. 21, 860–868 (2018).
+  volume: '21'
+  year: '2018'
+- author: RC Wilson
+  doi: 10.1016/j.neuron.2013.11.005
+  first-page: '267'
+  journal-title: Neuron
+  unstructured: Wilson, R. C., Takahashi, Y. K., Schoenbaum, G. & Niv, Y. Orbitofrontal
+    cortex as a cognitive map of task space. Neuron 81, 267–279 (2014).
+  volume: '81'
+  year: '2014'
+- author: NW Schuck
+  doi: 10.1016/j.neuron.2016.08.019
+  first-page: '1402'
+  journal-title: Neuron
+  unstructured: Schuck, N. W., Cai, M. B., Wilson, R. C. & Niv, Y. Human orbitofrontal
+    cortex represents a cognitive map of state space. Neuron 91, 1402–1412 (2016).
+  volume: '91'
+  year: '2016'
+- unstructured: DeGroot, M. H. Optimal Statistical Decisions (Wiley, Hoboken, 1970).
+- author: CK Starkweather
+  doi: 10.1038/nn.4520
+  first-page: '581'
+  journal-title: Nat. Neurosci.
+  unstructured: Starkweather, C. K., Babayan, B. M., Uchida, N. & Gershman, S. J.
+    Dopamine reward prediction errors reflect hidden-state inference across time.
+    Nat. Neurosci. 20, 581–589 (2017).
+  volume: '20'
+  year: '2017'
+- author: CK Starkweather
+  doi: 10.1016/j.neuron.2018.03.036
+  first-page: '616'
+  journal-title: Neuron
+  unstructured: Starkweather, C. K., Gershman, S. J. & Uchida, N. The medial prefrontal
+    cortex shapes dopamine reward prediction errors under state uncertainty. Neuron
+    98, 616–629 (2018).
+  volume: '98'
+  year: '2018'
+- author: XJ Wang
+  doi: 10.1523/JNEUROSCI.19-21-09587.1999
+  first-page: '9587'
+  journal-title: J. Neurosci.
+  unstructured: 'Wang, X. J. Synaptic basis of cortical persistent activity: the importance
+    of NMDA receptors to working memory. J. Neurosci. 19, 9587–9603 (1999).'
+  volume: '19'
+  year: '1999'
+- unstructured: Schöner, G. in The Cambridge Handbook of Computational Psychology
+    (ed. Sun, R.) 101–126 (Cambridge Univ. Press, Cambridge, 2008).
+- doi: 10.1371/journal.pcbi.1004164
+  unstructured: Averbeck, B. B. Theory of choice in bandit, information sampling and
+    foraging tasks. PLoS Comput. Biol. 11, e1004164 (2015).
+- author: AR Otto
+  doi: 10.1073/pnas.1312011110
+  first-page: '20941'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Otto, A. R., Raio, C. M., Chiang, A., Phelps, E. A. & Daw, N. D. Working-memory
+    capacity protects model-based learning from stress. Proc. Natl Acad. Sci. USA
+    110, 20941–20946 (2013).
+  volume: '110'
+  year: '2013'
+- author: T Akam
+  doi: 10.1371/journal.pcbi.1004648
+  first-page: e1004648
+  journal-title: PLoS. Comput. Biol.
+  unstructured: Akam, T., Costa, R. & Dayan, P. Simple plans or sophisticated habits?
+    State, transition and learning interactions in the two-step task. PLoS. Comput.
+    Biol. 11, e1004648 (2015).
+  volume: '11'
+  year: '2015'
+- author: M Riesenhuber
+  doi: 10.1038/14819
+  first-page: '1019'
+  journal-title: Nat. Neurosci.
+  unstructured: Riesenhuber, M. & Poggio, T. Hierarchical models of object recognition
+    in cortex. Nat. Neurosci. 2, 1019–1025 (1999).
+  volume: '2'
+  year: '1999'
+- author: RJ Williams
+  first-page: '229'
+  journal-title: Mach. Learn.
+  unstructured: Williams, R. J. Simple statistical gradient-following algorithms for
+    connectionist reinforcement learning. Mach. Learn. 8, 229–256 (1992).
+  volume: '8'
+  year: '1992'
+- author: G Tesauro
+  doi: 10.1145/203330.203343
+  first-page: '58'
+  journal-title: Commun. ACM
+  unstructured: Tesauro, G. Temporal difference learning and TD-Gammon. Commun. ACM
+    38, 58–68 (1995).
+  volume: '38'
+  year: '1995'
+- unstructured: 'Pomerleau, D. A. ALVINN: An autonomous land vehicle in a neural network.
+    In Advances in Neural Information Processing Systems Vol. 1 (ed. Touretzky, D.
+    S.) (NIPS, 1988).'
+- author: S Levine
+  first-page: '1334'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Levine, S., Finn, C., Darrell, T. & Abbeel, P. End-to-end training
+    of deep visuomotor policies. J. Mach. Learn. Res. 17, 1334–1373 (2016).
+  volume: '17'
+  year: '2016'
+- unstructured: Gu, S., Lillicrap, T., Sutskever, I. & Levine, S. Continuous deep
+    Q-learning with model-based acceleration. In Proc. 33rd International Conference
+    on Machine Learning Vol. 48 2829–2838 (PMLR, 2016).
+- unstructured: "Burda, Y., Edwards, H., Storkey, A. & Klimov, O. Exploration by random\
+    \ network distillation. Preprint at \n                    https://arxiv.org/abs/1810.12894\n\
+    \                    \n                   (2018)."
+- unstructured: "Vezhnevets, A. S. et al. Feudal networks for hierarchical reinforcement\
+    \ learning. Preprint at \n                    https://arxiv.org/abs/1703.01161\n\
+    \                    \n                   (2017)."
+- author: EO Neftci
+  doi: 10.1016/j.isci.2018.06.010
+  first-page: '52'
+  journal-title: iScience
+  unstructured: Neftci, E. O. Data and power efficient intelligence with neuromorphic
+    learning machines. iScience 5, 52–68 (2018).
+  volume: '5'
+  year: '2018'
+- unstructured: "Kaiser, J., Mostafa, H. & Neftci, E. O. Synaptic plasticity dynamics\
+    \ for deep continuous local learning. Preprint at \n                    https://arxiv.org/abs/1811.10766\n\
+    \                    \n                   (2018)."
+- author: EO Neftci
+  doi: 10.3389/fnins.2017.00324
+  first-page: '324'
+  journal-title: Front. Neurosci.
+  unstructured: 'Neftci, E. O., Augustine, C., Paul, S. & Detorakis, G. Event-driven
+    random back-propagation: enabling neuromorphic deep learning machines. Front.
+    Neurosci. 11, 324 (2017).'
+  volume: '11'
+  year: '2017'
+- author: TP Lillicrap
+  doi: 10.1038/ncomms13276
+  journal-title: Nat. Commun.
+  unstructured: Lillicrap, T. P., Cownden, D., Tweed, D. B. & Akerman, C. J. Random
+    synaptic feedback weights support error backpropagation for deep learning. Nat.
+    Commun. 7, 13276 (2016).
+  volume: '7'
+  year: '2016'
+- unstructured: Levine, S., Pastor, P., Krizhevsky, A., Ibarz, J. & Quillen, D. Learning
+    hand-eye coordination for robotic grasping with deep learning and large-scale
+    data collection. Int. J. Robot. Res. 37, 421–436 (2018).
+- unstructured: "Blundell, C. et al. Model-free episodic control. Preprint at \n \
+    \                   https://arxiv.org/abs/1606.04460\n                    \n \
+    \                  (2016)."
+- author: SJ Gershman
+  doi: 10.1146/annurev-psych-122414-033625
+  first-page: '101'
+  journal-title: Ann. Rev. Psychol.
+  unstructured: 'Gershman, S. J. & Daw, N. D. Reinforcement learning and episodic
+    memory in humans and animals: an integrative framework. Ann. Rev. Psychol. 68,
+    101–128 (2017).'
+  volume: '68'
+  year: '2017'
+- unstructured: "Finn, C., Abbeel, P. & Levine, S. Model-agnostic meta-learning for\
+    \ fast adaptation of deep networks. Preprint at \n                    https://arxiv.org/abs/1703.03400\n\
+    \                    \n                   (2017)."
+- unstructured: "Ha, D. & Schmidhuber, J. World models. Preprint at \n           \
+    \         https://arxiv.org/abs/1803.10122\n                    \n           \
+    \        (2018)."
+- unstructured: "Zambaldi, V. et al. Relational deep reinforcement learning. Preprint\
+    \ at \n                    https://arxiv.org/abs/1806.01830\n                \
+    \    \n                   (2018)."
+- doi: 10.1038/nature04766
+  unstructured: Daw, N. D., O’Doherty, J. P., Dayan, P., Seymour, B. & Dolan, R. J.
+    Cortical substrates for exploratory decisions in humans. Nature 441, 876–879 (2006).
+- doi: 10.1146/annurev-vision-082114-035447
+  unstructured: 'Kriegeskorte, N. Deep neural networks: a new framework for modeling
+    biological vision and brain information processing. Annu. Rev. Vision Sci. 1,
+    417–446 (2015).'
+- doi: 10.1038/nn.2752
+  unstructured: Bernacchia, A., Seo, H., Lee, D. & Wang, X. J. A reservoir of time
+    constants for memory traces in cortical neurons. Nat. Neurosci. 14, 366–372 (2011).
+- doi: 10.1016/j.neuron.2010.02.027
+  unstructured: Walton, M. E., Behrens, T. E., Buckley, M. J., Rudebeck, P. H. & Rushworth,
+    M. F. Separable learning systems in the macaque brain and the role of orbitofrontal
+    cortex in contingent learning. Neuron 65, 927–939 (2010).
+- author: S Iglesias
+  doi: 10.1016/j.neuron.2013.09.009
+  first-page: '519'
+  journal-title: Neuron
+  unstructured: Iglesias, S. et al. Hierarchical prediction errors in midbrain and
+    basal forebrain during sensory learning. Neuron 80, 519–530 (2013).
+  volume: '80'
+  year: '2013'
+- author: D Badre
+  doi: 10.1093/cercor/bhr117
+  first-page: '527'
+  journal-title: Cereb. Cortex
+  unstructured: 'Badre, D. & Frank, M. J. Mechanisms of hierarchical reinforcement
+    learning in cortico-striatal circuits 2: evidence from fMRI. Cereb. Cortex 22,
+    527–536 (2012).'
+  volume: '22'
+  year: '2012'
+- author: MJ Frank
+  doi: 10.1093/cercor/bhr114
+  first-page: '509'
+  journal-title: Cereb. Cortex
+  unstructured: 'Frank, M. J. & Badre, D. Mechanisms of hierarchical reinforcement
+    learning in corticostriatal circuits 1: computational analysis. Cereb. Cortex
+    22, 509–526 (2012).'
+  volume: '22'
+  year: '2012'
+- author: MM Botvinick
+  doi: 10.1016/j.tics.2008.02.009
+  first-page: '201'
+  journal-title: Trends Cogn. Sci.
+  unstructured: Botvinick, M. M. Hierarchical models of behavior and prefrontal function.
+    Trends Cogn. Sci. 12, 201–208 (2008).
+  volume: '12'
+  year: '2008'
+- author: MM Botvinick
+  doi: 10.1016/j.cognition.2008.08.011
+  first-page: '262'
+  journal-title: Cognition
+  unstructured: 'Botvinick, M. M., Niv, Y. & Barto, A. C. Hierarchically organized
+    behavior and its neural foundations: a reinforcement learning perspective. Cognition
+    113, 262–280 (2009).'
+  volume: '113'
+  year: '2009'
+- author: JJ Ribas-Fernandes
+  doi: 10.1016/j.neuron.2011.05.042
+  first-page: '370'
+  journal-title: Neuron
+  unstructured: Ribas-Fernandes, J. J. et al. A neural signature of hierarchical reinforcement
+    learning. Neuron 71, 370–379 (2011).
+  volume: '71'
+  year: '2011'
+- author: MM Botvinick
+  doi: 10.1016/j.conb.2012.05.008
+  first-page: '956'
+  journal-title: Curr. Opin. Neurobiol.
+  unstructured: Botvinick, M. M. Hierarchical reinforcement learning and decision
+    making. Curr. Opin. Neurobiol. 22, 956–962 (2012).
+  volume: '22'
+  year: '2012'
+- author: M Botvinick
+  doi: 10.1098/rstb.2013.0480
+  first-page: '20130480'
+  journal-title: Philos. Trans. R. Soc. Lond. B
+  unstructured: Botvinick, M. & Weinstein, A. Model-based hierarchical reinforcement
+    learning and human action control. Philos. Trans. R. Soc. Lond. B 369, 20130480
+    (2014).
+  volume: '369'
+  year: '2014'
+- unstructured: Dayan, P. & Hinton, G. E. Feudal reinforcement learning. In Advances
+    in Neural Information Processing Systems Vol. 5 (eds Hanson, S. J., Cowan, J.
+    D. & Giles, C. L.) 271–278 (NIPS, 1992).
+- author: RS Sutton
+  doi: 10.1016/S0004-3702(99)00052-1
+  first-page: '181'
+  journal-title: Artif. Intell.
+  unstructured: 'Sutton, R. S., Precup, D. & Singh, S. Between MDPs and semi-MDPs:
+    A framework for temporal abstraction in reinforcement learning. Artif. Intell.
+    112, 181–211 (1999).'
+  volume: '112'
+  year: '1999'
+- unstructured: Bacon, P. L., Harb, J. & Precup, D. The option-critic architecture.
+    Proc. Thirty-First AAAI Conference on Artificial Intelligence 1726–1734 (AAAI,
+    2017).
+- unstructured: "Jaderberg, M. et al. Reinforcement learning with unsupervised auxiliary\
+    \ tasks. Preprint at \n                    https://arxiv.org/abs/1611.05397\n\
+    \                    \n                   (2016)."
+- doi: 10.1038/nrn2787
+  unstructured: 'Friston, K. The free-energy principle: a unified brain theory? Nat.
+    Rev. Neurosci. 11, 127–138 (2010).'
+- unstructured: "Ross, S., Gordon, G. J. & Bagnell, J. A. A reduction of imitation\
+    \ learning and structured prediction to no-regret online learning. Preprint at\
+    \ \n                    https://arxiv.org/abs/1011.0686\n                    \n\
+    \                   (2010)."
+- unstructured: "Le, H. M. et al. Hierarchical imitation and reinforcement learning.\
+    \ Preprint at \n                    https://arxiv.org/abs/1803.00590\n       \
+    \             \n                   (2018)."
+- author: E Koechlin
+  doi: 10.1126/science.1088545
+  first-page: '1181'
+  journal-title: Science
+  unstructured: Koechlin, E., Ody, C. & Kouneiher, F. The architecture of cognitive
+    control in the human prefrontal cortex. Science 302, 1181–1185 (2003).
+  volume: '302'
+  year: '2003'
+- author: D Badre
+  doi: 10.1162/jocn.2007.19.12.2082
+  first-page: '2082'
+  journal-title: J. Cogn. Neurosci.
+  unstructured: Badre, D. & D’Esposito, M. Functional magnetic resonance imaging evidence
+    for a hierarchical organization of the prefrontal cortex. J. Cogn. Neurosci. 19,
+    2082–2099 (2007).
+  volume: '19'
+  year: '2007'
+- author: D Muessgens
+  doi: 10.1152/jn.00565.2016
+  first-page: '2637'
+  journal-title: J. Neurophysiol.
+  unstructured: Muessgens, D., Thirugnanasambandam, N., Shitara, H., Popa, T. & Hallett,
+    M. Dissociable roles of preSMA in motor sequence chunking and hand switching—a
+    TMS study. J. Neurophysiol. 116, 2637–2646 (2016).
+  volume: '116'
+  year: '2016'
+- unstructured: Sabour, S., Frosst, N. & Hinton, G. E. Dynamic routing between capsules.
+    In Advances in Neural Information Processing Systems Vol. 30 (eds Guyon, I. et
+    al.) 3856–3866 (2017).
+- author: M Davies
+  doi: 10.1109/MM.2018.112130359
+  first-page: '82'
+  journal-title: IEEE Micro
+  unstructured: 'Davies, M. et al. Loihi: a neuromorphic manycore processor with on-chip
+    learning. IEEE Micro 38, 82–99 (2018).'
+  volume: '38'
+  year: '2018'
+- unstructured: "Friedmann, S. & Schemmel, J. Demonstrating hybrid learning in a flexible\
+    \ neuromorphic hardware system. Preprint at \n                    https://arxiv.org/abs/1604.05080\n\
+    \                    \n                   (2016)."
+- unstructured: Qiao, N. et al. A reconfigurable on-line learning spiking neuromorphic
+    processor comprising 256 neurons and 128K synapses. Front. Neurosci. 9, 141 (2015).
+- author: E Neftci
+  doi: 10.1073/pnas.1212083110
+  first-page: '3468'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Neftci, E. et al. Synthesizing cognition in neuromorphic electronic
+    systems. Proc. Natl Acad. Sci. USA 110, 3468–3476 (2013).
+  volume: '110'
+  year: '2013'
+- author: S Friedmann
+  doi: 10.3389/fnins.2013.00160
+  first-page: '160'
+  journal-title: Front. Neurosci.
+  unstructured: Friedmann, S., Fremaux, N., Schemmel, J., Gerstner, W. & Meier, K.
+    Reward-based learning under hardware constraints-using a RISC processor embedded
+    in a neuromorphic substrate. Front. Neurosci. 7, 160 (2013).
+  volume: '7'
+  year: '2013'
+- author: D Hassabis
+  doi: 10.1016/j.neuron.2017.06.011
+  first-page: '245'
+  journal-title: Neuron
+  unstructured: Hassabis, D., Kumaran, D., Summerfield, C. & Botvinick, M. Neuroscience-inspired
+    artificial intelligence. Neuron 95, 245–258 (2017).
+  volume: '95'
+  year: '2017'
+- unstructured: "Courbariaux, M., Bengio, Y. & David, J.-P. Training deep neural networks\
+    \ with low precision multiplications. Preprint at \n                    https://arxiv.org/abs/1412.7024\n\
+    \                    \n                   (2014)."
+- author: G Detorakis
+  doi: 10.3389/fnins.2018.00583
+  first-page: '583'
+  journal-title: Front. Neurosci.
+  unstructured: 'Detorakis, G. et al. Neural and synaptic array transceiver: a brain-inspired
+    computing framework for embedded learning. Front. Neurosci. 12, 583 (2018).'
+  volume: '12'
+  year: '2018'
+- author: SC Liu
+  doi: 10.1016/j.conb.2010.03.007
+  first-page: '288'
+  journal-title: Curr. Opin. Neurobiol.
+  unstructured: Liu, S. C. & Delbruck, T. Neuromorphic sensory systems. Curr. Opin.
+    Neurobiol. 20, 288–295 (2010).
+  volume: '20'
+  year: '2010'
+doc_url: http://www.nature.com/articles/s42256-019-0025-4
+doi: 10.1038/s42256-019-0025-4
+files:
+- neftci-emre-o.-and-averbeck-bruno-b.reinforcement-learning-in-artificial-and-biological-systems2019.data
+- neftci-emre-o.-and-averbeck-bruno-b.reinforcement-learning-in-artificial-and-biological-systems2019-a.pdf
+issue: '3'
+journal: Nature Machine Intelligence
+language: en
+month: 3
+pages: 133--143
+publisher: Springer Science and Business Media LLC
+time-added: 2020-07-19-19:53:34
+title: Reinforcement learning in artificial and biological systems
+type: article
+url: http://dx.doi.org/10.1038/s42256-019-0025-4
+volume: '1'
+year: 2019

@@ -1,0 +1,35 @@
+abstract: We consider partially observable Markov decision processes (POMDPs) with
+  {\omega}-regular conditions specified as parity objectives. The class of {\omega}-regular
+  languages extends regular languages to infinite strings and provides a robust specification
+  language to express all properties used in verification, and parity objectives are
+  canonical forms to express {\omega}-regular conditions. The qualitative analysis
+  problem given a POMDP and a parity objective asks whether there is a strategy to
+  ensure that the objective is satis- fied with probability 1 (resp. positive probability).
+  While the qualitative analysis problems are known to be undecidable even for very
+  special cases of parity objectives, we establish decidability (with optimal complexity)
+  of the qualitative analysis problems for POMDPs with all parity objectives under
+  finite- memory strategies. We establish optimal (exponential) memory bounds and
+  EXPTIME-completeness of the qualitative analysis problems under finite-memory strategies
+  for POMDPs with parity objectives.
+archiveprefix: arXiv
+author: Chatterjee, Krishnendu and Chmelik, Martin and Tracol, Mathieu
+author_list:
+- family: Chatterjee
+  given: Krishnendu
+- family: Chmelik
+  given: Martin
+- family: Tracol
+  given: Mathieu
+eprint: 1309.2802v1
+file: 1309.2802v1.pdf
+files:
+- chatterjee-krishnendu-and-chmelik-martin-and-tracol-mathieuwhat-is-decidable-about-partially-observable-markov-decision-processes-with-o-regular.pdf
+month: Sep
+primaryclass: cs.LO
+ref: 1309.2802v1
+time-added: 2020-07-21-11:55:02
+title: What is Decidable about Partially Observable Markov Decision Processes   with
+  ω-Regular Objectives
+type: article
+url: http://arxiv.org/abs/1309.2802v1
+year: '2013'

@@ -1,0 +1,31 @@
+abstract: Quantitative properties of stochastic systems are usually specified in logics
+  that allow one to compare the measure of executions satisfying certain temporal
+  properties with thresholds. The model checking problem for stochastic systems with
+  respect to such logics is typically solved by a numerical approach that iteratively
+  computes (or approximates) the exact measure of paths satisfying relevant subformulas;
+  the algorithms themselves depend on the class of systems being analyzed as well
+  as the logic used for specifying the properties. Another approach to solve the model
+  checking problem is to \emph{simulate} the system for finitely many runs, and use
+  \emph{hypothesis testing} to infer whether the samples provide a \emph{statistical}
+  evidence for the satisfaction or violation of the specification. In this short paper,
+  we survey the statistical approach, and outline its main advantages in terms of
+  efficiency, uniformity, and simplicity.
+archiveprefix: arXiv
+author: Legay, Axel and Delahaye, Benoit
+author_list:
+- family: Legay
+  given: Axel
+- family: Delahaye
+  given: Benoit
+eprint: 1005.1327v1
+file: 1005.1327v1.pdf
+files:
+- legay-axel-and-delahaye-benoitstatistical-model-checking-an-overview2010.pdf
+month: May
+primaryclass: cs.LO
+ref: 1005.1327v1
+time-added: 2020-07-28-19:26:58
+title: 'Statistical Model Checking : An Overview'
+type: article
+url: http://arxiv.org/abs/1005.1327v1
+year: '2010'

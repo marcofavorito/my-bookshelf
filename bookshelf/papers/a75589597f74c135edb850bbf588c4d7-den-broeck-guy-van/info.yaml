@@ -1,0 +1,30 @@
+abstract: We consider the problem of bottom-up compilation of knowledge bases, which
+  is usually predicated on the existence of a polytime function for combining compilations
+  using Boolean operators (usually called an Apply function). While such a polytime
+  Apply function is known to exist for certain languages (e.g., OBDDs) and not exist
+  for others (e.g., DNNF), its existence for certain languages remains unknown. Among
+  the latter is the recently introduced language of Sentential Decision Diagrams (SDDs),
+  for which a polytime Apply function exists for unreduced SDDs, but remains unknown
+  for reduced ones (i.e. canonical SDDs). We resolve this open question in this paper
+  and consider some of its theoretical and practical implications. Some of the findings
+  we report question the common wisdom on the relationship between bottom-up compilation,
+  language canonicity and the complexity of the Apply function.
+archiveprefix: arXiv
+author: den Broeck, Guy Van and Darwiche, Adnan
+author_list:
+- family: den Broeck
+  given: Guy Van
+- family: Darwiche
+  given: Adnan
+eprint: 1404.4089v1
+file: 1404.4089v1.pdf
+files:
+- den-broeck-guy-van-and-darwiche-adnanon-the-role-of-canonicity-in-bottom-up-knowledge-compilation2014.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 1404.4089v1
+time-added: 2020-07-23-16:44:13
+title: On the Role of Canonicity in Bottom-up Knowledge Compilation
+type: article
+url: http://arxiv.org/abs/1404.4089v1
+year: '2014'

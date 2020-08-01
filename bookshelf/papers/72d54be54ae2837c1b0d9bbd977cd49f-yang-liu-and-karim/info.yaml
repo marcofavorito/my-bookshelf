@@ -1,0 +1,265 @@
+author: Yang, Liu and Karim, Rezwana and Ganapathy, Vinod and Smith, Randy
+author_list:
+- affiliation: []
+  family: Yang
+  given: Liu
+- affiliation: []
+  family: Karim
+  given: Rezwana
+- affiliation: []
+  family: Ganapathy
+  given: Vinod
+- affiliation: []
+  family: Smith
+  given: Randy
+citations:
+- doi: 10.1145/1477942.1477950
+  unstructured: 'Becchi, M.: Data Structures, Algorithms and Architectures for Efficient
+    Regular Expression Evaluation. PhD thesis, Washington University in St. Louis
+    (2009)'
+- author: S. Kumar
+  first-page: '339'
+  unstructured: 'Kumar, S., Dharmapurikar, S., Yu, F., Crowley, P., Turner, J.: Algorithms
+    to accelerate multiple regular expressions matching for deep packet inspection.
+    In: ACM SIGCOMM Conference, pp. 339–350. ACM, New York (2006)'
+  volume-title: ACM SIGCOMM Conference
+  year: '2006'
+- author: R. Smith
+  first-page: '207'
+  unstructured: 'Smith, R., Estan, C., Jha, S., Kong, S.: Deflating the Big Bang:
+    Fast and scalable deep packet inspection with extended finite automata. In: SIGCOMM
+    Conference, pp. 207–218. ACM, New York (2008)'
+  volume-title: SIGCOMM Conference
+  year: '2008'
+- doi: 10.1145/1185347.1185360
+  unstructured: 'Yu, F., Chen, Z., Diao, Y., Lakshman, T.V., Katz, R.H.: Fast and
+    memory-efficient regular expression matching for deep packet inspection. In: ACM/IEEE
+    Symp. on Arch. for Networking and Comm. Systems, pp. 93–102 (2006)'
+- unstructured: 'Roesch, M.: Snort - lightweight intrusion detection for networks.
+    In: USENIX Conf. on System Administration, USENIX, pp. 229–238 (1999)'
+- author: J.E. Hopcroft
+  edition: '3'
+  unstructured: 'Hopcroft, J.E., Motwani, R., Ullman, J.D.: Introduction to Automata
+    Theory, Languages, and Computation, 3rd edn. Addison-Wesley, Reading (2007)'
+  volume-title: Introduction to Automata Theory, Languages, and Computation
+  year: '2007'
+- author: M. Becchi
+  first-page: '145'
+  unstructured: 'Becchi, M., Crowley, P.: An improved algorithm to accelerate regular
+    expression evaluation. In: Intl. Conf. on Architectures for Networking and Communication
+    Systems, pp. 145–154. ACM, New York (2007)'
+  volume-title: Intl. Conf. on Architectures for Networking and Communication Systems
+  year: '2007'
+- author: R. Smith
+  first-page: '187'
+  unstructured: 'Smith, R., Estan, C., Jha, S.: XFA: Faster signature matching with
+    extended automata. In: Symp. on Security and Privacy, pp. 187–201. IEEE Computer
+    Society, Los Alamitos (2008)'
+  volume-title: Symp. on Security and Privacy
+  year: '2008'
+- author: R. Sidhu
+  first-page: '227'
+  unstructured: 'Sidhu, R., Prasanna, V.: Fast regular expression matching using FPGAs.
+    In: Symp. on Field-Programmable Custom Computing Machines, pp. 227–238. IEEE Computer
+    Society, Los Alamitos (2001)'
+  volume-title: Symp. on Field-Programmable Custom Computing Machines
+  year: '2001'
+- author: C.R. Clark
+  doi: 10.1109/FCCM.2004.50
+  first-page: '249'
+  unstructured: 'Clark, C.R., Schimmel, D.E.: Scalable pattern matching for high-speed
+    networks. In: IEEE Symp. on Field-Programmable Custom Computing Machines, pp.
+    249–257. IEEE Computer Society, Los Alamitos (2004)'
+  volume-title: IEEE Symp. on Field-Programmable Custom Computing Machines
+  year: '2004'
+- author: R.E. Bryant
+  doi: 10.1109/TC.1986.1676819
+  first-page: '677'
+  issue: '8'
+  journal-title: IEEE Transactions on Computers
+  unstructured: 'Bryant, R.E.: Graph-based algorithms for Boolean function manipulation.
+    IEEE Transactions on Computers 35(8), 677–691 (1986)'
+  volume: '35'
+  year: '1986'
+- author: J.R. Burch
+  first-page: '401'
+  unstructured: 'Burch, J.R., Clarke, E.M., McMillan, K.L., Dill, D.L., Hwang, J.:
+    Symbolic model checking: 1020 states and beyond. In: Symp. on Logic in Computer
+    Science, pp. 401–424. IEEE Computer Society, Los Alamitos (1990)'
+  volume-title: Symp. on Logic in Computer Science
+  year: '1990'
+- author: K. Thompson
+  doi: 10.1145/363347.363387
+  first-page: '419'
+  issue: '6'
+  journal-title: ACM Commun.
+  unstructured: 'Thompson, K.: Programming techniques: Regular expression search algorithm.
+    ACM Commun. 11(6), 419–422 (1968)'
+  volume: '11'
+  year: '1968'
+- unstructured: 'Somenzi, F.: CUDD: CU decision diagram package, release 2.4.2 Department
+    of Electrical, Computer, and Energy Engineering, University of Colorado at Boulder,
+    http://vlsi.colorado.edu/~fabio/CUDD'
+- unstructured: Signatures referenced in Section 4 and Section 5, http://www.cs.rutgers.edu/~vinodg/papers/raid2010
+- unstructured: 'PCRE: The Perl compatible regular expression library, http://www.pcre.org'
+- unstructured: 'Cox, R.: Regular expression matching can be simple and fast (but
+    is slow in Java, Perl, PHP, Python, Ruby, ...) (2007), http://swtch.com/~rsc/regexp/regexp1.html
+    .'
+- author: R. Smith
+  first-page: '89'
+  unstructured: 'Smith, R., Estan, C., Jha, S.: Backtracking algorithmic complexity
+    attacks against a NIDS. In: Annual Computer Security Applications Conf., pp. 89–98.
+    IEEE Computer Society, Los Alamitos (2006)'
+  volume-title: Annual Computer Security Applications Conf.
+  year: '2006'
+- author: R. Sommer
+  first-page: '262'
+  unstructured: 'Sommer, R., Paxson, V.: Enhancing byte-level network intrusion detection
+    signatures with context. In: Conf. on Computer and Comm. Security, pp. 262–271.
+    ACM, New York (2003)'
+  volume-title: Conf. on Computer and Comm. Security
+  year: '2003'
+- doi: 10.1145/1364654.1364656
+  unstructured: 'Becchi, M., Crowley, P.: A hybrid finite automaton for practical
+    deep packet inspection. In: Intl. Conf. on emerging Networking EXperiments and
+    Technologies (2007)'
+- author: B.C. Brodie
+  first-page: '191'
+  unstructured: 'Brodie, B.C., Taylor, D.E., Cytron, R.K.: A scalable architecture
+    for high-throughput regular-expression pattern matching. In: Intl. Symp. Computer
+    Architecture, pp. 191–202. IEEE Computer Society, Los Alamitos (2006)'
+  volume-title: Intl. Symp. Computer Architecture
+  year: '2006'
+- author: M. Becchi
+  first-page: '50'
+  unstructured: 'Becchi, M., Crowley, P.: Efficient regular expression evaluation:
+    Theory to practice. In: Intl. Conf. on Architectures for Networking and Communication
+    Systems, pp. 50–59. ACM, New York (2008)'
+  volume-title: Intl. Conf. on Architectures for Networking and Communication Systems
+  year: '2008'
+- author: A.V. Aho
+  doi: 10.1145/360825.360855
+  first-page: '333'
+  issue: '6'
+  journal-title: ACM Comm.
+  unstructured: 'Aho, A.V., Corasick, M.J.: Efficient string matching: An aid to bibliographic
+    search. ACM Comm. 18(6), 333–340 (1975)'
+  volume: '18'
+  year: '1975'
+- author: S. Dharmapurikar
+  doi: 10.1109/JSAC.2006.877131
+  first-page: '1781'
+  issue: '10'
+  journal-title: Jour. on Selected Areas in Comm.
+  unstructured: 'Dharmapurikar, S., Lockwood, J.W.: Fast and scalable pattern matching
+    for network intrusion detection systems. Jour. on Selected Areas in Comm. 24(10),
+    1781–1792 (2006)'
+  volume: '24'
+  year: '2006'
+- author: R. Liu
+  doi: 10.1145/1015047.1015055
+  first-page: '614'
+  issue: '3'
+  journal-title: Trans. on Embedded Computing Sys.
+  unstructured: 'Liu, R., Huang, N., Chen, C., Kao, C.: A fast string-matching algorithm
+    for network processor-based intrusion detection system. Trans. on Embedded Computing
+    Sys. 3(3), 614–633 (2004)'
+  volume: '3'
+  year: '2004'
+- author: I. Sourdis
+  doi: 10.1007/978-3-540-45234-8_85
+  first-page: '880'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Sourdis, I., Pnevmatikatos, D.: Fast, large-scale string match for
+    a 10Gbps FPGA-based network intrusion detection system. In: Cheung, P., Constantinides,
+    G., Sousa, J. (eds.) FPL 2003. LNCS, vol. 2778, pp. 880–889. Springer, Heidelberg
+    (2003)'
+  volume-title: Field Programmable Logic and Application
+  year: '2003'
+- author: L. Tan
+  first-page: '112'
+  unstructured: 'Tan, L., Sherwood, T.: A high throughput string matching architecture
+    for intrusion detection and prevention. In: Intl. Symp. Computer Architecture,
+    pp. 112–122. IEEE Computer Society, Los Alamitos (2005)'
+  volume-title: Intl. Symp. Computer Architecture
+  year: '2005'
+- author: N. Tuck
+  first-page: '333'
+  unstructured: 'Tuck, N., Sherwood, T., Calder, B., Varghese, G.: Deterministic memory-efficient
+    string matching algorithms for intrusion detection. In: IEEE INFOCOM 2004, pp.
+    333–340. IEEE Computer Society, Los Alamitos (2004)'
+  volume-title: IEEE INFOCOM 2004
+  year: '2004'
+- author: G. Vasiliadis
+  doi: 10.1007/978-3-540-87403-4_7
+  first-page: '116'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Vasiliadis, G., Antonatos, S., Polychronakis, M., Markatos, E.P.,
+    Ioannidis, S.: Gnort: High performance network intrusion detection using graphics
+    processors. In: Lippmann, R., Kirda, E., Trachtenberg, A. (eds.) RAID 2008. LNCS,
+    vol. 5230, pp. 116–134. Springer, Heidelberg (2008)'
+  volume-title: Recent Advances in Intrusion Detection
+  year: '2008'
+- unstructured: 'Handley, M., Paxson, V., Kreibich, C.: Network intrusion detection:
+    Evasion, traffic normalization, and end-to-end protocol semantics. In: Usenix
+    Security, p. 9. USENIX (2001)'
+- unstructured: 'Jordan, M.: Dealing with metamorphism. Virus Bulletin Weekly (2002)'
+- unstructured: 'Ptacek, T., Newsham, T.: Insertion, evasion and denial of service:
+    Eluding network intrusion detection, http://insecure.org/stf/secnet_ids/secnet_ids.html
+    .'
+- author: U. Shankar
+  first-page: '44'
+  unstructured: 'Shankar, U., Paxson, V.: Active mapping: Resisting NIDS evasion without
+    altering traffic. In: Symp. on Security and Privacy, pp. 44–61. IEEE Computer
+    Society, Los Alamitos (2003)'
+  volume-title: Symp. on Security and Privacy
+  year: '2003'
+- unstructured: TippingPoint, http://www.tippingpoint.com
+- unstructured: 'LSI-Corporation: Tarari RegEx content processor, http://www.tarari.com'
+- unstructured: 'Cisco: IOS terminal services configuration guide, http://tinyurl.com/2eouvq'
+- author: B.L. Hutchings
+  doi: 10.1109/FPGA.2002.1106666
+  first-page: '111'
+  unstructured: 'Hutchings, B.L., Franklin, R., Carver, D.: Assisting network intrusion
+    detection with reconfigurable hardware. In: Annual Symp. on Field-Programmable
+    Custom Computing Machines, pp. 111–120. IEEE Computer Society, Los Alamitos (2002)'
+  volume-title: Annual Symp. on Field-Programmable Custom Computing Machines
+  year: '2002'
+- author: A. Mitra
+  first-page: '127'
+  unstructured: 'Mitra, A., Najjar, W., Bhuyan, L.: Compiling PCRE to FPGA for accelerating
+    Snort IDS. In: Symp. on Arch. for Networking and Comm. Systems, pp. 127–136. ACM,
+    New York (2007)'
+  volume-title: Symp. on Arch. for Networking and Comm. Systems
+  year: '2007'
+- author: S. Yusuf
+  doi: 10.1109/FPL.2005.1515762
+  first-page: '444'
+  unstructured: 'Yusuf, S., Luk, W.: Bitwise optimized CAM for network intrusion detection
+    systems. In: Intl. Conf. on Field Prog. Logic and Applications, pp. 444–449. IEEE
+    Press, Los Alamitos (2005)'
+  volume-title: Intl. Conf. on Field Prog. Logic and Applications
+  year: '2005'
+- author: R. Sinnappan
+  doi: 10.1007/3-540-44687-7_70
+  first-page: '638'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Sinnappan, R., Hazelhurst, S.: A reconfigurable approach to packet
+    filtering. In: Brebner, G., Woods, R. (eds.) FPL 2001. LNCS, vol. 2147, pp. 638–642.
+    Springer, Heidelberg (2001)'
+  volume-title: Field-Programmable Logic and Applications
+  year: '2001'
+doi: 10.1007/978-3-642-15512-3_4
+files:
+- yang-liu-and-karim-rezwana-and-ganapathy-vinod-and-smith-randyimproving-nfa-based-signature-matching-using-ordered-binary-decision-diagrams2010.pdf
+isbn:
+- '9783642155116'
+- '9783642155123'
+journal: Lecture Notes in Computer Science
+pages: 58--78
+publisher: Springer Berlin Heidelberg
+time-added: 2020-07-24-16:42:02
+title: Improving NFA-Based Signature Matching Using Ordered Binary Decision Diagrams
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-642-15512-3_4
+year: 2010

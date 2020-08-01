@@ -1,0 +1,35 @@
+abstract: Recent work has shown great promise in explaining neural network behavior.
+  In particular, feature attribution methods explain which features were most important
+  to a model's prediction on a given input. However, for many tasks, simply knowing
+  which features were important to a model's prediction may not provide enough insight
+  to understand model behavior. The interactions between features within the model
+  may better help us understand not only the model, but also why certain features
+  are more important than others. In this work, we present Integrated Hessians, an
+  extension of Integrated Gradients that explains pairwise feature interactions in
+  neural networks. Integrated Hessians overcomes several theoretical limitations of
+  previous methods to explain interactions, and unlike such previous methods is not
+  limited to a specific architecture or class of neural network. Additionally, we
+  find that our method is faster than existing methods when the number of features
+  is large, and outperforms previous methods on existing quantitative benchmarks.
+  Code available at https://github.com/suinleelab/path_explain
+archiveprefix: arXiv
+author: Janizek, Joseph D. and Sturmfels, Pascal and Lee, Su-In
+author_list:
+- family: Janizek
+  given: Joseph D.
+- family: Sturmfels
+  given: Pascal
+- family: Lee
+  given: Su-In
+eprint: 2002.04138v3
+file: 2002.04138v3.pdf
+files:
+- janizek-joseph-d.-and-sturmfels-pascal-and-lee-su-inexplaining-explanations-axiomatic-feature-interactions-for-deep-networks2020.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2002.04138v3
+time-added: 2020-07-20-18:11:57
+title: 'Explaining Explanations: Axiomatic Feature Interactions for Deep   Networks'
+type: article
+url: http://arxiv.org/abs/2002.04138v3
+year: '2020'

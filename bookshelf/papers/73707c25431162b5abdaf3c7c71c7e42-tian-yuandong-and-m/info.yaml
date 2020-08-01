@@ -1,0 +1,42 @@
+abstract: The AlphaGo, AlphaGo Zero, and AlphaZero series of algorithms are remarkable
+  demonstrations of deep reinforcement learning's capabilities, achieving superhuman
+  performance in the complex game of Go with progressively increasing autonomy. However,
+  many obstacles remain in the understanding of and usability of these promising approaches
+  by the research community. Toward elucidating unresolved mysteries and facilitating
+  future research, we propose ELF OpenGo, an open-source reimplementation of the AlphaZero
+  algorithm. ELF OpenGo is the first open-source Go AI to convincingly demonstrate
+  superhuman performance with a perfect (20:0) record against global top professionals.
+  We apply ELF OpenGo to conduct extensive ablation studies, and to identify and analyze
+  numerous interesting phenomena in both the model training and in the gameplay inference
+  procedures. Our code, models, selfplay datasets, and auxiliary data are publicly
+  available.
+archiveprefix: arXiv
+author: Tian, Yuandong and Ma, Jerry and Gong, Qucheng and Sengupta, Shubho and Chen,
+  Zhuoyuan and Pinkerton, James and Zitnick, C. Lawrence
+author_list:
+- family: Tian
+  given: Yuandong
+- family: Ma
+  given: Jerry
+- family: Gong
+  given: Qucheng
+- family: Sengupta
+  given: Shubho
+- family: Chen
+  given: Zhuoyuan
+- family: Pinkerton
+  given: James
+- family: Zitnick
+  given: C. Lawrence
+eprint: 1902.04522v4
+file: 1902.04522v4.pdf
+files:
+- tian-yuandong-and-ma-jerry-and-gong-qucheng-and-sengupta-shubho-and-chen-zhuoyuan-and-pinkerton-james-and-zitnick-c.-lawrenceelf-opengo-an-ana.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1902.04522v4
+time-added: 2020-07-19-21:47:08
+title: 'ELF OpenGo: An Analysis and Open Reimplementation of AlphaZero'
+type: article
+url: http://arxiv.org/abs/1902.04522v4
+year: '2019'

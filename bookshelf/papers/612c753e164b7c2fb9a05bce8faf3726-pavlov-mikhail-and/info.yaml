@@ -1,0 +1,31 @@
+abstract: In this paper, we present our approach to solve a physics-based reinforcement
+  learning challenge "Learning to Run" with objective to train physiologically-based
+  human model to navigate a complex obstacle course as quickly as possible. The environment
+  is computationally expensive, has a high-dimensional continuous action space and
+  is stochastic. We benchmark state of the art policy-gradient methods and test several
+  improvements, such as layer normalization, parameter noise, action and state reflecting,
+  to stabilize training and improve its sample-efficiency. We found that the Deep
+  Deterministic Policy Gradient method is the most efficient method for this environment
+  and the improvements we have introduced help to stabilize training. Learned models
+  are able to generalize to new physical scenarios, e.g. different obstacle courses.
+archiveprefix: arXiv
+author: Pavlov, Mikhail and Kolesnikov, Sergey and Plis, Sergey M.
+author_list:
+- family: Pavlov
+  given: Mikhail
+- family: Kolesnikov
+  given: Sergey
+- family: Plis
+  given: Sergey M.
+eprint: 1711.06922v2
+file: 1711.06922v2.pdf
+files:
+- pavlov-mikhail-and-kolesnikov-sergey-and-plis-sergey-m.run-skeleton-run-skeletal-model-in-a-physics-based-simulation2017.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1711.06922v2
+time-added: 2020-07-15-09:36:10
+title: 'Run, skeleton, run: skeletal model in a physics-based simulation'
+type: article
+url: http://arxiv.org/abs/1711.06922v2
+year: '2017'

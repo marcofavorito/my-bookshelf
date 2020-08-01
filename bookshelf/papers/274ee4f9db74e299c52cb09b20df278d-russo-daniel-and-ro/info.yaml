@@ -1,0 +1,38 @@
+abstract: Thompson sampling is an algorithm for online decision problems where actions
+  are taken sequentially in a manner that must balance between exploiting what is
+  known to maximize immediate performance and investing to accumulate new information
+  that may improve future performance. The algorithm addresses a broad range of problems
+  in a computationally efficient manner and is therefore enjoying wide use. This tutorial
+  covers the algorithm and its application, illustrating concepts through a range
+  of examples, including Bernoulli bandit problems, shortest path problems, dynamic
+  pricing, recommendation, active learning with neural networks, and reinforcement
+  learning in Markov decision processes. Most of these problems involve complex information
+  structures, where information revealed by taking an action informs beliefs about
+  other actions. We will also discuss when and why Thompson sampling is or is not
+  effective and relations to alternative algorithms.
+archiveprefix: arXiv
+author: Russo, Daniel and Roy, Benjamin Van and Kazerouni, Abbas and Osband, Ian and
+  Wen, Zheng
+author_list:
+- family: Russo
+  given: Daniel
+- family: Roy
+  given: Benjamin Van
+- family: Kazerouni
+  given: Abbas
+- family: Osband
+  given: Ian
+- family: Wen
+  given: Zheng
+eprint: 1707.02038v2
+file: 1707.02038v2.pdf
+files:
+- russo-daniel-and-roy-benjamin-van-and-kazerouni-abbas-and-osband-ian-and-wen-zhenga-tutorial-on-thompson-sampling2017.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1707.02038v2
+time-added: 2020-07-15-10:27:29
+title: A Tutorial on Thompson Sampling
+type: article
+url: http://arxiv.org/abs/1707.02038v2
+year: '2017'

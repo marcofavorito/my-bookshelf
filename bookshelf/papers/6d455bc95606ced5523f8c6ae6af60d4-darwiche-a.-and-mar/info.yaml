@@ -1,0 +1,32 @@
+abstract: 'We propose a perspective on knowledge compilation which calls for analyzing
+  different compilation approaches according to two key dimensions: the succinctness
+  of the target compilation language, and the class of queries and transformations
+  that the language supports in polytime. We then provide a knowledge compilation
+  map, which analyzes a large number of existing target compilation languages according
+  to their succinctness and their polytime transformations and queries. We argue that
+  such analysis is necessary for placing new compilation approaches within the context
+  of existing ones. We also go beyond classical, flat target compilation languages
+  based on CNF and DNF, and consider a richer, nested class based on directed acyclic
+  graphs (such as OBDDs), which we show to include a relatively large number of target
+  compilation languages.'
+archiveprefix: arXiv
+author: Darwiche, A. and Marquis, P.
+author_list:
+- family: Darwiche
+  given: A.
+- family: Marquis
+  given: P.
+doi: 10.1613/jair.989
+eprint: 1106.1819v1
+file: 1106.1819v1.pdf
+files:
+- darwiche-a.-and-marquis-p.a-knowledge-compilation-map2011.pdf
+month: Jun
+note: Journal Of Artificial Intelligence Research, Volume 17, pages   229-264, 2002
+primaryclass: cs.AI
+ref: 1106.1819v1
+time-added: 2020-07-23-16:41:46
+title: A Knowledge Compilation Map
+type: article
+url: http://arxiv.org/abs/1106.1819v1
+year: '2011'

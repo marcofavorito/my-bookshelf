@@ -1,0 +1,62 @@
+abstract: We introduce an approach for deep reinforcement learning (RL) that improves
+  upon the efficiency, generalization capacity, and interpretability of conventional
+  approaches through structured perception and relational reasoning. It uses self-attention
+  to iteratively reason about the relations between entities in a scene and to guide
+  a model-free policy. Our results show that in a novel navigation and planning task
+  called Box-World, our agent finds interpretable solutions that improve upon baselines
+  in terms of sample complexity, ability to generalize to more complex scenes than
+  experienced during training, and overall performance. In the StarCraft II Learning
+  Environment, our agent achieves state-of-the-art performance on six mini-games --
+  surpassing human grandmaster performance on four. By considering architectural inductive
+  biases, our work opens new directions for overcoming important, but stubborn, challenges
+  in deep RL.
+archiveprefix: arXiv
+author: Zambaldi, Vinicius and Raposo, David and Santoro, Adam and Bapst, Victor and
+  Li, Yujia and Babuschkin, Igor and Tuyls, Karl and Reichert, David and Lillicrap,
+  Timothy and Lockhart, Edward and Shanahan, Murray and Langston, Victoria and Pascanu,
+  Razvan and Botvinick, Matthew and Vinyals, Oriol and Battaglia, Peter
+author_list:
+- family: Zambaldi
+  given: Vinicius
+- family: Raposo
+  given: David
+- family: Santoro
+  given: Adam
+- family: Bapst
+  given: Victor
+- family: Li
+  given: Yujia
+- family: Babuschkin
+  given: Igor
+- family: Tuyls
+  given: Karl
+- family: Reichert
+  given: David
+- family: Lillicrap
+  given: Timothy
+- family: Lockhart
+  given: Edward
+- family: Shanahan
+  given: Murray
+- family: Langston
+  given: Victoria
+- family: Pascanu
+  given: Razvan
+- family: Botvinick
+  given: Matthew
+- family: Vinyals
+  given: Oriol
+- family: Battaglia
+  given: Peter
+eprint: 1806.01830v2
+file: 1806.01830v2.pdf
+files:
+- zambaldi-vinicius-and-raposo-david-and-santoro-adam-and-bapst-victor-and-li-yujia-and-babuschkin-igor-and-tuyls-karl-and-reichert-david-and-li.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1806.01830v2
+time-added: 2020-07-13-00:06:00
+title: Relational Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1806.01830v2
+year: '2018'

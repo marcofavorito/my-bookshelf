@@ -1,0 +1,37 @@
+abstract: 'We explore the use of Evolution Strategies (ES), a class of black box optimization
+  algorithms, as an alternative to popular MDP-based RL techniques such as Q-learning
+  and Policy Gradients. Experiments on MuJoCo and Atari show that ES is a viable solution
+  strategy that scales extremely well with the number of CPUs available: By using
+  a novel communication strategy based on common random numbers, our ES implementation
+  only needs to communicate scalars, making it possible to scale to over a thousand
+  parallel workers. This allows us to solve 3D humanoid walking in 10 minutes and
+  obtain competitive results on most Atari games after one hour of training. In addition,
+  we highlight several advantages of ES as a black box optimization technique: it
+  is invariant to action frequency and delayed rewards, tolerant of extremely long
+  horizons, and does not need temporal discounting or value function approximation.'
+archiveprefix: arXiv
+author: Salimans, Tim and Ho, Jonathan and Chen, Xi and Sidor, Szymon and Sutskever,
+  Ilya
+author_list:
+- family: Salimans
+  given: Tim
+- family: Ho
+  given: Jonathan
+- family: Chen
+  given: Xi
+- family: Sidor
+  given: Szymon
+- family: Sutskever
+  given: Ilya
+eprint: 1703.03864v2
+file: 1703.03864v2.pdf
+files:
+- salimans-tim-and-ho-jonathan-and-chen-xi-and-sidor-szymon-and-sutskever-ilyaevolution-strategies-as-a-scalable-alternative-to-reinforcement-learn.pdf
+month: Mar
+primaryclass: stat.ML
+ref: 1703.03864v2
+time-added: 2020-07-15-10:00:21
+title: Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1703.03864v2
+year: '2017'

@@ -1,0 +1,38 @@
+abstract: 'Recent years have witnessed significant progresses in deep Reinforcement
+  Learning (RL). Empowered with large scale neural networks, carefully designed architectures,
+  novel training algorithms and massively parallel computing devices, researchers
+  are able to attack many challenging RL problems. However, in machine learning, more
+  training power comes with a potential risk of more overfitting. As deep RL techniques
+  are being applied to critical problems such as healthcare and finance, it is important
+  to understand the generalization behaviors of the trained agents. In this paper,
+  we conduct a systematic study of standard RL agents and find that they could overfit
+  in various ways. Moreover, overfitting could happen "robustly": commonly used techniques
+  in RL that add stochasticity do not necessarily prevent or detect overfitting. In
+  particular, the same agents and learning algorithms could have drastically different
+  test performance, even when all of them achieve optimal rewards during training.
+  The observations call for more principled and careful evaluation protocols in RL.
+  We conclude with a general discussion on overfitting in RL and a study of the generalization
+  behaviors from the perspective of inductive bias.'
+archiveprefix: arXiv
+author: Zhang, Chiyuan and Vinyals, Oriol and Munos, Remi and Bengio, Samy
+author_list:
+- family: Zhang
+  given: Chiyuan
+- family: Vinyals
+  given: Oriol
+- family: Munos
+  given: Remi
+- family: Bengio
+  given: Samy
+eprint: 1804.06893v2
+file: 1804.06893v2.pdf
+files:
+- zhang-chiyuan-and-vinyals-oriol-and-munos-remi-and-bengio-samya-study-on-overfitting-in-deep-reinforcement-learning2018.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1804.06893v2
+time-added: 2020-07-13-00:06:37
+title: A Study on Overfitting in Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1804.06893v2
+year: '2018'

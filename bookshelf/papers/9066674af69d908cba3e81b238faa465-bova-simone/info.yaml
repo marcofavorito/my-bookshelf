@@ -1,0 +1,25 @@
+abstract: Introduced by Darwiche (2011), sentential decision diagrams (SDDs) are essentially
+  as tractable as ordered binary decision diagrams (OBDDs), but tend to be more succinct
+  in practice. This makes SDDs a prominent representation language, with many applications
+  in artificial intelligence and knowledge compilation. We prove that SDDs are more
+  succinct than OBDDs also in theory, by constructing a family of boolean functions
+  where each member has polynomial SDD size but exponential OBDD size. This exponential
+  separation improves a quasipolynomial separation recently established by Razgon
+  (2013), and settles an open problem in knowledge compilation.
+archiveprefix: arXiv
+author: Bova, Simone
+author_list:
+- family: Bova
+  given: Simone
+eprint: 1601.00501v1
+file: 1601.00501v1.pdf
+files:
+- bova-simonesdds-are-exponentially-more-succinct-than-obdds2016.pdf
+month: Jan
+primaryclass: cs.LO
+ref: 1601.00501v1
+time-added: 2020-07-23-16:45:29
+title: SDDs are Exponentially More Succinct than OBDDs
+type: article
+url: http://arxiv.org/abs/1601.00501v1
+year: '2016'

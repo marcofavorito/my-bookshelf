@@ -1,0 +1,33 @@
+abstract: This paper studies a difference between Binary Decision Diagrams (BDDs)
+  and Zero-suppressed BDDs (ZDDs) from a conceptual point of view. It is commonly
+  understood that a BDD is a representation of a Boolean function, whereas a ZDD is
+  a representation of a set of sets. However, there is a one-to-one correspondence
+  between Boolean functions and sets of sets, and therefore we could also regard a
+  BDD as a representation of a set of sets, and similarly for a ZDD and a Boolean
+  function. The aim of this paper is to give an explanation why the distinction between
+  BDDs and ZDDs mentioned above is made despite the existence of the one-to-one correspondence.
+  To achieve this, we first observe that Boolean functions and sets of sets are equipped
+  with non-isomorphic functor structures, and show that these functor structures are
+  reflected in the definitions of BDDs and ZDDs. This result can be stated formally
+  as naturality of certain maps. To the author's knowledge, this is the first formally
+  stated theorem that justifies the commonly accepted distinction between BDDs and
+  ZDDs. In addition, we show that this result extends to sentential decision diagrams
+  and their zero-suppressed variant.
+archiveprefix: arXiv
+author: Kojima, Kensuke
+author_list:
+- family: Kojima
+  given: Kensuke
+eprint: 1806.10261v1
+file: 1806.10261v1.pdf
+files:
+- kojima-kensukebdds-naturally-represent-boolean-functions-and-zdds-naturally-represent-sets-of-sets2018.pdf
+month: Jun
+primaryclass: cs.LO
+ref: 1806.10261v1
+time-added: 2020-07-23-16:04:17
+title: BDDs Naturally Represent Boolean Functions, and ZDDs Naturally Represent   Sets
+  of Sets
+type: article
+url: http://arxiv.org/abs/1806.10261v1
+year: '2018'

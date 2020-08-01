@@ -1,0 +1,46 @@
+abstract: Deep neural networks excel at learning the training data, but often provide
+  incorrect and confident predictions when evaluated on slightly different test examples.
+  This includes distribution shifts, outliers, and adversarial examples. To address
+  these issues, we propose Manifold Mixup, a simple regularizer that encourages neural
+  networks to predict less confidently on interpolations of hidden representations.
+  Manifold Mixup leverages semantic interpolations as additional training signal,
+  obtaining neural networks with smoother decision boundaries at multiple levels of
+  representation. As a result, neural networks trained with Manifold Mixup learn class-representations
+  with fewer directions of variance. We prove theory on why this flattening happens
+  under ideal conditions, validate it on practical situations, and connect it to previous
+  works on information theory and generalization. In spite of incurring no significant
+  computation and being implemented in a few lines of code, Manifold Mixup improves
+  strong baselines in supervised learning, robustness to single-step adversarial attacks,
+  and test log-likelihood.
+archiveprefix: arXiv
+author: Verma, Vikas and Lamb, Alex and Beckham, Christopher and Najafi, Amir and
+  Mitliagkas, Ioannis and Courville, Aaron and Lopez-Paz, David and Bengio, Yoshua
+author_list:
+- family: Verma
+  given: Vikas
+- family: Lamb
+  given: Alex
+- family: Beckham
+  given: Christopher
+- family: Najafi
+  given: Amir
+- family: Mitliagkas
+  given: Ioannis
+- family: Courville
+  given: Aaron
+- family: Lopez-Paz
+  given: David
+- family: Bengio
+  given: Yoshua
+eprint: 1806.05236v7
+file: 1806.05236v7.pdf
+files:
+- verma-vikas-and-lamb-alex-and-beckham-christopher-and-najafi-amir-and-mitliagkas-ioannis-and-courville-aaron-and-lopez-paz-david-and-bengio-yo.pdf
+month: Jun
+primaryclass: stat.ML
+ref: 1806.05236v7
+time-added: 2020-07-19-17:51:51
+title: 'Manifold Mixup: Better Representations by Interpolating Hidden States'
+type: article
+url: http://arxiv.org/abs/1806.05236v7
+year: '2018'

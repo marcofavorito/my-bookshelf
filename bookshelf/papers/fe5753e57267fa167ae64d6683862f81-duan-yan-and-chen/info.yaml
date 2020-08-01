@@ -1,0 +1,39 @@
+abstract: Recently, researchers have made significant progress combining the advances
+  in deep learning for learning feature representations with reinforcement learning.
+  Some notable examples include training agents to play Atari games based on raw pixel
+  data and to acquire advanced manipulation skills using raw sensory inputs. However,
+  it has been difficult to quantify progress in the domain of continuous control due
+  to the lack of a commonly adopted benchmark. In this work, we present a benchmark
+  suite of continuous control tasks, including classic tasks like cart-pole swing-up,
+  tasks with very high state and action dimensionality such as 3D humanoid locomotion,
+  tasks with partial observations, and tasks with hierarchical structure. We report
+  novel findings based on the systematic evaluation of a range of implemented reinforcement
+  learning algorithms. Both the benchmark and reference implementations are released
+  at https://github.com/rllab/rllab in order to facilitate experimental reproducibility
+  and to encourage adoption by other researchers.
+archiveprefix: arXiv
+author: Duan, Yan and Chen, Xi and Houthooft, Rein and Schulman, John and Abbeel,
+  Pieter
+author_list:
+- family: Duan
+  given: Yan
+- family: Chen
+  given: Xi
+- family: Houthooft
+  given: Rein
+- family: Schulman
+  given: John
+- family: Abbeel
+  given: Pieter
+eprint: 1604.06778v3
+file: 1604.06778v3.pdf
+files:
+- duan-yan-and-chen-xi-and-houthooft-rein-and-schulman-john-and-abbeel-pieterbenchmarking-deep-reinforcement-learning-for-continuous-control2016.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1604.06778v3
+time-added: 2020-07-19-19:31:22
+title: Benchmarking Deep Reinforcement Learning for Continuous Control
+type: article
+url: http://arxiv.org/abs/1604.06778v3
+year: '2016'
