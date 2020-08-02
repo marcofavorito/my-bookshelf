@@ -1,0 +1,650 @@
+author: Arute, Frank and Arya, Kunal and Babbush, Ryan and Bacon, Dave and Bardin,
+  Joseph C. and Barends, Rami and Biswas, Rupak and Boixo, Sergio and Brandao, Fernando
+  G. S. L. and Buell, David A. and Burkett, Brian and Chen, Yu and Chen, Zijun and
+  Chiaro, Ben and Collins, Roberto and Courtney, William and Dunsworth, Andrew and
+  Farhi, Edward and Foxen, Brooks and Fowler, Austin and Gidney, Craig and Giustina,
+  Marissa and Graff, Rob and Guerin, Keith and Habegger, Steve and Harrigan, Matthew
+  P. and Hartmann, Michael J. and Ho, Alan and Hoffmann, Markus and Huang, Trent and
+  Humble, Travis S. and Isakov, Sergei V. and Jeffrey, Evan and Jiang, Zhang and Kafri,
+  Dvir and Kechedzhi, Kostyantyn and Kelly, Julian and Klimov, Paul V. and Knysh,
+  Sergey and Korotkov, Alexander and Kostritsa, Fedor and Landhuis, David and Lindmark,
+  Mike and Lucero, Erik and Lyakh, Dmitry and Mandrà, Salvatore and McClean, Jarrod
+  R. and McEwen, Matthew and Megrant, Anthony and Mi, Xiao and Michielsen, Kristel
+  and Mohseni, Masoud and Mutus, Josh and Naaman, Ofer and Neeley, Matthew and Neill,
+  Charles and Niu, Murphy Yuezhen and Ostby, Eric and Petukhov, Andre and Platt, John
+  C. and Quintana, Chris and Rieffel, Eleanor G. and Roushan, Pedram and Rubin, Nicholas
+  C. and Sank, Daniel and Satzinger, Kevin J. and Smelyanskiy, Vadim and Sung, Kevin
+  J. and Trevithick, Matthew D. and Vainsencher, Amit and Villalonga, Benjamin and
+  White, Theodore and Yao, Z. Jamie and Yeh, Ping and Zalcman, Adam and Neven, Hartmut
+  and Martinis, John M.
+author_list:
+- affiliation: []
+  family: Arute
+  given: Frank
+- affiliation: []
+  family: Arya
+  given: Kunal
+- affiliation: []
+  family: Babbush
+  given: Ryan
+- affiliation: []
+  family: Bacon
+  given: Dave
+- affiliation: []
+  family: Bardin
+  given: Joseph C.
+- affiliation: []
+  family: Barends
+  given: Rami
+- affiliation: []
+  family: Biswas
+  given: Rupak
+- affiliation: []
+  family: Boixo
+  given: Sergio
+- affiliation: []
+  family: Brandao
+  given: Fernando G. S. L.
+- affiliation: []
+  family: Buell
+  given: David A.
+- affiliation: []
+  family: Burkett
+  given: Brian
+- affiliation: []
+  family: Chen
+  given: Yu
+- affiliation: []
+  family: Chen
+  given: Zijun
+- affiliation: []
+  family: Chiaro
+  given: Ben
+- affiliation: []
+  family: Collins
+  given: Roberto
+- affiliation: []
+  family: Courtney
+  given: William
+- affiliation: []
+  family: Dunsworth
+  given: Andrew
+- affiliation: []
+  family: Farhi
+  given: Edward
+- affiliation: []
+  family: Foxen
+  given: Brooks
+- affiliation: []
+  family: Fowler
+  given: Austin
+- affiliation: []
+  family: Gidney
+  given: Craig
+- affiliation: []
+  family: Giustina
+  given: Marissa
+- affiliation: []
+  family: Graff
+  given: Rob
+- affiliation: []
+  family: Guerin
+  given: Keith
+- affiliation: []
+  family: Habegger
+  given: Steve
+- affiliation: []
+  family: Harrigan
+  given: Matthew P.
+- affiliation: []
+  family: Hartmann
+  given: Michael J.
+- affiliation: []
+  family: Ho
+  given: Alan
+- affiliation: []
+  family: Hoffmann
+  given: Markus
+- affiliation: []
+  family: Huang
+  given: Trent
+- affiliation: []
+  family: Humble
+  given: Travis S.
+- affiliation: []
+  family: Isakov
+  given: Sergei V.
+- affiliation: []
+  family: Jeffrey
+  given: Evan
+- affiliation: []
+  family: Jiang
+  given: Zhang
+- affiliation: []
+  family: Kafri
+  given: Dvir
+- affiliation: []
+  family: Kechedzhi
+  given: Kostyantyn
+- affiliation: []
+  family: Kelly
+  given: Julian
+- affiliation: []
+  family: Klimov
+  given: Paul V.
+- affiliation: []
+  family: Knysh
+  given: Sergey
+- affiliation: []
+  family: Korotkov
+  given: Alexander
+- affiliation: []
+  family: Kostritsa
+  given: Fedor
+- affiliation: []
+  family: Landhuis
+  given: David
+- affiliation: []
+  family: Lindmark
+  given: Mike
+- affiliation: []
+  family: Lucero
+  given: Erik
+- affiliation: []
+  family: Lyakh
+  given: Dmitry
+- affiliation: []
+  family: Mandrà
+  given: Salvatore
+- affiliation: []
+  family: McClean
+  given: Jarrod R.
+- affiliation: []
+  family: McEwen
+  given: Matthew
+- affiliation: []
+  family: Megrant
+  given: Anthony
+- affiliation: []
+  family: Mi
+  given: Xiao
+- affiliation: []
+  family: Michielsen
+  given: Kristel
+- affiliation: []
+  family: Mohseni
+  given: Masoud
+- affiliation: []
+  family: Mutus
+  given: Josh
+- affiliation: []
+  family: Naaman
+  given: Ofer
+- affiliation: []
+  family: Neeley
+  given: Matthew
+- affiliation: []
+  family: Neill
+  given: Charles
+- affiliation: []
+  family: Niu
+  given: Murphy Yuezhen
+- affiliation: []
+  family: Ostby
+  given: Eric
+- affiliation: []
+  family: Petukhov
+  given: Andre
+- affiliation: []
+  family: Platt
+  given: John C.
+- affiliation: []
+  family: Quintana
+  given: Chris
+- affiliation: []
+  family: Rieffel
+  given: Eleanor G.
+- affiliation: []
+  family: Roushan
+  given: Pedram
+- affiliation: []
+  family: Rubin
+  given: Nicholas C.
+- affiliation: []
+  family: Sank
+  given: Daniel
+- affiliation: []
+  family: Satzinger
+  given: Kevin J.
+- affiliation: []
+  family: Smelyanskiy
+  given: Vadim
+- affiliation: []
+  family: Sung
+  given: Kevin J.
+- affiliation: []
+  family: Trevithick
+  given: Matthew D.
+- affiliation: []
+  family: Vainsencher
+  given: Amit
+- affiliation: []
+  family: Villalonga
+  given: Benjamin
+- affiliation: []
+  family: White
+  given: Theodore
+- affiliation: []
+  family: Yao
+  given: Z. Jamie
+- affiliation: []
+  family: Yeh
+  given: Ping
+- affiliation: []
+  family: Zalcman
+  given: Adam
+- affiliation: []
+  family: Neven
+  given: Hartmut
+- affiliation: []
+  family: Martinis
+  given: John M.
+citations:
+- author: RP Feynman
+  doi: 10.1007/BF02650179
+  first-page: '467'
+  journal-title: Int. J. Theor. Phys.
+  unstructured: Feynman, R. P. Simulating physics with computers. Int. J. Theor. Phys.
+    21, 467–488 (1982).
+  volume: '21'
+  year: '1982'
+- author: MH Devoret
+  doi: 10.1103/PhysRevLett.55.1908
+  first-page: '1908'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Devoret, M. H., Martinis, J. M. & Clarke, J. Measurements of macroscopic
+    quantum tunneling out of the zero-voltage state of a current-biased Josephson
+    junction. Phys. Rev. Lett. 55, 1908 (1985).
+  volume: '55'
+  year: '1985'
+- author: Y Nakamura
+  doi: 10.1103/PhysRevLett.79.2328
+  first-page: '2328'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Nakamura, Y., Chen, C. D. & Tsai, J. S. Spectroscopy of energy-level
+    splitting between two macroscopic quantum states of charge coherently superposed
+    by Josephson coupling. Phys. Rev. Lett. 79, 2328 (1997).
+  volume: '79'
+  year: '1997'
+- author: J Mooij
+  doi: 10.1126/science.285.5430.1036
+  first-page: '1036'
+  journal-title: Science
+  unstructured: Mooij, J. et al. Josephson persistent-current qubit. Science 285,
+    1036–1039 (1999).
+  volume: '285'
+  year: '1999'
+- author: A Wallraff
+  doi: 10.1038/nature02851
+  first-page: '162'
+  journal-title: Nature
+  unstructured: Wallraff, A. et al. Strong coupling of a single photon to a superconducting
+    qubit using circuit quantum electrodynamics. Nature 431, 162–167 (2004).
+  volume: '431'
+  year: '2004'
+- author: J Koch
+  doi: 10.1103/PhysRevA.76.042319
+  first-page: 042319
+  journal-title: Phys. Rev. A
+  unstructured: Koch, J. et al. Charge-insensitive qubit design derived from the Cooper
+    pair box. Phys. Rev. A 76, 042319 (2007).
+  volume: '76'
+  year: '2007'
+- author: JQ You
+  doi: 10.1038/nature10122
+  first-page: '589'
+  journal-title: Nature
+  unstructured: You, J. Q. & Nori, F. Atomic physics and quantum optics using superconducting
+    circuits. Nature 474, 589–597 (2011).
+  volume: '474'
+  year: '2011'
+- doi: 10.1142/8674
+  unstructured: "Preskill, J. Quantum computing and the entanglement frontier. Rapporteur\
+    \ Talk at the 25th Solvay Conference on Physics, Brussels \n                 \
+    \   https://doi.org/10.1142/8674\n                    \n                   (World\
+    \ Scientific, 2012)."
+- doi: 10.1145/1993636.1993682
+  unstructured: "Aaronson, S. & Arkhipov, A. The computational complexity of linear\
+    \ optics. In Proc. 43rd Ann. Symp. on Theory of Computing \n                 \
+    \   https://doi.org/10.1145/1993636.1993682\n                    \n          \
+    \         (ACM, 2011)."
+- author: MJ Bremner
+  doi: 10.1103/PhysRevLett.117.080501
+  first-page: 080501
+  journal-title: Phys. Rev. Lett.
+  unstructured: Bremner, M. J., Montanaro, A. & Shepherd, D. J. Average-case complexity
+    versus approximate simulation of commuting quantum computations. Phys. Rev. Lett.
+    117, 080501 (2016).
+  volume: '117'
+  year: '2016'
+- author: S Boixo
+  doi: 10.1038/s41567-018-0124-x
+  first-page: '595'
+  journal-title: Nat. Phys.
+  unstructured: Boixo, S. et al. Characterizing quantum supremacy in near-term devices.
+    Nat. Phys. 14, 595 (2018).
+  volume: '14'
+  year: '2018'
+- author: A Bouland
+  doi: 10.1038/s41567-018-0318-2
+  first-page: '159'
+  journal-title: Nat. Phys.
+  unstructured: Bouland, A., Fefferman, B., Nirkhe, C. & Vazirani, U. On the complexity
+    and verification of quantum random circuit sampling. Nat. Phys. 15, 159 (2019).
+  volume: '15'
+  year: '2019'
+- doi: 10.4230/LIPIcs.CCC.2017.22
+  unstructured: "Aaronson, S. & Chen, L. Complexity-theoretic foundations of quantum\
+    \ supremacy experiments. In 32nd Computational Complexity Conf. \n           \
+    \         https://doi.org/10.4230/LIPIcs.CCC.2017.22\n                    \n \
+    \                  (Schloss Dagstuhl–Leibniz Zentrum für Informatik, 2017)."
+- author: C Neill
+  doi: 10.1126/science.aao4309
+  first-page: '195'
+  journal-title: Science
+  unstructured: Neill, C. et al. A blueprint for demonstrating quantum supremacy with
+    superconducting qubits. Science 360, 195–199 (2018).
+  volume: '360'
+  year: '2018'
+- author: J Preskill
+  doi: 10.22331/q-2018-08-06-79
+  first-page: '79'
+  journal-title: Quantum
+  unstructured: Preskill, J. Quantum computing in the NISQ era and beyond. Quantum
+    2, 79 (2018).
+  volume: '2'
+  year: '2018'
+- unstructured: "Kechedzhi, K. et al. Efficient population transfer via non-ergodic\
+    \ extended states in quantum spin glass. In 13th Conf. on the Theory of Quantum\
+    \ Computation, Communication and Cryptography \n                    http://drops.dagstuhl.de/opus/volltexte/2018/9256/pdf/LIPIcs-TQC-2018-9.pdf\n\
+    \                    \n                   (Schloss Dagstuhl–Leibniz Zentrum für\
+    \ Informatik, 2018)."
+- author: RD Somma
+  doi: 10.1103/PhysRevLett.101.130504
+  first-page: '130504'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Somma, R. D., Boixo, S., Barnum, H. & Knill, E. Quantum simulations
+    of classical annealing processes. Phys. Rev. Lett. 101, 130504 (2008).
+  volume: '101'
+  year: '2008'
+- unstructured: "Farhi, E. & Neven, H. Classification with quantum neural networks\
+    \ on near term processors. Preprint at \n                    https://arxiv.org/abs/1802.06002\n\
+    \                    \n                   (2018)."
+- author: JR McClean
+  doi: 10.1038/s41467-018-07090-4
+  journal-title: Nat. Commun.
+  unstructured: McClean, J. R., Boixo, S., Smelyanskiy, V. N., Babbush, R. & Neven,
+    H. Barren plateaus in quantum neural network training landscapes. Nat. Commun.
+    9, 4812 (2018).
+  volume: '9'
+  year: '2018'
+- doi: 10.1038/s41567-019-0648-8
+  unstructured: "Cong, I., Choi, S. & Lukin, M. D. Quantum convolutional neural networks.\
+    \ Nat. Phys. \n                    https://doi.org/10.1038/s41567-019-0648-8\n\
+    \                    \n                   (2019)."
+- author: S Bravyi
+  doi: 10.1126/science.aar3106
+  first-page: '308'
+  journal-title: Science
+  unstructured: Bravyi, S., Gosset, D. & König, R. Quantum advantage with shallow
+    circuits. Science 362, 308–311 (2018).
+  volume: '362'
+  year: '2018'
+- author: A Aspuru-Guzik
+  doi: 10.1126/science.1113479
+  first-page: '1704'
+  journal-title: Science
+  unstructured: Aspuru-Guzik, A., Dutoi, A. D., Love, P. J. & Head-Gordon, M. Simulated
+    quantum computation of molecular energies. Science 309, 1704–1707 (2005).
+  volume: '309'
+  year: '2005'
+- author: A Peruzzo
+  doi: 10.1038/ncomms5213
+  journal-title: Nat. Commun.
+  unstructured: Peruzzo, A. et al. A variational eigenvalue solver on a photonic quantum
+    processor. Nat. Commun. 5, 4213 (2014).
+  volume: '5'
+  year: '2014'
+- author: C Hempel
+  first-page: '031022'
+  journal-title: Phys. Rev. X
+  unstructured: Hempel, C. et al. Quantum chemistry calculations on a trapped-ion
+    quantum simulator. Phys. Rev. X 8, 031022 (2018).
+  volume: '8'
+  year: '2018'
+- doi: 10.1109/SFCS.1994.365700
+  unstructured: "Shor, P. W. Algorithms for quantum computation: discrete logarithms\
+    \ and factoring proceedings. In Proc. 35th Ann. Symp. on Foundations of Computer\
+    \ Science \n                    https://doi.org/10.1109/SFCS.1994.365700\n   \
+    \                 \n                   (IEEE, 1994)."
+- author: AG Fowler
+  doi: 10.1103/PhysRevA.86.032324
+  first-page: '032324'
+  journal-title: Phys. Rev. A
+  unstructured: 'Fowler, A. G., Mariantoni, M., Martinis, J. M. & Cleland, A. N. Surface
+    codes: towards practical large-scale quantum computation. Phys. Rev. A 86, 032324
+    (2012).'
+  volume: '86'
+  year: '2012'
+- author: R Barends
+  doi: 10.1038/nature13171
+  first-page: '500'
+  journal-title: Nature
+  unstructured: Barends, R. et al. Superconducting quantum circuits at the surface
+    code threshold for fault tolerance. Nature 508, 500–503 (2014).
+  volume: '508'
+  year: '2014'
+- author: AD Córcoles
+  doi: 10.1038/ncomms7979
+  journal-title: Nat. Commun.
+  unstructured: Córcoles, A. D. et al. Demonstration of a quantum error detection
+    code using a square lattice of four superconducting qubits. Nat. Commun. 6, 6979
+    (2015).
+  volume: '6'
+  year: '2015'
+- author: N Ofek
+  doi: 10.1038/nature18949
+  first-page: '441'
+  journal-title: Nature
+  unstructured: Ofek, N. et al. Extending the lifetime of a quantum bit with error
+    correction in superconducting circuits. Nature 536, 441 (2016).
+  volume: '536'
+  year: '2016'
+- author: U Vool
+  doi: 10.1002/cta.2359
+  first-page: '897'
+  journal-title: Int. J. Circuit Theory Appl.
+  unstructured: Vool, U. & Devoret, M. Introduction to quantum electromagnetic circuits.
+    Int. J. Circuit Theory Appl. 45, 897–934 (2017).
+  volume: '45'
+  year: '2017'
+- author: Y Chen
+  doi: 10.1103/PhysRevLett.113.220502
+  first-page: '220502'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Chen, Y. et al. Qubit architecture with high coherence and fast tunable
+    coupling circuits. Phys. Rev. Lett. 113, 220502 (2014).
+  volume: '113'
+  year: '2014'
+- author: F Yan
+  doi: 10.1103/PhysRevApplied.10.054062
+  first-page: '054062'
+  journal-title: Phys. Rev. Appl.
+  unstructured: Yan, F. et al. A tunable coupling scheme for implementing high-fidelity
+    two-qubit gates. Phys. Rev. Appl. 10, 054062 (2018).
+  volume: '10'
+  year: '2018'
+- author: DI Schuster
+  doi: 10.1038/nature05461
+  first-page: '515'
+  journal-title: Nature
+  unstructured: Schuster, D. I. et al. Resolving photon number states in a superconducting
+    circuit. Nature 445, 515 (2007).
+  volume: '445'
+  year: '2007'
+- author: E Jeffrey
+  doi: 10.1103/PhysRevLett.112.190504
+  first-page: '190504'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Jeffrey, E. et al. Fast accurate state measurement with superconducting
+    qubits. Phys. Rev. Lett. 112, 190504 (2014).
+  volume: '112'
+  year: '2014'
+- author: Z Chen
+  doi: 10.1103/PhysRevLett.116.020501
+  first-page: '020501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Chen, Z. et al. Measuring and suppressing quantum state leakage in
+    a superconducting qubit. Phys. Rev. Lett. 116, 020501 (2016).
+  volume: '116'
+  year: '2016'
+- author: PV Klimov
+  doi: 10.1103/PhysRevLett.121.090502
+  first-page: 090502
+  journal-title: Phys. Rev. Lett.
+  unstructured: Klimov, P. V. et al. Fluctuations of energy-relaxation times in superconducting
+    qubits. Phys. Rev. Lett. 121, 090502 (2018).
+  volume: '121'
+  year: '2018'
+- author: F Yan
+  doi: 10.1038/ncomms12964
+  journal-title: Nat. Commun.
+  unstructured: Yan, F. et al. The flux qubit revisited to enhance coherence and reproducibility.
+    Nat. Commun. 7, 12964 (2016).
+  volume: '7'
+  year: '2016'
+- author: E Knill
+  doi: 10.1103/PhysRevA.77.012307
+  first-page: '012307'
+  journal-title: Phys. Rev. A
+  unstructured: Knill, E. et al. Randomized benchmarking of quantum gates. Phys. Rev.
+    A 77, 012307 (2008).
+  volume: '77'
+  year: '2008'
+- author: E Magesan
+  doi: 10.1103/PhysRevLett.106.180504
+  first-page: '180504'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Magesan, E., Gambetta, J. M. & Emerson, J. Scalable and robust randomized
+    benchmarking of quantum processes. Phys. Rev. Lett. 106, 180504 (2011).
+  volume: '106'
+  year: '2011'
+- author: AW Cross
+  first-page: '16012'
+  journal-title: Inform.
+  unstructured: Cross, A. W., Magesan, E., Bishop, L. S., Smolin, J. A. & Gambetta,
+    J. M. Scalable randomised benchmarking of non-Clifford gates. npj Quant. Inform.
+    2, 16012 (2016).
+  volume: '2'
+  year: '2016'
+- author: A Wallraff
+  doi: 10.1103/PhysRevLett.95.060501
+  first-page: '060501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Wallraff, A. et al. Approaching unit visibility for control of a superconducting
+    qubit with dispersive readout. Phys. Rev. Lett. 95, 060501 (2005).
+  volume: '95'
+  year: '2005'
+- author: H Raedt De
+  doi: 10.1016/j.cpc.2018.11.005
+  first-page: '47'
+  journal-title: Comput. Phys. Commun.
+  unstructured: De Raedt, H. et al. Massively parallel quantum computer simulator,
+    eleven years later. Comput. Phys. Commun. 237, 47–61 (2019).
+  volume: '237'
+  year: '2019'
+- unstructured: "Markov, I. L., Fatima, A., Isakov, S. V. & Boixo, S. Quantum supremacy\
+    \ is both closer and farther than it appears. Preprint at \n                 \
+    \   https://arxiv.org/abs/1807.10749\n                    \n                 \
+    \  (2018)."
+- unstructured: "Villalonga, B. et al. A flexible high-performance simulator for the\
+    \ verification and benchmarking of quantum circuits implemented on real hardware.\
+    \ npj Quant. Inform. (in the press); preprint at \n                    https://arxiv.org/abs/1811.09599\n\
+    \                    \n                   (2018)."
+- unstructured: "Boixo, S., Isakov, S. V., Smelyanskiy, V. N. & Neven, H. Simulation\
+    \ of low-depth quantum circuits as complex undirected graphical models. Preprint\
+    \ at \n                    https://arxiv.org/abs/1712.05384\n                \
+    \    \n                   (2017)."
+- unstructured: "Chen, J., Zhang, F., Huang, C., Newman, M. & Shi, Y. Classical simulation\
+    \ of intermediate-size quantum circuits. Preprint at \n                    https://arxiv.org/abs/1805.01450\n\
+    \                    \n                   (2018)."
+- unstructured: "Villalonga, B. et al. Establishing the quantum supremacy frontier\
+    \ with a 281 pflop/s simulation. Preprint at \n                    https://arxiv.org/abs/1905.00444\n\
+    \                    \n                   (2019)."
+- unstructured: "Pednault, E. et al. Breaking the 49-qubit barrier in the simulation\
+    \ of quantum circuits. Preprint at \n                    https://arxiv.org/abs/1710.05867\n\
+    \                    \n                   (2017)."
+- author: ZY Chen
+  doi: 10.1016/j.scib.2018.06.007
+  first-page: '964'
+  journal-title: Sci. Bull.
+  unstructured: Chen, Z. Y. et al. 64-qubit quantum circuit simulation. Sci. Bull.
+    63, 964–971 (2018).
+  volume: '63'
+  year: '2018'
+- unstructured: "Chen, M.-C. et al. Quantum-teleportation-inspired algorithm for sampling\
+    \ large random quantum circuits. Preprint at \n                    https://arxiv.org/abs/1901.05003\n\
+    \                    \n                   (2019)."
+- author: PW Shor
+  doi: 10.1103/PhysRevA.52.R2493
+  first-page: R2493
+  journal-title: Phys. Rev. A
+  unstructured: Shor, P. W. Scheme for reducing decoherence in quantum computer memory.
+    Phys. Rev. A 52, R2493–R2496 (1995).
+  volume: '52'
+  year: '1995'
+- author: MH Devoret
+  doi: 10.1126/science.1231930
+  first-page: '1169'
+  journal-title: Science
+  unstructured: 'Devoret, M. H. & Schoelkopf, R. J. Superconducting circuits for quantum
+    information: an outlook. Science 339, 1169–1174 (2013).'
+  volume: '339'
+  year: '2013'
+- author: M Mohseni
+  doi: 10.1038/543171a
+  first-page: '171'
+  journal-title: Nature
+  unstructured: Mohseni, M. et al. Commercialize quantum technologies in five years.
+    Nature 543, 171 (2017).
+  volume: '543'
+  year: '2017'
+- author: LK Grover
+  doi: 10.1103/PhysRevLett.79.325
+  first-page: '325'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Grover, L. K. Quantum mechanics helps in searching for a needle in
+    a haystack. Phys. Rev. Lett. 79, 325 (1997).
+  volume: '79'
+  year: '1997'
+- doi: 10.1145/167088.167097
+  unstructured: "Bernstein, E. & Vazirani, U. Quantum complexity theory. In Proc.\
+    \ 25th Ann. Symp. on Theory of Computing \n                    https://doi.org/10.1145/167088.167097\n\
+    \                    \n                   (ACM, 1993)."
+doc_url: http://www.nature.com/articles/s41586-019-1666-5
+doi: 10.1038/s41586-019-1666-5
+files:
+- arute-frank-and-arya-kunal-and-babbush-ryan-and-bacon-dave-and-bardin-joseph-c.-and-barends-rami-and-biswas-rupak-and-boixo-sergio-and-brandao.data
+- arute-frank-and-arya-kunal-and-babbush-ryan-and-bacon-dave-and-bardin-joseph-c.-and-barends-rami-and-biswas-rupak-and-boixo-sergio-and-brandao-a.pdf
+issue: '7779'
+journal: Nature
+language: en
+month: 10
+pages: 505--510
+publisher: Springer Science and Business Media LLC
+time-added: 2020-08-02-12:42:18
+title: Quantum supremacy using a programmable superconducting processor
+type: article
+url: http://dx.doi.org/10.1038/s41586-019-1666-5
+volume: '574'
+year: 2019

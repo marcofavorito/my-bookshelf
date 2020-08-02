@@ -1,0 +1,43 @@
+abstract: As quantum computers improve in the number of qubits and fidelity, the question
+  of when they surpass state-of-the-art classical computation for a well-defined computational
+  task is attracting much attention. The leading candidate task for this milestone
+  entails sampling from the output distribution defined by a random quantum circuit.
+  We develop a massively-parallel simulation tool Rollright that does not require
+  inter-process communication (IPC) or proprietary hardware. We also develop two ways
+  to trade circuit fidelity for computational speedups, so as to match the fidelity
+  of a given quantum computer --- a task previously thought impossible. We report
+  massive speedups for the sampling task over prior software from Microsoft, IBM,
+  Alibaba and Google, as well as supercomputer and GPU-based simulations. By using
+  publicly available Google Cloud Computing, we price such simulations and enable
+  comparisons by total cost across hardware platforms. We simulate approximate sampling
+  from the output of a circuit with 7x8 qubits and depth 1+40+1 by producing one million
+  bitstring probabilities with fidelity 0.5%, at an estimated cost of $35184. The
+  simulation costs scale linearly with fidelity, and using this scaling we estimate
+  that extending circuit depth to 1+48+1 increases costs to one million dollars. Scaling
+  the simulation to 10M bitstring probabilities needed for sampling 1M bitstrings
+  helps comparing simulation to quantum computers. We describe refinements in benchmarks
+  that slow down leading simulators, halving the circuit depth that can be simulated
+  within the same time.
+archiveprefix: arXiv
+author: Markov, Igor L. and Fatima, Aneeqa and Isakov, Sergei V. and Boixo, Sergio
+author_list:
+- family: Markov
+  given: Igor L.
+- family: Fatima
+  given: Aneeqa
+- family: Isakov
+  given: Sergei V.
+- family: Boixo
+  given: Sergio
+eprint: 1807.10749v3
+file: 1807.10749v3.pdf
+files:
+- markov-igor-l.-and-fatima-aneeqa-and-isakov-sergei-v.-and-boixo-sergioquantum-supremacy-is-both-closer-and-farther-than-it-appears2018.pdf
+month: Jul
+primaryclass: quant-ph
+ref: 1807.10749v3
+time-added: 2020-08-02-12:42:27
+title: Quantum Supremacy Is Both Closer and Farther than It Appears
+type: article
+url: http://arxiv.org/abs/1807.10749v3
+year: '2018'
