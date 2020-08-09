@@ -1,0 +1,33 @@
+abstract: We show that a particular form of target propagation, i.e., relying on learned
+  inverses of each layer, which is differential, i.e., where the target is a small
+  perturbation of the forward propagation, gives rise to an update rule which corresponds
+  to an approximate Gauss-Newton gradient-based optimization, without requiring the
+  manipulation or inversion of large matrices. What is interesting is that this is
+  more biologically plausible than back-propagation yet may turn out to implicitly
+  provide a stronger optimization procedure. Extending difference target propagation,
+  we consider several iterative calculations based on local auto-encoders at each
+  layer in order to achieve more precise inversions for more accurate target propagation
+  and we show that these iterative procedures converge exponentially fast if the auto-encoding
+  function minus the identity function has a Lipschitz constant smaller than one,
+  i.e., the auto-encoder is coarsely succeeding at performing an inversion. We also
+  propose a way to normalize the changes at each layer to take into account the relative
+  influence of each layer on the output, so that larger weight changes are done on
+  more influential layers, like would happen in ordinary back-propagation with gradient
+  descent.
+archiveprefix: arXiv
+author: Bengio, Yoshua
+author_list:
+- family: Bengio
+  given: Yoshua
+eprint: 2007.15139v1
+file: 2007.15139v1.pdf
+files:
+- bengio-yoshuaderiving-differential-target-propagation-from-iterating-approximate-inverses2020.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 2007.15139v1
+time-added: 2020-08-04-12:22:00
+title: Deriving Differential Target Propagation from Iterating Approximate   Inverses
+type: article
+url: http://arxiv.org/abs/2007.15139v1
+year: '2020'

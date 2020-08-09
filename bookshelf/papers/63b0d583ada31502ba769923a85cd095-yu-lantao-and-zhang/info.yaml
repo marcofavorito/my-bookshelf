@@ -1,0 +1,39 @@
+abstract: As a new way of training generative models, Generative Adversarial Nets
+  (GAN) that uses a discriminative model to guide the training of the generative model
+  has enjoyed considerable success in generating real-valued data. However, it has
+  limitations when the goal is for generating sequences of discrete tokens. A major
+  reason lies in that the discrete outputs from the generative model make it difficult
+  to pass the gradient update from the discriminative model to the generative model.
+  Also, the discriminative model can only assess a complete sequence, while for a
+  partially generated sequence, it is non-trivial to balance its current score and
+  the future one once the entire sequence has been generated. In this paper, we propose
+  a sequence generation framework, called SeqGAN, to solve the problems. Modeling
+  the data generator as a stochastic policy in reinforcement learning (RL), SeqGAN
+  bypasses the generator differentiation problem by directly performing gradient policy
+  update. The RL reward signal comes from the GAN discriminator judged on a complete
+  sequence, and is passed back to the intermediate state-action steps using Monte
+  Carlo search. Extensive experiments on synthetic data and real-world tasks demonstrate
+  significant improvements over strong baselines.
+archiveprefix: arXiv
+author: Yu, Lantao and Zhang, Weinan and Wang, Jun and Yu, Yong
+author_list:
+- family: Yu
+  given: Lantao
+- family: Zhang
+  given: Weinan
+- family: Wang
+  given: Jun
+- family: Yu
+  given: Yong
+eprint: 1609.05473v6
+file: 1609.05473v6.pdf
+files:
+- yu-lantao-and-zhang-weinan-and-wang-jun-and-yu-yongseqgan-sequence-generative-adversarial-nets-with-policy-gradient2016.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1609.05473v6
+time-added: 2020-08-06-19:03:12
+title: 'SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient'
+type: article
+url: http://arxiv.org/abs/1609.05473v6
+year: '2016'

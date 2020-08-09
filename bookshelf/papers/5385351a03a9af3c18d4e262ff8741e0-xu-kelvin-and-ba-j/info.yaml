@@ -1,0 +1,40 @@
+abstract: 'Inspired by recent work in machine translation and object detection, we
+  introduce an attention based model that automatically learns to describe the content
+  of images. We describe how we can train this model in a deterministic manner using
+  standard backpropagation techniques and stochastically by maximizing a variational
+  lower bound. We also show through visualization how the model is able to automatically
+  learn to fix its gaze on salient objects while generating the corresponding words
+  in the output sequence. We validate the use of attention with state-of-the-art performance
+  on three benchmark datasets: Flickr8k, Flickr30k and MS COCO.'
+archiveprefix: arXiv
+author: Xu, Kelvin and Ba, Jimmy and Kiros, Ryan and Cho, Kyunghyun and Courville,
+  Aaron and Salakhutdinov, Ruslan and Zemel, Richard and Bengio, Yoshua
+author_list:
+- family: Xu
+  given: Kelvin
+- family: Ba
+  given: Jimmy
+- family: Kiros
+  given: Ryan
+- family: Cho
+  given: Kyunghyun
+- family: Courville
+  given: Aaron
+- family: Salakhutdinov
+  given: Ruslan
+- family: Zemel
+  given: Richard
+- family: Bengio
+  given: Yoshua
+eprint: 1502.03044v3
+file: 1502.03044v3.pdf
+files:
+- xu-kelvin-and-ba-jimmy-and-kiros-ryan-and-cho-kyunghyun-and-courville-aaron-and-salakhutdinov-ruslan-and-zemel-richard-and-bengio-yoshuashow.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1502.03044v3
+time-added: 2020-08-06-19:00:49
+title: 'Show, Attend and Tell: Neural Image Caption Generation with Visual   Attention'
+type: article
+url: http://arxiv.org/abs/1502.03044v3
+year: '2015'

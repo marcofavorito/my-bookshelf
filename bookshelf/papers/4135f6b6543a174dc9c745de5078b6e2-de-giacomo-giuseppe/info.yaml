@@ -1,0 +1,41 @@
+abstract: <jats:p>In this work we have investigated the concept of “restraining bolt”,
+  inspired by Science Fiction. We have two distinct sets of features extracted from
+  the world, one by the agent and one by the authority imposing some restraining specifications
+  on the behaviour of the agent (the “restraining bolt”). The two sets of features
+  and, hence the model of the world attainable from them, are apparently unrelated
+  since of interest to independent parties. However they both account for (aspects
+  of) the same world. We have considered the case in which the agent is a reinforcement
+  learning agent on a set of low-level (subsymbolic) features, while the restraining
+  bolt is specified logically using linear time logic on finite traces f/f over a
+  set of high-level symbolic features. We show formally, and illustrate with examples,
+  that, under general circumstances, the agent can learn while shaping its goals to
+  suitably conform (as much as possible) to the restraining bolt specifications.1</jats:p>
+author: De Giacomo, Giuseppe and Iocchi, Luca and Favorito, Marco and Patrizi, Fabio
+author_list:
+- affiliation: []
+  family: De Giacomo
+  given: Giuseppe
+- affiliation: []
+  family: Iocchi
+  given: Luca
+- affiliation: []
+  family: Favorito
+  given: Marco
+- affiliation: []
+  family: Patrizi
+  given: Fabio
+doc_url: https://aaai.org/ojs/index.php/AAAI/article/download/7114/6968
+doi: 10.1609/aaai.v34i09.7114
+files:
+- de-giacomo-giuseppe-and-iocchi-luca-and-favorito-marco-and-patrizi-fabiorestraining-bolts-for-reinforcement-learning-agents2020.pdf
+issue: 09
+journal: Proceedings of the AAAI Conference on Artificial Intelligence
+month: 4
+pages: 13659--13662
+publisher: Association for the Advancement of Artificial Intelligence (AAAI)
+time-added: 2020-08-06-18:26:59
+title: Restraining Bolts for Reinforcement Learning Agents
+type: article
+url: http://dx.doi.org/10.1609/aaai.v34i09.7114
+volume: '34'
+year: 2020

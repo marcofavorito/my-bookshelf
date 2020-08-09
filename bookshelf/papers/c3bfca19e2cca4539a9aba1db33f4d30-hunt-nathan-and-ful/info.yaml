@@ -1,0 +1,40 @@
+abstract: Deploying deep reinforcement learning in safety-critical settings requires
+  developing algorithms that obey hard constraints during exploration. This paper
+  contributes a first approach toward enforcing formal safety constraints on end-to-end
+  policies with visual inputs. Our approach draws on recent advances in object detection
+  and automated reasoning for hybrid dynamical systems. The approach is evaluated
+  on a novel benchmark that emphasizes the challenge of safely exploring in the presence
+  of hard constraints. Our benchmark draws from several proposed problem sets for
+  safe learning and includes problems that emphasize challenges such as reward signals
+  that are not aligned with safety constraints. On each of these benchmark problems,
+  our algorithm completely avoids unsafe behavior while remaining competitive at optimizing
+  for as much reward as is safe. We also prove that our method of enforcing the safety
+  constraints preserves all safe policies from the original environment.
+archiveprefix: arXiv
+author: Hunt, Nathan and Fulton, Nathan and Magliacane, Sara and Hoang, Nghia and
+  Das, Subhro and Solar-Lezama, Armando
+author_list:
+- family: Hunt
+  given: Nathan
+- family: Fulton
+  given: Nathan
+- family: Magliacane
+  given: Sara
+- family: Hoang
+  given: Nghia
+- family: Das
+  given: Subhro
+- family: Solar-Lezama
+  given: Armando
+eprint: 2007.01223v1
+file: 2007.01223v1.pdf
+files:
+- hunt-nathan-and-fulton-nathan-and-magliacane-sara-and-hoang-nghia-and-das-subhro-and-solar-lezama-armandoverifiably-safe-exploration-for-end-to.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 2007.01223v1
+time-added: 2020-08-06-17:35:54
+title: Verifiably Safe Exploration for End-to-End Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2007.01223v1
+year: '2020'
