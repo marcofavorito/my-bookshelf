@@ -1,0 +1,961 @@
+author: Buşoniu, Lucian and Babuška, Robert and De Schutter, Bart
+author_list:
+- affiliation: []
+  family: Buşoniu
+  given: Lucian
+- affiliation: []
+  family: Babuška
+  given: Robert
+- affiliation: []
+  family: De Schutter
+  given: Bart
+citations:
+- author: O. Abul
+  doi: 10.1109/5326.897075
+  first-page: '485'
+  issue: '4'
+  journal-title: 'IEEE Transactions on Systems, Man, and Cybernetics—Part C: Applications
+    and Reviews'
+  unstructured: 'Abul, O., Polat, F., Alhajj, R.: Multiagent reinforcement learning
+    using function approximation. IEEE Transactions on Systems, Man, and Cybernetics—Part
+    C: Applications and Reviews 4(4), 485–497 (2000)'
+  volume: '4'
+  year: '2000'
+- author: T. Bäck
+  unstructured: 'Bäck, T.: Evolutionary Algorithms in Theory and Practice: Evolution
+    Strategies, Evolutionary Programming, Genetic Algorithms. Oxford University Press,
+    Oxford (1996)'
+  volume-title: 'Evolutionary Algorithms in Theory and Practice: Evolution Strategies,
+    Evolutionary Programming, Genetic Algorithms'
+  year: '1996'
+- doi: 10.1137/1.9781611971132
+  unstructured: 'Başar, T., Olsder, G.J.: Dynamic Noncooperative Game Theory, 2nd
+    edn. Society for Industrial and Applied Mathematics, SIAM (1999)'
+- unstructured: 'Bakker, B., Steingrover, M., Schouten, R., Nijhuis, E., Kester, L.:
+    Cooperative multi-agent reinforcement learning of traffic lights. In: Workshop
+    on Cooperative Multi-Agent Learning, 16th European Conference on Machine Learning
+    (ECML-2005), Porto, Portugal (2005)'
+- doi: 10.1145/860575.860686
+  unstructured: 'Banerjee, B., Peng, J.: Adaptive policy gradient in multiagent learning.
+    In: Proceedings 2nd International Joint Conference on Autonomous Agents and Multiagent
+    Systems (AAMAS 2003), Melbourne, Australia, pp. 686–692 (2003)'
+- author: A.G. Barto
+  first-page: '833'
+  issue: '5'
+  journal-title: IEEE Transactions on Systems, Man, and Cybernetics
+  unstructured: 'Barto, A.G., Sutton, R.S., Anderson, C.W.: Neuronlike adaptive elements
+    that can solve difficult learning control problems. IEEE Transactions on Systems,
+    Man, and Cybernetics 13(5), 833–846 (1983)'
+  volume: '13'
+  year: '1983'
+- author: H.R. Berenji
+  doi: 10.1109/TFUZZ.2003.814834
+  first-page: '478'
+  issue: '4'
+  journal-title: IEEE Transactions on Fuzzy Systems
+  unstructured: 'Berenji, H.R., Vengerov, D.: A convergent actor-critic-based FRL
+    algorithm with application to power management of wireless transmitters. IEEE
+    Transactions on Fuzzy Systems 11(4), 478–485 (2003)'
+  volume: '11'
+  year: '2003'
+- unstructured: 'Bertsekas, D.P.: Dynamic Programming and Optimal Control, 3rd edn.,
+    vol. 2. Athena Scientific (2007)'
+- unstructured: 'Bertsekas, D.P., Tsitsiklis, J.N.: Neuro-Dynamic Programming. Athena
+    Scientific (1996)'
+- author: V. Borkar
+  doi: 10.1016/j.sysconle.2004.08.007
+  first-page: '207'
+  issue: '3'
+  journal-title: Systems & Control Letters
+  unstructured: 'Borkar, V.: An actor-critic algorithm for constrained Markov decision
+    processes. Systems & Control Letters 54(3), 207–213 (2005)'
+  volume: '54'
+  year: '2005'
+- unstructured: 'Boutilier, C.: Planning, learning and coordination in multiagent
+    decision processes. In: Proceedings 6th Conference on Theoretical Aspects of Rationality
+    and Knowledge (TARK-1996), pp. 195–210. De Zeeuwse Stromen, The Netherlands (1996)'
+- unstructured: 'Bowling, M.: Convergence problems of general-sum multiagent reinforcement
+    learning. In: Proceedings 17th International Conference on Machine Learning (ICML-2000),
+    Stanford University, US, pp. 89–94 (2000)'
+- unstructured: 'Bowling, M.: Multiagent learning in the presence of agents with limitations.
+    Ph.D. thesis, Computer Science Dept., Carnegie Mellon University, Pittsburgh,
+    US (2003)'
+- author: M. Bowling
+  first-page: '209'
+  unstructured: 'Bowling, M.: Convergence and no-regret in multiagent learning. In:
+    Saul, L.K., Weiss, Y., Bottou, L. (eds.) Advances in Neural Information Processing
+    Systems 17, pp. 209–216. MIT Press, Cambridge (2005)'
+  volume-title: Advances in Neural Information Processing Systems 17
+  year: '2005'
+- unstructured: 'Bowling, M., Veloso, M.: An analysis of stochastic game theory for
+    multiagent reinforcement learning. Tech. rep., Computer Science Dept., Carnegie
+    Mellon University, Pittsburgh, US (2000), http://www.cs.ualberta.ca/~bowling/papers/00tr.pdf'
+- unstructured: 'Bowling, M., Veloso, M.: Rational and convergent learning in stochastic
+    games. In: Proceedings 17th International Conference on Artificial Intelligence
+    (IJCAI-2001), San Francisco, US, pp. 1021–1026 (2001)'
+- author: M. Bowling
+  doi: 10.1016/S0004-3702(02)00121-2
+  first-page: '215'
+  issue: '2'
+  journal-title: Artificial Intelligence
+  unstructured: 'Bowling, M., Veloso, M.: Multiagent learning using a variable learning
+    rate. Artificial Intelligence 136(2), 215–250 (2002)'
+  volume: '136'
+  year: '2002'
+- author: J.A. Boyan
+  first-page: '671'
+  unstructured: 'Boyan, J.A., Littman, M.L.: Packet routing in dynamically changing
+    networks: A reinforcement learning approach. In: Moody, J. (ed.) Advances in Neural
+    Information Processing Systems 6, pp. 671–678. Morgan Kaufmann, San Francisco
+    (1994)'
+  volume-title: Advances in Neural Information Processing Systems 6
+  year: '1994'
+- author: G.W. Brown
+  first-page: '374'
+  unstructured: 'Brown, G.W.: Iterative solutions of games by fictitious play. In:
+    Koopmans, T.C. (ed.) Activitiy Analysis of Production and Allocation, ch. XXIV,
+    pp. 374–376. Wiley, Chichester (1951)'
+  volume-title: Activitiy Analysis of Production and Allocation, ch. XXIV
+  year: '1951'
+- author: L. Buşoniu
+  doi: 10.1109/TSMCC.2007.913919
+  first-page: '156'
+  issue: '2'
+  journal-title: 'IEEE Transactions on Systems, Man, and Cybernetics. Part C: Applications
+    and Reviews'
+  unstructured: 'Buşoniu, L., Babuška, R., De Schutter, B.: A comprehensive survey
+    of multi-agent reinforcement learning. IEEE Transactions on Systems, Man, and
+    Cybernetics. Part C: Applications and Reviews 38(2), 156–172 (2008)'
+  volume: '38'
+  year: '2008'
+- unstructured: 'Buşoniu, L., De Schutter, B., Babuška, R.: Multiagent reinforcement
+    learning with adaptive state focus. In: Proceedings 17th Belgian-Dutch Conference
+    on Artificial Intelligence (BNAIC-2005), Brussels, Belgium, pp. 35–42 (2005)'
+- doi: 10.1109/ICARCV.2006.345351
+  unstructured: 'Buşoniu, L., De Schutter, B., Babuška, R.: Decentralized reinforcement
+    learning control of a robotic manipulator. In: Proceedings 9th International Conference
+    of Control, Automation, Robotics, and Vision (ICARCV-2006), Singapore, pp. 1347–1352
+    (2006)'
+- author: L. Buşoniu
+  doi: 10.1007/978-3-642-11688-9_1
+  first-page: '3'
+  series-title: Studies in Computational Intelligence
+  unstructured: 'Buşoniu, L., De Schutter, B., Babuška, R.: Approximate dynamic programming
+    and reinforcement learning. In: Babuška, R., Groen, F.C.A. (eds.) Interactive
+    Collaborative Information Systems. Studies in Computational Intelligence, vol. 281,
+    pp. 3–44. Springer, Heidelberg (2010)'
+  volume-title: Interactive Collaborative Information Systems
+  year: '2010'
+- author: O. Buffet
+  doi: 10.1007/s10458-006-9010-5
+  first-page: '197'
+  issue: '2'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Buffet, O., Dutech, A., Charpillet, F.: Shaping multi-agent systems
+    with gradient reinforcement learning. Autonomous Agents and Multi-Agent Systems 15(2),
+    197–220 (2007)'
+  volume: '15'
+  year: '2007'
+- author: D. Carmel
+  doi: 10.1007/3-540-60923-7_18
+  first-page: '40'
+  unstructured: 'Carmel, D., Markovitch, S.: Opponent modeling in multi-agent systems.
+    In: Weiß, G., Sen, S. (eds.) Adaptation and Learning in Multi-Agent Systems, ch. 3,
+    pp. 40–52. Springer, Heidelberg (1996)'
+  volume-title: Adaptation and Learning in Multi-Agent Systems, ch. 3
+  year: '1996'
+- unstructured: 'Chalkiadakis, G.: Multiagent reinforcement learning: Stochastic games
+    with multiple learning players. Tech. rep., Dept. of Computer Science, University
+    of Toronto, Canada (2003), http://www.cs.toronto.edu/~gehalk/DepthReport/DepthReport.ps'
+- author: V. Cherkassky
+  unstructured: 'Cherkassky, V., Mulier, F.: Learning from Data: Concepts, Theory,
+    And Methods. Wiley, Chichester (1998)'
+  volume-title: 'Learning from Data: Concepts, Theory, And Methods'
+  year: '1998'
+- author: S.P.M. Choi
+  first-page: '945'
+  unstructured: 'Choi, S.P.M., Yeung, D.Y.: Predictive Q-routing: A memory-based reinforcement
+    learning approach to adaptive traffic control. In: Touretzky, D.S., Mozer, M.,
+    Hasselmo, M.E. (eds.) Advances in Neural Information Processing Systems 8, pp.
+    945–951. MIT Press, Cambridge (1996)'
+  volume-title: Advances in Neural Information Processing Systems 8
+  year: '1996'
+- unstructured: 'Claus, C., Boutilier, C.: The dynamics of reinforcement learning
+    in cooperative multiagent systems. In: Proceedings 15th National Conference on
+    Artificial Intelligence and 10th Conference on Innovative Applications of Artificial
+    Intelligence (AAAI/IAAI-1998), Madison, US, pp. 746–752 (1998)'
+- unstructured: 'Clouse, J.: Learning from an automated training agent. In: Working
+    Notes Workshop on Agents that Learn from Other Agents, 12th International Conference
+    on Machine Learning (ICML-1995), Tahoe City, US (1995)'
+- unstructured: 'Conitzer, V., Sandholm, T.: AWESOME: A general multiagent learning
+    algorithm that converges in self-play and learns a best response against stationary
+    opponents. In: Proceedings 20th International Conference on Machine Learning (ICML-2003),
+    Washington, US, pp. 83–90 (2003)'
+- author: R.H. Crites
+  first-page: '1017'
+  unstructured: 'Crites, R.H., Barto, A.G.: Improving elevator performance using reinforcement
+    learning. In: Touretzky, D.S., Mozer, M.C., Hasselmo, M.E. (eds.) Advances in
+    Neural Information Processing Systems 8, pp. 1017–1023. MIT Press, Cambridge (1996)'
+  volume-title: Advances in Neural Information Processing Systems 8
+  year: '1996'
+- author: R.H. Crites
+  doi: 10.1023/A:1007518724497
+  first-page: '235'
+  issue: 2–3
+  journal-title: Machine Learning
+  unstructured: 'Crites, R.H., Barto, A.G.: Elevator group control using multiple
+    reinforcement learning agents. Machine Learning 33(2–3), 235–262 (1998)'
+  volume: '33'
+  year: '1998'
+- author: D. Ernst
+  first-page: '503'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Ernst, D., Geurts, P., Wehenkel, L.: Tree-based batch mode reinforcement
+    learning. Journal of Machine Learning Research 6, 503–556 (2005)'
+  volume: '6'
+  year: '2005'
+- author: F. Fernández
+  first-page: '217'
+  issue: '4'
+  journal-title: International Journal of Robotics and Automation, Special Issue on
+    Computational Intelligence Techniques in Cooperative Robots
+  unstructured: 'Fernández, F., Parker, L.E.: Learning in large cooperative multi-robot
+    systems. International Journal of Robotics and Automation, Special Issue on Computational
+    Intelligence Techniques in Cooperative Robots 16(4), 217–226 (2001)'
+  volume: '16'
+  year: '2001'
+- author: S.G. Ficici
+  doi: 10.1007/3-540-45356-3_46
+  first-page: '467'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Ficici, S.G., Pollack, J.B.: A game-theoretic approach to the simple
+    coevolutionary algorithm. In: Deb, K., Rudolph, G., Lutton, E., Merelo, J.J.,
+    Schoenauer, M., Schwefel, H.-P., Yao, X. (eds.) PPSN 2000. LNCS, vol. 1917, pp.
+    467–476. Springer, Heidelberg (2000)'
+  volume-title: Parallel Problem Solving from Nature-PPSN VI
+  year: '2000'
+- unstructured: 'Fischer, F., Rovatsos, M., Weiss, G.: Hierarchical reinforcement
+    learning in communication-mediated multiagent coordination. In: Proceedings 3rd
+    International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS-2004),
+    New York, US, pp. 1334–1335 (2004)'
+- author: R. Fitch
+  doi: 10.1007/11589990_19
+  first-page: '164'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Fitch, R., Hengst, B., Suc, D., Calbert, G., Scholz, J.B.: Structural
+    abstraction experiments in reinforcement learning. In: Zhang, S., Jarvis, R.A.
+    (eds.) AI 2005. LNCS (LNAI), vol. 3809, pp. 164–175. Springer, Heidelberg (2005)'
+  volume-title: 'AI 2005: Advances in Artificial Intelligence'
+  year: '2005'
+- author: D. Fudenberg
+  unstructured: 'Fudenberg, D., Levine, D.K.: The Theory of Learning in Games. MIT
+    Press, Cambridge (1998)'
+  volume-title: The Theory of Learning in Games
+  year: '1998'
+- author: M. Ghavamzadeh
+  doi: 10.1007/s10458-006-7035-4
+  first-page: '197'
+  issue: '2'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Ghavamzadeh, M., Mahadevan, S., Makar, R.: Hierarchical multi-agent
+    reinforcement learning. Autonomous Agents and Multi-Agent Systems 13(2), 197–229
+    (2006)'
+  volume: '13'
+  year: '2006'
+- unstructured: 'Glorennec, P.Y.: Reinforcement learning: An overview. In: Proceedings
+    European Symposium on Intelligent Techniques (ESIT-2000), Aachen, Germany, pp.
+    17–35 (2000)'
+- unstructured: 'Greenwald, A., Hall, K.: Correlated-Q learning. In: Proceedings 20th
+    International Conference on Machine Learning (ICML-2003), Washington, US, pp.
+    242–249 (2003)'
+- unstructured: 'Guestrin, C., Lagoudakis, M.G., Parr, R.: Coordinated reinforcement
+    learning. In: Proceedings 19th International Conference on Machine Learning (ICML-2002),
+    Sydney, Australia, pp. 227–234 (2002)'
+- unstructured: 'Hansen, E.A., Bernstein, D.S., Zilberstein, S.: Dynamic programming
+    for partially observable stochastic games. In: Proceedings 19th National Conference
+    on Artificial Intelligence (AAAI-2004), San Jose, US, pp. 709–715 (2004)'
+- unstructured: 'Haynes, T., Wainwright, R., Sen, S., Schoenefeld, D.: Strongly typed
+    genetic programming in evolving cooperation strategies. In: Proceedings 6th International
+    Conference on Genetic Algorithms (ICGA-1995), Pittsburgh, US, pp. 271–278 (1995)'
+- author: F. Ho
+  doi: 10.1023/A:1007562506751
+  first-page: '155'
+  issue: 2–3
+  journal-title: Machine Learning
+  unstructured: 'Ho, F., Kamel, M.: Learning coordination strategies for cooperative
+    multiagent systems. Machine Learning 33(2–3), 155–177 (1998)'
+  volume: '33'
+  year: '1998'
+- doi: 10.1109/FUZZY.1996.551807
+  unstructured: 'Horiuchi, T., Fujino, A., Katai, O., Sawaragi, T.: Fuzzy interpolation-based
+    Q-learning with continuous states and actions. In: Proceedings 5th IEEE International
+    Conference on Fuzzy Systems (FUZZ-IEEE-1996), New Orleans, US, pp. 594–600 (1996)'
+- author: W.T. Hsu
+  doi: 10.1007/3-540-44637-0_8
+  first-page: '108'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Hsu, W.T., Soo, V.W.: Market performance of adaptive trading agents
+    in synchronous double auctions. In: Yuan, S.-T., Yokoo, M. (eds.) PRIMA 2001.
+    LNCS (LNAI), vol. 2132, pp. 108–121. Springer, Heidelberg (2001)'
+  volume-title: 'Intelligent Agents: Specification, Modeling, and Application'
+  year: '2001'
+- unstructured: 'Hu, J., Wellman, M.P.: Multiagent reinforcement learning: Theoretical
+    framework and an algorithm. In: Proceedings 15th International Conference on Machine
+    Learning (ICML-1998), Madison, US, pp. 242–250 (1998)'
+- author: J. Hu
+  doi: 10.1162/jmlr.2003.4.6.1039
+  first-page: '1039'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Hu, J., Wellman, M.P.: Nash Q-learning for general-sum stochastic
+    games. Journal of Machine Learning Research 4, 1039–1069 (2003)'
+  volume: '4'
+  year: '2003'
+- author: S. Ishii
+  doi: 10.1007/s10994-005-0461-8
+  first-page: '31'
+  issue: 1–2
+  journal-title: Machine Learning
+  unstructured: 'Ishii, S., Fujita, H., Mitsutake, M., Yamazaki, T., Matsuda, J.,
+    Matsuno, Y.: A reinforcement learning scheme for a partially-observable multi-agent
+    game. Machine Learning 59(1–2), 31–54 (2005)'
+  volume: '59'
+  year: '2005'
+- author: Y. Ishiwaka
+  doi: 10.1016/S0921-8890(03)00040-X
+  first-page: '245'
+  issue: '4'
+  journal-title: Robotics and Autonomous Systems
+  unstructured: 'Ishiwaka, Y., Sato, T., Kakazu, Y.: An approach to the pursuit problem
+    on a heterogeneous multiagent system using reinforcement learning. Robotics and
+    Autonomous Systems 43(4), 245–256 (2003)'
+  volume: '43'
+  year: '2003'
+- author: T. Jaakkola
+  doi: 10.1162/neco.1994.6.6.1185
+  first-page: '1185'
+  issue: '6'
+  journal-title: Neural Computation
+  unstructured: 'Jaakkola, T., Jordan, M.I., Singh, S.P.: On the convergence of stochastic
+    iterative dynamic programming algorithms. Neural Computation 6(6), 1185–1201 (1994)'
+  volume: '6'
+  year: '1994'
+- unstructured: 'Jafari, A., Greenwald, A.R., Gondek, D., Ercal, G.: On no-regret
+    learning, fictitious play, and Nash equilibrium. In: Proceedings 18th International
+    Conference on Machine Learning (ICML-2001), pp. 226–233. Williams College, Williamstown,
+    US (2001)'
+- author: K.D. Jong
+  unstructured: 'Jong, K.D.: Evolutionary Computation: A Unified Approach. MIT Press,
+    Cambridge (2005)'
+  volume-title: 'Evolutionary Computation: A Unified Approach'
+  year: '2005'
+- author: L. Jouffe
+  doi: 10.1109/5326.704563
+  first-page: '338'
+  issue: '3'
+  journal-title: 'IEEE Transactions on Systems, Man, and Cybernetics—Part C: Applications
+    and Reviews'
+  unstructured: 'Jouffe, L.: Fuzzy inference system learning by reinforcement methods.
+    IEEE Transactions on Systems, Man, and Cybernetics—Part C: Applications and Reviews 28(3),
+    338–355 (1998)'
+  volume: '28'
+  year: '1998'
+- doi: 10.1109/ADPRL.2007.368208
+  unstructured: 'Jung, T., Polani, D.: Kernelizing LSPE(λ). In: Proceedings 2007 IEEE
+    Symposium on Approximate Dynamic Programming and Reinforcement Learning (ADPRL-2007),
+    Honolulu, US, pp. 338–345 (2007)'
+- author: L.P. Kaelbling
+  doi: 10.1613/jair.301
+  first-page: '237'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Kaelbling, L.P., Littman, M.L., Moore, A.W.: Reinforcement learning:
+    A survey. Journal of Artificial Intelligence Research 4, 237–285 (1996)'
+  volume: '4'
+  year: '1996'
+- unstructured: 'Kapetanakis, S., Kudenko, D.: Reinforcement learning of coordination
+    in cooperative multi-agent systems. In: Proceedings 18th National Conference on
+    Artificial Intelligence and 14th Conference on Innovative Applications of Artificial
+    Intelligence (AAAI/IAAI-2002), Menlo Park, US, pp. 326–331 (2002)'
+- unstructured: 'Kok, J.R., ’t Hoen, P.J., Bakker, B., Vlassis, N.: Utile coordination:
+    Learning interdependencies among cooperative agents. In: Proceedings IEEE Symposium
+    on Computational Intelligence and Games (CIG 2005), Colchester, United Kingdom,
+    pp. 29–36 (2005)'
+- author: J.R. Kok
+  doi: 10.1016/j.robot.2004.08.003
+  first-page: '99'
+  issue: 2–3
+  journal-title: Robotics and Autonomous Systems
+  unstructured: 'Kok, J.R., Spaan, M.T.J., Vlassis, N.: Non-communicative multi-robot
+    coordination in dynamic environment. Robotics and Autonomous Systems 50(2–3),
+    99–114 (2005)'
+  volume: '50'
+  year: '2005'
+- doi: 10.1145/1015330.1015410
+  unstructured: 'Kok, J.R., Vlassis, N.: Sparse cooperative Q-learning. In: Proceedings
+    21st International Conference on Machine Learning (ICML-2004), Banff, Canada,
+    pp. 481–488 (2004)'
+- author: V.R. Konda
+  doi: 10.1137/S0363012901385691
+  first-page: '1143'
+  issue: '4'
+  journal-title: SIAM Journal on Control and Optimization
+  unstructured: 'Konda, V.R., Tsitsiklis, J.N.: On actor-critic algorithms. SIAM Journal
+    on Control and Optimization 42(4), 1143–1166 (2003)'
+  volume: '42'
+  year: '2003'
+- unstructured: 'Könönen, V.: Asymmetric multiagent reinforcement learning. In: Proceedings
+    IEEE/WIC International Conference on Intelligent Agent Technology (IAT-2003),
+    Halifax, Canada, pp. 336–342 (2003)'
+- author: V. Könönen
+  doi: 10.1007/978-3-540-45080-1_9
+  first-page: '68'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Könönen, V.: Gradient based method for symmetric and asymmetric multiagent
+    reinforcement learning. In: Liu, J., Cheung, Y.-m., Yin, H. (eds.) IDEAL 2003.
+    LNCS, vol. 2690, pp. 68–75. Springer, Heidelberg (2003)'
+  volume-title: Intelligent Data Engineering and Automated Learning – IDEAL 2003
+  year: '2003'
+- author: M.G. Lagoudakis
+  doi: 10.1162/jmlr.2003.4.6.1107
+  first-page: '1107'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Lagoudakis, M.G., Parr, R.: Least-squares policy iteration. Journal
+    of Machine Learning Research 4, 1107–1149 (2003)'
+  volume: '4'
+  year: '2003'
+- unstructured: 'Lauer, M., Riedmiller, M.: An algorithm for distributed reinforcement
+    learning in cooperative multi-agent systems. In: Proceedings 17th International
+    Conference on Machine Learning (ICML-2000), Stanford University, US, pp. 535–542
+    (2000)'
+- author: J.-W. Lee
+  doi: 10.1007/3-540-46146-9_16
+  first-page: '153'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Lee, J.-W., Jang Min, O.: A multi-agent Q-learning framework for
+    optimizing stock trading systems. In: Hameurlain, A., Cicchetti, R., Traunmüller,
+    R. (eds.) DEXA 2002. LNCS, vol. 2453, pp. 153–162. Springer, Heidelberg (2002)'
+  volume-title: Database and Expert Systems Applications
+  year: '2002'
+- doi: 10.1016/B978-1-55860-335-6.50027-1
+  unstructured: 'Littman, M.L.: Markov games as a framework for multi-agent reinforcement
+    learning. In: Proceedings 11th International Conference on Machine Learning (ICML-1994),
+    New Brunswick, US, pp. 157–163 (1994)'
+- author: M.L. Littman
+  doi: 10.1016/S1389-0417(01)00015-8
+  first-page: '55'
+  issue: '1'
+  journal-title: Journal of Cognitive Systems Research
+  unstructured: 'Littman, M.L.: Value-function reinforcement learning in Markov games.
+    Journal of Cognitive Systems Research 2(1), 55–66 (2001)'
+  volume: '2'
+  year: '2001'
+- author: M.L. Littman
+  doi: 10.1007/3-540-45448-9_29
+  first-page: '96'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Littman, M.L., Stone, P.: Implicit negotiation in repeated games.
+    In: Meyer, J.-J.C., Tambe, M. (eds.) ATAL 2001. LNCS (LNAI), vol. 2333, pp. 96–105.
+    Springer, Heidelberg (2002)'
+  volume-title: Intelligent Agents VIII
+  year: '2002'
+- author: W.S. Lovejoy
+  doi: 10.1287/opre.39.1.162
+  first-page: '162'
+  issue: '1'
+  journal-title: Operations Research
+  unstructured: 'Lovejoy, W.S.: Computationally feasible bounds for partially observed
+    Markov decision processes. Operations Research 39(1), 162–175 (1991)'
+  volume: '39'
+  year: '1991'
+- doi: 10.1016/B978-1-55860-335-6.50030-1
+  unstructured: 'Matarić, M.J.: Reward functions for accelerated learning. In: Proceedings
+    11th International Conference on Machine Learning (ICML-1994), New Brunswick,
+    US, pp. 181–189 (1994)'
+- author: M.J. Matarić
+  doi: 10.1007/3-540-60923-7_25
+  first-page: '152'
+  unstructured: 'Matarić, M.J.: Learning in multi-robot systems. In: Weiß, G., Sen,
+    S. (eds.) Adaptation and Learning in Multi–Agent Systems, ch. 10, pp. 152–163.
+    Springer, Heidelberg (1996)'
+  volume-title: Adaptation and Learning in Multi–Agent Systems, ch. 10
+  year: '1996'
+- author: M.J. Matarić
+  doi: 10.1023/A:1008819414322
+  first-page: '73'
+  issue: '1'
+  journal-title: Autonomous Robots
+  unstructured: 'Matarić, M.J.: Reinforcement learning in the multi-robot domain.
+    Autonomous Robots 4(1), 73–83 (1997)'
+  volume: '4'
+  year: '1997'
+- doi: 10.1145/1390156.1390240
+  unstructured: 'Melo, F.S., Meyn, S.P., Ribeiro, M.I.: An analysis of reinforcement
+    learning with function approximation. In: Proceedings 25th International Conference
+    on Machine Learning (ICML-2008), Helsinki, Finland, pp. 664–671 (2008)'
+- author: A. Merke
+  doi: 10.1007/3-540-45603-1_56
+  first-page: '435'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Merke, A., Riedmiller, M.A.: Karlsruhe brainstormers - A reinforcement
+    learning approach to robotic soccer. In: Birk, A., Coradeschi, S., Tadokoro, S.
+    (eds.) RoboCup 2001. LNCS (LNAI), vol. 2377, pp. 435–440. Springer, Heidelberg
+    (2002)'
+  volume-title: 'RoboCup 2001: Robot Soccer World Cup V'
+  year: '2002'
+- unstructured: 'Miconi, T.: When evolving populations is better than coevolving individuals:
+    The blind mice problem. In: Proceedings 18th International Joint Conference on
+    Artificial Intelligence (IJCAI 2003), Acapulco, Mexico, pp. 647–652 (2003)'
+- author: A.W. Moore
+  first-page: '103'
+  journal-title: Machine Learning
+  unstructured: 'Moore, A.W., Atkeson, C.G.: Prioritized sweeping: Reinforcement learning
+    with less data and less time. Machine Learning 13, 103–130 (1993)'
+  volume: '13'
+  year: '1993'
+- author: R. Munos
+  first-page: '815'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Munos, R., Szepesvári, C.: Finite time bounds for fitted value iteration.
+    Journal of Machine Learning Research 9, 815–857 (2008)'
+  volume: '9'
+  year: '2008'
+- author: M.V. Nagendra Prasad
+  doi: 10.1006/ijhc.1997.0160
+  first-page: '51'
+  issue: '1'
+  journal-title: International Journal of Human-Computer Studies
+  unstructured: 'Nagendra Prasad, M.V., Lesser, V.R., Lander, S.E.: Learning organizational
+    roles for negotiated search in a multiagent system. International Journal of Human-Computer
+    Studies 48(1), 51–67 (1998)'
+  volume: '48'
+  year: '1998'
+- author: S. Nash
+  unstructured: 'Nash, S., Sofer, A.: Linear and Nonlinear Programming. McGraw-Hill,
+    New York (1996)'
+  volume-title: Linear and Nonlinear Programming
+  year: '1996'
+- author: A. Nedić
+  doi: 10.1023/A:1022192903948
+  first-page: '79'
+  issue: 1–2
+  journal-title: 'Discrete Event Dynamic Systems: Theory and Applications'
+  unstructured: 'Nedić, A., Bertsekas, D.P.: Least-squares policy evaluation algorithms
+    with linear function approximation. Discrete Event Dynamic Systems: Theory and
+    Applications 13(1–2), 79–110 (2003)'
+  volume: '13'
+  year: '2003'
+- author: R.R. Negenborn
+  doi: 10.1016/j.engappai.2007.08.005
+  first-page: '353'
+  issue: '3'
+  journal-title: Engineering Applications of Artificial Intelligence
+  unstructured: 'Negenborn, R.R., De Schutter, B., Hellendoorn, H.: Multi-agent model
+    predictive control for transportation networks: Serial versus parallel schemes.
+    Engineering Applications of Artificial Intelligence 21(3), 353–366 (2008)'
+  volume: '21'
+  year: '2008'
+- author: D. Ormoneit
+  doi: 10.1023/A:1017928328829
+  first-page: '161'
+  issue: 2–3
+  journal-title: Machine Learning
+  unstructured: 'Ormoneit, D., Sen, S.: Kernel-based reinforcement learning. Machine
+    Learning 49(2–3), 161–178 (2002)'
+  volume: '49'
+  year: '2002'
+- author: L. Panait
+  doi: 10.1007/s10458-005-2631-2
+  first-page: '387'
+  issue: '3'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Panait, L., Luke, S.: Cooperative multi-agent learning: The state
+    of the art. Autonomous Agents and Multi-Agent Systems 11(3), 387–434 (2005)'
+  volume: '11'
+  year: '2005'
+- unstructured: 'Panait, L., Wiegand, R.P., Luke, S.: Improving coevolutionary search
+    for optimal multiagent behaviors. In: Proceedings 18th International Joint Conference
+    on Artificial Intelligence (IJCAI-2003), Acapulco, Mexico, pp. 653–660 (2003)'
+- author: H.V.D. Parunak
+  first-page: '377'
+  unstructured: 'Parunak, H.V.D.: Industrial and practical applications of DAI. In:
+    Weiss, G. (ed.) Multi–Agent Systems: A Modern Approach to Distributed Artificial
+    Intelligence, ch. 9, pp. 377–412. MIT Press, Cambridge (1999)'
+  volume-title: 'Multi–Agent Systems: A Modern Approach to Distributed Artificial
+    Intelligence, ch. 9'
+  year: '1999'
+- author: J. Peng
+  first-page: '283'
+  issue: 1–3
+  journal-title: Machine Learning
+  unstructured: 'Peng, J., Williams, R.J.: Incremental multi-step Q-learning. Machine
+    Learning 22(1–3), 283–290 (1996)'
+  volume: '22'
+  year: '1996'
+- author: J. Peters
+  doi: 10.1016/j.neucom.2007.11.026
+  first-page: '1180'
+  issue: 7–9
+  journal-title: Neurocomputing
+  unstructured: 'Peters, J., Schaal, S.: Natural actor-critic. Neurocomputing 71(7–9),
+    1180–1190 (2008)'
+  volume: '71'
+  year: '2008'
+- author: M.A. Potter
+  doi: 10.1007/3-540-58484-6_269
+  first-page: '249'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Potter, M.A., Jong, K.A.D.: A cooperative coevolutionary approach
+    to function optimization. In: Davidor, Y., Männer, R., Schwefel, H.-P. (eds.)
+    PPSN 1994. LNCS, vol. 866, pp. 249–257. Springer, Heidelberg (1994)'
+  volume-title: Parallel Problem Solving from Nature - PPSN III
+  year: '1994'
+- author: W.B. Powell
+  doi: 10.1002/9780470182963
+  unstructured: 'Powell, W.B.: Approximate Dynamic Programming: Solving the Curses
+    of Dimensionality. Wiley, Chichester (2007)'
+  volume-title: 'Approximate Dynamic Programming: Solving the Curses of Dimensionality'
+  year: '2007'
+- author: R. Powers
+  first-page: '1089'
+  unstructured: 'Powers, R., Shoham, Y.: New criteria and a new algorithm for learning
+    in multi-agent systems. In: Saul, L.K., Weiss, Y., Bottou, L. (eds.) Advances
+    in Neural Information Processing Systems 17, pp. 1089–1096. MIT Press, Cambridge
+    (2005)'
+  volume-title: Advances in Neural Information Processing Systems 17
+  year: '2005'
+- unstructured: 'Price, B., Boutilier, C.: Implicit imitation in multiagent reinforcement
+    learning. In: Proceedings 16th International Conference on Machine Learning (ICML-1999),
+    Bled, Slovenia, pp. 325–334 (1999)'
+- author: B. Price
+  doi: 10.1613/jair.898
+  first-page: '569'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Price, B., Boutilier, C.: Accelerating reinforcement learning through
+    implicit imitation. Journal of Artificial Intelligence Research 19, 569–629 (2003)'
+  volume: '19'
+  year: '2003'
+- author: M.L. Puterman
+  unstructured: 'Puterman, M.L.: Markov Decision Processes—Discrete Stochastic Dynamic
+    Programming. Wiley, Chichester (1994)'
+  volume-title: Markov Decision Processes—Discrete Stochastic Dynamic Programming
+  year: '1994'
+- author: D.V. Pynadath
+  doi: 10.1613/jair.1024
+  first-page: '389'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Pynadath, D.V., Tambe, M.: The communicative multiagent team decision
+    problem: Analyzing teamwork theories and models. Journal of Artificial Intelligence
+    Research 16, 389–423 (2002)'
+  volume: '16'
+  year: '2002'
+- doi: 10.1109/COEC.2003.1210269
+  unstructured: 'Raju, C., Narahari, Y., Ravikumar, K.: Reinforcement learning applications
+    in dynamic pricing of retail markets. In: Proceedings 2003 IEEE International
+    Conference on E-Commerce (CEC-2003), Newport Beach, US, pp. 339–346 (2003)'
+- author: M. Riedmiller
+  doi: 10.1007/11564096_32
+  first-page: '317'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Riedmiller, M.: Neural fitted Q iteration - first experiences with
+    a data efficient neural reinforcement learning method. In: Gama, J., Camacho,
+    R., Brazdil, P.B., Jorge, A.M., Torgo, L. (eds.) ECML 2005. LNCS (LNAI), vol. 3720,
+    pp. 317–328. Springer, Heidelberg (2005)'
+  volume-title: 'Machine Learning: ECML 2005'
+  year: '2005'
+- author: M.A. Riedmiller
+  first-page: '137'
+  unstructured: 'Riedmiller, M.A., Moore, A.W., Schneider, J.G.: Reinforcement learning
+    for cooperating and communicating reactive agents in electrical power grids. In:
+    Hannebauer, M., Wendler, J., Pagello, E. (eds.) Balancing Reactivity and Social
+    Deliberation in Multi-Agent Systems, pp. 137–149. Springer, Heidelberg (2000)'
+  volume-title: Balancing Reactivity and Social Deliberation in Multi-Agent Systems
+  year: '2000'
+- author: R. Salustowicz
+  doi: 10.1023/A:1007570708568
+  first-page: '263'
+  issue: 2–3
+  journal-title: Machine Learning
+  unstructured: 'Salustowicz, R., Wiering, M., Schmidhuber, J.: Learning team strategies:
+    Soccer case studies. Machine Learning 33(2–3), 263–282 (1998)'
+  volume: '33'
+  year: '1998'
+- author: A. Schaerf
+  doi: 10.1613/jair.121
+  first-page: '475'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Schaerf, A., Shoham, Y., Tennenholtz, M.: Adaptive load balancing:
+    A study in multi-agent learning. Journal of Artificial Intelligence Research 2,
+    475–500 (1995)'
+  volume: '2'
+  year: '1995'
+- author: J. Schmidhuber
+  doi: 10.1142/9789812817471_0003
+  first-page: '81'
+  unstructured: 'Schmidhuber, J.: A general method for incremental self-improvement
+    and multi-agent learning. In: Yao, X. (ed.) Evolutionary Computation: Theory and
+    Applications, ch. 3, pp. 81–123. World Scientific, Singapore (1999)'
+  volume-title: 'Evolutionary Computation: Theory and Applications, ch. 3'
+  year: '1999'
+- unstructured: 'Sejnowski, T.J., Hinton, G.E. (eds.): Unsupervised Learning: Foundations
+    of Neural Computation. MIT Press, Cambridge (1999)'
+  volume-title: 'Unsupervised Learning: Foundations of Neural Computation'
+  year: '1999'
+- unstructured: 'Sen, S., Sekaran, M., Hale, J.: Learning to coordinate without sharing
+    information. In: Proceedings 12th National Conference on Artificial Intelligence
+    (AAAI-1994), Seattle, US, pp. 426–431 (1994)'
+- author: S. Sen
+  first-page: '259'
+  unstructured: 'Sen, S., Weiss, G.: Learning in multiagent systems. In: Weiss, G.
+    (ed.) Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence,
+    ch. 6, pp. 259–298. MIT Press, Cambridge (1999)'
+  volume-title: 'Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence,
+    ch. 6'
+  year: '1999'
+- author: Y. Shoham
+  doi: 10.1017/CBO9780511811654
+  unstructured: 'Shoham, Y., Leyton-Brown, K.: Multiagent Systems: Algorithmic, Game
+    Theoretic and Logical Foundations. Cambridge University Press, Cambridge (2008)'
+  volume-title: 'Multiagent Systems: Algorithmic, Game Theoretic and Logical Foundations'
+  year: '2008'
+- author: Y. Shoham
+  doi: 10.1016/j.artint.2006.02.006
+  first-page: '365'
+  issue: '7'
+  journal-title: Artificial Intelligence
+  unstructured: 'Shoham, Y., Powers, R., Grenager, T.: If multi-agent learning is
+    the answer, what is the question? Artificial Intelligence 171(7), 365–377 (2007)'
+  volume: '171'
+  year: '2007'
+- unstructured: 'Singh, S., Kearns, M., Mansour, Y.: Nash convergence of gradient
+    dynamics in general-sum games. In: Proceedings 16th Conference on Uncertainty
+    in Artificial Intelligence (UAI 2000), San Francisco, US, pp. 541–548 (2000)'
+- author: S.P. Singh
+  first-page: '361'
+  unstructured: 'Singh, S.P., Jaakkola, T., Jordan, M.I.: Reinforcement learning with
+    soft state aggregation. In: Tesauro, G., Touretzky, D.S., Leen, T.K. (eds.) Advances
+    in Neural Information Processing Systems 7, pp. 361–368. MIT Press, Cambridge
+    (1995)'
+  volume-title: Advances in Neural Information Processing Systems 7
+  year: '1995'
+- author: J.M. Smith
+  doi: 10.1017/CBO9780511806292
+  unstructured: 'Smith, J.M.: Evolution and the Theory of Games. Cambridge University
+    Press, Cambridge (1982)'
+  volume-title: Evolution and the Theory of Games
+  year: '1982'
+- unstructured: 'Spaan, M.T.J., Vlassis, N., Groen, F.C.A.: High level coordination
+    of agents based on multiagent Markov decision processes with roles. In: Workshop
+    on Cooperative Robotics, 2002 IEEE/RSJ International Conference on Intelligent
+    Robots and Systems (IROS-2002), Lausanne, Switzerland, pp. 66–73 (2002)'
+- doi: 10.1109/IJCNN.2000.859399
+  unstructured: 'Stephan, V., Debes, K., Gross, H.M., Wintrich, F., Wintrich, H.:
+    A reinforcement learning based neural multi-agent-system for control of a combustion
+    process. In: Proceedings IEEE-INNS-ENNS International Joint Conference on Neural
+    Networks (IJCNN-2000), Como, Italy, pp. 6217–6222 (2000)'
+- doi: 10.1145/301136.301195
+  unstructured: 'Stone, P., Veloso, M.: Team-partitioned, opaque-transition reinforcement
+    learning. In: Proceedings 3rd International Conference on Autonomous Agents (Agents-1999),
+    Seattle, US, pp. 206–212 (1999)'
+- author: P. Stone
+  doi: 10.1023/A:1008942012299
+  first-page: '345'
+  issue: '3'
+  journal-title: Autonomous Robots
+  unstructured: 'Stone, P., Veloso, M.: Multiagent systems: A survey from the machine
+    learning perspective. Autonomous Robots 8(3), 345–383 (2000)'
+  volume: '8'
+  year: '2000'
+- doi: 10.1145/544741.544831
+  unstructured: 'Suematsu, N., Hayashi, A.: A multiagent reinforcement learning algorithm
+    using extended optimal response. In: Proceedings 1st International Joint Conference
+    on Autonomous Agents and Multiagent Systems (AAMAS-2002), Bologna, Italy, pp.
+    370–377 (2002)'
+- author: T. Sueyoshi
+  doi: 10.1016/j.dss.2007.05.007
+  first-page: '425'
+  journal-title: Decision Support Systems
+  unstructured: 'Sueyoshi, T., Tadiparthi, G.R.: An agent-based decision support system
+    for wholesale electricity markets. Decision Support Systems 44, 425–446 (2008)'
+  volume: '44'
+  year: '2008'
+- author: R.S. Sutton
+  first-page: '9'
+  journal-title: Machine Learning
+  unstructured: 'Sutton, R.S.: Learning to predict by the method of temporal differences.
+    Machine Learning 3, 9–44 (1988)'
+  volume: '3'
+  year: '1988'
+- doi: 10.1016/B978-1-55860-141-3.50030-4
+  unstructured: 'Sutton, R.S.: Integrated architectures for learning, planning, and
+    reacting based on approximating dynamic programming. In: Proceedings 7th International
+    Conference on Machine Learning (ICML-1990), Austin, US, pp. 216–224 (1990)'
+- author: R.S. Sutton
+  unstructured: 'Sutton, R.S., Barto, A.G.: Reinforcement Learning: An Introduction.
+    MIT Press, Cambridge (1998)'
+  volume-title: 'Reinforcement Learning: An Introduction'
+  year: '1998'
+- doi: 10.1145/1015330.1015445
+  unstructured: 'Szepesvári, C., Smart, W.D.: Interpolation-based Q-learning. In:
+    Proceedings 21st International Conference on Machine Learning (ICML-2004), Bannf,
+    Canada, pp. 791–798 (2004)'
+- author: H. Tamakoshi
+  doi: 10.1007/BF02481502
+  first-page: '202'
+  issue: '4'
+  journal-title: Artificial Life and Robotics
+  unstructured: 'Tamakoshi, H., Ishii, S.: Multiagent reinforcement learning applied
+    to a chase problem in a continuous world. Artificial Life and Robotics 5(4), 202–206
+    (2001)'
+  volume: '5'
+  year: '2001'
+- doi: 10.1016/B978-1-55860-307-3.50049-6
+  unstructured: 'Tan, M.: Multi-agent reinforcement learning: Independent vs. cooperative
+    agents. In: Proceedings 10th International Conference on Machine Learning (ICML
+    1993), Amherst, US, pp. 330–337 (1993)'
+- author: G. Tesauro
+  unstructured: 'Tesauro, G.: Extending Q-learning to general adaptive multi-agent
+    systems. In: Thrun, S., Saul, L.K., Schölkopf, B. (eds.) Advances in Neural Information
+    Processing Systems 16, MIT Press, Cambridge (2004)'
+  volume-title: Advances in Neural Information Processing Systems 16
+  year: '2004'
+- author: G. Tesauro
+  doi: 10.1023/A:1015504423309
+  first-page: '289'
+  issue: '3'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Tesauro, G., Kephart, J.O.: Pricing in agent economies using multi-agent
+    Q-learning. Autonomous Agents and Multi-Agent Systems 5(3), 289–304 (2002)'
+  volume: '5'
+  year: '2002'
+- author: P. Tillotson
+  doi: 10.1016/j.engappai.2004.02.004
+  first-page: '179'
+  issue: '2'
+  journal-title: Engineering Applications of Artificial Intelligence
+  unstructured: 'Tillotson, P., Wu, Q., Hughes, P.: Multi-agent learning for routing
+    control within an Internet environment. Engineering Applications of Artificial
+    Intelligence 17(2), 179–185 (2004)'
+  volume: '17'
+  year: '2004'
+- author: C.F. Touzet
+  doi: 10.1016/S0921-8890(97)00042-0
+  first-page: '251'
+  issue: 3–4
+  journal-title: Robotics and Autonomous Systems
+  unstructured: 'Touzet, C.F.: Neural reinforcement learning for behaviour synthesis.
+    Robotics and Autonomous Systems 22(3–4), 251–281 (1997)'
+  volume: '22'
+  year: '1997'
+- author: C.F. Touzet
+  doi: 10.1023/A:1008945119734
+  first-page: '87'
+  issue: '1'
+  journal-title: Autonomous Robots
+  unstructured: 'Touzet, C.F.: Robot awareness in cooperative mobile robot learning.
+    Autonomous Robots 8(1), 87–97 (2000)'
+  volume: '8'
+  year: '2000'
+- author: J.N. Tsitsiklis
+  first-page: '185'
+  issue: '1'
+  journal-title: Machine Learning
+  unstructured: 'Tsitsiklis, J.N.: Asynchronous stochastic approximation and Q-learning.
+    Machine Learning 16(1), 185–202 (1994)'
+  volume: '16'
+  year: '1994'
+- author: K. Tuyls
+  doi: 10.1007/s10458-005-3783-9
+  first-page: '115'
+  issue: '1'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Tuyls, K., ’t Hoen, P.J., Vanschoenwinkel, B.: An evolutionary dynamical
+    analysis of multi-agent learning in iterated games. Autonomous Agents and Multi-Agent
+    Systems 12(1), 115–153 (2006)'
+  volume: '12'
+  year: '2006'
+- unstructured: 'Tuyls, K., Maes, S., Manderick, B.: Q-learning in simulated robotic
+    soccer – large state spaces and incomplete information. In: Proceedings 2002 International
+    Conference on Machine Learning and Applications (ICMLA-2002), Las Vegas, US, pp.
+    226–232 (2002)'
+- author: K. Tuyls
+  doi: 10.1017/S026988890500041X
+  first-page: '63'
+  issue: '1'
+  journal-title: The Knowledge Engineering Review
+  unstructured: 'Tuyls, K., Nowé, A.: Evolutionary game theory and multi-agent reinforcement
+    learning. The Knowledge Engineering Review 20(1), 63–90 (2005)'
+  volume: '20'
+  year: '2005'
+- unstructured: 'Uther, W.T., Veloso, M.: Adversarial reinforcement learning. Tech.
+    rep., School of Computer Science, Carnegie Mellon University, Pittsburgh, US (1997),
+    http://www.cs.cmu.edu/afs/cs/user/will/www/papers/Uther97a.ps'
+- author: J.M. Vidal
+  doi: 10.1007/3-540-44826-8_13
+  first-page: '202'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'Vidal, J.M.: Learning in multiagent systems: An introduction from
+    a game-theoretic perspective. In: Alonso, E., Kudenko, D., Kazakov, D. (eds.)
+    AAMAS 2000 and AAMAS 2002. LNCS (LNAI), vol. 2636, pp. 202–215. Springer, Heidelberg
+    (2003)'
+  volume-title: Adaptive Agents and Multi-Agent Systems
+  year: '2003'
+- doi: 10.2200/S00091ED1V01Y200705AIM002
+  unstructured: 'Vlassis, N.: A Concise Introduction to Multiagent Systems and Distributed
+    Artificial Intelligence. Synthesis Lectures in Artificial Intelligence and Machine
+    Learning. Morgan & Claypool Publishers (2007)'
+- author: X. Wang
+  first-page: '1571'
+  unstructured: 'Wang, X., Sandholm, T.: Reinforcement learning to play an optimal
+    Nash equilibrium in team Markov games. In: Becker, S., Thrun, S., Obermayer, K.
+    (eds.) Advances in Neural Information Processing Systems 15, pp. 1571–1578. MIT
+    Press, Cambridge (2003)'
+  volume-title: Advances in Neural Information Processing Systems 15
+  year: '2003'
+- author: C.J.C.H. Watkins
+  first-page: '279'
+  journal-title: Machine Learning
+  unstructured: 'Watkins, C.J.C.H., Dayan, P.: Q-learning. Machine Learning 8, 279–292
+    (1992)'
+  volume: '8'
+  year: '1992'
+- unstructured: 'Weinberg, M., Rosenschein, J.S.: Best-response multiagent learning
+    in non-stationary environments. In: Proceedings 3rd International Joint Conference
+    on Autonomous Agents and Multiagent Systems (AAMAS-2004), New York, US, pp. 506–513
+    (2004)'
+- unstructured: 'Weiss, G. (ed.): Multiagent Systems: A Modern Approach to Distributed
+    Artificial Intelligence. MIT Press, Cambridge (1999)'
+  volume-title: 'Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence'
+  year: '1999'
+- doi: 10.1080/1019678032000062212
+  unstructured: 'Wellman, M.P., Greenwald, A.R., Stone, P., Wurman, P.R.: The 2001
+    Trading Agent Competition. Electronic Markets 13(1) (2003)'
+- unstructured: 'Wiering, M.: Multi-agent reinforcement learning for traffic light
+    control. In: Proceedings 17th International Conference on Machine Learning (ICML-2000),
+    pp. 1151–1158. Stanford University, US (2000)'
+- author: M. Wiering
+  doi: 10.1023/A:1008921914343
+  first-page: '77'
+  issue: '1'
+  journal-title: Autonomous Robots
+  unstructured: 'Wiering, M., Salustowicz, R., Schmidhuber, J.: Reinforcement learning
+    soccer teams with incomplete world models. Autonomous Robots 7(1), 77–88 (1999)'
+  volume: '7'
+  year: '1999'
+- unstructured: 'Zapechelnyuk, A.: Limit behavior of no-regret dynamics. Discussion
+    Papers 21, Kyiv School of Economics, Kyiv, Ucraine (2009)'
+- unstructured: 'Zinkevich, M.: Online convex programming and generalized infinitesimal
+    gradient ascent. In: Proceedings 20th International Conference on Machine Learning
+    (ICML-2003), Washington, US, pp. 928–936 (2003)'
+doi: 10.1007/978-3-642-14435-6_7
+files:
+- busoniu-lucian-and-babuska-robert-and-de-schutter-bartmulti-agent-reinforcement-learning-an-overview2010.pdf
+isbn:
+- '9783642144349'
+- '9783642144356'
+journal: Innovations in Multi-Agent Systems and Applications - 1
+pages: 183--221
+publisher: Springer Berlin Heidelberg
+time-added: 2020-09-16-20:07:00
+title: 'Multi-agent Reinforcement Learning: An Overview'
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-642-14435-6_7
+year: 2010

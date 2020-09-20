@@ -1,0 +1,37 @@
+abstract: The best current methods for exactly computing the number of satisfying
+  assignments, or the satisfying probability, of Boolean formulas can be seen, either
+  directly or indirectly, as building 'decision-DNNF' (decision decomposable negation
+  normal form) representations of the input Boolean formulas. Decision-DNNFs are a
+  special case of 'd-DNNF's where 'd' stands for 'deterministic'. We show that any
+  decision-DNNF can be converted into an equivalent 'FBDD' (free binary decision diagram)
+  -- also known as a 'read-once branching program' (ROBP or 1-BP) -- with only a quasipolynomial
+  increase in representation size in general, and with only a polynomial increase
+  in size in the special case of monotone k-DNF formulas. Leveraging known exponential
+  lower bounds for FBDDs, we then obtain similar exponential lower bounds for decision-DNNFs
+  which provide lower bounds for the recent algorithms. We also separate the power
+  of decision-DNNFs from d-DNNFs and a generalization of decision-DNNFs known as AND-FBDDs.
+  Finally we show how these imply exponential lower bounds for natural problems associated
+  with probabilistic databases.
+archiveprefix: arXiv
+author: Beame, Paul and Li, Jerry and Roy, Sudeepa and Suciu, Dan
+author_list:
+- family: Beame
+  given: Paul
+- family: Li
+  given: Jerry
+- family: Roy
+  given: Sudeepa
+- family: Suciu
+  given: Dan
+eprint: 1309.6815v1
+file: 1309.6815v1.pdf
+files:
+- beame-paul-and-li-jerry-and-roy-sudeepa-and-suciu-danlower-bounds-for-exact-model-counting-and-applications-in-probabilistic-databases2013.pdf
+month: Sep
+primaryclass: cs.DB
+ref: 1309.6815v1
+time-added: 2020-08-19-15:28:38
+title: Lower Bounds for Exact Model Counting and Applications in Probabilistic   Databases
+type: article
+url: http://arxiv.org/abs/1309.6815v1
+year: '2013'

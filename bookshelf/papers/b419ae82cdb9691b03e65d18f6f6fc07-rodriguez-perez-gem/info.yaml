@@ -1,0 +1,669 @@
+author: Rodríguez-Pérez, Gema and Robles, Gregorio and Serebrenik, Alexander and Zaidman,
+  Andy and Germán, Daniel M. and Gonzalez-Barahona, Jesus M.
+author_list:
+- affiliation: []
+  family: Rodríguez-Pérez
+  given: Gema
+- affiliation: []
+  family: Robles
+  given: Gregorio
+- affiliation: []
+  family: Serebrenik
+  given: Alexander
+- affiliation: []
+  family: Zaidman
+  given: Andy
+- affiliation: []
+  family: Germán
+  given: Daniel M.
+- affiliation: []
+  family: Gonzalez-Barahona
+  given: Jesus M.
+citations:
+- doi: 10.1145/1595808.1595835
+  unstructured: 'Abreu R, Premraj R (2009) How developer communication frequency relates
+    to bug introducing changes. In: Proceedings of the joint international and annual
+    ERCIM workshops on Principles of software evolution (IWPSE) and software evolution
+    (Evol) workshops. ACM, pp 153–158.'
+- unstructured: 'Alexandru CV, Gall H (2015) Rapid multi-purpose, multi-commit code
+    analysis. In: 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering
+    (ICSE), vol 2. IEEE, pp 635–638'
+- doi: 10.1109/ICSE.2009.5070530
+  unstructured: 'Aranda J, Venolia G (2009) The secret life of bugs: Going past the
+    errors and omissions in software repositories. In: Proceedings of the 31st international
+    conference on software engineering. IEEE Computer Society, pp 298–308'
+- author: VR Basili
+  doi: 10.1145/69605.2085
+  first-page: '42'
+  issue: '1'
+  journal-title: Commun ACM
+  unstructured: 'Basili VR, Perricone BT (1984) Software errors and complexity: an
+    empirical investigation. Commun ACM 27(1):42–52'
+  volume: '27'
+  year: '1984'
+- doi: 10.1109/ICSM.2015.7332454
+  unstructured: 'Bavota G, Russo B. (2015) Four eyes are better than two: on the impact
+    of code reviews on software quality. In: 2015 IEEE International Conference on
+    Software Maintenance and Evolution (ICSME). IEEE, pp 81–90'
+- doi: 10.1109/ICSE.2015.193
+  unstructured: 'Beller M, Gousios G, Zaidman A (2015) How (much) do developers test?.
+    In: Proceedings of the International Conference on Software Engineering (ICSE),
+    vol 2. IEEE Computer Society, pp 559–562'
+- doi: 10.1109/MSR.2017.62
+  unstructured: 'Beller M, Gousios G, Zaidman A (2017) Oops, my tests broke the build:
+    an explorative analysis of Travis CI with GitHub. In: Proceedings of the International
+    Conference on Mining Software Repositories (MSR). IEEE, pp 356–367'
+- doi: 10.1145/3180155.3180175
+  unstructured: 'Beller M, Spruit N, Spinellis D, Zaidman A (2018) On the dichotomy
+    of debugging behavior among programmers. In: Proceedings of the International
+    Conference on Software Engineering (ICSE). ACM, pp 572–583'
+- doi: 10.1145/3340571
+  unstructured: 'Berger ED, Hollenbeck C, Maj P, Vitek O, Vitek J (2019) On the impact
+    of programming languages on code quality. arXiv:
+
+    1901.10220'
+- author: N Bettenburg
+  doi: 10.1007/s10664-012-9205-0
+  first-page: '375'
+  issue: '2'
+  journal-title: Empir Softw Eng
+  unstructured: Bettenburg N, Hassan AE (2013) Studying the impact of social interactions
+    on software quality. Empir Softw Eng 18(2):375–431
+  volume: '18'
+  year: '2013'
+- doi: 10.1145/1595696.1595716
+  unstructured: 'Bird C, Bachmann A, Aune E, Duffy J, Bernstein A, Filkov V, Devanbu
+    P (2009) Fair and balanced?: bias in bug-fix datasets. In: Proceedings of the
+    the 7th joint meeting of the European software engineering conference and the
+    ACM SIGSOFT symposium on The foundations of software engineering. ACM, pp 121–130'
+- doi: 10.1109/MSR.2009.5069475
+  unstructured: 'Bird C, Rigby PC, Barr E, Hamilton DJ, German DM, Devanbu P (2009)
+    The promises and perils of mining git. In: 6th IEEE international working conference
+    on mining software repositories, 2009. MSR’09. IEEE, pp 1–10'
+- doi: 10.1109/CSMR.2013.19
+  unstructured: 'Bissyande TF, Thung F, Wang S, Lo D, Jiang L, Reveillere L (2013)
+    Empirical evaluation of bug linking. In: 2013 17th european conference on software
+    maintenance and reengineering (CSMR). IEEE, pp 89–98'
+- author: B Boehm
+  doi: 10.1007/3-540-27662-9_26
+  first-page: '426'
+  issue: '37'
+  journal-title: 'Foundations of empirical software engineering: the legacy of Victor
+    R Basili'
+  unstructured: 'Boehm B, Basili VR (2005) Software defect reduction top 10 list.
+    Foundations of empirical software engineering: the legacy of Victor R Basili 426(37):426–431'
+  volume: '426'
+  year: '2005'
+- unstructured: 'Brooks FP Jr (1995) The mythical man-month: essays on software engineering,
+    anniversary edition, 2/E. Pearson Education India'
+- doi: 10.1145/1985441.1985463
+  unstructured: 'Canfora G, Cerulo L, Cimitile M, Di Penta M (2011) Social interactions
+    around cross-system bug fixings: the case of freebsd and openbsd. In: Proceedings
+    of the 8th working conference on mining software repositories. ACM, pp 143–152'
+- author: G Catolino
+  doi: 10.1016/j.jss.2019.03.002
+  first-page: '165'
+  journal-title: J Syst Softw
+  unstructured: Catolino G, Palomba F, Zaidman A, Ferrucci F (2019) Not all bugs are
+    the same Understanding, characterizing, and classifying bug types. J Syst Softw
+    152:165–181
+  volume: '152'
+  year: '2019'
+- author: KM Chandy
+  doi: 10.1145/214451.214456
+  first-page: '63'
+  issue: '1'
+  journal-title: ACM Transactions on Computer Systems (TOCS)
+  unstructured: 'Chandy KM, Lamport L (1985) Distributed snapshots: Determining global
+    states of distributed systems. ACM Transactions on Computer Systems (TOCS) 3(1):63–75'
+  volume: '3'
+  year: '1985'
+- unstructured: 'Chen T. -H., Nagappan M, Shihab E, Hassan AE (2014) An empirical
+    study of dormant bugs. In: Proceedings of the 11th working conference on mining
+    software repositories. ACM, pp 82–91'
+- doi: 10.1109/ICSE.2003.1201219
+  unstructured: 'Čubranic D, Murphy GC (2003) Hipikat: Recommending pertinent software
+    development artifacts. In: 25th international conference on software engineering,
+    2003. Proceedings. IEEE, pp 408–418'
+- doi: 10.1145/2554850.2555030
+  unstructured: 'da Costa DA, Kulesza U, Aranha E, Coelho R (2014) Unveiling developers
+    contributions behind code commits: an exploratory study. In: Proceedings of the
+    29th annual ACM symposium on applied computing. ACM, pp 1152–1157'
+- author: DA da Costa
+  doi: 10.1109/TSE.2016.2616306
+  first-page: '641'
+  issue: '7'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: da Costa DA, McIntosh S, Shang W, Kulesza U, Coelho R, Hassan AE (2017)
+    A framework for evaluating the results of the SZZ approach for identifying bug-introducing
+    changes. IEEE Trans Softw Eng 43(7):641–657
+  volume: '43'
+  year: '2017'
+- author: S Davies
+  first-page: '107'
+  issue: '1'
+  journal-title: 'Journal of Software: Evolution and Process'
+  unstructured: 'Davies S, Roper M, Wood M (2014) Comparing text-based and dependence-based
+    approaches for determining the origins of bugs. Journal of Software: Evolution
+    and Process 26(1):107–139'
+  volume: '26'
+  year: '2014'
+- doi: 10.1016/B978-155860639-5/50006-7
+  unstructured: Demeyer S, Ducasse S, Nierstrasz O (2002) Object-oriented reengineering
+    patterns. Elsevier
+- doi: 10.1109/SANER.2015.7081844
+  unstructured: 'Dias M, Bacchelli A, Gousios G, Cassou D, Ducasse S (2015) Untangling
+    fine-grained code changes. In: 2015 IEEE 22nd international conference on software
+    analysis, evolution and reengineering (SANER). IEEE, pp 341–350'
+- doi: 10.1007/978-1-84800-044-5_11
+  unstructured: 'Easterbrook S, Singer J, Storey M. -A., Damian D (2008) Selecting
+    empirical methods for software engineering research. In: Guide to advanced empirical
+    software engineering. Springer, pp 285–311'
+- author: F Ebert
+  doi: 10.1016/j.jss.2015.04.066
+  first-page: '82'
+  journal-title: J Syst Softw
+  unstructured: Ebert F, Castor F, Serebrenik A (2015) An exploratory study on exception
+    handling bugs in Java programs. J Syst Softw 106:82–101
+  volume: '106'
+  year: '2015'
+- doi: 10.1109/ICSE.2013.6606748
+  unstructured: 'Ell J (2013) Identifying failure inducing developer pairs within
+    developer networks. In: Proceedings of the 2013 international conference on software
+    engineering. IEEE Press, pp 1471–1473'
+- doi: 10.1109/WCRE.2003.1287240
+  unstructured: 'Fischer M, Pinzger M, Gall H (2003) Analyzing and relating bug report
+    data for feature tracking. In: Proceedings of the 10th working conference on reverse
+    engineering (WCRE). IEEE, pp 90–100'
+- doi: 10.1109/ICSM.2003.1235403
+  unstructured: 'Fischer M, Pinzger M, Gall H (2003) Populating a release history
+    database from version control and bug tracking systems. In: International conference
+    on software maintenance, 2003. ICSM 2003. Proceedings. IEEE, pp 23–32'
+- unstructured: 'Fowler M, Beck K, Brant J, Opdyke W, Roberts D (1999) Refactoring:
+    improving the design of existing code. Addison-Wesley Professional'
+- doi: 10.1109/ICST.2013.51
+  unstructured: 'Fraser G, Arcuri A (2013a) Evosuite: On the challenges of test case
+    generation in the real world. In: 2013 IEEE sixth international conference on
+    software testing, verification and validation (ICST). IEEE, pp 362–369'
+- author: G Fraser
+  doi: 10.1109/TSE.2012.14
+  first-page: '276'
+  issue: '2'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Fraser G, Arcuri A (2013b) Whole test suite generation. IEEE Trans
+    Softw Eng 39(2):276–291
+  volume: '39'
+  year: '2013'
+- author: DM German
+  doi: 10.1016/j.infsof.2009.04.018
+  first-page: '1394'
+  issue: '10'
+  journal-title: Inf Softw Technol
+  unstructured: 'German DM, Hassan AE, Robles G (2009) Change impact graphs: Determining
+    the impact of prior codechanges. Inf Softw Technol 51(10):1394–1408'
+  volume: '51'
+  year: '2009'
+- author: JM Gonzalez-Barahona
+  doi: 10.1002/smr.1615
+  first-page: '589'
+  issue: '7'
+  journal-title: J Softw Evol Process
+  unstructured: Gonzalez-Barahona JM, Robles G, Herraiz I, Ortega F (2014) Studying
+    the laws of software evolution in a long-lived floss project. J Softw Evol Process
+    26 (7):589–612
+  volume: '26'
+  year: '2014'
+- doi: 10.1109/ICSE.2015.55
+  unstructured: 'Gousios G, Zaidman A, Storey MD, van Deursen A (2015) Work practices
+    and challenges in pull-based development: the integrator’s perspective. In: Bertolino
+    A., Canfora G., Elbaum S.G. (eds) 37th IEEE/ACM international conference on software
+    engineering, ICSE 2015, Florence, Italy, May 16-24, 2015, vol 1. IEEE Computer
+    Society, pp 358–368'
+- author: Gregor
+  doi: 10.2307/25148742
+  first-page: '611'
+  issue: '3'
+  journal-title: MIS Quarterly
+  unstructured: Gregor S (2006) The nature of theory in information systems. MIS quarterly:611–642
+  volume: '30'
+  year: '2006'
+- unstructured: 'Guerrouj L, Kermansaravi Z, Arnaoudova V, Fung BC, Khomh F, Antoniol
+    G, Guéhéneuc Y-G (2015) Investigating the relation between lexical smells and
+    change-and fault-proneness: an empirical study. Softw Qual J:1–30'
+- doi: 10.1109/ICSE.2009.5070510
+  unstructured: 'Hassan AE (2009) Predicting faults using the complexity of code changes.
+    In: IEEE 31st international conference on software engineering, 2009. ICSE 2009.
+    IEEE, pp 78–88'
+- unstructured: 'Hassan AE, Holt R (2005) The top ten list: Dynamic fault prediction.
+    In: Proceedings of the 21st IEEE international conference on software maintenance,
+    2005. ICSM’05. IEEE, pp 263–272'
+- author: H Hata
+  doi: 10.1007/s10664-009-9117-9
+  first-page: '147'
+  issue: '2'
+  journal-title: Empir Softw Eng
+  unstructured: Hata H, Mizuno O, Kikuno T (2010) Fault-prone module detection using
+    large-scale text features based on spam filtering. Empir Softw Eng 15(2):147–165
+  volume: '15'
+  year: '2010'
+- doi: 10.1109/ICSE.2013.6606585
+  unstructured: 'Herzig K, Just S, Zeller A (2013) It’s not a bug, it’s a feature:
+    how misclassification impacts bug prediction. In: Proceedings of the 2013 international
+    conference on software engineering. IEEE Press, pp 392–401'
+- doi: 10.1145/3238147.3238183
+  unstructured: 'Hilton M, Bell J, Marinov D (2018) A large-scale study of test coverage
+    evolution. In: Proceedings of the 33rd ACM/IEEE international conference on automated
+    software engineering (ASE). ACM, pp 53–63'
+- doi: 10.1145/1370750.1370773
+  unstructured: 'Hindle A, German DM, Holt R (2008) What do large commits tell us?:
+    a taxonomical study of large commits. In: Proceedings of the 2008 international
+    working conference on mining software repositories. ACM, pp 99–108'
+- unstructured: 'Institute of Electrical and Electronics Engineers and IEEE Computer
+    Society. Software Engineering Standards Committee (2009) IEEE standard 1044-2009:
+    Classification for software anomalies. IEEE std IEEE'
+- unstructured: ISO/IEC (2001) ISO/IEC 9126. Software engineering – Product quality
+    ISO/IEC
+- unstructured: 'Itkonen J, Mantyla MV, Lassenius C (2007) Defect detection efficiency:
+    Test case based vs. exploratory testing. In: First international symposium on
+    empirical software engineering and measurement, 2007. ESEM 2007. IEEE, pp 61–70'
+- author: D Izquierdo-Cortazar
+  doi: 10.4018/jossp.2011040102
+  first-page: '23'
+  issue: '2'
+  journal-title: International Journal of Open Source Software and Processes (IJOSSP)
+  unstructured: 'Izquierdo-Cortazar D, Capiluppi A, Gonzalez-Barahona JM (2011) Are
+    developers fixing their own bugs?: Tracing bug-fixing and bug-seeding committers.
+    International Journal of Open Source Software and Processes (IJOSSP) 3(2):23–42'
+  volume: '3'
+  year: '2011'
+- unstructured: 'Izquierdo-Cortázar D., Robles G, González-Barahona J. M. (2012) Do
+    more experienced developers introduce fewer bugs? In: IFIP International conference
+    on open source systems. Springer, pp 268–273'
+- author: J Jacobs
+  doi: 10.1016/j.infsof.2006.09.002
+  first-page: '774'
+  issue: '7'
+  journal-title: Inf Softw Technol
+  unstructured: Jacobs J, Van Moll J, Kusters R, Trienekens J, Brombacher A (2007)
+    Identification of factors that influence defect injection and detection in development
+    of software intensive products. Inf Softw Technol 49(7):774–789
+  volume: '49'
+  year: '2007'
+- doi: 10.1145/2597073.2597074
+  unstructured: 'Kalliamvakou E, Gousios G, Blincoe K, Singer L, German DM, Damian
+    D (2014) The promises and perils of mining GitHub. In: Proceedings of the 11th
+    working conference on mining software repositories. ACM, pp 92–101'
+- author: Y Kamei
+  doi: 10.1109/TSE.2012.70
+  first-page: '757'
+  issue: '6'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Kamei Y, Shihab E, Adams B, Hassan AE, Mockus A, Sinha A, Ubayashi
+    N (2013) A large-scale empirical study of just-in-time quality assurance. IEEE
+    Trans Softw Eng 39(6):757–773
+  volume: '39'
+  year: '2013'
+- doi: 10.1109/ICSM.2006.47
+  unstructured: 'Kim S, Whitehead E Jr, et al. (2006) Properties of signature change
+    patterns. In: 22nd IEEE international conference on software maintenance, 2006.
+    ICSM’06. IEEE, pp 4–13'
+- author: S Kim
+  doi: 10.1109/TSE.2007.70773
+  first-page: '181'
+  issue: '2'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: 'Kim S, Whitehead E Jr, Zhang Y (2008) Classifying software changes:
+    Clean or buggy? IEEE Trans Softw Eng 34(2):181–196'
+  volume: '34'
+  year: '2008'
+- doi: 10.1109/ASE.2006.23
+  unstructured: 'Kim S, Zimmermann T, Pan K, Whitehead E Jr (2006) Automatic identification
+    of bug-introducing changes. In: 21st IEEE/ACM international conference on automated
+    software engineering, 2006. ASE’06. IEEE, pp 81–90'
+- doi: 10.1109/ICSE.2007.66
+  unstructured: 'Kim S, Zimmermann T, Whitehead E Jr, Zeller A (2007) Predicting faults
+    from cached history. In: Proceedings of the 29th international conference on software
+    engineering. IEEE Computer Society, pp 489–498'
+- doi: 10.1109/RE.2014.6912263
+  unstructured: 'Knauss E, Damian D, Knauss A, Borici A (2014) Openness and requirements:
+    opportunities and tradeoffs in software ecosystems. In: 2014 IEEE 22nd international
+    requirements engineering conference (RE). IEEE, pp 213–222'
+- doi: 10.1109/RE.2018.00073
+  unstructured: 'Knauss E, Liebel G, Horkoff J, Wohlrab R, Kasauli R, Lange F, Gildert
+    P (2018) T-reqs: Tool support for managing requirements in large-scale agile system
+    development. arXiv:
+
+    1805.02769'
+- doi: 10.1145/1134285.1134355
+  unstructured: 'LaToza TD, Venolia G, DeLine R (2006) Maintaining mental models:
+    a study of developer work habits. In: Proceedings of the 28th international conference
+    on Software engineering. ACM, pp 492–501'
+- unstructured: 'Le T-DB, Linares-Vásquez M, Lo D, Poshyvanyk D (2015) Rclinker: automated
+    linking of issue reports and commits leveraging rich contextual information. In:
+    2015 IEEE 23rd international conference on program comprehension (ICPC). IEEE,
+    pp 36–47'
+- doi: 10.1145/1181309.1181314
+  unstructured: 'Li Z, Tan L, Wang X, Lu S, Zhou Y, Zhai C (2006) Have things changed
+    now?: an empirical study of bug characteristics in modern open source software.
+    In: Proceedings of the 1st workshop on Architectural and system support for improving
+    software dependability. ACM, pp 25–33'
+- doi: 10.1109/SCAM.2014.28
+  unstructured: 'Marsavina C, Romano D, Zaidman A (2014) Studying fine-grained co-evolution
+    patterns of production and test code. In: 2014 IEEE 14th international working
+    conference on source code analysis and manipulation (SCAM). IEEE, pp 195–204'
+- author: F Massacci
+  doi: 10.1109/TSE.2014.2354037
+  first-page: '1147'
+  issue: '12'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Massacci F, Nguyen VH (2014) An empirical methodology to evaluate
+    vulnerability discovery models. IEEE Trans Softw Eng 40(12):1147–1162
+  volume: '40'
+  year: '2014'
+- doi: 10.1109/ESEM.2013.19
+  unstructured: 'Meneely A, Srinivasan H, Musa A, Tejeda AR, Mokary M, Spates B (2013)
+    When a patch goes bad: Exploring the properties of vulnerability-contributing
+    commits. In: 2013 ACM/IEEE international symposium on empirical software engineering
+    and measurement. IEEE, pp 65–74'
+- doi: 10.1109/IWPSE.2005.7
+  unstructured: 'Mens T, Wermelinger M, Ducasse S, Demeyer S, Hirschfeld R, Jazayeri
+    M (2005) Challenges in software evolution. In: Eighth international workshop on
+    principles of software evolution. IEEE, pp 13–22'
+- author: A Mockus
+  doi: 10.1002/bltj.2229
+  first-page: '169'
+  issue: '2'
+  journal-title: Bell Labs Technical Journal
+  unstructured: Mockus A, Weiss DM (2000) Predicting risk of software changes. Bell
+    Labs Technical Journal 5(2):169–180
+  volume: '5'
+  year: '2000'
+- doi: 10.1007/978-3-540-76440-3_8
+  unstructured: 'Moonen L, van Deursen A, Zaidman A, Bruntink M (2008) On the interplay
+    between software testing and evolution and its effect on program comprehension.
+    In: Mens T, Demeyer S (eds) Software evolution. Springer, pp 173–202'
+- author: E Murphy-Hill
+  doi: 10.1109/TSE.2014.2357438
+  first-page: '65'
+  issue: '1'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Murphy-Hill E, Zimmermann T, Bird C, Nagappan N (2015) The design
+    space of bug fixes and how developers navigate it. IEEE Trans Softw Eng 41(1):65–81
+  volume: '41'
+  year: '2015'
+- doi: 10.1145/1134285.1134349
+  unstructured: 'Nagappan N, Ball T, Zeller A (2006) Mining metrics to predict component
+    failures. In: Proceedings of the 28th international conference on Software engineering.
+    ACM, pp 452–461'
+- author: T Nakajo
+  doi: 10.1109/32.83917
+  first-page: '830'
+  issue: '8'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Nakajo T, Kume H (1991) A case history analysis of software error
+    cause-effect relationships. IEEE Trans Softw Eng 17(8):830–838
+  volume: '17'
+  year: '1991'
+- doi: 10.1109/SANER.2018.8330225
+  unstructured: 'Neto EC, da Costa DA, Kulesza U (2018) The impact of refactoring
+    changes on the SZZ algorithm: an empirical study. In: 2018 IEEE 25th international
+    conference on software analysis, evolution and reengineering (SANER). IEEE, pp
+    380–390'
+- doi: 10.1109/ESEM.2019.8870178
+  unstructured: 'Neto EC, da Costa DA, Kulesza U (2019) Revisiting and improving SZZ
+    implementations. In: 2019 ACM/IEEE International symposium on empirical software
+    engineering and measurement. ACM'
+- doi: 10.1145/336512.336523
+  unstructured: 'Nuseibeh B, Easterbrook S (2000) Requirements engineering: a roadmap.
+    In: Proceedings of the conference on the future of software engineering. ACM,
+    pp 35–46'
+- author: KJ Ottenstein
+  doi: 10.1145/390011.808263
+  first-page: '177'
+  issue: '5'
+  journal-title: ACM Sigplan Notices
+  unstructured: Ottenstein KJ, Ottenstein LM (1984) The program dependence graph in
+    a software development environment. ACM Sigplan Notices 19(5):177–184
+  volume: '19'
+  year: '1984'
+- unstructured: 'Palomba F, Panichella A, Zaidman A, Oliveto R, De Lucia A (2016)
+    Automatic test case generation: what if test code quality matters? In: Proceedings
+    of the 25th international symposium on software testing and analysis (ISSTA).
+    ACM, pp 130–141'
+- unstructured: 'Palomba F, Zaidman A (2017) Does refactoring of test smells induce
+    fixing flaky tests? In: Proceedings of the International Conference on Software
+    Maintenance and Evolution (ICSME). IEEE, pp 1–12'
+- author: F Palomba
+  doi: 10.1007/s10664-019-09683-z
+  first-page: '2907'
+  issue: '5'
+  journal-title: Empirical Software Engineering (EMSE)
+  unstructured: 'Palomba F, Zaidman A (2019) The smell of fear: on the relation between
+    test smells and flaky tests. Empirical Software Engineering (EMSE) 24(5):2907–2946'
+  volume: '24'
+  year: '2019'
+- author: K Pan
+  doi: 10.1007/s10664-008-9077-5
+  first-page: '286'
+  issue: '3'
+  journal-title: Empir Softw Eng
+  unstructured: Pan K, Kim S, Whitehead EJ Jr (2009) Toward an understanding of bug
+    fix patterns. Empir Softw Eng 14(3):286–315
+  volume: '14'
+  year: '2009'
+- author: L Prechelt
+  doi: 10.1016/j.infsof.2014.05.001
+  first-page: '1377'
+  issue: '10'
+  journal-title: Inf Softw Technol
+  unstructured: 'Prechelt L, Pepper A (2014) Why software repositories are not used
+    for defect-insertion circumstance analysis more often: A case study. Inf Softw
+    Technol 56 (10):1377–1389'
+  volume: '56'
+  year: '2014'
+- doi: 10.1145/2568225.2568269
+  unstructured: 'Rahman F, Khatri S, Barr E, Devanbu P (2014) Comparing static bug
+    finders and statistical prediction. In: Proceedings of the 36th international
+    conference on software engineering. ACM, pp 424–434'
+- unstructured: 'Rahman F, Posnett D, Hindle A, Barr E, Devanbu P (2011) Bugcache
+    for inspections: hit or miss? In: Proceedings of the 19th ACM SIGSOFT symposium
+    and the 13th European conference on foundations of software engineering. ACM,
+    pp 322–331'
+- doi: 10.1145/2884781.2884848
+  unstructured: 'Ray B, Hellendoorn V, Godhane S, Tu Z, Bacchelli A, Devanbu P (2016)
+    On the naturalness of buggy code. In: Proceedings of the 38th international conference
+    on software engineering. ACM, pp 428–439'
+- doi: 10.1145/2635868.2635922
+  unstructured: 'Ray B, Posnett D, Filkov V, Devanbu P (2014) A large scale study
+    of programming languages and code quality in github. In: Proceedings of the 22nd
+    ACM SIGSOFT international symposium on foundations of software engineering. ACM,
+    pp 155–165'
+- doi: 10.1007/978-3-319-39225-7_16
+  unstructured: 'Rodríguez-Pérez G., Gonzalez-Barahona JM, Robles G, Dalipaj D, Sekitoleko
+    N (2016) Bugtracking: A tool to assist in the identification of bug reports. In:
+    IFIP International conference on open source systems. Springer, pp 192–198'
+- unstructured: 'Rodriguez-Perez G, Robles G, Gonzalez-Barahona JM (2017) How much
+    time did it take to notify a bug?: two case studies: elasticsearch and nova. In:
+    Proceedings of the 8th workshop on emerging trends in software metrics. IEEE Press,
+    pp 29–35'
+- author: G Rodríguez-Pérez
+  doi: 10.1016/j.infsof.2018.03.009
+  first-page: '164'
+  journal-title: Inf Softw Technol
+  unstructured: 'Rodríguez-Pérez G, Robles G, González-Barahona JM (2018a) Reproducibility
+    and credibility in empirical software engineering: A case study based on a systematic
+    literature review of the use of the szz algorithm. Inf Softw Technol 99:164–176'
+  volume: '99'
+  year: '2018'
+- doi: 10.1145/3239235.3267436
+  unstructured: 'Rodríguez-Pérez G, Zaidman A, Serebrenik A, Robles G, González-Barahona
+    JM (2018b) What if a bug has a different origin? Making sense of bugs without
+    an explicit bug introducing change. In: 12th international symposium on empirical
+    software engineering and measurement (ESEM). ACM, pp 52:1–52:4'
+- author: G Rothermel
+  doi: 10.1109/32.536955
+  first-page: '529'
+  issue: '8'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Rothermel G, Harrold MJ (1996) Analyzing regression test selection
+    techniques. IEEE Trans Softw Eng 22(8):529–551
+  volume: '22'
+  year: '1996'
+- author: P Runeson
+  doi: 10.1002/9781118181034
+  unstructured: 'Runeson P, Host M, Rainer A, Regnell B (2012) Case study research
+    in software engineering: Guidelines and examples. Wiley, New York'
+  volume-title: 'Case study research in software engineering: Guidelines and examples'
+  year: '2012'
+- doi: 10.1145/3239235.3267440
+  unstructured: 'Sahal E, Tosun A (2018) Identifying bug-inducing changes for code
+    additions. In: Proceedings of the 12th ACM/IEEE international symposium on empirical
+    software engineering and measurement. ACM, p 57'
+- author: E Shihab
+  doi: 10.1007/s10664-012-9228-6
+  first-page: '1005'
+  issue: '5'
+  journal-title: Empir Softw Eng
+  unstructured: Shihab E, Ihara A, Kamei Y, Ibrahim WM, Ohira M, Adams B, Hassan AE,
+    Matsumoto K. -i. (2013) Studying re-opened bugs in open source software. Empir
+    Softw Eng 18(5):1005–1042
+  volume: '18'
+  year: '2013'
+- doi: 10.1145/1730874.1730879
+  unstructured: 'Sinha VS, Sinha S, Rao S (2010) Buginnings: identifying the origins
+    of a bug. In: Proceedings of the 3rd India software engineering conference. ACM,
+    pp 3–12'
+- doi: 10.1145/1083142.1083147
+  unstructured: 'Śliwerski J, Zimmermann T, Zeller A (2005) When do changes induce
+    fixes?. Proceedings of the 2005 International workshop on mining software repositories:
+    1–5'
+- doi: 10.1145/2804360.2804362
+  unstructured: 'Soetens QD, Pérez J., Demeyer S, Zaidman A (2015) Circumventing refactoring
+    masking using fine-grained change recording. In: Proceedings of the 14th international
+    workshop on principles of software evolution. ACM, pp 9–18'
+- author: Y Sun
+  doi: 10.1016/j.infsof.2016.11.010
+  first-page: '33'
+  journal-title: Inf Softw Technol
+  unstructured: 'Sun Y, Wang Q, Yang Y (2017) Frlink: Improving the recovery of missing
+    issue-commit links by revisiting file relevance. Inf Softw Technol 84:33–47'
+  volume: '84'
+  year: '2017'
+- author: MD Syer
+  doi: 10.1109/TSE.2014.2361131
+  first-page: '176'
+  issue: '2'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Syer MD, Nagappan M, Adams B, Hassan AE (2015) Replicating and re-evaluating
+    the theory of relative defect-proneness. IEEE Trans Softw Eng 41 (2):176–197
+  volume: '41'
+  year: '2015'
+- author: L Tan
+  doi: 10.1007/s10664-013-9258-8
+  first-page: '1665'
+  issue: '6'
+  journal-title: Empir Softw Eng
+  unstructured: Tan L, Liu C, Li Z, Wang X, Zhou Y, Zhai C (2014) Bug characteristics
+    in open source software. Empir Softw Eng 19(6):1665–1705
+  volume: '19'
+  year: '2014'
+- doi: 10.1109/ISSREW.2013.6688888
+  unstructured: 'Tantithamthavorn C, Teekavanich R, Ihara A, Matsumoto K-i (2013)
+    Mining a change history to quickly identify bug locations: a case study of the
+    eclipse project. In: 2013 IEEE international symposium on software reliability
+    engineering workshops (ISSREW). IEEE, pp 108–113'
+- doi: 10.1109/WCRE.2013.6671284
+  unstructured: 'Thung F, Lo D, Jiang L (2013) Automatic recovery of root causes from
+    bug-fixing changes. In: 2013 20th working conference on reverse engineering (WCRE).
+    IEEE, pp 92–101'
+- doi: 10.1109/ICSME.2016.72
+  unstructured: 'Vassallo C, Zampetti F, Romano D, Beller M, Panichella A, Penta MD,
+    Zaidman A (2016) Continuous delivery practices in a large financial organization.
+    In: Proceedings of the international conference on software maintenance and evolution
+    (ICSME). IEEE Computer Society, pp 519–528'
+- author: S Viller
+  doi: 10.1016/S0953-5438(98)00049-6
+  first-page: '665'
+  issue: '6'
+  journal-title: Interact Comput
+  unstructured: 'Viller S, Bowers J, Rodden T (1999) Human factors in requirements
+    engineering: A survey of human sciences literature relevant to the improvement
+    of dependable systems development processes. Interact Comput 11(6):665–698'
+  volume: '11'
+  year: '1999'
+- doi: 10.1109/WCRE.2012.13
+  unstructured: 'Vonken F, Zaidman A (2012) Refactoring with unit testing: a match
+    made in heaven?. In: Proceeedings of the working conference on reverse engineering
+    (WCRE), pp 29–38'
+- unstructured: 'Weiss C, Premraj R, Zimmermann T, Zeller A (2007) How long will it
+    take to fix this bug? In: Fourth international workshop on mining software repositories,
+    2007. ICSE Workshops MSR’07. IEEE, pp 1–1'
+- doi: 10.1145/1390817.1390826
+  unstructured: 'Williams C, Spacco J (2008) SZZ revisited: Verifying when changes
+    induce fixes. In: Proceedings of the 2008 workshop on defects in large software
+    systems. ACM, pp 32–36'
+- doi: 10.1007/978-3-642-29044-2
+  unstructured: Wohlin C, Runeson P, Höst M, Ohlsson MC, Regnell B, Wesslén A (2012)
+    Experimentation in software engineering. Springer Science & Business Media
+- doi: 10.1145/2025113.2025120
+  unstructured: 'Wu R, Zhang H, Kim S, Cheung S-C (2011) Relink: recovering links
+    between bugs and changes. In: Proceedings of the 19th ACM SIGSOFT symposium and
+    the 13th European conference on foundations of software engineering. ACM, pp 15–25'
+- author: X Xia
+  doi: 10.1007/s10515-014-0162-2
+  first-page: '75'
+  issue: '1'
+  journal-title: Autom Softw Eng
+  unstructured: Xia X, Lo D, Shihab E, Wang X, Zhou B (2015) Automatic, high accuracy
+    prediction of reopened bugs. Autom Softw Eng 22(1):75–109
+  volume: '22'
+  year: '2015'
+- doi: 10.1109/ICST.2008.47
+  unstructured: 'Zaidman A, Van Rompaey B, Demeyer S, van Deursen A (2008) Mining
+    software repositories to study co-evolution of production & test code. In: First
+    international conference on software testing, verification, and validation (ICST).
+    IEEE, pp 220–229'
+- author: A Zaidman
+  doi: 10.1007/s10664-010-9143-7
+  first-page: '325'
+  issue: '3'
+  journal-title: Empir Softw Eng
+  unstructured: Zaidman A, Van Rompaey B, van Deursen A, Demeyer S (2011) Studying
+    the co-evolution of production and test code in open source and industrial developer
+    test processes through repository mining. Empir Softw Eng 16(3):325–364
+  volume: '16'
+  year: '2011'
+- author: A Zeller
+  edition: '2'
+  unstructured: Zeller A (2009) Why programs fail - a guide to systematic debugging,
+    2nd edn. Academic Press, New York
+  volume-title: Why programs fail - a guide to systematic debugging
+  year: '2009'
+- unstructured: 'Zeller A, Hughes W, Lavery J, Doran K, Morrison CT, Snodgrass RT,
+    Stärk RF (2011) Causes and effects in computer programs. In: Proceedings of the
+    fifth international workshop on computer, pp 482–508'
+- doi: 10.1109/PROMISE.2007.10
+  unstructured: 'Zimmermann T, Premraj R, Zeller A (2007) Predicting defects for Eclipse.
+    In: International workshop on predictor models in software engineering, 2007.
+    PROMISE’07: ICSE workshops 2007. IEEE, pp 9–9'
+- doi: 10.1109/ICSE.2012.6227112
+  unstructured: 'Zimmermann T, Nagappan N, Guo PJ, Murphy B (2012) Characterizing
+    and predicting which bugs get reopened. In: Proceedings of the 34th international
+    conference on software engineering. IEEE Press, pp 1074–1083'
+doc_url: http://link.springer.com/article/10.1007/s10664-019-09781-y/fulltext.html
+doi: 10.1007/s10664-019-09781-y
+files:
+- rodriguez-perez-gema-and-robles-gregorio-and-serebrenik-alexander-and-zaidman-andy-and-german-daniel-m.-and-gonzalez-barahona-jesus-m.how-bugs-a.data
+issue: '2'
+journal: Empirical Software Engineering
+language: en
+month: 3
+pages: 1294--1340
+publisher: Springer Science and Business Media LLC
+time-added: 2020-09-05-10:38:21
+title: 'How bugs are born: a model to identify how bugs are introduced in software
+  components'
+type: article
+url: http://dx.doi.org/10.1007/s10664-019-09781-y
+volume: '25'
+year: 2020

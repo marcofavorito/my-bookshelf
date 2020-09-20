@@ -1,0 +1,35 @@
+abstract: We introduce DeepProbLog, a probabilistic logic programming language that
+  incorporates deep learning by means of neural predicates. We show how existing inference
+  and learning techniques can be adapted for the new language. Our experiments demonstrate
+  that DeepProbLog supports both symbolic and subsymbolic representations and inference,
+  1) program induction, 2) probabilistic (logic) programming, and 3) (deep) learning
+  from examples. To the best of our knowledge, this work is the first to propose a
+  framework where general-purpose neural networks and expressive probabilistic-logical
+  modeling and reasoning are integrated in a way that exploits the full expressiveness
+  and strengths of both worlds and can be trained end-to-end based on examples.
+archiveprefix: arXiv
+author: Manhaeve, Robin and Dumančić, Sebastijan and Kimmig, Angelika and Demeester,
+  Thomas and Raedt, Luc De
+author_list:
+- family: Manhaeve
+  given: Robin
+- family: Dumančić
+  given: Sebastijan
+- family: Kimmig
+  given: Angelika
+- family: Demeester
+  given: Thomas
+- family: Raedt
+  given: Luc De
+eprint: 1805.10872v2
+file: 1805.10872v2.pdf
+files:
+- manhaeve-robin-and-dumancic-sebastijan-and-kimmig-angelika-and-demeester-thomas-and-raedt-luc-dedeepproblog-neural-probabilistic-logic-programmi.pdf
+month: May
+primaryclass: cs.AI
+ref: 1805.10872v2
+time-added: 2020-08-31-15:54:41
+title: 'DeepProbLog: Neural Probabilistic Logic Programming'
+type: article
+url: http://arxiv.org/abs/1805.10872v2
+year: '2018'

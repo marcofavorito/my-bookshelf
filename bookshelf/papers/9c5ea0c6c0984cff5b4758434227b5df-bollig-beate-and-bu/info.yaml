@@ -1,0 +1,36 @@
+abstract: Sentential decision diagrams (SDDs) introduced by Darwiche in 2011 are a
+  promising representation type used in knowledge compilation. The relative succinctness
+  of representation types is an important subject in this area. The aim of the paper
+  is to identify which kind of Boolean functions can be represented by SDDs of small
+  size with respect to the number of variables the functions are defined on. For this
+  reason the sets of Boolean functions representable by different representation types
+  in polynomial size are investigated and SDDs are compared with representation types
+  from the classical knowledge compilation map of Darwiche and Marquis. Ordered binary
+  decision diagrams (OBDDs) which are a popular data structure for Boolean functions
+  are one of these representation types. SDDs are more general than OBDDs by definition
+  but only recently, a Boolean function was presented with polynomial SDD size but
+  exponential OBDD size. This result is strengthened in several ways. The main result
+  is a quasipolynomial simulation of SDDs by equivalent unambiguous nondeterministic
+  OBDDs, a nondeterministic variant where there exists exactly one accepting computation
+  for each satisfying input. As a side effect an open problem about the relative succinctness
+  between SDDs and free binary decision diagrams (FBDDs) which are more general than
+  OBDDs is answered.
+archiveprefix: arXiv
+author: Bollig, Beate and Buttkus, Matthias
+author_list:
+- family: Bollig
+  given: Beate
+- family: Buttkus
+  given: Matthias
+eprint: 1802.04544v1
+file: 1802.04544v1.pdf
+files:
+- bollig-beate-and-buttkus-matthiason-the-relative-succinctness-of-sentential-decision-diagrams2018.pdf
+month: Feb
+primaryclass: cs.CC
+ref: 1802.04544v1
+time-added: 2020-08-19-14:44:17
+title: On the Relative Succinctness of Sentential Decision Diagrams
+type: article
+url: http://arxiv.org/abs/1802.04544v1
+year: '2018'

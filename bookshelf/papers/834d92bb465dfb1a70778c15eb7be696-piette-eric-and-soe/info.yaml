@@ -1,0 +1,41 @@
+abstract: 'While current General Game Playing (GGP) systems facilitate useful research
+  in Artificial Intelligence (AI) for game-playing, they are often somewhat specialised
+  and computationally inefficient. In this paper, we describe the "ludemic" general
+  game system Ludii, which has the potential to provide an efficient tool for AI researchers
+  as well as game designers, historians, educators and practitioners in related fields.
+  Ludii defines games as structures of ludemes -- high-level, easily understandable
+  game concepts -- which allows for concise and human-understandable game descriptions.
+  We formally describe Ludii and outline its main benefits: generality, extensibility,
+  understandability and efficiency. Experimentally, Ludii outperforms one of the most
+  efficient Game Description Language (GDL) reasoners, based on a propositional network,
+  in all games available in the Tiltyard GGP repository. Moreover, Ludii is also competitive
+  in terms of performance with the more recently proposed Regular Boardgames (RBG)
+  system, and has various advantages in qualitative aspects such as generality.'
+archiveprefix: arXiv
+author: Piette, Éric and Soemers, Dennis J. N. J. and Stephenson, Matthew and Sironi,
+  Chiara F. and Winands, Mark H. M. and Browne, Cameron
+author_list:
+- family: Piette
+  given: Éric
+- family: Soemers
+  given: Dennis J. N. J.
+- family: Stephenson
+  given: Matthew
+- family: Sironi
+  given: Chiara F.
+- family: Winands
+  given: Mark H. M.
+- family: Browne
+  given: Cameron
+eprint: 1905.05013v3
+file: 1905.05013v3.pdf
+files:
+- piette-eric-and-soemers-dennis-j.-n.-j.-and-stephenson-matthew-and-sironi-chiara-f.-and-winands-mark-h.-m.-and-browne-cameronludii-the-ludemi.pdf
+month: May
+primaryclass: cs.AI
+ref: 1905.05013v3
+time-added: 2020-09-03-15:43:15
+title: Ludii -- The Ludemic General Game System
+type: article
+url: http://arxiv.org/abs/1905.05013v3
+year: '2019'

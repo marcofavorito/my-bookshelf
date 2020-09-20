@@ -1,0 +1,31 @@
+abstract: We report on four different approaches to implementing hash-consing in Coq
+  programs. The use cases include execution inside Coq, or execution of the extracted
+  OCaml code. We explore the different trade-offs between faithful use of pristine
+  extracted code, and code that is fine-tuned to make use of OCaml programming constructs
+  not available in Coq. We discuss the possible consequences in terms of performances
+  and guarantees. We use the running example of binary decision diagrams and then
+  demonstrate the generality of our solutions by applying them to other examples of
+  hash-consed data structures.
+archiveprefix: arXiv
+author: Braibant, Thomas and Jourdan, Jacques-Henri and Monniaux, David
+author_list:
+- family: Braibant
+  given: Thomas
+- family: Jourdan
+  given: Jacques-Henri
+- family: Monniaux
+  given: David
+doi: 10.1007/s10817-014-9306-0
+eprint: 1311.2959v4
+file: 1311.2959v4.pdf
+files:
+- braibant-thomas-and-jourdan-jacques-henri-and-monniaux-davidimplementing-and-reasoning-about-hash-consed-data-structures-in-coq2013.pdf
+month: Nov
+note: Journal of Automated Reasoning, Springer Verlag (Germany), 2014,   53 (3), pp.271-304
+primaryclass: cs.LO
+ref: 1311.2959v4
+time-added: 2020-08-19-11:55:08
+title: Implementing and reasoning about hash-consed data structures in Coq
+type: article
+url: http://arxiv.org/abs/1311.2959v4
+year: '2013'

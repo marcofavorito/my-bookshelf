@@ -1,0 +1,62 @@
+abstract: Recent work in deep reinforcement learning (RL) has produced algorithms
+  capable of mastering challenging games such as Go, chess, or shogi. In these works
+  the RL agent directly observes the natural state of the game and controls that state
+  directly with its actions. However, when humans play such games, they do not just
+  reason about the moves but also interact with their physical environment. They understand
+  the state of the game by looking at the physical board in front of them and modify
+  it by manipulating pieces using touch and fine-grained motor control. Mastering
+  complicated physical systems with abstract goals is a central challenge for artificial
+  intelligence, but it remains out of reach for existing RL algorithms. To encourage
+  progress towards this goal we introduce a set of physically embedded planning problems
+  and make them publicly available. We embed challenging symbolic tasks (Sokoban,
+  tic-tac-toe, and Go) in a physics engine to produce a set of tasks that require
+  perception, reasoning, and motor control over long time horizons. Although existing
+  RL algorithms can tackle the symbolic versions of these tasks, we find that they
+  struggle to master even the simplest of their physically embedded counterparts.
+  As a first step towards characterizing the space of solution to these tasks, we
+  introduce a strong baseline that uses a pre-trained expert game player to provide
+  hints in the abstract space to an RL agent's policy while training it on the full
+  sensorimotor control task. The resulting agent solves many of the tasks, underlining
+  the need for methods that bridge the gap between abstract planning and embodied
+  control.
+archiveprefix: arXiv
+author: Mirza, Mehdi and Jaegle, Andrew and Hunt, Jonathan J. and Guez, Arthur and
+  Tunyasuvunakool, Saran and Muldal, Alistair and Weber, Théophane and Karkus, Peter
+  and Racanière, Sébastien and Buesing, Lars and Lillicrap, Timothy and Heess, Nicolas
+author_list:
+- family: Mirza
+  given: Mehdi
+- family: Jaegle
+  given: Andrew
+- family: Hunt
+  given: Jonathan J.
+- family: Guez
+  given: Arthur
+- family: Tunyasuvunakool
+  given: Saran
+- family: Muldal
+  given: Alistair
+- family: Weber
+  given: Théophane
+- family: Karkus
+  given: Peter
+- family: Racanière
+  given: Sébastien
+- family: Buesing
+  given: Lars
+- family: Lillicrap
+  given: Timothy
+- family: Heess
+  given: Nicolas
+eprint: 2009.05524v1
+file: 2009.05524v1.pdf
+files:
+- mirza-mehdi-and-jaegle-andrew-and-hunt-jonathan-j.-and-guez-arthur-and-tunyasuvunakool-saran-and-muldal-alistair-and-weber-theophane-and-karkus.pdf
+month: Sep
+primaryclass: cs.AI
+ref: 2009.05524v1
+time-added: 2020-09-19-23:57:08
+title: 'Physically Embedded Planning Problems: New Challenges for Reinforcement   Learning'
+type: article
+url: http://arxiv.org/abs/2009.05524v1
+year: '2020'

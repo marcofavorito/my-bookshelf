@@ -1,0 +1,33 @@
+abstract: We propose a method for compiling propositional theories into a new tractable
+  form that we refer to as decomposable negation normal form (DNNF). We show a number
+  of results about our compilation approach. First, we show that every propositional
+  theory can be compiled into DNNF and present an algorithm to this effect. Second,
+  we show that if a clausal form has a bounded treewidth, then its DNNF compilation
+  has a linear size and can be computed in linear time - treewidth is a graphtheoretic
+  parameter which measures the connectivity of the clausal form. Third, we show that
+  once a propositional theory is compiled into DNNF, a number of reasoning tasks,
+  such as satisfiability and forgetting, can be performed in linear time. Finally,
+  we propose two techniques for approximating the DNNF compilation of a theory when
+  the size of such compilation is too large to be practical. One of the techniques
+  generates a sound but incomplete compilation, while the other generates a complete
+  but unsound compilation. Together, these approximations bound the exact compilation
+  from below and above in terms for their ability to answer queries.
+address: San Francisco, CA, USA
+author: Darwiche, Adnan
+author_list:
+- family: Darwiche
+  given: Adnan
+booktitle: Proceedings of the 16th International Joint Conference on Artifical Intelligence
+  - Volume 1
+files:
+- darwiche-adnancompiling-knowledge-into-decomposable-negation-normal-form1999.pdf
+location: Stockholm, Sweden
+numpages: '6'
+pages: 284–289
+publisher: Morgan Kaufmann Publishers Inc.
+ref: 10.5555/1624218.1624260
+series: IJCAI'99
+time-added: 2020-08-19-15:34:12
+title: Compiling Knowledge into Decomposable Negation Normal Form
+type: inproceedings
+year: '1999'

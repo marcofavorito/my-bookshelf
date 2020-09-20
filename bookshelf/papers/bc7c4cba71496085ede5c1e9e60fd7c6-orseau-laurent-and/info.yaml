@@ -1,0 +1,31 @@
+abstract: 'The Lottery Ticket Hypothesis is a conjecture that every large neural network
+  contains a subnetwork that, when trained in isolation, achieves comparable performance
+  to the large network. An even stronger conjecture has been proven recently: Every
+  sufficiently overparameterized network contains a subnetwork that, even without
+  training, achieves comparable accuracy to the trained large network. This theorem,
+  however, relies on a number of strong assumptions and guarantees a polynomial factor
+  on the size of the large network compared to the target function. In this work,
+  we remove the most limiting assumptions of this previous work while providing significantly
+  tighter bounds: the overparameterized network only needs a logarithmic factor (in
+  all variables but depth) number of neurons per weight of the target subnetwork.'
+archiveprefix: arXiv
+author: Orseau, Laurent and Hutter, Marcus and Rivasplata, Omar
+author_list:
+- family: Orseau
+  given: Laurent
+- family: Hutter
+  given: Marcus
+- family: Rivasplata
+  given: Omar
+eprint: 2006.12156v1
+file: 2006.12156v1.pdf
+files:
+- orseau-laurent-and-hutter-marcus-and-rivasplata-omarlogarithmic-pruning-is-all-you-need2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.12156v1
+time-added: 2020-09-19-15:30:52
+title: Logarithmic Pruning is All You Need
+type: article
+url: http://arxiv.org/abs/2006.12156v1
+year: '2020'

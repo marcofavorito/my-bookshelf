@@ -1,0 +1,32 @@
+abstract: Reinforcement learning (RL) is a branch of machine learning which is employed
+  to solve various sequential decision making problems without proper supervision.
+  Due to the recent advancement of deep learning, the newly proposed Deep-RL algorithms
+  have been able to perform extremely well in sophisticated high-dimensional environments.
+  However, even after successes in many domains, one of the major challenge in these
+  approaches is the high magnitude of interactions with the environment required for
+  efficient decision making. Seeking inspiration from the brain, this problem can
+  be solved by incorporating instance based learning by biasing the decision making
+  on the memories of high rewarding experiences. This paper reviews various recent
+  reinforcement learning methods which incorporate external memory to solve decision
+  making and a survey of them is presented. We provide an overview of the different
+  methods - along with their advantages and disadvantages, applications and the standard
+  experimentation settings used for memory based models. This review hopes to be a
+  helpful resource to provide key insight of the recent advances in the field and
+  provide help in further future development of it.
+archiveprefix: arXiv
+author: Ramani, Dhruv
+author_list:
+- family: Ramani
+  given: Dhruv
+eprint: 1904.06736v1
+file: 1904.06736v1.pdf
+files:
+- ramani-dhruva-short-survey-on-memory-based-reinforcement-learning2019.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 1904.06736v1
+time-added: 2020-09-17-13:18:31
+title: A Short Survey On Memory Based Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1904.06736v1
+year: '2019'

@@ -1,0 +1,43 @@
+abstract: Multiagent systems appear in most social, economical, and political situations.
+  In the present work we extend the Deep Q-Learning Network architecture proposed
+  by Google DeepMind to multiagent environments and investigate how two agents controlled
+  by independent Deep Q-Networks interact in the classic videogame Pong. By manipulating
+  the classical rewarding scheme of Pong we demonstrate how competitive and collaborative
+  behaviors emerge. Competitive agents learn to play and score efficiently. Agents
+  trained under collaborative rewarding schemes find an optimal strategy to keep the
+  ball in the game as long as possible. We also describe the progression from competitive
+  to collaborative behavior. The present work demonstrates that Deep Q-Networks can
+  become a practical tool for studying the decentralized learning of multiagent systems
+  living in highly complex environments.
+archiveprefix: arXiv
+author: Tampuu, Ardi and Matiisen, Tambet and Kodelja, Dorian and Kuzovkin, Ilya and
+  Korjus, Kristjan and Aru, Juhan and Aru, Jaan and Vicente, Raul
+author_list:
+- family: Tampuu
+  given: Ardi
+- family: Matiisen
+  given: Tambet
+- family: Kodelja
+  given: Dorian
+- family: Kuzovkin
+  given: Ilya
+- family: Korjus
+  given: Kristjan
+- family: Aru
+  given: Juhan
+- family: Aru
+  given: Jaan
+- family: Vicente
+  given: Raul
+eprint: 1511.08779v1
+file: 1511.08779v1.pdf
+files:
+- tampuu-ardi-and-matiisen-tambet-and-kodelja-dorian-and-kuzovkin-ilya-and-korjus-kristjan-and-aru-juhan-and-aru-jaan-and-vicente-raulmultiagent.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1511.08779v1
+time-added: 2020-09-16-19:46:30
+title: Multiagent Cooperation and Competition with Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1511.08779v1
+year: '2015'

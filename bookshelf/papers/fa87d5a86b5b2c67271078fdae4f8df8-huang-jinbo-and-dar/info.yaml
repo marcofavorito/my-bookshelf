@@ -1,0 +1,36 @@
+abstract: This paper is concerned with a class of algorithms that perform exhaustive
+  search on propositional knowledge bases. We show that each of these algorithms defines
+  and generates a propositional language. Specifically, we show that the trace of
+  a search can be interpreted as a combinational circuit, and a search algorithm then
+  defines a propositional language consisting of circuits that are generated across
+  all possible executions of the algorithm. In particular, we show that several versions
+  of exhaustive DPLL search correspond to such well-known languages as FBDD, OBDD,
+  and a precisely-defined subset of d-DNNF. By thus mapping search algorithms to propositional
+  languages, we provide a uniform and practical framework in which successful search
+  techniques can be harnessed for compilation of knowledge into various languages
+  of interest, and a new methodology whereby the power and limitations of search algorithms
+  can be understood by looking up the tractability and succinctness of the corresponding
+  propositional languages.
+address: El Segundo, CA, USA
+author: Huang, Jinbo and Darwiche, Adnan
+author_list:
+- family: Huang
+  given: Jinbo
+- family: Darwiche
+  given: Adnan
+files:
+- huang-jinbo-and-darwiche-adnanthe-language-of-search2007.pdf
+issn: 1076-9757
+issue_date: May 2007
+journal: J. Artif. Int. Res.
+month: June
+number: '1'
+numpages: '29'
+pages: 191–219
+publisher: AI Access Foundation
+ref: 10.5555/1622606.1622613
+time-added: 2020-08-19-15:35:53
+title: The Language of Search
+type: article
+volume: '29'
+year: '2007'

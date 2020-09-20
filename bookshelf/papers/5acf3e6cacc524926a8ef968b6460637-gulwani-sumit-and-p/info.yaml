@@ -1,0 +1,36 @@
+abstract: 'Program synthesis is the task of automatically ﬁnding a program in the
+  underlying programming language that satisﬁes the user intent expressed in the form
+  of some speciﬁcation. Since the inception of AI in the 1950s, this problem has been
+  considered the holy grail of Computer Science. Despite inherent challenges in the
+  problem such as ambiguity of user intent and a typically enormous search space of
+  programs, the ﬁeld of program synthesis has developed many diﬀerent techniques that
+  enable program synthesis in diﬀerent real-life application domains. It is now used
+  successfully in software engineering, biological discovery, computer-aided education,
+  end-user programming, and data cleaning. In the last decade, several applications
+  of synthesis in the ﬁeld of programming by examples have been deployed in mass-market
+  industrial products. This survey is a general overview of the state-of-the-art approaches
+  to program synthesis, its applications, and subﬁelds. We discuss the general principles
+  common to all modern synthesis approaches such as syntactic bias, oracle-guided
+  inductive search, and optimization techniques. We then present a literature review
+  covering the four most common state-of-the-art techniques in program synthesis:
+  enumerative search, constraint solving, stochastic search, and deduction-based programming
+  by examples. We conclude with a brief list of future horizons for the ﬁeld.'
+author: Gulwani, Sumit and Polozov, Alex and Singh, Rishabh
+author_list:
+- family: Gulwani
+  given: Sumit
+- family: Polozov
+  given: Alex
+- family: Singh
+  given: Rishabh
+booktitle: Foundations and Trends in Programming Languages
+month: August
+pages: 1-119
+publisher: NOW
+ref: gulwani2017program
+time-added: 2020-08-29-11:28:04
+title: Program Synthesis
+type: book
+url: https://www.microsoft.com/en-us/research/publication/program-synthesis/
+volume: '4'
+year: '2017'

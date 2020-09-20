@@ -1,0 +1,30 @@
+abstract: 'Coalgebra is a currently quite active field, which aims to look at generic
+  state-based systems (most prominently automata) from a very abstract point of view,
+  mainly using tools from category theory. One of its achievements is to give a completely
+  generic approach of determinization, unifying in an elegant manner non-deterministic
+  automata, probabilistic automata or non-deterministic pushdown automata in one and
+  the same model. However, the case of alternating automata fails to easily fit in
+  this model. The aim of this internship was therefore to tackle this problem: can
+  alternating automata also be determinized in the coalgebraic way? Does this give
+  semantics that coincides with the concretely defined one? In this report, we give
+  a positive answer to both questions. The main element of our construction is a distributive
+  law, the definition of which has been for some time an open question.'
+archiveprefix: arXiv
+author: Bertrand, Meven and Rot, Jurriaan
+author_list:
+- family: Bertrand
+  given: Meven
+- family: Rot
+  given: Jurriaan
+eprint: 1804.02546v1
+file: 1804.02546v1.pdf
+files:
+- bertrand-meven-and-rot-jurriaancoalgebraic-determinization-of-alternating-automata2018.pdf
+month: Apr
+primaryclass: cs.LO
+ref: 1804.02546v1
+time-added: 2020-08-13-09:06:58
+title: Coalgebraic Determinization of Alternating Automata
+type: article
+url: http://arxiv.org/abs/1804.02546v1
+year: '2018'

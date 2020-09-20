@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="journal_id" content="165"/>
+
+    <meta name="dc.title" content="On the diversity of asynchronous communication"/>
+
+    <meta name="dc.source" content="Formal Aspects of Computing 2016 28:5"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2016-05-03"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2016 British Computer Society"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Asynchronous communication is often viewed as a single entity, the counterpart of synchronous communication. Although the basic concept of asynchronous communication is the decoupling of send and receive events, there is actually room for a variety of additional specification of the communication, for instance in terms of ordering. Yet, these different asynchronous communications are used interchangeably and seldom distinguished. This paper is a contribution to the study of these models, their differences, and how they are related. In this paper, the variety of point-to-point asynchronous communication paradigms is considered with two approaches. In the first and theoretical one, communication models are specified as properties on the ordering of events in distributed executions. In the second and more practical approach that involves composition of peers, they are modeled with transition systems and message histories as part of a framework. The described framework enables to model peer composition and compatibility properties. Besides, an implemented tool chain based on the TLA+ formalism and model checking is also proposed and illustrated. The conformance of the two approaches is highlighted. A hierarchy is established between the studied communication models. From the execution viewpoint, it completes existing work in the area by introducing more asynchronous communication models and showing their differences. The framework is shown to offer abstract implementations of the communication models. Both the correctness and the completeness of the descriptions in the framework are studied. This reveals necessary restrictions on the behavior of the peers so that the communication models are actually implementable."/>
+
+    <meta name="prism.issn" content="1433-299X"/>
+
+    <meta name="prism.publicationName" content="Formal Aspects of Computing"/>
+
+    <meta name="prism.publicationDate" content="2016-05-03"/>
+
+    <meta name="prism.volume" content="28"/>
+
+    <meta name="prism.number" content="5"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="847"/>
+
+    <meta name="prism.endingPage" content="879"/>
+
+    <meta name="prism.copyright" content="2016 British Computer Society"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s00165-016-0379-x"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s00165-016-0379-x"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s00165-016-0379-x.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s00165-016-0379-x"/>
+
+    <meta name="citation_journal_title" content="Formal Aspects of Computing"/>
+
+    <meta name="citation_journal_abbrev" content="Form Asp Comp"/>
+
+    <meta name="citation_publisher" content="Springer London"/>
+
+    <meta name="citation_issn" content="1433-299X"/>
+
+    <meta name="citation_title" content="On the diversity of asynchronous communication"/>
+
+    <meta name="citation_volume" content="28"/>
+
+    <meta name="citation_issue" content="5"/>
+
+    <meta name="citation_publication_date" content="2016/09"/>
+
+    <meta name="citation_online_date" content="2016/05/03"/>
+
+    <meta name="citation_firstpage" content="847"/>
+
+    <meta name="citation_lastpage" content="879"/>
+
+    <meta name="citation_article_type" content="Original Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s00165-016-0379-x"/>
+
+    <meta name="DOI" content="10.1007/s00165-016-0379-x"/>
+
+    <meta name="citation_doi" content="10.1007/s00165-016-0379-x"/>
+
+    <meta name="description" content="Asynchronous communication is often viewed as a single entity, the counterpart of synchronous communication. Although the basic concept of asynchronous com"/>
+
+    <meta name="dc.creator" content="Florent Chevrou"/>
+
+    <meta name="dc.creator" content="Aur&#233;lie Hurault"/>
+
+    <meta name="dc.creator" content="Philippe Qu&#233;innec"/>
+
+    <meta name="dc.subject" content="Math Applications in Computer Science"/>
+
+    <meta name="dc.subject" content="Theory of Computation"/>
+
+    <meta name="citation_reference" content="Ait-Bachir A, Dumas M, Fauvet MC (2008) BESERIAL: behavioural service analyser. In: Business process management international conference. Demo session., LNCS 5240, pp 374&#8211;377"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Theor Comput Sci; citation_title=The chemical abstract machine; citation_author=G Berry, G Boudol; citation_volume=96; citation_issue=1; citation_publication_date=1992; citation_pages=217-248; citation_doi=10.1016/0304-3975(92)90185-I; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="Basu S, Bultan T, Ouederni M (2012) Synchronizability for verification of asynchronously communicating systems. In: 13th international conference on verification, model checking, and abstract interpretation, VMCAI&#8217;12. Springer-Verlag, pp 56&#8211;71"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Electron Notes Theor Comput Sci; citation_title=Formalizing web service choreographies; citation_author=A Brogi, C Canal, E Pimentel, A Vallecillo; citation_volume=105; citation_publication_date=2004; citation_pages=73-94; citation_doi=10.1016/j.entcs.2004.05.007; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="Benatallah B, Casati F, Toumani F (2004) Analysis and management of web service protocols. In: Conceptual modeling&#8211;ER 2004, Lecture Notes in Computer Science, vol 3288. Springer, pp 524&#8211;541"/>
+
+    <meta name="citation_reference" content="Birman KP (1996) Building secure and reliable network applications. Manning"/>
+
+    <meta name="citation_reference" content="citation_journal_title=ACM Trans Comput Syst; citation_title=Reliable communication in the presence of failures; citation_author=KP Birman, TA Joseph; citation_volume=5; citation_issue=1; citation_publication_date=1987; citation_pages=47-76; citation_doi=10.1145/7351.7478; citation_id=CR7"/>
+
+    <meta name="citation_reference" content="Babao&#287;lu &#214;, Marzullo K (1993) Consistent global states of distributed systems: fundamental concepts and mechanisms. In: Mullender SJ (ed) Distributed systems, 2nd edn. ACM Press Frontier Series, pp 55&#8211;96"/>
+
+    <meta name="citation_reference" content="Boudol G (1992) Asynchrony and the Pi-calculus. Research Report RR-1702, INRIA"/>
+
+    <meta name="citation_reference" content="Beauxis R, Palamidessi C, Valencia FD (2008) On the asynchronous nature of the asynchronous 
+                    
+                      
+                    
+                    $${\pi}$$
+                    
+                      
+                        
+                      
+                    
+                  -calculus. In: De Nicola R, Degano P, Meseguer J (eds) Concurrency, graphs and models, Lecture notes in computer science. Springer, pp 473&#8211;492"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J ACM; citation_title=On communicating finite-state machines; citation_author=D Brand, P Zafiropulo; citation_volume=30; citation_issue=2; citation_publication_date=1983; citation_pages=323-342; citation_doi=10.1145/322374.322380; citation_id=CR11"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Distrib Comput; citation_title=Synchronous, asynchronous, and causally ordered communication; citation_author=B Charron-Bost, F Mattern, G Tel; citation_volume=9; citation_issue=4; citation_publication_date=1996; citation_pages=173-191; citation_doi=10.1007/s004460050018; citation_id=CR12"/>
+
+    <meta name="citation_reference" content="Coulouris G, Dollimore J, Kindberg T. (1994) Distributed systems: concepts and design, 2nd edn. Addison Wesley"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Trans Parallel Distrib Syst; citation_title=The timed asynchronous distributed system model; citation_author=F Cristian, C Fetzer; citation_volume=10; citation_issue=6; citation_publication_date=1999; citation_pages=642-657; citation_doi=10.1109/71.774912; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="Cardelli L, Gordon AD (1998) Mobile ambients. In: First international conference on foundations of software science and computation structure, FoSSaCS &#8217;98. Springer-Verlag, pp 140&#8211;155"/>
+
+    <meta name="citation_reference" content="Charpentier M (1997) A Unity mapping operator for distributed programs. In: Fitzgerald J, Jones CB, Lucas P (eds) 4th Int&#8217;l symposium of formal methods europe (FME&#8217;97), Lecture notes in computer science, vol 1313. Springer-Verlag, pp 665&#8211;684"/>
+
+    <meta name="citation_reference" content="Chevrou F, Hurault A, Mauran P, Qu&#233;innec P (2016) Mechanized refinement of communication models with TLA+. In: International ABZ Conference. Springer-Verlag, p 6"/>
+
+    <meta name="citation_reference" content="Chevrou F, Hurault A, Qu&#233;innec P (2015) Automated verification of asynchronous communicating systems with TLA+. In: Electronic communications of the EASST (PostProceedings of the 15th international workshop on automated verification of critical systems), vol 72"/>
+
+    <meta name="citation_reference" content="citation_journal_title=ACM Trans Comput Syst; citation_title=Distributed snapshots: determining global states of distributed systems; citation_author=KM Chandy, L Lamport; citation_volume=3; citation_issue=1; citation_publication_date=1985; citation_pages=63-75; citation_doi=10.1145/214451.214456; citation_id=CR19"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Int J Softw Eng Knowl Eng; citation_title=An approach to checking behavioral compatibility between web services; citation_author=HS Chae, J-S Lee, JH Bae; citation_volume=18; citation_issue=2; citation_publication_date=2008; citation_pages=223-241; citation_doi=10.1142/S0218194008003647; citation_id=CR20"/>
+
+    <meta name="citation_reference" content="citation_journal_title=ACM Trans Program Lang Syst; citation_title=The concurrency workbench: A semantics-based tool for the verification of concurrent systems; citation_author=R Cleaveland, J Parrow, B Steffen; citation_volume=15; citation_issue=1; citation_publication_date=1993; citation_pages=36-72; citation_doi=10.1145/151646.151648; citation_id=CR21"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Sci Comput Program; citation_title=Compatibility and inheritance in software architectures; citation_author=C Canal, E Pimentel, JM Troya; citation_volume=41; citation_issue=2; citation_publication_date=2001; citation_pages=105-138; citation_doi=10.1016/S0167-6423(01)00002-8; citation_id=CR22"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Sci Comput Program; citation_title=A generic framework for n-protocol compatibility checking; citation_author=F Dur&#225;n, M Ouederni, G Sala&#250;n; citation_volume=77; citation_issue=7-8; citation_publication_date=2012; citation_pages=870-886; citation_doi=10.1016/j.scico.2011.03.009; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="citation_journal_title=ACM Comput Surv; citation_title=Total order broadcast and multicast algorithms: taxonomy and survey; citation_author=X D&#233;fago, A Schiper, P Urb&#225;n; citation_volume=36; citation_publication_date=2004; citation_pages=372-421; citation_doi=10.1145/1041680.1041682; citation_id=CR24"/>
+
+    <meta name="citation_reference" content="Deng S, Wu Z, Zhou M, Li Y, Wu J (2006) Modeling service compatibility with pi-calculus for choreography. In: 25th International conference on conceptual modeling, Conceptual Modeling-ER 2006. Springer-Verlag, pp 26&#8211;39"/>
+
+    <meta name="citation_reference" content="Fournet C, Gonthier G (1996) The reflexive cham and the join-calculus. In: 23rd ACM symposium on principles of programming languages, POPL &#8217;96. ACM, pp 372&#8211;385"/>
+
+    <meta name="citation_reference" content="Fournet C, Gonthier G, L&#233;vy J-J, Maranget L, R&#233;my D. (1996) A calculus of mobile agents. In: Montanari U, Sassone V (eds) CONCUR, Lecture Notes in Computer Science, vol 1119, pp 406&#8211;421"/>
+
+    <meta name="citation_reference" content="Filli&#226;tre J-C (2013) One logic to use them all. In: 24th international conference on automated deduction (CADE-24), Lecture Notes in Artificial Intelligence, vol 7898, Lake Placid. Springer, pp 1&#8211;20"/>
+
+    <meta name="citation_reference" content="Foster H, Uchitel S, Magee J, Kramer J (2004) Compatibility verification for web service choreography. In: IEEE international conference on web services, pp 738"/>
+
+    <meta name="citation_reference" content="Gardiner P, Goldsmith M, Hulance J, Jackson D, Roscoe B, Scattergood B, Armstrong P (2010) FDR2 user manual. Technical report, Oxford University"/>
+
+    <meta name="citation_reference" content="Garavel H, Lang F, Mateescu R, Serwe W (2013) CADP 2011: a toolbox for the construction and analysis of distributed processes. Int J Softw Tools Technol Transf 15(2):89&#8211;107"/>
+
+    <meta name="citation_reference" content="Holzmann GJ (2004) The spin model checker: primer and reference manual. Addison-Wesley"/>
+
+    <meta name="citation_reference" content="Honda K, Tokoro M (1991) An object calculus for asynchronous communication. In: Proceedings of the European conference on object-oriented programming, ECOOP &#8217;91. Springer-Verlag, pp 133&#8211;147"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Distribut Comput; citation_title=Necessary and sufficient conditions on information for causal message ordering and their optimal implementation; citation_author=AD Kshemkalyani, M Singhal; citation_volume=11; citation_issue=2; citation_publication_date=1998; citation_pages=91-111; citation_doi=10.1007/s004460050044; citation_id=CR34"/>
+
+    <meta name="citation_reference" content="Kshemkalyani AD, Singhal M (2011) Distributed computing: principles, algorithms, and systems. Cambridge University Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Commun ACM; citation_title=Time, clocks and the ordering of events in a distributed system; citation_author=L Lamport; citation_volume=21; citation_issue=7; citation_publication_date=1978; citation_pages=558-565; citation_doi=10.1145/359545.359563; citation_id=CR36"/>
+
+    <meta name="citation_reference" content="Lamport L(2002) Specifying systems. Addison Wesley"/>
+
+    <meta name="citation_reference" content="Lamport L(2009) The PlusCal algorithm language. In: Leucker M, Morgan C (eds) Theoretical aspects of computing, Lecture notes in computer science, vol 5684. Springer, pp 36&#8211;60"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Trans Syst Man Cybern; citation_title=A Petri net approach to analyzing behavioral compatibility and similarity of web services; citation_author=X Li, Y Fan, QZ Sheng, Z Maamar, H Zhu; citation_volume=41; citation_issue=3; citation_publication_date=2011; citation_pages=510-521; citation_doi=10.1109/TSMCA.2010.2093884; citation_id=CR39"/>
+
+    <meta name="citation_reference" content="Lohmann N, Wolf K (2011) Decidability results for choreography realization. In: 9th International conference on service-oriented computing, ICSOC&#8217;11. Springer-Verlag, pp 92&#8211;107"/>
+
+    <meta name="citation_reference" content="Lynch NA (1996) Distributed algorithms. Morgan Kaufmann Publishers Inc."/>
+
+    <meta name="citation_reference" content="Martens A (2003) On compatibility of web services. Petri Net Newsletter, pp 12&#8211;20"/>
+
+    <meta name="citation_reference" content="Mattern F (1989) Virtual time and global state in distributed systems. In: Cosnard M, Robert Y, Quinton P, Raynal M (eds) Int&#8217;l workshop on parallel and distributed algorithms. Elsevier Science Publishers, pp 215&#8211;226"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Computer; citation_title=Applying &#8220;design by contract&#8221;; citation_author=B Meyer; citation_volume=25; citation_issue=10; citation_publication_date=1992; citation_pages=40-51; citation_doi=10.1109/2.161279; citation_id=CR44"/>
+
+    <meta name="citation_reference" content=" Milner R (1982) A calculus of communicating systems. Springer-Verlag New York, Inc.,"/>
+
+    <meta name="citation_reference" content="citation_title=Communicating and mobile systems: the -calculus; citation_publication_date=1999; citation_id=CR46; citation_author=R Milner; citation_publisher=Cambridge University Press"/>
+
+    <meta name="citation_reference" content=" Misra J (1983) Detecting termination of distributed computations using markers. In: Proceedings of the second annual ACM symposium on principles of distributed computing, PODC &#8217;83. ACM, pp 290&#8211;294"/>
+
+    <meta name="citation_reference" content=" Manna Z, Pnueli A (1992) The temporal logic of reactive and concurrent systems&#8211;specification. Springer-Verlag"/>
+
+    <meta name="citation_reference" content="Ouederni M, Sala&#252;n G, Bultan T (2013) Compatibility checking for asynchronously communicating software. In: International symposium on formal aspects of component software (FACS 2013), LNCS, vol 8348, pp 310&#8211;328"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Math Struct Comput Sci; citation_title=Comparing the expressive power of the synchronous and the asynchronous pi-calculi; citation_author=C Palamidessi; citation_volume=13; citation_issue=5; citation_publication_date=2003; citation_pages=685-719; citation_doi=10.1017/S0960129503004043; citation_id=CR50"/>
+
+    <meta name="citation_reference" content="citation_journal_title=ACM Trans Comput Syst; citation_title=Preserving and using context information in interprocess communication; citation_author=LL Peterson, NC Buchholz, RD Schlichting; citation_volume=7; citation_issue=3; citation_publication_date=1989; citation_pages=217-246; citation_doi=10.1145/65000.65001; citation_id=CR51"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J Parallel Distrib Comput; citation_title=An adaptive causal ordering algorithm suited to mobile computing environments; citation_author=R Prakash, M Raynal, M Singhal; citation_volume=41; citation_issue=2; citation_publication_date=1997; citation_pages=190-204; citation_doi=10.1006/jpdc.1996.1300; citation_id=CR52"/>
+
+    <meta name="citation_reference" content=" Raynal M (2010) Communication and agreement abstractions for fault-tolerant asynchronous distributed systems. Synthesis Lectures on Distributed Computing Theory. Morgan and Claypool Publishers,"/>
+
+    <meta name="citation_reference" content=" Raynal M (2013) Distributed algorithms for message-passing systems. Springer"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Inf Process Lett; citation_title=The causal ordering abstraction and a simple way to implement it; citation_author=M Raynal, A Schiper, S Toueg; citation_volume=39; citation_publication_date=1991; citation_pages=343-350; citation_doi=10.1016/0020-0190(91)90008-6; citation_id=CR55"/>
+
+    <meta name="citation_reference" content=" Sighireanu M, Chaudet C, Garavel H, Herbert M, Mateescu R, Vivien B (2000) LOTOS NT user manual"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Distrib Comput; citation_title=Detecting causal relationships in distributed computations: in search of the holy grail; citation_author=R Schwarz, F Mattern; citation_volume=7; citation_issue=3; citation_publication_date=1994; citation_pages=149-174; citation_doi=10.1007/BF02277859; citation_id=CR57"/>
+
+    <meta name="citation_reference" content=" Tel G (2000) Introduction to distributed algorithms, 2nd edn. Cambridge University Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Trans Autom Sci Eng; citation_title=A Petri net-based method for compatibility analysis and composition of web services in business process execution language; citation_author=W Tan, Y Fan, M Zhou; citation_volume=6; citation_issue=1; citation_publication_date=2009; citation_pages=94-106; citation_doi=10.1109/TASE.2008.916747; citation_id=CR59"/>
+
+    <meta name="citation_author" content="Florent Chevrou"/>
+
+    <meta name="citation_author_institution" content="IRIT&#8211;Universit&#233; de Toulouse, Toulouse, France"/>
+
+    <meta name="citation_author" content="Aur&#233;lie Hurault"/>
+
+    <meta name="citation_author_institution" content="IRIT&#8211;Universit&#233; de Toulouse, Toulouse, France"/>
+
+    <meta name="citation_author" content="Philippe Qu&#233;innec"/>
+
+    <meta name="citation_author_email" content="philippe.queinnec@irit.fr"/>
+
+    <meta name="citation_author_institution" content="IRIT&#8211;Universit&#233; de Toulouse, Toulouse, France"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s00165-016-0379-x&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2016/09/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s00165-016-0379-x"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Formal Aspects of Computing"/>
+        <meta property="og:title" content="On the diversity of asynchronous communication"/>
+        <meta property="og:description" content="Asynchronous communication is often viewed as a single entity, the counterpart of synchronous communication. Although the basic concept of asynchronous communication is the decoupling of send and receive events, there is actually room for a variety of additional specification of the communication, for instance in terms of ordering. Yet, these different asynchronous communications are used interchangeably and seldom distinguished. This paper is a contribution to the study of these models, their differences, and how they are related. In this paper, the variety of point-to-point asynchronous communication paradigms is considered with two approaches. In the first and theoretical one, communication models are specified as properties on the ordering of events in distributed executions. In the second and more practical approach that involves composition of peers, they are modeled with transition systems and message histories as part of a framework. The described framework enables to model peer composition and compatibility properties. Besides, an implemented tool chain based on the TLA+ formalism and model checking is also proposed and illustrated. The conformance of the two approaches is highlighted. A hierarchy is established between the studied communication models. From the execution viewpoint, it completes existing work in the area by introducing more asynchronous communication models and showing their differences. The framework is shown to offer abstract implementations of the communication models. Both the correctness and the completeness of the descriptions in the framework are studied. This reveals necessary restrictions on the behavior of the peers so that the communication models are actually implementable."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/165.jpg"/>
+    
+
+    <title>On the diversity of asynchronous communication | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-b0cd12fb00.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-92dda72269.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-s00165-016-0379-x","Journal Title":"Formal Aspects of Computing","Journal Id":165,"Keywords":"Asynchronous communication, Formal verification, Compatibility checking, TLA+\n                     ","kwrd":["Asynchronous_communication","Formal_verification","Compatibility_checking","TLA+\n_____________________"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s00165-016-0379-x","Full HTML":"N","Subject Codes":["SCI","SCI17044","SCI16005"],"pmc":["I","I17044","I16005"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1433-299X","pissn":"0934-5043"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Math Applications in Computer Science","2":"Theory of Computation"},"secondarySubjectCodes":{"1":"I17044","2":"I16005"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/s00165-016-0379-x","Page":"article","page":{"attributes":{"environment":"live"}}}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    <script>
+    window.config = window.config || {};
+    window.config.mustardcut = false;
+
+    
+    if (window.matchMedia && window.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            if (window.config.mustardcut) {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s),
+                            dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+            }
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    if (window.config.mustardcut) {
+        (function(w, d) {
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+            }
+
+            var headScripts = [
+                {'src': '/oscar-static/js/polyfill-es5-bundle-1d169163b6.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/airbrake-es5-bundle-52bc2f0799.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/airbrake-es6-bundle-fda19fa248.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                {'src': '/oscar-static/js/app-es5-bundle-461b219dac.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/app-es6-bundle-a44158b15b.js', 'async': false, 'module': true}
+                
+                
+                    , {'src': '/oscar-static/js/global-article-es5-bundle-78410e1423.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/global-article-es6-bundle-94baff64b9.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i = 0; i < headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i = 0; i < bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        })(window, document);
+    }
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+    <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/165/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=379;"></div>
+        </div>
+    </aside>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="firstTabbable"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="22" height="22" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00165-016-0379-x">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+
+            <div class="c-pdf-button__container">
+                
+            </div>
+
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+        <li class="c-article-identifiers__item" data-test="article-category">Original Article</li>
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="2016-05-03" itemprop="datePublished">03 May 2016</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">On the diversity of asynchronous communication</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Florent-Chevrou" data-author-popup="auth-Florent-Chevrou">Florent Chevrou</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="IRIT–Université de Toulouse" /><meta itemprop="address" content="grid.454304.2, 0000000121927225, IRIT–Université de Toulouse, 2 rue Camichel, 31000, Toulouse, France" /></span></sup>, </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Aur_lie-Hurault" data-author-popup="auth-Aur_lie-Hurault">Aurélie Hurault</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="IRIT–Université de Toulouse" /><meta itemprop="address" content="grid.454304.2, 0000000121927225, IRIT–Université de Toulouse, 2 rue Camichel, 31000, Toulouse, France" /></span></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Philippe-Qu_innec" data-author-popup="auth-Philippe-Qu_innec" data-corresp-id="c1">Philippe Quéinnec<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="IRIT–Université de Toulouse" /><meta itemprop="address" content="grid.454304.2, 0000000121927225, IRIT–Université de Toulouse, 2 rue Camichel, 31000, Toulouse, France" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/165"><i data-test="journal-title">Formal Aspects of Computing</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 28</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">847</span>–<span itemprop="pageEnd">879</span>(<span data-test="article-publication-year">2016</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-reset">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">197 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">4 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs00165-016-0379-x/metrics" data-track="click" data-track-action="view metrics" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" data-title="Abstract" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Asynchronous communication is often viewed as a single entity, the counterpart of synchronous communication. Although the basic concept of asynchronous communication is the decoupling of send and receive events, there is actually room for a variety of additional specification of the communication, for instance in terms of ordering. Yet, these different asynchronous communications are used interchangeably and seldom distinguished. This paper is a contribution to the study of these models, their differences, and how they are related. In this paper, the variety of point-to-point asynchronous communication paradigms is considered with two approaches. In the first and theoretical one, communication models are specified as properties on the ordering of events in distributed executions. In the second and more practical approach that involves composition of peers, they are modeled with transition systems and message histories as part of a framework. The described framework enables to model peer composition and compatibility properties. Besides, an implemented tool chain based on the TLA<sup>+</sup> formalism and model checking is also proposed and illustrated. The conformance of the two approaches is highlighted. A hierarchy is established between the studied communication models. From the execution viewpoint, it completes existing work in the area by introducing more asynchronous communication models and showing their differences. The framework is shown to offer abstract implementations of the communication models. Both the correctness and the completeness of the descriptions in the framework are studied. This reveals necessary restrictions on the behavior of the peers so that the communication models are actually implementable.</p></div></div></section>
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//link.springer.com/athens-shibboleth-login?previousUrl&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00165-016-0379-x" data-track="click" data-track-action="login" data-track-label="link">log in</a> to check access.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s00165-016-0379-x">
+     <input type="hidden" name="isxn" value="1433-299X">
+     <input type="hidden" name="contenttitle" value="On the diversity of asynchronous communication">
+     <input type="hidden" name="copyrightyear" value="2016">
+     <input type="hidden" name="year" value="2016">
+     <input type="hidden" name="authors" value="Florent Chevrou, Aurélie Hurault, Philippe Quéinnec">
+     <input type="hidden" name="title" value="Formal Aspects of Computing">
+     <input type="hidden" name="mac" value="844D205322352EEE0AEF1E59608ABD93">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Formal Aspects of Computing">
+     <input type="hidden" name="journalnumber" value="165">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" rel="nofollow" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s00165-016-0379-x&journal=1433-299X&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <section aria-labelledby="Bib1" data-title="References"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ait-Bachir A, Dumas M, Fauvet MC (2008) BESERIAL: behavioural service analyser. In: Business process managemen" /><span class="c-article-references__counter">ABDF08</span><p class="c-article-references__text" id="ref-CR1">Ait-Bachir A, Dumas M, Fauvet MC (2008) BESERIAL: behavioural service analyser. In: Business process management international conference. Demo session., LNCS 5240, pp 374–377</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G. Berry, G. Boudol, " /><meta itemprop="datePublished" content="1992" /><meta itemprop="headline" content="Berry G, Boudol G (1992) The chemical abstract machine. Theor Comput Sci 96(1): 217–248" /><span class="c-article-references__counter">BB92</span><p class="c-article-references__text" id="ref-CR2">Berry G, Boudol G (1992) The chemical abstract machine. Theor Comput Sci 96(1): 217–248</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1158717" aria-label="View reference 2 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2F0304-3975%2892%2990185-I" aria-label="View reference 2">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0747.68013" aria-label="View reference 2 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20chemical%20abstract%20machine&amp;journal=Theor%20Comput%20Sci&amp;volume=96&amp;issue=1&amp;pages=217-248&amp;publication_year=1992&amp;author=Berry%2CG&amp;author=Boudol%2CG">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Basu S, Bultan T, Ouederni M (2012) Synchronizability for verification of asynchronously communicating systems" /><span class="c-article-references__counter">BBO12</span><p class="c-article-references__text" id="ref-CR3">Basu S, Bultan T, Ouederni M (2012) Synchronizability for verification of asynchronously communicating systems. In: 13th international conference on verification, model checking, and abstract interpretation, VMCAI’12. Springer-Verlag, pp 56–71</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A. Brogi, C. Canal, E. Pimentel, A. Vallecillo, " /><meta itemprop="datePublished" content="2004" /><meta itemprop="headline" content="Brogi A, Canal C, Pimentel E, Vallecillo A (2004) Formalizing web service choreographies. Electron Notes Theor" /><span class="c-article-references__counter">BCPV04</span><p class="c-article-references__text" id="ref-CR4">Brogi A, Canal C, Pimentel E, Vallecillo A (2004) Formalizing web service choreographies. Electron Notes Theor Comput Sci 105: 73–94</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2Fj.entcs.2004.05.007" aria-label="View reference 4">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?1271.68083" aria-label="View reference 4 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Formalizing%20web%20service%20choreographies&amp;journal=Electron%20Notes%20Theor%20Comput%20Sci&amp;volume=105&amp;pages=73-94&amp;publication_year=2004&amp;author=Brogi%2CA&amp;author=Canal%2CC&amp;author=Pimentel%2CE&amp;author=Vallecillo%2CA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Benatallah B, Casati F, Toumani F (2004) Analysis and management of web service protocols. In: Conceptual mode" /><span class="c-article-references__counter">BCT04</span><p class="c-article-references__text" id="ref-CR5">Benatallah B, Casati F, Toumani F (2004) Analysis and management of web service protocols. In: Conceptual modeling–ER 2004, Lecture Notes in Computer Science, vol 3288. Springer, pp 524–541</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Birman KP (1996) Building secure and reliable network applications. Manning" /><span class="c-article-references__counter">Bir96</span><p class="c-article-references__text" id="ref-CR6">Birman KP (1996) Building secure and reliable network applications. Manning</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="KP. Birman, TA. Joseph, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Birman KP, Joseph TA (1987) Reliable communication in the presence of failures. ACM Trans Comput Syst 5(1): 47" /><span class="c-article-references__counter">BJ87</span><p class="c-article-references__text" id="ref-CR7">Birman KP, Joseph TA (1987) Reliable communication in the presence of failures. ACM Trans Comput Syst 5(1): 47–76</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F7351.7478" aria-label="View reference 7">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Reliable%20communication%20in%20the%20presence%20of%20failures&amp;journal=ACM%20Trans%20Comput%20Syst&amp;volume=5&amp;issue=1&amp;pages=47-76&amp;publication_year=1987&amp;author=Birman%2CKP&amp;author=Joseph%2CTA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Babaoğlu Ö, Marzullo K (1993) Consistent global states of distributed systems: fundamental concepts and mechan" /><span class="c-article-references__counter">BM93</span><p class="c-article-references__text" id="ref-CR8">Babaoğlu Ö, Marzullo K (1993) Consistent global states of distributed systems: fundamental concepts and mechanisms. In: Mullender SJ (ed) Distributed systems, 2nd edn. ACM Press Frontier Series, pp 55–96</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Boudol G (1992) Asynchrony and the Pi-calculus. Research Report RR-1702, INRIA" /><span class="c-article-references__counter">Bou92</span><p class="c-article-references__text" id="ref-CR9">Boudol G (1992) Asynchrony and the Pi-calculus. Research Report RR-1702, INRIA</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Beauxis R, Palamidessi C, Valencia FD (2008) On the asynchronous nature of the asynchronous \({\pi}\)-calculus" /><span class="c-article-references__counter">BPV08</span><p class="c-article-references__text" id="ref-CR10">Beauxis R, Palamidessi C, Valencia FD (2008) On the asynchronous nature of the asynchronous <span class="mathjax-tex">\({\pi}\)</span>-calculus. In: De Nicola R, Degano P, Meseguer J (eds) Concurrency, graphs and models, Lecture notes in computer science. Springer, pp 473–492</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D. Brand, P. Zafiropulo, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Brand D, Zafiropulo P (1983) On communicating finite-state machines. J ACM 30(2): 323–342" /><span class="c-article-references__counter">BZ83</span><p class="c-article-references__text" id="ref-CR11">Brand D, Zafiropulo P (1983) On communicating finite-state machines. J ACM 30(2): 323–342</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=700785" aria-label="View reference 11 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F322374.322380" aria-label="View reference 11">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0512.68039" aria-label="View reference 11 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=On%20communicating%20finite-state%20machines&amp;journal=J%20ACM&amp;volume=30&amp;issue=2&amp;pages=323-342&amp;publication_year=1983&amp;author=Brand%2CD&amp;author=Zafiropulo%2CP">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="B. Charron-Bost, F. Mattern, G. Tel, " /><meta itemprop="datePublished" content="1996" /><meta itemprop="headline" content="Charron-Bost B, Mattern F, Tel G (1996) Synchronous, asynchronous, and causally ordered communication. Distrib" /><span class="c-article-references__counter">CBMT96</span><p class="c-article-references__text" id="ref-CR12">Charron-Bost B, Mattern F, Tel G (1996) Synchronous, asynchronous, and causally ordered communication. Distrib Comput 9(4): 173–191</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1380838" aria-label="View reference 12 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs004460050018" aria-label="View reference 12">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Synchronous%2C%20asynchronous%2C%20and%20causally%20ordered%20communication&amp;journal=Distrib%20Comput&amp;volume=9&amp;issue=4&amp;pages=173-191&amp;publication_year=1996&amp;author=Charron-Bost%2CB&amp;author=Mattern%2CF&amp;author=Tel%2CG">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Coulouris G, Dollimore J, Kindberg T. (1994) Distributed systems: concepts and design, 2nd edn. Addison Wesley" /><span class="c-article-references__counter">CDK94</span><p class="c-article-references__text" id="ref-CR13">Coulouris G, Dollimore J, Kindberg T. (1994) Distributed systems: concepts and design, 2nd edn. Addison Wesley</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="F. Cristian, C. Fetzer, " /><meta itemprop="datePublished" content="1999" /><meta itemprop="headline" content="Cristian F, Fetzer C (1999) The timed asynchronous distributed system model. IEEE Trans Parallel Distrib Syst " /><span class="c-article-references__counter">CF99</span><p class="c-article-references__text" id="ref-CR14">Cristian F, Fetzer C (1999) The timed asynchronous distributed system model. IEEE Trans Parallel Distrib Syst 10(6): 642–657</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2F71.774912" aria-label="View reference 14">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20timed%20asynchronous%20distributed%20system%20model&amp;journal=IEEE%20Trans%20Parallel%20Distrib%20Syst&amp;volume=10&amp;issue=6&amp;pages=642-657&amp;publication_year=1999&amp;author=Cristian%2CF&amp;author=Fetzer%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Cardelli L, Gordon AD (1998) Mobile ambients. In: First international conference on foundations of software sc" /><span class="c-article-references__counter">CG98</span><p class="c-article-references__text" id="ref-CR15">Cardelli L, Gordon AD (1998) Mobile ambients. In: First international conference on foundations of software science and computation structure, FoSSaCS ’98. Springer-Verlag, pp 140–155</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Charpentier M (1997) A Unity mapping operator for distributed programs. In: Fitzgerald J, Jones CB, Lucas P (e" /><span class="c-article-references__counter">Cha97</span><p class="c-article-references__text" id="ref-CR16">Charpentier M (1997) A U<span class="u-small-caps">nity</span> mapping operator for distributed programs. In: Fitzgerald J, Jones CB, Lucas P (eds) 4th Int’l symposium of formal methods europe (FME’97), Lecture notes in computer science, vol 1313. Springer-Verlag, pp 665–684</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chevrou F, Hurault A, Mauran P, Quéinnec P (2016) Mechanized refinement of communication models with TLA+. In:" /><span class="c-article-references__counter">CHMQ16</span><p class="c-article-references__text" id="ref-CR17">Chevrou F, Hurault A, Mauran P, Quéinnec P (2016) Mechanized refinement of communication models with TLA+. In: International ABZ Conference. Springer-Verlag, p 6</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Chevrou F, Hurault A, Quéinnec P (2015) Automated verification of asynchronous communicating systems with TLA+" /><span class="c-article-references__counter">CHQ15</span><p class="c-article-references__text" id="ref-CR18">Chevrou F, Hurault A, Quéinnec P (2015) Automated verification of asynchronous communicating systems with TLA+. In: Electronic communications of the EASST (PostProceedings of the 15th international workshop on automated verification of critical systems), vol 72</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="KM. Chandy, L. Lamport, " /><meta itemprop="datePublished" content="1985" /><meta itemprop="headline" content="Chandy KM, Lamport L (1985) Distributed snapshots: determining global states of distributed systems. ACM Trans" /><span class="c-article-references__counter">CL85</span><p class="c-article-references__text" id="ref-CR19">Chandy KM, Lamport L (1985) Distributed snapshots: determining global states of distributed systems. ACM Trans Comput Syst 3(1): 63–75</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F214451.214456" aria-label="View reference 19">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Distributed%20snapshots%3A%20determining%20global%20states%20of%20distributed%20systems&amp;journal=ACM%20Trans%20Comput%20Syst&amp;volume=3&amp;issue=1&amp;pages=63-75&amp;publication_year=1985&amp;author=Chandy%2CKM&amp;author=Lamport%2CL">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="HS. Chae, J-S. Lee, JH. Bae, " /><meta itemprop="datePublished" content="2008" /><meta itemprop="headline" content="Chae HS, Lee J-S, Bae JH (2008) An approach to checking behavioral compatibility between web services. Int J S" /><span class="c-article-references__counter">CLB08</span><p class="c-article-references__text" id="ref-CR20">Chae HS, Lee J-S, Bae JH (2008) An approach to checking behavioral compatibility between web services. Int J Softw Eng Knowl Eng 18(2): 223–241</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1142%2FS0218194008003647" aria-label="View reference 20">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20approach%20to%20checking%20behavioral%20compatibility%20between%20web%20services&amp;journal=Int%20J%20Softw%20Eng%20Knowl%20Eng&amp;volume=18&amp;issue=2&amp;pages=223-241&amp;publication_year=2008&amp;author=Chae%2CHS&amp;author=Lee%2CJ-S&amp;author=Bae%2CJH">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. Cleaveland, J. Parrow, B. Steffen, " /><meta itemprop="datePublished" content="1993" /><meta itemprop="headline" content="Cleaveland R, Parrow J, Steffen B (1993) The concurrency workbench: A semantics-based tool for the verificatio" /><span class="c-article-references__counter">CPS93</span><p class="c-article-references__text" id="ref-CR21">Cleaveland R, Parrow J, Steffen B (1993) The concurrency workbench: A semantics-based tool for the verification of concurrent systems. ACM Trans Program Lang Syst 15(1): 36–72</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F151646.151648" aria-label="View reference 21">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 21 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20concurrency%20workbench%3A%20A%20semantics-based%20tool%20for%20the%20verification%20of%20concurrent%20systems&amp;journal=ACM%20Trans%20Program%20Lang%20Syst&amp;volume=15&amp;issue=1&amp;pages=36-72&amp;publication_year=1993&amp;author=Cleaveland%2CR&amp;author=Parrow%2CJ&amp;author=Steffen%2CB">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. Canal, E. Pimentel, JM. Troya, " /><meta itemprop="datePublished" content="2001" /><meta itemprop="headline" content="Canal C, Pimentel E, Troya JM (2001) Compatibility and inheritance in software architectures. Sci Comput Progr" /><span class="c-article-references__counter">CPT01</span><p class="c-article-references__text" id="ref-CR22">Canal C, Pimentel E, Troya JM (2001) Compatibility and inheritance in software architectures. Sci Comput Program 41(2): 105–138</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1854788" aria-label="View reference 22 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2FS0167-6423%2801%2900002-8" aria-label="View reference 22">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0988.68026" aria-label="View reference 22 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Compatibility%20and%20inheritance%20in%20software%20architectures&amp;journal=Sci%20Comput%20Program&amp;volume=41&amp;issue=2&amp;pages=105-138&amp;publication_year=2001&amp;author=Canal%2CC&amp;author=Pimentel%2CE&amp;author=Troya%2CJM">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="F. Durán, M. Ouederni, G. Salaún, " /><meta itemprop="datePublished" content="2012" /><meta itemprop="headline" content="Durán F, Ouederni M, Salaún G (2012) A generic framework for n-protocol compatibility checking. Sci Comput Pro" /><span class="c-article-references__counter">DOS12</span><p class="c-article-references__text" id="ref-CR23">Durán F, Ouederni M, Salaún G (2012) A generic framework for n-protocol compatibility checking. Sci Comput Program 77(7-8): 870–886</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2Fj.scico.2011.03.009" aria-label="View reference 23">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?1245.68028" aria-label="View reference 23 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20generic%20framework%20for%20n-protocol%20compatibility%20checking&amp;journal=Sci%20Comput%20Program&amp;volume=77&amp;issue=7-8&amp;pages=870-886&amp;publication_year=2012&amp;author=Dur%C3%A1n%2CF&amp;author=Ouederni%2CM&amp;author=Sala%C3%BAn%2CG">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="X. Défago, A. Schiper, P. Urbán, " /><meta itemprop="datePublished" content="2004" /><meta itemprop="headline" content="Défago X, Schiper A, Urbán P (2004) Total order broadcast and multicast algorithms: taxonomy and survey. ACM C" /><span class="c-article-references__counter">DSU04</span><p class="c-article-references__text" id="ref-CR24">Défago X, Schiper A, Urbán P (2004) Total order broadcast and multicast algorithms: taxonomy and survey. ACM Comput Surv 36: 372–421</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F1041680.1041682" aria-label="View reference 24">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Total%20order%20broadcast%20and%20multicast%20algorithms%3A%20taxonomy%20and%20survey&amp;journal=ACM%20Comput%20Surv&amp;volume=36&amp;pages=372-421&amp;publication_year=2004&amp;author=D%C3%A9fago%2CX&amp;author=Schiper%2CA&amp;author=Urb%C3%A1n%2CP">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Deng S, Wu Z, Zhou M, Li Y, Wu J (2006) Modeling service compatibility with pi-calculus for choreography. In: " /><span class="c-article-references__counter">DWZ+06</span><p class="c-article-references__text" id="ref-CR25">Deng S, Wu Z, Zhou M, Li Y, Wu J (2006) Modeling service compatibility with pi-calculus for choreography. In: 25th International conference on conceptual modeling, Conceptual Modeling-ER 2006. Springer-Verlag, pp 26–39</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Fournet C, Gonthier G (1996) The reflexive cham and the join-calculus. In: 23rd ACM symposium on principles of" /><span class="c-article-references__counter">FG96</span><p class="c-article-references__text" id="ref-CR26">Fournet C, Gonthier G (1996) The reflexive cham and the join-calculus. In: 23rd ACM symposium on principles of programming languages, POPL ’96. ACM, pp 372–385</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Fournet C, Gonthier G, Lévy J-J, Maranget L, Rémy D. (1996) A calculus of mobile agents. In: Montanari U, Sass" /><span class="c-article-references__counter">FGL+96</span><p class="c-article-references__text" id="ref-CR27">Fournet C, Gonthier G, Lévy J-J, Maranget L, Rémy D. (1996) A calculus of mobile agents. In: Montanari U, Sassone V (eds) CONCUR, Lecture Notes in Computer Science, vol 1119, pp 406–421</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Filliâtre J-C (2013) One logic to use them all. In: 24th international conference on automated deduction (CADE" /><span class="c-article-references__counter">Fil13</span><p class="c-article-references__text" id="ref-CR28">Filliâtre J-C (2013) One logic to use them all. In: 24th international conference on automated deduction (CADE-24), Lecture Notes in Artificial Intelligence, vol 7898, Lake Placid. Springer, pp 1–20</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Foster H, Uchitel S, Magee J, Kramer J (2004) Compatibility verification for web service choreography. In: IEE" /><span class="c-article-references__counter">FUMK04</span><p class="c-article-references__text" id="ref-CR29">Foster H, Uchitel S, Magee J, Kramer J (2004) Compatibility verification for web service choreography. In: IEEE international conference on web services, pp 738</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Gardiner P, Goldsmith M, Hulance J, Jackson D, Roscoe B, Scattergood B, Armstrong P (2010) FDR2 user manual. T" /><span class="c-article-references__counter">GGH+10</span><p class="c-article-references__text" id="ref-CR30">Gardiner P, Goldsmith M, Hulance J, Jackson D, Roscoe B, Scattergood B, Armstrong P (2010) FDR2 user manual. Technical report, Oxford University</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Garavel H, Lang F, Mateescu R, Serwe W (2013) CADP 2011: a toolbox for the construction and analysis of distri" /><span class="c-article-references__counter">GLMS13</span><p class="c-article-references__text" id="ref-CR31">Garavel H, Lang F, Mateescu R, Serwe W (2013) CADP 2011: a toolbox for the construction and analysis of distributed processes. Int J Softw Tools Technol Transf 15(2):89–107</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Holzmann GJ (2004) The spin model checker: primer and reference manual. Addison-Wesley" /><span class="c-article-references__counter">Hol04</span><p class="c-article-references__text" id="ref-CR32">Holzmann GJ (2004) The spin model checker: primer and reference manual. Addison-Wesley</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Honda K, Tokoro M (1991) An object calculus for asynchronous communication. In: Proceedings of the European co" /><span class="c-article-references__counter">HT91</span><p class="c-article-references__text" id="ref-CR33">Honda K, Tokoro M (1991) An object calculus for asynchronous communication. In: Proceedings of the European conference on object-oriented programming, ECOOP ’91. Springer-Verlag, pp 133–147</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="AD. Kshemkalyani, M. Singhal, " /><meta itemprop="datePublished" content="1998" /><meta itemprop="headline" content="Kshemkalyani AD, Singhal M (1998) Necessary and sufficient conditions on information for causal message orderi" /><span class="c-article-references__counter">KS98</span><p class="c-article-references__text" id="ref-CR34">Kshemkalyani AD, Singhal M (1998) Necessary and sufficient conditions on information for causal message ordering and their optimal implementation. Distribut Comput 11(2): 91–111</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs004460050044" aria-label="View reference 34">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 34 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Necessary%20and%20sufficient%20conditions%20on%20information%20for%20causal%20message%20ordering%20and%20their%20optimal%20implementation&amp;journal=Distribut%20Comput&amp;volume=11&amp;issue=2&amp;pages=91-111&amp;publication_year=1998&amp;author=Kshemkalyani%2CAD&amp;author=Singhal%2CM">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Kshemkalyani AD, Singhal M (2011) Distributed computing: principles, algorithms, and systems. Cambridge Univer" /><span class="c-article-references__counter">KS11</span><p class="c-article-references__text" id="ref-CR35">Kshemkalyani AD, Singhal M (2011) Distributed computing: principles, algorithms, and systems. Cambridge University Press</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="L. Lamport, " /><meta itemprop="datePublished" content="1978" /><meta itemprop="headline" content="Lamport L (1978) Time, clocks and the ordering of events in a distributed system. Commun ACM 21(7): 558–565" /><span class="c-article-references__counter">Lam78</span><p class="c-article-references__text" id="ref-CR36">Lamport L (1978) Time, clocks and the ordering of events in a distributed system. Commun ACM 21(7): 558–565</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F359545.359563" aria-label="View reference 36">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0378.68027" aria-label="View reference 36 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 36 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Time%2C%20clocks%20and%20the%20ordering%20of%20events%20in%20a%20distributed%20system&amp;journal=Commun%20ACM&amp;volume=21&amp;issue=7&amp;pages=558-565&amp;publication_year=1978&amp;author=Lamport%2CL">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lamport L(2002) Specifying systems. Addison Wesley" /><span class="c-article-references__counter">Lam02</span><p class="c-article-references__text" id="ref-CR37">Lamport L(2002) Specifying systems. Addison Wesley</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lamport L(2009) The PlusCal algorithm language. In: Leucker M, Morgan C (eds) Theoretical aspects of computing" /><span class="c-article-references__counter">Lam09</span><p class="c-article-references__text" id="ref-CR38">Lamport L(2009) The PlusCal algorithm language. In: Leucker M, Morgan C (eds) Theoretical aspects of computing, Lecture notes in computer science, vol 5684. Springer, pp 36–60</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="X. Li, Y. Fan, QZ. Sheng, Z. Maamar, H. Zhu, " /><meta itemprop="datePublished" content="2011" /><meta itemprop="headline" content="Li X, Fan Y, Sheng QZ, Maamar Z, Zhu H (2011) A Petri net approach to analyzing behavioral compatibility and s" /><span class="c-article-references__counter">LFS+11</span><p class="c-article-references__text" id="ref-CR39">Li X, Fan Y, Sheng QZ, Maamar Z, Zhu H (2011) A Petri net approach to analyzing behavioral compatibility and similarity of web services. IEEE Trans Syst Man Cybern 41(3): 510–521</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FTSMCA.2010.2093884" aria-label="View reference 39">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 39 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20Petri%20net%20approach%20to%20analyzing%20behavioral%20compatibility%20and%20similarity%20of%20web%20services&amp;journal=IEEE%20Trans%20Syst%20Man%20Cybern&amp;volume=41&amp;issue=3&amp;pages=510-521&amp;publication_year=2011&amp;author=Li%2CX&amp;author=Fan%2CY&amp;author=Sheng%2CQZ&amp;author=Maamar%2CZ&amp;author=Zhu%2CH">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lohmann N, Wolf K (2011) Decidability results for choreography realization. In: 9th International conference o" /><span class="c-article-references__counter">LW11</span><p class="c-article-references__text" id="ref-CR40">Lohmann N, Wolf K (2011) Decidability results for choreography realization. In: 9th International conference on service-oriented computing, ICSOC’11. Springer-Verlag, pp 92–107</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Lynch NA (1996) Distributed algorithms. Morgan Kaufmann Publishers Inc." /><span class="c-article-references__counter">Lyn96</span><p class="c-article-references__text" id="ref-CR41">Lynch NA (1996) Distributed algorithms. Morgan Kaufmann Publishers Inc.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Martens A (2003) On compatibility of web services. Petri Net Newsletter, pp 12–20" /><span class="c-article-references__counter">Mar03</span><p class="c-article-references__text" id="ref-CR42">Martens A (2003) On compatibility of web services. Petri Net Newsletter, pp 12–20</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Mattern F (1989) Virtual time and global state in distributed systems. In: Cosnard M, Robert Y, Quinton P, Ray" /><span class="c-article-references__counter">Mat89</span><p class="c-article-references__text" id="ref-CR43">Mattern F (1989) Virtual time and global state in distributed systems. In: Cosnard M, Robert Y, Quinton P, Raynal M (eds) Int’l workshop on parallel and distributed algorithms. Elsevier Science Publishers, pp 215–226</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="B. Meyer, " /><meta itemprop="datePublished" content="1992" /><meta itemprop="headline" content="Meyer B (1992) Applying “design by contract”. Computer 25(10): 40–51" /><span class="c-article-references__counter">Mey92</span><p class="c-article-references__text" id="ref-CR44">Meyer B (1992) Applying “design by contract”. Computer 25(10): 40–51</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2F2.161279" aria-label="View reference 44">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 44 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Applying%20%E2%80%9Cdesign%20by%20contract%E2%80%9D&amp;journal=Computer&amp;volume=25&amp;issue=10&amp;pages=40-51&amp;publication_year=1992&amp;author=Meyer%2CB">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Milner R (1982) A calculus of communicating systems. Springer-Verlag New York, Inc.," /><span class="c-article-references__counter">Mil82</span><p class="c-article-references__text" id="ref-CR45"> Milner R (1982) A calculus of communicating systems. Springer-Verlag New York, Inc.,</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R. Milner, " /><meta itemprop="datePublished" content="1999" /><meta itemprop="headline" content="Milner R (1999) Communicating and mobile systems: the \({\pi}\)-calculus. Cambridge University Press, Cambridg" /><span class="c-article-references__counter">Mil99</span><p class="c-article-references__text" id="ref-CR46">Milner R (1999) Communicating and mobile systems: the <span class="mathjax-tex">\({\pi}\)</span>-calculus. Cambridge University Press, Cambridge</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 46 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Communicating%20and%20mobile%20systems%3A%20the%20%24%24%7B%5Cpi%7D%24%24%20%CF%80%20-calculus&amp;publication_year=1999&amp;author=Milner%2CR">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Misra J (1983) Detecting termination of distributed computations using markers. In: Proceedings of the second" /><span class="c-article-references__counter">Mis83</span><p class="c-article-references__text" id="ref-CR47"> Misra J (1983) Detecting termination of distributed computations using markers. In: Proceedings of the second annual ACM symposium on principles of distributed computing, PODC ’83. ACM, pp 290–294</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Manna Z, Pnueli A (1992) The temporal logic of reactive and concurrent systems–specification. Springer-Verlag" /><span class="c-article-references__counter">MP92</span><p class="c-article-references__text" id="ref-CR48"> Manna Z, Pnueli A (1992) The temporal logic of reactive and concurrent systems–specification. Springer-Verlag</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Ouederni M, Salaün G, Bultan T (2013) Compatibility checking for asynchronously communicating software. In: In" /><span class="c-article-references__counter">OSB13</span><p class="c-article-references__text" id="ref-CR49">Ouederni M, Salaün G, Bultan T (2013) Compatibility checking for asynchronously communicating software. In: International symposium on formal aspects of component software (FACS 2013), LNCS, vol 8348, pp 310–328</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. Palamidessi, " /><meta itemprop="datePublished" content="2003" /><meta itemprop="headline" content="Palamidessi C (2003) Comparing the expressive power of the synchronous and the asynchronous pi-calculi. Math S" /><span class="c-article-references__counter">Pal03</span><p class="c-article-references__text" id="ref-CR50">Palamidessi C (2003) Comparing the expressive power of the synchronous and the asynchronous pi-calculi. Math Struct Comput Sci 13(5): 685–719</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=2037135" aria-label="View reference 50 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1017%2FS0960129503004043" aria-label="View reference 50">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 50 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Comparing%20the%20expressive%20power%20of%20the%20synchronous%20and%20the%20asynchronous%20pi-calculi&amp;journal=Math%20Struct%20Comput%20Sci&amp;volume=13&amp;issue=5&amp;pages=685-719&amp;publication_year=2003&amp;author=Palamidessi%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="LL. Peterson, NC. Buchholz, RD. Schlichting, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Peterson LL, Buchholz NC, Schlichting RD (1989) Preserving and using context information in interprocess commu" /><span class="c-article-references__counter">PBS89</span><p class="c-article-references__text" id="ref-CR51">Peterson LL, Buchholz NC, Schlichting RD (1989) Preserving and using context information in interprocess communication. ACM Trans Comput Syst 7(3): 217–246</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1145%2F65000.65001" aria-label="View reference 51">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 51 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Preserving%20and%20using%20context%20information%20in%20interprocess%20communication&amp;journal=ACM%20Trans%20Comput%20Syst&amp;volume=7&amp;issue=3&amp;pages=217-246&amp;publication_year=1989&amp;author=Peterson%2CLL&amp;author=Buchholz%2CNC&amp;author=Schlichting%2CRD">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. Prakash, M. Raynal, M. Singhal, " /><meta itemprop="datePublished" content="1997" /><meta itemprop="headline" content="Prakash R, Raynal M, Singhal M (1997) An adaptive causal ordering algorithm suited to mobile computing environ" /><span class="c-article-references__counter">PRS97</span><p class="c-article-references__text" id="ref-CR52">Prakash R, Raynal M, Singhal M (1997) An adaptive causal ordering algorithm suited to mobile computing environments. J Parallel Distrib Comput 41(2): 190–204</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1006%2Fjpdc.1996.1300" aria-label="View reference 52">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 52 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20adaptive%20causal%20ordering%20algorithm%20suited%20to%20mobile%20computing%20environments&amp;journal=J%20Parallel%20Distrib%20Comput&amp;volume=41&amp;issue=2&amp;pages=190-204&amp;publication_year=1997&amp;author=Prakash%2CR&amp;author=Raynal%2CM&amp;author=Singhal%2CM">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Raynal M (2010) Communication and agreement abstractions for fault-tolerant asynchronous distributed systems." /><span class="c-article-references__counter">Ray10</span><p class="c-article-references__text" id="ref-CR53"> Raynal M (2010) Communication and agreement abstractions for fault-tolerant asynchronous distributed systems. Synthesis Lectures on Distributed Computing Theory. Morgan and Claypool Publishers,</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Raynal M (2013) Distributed algorithms for message-passing systems. Springer" /><span class="c-article-references__counter">Ray13</span><p class="c-article-references__text" id="ref-CR54"> Raynal M (2013) Distributed algorithms for message-passing systems. Springer</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. Raynal, A. Schiper, S. Toueg, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Raynal M, Schiper A, Toueg S (1991) The causal ordering abstraction and a simple way to implement it. Inf Proc" /><span class="c-article-references__counter">RST91</span><p class="c-article-references__text" id="ref-CR55">Raynal M, Schiper A, Toueg S (1991) The causal ordering abstraction and a simple way to implement it. Inf Process Lett 39: 343–350</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ams.org/mathscinet-getitem?mr=1131240" aria-label="View reference 55 on MathSciNet">MathSciNet</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2F0020-0190%2891%2990008-6" aria-label="View reference 55">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0748.68026" aria-label="View reference 55 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 55 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20causal%20ordering%20abstraction%20and%20a%20simple%20way%20to%20implement%20it&amp;journal=Inf%20Process%20Lett&amp;volume=39&amp;pages=343-350&amp;publication_year=1991&amp;author=Raynal%2CM&amp;author=Schiper%2CA&amp;author=Toueg%2CS">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Sighireanu M, Chaudet C, Garavel H, Herbert M, Mateescu R, Vivien B (2000) LOTOS NT user manual" /><span class="c-article-references__counter">SCG+00</span><p class="c-article-references__text" id="ref-CR56"> Sighireanu M, Chaudet C, Garavel H, Herbert M, Mateescu R, Vivien B (2000) LOTOS NT user manual</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. Schwarz, F. Mattern, " /><meta itemprop="datePublished" content="1994" /><meta itemprop="headline" content="Schwarz R, Mattern F (1994) Detecting causal relationships in distributed computations: in search of the holy " /><span class="c-article-references__counter">SM94</span><p class="c-article-references__text" id="ref-CR57">Schwarz R, Mattern F (1994) Detecting causal relationships in distributed computations: in search of the holy grail. Distrib Comput 7(3): 149–174</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2FBF02277859" aria-label="View reference 57">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.emis.de/MATH-item?0813.68096" aria-label="View reference 57 on MATH">MATH</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 57 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Detecting%20causal%20relationships%20in%20distributed%20computations%3A%20in%20search%20of%20the%20holy%20grail&amp;journal=Distrib%20Comput&amp;volume=7&amp;issue=3&amp;pages=149-174&amp;publication_year=1994&amp;author=Schwarz%2CR&amp;author=Mattern%2CF">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content=" Tel G (2000) Introduction to distributed algorithms, 2nd edn. Cambridge University Press" /><span class="c-article-references__counter">Tel00</span><p class="c-article-references__text" id="ref-CR58"> Tel G (2000) Introduction to distributed algorithms, 2nd edn. Cambridge University Press</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="W. Tan, Y. Fan, M. Zhou, " /><meta itemprop="datePublished" content="2009" /><meta itemprop="headline" content="Tan W, Fan Y, Zhou M (2009) A Petri net-based method for compatibility analysis and composition of web service" /><span class="c-article-references__counter">TFZ09</span><p class="c-article-references__text" id="ref-CR59">Tan W, Fan Y, Zhou M (2009) A Petri net-based method for compatibility analysis and composition of web services in business process execution language. IEEE Trans Autom Sci Eng 6(1): 94–106</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FTASE.2008.916747" aria-label="View reference 59">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 59 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20Petri%20net-based%20method%20for%20compatibility%20analysis%20and%20composition%20of%20web%20services%20in%20business%20process%20execution%20language&amp;journal=IEEE%20Trans%20Autom%20Sci%20Eng&amp;volume=6&amp;issue=1&amp;pages=94-106&amp;publication_year=2009&amp;author=Tan%2CW&amp;author=Fan%2CY&amp;author=Zhou%2CM">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="/article/10.1007/s00165-016-0379-x-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information" data-title="Author information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><p class="c-article-author-affiliation__address">IRIT–Université de Toulouse, 2 rue Camichel, 31000, Toulouse, France</p><p class="c-article-author-affiliation__authors-list">Florent Chevrou, Aurélie Hurault &amp; Philippe Quéinnec</p></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-Florent-Chevrou"><span class="c-article-authors-search__title u-h3 js-search-name">Florent Chevrou</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Florent+Chevrou&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Florent+Chevrou" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Florent+Chevrou%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Aur_lie-Hurault"><span class="c-article-authors-search__title u-h3 js-search-name">Aurélie Hurault</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Aur%C3%A9lie+Hurault&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Aur%C3%A9lie+Hurault" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Aur%C3%A9lie+Hurault%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Philippe-Qu_innec"><span class="c-article-authors-search__title u-h3 js-search-name">Philippe Quéinnec</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Philippe+Qu%C3%A9innec&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Philippe+Qu%C3%A9innec" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Philippe+Qu%C3%A9innec%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li></ol></div><h3 class="c-article__sub-heading" id="corresponding-author">Corresponding author</h3><p id="corresponding-author-list">Correspondence to
+                <a id="corresp-c1" rel="nofollow" href="/article/10.1007/s00165-016-0379-x/email/correspondent/c1/new">Philippe Quéinnec</a>.</p></div></div></section><section aria-labelledby="additional-information" data-title="Additional information"><div class="c-article-section" id="additional-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="additional-information">Additional information</h2><div class="c-article-section__content" id="additional-information-content"><p>Stephan Merz, Jun Pang, and Jin Song Dong</p></div></div></section><section aria-labelledby="rightslink" data-title="Rights and permissions"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=On%20the%20diversity%20of%20asynchronous%20communication&amp;author=Florent%20Chevrou%20et%20al&amp;contentID=10.1007%2Fs00165-016-0379-x&amp;publication=0934-5043&amp;publicationDate=2016-05-03&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info" data-title="About this article"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="u-hide-print c-bibliographic-information__column c-bibliographic-information__column--border"><a data-crossmark="10.1007/s00165-016-0379-x" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007/s00165-016-0379-x" data-track="click" data-track-action="Click Crossmark" data-track-label="link" data-test="crossmark"><img width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgxIiB3aWR0aD0iNTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJtMTcuMzUgMzUuNDUgMjEuMy0xNC4ydi0xNy4wM2gtMjEuMyIgZmlsbD0iIzk4OTg5OCIvPjxwYXRoIGQ9Im0zOC42NSAzNS40NS0yMS4zLTE0LjJ2LTE3LjAzaDIxLjMiIGZpbGw9IiM3NDc0NzQiLz48cGF0aCBkPSJtMjggLjVjLTEyLjk4IDAtMjMuNSAxMC41Mi0yMy41IDIzLjVzMTAuNTIgMjMuNSAyMy41IDIzLjUgMjMuNS0xMC41MiAyMy41LTIzLjVjMC02LjIzLTIuNDgtMTIuMjEtNi44OC0xNi42Mi00LjQxLTQuNC0xMC4zOS02Ljg4LTE2LjYyLTYuODh6bTAgNDEuMjVjLTkuOCAwLTE3Ljc1LTcuOTUtMTcuNzUtMTcuNzVzNy45NS0xNy43NSAxNy43NS0xNy43NSAxNy43NSA3Ljk1IDE3Ljc1IDE3Ljc1YzAgNC43MS0xLjg3IDkuMjItNS4yIDEyLjU1cy03Ljg0IDUuMi0xMi41NSA1LjJ6IiBmaWxsPSIjNTM1MzUzIi8+PHBhdGggZD0ibTQxIDM2Yy01LjgxIDYuMjMtMTUuMjMgNy40NS0yMi40MyAyLjktNy4yMS00LjU1LTEwLjE2LTEzLjU3LTcuMDMtMjEuNWwtNC45Mi0zLjExYy00Ljk1IDEwLjctMS4xOSAyMy40MiA4Ljc4IDI5LjcxIDkuOTcgNi4zIDIzLjA3IDQuMjIgMzAuNi00Ljg2eiIgZmlsbD0iIzljOWM5YyIvPjxwYXRoIGQ9Im0uMiA1OC40NWMwLS43NS4xMS0xLjQyLjMzLTIuMDFzLjUyLTEuMDkuOTEtMS41Yy4zOC0uNDEuODMtLjczIDEuMzQtLjk0LjUxLS4yMiAxLjA2LS4zMiAxLjY1LS4zMi41NiAwIDEuMDYuMTEgMS41MS4zNS40NC4yMy44MS41IDEuMS44MWwtLjkxIDEuMDFjLS4yNC0uMjQtLjQ5LS40Mi0uNzUtLjU2LS4yNy0uMTMtLjU4LS4yLS45My0uMi0uMzkgMC0uNzMuMDgtMS4wNS4yMy0uMzEuMTYtLjU4LjM3LS44MS42Ni0uMjMuMjgtLjQxLjYzLS41MyAxLjA0LS4xMy40MS0uMTkuODgtLjE5IDEuMzkgMCAxLjA0LjIzIDEuODYuNjggMi40Ni40NS41OSAxLjA2Ljg4IDEuODQuODguNDEgMCAuNzctLjA3IDEuMDctLjIzcy41OS0uMzkuODUtLjY4bC45MSAxYy0uMzguNDMtLjguNzYtMS4yOC45OS0uNDcuMjItMSAuMzQtMS41OC4zNC0uNTkgMC0xLjEzLS4xLTEuNjQtLjMxLS41LS4yLS45NC0uNTEtMS4zMS0uOTEtLjM4LS40LS42Ny0uOS0uODgtMS40OC0uMjItLjU5LS4zMy0xLjI2LS4zMy0yLjAyem04LjQtNS4zM2gxLjYxdjIuNTRsLS4wNSAxLjMzYy4yOS0uMjcuNjEtLjUxLjk2LS43MnMuNzYtLjMxIDEuMjQtLjMxYy43MyAwIDEuMjcuMjMgMS42MS43MS4zMy40Ny41IDEuMTQuNSAyLjAydjQuMzFoLTEuNjF2LTQuMWMwLS41Ny0uMDgtLjk3LS4yNS0xLjIxLS4xNy0uMjMtLjQ1LS4zNS0uODMtLjM1LS4zIDAtLjU2LjA4LS43OS4yMi0uMjMuMTUtLjQ5LjM2LS43OC42NHY0LjhoLTEuNjF6bTcuMzcgNi40NWMwLS41Ni4wOS0xLjA2LjI2LTEuNTEuMTgtLjQ1LjQyLS44My43MS0xLjE0LjI5LS4zLjYzLS41NCAxLjAxLS43MS4zOS0uMTcuNzgtLjI1IDEuMTgtLjI1LjQ3IDAgLjg4LjA4IDEuMjMuMjQuMzYuMTYuNjUuMzguODkuNjdzLjQyLjYzLjU0IDEuMDNjLjEyLjQxLjE4Ljg0LjE4IDEuMzIgMCAuMzItLjAyLjU3LS4wNy43NmgtNC4zNmMuMDcuNjIuMjkgMS4xLjY1IDEuNDQuMzYuMzMuODIuNSAxLjM4LjUuMjkgMCAuNTctLjA0LjgzLS4xM3MuNTEtLjIxLjc2LS4zN2wuNTUgMS4wMWMtLjMzLjIxLS42OS4zOS0xLjA5LjUzLS40MS4xNC0uODMuMjEtMS4yNi4yMS0uNDggMC0uOTItLjA4LTEuMzQtLjI1LS40MS0uMTYtLjc2LS40LTEuMDctLjctLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDQtLjI2LS45NS0uMjYtMS41MnptNC42LS42MmMwLS41NS0uMTEtLjk4LS4zNC0xLjI4LS4yMy0uMzEtLjU4LS40Ny0xLjA2LS40Ny0uNDEgMC0uNzcuMTUtMS4wNy40NS0uMzEuMjktLjUuNzMtLjU4IDEuM3ptMi41LjYyYzAtLjU3LjA5LTEuMDguMjgtMS41My4xOC0uNDQuNDMtLjgyLjc1LTEuMTNzLjY5LS41NCAxLjEtLjcxYy40Mi0uMTYuODUtLjI0IDEuMzEtLjI0LjQ1IDAgLjg0LjA4IDEuMTcuMjNzLjYxLjM0Ljg1LjU3bC0uNzcgMS4wMmMtLjE5LS4xNi0uMzgtLjI4LS41Ni0uMzctLjE5LS4wOS0uMzktLjE0LS42MS0uMTQtLjU2IDAtMS4wMS4yMS0xLjM1LjYzLS4zNS40MS0uNTIuOTctLjUyIDEuNjcgMCAuNjkuMTcgMS4yNC41MSAxLjY2LjM0LjQxLjc4LjYyIDEuMzIuNjIuMjggMCAuNTQtLjA2Ljc4LS4xNy4yNC0uMTIuNDUtLjI2LjY0LS40MmwuNjcgMS4wM2MtLjMzLjI5LS42OS41MS0xLjA4LjY1LS4zOS4xNS0uNzguMjMtMS4xOC4yMy0uNDYgMC0uOS0uMDgtMS4zMS0uMjQtLjQtLjE2LS43NS0uMzktMS4wNS0uN3MtLjUzLS42OS0uNy0xLjEzYy0uMTctLjQ1LS4yNS0uOTYtLjI1LTEuNTN6bTYuOTEtNi40NWgxLjU4djYuMTdoLjA1bDIuNTQtMy4xNmgxLjc3bC0yLjM1IDIuOCAyLjU5IDQuMDdoLTEuNzVsLTEuNzctMi45OC0xLjA4IDEuMjN2MS43NWgtMS41OHptMTMuNjkgMS4yN2MtLjI1LS4xMS0uNS0uMTctLjc1LS4xNy0uNTggMC0uODcuMzktLjg3IDEuMTZ2Ljc1aDEuMzR2MS4yN2gtMS4zNHY1LjZoLTEuNjF2LTUuNmgtLjkydi0xLjJsLjkyLS4wN3YtLjcyYzAtLjM1LjA0LS42OC4xMy0uOTguMDgtLjMxLjIxLS41Ny40LS43OXMuNDItLjM5LjcxLS41MWMuMjgtLjEyLjYzLS4xOCAxLjA0LS4xOC4yNCAwIC40OC4wMi42OS4wNy4yMi4wNS40MS4xLjU3LjE3em0uNDggNS4xOGMwLS41Ny4wOS0xLjA4LjI3LTEuNTMuMTctLjQ0LjQxLS44Mi43Mi0xLjEzLjMtLjMxLjY1LS41NCAxLjA0LS43MS4zOS0uMTYuOC0uMjQgMS4yMy0uMjRzLjg0LjA4IDEuMjQuMjRjLjQuMTcuNzQuNCAxLjA0Ljcxcy41NC42OS43MiAxLjEzYy4xOS40NS4yOC45Ni4yOCAxLjUzcy0uMDkgMS4wOC0uMjggMS41M2MtLjE4LjQ0LS40Mi44Mi0uNzIgMS4xM3MtLjY0LjU0LTEuMDQuNy0uODEuMjQtMS4yNC4yNC0uODQtLjA4LTEuMjMtLjI0LS43NC0uMzktMS4wNC0uN2MtLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDUtLjI3LS45Ni0uMjctMS41M3ptMS42NSAwYzAgLjY5LjE0IDEuMjQuNDMgMS42Ni4yOC40MS42OC42MiAxLjE4LjYyLjUxIDAgLjktLjIxIDEuMTktLjYyLjI5LS40Mi40NC0uOTcuNDQtMS42NiAwLS43LS4xNS0xLjI2LS40NC0xLjY3LS4yOS0uNDItLjY4LS42My0xLjE5LS42My0uNSAwLS45LjIxLTEuMTguNjMtLjI5LjQxLS40My45Ny0uNDMgMS42N3ptNi40OC0zLjQ0aDEuMzNsLjEyIDEuMjFoLjA1Yy4yNC0uNDQuNTQtLjc5Ljg4LTEuMDIuMzUtLjI0LjctLjM2IDEuMDctLjM2LjMyIDAgLjU5LjA1Ljc4LjE0bC0uMjggMS40LS4zMy0uMDljLS4xMS0uMDEtLjIzLS4wMi0uMzgtLjAyLS4yNyAwLS41Ni4xLS44Ni4zMXMtLjU1LjU4LS43NyAxLjF2NC4yaC0xLjYxem0tNDcuODcgMTVoMS42MXY0LjFjMCAuNTcuMDguOTcuMjUgMS4yLjE3LjI0LjQ0LjM1LjgxLjM1LjMgMCAuNTctLjA3LjgtLjIyLjIyLS4xNS40Ny0uMzkuNzMtLjczdi00LjdoMS42MXY2Ljg3aC0xLjMybC0uMTItMS4wMWgtLjA0Yy0uMy4zNi0uNjMuNjQtLjk4Ljg2LS4zNS4yMS0uNzYuMzItMS4yNC4zMi0uNzMgMC0xLjI3LS4yNC0xLjYxLS43MS0uMzMtLjQ3LS41LTEuMTQtLjUtMi4wMnptOS40NiA3LjQzdjIuMTZoLTEuNjF2LTkuNTloMS4zM2wuMTIuNzJoLjA1Yy4yOS0uMjQuNjEtLjQ1Ljk3LS42My4zNS0uMTcuNzItLjI2IDEuMS0uMjYuNDMgMCAuODEuMDggMS4xNS4yNC4zMy4xNy42MS40Ljg0LjcxLjI0LjMxLjQxLjY4LjUzIDEuMTEuMTMuNDIuMTkuOTEuMTkgMS40NCAwIC41OS0uMDkgMS4xMS0uMjUgMS41Ny0uMTYuNDctLjM4Ljg1LS42NSAxLjE2LS4yNy4zMi0uNTguNTYtLjk0LjczLS4zNS4xNi0uNzIuMjUtMS4xLjI1LS4zIDAtLjYtLjA3LS45LS4ycy0uNTktLjMxLS44Ny0uNTZ6bTAtMi4zYy4yNi4yMi41LjM3LjczLjQ1LjI0LjA5LjQ2LjEzLjY2LjEzLjQ2IDAgLjg0LS4yIDEuMTUtLjYuMzEtLjM5LjQ2LS45OC40Ni0xLjc3IDAtLjY5LS4xMi0xLjIyLS4zNS0xLjYxLS4yMy0uMzgtLjYxLS41Ny0xLjEzLS41Ny0uNDkgMC0uOTkuMjYtMS41Mi43N3ptNS44Ny0xLjY5YzAtLjU2LjA4LTEuMDYuMjUtMS41MS4xNi0uNDUuMzctLjgzLjY1LTEuMTQuMjctLjMuNTgtLjU0LjkzLS43MXMuNzEtLjI1IDEuMDgtLjI1Yy4zOSAwIC43My4wNyAxIC4yLjI3LjE0LjU0LjMyLjgxLjU1bC0uMDYtMS4xdi0yLjQ5aDEuNjF2OS44OGgtMS4zM2wtLjExLS43NGgtLjA2Yy0uMjUuMjUtLjU0LjQ2LS44OC42NC0uMzMuMTgtLjY5LjI3LTEuMDYuMjctLjg3IDAtMS41Ni0uMzItMi4wNy0uOTVzLS43Ni0xLjUxLS43Ni0yLjY1em0xLjY3LS4wMWMwIC43NC4xMyAxLjMxLjQgMS43LjI2LjM4LjY1LjU4IDEuMTUuNTguNTEgMCAuOTktLjI2IDEuNDQtLjc3di0zLjIxYy0uMjQtLjIxLS40OC0uMzYtLjctLjQ1LS4yMy0uMDgtLjQ2LS4xMi0uNy0uMTItLjQ1IDAtLjgyLjE5LTEuMTMuNTktLjMxLjM5LS40Ni45NS0uNDYgMS42OHptNi4zNSAxLjU5YzAtLjczLjMyLTEuMy45Ny0xLjcxLjY0LS40IDEuNjctLjY4IDMuMDgtLjg0IDAtLjE3LS4wMi0uMzQtLjA3LS41MS0uMDUtLjE2LS4xMi0uMy0uMjItLjQzcy0uMjItLjIyLS4zOC0uM2MtLjE1LS4wNi0uMzQtLjEtLjU4LS4xLS4zNCAwLS42OC4wNy0xIC4ycy0uNjMuMjktLjkzLjQ3bC0uNTktMS4wOGMuMzktLjI0LjgxLS40NSAxLjI4LS42My40Ny0uMTcuOTktLjI2IDEuNTQtLjI2Ljg2IDAgMS41MS4yNSAxLjkzLjc2cy42MyAxLjI1LjYzIDIuMjF2NC4wN2gtMS4zMmwtLjEyLS43NmgtLjA1Yy0uMy4yNy0uNjMuNDgtLjk4LjY2cy0uNzMuMjctMS4xNC4yN2MtLjYxIDAtMS4xLS4xOS0xLjQ4LS41Ni0uMzgtLjM2LS41Ny0uODUtLjU3LTEuNDZ6bTEuNTctLjEyYzAgLjMuMDkuNTMuMjcuNjcuMTkuMTQuNDIuMjEuNzEuMjEuMjggMCAuNTQtLjA3Ljc3LS4ycy40OC0uMzEuNzMtLjU2di0xLjU0Yy0uNDcuMDYtLjg2LjEzLTEuMTguMjMtLjMxLjA5LS41Ny4xOS0uNzYuMzFzLS4zMy4yNS0uNDEuNGMtLjA5LjE1LS4xMy4zMS0uMTMuNDh6bTYuMjktMy42M2gtLjk4di0xLjJsMS4wNi0uMDcuMi0xLjg4aDEuMzR2MS44OGgxLjc1djEuMjdoLTEuNzV2My4yOGMwIC44LjMyIDEuMi45NyAxLjIuMTIgMCAuMjQtLjAxLjM3LS4wNC4xMi0uMDMuMjQtLjA3LjM0LS4xMWwuMjggMS4xOWMtLjE5LjA2LS40LjEyLS42NC4xNy0uMjMuMDUtLjQ5LjA4LS43Ni4wOC0uNCAwLS43NC0uMDYtMS4wMi0uMTgtLjI3LS4xMy0uNDktLjMtLjY3LS41Mi0uMTctLjIxLS4zLS40OC0uMzctLjc4LS4wOC0uMy0uMTItLjY0LS4xMi0xLjAxem00LjM2IDIuMTdjMC0uNTYuMDktMS4wNi4yNy0xLjUxcy40MS0uODMuNzEtMS4xNGMuMjktLjMuNjMtLjU0IDEuMDEtLjcxLjM5LS4xNy43OC0uMjUgMS4xOC0uMjUuNDcgMCAuODguMDggMS4yMy4yNC4zNi4xNi42NS4zOC44OS42N3MuNDIuNjMuNTQgMS4wM2MuMTIuNDEuMTguODQuMTggMS4zMiAwIC4zMi0uMDIuNTctLjA3Ljc2aC00LjM3Yy4wOC42Mi4yOSAxLjEuNjUgMS40NC4zNi4zMy44Mi41IDEuMzguNS4zIDAgLjU4LS4wNC44NC0uMTMuMjUtLjA5LjUxLS4yMS43Ni0uMzdsLjU0IDEuMDFjLS4zMi4yMS0uNjkuMzktMS4wOS41M3MtLjgyLjIxLTEuMjYuMjFjLS40NyAwLS45Mi0uMDgtMS4zMy0uMjUtLjQxLS4xNi0uNzctLjQtMS4wOC0uNy0uMy0uMzEtLjU0LS42OS0uNzItMS4xMy0uMTctLjQ0LS4yNi0uOTUtLjI2LTEuNTJ6bTQuNjEtLjYyYzAtLjU1LS4xMS0uOTgtLjM0LTEuMjgtLjIzLS4zMS0uNTgtLjQ3LTEuMDYtLjQ3LS40MSAwLS43Ny4xNS0xLjA4LjQ1LS4zMS4yOS0uNS43My0uNTcgMS4zem0zLjAxIDIuMjNjLjMxLjI0LjYxLjQzLjkyLjU3LjMuMTMuNjMuMi45OC4yLjM4IDAgLjY1LS4wOC44My0uMjNzLjI3LS4zNS4yNy0uNmMwLS4xNC0uMDUtLjI2LS4xMy0uMzctLjA4LS4xLS4yLS4yLS4zNC0uMjgtLjE0LS4wOS0uMjktLjE2LS40Ny0uMjNsLS41My0uMjJjLS4yMy0uMDktLjQ2LS4xOC0uNjktLjMtLjIzLS4xMS0uNDQtLjI0LS42Mi0uNHMtLjMzLS4zNS0uNDUtLjU1Yy0uMTItLjIxLS4xOC0uNDYtLjE4LS43NSAwLS42MS4yMy0xLjEuNjgtMS40OS40NC0uMzggMS4wNi0uNTcgMS44My0uNTcuNDggMCAuOTEuMDggMS4yOS4yNXMuNzEuMzYuOTkuNTdsLS43NC45OGMtLjI0LS4xNy0uNDktLjMyLS43My0uNDItLjI1LS4xMS0uNTEtLjE2LS43OC0uMTYtLjM1IDAtLjYuMDctLjc2LjIxLS4xNy4xNS0uMjUuMzMtLjI1LjU0IDAgLjE0LjA0LjI2LjEyLjM2cy4xOC4xOC4zMS4yNmMuMTQuMDcuMjkuMTQuNDYuMjFsLjU0LjE5Yy4yMy4wOS40Ny4xOC43LjI5cy40NC4yNC42NC40Yy4xOS4xNi4zNC4zNS40Ni41OC4xMS4yMy4xNy41LjE3LjgyIDAgLjMtLjA2LjU4LS4xNy44My0uMTIuMjYtLjI5LjQ4LS41MS42OC0uMjMuMTktLjUxLjM0LS44NC40NS0uMzQuMTEtLjcyLjE3LTEuMTUuMTctLjQ4IDAtLjk1LS4wOS0xLjQxLS4yNy0uNDYtLjE5LS44Ni0uNDEtMS4yLS42OHoiIGZpbGw9IiM1MzUzNTMiLz48L2c+PC9zdmc+" /></a></div><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Chevrou, F., Hurault, A. &amp; Quéinnec, P. On the diversity of asynchronous communication.
+                    <i>Form Asp Comp</i> <b>28, </b>847–879 (2016). https://doi.org/10.1007/s00165-016-0379-x</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" href="/article/10.1007/s00165-016-0379-x.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2016-03-22">22 March 2016</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2016-03-28">28 March 2016</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2016-05-03">03 May 2016</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2016-09">September 2016</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/s00165-016-0379-x" data-track="click" data-track-action="view doi" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/s00165-016-0379-x</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Asynchronous communication</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Formal verification</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Compatibility checking</span></li><li class="c-article-subject-list__subject"><span itemprop="about">TLA<sup>+</sup>
+                     </span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_article&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s00165-016-0379-x">
+     <input type="hidden" name="isxn" value="1433-299X">
+     <input type="hidden" name="contenttitle" value="On the diversity of asynchronous communication">
+     <input type="hidden" name="copyrightyear" value="2016">
+     <input type="hidden" name="year" value="2016">
+     <input type="hidden" name="authors" value="Florent Chevrou, Aurélie Hurault, Philippe Quéinnec">
+     <input type="hidden" name="title" value="Formal Aspects of Computing">
+     <input type="hidden" name="mac" value="844D205322352EEE0AEF1E59608ABD93">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="buy pdf" data-track-category="ppv" data-track-label="buy article action, new buybox" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">81 €</p>
+    <p class="buybox__price-info">Price <b>includes VAT</b> for Italy</p>
+    <form action="https://order.springer.com/public/checkout?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_journal&amp;abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="Formal Aspects of Computing">
+     <input type="hidden" name="journalnumber" value="165">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" rel="nofollow" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s00165-016-0379-x&journal=1433-299X&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?utm_source=springerlink&amp;utm_medium=referral&amp;utm_campaign=sl-buybox_articlePage_institutionalCustomer&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <aside class="c-ad c-ad--300x250">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/165/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=379;"></div>
+        </div>
+    </aside>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="https://www.springernature.com/ccpa">California Privacy Statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                
+                <li><a class="optanon-toggle-display" href="javascript:void(0);">Manage cookies/Do not sell my data</a></li>
+                
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 87.7.233.122</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

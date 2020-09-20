@@ -1,0 +1,43 @@
+abstract: '<jats:p>Prompt-LTL extends Linear Temporal Logic with a bounded version
+  of the ``eventually'''' operator to express temporal requirements such as bounding
+  waiting times.  We study assume-guarantee synthesis for prompt-LTL: the goal is
+  to construct a system such that for all environments satisfying a first prompt-LTL
+  formula (the assumption) the system composed with this environment satisfies a second
+  prompt-LTL formula (the guarantee).  This problem has been open for a decade. We
+  construct an algorithm for solving it and show that, like classical LTL synthesis,
+  it is 2-EXPTIME-complete.</jats:p>'
+author: Fijalkow, Nathanaël and Maubert, Bastien and Murano, Aniello and Vardi, Moshe
+author_list:
+- affiliation:
+  - name: CNRS, LaBRI
+  - name: The Alan Turing Institute of data science
+  family: Fijalkow
+  given: Nathanaël
+- affiliation:
+  - name: University of Naples "Federico II"
+  family: Maubert
+  given: Bastien
+- affiliation:
+  - name: University of Naples "Federico II"
+  family: Murano
+  given: Aniello
+- affiliation:
+  - name: Rice University
+  family: Vardi
+  given: Moshe
+booktitle: Twenty-Ninth International Joint Conference on Artificial Intelligence
+  and Seventeenth Pacific Rim International Conference on Artificial Intelligence
+  {IJCAI-PRICAI-20}
+doi: 10.24963/ijcai.2020/17
+isbn:
+- '9780999241165'
+journal: Proceedings of the Twenty-Ninth International Joint Conference on Artificial
+  Intelligence
+month: 7
+publisher: International Joint Conferences on Artificial Intelligence Organization
+time-added: 2020-08-29-11:28:23
+title: Assume-Guarantee Synthesis for Prompt Linear Temporal Logic
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2020/17
+venue: Yokohama, Japan
+year: 2020

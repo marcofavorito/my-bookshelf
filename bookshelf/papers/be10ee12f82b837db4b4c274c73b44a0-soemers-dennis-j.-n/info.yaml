@@ -1,0 +1,38 @@
+abstract: In recent years, state-of-the-art game-playing agents often involve policies
+  that are trained in self-playing processes where Monte Carlo tree search (MCTS)
+  algorithms and trained policies iteratively improve each other. The strongest results
+  have been obtained when policies are trained to mimic the search behaviour of MCTS
+  by minimising a cross-entropy loss. Because MCTS, by design, includes an element
+  of exploration, policies trained in this manner are also likely to exhibit a similar
+  extent of exploration. In this paper, we are interested in learning policies for
+  a project with future goals including the extraction of interpretable strategies,
+  rather than state-of-the-art game-playing performance. For these goals, we argue
+  that such an extent of exploration is undesirable, and we propose a novel objective
+  function for training policies that are not exploratory. We derive a policy gradient
+  expression for maximising this objective function, which can be estimated using
+  MCTS value estimates, rather than MCTS visit counts. We empirically evaluate various
+  properties of resulting policies, in a variety of board games.
+archiveprefix: arXiv
+author: Soemers, Dennis J. N. J. and Piette, Éric and Stephenson, Matthew and Browne,
+  Cameron
+author_list:
+- family: Soemers
+  given: Dennis J. N. J.
+- family: Piette
+  given: Éric
+- family: Stephenson
+  given: Matthew
+- family: Browne
+  given: Cameron
+eprint: 1905.05809v1
+file: 1905.05809v1.pdf
+files:
+- soemers-dennis-j.-n.-j.-and-piette-eric-and-stephenson-matthew-and-browne-cameronlearning-policies-from-self-play-with-policy-gradients-and-mcts-v.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.05809v1
+time-added: 2020-09-03-15:39:57
+title: Learning Policies from Self-Play with Policy Gradients and MCTS Value   Estimates
+type: article
+url: http://arxiv.org/abs/1905.05809v1
+year: '2019'

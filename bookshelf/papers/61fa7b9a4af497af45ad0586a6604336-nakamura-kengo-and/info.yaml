@@ -1,0 +1,34 @@
+abstract: The Sentential Decision Diagram (SDD) is a tractable representation of Boolean
+  functions that subsumes the famous Ordered Binary Decision Diagram (OBDD) as a strict
+  subset. SDDs are attracting much attention because they are more succinct than OBDDs,
+  as well as having canonical forms and supporting many useful queries and transformations
+  such as model counting and Apply operation. In this paper, we propose a more succinct
+  variant of SDD named Variable Shift SDD (VS-SDD). The key idea is to create a unique
+  representation for Boolean functions that are equivalent under a specific variable
+  substitution. We show that VS-SDDs are never larger than SDDs and there are cases
+  in which the size of a VS-SDD is exponentially smaller than that of an SDD. Moreover,
+  despite such succinctness, we show that numerous basic operations that are supported
+  in polytime with SDD are also supported in polytime with VS-SDD. Experiments confirm
+  that VS-SDDs are significantly more succinct than SDDs when applied to classical
+  planning instances, where inherent symmetry exists.
+archiveprefix: arXiv
+author: Nakamura, Kengo and Denzumi, Shuhei and Nishino, Masaaki
+author_list:
+- family: Nakamura
+  given: Kengo
+- family: Denzumi
+  given: Shuhei
+- family: Nishino
+  given: Masaaki
+eprint: 2004.02502v1
+file: 2004.02502v1.pdf
+files:
+- nakamura-kengo-and-denzumi-shuhei-and-nishino-masaakivariable-shift-sdd-a-more-succinct-sentential-decision-diagram2020.pdf
+month: Apr
+primaryclass: cs.DS
+ref: 2004.02502v1
+time-added: 2020-08-19-14:45:47
+title: 'Variable Shift SDD: A More Succinct Sentential Decision Diagram'
+type: article
+url: http://arxiv.org/abs/2004.02502v1
+year: '2020'

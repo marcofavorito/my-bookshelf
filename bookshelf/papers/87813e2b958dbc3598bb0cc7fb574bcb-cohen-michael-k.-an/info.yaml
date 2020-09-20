@@ -1,0 +1,36 @@
+abstract: Reinforcement learners are agents that learn to pick actions that lead to
+  high reward. Ideally, the value of a reinforcement learner's policy approaches optimality--where
+  the optimal informed policy is the one which maximizes reward. Unfortunately, we
+  show that if an agent is guaranteed to be "asymptotically optimal" in any (stochastically
+  computable) environment, then subject to an assumption about the true environment,
+  this agent will be either destroyed or incapacitated with probability 1; both of
+  these are forms of traps as understood in the Markov Decision Process literature.
+  Environments with traps pose a well-known problem for agents, but we are unaware
+  of other work which shows that traps are not only a risk, but a certainty, for agents
+  of a certain caliber. Much work in reinforcement learning uses an ergodicity assumption
+  to avoid this problem. Often, doing theoretical research under simplifying assumptions
+  prepares us to provide practical solutions even in the absence of those assumptions,
+  but the ergodicity assumption in reinforcement learning may have led us entirely
+  astray in preparing safe and effective exploration strategies for agents in dangerous
+  environments. Rather than assuming away the problem, we present an agent with the
+  modest guarantee of approaching the performance of a mentor, doing safe exploration
+  instead of reckless exploration.
+archiveprefix: arXiv
+author: Cohen, Michael K. and Hutter, Marcus
+author_list:
+- family: Cohen
+  given: Michael K.
+- family: Hutter
+  given: Marcus
+eprint: 2006.03357v1
+file: 2006.03357v1.pdf
+files:
+- cohen-michael-k.-and-hutter-marcuscuriosity-killed-the-cat-and-the-asymptotically-optimal-agent2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.03357v1
+time-added: 2020-09-19-14:24:55
+title: Curiosity Killed the Cat and the Asymptotically Optimal Agent
+type: article
+url: http://arxiv.org/abs/2006.03357v1
+year: '2020'

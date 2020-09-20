@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="Yes">
+
+    
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="journal_id" content="10994"/>
+
+    <meta name="dc.title" content="Extracting refined rules from knowledge-based neural networks"/>
+
+    <meta name="dc.source" content="Machine Learning 1993 13:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="1993 Kluwer Academic Publishers"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Neural networks, despite their empirically proven abilities, have been little used for the refinement of existing knowledge because this task requires a three-step process. First, knowledge must be inserted into a neural network. Second, the network must be refined. Third, the refined knowledge must be extracted from the network. We have previously described a method for the first step of this process. Standard neural learning techniques can accomplish the second step. In this article, we propose and empirically evaluate a method for the final, and possibly most difficult, step. Our method efficiently extracts symbolic rules from trained neural networks. The four major results of empirical tests of this method are that the extracted rules 1) closely reproduce the accuracy of the network from which they are extracted; 2) are superior to the rules produced by methods that directly refine symbolic rules; 3) are superior to those produced by previous techniques for extracting rules from trained neural networks; and 4) are &#8220;human comprehensible.&#8221; Thus, this method demonstrates that neural networks can be used to effectively refine symbolic knowledge. Moreover, the rule-extraction technique developed herein contributes to the understanding of how symbolic and connectionist approaches to artificial intelligence can be profitably integrated."/>
+
+    <meta name="prism.issn" content="1573-0565"/>
+
+    <meta name="prism.publicationName" content="Machine Learning"/>
+
+    <meta name="prism.volume" content="13"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="71"/>
+
+    <meta name="prism.endingPage" content="101"/>
+
+    <meta name="prism.copyright" content="1993 Kluwer Academic Publishers"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/BF00993103"/>
+
+    <meta name="prism.doi" content="doi:10.1007/BF00993103"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/BF00993103.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/BF00993103"/>
+
+    <meta name="citation_journal_title" content="Machine Learning"/>
+
+    <meta name="citation_journal_abbrev" content="Mach Learn"/>
+
+    <meta name="citation_publisher" content="Kluwer Academic Publishers"/>
+
+    <meta name="citation_issn" content="1573-0565"/>
+
+    <meta name="citation_title" content="Extracting refined rules from knowledge-based neural networks"/>
+
+    <meta name="citation_volume" content="13"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="1993/10"/>
+
+    <meta name="citation_firstpage" content="71"/>
+
+    <meta name="citation_lastpage" content="101"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_fulltext_world_readable" content=""/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/BF00993103"/>
+
+    <meta name="DOI" content="10.1007/BF00993103"/>
+
+    <meta name="citation_doi" content="10.1007/BF00993103"/>
+
+    <meta name="description" content="Neural networks, despite their empirically proven abilities, have been little used for the refinement of existing knowledge because this task requires a th"/>
+
+    <meta name="dc.creator" content="Geoffrey G. Towell"/>
+
+    <meta name="dc.creator" content="Jude W. Shavlik"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Control, Robotics, Mechatronics"/>
+
+    <meta name="dc.subject" content="Artificial Intelligence"/>
+
+    <meta name="dc.subject" content="Simulation and Modeling"/>
+
+    <meta name="dc.subject" content="Natural Language Processing (NLP)"/>
+
+    <meta name="citation_reference" content="citation_title=Refinement of approximate reasoning-based controllers by reinforcement learaning; citation_publication_date=1991; citation_id=CR1; citation_author=H.R. Berenji; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Extraction of semantic features and logical rules from a multilayer neural network; citation_publication_date=1990; citation_id=CR2; citation_author=L. Bochereau; citation_author=P. Bourgine; citation_publisher=Erlbaum"/>
+
+    <meta name="citation_reference" content="citation_title=A study of thinking; citation_publication_date=1956; citation_id=CR3; citation_author=J.S. Bruner; citation_author=J.J. Goodnow; citation_author=G.A. Austin; citation_publisher=Wiley"/>
+
+    <meta name="citation_reference" content="citation_title=Learning relations from noisy examples: An empirical comparison of LINUS and FOIL; citation_publication_date=1991; citation_id=CR4; citation_author=S. Dzeroski; citation_author=N. Lavrac; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=The cascade-correlation learning architecture; citation_publication_date=1989; citation_id=CR5; citation_author=S.E. Fahlman; citation_author=C. Lebiere; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=An empirical comparison of ID3 and backpropagation; citation_publication_date=1989; citation_id=CR6; citation_author=D.H. Fisher; citation_author=K.B. McKusick; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Rule learning by searching on adapted nets; citation_publication_date=1991; citation_id=CR7; citation_author=L.M. Fu; citation_publisher=AAAI Press"/>
+
+    <meta name="citation_reference" content="citation_title=On the complexity of teaching; citation_publication_date=1991; citation_id=CR8; citation_author=S.A. Goldman; citation_author=M.J. Kearns; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucleic Acids Research; citation_title=Analysis ofE. coli promoter sequences; citation_author=C.B. Harley, R.P. Reynolds; citation_volume=15; citation_publication_date=1987; citation_pages=2343-2361; citation_id=CR9"/>
+
+    <meta name="citation_reference" content="citation_title=Clustering algorithms; citation_publication_date=1975; citation_id=CR10; citation_author=J.A. Hartigan; citation_publisher=Wiley"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucleic Acids Research; citation_title=Compilation and analysis of escherichia coli promotor DNA sequences; citation_author=D.K. Hawley, W.R. McClure; citation_volume=11; citation_publication_date=1983; citation_pages=2237-2255; citation_id=CR11"/>
+
+    <meta name="citation_reference" content="citation_title=A neural expert system with automated extraction of fuzzy if-then rules; citation_inbook_title= (Vol. 3); citation_publication_date=1990; citation_pages=578-584; citation_id=CR12; citation_author=Y. Hayashi; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=Connectionist learning procedures; citation_author=G.E. Hinton; citation_volume=40; citation_publication_date=1989; citation_pages=185-234; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Journal of Complexity; citation_title=On the complexity of loading shallow neural networks; citation_author=S. Judd; citation_volume=4; citation_publication_date=1988; citation_pages=177-192; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nature; citation_title=Effect of non-contacted bases on the affinity of 434 operator for 434 repressor and Cro; citation_author=G.B. Koudelka, S.C. Harrison, M. Ptashne; citation_volume=326; citation_publication_date=1987; citation_pages=886-888; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="citation_title=Optimal brain damage; citation_inbook_title= (Vol. 2); citation_publication_date=1989; citation_pages=598-605; citation_id=CR16; citation_author=Y. Cun; citation_author=J.S. Denker; citation_author=S.A. Solla; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="Masuoka, R., Watanabe, N., Kawamura, A., Owada, Y., &amp; Asakawa, K. (1990). Neurofuzzy system&#8212;fuzzy inference using a structured neural network.Proceedings of the International Conference on Fuzzy Logic &amp; Neural Networks (pp. 173&#8211;177). Iizuka, Japan."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Artificial Intelligence; citation_title=R1: A rule-based configurer of computer systems; citation_author=J. McDermott; citation_volume=19; citation_publication_date=1982; citation_pages=21-32; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="citation_title=The connectionist scientist game: Rule extraction and refinement in a neural network; citation_publication_date=1991; citation_id=CR19; citation_author=C. McMillan; citation_author=M.C. Mozer; citation_author=P. Smolensky; citation_publisher=Erlbaum"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Psychological Review; citation_title=The magical number seven, plus or minus two: Some limits on our capacity for processing information; citation_author=G.A. Miller; citation_volume=63; citation_publication_date=1956; citation_pages=81-97; citation_id=CR20"/>
+
+    <meta name="citation_reference" content="citation_title=Skeletonization: A technique for trimming the fat from a network via relevance assessment; citation_inbook_title= (Vol. 1); citation_publication_date=1988; citation_pages=107-115; citation_id=CR21; citation_author=M.C. Mozer; citation_author=P. Smolensky; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=ID2-of-3: Constructive induction of M-of-N concepts for discriminators in decision trees; citation_publication_date=1991; citation_id=CR22; citation_author=P.M. Murphy; citation_author=M.J. Pazzani; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Journal of Experimental Psychology; citation_title=Hierarchies in concept attainment; citation_author=U. Nessier, P. Weene; citation_volume=64; citation_publication_date=1962; citation_pages=640-645; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="citation_title=Training knowledge-based neural networks to recognize genes in DNA sequences; citation_inbook_title= (Vol. 3); citation_publication_date=1991; citation_pages=530-536; citation_id=CR24; citation_author=M.O. Noordewier; citation_author=G.G. Towell; citation_author=J.W. Shavlik; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Simplifying neural networks by soft weight-sharing; citation_inbook_title= (Vol. 4); citation_publication_date=1991; citation_pages=993-1000; citation_id=CR25; citation_author=S.J. Nowlan; citation_author=G.E. Hinton; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Using explanation-based and empirical methods in theory revision; citation_publication_date=1991; citation_id=CR26; citation_author=D. Ourston; citation_publisher=Department of Computer Sciences, University of Texas"/>
+
+    <meta name="citation_reference" content="citation_title=Changing the rules: A comprehensive approach to theory refinement; citation_publication_date=1990; citation_id=CR27; citation_author=D. Ourston; citation_author=R.J. Mooney; citation_publisher=AAAI Press"/>
+
+    <meta name="citation_reference" content="Pazzani, M. (1992). When prior knowledge hinders learning.Workshop Notes of Constraining Learning with Prior Knowledge (pp. 44&#8211;52). San Jose, CA."/>
+
+    <meta name="citation_reference" content="citation_title=Direct transfer of learned information among neural networks; citation_publication_date=1991; citation_id=CR29; citation_author=L.Y. Pratt; citation_author=J. Mostow; citation_author=C.A. Kamm; citation_publisher=AAAI Press"/>
+
+    <meta name="citation_reference" content="citation_journal_title=International Journal of Man-Machine Studies; citation_title=Simplifying decision trees; citation_author=J.R. Quinlan; citation_volume=27; citation_publication_date=1987; citation_pages=221-234; citation_id=CR30"/>
+
+    <meta name="citation_reference" content="citation_title=Learning internal representations by error propagation; citation_inbook_title=Parallel distributed processing: Explorations in the microstructure of cognition. Volume 1: Foundations; citation_publication_date=1986; citation_pages=318-362; citation_id=CR31; citation_author=D.E. Rumelhart; citation_author=G.E. Hinton; citation_author=R.J. Williams; citation_publisher=MIT Press"/>
+
+    <meta name="citation_reference" content="citation_title=Medical diagnostic expert system based on PDP model; citation_publication_date=1988; citation_id=CR32; citation_author=K. Saito; citation_author=R. Nakano; citation_publisher=IEEE"/>
+
+    <meta name="citation_reference" content="citation_title=Using multi-layered neural networks for learning symbolic knowledge; citation_publication_date=1990; citation_id=CR33; citation_author=S. Sestito; citation_author=T. Dillon; citation_publisher=World Scientific"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Machine Learning; citation_title=Symbolic and neural net learning algorithms: An empirical comparison; citation_author=J.W. Shavlik, R.J. Mooney, G.G. Towell; citation_volume=6; citation_publication_date=1991; citation_pages=111-143; citation_id=CR34"/>
+
+    <meta name="citation_reference" content="citation_title=Consensus patterns in DNA; citation_inbook_title= (Vol. 183); citation_publication_date=1990; citation_id=CR35; citation_author=G.D. Stormo; citation_publisher=Academic Press"/>
+
+    <meta name="citation_reference" content="citation_title=Two problems with backpropagation and other steepest descent learning procedures for networks; citation_publication_date=1986; citation_id=CR36; citation_author=R.S. Sutton; citation_publisher=Erlbaum"/>
+
+    <meta name="citation_reference" content="citation_title=Using background knowledge in concept formation; citation_publication_date=1991; citation_id=CR37; citation_author=K. Thompson; citation_author=P. Langley; citation_author=W. Iba; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_inbook_title= problem: A performance comparison of different learning algorithms; citation_publication_date=1991; citation_id=CR38; citation_author=S. Thrun; citation_author=J. Bala; citation_author=E. Bloedorn; citation_author=I. Bratko; citation_author=B. Cestnik; citation_author=J. Cheng; citation_author=K. Jong; citation_author=S. Dzeroski; citation_author=S. Fahlman; citation_author=D. Fisher; citation_author=R. Hamann; citation_author=K. Kaufman; citation_author=S. Keller; citation_author=I. Kononenko; citation_author=J. Kreuziger; citation_author=R. Michalski; citation_author=T. Mitchell; citation_author=P. Pachowicz; citation_author=Y. Reich; citation_author=H. Vafaie; citation_author=W. Welde; citation_author=W. Wenzel; citation_author=J. Wnek; citation_author=J. Zhang; citation_publisher=Carnegie Mellon"/>
+
+    <meta name="citation_reference" content="citation_title=Symbolic knowledge and neural networks: Insertion, refinement, and extraction; citation_publication_date=1991; citation_id=CR39; citation_author=G.G. Towell; citation_publisher=Computer Sciences Department, University of Wisconsin"/>
+
+    <meta name="citation_reference" content="citation_title=Interpretation of artificial neural networks: Mapping knowledge-based neural networks into rules; citation_inbook_title= (Vol. 4); citation_publication_date=1991; citation_pages=977-984; citation_id=CR40; citation_author=G.G. Towell; citation_author=J.W. Shavlik; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_reference" content="citation_title=Refinement of approximately correct domain theories by knowledge-based neural networks; citation_publication_date=1990; citation_id=CR41; citation_author=G.G. Towell; citation_author=J.W. Shavlik; citation_author=M.O. Noordewier; citation_publisher=AAAI Press"/>
+
+    <meta name="citation_reference" content="citation_title=Computer systems that learn; citation_publication_date=1990; citation_id=CR42; citation_author=S.M. Weiss; citation_author=C.A. Kulikowski; citation_publisher=Morgan Kaufmann"/>
+
+    <meta name="citation_author" content="Geoffrey G. Towell"/>
+
+    <meta name="citation_author_email" content="TOWELL@LEARNING.SCR.SIEMENS.COM"/>
+
+    <meta name="citation_author_institution" content="University of Wisconsin, Madison"/>
+
+    <meta name="citation_author" content="Jude W. Shavlik"/>
+
+    <meta name="citation_author_email" content="SHAVLIK@CS.WISC.EDU"/>
+
+    <meta name="citation_author_institution" content="University of Wisconsin, Madison"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/BF00993103&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="1993/10/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/BF00993103"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Machine Learning"/>
+        <meta property="og:title" content="Extracting refined rules from knowledge-based neural networks"/>
+        <meta property="og:description" content="Neural networks, despite their empirically proven abilities, have been little used for the refinement of existing knowledge because this task requires a three-step process. First, knowledge must be inserted into a neural network. Second, the network must be refined. Third, the refined knowledge must be extracted from the network. We have previously described a method for the first step of this process. Standard neural learning techniques can accomplish the second step. In this article, we propose and empirically evaluate a method for the final, and possibly most difficult, step. Our method efficiently extracts symbolic rules from trained neural networks. The four major results of empirical tests of this method are that the extracted rules 1) closely reproduce the accuracy of the network from which they are extracted; 2) are superior to the rules produced by methods that directly refine symbolic rules; 3) are superior to those produced by previous techniques for extracting rules from trained neural networks; and 4) are “human comprehensible.” Thus, this method demonstrates that neural networks can be used to effectively refine symbolic knowledge. Moreover, the rule-extraction technique developed herein contributes to the understanding of how symbolic and connectionist approaches to artificial intelligence can be profitably integrated."/>
+        <meta property="og:image" content="https://media.springernature.com/w110/springer-static/cover/journal/10994.jpg"/>
+    
+
+    <title>Extracting refined rules from knowledge-based neural networks | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-b0cd12fb00.css media="screen">
+    <link rel="stylesheet" id="js-mustard" href=/oscar-static/app-springerlink/css/enhanced-article-812be009c4.css media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"IT","doi":"10.1007-BF00993103","Journal Title":"Machine Learning","Journal Id":10994,"Keywords":"theory refinement, integrated learning, representational shift, rule extraction from neural networks","kwrd":["theory_refinement","integrated_learning","representational_shift","rule_extraction_from_neural_networks"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"Y","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"subscription","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-BF00993103","Full HTML":"N","Subject Codes":["SCI","SCI21000","SCT19000","SCI19000","SCI21040"],"pmc":["I","I21000","T19000","I19000","I21040"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-0565","pissn":"0885-6125"},"type":"Article","category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Artificial Intelligence","2":"Control, Robotics, Mechatronics","3":"Artificial Intelligence","4":"Simulation and Modeling","5":"Natural Language Processing (NLP)"},"secondarySubjectCodes":{"1":"I21000","2":"T19000","3":"I21000","4":"I19000","5":"I21040"}},"sucode":"SC6"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/BF00993103","Page":"article","page":{"attributes":{"environment":"live"}}}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script>
+
+
+    
+
+
+<script src="/oscar-static/js/jquery-220afd743d.js" id="jquery"></script>
+
+<script>
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+
+    <script data-test="onetrust-link" type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+
+
+
+
+    <script>
+    window.config = window.config || {};
+    window.config.mustardcut = false;
+
+    
+    if (window.matchMedia && window.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+    
+    
+        <!-- Google Tag Manager -->
+        <script data-test="gtm-head">
+            if (window.config.mustardcut) {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s),
+                            dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+            }
+        </script>
+        <!-- End Google Tag Manager -->
+    
+
+
+    <script class="js-entry">
+    if (window.config.mustardcut) {
+        (function(w, d) {
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+            }
+
+            var headScripts = [
+                {'src': '/oscar-static/js/polyfill-es5-bundle-1d169163b6.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/airbrake-es5-bundle-0ee59c2021.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/airbrake-es6-bundle-96bf21b86c.js', 'async': false, 'module': true}
+            ];
+
+            var bodyScripts = [
+                {'src': '/oscar-static/js/app-es5-bundle-461b219dac.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/app-es6-bundle-a44158b15b.js', 'async': false, 'module': true}
+                
+                
+                    , {'src': '/oscar-static/js/global-article-es5-bundle-78410e1423.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/global-article-es6-bundle-94baff64b9.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i = 0; i < headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i = 0; i < bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        })(window, document);
+    }
+</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript data-test="gtm-body">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+
+
+    <div class="u-vh-full">
+        
+    <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=BF00993103;"></div>
+        </div>
+    </aside>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="firstTabbable"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="c-icon u-ml-8" width="22" height="22" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a data-test="login-link" class="c-header__link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF00993103">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="c-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+                
+                <div class="c-context-bar u-hide" data-component="context-bar" aria-hidden="true">
+                    <div class="c-context-bar__container u-container">
+                        <div class="c-context-bar__title">
+                            Extracting refined rules from knowledge-based neural networks
+                        </div>
+                        
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00993103.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+
+                    </div>
+                </div>
+            
+
+            <div class="c-pdf-button__container">
+                
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00993103.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+
+            </div>
+
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="1993-10" itemprop="datePublished">October 1993</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">Extracting refined rules from knowledge-based neural networks</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Geoffrey_G_-Towell" data-author-popup="auth-Geoffrey_G_-Towell">Geoffrey G. Towell</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Wisconsin" /><meta itemprop="address" content="grid.14003.36, 0000000099041312, University of Wisconsin, 1210 West Dayton Street, 53706, Madison, Wisconsin" /></span><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden" data-present-affiliation="true"><meta itemprop="name" content="Siemens Corporate Research" /><meta itemprop="address" content="grid.419233.e, 000000010038812X, Siemens Corporate Research, 755 College Road East, 08540, Princeton, NJ" /></span></sup><sup class="u-js-hide"> <a href="#nAff2">nAff2</a></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Jude_W_-Shavlik" data-author-popup="auth-Jude_W_-Shavlik">Jude W. Shavlik</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of Wisconsin" /><meta itemprop="address" content="grid.14003.36, 0000000099041312, University of Wisconsin, 1210 West Dayton Street, 53706, Madison, Wisconsin" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/10994"><i data-test="journal-title">Machine Learning</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 13</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">71</span>–<span itemprop="pageEnd">101</span>(<span data-test="article-publication-year">1993</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    
+        <div class="c-article-metrics-bar__wrapper u-clear-both">
+            <ul class="c-article-metrics-bar u-list-reset">
+                
+                    <li class=" c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">2367 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                    </li>
+                
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">378 <span class="c-article-metrics-bar__label">Citations</span></p>
+                    </li>
+                
+                
+                    
+                        <li class="c-article-metrics-bar__item">
+                            <p class="c-article-metrics-bar__count">0 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                        </li>
+                    
+                
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2FBF00993103/metrics" data-track="click" data-track-action="view metrics" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                        </div>
+                        
+                        
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" data-title="Abstract" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Neural networks, despite their empirically proven abilities, have been little used for the refinement of existing knowledge because this task requires a three-step process. First, knowledge must be inserted into a neural network. Second, the network must be refined. Third, the refined knowledge must be extracted from the network. We have previously described a method for the first step of this process. Standard neural learning techniques can accomplish the second step. In this article, we propose and empirically evaluate a method for the final, and possibly most difficult, step. Our method efficiently extracts symbolic rules from trained neural networks. The four major results of empirical tests of this method are that the extracted rules 1) closely reproduce the accuracy of the network from which they are extracted; 2) are superior to the rules produced by methods that directly refine symbolic rules; 3) are superior to those produced by previous techniques for extracting rules from trained neural networks; and 4) are “human comprehensible.” Thus, this method demonstrates that neural networks can be used to effectively refine symbolic knowledge. Moreover, the rule-extraction technique developed herein contributes to the understanding of how symbolic and connectionist approaches to artificial intelligence can be profitably integrated.</p></div></div></section>
+                    
+    
+
+
+                    
+
+                    
+    <div class="note test-pdf-link" id="cobranding-and-download-availability-text">
+        <div class="c-article-access-provider" aria-hidden="true" data-component="provided-by-box">
+            
+            
+                <p class="c-article-access-provider__text">
+                    <a href="/content/pdf/10.1007/BF00993103.pdf" target="_blank" rel="noopener"
+                    data-track="click" data-track-action="download pdf" data-track-label="inline link">Download</a> to read the full article text
+                </p>
+            
+        </div>
+    </div>
+
+
+                    
+                        
+                            
+                        
+                    
+
+                    <section aria-labelledby="Bib1" data-title="References"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="H.R.. Berenji, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Berenji, H.R. (1991). Refinement of approximate reasoning-based controllers by reinforcement learaning.Proceed" /><p class="c-article-references__text" id="ref-CR1">Berenji, H.R. (1991). Refinement of approximate reasoning-based controllers by reinforcement learaning.<i>Proceedings of the Eighth International Machine Learning Workshop</i> (pp. 475–479). Evanston, IL: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Refinement%20of%20approximate%20reasoning-based%20controllers%20by%20reinforcement%20learaning&amp;pages=475-479&amp;publication_year=1991&amp;author=Berenji%2CH.R.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="L.. Bochereau, P.. Bourgine, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Bochereau, L., &amp; Bourgine, P. (1990). Extraction of semantic features and logical rules from a multilayer neur" /><p class="c-article-references__text" id="ref-CR2">Bochereau, L., &amp; Bourgine, P. (1990). Extraction of semantic features and logical rules from a multilayer neural network.<i>International Joint Conference on Neural Networks</i> (Vol. 2) (pp. 579–582). Washington, D.C.: Erlbaum.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Extraction%20of%20semantic%20features%20and%20logical%20rules%20from%20a%20multilayer%20neural%20network&amp;pages=579-582&amp;publication_year=1990&amp;author=Bochereau%2CL.&amp;author=Bourgine%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="J.S.. Bruner, J.J.. Goodnow, G.A.. Austin, " /><meta itemprop="datePublished" content="1956" /><meta itemprop="headline" content="Bruner, J.S., Goodnow, J.J., &amp; Austin, G.A. (1956).A study of thinking. New York: Wiley." /><p class="c-article-references__text" id="ref-CR3">Bruner, J.S., Goodnow, J.J., &amp; Austin, G.A. (1956).<i>A study of thinking</i>. New York: Wiley.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 3 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20study%20of%20thinking&amp;publication_year=1956&amp;author=Bruner%2CJ.S.&amp;author=Goodnow%2CJ.J.&amp;author=Austin%2CG.A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.. Dzeroski, N.. Lavrac, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Dzeroski, S., &amp; Lavrac, N. (1991). Learning relations from noisy examples: An empirical comparison of LINUS an" /><p class="c-article-references__text" id="ref-CR4">Dzeroski, S., &amp; Lavrac, N. (1991). Learning relations from noisy examples: An empirical comparison of LINUS and FOIL.<i>Proceedings of the Eighth International Machine Learning Workshop</i> (pp. 399–402). Evanston, IL: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Learning%20relations%20from%20noisy%20examples%3A%20An%20empirical%20comparison%20of%20LINUS%20and%20FOIL&amp;pages=399-402&amp;publication_year=1991&amp;author=Dzeroski%2CS.&amp;author=Lavrac%2CN.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.E.. Fahlman, C.. Lebiere, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Fahlman, S.E., &amp; Lebiere, C. (1989). The cascade-correlation learning architecture.Advances in neural informat" /><p class="c-article-references__text" id="ref-CR5">Fahlman, S.E., &amp; Lebiere, C. (1989). The cascade-correlation learning architecture.<i>Advances in neural information processing systems</i> (Vol. 2) (pp. 524–532). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 5 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20cascade-correlation%20learning%20architecture&amp;pages=524-532&amp;publication_year=1989&amp;author=Fahlman%2CS.E.&amp;author=Lebiere%2CC.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.H.. Fisher, K.B.. McKusick, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Fisher, D.H., &amp; McKusick, K.B. (1989). An empirical comparison of ID3 and backpropagation.Proceedings of the E" /><p class="c-article-references__text" id="ref-CR6">Fisher, D.H., &amp; McKusick, K.B. (1989). An empirical comparison of ID3 and backpropagation.<i>Proceedings of the Eleventh International Joint Conference on Artificial Intelligence</i> (pp. 788–793). Detroit, MI: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20empirical%20comparison%20of%20ID3%20and%20backpropagation&amp;pages=788-793&amp;publication_year=1989&amp;author=Fisher%2CD.H.&amp;author=McKusick%2CK.B.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="L.M.. Fu, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Fu, L.M. (1991). Rule learning by searching on adapted nets.Proceedings of the Ninth National Conference on Ar" /><p class="c-article-references__text" id="ref-CR7">Fu, L.M. (1991). Rule learning by searching on adapted nets.<i>Proceedings of the Ninth National Conference on Artificial Intelligence</i> (pp. 590–595). Anaheim, CA: AAAI Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Rule%20learning%20by%20searching%20on%20adapted%20nets&amp;pages=590-595&amp;publication_year=1991&amp;author=Fu%2CL.M.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.A.. Goldman, M.J.. Kearns, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Goldman, S.A., &amp; Kearns, M.J. (1991). On the complexity of teaching.Proceedings of the Fourth Annual Workshop " /><p class="c-article-references__text" id="ref-CR8">Goldman, S.A., &amp; Kearns, M.J. (1991). On the complexity of teaching.<i>Proceedings of the Fourth Annual Workshop on Computational Learning Theory</i> (pp. 303–314). Santa Cruz, CA: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=On%20the%20complexity%20of%20teaching&amp;pages=303-314&amp;publication_year=1991&amp;author=Goldman%2CS.A.&amp;author=Kearns%2CM.J.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C.B.. Harley, R.P.. Reynolds, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Harley, C.B., &amp; Reynolds, R.P. (1987). Analysis ofE. coli promoter sequences.Nucleic Acids Research, 15, 2343–" /><p class="c-article-references__text" id="ref-CR9">Harley, C.B., &amp; Reynolds, R.P. (1987). Analysis of<i>E. coli</i> promoter sequences.<i>Nucleic Acids Research, 15</i>, 2343–2361.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Analysis%20ofE.%20coli%20promoter%20sequences&amp;journal=Nucleic%20Acids%20Research&amp;volume=15&amp;pages=2343-2361&amp;publication_year=1987&amp;author=Harley%2CC.B.&amp;author=Reynolds%2CR.P.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="J.A.. Hartigan, " /><meta itemprop="datePublished" content="1975" /><meta itemprop="headline" content="Hartigan, J.A. (1975).Clustering algorithms. New York: Wiley." /><p class="c-article-references__text" id="ref-CR10">Hartigan, J.A. (1975).<i>Clustering algorithms</i>. New York: Wiley.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Clustering%20algorithms&amp;publication_year=1975&amp;author=Hartigan%2CJ.A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="D.K.. Hawley, W.R.. McClure, " /><meta itemprop="datePublished" content="1983" /><meta itemprop="headline" content="Hawley, D.K., &amp; McClure, W.R. (1983). Compilation and analysis of escherichia coli promotor DNA sequences.Nucl" /><p class="c-article-references__text" id="ref-CR11">Hawley, D.K., &amp; McClure, W.R. (1983). Compilation and analysis of escherichia coli promotor DNA sequences.<i>Nucleic Acids Research</i>, 11, 2237–2255.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Compilation%20and%20analysis%20of%20escherichia%20coli%20promotor%20DNA%20sequences&amp;journal=Nucleic%20Acids%20Research&amp;volume=11&amp;pages=2237-2255&amp;publication_year=1983&amp;author=Hawley%2CD.K.&amp;author=McClure%2CW.R.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="Y.. Hayashi, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Hayashi, Y. (1990). A neural expert system with automated extraction of fuzzy if-then rules.Advances in neural" /><p class="c-article-references__text" id="ref-CR12">Hayashi, Y. (1990). A neural expert system with automated extraction of fuzzy if-then rules.<i>Advances in neural information processing systems</i> (Vol. 3) (pp. 578–584). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%203%29&amp;pages=578-584&amp;publication_year=1990&amp;author=Hayashi%2CY.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.E.. Hinton, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Hinton, G.E. (1989). Connectionist learning procedures.Artificial Intelligence, 40, 185–234." /><p class="c-article-references__text" id="ref-CR13">Hinton, G.E. (1989). Connectionist learning procedures.<i>Artificial Intelligence, 40</i>, 185–234.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Connectionist%20learning%20procedures&amp;journal=Artificial%20Intelligence&amp;volume=40&amp;pages=185-234&amp;publication_year=1989&amp;author=Hinton%2CG.E.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S.. Judd, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Judd, S. (1988). On the complexity of loading shallow neural networks.Journal of Complexity, 4, 177–192." /><p class="c-article-references__text" id="ref-CR14">Judd, S. (1988). On the complexity of loading shallow neural networks.<i>Journal of Complexity, 4</i>, 177–192.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=On%20the%20complexity%20of%20loading%20shallow%20neural%20networks&amp;journal=Journal%20of%20Complexity&amp;volume=4&amp;pages=177-192&amp;publication_year=1988&amp;author=Judd%2CS.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.B.. Koudelka, S.C.. Harrison, M.. Ptashne, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Koudelka, G.B., Harrison, S.C., &amp; Ptashne, M. (1987). Effect of non-contacted bases on the affinity of 434 ope" /><p class="c-article-references__text" id="ref-CR15">Koudelka, G.B., Harrison, S.C., &amp; Ptashne, M. (1987). Effect of non-contacted bases on the affinity of 434 operator for 434 repressor and Cro.<i>Nature, 326</i>, 886–888.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Effect%20of%20non-contacted%20bases%20on%20the%20affinity%20of%20434%20operator%20for%20434%20repressor%20and%20Cro&amp;journal=Nature&amp;volume=326&amp;pages=886-888&amp;publication_year=1987&amp;author=Koudelka%2CG.B.&amp;author=Harrison%2CS.C.&amp;author=Ptashne%2CM.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="Y.. Cun, J.S.. Denker, S.A.. Solla, " /><meta itemprop="datePublished" content="1989" /><meta itemprop="headline" content="Le Cun, Y., Denker, J.S., &amp; Solla, S.A. (1989). Optimal brain damage.Advances in neural information processing" /><p class="c-article-references__text" id="ref-CR16">Le Cun, Y., Denker, J.S., &amp; Solla, S.A. (1989). Optimal brain damage.<i>Advances in neural information processing systems</i> (Vol. 2) (pp. 598–605). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%202%29&amp;pages=598-605&amp;publication_year=1989&amp;author=Cun%2CY.&amp;author=Denker%2CJ.S.&amp;author=Solla%2CS.A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Masuoka, R., Watanabe, N., Kawamura, A., Owada, Y., &amp; Asakawa, K. (1990). Neurofuzzy system—fuzzy inference us" /><p class="c-article-references__text" id="ref-CR17">Masuoka, R., Watanabe, N., Kawamura, A., Owada, Y., &amp; Asakawa, K. (1990). Neurofuzzy system—fuzzy inference using a structured neural network.<i>Proceedings of the International Conference on Fuzzy Logic &amp; Neural Networks</i> (pp. 173–177). Iizuka, Japan.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.. McDermott, " /><meta itemprop="datePublished" content="1982" /><meta itemprop="headline" content="McDermott, J. (1982). R1: A rule-based configurer of computer systems.Artificial Intelligence, 19, 21–32." /><p class="c-article-references__text" id="ref-CR18">McDermott, J. (1982). R1: A rule-based configurer of computer systems.<i>Artificial Intelligence, 19</i>, 21–32.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=R1%3A%20A%20rule-based%20configurer%20of%20computer%20systems&amp;journal=Artificial%20Intelligence&amp;volume=19&amp;pages=21-32&amp;publication_year=1982&amp;author=McDermott%2CJ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="C.. McMillan, M.C.. Mozer, P.. Smolensky, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="McMillan, C., Mozer, M.C., &amp; Smolensky, P. (1991). The connectionist scientist game: Rule extraction and refin" /><p class="c-article-references__text" id="ref-CR19">McMillan, C., Mozer, M.C., &amp; Smolensky, P. (1991). The connectionist scientist game: Rule extraction and refinement in a neural network.<i>Proceedings of the Thirteenth Annual Conference of the Cognitive Science Society</i>. Chicago, IL: Erlbaum.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20connectionist%20scientist%20game%3A%20Rule%20extraction%20and%20refinement%20in%20a%20neural%20network&amp;publication_year=1991&amp;author=McMillan%2CC.&amp;author=Mozer%2CM.C.&amp;author=Smolensky%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="G.A.. Miller, " /><meta itemprop="datePublished" content="1956" /><meta itemprop="headline" content="Miller, G.A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing i" /><p class="c-article-references__text" id="ref-CR20">Miller, G.A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information.<i>Psychological Review, 63</i>, 81–97.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 20 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20magical%20number%20seven%2C%20plus%20or%20minus%20two%3A%20Some%20limits%20on%20our%20capacity%20for%20processing%20information&amp;journal=Psychological%20Review&amp;volume=63&amp;pages=81-97&amp;publication_year=1956&amp;author=Miller%2CG.A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="M.C.. Mozer, P.. Smolensky, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Mozer, M.C., &amp; Smolensky, P. (1988). Skeletonization: A technique for trimming the fat from a network via rele" /><p class="c-article-references__text" id="ref-CR21">Mozer, M.C., &amp; Smolensky, P. (1988). Skeletonization: A technique for trimming the fat from a network via relevance assessment.<i>Advances in neural information processing systems</i> (Vol. 1) (pp. 107–115). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 21 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%201%29&amp;pages=107-115&amp;publication_year=1988&amp;author=Mozer%2CM.C.&amp;author=Smolensky%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="P.M.. Murphy, M.J.. Pazzani, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Murphy, P.M., &amp; Pazzani, M.J. (1991). ID2-of-3: Constructive induction of M-of-N concepts for discriminators i" /><p class="c-article-references__text" id="ref-CR22">Murphy, P.M., &amp; Pazzani, M.J. (1991). ID2-of-3: Constructive induction of M-of-N concepts for discriminators in decision trees.<i>Proceedings of the Eighth International Machine Learning Workshop</i> (pp. 183–187). Evanston, IL: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=ID2-of-3%3A%20Constructive%20induction%20of%20M-of-N%20concepts%20for%20discriminators%20in%20decision%20trees&amp;pages=183-187&amp;publication_year=1991&amp;author=Murphy%2CP.M.&amp;author=Pazzani%2CM.J.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="U.. Nessier, P.. Weene, " /><meta itemprop="datePublished" content="1962" /><meta itemprop="headline" content="Nessier, U., &amp; Weene, P. (1962). Hierarchies in concept attainment.Journal of Experimental Psychology, 64, 640" /><p class="c-article-references__text" id="ref-CR23">Nessier, U., &amp; Weene, P. (1962). Hierarchies in concept attainment.<i>Journal of Experimental Psychology, 64</i>, 640–645.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Hierarchies%20in%20concept%20attainment&amp;journal=Journal%20of%20Experimental%20Psychology&amp;volume=64&amp;pages=640-645&amp;publication_year=1962&amp;author=Nessier%2CU.&amp;author=Weene%2CP.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="M.O.. Noordewier, G.G.. Towell, J.W.. Shavlik, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Noordewier, M.O., Towell, G.G., &amp; Shavlik, J.W. (1991). Training knowledge-based neural networks to recognize " /><p class="c-article-references__text" id="ref-CR24">Noordewier, M.O., Towell, G.G., &amp; Shavlik, J.W. (1991). Training knowledge-based neural networks to recognize genes in DNA sequences.<i>Advances in neural information processing systems</i> (Vol. 3) (pp. 530–536). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%203%29&amp;pages=530-536&amp;publication_year=1991&amp;author=Noordewier%2CM.O.&amp;author=Towell%2CG.G.&amp;author=Shavlik%2CJ.W.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.J.. Nowlan, G.E.. Hinton, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Nowlan, S.J., &amp; Hinton, G.E. (1991). Simplifying neural networks by soft weight-sharing.Advances in neural inf" /><p class="c-article-references__text" id="ref-CR25">Nowlan, S.J., &amp; Hinton, G.E. (1991). Simplifying neural networks by soft weight-sharing.<i>Advances in neural information processing systems</i> (Vol. 4) (pp. 993–1000). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 25 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%204%29&amp;pages=993-1000&amp;publication_year=1991&amp;author=Nowlan%2CS.J.&amp;author=Hinton%2CG.E.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.. Ourston, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Ourston, D. (1991).Using explanation-based and empirical methods in theory revision. Ph.D. thesis, Department " /><p class="c-article-references__text" id="ref-CR26">Ourston, D. (1991).<i>Using explanation-based and empirical methods in theory revision</i>. Ph.D. thesis, Department of Computer Sciences, University of Texas, Austin, TX.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Using%20explanation-based%20and%20empirical%20methods%20in%20theory%20revision&amp;publication_year=1991&amp;author=Ourston%2CD.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.. Ourston, R.J.. Mooney, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Ourston, D., &amp; Mooney, R.J. (1990). Changing the rules: A comprehensive approach to theory refinement.Proceedi" /><p class="c-article-references__text" id="ref-CR27">Ourston, D., &amp; Mooney, R.J. (1990). Changing the rules: A comprehensive approach to theory refinement.<i>Proceedings of the Eighth National Conference on Artificial Intelligence</i> (pp. 815–820). Boston, MA: AAAI Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Changing%20the%20rules%3A%20A%20comprehensive%20approach%20to%20theory%20refinement&amp;pages=815-820&amp;publication_year=1990&amp;author=Ourston%2CD.&amp;author=Mooney%2CR.J.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Pazzani, M. (1992). When prior knowledge hinders learning.Workshop Notes of Constraining Learning with Prior K" /><p class="c-article-references__text" id="ref-CR28">Pazzani, M. (1992). When prior knowledge hinders learning.<i>Workshop Notes of Constraining Learning with Prior Knowledge</i> (pp. 44–52). San Jose, CA.</p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="L.Y.. Pratt, J.. Mostow, C.A.. Kamm, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Pratt, L.Y., Mostow, J., &amp; Kamm, C.A. (1991). Direct transfer of learned information among neural networks.Pro" /><p class="c-article-references__text" id="ref-CR29">Pratt, L.Y., Mostow, J., &amp; Kamm, C.A. (1991). Direct transfer of learned information among neural networks.<i>Proceedings of the Ninth National Conference on Artificial Intelligence</i> (pp. 584–589). Anaheim, CA: AAAI Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 29 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Direct%20transfer%20of%20learned%20information%20among%20neural%20networks&amp;pages=584-589&amp;publication_year=1991&amp;author=Pratt%2CL.Y.&amp;author=Mostow%2CJ.&amp;author=Kamm%2CC.A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.R.. Quinlan, " /><meta itemprop="datePublished" content="1987" /><meta itemprop="headline" content="Quinlan, J.R. (1987). Simplifying decision trees.International Journal of Man-Machine Studies, 27, 221–234." /><p class="c-article-references__text" id="ref-CR30">Quinlan, J.R. (1987). Simplifying decision trees.<i>International Journal of Man-Machine Studies, 27</i>, 221–234.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 30 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Simplifying%20decision%20trees&amp;journal=International%20Journal%20of%20Man-Machine%20Studies&amp;volume=27&amp;pages=221-234&amp;publication_year=1987&amp;author=Quinlan%2CJ.R.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="D.E.. Rumelhart, G.E.. Hinton, R.J.. Williams, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation" /><p class="c-article-references__text" id="ref-CR31">Rumelhart, D.E., Hinton, G.E., &amp; Williams, R.J. (1986). Learning internal representations by error propagation. In D.E. Rumelhart &amp; J.L. McClelland (Eds.),<i>Parallel distributed processing: Explorations in the microstructure of cognition. Volume 1: Foundations</i> (pp. 318–362). Cambridge, MA: MIT Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 31 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Parallel%20distributed%20processing%3A%20Explorations%20in%20the%20microstructure%20of%20cognition.%20Volume%201%3A%20Foundations&amp;pages=318-362&amp;publication_year=1986&amp;author=Rumelhart%2CD.E.&amp;author=Hinton%2CG.E.&amp;author=Williams%2CR.J.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="K.. Saito, R.. Nakano, " /><meta itemprop="datePublished" content="1988" /><meta itemprop="headline" content="Saito, K., &amp; Nakano, R. (1988). Medical diagnostic expert system based on PDP model.Proceedings of IEEE Intern" /><p class="c-article-references__text" id="ref-CR32">Saito, K., &amp; Nakano, R. (1988). Medical diagnostic expert system based on PDP model.<i>Proceedings of IEEE International Conference on Neural Networks</i> (Vol. 1) (pp. 255–262). San Diego, CA: IEEE.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 32 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Medical%20diagnostic%20expert%20system%20based%20on%20PDP%20model&amp;pages=255-262&amp;publication_year=1988&amp;author=Saito%2CK.&amp;author=Nakano%2CR.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.. Sestito, T.. Dillon, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Sestito, S., &amp; Dillon, T. (1990). Using multi-layered neural networks for learning symbolic knowledge.Proceedi" /><p class="c-article-references__text" id="ref-CR33">Sestito, S., &amp; Dillon, T. (1990). Using multi-layered neural networks for learning symbolic knowledge.<i>Proceedings of the Fourth Australian Joint Conference on Artificial Intelligence</i>. Perth, Australia: World Scientific.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 33 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Using%20multi-layered%20neural%20networks%20for%20learning%20symbolic%20knowledge&amp;publication_year=1990&amp;author=Sestito%2CS.&amp;author=Dillon%2CT.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J.W.. Shavlik, R.J.. Mooney, G.G.. Towell, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Shavlik, J.W., Mooney, R.J., &amp; Towell, G.G. (1991). Symbolic and neural net learning algorithms: An empirical " /><p class="c-article-references__text" id="ref-CR34">Shavlik, J.W., Mooney, R.J., &amp; Towell, G.G. (1991). Symbolic and neural net learning algorithms: An empirical comparison.<i>Machine Learning, 6</i>, 111–143.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 34 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Symbolic%20and%20neural%20net%20learning%20algorithms%3A%20An%20empirical%20comparison&amp;journal=Machine%20Learning&amp;volume=6&amp;pages=111-143&amp;publication_year=1991&amp;author=Shavlik%2CJ.W.&amp;author=Mooney%2CR.J.&amp;author=Towell%2CG.G.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.D.. Stormo, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Stormo, G.D. (1990). Consensus patterns in DNA.Methods in enzymology (Vol. 183). Orlando, FL: Academic Press." /><p class="c-article-references__text" id="ref-CR35">Stormo, G.D. (1990). Consensus patterns in DNA.<i>Methods in enzymology</i> (Vol. 183). Orlando, FL: Academic Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 35 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Methods%20in%20enzymology%20%28Vol.%20183%29&amp;publication_year=1990&amp;author=Stormo%2CG.D.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="R.S.. Sutton, " /><meta itemprop="datePublished" content="1986" /><meta itemprop="headline" content="Sutton, R.S. (1986). Two problems with backpropagation and other steepest descent learning procedures for netw" /><p class="c-article-references__text" id="ref-CR36">Sutton, R.S. (1986). Two problems with backpropagation and other steepest descent learning procedures for networks.<i>Program of the Eighth Annual Conference of the Cognitive Science Society</i> (pp. 823–831). Amherst, MA: Erlbaum.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 36 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Two%20problems%20with%20backpropagation%20and%20other%20steepest%20descent%20learning%20procedures%20for%20networks&amp;pages=823-831&amp;publication_year=1986&amp;author=Sutton%2CR.S.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="K.. Thompson, P.. Langley, W.. Iba, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Thompson, K., Langley, P., &amp; Iba, W. (1991). Using background knowledge in concept formation.Proceedings of th" /><p class="c-article-references__text" id="ref-CR37">Thompson, K., Langley, P., &amp; Iba, W. (1991). Using background knowledge in concept formation.<i>Proceedings of the Eighth International Machine Learning Workshop</i> (pp. 554–558). Evanston, IL: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 37 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Using%20background%20knowledge%20in%20concept%20formation&amp;pages=554-558&amp;publication_year=1991&amp;author=Thompson%2CK.&amp;author=Langley%2CP.&amp;author=Iba%2CW.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.. Thrun, J.. Bala, E.. Bloedorn, I.. Bratko, B.. Cestnik, J.. Cheng, K.. Jong, S.. Dzeroski, S.. Fahlman, D.. Fisher, R.. Hamann, K.. Kaufman, S.. Keller, I.. Kononenko, J.. Kreuziger, R.. Michalski, T.. Mitchell, P.. Pachowicz, Y.. Reich, H.. Vafaie, W.. Welde, W.. Wenzel, J.. Wnek, J.. Zhang, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Thrun, S., Bala, J. Bloedorn, E., Bratko, I., Cestnik, B., Cheng, J., De Jong, K., Dzeroski, S., Fahlman, S., " /><p class="c-article-references__text" id="ref-CR38">Thrun, S., Bala, J. Bloedorn, E., Bratko, I., Cestnik, B., Cheng, J., De Jong, K., Dzeroski, S., Fahlman, S., Fisher, D., Hamann, R., Kaufman, K., Keller, S., Kononenko, I., Kreuziger, J., Michalski, R., Mitchell, T., Pachowicz, P., Reich, Y., Vafaie, H., Van de Welde, W., Wenzel, W., Wnek, J., &amp; Zhang, J. (1991).<i>The MONK's</i> problem: A performance comparison of different learning algorithms. (Technical Report CMU-CS-91-197). Pittsburgh, PA: Carnegie Mellon.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 38 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20MONK%27s%20problem%3A%20A%20performance%20comparison%20of%20different%20learning%20algorithms&amp;publication_year=1991&amp;author=Thrun%2CS.&amp;author=Bala%2CJ.&amp;author=Bloedorn%2CE.&amp;author=Bratko%2CI.&amp;author=Cestnik%2CB.&amp;author=Cheng%2CJ.&amp;author=Jong%2CK.&amp;author=Dzeroski%2CS.&amp;author=Fahlman%2CS.&amp;author=Fisher%2CD.&amp;author=Hamann%2CR.&amp;author=Kaufman%2CK.&amp;author=Keller%2CS.&amp;author=Kononenko%2CI.&amp;author=Kreuziger%2CJ.&amp;author=Michalski%2CR.&amp;author=Mitchell%2CT.&amp;author=Pachowicz%2CP.&amp;author=Reich%2CY.&amp;author=Vafaie%2CH.&amp;author=Welde%2CW.&amp;author=Wenzel%2CW.&amp;author=Wnek%2CJ.&amp;author=Zhang%2CJ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.G.. Towell, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Towell, G.G. (1991).Symbolic knowledge and neural networks: Insertion, refinement, and extraction. Ph.D. thesi" /><p class="c-article-references__text" id="ref-CR39">Towell, G.G. (1991).<i>Symbolic knowledge and neural networks: Insertion, refinement, and extraction</i>. Ph.D. thesis, Computer Sciences Department, University of Wisconsin, Madison, WI.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 39 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Symbolic%20knowledge%20and%20neural%20networks%3A%20Insertion%2C%20refinement%2C%20and%20extraction&amp;publication_year=1991&amp;author=Towell%2CG.G.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.G.. Towell, J.W.. Shavlik, " /><meta itemprop="datePublished" content="1991" /><meta itemprop="headline" content="Towell, G.G., &amp; Shavlik, J.W. (1991). Interpretation of artificial neural networks: Mapping knowledge-based ne" /><p class="c-article-references__text" id="ref-CR40">Towell, G.G., &amp; Shavlik, J.W. (1991). Interpretation of artificial neural networks: Mapping knowledge-based neural networks into rules.<i>Advances in neural information processing systems</i> (Vol. 4) (pp. 977–984). Denver, CO: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 40 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Advances%20in%20neural%20information%20processing%20systems%20%28Vol.%204%29&amp;pages=977-984&amp;publication_year=1991&amp;author=Towell%2CG.G.&amp;author=Shavlik%2CJ.W.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="G.G.. Towell, J.W.. Shavlik, M.O.. Noordewier, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Towell, G.G., Shavlik, J.W., &amp; Noordewier, M.O. (1990). Refinement of approximately correct domain theories by" /><p class="c-article-references__text" id="ref-CR41">Towell, G.G., Shavlik, J.W., &amp; Noordewier, M.O. (1990). Refinement of approximately correct domain theories by knowledge-based neural networks.<i>Proceedings of the Eighth National Conference on Artificial Intelligence</i> (pp. 861–866). Boston: MA: AAAI Press.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 41 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Refinement%20of%20approximately%20correct%20domain%20theories%20by%20knowledge-based%20neural%20networks&amp;pages=861-866&amp;publication_year=1990&amp;author=Towell%2CG.G.&amp;author=Shavlik%2CJ.W.&amp;author=Noordewier%2CM.O.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="S.M.. Weiss, C.A.. Kulikowski, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Weiss, S.M., &amp; Kulikowski, C.A. (1990).Computer systems that learn. San Mateo, CA: Morgan Kaufmann." /><p class="c-article-references__text" id="ref-CR42">Weiss, S.M., &amp; Kulikowski, C.A. (1990).<i>Computer systems that learn</i>. San Mateo, CA: Morgan Kaufmann.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 42 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Computer%20systems%20that%20learn&amp;publication_year=1990&amp;author=Weiss%2CS.M.&amp;author=Kulikowski%2CC.A.">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="/article/10.1007/BF00993103-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1"><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information" data-title="Author information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><span class="c-article-author-information__subtitle u-visually-hidden" id="author-notes">Author notes</span><ol class="c-article-author-information__list"><li class="c-article-author-information__item" id="nAff2"><p class="c-article-author-information__authors-list">Geoffrey G. Towell</p><p class="js-present-address">Present address: Siemens Corporate Research, 755 College Road East, 08540, Princeton, NJ</p></li></ol><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><p class="c-article-author-affiliation__address">University of Wisconsin, 1210 West Dayton Street, 53706, Madison, Wisconsin</p><p class="c-article-author-affiliation__authors-list">Geoffrey G. Towell &amp; Jude W. Shavlik</p></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-Geoffrey_G_-Towell"><span class="c-article-authors-search__title u-h3 js-search-name">Geoffrey G. Towell</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Geoffrey G.+Towell&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Geoffrey G.+Towell" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Geoffrey G.+Towell%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Jude_W_-Shavlik"><span class="c-article-authors-search__title u-h3 js-search-name">Jude W. Shavlik</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Jude W.+Shavlik&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Jude W.+Shavlik" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Jude W.+Shavlik%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li></ol></div></div></div></section><section aria-labelledby="rightslink" data-title="Rights and permissions"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Extracting%20refined%20rules%20from%20knowledge-based%20neural%20networks&amp;author=Geoffrey%20G.%20Towell%20et%20al&amp;contentID=10.1007%2FBF00993103&amp;publication=0885-6125&amp;publicationDate=1993-10&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info" data-title="About this article"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Towell, G.G., Shavlik, J.W. Extracting refined rules from knowledge-based neural networks.
+                    <i>Mach Learn</i> <b>13, </b>71–101 (1993). https://doi.org/10.1007/BF00993103</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" href="/article/10.1007/BF00993103.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="1991-09-06">06 September 1991</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="1992-05-13">13 May 1992</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="1993-10">October 1993</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/BF00993103" data-track="click" data-track-action="view doi" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/BF00993103</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">theory refinement</span></li><li class="c-article-subject-list__subject"><span itemprop="about">integrated learning</span></li><li class="c-article-subject-list__subject"><span itemprop="about">representational shift</span></li><li class="c-article-subject-list__subject"><span itemprop="about">rule extraction from neural networks</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/BF00993103.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button">
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+    
+
+                </div>
+
+                <div data-test="collections">
+                    
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <aside class="c-ad c-ad--300x250">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/10994/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=BF00993103;"></div>
+        </div>
+    </aside>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="https://www.springernature.com/ccpa">California Privacy Statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                
+                <li><a class="optanon-toggle-display" href="javascript:void(0);">Manage cookies/Do not sell my data</a></li>
+                
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 87.7.233.122</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+        
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+abstract: The sentential decision diagram (SDD) has been recently proposed as a new
+  tractable representation of Boolean functions that generalizes the influential ordered
+  binary decision diagram (OBDD). Empirically, compiling CNFs into SDDs has yielded
+  significant improvements in both time and space over compiling them into OBDDs,
+  using a bottom-up compilation approach. In this work, we present a top-down CNF
+  to SDD compiler that is based on techniques from the SAT literature. We compare
+  the presented compiler empirically to the state-of-the-art, bottom-up SDD compiler,
+  showing orders-of-magnitude improvements in compilation time.
+author: Oztok, Umut and Darwiche, Adnan
+author_list:
+- family: Oztok
+  given: Umut
+- family: Darwiche
+  given: Adnan
+booktitle: Proceedings of the 24th International Conference on Artificial Intelligence
+files:
+- oztok-umut-and-darwiche-adnana-top-down-compiler-for-sentential-decision-diagrams2015.pdf
+isbn: '9781577357384'
+location: Buenos Aires, Argentina
+numpages: '8'
+pages: 3141–3148
+publisher: AAAI Press
+ref: 10.5555/2832581.2832687
+series: IJCAI'15
+time-added: 2020-08-19-14:42:56
+title: A Top-down Compiler for Sentential Decision Diagrams
+type: inproceedings
+year: '2015'

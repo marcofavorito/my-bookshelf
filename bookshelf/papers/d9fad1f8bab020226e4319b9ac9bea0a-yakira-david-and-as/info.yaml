@@ -1,0 +1,40 @@
+abstract: We study the problem of providing blockchain applications with \emph{economically
+  viable randomness} (EVR), namely, randomness that has significant economic consequences.
+  Applications of EVR include blockchain-based lotteries and gambling. An EVR source
+  guarantees (i) secrecy, assuring that the random bits are kept secret until some
+  predefined condition indicates that they are safe to reveal (e.g., the lottery's
+  ticket sale closes), and (ii) robustness, guaranteeing that the random bits are
+  published once the condition holds. We formalize the EVR problem and solve it on
+  top of an Ethereum-like blockchain abstraction, which supports smart contracts and
+  a transferable native coin. Randomness is generated via a distributed open commit-reveal
+  scheme by game-theoretic agents who strive to maximize their coin holdings. Note
+  that in an economic setting, such agents might profit from breaking secrecy or robustness,
+  and may engage in side agreements (via smart contracts) to this end. Our solution
+  creates an incentive structure that counters such attacks. We prove that following
+  the protocol gives rise to a stable state, called Coalition-Proof Nash Equilibrium,
+  from which no coalition comprised of a subset of the players can agree to deviate.
+  In this stable state, robustness and secrecy are satisfied. Finally, we implement
+  our EVR source over Ethereum.
+archiveprefix: arXiv
+author: Yakira, David and Asayag, Avi and Grayevsky, Ido and Keidar, Idit
+author_list:
+- family: Yakira
+  given: David
+- family: Asayag
+  given: Avi
+- family: Grayevsky
+  given: Ido
+- family: Keidar
+  given: Idit
+eprint: 2007.03531v1
+file: 2007.03531v1.pdf
+files:
+- yakira-david-and-asayag-avi-and-grayevsky-ido-and-keidar-iditeconomically-viable-randomness2020.pdf
+month: Jul
+primaryclass: cs.CR
+ref: 2007.03531v1
+time-added: 2020-09-11-12:22:29
+title: Economically Viable Randomness
+type: article
+url: http://arxiv.org/abs/2007.03531v1
+year: '2020'

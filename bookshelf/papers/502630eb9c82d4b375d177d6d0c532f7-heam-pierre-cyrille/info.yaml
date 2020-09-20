@@ -1,0 +1,31 @@
+abstract: In this paper we address the problem of the uniform random generation of
+  non deterministic automata (NFA) up to isomorphism. First, we show how to use a
+  Monte-Carlo approach to uniformly sample a NFA. Secondly, we show how to use the
+  Metropolis-Hastings Algorithm to uniformly generate NFAs up to isomorphism. Using
+  labeling techniques, we show that in practice it is possible to move into the modified
+  Markov Chain efficiently, allowing the random generation of NFAs up to isomorphism
+  with dozens of states. This general approach is also applied to several interesting
+  subclasses of NFAs (up to isomorphism), such as NFAs having a unique initial states
+  and a bounded output degree. Finally, we prove that for these interesting subclasses
+  of NFAs, moving into the Metropolis Markov chain can be done in polynomial time.
+  Promising experimental results constitute a practical contribution.
+archiveprefix: arXiv
+author: Heam, Pierre-Cyrille and Joly, Jean-Luc
+author_list:
+- family: Heam
+  given: Pierre-Cyrille
+- family: Joly
+  given: Jean-Luc
+doi: 10.1007/978-3-319-22360-5_12
+eprint: 1512.02797v1
+file: 1512.02797v1.pdf
+files:
+- heam-pierre-cyrille-and-joly-jean-lucon-the-uniform-random-generation-of-non-deterministic-automata-up-to-isomorphism2015.pdf
+month: Dec
+primaryclass: cs.FL
+ref: 1512.02797v1
+time-added: 2020-08-12-10:26:17
+title: On the Uniform Random Generation of Non Deterministic Automata Up to   Isomorphism
+type: article
+url: http://arxiv.org/abs/1512.02797v1
+year: '2015'

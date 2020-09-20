@@ -1,0 +1,46 @@
+abstract: 'Causal explanations present an intuitive way to understand the course of
+  events through causal chains, and are widely accepted in cognitive science as the
+  prominent model humans use for explanation. Importantly, causal models can generate
+  opportunity chains, which take the form of `A enables B and B causes C''. We ground
+  the notion of opportunity chains in human-agent experimental data, where we present
+  participants with explanations from different models and ask them to provide their
+  own explanations for agent behaviour. Results indicate that humans do in-fact use
+  the concept of opportunity chains frequently for describing artificial agent behaviour.
+  Recently, action influence models have been proposed to provide causal explanations
+  for model-free reinforcement learning (RL). While these models can generate counterfactuals---things
+  that did not happen but could have under different conditions---they lack the ability
+  to generate explanations of opportunity chains. We introduce a distal explanation
+  model that can analyse counterfactuals and opportunity chains using decision trees
+  and causal models. We employ a recurrent neural network to learn opportunity chains
+  and make use of decision trees to improve the accuracy of task prediction and the
+  generated counterfactuals. We computationally evaluate the model in 6 RL benchmarks
+  using different RL algorithms, and show that our model performs better in task prediction.
+  We report on a study with 90 participants who receive explanations of RL agents
+  behaviour in solving three scenarios: 1) Adversarial; 2) Search and rescue; and
+  3) Human-Agent collaborative scenarios. We investigate the participants'' understanding
+  of the agent through task prediction and their subjective satisfaction of the explanations
+  and show that our distal explanation model results in improved outcomes over the
+  three scenarios compared with two baseline explanation models.'
+archiveprefix: arXiv
+author: Madumal, Prashan and Miller, Tim and Sonenberg, Liz and Vetere, Frank
+author_list:
+- family: Madumal
+  given: Prashan
+- family: Miller
+  given: Tim
+- family: Sonenberg
+  given: Liz
+- family: Vetere
+  given: Frank
+eprint: 2001.10284v1
+file: 2001.10284v1.pdf
+files:
+- madumal-prashan-and-miller-tim-and-sonenberg-liz-and-vetere-frankdistal-explanations-for-explainable-reinforcement-learning-agents2020.pdf
+month: Jan
+primaryclass: cs.AI
+ref: 2001.10284v1
+time-added: 2020-09-13-14:50:49
+title: Distal Explanations for Explainable Reinforcement Learning Agents
+type: article
+url: http://arxiv.org/abs/2001.10284v1
+year: '2020'

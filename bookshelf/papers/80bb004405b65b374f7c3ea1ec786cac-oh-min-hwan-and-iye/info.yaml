@@ -1,0 +1,26 @@
+abstract: We study an exploration method for model-free RL that generalizes the counter-based
+  exploration bonus methods and takes into account long term exploratory value of
+  actions rather than a single step look-ahead. We propose a model-free RL method
+  that modifies Delayed Q-learning and utilizes the long-term exploration bonus with
+  provable efficiency. We show that our proposed method finds a near-optimal policy
+  in polynomial time (PAC-MDP), and also provide experimental evidence that our proposed
+  algorithm is an efficient exploration method.
+archiveprefix: arXiv
+author: Oh, Min-hwan and Iyengar, Garud
+author_list:
+- family: Oh
+  given: Min-hwan
+- family: Iyengar
+  given: Garud
+eprint: 1808.10552v1
+file: 1808.10552v1.pdf
+files:
+- oh-min-hwan-and-iyengar-garuddirected-exploration-in-pac-model-free-reinforcement-learning2018.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1808.10552v1
+time-added: 2020-09-12-17:57:19
+title: Directed Exploration in PAC Model-Free Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1808.10552v1
+year: '2018'

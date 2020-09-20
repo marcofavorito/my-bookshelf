@@ -1,0 +1,31 @@
+abstract: General-purpose, intelligent, learning agents cycle through sequences of
+  observations, actions, and rewards that are complex, uncertain, unknown, and non-Markovian.
+  On the other hand, reinforcement learning is well-developed for small finite state
+  Markov decision processes (MDPs). Up to now, extracting the right state representations
+  out of bare observations, that is, reducing the general agent setup to the MDP framework,
+  is an art that involves significant effort by designers. The primary goal of this
+  work is to automate the reduction process and thereby significantly expand the scope
+  of many existing reinforcement learning algorithms and the agents that employ them.
+  Before we can think of mechanizing this search for suitable MDPs, we need a formal
+  objective criterion. The main contribution of this article is to develop such a
+  criterion. I also integrate the various parts into one learning algorithm. Extensions
+  to more realistic dynamic Bayesian networks are developed in Part II. The role of
+  POMDPs is also considered there.
+archiveprefix: arXiv
+author: Hutter, Marcus
+author_list:
+- family: Hutter
+  given: Marcus
+eprint: 0906.1713v1
+file: 0906.1713v1.pdf
+files:
+- hutter-marcusfeature-reinforcement-learning-part-i-unstructured-mdps2009.pdf
+month: Jun
+note: Journal of Artificial General Intelligence, 1 (2009) pages 3-24
+primaryclass: cs.LG
+ref: 0906.1713v1
+time-added: 2020-09-20-08:11:00
+title: 'Feature Reinforcement Learning: Part I: Unstructured MDPs'
+type: article
+url: http://arxiv.org/abs/0906.1713v1
+year: '2009'

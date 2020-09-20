@@ -1,0 +1,47 @@
+abstract: Current deep learning research is dominated by benchmark evaluation. A method
+  is regarded as favorable if it empirically performs well on the dedicated test set.
+  This mentality is seamlessly reflected in the resurfacing area of continual learning,
+  where consecutively arriving sets of benchmark data are investigated. The core challenge
+  is framed as protecting previously acquired representations from being catastrophically
+  forgotten due to the iterative parameter updates. However, comparison of individual
+  methods is nevertheless treated in isolation from real world application and typically
+  judged by monitoring accumulated test set performance. The closed world assumption
+  remains predominant. It is assumed that during deployment a model is guaranteed
+  to encounter data that stems from the same distribution as used for training. This
+  poses a massive challenge as neural networks are well known to provide overconfident
+  false predictions on unknown instances and break down in the face of corrupted data.
+  In this work we argue that notable lessons from open set recognition, the identification
+  of statistically deviating data outside of the observed dataset, and the adjacent
+  field of active learning, where data is incrementally queried such that the expected
+  performance gain is maximized, are frequently overlooked in the deep learning era.
+  Based on these forgotten lessons, we propose a consolidated view to bridge continual
+  learning, active learning and open set recognition in deep neural networks. Our
+  results show that this not only benefits each individual paradigm, but highlights
+  the natural synergies in a common framework. We empirically demonstrate improvements
+  when alleviating catastrophic forgetting, querying data in active learning, selecting
+  task orders, while exhibiting robust open world application where previously proposed
+  methods fail.
+archiveprefix: arXiv
+author: Mundt, Martin and Hong, Yong Won and Pliushch, Iuliia and Ramesh, Visvanathan
+author_list:
+- family: Mundt
+  given: Martin
+- family: Hong
+  given: Yong Won
+- family: Pliushch
+  given: Iuliia
+- family: Ramesh
+  given: Visvanathan
+eprint: 2009.01797v1
+file: 2009.01797v1.pdf
+files:
+- mundt-martin-and-hong-yong-won-and-pliushch-iuliia-and-ramesh-visvanathana-wholistic-view-of-continual-learning-with-deep-neural-networks-forgo.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2009.01797v1
+time-added: 2020-09-07-10:31:30
+title: 'A Wholistic View of Continual Learning with Deep Neural Networks:   Forgotten
+  Lessons and the Bridge to Active and Open World Learning'
+type: article
+url: http://arxiv.org/abs/2009.01797v1
+year: '2020'

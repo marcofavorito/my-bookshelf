@@ -1,0 +1,33 @@
+abstract: 'We introduce Symbolic Alternating Finite Automata (s-AFA) as an expressive,
+  succinct, and decidable model for describing sets of finite sequences over arbitrary
+  alphabets. Boolean operations over s-AFAs have linear complexity, which is in sharp
+  contrast with the quadratic cost of intersection and union for non-alternating symbolic
+  automata. Due to this succinctness, emptiness and equivalence checking are PSpace-hard.   We
+  introduce an algorithm for checking the equivalence of two s-AFAs based on bisimulation
+  up to congruence. This algorithm allows us to exploit the power of SAT and SMT solvers
+  to efficiently search the state space of the s-AFAs. We evaluate our decision procedure
+  on two verification and security applications: 1) checking satisfiability of linear
+  temporal logic formulas over finite traces, and 2) checking equivalence of Boolean
+  combinations of regular expressions. Our experiments show that our technique often
+  outperforms existing techniques and it can be beneficial in both such applications.'
+archiveprefix: arXiv
+author: D'Antoni, Loris and Kincaid, Zachary and Wang, Fang
+author_list:
+- family: D'Antoni
+  given: Loris
+- family: Kincaid
+  given: Zachary
+- family: Wang
+  given: Fang
+eprint: 1610.01722v1
+file: 1610.01722v1.pdf
+files:
+- d-antoni-loris-and-kincaid-zachary-and-wang-fanga-symbolic-decision-procedure-for-symbolic-alternating-finite-automata2016.pdf
+month: Oct
+primaryclass: cs.FL
+ref: 1610.01722v1
+time-added: 2020-08-15-11:40:43
+title: A Symbolic Decision Procedure for Symbolic Alternating Finite Automata
+type: article
+url: http://arxiv.org/abs/1610.01722v1
+year: '2016'

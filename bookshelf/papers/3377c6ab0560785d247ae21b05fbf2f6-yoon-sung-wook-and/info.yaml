@@ -1,0 +1,34 @@
+abstract: We select policies for large Markov Decision Processes (MDPs) with compact
+  first-order representations. We find policies that generalize well as the number
+  of objects in the domain grows, potentially without bound. Existing dynamic-programming
+  approaches based on flat, propositional, or first-order representations either are
+  impractical here or do not naturally scale as the number of objects grows without
+  bound. We implement and evaluate an alternative approach that induces first-order
+  policies using training data constructed by solving small problem instances using
+  PGraphplan (Blum & Langford, 1999). Our policies are represented as ensembles of
+  decision lists, using a taxonomic concept language. This approach extends the work
+  of Martin and Geffner (2000) to stochastic domains, ensemble learning, and a wider
+  variety of problems. Empirically, we find "good" policies for several stochastic
+  first-order MDPs that are beyond the scope of previous approaches. We also discuss
+  the application of this work to the relational reinforcement-learning problem.
+archiveprefix: arXiv
+author: Yoon, Sung Wook and Fern, Alan and Givan, Robert
+author_list:
+- family: Yoon
+  given: Sung Wook
+- family: Fern
+  given: Alan
+- family: Givan
+  given: Robert
+eprint: 1301.0614v1
+file: 1301.0614v1.pdf
+files:
+- yoon-sung-wook-and-fern-alan-and-givan-robertinductive-policy-selection-for-first-order-mdps2012.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 1301.0614v1
+time-added: 2020-09-12-18:20:20
+title: Inductive Policy Selection for First-Order MDPs
+type: article
+url: http://arxiv.org/abs/1301.0614v1
+year: '2012'

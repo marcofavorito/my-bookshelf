@@ -1,0 +1,41 @@
+abstract: 'Many real-world tasks involve multiple agents with partial observability
+  and limited communication. Learning is challenging in these settings due to local
+  viewpoints of agents, which perceive the world as non-stationary due to concurrently-exploring
+  teammates. Approaches that learn specialized policies for individual tasks face
+  problems when applied to the real world: not only do agents have to learn and store
+  distinct policies for each task, but in practice identities of tasks are often non-observable,
+  making these approaches inapplicable. This paper formalizes and addresses the problem
+  of multi-task multi-agent reinforcement learning under partial observability. We
+  introduce a decentralized single-task learning approach that is robust to concurrent
+  interactions of teammates, and present an approach for distilling single-task policies
+  into a unified policy that performs well across multiple related tasks, without
+  explicit provision of task identity.'
+archiveprefix: arXiv
+author: Omidshafiei, Shayegan and Pazis, Jason and Amato, Christopher and How, Jonathan
+  P. and Vian, John
+author_list:
+- family: Omidshafiei
+  given: Shayegan
+- family: Pazis
+  given: Jason
+- family: Amato
+  given: Christopher
+- family: How
+  given: Jonathan P.
+- family: Vian
+  given: John
+eprint: 1703.06182v4
+file: 1703.06182v4.pdf
+files:
+- omidshafiei-shayegan-and-pazis-jason-and-amato-christopher-and-how-jonathan-p.-and-vian-johndeep-decentralized-multi-task-multi-agent-reinforceme.pdf
+month: Mar
+note: Proceedings of the 34th International Conference on Machine   Learning (ICML
+  2017), Sydney, Australia, PMLR 70:2681-2690, 2017
+primaryclass: cs.LG
+ref: 1703.06182v4
+time-added: 2020-09-16-19:52:35
+title: Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under   Partial
+  Observability
+type: article
+url: http://arxiv.org/abs/1703.06182v4
+year: '2017'

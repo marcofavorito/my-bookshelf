@@ -1,0 +1,26 @@
+abstract: We identify a new representation of propositional knowledge bases, the Sentential
+  Decision Diagram (SDD), which is interesting for a number of reasons. First, it
+  is canonical in the presence of additional properties that resemble reduction rules
+  of OBDDs. Second, SDDs can be combined using any Boolean operator in polytime. Third,
+  CNFs with n variables and treewidth w have canonical SDDs of size O(n2w), which
+  is tighter than the bound on OBDDs based on pathwidth. Finally, every OBDD is an
+  SDD. Hence, working with the latter does not preclude the former.
+author: Darwiche, Adnan
+author_list:
+- family: Darwiche
+  given: Adnan
+booktitle: Proceedings of the Twenty-Second International Joint Conference on Artificial
+  Intelligence - Volume Volume Two
+files:
+- darwiche-adnansdd-a-new-canonical-representation-of-propositional-knowledge-bases2011.pdf
+isbn: '9781577355144'
+location: Barcelona, Catalonia, Spain
+numpages: '8'
+pages: 819–826
+publisher: AAAI Press
+ref: 10.5555/2283516.2283536
+series: IJCAI'11
+time-added: 2020-08-19-14:46:24
+title: 'SDD: A New Canonical Representation of Propositional Knowledge Bases'
+type: inproceedings
+year: '2011'

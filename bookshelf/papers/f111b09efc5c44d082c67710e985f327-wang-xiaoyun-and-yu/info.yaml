@@ -1,0 +1,129 @@
+author: Wang, Xiaoyun and Yu, Hongbo
+author_list:
+- affiliation: []
+  family: Wang
+  given: Xiaoyun
+- affiliation: []
+  family: Yu
+  given: Hongbo
+citations:
+- author: E. Biham
+  doi: 10.1007/978-1-4613-9314-6
+  unstructured: 'Biham, E., Shamir, A.: Differential Cryptanalysis of the Data Encryption
+    Standard. Springer, Heidelberg (1993)'
+  volume-title: Differential Cryptanalysis of the Data Encryption Standard
+  year: '1993'
+- author: E. Biham
+  doi: 10.1007/978-3-540-28628-8_18
+  first-page: '290'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Biham, E., Chen, R.: Near collision for SHA-0. In: Franklin, M. (ed.)
+    CRYPTO 2004. LNCS, vol. 3152, pp. 290–305. Springer, Heidelberg (2004)'
+  volume-title: Advances in Cryptology – CRYPTO 2004
+  year: '2004'
+- author: B. Boer den
+  doi: 10.1007/3-540-48285-7_26
+  first-page: '293'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'den Boer, B., Bosselaers, A.: Collisions for the compression function
+    of MD5. In: Helleseth, T. (ed.) EUROCRYPT 1993. LNCS, vol. 765, pp. 293–304. Springer,
+    Heidelberg (1994)'
+  volume-title: Advances in Cryptology - EUROCRYPT ’93
+  year: '1994'
+- author: F. Chabaud
+  doi: 10.1007/BFb0055720
+  first-page: '56'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Chabaud, F., Joux, A.: Differential collisions in SHA-0. In: Krawczyk,
+    H. (ed.) CRYPTO 1998. LNCS, vol. 1462, p. 56. Springer, Heidelberg (1998)'
+  volume-title: Advances in Cryptology - CRYPTO ’98
+  year: '1998'
+- unstructured: 'Cotini, S., Rivest, R.L., Robshaw, M.J.B., Lisa Yin, Y.: Security
+    of the RC6TM Block Cipher, http://www.rsasecurity.com/rsalabs/rc6/'
+- author: I.B. Damgård
+  doi: 10.1007/0-387-34805-0_39
+  first-page: '416'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Damgård, I.B.: A design principle for hash functions. In: Brassard,
+    G. (ed.) CRYPTO 1989. LNCS, vol. 435, pp. 416–427. Springer, Heidelberg (1990)'
+  volume-title: Advances in Cryptology - CRYPTO ’89
+  year: '1990'
+- author: H. Dobbertin
+  doi: 10.1007/3-540-60865-6_43
+  first-page: '53'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Dobbertin, H.: Cryptanalysis of MD4. In: Gollmann, D. (ed.) FSE 1996.
+    LNCS, vol. 1039, pp. 53–69. Springer, Heidelberg (1996)'
+  volume-title: Fast Software Encryption
+  year: '1996'
+- unstructured: 'Dobbertin, H.: Cryptanalysis of MD5 compress. Presented at the rump
+    session of Eurocrypt 1996'
+- unstructured: 'Dobbertin, H.: The status of MD5 after a recent attack. CryptoBytes 2(2)
+    (1996), ftp://ftp.rsasecurity.com/pub/cryptobytes/crypto2n2.pdf'
+- author: H. Dobbertin
+  doi: 10.1007/s001459900019
+  first-page: '51'
+  journal-title: Journal of Cryptology
+  unstructured: 'Dobbertin, H.: RIPEMD with two round compress function is not collision-free.
+    Journal of Cryptology 10, 51–69 (1997)'
+  volume: '10'
+  year: '1997'
+- author: H. Dobbertin
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Dobbertin, H., Bosselaers, A., Preneel, B.: RIPEMD-160: A strengthened
+    version of RIPEMD. In: Gollmann, D. (ed.) FSE 1996. LNCS, vol. 1039. Springer,
+    Heidelberg (1996)'
+  volume-title: Fast Software Encryption
+  year: '1996'
+- unstructured: FIPS 180-1. Secure hash standard, NIST, Washington D.C. US Department
+    of Commerce. Springer, Heidelberg (1996)
+- unstructured: FIPS 180-2. Secure Hash Standard (2002), http://csrc.nist.gov/publications/
+- unstructured: 'Joux, A.: Collisions for SHA-0. Rump session of Crypto 2004 (2004)'
+- series-title: Lecture Notes in Computer Science
+  unstructured: 'Bosselaers, A., Preneel, B. (eds.): RIPE 1992. LNCS, vol. 1007. Springer,
+    Heidelberg (1995)'
+  volume-title: Integrity Primitives for Secure Information Systems
+  year: '1995'
+- author: R.C. Merkle
+  doi: 10.1007/0-387-34805-0_40
+  first-page: '428'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Merkle, R.C.: One way hash function and DES. In: Brassard, G. (ed.)
+    CRYPTO 1989. LNCS, vol. 435, pp. 428–446. Springer, Heidelberg (1990)'
+  volume-title: Advances in Cryptology - CRYPTO ’89
+  year: '1990'
+- author: R.L. Rivest
+  doi: 10.1007/3-540-38424-3_22
+  first-page: '303'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Rivest, R.L.: The MD4 message digest algorithm. In: Menezes, A.,
+    Vanstone, S.A. (eds.) CRYPTO 1990. LNCS, vol. 537, pp. 303–311. Springer, Heidelberg
+    (1991)'
+  volume-title: Advances in Cryptology - CRYPTO ’90
+  year: '1991'
+- doi: 10.17487/rfc1321
+  unstructured: 'Rivest, R.L.: The MD5 message-digest algorithm, Request for Comments
+    (RFC 1320), Internet Activities Board, Internet Privacy Task Force (1992)'
+- unstructured: 'Wang, X.Y., Guo, F.D., Lai, X.J., Yu, H.B.: Collisions for hash functions
+    MD4, MD5, HAVAL-128 and RIPEMD. Rump session of Crypto 2004, E-print (2004)'
+- author: Y.L. Zheng
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Zheng, Y.L., Pieprzyk, J., Seberry, J.: HAVAL–A one-way hashing algorithm
+    with variable length of output. In: Zheng, Y., Seberry, J. (eds.) AUSCRYPT 1992.
+    LNCS, vol. 718. Springer, Heidelberg (1993)'
+  volume-title: Advances in Cryptology - AUSCRYPT ’92
+  year: '1993'
+doi: 10.1007/11426639_2
+files:
+- wang-xiaoyun-and-yu-hongbohow-to-break-md5-and-other-hash-functions2005.pdf
+isbn:
+- '9783540259107'
+- '9783540320555'
+journal: Lecture Notes in Computer Science
+pages: 19--35
+publisher: Springer Berlin Heidelberg
+time-added: 2020-09-19-09:50:17
+title: How to Break MD5 and Other Hash Functions
+type: inbook
+url: http://dx.doi.org/10.1007/11426639_2
+year: 2005

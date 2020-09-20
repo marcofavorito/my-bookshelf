@@ -1,0 +1,40 @@
+abstract: The powerset construction is a standard method for converting a nondeterministic
+  automaton into a deterministic one recognizing the same language. In this paper,
+  we lift the powerset construction from automata to the more general framework of
+  coalgebras with structured state spaces. Coalgebra is an abstract framework for
+  the uniform study of different kinds of dynamical systems. An endofunctor F determines
+  both the type of systems (F-coalgebras) and a notion of behavioural equivalence
+  (~_F) amongst them. Many types of transition systems and their equivalences can
+  be captured by a functor F. For example, for deterministic automata the derived
+  equivalence is language equivalence, while for non-deterministic automata it is
+  ordinary bisimilarity. We give several examples of applications of our generalized
+  determinization construction, including partial Mealy machines, (structured) Moore
+  automata, Rabin probabilistic automata, and, somewhat surprisingly, even pushdown
+  automata. To further witness the generality of the approach we show how to characterize
+  coalgebraically several equivalences which have been object of interest in the concurrency
+  community, such as failure or ready semantics.
+archiveprefix: arXiv
+author: Silva, Alexandra and Bonchi, Filippo and Bonsangue, Marcello and Rutten, Jan
+author_list:
+- family: Silva
+  given: Alexandra
+- family: Bonchi
+  given: Filippo
+- family: Bonsangue
+  given: Marcello
+- family: Rutten
+  given: Jan
+doi: 10.2168/LMCS-9(1:9)2013
+eprint: 1302.1046v2
+file: 1302.1046v2.pdf
+files:
+- silva-alexandra-and-bonchi-filippo-and-bonsangue-marcello-and-rutten-jangeneralizing-determinization-from-automata-to-coalgebras2013.pdf
+month: Feb
+note: Logical Methods in Computer Science, Volume 9, Issue 1 (March 4,   2013) lmcs:1087
+primaryclass: cs.LO
+ref: 1302.1046v2
+time-added: 2020-08-13-21:31:48
+title: Generalizing determinization from automata to coalgebras
+type: article
+url: http://arxiv.org/abs/1302.1046v2
+year: '2013'
