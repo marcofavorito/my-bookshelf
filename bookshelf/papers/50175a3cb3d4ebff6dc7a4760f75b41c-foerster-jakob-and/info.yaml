@@ -1,0 +1,43 @@
+abstract: 'Many real-world problems, such as network packet routing and urban traffic
+  control, are naturally modeled as multi-agent reinforcement learning (RL) problems.
+  However, existing multi-agent RL methods typically scale poorly in the problem size.
+  Therefore, a key challenge is to translate the success of deep learning on single-agent
+  RL to the multi-agent setting. A major stumbling block is that independent Q-learning,
+  the most popular multi-agent RL method, introduces nonstationarity that makes it
+  incompatible with the experience replay memory on which deep Q-learning relies.
+  This paper proposes two methods that address this problem: 1) using a multi-agent
+  variant of importance sampling to naturally decay obsolete data and 2) conditioning
+  each agent''s value function on a fingerprint that disambiguates the age of the
+  data sampled from the replay memory. Results on a challenging decentralised variant
+  of StarCraft unit micromanagement confirm that these methods enable the successful
+  combination of experience replay with multi-agent RL.'
+archiveprefix: arXiv
+author: Foerster, Jakob and Nardelli, Nantas and Farquhar, Gregory and Afouras, Triantafyllos
+  and Torr, Philip H. S. and Kohli, Pushmeet and Whiteson, Shimon
+author_list:
+- family: Foerster
+  given: Jakob
+- family: Nardelli
+  given: Nantas
+- family: Farquhar
+  given: Gregory
+- family: Afouras
+  given: Triantafyllos
+- family: Torr
+  given: Philip H. S.
+- family: Kohli
+  given: Pushmeet
+- family: Whiteson
+  given: Shimon
+eprint: 1702.08887v3
+file: 1702.08887v3.pdf
+files:
+- foerster-jakob-and-nardelli-nantas-and-farquhar-gregory-and-afouras-triantafyllos-and-torr-philip-h.-s.-and-kohli-pushmeet-and-whiteson-shimons.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1702.08887v3
+time-added: 2020-09-25-12:30:43
+title: Stabilising Experience Replay for Deep Multi-Agent Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/1702.08887v3
+year: '2017'

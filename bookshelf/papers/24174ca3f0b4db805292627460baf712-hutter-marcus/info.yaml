@@ -1,0 +1,69 @@
+abstract: 'Decision theory formally solves the problem of rational agents in
+
+  uncertain worlds if the true environmental probability
+
+  distribution is known. Solomonoff''s theory of universal induction
+
+  formally solves the problem of sequence prediction for unknown
+
+  distribution. We unify both theories and give strong arguments
+
+  that the resulting universal AIXI model behaves optimal in any
+
+  computable environment. The major drawback of the AIXI model is
+
+  that it is uncomputable. To overcome this problem, we construct a
+
+  modified algorithm AIXI^tl, which is still superior to any
+
+  other time t and space l bounded agent. The computation time
+
+  of AIXI^tl is of the order t x 2^l.'
+address: Manno(Lugano), CH
+author: Hutter, Marcus
+author_list:
+- family: Hutter
+  given: Marcus
+categories: 'I.2.   [Artificial Intelligence],
+
+  I.2.3. [Deduction and Theorem Proving],
+
+  I.2.6. [Learning],
+
+  I.2.8. [Problem Solving, Control Methods and Search],
+
+  F.1.3. [Complexity Classes],
+
+  F.2.   [Analysis of Algorithms and Problem Complexity]'
+editor: Luc De Raedt and Peter Flach
+files:
+- hutter-marcustowards-a-universal-theory-of-artificial-intelligence-based-on-algorithmic-probability-and-sequential-decisions2001.pdf
+ftp: ftp://ftp.idsia.ch/pub/techrep/IDSIA-14-00.ps.gz
+institution: Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA)
+journal: 'Proceedings of the 12$^{th}$ European Conference on
+
+  Machine Learning (ECML-2001)'
+keywords: 'Artificial intelligence, Rational agents,
+
+  sequential decision theory, universal Solomonoff induction,
+
+  algorithmic probability, reinforcement learning, computational
+
+  complexity, theorem proving, probabilistic reasoning, Kolmogorov
+
+  complexity, Levin search.'
+month: September
+note: ftp.idsia.ch/pub/techrep/IDSIA-14-00.ps.gz
+number: IDSIA-14-00
+pages: 226--238
+publisher: Springer
+ref: Hutter:01aixi
+series: Lecture Notes in Artificial Intelligence (LNAI 2167)
+time-added: 2020-09-27-17:23:12
+title: 'Towards a Universal Theory of Artificial Intelligence based on Algorithmic
+
+  Probability and Sequential Decisions'
+type: article
+url: http://www.hutter1.net/ai/paixi.htm
+url2: http://arxiv.org/abs/cs.AI/0012011
+year: '2001'

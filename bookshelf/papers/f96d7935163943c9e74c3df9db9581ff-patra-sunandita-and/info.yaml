@@ -1,0 +1,37 @@
+abstract: 'We present new planning and learning algorithms for RAE, the Refinement
+  Acting Engine. RAE uses hierarchical operational models to perform tasks in dynamically
+  changing environments. Our planning procedure, UPOM, does a UCT-like search in the
+  space of operational models in order to find a near-optimal method to use for the
+  task and context at hand. Our learning strategies acquire, from online acting experiences
+  and/or simulated planning results, a mapping from decision contexts to method instances
+  as well as a heuristic function to guide UPOM. Our experimental results show that
+  UPOM and our learning strategies significantly improve RAE''s performance in four
+  test domains using two different metrics: efficiency and success ratio.'
+archiveprefix: arXiv
+author: Patra, Sunandita and Mason, James and Kumar, Amit and Ghallab, Malik and Traverso,
+  Paolo and Nau, Dana
+author_list:
+- family: Patra
+  given: Sunandita
+- family: Mason
+  given: James
+- family: Kumar
+  given: Amit
+- family: Ghallab
+  given: Malik
+- family: Traverso
+  given: Paolo
+- family: Nau
+  given: Dana
+eprint: 2003.03932v1
+file: 2003.03932v1.pdf
+files:
+- patra-sunandita-and-mason-james-and-kumar-amit-and-ghallab-malik-and-traverso-paolo-and-nau-danaintegrating-acting-planning-and-learning-in-hie.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2003.03932v1
+time-added: 2020-10-01-13:23:26
+title: Integrating Acting, Planning and Learning in Hierarchical Operational   Models
+type: article
+url: http://arxiv.org/abs/2003.03932v1
+year: '2020'

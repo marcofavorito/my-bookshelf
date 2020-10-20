@@ -1,0 +1,41 @@
+abstract: TD(lambda) is a core algorithm of modern reinforcement learning. Its appeal
+  comes from its equivalence to a clear and conceptually simple forward view, and
+  the fact that it can be implemented online in an inexpensive manner. However, the
+  equivalence between TD(lambda) and the forward view is exact only for the off-line
+  version of the algorithm (in which updates are made only at the end of each episode).
+  In the online version of TD(lambda) (in which updates are made at each step, which
+  generally performs better and is always used in applications) the match to the forward
+  view is only approximate. In a sense this is unavoidable for the conventional forward
+  view, as it itself presumes that the estimates are unchanging during an episode.
+  In this paper we introduce a new forward view that takes into account the possibility
+  of changing estimates and a new variant of TD(lambda) that exactly achieves it.
+  Our algorithm uses a new form of eligibility trace similar to but different from
+  conventional accumulating and replacing traces. The overall computational complexity
+  is the same as TD(lambda), even when using function approximation. In our empirical
+  comparisons, our algorithm outperformed TD(lambda) in all of its variations. It
+  seems, by adhering more truly to the original goal of TD(lambda)—matching an intuitively
+  clear forward view even in the online case—that we have found a new algorithm that
+  simply improves on classical TD(lambda).
+address: Bejing, China
+author: Seijen, Harm and Sutton, Rich
+author_list:
+- family: Seijen
+  given: Harm
+- family: Sutton
+  given: Rich
+editor: Eric P. Xing and Tony Jebara
+files:
+- seijen-harm-and-sutton-richtrue-online-td-lambda-2014.pdf
+month: 22--24 Jun
+number: '1'
+pages: 692--700
+pdf: http://proceedings.mlr.press/v32/seijen14.pdf
+publisher: PMLR
+ref: pmlr-v32-seijen14
+series: Proceedings of Machine Learning Research
+time-added: 2020-10-10-17:42:39
+title: True Online TD(lambda)
+type: inproceedings
+url: http://proceedings.mlr.press/v32/seijen14.html
+volume: '32'
+year: '2014'

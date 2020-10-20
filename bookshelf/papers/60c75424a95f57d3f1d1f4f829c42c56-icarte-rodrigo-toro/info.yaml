@@ -1,0 +1,43 @@
+abstract: 'Reinforcement Learning (RL) agents typically learn memoryless policies---policies
+  that only consider the last observation when selecting actions. Learning memoryless
+  policies is efficient and optimal in fully observable environments. However, some
+  form of memory is necessary when RL agents are faced with partial observability.
+  In this paper, we study a lightweight approach to tackle partial observability in
+  RL. We provide the agent with an external memory and additional actions to control
+  what, if anything, is written to the memory. At every step, the current memory state
+  is part of the agent''s observation, and the agent selects a tuple of actions: one
+  action that modifies the environment and another that modifies the memory. When
+  the external memory is sufficiently expressive, optimal memoryless policies yield
+  globally optimal solutions. Unfortunately, previous attempts to use external memory
+  in the form of binary memory have produced poor results in practice. Here, we investigate
+  alternative forms of memory in support of learning effective memoryless policies.
+  Our novel forms of memory outperform binary and LSTM-based memory in well-established
+  partially observable domains.'
+archiveprefix: arXiv
+author: Icarte, Rodrigo Toro and Valenzano, Richard and Klassen, Toryn Q. and Christoffersen,
+  Phillip and Farahmand, Amir-massoud and McIlraith, Sheila A.
+author_list:
+- family: Icarte
+  given: Rodrigo Toro
+- family: Valenzano
+  given: Richard
+- family: Klassen
+  given: Toryn Q.
+- family: Christoffersen
+  given: Phillip
+- family: Farahmand
+  given: Amir-massoud
+- family: McIlraith
+  given: Sheila A.
+eprint: 2010.01753v1
+file: 2010.01753v1.pdf
+files:
+- icarte-rodrigo-toro-and-valenzano-richard-and-klassen-toryn-q.-and-christoffersen-phillip-and-farahmand-amir-massoud-and-mcilraith-sheila-a.the.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2010.01753v1
+time-added: 2020-10-10-17:57:33
+title: 'The act of remembering: a study in partially observable reinforcement   learning'
+type: article
+url: http://arxiv.org/abs/2010.01753v1
+year: '2020'

@@ -1,0 +1,33 @@
+abstract: Modeling dynamical systems, both for control purposes and to make predictions
+  about their behavior, is ubiquitous in science and engineering. Predictive state
+  representations (PSRs) are a recently introduced class of models for discrete-time
+  dynamical systems. The key idea behind PSRs and the closely related OOMs (Jaeger's
+  observable operator models) is to represent the state of the system as a set of
+  predictions of observable outcomes of experiments one can do in the system. This
+  makes PSRs rather different from history-based models such as nth-order Markov models
+  and hidden-state-based models such as HMMs and POMDPs. We introduce an interesting
+  construct, the systemdynamics matrix, and show how PSRs can be derived simply from
+  it. We also use this construct to show formally that PSRs are more general than
+  both nth-order Markov models and HMMs/POMDPs. Finally, we discuss the main difference
+  between PSRs and OOMs and conclude with directions for future work.
+archiveprefix: arXiv
+author: Singh, Satinder and James, Michael and Rudary, Matthew
+author_list:
+- family: Singh
+  given: Satinder
+- family: James
+  given: Michael
+- family: Rudary
+  given: Matthew
+eprint: 1207.4167v1
+file: 1207.4167v1.pdf
+files:
+- singh-satinder-and-james-michael-and-rudary-matthewpredictive-state-representations-a-new-theory-for-modeling-dynamical-systems2012.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 1207.4167v1
+time-added: 2020-10-07-19:33:36
+title: 'Predictive State Representations: A New Theory for Modeling Dynamical   Systems'
+type: article
+url: http://arxiv.org/abs/1207.4167v1
+year: '2012'

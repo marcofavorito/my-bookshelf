@@ -1,0 +1,52 @@
+abstract: Meta-reinforcement learning algorithms can enable robots to acquire new
+  skills much more quickly, by leveraging prior experience to learn how to learn.
+  However, much of the current research on meta-reinforcement learning focuses on
+  task distributions that are very narrow. For example, a commonly used meta-reinforcement
+  learning benchmark uses different running velocities for a simulated robot as different
+  tasks. When policies are meta-trained on such narrow task distributions, they cannot
+  possibly generalize to more quickly acquire entirely new tasks. Therefore, if the
+  aim of these methods is to enable faster acquisition of entirely new behaviors,
+  we must evaluate them on task distributions that are sufficiently broad to enable
+  generalization to new behaviors. In this paper, we propose an open-source simulated
+  benchmark for meta-reinforcement learning and multi-task learning consisting of
+  50 distinct robotic manipulation tasks. Our aim is to make it possible to develop
+  algorithms that generalize to accelerate the acquisition of entirely new, held-out
+  tasks. We evaluate 6 state-of-the-art meta-reinforcement learning and multi-task
+  learning algorithms on these tasks. Surprisingly, while each task and its variations
+  (e.g., with different object positions) can be learned with reasonable success,
+  these algorithms struggle to learn with multiple tasks at the same time, even with
+  as few as ten distinct training tasks. Our analysis and open-source environments
+  pave the way for future research in multi-task learning and meta-learning that can
+  enable meaningful generalization, thereby unlocking the full potential of these
+  methods.
+archiveprefix: arXiv
+author: Yu, Tianhe and Quillen, Deirdre and He, Zhanpeng and Julian, Ryan and Hausman,
+  Karol and Finn, Chelsea and Levine, Sergey
+author_list:
+- family: Yu
+  given: Tianhe
+- family: Quillen
+  given: Deirdre
+- family: He
+  given: Zhanpeng
+- family: Julian
+  given: Ryan
+- family: Hausman
+  given: Karol
+- family: Finn
+  given: Chelsea
+- family: Levine
+  given: Sergey
+eprint: 1910.10897v1
+file: 1910.10897v1.pdf
+files:
+- yu-tianhe-and-quillen-deirdre-and-he-zhanpeng-and-julian-ryan-and-hausman-karol-and-finn-chelsea-and-levine-sergeymeta-world-a-benchmark-and-e.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1910.10897v1
+time-added: 2020-10-17-14:16:12
+title: 'Meta-World: A Benchmark and Evaluation for Multi-Task and Meta   Reinforcement
+  Learning'
+type: article
+url: http://arxiv.org/abs/1910.10897v1
+year: '2019'

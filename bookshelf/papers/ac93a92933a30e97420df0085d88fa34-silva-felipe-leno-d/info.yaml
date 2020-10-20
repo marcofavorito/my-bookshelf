@@ -1,0 +1,46 @@
+abstract: '<jats:p>&#x0D;
+
+  &#x0D;
+
+  &#x0D;
+
+  Multiagent Reinforcement Learning (RL) solves complex tasks that require coordination
+  with other agents through autonomous exploration of the environment. However, learning
+  a complex task from scratch is impractical due to the huge sample complexity of
+  RL algorithms. For this reason, reusing knowledge that can come from previous experience
+  or other agents is indispensable to scale up multiagent RL algorithms. This survey
+  provides a unifying view of the literature on knowledge reuse in multiagent RL.
+  We define a taxonomy of solutions for the general knowledge reuse problem, providing
+  a comprehensive discussion of recent progress on knowledge reuse in Multiagent Systems
+  (MAS) and of techniques for knowledge reuse across agents (that may be actuating
+  in a shared environment or not). We aim at encouraging the community to work towards
+  reusing all the knowledge sources available in a MAS. For that, we provide an in-depth
+  discussion of current lines of research and open questions.&#x0D;
+
+  &#x0D;
+
+  &#x0D;
+
+  </jats:p>'
+author: Silva, Felipe Leno Da and Costa, Anna Helena Reali
+author_list:
+- affiliation: []
+  family: Silva
+  given: Felipe Leno Da
+- affiliation: []
+  family: Costa
+  given: Anna Helena Reali
+doc_url: https://jair.org/index.php/jair/article/download/11396/26482
+doi: 10.1613/jair.1.11396
+files:
+- silva-felipe-leno-da-and-costa-anna-helena-realia-survey-on-transfer-learning-for-multiagent-reinforcement-learning-systems2019.pdf
+journal: Journal of Artificial Intelligence Research
+month: 3
+pages: 645--703
+publisher: AI Access Foundation
+time-added: 2020-09-28-23:34:01
+title: A Survey on Transfer Learning for Multiagent Reinforcement Learning Systems
+type: article
+url: http://dx.doi.org/10.1613/jair.1.11396
+volume: '64'
+year: 2019

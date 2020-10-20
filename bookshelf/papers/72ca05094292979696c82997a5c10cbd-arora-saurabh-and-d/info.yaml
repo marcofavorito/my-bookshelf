@@ -1,0 +1,32 @@
+abstract: 'Inverse reinforcement learning is the problem of inferring the reward function
+  of an observed agent, given its policy or behavior. Researchers perceive IRL both
+  as a problem and as a class of methods. By categorically surveying the current literature
+  in IRL, this article serves as a reference for researchers and practitioners in
+  machine learning to understand the challenges of IRL and select the approaches best
+  suited for the problem on hand. The survey formally introduces the IRL problem along
+  with its central challenges which include accurate inference, generalizability,
+  correctness of prior knowledge, and growth in solution complexity with problem size.
+  The article elaborates how the current methods mitigate these challenges. We further
+  discuss the extensions of traditional IRL methods: (i) inaccurate and incomplete
+  perception, (ii) incomplete model, (iii) multiple rewards, and (iv) non-linear reward
+  functions. This discussion concludes with some broad advances in the research area
+  and currently open research questions.'
+archiveprefix: arXiv
+author: Arora, Saurabh and Doshi, Prashant
+author_list:
+- family: Arora
+  given: Saurabh
+- family: Doshi
+  given: Prashant
+eprint: 1806.06877v2
+file: 1806.06877v2.pdf
+files:
+- arora-saurabh-and-doshi-prashanta-survey-of-inverse-reinforcement-learning-challenges-methods-and-progress2018.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1806.06877v2
+time-added: 2020-10-14-17:35:48
+title: 'A Survey of Inverse Reinforcement Learning: Challenges, Methods and   Progress'
+type: article
+url: http://arxiv.org/abs/1806.06877v2
+year: '2018'

@@ -1,0 +1,42 @@
+abstract: 'We present a challenging new benchmark and learning-environment for robot
+  learning: RLBench. The benchmark features 100 completely unique, hand-designed tasks
+  ranging in difficulty, from simple target reaching and door opening, to longer multi-stage
+  tasks, such as opening an oven and placing a tray in it. We provide an array of
+  both proprioceptive observations and visual observations, which include rgb, depth,
+  and segmentation masks from an over-the-shoulder stereo camera and an eye-in-hand
+  monocular camera. Uniquely, each task comes with an infinite supply of demos through
+  the use of motion planners operating on a series of waypoints given during task
+  creation time; enabling an exciting flurry of demonstration-based learning. RLBench
+  has been designed with scalability in mind; new tasks, along with their motion-planned
+  demos, can be easily created and then verified by a series of tools, allowing users
+  to submit their own tasks to the RLBench task repository. This large-scale benchmark
+  aims to accelerate progress in a number of vision-guided manipulation research areas,
+  including: reinforcement learning, imitation learning, multi-task learning, geometric
+  computer vision, and in particular, few-shot learning. With the benchmark''s breadth
+  of tasks and demonstrations, we propose the first large-scale few-shot challenge
+  in robotics. We hope that the scale and diversity of RLBench offers unparalleled
+  research opportunities in the robot learning community and beyond.'
+archiveprefix: arXiv
+author: James, Stephen and Ma, Zicong and Arrojo, David Rovick and Davison, Andrew
+  J.
+author_list:
+- family: James
+  given: Stephen
+- family: Ma
+  given: Zicong
+- family: Arrojo
+  given: David Rovick
+- family: Davison
+  given: Andrew J.
+eprint: 1909.12271v1
+file: 1909.12271v1.pdf
+files:
+- james-stephen-and-ma-zicong-and-arrojo-david-rovick-and-davison-andrew-j.rlbench-the-robot-learning-benchmark-learning-environment2019.pdf
+month: Sep
+primaryclass: cs.RO
+ref: 1909.12271v1
+time-added: 2020-10-17-14:15:44
+title: 'RLBench: The Robot Learning Benchmark & Learning Environment'
+type: article
+url: http://arxiv.org/abs/1909.12271v1
+year: '2019'

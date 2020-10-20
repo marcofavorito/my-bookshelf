@@ -1,0 +1,32 @@
+abstract: In this paper, we theoretically prove that gradient descent can find a global
+  minimum of non-convex optimization of all layers for nonlinear deep neural networks
+  of sizes commonly encountered in practice. The theory developed in this paper only
+  requires the practical degrees of over-parameterization unlike previous theories.
+  Our theory only requires the number of trainable parameters to increase linearly
+  as the number of training samples increases. This allows the size of the deep neural
+  networks to be consistent with practice and to be several orders of magnitude smaller
+  than that required by the previous theories. Moreover, we prove that the linear
+  increase of the size of the network is the optimal rate and that it cannot be improved,
+  except by a logarithmic factor. Furthermore, deep neural networks with the trainability
+  guarantee are shown to generalize well to unseen test samples with a natural dataset
+  but not a random dataset.
+archiveprefix: arXiv
+author: Kawaguchi, Kenji and Huang, Jiaoyang
+author_list:
+- family: Kawaguchi
+  given: Kenji
+- family: Huang
+  given: Jiaoyang
+eprint: 1908.02419v3
+file: 1908.02419v3.pdf
+files:
+- kawaguchi-kenji-and-huang-jiaoyanggradient-descent-finds-global-minima-for-generalizable-deep-neural-networks-of-practical-sizes2019.pdf
+month: Aug
+primaryclass: stat.ML
+ref: 1908.02419v3
+time-added: 2020-09-21-18:08:32
+title: Gradient Descent Finds Global Minima for Generalizable Deep Neural   Networks
+  of Practical Sizes
+type: article
+url: http://arxiv.org/abs/1908.02419v3
+year: '2019'

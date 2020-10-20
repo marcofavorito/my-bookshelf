@@ -1,0 +1,39 @@
+abstract: Over the past decade there has been considerable interest in spectral algorithms
+  for learning Predictive State Representations (PSRs). Spectral algorithms have appealing
+  theoretical guarantees; however, the resulting models do not always perform well
+  on inference tasks in practice. One reason for this behavior is the mismatch between
+  the intended task (accurate filtering or prediction) and the loss function being
+  optimized by the algorithm (estimation error in model parameters).   A natural idea
+  is to improve performance by refining PSRs using an algorithm such as EM. Unfortunately
+  it is not obvious how to apply apply an EM style algorithm in the context of PSRs
+  as the Log Likelihood is not well defined for all PSRs. We show that it is possible
+  to overcome this problem using ideas from Predictive State Inference Machines.   We
+  combine spectral algorithms for PSRs as a consistent and efficient initialization
+  with PSIM-style updates to refine the resulting model parameters. By combining these
+  two ideas we develop Inference Gradients, a simple, fast, and robust method for
+  practical learning of PSRs. Inference Gradients performs gradient descent in the
+  PSR parameter space to optimize an inference-based loss function like PSIM. Because
+  Inference Gradients uses a spectral initialization we get the same consistency benefits
+  as PSRs. We show that Inference Gradients outperforms both PSRs and PSIMs on real
+  and synthetic data sets.
+archiveprefix: arXiv
+author: Downey, Carlton and Hefny, Ahmed and Gordon, Geoffrey
+author_list:
+- family: Downey
+  given: Carlton
+- family: Hefny
+  given: Ahmed
+- family: Gordon
+  given: Geoffrey
+eprint: 1702.04121v1
+file: 1702.04121v1.pdf
+files:
+- downey-carlton-and-hefny-ahmed-and-gordon-geoffreypractical-learning-of-predictive-state-representations2017.pdf
+month: Feb
+primaryclass: stat.ML
+ref: 1702.04121v1
+time-added: 2020-10-07-19:53:34
+title: Practical Learning of Predictive State Representations
+type: article
+url: http://arxiv.org/abs/1702.04121v1
+year: '2017'

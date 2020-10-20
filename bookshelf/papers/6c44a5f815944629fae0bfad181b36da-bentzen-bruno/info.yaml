@@ -1,0 +1,26 @@
+abstract: This paper presents a recent formalization of a Henkin-style completeness
+  proof for the propositional modal logic S5 using the Lean theorem prover. The proof
+  formalized is close to that of Hughes and Cresswell [9], except that it is given
+  for a system based on a different choice of axioms. Here the proof is based on a
+  Hilbert-style presentation better described as a Mendelson system augmented with
+  axiom schemes for K, T, S4, and B, and the necessitation rule as rule of inference.
+  The language has the false and implication as the only primitive logical connectives
+  and necessity as the only primitive modal operator. The full source code is available
+  online and has been typechecked with Lean 3.4.1.
+archiveprefix: arXiv
+author: Bentzen, Bruno
+author_list:
+- family: Bentzen
+  given: Bruno
+eprint: 1910.01697v1
+file: 1910.01697v1.pdf
+files:
+- bentzen-brunoa-henkin-style-completeness-proof-for-the-modal-logic-s52019.pdf
+month: Oct
+primaryclass: cs.LO
+ref: 1910.01697v1
+time-added: 2020-10-18-15:21:40
+title: A Henkin-style completeness proof for the modal logic S5
+type: article
+url: http://arxiv.org/abs/1910.01697v1
+year: '2019'

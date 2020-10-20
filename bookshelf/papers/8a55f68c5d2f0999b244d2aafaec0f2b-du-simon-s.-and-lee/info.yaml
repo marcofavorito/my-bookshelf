@@ -1,0 +1,35 @@
+abstract: Gradient descent finds a global minimum in training deep neural networks
+  despite the objective function being non-convex. The current paper proves gradient
+  descent achieves zero training loss in polynomial time for a deep over-parameterized
+  neural network with residual connections (ResNet). Our analysis relies on the particular
+  structure of the Gram matrix induced by the neural network architecture. This structure
+  allows us to show the Gram matrix is stable throughout the training process and
+  this stability implies the global optimality of the gradient descent algorithm.
+  We further extend our analysis to deep residual convolutional neural networks and
+  obtain a similar convergence result.
+archiveprefix: arXiv
+author: Du, Simon S. and Lee, Jason D. and Li, Haochuan and Wang, Liwei and Zhai,
+  Xiyu
+author_list:
+- family: Du
+  given: Simon S.
+- family: Lee
+  given: Jason D.
+- family: Li
+  given: Haochuan
+- family: Wang
+  given: Liwei
+- family: Zhai
+  given: Xiyu
+eprint: 1811.03804v4
+file: 1811.03804v4.pdf
+files:
+- du-simon-s.-and-lee-jason-d.-and-li-haochuan-and-wang-liwei-and-zhai-xiyugradient-descent-finds-global-minima-of-deep-neural-networks2018.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1811.03804v4
+time-added: 2020-09-21-18:08:24
+title: Gradient Descent Finds Global Minima of Deep Neural Networks
+type: article
+url: http://arxiv.org/abs/1811.03804v4
+year: '2018'

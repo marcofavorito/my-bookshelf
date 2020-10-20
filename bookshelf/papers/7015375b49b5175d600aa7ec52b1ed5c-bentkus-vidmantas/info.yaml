@@ -1,0 +1,36 @@
+abstract: In a celebrated work by Hoeffding [J. Amer. Statist. Assoc. 58 (1963) 13-30],
+  several inequalities for tail probabilities of sums M_n=X_1+... +X_n of bounded
+  independent random variables X_j were proved. These inequalities had a considerable
+  impact on the development of probability and statistics, and remained unimproved
+  until 1995 when Talagrand [Inst. Hautes Etudes Sci. Publ. Math. 81 (1995a) 73-205]
+  inserted certain missing factors in the bounds of two theorems. By similar factors,
+  a third theorem was refined by Pinelis [Progress in Probability 43 (1998) 257-314]
+  and refined (and extended) by me. In this article, I introduce a new type of inequality.   Namely,
+  I show that P{M_n\geq x}\leq cP{S_n\geq x}, where c is an absolute constant and
+  S_n=\epsilon_1+... +\epsilon_n is a sum of independent identically distributed Bernoulli
+  random variables (a random variable is called Bernoulli if it assumes at most two
+  values). The inequality holds for those x\in R where the survival function x\mapsto
+  P{S_n\geq x} has a jump down. For the remaining x the inequality still holds provided
+  that the function between the adjacent jump points is interpolated linearly or \log-linearly.
+  If it is necessary, to estimate P{S_n\geq x} special bounds can be used for binomial
+  probabilities. The results extend to martingales with bounded differences. It is
+  apparent that Theorem 1.1 of this article is the most important.
+archiveprefix: arXiv
+author: Bentkus, Vidmantas
+author_list:
+- family: Bentkus
+  given: Vidmantas
+doi: 10.1214/009117904000000360
+eprint: math/0410159v1
+file: math/0410159v1.pdf
+files:
+- bentkus-vidmantason-hoeffding-s-inequalities2004.pdf
+month: Oct
+note: Annals of Probability 2004, Vol. 32, No. 2, 1650-1673
+primaryclass: math.PR
+ref: math/0410159v1
+time-added: 2020-10-03-23:50:49
+title: On Hoeffding's inequalities
+type: article
+url: http://arxiv.org/abs/math/0410159v1
+year: '2004'

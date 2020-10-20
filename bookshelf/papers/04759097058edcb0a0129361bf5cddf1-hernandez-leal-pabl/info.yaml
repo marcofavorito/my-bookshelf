@@ -1,0 +1,41 @@
+abstract: 'The key challenge in multiagent learning is learning a best response to
+  the behaviour of other agents, which may be non-stationary: if the other agents
+  adapt their strategy as well, the learning target moves. Disparate streams of research
+  have approached non-stationarity from several angles, which make a variety of implicit
+  assumptions that make it hard to keep an overview of the state of the art and to
+  validate the innovation and significance of new works. This survey presents a coherent
+  overview of work that addresses opponent-induced non-stationarity with tools from
+  game theory, reinforcement learning and multi-armed bandits. Further, we reflect
+  on the principle approaches how algorithms model and cope with this non-stationarity,
+  arriving at a new framework and five categories (in increasing order of sophistication):
+  ignore, forget, respond to target models, learn models, and theory of mind. A wide
+  range of state-of-the-art algorithms is classified into a taxonomy, using these
+  categories and key characteristics of the environment (e.g., observability) and
+  adaptation behaviour of the opponents (e.g., smooth, abrupt). To clarify even further
+  we present illustrative variations of one domain, contrasting the strengths and
+  limitations of each category. Finally, we discuss in which environments the different
+  approaches yield most merit, and point to promising avenues of future research.'
+archiveprefix: arXiv
+author: Hernandez-Leal, Pablo and Kaisers, Michael and Baarslag, Tim and de Cote,
+  Enrique Munoz
+author_list:
+- family: Hernandez-Leal
+  given: Pablo
+- family: Kaisers
+  given: Michael
+- family: Baarslag
+  given: Tim
+- family: de Cote
+  given: Enrique Munoz
+eprint: 1707.09183v2
+file: 1707.09183v2.pdf
+files:
+- hernandez-leal-pablo-and-kaisers-michael-and-baarslag-tim-and-de-cote-enrique-munoza-survey-of-learning-in-multiagent-environments-dealing-with.pdf
+month: Jul
+primaryclass: cs.MA
+ref: 1707.09183v2
+time-added: 2020-10-11-16:24:56
+title: 'A Survey of Learning in Multiagent Environments: Dealing with   Non-Stationarity'
+type: article
+url: http://arxiv.org/abs/1707.09183v2
+year: '2017'
