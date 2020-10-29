@@ -1,0 +1,33 @@
+abstract: Discounted reinforcement learning is fundamentally incompatible with function
+  approximation for control in continuing tasks. It is not an optimization problem
+  in its usual formulation, so when using function approximation there is no optimal
+  policy. We substantiate these claims, then go on to address some misconceptions
+  about discounting and its connection to the average reward formulation. We encourage
+  researchers to adopt rigorous optimization approaches, such as maximizing average
+  reward, for reinforcement learning in continuing tasks.
+archiveprefix: arXiv
+author: Naik, Abhishek and Shariff, Roshan and Yasui, Niko and Yao, Hengshuai and
+  Sutton, Richard S.
+author_list:
+- family: Naik
+  given: Abhishek
+- family: Shariff
+  given: Roshan
+- family: Yasui
+  given: Niko
+- family: Yao
+  given: Hengshuai
+- family: Sutton
+  given: Richard S.
+eprint: 1910.02140v3
+file: 1910.02140v3.pdf
+files:
+- naik-abhishek-and-shariff-roshan-and-yasui-niko-and-yao-hengshuai-and-sutton-richard-s.discounted-reinforcement-learning-is-not-an-optimization-p.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 1910.02140v3
+time-added: 2020-10-29-11:31:36
+title: Discounted Reinforcement Learning Is Not an Optimization Problem
+type: article
+url: http://arxiv.org/abs/1910.02140v3
+year: '2019'

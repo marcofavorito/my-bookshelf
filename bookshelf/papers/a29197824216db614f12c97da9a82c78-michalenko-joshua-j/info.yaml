@@ -1,0 +1,41 @@
+abstract: We investigate the internal representations that a recurrent neural network
+  (RNN) uses while learning to recognize a regular formal language. Specifically,
+  we train a RNN on positive and negative examples from a regular language, and ask
+  if there is a simple decoding function that maps states of this RNN to states of
+  the minimal deterministic finite automaton (MDFA) for the language. Our experiments
+  show that such a decoding function indeed exists, and that it maps states of the
+  RNN not to MDFA states, but to states of an {\em abstraction} obtained by clustering
+  small sets of MDFA states into "superstates". A qualitative analysis reveals that
+  the abstraction often has a simple interpretation. Overall, the results suggest
+  a strong structural relationship between internal representations used by RNNs and
+  finite automata, and explain the well-known ability of RNNs to recognize formal
+  grammatical structure.
+archiveprefix: arXiv
+author: Michalenko, Joshua J. and Shah, Ameesh and Verma, Abhinav and Baraniuk, Richard
+  G. and Chaudhuri, Swarat and Patel, Ankit B.
+author_list:
+- family: Michalenko
+  given: Joshua J.
+- family: Shah
+  given: Ameesh
+- family: Verma
+  given: Abhinav
+- family: Baraniuk
+  given: Richard G.
+- family: Chaudhuri
+  given: Swarat
+- family: Patel
+  given: Ankit B.
+eprint: 1902.10297v1
+file: 1902.10297v1.pdf
+files:
+- michalenko-joshua-j.-and-shah-ameesh-and-verma-abhinav-and-baraniuk-richard-g.-and-chaudhuri-swarat-and-patel-ankit-b.representing-formal-langua.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1902.10297v1
+time-added: 2020-10-28-10:45:28
+title: 'Representing Formal Languages: A Comparison Between Finite Automata and   Recurrent
+  Neural Networks'
+type: article
+url: http://arxiv.org/abs/1902.10297v1
+year: '2019'

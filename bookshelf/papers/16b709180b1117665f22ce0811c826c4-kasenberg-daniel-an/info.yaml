@@ -1,0 +1,27 @@
+abstract: 'Recent work has addressed using formulas in linear temporal logic (LTL)
+  as specifications for agents planning in Markov Decision Processes (MDPs). We consider
+  the inverse problem: inferring an LTL specification from demonstrated behavior trajectories
+  in MDPs. We formulate this as a multiobjective optimization problem, and describe
+  state-based ("what actually happened") and action-based ("what the agent expected
+  to happen") objective functions based on a notion of "violation cost". We demonstrate
+  the efficacy of the approach by employing genetic programming to solve this problem
+  in two simple domains.'
+archiveprefix: arXiv
+author: Kasenberg, Daniel and Scheutz, Matthias
+author_list:
+- family: Kasenberg
+  given: Daniel
+- family: Scheutz
+  given: Matthias
+eprint: 1710.10532v1
+file: 1710.10532v1.pdf
+files:
+- kasenberg-daniel-and-scheutz-matthiasinterpretable-apprenticeship-learning-with-temporal-logic-specifications2017.pdf
+month: Oct
+primaryclass: cs.SY
+ref: 1710.10532v1
+time-added: 2020-10-28-15:52:13
+title: Interpretable Apprenticeship Learning with Temporal Logic Specifications
+type: article
+url: http://arxiv.org/abs/1710.10532v1
+year: '2017'

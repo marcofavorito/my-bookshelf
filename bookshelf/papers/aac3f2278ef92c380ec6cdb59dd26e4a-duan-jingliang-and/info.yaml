@@ -1,0 +1,42 @@
+abstract: This paper proposes the Deep Generalized Policy Iteration (DGPI) algorithm
+  to find the infinite horizon optimal control policy for general nonlinear continuous-time
+  systems with known dynamics. Unlike existing adaptive dynamic programming algorithms
+  for continuous time systems, DGPI does not require the admissibility of initialized
+  policy, and input-affine nature of controlled systems for convergence. Our algorithm
+  employs the actor-critic architecture to approximate both policy and value functions
+  with the purpose of iteratively solving the Hamilton-Jacobi-Bellman equation. Both
+  the policy and value functions are approximated by deep neural networks. Given any
+  arbitrary initial policy, the proposed DGPI algorithm can eventually converge to
+  an admissible, and subsequently an optimal policy for an arbitrary nonlinear system.
+  We also relax the update termination conditions of both the policy evaluation and
+  improvement processes, which leads to a faster convergence speed than conventional
+  Policy Iteration (PI) methods, for the same architecture of function approximators.
+  We further prove the convergence and optimality of the algorithm with thorough Lyapunov
+  analysis, and demonstrate its generality and efficacy using two detailed numerical
+  examples.
+archiveprefix: arXiv
+author: Duan, Jingliang and Li, Shengbo Eben and Liu, Zhengyu and Bujarbaruah, Monimoy
+  and Cheng, Bo
+author_list:
+- family: Duan
+  given: Jingliang
+- family: Li
+  given: Shengbo Eben
+- family: Liu
+  given: Zhengyu
+- family: Bujarbaruah
+  given: Monimoy
+- family: Cheng
+  given: Bo
+eprint: 1909.05402v1
+file: 1909.05402v1.pdf
+files:
+- duan-jingliang-and-li-shengbo-eben-and-liu-zhengyu-and-bujarbaruah-monimoy-and-cheng-bogeneralized-policy-iteration-for-optimal-control-in-contin.pdf
+month: Sep
+primaryclass: eess.SY
+ref: 1909.05402v1
+time-added: 2020-10-24-23:26:01
+title: Generalized Policy Iteration for Optimal Control in Continuous Time
+type: article
+url: http://arxiv.org/abs/1909.05402v1
+year: '2019'

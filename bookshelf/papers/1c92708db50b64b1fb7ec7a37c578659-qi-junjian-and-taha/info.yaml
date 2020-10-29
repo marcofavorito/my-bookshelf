@@ -1,0 +1,34 @@
+abstract: 'Kalman filters and observers are two main classes of dynamic state estimation
+  (DSE) routines. Power system DSE has been implemented by various Kalman filters,
+  such as the extended Kalman filter (EKF) and the unscented Kalman filter (UKF).
+  In this paper, we discuss two challenges for an effective power system DSE: (a)
+  model uncertainty and (b) potential cyber attacks. To address this, the cubature
+  Kalman filter (CKF) and a nonlinear observer are introduced and implemented. Various
+  Kalman filters and the observer are then tested on the 16-machine, 68-bus system
+  given realistic scenarios under model uncertainty and different types of cyber attacks
+  against synchrophasor measurements. It is shown that CKF and the observer are more
+  robust to model uncertainty and cyber attacks than their counterparts. Based on
+  the tests, a thorough qualitative comparison is also performed for Kalman filter
+  routines and observers.'
+archiveprefix: arXiv
+author: Qi, Junjian and Taha, Ahmad F. and Wang, Jianhui
+author_list:
+- family: Qi
+  given: Junjian
+- family: Taha
+  given: Ahmad F.
+- family: Wang
+  given: Jianhui
+eprint: 1605.01030v3
+file: 1605.01030v3.pdf
+files:
+- qi-junjian-and-taha-ahmad-f.-and-wang-jianhuicomparing-kalman-filters-and-observers-for-power-system-dynamic-state-estimation-with-model-uncertai.pdf
+month: May
+primaryclass: cs.SY
+ref: 1605.01030v3
+time-added: 2020-10-22-21:20:20
+title: Comparing Kalman Filters and Observers for Power System Dynamic State   Estimation
+  with Model Uncertainty and Malicious Cyber Attacks
+type: article
+url: http://arxiv.org/abs/1605.01030v3
+year: '2016'

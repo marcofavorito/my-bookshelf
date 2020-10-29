@@ -1,0 +1,33 @@
+abstract: 'Behavioral cloning reduces policy learning to supervised learning by training
+  a discriminative model to predict expert actions given observations. Such discriminative
+  models are non-causal: the training procedure is unaware of the causal structure
+  of the interaction between the expert and the environment. We point out that ignoring
+  causality is particularly damaging because of the distributional shift in imitation
+  learning. In particular, it leads to a counter-intuitive "causal misidentification"
+  phenomenon: access to more information can yield worse performance. We investigate
+  how this problem arises, and propose a solution to combat it through targeted interventions---either
+  environment interaction or expert queries---to determine the correct causal model.
+  We show that causal misidentification occurs in several benchmark control domains
+  as well as realistic driving settings, and validate our solution against DAgger
+  and other baselines and ablations.'
+archiveprefix: arXiv
+author: de Haan, Pim and Jayaraman, Dinesh and Levine, Sergey
+author_list:
+- family: de Haan
+  given: Pim
+- family: Jayaraman
+  given: Dinesh
+- family: Levine
+  given: Sergey
+eprint: 1905.11979v2
+file: 1905.11979v2.pdf
+files:
+- de-haan-pim-and-jayaraman-dinesh-and-levine-sergeycausal-confusion-in-imitation-learning2019.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.11979v2
+time-added: 2020-10-28-15:52:23
+title: Causal Confusion in Imitation Learning
+type: article
+url: http://arxiv.org/abs/1905.11979v2
+year: '2019'

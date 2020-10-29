@@ -1,0 +1,42 @@
+abstract: Reinforcement learning algorithms discover policies that maximize reward,
+  but do not necessarily guarantee safety during learning or execution phases. We
+  introduce a new approach to learn optimal policies while enforcing properties expressed
+  in temporal logic. To this end, given the temporal logic specification that is to
+  be obeyed by the learning system, we propose to synthesize a reactive system called
+  a shield. The shield is introduced in the traditional learning process in two alternative
+  ways, depending on the location at which the shield is implemented. In the first
+  one, the shield acts each time the learning agent is about to make a decision and
+  provides a list of safe actions. In the second way, the shield is introduced after
+  the learning agent. The shield monitors the actions from the learner and corrects
+  them only if the chosen action causes a violation of the specification. We discuss
+  which requirements a shield must meet to preserve the convergence guarantees of
+  the learner. Finally, we demonstrate the versatility of our approach on several
+  challenging reinforcement learning scenarios.
+archiveprefix: arXiv
+author: Alshiekh, Mohammed and Bloem, Roderick and Ehlers, Ruediger and Könighofer,
+  Bettina and Niekum, Scott and Topcu, Ufuk
+author_list:
+- family: Alshiekh
+  given: Mohammed
+- family: Bloem
+  given: Roderick
+- family: Ehlers
+  given: Ruediger
+- family: Könighofer
+  given: Bettina
+- family: Niekum
+  given: Scott
+- family: Topcu
+  given: Ufuk
+eprint: 1708.08611v2
+file: 1708.08611v2.pdf
+files:
+- alshiekh-mohammed-and-bloem-roderick-and-ehlers-ruediger-and-konighofer-bettina-and-niekum-scott-and-topcu-ufuksafe-reinforcement-learning-via-s.pdf
+month: Aug
+primaryclass: cs.LO
+ref: 1708.08611v2
+time-added: 2020-10-29-11:48:36
+title: Safe Reinforcement Learning via Shielding
+type: article
+url: http://arxiv.org/abs/1708.08611v2
+year: '2017'
