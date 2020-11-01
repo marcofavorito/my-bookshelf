@@ -1,0 +1,30 @@
+abstract: We present a unified translation of LTL formulas into deterministic Rabin
+  automata, limit-deterministic B\"uchi automata, and nondeterministic B\"uchi automata.
+  The translations yield automata of asymptotically optimal size (double or single
+  exponential, respectively). All three translations are derived from one single Master
+  Theorem of purely logical nature. The Master Theorem decomposes the language of
+  a formula into a positive boolean combination of languages that can be translated
+  into {\omega}-automata by elementary means. In particular, Safra's, ranking, and
+  breakpoint constructions used in other translations are not needed.
+archiveprefix: arXiv
+author: Esparza, Javier and Kretinsky, Jan and Sickert, Salomon
+author_list:
+- family: Esparza
+  given: Javier
+- family: Kretinsky
+  given: Jan
+- family: Sickert
+  given: Salomon
+doi: 10.1145/3209108.3209161
+eprint: 1805.00748v1
+file: 1805.00748v1.pdf
+files:
+- esparza-javier-and-kretinsky-jan-and-sickert-salomonone-theorem-to-rule-them-all-a-unified-translation-of-ltl-into-o-automata2018.pdf
+month: May
+primaryclass: cs.LO
+ref: 1805.00748v1
+time-added: 2020-10-29-23:32:09
+title: 'One Theorem to Rule Them All: A Unified Translation of LTL into   ω-Automata'
+type: article
+url: http://arxiv.org/abs/1805.00748v1
+year: '2018'
