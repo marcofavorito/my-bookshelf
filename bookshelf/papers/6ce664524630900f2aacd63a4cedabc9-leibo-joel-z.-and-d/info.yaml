@@ -1,0 +1,60 @@
+abstract: 'Psychlab is a simulated psychology laboratory inside the first-person 3D
+  game world of DeepMind Lab (Beattie et al. 2016). Psychlab enables implementations
+  of classical laboratory psychological experiments so that they work with both human
+  and artificial agents. Psychlab has a simple and flexible API that enables users
+  to easily create their own tasks. As examples, we are releasing Psychlab implementations
+  of several classical experimental paradigms including visual search, change detection,
+  random dot motion discrimination, and multiple object tracking. We also contribute
+  a study of the visual psychophysics of a specific state-of-the-art deep reinforcement
+  learning agent: UNREAL (Jaderberg et al. 2016). This study leads to the surprising
+  conclusion that UNREAL learns more quickly about larger target stimuli than it does
+  about smaller stimuli. In turn, this insight motivates a specific improvement in
+  the form of a simple model of foveal vision that turns out to significantly boost
+  UNREAL''s performance, both on Psychlab tasks, and on standard DeepMind Lab tasks.
+  By open-sourcing Psychlab we hope to facilitate a range of future such studies that
+  simultaneously advance deep reinforcement learning and improve its links with cognitive
+  science.'
+archiveprefix: arXiv
+author: Leibo, Joel Z. and de Masson d'Autume, Cyprien and Zoran, Daniel and Amos,
+  David and Beattie, Charles and Anderson, Keith and Castañeda, Antonio García and
+  Sanchez, Manuel and Green, Simon and Gruslys, Audrunas and Legg, Shane and Hassabis,
+  Demis and Botvinick, Matthew M.
+author_list:
+- family: Leibo
+  given: Joel Z.
+- family: de Masson d'Autume
+  given: Cyprien
+- family: Zoran
+  given: Daniel
+- family: Amos
+  given: David
+- family: Beattie
+  given: Charles
+- family: Anderson
+  given: Keith
+- family: Castañeda
+  given: Antonio García
+- family: Sanchez
+  given: Manuel
+- family: Green
+  given: Simon
+- family: Gruslys
+  given: Audrunas
+- family: Legg
+  given: Shane
+- family: Hassabis
+  given: Demis
+- family: Botvinick
+  given: Matthew M.
+eprint: 1801.08116v2
+file: 1801.08116v2.pdf
+files:
+- leibo-joel-z.-and-de-masson-d-autume-cyprien-and-zoran-daniel-and-amos-david-and-beattie-charles-and-anderson-keith-and-castaneda-antonio-garci.pdf
+month: Jan
+primaryclass: cs.AI
+ref: 1801.08116v2
+time-added: 2020-11-19-18:27:59
+title: 'Psychlab: A Psychology Laboratory for Deep Reinforcement Learning Agents'
+type: article
+url: http://arxiv.org/abs/1801.08116v2
+year: '2018'

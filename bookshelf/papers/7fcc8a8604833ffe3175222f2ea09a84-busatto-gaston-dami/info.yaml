@@ -1,0 +1,30 @@
+abstract: In this paper, we consider the online computation of a strategy that aims
+  at optimizing the expected average reward in a Markov decision process. The strategy
+  is computed with a receding horizon and using Monte Carlo tree search (MCTS). We
+  augment the MCTS algorithm with the notion of symbolic advice, and show that its
+  classical theoretical guarantees are maintained. Symbolic advice are used to bias
+  the selection and simulation strategies of MCTS. We describe how to use QBF and
+  SAT solvers to implement symbolic advice in an efficient way. We illustrate our
+  new algorithm using the popular game Pac-Man and show that the performances of our
+  algorithm exceed those of plain MCTS as well as the performances of human players.
+archiveprefix: arXiv
+author: Busatto-Gaston, Damien and Chakraborty, Debraj and Raskin, Jean-Francois
+author_list:
+- family: Busatto-Gaston
+  given: Damien
+- family: Chakraborty
+  given: Debraj
+- family: Raskin
+  given: Jean-Francois
+eprint: 2006.04712v2
+file: 2006.04712v2.pdf
+files:
+- busatto-gaston-damien-and-chakraborty-debraj-and-raskin-jean-francoismonte-carlo-tree-search-guided-by-symbolic-advice-for-mdps2020.pdf
+month: Jun
+primaryclass: cs.GT
+ref: 2006.04712v2
+time-added: 2020-11-11-17:49:33
+title: Monte Carlo Tree Search guided by Symbolic Advice for MDPs
+type: article
+url: http://arxiv.org/abs/2006.04712v2
+year: '2020'

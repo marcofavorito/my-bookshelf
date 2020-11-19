@@ -1,0 +1,30 @@
+abstract: A possibly immortal agent tries to maximise its summed discounted rewards
+  over time, where discounting is used to avoid infinite utilities and encourage the
+  agent to value current rewards more than future ones. Some commonly used discount
+  functions lead to time-inconsistent behavior where the agent changes its plan over
+  time. These inconsistencies can lead to very poor behavior. We generalise the usual
+  discounted utility model to one where the discount function changes with the age
+  of the agent. We then give a simple characterisation of time-(in)consistent discount
+  functions and show the existence of a rational policy for an agent that knows its
+  discount function is time-inconsistent.
+archiveprefix: arXiv
+author: Lattimore, Tor and Hutter, Marcus
+author_list:
+- family: Lattimore
+  given: Tor
+- family: Hutter
+  given: Marcus
+eprint: 1107.5528v1
+file: 1107.5528v1.pdf
+files:
+- lattimore-tor-and-hutter-marcustime-consistent-discounting2011.pdf
+month: Jul
+note: Proc. 22nd International Conf. on Algorithmic Learning Theory   (ALT-2011) pages
+  383-397
+primaryclass: cs.AI
+ref: 1107.5528v1
+time-added: 2020-11-13-21:00:56
+title: Time Consistent Discounting
+type: article
+url: http://arxiv.org/abs/1107.5528v1
+year: '2011'
