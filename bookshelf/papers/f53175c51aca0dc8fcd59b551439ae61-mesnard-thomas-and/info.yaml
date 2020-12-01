@@ -1,0 +1,54 @@
+abstract: Credit assignment in reinforcement learning is the problem of measuring
+  an action influence on future rewards. In particular, this requires separating skill
+  from luck, ie. disentangling the effect of an action on rewards from that of external
+  factors and subsequent actions. To achieve this, we adapt the notion of counterfactuals
+  from causality theory to a model-free RL setup. The key idea is to condition value
+  functions on future events, by learning to extract relevant information from a trajectory.
+  We then propose to use these as future-conditional baselines and critics in policy
+  gradient algorithms and we develop a valid, practical variant with provably lower
+  variance, while achieving unbiasedness by constraining the hindsight information
+  not to contain information about the agent actions. We demonstrate the efficacy
+  and validity of our algorithm on a number of illustrative problems.
+archiveprefix: arXiv
+author: Mesnard, Thomas and Weber, Théophane and Viola, Fabio and Thakoor, Shantanu
+  and Saade, Alaa and Harutyunyan, Anna and Dabney, Will and Stepleton, Tom and Heess,
+  Nicolas and Guez, Arthur and Hutter, Marcus and Buesing, Lars and Munos, Rémi
+author_list:
+- family: Mesnard
+  given: Thomas
+- family: Weber
+  given: Théophane
+- family: Viola
+  given: Fabio
+- family: Thakoor
+  given: Shantanu
+- family: Saade
+  given: Alaa
+- family: Harutyunyan
+  given: Anna
+- family: Dabney
+  given: Will
+- family: Stepleton
+  given: Tom
+- family: Heess
+  given: Nicolas
+- family: Guez
+  given: Arthur
+- family: Hutter
+  given: Marcus
+- family: Buesing
+  given: Lars
+- family: Munos
+  given: Rémi
+eprint: 2011.09464v1
+file: 2011.09464v1.pdf
+files:
+- mesnard-thomas-and-weber-theophane-and-viola-fabio-and-thakoor-shantanu-and-saade-alaa-and-harutyunyan-anna-and-dabney-will-and-stepleton-tom.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2011.09464v1
+time-added: 2020-11-22-15:10:13
+title: Counterfactual Credit Assignment in Model-Free Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2011.09464v1
+year: '2020'

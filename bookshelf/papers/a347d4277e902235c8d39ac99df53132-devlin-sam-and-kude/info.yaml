@@ -1,0 +1,35 @@
+abstract: Potential-based reward shaping has previously been proven to both be equivalent
+  to Q-table initialisation and guarantee policy invariance in single-agent reinforcement
+  learning. The method has since been used in multi-agent reinforcement learning without
+  consideration of whether the theoretical equivalence and guarantees hold. This paper
+  extends the existing proofs to similar results in multi-agent systems, providing
+  the theoretical background to explain the success of previous empirical studies.
+  Specifically, it is proven that the equivalence to Q-table initialisation remains
+  and the Nash Equilibria of the underlying stochastic game are not modified. Furthermore,
+  we demonstrate empirically that potential-based reward shaping affects exploration
+  and, consequentially, can alter the joint policy converged upon.
+address: Richland, SC
+author: Devlin, Sam and Kudenko, Daniel
+author_list:
+- family: Devlin
+  given: Sam
+- family: Kudenko
+  given: Daniel
+booktitle: The 10th International Conference on Autonomous Agents and Multiagent Systems
+  - Volume 1
+files:
+- devlin-sam-and-kudenko-danieltheoretical-considerations-of-potential-based-reward-shaping-for-multi-agent-systems2011.pdf
+isbn: 0982657153
+keywords: reward structures for learning, reward shaping, reinforcement learning,
+  multiagent learning
+location: Taipei, Taiwan
+numpages: '8'
+pages: 225–232
+publisher: International Foundation for Autonomous Agents and Multiagent Systems
+ref: 10.5555/2030470.2030503
+series: AAMAS '11
+time-added: 2020-12-01-18:27:26
+title: Theoretical Considerations of Potential-Based Reward Shaping for Multi-Agent
+  Systems
+type: inproceedings
+year: '2011'

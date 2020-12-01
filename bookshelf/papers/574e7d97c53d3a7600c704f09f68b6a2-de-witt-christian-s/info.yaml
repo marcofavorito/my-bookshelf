@@ -1,0 +1,39 @@
+abstract: Most recently developed approaches to cooperative multi-agent reinforcement
+  learning in the \emph{centralized training with decentralized execution} setting
+  involve estimating a centralized, joint value function. In this paper, we demonstrate
+  that, despite its various theoretical shortcomings, Independent PPO (IPPO), a form
+  of independent learning in which each agent simply estimates its local value function,
+  can perform just as well as or better than state-of-the-art joint learning approaches
+  on popular multi-agent benchmark suite SMAC with little hyperparameter tuning. We
+  also compare IPPO to several variants; the results suggest that IPPO's strong performance
+  may be due to its robustness to some forms of environment non-stationarity.
+archiveprefix: arXiv
+author: de Witt, Christian Schroeder and Gupta, Tarun and Makoviichuk, Denys and Makoviychuk,
+  Viktor and Torr, Philip H. S. and Sun, Mingfei and Whiteson, Shimon
+author_list:
+- family: de Witt
+  given: Christian Schroeder
+- family: Gupta
+  given: Tarun
+- family: Makoviichuk
+  given: Denys
+- family: Makoviychuk
+  given: Viktor
+- family: Torr
+  given: Philip H. S.
+- family: Sun
+  given: Mingfei
+- family: Whiteson
+  given: Shimon
+eprint: 2011.09533v1
+file: 2011.09533v1.pdf
+files:
+- de-witt-christian-schroeder-and-gupta-tarun-and-makoviichuk-denys-and-makoviychuk-viktor-and-torr-philip-h.-s.-and-sun-mingfei-and-whiteson-shi.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 2011.09533v1
+time-added: 2020-11-27-00:17:24
+title: Is Independent Learning All You Need in the StarCraft Multi-Agent   Challenge?
+type: article
+url: http://arxiv.org/abs/2011.09533v1
+year: '2020'

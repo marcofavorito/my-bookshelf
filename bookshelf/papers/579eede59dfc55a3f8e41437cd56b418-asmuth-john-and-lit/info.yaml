@@ -1,0 +1,31 @@
+abstract: Potential-based shaping was designed as a way of introducing background
+  knowledge into model-free reinforcement-learning algorithms. By identifying states
+  that are likely to have high value, this approach can decrease experience complexity--the
+  number of trials needed to find near-optimal behavior. An orthogonal way of decreasing
+  experience complexity is to use a model-based learning approach, building and exploiting
+  an explicit transition model. In this paper, we show how potential-based shaping
+  can be redefined to work in the model-based setting to produce an algorithm that
+  shares the benefits of both ideas.
+author: Asmuth, John and Littman, Michael L. and Zinkov, Robert
+author_list:
+- family: Asmuth
+  given: John
+- family: Littman
+  given: Michael L.
+- family: Zinkov
+  given: Robert
+booktitle: Proceedings of the 23rd National Conference on Artificial Intelligence
+  - Volume 2
+files:
+- asmuth-john-and-littman-michael-l.-and-zinkov-robertpotential-based-shaping-in-model-based-reinforcement-learning2008.pdf
+isbn: '9781577353683'
+location: Chicago, Illinois
+numpages: '6'
+pages: 604–609
+publisher: AAAI Press
+ref: 10.5555/1620163.1620165
+series: AAAI'08
+time-added: 2020-11-22-23:47:58
+title: Potential-Based Shaping in Model-Based Reinforcement Learning
+type: inproceedings
+year: '2008'

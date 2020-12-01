@@ -1,0 +1,119 @@
+abstract: ML models often exhibit unexpectedly poor behavior when they are deployed
+  in real-world domains. We identify underspecification as a key reason for these
+  failures. An ML pipeline is underspecified when it can return many predictors with
+  equivalently strong held-out performance in the training domain. Underspecification
+  is common in modern ML pipelines, such as those based on deep learning. Predictors
+  returned by underspecified pipelines are often treated as equivalent based on their
+  training domain performance, but we show here that such predictors can behave very
+  differently in deployment domains. This ambiguity can lead to instability and poor
+  model behavior in practice, and is a distinct failure mode from previously identified
+  issues arising from structural mismatch between training and deployment domains.
+  We show that this problem appears in a wide variety of practical ML pipelines, using
+  examples from computer vision, medical imaging, natural language processing, clinical
+  risk prediction based on electronic health records, and medical genomics. Our results
+  show the need to explicitly account for underspecification in modeling pipelines
+  that are intended for real-world deployment in any domain.
+archiveprefix: arXiv
+author: D'Amour, Alexander and Heller, Katherine and Moldovan, Dan and Adlam, Ben
+  and Alipanahi, Babak and Beutel, Alex and Chen, Christina and Deaton, Jonathan and
+  Eisenstein, Jacob and Hoffman, Matthew D. and Hormozdiari, Farhad and Houlsby, Neil
+  and Hou, Shaobo and Jerfel, Ghassen and Karthikesalingam, Alan and Lucic, Mario
+  and Ma, Yian and McLean, Cory and Mincu, Diana and Mitani, Akinori and Montanari,
+  Andrea and Nado, Zachary and Natarajan, Vivek and Nielson, Christopher and Osborne,
+  Thomas F. and Raman, Rajiv and Ramasamy, Kim and Sayres, Rory and Schrouff, Jessica
+  and Seneviratne, Martin and Sequeira, Shannon and Suresh, Harini and Veitch, Victor
+  and Vladymyrov, Max and Wang, Xuezhi and Webster, Kellie and Yadlowsky, Steve and
+  Yun, Taedong and Zhai, Xiaohua and Sculley, D.
+author_list:
+- family: D'Amour
+  given: Alexander
+- family: Heller
+  given: Katherine
+- family: Moldovan
+  given: Dan
+- family: Adlam
+  given: Ben
+- family: Alipanahi
+  given: Babak
+- family: Beutel
+  given: Alex
+- family: Chen
+  given: Christina
+- family: Deaton
+  given: Jonathan
+- family: Eisenstein
+  given: Jacob
+- family: Hoffman
+  given: Matthew D.
+- family: Hormozdiari
+  given: Farhad
+- family: Houlsby
+  given: Neil
+- family: Hou
+  given: Shaobo
+- family: Jerfel
+  given: Ghassen
+- family: Karthikesalingam
+  given: Alan
+- family: Lucic
+  given: Mario
+- family: Ma
+  given: Yian
+- family: McLean
+  given: Cory
+- family: Mincu
+  given: Diana
+- family: Mitani
+  given: Akinori
+- family: Montanari
+  given: Andrea
+- family: Nado
+  given: Zachary
+- family: Natarajan
+  given: Vivek
+- family: Nielson
+  given: Christopher
+- family: Osborne
+  given: Thomas F.
+- family: Raman
+  given: Rajiv
+- family: Ramasamy
+  given: Kim
+- family: Sayres
+  given: Rory
+- family: Schrouff
+  given: Jessica
+- family: Seneviratne
+  given: Martin
+- family: Sequeira
+  given: Shannon
+- family: Suresh
+  given: Harini
+- family: Veitch
+  given: Victor
+- family: Vladymyrov
+  given: Max
+- family: Wang
+  given: Xuezhi
+- family: Webster
+  given: Kellie
+- family: Yadlowsky
+  given: Steve
+- family: Yun
+  given: Taedong
+- family: Zhai
+  given: Xiaohua
+- family: Sculley
+  given: D.
+eprint: 2011.03395v1
+file: 2011.03395v1.pdf
+files:
+- d-amour-alexander-and-heller-katherine-and-moldovan-dan-and-adlam-ben-and-alipanahi-babak-and-beutel-alex-and-chen-christina-and-deaton-jonath.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2011.03395v1
+time-added: 2020-11-23-20:48:59
+title: Underspecification Presents Challenges for Credibility in Modern Machine   Learning
+type: article
+url: http://arxiv.org/abs/2011.03395v1
+year: '2020'

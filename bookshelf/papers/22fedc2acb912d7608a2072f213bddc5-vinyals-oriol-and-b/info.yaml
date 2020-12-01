@@ -1,0 +1,418 @@
+author: Vinyals, Oriol and Babuschkin, Igor and Czarnecki, Wojciech M. and Mathieu,
+  Michaël and Dudzik, Andrew and Chung, Junyoung and Choi, David H. and Powell, Richard
+  and Ewalds, Timo and Georgiev, Petko and Oh, Junhyuk and Horgan, Dan and Kroiss,
+  Manuel and Danihelka, Ivo and Huang, Aja and Sifre, Laurent and Cai, Trevor and
+  Agapiou, John P. and Jaderberg, Max and Vezhnevets, Alexander S. and Leblond, Rémi
+  and Pohlen, Tobias and Dalibard, Valentin and Budden, David and Sulsky, Yury and
+  Molloy, James and Paine, Tom L. and Gulcehre, Caglar and Wang, Ziyu and Pfaff, Tobias
+  and Wu, Yuhuai and Ring, Roman and Yogatama, Dani and Wünsch, Dario and McKinney,
+  Katrina and Smith, Oliver and Schaul, Tom and Lillicrap, Timothy and Kavukcuoglu,
+  Koray and Hassabis, Demis and Apps, Chris and Silver, David
+author_list:
+- affiliation: []
+  family: Vinyals
+  given: Oriol
+- affiliation: []
+  family: Babuschkin
+  given: Igor
+- affiliation: []
+  family: Czarnecki
+  given: Wojciech M.
+- affiliation: []
+  family: Mathieu
+  given: Michaël
+- affiliation: []
+  family: Dudzik
+  given: Andrew
+- affiliation: []
+  family: Chung
+  given: Junyoung
+- affiliation: []
+  family: Choi
+  given: David H.
+- affiliation: []
+  family: Powell
+  given: Richard
+- affiliation: []
+  family: Ewalds
+  given: Timo
+- affiliation: []
+  family: Georgiev
+  given: Petko
+- affiliation: []
+  family: Oh
+  given: Junhyuk
+- affiliation: []
+  family: Horgan
+  given: Dan
+- affiliation: []
+  family: Kroiss
+  given: Manuel
+- affiliation: []
+  family: Danihelka
+  given: Ivo
+- affiliation: []
+  family: Huang
+  given: Aja
+- affiliation: []
+  family: Sifre
+  given: Laurent
+- affiliation: []
+  family: Cai
+  given: Trevor
+- affiliation: []
+  family: Agapiou
+  given: John P.
+- affiliation: []
+  family: Jaderberg
+  given: Max
+- affiliation: []
+  family: Vezhnevets
+  given: Alexander S.
+- affiliation: []
+  family: Leblond
+  given: Rémi
+- affiliation: []
+  family: Pohlen
+  given: Tobias
+- affiliation: []
+  family: Dalibard
+  given: Valentin
+- affiliation: []
+  family: Budden
+  given: David
+- affiliation: []
+  family: Sulsky
+  given: Yury
+- affiliation: []
+  family: Molloy
+  given: James
+- affiliation: []
+  family: Paine
+  given: Tom L.
+- affiliation: []
+  family: Gulcehre
+  given: Caglar
+- affiliation: []
+  family: Wang
+  given: Ziyu
+- affiliation: []
+  family: Pfaff
+  given: Tobias
+- affiliation: []
+  family: Wu
+  given: Yuhuai
+- affiliation: []
+  family: Ring
+  given: Roman
+- affiliation: []
+  family: Yogatama
+  given: Dani
+- affiliation: []
+  family: Wünsch
+  given: Dario
+- affiliation: []
+  family: McKinney
+  given: Katrina
+- affiliation: []
+  family: Smith
+  given: Oliver
+- affiliation: []
+  family: Schaul
+  given: Tom
+- affiliation: []
+  family: Lillicrap
+  given: Timothy
+- affiliation: []
+  family: Kavukcuoglu
+  given: Koray
+- affiliation: []
+  family: Hassabis
+  given: Demis
+- affiliation: []
+  family: Apps
+  given: Chris
+- affiliation: []
+  family: Silver
+  given: David
+citations:
+- unstructured: "AIIDE StarCraft AI Competition. \nhttps://www.cs.mun.ca/dchurchill/starcraftaicomp/\n\
+    \n."
+- unstructured: "Student StarCraft AI Tournament and Ladder. \nhttps://sscaitournament.com/\n\
+    \n."
+- unstructured: "Starcraft 2 AI ladder. \nhttps://sc2ai.net/\n\n."
+- unstructured: Churchill, D., Lin, Z. & Synnaeve, G. An analysis of model-based heuristic
+    search techniques for StarCraft combat scenarios. in Artificial Intelligence and
+    Interactive Digital Entertainment Conf. (AAAI, 2017).
+- doi: 10.1109/TNN.1998.712192
+  unstructured: 'Sutton, R. & Barto, A. Reinforcement Learning: An Introduction (MIT
+    Press, 1998).'
+- author: Y LeCun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  journal-title: Nature
+  unstructured: LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444
+    (2015).
+  volume: '521'
+  year: '2015'
+- unstructured: "Vinyals, O. et al. StarCraft II: a new challenge for reinforcement\
+    \ learning. Preprint at \nhttps://arxiv.org/abs/1708.04782\n\n (2017)."
+- author: A Vaswani
+  first-page: '5998'
+  journal-title: Neural Information Process. Syst.
+  unstructured: Vaswani, A. et al. Attention is all you need. Adv. Neural Information
+    Process. Syst. 30, 5998–6008 (2017).
+  volume: '30'
+  year: '2017'
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  unstructured: Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput.
+    9, 1735–1780 (1997).
+  volume: '9'
+  year: '1997'
+- author: T Mikolov
+  first-page: '1045'
+  journal-title: INTERSPEECH
+  unstructured: Mikolov, T., Karafiat, M., Burget, L., Cernocky, J. & Khudanpur, S.
+    Recurrent neural network based language model. INTERSPEECH-2010 1045–1048 (2010).
+  volume: '2010'
+  year: '2010'
+- unstructured: "Metz, L., Ibarz, J., Jaitly, N. & Davidson, J. Discrete sequential\
+    \ prediction of continuous actions for deep RL. Preprint at \nhttps://arxiv.org/abs/1705.05035v3\n\
+    \n (2017)."
+- author: O Vinyals
+  first-page: '2692'
+  journal-title: Adv. Neural Information Process. Syst.
+  unstructured: Vinyals, O., Fortunato, M. & Jaitly, N. Pointer networks. Adv. Neural
+    Information Process. Syst. 28, 2692–2700 (2015).
+  volume: '28'
+  year: '2015'
+- author: V Mnih
+  first-page: '1928'
+  journal-title: Proc Machine Learning Res.
+  unstructured: Mnih, V. et al. Asynchronous methods for deep reinforcement learning.
+    Proc. Machine Learning Res. 48, 1928–1937 (2016).
+  volume: '48'
+  year: '2016'
+- author: L Espeholt
+  first-page: '1407'
+  journal-title: Proc. Machine Learning Res.
+  unstructured: 'Espeholt, L. et al. IMPALA: scalable distributed deep-RL with importance
+    weighted actor-learner architectures. Proc. Machine Learning Res. 80, 1407–1416
+    (2018).'
+  volume: '80'
+  year: '2018'
+- unstructured: "Wang, Z. et al. Sample efficient actor-critic with experience replay.\
+    \ Preprint at \nhttps://arxiv.org/abs/1611.01224v2\n\n (2017)."
+- author: R Sutton
+  first-page: '9'
+  journal-title: Mach. Learn.
+  unstructured: Sutton, R. Learning to predict by the method of temporal differences.
+    Mach. Learn. 3, 9–44 (1988).
+  volume: '3'
+  year: '1988'
+- author: J Oh
+  first-page: '3875'
+  journal-title: Proc. Machine Learning Res.
+  unstructured: Oh, J., Guo, Y., Singh, S. & Lee, H. Self-Imitation Learning. Proc.
+    Machine Learning Res. 80, 3875–3884 (2018).
+  volume: '80'
+  year: '2018'
+- author: D Silver
+  doi: 10.1126/science.aar6404
+  first-page: '1140'
+  journal-title: Science
+  unstructured: Silver, D. et al. A general reinforcement learning algorithm that
+    masters chess, shogi, and Go through self-play. Science 362, 1140–1144 (2018).
+  volume: '362'
+  year: '2018'
+- author: D Balduzzi
+  first-page: '434'
+  journal-title: Proc. Machine Learning Res.
+  unstructured: Balduzzi, D. et al. Open-ended learning in symmetric zero-sum games.
+    Proc. Machine Learning Res. 97, 434–443 (2019).
+  volume: '97'
+  year: '2019'
+- author: GW Brown
+  first-page: '374'
+  journal-title: Act. Anal. Prod. Alloc.
+  unstructured: Brown, G. W. Iterative solution of games by fictitious play. Act.
+    Anal. Prod. Alloc. 13, 374–376 (1951).
+  volume: '13'
+  year: '1951'
+- author: DS Leslie
+  doi: 10.1016/j.geb.2005.08.005
+  first-page: '285'
+  journal-title: Games Econ. Behav.
+  unstructured: Leslie, D. S. & Collins, E. J. Generalised weakened fictitious play.
+    Games Econ. Behav. 56, 285–298 (2006).
+  volume: '56'
+  year: '2006'
+- author: J Heinrich
+  first-page: '805'
+  journal-title: Proc. Intl Conf. Machine Learning
+  unstructured: Heinrich, J., Lanctot, M. & Silver, D. Fictitious self-play in extensive-form
+    games. Proc. Intl Conf. Machine Learning 32, 805–813 (2015).
+  volume: '32'
+  year: '2015'
+- unstructured: "Jouppi, N. P. et al. In-datacenter performance analysis of a tensor\
+    \ processing unit. Preprint at \nhttps://arxiv.org/abs/1704.04760v1\n\n (2017)."
+- unstructured: Elo, A. E. The Rating of Chessplayers, Past and Present (Arco, 2017).
+- author: M Campbell
+  doi: 10.1016/S0004-3702(01)00129-1
+  first-page: '57'
+  journal-title: Artif. Intell.
+  unstructured: Campbell, M., Hoane, A. & Hsu, F. Deep Blue. Artif. Intell. 134, 57–83
+    (2002).
+  volume: '134'
+  year: '2002'
+- author: D Silver
+  doi: 10.1038/nature16961
+  first-page: '484'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of Go with deep neural networks
+    and tree search. Nature 529, 484–489 (2016).
+  volume: '529'
+  year: '2016'
+- author: V Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  journal-title: Nature
+  unstructured: Mnih, V. et al. Human-level control through deep reinforcement learning.
+    Nature 518, 529–533 (2015).
+  volume: '518'
+  year: '2015'
+- doi: 10.1109/CVPRW.2017.70
+  unstructured: Pathak, D., Agrawal, P., Efros, A. A. & Darrell, T. Curiosity-driven
+    exploration by self-supervised prediction. Proc. IEEE Conf. Computer Vision Pattern
+    Recognition Workshops 16–17 (IEEE, 2017).
+- author: M Jaderberg
+  doi: 10.1126/science.aau6249
+  first-page: '859'
+  journal-title: Science
+  unstructured: Jaderberg, M. et al. Human-level performance in 3D multiplayer games
+    with population-based reinforcement learning. Science 364, 859–865 (2019).
+  volume: '364'
+  year: '2019'
+- unstructured: "OpenAI OpenAI Five. \nhttps://blog.openai.com/openai-five/\n\n (2018)."
+- unstructured: 'Buro, M. Real-time strategy games: a new AI research challenge. Intl
+    Joint Conf. Artificial Intelligence 1534–1535 (2003).'
+- unstructured: Samvelyan, M. et al. The StarCraft multi-agent challenge. Intl Conf.
+    Autonomous Agents and MultiAgent Systems 2186–2188 (2019).
+- unstructured: "Zambaldi, V. et al. Relational deep reinforcement learning. Preprint\
+    \ at \nhttps://arxiv.org/abs/1806.01830v2\n\n (2018)."
+- unstructured: "Usunier, N., Synnaeve, G., Lin, Z. & Chintala, S. Episodic exploration\
+    \ for deep deterministic policies: an application to StarCraft micromanagement\
+    \ tasks. Preprint at \nhttps://arxiv.org/abs/1609.02993v3\n\n (2017)."
+- unstructured: Weber, B. G. & Mateas, M. Case-based reasoning for build order in
+    real-time strategy games. AIIDE ’09 Proc. 5th AAAI Conf. Artificial Intelligence
+    and Interactive Digital Entertainment 106–111 (2009).
+- doi: 10.1007/978-3-540-40031-8_19
+  unstructured: 'Buro, M. ORTS: a hack-free RTS game environment. Intl Conf. Computers
+    and Games 280–291 (Springer, 2002).'
+- unstructured: "Churchill, D. SparCraft: open source StarCraft combat simulation.\
+    \ \nhttps://code.google.com/archive/p/sparcraft/\n\n (2013)."
+- unstructured: Weber, B. G. AIIDE 2010 StarCraft competition. Artificial Intelligence
+    and Interactive Digital Entertainment Conf. (2010).
+- unstructured: Uriarte, A. & Ontañón, S. Improving Monte Carlo tree search policies
+    in StarCraft via probabilistic models learned from replay data. Artificial Intelligence
+    and Interactive Digital Entertainment Conf. 101–106 (2016).
+- doi: 10.1109/IJCNN.2008.4634237
+  unstructured: Hsieh, J.-L. & Sun, C.-T. Building a player strategy model by analyzing
+    replays of real-time strategy games. IEEE Intl Joint Conf. Neural Networks 3106–3111
+    (2008).
+- doi: 10.1109/CIG.2011.6032018
+  unstructured: Synnaeve, G. & Bessiere, P. A Bayesian model for plan recognition
+    in RTS games applied to StarCraft. Artificial Intelligence and Interactive Digital
+    Entertainment Conf. 79–84 (2011).
+- author: K Shao
+  first-page: '73'
+  journal-title: Top. Comput. Intell.
+  unstructured: Shao, K., Zhu, Y. & Zhao, D. StarCraft micromanagement with reinforcement
+    learning and curriculum transfer learning. IEEE Trans. Emerg. Top. Comput. Intell.
+    3, 73–84 (2019).
+  volume: '3'
+  year: '2019'
+- unstructured: "Facebook CherryPi. \nhttps://torchcraft.github.io/TorchCraftAI/\n\
+    \n."
+- unstructured: "Berkeley Overmind. \nhttps://www.icsi.berkeley.edu/icsi/news/2010/10/klein-berkeley-overmind\n\
+    \n (2010)."
+- doi: 10.1109/CIG.2017.8080430
+  unstructured: Justesen, N. & Risi, S. Learning macromanagement in StarCraft from
+    replays using deep learning. IEEE Conf. Computational Intelligence and Games (CIG)
+    162–169 (2017).
+- author: G Synnaeve
+  first-page: '10738'
+  journal-title: Adv. Neural Information Process. Syst.
+  unstructured: Synnaeve, G. et al. Forward modeling for partial observation strategy
+    games—a StarCraft defogger. Adv. Neural Information Process. Syst. 31, 10738–10748
+    (2018).
+  volume: '31'
+  year: '2018'
+- author: SS Farooq
+  doi: 10.1609/aimag.v37i2.2657
+  first-page: '102'
+  journal-title: AI Mag.
+  unstructured: Farooq, S. S., Oh, I.-S., Kim, M.-J. & Kim, K. J. StarCraft AI competition
+    report. AI Mag. 37, 102–107 (2016).
+  volume: '37'
+  year: '2016'
+- unstructured: "Sun, P. et al. TStarBots: defeating the cheating level builtin AI\
+    \ in StarCraft II in the full game. Preprint at \nhttps://arxiv.org/abs/1809.07193v3\n\
+    \n (2018)."
+- unstructured: "Schulman, J., Wolski, F., Dhariwal, P., Radford, A. & Klimov, O.\
+    \ Proximal policy optimization algorithms. Preprint at \nhttps://arxiv.org/abs/1707.06347v2\n\
+    \n (2017)."
+- unstructured: Ibarz, B. et al. Reward learning from human preferences and demonstrations
+    in Atari. Adv. Neural Information Process. Syst. 31, 8011–8023 (2018).
+- doi: 10.1109/ICRA.2018.8463162
+  unstructured: Nair, A., McGrew, B., Andrychowicz, M., Zaremba, W. & Abbeel, P. Overcoming
+    exploration in reinforcement learning with demonstrations. IEEE Intl Conf. Robotics
+    and Automation 6292–6299 (2018).
+- unstructured: Christiano, P. F. et al. Deep reinforcement learning from human preferences.
+    Adv. Neural Information Process. Syst. 30, 4299–4307 (2017).
+- unstructured: Lanctot, M. et al. A unified game-theoretic approach to multiagent
+    reinforcement learning. Adv. Neural Information Process. Syst. 30, 4190–4203 (2017).
+- unstructured: "Perez, E., Strub, F., De Vries, H., Dumoulin, V. & Courville, A.\
+    \ FiLM: visual reasoning with a general conditioning layer. Preprint at \nhttps://arxiv.org/abs/1709.07871v2\n\
+    \n (2018)."
+- doi: 10.1109/CVPR.2016.90
+  unstructured: He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image
+    recognition. Proc. IEEE Conf. Computer Vision and Pattern Recognition 770–778
+    (2016).
+- unstructured: "Hinton, G., Vinyals, O. & Dean, J. Distilling the knowledge in a\
+    \ neural network. Preprint at \nhttps://arxiv.org/abs/1503.02531v1\n\n (2015)."
+- unstructured: "Kingma, D. P. & Ba, J. Adam: a method for stochastic optimization.\
+    \ Preprint at \nhttps://arxiv.org/abs/1412.6980v9\n\n (2014)."
+- unstructured: Bishop, C. M. Pattern Recognition and Machine Learning (Springer,
+    2006).
+- unstructured: "Rusu, A. A. et al. Policy distillation. Preprint at \nhttps://arxiv.org/abs/1511.06295\n\
+    \n (2016)."
+- unstructured: "Parisotto, E., Ba, J. & Salakhutdinov, R. Actor-mimic: deep multitask\
+    \ and transfer reinforcement learning. Preprint at \nhttps://arxiv.org/abs/1511.06342\n\
+    \n (2016)."
+- unstructured: Precup, D., Sutton, R. S. & Singh, S. P. Eligibility traces for off-policy
+    policy evaluation. ICML ’00 Proc. 17th Intl Conf. Machine Learning 759–766 (2016).
+- unstructured: "DeepMind Research on Ladder. \nhttps://starcraft2.com/en-us/news/22933138\n\
+    \n (2019)."
+- unstructured: "Vinyals, O. et al. AlphaStar: mastering the real-time strategy game\
+    \ StarCraft II \nhttps://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii\n\
+    \n (DeepMind, 2019)."
+doc_url: http://www.nature.com/articles/s41586-019-1724-z
+doi: 10.1038/s41586-019-1724-z
+files:
+- vinyals-oriol-and-babuschkin-igor-and-czarnecki-wojciech-m.-and-mathieu-michael-and-dudzik-andrew-and-chung-junyoung-and-choi-david-h.-and-powe.data
+issue: '7782'
+journal: Nature
+language: en
+month: 11
+pages: 350--354
+publisher: Springer Science and Business Media LLC
+time-added: 2020-11-22-22:41:26
+title: Grandmaster level in StarCraft II using multi-agent reinforcement learning
+type: article
+url: http://dx.doi.org/10.1038/s41586-019-1724-z
+volume: '575'
+year: 2019

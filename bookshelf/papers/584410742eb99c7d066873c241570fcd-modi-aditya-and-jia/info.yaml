@@ -1,0 +1,38 @@
+abstract: Reinforcement learning (RL) methods have been shown to be capable of learning
+  intelligent behavior in rich domains. However, this has largely been done in simulated
+  domains without adequate focus on the process of building the simulator. In this
+  paper, we consider a setting where we have access to an ensemble of pre-trained
+  and possibly inaccurate simulators (models). We approximate the real environment
+  using a state-dependent linear combination of the ensemble, where the coefficients
+  are determined by the given state features and some unknown parameters. Our proposed
+  algorithm provably learns a near-optimal policy with a sample complexity polynomial
+  in the number of unknown parameters, and incurs no dependence on the size of the
+  state (or action) space. As an extension, we also consider the more challenging
+  problem of model selection, where the state features are unknown and can be chosen
+  from a large candidate set. We provide exponential lower bounds that illustrate
+  the fundamental hardness of this problem, and develop a provably efficient algorithm
+  under additional natural assumptions.
+archiveprefix: arXiv
+author: Modi, Aditya and Jiang, Nan and Tewari, Ambuj and Singh, Satinder
+author_list:
+- family: Modi
+  given: Aditya
+- family: Jiang
+  given: Nan
+- family: Tewari
+  given: Ambuj
+- family: Singh
+  given: Satinder
+eprint: 1910.10597v1
+file: 1910.10597v1.pdf
+files:
+- modi-aditya-and-jiang-nan-and-tewari-ambuj-and-singh-satindersample-complexity-of-reinforcement-learning-using-linearly-combined-model-ensembles.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1910.10597v1
+time-added: 2020-12-01-18:10:35
+title: Sample Complexity of Reinforcement Learning using Linearly Combined   Model
+  Ensembles
+type: article
+url: http://arxiv.org/abs/1910.10597v1
+year: '2019'

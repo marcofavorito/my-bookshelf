@@ -1,0 +1,35 @@
+abstract: We consider here Linear Temporal Logic (LTL) formulas interpreted over \emph{finite}
+  traces. We denote this logic by LTLf. The existing approach for LTLf satisfiability
+  checking is based on a reduction to standard LTL satisfiability checking. We describe
+  here a novel direct approach to LTLf satisfiability checking, where we take advantage
+  of the difference in the semantics between LTL and LTLf. While LTL satisfiability
+  checking requires finding a \emph{fair cycle} in an appropriate transition system,
+  here we need to search only for a finite trace. This enables us to introduce specialized
+  heuristics, where we also exploit recent progress in Boolean SAT solving. We have
+  implemented our approach in a prototype tool and experiments show that our approach
+  outperforms existing approaches.
+archiveprefix: arXiv
+author: Li, Jianwen and Zhang, Lijun and Pu, Geguang and Vardi, Moshe Y. and He, Jifeng
+author_list:
+- family: Li
+  given: Jianwen
+- family: Zhang
+  given: Lijun
+- family: Pu
+  given: Geguang
+- family: Vardi
+  given: Moshe Y.
+- family: He
+  given: Jifeng
+eprint: 1403.1666v1
+file: 1403.1666v1.pdf
+files:
+- li-jianwen-and-zhang-lijun-and-pu-geguang-and-vardi-moshe-y.-and-he-jifengltlf-satisfiability-checking2014.pdf
+month: Mar
+primaryclass: cs.LO
+ref: 1403.1666v1
+time-added: 2020-11-30-21:28:56
+title: LTLf satisfiability checking
+type: article
+url: http://arxiv.org/abs/1403.1666v1
+year: '2014'

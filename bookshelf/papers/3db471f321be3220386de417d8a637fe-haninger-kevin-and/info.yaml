@@ -1,0 +1,34 @@
+abstract: 'Learned representations of dynamical systems reduce dimensionality, potentially
+  supporting downstream reinforcement learning (RL). However, no established methods
+  predict a representation''s suitability for control and evaluation is largely done
+  via downstream RL performance, slowing representation design. Towards a principled
+  evaluation of representations for control, we consider the relationship between
+  the true state and the corresponding representations, proposing that ideally each
+  representation corresponds to a unique true state. This motivates two metrics: temporal
+  smoothness and high mutual information between true state/representation. These
+  metrics are related to established representation objectives, and studied on Lagrangian
+  systems where true state, information requirements, and statistical properties of
+  the state can be formalized for a broad class of systems. These metrics are shown
+  to predict reinforcement learning performance in a simulated peg-in-hole task when
+  comparing variants of autoencoder-based representations.'
+archiveprefix: arXiv
+author: Haninger, Kevin and Garcia, Raul Vicente and Krueger, Joerg
+author_list:
+- family: Haninger
+  given: Kevin
+- family: Garcia
+  given: Raul Vicente
+- family: Krueger
+  given: Joerg
+eprint: 2011.09906v2
+file: 2011.09906v2.pdf
+files:
+- haninger-kevin-and-garcia-raul-vicente-and-krueger-joergtowards-learning-controllable-representations-of-physical-systems2020.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2011.09906v2
+time-added: 2020-11-27-00:20:26
+title: Towards Learning Controllable Representations of Physical Systems
+type: article
+url: http://arxiv.org/abs/2011.09906v2
+year: '2020'

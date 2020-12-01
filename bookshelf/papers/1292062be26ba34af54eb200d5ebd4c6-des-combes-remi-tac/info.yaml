@@ -1,0 +1,42 @@
+abstract: While a lot of progress has been made in recent years, the dynamics of learning
+  in deep nonlinear neural networks remain to this day largely misunderstood. In this
+  work, we study the case of binary classification and prove various properties of
+  learning in such networks under strong assumptions such as linear separability of
+  the data. Extending existing results from the linear case, we confirm empirical
+  observations by proving that the classification error also follows a sigmoidal shape
+  in nonlinear architectures. We show that given proper initialization, learning expounds
+  parallel independent modes and that certain regions of parameter space might lead
+  to failed training. We also demonstrate that input norm and features' frequency
+  in the dataset lead to distinct convergence speeds which might shed some light on
+  the generalization capabilities of deep neural networks. We provide a comparison
+  between the dynamics of learning with cross-entropy and hinge losses, which could
+  prove useful to understand recent progress in the training of generative adversarial
+  networks. Finally, we identify a phenomenon that we baptize \textit{gradient starvation}
+  where the most frequent features in a dataset prevent the learning of other less
+  frequent but equally informative features.
+archiveprefix: arXiv
+author: des Combes, Remi Tachet and Pezeshki, Mohammad and Shabanian, Samira and Courville,
+  Aaron and Bengio, Yoshua
+author_list:
+- family: des Combes
+  given: Remi Tachet
+- family: Pezeshki
+  given: Mohammad
+- family: Shabanian
+  given: Samira
+- family: Courville
+  given: Aaron
+- family: Bengio
+  given: Yoshua
+eprint: 1809.06848v2
+file: 1809.06848v2.pdf
+files:
+- des-combes-remi-tachet-and-pezeshki-mohammad-and-shabanian-samira-and-courville-aaron-and-bengio-yoshuaon-the-learning-dynamics-of-deep-neural-ne.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1809.06848v2
+time-added: 2020-11-22-15:09:41
+title: On the Learning Dynamics of Deep Neural Networks
+type: article
+url: http://arxiv.org/abs/1809.06848v2
+year: '2018'

@@ -1,0 +1,120 @@
+author: Somenzi, Fabio and Bloem, Roderick
+author_list:
+- affiliation: []
+  family: Somenzi
+  given: Fabio
+- affiliation: []
+  family: Bloem
+  given: Roderick
+citations:
+- unstructured: 'Aziz, A., Singhal, V., Swamy, G.M., Brayton, R.K.: Minimizing interacting
+    finite state machines. In: Proceedings of the International Conference on Computer
+    Design, Cambridge, MA, October 1994, pp. 255–261 (1994)'
+- author: R. Bloem
+  doi: 10.1007/3-540-48683-6_21
+  first-page: '222'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Bloem, R., Ravi, K., Somenzi, F.: Efficient decision procedures for
+    model checking of linear time logic properties. In: Halbwachs, N., Peled, D.A.
+    (eds.) CAV 1999. LNCS, vol. 1633, pp. 222–235. Springer, Heidelberg (1999)'
+  volume-title: Computer Aided Verification
+  year: '1999'
+- author: R.K. Brayton
+  doi: 10.1007/978-1-4613-2821-6
+  unstructured: 'Brayton, R.K., Hachtel, G.D., McMullen, C.T., Sangiovanni-Vincentelli,
+    A.: Logic Minimization Algorithms for VLSI Synthesis. Kluwer Academic Publishers,
+    Boston (1984)'
+  volume-title: Logic Minimization Algorithms for VLSI Synthesis
+  year: '1984'
+- author: J.R. Burch
+  doi: 10.1016/0890-5401(92)90017-A
+  first-page: '142'
+  journal-title: Information and Computation
+  unstructured: 'Burch, J.R., Clarke, E.M., McMillan, K.L., Dill, D.L., Hwang, L.J.:
+    Symbolic model checking: 1020states and beyond. Information and Computation 98,
+    142–170 (1992)'
+  volume: '98'
+  year: '1992'
+- author: M. Daniele
+  doi: 10.1007/3-540-48683-6_23
+  first-page: '249'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Daniele, M., Giunchiglia, F., Vardi, M.Y.: Improved automata generation
+    for linear time temporal logic. In: Halbwachs, N., Peled, D.A. (eds.) CAV 1999.
+    LNCS, vol. 1633, pp. 249–260. Springer, Heidelberg (1999)'
+  volume-title: Computer Aided Verification
+  year: '1999'
+- author: D.L. Dill
+  first-page: '255'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Dill, D.L., Hu, A.J., Wong-Toi, H.: Checking for language inclusion
+    using simulation relations. In: Larsen, K.G., Skou, A. (eds.) CAV 1991. LNCS,
+    vol. 575, pp. 255–265. Springer, Heidelberg (1991)'
+  volume-title: Third Workshop on Computer Aided Verification (CAV 1991)
+  year: '1991'
+- unstructured: 'Emerson, E.A., Lei, C.-L.: Efficient model checking in fragments
+    of the propositional mu-calculus. In: Proceedings of the First Annual Symposium
+    of Logic in Computer Science, June 1986, pp. 267–278 (1986)'
+- doi: 10.1007/3-540-44618-4_13
+  unstructured: 'Etessami, K., Holzmann, G.: Optimizing Büchi automata (2000) (Submitted
+    for publication)'
+- author: R. Gerth
+  first-page: '3'
+  unstructured: 'Gerth, R., Peled, D., Vardi, M.Y., Wolper, P.: Simple on-the-fly
+    automatic verification of linear temporal logic. In: Protocol Specification, Testing,
+    and Verification, pp. 3–18. Chapman & Hall, Boca Raton (1995)'
+  volume-title: Protocol Specification, Testing, and Verification
+  year: '1995'
+- author: A. Grasselli
+  doi: 10.1109/PGEC.1965.264140
+  first-page: '350'
+  issue: '3'
+  journal-title: IEEE Transactions on Electronic Computers
+  unstructured: 'Grasselli, A., Luccio, F.: A method for minimizing the number of
+    internal states in incompletely specified sequential networks. IEEE Transactions
+    on Electronic Computers EC-14(3), 350–359 (1965)'
+  volume: EC-14
+  year: '1965'
+- unstructured: 'Kesten, Y., Manna, Z., McGuire, H., Pnueli, A.: Checking that finite-state
+    concurrent programs satisfy their linear specification. In: Proceedings of the
+    11th ACM Symposium on Principles of Programming Languages, pp. 97–107 (1984)'
+- doi: 10.1007/BFb0055036
+  unstructured: 'Kesten, Y., Pnueli, A., Raviv, L.O.: Algorithmic verification of
+    linear temporal logic specifications. In: Larsen, K.G., Skyum, S., Winskel, G.
+    (eds.) ICALP 1998. LNCS, vol. 1443, pp. 1–16. Springer, Heidelberg (1998)'
+- doi: 10.1109/LICS.1998.705645
+  unstructured: 'Kupferman, O., Vardi, M.Y.: Freedom, weakness, and determinism: From
+    linear-time to branching-time. In: Proc. 13th IEEE Symposium on Logic in Computer
+    Science (June 1998)'
+- doi: 10.1145/318593.318622
+  unstructured: 'Lichtenstein, O., Pnueli, A.: Checking that finite state concurrent
+    programs satisfy their linear specification. In: Proceedings of the Twelfth Annual
+    ACM Symposium on Principles of Programming Languages, New Orleans (January 1985)'
+- author: E.J. McCluskey Jr.
+  doi: 10.1002/j.1538-7305.1956.tb03835.x
+  first-page: '1417'
+  journal-title: Bell Syst. Technical Journal
+  unstructured: 'McCluskey Jr., E.J.: Minimization of boolean functions. Bell Syst.
+    Technical Journal 35, 1417–1444 (1956)'
+  volume: '35'
+  year: '1956'
+- unstructured: 'Milner, R.: An algebraic definition of simulation between programs.
+    In: Proc. 2nd Int. Joint Conf. on Artificial Intelligence, pp. 481–489 (1971)'
+- unstructured: 'Raimi, R.S.: Environment Modeling and Efficient State Reachability
+    Checking. PhD thesis, University of Texas at Austin (1999)'
+- doi: 10.1109/SFCS.1983.51
+  unstructured: 'Wolper, P., Vardi, M.Y., Sistla, A.P.: Reasoning about infinite computation
+    paths. In: Proceedings of the 24th IEEE Symposyium on Foundations of Computer
+    Science, pp. 185–194 (1983)'
+doi: 10.1007/10722167_21
+isbn:
+- '9783540677703'
+- '9783540450474'
+journal: Computer Aided Verification
+pages: 248--263
+publisher: Springer Berlin Heidelberg
+time-added: 2020-11-22-16:30:38
+title: Efficient Büchi Automata from LTL Formulae
+type: inbook
+url: http://dx.doi.org/10.1007/10722167_21
+year: 2000

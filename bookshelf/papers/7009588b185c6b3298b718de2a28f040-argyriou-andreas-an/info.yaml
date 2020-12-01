@@ -1,0 +1,35 @@
+abstract: We consider a general class of regularization methods which learn a vector
+  of parameters on the basis of linear measurements. It is well known that if the
+  regularizer is a nondecreasing function of the inner product then the learned vector
+  is a linear combination of the input data. This result, known as the {\em representer
+  theorem}, is at the basis of kernel-based methods in machine learning. In this paper,
+  we prove the necessity of the above condition, thereby completing the characterization
+  of kernel methods based on regularization. We further extend our analysis to regularization
+  methods which learn a matrix, a problem which is motivated by the application to
+  multi-task learning. In this context, we study a more general representer theorem,
+  which holds for a larger class of regularizers. We provide a necessary and sufficient
+  condition for these class of matrix regularizers and highlight them with some concrete
+  examples of practical importance. Our analysis uses basic principles from matrix
+  theory, especially the useful notion of matrix nondecreasing function.
+archiveprefix: arXiv
+author: Argyriou, Andreas and Micchelli, Charles and Pontil, Massimiliano
+author_list:
+- family: Argyriou
+  given: Andreas
+- family: Micchelli
+  given: Charles
+- family: Pontil
+  given: Massimiliano
+eprint: 0809.1590v1
+file: 0809.1590v1.pdf
+files:
+- argyriou-andreas-and-micchelli-charles-and-pontil-massimilianowhen-is-there-a-representer-theorem-vector-versus-matrix-regularizers2008.pdf
+month: Sep
+note: Journal of Machine Learning Research, 10:2507-2529, 2009
+primaryclass: cs.LG
+ref: 0809.1590v1
+time-added: 2020-11-22-10:32:50
+title: When is there a representer theorem? Vector versus matrix regularizers
+type: article
+url: http://arxiv.org/abs/0809.1590v1
+year: '2008'

@@ -1,0 +1,51 @@
+abstract: The purpose of this technical report is two-fold. First of all, it introduces
+  a suite of challenging continuous control tasks (integrated with OpenAI Gym) based
+  on currently existing robotics hardware. The tasks include pushing, sliding and
+  pick & place with a Fetch robotic arm as well as in-hand object manipulation with
+  a Shadow Dexterous Hand. All tasks have sparse binary rewards and follow a Multi-Goal
+  Reinforcement Learning (RL) framework in which an agent is told what to do using
+  an additional input.   The second part of the paper presents a set of concrete research
+  ideas for improving RL algorithms, most of which are related to Multi-Goal RL and
+  Hindsight Experience Replay.
+archiveprefix: arXiv
+author: Plappert, Matthias and Andrychowicz, Marcin and Ray, Alex and McGrew, Bob
+  and Baker, Bowen and Powell, Glenn and Schneider, Jonas and Tobin, Josh and Chociej,
+  Maciek and Welinder, Peter and Kumar, Vikash and Zaremba, Wojciech
+author_list:
+- family: Plappert
+  given: Matthias
+- family: Andrychowicz
+  given: Marcin
+- family: Ray
+  given: Alex
+- family: McGrew
+  given: Bob
+- family: Baker
+  given: Bowen
+- family: Powell
+  given: Glenn
+- family: Schneider
+  given: Jonas
+- family: Tobin
+  given: Josh
+- family: Chociej
+  given: Maciek
+- family: Welinder
+  given: Peter
+- family: Kumar
+  given: Vikash
+- family: Zaremba
+  given: Wojciech
+eprint: 1802.09464v2
+file: 1802.09464v2.pdf
+files:
+- plappert-matthias-and-andrychowicz-marcin-and-ray-alex-and-mcgrew-bob-and-baker-bowen-and-powell-glenn-and-schneider-jonas-and-tobin-josh-and.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1802.09464v2
+time-added: 2020-12-01-18:42:18
+title: 'Multi-Goal Reinforcement Learning: Challenging Robotics Environments and   Request
+  for Research'
+type: article
+url: http://arxiv.org/abs/1802.09464v2
+year: '2018'

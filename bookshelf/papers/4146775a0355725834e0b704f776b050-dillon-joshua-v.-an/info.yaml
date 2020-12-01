@@ -1,0 +1,50 @@
+abstract: The TensorFlow Distributions library implements a vision of probability
+  theory adapted to the modern deep-learning paradigm of end-to-end differentiable
+  computation. Building on two basic abstractions, it offers flexible building blocks
+  for probabilistic computation. Distributions provide fast, numerically stable methods
+  for generating samples and computing statistics, e.g., log density. Bijectors provide
+  composable volume-tracking transformations with automatic caching. Together these
+  enable modular construction of high dimensional distributions and transformations
+  not possible with previous libraries (e.g., pixelCNNs, autoregressive flows, and
+  reversible residual networks). They are the workhorse behind deep probabilistic
+  programming systems like Edward and empower fast black-box inference in probabilistic
+  models built on deep-network components. TensorFlow Distributions has proven an
+  important part of the TensorFlow toolkit within Google and in the broader deep learning
+  community.
+archiveprefix: arXiv
+author: Dillon, Joshua V. and Langmore, Ian and Tran, Dustin and Brevdo, Eugene and
+  Vasudevan, Srinivas and Moore, Dave and Patton, Brian and Alemi, Alex and Hoffman,
+  Matt and Saurous, Rif A.
+author_list:
+- family: Dillon
+  given: Joshua V.
+- family: Langmore
+  given: Ian
+- family: Tran
+  given: Dustin
+- family: Brevdo
+  given: Eugene
+- family: Vasudevan
+  given: Srinivas
+- family: Moore
+  given: Dave
+- family: Patton
+  given: Brian
+- family: Alemi
+  given: Alex
+- family: Hoffman
+  given: Matt
+- family: Saurous
+  given: Rif A.
+eprint: 1711.10604v1
+file: 1711.10604v1.pdf
+files:
+- dillon-joshua-v.-and-langmore-ian-and-tran-dustin-and-brevdo-eugene-and-vasudevan-srinivas-and-moore-dave-and-patton-brian-and-alemi-alex-and.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1711.10604v1
+time-added: 2020-11-22-09:26:35
+title: TensorFlow Distributions
+type: article
+url: http://arxiv.org/abs/1711.10604v1
+year: '2017'

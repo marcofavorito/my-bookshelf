@@ -1,0 +1,31 @@
+abstract: Effectively incorporating external advice is an important problem in reinforcement
+  learning, especially as it moves into the real world. Potential-based reward shaping
+  is a way to provide the agent with a specific form of additional reward, with the
+  guarantee of policy invariance. In this work we give a novel way to incorporate
+  an arbitrary reward function with the same guarantee, by implicitly translating
+  it into the specific form of dynamic advice potentials, which are maintained as
+  an auxiliary value function learnt at the same time. We show that advice provided
+  in this way captures the input reward function in expectation, and demonstrate its
+  efficacy empirically.
+author: Harutyunyan, Anna and Devlin, Sam and Vrancx, Peter and Nowe, Ann
+author_list:
+- family: Harutyunyan
+  given: Anna
+- family: Devlin
+  given: Sam
+- family: Vrancx
+  given: Peter
+- family: Nowe
+  given: Ann
+booktitle: Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence
+isbn: 0262511290
+location: Austin, Texas
+numpages: '7'
+pages: 2652–2658
+publisher: AAAI Press
+ref: 10.5555/2886521.2886690
+series: AAAI'15
+time-added: 2020-11-27-19:35:26
+title: Expressing Arbitrary Reward Functions as Potential-Based Advice
+type: inproceedings
+year: '2015'
