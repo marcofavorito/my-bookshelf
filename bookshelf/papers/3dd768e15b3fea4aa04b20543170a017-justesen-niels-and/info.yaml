@@ -1,0 +1,44 @@
+abstract: Deep reinforcement learning (RL) has shown impressive results in a variety
+  of domains, learning directly from high-dimensional sensory streams. However, when
+  neural networks are trained in a fixed environment, such as a single level in a
+  video game, they will usually overfit and fail to generalize to new levels. When
+  RL models overfit, even slight modifications to the environment can result in poor
+  agent performance. This paper explores how procedurally generated levels during
+  training can increase generality. We show that for some games procedural level generation
+  enables generalization to new levels within the same distribution. Additionally,
+  it is possible to achieve better performance with less data by manipulating the
+  difficulty of the levels in response to the performance of the agent. The generality
+  of the learned behaviors is also evaluated on a set of human-designed levels. The
+  results suggest that the ability to generalize to human-designed levels highly depends
+  on the design of the level generators. We apply dimensionality reduction and clustering
+  techniques to visualize the generators' distributions of levels and analyze to what
+  degree they can produce levels similar to those designed by a human.
+archiveprefix: arXiv
+author: Justesen, Niels and Torrado, Ruben Rodriguez and Bontrager, Philip and Khalifa,
+  Ahmed and Togelius, Julian and Risi, Sebastian
+author_list:
+- family: Justesen
+  given: Niels
+- family: Torrado
+  given: Ruben Rodriguez
+- family: Bontrager
+  given: Philip
+- family: Khalifa
+  given: Ahmed
+- family: Togelius
+  given: Julian
+- family: Risi
+  given: Sebastian
+eprint: 1806.10729v5
+file: 1806.10729v5.pdf
+files:
+- justesen-niels-and-torrado-ruben-rodriguez-and-bontrager-philip-and-khalifa-ahmed-and-togelius-julian-and-risi-sebastianilluminating-generalizat.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1806.10729v5
+time-added: 2020-12-10-15:40:49
+title: Illuminating Generalization in Deep Reinforcement Learning through   Procedural
+  Level Generation
+type: article
+url: http://arxiv.org/abs/1806.10729v5
+year: '2018'

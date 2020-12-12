@@ -1,0 +1,32 @@
+abstract: In recent years there is a growing interest in using deep representations
+  for reinforcement learning. In this paper, we present a methodology and tools to
+  analyze Deep Q-networks (DQNs) in a non-blind matter. Moreover, we propose a new
+  model, the Semi Aggregated Markov Decision Process (SAMDP), and an algorithm that
+  learns it automatically. The SAMDP model allows us to identify spatio-temporal abstractions
+  directly from features and may be used as a sub-goal detector in future work. Using
+  our tools we reveal that the features learned by DQNs aggregate the state space
+  in a hierarchical fashion, explaining its success. Moreover, we are able to understand
+  and describe the policies learned by DQNs for three different Atari2600 games and
+  suggest ways to interpret, debug and optimize deep neural networks in reinforcement
+  learning.
+archiveprefix: arXiv
+author: Zahavy, Tom and Zrihem, Nir Ben and Mannor, Shie
+author_list:
+- family: Zahavy
+  given: Tom
+- family: Zrihem
+  given: Nir Ben
+- family: Mannor
+  given: Shie
+eprint: 1602.02658v4
+file: 1602.02658v4.pdf
+files:
+- zahavy-tom-and-zrihem-nir-ben-and-mannor-shiegraying-the-black-box-understanding-dqns2016.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1602.02658v4
+time-added: 2020-12-02-12:22:02
+title: 'Graying the black box: Understanding DQNs'
+type: article
+url: http://arxiv.org/abs/1602.02658v4
+year: '2016'

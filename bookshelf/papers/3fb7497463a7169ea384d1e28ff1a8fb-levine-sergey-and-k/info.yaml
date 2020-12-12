@@ -1,0 +1,33 @@
+abstract: Direct policy search can effectively scale to high-dimensional systems,
+  but complex policies with hundreds of parameters often present a challenge for such
+  methods, requiring numerous samples and often falling into poor local optima. We
+  present a guided policy search algorithm that uses trajectory optimization to direct
+  policy learning and avoid poor local optima. We show how differential dynamic programming
+  can be used to generate suitable guiding samples, and describe a regularized importance
+  sampled policy optimization that incorporates these samples into the policy search.
+  We evaluate the method by learning neural network controllers for planar swimming,
+  hopping, and walking, as well as simulated 3D humanoid running.
+address: Atlanta, Georgia, USA
+author: Levine, Sergey and Koltun, Vladlen
+author_list:
+- family: Levine
+  given: Sergey
+- family: Koltun
+  given: Vladlen
+booktitle: Proceedings of the 30th International Conference on Machine Learning
+editor: Sanjoy Dasgupta and David McAllester
+files:
+- levine-sergey-and-koltun-vladlenguided-policy-search2013.pdf
+month: 17--19 Jun
+number: '3'
+pages: 1--9
+pdf: http://proceedings.mlr.press/v28/levine13.pdf
+publisher: PMLR
+ref: pmlr-v28-levine13
+series: Proceedings of Machine Learning Research
+time-added: 2020-12-02-16:32:56
+title: Guided Policy Search
+type: inproceedings
+url: http://proceedings.mlr.press/v28/levine13.html
+volume: '28'
+year: '2013'

@@ -1,0 +1,40 @@
+abstract: Forecasting high-dimensional time series plays a crucial role in many applications
+  such as demand forecasting and financial predictions. Modern datasets can have millions
+  of correlated time-series that evolve together, i.e they are extremely high dimensional
+  (one dimension for each individual time-series). There is a need for exploiting
+  global patterns and coupling them with local calibration for better prediction.
+  However, most recent deep learning approaches in the literature are one-dimensional,
+  i.e, even though they are trained on the whole dataset, during prediction, the future
+  forecast for a single dimension mainly depends on past values from the same dimension.
+  In this paper, we seek to correct this deficiency and propose DeepGLO, a deep forecasting
+  model which thinks globally and acts locally. In particular, DeepGLO is a hybrid
+  model that combines a global matrix factorization model regularized by a temporal
+  convolution network, along with another temporal network that can capture local
+  properties of each time-series and associated covariates. Our model can be trained
+  effectively on high-dimensional but diverse time series, where different time series
+  can have vastly different scales, without a priori normalization or rescaling. Empirical
+  results demonstrate that DeepGLO can outperform state-of-the-art approaches; for
+  example, we see more than 25% improvement in WAPE over other methods on a public
+  dataset that contains more than 100K-dimensional time series.
+archiveprefix: arXiv
+author: Sen, Rajat and Yu, Hsiang-Fu and Dhillon, Inderjit
+author_list:
+- family: Sen
+  given: Rajat
+- family: Yu
+  given: Hsiang-Fu
+- family: Dhillon
+  given: Inderjit
+eprint: 1905.03806v2
+file: 1905.03806v2.pdf
+files:
+- sen-rajat-and-yu-hsiang-fu-and-dhillon-inderjitthink-globally-act-locally-a-deep-neural-network-approach-to-high-dimensional-time-series-foreca.pdf
+month: May
+primaryclass: stat.ML
+ref: 1905.03806v2
+time-added: 2020-12-02-15:20:02
+title: 'Think Globally, Act Locally: A Deep Neural Network Approach to   High-Dimensional
+  Time Series Forecasting'
+type: article
+url: http://arxiv.org/abs/1905.03806v2
+year: '2019'

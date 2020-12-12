@@ -1,0 +1,34 @@
+abstract: 'Multiple-step lookahead policies have demonstrated high empirical competence
+  in Reinforcement Learning, via the use of Monte Carlo Tree Search or Model Predictive
+  Control. In a recent work \cite{efroni2018beyond}, multiple-step greedy policies
+  and their use in vanilla Policy Iteration algorithms were proposed and analyzed.
+  In this work, we study multiple-step greedy algorithms in more practical setups.
+  We begin by highlighting a counter-intuitive difficulty, arising with soft-policy
+  updates: even in the absence of approximations, and contrary to the 1-step-greedy
+  case, monotonic policy improvement is not guaranteed unless the update stepsize
+  is sufficiently large. Taking particular care about this difficulty, we formulate
+  and analyze online and approximate algorithms that use such a multi-step greedy
+  operator.'
+archiveprefix: arXiv
+author: Efroni, Yonathan and Dalal, Gal and Scherrer, Bruno and Mannor, Shie
+author_list:
+- family: Efroni
+  given: Yonathan
+- family: Dalal
+  given: Gal
+- family: Scherrer
+  given: Bruno
+- family: Mannor
+  given: Shie
+eprint: 1805.07956v2
+file: 1805.07956v2.pdf
+files:
+- efroni-yonathan-and-dalal-gal-and-scherrer-bruno-and-mannor-shiemultiple-step-greedy-policies-in-online-and-approximate-reinforcement-learning20.pdf
+month: May
+primaryclass: cs.LG
+ref: 1805.07956v2
+time-added: 2020-12-02-16:29:39
+title: Multiple-Step Greedy Policies in Online and Approximate Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/1805.07956v2
+year: '2018'

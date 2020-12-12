@@ -1,0 +1,37 @@
+abstract: 'Sequential decision making, commonly formalized as Markov Decision Process
+  (MDP) optimization, is a key challenge in artificial intelligence. Two key approaches
+  to this problem are reinforcement learning (RL) and planning. This paper presents
+  a survey of the integration of both fields, better known as model-based reinforcement
+  learning. Model-based RL has two main steps. First, we systematically cover approaches
+  to dynamics model learning, including challenges like dealing with stochasticity,
+  uncertainty, partial observability, and temporal abstraction. Second, we present
+  a systematic categorization of planning-learning integration, including aspects
+  like: where to start planning, what budgets to allocate to planning and real data
+  collection, how to plan, and how to integrate planning in the learning and acting
+  loop. After these two key sections, we also discuss the potential benefits of model-based
+  RL, like enhanced data efficiency, targeted exploration, and improved stability.
+  Along the survey, we also draw connections to several related RL fields, like hierarchical
+  RL and transfer, and other research disciplines, like behavioural psychology. Altogether,
+  the survey presents a broad conceptual overview of planning-learning combinations
+  for MDP optimization.'
+archiveprefix: arXiv
+author: Moerland, Thomas M. and Broekens, Joost and Jonker, Catholijn M.
+author_list:
+- family: Moerland
+  given: Thomas M.
+- family: Broekens
+  given: Joost
+- family: Jonker
+  given: Catholijn M.
+eprint: 2006.16712v2
+file: 2006.16712v2.pdf
+files:
+- moerland-thomas-m.-and-broekens-joost-and-jonker-catholijn-m.model-based-reinforcement-learning-a-survey2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.16712v2
+time-added: 2020-12-02-12:37:48
+title: 'Model-based Reinforcement Learning: A Survey'
+type: article
+url: http://arxiv.org/abs/2006.16712v2
+year: '2020'

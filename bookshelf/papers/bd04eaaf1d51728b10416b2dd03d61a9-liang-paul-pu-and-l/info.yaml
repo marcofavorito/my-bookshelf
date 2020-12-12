@@ -1,0 +1,46 @@
+abstract: Federated learning is a method of training models on private data distributed
+  over multiple devices. To keep device data private, the global model is trained
+  by only communicating parameters and updates which poses scalability challenges
+  for large models. To this end, we propose a new federated learning algorithm that
+  jointly learns compact local representations on each device and a global model across
+  all devices. As a result, the global model can be smaller since it only operates
+  on local representations, reducing the number of communicated parameters. Theoretically,
+  we provide a generalization analysis which shows that a combination of local and
+  global models reduces both variance in the data as well as variance across device
+  distributions. Empirically, we demonstrate that local models enable communication-efficient
+  training while retaining performance. We also evaluate on the task of personalized
+  mood prediction from real-world mobile data where privacy is key. Finally, local
+  models handle heterogeneous data from new devices, and learn fair representations
+  that obfuscate protected attributes such as race, age, and gender.
+archiveprefix: arXiv
+author: Liang, Paul Pu and Liu, Terrance and Ziyin, Liu and Allen, Nicholas B. and
+  Auerbach, Randy P. and Brent, David and Salakhutdinov, Ruslan and Morency, Louis-Philippe
+author_list:
+- family: Liang
+  given: Paul Pu
+- family: Liu
+  given: Terrance
+- family: Ziyin
+  given: Liu
+- family: Allen
+  given: Nicholas B.
+- family: Auerbach
+  given: Randy P.
+- family: Brent
+  given: David
+- family: Salakhutdinov
+  given: Ruslan
+- family: Morency
+  given: Louis-Philippe
+eprint: 2001.01523v3
+file: 2001.01523v3.pdf
+files:
+- liang-paul-pu-and-liu-terrance-and-ziyin-liu-and-allen-nicholas-b.-and-auerbach-randy-p.-and-brent-david-and-salakhutdinov-ruslan-and-morency.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2001.01523v3
+time-added: 2020-12-02-15:19:46
+title: 'Think Locally, Act Globally: Federated Learning with Local and Global   Representations'
+type: article
+url: http://arxiv.org/abs/2001.01523v3
+year: '2020'

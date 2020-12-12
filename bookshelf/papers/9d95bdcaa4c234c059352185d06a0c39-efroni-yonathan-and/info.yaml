@@ -1,0 +1,34 @@
+abstract: The famous Policy Iteration algorithm alternates between policy improvement
+  and policy evaluation. Implementations of this algorithm with several variants of
+  the latter evaluation stage, e.g, $n$-step and trace-based returns, have been analyzed
+  in previous works. However, the case of multiple-step lookahead policy improvement,
+  despite the recent increase in empirical evidence of its strength, has to our knowledge
+  not been carefully analyzed yet. In this work, we introduce the first such analysis.
+  Namely, we formulate variants of multiple-step policy improvement, derive new algorithms
+  using these definitions and prove their convergence. Moreover, we show that recent
+  prominent Reinforcement Learning algorithms are, in fact, instances of our framework.
+  We thus shed light on their empirical success and give a recipe for deriving new
+  algorithms for future study.
+archiveprefix: arXiv
+author: Efroni, Yonathan and Dalal, Gal and Scherrer, Bruno and Mannor, Shie
+author_list:
+- family: Efroni
+  given: Yonathan
+- family: Dalal
+  given: Gal
+- family: Scherrer
+  given: Bruno
+- family: Mannor
+  given: Shie
+eprint: 1802.03654v3
+file: 1802.03654v3.pdf
+files:
+- efroni-yonathan-and-dalal-gal-and-scherrer-bruno-and-mannor-shiebeyond-the-one-step-greedy-approach-in-reinforcement-learning2018.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1802.03654v3
+time-added: 2020-12-02-16:19:37
+title: Beyond the One Step Greedy Approach in Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1802.03654v3
+year: '2018'

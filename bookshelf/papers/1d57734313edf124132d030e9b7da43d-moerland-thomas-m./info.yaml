@@ -1,0 +1,38 @@
+abstract: 'Planning and reinforcement learning are two key approaches to sequential
+  decision making. Multi-step approximate real-time dynamic programming, a recently
+  successful algorithm class of which AlphaZero [Silver et al., 2018] is an example,
+  combines both by nesting planning within a learning loop. However, the combination
+  of planning and learning introduces a new question: how should we balance time spend
+  on planning, learning and acting? The importance of this trade-off has not been
+  explicitly studied before. We show that it is actually of key importance, with computational
+  results indicating that we should neither plan too long nor too short. Conceptually,
+  we identify a new spectrum of planning-learning algorithms which ranges from exhaustive
+  search (long planning) to model-free RL (no planning), with optimal performance
+  achieved midway.'
+archiveprefix: arXiv
+author: Moerland, Thomas M. and Deichler, Anna and Baldi, Simone and Broekens, Joost
+  and Jonker, Catholijn M.
+author_list:
+- family: Moerland
+  given: Thomas M.
+- family: Deichler
+  given: Anna
+- family: Baldi
+  given: Simone
+- family: Broekens
+  given: Joost
+- family: Jonker
+  given: Catholijn M.
+eprint: 2005.07404v1
+file: 2005.07404v1.pdf
+files:
+- moerland-thomas-m.-and-deichler-anna-and-baldi-simone-and-broekens-joost-and-jonker-catholijn-m.think-too-fast-nor-too-slow-the-computational-tr.pdf
+month: May
+primaryclass: cs.AI
+ref: 2005.07404v1
+time-added: 2020-12-02-16:56:13
+title: 'Think Too Fast Nor Too Slow: The Computational Trade-off Between   Planning
+  And Reinforcement Learning'
+type: article
+url: http://arxiv.org/abs/2005.07404v1
+year: '2020'

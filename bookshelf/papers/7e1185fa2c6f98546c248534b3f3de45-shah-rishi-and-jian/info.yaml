@@ -1,0 +1,38 @@
+abstract: Coverage path planning is a well-studied problem in robotics in which a
+  robot must plan a path that passes through every point in a given area repeatedly,
+  usually with a uniform frequency. To address the scenario in which some points need
+  to be visited more frequently than others, this problem has been extended to non-uniform
+  coverage planning. This paper considers the variant of non-uniform coverage in which
+  the robot does not know the distribution of relevant events beforehand and must
+  nevertheless learn to maximize the rate of detecting events of interest. This continual
+  area sweeping problem has been previously formalized in a way that makes strong
+  assumptions about the environment, and to date only a greedy approach has been proposed.
+  We generalize the continual area sweeping formulation to include fewer environmental
+  constraints, and propose a novel approach based on reinforcement learning in a Semi-Markov
+  Decision Process. This approach is evaluated in an abstract simulation and in a
+  high fidelity Gazebo simulation. These evaluations show significant improvement
+  upon the existing approach in general settings, which is especially relevant in
+  the growing area of service robotics.
+archiveprefix: arXiv
+author: Shah, Rishi and Jiang, Yuqian and Hart, Justin and Stone, Peter
+author_list:
+- family: Shah
+  given: Rishi
+- family: Jiang
+  given: Yuqian
+- family: Hart
+  given: Justin
+- family: Stone
+  given: Peter
+eprint: 2006.00589v1
+file: 2006.00589v1.pdf
+files:
+- shah-rishi-and-jiang-yuqian-and-hart-justin-and-stone-peterdeep-r-learning-for-continual-area-sweeping2020.pdf
+month: May
+primaryclass: cs.LG
+ref: 2006.00589v1
+time-added: 2020-12-02-18:08:35
+title: Deep R-Learning for Continual Area Sweeping
+type: article
+url: http://arxiv.org/abs/2006.00589v1
+year: '2020'

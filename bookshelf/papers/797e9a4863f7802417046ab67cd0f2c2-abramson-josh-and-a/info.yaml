@@ -1,0 +1,91 @@
+abstract: 'A common vision from science fiction is that robots will one day inhabit
+  our physical spaces, sense the world as we do, assist our physical labours, and
+  communicate with us through natural language. Here we study how to design artificial
+  agents that can interact naturally with humans using the simplification of a virtual
+  environment. This setting nevertheless integrates a number of the central challenges
+  of artificial intelligence (AI) research: complex visual perception and goal-directed
+  physical control, grounded language comprehension and production, and multi-agent
+  social interaction. To build agents that can robustly interact with humans, we would
+  ideally train them while they interact with humans. However, this is presently impractical.
+  Therefore, we approximate the role of the human with another learned agent, and
+  use ideas from inverse reinforcement learning to reduce the disparities between
+  human-human and agent-agent interactive behaviour. Rigorously evaluating our agents
+  poses a great challenge, so we develop a variety of behavioural tests, including
+  evaluation by humans who watch videos of agents or interact directly with them.
+  These evaluations convincingly demonstrate that interactive training and auxiliary
+  losses improve agent behaviour beyond what is achieved by supervised learning of
+  actions alone. Further, we demonstrate that agent capabilities generalise beyond
+  literal experiences in the dataset. Finally, we train evaluation models whose ratings
+  of agents agree well with human judgement, thus permitting the evaluation of new
+  agent models without additional effort. Taken together, our results in this virtual
+  environment provide evidence that large-scale human behavioural imitation is a promising
+  tool to create intelligent, interactive agents, and the challenge of reliably evaluating
+  such agents is possible to surmount.'
+archiveprefix: arXiv
+author: Abramson, Josh and Ahuja, Arun and Brussee, Arthur and Carnevale, Federico
+  and Cassin, Mary and Clark, Stephen and Dudzik, Andrew and Georgiev, Petko and Guy,
+  Aurelia and Harley, Tim and Hill, Felix and Hung, Alden and Kenton, Zachary and
+  Landon, Jessica and Lillicrap, Timothy and Mathewson, Kory and Muldal, Alistair
+  and Santoro, Adam and Savinov, Nikolay and Varma, Vikrant and Wayne, Greg and Wong,
+  Nathaniel and Yan, Chen and Zhu, Rui
+author_list:
+- family: Abramson
+  given: Josh
+- family: Ahuja
+  given: Arun
+- family: Brussee
+  given: Arthur
+- family: Carnevale
+  given: Federico
+- family: Cassin
+  given: Mary
+- family: Clark
+  given: Stephen
+- family: Dudzik
+  given: Andrew
+- family: Georgiev
+  given: Petko
+- family: Guy
+  given: Aurelia
+- family: Harley
+  given: Tim
+- family: Hill
+  given: Felix
+- family: Hung
+  given: Alden
+- family: Kenton
+  given: Zachary
+- family: Landon
+  given: Jessica
+- family: Lillicrap
+  given: Timothy
+- family: Mathewson
+  given: Kory
+- family: Muldal
+  given: Alistair
+- family: Santoro
+  given: Adam
+- family: Savinov
+  given: Nikolay
+- family: Varma
+  given: Vikrant
+- family: Wayne
+  given: Greg
+- family: Wong
+  given: Nathaniel
+- family: Yan
+  given: Chen
+- family: Zhu
+  given: Rui
+eprint: 2012.05672v1
+file: 2012.05672v1.pdf
+files:
+- abramson-josh-and-ahuja-arun-and-brussee-arthur-and-carnevale-federico-and-cassin-mary-and-clark-stephen-and-dudzik-andrew-and-georgiev-petko.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 2012.05672v1
+time-added: 2020-12-11-21:12:56
+title: Imitating Interactive Intelligence
+type: article
+url: http://arxiv.org/abs/2012.05672v1
+year: '2020'

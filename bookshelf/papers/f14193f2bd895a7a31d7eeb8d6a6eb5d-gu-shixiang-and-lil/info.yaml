@@ -1,0 +1,39 @@
+abstract: Model-free reinforcement learning has been successfully applied to a range
+  of challenging problems, and has recently been extended to handle large neural network
+  policies and value functions. However, the sample complexity of model-free algorithms,
+  particularly when using high-dimensional function approximators, tends to limit
+  their applicability to physical systems. In this paper, we explore algorithms and
+  representations to reduce the sample complexity of deep reinforcement learning for
+  continuous control tasks. We propose two complementary techniques for improving
+  the efficiency of such algorithms. First, we derive a continuous variant of the
+  Q-learning algorithm, which we call normalized adantage functions (NAF), as an alternative
+  to the more commonly used policy gradient and actor-critic methods. NAF representation
+  allows us to apply Q-learning with experience replay to continuous tasks, and substantially
+  improves performance on a set of simulated robotic control tasks. To further improve
+  the efficiency of our approach, we explore the use of learned models for accelerating
+  model-free reinforcement learning. We show that iteratively refitted local linear
+  models are especially effective for this, and demonstrate substantially faster learning
+  on domains where such models are applicable.
+archiveprefix: arXiv
+author: Gu, Shixiang and Lillicrap, Timothy and Sutskever, Ilya and Levine, Sergey
+author_list:
+- family: Gu
+  given: Shixiang
+- family: Lillicrap
+  given: Timothy
+- family: Sutskever
+  given: Ilya
+- family: Levine
+  given: Sergey
+eprint: 1603.00748v1
+file: 1603.00748v1.pdf
+files:
+- gu-shixiang-and-lillicrap-timothy-and-sutskever-ilya-and-levine-sergeycontinuous-deep-q-learning-with-model-based-acceleration2016.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1603.00748v1
+time-added: 2020-12-02-16:01:44
+title: Continuous Deep Q-Learning with Model-based Acceleration
+type: article
+url: http://arxiv.org/abs/1603.00748v1
+year: '2016'

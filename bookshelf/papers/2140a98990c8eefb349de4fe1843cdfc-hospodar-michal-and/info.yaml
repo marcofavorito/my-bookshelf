@@ -1,0 +1,110 @@
+abstract: <jats:p>We study the state complexity of the concatenation operation on
+  regular languages represented by deterministic and alternating finite automata.
+  For deterministic automata, we show that the upper bound <jats:italic>m</jats:italic>2<jats:sup><jats:italic>n</jats:italic></jats:sup>
+  − <jats:italic>k</jats:italic>2<jats:sup><jats:italic>n</jats:italic>−1</jats:sup>
+  on the state complexity of concatenation can be met by ternary languages, the first
+  of which is accepted by an <jats:italic>m</jats:italic>-state DFA with <jats:italic>k</jats:italic>
+  final states, and the second one by an <jats:italic>n</jats:italic>-state DFA with
+  <jats:italic>ℓ</jats:italic> final states for arbitrary integers <jats:italic>m</jats:italic>,
+  <jats:italic>n</jats:italic>, <jats:italic>k</jats:italic>, <jats:italic>ℓ</jats:italic>
+  with 1 ≤ <jats:italic>k</jats:italic> ≤ <jats:italic>m</jats:italic> − 1 and 1 ≤
+  <jats:italic>ℓ</jats:italic> ≤ <jats:italic>n</jats:italic> − 1. In the case of
+  <jats:italic>k</jats:italic> ≤ <jats:italic>m</jats:italic> − 2, we are able to
+  provide appropriate binary witnesses. In the case of <jats:italic>k</jats:italic>
+  = <jats:italic>m</jats:italic> − 1 and <jats:italic>ℓ</jats:italic> ≥ 2, we provide
+  a lower bound which is smaller than the upper bound just by one. We use our binary
+  witnesses for concatenation on deterministic automata to describe binary languages
+  meeting the upper bound 2<jats:sup><jats:italic>m</jats:italic></jats:sup> + <jats:italic>n</jats:italic>
+  + 1 for the concatenation on alternating finite automata. This solves an open problem
+  stated by Fellah <jats:italic>et al.</jats:italic> [<jats:italic>Int. J. Comput.
+  Math.</jats:italic> <jats:bold>35</jats:bold> (1990) 117–132].</jats:p>
+author: Hospodár, Michal and Jirásková, Galina
+author_list:
+- affiliation: []
+  family: Hospodár
+  given: Michal
+- affiliation: []
+  family: Jirásková
+  given: Galina
+citations:
+- author: Brzozowski
+  doi: 10.1016/0304-3975(80)90069-9
+  first-page: '19'
+  journal-title: Theoret. Comput. Sci
+  volume: '10'
+  year: '1980'
+- unstructured: "Dorčák E., \nConcatenation of regular languages and state complexity,\
+    \ \nŠVK thesis. P. J. Šafárik University, Košice \n(2015)"
+- author: Fellah
+  doi: 10.1080/00207169008803893
+  first-page: '117'
+  journal-title: Int. J. Comput. Math
+  volume: '35'
+  year: '1990'
+- unstructured: "Hopcroft J.E., and \nUllman J.D., \nIntroduction to Automata Theory,\
+    \ \nLanguages and Computation. Addison-Wesley \n(1979)"
+- author: Jirásek
+  doi: 10.1142/S0129054105003133
+  first-page: '511'
+  journal-title: Int. J. Found. Comput. Sci
+  volume: '16'
+  year: '2005'
+- author: Jirásková
+  doi: 10.1016/j.tcs.2004.04.011
+  first-page: '287'
+  journal-title: Theoret. Comput. Sci
+  volume: '330'
+  year: '2005'
+- doi: 10.1007/978-3-642-30642-6_19
+  unstructured: "Jirásková G., \nDescriptional complexity of operations on alternating\
+    \ and boolean automata. In \nCSR 2012, edited by \nHirsch E. et al. \nVol. 7353\
+    \ of Lect. Notes Comput Sci. Springer \n(2012) 196–204"
+- author: Leiss
+  doi: 10.1016/S0304-3975(81)80005-9
+  first-page: '323'
+  journal-title: Theoret. Comput. Sci
+  volume: '13'
+  year: '1981'
+- author: Leiss
+  doi: 10.1016/0304-3975(81)90005-0
+  first-page: '63'
+  journal-title: Theoret. Comput. Sci
+  volume: '14'
+  year: '1981'
+- author: Maslov
+  first-page: '1373'
+  journal-title: Soviet Math. Doklady
+  volume: '11'
+  year: '1970'
+- author: Rabin
+  doi: 10.1147/rd.32.0114
+  first-page: '114'
+  journal-title: IBM Res. Develop
+  volume: '3'
+  year: '1959'
+- unstructured: "Sipser M., \nIntroduction to the theory of computation. \nCengage\
+    \ Learning, \nBoston \n(2012)"
+- doi: 10.1007/978-3-642-59136-5_2
+  unstructured: "Yu S., Regular languages, Chapter 2. In vol. I of \nHandbook of Formal\
+    \ Languages, edited by \nRozenberg G. and \nSalomaa A.. \nSpringer Heidelberg\
+    \ \n(1997) 41–110"
+- author: Yu
+  doi: 10.1016/0304-3975(92)00011-F
+  first-page: '315'
+  journal-title: Theoret. Comput. Sci
+  volume: '125'
+  year: '1994'
+doi: 10.1051/ita/2018011
+files:
+- hospodar-michal-and-jiraskova-galinathe-complexity-of-concatenation-on-deterministic-and-alternating-finite-automata2018.pdf
+issue: 2-3-4
+journal: RAIRO - Theoretical Informatics and Applications
+month: 4
+pages: 153--168
+publisher: EDP Sciences
+time-added: 2020-12-05-19:27:44
+title: The complexity of concatenation on deterministic and alternating finite automata
+type: article
+url: http://dx.doi.org/10.1051/ita/2018011
+volume: '52'
+year: 2018

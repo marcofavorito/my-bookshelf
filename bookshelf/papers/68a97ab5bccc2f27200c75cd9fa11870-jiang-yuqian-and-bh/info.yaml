@@ -1,0 +1,44 @@
+abstract: In continuing tasks, average-reward reinforcement learning may be a more
+  appropriate problem formulation than the more common discounted reward formulation.
+  As usual, learning an optimal policy in this setting typically requires a large
+  amount of training experiences. Reward shaping is a common approach for incorporating
+  domain knowledge into reinforcement learning in order to speed up convergence to
+  an optimal policy. However, to the best of our knowledge, the theoretical properties
+  of reward shaping have thus far only been established in the discounted setting.
+  This paper presents the first reward shaping framework for average-reward learning
+  and proves that, under standard assumptions, the optimal policy under the original
+  reward function can be recovered. In order to avoid the need for manual construction
+  of the shaping function, we introduce a method for utilizing domain knowledge expressed
+  as a temporal logic formula. The formula is automatically translated to a shaping
+  function that provides additional reward throughout the learning process. We evaluate
+  the proposed method on three continuing tasks. In all cases, shaping speeds up the
+  average-reward learning rate without any reduction in the performance of the learned
+  policy compared to relevant baselines.
+archiveprefix: arXiv
+author: Jiang, Yuqian and Bharadwaj, Sudarshanan and Wu, Bo and Shah, Rishi and Topcu,
+  Ufuk and Stone, Peter
+author_list:
+- family: Jiang
+  given: Yuqian
+- family: Bharadwaj
+  given: Sudarshanan
+- family: Wu
+  given: Bo
+- family: Shah
+  given: Rishi
+- family: Topcu
+  given: Ufuk
+- family: Stone
+  given: Peter
+eprint: 2007.01498v1
+file: 2007.01498v1.pdf
+files:
+- jiang-yuqian-and-bharadwaj-sudarshanan-and-wu-bo-and-shah-rishi-and-topcu-ufuk-and-stone-petertemporal-logic-based-reward-shaping-for-continuing.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 2007.01498v1
+time-added: 2020-12-02-18:11:32
+title: Temporal-Logic-Based Reward Shaping for Continuing Learning Tasks
+type: article
+url: http://arxiv.org/abs/2007.01498v1
+year: '2020'

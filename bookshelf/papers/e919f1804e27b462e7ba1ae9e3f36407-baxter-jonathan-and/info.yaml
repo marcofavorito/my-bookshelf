@@ -1,0 +1,32 @@
+abstract: In this paper we present TDLeaf(lambda), a variation on the TD(lambda) algorithm
+  that enables it to be used in conjunction with minimax search. We present some experiments
+  in both chess and backgammon which demonstrate its utility and provide comparisons
+  with TD(lambda) and another less radical variant, TD-directed(lambda). In particular,
+  our chess program, ``KnightCap,'' used TDLeaf(lambda) to learn its evaluation function
+  while playing on the Free Internet Chess Server (FICS, fics.onenet.net). It improved
+  from a 1650 rating to a 2100 rating in just 308 games. We discuss some of the reasons
+  for this success and the relationship between our results and Tesauro's results
+  in backgammon.
+archiveprefix: arXiv
+author: Baxter, Jonathan and Tridgell, Andrew and Weaver, Lex
+author_list:
+- family: Baxter
+  given: Jonathan
+- family: Tridgell
+  given: Andrew
+- family: Weaver
+  given: Lex
+eprint: cs/9901001v1
+file: cs/9901001v1.pdf
+files:
+- baxter-jonathan-and-tridgell-andrew-and-weaver-lextdleaf-lambda-combining-temporal-difference-learning-with-game-tree-search1999.pdf
+month: Jan
+note: Australian Journal of Intelligent Information Processing Systems,   ISSN 1321-2133,
+  Vol. 5 No. 1, Autumn 1998, pages 39-43
+primaryclass: cs.LG
+ref: cs/9901001v1
+time-added: 2020-12-02-16:31:51
+title: 'TDLeaf(lambda): Combining Temporal Difference Learning with Game-Tree   Search'
+type: article
+url: http://arxiv.org/abs/cs/9901001v1
+year: '1999'

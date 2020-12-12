@@ -1,0 +1,38 @@
+abstract: With a view to bridging the gap between deep learning and symbolic AI, we
+  present a novel end-to-end neural network architecture that learns to form propositional
+  representations with an explicitly relational structure from raw pixel data. In
+  order to evaluate and analyse the architecture, we introduce a family of simple
+  visual relational reasoning tasks of varying complexity. We show that the proposed
+  architecture, when pre-trained on a curriculum of such tasks, learns to generate
+  reusable representations that better facilitate subsequent learning on previously
+  unseen tasks when compared to a number of baseline architectures. The workings of
+  a successfully trained model are visualised to shed some light on how the architecture
+  functions.
+archiveprefix: arXiv
+author: Shanahan, Murray and Nikiforou, Kyriacos and Creswell, Antonia and Kaplanis,
+  Christos and Barrett, David and Garnelo, Marta
+author_list:
+- family: Shanahan
+  given: Murray
+- family: Nikiforou
+  given: Kyriacos
+- family: Creswell
+  given: Antonia
+- family: Kaplanis
+  given: Christos
+- family: Barrett
+  given: David
+- family: Garnelo
+  given: Marta
+eprint: 1905.10307v4
+file: 1905.10307v4.pdf
+files:
+- shanahan-murray-and-nikiforou-kyriacos-and-creswell-antonia-and-kaplanis-christos-and-barrett-david-and-garnelo-martaan-explicitly-relational-ne.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.10307v4
+time-added: 2020-12-10-15:43:32
+title: An Explicitly Relational Neural Network Architecture
+type: article
+url: http://arxiv.org/abs/1905.10307v4
+year: '2019'

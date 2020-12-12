@@ -1,0 +1,44 @@
+abstract: 'The determinization of Buchi automata is a celebrated problem, with applications
+  in synthesis, probabilistic verification, and multi-agent systems. Since the 1960s,
+  there has been a steady progress of constructions: by McNaughton, Safra, Piterman,
+  Schewe, and others. Despite the proliferation of solutions, they are all essentially
+  ad-hoc constructions, with little theory behind them other than proofs of correctness.
+  Since Safra, all optimal constructions employ trees as states of the deterministic
+  automaton, and transitions between states are defined operationally over these trees.
+  The operational nature of these constructions complicates understanding, implementing,
+  and reasoning about them, and should be contrasted with complementation, where a
+  solid theory in terms of automata run DAGs underlies modern constructions.   In
+  2010, we described a profile-based approach to Buchi complementation, where a profile
+  is simply the history of visits to accepting states. We developed a structural theory
+  of profiles and used it to describe a complementation construction that is deterministic
+  in the limit. Here we extend the theory of profiles to prove that every run DAG
+  contains a profile tree with at most a finite number of infinite branches. We then
+  show that this property provides a theoretical grounding for a new determinization
+  construction where macrostates are doubly preordered sets of states. In contrast
+  to extant determinization constructions, transitions in the new construction are
+  described declaratively rather than operationally.'
+archiveprefix: arXiv
+author: Fogarty, Seth and Kupferman, Orna and Vardi, Moshe Y. and Wilke, Thomas
+author_list:
+- family: Fogarty
+  given: Seth
+- family: Kupferman
+  given: Orna
+- family: Vardi
+  given: Moshe Y.
+- family: Wilke
+  given: Thomas
+doi: 10.4204/EPTCS.119.11
+eprint: 1307.4471v1
+file: 1307.4471v1.pdf
+files:
+- fogarty-seth-and-kupferman-orna-and-vardi-moshe-y.-and-wilke-thomasprofile-trees-for-buchi-word-automata-with-application-to-determinization201.pdf
+month: Jul
+note: EPTCS 119, 2013, pp. 107-121
+primaryclass: cs.FL
+ref: 1307.4471v1
+time-added: 2020-12-03-12:18:47
+title: Profile Trees for Büchi Word Automata, with Application to   Determinization
+type: article
+url: http://arxiv.org/abs/1307.4471v1
+year: '2013'

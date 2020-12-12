@@ -1,0 +1,36 @@
+abstract: Deep Reinforcement Learning has yielded proficient controllers for complex
+  tasks. However, these controllers have limited memory and rely on being able to
+  perceive the complete game screen at each decision point. To address these shortcomings,
+  this article investigates the effects of adding recurrency to a Deep Q-Network (DQN)
+  by replacing the first post-convolutional fully-connected layer with a recurrent
+  LSTM. The resulting \textit{Deep Recurrent Q-Network} (DRQN), although capable of
+  seeing only a single frame at each timestep, successfully integrates information
+  through time and replicates DQN's performance on standard Atari games and partially
+  observed equivalents featuring flickering game screens. Additionally, when trained
+  with partial observations and evaluated with incrementally more complete observations,
+  DRQN's performance scales as a function of observability. Conversely, when trained
+  with full observations and evaluated with partial observations, DRQN's performance
+  degrades less than DQN's. Thus, given the same length of history, recurrency is
+  a viable alternative to stacking a history of frames in the DQN's input layer and
+  while recurrency confers no systematic advantage when learning to play the game,
+  the recurrent net can better adapt at evaluation time if the quality of observations
+  changes.
+archiveprefix: arXiv
+author: Hausknecht, Matthew and Stone, Peter
+author_list:
+- family: Hausknecht
+  given: Matthew
+- family: Stone
+  given: Peter
+eprint: 1507.06527v4
+file: 1507.06527v4.pdf
+files:
+- hausknecht-matthew-and-stone-peterdeep-recurrent-q-learning-for-partially-observable-mdps2015.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1507.06527v4
+time-added: 2020-12-01-22:19:07
+title: Deep Recurrent Q-Learning for Partially Observable MDPs
+type: article
+url: http://arxiv.org/abs/1507.06527v4
+year: '2015'

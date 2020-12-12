@@ -1,0 +1,30 @@
+abstract: Bayes-optimal behavior, while well-defined, is often difficult to achieve.
+  Recent advances in the use of Monte-Carlo tree search (MCTS) have shown that it
+  is possible to act near-optimally in Markov Decision Processes (MDPs) with very
+  large or infinite state spaces. Bayes-optimal behavior in an unknown MDP is equivalent
+  to optimal behavior in the known belief-space MDP, although the size of this belief-space
+  MDP grows exponentially with the amount of history retained, and is potentially
+  infinite. We show how an agent can use one particular MCTS algorithm, Forward Search
+  Sparse Sampling (FSSS), in an efficient way to act nearly Bayes-optimally for all
+  but a polynomial number of steps, assuming that FSSS can be used to act efficiently
+  in any possible underlying MDP.
+archiveprefix: arXiv
+author: Asmuth, John and Littman, Michael L.
+author_list:
+- family: Asmuth
+  given: John
+- family: Littman
+  given: Michael L.
+eprint: 1202.3699v1
+file: 1202.3699v1.pdf
+files:
+- asmuth-john-and-littman-michael-l.learning-is-planning-near-bayes-optimal-reinforcement-learning-via-monte-carlo-tree-search2012.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1202.3699v1
+time-added: 2020-12-02-15:04:15
+title: 'Learning is planning: near Bayes-optimal reinforcement learning via   Monte-Carlo
+  tree search'
+type: article
+url: http://arxiv.org/abs/1202.3699v1
+year: '2012'

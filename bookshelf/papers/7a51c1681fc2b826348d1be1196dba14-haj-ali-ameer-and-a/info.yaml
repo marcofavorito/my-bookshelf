@@ -1,0 +1,43 @@
+abstract: Many real-world systems problems require reasoning about the long term consequences
+  of actions taken to configure and manage the system. These problems with delayed
+  and often sequentially aggregated reward, are often inherently reinforcement learning
+  problems and present the opportunity to leverage the recent substantial advances
+  in deep reinforcement learning. However, in some cases, it is not clear why deep
+  reinforcement learning is a good fit for the problem. Sometimes, it does not perform
+  better than the state-of-the-art solutions. And in other cases, random search or
+  greedy algorithms could outperform deep reinforcement learning. In this paper, we
+  review, discuss, and evaluate the recent trends of using deep reinforcement learning
+  in system optimization. We propose a set of essential metrics to guide future works
+  in evaluating the efficacy of using deep reinforcement learning in system optimization.
+  Our evaluation includes challenges, the types of problems, their formulation in
+  the deep reinforcement learning setting, embedding, the model used, efficiency,
+  and robustness. We conclude with a discussion on open challenges and potential directions
+  for pushing further the integration of reinforcement learning in system optimization.
+archiveprefix: arXiv
+author: Haj-Ali, Ameer and Ahmed, Nesreen K. and Willke, Ted and Gonzalez, Joseph
+  and Asanovic, Krste and Stoica, Ion
+author_list:
+- family: Haj-Ali
+  given: Ameer
+- family: Ahmed
+  given: Nesreen K.
+- family: Willke
+  given: Ted
+- family: Gonzalez
+  given: Joseph
+- family: Asanovic
+  given: Krste
+- family: Stoica
+  given: Ion
+eprint: 1908.01275v3
+file: 1908.01275v3.pdf
+files:
+- haj-ali-ameer-and-ahmed-nesreen-k.-and-willke-ted-and-gonzalez-joseph-and-asanovic-krste-and-stoica-iona-view-on-deep-reinforcement-learning-in.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1908.01275v3
+time-added: 2020-12-01-21:36:56
+title: A View on Deep Reinforcement Learning in System Optimization
+type: article
+url: http://arxiv.org/abs/1908.01275v3
+year: '2019'
