@@ -1,0 +1,35 @@
+abstract: In the absence of external rewards, agents can still learn useful behaviors
+  by identifying and mastering a set of diverse skills within their environment. Existing
+  skill learning methods use mutual information objectives to incentivize each skill
+  to be diverse and distinguishable from the rest. However, if care is not taken to
+  constrain the ways in which the skills are diverse, trivially diverse skill sets
+  can arise. To ensure useful skill diversity, we propose a novel skill learning objective,
+  Relative Variational Intrinsic Control (RVIC), which incentivizes learning skills
+  that are distinguishable in how they change the agent's relationship to its environment.
+  The resulting set of skills tiles the space of affordances available to the agent.
+  We qualitatively analyze skill behaviors on multiple environments and show how RVIC
+  skills are more useful than skills discovered by existing methods when used in hierarchical
+  reinforcement learning.
+archiveprefix: arXiv
+author: Baumli, Kate and Warde-Farley, David and Hansen, Steven and Mnih, Volodymyr
+author_list:
+- family: Baumli
+  given: Kate
+- family: Warde-Farley
+  given: David
+- family: Hansen
+  given: Steven
+- family: Mnih
+  given: Volodymyr
+eprint: 2012.07827v1
+file: 2012.07827v1.pdf
+files:
+- baumli-kate-and-warde-farley-david-and-hansen-steven-and-mnih-volodymyrrelative-variational-intrinsic-control2020.pdf
+month: Dec
+primaryclass: cs.AI
+ref: 2012.07827v1
+time-added: 2020-12-20-11:28:34
+title: Relative Variational Intrinsic Control
+type: article
+url: http://arxiv.org/abs/2012.07827v1
+year: '2020'

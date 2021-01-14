@@ -1,0 +1,48 @@
+abstract: 'Legged robots pose one of the greatest challenges in robotics. Dynamic
+  and agile maneuvers of animals cannot be imitated by existing methods that are crafted
+  by humans. A compelling alternative is reinforcement learning, which requires minimal
+  craftsmanship and promotes the natural evolution of a control policy. However, so
+  far, reinforcement learning research for legged robots is mainly limited to simulation,
+  and only few and comparably simple examples have been deployed on real systems.
+  The primary reason is that training with real robots, particularly with dynamically
+  balancing systems, is complicated and expensive. In the present work, we introduce
+  a method for training a neural network policy in simulation and transferring it
+  to a state-of-the-art legged system, thereby leveraging fast, automated, and cost-effective
+  data generation schemes. The approach is applied to the ANYmal robot, a sophisticated
+  medium-dog-sized quadrupedal system. Using policies trained in simulation, the quadrupedal
+  machine achieves locomotion skills that go beyond what had been achieved with prior
+  methods: ANYmal is capable of precisely and energy-efficiently following high-level
+  body velocity commands, running faster than before, and recovering from falling
+  even in complex configurations.'
+archiveprefix: arXiv
+author: Hwangbo, Jemin and Lee, Joonho and Dosovitskiy, Alexey and Bellicoso, Dario
+  and Tsounis, Vassilios and Koltun, Vladlen and Hutter, Marco
+author_list:
+- family: Hwangbo
+  given: Jemin
+- family: Lee
+  given: Joonho
+- family: Dosovitskiy
+  given: Alexey
+- family: Bellicoso
+  given: Dario
+- family: Tsounis
+  given: Vassilios
+- family: Koltun
+  given: Vladlen
+- family: Hutter
+  given: Marco
+doi: 10.1126/scirobotics.aau5872
+eprint: 1901.08652v1
+file: 1901.08652v1.pdf
+files:
+- hwangbo-jemin-and-lee-joonho-and-dosovitskiy-alexey-and-bellicoso-dario-and-tsounis-vassilios-and-koltun-vladlen-and-hutter-marcolearning-agile.pdf
+month: Jan
+note: 'Science Robotics 4.26 (2019): eaau5872'
+primaryclass: cs.RO
+ref: 1901.08652v1
+time-added: 2020-12-13-18:17:41
+title: Learning agile and dynamic motor skills for legged robots
+type: article
+url: http://arxiv.org/abs/1901.08652v1
+year: '2019'

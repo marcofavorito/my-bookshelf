@@ -1,0 +1,40 @@
+abstract: 'Automata learning techniques automatically generate system models from
+  test observations. These techniques usually fall into two categories: passive and
+  active. Passive learning uses a predetermined data set, e.g., system logs. In contrast,
+  active learning actively queries the system under learning, which is considered
+  more efficient.   An influential active learning technique is Angluin''s L* algorithm
+  for regular languages which inspired several generalisations from DFAs to other
+  automata-based modelling formalisms. In this work, we study L*-based learning of
+  deterministic Markov decision processes, first assuming an ideal setting with perfect
+  information. Then, we relax this assumption and present a novel learning algorithm
+  that collects information by sampling system traces via testing. Experiments with
+  the implementation of our sampling-based algorithm suggest that it achieves better
+  accuracy than state-of-the-art passive learning techniques with the same amount
+  of test data. Unlike existing learning algorithms with predefined states, our algorithm
+  learns the complete model structure including the states.'
+archiveprefix: arXiv
+author: Tappler, Martin and Aichernig, Bernhard K. and Bacci, Giovanni and Eichlseder,
+  Maria and Larsen, Kim G.
+author_list:
+- family: Tappler
+  given: Martin
+- family: Aichernig
+  given: Bernhard K.
+- family: Bacci
+  given: Giovanni
+- family: Eichlseder
+  given: Maria
+- family: Larsen
+  given: Kim G.
+eprint: 1906.12239v1
+file: 1906.12239v1.pdf
+files:
+- tappler-martin-and-aichernig-bernhard-k.-and-bacci-giovanni-and-eichlseder-maria-and-larsen-kim-g.l-based-learning-of-markov-decision-processes.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1906.12239v1
+time-added: 2020-12-31-12:41:26
+title: L*-Based Learning of Markov Decision Processes (Extended Version)
+type: article
+url: http://arxiv.org/abs/1906.12239v1
+year: '2019'

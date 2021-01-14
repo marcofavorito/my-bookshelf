@@ -1,0 +1,30 @@
+abstract: We introduce neural Markov logic networks (NMLNs), a statistical relational
+  learning system that borrows ideas from Markov logic. Like Markov logic networks
+  (MLNs), NMLNs are an exponential-family model for modelling distributions over possible
+  worlds, but unlike MLNs, they do not rely on explicitly specified first-order logic
+  rules. Instead, NMLNs learn an implicit representation of such rules as a neural
+  network that acts as a potential function on fragments of the relational structure.
+  Similarly to many neural symbolic methods, NMLNs can exploit embeddings of constants
+  but, unlike them, NMLNs work well also in their absence. This is extremely important
+  for predicting in settings other than the transductive one. We showcase the potential
+  of NMLNs on knowledge-base completion, triple classification and on generation of
+  molecular (graph) data.
+archiveprefix: arXiv
+author: Marra, Giuseppe and Kuželka, Ondřej
+author_list:
+- family: Marra
+  given: Giuseppe
+- family: Kuželka
+  given: Ondřej
+eprint: 1905.13462v3
+file: 1905.13462v3.pdf
+files:
+- marra-giuseppe-and-kuzelka-ondrejneural-markov-logic-networks2019.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.13462v3
+time-added: 2020-12-25-20:33:32
+title: Neural Markov Logic Networks
+type: article
+url: http://arxiv.org/abs/1905.13462v3
+year: '2019'

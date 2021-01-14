@@ -1,0 +1,36 @@
+abstract: In this article, we aim to provide a literature review of different formulations
+  and approaches to continual reinforcement learning (RL), also known as lifelong
+  or non-stationary RL. We begin by discussing our perspective on why RL is a natural
+  fit for studying continual learning. We then provide a taxonomy of different continual
+  RL formulations and mathematically characterize the non-stationary dynamics of each
+  setting. We go on to discuss evaluation of continual RL agents, providing an overview
+  of benchmarks used in the literature and important metrics for understanding agent
+  performance. Finally, we highlight open problems and challenges in bridging the
+  gap between the current state of continual RL and findings in neuroscience. While
+  still in its early days, the study of continual RL has the promise to develop better
+  incremental reinforcement learners that can function in increasingly realistic applications
+  where non-stationarity plays a vital role. These include applications such as those
+  in the fields of healthcare, education, logistics, and robotics.
+archiveprefix: arXiv
+author: Khetarpal, Khimya and Riemer, Matthew and Rish, Irina and Precup, Doina
+author_list:
+- family: Khetarpal
+  given: Khimya
+- family: Riemer
+  given: Matthew
+- family: Rish
+  given: Irina
+- family: Precup
+  given: Doina
+eprint: 2012.13490v1
+file: 2012.13490v1.pdf
+files:
+- khetarpal-khimya-and-riemer-matthew-and-rish-irina-and-precup-doinatowards-continual-reinforcement-learning-a-review-and-perspectives2020.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 2012.13490v1
+time-added: 2021-01-02-14:40:06
+title: 'Towards Continual Reinforcement Learning: A Review and Perspectives'
+type: article
+url: http://arxiv.org/abs/2012.13490v1
+year: '2020'

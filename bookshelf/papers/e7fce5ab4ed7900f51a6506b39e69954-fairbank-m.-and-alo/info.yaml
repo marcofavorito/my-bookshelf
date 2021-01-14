@@ -1,0 +1,33 @@
+abstract: We describe an Adaptive Dynamic Programming algorithm VGL({\ensuremath{\lambda}})
+  for learning a critic function over a large continuous state space. The algorithm,
+  which requires a learned model of the environment, extends Dual Heuristic Dynamic
+  Programming to include a bootstrapping parameter analogous to that used in the reinforcement
+  learning algorithm TD({\ensuremath{\lambda}}). We provide on-line and batch mode
+  implementations of the algorithm, and summarise the theoretical relationships and
+  motivations of using this method over its precursor algorithms Dual Heuristic Dynamic
+  Programming and TD({\ensuremath{\lambda}}). Experiments for control problems using
+  a neural network and greedy policy are provided.
+author: Fairbank, M. and Alonso, E.
+author_list:
+- family: Fairbank
+  given: M.
+- family: Alonso
+  given: E.
+booktitle: WCCI 2012 IEEE World Congress on Computational Intelligence
+doi: 10.1109/IJCNN.2012.6252791
+files:
+- fairbank-m.-and-alonso-e.value-gradient-learning2012.pdf
+keywords: Value-Gradient Learning, Dual Heuristic Dynamic Programming, DHP, Adaptive
+  Dynamic Programming
+note: '{\copyright} 2012 IEEE. Personal use of this material is permitted. Permission
+  from IEEE must be obtained for all other uses, in any current or future media, including
+  reprinting/republishing this material for advertising or promotional purposes, creating
+  new collective works, for resale or redistribution to servers or lists, or reuse
+  of any copyrighted component of this work in other works.'
+publisher: IEEE Press
+ref: city5205
+time-added: 2021-01-12-19:01:33
+title: Value-Gradient Learning
+type: inproceedings
+url: https://openaccess.city.ac.uk/id/eprint/5205/
+year: '2012'

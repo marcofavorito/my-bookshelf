@@ -1,0 +1,163 @@
+author: Sewell, Thomas and Winwood, Simon and Gammie, Peter and Murray, Toby and Andronick,
+  June and Klein, Gerwin
+author_list:
+- affiliation: []
+  family: Sewell
+  given: Thomas
+- affiliation: []
+  family: Winwood
+  given: Simon
+- affiliation: []
+  family: Gammie
+  given: Peter
+- affiliation: []
+  family: Murray
+  given: Toby
+- affiliation: []
+  family: Andronick
+  given: June
+- affiliation: []
+  family: Klein
+  given: Gerwin
+citations:
+- unstructured: 'Andronick, J., Bourke, T., Derrin, P., Elphinstone, K., Greenaway,
+    D., Klein, G., Kolanski, R., Sewell, T., Winwood, S.: Abstract formal specification
+    of the seL4/ARMv6 API (January 2011), http://ertos.nicta.com.au/software/seL4/'
+- author: J. Andronick
+  unstructured: 'Andronick, J., Greenaway, D., Elphinstone, K.: Towards proving security
+    in the presence of large untrusted components. In: Klein, G., Huuck, R., Schlich,
+    B. (eds.) 5th SSV. USENIX, Vancouver (2010)'
+  volume-title: 5th SSV
+  year: '2010'
+- doi: 10.21236/ADA023588
+  unstructured: 'Bell, D., LaPadula, L.: Secure computer system: Unified exposition
+    and Multics interpretation. Technical Report MTR-2997, MITRE Corp (March 1976)'
+- author: A. Boyton
+  first-page: '25'
+  series-title: ENTCS
+  unstructured: 'Boyton, A.: A verified shared capability model. In: Klein, G., Huuck,
+    R., Schlich, B. (eds.) 4th SSV. ENTCS, vol. 254, pp. 25–44. Elsevier, Amsterdam
+    (2009)'
+  volume-title: 4th SSV
+  year: '2009'
+- author: D. Cock
+  doi: 10.1007/978-3-540-71067-7_16
+  first-page: '167'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Cock, D., Klein, G., Sewell, T.: Secure microkernels, state monads
+    and scalable refinement. In: Mohamed, O.A., Muñoz, C., Tahar, S. (eds.) TPHOLs
+    2008. LNCS, vol. 5170, pp. 167–182. Springer, Heidelberg (2008)'
+  volume-title: Theorem Proving in Higher Order Logics
+  year: '2008'
+- author: J.B. Dennis
+  doi: 10.1145/365230.365252
+  first-page: '143'
+  journal-title: CACM
+  unstructured: 'Dennis, J.B., Van Horn, E.C.: Programming semantics for multiprogrammed
+    computations. CACM 9, 143–155 (1966)'
+  volume: '9'
+  year: '1966'
+- author: D. Elkaduwe
+  doi: 10.1007/978-3-540-87873-5_11
+  first-page: '99'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Elkaduwe, D., Klein, G., Elphinstone, K.: Verified protection model
+    of the seL4 microkernel. In: Shankar, N., Woodcock, J. (eds.) VSTTE 2008. LNCS,
+    vol. 5295, pp. 99–114. Springer, Heidelberg (2008)'
+  volume-title: 'Verified Software: Theories, Tools, Experiments'
+  year: '2008'
+- doi: 10.1109/MARK.1979.8817256
+  unstructured: 'Feiertag, R.J., Neumann, P.G.: The foundations of a provably secure
+    operating system (PSOS). In: AFIPS Conf. Proc., 1979 National Comp. Conf., New
+    York, NY, USA, pp. 329–334 (June 1979)'
+- author: J. Guttman
+  doi: 10.3233/JCS-2005-13105
+  first-page: '115'
+  journal-title: J. Comp. Security
+  unstructured: 'Guttman, J., Herzog, A., Ramsdell, J., Skorupka, C.: Verifying information
+    flow goals in security-enhanced linux. J. Comp. Security 13, 115–134 (2005)'
+  volume: '13'
+  year: '2005'
+- author: T. Jaeger
+  unstructured: 'Jaeger, T.: Operating System Security. Morgan & Claypool Publishers,
+    San Francisco (2008)'
+  volume-title: Operating System Security
+  year: '2008'
+- author: G. Klein
+  doi: 10.1007/s12046-009-0002-4
+  first-page: '27'
+  issue: '1'
+  journal-title: Sādhanā
+  unstructured: 'Klein, G.: Operating system verification—an overview. Sādhanā 34(1),
+    27–69 (2009)'
+  volume: '34'
+  year: '2009'
+- author: G. Klein
+  first-page: '207'
+  unstructured: 'Klein, G., Elphinstone, K., Heiser, G., Andronick, J., Cock, D.,
+    Derrin, P., Elkaduwe, D., Engelhardt, K., Kolanski, R., Norrish, M., Sewell, T.,
+    Tuch, H., Winwood, S.: seL4: Formal verification of an OS kernel. In: 22nd SOSP,
+    pp. 207–220. ACM, Big Sky (2009)'
+  volume-title: 22nd SOSP
+  year: '2009'
+- doi: 10.1109/SP.2009.23
+  unstructured: 'Krohn, M., Tromer, E.: Noninterference for a practical DIFC-based
+    operating system. In: IEEE Symp. Security & Privacy, pp. 61–76 (2009)'
+- author: B.W. Lampson
+  first-page: '437'
+  unstructured: 'Lampson, B.W.: Protection. In: 5th Princeton Symposium on Information
+    Sciences and Systems, pp. 437–443. Princeton University, Princeton (1971); Reprinted
+    in Operat. Syst. Rev. 8(1), 18–24 (1974)'
+  volume-title: 5th Princeton Symposium on Information Sciences and Systems
+  year: '1971'
+- author: R.J. Lipton
+  doi: 10.1145/322017.322025
+  first-page: '455'
+  issue: '3'
+  journal-title: J. ACM
+  unstructured: 'Lipton, R.J., Snyder, L.: A linear time algorithm for deciding subject
+    security. J. ACM 24(3), 455–464 (1977)'
+  volume: '24'
+  year: '1977'
+- author: T. Murray
+  doi: 10.1007/978-3-642-12459-4_7
+  first-page: '81'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Murray, T., Lowe, G.: Analysing the information flow properties of
+    object-capability patterns. In: Degano, P., Guttman, J.D. (eds.) FAST 2009. LNCS,
+    vol. 5983, pp. 81–95. Springer, Heidelberg (2010)'
+  volume-title: Formal Aspects in Security and Trust
+  year: '2010'
+- author: R.J. Richards
+  doi: 10.1007/978-1-4419-1539-9_10
+  first-page: '301'
+  unstructured: 'Richards, R.J.: Modeling and security analysis of a commercial real-time
+    operating system kernel. In: Hardin, D.S. (ed.) Design and Verification of Microprocessor
+    Systems for High-Assurance Applications, pp. 301–322. Springer, Heidelberg (2010)'
+  volume-title: Design and Verification of Microprocessor Systems for High-Assurance
+    Applications
+  year: '2010'
+- doi: 10.1109/SECPRI.2000.848454
+  unstructured: 'Shapiro, J.S., Weber, S.: Verifying the EROS confinement mechanism.
+    In: IEEE Symp. Security & Privacy, Washington, DC, USA, pp. 166–181 (May 2000)'
+- author: B.J. Walker
+  doi: 10.1145/358818.358825
+  first-page: '118'
+  issue: '2'
+  journal-title: CACM
+  unstructured: 'Walker, B.J., Kemmerer, R.A., Popek, G.J.: Specification and verification
+    of the UCLA Unix security kernel. CACM 23(2), 118–131 (1980)'
+  volume: '23'
+  year: '1980'
+doi: 10.1007/978-3-642-22863-6_24
+isbn:
+- '9783642228629'
+- '9783642228636'
+journal: Interactive Theorem Proving
+pages: 325--340
+publisher: Springer Berlin Heidelberg
+time-added: 2020-12-23-22:50:37
+title: seL4 Enforces Integrity
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-642-22863-6_24
+year: 2011

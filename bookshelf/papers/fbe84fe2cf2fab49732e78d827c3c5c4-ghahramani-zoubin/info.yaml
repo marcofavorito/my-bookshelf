@@ -1,0 +1,692 @@
+author: Ghahramani, Zoubin
+author_list:
+- affiliation: []
+  family: Ghahramani
+  given: Zoubin
+citations:
+- author: S Russell
+  unstructured: 'Russell, S. & Norvig, P. Artificial Intelligence: a Modern Approach
+    (Prentice–Hall, 1995).'
+  volume-title: 'Artificial Intelligence: a Modern Approach'
+  year: '1995'
+- author: S Thrun
+  unstructured: Thrun, S., Burgard, W. & Fox, D. Probabilistic Robotics (MIT Press,
+    2006).
+  volume-title: Probabilistic Robotics
+  year: '2006'
+- author: CM Bishop
+  unstructured: Bishop, C. M. Pattern Recognition and Machine Learning (Springer,
+    2006).
+  volume-title: Pattern Recognition and Machine Learning
+  year: '2006'
+- author: KP Murphy
+  unstructured: 'Murphy, K. P. Machine Learning: A Probabilistic Perspective (MIT
+    Press, 2012).'
+  volume-title: 'Machine Learning: A Probabilistic Perspective'
+  year: '2012'
+- author: G Hinton
+  doi: 10.1109/MSP.2012.2205597
+  first-page: '82'
+  journal-title: IEEE Signal Process. Mag.
+  unstructured: 'Hinton, G. et al. Deep neural networks for acoustic modeling in speech
+    recognition: the shared views of four research groups. IEEE Signal Process. Mag.
+    29, 82–97 (2012).'
+  volume: '29'
+  year: '2012'
+- author: A Krizhevsky
+  first-page: '1097'
+  unstructured: Krizhevsky, A., Sutskever, I. & Hinton, G. E. ImageNet classification
+    with deep convolutional neural networks. In Proc. Advances in Neural Information
+    Processing Systems 25 1097–1105 (2012).
+  volume-title: Proc. Advances in Neural Information Processing Systems 25
+  year: '2012'
+- author: P Sermanet
+  unstructured: 'Sermanet, P. et al. Overfeat: integrated recognition, localization
+    and detection using convolutional networks. In Proc. International Conference
+    on Learning Representations http://arxiv.org/abs/1312.6229 (2014).'
+  volume-title: Proc. International Conference on Learning Representations
+  year: '2014'
+- author: Y Bengio
+  first-page: '1137'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Bengio, Y., Ducharme, R., Vincent, P. & Janvin, C. A neural probabilistic
+    language model. J. Mach. Learn. Res. 3, 1137–1155 (2003).
+  volume: '3'
+  year: '2003'
+- author: Z Ghahramani
+  doi: 10.1098/rsta.2011.0553
+  first-page: '20110553'
+  journal-title: Phil. Trans. R. Soc. A
+  unstructured: Ghahramani, Z. Bayesian nonparametrics and the probabilistic approach
+    to modelling. Phil. Trans. R. Soc. A 371, 20110553 (2013). A review of Bayesian
+    non-parametric modelling written for a general scientific audience.
+  volume: '371'
+  year: '2013'
+- author: ET Jaynes
+  doi: 10.1017/CBO9780511790423
+  unstructured: 'Jaynes, E. T. Probability Theory: the Logic of Science (Cambridge
+    Univ. Press, 2003).'
+  volume-title: 'Probability Theory: the Logic of Science'
+  year: '2003'
+- author: D Koller
+  unstructured: 'Koller, D. & Friedman, N. Probabilistic Graphical Models: Principles
+    and Techniques (MIT Press, 2009). This is an encyclopaedic text on probabilistic
+    graphical models spanning many key topics.'
+  volume-title: 'Probabilistic Graphical Models: Principles and Techniques'
+  year: '2009'
+- author: RT Cox
+  unstructured: Cox, R. T. The Algebra of Probable Inference (Johns Hopkins Univ.
+    Press, 1961).
+  volume-title: The Algebra of Probable Inference
+  year: '1961'
+- author: KS Van Horn
+  doi: 10.1016/S0888-613X(03)00051-3
+  first-page: '3'
+  journal-title: Int. J. Approx. Reason.
+  unstructured: 'Van Horn, K. S. Constructing a logic of plausible inference: a guide
+    to Cox''s theorem. Int. J. Approx. Reason. 34, 3–24 (2003).'
+  volume: '34'
+  year: '2003'
+- author: B De Finetti
+  first-page: '1'
+  unstructured: 'De Finetti, B. La prévision: ses lois logiques, ses sources subjectives.
+    In Annales de l''institut Henri Poincaré [in French] 7, 1–68 (1937).'
+  volume-title: Annales de l'institut Henri Poincaré
+  year: '1937'
+- doi: 10.1017/CBO9780511984037
+  unstructured: Knill, D. & Richards, W. Perception as Bayesian inference (Cambridge
+    Univ.Press, 1996).
+- author: TL Griffiths
+  doi: 10.1111/j.1467-9280.2006.01780.x
+  first-page: '767'
+  journal-title: Psychol. Sci.
+  unstructured: Griffiths, T. L. & Tenenbaum, J. B. Optimal predictions in everyday
+    cognition. Psychol. Sci. 17, 767–773 (2006).
+  volume: '17'
+  year: '2006'
+- author: DM Wolpert
+  doi: 10.1126/science.7569931
+  first-page: '1880'
+  journal-title: Science
+  unstructured: Wolpert, D. M., Ghahramani, Z. & Jordan, M. I. An internal model for
+    sensorimotor integration. Science 269, 1880–1882 (1995).
+  volume: '269'
+  year: '1995'
+- author: JB Tenenbaum
+  doi: 10.1126/science.1192788
+  first-page: '1279'
+  journal-title: Science
+  unstructured: 'Tenenbaum, J. B., Kemp, C., Griffiths, T. L. & Goodman, N. D. How
+    to grow a mind: statistics, structure, and abstraction. Science 331, 1279–1285
+    (2011).'
+  volume: '331'
+  year: '2011'
+- author: GF Marcus
+  doi: 10.1177/0956797613495418
+  first-page: '2351'
+  journal-title: Psychol. Sci.
+  unstructured: Marcus, G. F. & Davis, E. How robust are probabilistic models of higher-level
+    cognition? Psychol. Sci. 24, 2351–2360 (2013).
+  volume: '24'
+  year: '2013'
+- author: ND Goodman
+  doi: 10.1177/0956797614559544
+  first-page: '539'
+  journal-title: Psychol. Sci.
+  unstructured: Goodman, N. D. et al. Relevant and robust a response to Marcus and
+    Davis (2013). Psychol. Sci. 26, 539–541 (2015).
+  volume: '26'
+  year: '2015'
+- author: K Doya
+  unstructured: 'Doya, K., Ishii, S., Pouget, A. & Rao, R. P. N. Bayesian Brain: Probabilistic
+    Approaches to Neural Coding (MIT Press, 2007).'
+  volume-title: 'Bayesian Brain: Probabilistic Approaches to Neural Coding'
+  year: '2007'
+- author: S Deneve
+  doi: 10.1162/neco.2008.20.1.91
+  first-page: '91'
+  journal-title: Neural Comput.
+  unstructured: 'Deneve, S. Bayesian spiking neurons I: inference. Neural Comput.
+    20, 91–117 (2008).'
+  volume: '20'
+  year: '2008'
+- author: RM Neal
+  unstructured: Neal, R. M. Probabilistic Inference Using Markov Chain Monte Carlo
+    Methods. Report No. CRG-TR-93–1 http://www.cs.toronto.edu/∼radford/review.abstract.html
+    (Univ. Toronto, 1993).
+  volume-title: Probabilistic Inference Using Markov Chain Monte Carlo Methods
+  year: '1993'
+- author: M Jordan
+  doi: 10.1023/A:1007665907178
+  first-page: '183'
+  journal-title: Mach. Learn.
+  unstructured: Jordan, M., Ghahramani, Z., Jaakkola, T. & Saul, L. An introduction
+    to variational methods in graphical models. Mach. Learn. 37, 183–233 (1999).
+  volume: '37'
+  year: '1999'
+- author: A Doucet
+  unstructured: Doucet, A., de Freitas, J. F. G. & Gordon, N. J. Sequential Monte
+    Carlo Methods in Practice (Springer, 2000).
+  volume-title: Sequential Monte Carlo Methods in Practice
+  year: '2000'
+- author: TP Minka
+  first-page: '362'
+  unstructured: Minka, T. P. Expectation propagation for approximate Bayesian inference.
+    In Proc. Uncertainty in Artificial Intelligence 17 362–369 (2001).
+  volume-title: Proc. Uncertainty in Artificial Intelligence
+  year: '2001'
+- author: RM Neal
+  unstructured: Neal, R. M. In Handbook of Markov Chain Monte Carlo (eds Brooks, S.,
+    Gelman, A., Jones, G. & Meng, X.-L.) (Chapman & Hall/CRC, 2010).
+  volume-title: Handbook of Markov Chain Monte Carlo
+  year: '2010'
+- author: M Girolami
+  doi: 10.1111/j.1467-9868.2010.00765.x
+  first-page: '123'
+  journal-title: J. R. Stat. Soc. Series B Stat. Methodol.
+  unstructured: Girolami, M. & Calderhead, B. Riemann manifold Langevin and Hamiltonian
+    Monte Carlo methods. J. R. Stat. Soc. Series B Stat. Methodol. 73, 123–214 (2011).
+  volume: '73'
+  year: '2011'
+- author: I Sutskever
+  first-page: '3104'
+  unstructured: Sutskever, I., Vinyals, O. & Le, Q. V. Sequence to sequence learning
+    with neural networks. In Proc. Advances in Neural Information Processing Systems
+    27, 3104–3112 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: RM Neal
+  doi: 10.1007/978-94-017-2219-3_14
+  first-page: '197'
+  unstructured: Neal, R. M. in Maximum Entropy and Bayesian Methods 197–211 (Springer,
+    1992).
+  volume-title: Maximum Entropy and Bayesian Methods
+  year: '1992'
+- author: P Orbanz
+  first-page: '81'
+  unstructured: Orbanz, P. & Teh, Y. W. in Encyclopedia of Machine Learning 81–89
+    (Springer, 2010).
+  volume-title: Encyclopedia of Machine Learning
+  year: '2010'
+- author: N Hjort
+  doi: 10.1017/CBO9780511802478
+  unstructured: Hjort, N., Holmes, C., Müller, P. & Walker, S. (eds). Bayesian Nonparametrics
+    (Cambridge Univ. Press, 2010).
+  volume-title: Bayesian Nonparametrics
+  year: '2010'
+- author: CE Rasmussen
+  unstructured: Rasmussen, C. E. & Williams, C. K. I. Gaussian Processes for Machine
+    Learning (MIT Press, 2006). This is a classic monograph on Gaussian processes,
+    relating them to kernel methods and other areas of machine learning.
+  volume-title: Gaussian Processes for Machine Learning
+  year: '2006'
+- author: C Lu
+  unstructured: Lu, C. & Tang, X. Surpassing human-level face verification performance
+    on LFW with GaussianFace. In Proc. 29th AAAI Conference on Artificial Intelligence
+    http://arxiv.org/abs/1404.3840 (2015).
+  volume-title: Proc. 29th AAAI Conference on Artificial Intelligence
+  year: '2015'
+- author: TS Ferguson
+  doi: 10.1214/aos/1176342360
+  first-page: '209'
+  journal-title: Ann. Stat.
+  unstructured: Ferguson, T. S. A Bayesian analysis of some nonparametric problems.
+    Ann. Stat. 1, 209–230 (1973).
+  volume: '1'
+  year: '1973'
+- author: YW Teh
+  doi: 10.1198/016214506000000302
+  first-page: '1566'
+  journal-title: J. Am. Stat. Assoc.
+  unstructured: Teh, Y. W., Jordan, M. I., Beal, M. J. & Blei, D. M. Hierarchical
+    Dirichlet processes. J. Am. Stat. Assoc. 101, 1566–1581 (2006).
+  volume: '101'
+  year: '2006'
+- author: C Kemp
+  first-page: '381'
+  unstructured: Kemp, C., Tenenbaum, J. B., Griffiths, T. L., Yamada, T. & Ueda, N.
+    Learning systems of concepts with an infinite relational model. In Proc. 21st
+    National Conference on Artificial Intelligence 381–388 (2006).
+  volume-title: Proc. 21st National Conference on Artificial Intelligence
+  year: '2006'
+- author: M Medvedovic
+  doi: 10.1093/bioinformatics/18.9.1194
+  first-page: '1194'
+  journal-title: Bioinformatics
+  unstructured: Medvedovic, M. & Sivaganesan, S. Bayesian infinite mixture model based
+    clustering of gene expression profiles. Bioinformatics 18, 1194–1206 (2002).
+  volume: '18'
+  year: '2002'
+- author: CE Rasmussen
+  doi: 10.1109/TCBB.2007.70269
+  first-page: '615'
+  journal-title: Trans. Comput. Biol. Bioinform.
+  unstructured: Rasmussen, C. E., De la Cruz, B. J., Ghahramani, Z. & Wild, D. L.
+    Modeling and visualizing uncertainty in gene expression clusters using Dirichlet
+    process mixtures. Trans. Comput. Biol. Bioinform. 6, 615–628 (2009).
+  volume: '6'
+  year: '2009'
+- author: TL Griffiths
+  first-page: '1185'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Griffiths, T. L. & Ghahramani, Z. The Indian buffet process: an introduction
+    and review. J. Mach. Learn. Res. 12, 1185–1224 (2011). This article introduced
+    a new class of Bayesian non-parametric models for latent feature modelling.'
+  volume: '12'
+  year: '2011'
+- author: RP Adams
+  first-page: '1'
+  unstructured: Adams, R. P., Wallach, H. & Ghahramani, Z. Learning the structure
+    of deep sparse graphical models. In Proc. 13th International Conference on Artificial
+    Intelligence and Statistics (eds Teh, Y. W. & Titterington, M.) 1–8 (2010).
+  volume-title: Proc. 13th International Conference on Artificial Intelligence and
+    Statistics
+  year: '2010'
+- author: K Miller
+  first-page: '1276'
+  unstructured: Miller, K., Jordan, M. I. & Griffiths, T. L. Nonparametric latent
+    feature models for link prediction. In Proc. Advances in Neural Information Processing
+    Systems 1276–1284 (2009).
+  volume-title: Proc. Advances in Neural Information Processing Systems
+  year: '2009'
+- author: GE Hinton
+  first-page: '77'
+  unstructured: 'Hinton, G. E., McClelland, J. L. & Rumelhart, D. E. in Parallel Distributed
+    Processing: Explorations in the Microstructure of Cognition: Foundations 77–109
+    (MIT Press, 1986).'
+  volume-title: 'Parallel Distributed Processing: Explorations in the Microstructure
+    of Cognition: Foundations'
+  year: '1986'
+- author: RM Neal
+  doi: 10.1007/978-1-4612-0745-0
+  unstructured: Neal, R. M. Bayesian Learning for Neural Networks (Springer, 1996).
+    This text derived MCMC-based Bayesian inference in neural networks and drew important
+    links to Gaussian processes.
+  volume-title: Bayesian Learning for Neural Networks
+  year: '1996'
+- author: D Koller
+  first-page: '740'
+  unstructured: Koller, D., McAllester, D. & Pfeffer, A. Effective Bayesian inference
+    for stochastic programs. In Proc. 14th National Conference on Artificial Intelligence
+    740–747 (1997).
+  volume-title: Proc. 14th National Conference on Artificial Intelligence
+  year: '1997'
+- author: ND Goodman
+  unstructured: Goodman, N. D. & Stuhlmüller, A. The Design and Implementation of
+    Probabilistic Programming Languages. Available at http://dippl.org (2015).
+  volume-title: The Design and Implementation of Probabilistic Programming Languages
+  year: '2015'
+- author: A Pfeffer
+  unstructured: Pfeffer, A. Practical Probabilistic Programming (Manning, 2015).
+  volume-title: Practical Probabilistic Programming
+  year: '2015'
+- author: C Freer
+  doi: 10.1017/CBO9781107338579.007
+  first-page: '195'
+  unstructured: Freer, C., Roy, D. & Tenenbaum, J. B. in Turing's Legacy (ed. Downey,
+    R.) 195–252 (2014).
+  volume-title: Turing's Legacy
+  year: '2014'
+- author: P Marjoram
+  doi: 10.1073/pnas.0306899100
+  first-page: '15324'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Marjoram, P., Molitor, J., Plagnol, V. & Tavaré, S. Markov chain Monte
+    Carlo without likelihoods. Proc. Natl Acad. Sci. USA 100, 15324–15328 (2003).
+  volume: '100'
+  year: '2003'
+- author: V Mansinghka
+  first-page: '1520'
+  unstructured: Mansinghka, V., Kulkarni, T. D., Perov, Y. N. & Tenenbaum, J. Approximate
+    Bayesian image interpretation using generative probabilistic graphics programs.
+    In Proc. Advances in Neural Information Processing Systems 26 1520–1528 (2013).
+  volume-title: Proc. Advances in Neural Information Processing Systems 26
+  year: '2013'
+- author: CM Bishop
+  doi: 10.1098/rsta.2012.0222
+  first-page: '20120222'
+  journal-title: Phil. Trans. R. Soc. A
+  unstructured: Bishop, C. M. Model-based machine learning. Phil. Trans. R. Soc. A
+    371, 20120222 (2013). This article is a very clear tutorial exposition of probabilistic
+    modelling.
+  volume: '371'
+  year: '2013'
+- author: DJ Lunn
+  doi: 10.1023/A:1008929526011
+  first-page: '325'
+  journal-title: Stat. Comput.
+  unstructured: 'Lunn, D. J., Thomas, A., Best, N. & Spiegelhalter, D. WinBUGS — a
+    Bayesian modelling framework: concepts, structure, and extensibility. Stat. Comput.
+    10, 325–337 (2000). This reports an early probabilistic programming framework
+    widely used in statistics.'
+  volume: '10'
+  year: '2000'
+- unstructured: Stan Development Team. Stan Modeling Language Users Guide and Reference
+    Manual, Version 2.5.0. http://mc-stan.org/ (2014).
+- author: B Fischer
+  doi: 10.1017/S0956796802004562
+  first-page: '483'
+  journal-title: J. Funct. Program.
+  unstructured: 'Fischer, B. & Schumann, J. AutoBayes: a system for generating data
+    analysis programs from statistical models. J. Funct. Program. 13, 483–508 (2003).'
+  volume: '13'
+  year: '2003'
+- author: TP Minka
+  unstructured: Minka, T. P., Winn, J. M., Guiver, J. P. & Knowles, D. A. Infer.NET
+    2.4. http://research.microsoft.com/infernet (Microsoft Research, 2010).
+  volume-title: Infer.NET 2.4
+  year: '2010'
+- author: D Wingate
+  first-page: '770'
+  unstructured: Wingate, D., Stuhlmüller, A. & Goodman, N. D. Lightweight implementations
+    of probabilistic programming languages via transformational compilation. In Proc.
+    International Conference on Artificial Intelligence and Statistics 770–778 (2011).
+  volume-title: Proc. International Conference on Artificial Intelligence and Statistics
+  year: '2011'
+- author: A Pfeffer
+  first-page: '733'
+  unstructured: 'Pfeffer, A. IBAL: a probabilistic rational programming language.
+    In Proc. International Joint Conference on Artificial Intelligence 733–740 (2001).'
+  volume-title: Proc. International Joint Conference on Artificial Intelligence
+  year: '2001'
+- author: B Milch
+  first-page: '1352'
+  unstructured: 'Milch, B. et al. BLOG: probabilistic models with unknown objects.
+    In Proc. 19th International Joint Conference on Artificial Intelligence 1352–1359
+    (2005).'
+  volume-title: Proc. 19th International Joint Conference on Artificial Intelligence
+  year: '2005'
+- author: N Goodman
+  first-page: '23'
+  unstructured: 'Goodman, N., Mansinghka, V., Roy, D., Bonawitz, K. & Tenenbaum, J.
+    Church: a language for generative models. In Proc. Uncertainty in Artificial Intelligence
+    22 23 (2008). This is an influential paper introducing the Turing-complete probabilistic
+    programming language Church.'
+  volume-title: Proc. Uncertainty in Artificial Intelligence 22
+  year: '2008'
+- author: A Pfeffer
+  unstructured: 'Pfeffer, A. Figaro: An Object-Oriented Probabilistic Programming
+    Language. Tech. Rep. (Charles River Analytics, 2009).'
+  volume-title: 'Figaro: An Object-Oriented Probabilistic Programming Language'
+  year: '2009'
+- unstructured: 'Mansinghka, V., Selsam, D. & Perov, Y. Venture: a higher-order probabilistic
+    programming platform with programmable inference. Preprint at http://arxiv.org/abs/1404.0099
+    (2014).'
+- author: F Wood
+  first-page: '1024'
+  unstructured: Wood, F., van de Meent, J. W. & Mansinghka, V. A new approach to probabilistic
+    programming inference. In Proc. 17th International Conference on Artificial Intelligence
+    and Statistics 1024–1032 (2014).
+  volume-title: Proc. 17th International Conference on Artificial Intelligence and
+    Statistics
+  year: '2014'
+- author: L Li
+  unstructured: 'Li, L., Wu, Y. & Russell, S. J. SWIFT: Compiled Inference for Probabilistic
+    Programs. Report No. UCB/EECS-2015–12 (Univ. California, Berkeley, 2015).'
+  volume-title: 'SWIFT: Compiled Inference for Probabilistic Programs'
+  year: '2015'
+- author: J Bergstra
+  unstructured: 'Bergstra, J. et al. Theano: a CPU and GPU math expression compiler.
+    In Proc. 9th Python in Science Conference http://conference.scipy.org/proceedings/scipy2010/
+    (2010).'
+  volume-title: Proc. 9th Python in Science Conference
+  year: '2010'
+- author: H Kushner
+  doi: 10.1115/1.3653121
+  first-page: '97'
+  journal-title: J. Basic Eng.
+  unstructured: Kushner, H. A new method of locating the maximum point of an arbitrary
+    multipeak curve in the presence of noise. J. Basic Eng. 86, 97–106 (1964).
+  volume: '86'
+  year: '1964'
+- author: DR Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  journal-title: J. Glob. Optim.
+  unstructured: Jones, D. R., Schonlau, M. & Welch, W. J. Efficient global optimization
+    of expensive black-box functions. J. Glob. Optim. 13, 455–492 (1998).
+  volume: '13'
+  year: '1998'
+- unstructured: Brochu, E., Cora, V. M. & de Freitas, N. A tutorial on Bayesian optimization
+    of expensive cost functions, with application to active user modeling and hierarchical
+    reinforcement learning. Preprint at http://arXiv.org/abs/1012.2599 (2010).
+- author: P Hennig
+  first-page: '1809'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Hennig, P. & Schuler, C. J. Entropy search for information-efficient
+    global optimization. J. Mach. Learn. Res. 13, 1809–1837 (2012).
+  volume: '13'
+  year: '2012'
+- author: JM Hernández-Lobato
+  first-page: '918'
+  unstructured: Hernández-Lobato, J. M., Hoffman, M. W. & Ghahramani, Z. Predictive
+    entropy search for efficient global optimization of black-box functions. In Proc.
+    Advances in Neural Information Processing Systems 918–926 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems
+  year: '2014'
+- author: J Snoek
+  first-page: '2960'
+  unstructured: Snoek, J., Larochelle, H. & Adams, R. P. Practical Bayesian optimization
+    of machine learning algorithms. In Proc. Advances in Neural Information Processing
+    Systems 2960–2968 (2012).
+  volume-title: Proc. Advances in Neural Information Processing Systems
+  year: '2012'
+- author: C Thornton
+  doi: 10.1145/2487575.2487629
+  first-page: '847'
+  unstructured: 'Thornton, C., Hutter, F., Hoos, H. H. & Leyton-Brown, K. Auto-WEKA:
+    combined selection and hyperparameter optimization of classification algorithms.
+    In Proc. 19th ACM SIGKDD International Conference on Knowledge Discovery and Data
+    Mining 847–855 (2013).'
+  volume-title: Proc. 19th ACM SIGKDD International Conference on Knowledge Discovery
+    and Data Mining
+  year: '2013'
+- author: H Robbins
+  doi: 10.1090/S0002-9904-1952-09620-8
+  first-page: '527'
+  journal-title: Bull. Amer. Math. Soc.
+  unstructured: Robbins, H. Some aspects of the sequential design of experiments.
+    Bull. Amer. Math. Soc. 55, 527–535 (1952).
+  volume: '55'
+  year: '1952'
+- author: MP Deisenroth
+  first-page: '465'
+  unstructured: 'Deisenroth, M. P. & Rasmussen, C. E. PILCO: a model-based and data-efficient
+    approach to policy search. In Proc. 28th International Conference on Machine Learning
+    465–472 (2011).'
+  volume-title: Proc. 28th International Conference on Machine Learning
+  year: '2011'
+- author: P Poupart
+  first-page: '90'
+  unstructured: Poupart, P. in Encyclopedia of Machine Learning 90–93 (Springer, 2010).
+  volume-title: Encyclopedia of Machine Learning
+  year: '2010'
+- author: P Diaconis
+  doi: 10.1007/978-1-4613-8768-8_20
+  first-page: '163'
+  unstructured: Diaconis, P. in Statistical Decision Theory and Related Topics IV
+    163–175 (Springer, 1988).
+  volume-title: Statistical Decision Theory and Related Topics IV
+  year: '1988'
+- author: A O'Hagan
+  doi: 10.1016/0378-3758(91)90002-V
+  first-page: '245'
+  journal-title: J. Statist. Plann. Inference
+  unstructured: O'Hagan, A. Bayes-Hermite quadrature. J. Statist. Plann. Inference
+    29, 245–260 (1991).
+  volume: '29'
+  year: '1991'
+- author: C Shannon
+  unstructured: Shannon, C. & Weaver, W. The Mathematical Theory of Communication
+    (Univ. Illinois Press, 1949).
+  volume-title: The Mathematical Theory of Communication
+  year: '1949'
+- author: DJC MacKay
+  unstructured: MacKay, D. J. C. Information Theory, Inference, and Learning Algorithms
+    (Cambridge Univ. Press, 2003).
+  volume-title: Information Theory, Inference, and Learning Algorithms
+  year: '2003'
+- author: F Wood
+  doi: 10.1145/1897816.1897842
+  first-page: '91'
+  journal-title: Commun. ACM
+  unstructured: Wood, F., Gasthaus, J., Archambeau, C., James, L. & Teh, Y. W. The
+    sequence memoizer. Commun. ACM 54, 91–98 (2011). This article derives a state-of-the-art
+    data compression scheme based on Bayesian nonparametric models.
+  volume: '54'
+  year: '2011'
+- unstructured: Steinruecken, C., Ghahramani, Z. & MacKay, D. J. C. Improving PPM
+    with dynamic parameter updates. In Proc. Data Compression Conference (in the press).
+- author: JR Lloyd
+  unstructured: 'Lloyd, J. R., Duvenaud, D., Grosse, R., Tenenbaum, J. B. & Ghahramani,
+    Z. Automatic construction and natural-language description of nonparametric regression
+    models. In Proc. 28th AAAI Conference on Artificial Intelligence Preprint at:
+    http://arxiv.org/abs/1402.4304 (2014). Introduces the Automatic Statistician,
+    translating learned probabilistic models into reports about data.'
+  volume-title: Proc. 28th AAAI Conference on Artificial Intelligence
+  year: '2014'
+- author: RB Grosse
+  first-page: '306'
+  unstructured: Grosse, R. B., Salakhutdinov, R. & Tenenbaum, J. B. Exploiting compositionality
+    to explore a large space of model structures. In Proc. Conference on Uncertainty
+    in Artificial Intelligence 306–315 (2012).
+  volume-title: Proc. Conference on Uncertainty in Artificial Intelligence
+  year: '2012'
+- author: M Schmidt
+  doi: 10.1126/science.1165893
+  first-page: '81'
+  journal-title: Science
+  unstructured: Schmidt, M. & Lipson, H. Distilling free-form natural laws from experimental
+    data. Science 324, 81–85 (2009).
+  volume: '324'
+  year: '2009'
+- author: DE Wolstenholme
+  doi: 10.1016/0950-7051(88)90075-5
+  first-page: '173'
+  journal-title: Knowl. Base. Syst.
+  unstructured: 'Wolstenholme, D. E., O''Brien, C. M. & Nelder, J. A. GLIMPSE: a knowledge-based
+    front end for statistical analysis. Knowl. Base. Syst. 1, 173–178 (1988).'
+  volume: '1'
+  year: '1988'
+- author: DJ Hand
+  unstructured: Hand, D. J. Patterns in statistical strategy. In Artificial Intelligence
+    and Statistics (ed Gale, W. A.) (Addison-Wesley Longman, 1986).
+  volume-title: Artificial Intelligence and Statistics
+  year: '1986'
+- author: RD King
+  doi: 10.1038/nature02236
+  first-page: '247'
+  journal-title: Nature
+  unstructured: King, R. D. et al. Functional genomic hypothesis generation and experimentation
+    by a robot scientist. Nature 427, 247–252 (2004).
+  volume: '427'
+  year: '2004'
+- author: M Welling
+  unstructured: 'Welling, M. et al. Bayesian inference with big data: a snapshot from
+    a workshop. ISBA Bulletin 21, https://bayesian.org/sites/default/files/fm/bulletins/1412.pdf
+    (2014).'
+  volume-title: ISBA Bulletin
+  year: '2014'
+- author: B Bakker
+  first-page: '83'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Bakker, B. & Heskes, T. Task clustering and gating for Bayesian multitask
+    learning. J. Mach. Learn. Res. 4, 83–99 (2003).
+  volume: '4'
+  year: '2003'
+- author: N Houlsby
+  first-page: '2096'
+  unstructured: Houlsby, N., Hernández-Lobato, J. M., Huszár, F. & Ghahramani, Z.
+    Collaborative Gaussian processes for preference learning. In Proc. Advances in
+    Neural Information Processing Systems 26 2096–2104 (2012).
+  volume-title: Proc. Advances in Neural Information Processing Systems 26
+  year: '2012'
+- author: SJ Russell
+  unstructured: 'Russell, S. J. & Wefald, E. Do the Right Thing: Studies in Limited
+    Rationality (MIT Press, 1991).'
+  volume-title: 'Do the Right Thing: Studies in Limited Rationality'
+  year: '1991'
+- author: MI Jordan
+  doi: 10.3150/12-BEJSP17
+  first-page: '1378'
+  journal-title: Bernoulli
+  unstructured: Jordan, M. I. On statistics, computation and scalability. Bernoulli
+    19, 1378–1390 (2013).
+  volume: '19'
+  year: '2013'
+- author: M Hoffman
+  first-page: '1303'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Hoffman, M., Blei, D., Paisley, J. & Wang, C. Stochastic variational
+    inference. J. Mach. Learn. Res. 14, 1303–1347 (2013).
+  volume: '14'
+  year: '2013'
+- author: J Hensman
+  first-page: '244'
+  unstructured: Hensman, J., Fusi, N. & Lawrence, N. D. Gaussian processes for big
+    data. In Proc. Conference on Uncertainty in Artificial Intelligence 244 (UAI,
+    2013).
+  volume-title: Proc. Conference on Uncertainty in Artificial Intelligence
+  year: '2013'
+- author: A Korattikara
+  first-page: '181'
+  unstructured: 'Korattikara, A., Chen, Y. & Welling, M. Austerity in MCMC land: cutting
+    the Metropolis-Hastings budget. In Proc. 31th International Conference on Machine
+    Learning 181–189 (2014).'
+  volume-title: Proc. 31th International Conference on Machine Learning
+  year: '2014'
+- author: B Paige
+  first-page: '3410'
+  unstructured: Paige, B., Wood, F., Doucet, A. & Teh, Y. W. Asynchronous anytime
+    sequential Monte Carlo. In Proc. Advances in Neural Information Processing Systems
+    27 3410–3418 (2014).
+  volume-title: Proc. Advances in Neural Information Processing Systems 27
+  year: '2014'
+- author: WH Jefferys
+  first-page: '64'
+  journal-title: Am. Sci.
+  unstructured: Jefferys, W. H. & Berger, J. O. Ockham's Razor and Bayesian Analysis.
+    Am. Sci. 80, 64–72 (1992).
+  volume: '80'
+  year: '1992'
+- author: CE Rasmussen
+  first-page: '294'
+  unstructured: Rasmussen, C. E. & Ghahramani, Z. Occam's Razor. In Neural Information
+    Processing Systems 13 (eds Leen, T. K., Dietterich, T. G., & Tresp, V.) 294–300
+    (2001).
+  volume-title: Neural Information Processing Systems 13
+  year: '2001'
+- author: LR Rabiner
+  doi: 10.1109/5.18626
+  first-page: '257'
+  journal-title: Proc. IEEE
+  unstructured: Rabiner, L. R. A tutorial on hidden Markov models and selected applications
+    in speech recognition. Proc. IEEE 77, 257–286 (1989).
+  volume: '77'
+  year: '1989'
+- author: A Gelman
+  doi: 10.1201/b16018
+  unstructured: Gelman, A. et al. Bayesian Data Analysis 3rd edn (Chapman & Hall/CRC,
+    2013).
+  volume-title: Bayesian Data Analysis
+  year: '2013'
+- unstructured: Lloyd, J. R. & Ghahramani, Z. Statistical model criticism using kernel
+    two sample tests http://mlg.eng.cam.ac.uk/Lloyd/papers/kernel-model-checking.pdf
+    (2015).
+doc_url: http://www.nature.com/articles/nature14541
+doi: 10.1038/nature14541
+files:
+- ghahramani-zoubinprobabilistic-machine-learning-and-artificial-intelligence2015.data
+- ghahramani-zoubinprobabilistic-machine-learning-and-artificial-intelligence2015-a.pdf
+issue: '7553'
+journal: Nature
+language: en
+month: 5
+pages: 452--459
+publisher: Springer Science and Business Media LLC
+time-added: 2020-12-14-16:48:14
+title: Probabilistic machine learning and artificial intelligence
+type: article
+url: http://dx.doi.org/10.1038/nature14541
+volume: '521'
+year: 2015

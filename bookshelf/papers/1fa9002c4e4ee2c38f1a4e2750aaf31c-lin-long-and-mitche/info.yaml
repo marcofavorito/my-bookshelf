@@ -1,0 +1,31 @@
+abstract: 'Reinforcement learning is a type of unsupervised learning for sequential
+  decision making. Q-learning is probably the best-understood reinforcement learning
+  algorithm. In Q-learning, the agent learns a mapping from states and actions to
+  their utilities. An important assumption of Q-learning is the Markovian environment
+  assumption, meaning that any information needed to determine the optimal actions
+  is reflected in the agent''''s state representation. Consider an agent whose state
+  representation is based solely on its immediate perceptual sensations. When its
+  sensors are not able to make essential distinctions among world states, the Markov
+  assumption is violated, causing a problem called perceptual aliasing. For example,
+  when facing a closed box, an agent based on its current visual sensation cannot
+  act optimally if the optimal action depends on the contents of the box. There are
+  two basic approaches to addressing this problem -- using more sensors or using history
+  to figure out the current world state. This paper studies three connectionist approaches
+  which learn to use history to handle perceptual aliasing: the window-Q, recurrent-Q,
+  and recurrent-model architectures. Empirical study of these architectures is presented.
+  Their relative strengths and weaknesses are also discussed.'
+address: USA
+author: Lin, Long and Mitchell, Tom
+author_list:
+- family: Lin
+  given: Long
+- family: Mitchell
+  given: Tom
+files:
+- lin-long-and-mitchell-tommemory-approaches-to-reinforcement-learning-in-non-markovian-domains1992.pdf
+publisher: Carnegie Mellon University
+ref: 10.5555/865158
+time-added: 2021-01-02-14:47:36
+title: Memory Approaches to Reinforcement Learning in Non-Markovian Domains
+type: techreport
+year: '1992'

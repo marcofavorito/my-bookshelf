@@ -1,0 +1,46 @@
+abstract: Deep reinforcement learning (RL) methods generally engage in exploratory
+  behavior through noise injection in the action space. An alternative is to add noise
+  directly to the agent's parameters, which can lead to more consistent exploration
+  and a richer set of behaviors. Methods such as evolutionary strategies use parameter
+  perturbations, but discard all temporal structure in the process and require significantly
+  more samples. Combining parameter noise with traditional RL methods allows to combine
+  the best of both worlds. We demonstrate that both off- and on-policy methods benefit
+  from this approach through experimental comparison of DQN, DDPG, and TRPO on high-dimensional
+  discrete action environments as well as continuous control tasks. Our results show
+  that RL with parameter noise learns more efficiently than traditional RL with action
+  space noise and evolutionary strategies individually.
+archiveprefix: arXiv
+author: Plappert, Matthias and Houthooft, Rein and Dhariwal, Prafulla and Sidor, Szymon
+  and Chen, Richard Y. and Chen, Xi and Asfour, Tamim and Abbeel, Pieter and Andrychowicz,
+  Marcin
+author_list:
+- family: Plappert
+  given: Matthias
+- family: Houthooft
+  given: Rein
+- family: Dhariwal
+  given: Prafulla
+- family: Sidor
+  given: Szymon
+- family: Chen
+  given: Richard Y.
+- family: Chen
+  given: Xi
+- family: Asfour
+  given: Tamim
+- family: Abbeel
+  given: Pieter
+- family: Andrychowicz
+  given: Marcin
+eprint: 1706.01905v2
+file: 1706.01905v2.pdf
+files:
+- plappert-matthias-and-houthooft-rein-and-dhariwal-prafulla-and-sidor-szymon-and-chen-richard-y.-and-chen-xi-and-asfour-tamim-and-abbeel-pieter.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1706.01905v2
+time-added: 2021-01-12-18:38:15
+title: Parameter Space Noise for Exploration
+type: article
+url: http://arxiv.org/abs/1706.01905v2
+year: '2017'

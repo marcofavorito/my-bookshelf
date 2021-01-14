@@ -1,0 +1,687 @@
+author: Vardi, Moshe Y.
+author_list:
+- affiliation: []
+  family: Vardi
+  given: Moshe Y.
+citations:
+- author: M. Abadi
+  doi: 10.1016/0304-3975(91)90224-P
+  first-page: '253'
+  issue: '2'
+  journal-title: Theoretical Computer Science
+  unstructured: M. Abadi and L. Lamport. The existence of refinement mappings. Theoretical
+    Computer Science, 82(2):253–284, 1991.
+  volume: '82'
+  year: '1991'
+- unstructured: R. Armoni, L. Fix, A. Flaisher, R. Gerth, T. Kanza, A. Landver, S.
+    Mador-Haim, A. Tiemeyer, M.Y. Vardi, and Y. Zbar. The ForSpec compiler. Submitted,
+    2001.
+- doi: 10.1007/3-540-46002-0_21
+  unstructured: 'R. Armoni, L. Fix, R. Gerth, B. Ginsburg, T. Kanza, A. Landver, S.
+    Mador-Haim, A. Tiemeyer, E. Singerman, and M.Y. Vardi. The ForSpec temporal language:
+    A new temporal property-specification language. Submitted, 2001.'
+- doi: 10.1007/3-540-51803-7_22
+  unstructured: B. Banieqbal and H. Barringer. Temporal logic with fixed points. In
+    B. Banieqbal, H. Barringer, and A. Pnueli, editors, Temporal Logic in Specification,
+    volume 398 of LectureNotes in Computer Science, pages 62–74. Springer-Verlag,
+    1987.
+- author: H. Barringer
+  doi: 10.1007/3-540-15670-4_2
+  first-page: '35'
+  series-title: Lect Notes Comput Sci
+  unstructured: H. Barringer and R. Kuiper. Hierarchical development of concurrent
+    systems in a framework. In S.D. Brookes et al., editor, Seminar in Concurrency,
+    Lecture Notes in Computer Science, Vol. 197, pages 35–61. Springer-Verlag, Berlin/New
+    York, 1985.
+  volume-title: Seminar in Concurrency
+  year: '1985'
+- author: I. Beer
+  doi: 10.1007/3-540-58179-0_53
+  first-page: '182'
+  series-title: Lect Notes Comput Sci
+  unstructured: I. Beer, S. Ben-David, D. Geist, R. Gewirtzman, and M. Yoeli. Methodology
+    and system for practical formal verification of reactive hardware. In Proc. 6th
+    Conference on ComputerAided Verification, volume 818 of Lecture Notes in Computer
+    Science, pages 182–193, Stanford, June 1994.
+  volume-title: Proc. 6th Conference on ComputerAided Verification
+  year: '1994'
+- author: I. Beer
+  doi: 10.1007/BFb0028744
+  first-page: '184'
+  series-title: Lect Notes Comput Sci
+  unstructured: I. Beer, S. Ben-David, and A. Landver. On-the-fly model checking for
+    RCTL formulas. In A.J. Hu and M.Y. Vardi, editors, Computer Aided Verification,
+    Proc. 10th Int’l Conf., volume 1427 of Lecture Notes in Computer Science, pages
+    184–194. Springer-Verlag, Berlin, 1998.
+  volume-title: Computer Aided Verification, Proc. 10th Int’l Conf.
+  year: '1998'
+- author: M. Ben-Ari
+  doi: 10.1007/BF01257083
+  first-page: '207'
+  journal-title: Acta Informatica
+  unstructured: M. Ben-Ari, A. Pnueli, and Z. Manna. The temporal logic of branching
+    time. Acta Informatica, 20:207–226, 1983.
+  volume: '20'
+  year: '1983'
+- doi: 10.1145/309847.309942
+  unstructured: A. Biere, A. Cimatti, E.M. Clarke, M. Fujita, and Y. Zhu. Symbolic
+    model checking using SAT procedures instead of BDDs. In Proc. 36th Design Automation
+    Conference, pages 317–320. IEEE Computer Society, 1999.
+- author: R. Bloem
+  doi: 10.1007/3-540-48683-6_21
+  first-page: '222'
+  journal-title: Computer Aided Verification, Proc. 11th Int. Conference
+  unstructured: R. Bloem, K. Ravi, and F. Somenzi. Efficient decision prcedures for
+    model checking of linear time logic properties. In Computer Aided Verification,
+    Proc. 11th Int. Conference, volume 1633 of LectureNotes in Computer Science, pages
+    222–235. Springer-Verlag, 1999.
+  volume: '1633'
+  year: '1999'
+- author: R.K. Brayton
+  first-page: '428'
+  journal-title: ComputerAided Verification, Proc. 8th Int. Conference
+  unstructured: 'R.K. Brayton, G.D. Hachtel, A. Sangiovanni-Vincentelli, F. Somenzi,
+    A. Aziz, S.-T. Cheng, S. Edwards, S. Khatri, T. Kukimoto, A. Pardo, S. Qadeer,
+    R.K. Ranjan, S. Sarwary, T.R. Shiple, G. Swamy, and T. Villa. VIS: a system for
+    verification and synthesis. In ComputerAided Verification, Proc. 8th Int. Conference,
+    volume 1102 of Lecture Notes in ComputerScience, pages 428–432. Springer-Verlag,
+    1996.'
+  volume: '1102'
+  year: '1996'
+- author: M.C. Browne
+  doi: 10.1016/0304-3975(88)90098-9
+  first-page: '115'
+  journal-title: Theoretical Computer Science
+  unstructured: M.C. Browne, E.M. Clarke, and O. Grumberg. Characterizing finite Kripke
+    structures in propositional temporal logic. Theoretical Computer Science, 59:115–131,
+    1988.
+  volume: '59'
+  year: '1988'
+- unstructured: J.R. Büchi. On a decision method in restricted second order arithmetic.
+    In Proc. Internat. Congr. Logic, Method. and Philos. Sci. 1960, pages 1–12, Stanford,
+    1962. Stanford University Press.
+- unstructured: 'J.R. Burch, E.M. Clarke, K.L. McMillan, D.L. Dill, and L.J. Hwang.
+    Symbolic model checking: 1020 states and beyond. In Proc. 5th Symp. on Logic in
+    Computer Science, pages 428–439, Philadelphia, June 1990.'
+- author: J.R. Burch
+  doi: 10.1016/0890-5401(92)90017-A
+  first-page: '142'
+  issue: '2'
+  journal-title: Information and Computation
+  unstructured: 'J.R. Burch, E.M. Clarke, K.L. McMillan, D.L. Dill, and L.J. Hwang.
+    Symbolic model checking: 1020 states and beyond. Information and Computation,
+    98(2):142–170, June 1992.'
+  volume: '98'
+  year: '1992'
+- author: W. Cai
+  doi: 10.1093/comjnl/37.4.333
+  first-page: '333'
+  issue: '4'
+  journal-title: The Computer JournaL
+  unstructured: W. Cai and S.J. Turner. An approach to the run-time monitoring of
+    parallel programs. The Computer JournaL, 37(4):333–345, 1994.
+  volume: '37'
+  year: '1994'
+- author: S. Campos
+  doi: 10.1007/3-540-61474-5_74
+  first-page: '257'
+  series-title: Lect Notes Comput Sci
+  unstructured: 'S. Campos, E.M. Clarke, and O. Grumberg. Selective quantitative analysis
+    and interval model checking: Verifying different facets of a system. In Computer-Aided
+    Verification,Proc. 8th Int’l Conf., volume 1102 of Lecture Notes in Computer Science,
+    pages 257–268. Springer-Verlag, Berlin, 1996.'
+  volume-title: Computer-Aided Verification,Proc. 8th Int’l Conf.
+  year: '1996'
+- author: E.M. Clarke
+  doi: 10.1007/BFb0013029
+  first-page: '428'
+  series-title: Lect Notes Comput Sci
+  unstructured: E.M. Clarke and I.A. Draghicescu. Expressibility results for linear-time
+    and branching-time logics. In J.W. de Bakker, W.P. de Roever, and G. Rozenberg,
+    editors, Proc. Workshop onLinear Time, Branching Time, and Partial Order in Logics
+    and Models for Concurrency, volume 354 of Lecture Notes in Computer Science, pages
+    428–437. Springer-Verlag, 1988.
+  volume-title: Proc. Workshop onLinear Time, Branching Time, and Partial Order in
+    Logics and Models for Concurrency
+  year: '1988'
+- author: E.M. Clarke
+  doi: 10.1145/5397.5399
+  first-page: '244'
+  issue: '2'
+  journal-title: ACM Transactions on Programming Languages and Systems
+  unstructured: E.M. Clarke, E.A. Emerson, and A.P. Sistla. Automatic verification
+    of finite-state concurrent systems using temporal logic specifications. ACM Transactions
+    on Programming Languages and Systems, 8(2):244–263, January 1986.
+  volume: '8'
+  year: '1986'
+- doi: 10.1007/3-540-58043-3_19
+  unstructured: E.M. Clarke, O. Grumberg, and D. Long. Verification tools for finite-state
+    concurrent systems. In J.W. de Bakker, W.-P. de Roever, and G. Rozenberg, editors,
+    Decade of Concurrency-Reflections and Perspectives (Proceedings of REX School),
+    volume 803 of LectureNotes in Computer Science, pages 124–175. Springer-Verlag,
+    1993.
+- doi: 10.1145/217474.217565
+  unstructured: E.M. Clarke, O. Grumberg, K.L. McMillan, and X. Zhao. Efficient generation
+    of counterexamples and witnesses in symbolic model checking. In Proc. 32nd Design
+    AutomationConference, pages 427–432. IEEE Computer Society, 1995.
+- unstructured: E.M. Clarke, O. Grumberg, and D. Peled. Model Checking. MIT Press,
+    1999.
+- author: E.M. Clarke
+  doi: 10.1109/6.499951
+  first-page: '61'
+  journal-title: IEEE Spectrum
+  unstructured: E.M. Clarke and R.P. Kurshan. Computer aided verification. IEEE Spectrum,
+    33:61–67, 1986.
+  volume: '33'
+  year: '1986'
+- unstructured: E.M. Clarke, D.E. Long, and K.L. McMillan. Compositionalmodel checking.
+    In R. Parikh, editor, Proc. 4th IEEE Symp. on Logic in Computer Science, pages
+    353–362. IEEE Computer Society Press, 1989.
+- author: C. Courcoubetis
+  doi: 10.1007/BF00121128
+  first-page: '275'
+  journal-title: Formal Methods in System Design
+  unstructured: C. Courcoubetis, M.Y. Vardi, P. Wolper, and M. Yannakakis. Memory
+    efficient algorithms for the verification of temporal properties. Formal Methods
+    in System Design, 1:275–288, 1992.
+  volume: '1'
+  year: '1992'
+- author: W. Damm
+  first-page: '180'
+  journal-title: 'Stepwise Refinement of Distributed Systems: Models, Formalisms,Correctness
+    (Proceedings of REX Workshop)'
+  unstructured: 'W. Damm, G. Döhmen, V. Gerstner, and B. Josko. Modular verification
+    of Petri nets: the temporal logic approach. In Stepwise Refinement of Distributed
+    Systems: Models, Formalisms,Correctness (Proceedings of REX Workshop), volume
+    430 of Lecture Notes inComputer Science, pages 180–207, Mook, The Netherlands,
+    May/June 1989. Springer-Verlag.'
+  volume: '430'
+  year: '1989'
+- author: D. Dams
+  first-page: '479'
+  journal-title: Proc. 5th Conf. on Computer Aided Verification
+  unstructured: D. Dams, O. Grumberg, and R. Gerth. Generation of reduced models for
+    checking fragments of CTL. In Proc. 5th Conf. on Computer Aided Verification,
+    volume 697 of LectureNotes in Computer Science, pages 479–490. Springer-Verlag,
+    June 1993.
+  volume: '697'
+  year: '1993'
+- unstructured: M. Daniele, P. Traverso, and M.Y. Vardi. Strong cyclic planning revisited.
+    In S. Biundo and M. Fox, editors, 5th European Conference on Planning, pages 34–46,
+    1999.
+- author: N. Daniele
+  doi: 10.1007/3-540-48683-6_23
+  first-page: '249'
+  series-title: Lect Notes Comput Sci
+  unstructured: N. Daniele, F. Guinchiglia, and M.Y. Vardi. Improved automata generation
+    for linear temporal logic. In Computer Aided Verification, Proc. 11th Int. Conference,
+    volume 1633 of Lecture Notes in Computer Science, pages 249–260. Springer-Verlag,
+    1999.
+  volume-title: Computer Aided Verification, Proc. 11th Int. Conference
+  year: '1999'
+- doi: 10.1016/B978-0-444-88074-1.50021-4
+  unstructured: E.A. Emerson. Temporal and modal logic. Handbook of Theoretical Computer
+    Science, pages 997–1072, 1990.
+- doi: 10.1007/3-540-10003-2_69
+  unstructured: E.A. Emerson and E.M. Clarke. Characterizing correctness properties
+    of parallel programs using fixpoints. In Proc. 7th Int’l Colloq. on Automata,
+    Languages and Programming, pages 169–181, 1980.
+- author: E.A. Emerson
+  doi: 10.1016/0022-0000(85)90001-7
+  first-page: '1'
+  journal-title: Journal of Computer and System Sciences
+  unstructured: E.A. Emerson and J.Y. Halpern. Decision procedures and expressiveness
+    in the temporal logic of branching time. Journal of Computer and System Sciences,
+    30:1–24, 1985.
+  volume: '30'
+  year: '1985'
+- author: E.A. Emerson
+  doi: 10.1145/4904.4999
+  first-page: '151'
+  issue: '1'
+  journal-title: Journal of the ACM
+  unstructured: 'E.A. Emerson and J.Y. Halpern. Sometimes and not never revisited:
+    On branching versus linear time. Journal of the ACM, 33(1):151–178, 1986.'
+  volume: '33'
+  year: '1986'
+- doi: 10.1109/SFCS.1988.21949
+  unstructured: E.A. Emerson and C. Jutla. The complexity of tree automata and logics
+    of programs. In Proc. 29th IEEE Symp. on Foundations of Computer Science, pages
+    328–337,White Plains, October 1988.
+- doi: 10.1145/318593.318620
+  unstructured: 'E.A. Emerson and C.-L. Lei. Modalities for model checking: Branching
+    time logic strikes back. In Proc. 20th ACM Symp. on Principles of Programming
+    Languages, pages 84–96, New Orleans, January 1985.'
+- author: M.J. Fischer
+  doi: 10.1016/0022-0000(79)90046-1
+  first-page: '194'
+  journal-title: Journal of Computer and Systems Sciences
+  unstructured: M.J. Fischer and R.E. Ladner. Propositional dynamic logic of regular
+    programs. Journal of Computer and Systems Sciences, 18:194–211, 1979.
+  volume: '18'
+  year: '1979'
+- author: K. Fisler
+  doi: 10.1023/A:1008345113376
+  first-page: '323'
+  journal-title: Journal of Logic, Language, and Information
+  unstructured: 'K. Fisler. Timing diagrams: Formalization and algorithmic verification.
+    Journal of Logic, Language, and Information, 8:323–361, 1999.'
+  volume: '8'
+  year: '1999'
+- author: K. Fisler
+  doi: 10.1007/3-540-49519-3_9
+  first-page: '115'
+  series-title: Lect Notes Comput Sci
+  unstructured: K. Fisler and M.Y. Vardi. Bisimulation minimization in an automata-theoretic
+    verification framework. In G. Gopalakrishnan and P. Windley, editors, Proc. Intl.
+    Conference on Formal Methods in Computer-Aided Design (FMCAD), number 1522 in
+    Lecture Notes in Computer Science, pages 115–132. Springer-Verlag, 1998.
+  volume-title: Proc. Intl. Conference on Formal Methods in Computer-Aided Design
+    (FMCAD)
+  year: '1998'
+- doi: 10.1016/S1571-0661(04)80665-0
+  unstructured: R. Fraer, G. Kamhi, L. Fix, and M.Y. Vardi. Evaluating semi-exhausting
+    verification techniques for bug hunting. In Proc. 1st Int’l Workshop on SymbolicModel
+    Checking (SMC’99), Electronic Notes in Theoretical Computer Science, pages 11–22.
+    Elsevier, 1999.
+- doi: 10.1145/567446.567462
+  unstructured: D. Gabbay, A. Pnueli, S. Shelah, and J. Stavi. On the temporal analysis
+    of fairness. In Proc. 7th ACM Symp. on Principles of Programming Languages, pages
+    163–173, January 1980.
+- doi: 10.1007/978-0-387-34892-6_1
+  unstructured: R. Gerth, D. Peled, M.Y. Vardi, and P. Wolper. Simple on-the-fly automatic
+    verification of linear temporal logic. In P. Dembiski and M. Sredniawa, editors,
+    Protocol Specification,Testing, and Verification, pages 3–18. Chapman & Hall,
+    August 1995.
+- unstructured: R. Goering. Model checking expands verification’s scope. Electronic
+    Engineering Today, February 1997.
+- author: O. Grumberg
+  doi: 10.1145/177492.177725
+  first-page: '843'
+  issue: '3'
+  journal-title: ACM Trans. On Programming Languages and Systems
+  unstructured: O. Grumberg and D.E. Long. Model checking and modular verification.
+    ACM Trans. On Programming Languages and Systems, 16(3):843–871, 1994.
+  volume: '16'
+  year: '1994'
+- author: R.H. Hardin
+  doi: 10.1007/3-540-61474-5_94
+  first-page: '423'
+  series-title: Lect Notes Comput Sci
+  unstructured: R.H. Hardin, Z. Har’el, and R.P. Kurshan. COSPAN. In Computer Aided
+    Verification, Proc. 8th Int. Conference, volume 1102 of Lecture Notes in Computer
+    Science, pages 423–427. Springer-Verlag, 1996.
+  volume-title: Computer Aided Verification, Proc. 8th Int. Conference
+  year: '1996'
+- doi: 10.1007/978-3-642-82453-1_17
+  unstructured: D. Harel and A. Pnueli. On the development of reactive systems. In
+    K. Apt, editor, Logics and Models of Concurrent Systems, volume F-13 of NATO Advanced
+    Summer Institutes, pages 477–498. Springer-Verlag, 1985.
+- author: M. Hennessy
+  doi: 10.1145/2455.2460
+  first-page: '137'
+  journal-title: Journal of ACM
+  unstructured: M. Hennessy and R. Milner. Algebraic laws for nondeterminism and concurrency.
+    Journal of ACM, 32:137–161, 1985.
+  volume: '32'
+  year: '1985'
+- unstructured: C.A.R. Hoare. Communicating Sequential Processes. Prentice-Hall, 1985.
+- author: G.J. Holzmann
+  doi: 10.1109/32.588521
+  first-page: '279'
+  issue: '5'
+  journal-title: IEEE Trans. on Software Engineering
+  unstructured: G.J. Holzmann. The model checker SPIN. IEEE Trans. on Software Engineering,
+    23(5):279–295,May 1997. Special issue on Formal Methods in Software Practice.
+  volume: '23'
+  year: '1997'
+- unstructured: S.Y. Huang and K.T. Cheng. Formal EquivalenceChecking and DesignDebugging.
+    Kluwer Academic publishers, 1998.
+- unstructured: 'C.B. Jones. Specification and design of (parallel) programs. In R.E.A.
+    Mason, editor, Information Processing 83: Proc. IFIP 9th World Congress, pages
+    321–332. IFIP, North-Holland, 1983.'
+- author: B. Josko
+  first-page: '386'
+  series-title: Lect Notes Comput Sci
+  unstructured: B. Josko. Verifying the correctness of AADL modules using model chekcing.
+    In Stepwise Refinement of Distributed Systems:Models, Formalisms, Correctness
+    (Proceedings of REX Workshop), volume 430 of Lecture Notes in Computer Science,
+    pages 386–400,Mook, The Netherlands,May/June 1989. Springer-Verlag.
+  volume-title: Stepwise Refinement of Distributed Systems:Models, Formalisms, Correctness
+    (Proceedings of REX Workshop)
+  year: '1989'
+- author: D. Kozen
+  first-page: '333'
+  journal-title: TheoreticalComputer Science
+  unstructured: D. Kozen. Results on the propositional ficalculus. TheoreticalComputer
+    Science, 27:333–354, 1983.
+  volume: '27'
+  year: '1983'
+- doi: 10.1016/B978-0-444-88074-1.50019-6
+  unstructured: D. Kozen and L. Tiuryn. Logics of programs. Handbook of Theoretical
+    Computer Science, pages 789–840, 1990.
+- author: O. Kupferman
+  doi: 10.1007/3-540-61474-5_59
+  first-page: '75'
+  series-title: Lect Notes Comput Sci
+  unstructured: O. Kupferman and M.Y. Vardi. Module checking. In Computer Aided Verification,
+    Proc. 8th Int. Conference, volume 1102 of Lecture Notes in Computer Science, pages
+    75–86. Springer-Verlag, 1996.
+  volume-title: Computer Aided Verification, Proc. 8th Int. Conference
+  year: '1996'
+- doi: 10.1109/ISTCS.1997.595167
+  unstructured: O. Kupferman and M.Y. Vardi. Weak alternating automata are not that
+    weak. In Proc. 5th Israeli Symp. on Theory of Computing and Systems, pages 147–158.
+    IEEE Computer Society Press, 1997.
+- doi: 10.1109/LICS.1998.705645
+  unstructured: 'O. Kupferman and M.Y. Vardi. Freedom, weakness, and determinism:
+    from linear-time to branching-time. In Proc. 13th IEEE Symp. on Logic in Computer
+    Science, pages 81–92, June 1998.'
+- doi: 10.1007/978-0-387-35358-6_21
+  unstructured: O. Kupferman and M.Y. Vardi. Relating linear and branching model checking.
+    In IFIP Working Conference on Programming Concepts andMethods, pages 304–326,
+    New York, June 1998. Chapman & Hall.
+- author: O. Kupferman
+  doi: 10.1007/3-540-48683-6_17
+  first-page: '172'
+  series-title: Lect Notes Comput Sci
+  unstructured: O. Kupferman and M.Y. Vardi. Model checking of safety properties.
+    In Computer Aided Verification, Proc. 11th Int. Conference, volume 1633 of Lecture
+    Notes in Computer Science, pages 172–183. Springer-Verlag, 1999.
+  volume-title: Computer Aided Verification, Proc. 11th Int. Conference
+  year: '1999'
+- author: O. Kupferman
+  doi: 10.1007/3-540-48153-2_8
+  first-page: '82'
+  series-title: Lect Notes Comput Sci
+  unstructured: O. Kupferman and M.Y. Vardi. Vacuity detection in temporal model checking.
+    In 10th Advanced ResearchWorking Conference on CorrectHardwareDesign and VerificationMethods,
+    volume 1703 of Lecture Notes in Computer Science, pages 82–96. Springer-Verlag,
+    1999.
+  volume-title: 10th Advanced ResearchWorking Conference on CorrectHardwareDesign
+    and VerificationMethods
+  year: '1999'
+- author: O. Kupferman
+  doi: 10.1145/345099.345104
+  first-page: '87'
+  journal-title: ACM Transactions on Programming Languages and Systems
+  unstructured: O. Kupferman and M.Y. Vardi. An automata-theoretic approach to modular
+    model checking. ACM Transactions on Programming Languages and Systems, 22:87–128,
+    2000.
+  volume: '22'
+  year: '2000'
+- doi: 10.1006/inco.2000.2893
+  unstructured: O. Kupferman, M.Y. Vardi, and P. Wolper. Module checking. To appear
+    in Information and Computation, 2001.
+- doi: 10.1515/9781400864041
+  unstructured: R.P. Kurshan. Computer Aided Verification of Coordinating Processes.
+    Princeton Univ. Press, 1994.
+- unstructured: R.P. Kurshan. FormalCheck User’s Manual. Cadence Design, Inc., 1998.
+- unstructured: P. Ladkin and S. Leue. What do message sequence charts means? In R.L.
+    Tenney, P.D. Amer, and M. U. Uyar, editors, Proc. 6th Int’l Conf. on Formal Description
+    Techniques. North Holland, 1994.
+- doi: 10.1145/567446.567463
+  unstructured: L. Lamport. Sometimes is sometimes “not never”-on the temporal logic
+    of programs. In Proc. 7th ACM Symp. on Principles of Programming Languages, pages
+    174–185, January 1980.
+- author: L. Lamport
+  doi: 10.1145/69624.357207
+  first-page: '190'
+  journal-title: ACM Trans. on Programming Languages and Systenms
+  unstructured: L. Lamport. Specifying concurrent program modules. ACM Trans. on Programming
+    Languages and Systenms, 5:190–222, 1983.
+  volume: '5'
+  year: '1983'
+- author: L. Lamport
+  doi: 10.1145/177492.177726
+  first-page: '872'
+  journal-title: ACM Transactions on Programming Languages and Systems
+  unstructured: L. Lamport. The temporal logic of actions. ACM Transactions on Programming
+    Languages and Systems, 16:872–923, 1994.
+  volume: '16'
+  year: '1994'
+- doi: 10.1145/318593.318622
+  unstructured: O. Lichtenstein and A. Pnueli. Checking that finite state concurrent
+    programs satisfy their linear specification. In Proc. 12th ACM Symp. on Principles
+    of Programming Languages, pages 97–107, New Orleans, January 1985.
+- author: O. Lichtenstein
+  doi: 10.1007/3-540-15648-8_16
+  first-page: '196'
+  series-title: Lect Notes Comput Sci
+  unstructured: O. Lichtenstein, A. Pnueli, and L. Zuck. The glory of the past. In
+    Logics of Programs, volume 193 of Lecture Notes in Computer Science, pages 196–218,
+    Brooklyn, June 1985. Springer-Verlag.
+  volume-title: Logics of Programs
+  year: '1985'
+- unstructured: Monika Maidl. The common fragment of CTL and LTL. In Proc. 41th Symp.
+    on Foundations of Computer Science, pages 643–652, 2000.
+- author: Z. Manna
+  doi: 10.1007/BFb0013024
+  first-page: '201'
+  series-title: Lect Notes Comput Sci
+  unstructured: Z. Manna and A. Pnueli. The anchored version of the temporal framework.
+    In Linear time, branching time, and partial order in logics and models for concurrency,
+    volume 345 of Lecture Notes in Computer Science, pages 201–284. Springer-Verlag,
+    1989.
+  volume-title: Linear time, branching time, and partial order in logics and models
+    for concurrency
+  year: '1989'
+- doi: 10.1007/978-1-4612-0931-7_3
+  unstructured: Z. Manna and A. Pnueli. Temporal specification and verification of
+    reactive modules. 1992.
+- author: K. L. McMillan
+  doi: 10.1007/BFb0028738
+  first-page: '110'
+  series-title: Lect Notes Comput Sci
+  unstructured: K. L. McMillan. Verification of an implementation of Tomasulo’s algorithm
+    by compositional model checking. In Proc. 10th Conference on Computer Aided Verification,
+    volume 1427 of Lecture Notes in Computer Science, pages 110–121. Springer-Verlag,
+    1998.
+  volume-title: Proc. 10th Conference on Computer Aided Verification
+  year: '1998'
+- doi: 10.1007/978-1-4615-3190-6
+  unstructured: K.L. McMillan. Symbolic Model Checking. Kluwer Academic Publishers,
+    1993.
+- unstructured: R. Milner. An algebraic definition of simulation between programs.
+    In Proc. 2nd International Joint Conferenceon Artificial Intelligence, pages 481–489.British
+    Computer Society, September 1971.
+- author: R. Milner
+  unstructured: R. Milner. Communication and Concurrecny. Prentice-Hall, Englewood
+    Clifs, 1989.
+  volume-title: Communication and Concurrecny
+  year: '1989'
+- author: B. Misra
+  doi: 10.1109/TSE.1981.230844
+  first-page: '417'
+  journal-title: IEEE Trans. on Software Engineering
+  unstructured: B. Misra and K.M. Chandy. Proofs of networks of processes. IEEE Trans.
+    on Software Engineering, 7:417–426, 1981.
+  volume: '7'
+  year: '1981'
+- doi: 10.1007/978-3-7091-7664-1
+  unstructured: A. Urquhart N. Rescher. Temporal Logic. Springer-Verlag, 1971.
+- author: D. Park
+  series-title: Lect Notes Comput Sci
+  unstructured: D. Park. Concurrency and automata on infinite sequences. In P. Deussen,
+    editor, Proc. 5th GI Conf. on Theoretical Computer Science, Lecture Notes in Computer
+    Science, Vol. 104. Springer-Verlag, Berlin/New York, 1981.
+  volume-title: Proc. 5th GI Conf. on Theoretical Computer Science
+  year: '1981'
+- doi: 10.1109/SFCS.1977.32
+  unstructured: A. Pnueli. The temporal logic of programs. In Proc. 18th IEEE Symp.
+    on Foundation of Computer Science, pages 46–57, 1977.
+- doi: 10.1007/978-3-642-82453-1_5
+  unstructured: A. Pnueli. In transition from global to modular temporal reasoning
+    about programs. In K. Apt, editor, Logics and Models of Concurrent Systems, volume
+    F-13 of NATO AdvancedSummer Institutes, pages 123–144. Springer-Verlag, 1985.
+- author: A. Pnueli
+  doi: 10.1007/BFb0015727
+  first-page: '15'
+  series-title: Lect Notes Comput Sci
+  unstructured: A. Pnueli. Linear and branching structures in the semantics and logics
+    of reactive systems. In Proc. 12th Int. Colloquium on Automata, Languages and
+    Programming, pages 15–32. Lecture Notes in Computer Science, Springer-Verlag,
+    1985.
+  volume-title: Proc. 12th Int. Colloquium on Automata, Languages and Programming
+  year: '1985'
+- doi: 10.1145/75277.75293
+  unstructured: A. Pnueli and R. Rosner. On the synthesis of a reactive module. In
+    Proc. 16th ACM Symp. on Principles of Programming Languages, pages 179–190, Austin,
+    January 1989.
+- author: A. Pnueli
+  doi: 10.1007/BFb0035790
+  first-page: '652'
+  series-title: Lect Notes Comput Sci
+  unstructured: A. Pnueli and R. Rosner. On the synthesis of an asynchronous reactive
+    module. In Proc. 16th Int. Colloquium on Automata, Languages and Programming,
+    volume 372, pages 652–671. Lecture Notes in Computer Science, Springer-Verlag,
+    July 1989.
+  volume-title: Proc. 16th Int. Colloquium on Automata, Languages and Programming
+  year: '1989'
+- unstructured: A. Prior. Past, Present, and Future. Oxford Univ. Press, 1951.
+- author: J.P. Queille
+  first-page: '337'
+  series-title: Lect Notes Comput Sci
+  unstructured: J.P. Queille and J. Sifakis. Specification and verification of concurrent
+    systems in Cesar. In Proc. 5th International Symp. on Programming, volume 137
+    of Lecture Notes in Computer Science, pages 337–351. Springer-Verlag, 1981.
+  volume-title: Proc. 5th International Symp. on Programming
+  year: '1981'
+- unstructured: W.P. DeRoever R. Koymans, J. Vytopil. Real-time programming and asynchronous
+    message passing. In Proc. 2nd ACM Symp. on Principles of Distributed Computing,
+    pages 187–197, 1983.
+- author: K. Ravi
+  first-page: '143'
+  series-title: Lect Notes Comput Sci
+  unstructured: K. Ravi, R. Bloem, and F. Somenzi. A comparative study of symbolic
+    algorithms for the computation of fair cycles. In W. A. Hunt, Jr. and S. D. Johnson,
+    editors, Formal Methodsin Computer Aided Design, Lecture Notes in Computer Science
+    1954, pages 143–160. Springer-Verlag, 2000.
+  volume-title: Formal Methodsin Computer Aided Design
+  year: '1954'
+- doi: 10.1109/ICCAD.1995.480006
+  unstructured: K. Ravi and F. Somenzi. High-density reachability analysis. In Proc.
+    Int’l Conf. on Computer-Aided Design, pages 154–158, San Jose, 1995.
+- doi: 10.1147/rd.414.0567
+  unstructured: T. Schlipf, T. Buechner, R. Fritz, M. Helms, and J. Koehl. Formal
+    verification made easy. IBM Journal of Research and Development, 41(4:5), 1997.
+- author: A.P. Sistla
+  doi: 10.1145/3828.3837
+  first-page: '733'
+  journal-title: Journal ACM
+  unstructured: A.P. Sistla and E.M. Clarke. The complexity of propositional linear
+    temporal logic. Journal ACM, 32:733–749, 1985.
+  volume: '32'
+  year: '1985'
+- author: A.P. Sistla
+  doi: 10.1016/0304-3975(87)90008-9
+  first-page: '217'
+  journal-title: Theoretical Computer Science
+  unstructured: A.P. Sistla, M.Y. Vardi, and P. Wolper. The complementation problem
+    for Büchi automata with applications to temporal logic. Theoretical Computer Science,
+    49:217–237, 1987.
+  volume: '49'
+  year: '1987'
+- unstructured: E.W. Stark. Foundations of theory of specifications for distributed
+    systems. PhD thesis, M.I.T., 1984.
+- author: C. Stirling
+  first-page: '477'
+  journal-title: Handbook of Logic in Computer Science
+  unstructured: C. Stirling. Modal and temporal logics. Handbook of Logic in Computer
+    Science, 2:477–563, 1992.
+  volume: '2'
+  year: '1992'
+- author: W. Thomas
+  first-page: '261'
+  journal-title: Information and Computation
+  unstructured: W. Thomas. A combinatorial approach to the theory of ω-automata. Information
+    and Computation, 48:261–283, 1981.
+  volume: '48'
+  year: '1981'
+- doi: 10.1016/B978-0-444-88074-1.50009-3
+  unstructured: W. Thomas. Automata on infinite objects. Handbook of Theoretical Computer
+    Science, pages 165–191, 1990.
+- author: H.J. Touati
+  doi: 10.1006/inco.1995.1055
+  first-page: '101'
+  issue: '1'
+  journal-title: Information and Computation
+  unstructured: H.J. Touati, R.K. Brayton, and R. Kurshan. Testing language containment
+    for ω-automata using BDD’s. Information and Computation, 118(1):101–109,April
+    1995.
+  volume: '118'
+  year: '1995'
+- doi: 10.1145/73560.73582
+  unstructured: M.Y. Vardi. A temporal fixpoint calculus. In Proc. 15th ACM Symp.
+    on Principles of Programming Languages, pages 250–259, San Diego, January 1988.
+- author: M.Y. Vardi
+  doi: 10.1007/3-540-60915-6_6
+  first-page: '238'
+  series-title: Lect Notes Comput Sci
+  unstructured: 'M.Y. Vardi. An automata-theoretic approach to linear temporal logic.
+    In F. Moller and G. Birtwistle, editors, Logics for Concurrency: Structure versus
+    Automata, volume 1043 of Lecture Notes in Computer Science, pages 238–266. Springer-Verlag,
+    Berlin, 1996.'
+  volume-title: 'Logics for Concurrency: Structure versus Automata'
+  year: '1996'
+- unstructured: 'M.Y. Vardi. Linear vs. branching time: A complexity-theoretic perspective.
+    In Proc. 13th IEEE Sym.. on Logic in Computer Science, pages 394–405, 1998.'
+- author: M.Y. Vardi
+  doi: 10.1007/BFb0055612
+  first-page: '1'
+  series-title: Lect Notes Comput Sci
+  unstructured: 'M.Y. Vardi. Sometimes and not never re-revisited: on branching vs.
+    linear time. In D. Sangiorgi and R. de Simone, editors, Proc. 9th Int’l Conf.
+    on Concurrency Theory, Lecture Notes in Computer Science 1466, pages 1–17, 1998.'
+  volume-title: Proc. 9th Int’l Conf. on Concurrency Theory
+  year: '1998'
+- doi: 10.1145/22145.22173
+  unstructured: M.Y. Vardi and L. Stockmeyer. Improved upper and lower bounds for
+    modal logics of programs. In Proc 17th ACM Symp. on Theory of Computing, pages
+    240–251, 1985.
+- unstructured: M.Y. Vardi and P. Wolper. An automata-theoretic approach to automatic
+    program verification. In Proc. 1st Symp. on Logic in Computer Science, pages 332–344,
+    Cambridge, June 1986.
+- author: M.Y. Vardi
+  doi: 10.1006/inco.1994.1092
+  first-page: '1'
+  issue: '1'
+  journal-title: Information and Computation
+  unstructured: M.Y. Vardi and P. Wolper. Reasoning about infinite computations. Information
+    and Computation, 115(1):1–37, November 1994.
+  volume: '115'
+  year: '1994'
+- author: P. Wolper
+  doi: 10.1016/S0019-9958(83)80051-5
+  first-page: '72'
+  issue: 1–2
+  journal-title: Information and Control
+  unstructured: P. Wolper. Temporal logic can be more expressive. Information and
+    Control, 56(1–2):72–99, 1983.
+  volume: '56'
+  year: '1983'
+- author: J. Yuan
+  doi: 10.1007/3-540-63166-6_37
+  first-page: '376'
+  series-title: Lect Notes Comput Sci
+  unstructured: J. Yuan, J. Shen, J. Abraham, and A. Aziz. On combining formal and
+    informal verification. In Computer Aided Verification, Proc. 9th Int. Conference,
+    volume 1254 of Lecture Notes in Computer Science, pages 376–387. Springer-Verlag,
+    1997.
+  volume-title: Computer Aided Verification, Proc. 9th Int. Conference
+  year: '1997'
+doi: 10.1007/3-540-45319-9_1
+files:
+- vardi-moshe-y.branching-vs.-linear-time-final-showdown2001.pdf
+isbn:
+- '9783540418658'
+- '9783540453192'
+journal: Tools and Algorithms for the Construction and Analysis of Systems
+month: 3
+pages: 1--22
+publisher: Springer Berlin Heidelberg
+time-added: 2020-12-24-16:49:46
+title: 'Branching vs. Linear Time: Final Showdown'
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-45319-9_1
+year: 2001

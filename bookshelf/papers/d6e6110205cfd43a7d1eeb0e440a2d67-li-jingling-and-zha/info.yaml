@@ -1,0 +1,42 @@
+abstract: 'The current success of deep learning depends on large-scale labeled datasets.
+  In practice, high-quality annotations are expensive to collect, but noisy annotations
+  are more affordable. Previous works report mixed empirical results when training
+  with noisy labels: neural networks can easily memorize random labels, but they can
+  also generalize from noisy labels. To explain this puzzle, we study how architecture
+  affects learning with noisy labels. We observe that if an architecture "suits" the
+  task, training with noisy labels can induce useful hidden representations, even
+  when the model generalizes poorly; i.e., the last few layers of the model are more
+  negatively affected by noisy labels. This finding leads to a simple method to improve
+  models trained on noisy labels: replacing the final dense layers with a linear model,
+  whose weights are learned from a small set of clean data. We empirically validate
+  our findings across three architectures (Convolutional Neural Networks, Graph Neural
+  Networks, and Multi-Layer Perceptrons) and two domains (graph algorithmic tasks
+  and image classification). Furthermore, we achieve state-of-the-art results on image
+  classification benchmarks by combining our method with existing approaches on noisy
+  label training.'
+archiveprefix: arXiv
+author: Li, Jingling and Zhang, Mozhi and Xu, Keyulu and Dickerson, John P. and Ba,
+  Jimmy
+author_list:
+- family: Li
+  given: Jingling
+- family: Zhang
+  given: Mozhi
+- family: Xu
+  given: Keyulu
+- family: Dickerson
+  given: John P.
+- family: Ba
+  given: Jimmy
+eprint: 2012.12896v1
+file: 2012.12896v1.pdf
+files:
+- li-jingling-and-zhang-mozhi-and-xu-keyulu-and-dickerson-john-p.-and-ba-jimmynoisy-labels-can-induce-good-representations2020.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 2012.12896v1
+time-added: 2020-12-29-11:30:00
+title: Noisy Labels Can Induce Good Representations
+type: article
+url: http://arxiv.org/abs/2012.12896v1
+year: '2020'

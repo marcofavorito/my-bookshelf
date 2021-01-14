@@ -1,0 +1,30 @@
+abstract: The concept of the value-gradient is introduced and developed in the context
+  of reinforcement learning. It is shown that by learning the value-gradients exploration
+  or stochastic behaviour is no longer needed to find locally optimal trajectories.
+  This is the main motivation for using value-gradients, and it is argued that learning
+  value-gradients is the actual objective of any value-function learning algorithm
+  for control problems. It is also argued that learning value-gradients is significantly
+  more efficient than learning just the values, and this argument is supported in
+  experiments by efficiency gains of several orders of magnitude, in several problem
+  domains. Once value-gradients are introduced into learning, several analyses become
+  possible. For example, a surprising equivalence between a value-gradient learning
+  algorithm and a policy-gradient learning algorithm is proven, and this provides
+  a robust convergence proof for control problems using a value function with a general
+  function approximator.
+archiveprefix: arXiv
+author: Fairbank, Michael
+author_list:
+- family: Fairbank
+  given: Michael
+eprint: 0803.3539v1
+file: 0803.3539v1.pdf
+files:
+- fairbank-michaelreinforcement-learning-by-value-gradients2008.pdf
+month: Mar
+primaryclass: cs.NE
+ref: 0803.3539v1
+time-added: 2021-01-12-19:00:44
+title: Reinforcement Learning by Value Gradients
+type: article
+url: http://arxiv.org/abs/0803.3539v1
+year: '2008'

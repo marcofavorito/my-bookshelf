@@ -1,0 +1,33 @@
+abstract: 'Although it is widely accepted that every system should be robust, in the
+  sense that "small" violations of environment assumptions should lead to "small"
+  violations of system guarantees, it is less clear how to make this intuitive notion
+  of robustness mathematically precise. In this paper, we address this problem by
+  developing a robust version of Linear Temporal Logic (LTL), which we call robust
+  LTL and denote by rLTL. Formulas in rLTL are syntactically identical to LTL formulas
+  but are endowed with a many-valued semantics that encodes robustness. In particular,
+  the semantics of the rLTL formula $\varphi \Rightarrow \psi$ is such that a "small"
+  violation of the environment assumption $\varphi$ is guaranteed to only produce
+  a "small" violation of the system guarantee $\psi$. In addition to introducing rLTL,
+  we study the verification and synthesis problems for this logic: similarly to LTL,
+  we show that both problems are decidable, that the verification problem can be solved
+  in time exponential in the number of subformulas of the rLTL formula at hand, and
+  that the synthesis problem can be solved in doubly exponential time.'
+archiveprefix: arXiv
+author: Tabuada, Paulo and Neider, Daniel
+author_list:
+- family: Tabuada
+  given: Paulo
+- family: Neider
+  given: Daniel
+eprint: 1510.08970v1
+file: 1510.08970v1.pdf
+files:
+- tabuada-paulo-and-neider-danielrobust-linear-temporal-logic2015.pdf
+month: Oct
+primaryclass: cs.LO
+ref: 1510.08970v1
+time-added: 2020-12-23-17:48:39
+title: Robust Linear Temporal Logic
+type: article
+url: http://arxiv.org/abs/1510.08970v1
+year: '2015'

@@ -1,0 +1,38 @@
+abstract: 'Finite-horizon lookahead policies are abundantly used in Reinforcement
+  Learning and demonstrate impressive empirical success. Usually, the lookahead policies
+  are implemented with specific planning methods such as Monte Carlo Tree Search (e.g.
+  in AlphaZero). Referring to the planning problem as tree search, a reasonable practice
+  in these implementations is to back up the value only at the leaves while the information
+  obtained at the root is not leveraged other than for updating the policy. Here,
+  we question the potency of this approach. Namely, the latter procedure is non-contractive
+  in general, and its convergence is not guaranteed. Our proposed enhancement is straightforward
+  and simple: use the return from the optimal tree path to back up the values at the
+  descendants of the root. This leads to a $\gamma^h$-contracting procedure, where
+  $\gamma$ is the discount factor and $h$ is the tree depth. To establish our results,
+  we first introduce a notion called \emph{multiple-step greedy consistency}. We then
+  provide convergence rates for two algorithmic instantiations of the above enhancement
+  in the presence of noise injected to both the tree search stage and value estimation
+  stage.'
+archiveprefix: arXiv
+author: Efroni, Yonathan and Dalal, Gal and Scherrer, Bruno and Mannor, Shie
+author_list:
+- family: Efroni
+  given: Yonathan
+- family: Dalal
+  given: Gal
+- family: Scherrer
+  given: Bruno
+- family: Mannor
+  given: Shie
+eprint: 1809.01843v2
+file: 1809.01843v2.pdf
+files:
+- efroni-yonathan-and-dalal-gal-and-scherrer-bruno-and-mannor-shiehow-to-combine-tree-search-methods-in-reinforcement-learning2018.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1809.01843v2
+time-added: 2020-12-22-11:32:24
+title: How to Combine Tree-Search Methods in Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1809.01843v2
+year: '2018'

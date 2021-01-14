@@ -1,0 +1,35 @@
+abstract: We give an efficient procedure for verifying that a finite-state concurrent
+  system meets a specification expressed in a (propositional, branching-time) temporal
+  logic. Our algorithm has complexity linear in both the size of the specification
+  and the size of the global state graph for the concurrent system. We also show how
+  this approach can be adapted to handle fairness. We argue that our technique can
+  provide a practical alternative to manual proof construction or use of a mechanical
+  theorem prover for verifying many finite-state concurrent systems. Experimental
+  results show that state machines with several hundred states can be checked in a
+  matter of seconds.
+address: New York, NY, USA
+author: Clarke, E. M. and Emerson, E. A. and Sistla, A. P.
+author_list:
+- family: Clarke
+  given: E. M.
+- family: Emerson
+  given: E. A.
+- family: Sistla
+  given: A. P.
+doi: 10.1145/5397.5399
+issn: 0164-0925
+issue_date: April 1986
+journal: ACM Trans. Program. Lang. Syst.
+month: April
+number: '2'
+numpages: '20'
+pages: 244–263
+publisher: Association for Computing Machinery
+ref: 10.1145/5397.5399
+time-added: 2020-12-24-10:14:57
+title: Automatic Verification of Finite-State Concurrent Systems Using Temporal Logic
+  Specifications
+type: article
+url: https://doi.org/10.1145/5397.5399
+volume: '8'
+year: '1986'

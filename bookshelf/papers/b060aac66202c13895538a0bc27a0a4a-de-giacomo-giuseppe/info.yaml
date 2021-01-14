@@ -1,0 +1,48 @@
+abstract: <jats:p>We review PLTLf and PLDLf, the pure-past versions of the well-known
+  logics on finite traces LTLf and LDLf, respectively. PLTLf and PLDLf are logics
+  about the past, and so scan the trace backwards from the end towards the beginning.
+  Because of this, we can exploit a foundational result on reverse languages to get
+  an exponential improvement, over LTLf /LDLf , for computing the corresponding DFA.
+  This exponential improvement is reflected in several forms of sequential decision
+  making involving temporal specifications, such as planning and decision problems
+  in non-deterministic and non-Markovian domains. Interestingly, PLTLf (resp., PLDLf
+  ) has the same expressive power as LTLf (resp., LDLf ), but transforming a PLTLf
+  (resp., PLDLf ) formula into its equivalent LTLf (resp.,LDLf) is quite expensive.
+  Hence, to take advantage of the exponential improvement, properties of interest
+  must be directly expressed in PLTLf /PLDLf .</jats:p>
+author: De Giacomo, Giuseppe and Stasio, Antonio Di and Fuggitti, Francesco and Rubin,
+  Sasha
+author_list:
+- affiliation:
+  - name: Universita' degli Studi di Roma "La Sapienza", Roma, Italy
+  family: De Giacomo
+  given: Giuseppe
+- affiliation:
+  - name: Universita' degli Studi di Roma "La Sapienza", Roma, Italy
+  family: Stasio
+  given: Antonio Di
+- affiliation:
+  - name: Universita' degli Studi di Roma "La Sapienza", Roma, Italy
+  - name: York University, Toronto, ON, Canada
+  family: Fuggitti
+  given: Francesco
+- affiliation:
+  - name: University of Sydney, Sydney, NSW, Australia
+  family: Rubin
+  given: Sasha
+booktitle: Twenty-Ninth International Joint Conference on Artificial Intelligence
+  and Seventeenth Pacific Rim International Conference on Artificial Intelligence
+  {IJCAI-PRICAI-20}
+doi: 10.24963/ijcai.2020/690
+isbn:
+- '9780999241165'
+journal: Proceedings of the Twenty-Ninth International Joint Conference on Artificial
+  Intelligence
+month: 7
+publisher: International Joint Conferences on Artificial Intelligence Organization
+time-added: 2020-12-22-22:06:45
+title: Pure-Past Linear Temporal and Dynamic Logic on Finite Traces
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2020/690
+venue: Yokohama, Japan
+year: 2020

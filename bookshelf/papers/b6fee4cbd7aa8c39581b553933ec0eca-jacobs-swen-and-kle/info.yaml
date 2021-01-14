@@ -1,0 +1,32 @@
+abstract: We present the Temporal Logic Synthesis Format (TLSF), a high-level format
+  to describe synthesis problems via Linear Temporal Logic (LTL). The format builds
+  upon standard LTL, but additionally allows to use high-level constructs, such as
+  sets and functions, to provide a compact and human-readable representation. Furthermore,
+  the format allows to identify parameters of a specification such that a single description
+  can be used to define a family of problems. Additionally, we present a tool to automatically
+  translate the format into plain LTL, which then can be used for synthesis by a solver.
+  The tool also allows to adjust parameters of the specification and to apply standard
+  transformations on the resulting formula.
+archiveprefix: arXiv
+author: Jacobs, Swen and Klein, Felix and Schirmer, Sebastian
+author_list:
+- family: Jacobs
+  given: Swen
+- family: Klein
+  given: Felix
+- family: Schirmer
+  given: Sebastian
+doi: 10.4204/EPTCS.229.10
+eprint: 1604.02284v3
+file: 1604.02284v3.pdf
+files:
+- jacobs-swen-and-klein-felix-and-schirmer-sebastiana-high-level-ltl-synthesis-format-tlsf-v1.12016.pdf
+month: Apr
+note: EPTCS 229, 2016, pp. 112-132
+primaryclass: cs.LO
+ref: 1604.02284v3
+time-added: 2020-12-23-17:38:47
+title: 'A High-Level LTL Synthesis Format: TLSF v1.1'
+type: article
+url: http://arxiv.org/abs/1604.02284v3
+year: '2016'

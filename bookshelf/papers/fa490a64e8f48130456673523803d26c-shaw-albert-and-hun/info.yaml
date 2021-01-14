@@ -1,0 +1,38 @@
+abstract: For real time applications utilizing Deep Neural Networks (DNNs), it is
+  critical that the models achieve high-accuracy on the target task and low-latency
+  inference on the target computing platform. While Neural Architecture Search (NAS)
+  has been effectively used to develop low-latency networks for image classification,
+  there has been relatively little effort to use NAS to optimize DNN architectures
+  for other vision tasks. In this work, we present what we believe to be the first
+  proxyless hardware-aware search targeted for dense semantic segmentation. With this
+  approach, we advance the state-of-the-art accuracy for latency-optimized networks
+  on the Cityscapes semantic segmentation dataset. Our latency-optimized small SqueezeNAS
+  network achieves 68.02% validation class mIOU with less than 35 ms inference times
+  on the NVIDIA AGX Xavier. Our latency-optimized large SqueezeNAS network achieves
+  73.62% class mIOU with less than 100 ms inference times. We demonstrate that significant
+  performance gains are possible by utilizing NAS to find networks optimized for both
+  the specific task and inference hardware. We also present detailed analysis comparing
+  our networks to recent state-of-the-art architectures.
+archiveprefix: arXiv
+author: Shaw, Albert and Hunter, Daniel and Iandola, Forrest and Sidhu, Sammy
+author_list:
+- family: Shaw
+  given: Albert
+- family: Hunter
+  given: Daniel
+- family: Iandola
+  given: Forrest
+- family: Sidhu
+  given: Sammy
+eprint: 1908.01748v2
+file: 1908.01748v2.pdf
+files:
+- shaw-albert-and-hunter-daniel-and-iandola-forrest-and-sidhu-sammysqueezenas-fast-neural-architecture-search-for-faster-semantic-segmentation201.pdf
+month: Aug
+primaryclass: cs.CV
+ref: 1908.01748v2
+time-added: 2020-12-21-22:47:17
+title: 'SqueezeNAS: Fast neural architecture search for faster semantic   segmentation'
+type: article
+url: http://arxiv.org/abs/1908.01748v2
+year: '2019'

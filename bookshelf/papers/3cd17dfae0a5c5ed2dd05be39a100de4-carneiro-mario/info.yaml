@@ -1,0 +1,25 @@
+abstract: We present an extension to the $\mathtt{mathlib}$ library of the Lean theorem
+  prover formalizing the foundations of computability theory. We use primitive recursive
+  functions and partial recursive functions as the main objects of study, and we use
+  a constructive encoding of partial functions such that they are executable when
+  the programs in question provably halt. Main theorems include the construction of
+  a universal partial recursive function and a proof of the undecidability of the
+  halting problem. Type class inference provides a transparent way to supply G\"{o}del
+  numberings where needed and encapsulate the encoding details.
+archiveprefix: arXiv
+author: Carneiro, Mario
+author_list:
+- family: Carneiro
+  given: Mario
+eprint: 1810.08380v3
+file: 1810.08380v3.pdf
+files:
+- carneiro-marioformalizing-computability-theory-via-partial-recursive-functions2018.pdf
+month: Oct
+primaryclass: cs.LO
+ref: 1810.08380v3
+time-added: 2020-12-20-15:39:45
+title: Formalizing computability theory via partial recursive functions
+type: article
+url: http://arxiv.org/abs/1810.08380v3
+year: '2018'

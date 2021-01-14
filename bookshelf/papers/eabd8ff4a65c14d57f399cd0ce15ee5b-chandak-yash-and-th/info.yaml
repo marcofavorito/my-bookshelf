@@ -1,0 +1,34 @@
+abstract: 'In many real-world sequential decision making problems, the number of available
+  actions (decisions) can vary over time. While problems like catastrophic forgetting,
+  changing transition dynamics, changing rewards functions, etc. have been well-studied
+  in the lifelong learning literature, the setting where the action set changes remains
+  unaddressed. In this paper, we present an algorithm that autonomously adapts to
+  an action set whose size changes over time. To tackle this open problem, we break
+  it into two problems that can be solved iteratively: inferring the underlying, unknown,
+  structure in the space of actions and optimizing a policy that leverages this structure.
+  We demonstrate the efficiency of this approach on large-scale real-world lifelong
+  learning problems.'
+archiveprefix: arXiv
+author: Chandak, Yash and Theocharous, Georgios and Nota, Chris and Thomas, Philip
+  S.
+author_list:
+- family: Chandak
+  given: Yash
+- family: Theocharous
+  given: Georgios
+- family: Nota
+  given: Chris
+- family: Thomas
+  given: Philip S.
+eprint: 1906.01770v3
+file: 1906.01770v3.pdf
+files:
+- chandak-yash-and-theocharous-georgios-and-nota-chris-and-thomas-philip-s.lifelong-learning-with-a-changing-action-set2019.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1906.01770v3
+time-added: 2020-12-22-12:52:19
+title: Lifelong Learning with a Changing Action Set
+type: article
+url: http://arxiv.org/abs/1906.01770v3
+year: '2019'

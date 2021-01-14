@@ -1,0 +1,1529 @@
+<article xsi:noNamespaceSchemaLocation="http://jats.nlm.nih.gov/publishing/1.1/xsd/JATS-journalpublishing1-mathml3.xsd" dtd-version="1.1" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">SP</journal-id>
+			<journal-title-group>
+				<journal-title>Scientific Programming</journal-title></journal-title-group>
+			<issn pub-type="epub">1875-919X</issn>
+			<issn pub-type="ppub">1058-9244</issn>
+			<publisher>
+				<publisher-name>Hindawi Publishing Corporation</publisher-name></publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.1155/2015/243180</article-id>
+			<article-id pub-id-type="publisher-id">243180</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Research Article</subject></subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Towards Reproducibility in Scientific Workflows: An Infrastructure-Based Approach</article-title></title-group>
+			<contrib-group>
+				<contrib contrib-type="author" id="U52019486" corresp="yes">
+					<name>
+						<surname>Santana-Perez</surname>
+						<given-names>Idafen</given-names></name>
+					
+					<xref ref-type="aff" rid="I1" /></contrib>
+				<contrib contrib-type="author" id="U60393180">
+					<name>
+						<surname>P&#xe9;rez-Hern&#xe1;ndez</surname>
+						<given-names>Mar&#xed;a S.</given-names></name>
+					
+					<xref ref-type="aff" rid="I1" /></contrib>
+				<contrib contrib-type="Academic Editor" id="U51303164">
+					<name>
+						<surname>Greco</surname>
+						<given-names>Gianluigi</given-names></name>
+				</contrib></contrib-group>
+			<aff id="I1">
+				<addr-line>Ontology Engineering Group (OEG)</addr-line>
+				<addr-line>Universidad Polit&#xe9;cnica de Madrid, Avenida Montepr&#xed;ncipe, s/n, 28660 Boadilla del Monte</addr-line>
+				<country>Spain</country>
+				<ext-link ext-link-type="domain-name">upm.es</ext-link></aff>
+			<pub-date pub-type="publication-year">
+				<year>2015</year></pub-date>
+			<pub-date pub-type="archival-date"><day>24</day><month>2</month><year>2015</year></pub-date>
+			<volume>2015</volume>
+			<history>
+				<date date-type="received">
+					<day>12</day>
+					<month>09</month>
+					<year>2014</year></date>
+				<date date-type="accepted">
+					<day>03</day>
+					<month>02</month>
+					<year>2015</year></date>
+				<date date-type="pub"><day>24</day><month>2</month><year>2015</year></date>
+			</history>
+			<permissions>
+				<copyright-year>2015</copyright-year>
+				<copyright-holder>Copyright &#xA9; 2015 Idafen Santana-Perez and Mar&#xed;a S. P&#xe9;rez-Hern&#xe1;ndez.</copyright-holder>
+				<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+					<license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license>
+			</permissions>
+			<abstract>
+				<p>It is commonly agreed that in silico scientific experiments should be executable
+and repeatable processes. Most of the current approaches for computational
+experiment conservation and reproducibility have focused so far on two of the main
+components of the experiment, namely, data and method. In this paper, we propose a new approach that addresses the third cornerstone of
+experimental reproducibility: the equipment. This work focuses on the equipment of
+a computational experiment, that is, the set of software and hardware components
+that are involved in the execution of a scientific workflow. In order to demonstrate
+the feasibility of our proposal, we describe a use case scenario on the Text Analytics
+domain and the application of our approach to it. From the original workflow, we
+document its execution environment, by means of a set of semantic models and a
+catalogue of resources, and generate an equivalent infrastructure for reexecuting it.</p></abstract>
+			<counts>
+				<ref-count count="29" />
+				<page-count count="11" /></counts>
+		</article-meta></front>
+	<body>
+		<sec id="sec1">
+			<title>1. Introduction</title>
+			<p>Reproducibility is a goal that every scientist developing a research work should take into account during the experimental and publication processes. Any scientific publication is meant to both announce a result of interest and convince readers that the exposed claims are true [<xref ref-type="bibr" rid="B1">1</xref>]. Therefore, the scientific community is encouraging authors and editors to publish their contributions in a verifiable and understandable way. However, reproducibility in computational sciences is a goal hard to achieve due to the complexity of computational experiments, usually involving many steps and combining several data sources [<xref ref-type="bibr" rid="B2">2</xref>].</p>
+			<p>In the context of scientific experiments, reproducibility and replicability are sometimes used as synonymous. Even though there is no a clear consensus on how to define both (definitions may vary over different scientific areas), in this work, we understand them as different concepts [<xref ref-type="bibr" rid="B3">3</xref>]. On one hand, replicability can be defined as an exact incarnation of the original experiment, considering the exact same environment, and performed over the same individuals using the same original experiment configuration. On the other hand, reproducibility implies that even when the goal of the experiment is the same, at least part of the experiment has been modified to obtain a new result or has been adapted to fit a new scenario. In this work, we address the reproducibility of the execution environment for a scientific workflow, as we do not aim to necessarily obtain an exact incarnation of the original one, but rather an environment that is able to support the required capabilities exposed by the former environment.</p>
+			<p>In computational science, or<italic> in silico</italic> science, experiments are widely designed as scientific workflows. These workflows are being published more and more frequently as digital artifacts, along with their related publications, including not only the description of the experiment but also additional materials to understand them [<xref ref-type="bibr" rid="B4">4</xref>].</p>
+			<p>A scientific workflow is a precise, executable description of a scientific procedure [<xref ref-type="bibr" rid="B5">5</xref>]. Therefore, it is advisable to enrich them with a description of a proper execution environment, that, along with the workflow and the information about the rest of its components, would enable its reproduction. We distinguish three main components on a computational scientific experiment, which must be properly conserved to achieve its reproducibility:<list>
+					<list-item>
+						<label>(i)</label>
+						<p>data: the input and output data of the experiment. The input data represents the information of the domain we study (e.g., light from the stars, molecule composition, etc.), and output data is the result of carrying out the experiment (e.g., charts, statistic deviation, plots, etc.) that enables verifying the experimental hypothesis;</p></list-item>
+					<list-item>
+						<label>(ii)</label>
+						<p>scientific procedure: the description of all the steps of the experiment and how they must be performed, including as many details as possible for guaranteeing its traceability and repeatability. A computational workflow can be considered as a precise description of a scientific procedure, as it contains the details of each step of the process, relating how those steps are connected and how the data flows through them;</p></list-item>
+					<list-item>
+						<label>(iii)</label>
+						<p>equipment: all the tools and materials involved in the experimental process. In computational science, the equipment is defined by the computational infrastructure, that is, the set of resources (computers, storage devices, networking, etc.) and software components necessary for executing the experiment.</p></list-item>
+				</list></p>
+			<p>The reproducibility of any object, either physical or digital, is achieved by its proper conservation. Conservation can be defined as the action of prolonging the existence of significant objects by researching, recording, and retaining the relevant information related to the object.</p>
+			<p>Currently, most of the approaches dealing with computational science conservation have been centered on the data and procedure components, leaving the computational equipment out of the scope. Hence, reproducibility problems related to execution environments are not being handled properly. The lack of approaches for conserving the infrastructure employed in an experiment makes scientists willing to repeat it to guess which original set of tools it was and how it was set up. This may be even impossible to do if the former components were insufficiently described and therefore it is not feasible to identify a counterpart offering the same capabilities.</p>
+			<p>In this paper, we try to identify the most relevant current approaches and their limitations. Taking into account these ones, we have developed an infrastructure-aware approach for computational execution environment conservation and reproducibility based on documenting the components of the infrastructure. We introduce here the main contributions of our work: (i) the set of semantic models for describing workflow execution environments, (ii) a catalogue documenting the resources involved on a real use case scenario, and (iii) an algorithm that generates an infrastructure specification based on this information.</p>
+			<p>The reminder of this paper is organized as follows. In Section <xref ref-type="sec" rid="sec2">2</xref>, we show the main current approaches in the area of execution environment preservation. We then introduce in Section <xref ref-type="sec" rid="sec3">3</xref> our approach and then, in Section <xref ref-type="sec" rid="sec4">4</xref>, we describe our semantic model. In Section <xref ref-type="sec" rid="sec5">5</xref>, we establish a use case scenario in the context of Text Analytics workflows and expose the datasets we have generated using our models. In Section <xref ref-type="sec" rid="sec6">6</xref>, we introduce an algorithm for generating an equivalent infrastructure specification and in Section <xref ref-type="sec" rid="sec7">7</xref> we summarize how we applied our ideas to the use case and, finally, in Section <xref ref-type="sec" rid="sec8">8</xref>, we outline the main conclusions and define future lines of work.</p></sec>
+		<sec id="sec2">
+			<title>2. Current Approaches</title>
+			<p>A computational experiment involves several elements, each of which must be conserved in order to ensure reproducibility. Conserving data and the workflow specification is not enough. As pointed out in [<xref ref-type="bibr" rid="B6">6</xref>]<italic> &#x201c;without the ability of properly consuming the conserved information we are left with files full of rotting bits.&#x201d;</italic> Therefore, it is mandatory to maintain the operability of the tools for accessing, consuming, and interpreting the components of a scientific experiment (either input data or the description of the method). In this section, we survey the main conservation approaches regarding the experimental equipment.</p>
+			<p>An interesting study about issues in computational scientific reproducibility is exposed in [<xref ref-type="bibr" rid="B7">7</xref>], where authors conducted a study about workflow decay over a set of biological workflows from myExperiment [<xref ref-type="bibr" rid="B8">8</xref>] designed for the Taverna [<xref ref-type="bibr" rid="B9">9</xref>] platform. Authors define four different categories for workflow decay causes:<italic> volatile third-party resources</italic>,<italic> missing example data</italic>,<italic> missing execution environment</italic>, and<italic> insufficient descriptions about workflows</italic>. The study shows that nearly 80&#x25; of the workflows failed to be reproduced, and that around 12&#x25; of these failures happened due to<italic> missing execution environment</italic> issues and that 50&#x25; are due to<italic> volatile third-party resources</italic>. Taking into account that around 22&#x25; of the tasks in Taverna are related to web services [<xref ref-type="bibr" rid="B10">10</xref>], some of those third-party resources issues could be considered also as execution environment problems.</p>
+			<p>Data and workflow conservation has been widely addressed in recent years. Initiatives such as CrowdLabs [<xref ref-type="bibr" rid="B11">11</xref>], the Galaxy project [<xref ref-type="bibr" rid="B12">12</xref>], or GenePattern [<xref ref-type="bibr" rid="B13">13</xref>] aim to conserve and share the knowledge about scientific computational experiments and provide means for reproducing them. However, so far, a complete and integral approach for documenting and conserving the execution environment as a whole has not been developed.</p>
+			<p>In [<xref ref-type="bibr" rid="B14">14</xref>], authors expose how software must be preserved. As a complex and dynamic entity, software can not be preserved just by maintaining its binary executable code. Authors claim that a software component is more likely to be preserved by guaranteeing the performance of its features rather than conserving the same<italic> physical</italic> binary code. To this end, they introduce the concept of adequacy, as a way of measuring how a software component performs related to a certain set of features. The aim is to build a conceptual model that allows to capture the relevant properties of each software, enhancing the possibilities of successfully conserving them.</p>
+			<p>In 2011, the Executable Paper Grand Challenge [<xref ref-type="bibr" rid="B15">15</xref>] pointed out the importance of allowing the scientific community to reexamine the execution of an experiment. As a result of this challenge, some authors proposed the use of virtual machines as a way of preserving the execution environment of an experiment [<xref ref-type="bibr" rid="B16">16</xref>, <xref ref-type="bibr" rid="B17">17</xref>]. Also, as part of the SIGMOD conference on 2011, a study was carried out to evaluate how a set of repeatability guidelines proposed to the authors submitting a paper (i.e., using virtual machines, pre- and post-conditions, and provenance-based workflow infrastructures) could help reviewers to reproduce the experiments described on the submitted paper [<xref ref-type="bibr" rid="B18">18</xref>].</p>
+			<p>A list of advantages and challenges of using virtual machines for achieving reproducibility is exposed in [<xref ref-type="bibr" rid="B19">19</xref>], arguing that availability of a highly distributed and automated solution for computing such as Cloud Computing allows cost reduction, efficient and reliable lifecycle management, large scale processing, and cost sharing. However, authors expose that using Cloud solutions implies issues that are not yet fully solved, such as the high cost of storing data in the Cloud or the problems of dealing with high interactive experiments through a network connection to remote virtual machines.</p>
+			<p>Authors also claim that provenance tracking inside a virtual machine or the reuse and repurpose of the infrastructure are real issues when using Cloud solutions. In our opinion, these claims are not major issues within the scope of our work. Provenance of a process executed on a virtual machine can be traced by using a workflow management system in the same way it can be traced on a local cluster. Regarding repurposing an infrastructure, this is out of the scope of our work, as we are trying to achieve its conservation and not looking for any kind of improvement.</p>
+			<p>Recently, some authors [<xref ref-type="bibr" rid="B20">20</xref>] have clearly exposed the necessity of capturing and preserving the execution environment of an experiment, providing tools for analyzing and packaging the resources involved on it. ReproZip [<xref ref-type="bibr" rid="B21">21</xref>] and CDE [<xref ref-type="bibr" rid="B22">22</xref>] are promising tools in this direction, which are aligned with some of the principles of our work, as they aim to capture the information about an infrastructure and try to reproduce this in a new environment. These tools read the infrastructure components involved on the execution (files, environment variables, etc.) and store this information into a package. This package can be later unpackaged into another machine in order to repeat the experiment.</p>
+			<p>These approaches differ from ours as we do not try to capture the real elements of the infrastructure (copy the files and libraries) but rather we try to describe them and obtain an available counterpart that can be tuned to expose the same features. We agree with ReproZip authors that packaging the physical infrastructure components limits the scope of applicability, as the packages require most of the target machine to be the same. We also argue that the knowledge and understanding of the infrastructure, as well as the dynamism of this solution, would be higher using an approach like the one exposed on our work, as we abstract the description of the infrastructure from the concrete elements that are involved in the former experiment.</p>
+			<p>Another recent and relevant contribution to the state of the art is being developed within the context of the TIMBUS project [<xref ref-type="bibr" rid="B23">23</xref>], which aims to preserve and ensure the availability of business processes and their computational infrastructure, aligning it with enterprise risk management and business continuity management. They propose, as we do, a semantic approach for describing the execution environment of a process.</p>
+			<p>Our approach differs from the TIMBUS one as we propose a more lightweight and explicit way of annotating the infrastructure information based on our ontology network. Even though TIMBUS has studied the applicability of their approach to the eScience scenario, their contributions are mainly focused on business processes. Our approach focuses on scientific processes, which are dataflow-oriented and usually do not contain loops or branch structures.</p>
+			<p>Finally, we highlight deployment tools, such as Puppet [<xref ref-type="bibr" rid="B24">24</xref>], Chef [<xref ref-type="bibr" rid="B25">25</xref>], and PRECIP [<xref ref-type="bibr" rid="B26">26</xref>], which are able to take an infrastructure specification and deploy it on a Cloud provider and are highly useful for recreating an execution environment. We will introduce in this work how PRECIP can be used as an enactment system within the reproducibility process.</p></sec>
+		<sec id="sec3">
+			<title>3. Infrastructure-Aware Approach</title>
+			<p>The equipment used in a scientific experiment plays a key role on its reproducibility. Without the proper set of tools, it is hard to ensure the execution of the same process obtaining consistent results. In order to guarantee it, we need to document and describe the tools involved (types, brand, provider, version, etc.) and the information for setting it up (calibration, configuration, handling, etc.).</p>
+			<p>We identify two different approaches for conserving the equipment of an experiment, depending on how relevant this equipment is and how hard it is to obtain an equivalent individual of the involved tools:<list>
+					<list-item>
+						<label>(i)</label>
+						<p>physical conservation: that is, conserving the real object, due to its relevancy and the difficulty of getting a counterpart. The Large Hadron Collider (LHC <ext-link ext-link-type="uri" xlink:href="http://lhc.web.cern.ch/lhc/">http://lhc.web.cern.ch/lhc/</ext-link>) or specialized telescopes for high-energy astronomy are examples of this kind of equipment, due to its singularity. In those cases, it is mandatory to conserve the real equipment and bring access to them to the research community;</p></list-item>
+					<list-item>
+						<label>(ii)</label>
+						<p>logical conservation: usually the equipment used in experimental science can be obtained by most of the research community members. Commonly, it is easier to obtain a counterpart than accessing the original tool. Sometimes accessing the original is even impossible due to its natural decay (individuals used in experiments such as plants or animals). In those cases, it is more suitable to describe the object so an equivalent one can be obtained in a future experiment: buying the same model and version of a microscope, cultivating a plant of the same species, and so forth. This requires a precise and understandable description of those elements.</p></list-item>
+				</list></p>
+			<p>As pointed out before, in computational science, the main tools for carrying on an experiment are computational infrastructures, either virtual or physical, where the high amount and variety of requirements of a computational experiment imply a highly heterogeneous environment. In this work, we define a computational infrastructure as the set of computational nodes and software components that are set to execute a computational experiment.</p>
+			<p>Classical reproducibility approaches in computational science aim to share the infrastructure by bringing access to it within a community of users with the same interests. This approach clearly fits the physical conservation case; an organization or a set of them sets up an infrastructure (supercomputers, clusters, and grids) for a specific goal and allows some users to have access to their resources under some conditions. These are usually big and expensive infrastructures that require a lot of effort of maintenance in the long term. These infrastructures have proved to be a significant contribution in computational science.</p>
+			<p>However, there are some challenges regarding reproducibility issues that these kinds of approaches cannot face. Within the context of this work, we identify the following:<list>
+					<list-item>
+						<label>(i)</label>
+						<p>static infrastructures: classical infrastructures require a huge technical maintenance effort, as they must be tuned and configured in order to fulfill the requirements of the different experiments developed by the community. The process of adapting these kind of infrastructures to a new experiment is not trivial and usually is restricted by the policies of the organization hosting it. This also makes the reexecution of an old experiment more difficult once the infrastructure has been modified;</p></list-item>
+					<list-item>
+						<label>(ii)</label>
+						<p>vendor locking: even though the main purpose of most of these infrastructures is to be shared with as many users as possible, it is not feasible to assume that any organization can guarantee access to their infrastructure to everyone interested on executing or repeating an experiment;</p></list-item>
+					<list-item>
+						<label>(iii)</label>
+						<p>long term conservation: guaranteeing the conservation of an infrastructure is not a trivial task. Issues such as projects ending or funding cuts may challenge its future availability. Moreover, any infrastructure suffers from a natural decay process [<xref ref-type="bibr" rid="B27">27</xref>]. Machines get eventually broken and as new tools appear and new software and hardware requirements are needed, so machines must be replaced.</p></list-item>
+				</list></p>
+			<p>To solve the above-mentioned challenges, we propose in this work a different approach that contributes to the previous one rather than substituting it. We aim to face those challenges from a logical-oriented conservation point of view.</p>
+			<p>Instead of trying to conserve and share a physical infrastructure, we propose to describe its capabilities and, based on that description, reconstruct the former infrastructure (or an equivalent one) using virtualization techniques.</p>
+			<p>Virtualization is a mature technique that has been used for the last three decades and that has lately gained momentum. By using these techniques, we are facing the long term conservation challenge, as virtualization solutions are mature enough to assume that they will be available in the future. By introducing the concept of an infrastructure-aware approach, we aim to develop a solution that is not tied to any specific virtualization solution, allowing the system to be adapted to new solutions as they emerge.</p>
+			<p>This approach implies some restrictions and assumptions on the scope of applicability of this work, mainly related to performance aspects, as it is hard to guarantee the performance of a resource when using virtualization. Therefore, we leave out the scope of this work those experiments that take into account the performance as part of their goals.</p>
+			<p>In our approach, we propose to define the capabilities of the machines involved in the experiment, rather than using just virtual machine images with those capabilities installed on them. Based on the description, we would be able to generate a set of virtual machines exposing those capabilities. As Cloud computing (either private or public) is meant to be a public facility, allowing almost everyone to create virtual resources, we claim that our approach faces the vendor-lock problem by implementing a common and shared pool of resources in which every researcher could execute scientific applications. We assume that research communities have access to those resources and that they can be hosted on the Cloud.</p>
+			<p>As mentioned before, virtualization allows the customization of the resources, so we can define a specific infrastructure configuration for each experiment. This eases the configuration and maintenance process of classical approaches.</p>
+			<p>Our approach aims to separate the description of the infrastructure capabilities from the specific solutions that could be used to generate it, defining a more adaptive solution that increases the chances of reproducing the execution environment. This approach also simplifies the storage requirements of the experiment equipment, as it is more feasible to store and preserve a description of a computational infrastructure than preserving it physically, as suggested in other approaches that aim to store and preserve virtual machine images.</p>
+			<p>We assume that with this approach it is not always possible to reproduce the execution environment, as the necessary resources may not be available and an equivalent counterpart may not be found. However, we think that this is a more versatile and flexible approach and therefore increases the chances of achieving the infrastructure reproduction. Also, we consider that initiatives such as WINGS or myExperiment, which maintain a shared catalog of components accessible in the long term, support our goal.</p>
+			<p>We identify the following main technical contributions that must be implemented to achieve the goals of this approach:<list>
+					<list-item>
+						<label>(i)</label>
+						<p>models/vocabularies: we need to define a way for representing and relating all the relevant information about the capabilities of the infrastructure. We propose the use of semantic techniques to develop a set of interrelated ontologies defining the necessary aspects and relations about all the components involved in the execution of a computational experiment. Semantic technologies are a standard and integrable way of sharing information, which is an important feature when trying to share and conserve the knowledge of an entity. The description of the infrastructure and the resources in the catalogue will be described using these vocabularies;</p></list-item>
+					<list-item>
+						<label>(ii)</label>
+						<p>catalogue: it is not feasible to assume that we could be able to deal with every kind of virtual appliance and to install and manage every kind of application. We need to develop a scientific appliances catalogue, including a set of representative virtual appliances, and applications for supporting computational experiments within the context of a scientific community. This catalogue will be dynamically populated by the members of the community involved in the experiment design and development and will serve as part of the input information for the process of generating the infrastructure configuration;</p></list-item>
+					<list-item>
+						<label>(iii)</label>
+						<p>methodological framework: it is composed by a set of tools and methodologies for capturing all the necessary knowledge for conserving the infrastructure. This framework will define who is responsible for the annotation and curation of the information, describing the components of the infrastructure, and will guide the users in the process of identifying the elements that must be documented and which details about them must be included.</p></list-item>
+				</list></p>
+			<p>Figure <xref ref-type="fig" rid="fig1">1</xref> depicts an overall view of the main components of our contribution and how they are related. The diagram shows how the different users (scientists, IT staff members, etc.) interact with the<italic> Catalogue</italic>, querying it to obtain the identifiers of the resources used in the experiment and adding new resources in case they do not already exist. These identifiers are used within the<italic> Workflow Infrastructure Description</italic> to link each part of the workflow to its dependencies (software packages, libraries, hardware requirements, etc.) in the<italic> Catalogue</italic>, and therefore these dependencies are added to the description of the infrastructure. All the components included in the description and the catalogue are defined using the terms and relations included in the<italic> Ontologies</italic> of our system.</p>
+			<fig id="fig1">
+				<label>Figure 1</label>
+				<caption>
+					<p>System overview.</p></caption>
+				<graphic xlink:href="243180.fig.001" /></fig>
+			<p>The<italic> Workflow Infrastructure Description</italic> serves as the input of the<italic> Infrastructure Specification Algorithm</italic>, which is invoked whenever an infrastructure must be reproduced. This process also queries the state of the available<italic> Infrastructure Providers</italic> in order to get the resource availability and the<italic> Catalogue</italic> to retrieve which tools and appliances can be used. With this information about the former infrastructure and providers, the algorithm generates an<italic> Infrastructure Specification</italic>, which defines a deployment plan detailing the resources to be created and how they must be configured. Finally, the<italic> Enactment System</italic> reads the<italic> Infrastructure Specification</italic> and carries out the actions defined on it over the<italic> Infrastructure Providers</italic>, producing the target infrastructure that the experiment would use to be executed.</p>
+			<p>In this work, we assume that the software binaries are either available online, as part of Open Source project and/or on a public repository, or available on the user filesystem or organization&#x2019;s repository. We argue that this assumption holds for most of the scientific projects, where the necessary software components are available within the context of the scientific community. Even though we have included some concepts related to software licensing in our ontologies, issues related to license and software rights are out of the scope of this work.</p></sec>
+		<sec id="sec4">
+			<title>4. Workflow Infrastructure Representation</title>
+			<p>In this work, we introduce the idea of describing computational resources involved in the execution of a scientific workflow. To this end, we propose the uses of semantic technologies for defining the necessary set of conceptual models that allow us to generate descriptions of the workflow and its environment. Semantic technologies include standardized languages such as OWL2 (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/TR/owl2-overview/">http://www.w3.org/TR/owl2-overview/</ext-link>), data models such as RDF (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/RDF/">http://www.w3.org/RDF/</ext-link>) and query languages such as SPARQL (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/TR/rdf-sparql-query/">http://www.w3.org/TR/rdf-sparql-query/</ext-link>), along with a wide range of development and management tools, that make them a mature and proved solution.</p>
+			<p>The WICUS ontology network (available at <ext-link ext-link-type="uri" xlink:href="http://purl.org/net/wicus">http://purl.org/net/wicus</ext-link>) describes the main concepts of a computational infrastructure in a scientific workflow. This network is composed of five ontologies written in OWL2, four domain ontologies, describing the different concepts of a scientific workflow from the point of view of its infrastructure, and another ontology for linking them.</p>
+			<p>The four ontologies that compose the network are the <monospace> Software Stack Ontology </monospace>(Section <xref ref-type="sec" rid="sec4.1">4.1</xref>), the <monospace> Hardware Specs Ontology</monospace> (Section <xref ref-type="sec" rid="sec4.2">4.2</xref>), the <monospace> Scientific Virtual Appliance Ontology</monospace> (Section <xref ref-type="sec" rid="sec4.3">4.3</xref>), and the <monospace> Workflow Execution Requirements Ontology </monospace>(Section <xref ref-type="sec" rid="sec4.4">4.4</xref>).</p>
+			<p>As mentioned, we join these ontologies by means of the <monospace> Wicus ontology</monospace>, which defines five object properties relating concepts from those ontologies, as depicted in Figure <xref ref-type="fig" rid="fig2">2</xref>. In this section, we introduce the main concepts and properties of the network. A more detailed description of each ontology can be accessed through their corresponding URIs.</p>
+			<fig id="fig2">
+				<label>Figure 2</label>
+				<caption>
+					<p>WICUS ontology network overview.</p></caption>
+				<graphic xlink:href="243180.fig.002" /></fig>
+			<sec id="sec4.1">
+				<title>4.1. Software Stack Ontology</title>
+				<p>This ontology describes the software elements of a computational resource. These descriptions can be used to describe both the already deployed software components and the software requirements of a workflow, depending on whether it is being used for describing requirements of a virtual appliance.</p>
+				<p>The main concept of this ontology is the <monospace> wstack:SoftwareStack</monospace> class, which groups a set of <monospace> wstack:SoftwareComponent</monospace>. The <monospace>wstack:SoftwareComponent</monospace> class encodes the information of a software package, a library, a script, or, in general, any piece of executable software.</p>
+				<p>The information about how to deploy and configure a software element is also included in this ontology. The <monospace>wstack:DeploymentPlan</monospace>, <monospace>wstack:DeploymentStep</monospace> and <monospace>wstack:ConfigurationParameter</monospace> classes encode this information.</p></sec>
+			<sec id="sec4.2">
+				<title>4.2. Hardware Specs Ontology</title>
+				<p>An ontology is meant for describing the hardware characteristics of a computational infrastructure and the hardware requirements of a software component.</p>
+				<p>This ontology describes the set of hardware characteristics/requirements of an element by means of the class <monospace>whw:HardwareSpec</monospace>, which aggregates a set of <monospace>whw:HardwareComponent</monospace> such as the CPU or the RAM memory and details its capabilities using the <monospace>whw:Feature</monospace>.</p></sec>
+			<sec id="sec4.3">
+				<title>4.3. Scientific Virtual Appliance Ontology</title>
+				<p>This ontology defines the main concepts related to virtualized computational resources provided by an infrastructure provider (e.g., IaaS Cloud providers). This ontology focuses on Scientific Virtual Appliances, that is, the assembly of virtual hardware and software components designed within the scope of a scientific process.</p>
+				<p>This ontology describes the concept of <monospace> wsva:ScientificVirtualAppliance</monospace>, a computational resource described as a virtual machine with a set of software components deployed on it. These resources define a set of features specifically designed for supporting the execution of a scientific workflow.</p>
+				<p>
+					<monospace>wsva:ScientificVirtualAppliance</monospace> is based on an <monospace>wsva:ImageAppliance</monospace> that aggregates a set of <monospace>wsva:VMImage</monospace> that can be used for enacting a virtual machine in a certain <monospace> wsva:InfrastructureProvider</monospace> and then configured to expose the capabilities of the appliance.</p></sec>
+			<sec id="sec4.4">
+				<title>4.4. Workflow Execution Requirements Ontology</title>
+				<p>We have implemented this ontology for describing and relating a scientific workflow with its execution requirements.</p>
+				<p>This ontology relates the concept of <monospace>wreq:Workflow</monospace>, representing a scientific workflow, to a <monospace>wreq:ExecutionEnvironment,</monospace> defining its dependencies. Depending on whether the steps of the workflow are fully specified in terms of infrastructure or not, we distinguish between&#x2009;&#x2009;<monospace>wreq:ConcreteWorkflow</monospace> and&#x2009;<monospace> wreq:AbstractWorkflow</monospace>.</p>
+				<p>These concepts are related to the <monospace>wreq:requires</monospace> object property. For the purpose of describing the execution infrastructure, we consider that a wokflow can be composed of several subworkflows, defining for each one of them their own infrastructure description. We do not describe the execution order of these workflows or their inner steps, as this information is not relevant from the infrastructure point of view.</p></sec>
+		</sec>
+		<sec id="sec5">
+			<title>5. Annotations Catalogue</title>
+			<p>To exemplify the ideas of our approach, we introduce here a use case scenario involving a set of workflow templates from the WINGS platform along with their related software components. We have studied and annotated 4 workflow templates from the Text Analytics domain [<xref ref-type="bibr" rid="B28">28</xref>].</p>
+			<p>These templates contain abstract steps, that is, steps that can be implemented using different software components. Combining all the possible software components, we obtain 56 different workflow implementations.</p>
+			<p>In this section, we explain how these templates are annotated and then how this information is consumed by our algorithm to generate an infrastructure specification. We include three different datasets, namely, the<italic> Workflow Requirements Dataset</italic>, the<italic> Software Stacks Dataset</italic>, and the<italic> Scientific Virtual Appliance Dataset</italic>. All of them are included in the<italic> TextAnalyticsWF-RO</italic> Research Object [<xref ref-type="bibr" rid="B4">4</xref>] (available at <ext-link ext-link-type="uri" xlink:href="http://purl.org/net/TextAnalyticsWF-RO">http://purl.org/net/TextAnalyticsWF-RO</ext-link>), a bundle containing the resources and documentation of our use case.</p>
+			<p>For these templates, we generated the<italic> Workflow Requirements Dataset</italic>, a<italic> Software Stacks Dataset</italic>, and a<italic> Scientific Virtual Appliance Dataset</italic>, which all together compose the<italic> Catalogue</italic> component of the system depicted in Figure <xref ref-type="fig" rid="fig1">1</xref>.</p>
+			<p>To annotate the requirements of each template, we have developed a prototype of an annotation tool (available at <ext-link ext-link-type="uri" xlink:href="http://github.com/idafensp/WicusAnnotationTool">http://github.com/idafensp/WicusAnnotationTool</ext-link>), which takes a workflow template as input and generates a web form. This form includes some parameter suggestions based on the information retrieved from the WINGS component catalogue, using string similarity between the workflow step and component&#x2019;s name.</p>
+			<p>This tool takes advantage of the similar structure of most of the components. All of them include a shell script that invokes an external script (Java, MATLAB, or Weka), so we can suggest to the user the most probable parameters. All those suggestions can be modified by the user, correcting them and adding new ones. This tool improves the usability of our approach, reducing the amount of effort for annotation. Improvements of this tool, such as integrating systems like CDE [<xref ref-type="bibr" rid="B22">22</xref>] or SystemTap [<xref ref-type="bibr" rid="B29">29</xref>] to trace the execution and crawl the software components involved, are a part of our future work.</p>
+			<p>Using this tool, we have documented the mentioned 4 templates and their related 27 software components. This information includes the configuration parameters values and version required (when available). Our system allows to record the information about versions, but do not enforce it for all component. In this case we had information for describing the version of the Java VM and Ubuntu components, but not for the JAR components as developers did not include this information. We consider that is important to allow both, versioned and unversioned components in our system, as many times scientific software is not developed and published using a versioning cycle.</p>
+			<p>We also have generated a catalogue including the available Software Stacks, detailing the Software Binaries location of each software component and what parameters can be specified. In this catalogue, we also include a deployment plan for each component, that specifies a set of steps and scripts for installing it in its future target location.</p>
+			<p>For describing the available computational resources, we have generated a dataset for Scientific Virtual Appliances. In this dataset, we describe the set of virtual machine images that can be used to enact the appliance and the Software Stacks installed on them.</p>
+			<p>These 3 datasets, along with the Software Binaries and the VM Images, compose the 3 catalogues that our system queries for generating the new infrastructure configuration. The<italic> TextAnalyticsWF-RO</italic> research object associated with this paper contains the RDF files of each catalogue, as well as a set of sample queries for interacting with them.</p></sec>
+		<sec id="sec6">
+			<title>6. Infrastructure Specification Algorithm</title>
+			<p>In this section, we introduce the Infrastructure Specification Algorithm (ISA), a process for generating an infrastructure specification, which defines the set of virtual machines that must be created and the software components that will be deployed on each one of them.</p>
+			<p>The inputs of this algorithm are the three datasets explained in Section <xref ref-type="sec" rid="sec5">5</xref> and the identifier, as a URI, of the workflow whose infrastructure we want to reproduce.</p>
+			<p>We have developed this proof-of-concept implementation of the algorithm in Java, using Jena (<ext-link ext-link-type="uri" xlink:href="http://jena.apache.org/">http://jena.apache.org/</ext-link>) for managing the semantic information of our system, which is stored locally. Jena provides the SPARQL endpoint we query for retrieving information.</p>
+			<p>This version of the algorithm aims to find all the possible matches between the requirements of a workflow, including their dependencies, and the available virtual appliances.</p>
+			<p>Firstly, after loading the datasets (lines 1&#x2013;5), we query the<italic> Workflow Requirements Dataset</italic> to load the requirements of each step of the workflow and their related Software Stacks (line 7). Then, we query the<italic> Software Stacks Dataset</italic> to recursively calculate the Requirement Dependency Graph, a directed graph that relates Software Stacks with their dependent ones (lines 10&#x2013;15).</p>
+			<p>This graph may contain circular dependencies. Even though these dependencies are a bad practice in software design and development, they usually occur in functional programming and among nonexpert developers, which may be the case of a scientist developing a computational experiment without sufficient skills on programming. In our datasets, there are no circular dependencies; however, our algorithm is able to deal with them avoiding infinite loops by keeping track of the visited nodes and avoiding them over the recursive iterations.</p>
+			<p>Once we have generated the Requirement Dependency Graph, we retrieve the information of all the available Scientific Virtual Appliances (line 17). We then calculate the compatibility between each requirement and appliance (line 19). To do that, we calculate the intersection of the set of Software Stacks of the graph with the set of stacks of the appliance. We require the intersection to be greater than a certain threshold. Appliances below this threshold are removed from the candidates list. In this work, we have used a threshold parameter with value 0, requiring that at least both sets have 1 stack in common.</p>
+			<p>We then sort the resultant appliances for obtaining the one with the greater intersection for each requirement, arguing that the more components they have in common, the less deployment effort would be needed, making the appliance more suitable.</p>
+			<p>Finally, we use this intersection to remove the unnecessary stacks from the Requirement Dependency Graph, as they are already deployed in the appliance. We remove each stack included in the intersection and its derived dependencies recursively (line 21). That is, the dependencies that have no other stack depending on them and therefore get isolated once the stack from the intersection has been removed.</p>
+			<p>We finally merge subworkflows that share common requirements (line 23). This version implements a simple policy that aims to reduce the deployment effort. This is a policy among many others that may be implemented considering many other aspects, such as performance (favoring local Cloud providers) or economic aspects (encouraging the system to select the cheapest available SVA).</p>
+			<p>A pseudocode overview of the main steps of the ISA is listed in Listing <xref ref-type="other" rid="alg1">1</xref>.</p>
+			<p id="alg1">
+				<list list-content="algorithm">
+					<title>
+						<bold>Listing 1: </bold>Pseudocode overview of the ISA.</title>
+					<list-item>
+						<p>(1)<italic>&#x2002;</italic>&#x2009;<monospace>W</monospace>
+							<monospace>orkflowRequirementsDataset.load();</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(2)<italic>&#x2002;</italic></p>
+					</list-item>
+					<list-item>
+						<p>(3)<italic>&#x2002;</italic>
+							<monospace>SVADataset.load();</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(4)<italic>&#x2002;</italic></p>
+					</list-item>
+					<list-item>
+						<p>(5)<italic>&#x2002;</italic>
+							<monospace>SoftwareCatalogDataset.load();</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(6)<italic>&#x2002;</italic></p>
+					</list-item>
+					<list-item>
+						<p>(7)<italic>&#x2002;</italic>
+							<monospace>Map&#x3c;Workflow,List&#x3c;Requirements&#x3e;&#x3e; wfReqs =</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(8)<italic>&#x2002;</italic>&#x2003;<monospace>retrieveRequirements(WorkflowRequirementsDataset, WorkflowID);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(9)<italic>&#x2002;</italic></p>
+					</list-item>
+					<list-item>
+						<p>(10) <monospace>Map&#x3c;Workflow,List&#x3c;Requirements&#x3e;&#x3e; propagatedWfReqs =</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(11) &#x2009;&#x2003;<monospace>propagateReqs(wfReqs);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(12) </p></list-item>
+					<list-item>
+						<p>(13) <monospace>List&#x3c;List&#x3c;List&#x3c;SWComponents&#x3e;&#x3e;&#x3e; softwareComponents =</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>getSoftwareComponents(propagatedWfReqs);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(14) </p></list-item>
+					<list-item>
+						<p>(15) <monospace>Map&#x3c;Requirement,D-Graph&#x3c;SWComponents&#x3e;&#x3e;</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>softwareComponentsDependencyGraph = getSoftwareDependencies(</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>softwareComponents);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(16)</p></list-item>
+					<list-item>
+						<p>(17) <monospace>List&#x3c;SVA&#x3e; availableSvas = getAvailableSvas(providersList);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(18) </p></list-item>
+					<list-item>
+						<p>(19) <monospace>Map&#x3c;Requirements,SVA&#x3e; maxCompatibilities =</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>getCompatibilityIntersection(softwareComponentsDependencyGraph,</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>availableSvas);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(20)</p></list-item>
+					<list-item>
+						<p>(21) <monospace>Map&#x3c;Requirement,D-Graph&#x3c;SWComponents&#x3e;&#x3e;</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>substractedSwComponentsDepGraph</monospace>
+							<monospace>&#x2009;&#x2009;</monospace>
+							<monospace>=</monospace>
+							<monospace>&#x2009;&#x2009;</monospace>
+							<monospace>substractSoftwareComponents(</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>softwareComponentsDependencyGraph,</monospace>
+							<monospace>&#x2009;&#x2009;</monospace>
+							<monospace>maxCompatibilities);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(22)</p></list-item>
+					<list-item>
+						<p>(23) <monospace>Map&#x3c;SVA, List&#x3c;Requirments&#x3e;&#x3e;mergedSvas= mergeSubworkflows(</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;&#x2009;<monospace>propagatedWfReqs,</monospace>
+							<monospace>&#x2009;&#x2009;</monospace>
+							<monospace>maxCompatibilities);</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(24)</p></list-item>
+					<list-item>
+						<p>(25) <monospace>generatePrecipScript(mergeSubworkflows,</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;<monospace>substractedSweComponentsDepGraph);</monospace></p>
+					</list-item></list>
+			</p>
+			<p>In the last step, we generate a PRECIP experiment which creates the necessary computational resources based on the SVAs (line 23). We traverse the software components that must be deployed to generate a set of PRECIP commands for executing the deployment plans of each component.</p>
+			<p>An online demo of the current implementation is available at <ext-link ext-link-type="uri" xlink:href="http://github.com/idafensp/WicusISADemos/tree/master/v.0.2">http://github.com/idafensp/WicusISADemos/tree/master/v.0.2</ext-link>.</p></sec>
+		<sec id="sec7">
+			<title>7. Putting It Together</title>
+			<p>Once we have all the appliances and their associated requirement&#x2019;s dependency graphs, we generate the infrastructure specification using the stacks&#x2019; deployment plans. In Listing <xref ref-type="other" rid="alg2">2</xref>, we see how our algorithm has included scripts and configuration parameters of the stacks for generating a PRECIP file that can be enacted on the Amazon EC2 Infrastructure Provider. This specification corresponds to the<italic> Feature Generation</italic> workflow included in our dataset. This workflow processes a file containing a list of words and generates a vector format data structure with a filtered version of the original file.</p>
+			<p id="alg2">
+				<list list-content="algorithm">
+					<title>
+						<bold>Listing 2: </bold>Part of the PRECIP specification file for the FeatureGeneration workflow.</title>
+					<list-item>
+						<p>(1)<italic>&#x2002;</italic>&#x2009;<monospace>e</monospace>
+							<monospace>xp = EC2Experiment(</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(2)<italic>&#x2002;</italic>&#x2003;<monospace>os.environ[</monospace>'<monospace>AMAZON&#x5f;EC2&#x5f;REGION</monospace>'<monospace>],</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(3)<italic>&#x2002;</italic>&#x2003;<monospace>os.environ[</monospace>'<monospace>AMAZON&#x5f;EC2&#x5f;URL</monospace>'<monospace>],</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(4)<italic>&#x2002;</italic>&#x2003;<monospace>os.environ[</monospace>'<monospace>AMAZON&#x5f;EC2&#x5f;ACCESS&#x5f;KEY</monospace>'<monospace>],</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(5)<italic>&#x2002;</italic>&#x2003;<monospace>os.environ[</monospace>'<monospace>AMAZON&#x5f;EC2&#x5f;SECRET&#x5f;KEY</monospace>'<monospace>])</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(6)<italic>&#x2002;</italic> &#x2003;</p></list-item>
+					<list-item>
+						<p>(7)<italic>&#x2002;</italic> &#x2003;</p></list-item>
+					<list-item>
+						<p>(8)<italic>&#x2002;</italic> &#x2003;</p></list-item>
+					<list-item>
+						<p>(9)<italic>&#x2002;</italic>
+							<monospace>exp.provision(</monospace>
+							<monospace>"</monospace>
+							<monospace>ami-967edcff", instance&#x5f;type="t1.micro", tags=["inst0"</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>], count=1)</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(10) </p></list-item>
+					<list-item>
+						<p>(11)&#x2009; <italic># Wait for all instances to boot and become accessible. </italic></p>
+					</list-item>
+					<list-item>
+						<p>(12) <monospace>exp.wait()</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(13) </p></list-item>
+					<list-item>
+						<p>(14) &#x22ef;</p></list-item>
+					<list-item>
+						<p>(15) </p></list-item>
+					<list-item>
+						<p>(16) <italic># [STACK] Deployment of wstack:JAVA&#x5f;SOFT&#x5f;STACK stack </italic></p>
+					</list-item>
+					<list-item>
+						<p>(17) </p></list-item>
+					<list-item>
+						<p>(18) <italic># [COMPONENT] Deployment of wstack:JAVA&#x5f;SOFT&#x5f;COMP component(version </italic></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<italic>: 1.7.0&#x5f;21) </italic></p>
+					</list-item>
+					<list-item>
+						<p>(19) </p></list-item>
+					<list-item>
+						<p>(20) <italic># [STEP] Execution of wstack:JAVA&#x5f;DEP&#x5f;STEP step </italic></p>
+					</list-item>
+					<list-item>
+						<p>(21) </p></list-item>
+					<list-item>
+						<p>(22) <italic># copy JAVA&#x5f;script.sh to the instance </italic></p>
+					</list-item>
+					<list-item>
+						<p>(23) <monospace>exp.put(["inst0"], "JAVA&#x5f;script.sh", "/home/cloud-user/JAVA&#x5f;script.</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>sh", user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(24) </p></list-item>
+					<list-item>
+						<p>(25) <italic># granting execution for JAVA&#x5f;script.sh </italic></p>
+					</list-item>
+					<list-item>
+						<p>(26) <monospace>exp.run(["inst0"], "chmod</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>755</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M2">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>/home/cloud-user/JAVA&#x5f;script.sh", user</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(27) </p></list-item>
+					<list-item>
+						<p>(28) <italic># executing the JAVA&#x5f;script.sh script </italic></p>
+					</list-item>
+					<list-item>
+						<p>(29) <monospace>e</monospace>
+							<monospace>xp.run(["inst0"], "/home/cloud-user/JAVA&#x5f;script.sh</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M3">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>JAVA&#x5f;HOME</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M4">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>/usr/</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>lib/jvm/", user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(30) </p></list-item>
+					<list-item>
+						<p>(31) <italic># [STACK] Deployment of wstack:REMOVESTOPWORDS&#x5f;SOFT&#x5f;STACK stack </italic></p>
+					</list-item>
+					<list-item>
+						<p>(32) </p></list-item>
+					<list-item>
+						<p>(33) <italic># [COMPONENT] Deployment of wstack:REMOVESTOPWORDS&#x5f;SOFT&#x5f;COMP </italic></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<italic>component </italic></p>
+					</list-item>
+					<list-item>
+						<p>(34) </p></list-item>
+					<list-item>
+						<p>(35) <italic># [STEP] Execution of wstack:REMOVESTOPWORDS&#x5f;DEP&#x5f;STEP step </italic></p>
+					</list-item>
+					<list-item>
+						<p>(36) </p></list-item>
+					<list-item>
+						<p>(37) <italic># copy deploy&#x5f;jar.sh to the instance </italic></p>
+					</list-item>
+					<list-item>
+						<p>(38) <monospace>exp.put(["inst0"], "deploy&#x5f;jar.sh", "/home/cloud-user/deploy&#x5f;jar.sh"</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;<monospace>&#x2009;</monospace>
+							<monospace>,user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(39)</p></list-item>
+					<list-item>
+						<p>(40) <italic># granting execution for deploy&#x5f;jar.sh </italic></p>
+					</list-item>
+					<list-item>
+						<p>(41) <monospace>exp.run(["inst0"], "chmod</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M5">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>755</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M6">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>/home/cloud-user/deploy&#x5f;jar.sh", user=</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>"root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(42)</p></list-item>
+					<list-item>
+						<p>(43) <italic># executing the deploy&#x5f;jar.sh script </italic></p>
+					</list-item>
+					<list-item>
+						<p>(44) <monospace>exp.run(["inst0"], "/home/cloud-user/deploy&#x5f;jar.sh</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M7">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>JAR&#x5f;FILE</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M8">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>REPO:</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>jar/RemoveStopWords.jar</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M9">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>DEST&#x5f;PATH</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M10">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>DIR:</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M11">
+									<mml:mi />
+									<mml:msub>
+										<mml:mrow />
+										<mml:mrow>
+											<mml:mstyle displaystyle="true">
+												<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+										</mml:mrow></mml:msub>
+								</mml:math></inline-formula>
+							<monospace>", user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(45) </p></list-item>
+					<list-item>
+						<p>(46) <italic># [STACK] Deployment of wstack:STOPWORDS&#x5f;SOFT&#x5f;STACK stack </italic></p>
+					</list-item>
+					<list-item>
+						<p>(47) </p></list-item>
+					<list-item>
+						<p>(48) <italic># [COMPONENT] Deployment of wstack:STOPWORDS&#x5f;SOFT&#x5f;COMP component </italic></p>
+					</list-item>
+					<list-item>
+						<p>(49) </p></list-item>
+					<list-item>
+						<p>(50) <italic># [STEP] Execution of wstack:STOPWORDS&#x5f;DEP&#x5f;STEP step </italic></p>
+					</list-item>
+					<list-item>
+						<p>(51) </p></list-item>
+					<list-item>
+						<p>(52) <italic># copy deploy&#x5f;jar.sh to the instance </italic></p>
+					</list-item>
+					<list-item>
+						<p>(53) <monospace>exp.put(["inst0"], "deploy&#x5f;jar.sh", "/home/cloud-user/deploy&#x5f;jar.sh"</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>,user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(54) </p></list-item>
+					<list-item>
+						<p>(55) <italic># granting execution for deploy&#x5f;jar.sh </italic></p>
+					</list-item>
+					<list-item>
+						<p>(56) <monospace>exp.run(["inst0"], "chmod</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M12">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>755</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M13">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>/home/cloud-user/deploy&#x5f;jar.sh", user=</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>"root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(57) </p></list-item>
+					<list-item>
+						<p>(58) <italic># executing the deploy&#x5f;jar.sh script </italic></p>
+					</list-item>
+					<list-item>
+						<p>(59) <monospace>exp.run(["inst0"], "/home/cloud-user/deploy&#x5f;jar.sh</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M14">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>JAR&#x5f;FILE REPO:jar</monospace></p>
+					</list-item>
+					<list-item>
+						<p>&#x2003;<italic>&#x2002;</italic>&#x2003;&#x2003;&#x2009;<monospace>/StopWords.jar</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M15">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>DEST&#x5f;PATH</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M16">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mrow />
+											<mml:mrow>
+												<mml:mstyle displaystyle="true">
+													<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+											</mml:mrow></mml:msub>
+									</mml:mrow></mml:math>
+							</inline-formula>
+							<monospace>DIR:</monospace>
+							<inline-formula>
+								<mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M17">
+									<mml:mi />
+									<mml:msub>
+										<mml:mrow />
+										<mml:mrow>
+											<mml:mstyle displaystyle="true">
+												<mml:mo>&#x2294;</mml:mo></mml:mstyle>
+										</mml:mrow></mml:msub>
+								</mml:math></inline-formula>
+							<monospace>", user="root")</monospace></p>
+					</list-item>
+					<list-item>
+						<p>(60) </p></list-item>
+					<list-item>
+						<p>(61) &#x22ef;</p></list-item>
+				</list></p>
+			<p>In this specification file, we see the deployment description of one experiment. The depicted fragment of the file corresponds to the<italic> StopsWords</italic> step of the<italic> FeatureGeneration</italic> workflow. In this example, the user specified that this step required the<italic> StopWords.jar</italic> component (lines 31&#x2013;60).</p>
+			<p>According to the<italic> Software Stacks Dataset,</italic> this component depends on another JAR named<italic> RemoveStopWords.jar</italic>, which depends on the Java VM version 1.7.0&#x5f;21, and on the Ubuntu 12.04 OS, and therefore the algorithm has included both dependencies (lines 9&#x2013;29). The Java VM included in the catalogue corresponds to the available Ubuntu implementation.</p>
+			<p>In the annotations, it was specified that the<italic> JAVA&#x5f;HOME</italic> variable must be set to an specific path and that both JAR files should be located on the &#x201c;DIR:&#x201d; folder. We have defined two configurable variables in our system, &#x201c;DIR:&#x201d; and &#x201c;REPO:&#x201d; that the user can define. &#x201c;DIR:&#x201d; represents the execution folder of the workflow that usually depends on the WMS, while &#x201c;REPO:&#x201d; defines the URL (either FTP or HTTP) where the software binaries can be located.</p>
+			<p>Our systems selects in this case the &#x201c;ami-967edcff&#x201d; Amazon Machine Image (lines 1&#x2013;9), as it appears annotated in the<italic> Scientific Virtual Appliance Dataset</italic> with the Ubuntu 12.04 software stack, and therefore it matches the requirements of the step. Notice that the specification on Listing <xref ref-type="other" rid="alg2">2</xref> does not include Ubuntu 12.04, as it is already described as installed on the selected appliance.</p>
+			<p>In this example, we have defined the Ubuntu 12.04 software stack as a bundle that includes a virtual machine image that includes that version of the OS. A more detailed description of it, including specific libraries and tools would be useful. Also defining a more expressive dependency relationship, that could define that the component, depends on the Ubuntu OS or any variant of it under some restrictions and would be desirable. These two aspects are a part of the future work in which we plan to generate more fine-grained annotations and add new and more expressive object properties based on the work described in [<xref ref-type="bibr" rid="B14">14</xref>].</p>
+			<p>With this specification along with the scripts referenced on it, we will be able to reproduce an infrastructure for reexecuting the former workflow.</p></sec>
+		<sec id="sec8">
+			<title>8. Conclusions and Future Work</title>
+			<p>In this work, we motivate and expose how an infrastructure-aware approach could ease the experiment reproduction and argue how it should be done. As described in this paper, we propose to describe the computational resources, from hardware specification to software configuration, rather than physically conserving and sharing them. We argue that documenting the features and characteristics of these resources in an abstract way improves the expressiveness of the approach, increasing the chances of recreating an equivalent execution environment in the future.</p>
+			<p>We have described a use case scenario on Text Analytics domain, in which we documented 4 workflow templates and their related resources. Based on those descriptions, we have explained how our<italic> Infrastructure Specification Algorithm</italic> is able to generate an equivalent infrastructure definition that can be later enacted on an infrastructure provider.</p>
+			<p>We are planning to extend our<italic> Infrastructure Specification Algorithm</italic>, providing new policies and including new criteria for selecting and combining computational resources. Even though the running time of our algorithm is not expensive (around 4 seconds), we plan to study different heuristics to our selection process in order to reduce its complexity, which is important when dealing with large collections of resources.</p>
+			<p>We will also extend the WICUS ontology network, adding new properties and classes for increasing its expressiveness. These capabilities will allow us to define infrastructures with a deeper level of detail and include more dimensions for describing software components, including properties such as<italic> package</italic>,<italic> release,</italic> or<italic> variant</italic>, as described in [<xref ref-type="bibr" rid="B14">14</xref>].</p>
+			<p>The annotations about the workflow infrastructure requirements are a key component of our approach. In order to obtain a coherent description of the execution environment and also to reduce the amount of effort for the scientists, we need to improve and expand the usability of our annotation tools.</p>
+			<p>We are planning to add features for automatic capture and suggest the components involved in the execution. In addition to this tool, we need to provide a set of guidelines that allow users to understand and evaluate what are the necessary and relevant properties of their execution environments. We will define a set of methodological steps for experiment designers to know how to populate and for scientists in general to know how to reproduce an execution environment using our approach.</p>
+			<p>We are also planning to apply our approach to another science domains (such as astrophysics, genetics, etc.), using different workflow management systems, in order to validate the ideas exposed in this paper on different contexts involving different kinds of workflows.</p></sec>
+	</body>
+	<back>
+		<sec sec-type="conflict">
+			<title>Conflict of Interests</title>
+			<p>The authors declare that there is no conflict of interests regarding the publication of this paper.</p></sec>
+		<ack>
+			<title>Acknowledgments</title>
+			<p>The authors would like to thank the WINGS Project (<ext-link ext-link-type="uri" xlink:href="http://wings-workflows.org/">http://wings-workflows.org/</ext-link>) and the PRECIP (<ext-link ext-link-type="uri" xlink:href="http://pegasus.isi.edu/precip">http://pegasus.isi.edu/precip</ext-link>) team for their support and materials and the FPU Grant Program (Formacion de Profesorado Universitario) from the Spanish Science and Innovation Ministry (MICINN).</p></ack>
+		<ref-list>
+			<ref id="B1" content-type="article">
+				<label>1</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mesirov</surname>
+							<given-names>J. P.</given-names></name>
+					</person-group>
+					<article-title>Accessible reproducible research</article-title>
+					<source>
+						<italic>Science</italic></source>
+					<year>2010</year>
+					<volume>327</volume>
+					<issue>5964</issue>
+					<fpage>415</fpage>
+					<lpage>416</lpage>
+					<pub-id pub-id-type="doi">10.1126/science.1179653</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-75649122581</pub-id></nlm-citation>
+			</ref>
+			<ref id="B2" content-type="article">
+				<label>2</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gil</surname>
+							<given-names>Y.</given-names></name>
+						<name>
+							<surname>Deelman</surname>
+							<given-names>E.</given-names></name>
+						<name>
+							<surname>Ellisman</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Fahringer</surname>
+							<given-names>T.</given-names></name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>G.</given-names></name>
+						<name>
+							<surname>Gannon</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Goble</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Livny</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Moreau</surname>
+							<given-names>L.</given-names></name>
+						<name>
+							<surname>Myers</surname>
+							<given-names>J.</given-names></name>
+					</person-group>
+					<article-title>Examining the challenges of scientific workflows</article-title>
+					<source>
+						<italic>Computer</italic></source>
+					<year>2007</year>
+					<volume>40</volume>
+					<issue>12</issue>
+					<fpage>24</fpage>
+					<lpage>32</lpage>
+					<pub-id pub-id-type="doi">10.1109/MC.2007.421</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-47149093812</pub-id></nlm-citation>
+			</ref>
+			<ref id="B3" content-type="inproceedings">
+				<label>3</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Drummond</surname>
+							<given-names>C.</given-names></name>
+					</person-group>
+					<article-title>Replicability is not reproducibility: nor is it good science</article-title>
+					<conf-name>Proceedings of the Evaluation Methods for Machine Learning Workshop at the 26th ICML</conf-name>
+					<conf-date>2009</conf-date></nlm-citation>
+			</ref>
+			<ref id="B4" content-type="inproceedings">
+				<label>4</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Belhajjame</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Corcho</surname>
+							<given-names>O.</given-names></name>
+						<name>
+							<surname>Garijo</surname>
+							<given-names>D.</given-names></name>
+						<etal /></person-group>
+					<article-title>Workflow-centric research objects: first class citizens in scholarly discourse</article-title>
+					<conf-name>Proceedings of the Workshop on the Semantic Publishing</conf-name>
+					<conf-date>2012</conf-date>
+					<conf-loc>Crete, Greece</conf-loc></nlm-citation>
+			</ref>
+			<ref id="B5" content-type="inproceedings">
+				<label>5</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Roure</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Belhajjame</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Missier</surname>
+							<given-names>P.</given-names></name>
+						<etal /></person-group>
+					<article-title>Towards the preservation of scientific workflows</article-title>
+					<conf-name>Proceedings of the the 8th International Conference on Preservation of Digital Objects (iPRES '11)</conf-name>
+					<conf-date>2011</conf-date>
+					<conf-loc>Singapore</conf-loc></nlm-citation>
+			</ref>
+			<ref id="B6" content-type="article">
+				<label>6</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cerf</surname>
+							<given-names>V. G.</given-names></name>
+					</person-group>
+					<article-title>Avoiding &#x2018;bit rot&#x2019;: long-term preservation of digital information</article-title>
+					<source>
+						<italic>Proceedings of the IEEE</italic></source>
+					<year>2011</year>
+					<volume>99</volume>
+					<issue>6</issue>
+					<fpage>915</fpage>
+					<lpage>916</lpage>
+					<pub-id pub-id-type="doi">10.1109/jproc.2011.2124190</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-79956370486</pub-id></nlm-citation>
+			</ref>
+			<ref id="B7" content-type="inproceedings">
+				<label>7</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhao</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Gomez-Perez</surname>
+							<given-names>J. M.</given-names></name>
+						<name>
+							<surname>Belhajjame</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Klyne</surname>
+							<given-names>G.</given-names></name>
+						<name>
+							<surname>Garcia-Cuesta</surname>
+							<given-names>E.</given-names></name>
+						<name>
+							<surname>Garrido</surname>
+							<given-names>A.</given-names></name>
+						<name>
+							<surname>Hettne</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Roos</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>De Roure</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Goble</surname>
+							<given-names>C.</given-names></name>
+					</person-group>
+					<article-title>Why workflows break&#x2014;understanding and combating decay in Taverna workflows</article-title>
+					<conf-name>Proceedings of the IEEE 8th International Conference on E-Science</conf-name>
+					<conf-date>October 2012</conf-date>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<pub-id pub-id-type="other">2-s2.0-84873681172</pub-id>
+					<pub-id pub-id-type="doi">10.1109/escience.2012.6404482</pub-id></nlm-citation>
+			</ref>
+			<ref id="B8" content-type="inproceedings">
+				<label>8</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Roure</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Goble</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Stevens</surname>
+							<given-names>R.</given-names></name>
+					</person-group>
+					<article-title>Designing themyexperiment virtual research environment for the social sharing of workflows</article-title>
+					<conf-name>Proceedings of the 3rd IEEE International Conference on E-Science and Grid Computing (E-SCIENCE '07)</conf-name>
+					<conf-date>December 2007</conf-date>
+					<conf-loc>Washington, DC, USA</conf-loc>
+					<publisher-name>IEEE</publisher-name>
+					<fpage>603</fpage>
+					<lpage>610</lpage>
+					<pub-id pub-id-type="other">2-s2.0-42649118344</pub-id>
+					<pub-id pub-id-type="doi">10.1109/e-science.2007.29</pub-id></nlm-citation>
+			</ref>
+			<ref id="B9" content-type="article">
+				<label>9</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oinn</surname>
+							<given-names>T.</given-names></name>
+						<name>
+							<surname>Greenwood</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Addis</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Alpdemir</surname>
+							<given-names>M. N.</given-names></name>
+						<name>
+							<surname>Ferris</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Glover</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Goble</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Goderis</surname>
+							<given-names>A.</given-names></name>
+						<name>
+							<surname>Hull</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Marvin</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Li</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Lord</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Pocock</surname>
+							<given-names>M. R.</given-names></name>
+						<name>
+							<surname>Senger</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Stevens</surname>
+							<given-names>R.</given-names></name>
+						<name>
+							<surname>Wipat</surname>
+							<given-names>A.</given-names></name>
+						<name>
+							<surname>Wroe</surname>
+							<given-names>C.</given-names></name>
+					</person-group>
+					<article-title>Taverna: Lessons in creating a workflow environment for the life sciences</article-title>
+					<source>
+						<italic>Concurrency and Computation: Practice and Experience</italic></source>
+					<year>2006</year>
+					<volume>18</volume>
+					<issue>10</issue>
+					<fpage>1067</fpage>
+					<lpage>1100</lpage>
+					<pub-id pub-id-type="doi">10.1002/cpe.993</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-33646038227</pub-id></nlm-citation>
+			</ref>
+			<ref id="B10" content-type="inproceedings">
+				<label>10</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wassink</surname>
+							<given-names>I.</given-names></name>
+						<name>
+							<surname>van der Vet</surname>
+							<given-names>P. E.</given-names></name>
+						<name>
+							<surname>Wolstencroft</surname>
+							<given-names>K.</given-names></name>
+						<name>
+							<surname>Neerincx</surname>
+							<given-names>P. B. T.</given-names></name>
+						<name>
+							<surname>Roos</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Rauwerda</surname>
+							<given-names>H.</given-names></name>
+						<name>
+							<surname>Breit</surname>
+							<given-names>T. M.</given-names></name>
+					</person-group>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L. J.</given-names></name>
+					</person-group>
+					<article-title>Analyzing scientific workflows: why workflows not only connect web services</article-title>
+					<conf-name>IEEE Congress on Services 2009</conf-name>
+					<conf-date>July 2009</conf-date>
+					<conf-loc>Los Alamitos, Calif, USA</conf-loc>
+					<publisher-name>IEEE Computer Society Press</publisher-name>
+					<fpage>314</fpage>
+					<lpage>321</lpage></nlm-citation>
+			</ref>
+			<ref id="B11" content-type="inproceedings">
+				<label>11</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mates</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>E.</given-names></name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>C. T.</given-names></name>
+					</person-group>
+					<article-title>Crowdlabs: social analysis and visualization for the sciences</article-title>
+					<conf-name>Proceedings of the 23rd International Conference on Scientific and Statistical Database Management (SSDBM '11)</conf-name>
+					<conf-date>2011</conf-date>
+					<conf-loc>Berlin, Germany</conf-loc>
+					<publisher-name>Springer</publisher-name>
+					<fpage>555</fpage>
+					<lpage>564</lpage></nlm-citation>
+			</ref>
+			<ref id="B12" content-type="article">
+				<label>12</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giardine</surname>
+							<given-names>B.</given-names></name>
+						<name>
+							<surname>Riemer</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Hardison</surname>
+							<given-names>R. C.</given-names></name>
+						<name>
+							<surname>Burhans</surname>
+							<given-names>R.</given-names></name>
+						<name>
+							<surname>Elnitski</surname>
+							<given-names>L.</given-names></name>
+						<name>
+							<surname>Shah</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y.</given-names></name>
+						<name>
+							<surname>Blankenberg</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Albert</surname>
+							<given-names>I.</given-names></name>
+						<name>
+							<surname>Taylor</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>W.</given-names></name>
+						<name>
+							<surname>Kent</surname>
+							<given-names>W. J.</given-names></name>
+						<name>
+							<surname>Nekrutenko</surname>
+							<given-names>A.</given-names></name>
+					</person-group>
+					<article-title>Galaxy: a platform for interactive large-scale genome analysis</article-title>
+					<source>
+						<italic>Genome Research</italic></source>
+					<year>2005</year>
+					<volume>15</volume>
+					<issue>10</issue>
+					<fpage>1451</fpage>
+					<lpage>1455</lpage>
+					<pub-id pub-id-type="doi">10.1101/gr.4086505</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-25844449770</pub-id></nlm-citation>
+			</ref>
+			<ref id="B13" content-type="article">
+				<label>13</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reich</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Liefeld</surname>
+							<given-names>T.</given-names></name>
+						<name>
+							<surname>Gould</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Lerner</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Tamayo</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Mesirov</surname>
+							<given-names>J. P.</given-names></name>
+					</person-group>
+					<article-title>GenePattern 2.0</article-title>
+					<source>
+						<italic>Nature Genetics</italic></source>
+					<year>2006</year>
+					<volume>38</volume>
+					<issue>5</issue>
+					<fpage>500</fpage>
+					<lpage>501</lpage>
+					<pub-id pub-id-type="doi">10.1038/ng0506-500</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-33646361583</pub-id></nlm-citation>
+			</ref>
+			<ref id="B14" content-type="book">
+				<label>14</label>
+				<nlm-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matthews</surname>
+							<given-names>B.</given-names></name>
+						<name>
+							<surname>Shaon</surname>
+							<given-names>A.</given-names></name>
+						<name>
+							<surname>Bicarregui</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Catherine</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Woodcock</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Conway</surname>
+							<given-names>E.</given-names></name>
+					</person-group>
+					<source>
+						<italic>Towards a Methodology for Software Preservation</italic></source>
+					<year>2009</year></nlm-citation>
+			</ref>
+			<ref id="B15" content-type="misc">
+				<label>15</label>
+				<nlm-citation publication-type="other">
+					<comment>2011, <ext-link ext-link-type="url" xlink:href="http://www.executablepapers.com/">http://www.executablepapers.com/</ext-link></comment>
+				</nlm-citation></ref>
+			<ref id="B16" content-type="article">
+				<label>16</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Van Gorp</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Mazanek</surname>
+							<given-names>S.</given-names></name>
+					</person-group>
+					<article-title>Share: a web portal for creating and sharing executable research papers</article-title>
+					<source>
+						<italic>Procedia Computer Science</italic></source>
+					<year>2011</year>
+					<volume>4</volume>
+					<fpage>589</fpage>
+					<lpage>597</lpage>
+					<comment>Proceedings of the International Conference on Computational Science, 2011</comment></nlm-citation>
+			</ref>
+			<ref id="B17" content-type="article">
+				<label>17</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brammer</surname>
+							<given-names>G. R.</given-names></name>
+						<name>
+							<surname>Crosby</surname>
+							<given-names>R. W.</given-names></name>
+						<name>
+							<surname>Matthews</surname>
+							<given-names>S. J.</given-names></name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>T. L.</given-names></name>
+					</person-group>
+					<article-title>Paper mache: creating dynamic reproducible science</article-title>
+					<source>
+						<italic>Procedia Computer Science</italic></source>
+					<year>2011</year>
+					<volume>4</volume>
+					<fpage>658</fpage>
+					<lpage>667</lpage>
+					<comment>Proceedings of the International Conference on Computational Science (fICCSg &#x27;11)</comment></nlm-citation>
+			</ref>
+			<ref id="B18" content-type="article">
+				<label>18</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bonnet</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Manegold</surname>
+							<given-names>S.</given-names></name>
+						<name>
+							<surname>Bj&#xf8;rling</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>W.</given-names></name>
+						<name>
+							<surname>Gonzalez</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Granados</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Hall</surname>
+							<given-names>N.</given-names></name>
+						<name>
+							<surname>Idreos</surname>
+							<given-names>S.</given-names></name>
+						<name>
+							<surname>Ivanova</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>R.</given-names></name>
+						<name>
+							<surname>Koop</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Kraska</surname>
+							<given-names>T.</given-names></name>
+						<name>
+							<surname>M&#xfc;ller</surname>
+							<given-names>R.</given-names></name>
+						<name>
+							<surname>Olteanu</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Papotti</surname>
+							<given-names>P.</given-names></name>
+						<name>
+							<surname>Reilly</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Tsirogiannis</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>C.</given-names></name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>J.</given-names></name>
+						<name>
+							<surname>Shasha</surname>
+							<given-names>D.</given-names></name>
+					</person-group>
+					<article-title>Repeatability and workability evaluation of SIGMOD 2011</article-title>
+					<source>
+						<italic>SIGMOD Record</italic></source>
+					<year>2011</year>
+					<volume>40</volume>
+					<issue>2</issue>
+					<fpage>45</fpage>
+					<lpage>48</lpage>
+					<pub-id pub-id-type="doi">10.1145/2034863.2034873</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-80053402117</pub-id></nlm-citation>
+			</ref>
+			<ref id="B19" content-type="article">
+				<label>19</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Howe</surname>
+							<given-names>B.</given-names></name>
+					</person-group>
+					<article-title>Virtual appliances, cloud computing, and reproducible research</article-title>
+					<source>
+						<italic>Computing in Science and Engineering</italic></source>
+					<year>2012</year>
+					<volume>14</volume>
+					<issue>4</issue>
+					<fpage>36</fpage>
+					<lpage>41</lpage>
+					<pub-id pub-id-type="publisher-id">6193081</pub-id>
+					<pub-id pub-id-type="other">2-s2.0-84864249527</pub-id>
+					<pub-id pub-id-type="doi">10.1109/mcse.2012.62</pub-id></nlm-citation>
+			</ref>
+			<ref id="B20" content-type="misc">
+				<label>20</label>
+				<nlm-citation publication-type="other">
+					<comment>Reproducibility in computational and experimental mathematics, 2012</comment></nlm-citation>
+			</ref>
+			<ref id="B21" content-type="inproceedings">
+				<label>21</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chirigati</surname>
+							<given-names>F.</given-names></name>
+						<name>
+							<surname>Shasha</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>J.</given-names></name>
+					</person-group>
+					<article-title>ReproZip: using provenance to support computational reproducibility</article-title>
+					<conf-name>Proceedings of the 5th USENIX Workshop on the Theory and Practice of Provenance</conf-name>
+					<conf-date>2013</conf-date></nlm-citation>
+			</ref>
+			<ref id="B22" content-type="inproceedings">
+				<label>22</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guo</surname>
+							<given-names>P. J.</given-names></name>
+					</person-group>
+					<article-title>CDE: run any Linux application on-demand without installation</article-title>
+					<conf-name>Proceedings of the 25th International Conference on Large Installation System Administration (LISA '11)</conf-name>
+					<conf-date>December 2011</conf-date>
+					<conf-loc>Berkeley, Calif, USA</conf-loc>
+					<publisher-name>USENIX Association</publisher-name></nlm-citation>
+			</ref>
+			<ref id="B23" content-type="inproceedings">
+				<label>23</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Strodl</surname>
+							<given-names>S.</given-names></name>
+						<name>
+							<surname>Mayer</surname>
+							<given-names>R.</given-names></name>
+						<name>
+							<surname>Antunes</surname>
+							<given-names>G.</given-names></name>
+						<name>
+							<surname>Draws</surname>
+							<given-names>D.</given-names></name>
+						<name>
+							<surname>Rauber</surname>
+							<given-names>A.</given-names></name>
+					</person-group>
+					<article-title>Digital preservation of a process and its application to e-science experiments</article-title>
+					<conf-name>Proceedings of the 10th International Conference on Preservation of Digital Objects (IPRES '13)</conf-name>
+					<conf-date>2013</conf-date></nlm-citation>
+			</ref>
+			<ref id="B24" content-type="misc">
+				<label>24</label>
+				<nlm-citation publication-type="other">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Puppet Labs</surname></name>
+					</person-group>
+					<comment>Puppet, <ext-link ext-link-type="url" xlink:href="http://projects.puppetlabs.com/projects/puppet">http://projects.puppetlabs.com/projects/puppet</ext-link></comment>
+				</nlm-citation></ref>
+			<ref id="B25" content-type="misc">
+				<label>25</label>
+				<nlm-citation publication-type="other">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Opscode</surname></name>
+					</person-group>
+					<comment>Chef, <ext-link ext-link-type="url" xlink:href="http://www.opscode.com/chef/">http://www.opscode.com/chef/</ext-link></comment>
+				</nlm-citation></ref>
+			<ref id="B26" content-type="inproceedings">
+				<label>26</label>
+				<nlm-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Azarnoosh</surname>
+							<given-names>S.</given-names></name>
+						<name>
+							<surname>Rynge</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Juve</surname>
+							<given-names>G.</given-names></name>
+						<name>
+							<surname>Deelman</surname>
+							<given-names>E.</given-names></name>
+						<name>
+							<surname>Nie&#x107;</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Malawski</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>da Silva</surname>
+							<given-names>R. F.</given-names></name>
+					</person-group>
+					<article-title>Introducing precip: an api for managing repeatable experiments in the cloud</article-title>
+					<conf-name>Proceedings of the IEEE 5th International Conference on Cloud Computing Technology and Science (CloudCom '13)</conf-name>
+					<conf-date>December 2013</conf-date>
+					<conf-loc>Bristol, UK</conf-loc>
+					<fpage>19</fpage>
+					<lpage>26</lpage>
+					<pub-id pub-id-type="doi">10.1109/CloudCom.2013.98</pub-id></nlm-citation>
+			</ref>
+			<ref id="B27" content-type="article">
+				<label>27</label>
+				<nlm-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gavish</surname>
+							<given-names>M.</given-names></name>
+						<name>
+							<surname>Donoho</surname>
+							<given-names>D.</given-names></name>
+					</person-group>
+					<article-title>A universal identifier for computational results</article-title>
+					<source>
+						<italic>Procedia Computer Science</italic></source>
+					<year>2011</year>
+					<volume>4</volume>
+					<fpage>637</fpage>
+					<lpage>647</lpage>
+					<comment>Proceedings of the International Conference on Computational Science (fICCSg &#x27;11)</comment>
+					<pub-id pub-id-type="doi">10.1016/j.procs.2011.04.067</pub-id></nlm-citation>
+			</ref>
+			<ref id="B28" content-type="mastersthesis">
+				<label>28</label>
+				<nlm-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hauder</surname>
+							<given-names>M.</given-names></name>
+					</person-group>
+					<source>
+						<italic>Efficient text analytics with scientific workflows [M.S. thesis]</italic></source>
+					<year>2011</year>
+					<publisher-loc>Augsburg, Germany</publisher-loc>
+					<publisher-name>University of Augsburg, Institute for Software and Systems Engineering</publisher-name></nlm-citation>
+			</ref>
+			<ref id="B29" content-type="misc">
+				<label>29</label>
+				<nlm-citation publication-type="other">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Systemtap</surname></name>
+					</person-group>
+					<comment>
+						<ext-link ext-link-type="url" xlink:href="http://sourceware.org/systemtap/">http://sourceware.org/systemtap/</ext-link></comment>
+				</nlm-citation></ref>
+		</ref-list></back>
+</article>

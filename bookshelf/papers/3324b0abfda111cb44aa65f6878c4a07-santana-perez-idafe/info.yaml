@@ -1,0 +1,60 @@
+abstract: '<jats:p>It is commonly agreed that in silico scientific experiments should
+  be executable and repeatable processes. Most of the current approaches for computational
+  experiment conservation and reproducibility have focused so far on two of the main
+  components of the experiment, namely, data and method. In this paper, we propose
+  a new approach that addresses the third cornerstone of experimental reproducibility:
+  the equipment. This work focuses on the equipment of a computational experiment,
+  that is, the set of software and hardware components that are involved in the execution
+  of a scientific workflow. In order to demonstrate the feasibility of our proposal,
+  we describe a use case scenario on the Text Analytics domain and the application
+  of our approach to it. From the original workflow, we document its execution environment,
+  by means of a set of semantic models and a catalogue of resources, and generate
+  an equivalent infrastructure for reexecuting it.</jats:p>'
+author: Santana-Perez, Idafen and Pérez-Hernández, María S.
+author_list:
+- affiliation:
+  - name: Ontology Engineering Group (OEG), Universidad Politécnica de Madrid, Avenida
+      Montepríncipe, s/n, 28660 Boadilla del Monte, Spain
+  family: Santana-Perez
+  given: Idafen
+- affiliation:
+  - name: Ontology Engineering Group (OEG), Universidad Politécnica de Madrid, Avenida
+      Montepríncipe, s/n, 28660 Boadilla del Monte, Spain
+  family: Pérez-Hernández
+  given: María S.
+citations:
+- doi: 10.1126/science.1179653
+- doi: 10.1109/MC.2007.421
+- doi: 10.1109/jproc.2011.2124190
+- doi: 10.1002/cpe.993
+- doi: 10.1101/gr.4086505
+- doi: 10.1038/ng0506-500
+- year: '2009'
+- doi: 10.1016/j.procs.2011.04.062
+  first-page: '589'
+  journal-title: Procedia Computer Science
+  volume: '4'
+  year: '2011'
+- doi: 10.1016/j.procs.2011.04.069
+  first-page: '658'
+  journal-title: Procedia Computer Science
+  volume: '4'
+  year: '2011'
+- doi: 10.1145/2034863.2034873
+- doi: 10.1109/mcse.2012.62
+- doi: 10.1016/j.procs.2011.04.067
+doc_url: http://downloads.hindawi.com/journals/sp/2015/243180.xml
+doi: 10.1155/2015/243180
+files:
+- santana-perez-idafen-and-perez-hernandez-maria-s.towards-reproducibility-in-scientific-workflows-an-infrastructure-based-approach2015.data
+- santana-perez-idafen-and-perez-hernandez-maria-s.towards-reproducibility-in-scientific-workflows-an-infrastructure-based-approach2015-a.pdf
+journal: Scientific Programming
+language: en
+pages: 1--11
+publisher: Hindawi Limited
+time-added: 2021-01-09-17:29:28
+title: 'Towards Reproducibility in Scientific Workflows: An Infrastructure-Based Approach'
+type: article
+url: http://dx.doi.org/10.1155/2015/243180
+volume: '2015'
+year: 2015

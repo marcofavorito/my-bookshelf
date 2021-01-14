@@ -1,0 +1,37 @@
+abstract: 'The question if a deterministic finite automaton admits a software reset
+  in the form of a so-called synchronizing word can be answered in polynomial time.
+  In this paper, we extend this algorithmic question to deterministic automata beyond
+  finite automata. We prove that the question of synchronizability becomes undecidable
+  even when looking at deterministic one-counter automata. This is also true for another
+  classical mild extension of regularity, namely that of deterministic one-turn push-down
+  automata. However, when we combine both restrictions, we arrive at scenarios with
+  a PSPACE-complete (and hence decidable) synchronizability problem. Likewise, we
+  arrive at a decidable synchronizability problem for (partially) blind deterministic
+  counter automata.   There are several interpretations of what synchronizability
+  should mean for deterministic push-down automata. This is depending on the role
+  of the stack: should it be empty on synchronization, should it be always the same
+  or is it arbitrary? For the automata classes studied in this paper, the complexity
+  or decidability status of the synchronizability problem is mostly independent of
+  this technicality, but we also discuss one class of automata where this makes a
+  difference.'
+archiveprefix: arXiv
+author: Fernau, Henning and Wolf, Petra and Yamakami, Tomoyuki
+author_list:
+- family: Fernau
+  given: Henning
+- family: Wolf
+  given: Petra
+- family: Yamakami
+  given: Tomoyuki
+eprint: 2005.01381v2
+file: 2005.01381v2.pdf
+files:
+- fernau-henning-and-wolf-petra-and-yamakami-tomoyukisynchronizing-deterministic-push-down-automata-can-be-really-hard2020.pdf
+month: May
+primaryclass: cs.FL
+ref: 2005.01381v2
+time-added: 2020-12-14-20:28:06
+title: Synchronizing Deterministic Push-Down Automata Can Be Really Hard
+type: article
+url: http://arxiv.org/abs/2005.01381v2
+year: '2020'
