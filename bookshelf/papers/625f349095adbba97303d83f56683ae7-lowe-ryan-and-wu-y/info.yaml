@@ -1,0 +1,39 @@
+abstract: 'We explore deep reinforcement learning methods for multi-agent domains.
+  We begin by analyzing the difficulty of traditional algorithms in the multi-agent
+  case: Q-learning is challenged by an inherent non-stationarity of the environment,
+  while policy gradient suffers from a variance that increases as the number of agents
+  grows. We then present an adaptation of actor-critic methods that considers action
+  policies of other agents and is able to successfully learn policies that require
+  complex multi-agent coordination. Additionally, we introduce a training regimen
+  utilizing an ensemble of policies for each agent that leads to more robust multi-agent
+  policies. We show the strength of our approach compared to existing methods in cooperative
+  as well as competitive scenarios, where agent populations are able to discover various
+  physical and informational coordination strategies.'
+archiveprefix: arXiv
+author: Lowe, Ryan and Wu, Yi and Tamar, Aviv and Harb, Jean and Abbeel, Pieter and
+  Mordatch, Igor
+author_list:
+- family: Lowe
+  given: Ryan
+- family: Wu
+  given: Yi
+- family: Tamar
+  given: Aviv
+- family: Harb
+  given: Jean
+- family: Abbeel
+  given: Pieter
+- family: Mordatch
+  given: Igor
+eprint: 1706.02275v4
+file: 1706.02275v4.pdf
+files:
+- lowe-ryan-and-wu-yi-and-tamar-aviv-and-harb-jean-and-abbeel-pieter-and-mordatch-igormulti-agent-actor-critic-for-mixed-cooperative-competitive-e.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1706.02275v4
+time-added: 2021-01-15-19:43:26
+title: Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+type: article
+url: http://arxiv.org/abs/1706.02275v4
+year: '2017'

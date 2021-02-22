@@ -1,0 +1,33 @@
+abstract: We describe how to convert the heuristic search algorithm A* into an anytime
+  algorithm that finds a sequence of improved solutions and eventually converges to
+  an optimal solution. The approach we adopt uses weighted heuristic search to find
+  an approximate solution quickly, and then continues the weighted search to find
+  improved solutions as well as to improve a bound on the suboptimality of the current
+  solution. When the time available to solve a search problem is limited or uncertain,
+  this creates an anytime heuristic search algorithm that allows a flexible tradeoff
+  between search time and solution quality. We analyze the properties of the resulting
+  Anytime A* algorithm, and consider its performance in three domains; sliding-tile
+  puzzles, STRIPS planning, and multiple sequence alignment. To illustrate the generality
+  of this approach, we also describe how to transform the memory-efficient search
+  algorithm Recursive Best-First Search (RBFS) into an anytime algorithm.
+archiveprefix: arXiv
+author: Hansen, E. A. and Zhou, R.
+author_list:
+- family: Hansen
+  given: E. A.
+- family: Zhou
+  given: R.
+doi: 10.1613/jair.2096
+eprint: 1110.2737v1
+file: 1110.2737v1.pdf
+files:
+- hansen-e.-a.-and-zhou-r.anytime-heuristic-search2011.pdf
+month: Oct
+note: Journal Of Artificial Intelligence Research, Volume 28, pages   267-297, 2007
+primaryclass: cs.AI
+ref: 1110.2737v1
+time-added: 2021-01-16-18:02:40
+title: Anytime Heuristic Search
+type: article
+url: http://arxiv.org/abs/1110.2737v1
+year: '2011'

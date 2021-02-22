@@ -1,0 +1,42 @@
+abstract: Recently, neural networks purely based on attention were shown to address
+  image understanding tasks such as image classification. However, these visual transformers
+  are pre-trained with hundreds of millions of images using an expensive infrastructure,
+  thereby limiting their adoption by the larger community.   In this work, with an
+  adequate training scheme, we produce a competitive convolution-free transformer
+  by training on Imagenet only. We train it on a single computer in less than 3 days.
+  Our reference vision transformer (86M parameters) achieves top-1 accuracy of 83.1%
+  (single-crop evaluation) on ImageNet with no external data. We share our code and
+  models to accelerate community advances on this line of research.   Additionally,
+  we introduce a teacher-student strategy specific to transformers. It relies on a
+  distillation token ensuring that the student learns from the teacher through attention.
+  We show the interest of this token-based distillation, especially when using a convnet
+  as a teacher. This leads us to report results competitive with convnets for both
+  Imagenet (where we obtain up to 84.4% accuracy) and when transferring to other tasks.
+archiveprefix: arXiv
+author: Touvron, Hugo and Cord, Matthieu and Douze, Matthijs and Massa, Francisco
+  and Sablayrolles, Alexandre and Jégou, Hervé
+author_list:
+- family: Touvron
+  given: Hugo
+- family: Cord
+  given: Matthieu
+- family: Douze
+  given: Matthijs
+- family: Massa
+  given: Francisco
+- family: Sablayrolles
+  given: Alexandre
+- family: Jégou
+  given: Hervé
+eprint: 2012.12877v1
+file: 2012.12877v1.pdf
+files:
+- touvron-hugo-and-cord-matthieu-and-douze-matthijs-and-massa-francisco-and-sablayrolles-alexandre-and-jegou-hervetraining-data-efficient-image-tr.pdf
+month: Dec
+primaryclass: cs.CV
+ref: 2012.12877v1
+time-added: 2021-01-16-16:09:41
+title: Training data-efficient image transformers & distillation through   attention
+type: article
+url: http://arxiv.org/abs/2012.12877v1
+year: '2020'

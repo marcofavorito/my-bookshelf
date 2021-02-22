@@ -1,0 +1,35 @@
+abstract: Deep Neural Networks have achieved huge success at a wide spectrum of applications
+  from language modeling, computer vision to speech recognition. However, nowadays,
+  good performance alone is not sufficient to satisfy the needs of practical deployment
+  where interpretability is demanded for cases involving ethics and mission critical
+  applications. The complex models of Deep Neural Networks make it hard to understand
+  and reason the predictions, which hinders its further progress. To tackle this problem,
+  we apply the Knowledge Distillation technique to distill Deep Neural Networks into
+  decision trees in order to attain good performance and interpretability simultaneously.
+  We formulate the problem at hand as a multi-output regression problem and the experiments
+  demonstrate that the student model achieves significantly better accuracy performance
+  (about 1\% to 5\%) than vanilla decision trees at the same level of tree depth.
+  The experiments are implemented on the TensorFlow platform to make it scalable to
+  big datasets. To the best of our knowledge, we are the first to distill Deep Neural
+  Networks into vanilla decision trees on multi-class datasets.
+archiveprefix: arXiv
+author: Liu, Xuan and Wang, Xiaoguang and Matwin, Stan
+author_list:
+- family: Liu
+  given: Xuan
+- family: Wang
+  given: Xiaoguang
+- family: Matwin
+  given: Stan
+eprint: 1812.10924v1
+file: 1812.10924v1.pdf
+files:
+- liu-xuan-and-wang-xiaoguang-and-matwin-stanimproving-the-interpretability-of-deep-neural-networks-with-knowledge-distillation2018.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1812.10924v1
+time-added: 2021-01-17-11:32:11
+title: Improving the Interpretability of Deep Neural Networks with Knowledge   Distillation
+type: article
+url: http://arxiv.org/abs/1812.10924v1
+year: '2018'

@@ -1,0 +1,121 @@
+abstract: <jats:p> Correlation does not imply causation; but often, observational
+  data are the only option, even though the research question at hand involves causality.
+  This article discusses causal inference based on observational data, introducing
+  readers to graphical causal models that can provide a powerful tool for thinking
+  more clearly about the interrelations between variables. Topics covered include
+  the rationale behind the statistical control of third variables, common procedures
+  for statistical control, and what can go wrong during their implementation. Certain
+  types of third variables—colliders and mediators—should not be controlled for because
+  that can actually move the estimate of an association away from the value of the
+  causal effect of interest. More subtle variations of such harmful control include
+  using unrepresentative samples, which can undermine the validity of causal conclusions,
+  and statistically controlling for mediators. Drawing valid causal inferences on
+  the basis of observational data is not a mechanistic procedure but rather always
+  depends on assumptions that require domain knowledge and that can be more or less
+  plausible. However, this caveat holds not only for research based on observational
+  data, but for all empirical research endeavors. </jats:p>
+author: Rohrer, Julia M.
+author_list:
+- affiliation:
+  - name: International Max Planck Research School on the Life Course, Max Planck
+      Institute for Human Development, Berlin, Germany
+  - name: Department of Psychology, University of Leipzig
+  - name: German Institute for Economic Research, Berlin, Germany
+  family: Rohrer
+  given: Julia M.
+citations:
+- doi: 10.1080/07388940500339167
+- doi: 10.1257/jep.24.2.3
+- author: Asendorpf J. B.
+  doi: 10.1002/per.1867
+  first-page: '391'
+  journal-title: European Journal of Personality
+  volume: '26'
+  year: '2012'
+- doi: 10.1037/0022-3514.51.6.1173
+- doi: 10.1037/0033-295X.110.2.203
+- author: Borsboom D.
+  first-page: '392'
+  journal-title: European Journal of Personality
+  volume: '26'
+  year: '2012'
+- doi: 10.1037/a0018933
+- doi: 10.1017/S1745855207005029
+- author: Cook T. D.
+  volume-title: 'Quasi-experimentation: Design & analysis issues for field settings'
+  year: '1979'
+- doi: 10.1515/jci-2013-0021
+- doi: 10.1037/a0037996
+- doi: 10.1017/CBO9781139084444
+- doi: 10.1007/978-94-007-6094-3_13
+- doi: 10.1146/annurev-soc-071913-043455
+- doi: 10.1097/01.EDE.0000042804.12056.6C
+- doi: 10.1207/S15328007SEM1002_8
+- doi: 10.1080/03637750903310360
+- doi: 10.1177/0956797611423545
+- doi: 10.1002/per.1863
+- author: Mohan K.
+  first-page: '1277'
+  volume-title: Advances in Neural Information Processing Systems 26 (NIPS 2013)
+  year: '2013'
+- author: Morgan S. L.
+  edition: '2'
+  volume-title: 'Counterfactuals and causal inference: Methods and principles for
+    social research'
+  year: '2015'
+- author: Mukherjee S.
+  volume-title: 'The emperor of all maladies: A biography of cancer'
+  year: '2010'
+- doi: 10.1101/079707
+- doi: 10.1214/ss/1177010894
+- doi: 10.1093/biomet/82.4.669
+- author: Pearl J.
+  volume-title: 'Causal inference in statistics: A primer'
+  year: '2016'
+- doi: 10.1037/a0020092
+- author: Robins J. M.
+  first-page: '305'
+  volume-title: Computation, Causation, & Discovery
+  year: '1999'
+- doi: 10.2307/2981697
+- doi: 10.1207/S15327957PSPR0501_1
+- doi: 10.1037/h0037350
+- doi: 10.1037/1082-989X.7.2.147
+- author: Silver N.
+  volume-title: 'The signal and the noise: The art and science of prediction'
+  year: '2012'
+- doi: 10.1002/sim.3532
+- doi: 10.1136/bmj.327.7429.1459
+- doi: 10.1177/1094428110369842
+- author: Spirtes P.
+  volume-title: Causation, prediction, and search
+  year: '2000'
+- doi: 10.1177/1745691616658637
+- doi: 10.1080/01973533.2015.1049351
+- doi: 10.1080/10705511.2014.937378
+- doi: 10.1016/j.paid.2015.05.040
+- doi: 10.1111/1467-8721.00084
+- author: Turkheimer E.
+  first-page: '159'
+  volume-title: Handbook of research methods in social and personality psychology
+  year: '2014'
+- doi: 10.1037/a0027543
+- doi: 10.1371/journal.pone.0152719
+doc_url: http://journals.sagepub.com/doi/full-xml/10.1177/2515245917745629
+doi: 10.1177/2515245917745629
+files:
+- rohrer-julia-m.thinking-clearly-about-correlations-and-causation-graphical-causal-models-for-observational-data2018.data
+- rohrer-julia-m.thinking-clearly-about-correlations-and-causation-graphical-causal-models-for-observational-data2018-a.pdf
+issue: '1'
+journal: Advances in Methods and Practices in Psychological Science
+language: en
+month: 3
+pages: 27--42
+publisher: SAGE Publications
+time-added: 2021-02-17-12:32:04
+title: 'Thinking Clearly About Correlations and Causation: Graphical Causal Models
+  for Observational Data'
+type: article
+url: http://dx.doi.org/10.1177/2515245917745629
+volume: '1'
+year: 2018

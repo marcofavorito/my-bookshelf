@@ -1,0 +1,53 @@
+abstract: Transfer learning aims at improving the performance of target learners on
+  target domains by transferring the knowledge contained in different but related
+  source domains. In this way, the dependence on a large number of target domain data
+  can be reduced for constructing target learners. Due to the wide application prospects,
+  transfer learning has become a popular and promising area in machine learning. Although
+  there are already some valuable and impressive surveys on transfer learning, these
+  surveys introduce approaches in a relatively isolated way and lack the recent advances
+  in transfer learning. Due to the rapid expansion of the transfer learning area,
+  it is both necessary and challenging to comprehensively review the relevant studies.
+  This survey attempts to connect and systematize the existing transfer learning researches,
+  as well as to summarize and interpret the mechanisms and the strategies of transfer
+  learning in a comprehensive way, which may help readers have a better understanding
+  of the current research status and ideas. Unlike previous surveys, this survey paper
+  reviews more than forty representative transfer learning approaches, especially
+  homogeneous transfer learning approaches, from the perspectives of data and model.
+  The applications of transfer learning are also briefly introduced. In order to show
+  the performance of different transfer learning models, over twenty representative
+  transfer learning models are used for experiments. The models are performed on three
+  different datasets, i.e., Amazon Reviews, Reuters-21578, and Office-31. And the
+  experimental results demonstrate the importance of selecting appropriate transfer
+  learning models for different applications in practice.
+archiveprefix: arXiv
+author: Zhuang, Fuzhen and Qi, Zhiyuan and Duan, Keyu and Xi, Dongbo and Zhu, Yongchun
+  and Zhu, Hengshu and Xiong, Hui and He, Qing
+author_list:
+- family: Zhuang
+  given: Fuzhen
+- family: Qi
+  given: Zhiyuan
+- family: Duan
+  given: Keyu
+- family: Xi
+  given: Dongbo
+- family: Zhu
+  given: Yongchun
+- family: Zhu
+  given: Hengshu
+- family: Xiong
+  given: Hui
+- family: He
+  given: Qing
+eprint: 1911.02685v3
+file: 1911.02685v3.pdf
+files:
+- zhuang-fuzhen-and-qi-zhiyuan-and-duan-keyu-and-xi-dongbo-and-zhu-yongchun-and-zhu-hengshu-and-xiong-hui-and-he-qinga-comprehensive-survey-on-t.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.02685v3
+time-added: 2021-01-17-12:07:50
+title: A Comprehensive Survey on Transfer Learning
+type: article
+url: http://arxiv.org/abs/1911.02685v3
+year: '2019'

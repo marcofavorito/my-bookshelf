@@ -1,0 +1,50 @@
+abstract: 'Reinforcement Learning (RL) has achieved state-of-the-art results in domains
+  such as robotics and games. We build on this previous work by applying RL algorithms
+  to a selection of canonical online stochastic optimization problems with a range
+  of practical applications: Bin Packing, Newsvendor, and Vehicle Routing. While there
+  is a nascent literature that applies RL to these problems, there are no commonly
+  accepted benchmarks which can be used to compare proposed approaches rigorously
+  in terms of performance, scale, or generalizability. This paper aims to fill that
+  gap. For each problem we apply both standard approaches as well as newer RL algorithms
+  and analyze results. In each case, the performance of the trained RL policy is competitive
+  with or superior to the corresponding baselines, while not requiring much in the
+  way of domain knowledge. This highlights the potential of RL in real-world dynamic
+  resource allocation problems.'
+archiveprefix: arXiv
+author: Balaji, Bharathan and Bell-Masterson, Jordan and Bilgin, Enes and Damianou,
+  Andreas and Garcia, Pablo Moreno and Jain, Arpit and Luo, Runfei and Maggiar, Alvaro
+  and Narayanaswamy, Balakrishnan and Ye, Chun
+author_list:
+- family: Balaji
+  given: Bharathan
+- family: Bell-Masterson
+  given: Jordan
+- family: Bilgin
+  given: Enes
+- family: Damianou
+  given: Andreas
+- family: Garcia
+  given: Pablo Moreno
+- family: Jain
+  given: Arpit
+- family: Luo
+  given: Runfei
+- family: Maggiar
+  given: Alvaro
+- family: Narayanaswamy
+  given: Balakrishnan
+- family: Ye
+  given: Chun
+eprint: 1911.10641v2
+file: 1911.10641v2.pdf
+files:
+- balaji-bharathan-and-bell-masterson-jordan-and-bilgin-enes-and-damianou-andreas-and-garcia-pablo-moreno-and-jain-arpit-and-luo-runfei-and-maggi.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.10641v2
+time-added: 2021-02-01-20:57:22
+title: 'ORL: Reinforcement Learning Benchmarks for Online Stochastic   Optimization
+  Problems'
+type: article
+url: http://arxiv.org/abs/1911.10641v2
+year: '2019'

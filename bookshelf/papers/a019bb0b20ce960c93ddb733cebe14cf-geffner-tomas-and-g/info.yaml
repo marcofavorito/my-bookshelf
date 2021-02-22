@@ -1,0 +1,31 @@
+abstract: Fully observable non-deterministic (FOND) planning is becoming increasingly
+  important as an approach for computing proper policies in probabilistic planning,
+  extended temporal plans in LTL planning, and general plans in generalized planning.
+  In this work, we introduce a SAT encoding for FOND planning that is compact and
+  can produce compact strong cyclic policies. Simple variations of the encodings are
+  also introduced for strong planning and for what we call, dual FOND planning, where
+  some non-deterministic actions are assumed to be fair (e.g., probabilistic) and
+  others unfair (e.g., adversarial). The resulting FOND planners are compared empirically
+  with existing planners over existing and new benchmarks. The notion of "probabilistic
+  interesting problems" is also revisited to yield a more comprehensive picture of
+  the strengths and limitations of current FOND planners and the proposed SAT approach.
+archiveprefix: arXiv
+author: Geffner, Tomas and Geffner, Hector
+author_list:
+- family: Geffner
+  given: Tomas
+- family: Geffner
+  given: Hector
+eprint: 1806.09455v1
+file: 1806.09455v1.pdf
+files:
+- geffner-tomas-and-geffner-hectorcompact-policies-for-fully-observable-non-deterministic-planning-as-sat2018.pdf
+month: Jun
+note: Proc. ICAPS 2018
+primaryclass: cs.AI
+ref: 1806.09455v1
+time-added: 2021-01-26-11:07:57
+title: Compact Policies for Fully-Observable Non-Deterministic Planning as SAT
+type: article
+url: http://arxiv.org/abs/1806.09455v1
+year: '2018'

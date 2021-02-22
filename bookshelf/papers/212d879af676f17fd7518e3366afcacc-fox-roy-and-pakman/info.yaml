@@ -1,0 +1,36 @@
+abstract: Model-free reinforcement learning algorithms, such as Q-learning, perform
+  poorly in the early stages of learning in noisy environments, because much effort
+  is spent unlearning biased estimates of the state-action value function. The bias
+  results from selecting, among several noisy estimates, the apparent optimum, which
+  may actually be suboptimal. We propose G-learning, a new off-policy learning algorithm
+  that regularizes the value estimates by penalizing deterministic policies in the
+  beginning of the learning process. We show that this method reduces the bias of
+  the value-function estimation, leading to faster convergence to the optimal value
+  and the optimal policy. Moreover, G-learning enables the natural incorporation of
+  prior domain knowledge, when available. The stochastic nature of G-learning also
+  makes it avoid some exploration costs, a property usually attributed only to on-policy
+  algorithms. We illustrate these ideas in several examples, where G-learning results
+  in significant improvements of the convergence rate and the cost of the learning
+  process.
+archiveprefix: arXiv
+author: Fox, Roy and Pakman, Ari and Tishby, Naftali
+author_list:
+- family: Fox
+  given: Roy
+- family: Pakman
+  given: Ari
+- family: Tishby
+  given: Naftali
+eprint: 1512.08562v4
+file: 1512.08562v4.pdf
+files:
+- fox-roy-and-pakman-ari-and-tishby-naftalitaming-the-noise-in-reinforcement-learning-via-soft-updates2015.pdf
+month: Dec
+note: 32nd Conference on Uncertainty in Artificial Intelligence (UAI   2016)
+primaryclass: cs.LG
+ref: 1512.08562v4
+time-added: 2021-01-24-20:00:54
+title: Taming the Noise in Reinforcement Learning via Soft Updates
+type: article
+url: http://arxiv.org/abs/1512.08562v4
+year: '2015'

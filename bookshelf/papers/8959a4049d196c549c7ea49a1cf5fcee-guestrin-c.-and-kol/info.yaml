@@ -1,0 +1,47 @@
+abstract: This paper addresses the problem of planning under uncertainty in large
+  Markov Decision Processes (MDPs). Factored MDPs represent a complex state space
+  using state variables and the transition model using a dynamic Bayesian network.
+  This representation often allows an exponential reduction in the representation
+  size of structured MDPs, but the complexity of exact solution algorithms for such
+  MDPs can grow exponentially in the representation size. In this paper, we present
+  two approximate solution algorithms that exploit structure in factored MDPs. Both
+  use an approximate value function represented as a linear combination of basis functions,
+  where each basis function involves only a small subset of the domain variables.
+  A key contribution of this paper is that it shows how the basic operations of both
+  algorithms can be performed efficiently in closed form, by exploiting both additive
+  and context-specific structure in a factored MDP. A central element of our algorithms
+  is a novel linear program decomposition technique, analogous to variable elimination
+  in Bayesian networks, which reduces an exponentially large LP to a provably equivalent,
+  polynomial-sized one. One algorithm uses approximate linear programming, and the
+  second approximate dynamic programming. Our dynamic programming algorithm is novel
+  in that it uses an approximation based on max-norm, a technique that more directly
+  minimizes the terms that appear in error bounds for approximate MDP algorithms.
+  We provide experimental results on problems with over 10^40 states, demonstrating
+  a promising indication of the scalability of our approach, and compare our algorithm
+  to an existing state-of-the-art approach, showing, in some problems, exponential
+  gains in computation time.
+archiveprefix: arXiv
+author: Guestrin, C. and Koller, D. and Parr, R. and Venkataraman, S.
+author_list:
+- family: Guestrin
+  given: C.
+- family: Koller
+  given: D.
+- family: Parr
+  given: R.
+- family: Venkataraman
+  given: S.
+doi: 10.1613/jair.1000
+eprint: 1106.1822v1
+file: 1106.1822v1.pdf
+files:
+- guestrin-c.-and-koller-d.-and-parr-r.-and-venkataraman-s.efficient-solution-algorithms-for-factored-mdps2011.pdf
+month: Jun
+note: Journal Of Artificial Intelligence Research, Volume 19, pages   399-468, 2003
+primaryclass: cs.AI
+ref: 1106.1822v1
+time-added: 2021-01-16-00:06:13
+title: Efficient Solution Algorithms for Factored MDPs
+type: article
+url: http://arxiv.org/abs/1106.1822v1
+year: '2011'

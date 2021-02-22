@@ -1,0 +1,38 @@
+abstract: In recent years, deep neural networks have been successful in both industry
+  and academia, especially for computer vision tasks. The great success of deep learning
+  is mainly due to its scalability to encode large-scale data and to maneuver billions
+  of model parameters. However, it is a challenge to deploy these cumbersome deep
+  models on devices with limited resources, e.g., mobile phones and embedded devices,
+  not only because of the high computational complexity but also the large storage
+  requirements. To this end, a variety of model compression and acceleration techniques
+  have been developed. As a representative type of model compression and acceleration,
+  knowledge distillation effectively learns a small student model from a large teacher
+  model. It has received rapid increasing attention from the community. This paper
+  provides a comprehensive survey of knowledge distillation from the perspectives
+  of knowledge categories, training schemes, teacher-student architecture, distillation
+  algorithms, performance comparison and applications. Furthermore, challenges in
+  knowledge distillation are briefly reviewed and comments on future research are
+  discussed and forwarded.
+archiveprefix: arXiv
+author: Gou, Jianping and Yu, Baosheng and Maybank, Stephen John and Tao, Dacheng
+author_list:
+- family: Gou
+  given: Jianping
+- family: Yu
+  given: Baosheng
+- family: Maybank
+  given: Stephen John
+- family: Tao
+  given: Dacheng
+eprint: 2006.05525v4
+file: 2006.05525v4.pdf
+files:
+- gou-jianping-and-yu-baosheng-and-maybank-stephen-john-and-tao-dachengknowledge-distillation-a-survey2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.05525v4
+time-added: 2021-01-17-11:26:48
+title: 'Knowledge Distillation: A Survey'
+type: article
+url: http://arxiv.org/abs/2006.05525v4
+year: '2020'

@@ -1,0 +1,32 @@
+abstract: 'With near-term quantum devices available and the race for fault-tolerant
+  quantum computers in full swing, researchers became interested in the question of
+  what happens if we replace a machine learning model with a quantum circuit. While
+  such "quantum models" are sometimes called "quantum neural networks", it has been
+  repeatedly noted that their mathematical structure is actually much more closely
+  related to kernel methods: they analyse data in high-dimensional Hilbert spaces
+  to which we only have access through inner products revealed by measurements. This
+  technical manuscript summarises, formalises and extends the link by systematically
+  rephrasing quantum models as a kernel method. It shows that most near-term and fault-tolerant
+  quantum models can be replaced by a general support vector machine whose kernel
+  computes distances between data-encoding quantum states. In particular, kernel-based
+  training is guaranteed to find better or equally good quantum models than variational
+  circuit training. Overall, the kernel perspective of quantum machine learning tells
+  us that the way that data is encoded into quantum states is the main ingredient
+  that can potentially set quantum models apart from classical machine learning models.'
+archiveprefix: arXiv
+author: Schuld, Maria
+author_list:
+- family: Schuld
+  given: Maria
+eprint: 2101.11020v1
+file: 2101.11020v1.pdf
+files:
+- schuld-mariaquantum-machine-learning-models-are-kernel-methods2021.pdf
+month: Jan
+primaryclass: quant-ph
+ref: 2101.11020v1
+time-added: 2021-01-28-21:08:38
+title: Quantum machine learning models are kernel methods
+type: article
+url: http://arxiv.org/abs/2101.11020v1
+year: '2021'

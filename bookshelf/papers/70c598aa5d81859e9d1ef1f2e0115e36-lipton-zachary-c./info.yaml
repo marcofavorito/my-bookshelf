@@ -1,0 +1,31 @@
+abstract: Supervised machine learning models boast remarkable predictive capabilities.
+  But can you trust your model? Will it work in deployment? What else can it tell
+  you about the world? We want models to be not only good, but interpretable. And
+  yet the task of interpretation appears underspecified. Papers provide diverse and
+  sometimes non-overlapping motivations for interpretability, and offer myriad notions
+  of what attributes render models interpretable. Despite this ambiguity, many papers
+  proclaim interpretability axiomatically, absent further explanation. In this paper,
+  we seek to refine the discourse on interpretability. First, we examine the motivations
+  underlying interest in interpretability, finding them to be diverse and occasionally
+  discordant. Then, we address model properties and techniques thought to confer interpretability,
+  identifying transparency to humans and post-hoc explanations as competing notions.
+  Throughout, we discuss the feasibility and desirability of different notions, and
+  question the oft-made assertions that linear models are interpretable and that deep
+  neural networks are not.
+archiveprefix: arXiv
+author: Lipton, Zachary C.
+author_list:
+- family: Lipton
+  given: Zachary C.
+eprint: 1606.03490v3
+file: 1606.03490v3.pdf
+files:
+- lipton-zachary-c.the-mythos-of-model-interpretability2016.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1606.03490v3
+time-added: 2021-01-17-12:14:37
+title: The Mythos of Model Interpretability
+type: article
+url: http://arxiv.org/abs/1606.03490v3
+year: '2016'

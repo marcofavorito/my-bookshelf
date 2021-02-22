@@ -1,0 +1,511 @@
+author: Gallo, Giorgio and Pallottino, Stefano
+author_list:
+- affiliation: []
+  family: Gallo
+  given: Giorgio
+- affiliation: []
+  family: Pallottino
+  given: Stefano
+citations:
+- author: A.V. Aho
+  unstructured: A.V. Aho, J.E. Hopcroft and J.D. Ullman, The design and analysis of
+    computer algorithms (Addison-Wesley, Reading, MA, 1974).
+  volume-title: The design and analysis of computer algorithms
+  year: '1974'
+- author: M.S. Bazaraa
+  doi: 10.1137/0126047
+  first-page: '496'
+  journal-title: SIAM Journal on Applied Mathematics
+  unstructured: M.S. Bazaraa and R.W. Langley, “A dual shortest path algorithm”, SIAM
+    Journal on Applied Mathematics 26 (1974) 496–501.
+  volume: '26'
+  year: '1974'
+- author: R. Bellman
+  first-page: '88'
+  journal-title: Quarterly of Applied Mathematics
+  unstructured: R. Bellman, “On a routing problem”, Quarterly of Applied Mathematics
+    16 (1958) 88–90.
+  volume: '16'
+  year: '1958'
+- author: J.S. Carson
+  doi: 10.1137/0206050
+  first-page: '696'
+  journal-title: SIAM Journal on Computing
+  unstructured: J.S. Carson and A.M. Law, “A note on Spira’s algorithm for the all-pairs
+    shortest-path problem”, SIAM Journal on Computing 6 (1977) 696–699.
+  volume: '6'
+  year: '1977'
+- author: G.B. Dantzig
+  unstructured: G.B. Dantzig, Linear programming and extensions (Princeton University
+    Press, Princeton, NJ, 1963).
+  volume-title: Linear programming and extensions
+  year: '1963'
+- author: G.B. Dantzig
+  first-page: '91'
+  unstructured: 'G.B. Dantzig, “All shortest routes in a graph”, in: Theory of graphs,
+    international symposium, Rome 1966 (Dunod, Paris, 1967) 91–92.'
+  volume-title: Theory of graphs, international symposium, Rome 1966
+  year: '1967'
+- author: E.V. Denardo
+  doi: 10.1287/opre.27.1.161
+  first-page: '161'
+  journal-title: Operations Research
+  unstructured: E.V. Denardo and B.L. Fox, “Shortest-route methods. I. Reaching, pruning,
+    and buckets”, Operations Research 27 (1979) 161–186.
+  volume: '27'
+  year: '1979'
+- author: R.B. Dial
+  doi: 10.1145/363269.363610
+  first-page: '632'
+  journal-title: Communications of the ACM
+  unstructured: 'R.B. Dial, “Algorithm 360: Shortest path forest with topological
+    ordering”, Communications of the ACM 12 (1969) 632–633.'
+  volume: '12'
+  year: '1969'
+- author: R. Dial
+  doi: 10.1002/net.3230090304
+  first-page: '215'
+  journal-title: Networks
+  unstructured: R. Dial, F. Glover, D. Karney and D. Klingman, “A computational analysis
+    of alternative algorithms and labeling techniques for finding shortest path trees”,
+    Networks 9 (1979) 215–248.
+  volume: '9'
+  year: '1979'
+- author: E.W. Dijkstra
+  doi: 10.1007/BF01386390
+  first-page: '269'
+  journal-title: Numerische Mathematik
+  unstructured: E.W. Dijkstra, “A note on two problems in connexion with graphs”,
+    Numerische Mathematik 1 (1959) 269–271.
+  volume: '1'
+  year: '1959'
+- author: R. Dionne
+  first-page: '132'
+  journal-title: Infor
+  unstructured: R. Dionne, “Etude et extension d’un algorithme de Murchland”, Infor
+    16 (1978) 132–146.
+  volume: '16'
+  year: '1978'
+- author: R. Dionne
+  doi: 10.1002/net.3230090104
+  first-page: '37'
+  journal-title: Networks
+  unstructured: R. Dionne and M. Florian, “Exact and approximate algorithms for optimal
+    network design”, Networks 9 (1979) 37–59.
+  volume: '9'
+  year: '1979'
+- author: S.E. Dreyfus
+  doi: 10.1287/opre.17.3.395
+  first-page: '395'
+  journal-title: Operations Research
+  unstructured: S.E. Dreyfus, “An appraisal of some shortest-path algorithms”, Operations
+    Research 17 (1969) 395–412.
+  volume: '17'
+  year: '1969'
+- author: J. Edmonds
+  doi: 10.1145/321694.321699
+  first-page: '248'
+  journal-title: Journal of the ACM
+  unstructured: J. Edmonds and R.M. Karp, “Theoretical improvements in algorithmic
+    efficiency for network flow problems”, Journal of the ACM 19 (1972) 248–264.
+  volume: '19'
+  year: '1972'
+- doi: 10.1109/CDC.1977.271681
+  unstructured: M. Florian, “An improved linear approximation algorithm for the network
+    equilibriums (packet switching) problem”, Proceedings of the IEEE Conference on
+    Decision and Control (1977).
+- author: M. Florian
+  doi: 10.1002/net.3230110406
+  first-page: '367'
+  journal-title: Networks
+  unstructured: M. Florian, S. Nguyen and S. Pallottino, “A dual simplexs algorithm
+    for finding all shortest paths”, Networks 11 (1981) 367–378.
+  volume: '11'
+  year: '1981'
+- author: R.W. Floyd
+  doi: 10.1145/367766.368168
+  first-page: '345'
+  journal-title: Communications of the ACM
+  unstructured: 'R.W. Floyd, “Algorithm 97: Shortest path”, Communications of the
+    ACM 5 (1962) 345.'
+  volume: '5'
+  year: '1962'
+- unstructured: L.R. Ford, “Network flow theory”, Report No. P-293, Rand Corporation
+    (1956).
+- author: S. Fujishige
+  doi: 10.1002/net.3230110309
+  first-page: '317'
+  journal-title: Networks
+  unstructured: S. Fujishige, “A note on the problem of updating shortest paths”,
+    Networks 11 (1981) 317–319.
+  volume: '11'
+  year: '1981'
+- author: G. Gallo
+  doi: 10.1007/BF02092136
+  first-page: '3'
+  journal-title: Rivista di Matematica per le Science Economiche e Sociali
+  unstructured: G. Gallo, “Reoptimization procedures in shortest path problems”, Rivista
+    di Matematica per le Science Economiche e Sociali 3 (1980) 3–13.
+  volume: '3'
+  year: '1980'
+- unstructured: G. Gallo, “Updating shortest paths in large scale networks”, presented
+    at the International Workshop on Advances in Linear Optimization Algorithms and
+    Software (Pisa, Italy, 1980), to appear in Networks.
+- author: G. Gallo
+  doi: 10.1002/net.3230130309
+  first-page: '411'
+  journal-title: Networks
+  unstructured: G. Gallo, “Lower planes for the network design problem”, Networks
+    13 (1983) 411–425.
+  volume: '13'
+  year: '1983'
+- author: G. Gallo
+  first-page: '5'
+  series-title: Rapporto 13.81
+  unstructured: G. Gallo and S. Pallottino, “Problemi di cammini ottimi”, Rapporto
+    13.81, C.N.R.-P.F.Informatica-SOFMAT (Rome, Italy, 1981) 5–59.
+  volume-title: Problemi di cammini ottimi
+  year: '1981'
+- author: G. Gallo
+  doi: 10.1016/0166-218X(82)90031-2
+  first-page: '23'
+  journal-title: Discrete Applied Mathematics
+  unstructured: G. Gallo and S. Palottino, “A new algorithm to find the shortest paths
+    between all pairs of nodes”, Discrete Applied Mathematics 4 (1982) 23–35.
+  volume: '4'
+  year: '1982'
+- author: G. Gallo
+  unstructured: 'G. Gallo and S. Pallottino, “Shortest path methods in transportation
+    models”, to appear in: M. Florians, ed., Transportation planning models (North-Holland
+    Amsterdam, 1984).'
+  volume-title: Transportation planning models
+  year: '1984'
+- author: G. Gallo
+  series-title: Rapporto 28.82
+  unstructured: G. Gallo, S. Pallottino and C. Ruggeri, “Efficienza sperimentale di
+    algoritmi di cammino minimo”, Rapporto 28.82, C.N.R.-P.F. Informatica-SOFMAT (Rome,
+    Italy, 1982).
+  volume-title: Efficienza sperimentale di algoritmi di cammino minimo
+  year: '1982'
+- author: G. Gallo
+  series-title: Rapporto 27.82
+  unstructured: 'G. Gallo, S. Pallottino, C. Ruggeri and G. Storchi, “Shortest paths:
+    A bibliography”, Rapporto 27.82, C.N.R.-P.F.Informatica-SOFMAT (Rome, Italy, 1982).'
+  volume-title: 'Shortest paths: A bibliography'
+  year: '1982'
+- author: J. Gilsinn
+  series-title: Technical Note
+  unstructured: J. Gilsinn and C. Witzgall, “A performance comparison of labeling
+    algorithms for calculating shortest path trees”, Technical Note 772, National
+    Bureau of Standards (Washington, DC, 1973).
+  volume-title: A performance comparison of labeling algorithms for calculating shortest
+    path trees
+  year: '1973'
+- unstructured: F. Glover and D. Klingman, “Recent development in computer implementation
+    technology for network flow algorithms”, presented at the International Workshop
+    on Advances in Linear Optimization Algorithms and Software (Pisa, Italy, 1980).
+- author: B. Golden
+  doi: 10.1287/opre.24.6.1164
+  first-page: '1164'
+  journal-title: Operations Research
+  unstructured: 'B. Golden, “Shortest path algorithms: A comparison”, Operations Research
+    24 (1976), 1164–1168.'
+  volume: '24'
+  year: '1976'
+- author: S. Goto
+  doi: 10.1002/net.3230080406
+  first-page: '341'
+  journal-title: Networks
+  unstructured: S. Goto and A. Sangiovanni-Vincentelli, “A new shortest path updating
+    algorithm”, Networks 8 (1978) 341–372.
+  volume: '8'
+  year: '1978'
+- author: P. Hansen
+  doi: 10.1016/0166-218X(80)90004-9
+  first-page: '151'
+  journal-title: Discrete Applied Mathematics
+  unstructured: P. Hansen, “An O(m·log D) algorithm for shortes paths”, Discrete Applied
+    Mathematics 2 (1980) 151–153.
+  volume: '2'
+  year: '1980'
+- author: T.C. Hu
+  doi: 10.1137/0115017
+  first-page: '207'
+  journal-title: SIAM Journal on Applied Mathematics
+  unstructured: T.C. Hu, “Revised matrix algorithms for shortest paths”, SIAM Journal
+    on Applied Mathematics 15 (1967) 207–218.
+  volume: '15'
+  year: '1967'
+- author: D.B. Johnson
+  unstructured: D.B. Johnson, “Algorithms for shortest paths”, Ph.D. dissertation,
+    Cornell University (Ithaca, NY, 1973).
+  volume-title: Algorithms for shortest paths
+  year: '1973'
+- author: D.B. Johnson
+  doi: 10.1145/321765.321768
+  first-page: '385'
+  journal-title: Journal of the ACM
+  unstructured: D.B. Johnson, “A note on Dijkstra’s shortest path algorithm”, Journal
+    of the ACM 20 (1973) 385–388.
+  volume: '20'
+  year: '1973'
+- author: D.B. Johnson
+  doi: 10.1145/321992.321993
+  first-page: '1'
+  journal-title: Journal of the ACM
+  unstructured: D.B. Johnson, “Efficient algorithms for shortest paths in sparse networks”,
+    Journal of the ACM 24 (1977) 1–13.
+  volume: '24'
+  year: '1977'
+- doi: 10.1145/800193.569965
+  unstructured: E.L. Johnson, “On shortest paths and sorting”, Proceedings of the
+    25th A.C.M. Annual Conference (1972) 510–517.
+- author: R.G. Karlsson
+  doi: 10.1016/0166-218X(83)90104-X
+  first-page: '91'
+  journal-title: Discrete Applied Mathematics
+  unstructured: R.G. Karlsson and P.V. Poblete, “An O(m log log D) algorithm for shortest
+    paths”, Discrete Applied Mathematics 6 (1983) 91–93.
+  volume: '6'
+  year: '1983'
+- author: A. Kershenbaum
+  doi: 10.1002/net.3230110410
+  first-page: '399'
+  journal-title: Networks
+  unstructured: A. Kershenbaum, “A note on finding shortest path trees”, Networks
+    11 (1981) 399–400.
+  volume: '11'
+  year: '1981'
+- author: D.E. Knuth
+  unstructured: 'D.E. Knuth, The art of computer programming, Vol. 1: fundamental
+    algorithms(Addison-Wesley, Reading, MA, 1968).'
+  volume-title: 'The art of computer programming, Vol. 1: fundamental algorithms'
+  year: '1968'
+- author: D.E. Knuth
+  unstructured: 'D.E. Knuth, The art of computer programming, Vol. 3: sorting and
+    searching (Addison-Wesley, Reading, MA, 1973).'
+  volume-title: 'The art of computer programming, Vol. 3: sorting and searching'
+  year: '1973'
+- author: E.L. Lawler
+  unstructured: 'E.L. Lawler, Combinatorial optimization: networks and matroids (Holt,
+    Rinehart and Winston, New York, NY, 1976).'
+  volume-title: 'Combinatorial optimization: networks and matroids'
+  year: '1976'
+- author: E.L. Lawler
+  doi: 10.1016/S0167-5060(08)70830-6
+  first-page: '251'
+  journal-title: Annals of Discrete Mathematics
+  unstructured: E.L. Lawler, “Shortest path and network flow algorithms”, Annals of
+    Discrete Mathematics 4 (1979) 251–263.
+  volume: '4'
+  year: '1979'
+- author: T.L. Magnanti
+  doi: 10.1287/trsc.18.1.1
+  first-page: '1'
+  journal-title: Transportation Science
+  unstructured: 'T.L. Magnanti and R.T. Wong, “Network and transportation planning:
+    Models and algorithms”, Transportation Science 18 (1984) 1–55. on Transportation
+    Science (1983).'
+  volume: '18'
+  year: '1984'
+- author: E.F. Moore
+  first-page: '285'
+  series-title: Proceedings of the International Symposium on Theory of Switching
+  unstructured: E.F. Moore, “The shortest path through a maze”, Proceedings of the
+    International Symposium on Theory of Switching (1957) (Harvard University Press,
+    Cambridge, MA, 1959) 285–292.
+  volume-title: The shortest path through a maze
+  year: '1959'
+- unstructured: J.D. Murchland, “The effect of increasing or decreasing the length
+    of a single are on all shortest distances in a graph”, Report LBS-TNT-26, London
+    Graduate School of Business Studies (1967).
+- author: G.L. Nemhauser
+  doi: 10.1016/0022-247X(72)90091-1
+  first-page: '328'
+  journal-title: Journal of Mathematical Analysis and Application
+  unstructured: G.L. Nemhauser, “A generalized permanent label setting algorithm for
+    the shortest path between specified nodes”, Journal of Mathematical Analysis and
+    Application 38 (1972) 328–334.
+  volume: '38'
+  year: '1972'
+- author: S. Pallottino
+  series-title: Publication
+  unstructured: 'S. Pallottino, “Adaptation de l’algorithme de D’Esopo-Pape pour la
+    determination de tous les chemins les plus courts: ameliorations et simplifications”,
+    Publication 136, Centre de Recherches sur les Transports, University of Montreal
+    (Montreal, Canada, 1979).'
+  volume-title: 'Adaptation de l’algorithme de D’Esopo-Pape pour la determination
+    de tous les chemins les plus courts: ameliorations et simplifications'
+  year: '1979'
+- author: S. Pallottino
+  doi: 10.1002/net.3230140206
+  first-page: '257'
+  journal-title: Networks
+  unstructured: 'S. Pallottino, “Shortest path method: Complexity, interrelations
+    and new proposition”, Networks 14 (1984) 257–267.'
+  volume: '14'
+  year: '1984'
+- author: U. Pape
+  series-title: Bericht 73-06, Fachbereich 20 (Kybernetik)
+  unstructured: U. Pape, “Zur Implementierungs und Wirtschaftlichkeit von Moore-Algorithmens
+    zur Bestimmung kürzester Weglängen in einem Netzwerk”, Bericht 73-06, Fachbereich
+    20 (Kybernetik), Technische Universität Berlin (Berlin, 1973).
+  volume-title: Zur Implementierungs und Wirtschaftlichkeit von Moore-Algorithmens
+    zur Bestimmung kürzester Weglängen in einem Netzwerk
+  year: '1973'
+- author: U. Pape
+  doi: 10.1007/BF02253338
+  first-page: '357'
+  journal-title: Computing
+  unstructured: U. Pape, “Netzwerk-Veraenderungen und Korrektur kuerzester Weglaengen
+    von einer Wurzelmenge zu allen anderen Knoten”, Computing 12 (1974) 357–362.
+  volume: '12'
+  year: '1974'
+- author: U. Pape
+  doi: 10.1007/BF01585517
+  first-page: '212'
+  journal-title: Mathematical Programming
+  unstructured: U. Pape, “Implementation and efficiency of Moore-algorithms for the
+    shortes route problem”, Mathematical Programming 7 (1974) 212–222.
+  volume: '7'
+  year: '1974'
+- author: U. Pape
+  doi: 10.1145/355900.355919
+  first-page: '450'
+  journal-title: ACM Transactions on Mathematical Software
+  unstructured: 'U. Pape, “Algorithm 562: shortest path lengths”, ACM Transactions
+    on Mathematical Software 6 (1980) 450–455.'
+  volume: '6'
+  year: '1980'
+- author: U. Pape
+  doi: 10.1145/357456.357466
+  first-page: '260'
+  journal-title: ACM Transactions on Mathematical Software
+  unstructured: U. Pape, “Remark on algorithm 562”, ACM Transactions on Mathematical
+    Software 9 (1983) 260.
+  volume: '9'
+  year: '1983'
+- author: M. Pollack
+  doi: 10.1287/opre.8.2.224
+  first-page: '224'
+  journal-title: Operations Research
+  unstructured: 'M. Pollack and W. Wiebenson, “Solutions of the shortest-route problem:
+    a review”, Operations Research 8 (1960) 224–230.'
+  volume: '8'
+  year: '1960'
+- author: V.V. Rodionov
+  doi: 10.1016/0041-5553(68)90148-1
+  first-page: '336'
+  journal-title: U.S.S.R. Computational Mathematics and Mathematical Physics
+  unstructured: V.V. Rodionov, “The parametric problem of shortest distances”, U.S.S.R.
+    Computational Mathematics and Mathematical Physics 8 (1968) 336–343.
+  volume: '8'
+  year: '1968'
+- author: D.R. Shier
+  doi: 10.6028/jres.086.013
+  first-page: '317'
+  journal-title: Journal of Research of the National Bureau of Standards
+  unstructured: D.R. Shier and C. Witzgall, “Properties of labeling methods for determining
+    shortest path trees”, Journal of Research of the National Bureau of Standards
+    86 (1981) 317–330.
+  volume: '86'
+  year: '1981'
+- unstructured: B. Simeone, Private communication (Bologna, Italy, 1980).
+- author: P.M. Spira
+  doi: 10.1137/0202004
+  first-page: '28'
+  journal-title: SIAM Journal on Computing
+  unstructured: "P.M. Spira, “A new algorithm for finding all shortest paths in a\
+    \ graph of positive arcs in average time O(n\n                2·log2\n       \
+    \         n)”, SIAM Journal on Computing 2 (1973) 28–32."
+  volume: '2'
+  year: '1973'
+- author: P.M. Spira
+  doi: 10.1137/0204032
+  first-page: '375'
+  journal-title: SIAM Journal on Computing
+  unstructured: P.M. Spira and A. Pan, “On finding and updating spanning trees and
+    shortest paths”, SIAM Journal on Computing 4 (1975) 375–380.
+  volume: '4'
+  year: '1975'
+- author: Y. Tabourier
+  doi: 10.1016/0012-365X(73)90118-0
+  first-page: '83'
+  journal-title: Discrete Mathematics
+  unstructured: Y. Tabourier, “All shortest distances in a graph. An improvement to
+    Dantzig’s inductive algorithm”, Discrete Mathematics 4 (1973) 83–87.
+  volume: '4'
+  year: '1973'
+- author: T. Takaoka
+  doi: 10.1007/BFb0022539
+  first-page: '643'
+  series-title: Lecture notes in computer science
+  unstructured: "T. Takaoka and A. Moffat, «An O(n\n                2·log n· log log\
+    \ n) expected time algorithm for the all shortest distance problem”, Lecture notes\
+    \ in computer science 88 (Springer-Verlag, Berlin, 1980) 643–655."
+  volume-title: An O(n 2·log n· log log n) expected time algorithm for the all shortest
+    distance problem
+  year: '1980'
+- author: R.E. Tarjan
+  doi: 10.1137/1020067
+  first-page: '457'
+  journal-title: SIAM Review
+  unstructured: R.E. Tarjan, “Complexity of combinatorial algorithms”, SIAM Review
+    20 (1978) 457–491.
+  volume: '20'
+  year: '1978'
+- author: D. Vliet Van
+  doi: 10.1016/0041-1647(78)90102-8
+  first-page: '7'
+  journal-title: Transportation Research
+  unstructured: D. Van Vliet, “Improved shortest path algorithms for transport networks”,
+    Transportation Research 12 (1978) 7–20.
+  volume: '12'
+  year: '1978'
+- author: S. Warshall
+  doi: 10.1145/321105.321107
+  first-page: '11'
+  journal-title: Journal of the ACM
+  unstructured: S. Warshall, “A theorem on Boolean matrices”, Journal of the ACM 9
+    (1962) 11–12.
+  volume: '9'
+  year: '1962'
+- author: J.W.J. Williams
+  first-page: '347'
+  journal-title: Communications of the ACM
+  unstructured: 'J.W.J. Williams, “Algorithm 232: Heapsort”, Communications of the
+    ACM 7 (1964) 347–348.'
+  volume: '7'
+  year: '1964'
+- author: B. Yaged
+  doi: 10.1002/net.3230010205
+  first-page: '139'
+  journal-title: Networks
+  unstructured: B. Yaged, “Minimum cost routing for static network models”, Networks
+    1 (1971) 139–172.
+  volume: '1'
+  year: '1971'
+- author: J.Y. Yen
+  doi: 10.1145/321707.321712
+  first-page: '423'
+  journal-title: Journal of the ACM
+  unstructured: "J.Y. Yen, “Finding the length of all shortest paths in n-node nonnegative-distance\
+    \ complete networks using n\n                3/2 additions and n\n           \
+    \     3 comparisons”, Journal of the ACM 19 (1972) 423–424."
+  volume: '19'
+  year: '1972'
+doi: 10.1007/bfb0121087
+files:
+- gallo-giorgio-and-pallottino-stefanoshortest-path-methods-a-unifying-approach1986.pdf
+isbn:
+- '9783642009228'
+- '9783642009235'
+journal: Mathematical Programming Studies
+month: 2
+pages: 38--64
+publisher: Springer Berlin Heidelberg
+time-added: 2021-01-16-21:40:46
+title: 'Shortest path methods: A unifying approach'
+type: inbook
+url: http://dx.doi.org/10.1007/bfb0121087
+year: 1986

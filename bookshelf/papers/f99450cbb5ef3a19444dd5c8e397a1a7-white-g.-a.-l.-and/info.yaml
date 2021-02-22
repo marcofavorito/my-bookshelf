@@ -1,0 +1,328 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>In the scale-up of quantum computers,
+  the framework underpinning fault-tolerance generally relies on the strong assumption
+  that environmental noise affecting qubit logic is uncorrelated (Markovian). However,
+  as physical devices progress well into the complex multi-qubit regime, attention
+  is turning to understanding the appearance and mitigation of correlated — or non-Markovian
+  — noise, which poses a serious challenge to the progression of quantum technology.
+  This error type has previously remained elusive to characterisation techniques.
+  Here, we develop a framework for characterising non-Markovian dynamics in quantum
+  systems and experimentally test it on multi-qubit superconducting quantum devices.
+  Where noisy processes cannot be accounted for using standard Markovian techniques,
+  our reconstruction predicts the behaviour of the devices with an infidelity of 10<jats:sup>−3</jats:sup>.
+  Our results show this characterisation technique leads to superior quantum control
+  and extension of coherence time by effective decoupling from the non-Markovian environment.
+  This framework, validated by our results, is applicable to any controlled quantum
+  device and offers a significant step towards optimal device operation and noise
+  reduction.</jats:p>
+author: White, G. A. L. and Hill, C. D. and Pollock, F. A. and Hollenberg, L. C. L.
+  and Modi, K.
+author_list:
+- affiliation: []
+  family: White
+  given: G. A. L.
+- affiliation: []
+  family: Hill
+  given: C. D.
+- affiliation: []
+  family: Pollock
+  given: F. A.
+- affiliation: []
+  family: Hollenberg
+  given: L. C. L.
+- affiliation: []
+  family: Modi
+  given: K.
+citations:
+- author: JF Haase
+  doi: 10.1103/PhysRevLett.121.060401
+  first-page: '060401'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Haase, J. F. et al. Controllable non-Markovianity for a spin qubit
+    in diamond. Phys. Rev. Lett. 121, 060401 (2018).
+  volume: '121'
+  year: '2018'
+- author: B Pokharel
+  doi: 10.1103/PhysRevLett.121.220502
+  first-page: '220502'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Pokharel, B., Anand, N., Fortman, B. & Lidar, D. A. Demonstration
+    of fidelity improvement using dynamical decoupling with superconducting qubits.
+    Phys. Rev. Lett. 121, 220502 (2018).
+  volume: '121'
+  year: '2018'
+- author: M Sarovar
+  doi: 10.22331/q-2020-09-11-321
+  first-page: '321'
+  journal-title: Quantum
+  unstructured: Sarovar, M. et al. Detecting crosstalk errors in quantum information
+    processors. Quantum 4, 321 https://doi.org/10.22331/q-2020-09-11-321 (2020).
+  volume: '4'
+  year: '2020'
+- author: Á Rivas
+  doi: 10.1088/0034-4885/77/9/094001
+  first-page: 094001
+  journal-title: Rep. Prog. Phys.
+  unstructured: 'Rivas, Á., Huelga, S. F. & Plenio, M. B. Quantum non-Markovianity:
+    characterization, quantification and detection. Rep. Prog. Phys. 77, 094001 (2014).'
+  volume: '77'
+  year: '2014'
+- author: L Li
+  doi: 10.1016/j.physrep.2018.07.001
+  first-page: '1'
+  journal-title: Phys. Rep.
+  unstructured: 'Li, L., Hall, M. J. & Wiseman, H. M. Concepts of quantum non-Markovianity:
+    a hierarchy. Phys. Rep. 759, 1–51 (2018).'
+  volume: '759'
+  year: '2018'
+- author: F Sakuldee
+  doi: 10.1088/1751-8121/aabb1e
+  first-page: '414014'
+  journal-title: J. Phys. A
+  unstructured: Sakuldee, F., Milz, S., Pollock, F. A. & Modi, K. Non-Markovian quantum
+    control as coherent stochastic trajectories. J. Phys. A 51, 414014 (2018).
+  volume: '51'
+  year: '2018'
+- author: JF Poyatos
+  doi: 10.1103/PhysRevLett.78.390
+  first-page: '390'
+  journal-title: Phys. Rev. Lett.
+  unstructured: 'Poyatos, J. F., Cirac, J. I. & Zoller, P. Complete characterization
+    of a quantum process: the two-bit quantum gate. Phys. Rev. Lett. 78, 390–393 (1997).'
+  volume: '78'
+  year: '1997'
+- unstructured: Blume-Kohout, R. et al. Robust, self-consistent, closed-form tomography
+    of quantum logic gates on a trapped ion qubit. Preprint at https://arxiv.org/abs/1310.4492
+    (2013).
+- author: R Blume-Kohout
+  doi: 10.1038/ncomms14485
+  first-page: '1'
+  journal-title: Nat. Commun.
+  unstructured: Blume-Kohout, R. et al. Demonstration of qubit operations below a
+    rigorous fault tolerance threshold with gate set tomography. Nat. Commun. 8, 1–13
+    (2017).
+  volume: '8'
+  year: '2017'
+- author: ST Merkel
+  doi: 10.1103/PhysRevA.87.062119
+  first-page: 062119
+  journal-title: Phys. Rev. A
+  unstructured: Merkel, S. T. et al. Self-consistent quantum process tomography. Phys.
+    Rev. A 87, 062119 (2013).
+  volume: '87'
+  year: '2013'
+- unstructured: White, G. A. L., Hill, C. D. & Hollenberg, L. C. L. Performance optimisation
+    for drift-robust fidelity improvement of two-qubit gates. Preprint at http://arxiv.org/abs/1911.12096
+    (2019).
+- author: P Pechukas
+  doi: 10.1103/PhysRevLett.73.1060
+  first-page: '1060'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Pechukas, P. Reduced dynamics need not be completely positive. Phys.
+    Rev. Lett. 73, 1060–1062 (1994).
+  volume: '73'
+  year: '1994'
+- author: NH Nickerson
+  doi: 10.22331/q-2019-04-08-131
+  first-page: '131'
+  journal-title: Quantum
+  unstructured: Nickerson, N. H. & Brown, B. J. Analysing correlated noise on the
+    surface code using adaptive decoding algorithms. Quantum 3, 131 (2019).
+  volume: '3'
+  year: '2019'
+- author: N Maskara
+  doi: 10.1103/PhysRevA.99.052351
+  first-page: '52351'
+  journal-title: Phys. Rev. A
+  unstructured: Maskara, N., Kubica, A. & Jochym-O’Connor, T. Advantages of versatile
+    neural-network decoding for topological codes. Phys. Rev. A 99, 52351 (2019).
+  volume: '99'
+  year: '2019'
+- author: DM Reich
+  first-page: '1'
+  journal-title: Sci. Rep.
+  unstructured: Reich, D. M., Katz, N. & Koch, C. P. Exploiting non-Markovianity for
+    quantum control. Sci. Rep. 5, 1–7 (2015).
+  volume: '5'
+  year: '2015'
+- author: C Pineda
+  doi: 10.1103/PhysRevA.93.022117
+  first-page: '1'
+  journal-title: Phys. Rev. A
+  unstructured: Pineda, C., Gorin, T., Davalos, D., Wisniacki, D. A. & García-Mata,
+    I. Measuring and using non-Markovianity. Phys. Rev. A 93, 1–8 (2016).
+  volume: '93'
+  year: '2016'
+- author: NP Kumar
+  doi: 10.1038/s41598-017-17765-5
+  first-page: '1'
+  journal-title: Sci. Rep.
+  unstructured: Kumar, N. P., Banerjee, S. & Chandrashekar, C. M. Enhanced non-Markovian
+    behavior in quantum walks with Markovian disorder. Sci. Rep. 8, 1–7 (2018).
+  volume: '8'
+  year: '2018'
+- unstructured: Bylicka, B., Chruściński, D. & Maniscalco, S. Non-Markovianity as
+    a resource for quantum technologies. Preprint at https://arxiv.org/abs/1301.2585
+    (2013).
+- unstructured: 'Berk, G. D., Garner, A. J. P., Yadin, B., Modi, K. & Pollock, F.
+    A. Resource theories of multi-time processes: a window into quantum non-Markovianity.
+    Preprint at https://arxiv.org/abs/1907.07003 (2019).'
+- author: FA Pollock
+  doi: 10.1103/PhysRevA.97.012127
+  first-page: '1'
+  journal-title: Phys. Rev. A
+  unstructured: 'Pollock, F. A., Rodríguez-Rosario, C., Frauenheim, T., Paternostro,
+    M. & Modi, K. Non-Markovian quantum processes: complete framework and efficient
+    characterization. Phys. Rev. A 97, 1–14 (2018).'
+  volume: '97'
+  year: '2018'
+- author: C Müller
+  doi: 10.1088/1361-6633/ab3a7e
+  first-page: '1'
+  journal-title: Rep. Prog. Phys.
+  unstructured: 'Müller, C., Cole, J. H. & Lisenfeld, J. Towards understanding two-level-systems
+    in amorphous solids: Insights from quantum circuits. Rep. Prog. Phys. 82, 1–34
+    (2019).'
+  volume: '82'
+  year: '2019'
+- author: S Milz
+  doi: 10.22331/q-2020-04-20-255
+  first-page: '255'
+  journal-title: Quantum
+  unstructured: Milz, S., Sakuldee, F., Pollock, F. A. & Modi, K. Kolmogorov extension
+    theorem for (quantum) causal modelling and general probabilistic theories. Quantum
+    4, 255 (2020).
+  volume: '4'
+  year: '2020'
+- author: P Strasberg
+  doi: 10.1103/PhysRevA.100.022120
+  first-page: '022120'
+  journal-title: Phys. Rev. A
+  unstructured: Strasberg, P. & Díaz, M. G. Classical quantum stochastic processes.
+    Phys. Rev. A 100, 022120 (2019).
+  volume: '100'
+  year: '2019'
+- unstructured: Milz, S. et al. When is a non-Markovian quantum process classical?
+    Preprint at http://arxiv.org/abs/1907.05807 (2019).
+- author: FA Pollock
+  doi: 10.1103/PhysRevLett.120.040405
+  first-page: '012127'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Pollock, F. A., Rodríguez-Rosario, C., Frauenheim, T., Paternostro,
+    M. & Modi, K. Operational Markov condition for quantum processes. Phys. Rev. Lett.
+    120, 012127 (2018).
+  volume: '120'
+  year: '2018'
+- author: P Taranto
+  doi: 10.1103/PhysRevLett.122.140401
+  first-page: '140401'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Taranto, P., Pollock, F. A., Milz, S., Tomamichel, M. & Modi, K. Quantum
+    Markov order. Phys. Rev. Lett. 122, 140401 (2019).
+  volume: '122'
+  year: '2019'
+- author: P Taranto
+  doi: 10.1103/PhysRevA.99.042108
+  first-page: '42108'
+  journal-title: Phys. Rev. A
+  unstructured: Taranto, P., Milz, S., Pollock, F. A. & Modi, K. Structure of quantum
+    stochastic processes with finite Markov order. Phys. Rev. A 99, 42108 (2019).
+  volume: '99'
+  year: '2019'
+- unstructured: Taranto, P., Pollock, F. A. & Modi, K. Memory strength and recoverability
+    of non-Markovian quantum stochastic processes. Preprint at http://arxiv.org/abs/1907.12583
+    (2019).
+- author: S Milz
+  doi: 10.1103/PhysRevA.98.012108
+  first-page: '1'
+  journal-title: Phys. Rev. A
+  unstructured: Milz, S., Pollock, F. A. & Modi, K. Reconstructing non-Markovian quantum
+    dynamics with limited control. Phys. Rev. A 98, 1–14 (2018).
+  volume: '98'
+  year: '2018'
+- author: K Modi
+  doi: 10.1038/srep00581
+  journal-title: Sci. Rep.
+  unstructured: Modi, K. Operational approach to open dynamics and quantifying initial
+    correlations. Sci. Rep. 2, 581 (2012).
+  volume: '2'
+  year: '2012'
+- author: M Ringbauer
+  doi: 10.1103/PhysRevLett.114.090402
+  first-page: 090402
+  journal-title: Phys. Rev. Lett.
+  unstructured: Ringbauer, M. et al. Characterizing quantum dynamics with initial
+    system-environment correlations. Phys. Rev. Lett. 114, 090402 (2015).
+  volume: '114'
+  year: '2015'
+- unstructured: Lidar, D. A. & Brun, T. A. Quantum Error Correction, Vol. 9780521897
+    (Cambridge University Press, Cambridge, 2012).
+- author: RN Nasir
+  doi: 10.1142/S0219749919410260
+  first-page: '1941026'
+  journal-title: Int. J. Quantum Inf.
+  unstructured: Nasir, R. N., Shaari, J. S. & Mancini, S. Mutually unbiased unitary
+    bases of operators on d -dimensional hilbert space. Int. J. Quantum Inf. 18, 1941026
+    (2020).
+  volume: '18'
+  year: '2020'
+- unstructured: Guo, C., Modi, K. & Poletti, D. Tensor network based machine learning
+    of non-Markovian quantum processes. Preprint at https://arxiv.org/abs/2004.11038
+    (2015).
+- unstructured: Cross, A. W., Bishop, L. S., Smolin, J. A. & Gambetta, J. M. Open
+    quantum assembly language. Preprint at https://arxiv.org/pdf/1707.03429.pdf (2017).
+- author: DC McKay
+  doi: 10.1103/PhysRevA.96.022330
+  first-page: '22330'
+  journal-title: Phys. Rev. A
+  unstructured: McKay, D. C., Wood, C. J., Sheldon, S., Chow, J. M. & Gambetta, J.
+    M. Efficient $Z$ gates for quantum computing. Phys. Rev. A 96, 22330 (2017).
+  volume: '96'
+  year: '2017'
+- author: JA Smolin
+  doi: 10.1103/PhysRevLett.108.070502
+  first-page: '70502'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Smolin, J. A., Gambetta, J. M. & Smith, G. Efficient method for computing
+    the maximum-likelihood quantum state from measurements with additive Gaussian
+    noise. Phys. Rev. Lett. 108, 70502 (2012).
+  volume: '108'
+  year: '2012'
+- unstructured: Nielsen, E. et al. Python GST Implementation (PyGSTi) v. 0.9. https://www.osti.gov//servlets/purl/1543289
+    (2019).
+- unstructured: Nielsen, E. et al. Probing quantum processor performance with pyGSTi.
+    Preprint at http://arxiv.org/abs/2002.12476 (2020).
+- unstructured: Greenbaum, D. Introduction to quantum gate set tomography. Preprint
+    at https://arxiv.org/abs/1509.02921 (2015).
+- author: B Efron
+  doi: 10.1214/ss/1177013815
+  first-page: '54'
+  journal-title: Stat. Sci.
+  unstructured: Efron, B. & Tibshirani, R. Bootstrap methods for standard errors,
+    confidence intervals, and other measures of statistical accuracy. Stat. Sci. 1,
+    54–75 (1986).
+  volume: '1'
+  year: '1986'
+- author: J Wallman
+  doi: 10.1088/1367-2630/17/11/113020
+  first-page: '1'
+  journal-title: New J. Phys.
+  unstructured: Wallman, J., Granade, C., Harper, R. & Flammia, S. T. Estimating the
+    coherence of noise. New J. Phys. 17, 1–10 (2015).
+  volume: '17'
+  year: '2015'
+doc_url: http://www.nature.com/articles/s41467-020-20113-3
+doi: 10.1038/s41467-020-20113-3
+files:
+- white-g.-a.-l.-and-hill-c.-d.-and-pollock-f.-a.-and-hollenberg-l.-c.-l.-and-modi-k.demonstration-of-non-markovian-process-characterisation-and-co.data
+issue: '1'
+journal: Nature Communications
+language: en
+month: 12
+publisher: Springer Science and Business Media LLC
+time-added: 2021-01-24-18:45:14
+title: Demonstration of non-Markovian process characterisation and control on a quantum
+  processor
+type: article
+url: http://dx.doi.org/10.1038/s41467-020-20113-3
+volume: '11'
+year: 2020

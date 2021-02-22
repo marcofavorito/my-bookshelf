@@ -1,0 +1,37 @@
+abstract: The use of spatio-temporal logics in control is motivated by the need to
+  impose complex spatial and temporal behavior on dynamical systems, and to control
+  these systems accordingly. Synthesizing correct-by-design control laws is a challenging
+  task resulting in computationally demanding methods. We consider efficient automata-based
+  planning for continuous-time systems under signal interval temporal logic specifications,
+  an expressive fragment of signal temporal logic. The planning is based on recent
+  results for automata-based verification of metric interval temporal logic. A timed
+  signal transducer is obtained accepting all Boolean signals that satisfy a metric
+  interval temporal logic specification, which is abstracted from the signal interval
+  temporal logic specification at hand. This transducer is modified to account for
+  the spatial properties of the signal interval temporal logic specification, characterizing
+  all real-valued signals that satisfy this specification. Using logic-based feedback
+  control laws, such as the ones we have presented in earlier works, we then provide
+  an abstraction of the system that, in a suitable way, aligns with the modified timed
+  signal transducer. This allows to avoid the state space explosion that is typically
+  induced by forming a product automaton between an abstraction of the system and
+  the specification.
+archiveprefix: arXiv
+author: Lindemann, Lars and Dimarogonas, Dimos V.
+author_list:
+- family: Lindemann
+  given: Lars
+- family: Dimarogonas
+  given: Dimos V.
+eprint: 1909.11159v2
+file: 1909.11159v2.pdf
+files:
+- lindemann-lars-and-dimarogonas-dimos-v.efficient-automata-based-planning-and-control-under-spatio-temporal-logic-specifications2019.pdf
+month: Sep
+primaryclass: cs.FL
+ref: 1909.11159v2
+time-added: 2021-01-21-18:09:27
+title: Efficient Automata-based Planning and Control under Spatio-Temporal   Logic
+  Specifications
+type: article
+url: http://arxiv.org/abs/1909.11159v2
+year: '2019'

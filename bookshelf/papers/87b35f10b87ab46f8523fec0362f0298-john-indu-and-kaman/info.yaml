@@ -1,0 +1,35 @@
+abstract: In this paper, we derive a generalization of the Speedy Q-learning (SQL)
+  algorithm that was proposed in the Reinforcement Learning (RL) literature to handle
+  slow convergence of Watkins' Q-learning. In most RL algorithms such as Q-learning,
+  the Bellman equation and the Bellman operator play an important role. It is possible
+  to generalize the Bellman operator using the technique of successive relaxation.
+  We use the generalized Bellman operator to derive a simple and efficient family
+  of algorithms called Generalized Speedy Q-learning (GSQL-w) and analyze its finite
+  time performance. We show that GSQL-w has an improved finite time performance bound
+  compared to SQL for the case when the relaxation parameter w is greater than 1.
+  This improvement is a consequence of the contraction factor of the generalized Bellman
+  operator being less than that of the standard Bellman operator. Numerical experiments
+  are provided to demonstrate the empirical performance of the GSQL-w algorithm.
+archiveprefix: arXiv
+author: John, Indu and Kamanchi, Chandramouli and Bhatnagar, Shalabh
+author_list:
+- family: John
+  given: Indu
+- family: Kamanchi
+  given: Chandramouli
+- family: Bhatnagar
+  given: Shalabh
+doi: 10.1109/LCSYS.2020.2970555
+eprint: 1911.00397v2
+file: 1911.00397v2.pdf
+files:
+- john-indu-and-kamanchi-chandramouli-and-bhatnagar-shalabhgeneralized-speedy-q-learning2019.pdf
+month: Nov
+note: in IEEE Control Systems Letters, vol. 4, no. 3, pp. 524-529, July   2020
+primaryclass: cs.LG
+ref: 1911.00397v2
+time-added: 2021-01-24-20:08:36
+title: Generalized Speedy Q-learning
+type: article
+url: http://arxiv.org/abs/1911.00397v2
+year: '2019'

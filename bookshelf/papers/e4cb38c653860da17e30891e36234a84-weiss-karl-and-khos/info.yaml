@@ -1,0 +1,725 @@
+author: Weiss, Karl and Khoshgoftaar, Taghi M. and Wang, DingDing
+author_list:
+- affiliation: []
+  family: Weiss
+  given: Karl
+- affiliation: []
+  family: Khoshgoftaar
+  given: Taghi M.
+- affiliation: []
+  family: Wang
+  given: DingDing
+citations:
+- unstructured: A literature survey on domain adaptation of statistical classifiers.
+    http://sifaka.cs.uiuc.edu/jiang4/domain_adaptation/survey/da_survey.html . Accessed
+    4 Mar 2016.
+- author: RK Ando
+  first-page: '1817'
+  journal-title: J Mach Learn Res
+  unstructured: Ando RK, Zhang T. A framework for learning predictive structures from
+    multiple tasks and unlabeled data. J Mach Learn Res. 2005;6:1817–53.
+  volume: '6'
+  year: '2005'
+- author: H Bay
+  doi: 10.1016/j.cviu.2007.09.014
+  first-page: '346'
+  issue: '3'
+  journal-title: Comput Vis Image Underst
+  unstructured: 'Bay H, Tuytelaars T, Gool LV. Surf: speeded up robust features. Comput
+    Vis Image Underst. 2006;110(3):346–59.'
+  volume: '110'
+  year: '2006'
+- author: M Belkin
+  first-page: '2399'
+  journal-title: J Mach Learn Res Arch
+  unstructured: 'Belkin M, Niyogi P, Sindhwani V. Manifold regularization: a geometric
+    framework for learning from examples. J Mach Learn Res Arch. 2006;7:2399–434.'
+  volume: '7'
+  year: '2006'
+- doi: 10.3115/1610075.1610094
+  unstructured: 'Blitzer, J, McDonald R, Pereira F. Domain adaptation with structural
+    correspondence learning. In: Proceedings of the 2006 conference on empirical methods
+    in natural language processing. 2006;120–8.'
+- unstructured: BoChen90 Update TrAdaBoost.m. https://github.com/BoChen90/machine-learning-matlab/blob/master/TrAdaBoost.m
+    . Accessed 4 Mar 2016.
+- unstructured: Bolt online learning toolbox. http://pprett.github.com/bolt/ . Accessed
+    4 Mar 2016.
+- unstructured: 'Bonilla E, Chai KM, Williams C. Multi-task Gaussian process prediction.
+    In: Proceedings of the 20th annual conference of neural information processing
+    systems. 2008. 153–60.'
+- unstructured: Gong B. http://www-scf.usc.edu/~boqinggo/ . Accessed 4 Mar 2016.
+- author: KM Borgwardt
+  doi: 10.1093/bioinformatics/btl242
+  first-page: '49'
+  issue: '4'
+  journal-title: Bioinformatics
+  unstructured: Borgwardt KM, Gretton A, Rasch MJ, Kriegel HP, Schölkopf B, Smola
+    AJ. Integrating structured biological data by kernel maximum mean discrepancy.
+    Bioinformatics. 2006;22(4):49–57.
+  volume: '22'
+  year: '2006'
+- author: L Bruzzone
+  doi: 10.1109/TPAMI.2009.57
+  first-page: '770'
+  issue: '5'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  unstructured: 'Bruzzone L, Marconcini M. Domain adaptation problems: a DASVM classification
+    technique and a circular validation strategy. IEEE Trans Pattern Anal Mach Intell.
+    2010;32(5):770–87.'
+  volume: '32'
+  year: '2010'
+- unstructured: 'Cao B, Liu N, Yang Q. Transfer learning for collective link prediction
+    in multiple heterogeneous domains. In: Proceedings of the 27th international conference
+    on machine learning. 2010. p. 159–66.'
+- doi: 10.1109/IJCNN.2006.246634
+  unstructured: 'Cawley G. Leave-one-out cross-validation based model selection criteria
+    for weighted LS-SVMs. In: IEEE 2006 international joint conference on neural network
+    proceedings 2006. p. 1661–68.'
+- unstructured: Chattopadhyay R, Ye J, Panchanathan S, Fan W, Davidson I. Multi-source
+    domain adaptation and its application to early detection of fatigue. ACM Trans
+    Knowl Dis Data (Best of SIGKDD 2011 TKDD Homepage archive) 2011; 6(4) (Article
+    18).
+- author: C Chelba
+  doi: 10.1016/j.csl.2005.05.005
+  first-page: '382'
+  issue: '4'
+  journal-title: Comput Speech Lang
+  unstructured: 'Chelba C, Acero A. Adaptation of maximum entropy classifier: little
+    data can help a lot. Comput Speech Lang. 2004;20(4):382–99.'
+  volume: '20'
+  year: '2004'
+- unstructured: Chen M, Xu ZE, Weinberger KQ, Sha F (2012) Marginalized denoising
+    autoencoders for domain adaptation. ICML. arXiv preprintarXiv:1206.4683.
+- unstructured: 'Chung FRK. Spectral graph theory. In: CBMS regional conference series
+    in mathematics, no. 92. Providence: American Mathematical Society; 1994.'
+- unstructured: Computer Vision and Learning Group. http://vision.cs.uml.edu/adaptation.html
+    . Accessed 4 Mar 2016.
+- author: DJ Cook
+  doi: 10.1007/s10115-013-0665-3
+  first-page: '537'
+  issue: '3'
+  journal-title: Knowl Inf Syst
+  unstructured: 'Cook DJ, Feuz KD, Krishnan NC. Transfer learning for activity recognition:
+    a survey. Knowl Inf Syst. 2012;36(3):537–56.'
+  volume: '36'
+  year: '2012'
+- author: W Dai
+  first-page: '353'
+  journal-title: Adv Neural Inform Process Syst
+  unstructured: 'Dai W, Chen Y, Xue GR, Yang Q, Yu Y. Translated learning: transfer
+    learning across different feature spaces. Adv Neural Inform Process Syst. 2008;21:353–60.'
+  volume: '21'
+  year: '2008'
+- doi: 10.1145/1273496.1273521
+  unstructured: 'Dai W, Yang Q, Xue GR, Yu Y (2007) Boosting for transfer learning.
+    In: Proceedings of the 24th international conference on machine learning. p. 193–200.'
+- unstructured: 'Daumé H III. Frustratingly easy domain adaptation. In: Proceedings
+    of ACL. 2007. p. 256–63.'
+- doi: 10.1145/1273496.1273523
+  unstructured: 'Davis J, Kulis B, Jain P, Sra S, Dhillon I. Information theoretic
+    metric learning. In: Proceedings of the 24th international conference on machine
+    learning. 2007. p. 209–16.'
+- author: S Deerwester
+  doi: 10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9
+  first-page: '391'
+  journal-title: J Am Soc Inf Sci
+  unstructured: Deerwester S, Dumais ST, Furnas GW, Landauer TK, Harshman R. Indexing
+    by latent semantic analysis. J Am Soc Inf Sci. 1990;41:391–407.
+  volume: '41'
+  year: '1990'
+- doi: 10.1109/ACII.2013.90
+  unstructured: 'Deng J, Zhang Z, Marchi E, Schuller B. Sparse autoencoder based feature
+    transfer learning for speech emotion recognition. In: Humaine association conference
+    on affective computing and intelligent interaction. 2013. p. 511–6.'
+- unstructured: Domain adaptation project. https://www.eecs.berkeley.edu/~jhoffman/domainadapt/
+    . Accessed 4 Mar 2016.
+- author: L Duan
+  doi: 10.1109/TPAMI.2011.114
+  first-page: '465'
+  issue: '3'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  unstructured: Duan L, Tsang IW, Xu D. Domain transfer multiple kernel learning.
+    IEEE Trans Pattern Anal Mach Intell. 2012;34(3):465–79.
+  volume: '34'
+  year: '2012'
+- unstructured: 'Duan L, Xu D, Chang SF. Exploiting web images for event recognition
+    in consumer videos: a multiple source domain adaptation approach. In: IEEE 2012
+    conference on computer vision and pattern recognition. 2012. p. 1338–45.'
+- author: L Duan
+  doi: 10.1109/TNNLS.2011.2178556
+  first-page: '504'
+  issue: '3'
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: 'Duan L, Xu D, Tsang IW. Domain adaptation from multiple sources:
+    a domain-dependent regularization approach. IEEE Trans Neural Netw Learn Syst.
+    2012;23(3):504–18.'
+  volume: '23'
+  year: '2012'
+- author: L Duan
+  first-page: '1134'
+  issue: '6'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  unstructured: Duan L, Xu D, Tsang IW. Learning with augmented features for heterogeneous
+    domain adaptation. IEEE Trans Pattern Anal Mach Intell. 2012;36(6):1134–48.
+  volume: '36'
+  year: '2012'
+- author: E Eaton
+  doi: 10.1007/978-3-540-87479-9_39
+  first-page: '317'
+  journal-title: Proc Mach Learn Knowl Disc Database
+  unstructured: Eaton E, des Jardins M, Lane T. Modeling transfer relationships between
+    learning tasks for improved inductive transfer. Proc Mach Learn Knowl Disc Database.
+    2008;5211:317–32.
+  volume: '5211'
+  year: '2008'
+- unstructured: EasyAdapt.pl.gz (Download). http://hal3.name/easyadapt.pl.gz Accessed
+    4 Mar 2016.
+- doi: 10.1145/1014052.1014067
+  unstructured: 'Evgeniou T, Pontil M (2004) Regularized multi-task learning. In:
+    Proceedings of the 10th ACM SIGKDD international conference on knowledge discovery
+    and data mining. p. 109–17.'
+- unstructured: 'Exploiting web images for event recognition in consumer videos: a
+    multiple source domain adaptation approach. http://lxduan.info/papers/DuanCVPR2012_poster.pdf
+    . Accessed 4 Mar 2016.'
+- doi: 10.1109/CVPR.2007.383346
+  unstructured: 'Farhadi A, Forsyth D, White R. Transfer learning in sign language.
+    In: IEEE 2007 conference on computer vision and pattern recognition. 2007. p.
+    1–8.'
+- doi: 10.1145/2629528
+  unstructured: Feuz KD, Cook DJ. Transfer learning across feature-rich heterogeneous
+    feature spaces via feature-space remapping (FSR). J ACM Trans Intell Syst Technol.
+    2014;6(1):1–27 (Article 3).
+- doi: 10.1145/1401890.1401928
+  unstructured: 'Gao J, Fan W, Jiang J, Han J (2008) Knowledge transfer via multiple
+    model local structure mapping. In: Proceedings of the 14th ACM SIGKDD international
+    conference on knowledge discovery and data mining. p. 283–91.'
+- author: J Gao
+  first-page: '1'
+  journal-title: Adv Neural Inf Process Syst
+  unstructured: Gao J, Liang F, Fan W, Sun Y, Han J. Graph based consensus maximization
+    among multiple supervised and unsupervised models. Adv Neural Inf Process Syst.
+    2009;22:1–9.
+  volume: '22'
+  year: '2009'
+- author: K Gao
+  doi: 10.1002/spe.1043
+  first-page: '579'
+  issue: '5'
+  journal-title: J Softw Pract Exp
+  unstructured: 'Gao K, Khoshgoftaar TM, Wang H, Seliya N. Choosing software metrics
+    for defect prediction: an investigation on feature selection techniques. J Softw
+    Pract Exp. 2011;41(5):579–606.'
+  volume: '41'
+  year: '2011'
+- doi: 10.1137/1.9781611972832.29
+  unstructured: 'Ge L, Gao J, Ngo H, Li K, Zhang A. On handling negative transfer
+    and imbalanced distributions in multiple source transfer learning. In: Proceedings
+    of the 2013 SIAM international conference on data mining. 2013. p. 254–71.'
+- unstructured: 'Glorot X, Bordes A, Bengio Y. Domain adaptation for large-scale sentiment
+    classification: A deep learning approach. In: Proceedings of the twenty-eight
+    international conference on machine learning, vol. 27. 2011. p. 97–110.'
+- doi: 10.1109/CVPR.2012.6247911
+  unstructured: 'Gong B, Shi Y, Sha F, Grauman K. Geodesic flow kernel for unsupervised
+    domain adaptation. In: Proceedings of the 2012 IEEE conference on computer vision
+    and pattern recognition. 2012. p. 2066–73.'
+- doi: 10.1109/ICCV.2011.6126344
+  unstructured: 'Gopalan R, Li R, Chellappa R. Domain adaptation for object recognition:
+    an unsupervised approach. In: 2011 international conference on computer vision.
+    2011. p. 999–1006.'
+- unstructured: Guo-Jun Qi’s publication list. http://www.eecs.ucf.edu/~gqi/publications.html
+    . Accessed 4 Mar 2016.
+- unstructured: 'Ham JH, Lee DD, Saul LK. Learning high dimensional correspondences
+    from low dimensional manifolds. In: Proceedings of the twentieth international
+    conference on machine learning. 2003. p. 1–8.'
+- unstructured: 'Harel M, Mannor S. Learning from multiple outlooks. In: Proceedings
+    of the 28th international conference on machine learning. 2011. p. 401–8.'
+- unstructured: He P, Li B, Ma Y (2014) Towards cross-project defect prediction with
+    imbalanced feature sets. http://arxiv.org/abs/1411.4228 .
+- unstructured: Heterogeneous defect prediction. http://www.slideshare.net/hunkim/heterogeneous-defect-prediction-esecfse-2015
+    . Accessed 4 Mar 2016.
+- unstructured: HFA_release_0315.rar (Download). https://sites.google.com/site/xyzliwen/publications/HFA_release_0315.rar
+    . Accessed 4 Mar 2016.
+- doi: 10.1145/1014052.1014073
+  unstructured: 'Hu M, Liu B. Mining and summarizing customer reviews. In: Proceedings
+    of the 10th ACM SIGKDD international conference on Knowledge discovery and data
+    mining. 2004. p. 168–77.'
+- unstructured: 'Huang J, Smola A, Gretton A, Borgwardt KM, Schölkopf B. Correcting
+    sample selection bias by unlabeled data. In: Proceedings of the 2006 conference.
+    Adv Neural Inf Process Syst. 2006. p. 601–8.'
+- unstructured: 'Jakob N, Gurevych I. Extracting opinion targets in a single and cross-domain
+    setting with conditional random fields. In: Proceedings of the 2010 conference
+    on empirical methods in NLP. 2010. p. 1035–45.'
+- unstructured: 'Jiang J, Zhai C. Instance weighting for domain adaptation in NLP.
+    In: Proceedings of the 45th annual meeting of the association of computational
+    linguistics. 2007. p. 264–71.'
+- doi: 10.1145/2396761.2398448
+  unstructured: 'Jiang M, Cui P, Wang F, Yang Q, Zhu W, Yang S. Social recommendation
+    across multiple relational domains. In: Proceedings of the 21st ACM international
+    conference on information and knowledge management. 2012. p. 1422–31.'
+- doi: 10.1109/ICIP.2008.4711716
+  unstructured: 'Jiang W, Zavesky E, Chang SF, Loui A. Cross-domain learning methods
+    for high-level visual concept classification. In: IEEE 2008 15th international
+    conference on image processing. 2008. p. 161–4.'
+- author: M Kan
+  doi: 10.1007/s11263-013-0693-1
+  first-page: '94'
+  issue: 1–2
+  journal-title: Int J Comput Vis
+  unstructured: 'Kan M, Wu J, Shan S, Chen X. Domain adaptation for face recognition:
+    targetize source domain bridged by common subspace. Int J Comput Vis. 2014;109(1–2):94–109.'
+  volume: '109'
+  year: '2014'
+- author: M Kloft
+  first-page: '953'
+  journal-title: J Mach Learn Res
+  unstructured: Kloft M, Brefeld U, Sonnenburg S, Zien A. Lp-norm multiple kernel
+    learning. J Mach Learn Res. 2011;12:953–97.
+  volume: '12'
+  year: '2011'
+- doi: 10.1109/CVPR.2011.5995702
+  unstructured: 'Kulis B, Saenko K, Darrell T. What you saw is not what you get: domain
+    adaptation using asymmetric kernel transforms. In: IEEE 2011 conference on computer
+    vision and pattern recognition. 2011. p. 1785–92.'
+- unstructured: 'LeCun Y, Bottou L, HuangFu J. Learning methods for generic object
+    recognition with invariance to pose and lighting. In: Proceedings of the 2004
+    IEEE computer society conference on computer vision and pattern recognition, vol.
+    2. 2004. p. 97–104.'
+- unstructured: 'Li B, Yang Q, Xue X. Can movies and books collaborate? Cross-domain
+    collaborative filtering for sparsity reduction. In: Proceedings of the 21st international
+    joint conference on artificial intelligence. 2009. p. 2052–57.'
+- doi: 10.1145/1553374.1553454
+  unstructured: 'Li B, Yang Q, Xue X. Transfer learning for collaborative filtering
+    via a rating-matrix generative model. In: Proceedings of the 26th annual international
+    conference on machine learning. 2009. p. 617–24.'
+- unstructured: 'Li F, Pan SJ, Jin O, Yang Q, Zhu X. Cross-domain co-extraction of
+    sentiment and topic lexicons. In: Proceedings of the 50th annual meeting of the
+    association for computational linguistics long papers, vol. 1. 2012. p. 410–19.'
+- doi: 10.1109/NLPKE.2008.4906772
+  unstructured: 'Li S, Zong C. Multi-domain adaptation for sentiment classification:
+    Using multiple classifier combining methods. In: Proceedings of the conference
+    on natural language processing and knowledge engineering. 2008. p. 1–8.'
+- author: W Li
+  doi: 10.1109/TPAMI.2013.167
+  first-page: '1134'
+  issue: '6'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  unstructured: Li W, Duan L, Xu D, Tsang IW. Learning with augmented features for
+    supervised and semi-supervised heterogeneous domain adaptation. IEEE Trans Pattern
+    Anal Mach Intell. 2014;36(6):1134–48.
+  volume: '36'
+  year: '2014'
+- unstructured: LIBSVM (2016) A library for support vector machines. http://www.csie.ntu.edu.tw/~cjlin/libsvm
+    . Accessed 4 Mar 2016.
+- doi: 10.1145/1401890.1401951
+  unstructured: 'Ling X, Dai W, Xue GR, Yang Q, Yu Y. Spectral domain-transfer learning.
+    In: Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery
+    and data mining. 2008. p. 488–96.'
+- unstructured: Lixin Duan. http://www.lxduan.info/#sourcecode_hfa . Accessed 4 Mar
+    2016.
+- author: M Long
+  doi: 10.1109/TKDE.2013.111
+  first-page: '1076'
+  issue: '5'
+  journal-title: IEEE Trans Knowl Data Eng
+  unstructured: 'Long M, Wang J, Ding G, Pan SJ, Yu PS. Adaptation regularization:
+    a general framework for transfer learning. IEEE Trans Knowl Data Eng. 2014;26(5):1076–89.'
+  volume: '26'
+  year: '2014'
+- doi: 10.1109/ICCV.2013.274
+  unstructured: 'Long M, Wang J, Ding G, Sun J, Yu PS. Transfer feature learning with
+    joint distribution adaptation. In: Proceedings of the 2013 IEEE international
+    conference on computer vision. 2013. p. 2200–07.'
+- author: DG Lowe
+  doi: 10.1023/B:VISI.0000029664.99615.94
+  first-page: '91'
+  issue: '2'
+  journal-title: Int Comput Vis
+  unstructured: Lowe DG. Distinctive image features from scale-invariant keypoints.
+    Int Comput Vis. 2004;60(2):91–110.
+  volume: '60'
+  year: '2004'
+- doi: 10.1145/1458082.1458099
+  unstructured: 'Luo P, Zhuang F, Xiong H, Xiong Y, He Q. Transfer learning from multiple
+    source domains via consensus regularization. In: Proceedings of the 17th ACM conference
+    on information and knowledge management. 2008. p. 103–12.'
+- author: Y Ma
+  doi: 10.1016/j.jqsrt.2014.09.025
+  first-page: '119'
+  journal-title: J Quant Spectrosc Radiat Transf
+  unstructured: Ma Y, Gong W, Mao F. Transfer learning used to analyze the dynamic
+    evolution of the dust aerosol. J Quant Spectrosc Radiat Transf. 2015;153:119–30.
+  volume: '153'
+  year: '2015'
+- doi: 10.1109/CVPR.2007.383272
+  unstructured: 'Marszalek M, Schmid C, Harzallah H, Van de Weijer J. Learning object
+    representations for visual object class recognition. In: Visual recognition challenge
+    workshop ICCV. 2007. p. 1–10.'
+- unstructured: 'Mihalkova L, Mooney RJ. Transfer learning by mapping with minimal
+    target data. In: Proc. assoc. for the advancement of artificial intelligence workshop
+    transfer learning for complex tasks. 2008. p. 31–6.'
+- unstructured: Long M. http://ise.thss.tsinghua.edu.cn/~mlong/ . Accessed 4 Mar 2016.
+- unstructured: 'Moreno O, Shapira B, Rokach L, Shani G (2012) TALMUD—transfer learning
+    for multiple domains. In: Proceedings of the 21st ACM international conference
+    on information and knowledge management. 2012. p. 425–34.'
+- doi: 10.1145/2786805.2786814
+  unstructured: 'Nam J, Kim S (2015) Heterogeneous defect prediction. In: Proceedings
+    of the 2015 10th joint meeting on foundations of software engineering. 2015. p.
+    508–19.'
+- doi: 10.1145/2351333.2351334
+  unstructured: 'Ng MK, Wu Q, Ye Y. Co-transfer learning via joint transition probability
+    graph based method. In: Proceedings of the 1st international workshop on cross
+    domain knowledge discovery in web and social network mining. 2012. p. 1–9.'
+- unstructured: 'Ngiam J, Khosla A, Kim M, Nam J, Lee H, Ng AY. Multimodal deep learning.
+    In: The 28th international conference on machine learning. 2011. p. 689–96.'
+- doi: 10.1186/s12859-015-0643-8
+  unstructured: Ogoe HA, Visweswaran S, Lu X, Gopalakrishnan V. Knowledge transfer
+    via classification rules using functional mapping for integrative modeling of
+    gene expression data. BMC Bioinform. 2015. p. 1–15.
+- doi: 10.1109/CVPR.2014.222
+  unstructured: 'Oquab M, Bottou L, Laptev I, Sivic J. Learning and transferring mid-level
+    image representations using convolutional neural networks. In: Proceedings of
+    the 2014 IEEE conference on computer vision and pattern recognition. 2013. p.
+    1717–24.'
+- unstructured: 'Pan SJ, Kwok JT, Yang Q. Transfer learning via dimensionality reduction.
+    In: Proceedings of the 23rd national conference on artificial intelligence, vol.
+    2. 2008. p. 677–82.'
+- doi: 10.1145/1772690.1772767
+  unstructured: 'Pan SJ, Ni X, Sun JT, Yang Q, Chen Z. Cross-domain sentiment classification
+    via spectral feature alignment. In: Proceedings of the 19th international conference
+    on world wide web. 2010. p. 751–60.'
+- author: SJ Pan
+  doi: 10.1109/TKDE.2009.191
+  first-page: '1345'
+  issue: '10'
+  journal-title: IEEE Trans Knowl Data Eng
+  unstructured: Pan SJ, Yang Q. A survey on transfer learning. IEEE Trans Knowl Data
+    Eng. 2010;22(10):1345–59.
+  volume: '22'
+  year: '2010'
+- unstructured: 'Pan W, Liu NN, Xiang EW, Yang Q. Transfer learning to predict missing
+    ratings via heterogeneous user feedbacks. In: Proceedings of the 22nd international
+    joint conference on artificial intelligence. 2011. p. 2318–23.'
+- unstructured: 'Pan W. Xiang EW, Liu NN, Yang Q. Transfer learning in collaborative
+    filtering for sparsity reduction. In: Twenty-fourth AAAI conference on artificial
+    intelligence, vol. 1. 2010. p. 230–235.'
+- author: SJ Pan
+  doi: 10.1109/TNN.2010.2091281
+  first-page: '199'
+  issue: '2'
+  journal-title: IEEE Trans Neural Netw
+  unstructured: Pan SJ, Tsang IW, Kwok JT, Yang Q. Domain adaptation via transfer
+    component analysis. IEEE Trans Neural Netw. 2009;22(2):199–210.
+  volume: '22'
+  year: '2009'
+- unstructured: Papers:oquab-2014. http://leon.bottou.org/papers/oquab-2014 . Accessed
+    4 Mar 2016.
+- author: VM Patel
+  doi: 10.1109/MSP.2014.2347059
+  first-page: '53'
+  issue: '3'
+  journal-title: IEEE Signal Process Mag
+  unstructured: 'Patel VM, Gopalan R, Li R, Chellappa R. Visual domain adaptation:
+    a survey of recent advances. IEEE Signal Process Mag. 2014;32(3):53–69.'
+  volume: '32'
+  year: '2014'
+- author: C Perlich
+  doi: 10.1007/s10994-013-5375-2
+  first-page: '103'
+  journal-title: Mach Learn
+  unstructured: 'Perlich C, Dalessandro B, Raeder T, Stitelman O, Provost F. Machine
+    learning for targeted display advertising: transfer learning in action. Mach Learn.
+    2014;95:103–27.'
+  volume: '95'
+  year: '2014'
+- unstructured: 'Prettenhofer P, Stein B. (2010) Cross-language text classification
+    using structural correspondence learning. In: Proceedings of the 48th annual meeting
+    of the association for computational linguistics. 2010. p. 1118–27.'
+- doi: 10.1145/1963405.1963449
+  unstructured: 'Qi GJ, Aggarwal C, Huang T. Towards semantic knowledge propagation
+    from text corpus to Web images. In: Proceedings of the 20th international conference
+    on world wide web. p. 297–306.'
+- unstructured: 'Qiu G, Liu B, Bu J, Chen C. Expanding domain sentiment lexicon through
+    double propagation. In: Proceedings of the 21st international joint conference
+    on artificial intelligence. p. 1199–204.'
+- doi: 10.1145/1645953.1646121
+  unstructured: 'Quanz B, Huan J. Large margin transductive transfer learning. In:
+    Proceedings of the 18th ACM conference on information and knowledge management.
+    2009. p. 1327–36.'
+- doi: 10.1145/1273496.1273592
+  unstructured: 'Raina R, Battle A, Lee H, Packer B, Ng AY. Self-taught learning:
+    transfer learning from unlabeled data. In: Proceedings of the 24th international
+    conference on machine learning. 2007. p. 759–66.'
+- author: AN Rajagopal
+  doi: 10.1007/s11263-013-0692-2
+  first-page: '146'
+  issue: 1–2
+  journal-title: Int J Comput Vis
+  unstructured: Rajagopal AN, Subramanian R, Ricci E, Vieriu RL, Lanz O, Ramakrishnan
+    KR, Sebe N. Exploring transfer learning approaches for head pose classification
+    from multi-view surveillance images. Int J Comput Vis. 2014;109(1–2):146–67.
+  volume: '109'
+  year: '2014'
+- doi: 10.1109/FG.2013.6553779
+  unstructured: 'Romera-Paredes B, Aung MSH, Pontil M, Bianchi-Berthouze N, Williams
+    AC de C, Watson P. Transfer learning to account for idiosyncrasy in face and body
+    expressions. In: Proceedings of the 10th international conference on automatic
+    face and gesture recognition (FG). 2013. p. 1–6.'
+- unstructured: 'Rosenstein MT, Marx Z, Kaelbling LP, Dietterich TG. To transfer or
+    not to transfer. In: Proceedings NIPS’05 workshop, inductive transfer. 10 years
+    later. 2005. p. 1–4.'
+- unstructured: 'Roy S.D., Mei T., Zeng W., Li S. Social transfer: cross-domain transfer
+    learning from social streams for media applications. In: Proceedings of the 20th
+    ACM international conference on multimedia. p. 649–58.'
+- author: K Saenko
+  first-page: '213'
+  journal-title: Comput Vision ECCV
+  unstructured: Saenko K, Kulis B, Fritz M, Darrell T. Adapting visual category models
+    to new domains. Comput Vision ECCV. 2010;6314:213–26.
+  volume: '6314'
+  year: '2010'
+- author: G Schweikert
+  first-page: '1433'
+  journal-title: Adv Neural Inf Process Syst
+  unstructured: Schweikert G, Widmer C, Schölkopf B, Rätsch G. An empirical analysis
+    of domain adaptation algorithms for genomic sequence analysis. Adv Neural Inf
+    Process Syst. 2009;21:1433–40.
+  volume: '21'
+  year: '2009'
+- author: CW Seah
+  doi: 10.1109/TSMCB.2012.2225102
+  first-page: '1153'
+  issue: '4'
+  journal-title: IEEE Trans Cybern
+  unstructured: Seah CW, Ong YS, Tsang IW. Combating negative transfer from predictive
+    distribution differences. IEEE Trans Cybern. 2013;43(4):1153–65.
+  volume: '43'
+  year: '2013'
+- author: L Shao
+  doi: 10.1109/TNNLS.2014.2330900
+  first-page: '1019'
+  issue: '5'
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: 'Shao L, Zhu F, Li X. Transfer learning for visual categorization:
+    a survey. IEEE Trans Neural Netw Learn Syst. 2014;26(5):1019–34.'
+  volume: '26'
+  year: '2014'
+- doi: 10.1017/CBO9780511809682
+  unstructured: 'Shawe-Taylor J, Cristianini N. Kernel methods for pattern analysis.
+    Cambridge: Cambridge University Press; 2004.'
+- doi: 10.1109/ICDM.2010.65
+  unstructured: 'Shi X, Liu Q, Fan W, Yu PS, Zhu R. Transfer learning on heterogeneous
+    feature spaces via spectral transformation. In: 2010 IEEE international conference
+    on data mining. 2010. p. 1049–1054.'
+- unstructured: 'Shi Y, Sha F. Information-theoretical learning of discriminative
+    clusters for unsupervised domain adaptation. In: Proceedings of the 29th international
+    conference on machine learning. 2012. p. 1–8.'
+- author: H Shimodaira
+  doi: 10.1016/S0378-3758(00)00115-4
+  first-page: '227'
+  issue: '2'
+  journal-title: J Stat Plan Inf
+  unstructured: Shimodaira H. Improving predictive inference under covariate shift
+    by weighting the log-likelihood function. J Stat Plan Inf. 2000;90(2):227–44.
+  volume: '90'
+  year: '2000'
+- author: S Shivaji
+  doi: 10.1109/TSE.2012.43
+  first-page: '552'
+  issue: '4'
+  journal-title: IEEE Trans Softw Eng
+  unstructured: Shivaji S, Whitehead EJ, Akella R, Kim S. Reducing features to improve
+    code change-based bug prediction. IEEE Trans Softw Eng. 2013;39(4):552–69.
+  volume: '39'
+  year: '2013'
+- author: S Si
+  doi: 10.1109/TKDE.2009.126
+  first-page: '929'
+  issue: '7'
+  journal-title: IEEE Trans Knowl Data Eng
+  unstructured: Si S, Tao D, Geng B. Bregman divergence-based regularization for transfer
+    subspace learning. IEEE Trans Knowl Data Eng. 2010;22(7):929–42.
+  volume: '22'
+  year: '2010'
+- author: Z Song
+  first-page: '13'
+  issue: '1'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  unstructured: Song Z, Chen Q, Huang Z, Hua Y, Yan S. Contextualizing object detection
+    and classification. IEEE Trans Pattern Anal Mach Intell. 2011;37(1):13–27.
+  volume: '37'
+  year: '2011'
+- author: I Steinwart
+  first-page: '67'
+  journal-title: JMLR
+  unstructured: Steinwart I. On the influence of the kernel on the consistency of
+    support vector machines. JMLR. 2001;2:67–93.
+  volume: '2'
+  year: '2001'
+- author: ME Taylor
+  first-page: '1633'
+  journal-title: JMLR
+  unstructured: 'Taylor ME, Stone P. Transfer learning for reinforcement learning
+    domains: a survey. JMLR. 2009;10:1633–85.'
+  volume: '10'
+  year: '2009'
+- doi: 10.5244/C.23.80
+  unstructured: 'Tommasi T, Caputo B. The more you know, the less you learn: from
+    knowledge transfer to one-shot learning of object categories. BMVC. 2009;1–11.'
+- author: T Tommasi
+  first-page: '3081'
+  journal-title: IEEE Conf Comput Vision Pattern Recog
+  unstructured: 'Tommasi T, Orabona F, Caputo B. Safety in numbers: learning categories
+    from few examples with multi model knowledge transfer. IEEE Conf Comput Vision
+    Pattern Recog. 2010;2010:3081–8.'
+  volume: '2010'
+  year: '2010'
+- unstructured: Transfer learning resources. http://www.cse.ust.hk/TL/ . Accessed
+    4 Mar 2016.
+- unstructured: Tutorial on domain adaptation and transfer learning. http://tommasit.wix.com/datl14tutorial
+    . Accessed 4 Mar 2016.
+- author: V Vapnik
+  first-page: '831'
+  journal-title: Adv Neural Inf Process Syst
+  unstructured: Vapnik V. Principles of risk minimization for learning theory. Adv
+    Neural Inf Process Syst. 1992;4:831–8.
+  volume: '4'
+  year: '1992'
+- doi: 10.1109/ICCV.2009.5459183
+  unstructured: 'Vedaldi A, Gulshan V, Varma M, Zisserman A. Multiple kernels for
+    object detection. In: 2009 IEEE 12th international conference on computer vision.
+    2009. p. 606–13.'
+- doi: 10.1145/1390156.1390294
+  unstructured: 'Vincent P, Larochelle H, Bengio Y, Manzagol PA. Extracting and composing
+    robust features with denoising autoencoders. In: Proceedings of the 25th international
+    conference on machine learning. 2008. p. 1096–103.'
+- author: A Vinokourov
+  first-page: '1473'
+  journal-title: Adv Neural Inf Proces Syst
+  unstructured: Vinokourov A, Shawe-Taylor J, Cristianini N. Inferring a semantic
+    representation of text via crosslanguage correlation analysis. Adv Neural Inf
+    Proces Syst. 2002;15:1473–80.
+  volume: '15'
+  year: '2002'
+- unstructured: 'Wang C, Mahadevan S. Heterogeneous domain adaptation using manifold
+    alignment. In: Proceedings of the 22nd international joint conference on artificial
+    intelligence, vol. 2. 2011. p. 541–46.'
+- doi: 10.1109/CVPR.2009.5206816
+  unstructured: 'Wang G, Hoiem D, Forsyth DA. Building text Features for object image
+    classification. In: 2009 IEEE conference on computer vision and pattern recognition.
+    2009. p. 1367–74.'
+- doi: 10.1109/CVPR.2011.5995407
+  unstructured: 'Wang H, Klaser A, Schmid C, Liu CL (2011) Action recognition by dense
+    trajectories. In: IEEE 2011 conference on computer vision and pattern recognition.
+    2011. p. 3169–76.'
+- unstructured: 'Wei B, Pal C (2010) Cross-lingual adaptation: an experiment on sentiment
+    classifications. In: Proceedings of the ACL 2010 conference short papers. 2010.
+    p. 258–62.'
+- unstructured: 'Wei B, Pal C (2011) Heterogeneous transfer learning with RBMs. In:
+    Proceedings of the twenty-fifth AAAI conference on artificial intelligence. 2011.
+    p. 531–36.'
+- author: KQ Weinberger
+  first-page: '207'
+  journal-title: JMLR
+  unstructured: Weinberger KQ, Saul LK. Distance metric learning for large margin
+    nearest neighbor classification. JMLR. 2009;10:207–44.
+  volume: '10'
+  year: '2009'
+- author: C Widmer
+  first-page: '207'
+  journal-title: JMLR
+  unstructured: Widmer C, Ratsch G. Multitask learning in computational biology. JMLR.
+    2012;27:207–16.
+  volume: '27'
+  year: '2012'
+- author: J Wiens
+  doi: 10.1136/amiajnl-2013-002162
+  first-page: '699'
+  issue: '4'
+  journal-title: J Am Med Inform Assoc
+  unstructured: 'Wiens J, Guttag J, Horvitz EJ. A study in transfer learning: leveraging
+    data from multiple hospitals to enhance hospital-specific predictions. J Am Med
+    Inform Assoc. 2013;21(4):699–706.'
+  volume: '21'
+  year: '2013'
+- author: IH Witten
+  edition: '3'
+  unstructured: 'Witten IH, Frank E. Data mining, practical machine learning tools
+    and techniques. 3rd ed. San Francisco: Morgan Kaufmann Publishers; 2011.'
+  volume-title: Data mining, practical machine learning tools and techniques
+  year: '2011'
+- doi: 10.1109/CVPR.2011.5995624
+  unstructured: 'Wu X, Xu D, Duan L, Luo J (2011) Action recognition using context
+    and appearance distribution features. In: IEEE 2011 conference on computer vision
+    and pattern recognition. 2011. p. 489–96.'
+- unstructured: 'Xia R, Zong C. A POS-based ensemble model for cross-domain sentiment
+    classification. In: Proceedings of the 5th international joint conference on natural
+    language processing. 2011. p. 614–22.'
+- author: R Xia
+  doi: 10.1109/MIS.2013.27
+  first-page: '10'
+  issue: '3'
+  journal-title: IEEE Intell Syst
+  unstructured: 'Xia R, Zong C, Hu X, Cambria E. Feature ensemble plus sample selection:
+    domain adaptation for sentiment classification. IEEE Intell Syst. 2013;28(3):10–8.'
+  volume: '28'
+  year: '2013'
+- unstructured: 'Xiao M, Guo Y. Semi-supervised kernel matching for domain adaptation.
+    In: Proceedings of the twenty-sixth AAAI conference on artificial intelligence.
+    2012. p. 1183–89.'
+- unstructured: 'Xie M, Jean N, Burke M, Lobell D, Ermon S. Transfer learning from
+    deep features for remote sensing and poverty mapping. In: Proceedings 30th AAAI
+    conference on artificial intelligence. 2015. p. 1–10.'
+- doi: 10.1145/1291233.1291276
+  unstructured: 'Yang J, Yan R, Hauptmann AG. Cross-domain video concept detection
+    using adaptive SVMs. In: Proceedings of the 15th ACM international conference
+    on multimedia. 2007. p. 188–97.'
+- unstructured: Yang L, Jing L, Yu J, Ng MK. Learning transferred weights from co-occurrence
+    data for heterogeneous transfer learning. IEEE Trans Neural Netw Learn Syst. 2015;PP(99):1–14.
+- doi: 10.3115/1687878.1687880
+  unstructured: 'Yang Q, Chen Y, Xue GR, Dai W, Yu Y. Heterogeneous transfer learning
+    for image clustering via the social web. In: Proceedings of the joint conference
+    of the 47th annual meeting of the ACL, vol. 1. 2009. p. 1–9.'
+- doi: 10.1109/CVPR.2010.5539857
+  unstructured: 'Yao Y, Doretto G. Boosting for transfer learning with multiple sources.
+    In: Proceedings of the IEEE computer society conference on computer vision and
+    pattern recognition. 2010. p. 1855–62.'
+- unstructured: Yin Z. http://www.cse.ust.hk/~yinz/ . Accessed 4 Mar 2016.
+- unstructured: 'Zhang Y, Cao B, Yeung D. Multi-domain collaborative filtering. In:
+    Proceedings of the 26th conference on uncertainty in artificial intelligence.
+    2010. p. 725–32.'
+- doi: 10.1145/1835804.1835954
+  unstructured: 'Zhang Y, Yeung DY. Transfer metric learning by learning task relationships.
+    In: Proceedings of the 16th ACM SIGKDD international conference on knowledge discovery
+    and data mining. 2010. p. 1199–208.'
+- unstructured: 'Zhao L, Pan SJ, Xiang EW, Zhong E, Lu Z, Yang Q. Active transfer
+    learning for cross-system recommendation. In: Proceedings of the 27th AAAI conference
+    on artificial intelligence. 2013. p. 1205–11.'
+- doi: 10.1145/1557019.1557130
+  unstructured: 'Zhong E, Fan W, Peng J, Zhang K, Ren J, Turaga D, Verscheure O. Cross
+    domain distribution adaptation via kernel mapping. In: Proceedings of the 15th
+    ACM SIGKDD. 2009. p. 1027–36.'
+- unstructured: 'Zhou JT, Pan S, Tsang IW, Yan Y. Hybrid heterogeneous transfer learning
+    through deep learning. In: Proceedings of the national conference on artificial
+    intelligence, vol. 3. 2014. p. 2213–20.'
+- unstructured: 'Zhou JT, Tsang IW, Pan SJ Tan M. Heterogeneous domain adaptation
+    for multiple classes. In: International conference on artificial intelligence
+    and statistics. 2014. p. 1095–103.'
+- unstructured: 'Zhu Y, Chen Y, Lu Z, Pan S, Xue G, Yu Y, Yang Q. Heterogeneous transfer
+    learning for image classification. In: Proceedings of the national conference
+    on artificial intelligence, vol. 2. 2011. p. 1304–9.'
+doc_url: http://link.springer.com/article/10.1186/s40537-016-0043-6/fulltext.html
+doi: 10.1186/s40537-016-0043-6
+files:
+- weiss-karl-and-khoshgoftaar-taghi-m.-and-wang-dingdinga-survey-of-transfer-learning2016.data
+- weiss-karl-and-khoshgoftaar-taghi-m.-and-wang-dingdinga-survey-of-transfer-learning2016-a.pdf
+issue: '1'
+journal: Journal of Big Data
+language: en
+month: 12
+publisher: Springer Science and Business Media LLC
+time-added: 2021-01-17-12:07:59
+title: A survey of transfer learning
+type: article
+url: http://dx.doi.org/10.1186/s40537-016-0043-6
+volume: '3'
+year: 2016

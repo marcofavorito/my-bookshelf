@@ -1,0 +1,52 @@
+abstract: The increasing application of process-oriented approaches in new challenging
+  dynamic domains beyond business computing (e.g., healthcare, emergency management,
+  factories of the future, home automation, etc.) has led to reconsider the level
+  of flexibility and support required to manage complex knowledge-intensive processes
+  in such domains. A knowledge-intensive process is influenced by user decision making
+  and coupled with contextual data and knowledge production, and involves performing
+  complex tasks in the “physical” real world to achieve a common goal. The physical
+  world, however, is not entirely predictable, and knowledge-intensive processes must
+  be robust to unexpected conditions and adaptable to unanticipated exceptions, recognizing
+  that in real-world environments it is not adequate to assume that all possible recovery
+  activities can be predefined for dealing with the exceptions that can ensue. To
+  tackle this issue, in this paper we present SmartPM, a model and a prototype Process
+  Management System featuring a set of techniques providing support for automated
+  adaptation of knowledge-intensive processes at runtime. Such techniques are able
+  to automatically adapt process instances when unanticipated exceptions occur, without
+  explicitly defining policies to recover from exceptions and without the intervention
+  of domain experts at runtime, aiming at reducing error-prone and costly manual ad-hoc
+  changes, and thus at relieving users from complex adaptations tasks. To accomplish
+  this, we make use of well-established techniques and frameworks from Artificial
+  Intelligence, such as situation calculus, IndiGolog and classical planning. The
+  approach, which is backed by a formal model, has been implemented and validated
+  with a case study based on real knowledge-intensive processes coming from an emergency
+  management domain.
+address: New York, NY, USA
+articleno: '25'
+author: Marrella, Andrea and Mecella, Massimo and Sardina, Sebastian
+author_list:
+- family: Marrella
+  given: Andrea
+- family: Mecella
+  given: Massimo
+- family: Sardina
+  given: Sebastian
+doi: 10.1145/2948071
+files:
+- marrella-andrea-and-mecella-massimo-and-sardina-sebastianintelligent-process-adaptation-in-the-smartpm-system2016.pdf
+issn: 2157-6904
+issue_date: January 2017
+journal: ACM Trans. Intell. Syst. Technol.
+keywords: pervasive applications, situation calculus, indiGolog, process adaptation,
+  knowledge-intensive processes, Classical planning, process modeling and execution
+month: November
+number: '2'
+numpages: '43'
+publisher: Association for Computing Machinery
+ref: 10.1145/2948071
+time-added: 2021-01-22-19:27:31
+title: Intelligent Process Adaptation in the SmartPM System
+type: article
+url: https://doi.org/10.1145/2948071
+volume: '8'
+year: '2016'
