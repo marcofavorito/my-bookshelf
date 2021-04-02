@@ -1,0 +1,38 @@
+abstract: Combinatorial optimization is a well-established area in operations research
+  and computer science. Until recently, its methods have focused on solving problem
+  instances in isolation, ignoring the fact that they often stem from related data
+  distributions in practice. However, recent years have seen a surge of interest in
+  using machine learning, especially graph neural networks (GNNs), as a key building
+  block for combinatorial tasks, either as solvers or as helper functions. GNNs are
+  an inductive bias that effectively encodes combinatorial and relational input due
+  to their permutation-invariance and sparsity awareness. This paper presents a conceptual
+  review of recent key advancements in this emerging field, aiming at both the optimization
+  and machine learning researcher.
+archiveprefix: arXiv
+author: Cappart, Quentin and Chételat, Didier and Khalil, Elias and Lodi, Andrea and
+  Morris, Christopher and Veličković, Petar
+author_list:
+- family: Cappart
+  given: Quentin
+- family: Chételat
+  given: Didier
+- family: Khalil
+  given: Elias
+- family: Lodi
+  given: Andrea
+- family: Morris
+  given: Christopher
+- family: Veličković
+  given: Petar
+eprint: 2102.09544v1
+file: 2102.09544v1.pdf
+files:
+- cappart-quentin-and-chetelat-didier-and-khalil-elias-and-lodi-andrea-and-morris-christopher-and-velickovic-petarcombinatorial-optimization-and-r.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2102.09544v1
+time-added: 2021-02-22-23:35:56
+title: Combinatorial optimization and reasoning with graph neural networks
+type: article
+url: http://arxiv.org/abs/2102.09544v1
+year: '2021'

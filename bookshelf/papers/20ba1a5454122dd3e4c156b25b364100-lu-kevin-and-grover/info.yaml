@@ -1,0 +1,34 @@
+abstract: We investigate the capability of a transformer pretrained on natural language
+  to generalize to other modalities with minimal finetuning -- in particular, without
+  finetuning of the self-attention and feedforward layers of the residual blocks.
+  We consider such a model, which we call a Frozen Pretrained Transformer (FPT), and
+  study finetuning it on a variety of sequence classification tasks spanning numerical
+  computation, vision, and protein fold prediction. In contrast to prior works which
+  investigate finetuning on the same modality as the pretraining dataset, we show
+  that pretraining on natural language improves performance and compute efficiency
+  on non-language downstream tasks. In particular, we find that such pretraining enables
+  FPT to generalize in zero-shot to these modalities, matching the performance of
+  a transformer fully trained on these tasks.
+archiveprefix: arXiv
+author: Lu, Kevin and Grover, Aditya and Abbeel, Pieter and Mordatch, Igor
+author_list:
+- family: Lu
+  given: Kevin
+- family: Grover
+  given: Aditya
+- family: Abbeel
+  given: Pieter
+- family: Mordatch
+  given: Igor
+eprint: 2103.05247v1
+file: 2103.05247v1.pdf
+files:
+- lu-kevin-and-grover-aditya-and-abbeel-pieter-and-mordatch-igorpretrained-transformers-as-universal-computation-engines2021.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2103.05247v1
+time-added: 2021-03-14-18:10:09
+title: Pretrained Transformers as Universal Computation Engines
+type: article
+url: http://arxiv.org/abs/2103.05247v1
+year: '2021'

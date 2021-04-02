@@ -1,0 +1,34 @@
+abstract: A fundamental question in reinforcement learning is whether model-free algorithms
+  are sample efficient. Recently, Jin et al. \cite{jin2018q} proposed a Q-learning
+  algorithm with UCB exploration policy, and proved it has nearly optimal regret bound
+  for finite-horizon episodic MDP. In this paper, we adapt Q-learning with UCB-exploration
+  bonus to infinite-horizon MDP with discounted rewards \emph{without} accessing a
+  generative model. We show that the \textit{sample complexity of exploration} of
+  our algorithm is bounded by $\tilde{O}({\frac{SA}{\epsilon^2(1-\gamma)^7}})$. This
+  improves the previously best known result of $\tilde{O}({\frac{SA}{\epsilon^4(1-\gamma)^8}})$
+  in this setting achieved by delayed Q-learning \cite{strehl2006pac}, and matches
+  the lower bound in terms of $\epsilon$ as well as $S$ and $A$ except for logarithmic
+  factors.
+archiveprefix: arXiv
+author: Dong, Kefan and Wang, Yuanhao and Chen, Xiaoyu and Wang, Liwei
+author_list:
+- family: Dong
+  given: Kefan
+- family: Wang
+  given: Yuanhao
+- family: Chen
+  given: Xiaoyu
+- family: Wang
+  given: Liwei
+eprint: 1901.09311v2
+file: 1901.09311v2.pdf
+files:
+- dong-kefan-and-wang-yuanhao-and-chen-xiaoyu-and-wang-liweiq-learning-with-ucb-exploration-is-sample-efficient-for-infinite-horizon-mdp2019.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1901.09311v2
+time-added: 2021-03-21-14:43:12
+title: Q-learning with UCB Exploration is Sample Efficient for Infinite-Horizon   MDP
+type: article
+url: http://arxiv.org/abs/1901.09311v2
+year: '2019'

@@ -1,0 +1,32 @@
+abstract: 'Reasoning about multi-agents systems at the <i>knowledge level</i> allows
+  us to abstract away from many concrete details of the systems we are considering.
+  Fagin et al. introduced two notions to facilitate designing and reasoning about
+  systems in terms of knowledge. The first notion is that of <i>knowledge-based programs.</i>
+  Knowledge-based programs are defined as syntactic objects: programs with tests for
+  knowledge. The second notion is that of <i>contexts</i>, which capture the setting
+  in which a program is to be executed. In a given context, a standard program (one
+  without tests for knowledge) is always <i>implementable.</i> A knowledge-based program,
+  on the other hand, might not be implementable. We provide a condition which is necessary
+  and sufficient to guarantee that a given knowledge-based program is implemented
+  by a given protocol, and we completely characterize the complexity of determining
+  whether a given knowledge-based program is implemented by a given protocol in a
+  given <i>finite-state</i> context. In particular, we identify an important special
+  case where this problem is tractable.'
+address: San Francisco, CA, USA
+author: Vardi, Moshe Y.
+author_list:
+- family: Vardi
+  given: Moshe Y.
+booktitle: Proceedings of the 6th Conference on Theoretical Aspects of Rationality
+  and Knowledge
+isbn: '1558604179'
+location: The Netherlands
+numpages: '16'
+pages: 15–30
+publisher: Morgan Kaufmann Publishers Inc.
+ref: 10.5555/1029693.1029696
+series: TARK '96
+time-added: 2021-03-01-18:53:01
+title: Implementing Knowledge-Based Programs
+type: inproceedings
+year: '1996'

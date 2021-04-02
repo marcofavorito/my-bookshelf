@@ -1,0 +1,43 @@
+abstract: This paper investigates the motion planning of autonomous dynamical systems
+  modeled by Markov decision processes (MDP) with unknown transition probabilities
+  over continuous state and action spaces. Linear temporal logic (LTL) is used to
+  specify high-level tasks over infinite horizon, which can be converted into a limit
+  deterministic generalized B\"uchi automaton (LDGBA) with several accepting sets.
+  The novelty is to design an embedded product MDP (EP-MDP) between the LDGBA and
+  the MDP by incorporating a synchronous tracking-frontier function to record unvisited
+  accepting sets of the automaton, and to facilitate the satisfaction of the accepting
+  conditions. The proposed LDGBA-based reward shaping and discounting schemes for
+  the model-free reinforcement learning (RL) only depend on the EP-MDP states and
+  can overcome the issues of sparse rewards. Rigorous analysis shows that any RL method
+  that optimizes the expected discounted return is guaranteed to find an optimal policy
+  whose traces maximize the satisfaction probability. A modular deep deterministic
+  policy gradient (DDPG) is then developed to generate such policies over continuous
+  state and action spaces. The performance of our framework is evaluated via an array
+  of OpenAI gym environments.
+archiveprefix: arXiv
+author: Cai, Mingyu and Hasanbeig, Mohammadhosein and Xiao, Shaoping and Abate, Alessandro
+  and Kan, Zhen
+author_list:
+- family: Cai
+  given: Mingyu
+- family: Hasanbeig
+  given: Mohammadhosein
+- family: Xiao
+  given: Shaoping
+- family: Abate
+  given: Alessandro
+- family: Kan
+  given: Zhen
+eprint: 2102.12855v1
+file: 2102.12855v1.pdf
+files:
+- cai-mingyu-and-hasanbeig-mohammadhosein-and-xiao-shaoping-and-abate-alessandro-and-kan-zhenmodular-deep-reinforcement-learning-for-continuous-mot.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2102.12855v1
+time-added: 2021-03-02-16:26:25
+title: Modular Deep Reinforcement Learning for Continuous Motion Planning with   Temporal
+  Logic
+type: article
+url: http://arxiv.org/abs/2102.12855v1
+year: '2021'

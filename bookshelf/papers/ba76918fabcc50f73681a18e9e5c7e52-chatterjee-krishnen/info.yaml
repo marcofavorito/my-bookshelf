@@ -1,0 +1,34 @@
+abstract: 'Energy parity games are infinite two-player turn-based games played on
+  weighted graphs. The objective of the game combines a (qualitative) parity condition
+  with the (quantitative) requirement that the sum of the weights (i.e., the level
+  of energy in the game) must remain positive. Beside their own interest in the design
+  and synthesis of resource-constrained omega-regular specifications, energy parity
+  games provide one of the simplest model of games with combined qualitative and quantitative
+  objective. Our main results are as follows: (a) exponential memory is necessary
+  and sufficient for winning strategies in energy parity games; (b) the problem of
+  deciding the winner in energy parity games can be solved in NP \cap coNP; and (c)
+  we give an algorithm to solve energy parity by reduction to energy games. We also
+  show that the problem of deciding the winner in energy parity games is polynomially
+  equivalent to the problem of deciding the winner in mean-payoff parity games, while
+  optimal strategies may require infinite memory in mean-payoff parity games. As a
+  consequence we obtain a conceptually simple algorithm to solve mean-payoff parity
+  games.'
+archiveprefix: arXiv
+author: Chatterjee, Krishnendu and Doyen, Laurent
+author_list:
+- family: Chatterjee
+  given: Krishnendu
+- family: Doyen
+  given: Laurent
+eprint: 1001.5183v4
+file: 1001.5183v4.pdf
+files:
+- chatterjee-krishnendu-and-doyen-laurentenergy-parity-games2010.pdf
+month: Jan
+primaryclass: cs.LO
+ref: 1001.5183v4
+time-added: 2021-03-11-16:29:43
+title: Energy Parity Games
+type: article
+url: http://arxiv.org/abs/1001.5183v4
+year: '2010'

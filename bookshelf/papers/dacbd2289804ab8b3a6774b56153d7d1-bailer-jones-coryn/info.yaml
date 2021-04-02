@@ -1,0 +1,33 @@
+abstract: The exploration of interstellar space will require autonomous navigation
+  systems that do not rely on tracking from the Earth. Here I develop a method to
+  determine the 3D position and 3D velocity of a spacecraft in deep space using a
+  star catalogue. As a spacecraft moves away from the Sun, the observed positions
+  and velocities of the stars will change relative to those in a Earth-based catalogue
+  due to parallax, aberration, and the Doppler effect. By measuring just the angular
+  distances between pairs of stars, and comparing these to the catalogue, we can infer
+  the coordinates of the spacecraft via an iterative forward-modelling process. I
+  perform simulations with existing star catalogues to demonstrate the method and
+  to compute its performance. Using 20 stars and a modest angular distance measurement
+  accuracy of 1", the position and velocity of the spacecraft can be determined to
+  within 3 au and 2 km/s respectively. If a measurement accuracy of 1 mas is achievable
+  then the navigation accuracy increases by a factor of 1000. Using more stars and/or
+  including also onboard measurements of the stars' radial velocities improves the
+  accuracy further.
+archiveprefix: arXiv
+author: Bailer-Jones, Coryn A. L.
+author_list:
+- family: Bailer-Jones
+  given: Coryn A. L.
+eprint: 2103.10389v1
+file: 2103.10389v1.pdf
+files:
+- bailer-jones-coryn-a.-l.lost-in-space-relativistic-interstellar-navigation-using-an-astrometric-star-catalogue2021.pdf
+month: Mar
+primaryclass: astro-ph.IM
+ref: 2103.10389v1
+time-added: 2021-03-24-14:56:17
+title: Lost in space? Relativistic interstellar navigation using an astrometric   star
+  catalogue
+type: article
+url: http://arxiv.org/abs/2103.10389v1
+year: '2021'

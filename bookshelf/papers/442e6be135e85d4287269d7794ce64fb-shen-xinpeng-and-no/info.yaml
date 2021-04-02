@@ -1,0 +1,222 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Causal Structure Discovery (CSD)
+  is the problem of identifying causal relationships from large quantities of data
+  through computational methods. With the limited ability of traditional association-based
+  computational methods to discover causal relationships, CSD methodologies are gaining
+  popularity. The goal of the study was to systematically examine whether (i) CSD
+  methods can discover the known causal relationships from observational clinical
+  data and (ii) to offer guidance to accurately discover known causal relationships.
+  We used Alzheimer’s disease (AD), a complex progressive disease, as a model because
+  the well-established evidence provides a “gold-standard” causal graph for evaluation.
+  We evaluated two CSD methods, Fast Causal Inference (FCI) and Fast Greedy Equivalence
+  Search (FGES) in their ability to discover this structure from data collected by
+  the Alzheimer’s Disease Neuroimaging Initiative (ADNI). We used structural equation
+  models (which is not designed for CSD) as control. We applied these methods under
+  three scenarios defined by increasing amounts of background knowledge provided to
+  the methods. The methods were evaluated by comparing the resulting causal relationships
+  with the “gold standard” graph that was constructed from literature. Dedicated CSD
+  methods managed to discover graphs that nearly coincided with the gold standard.
+  For best results, CSD algorithms should be used with longitudinal data providing
+  as much prior knowledge as possible.</jats:p>
+author: Shen, Xinpeng and None, None and Ma, Sisi and Vemuri, Prashanthi and Simon,
+  Gyorgy
+author_list:
+- affiliation: []
+  family: Shen
+  given: Xinpeng
+- affiliation: []
+  family: null
+  given: null
+- affiliation: []
+  family: Ma
+  given: Sisi
+- affiliation: []
+  family: Vemuri
+  given: Prashanthi
+- affiliation: []
+  family: Simon
+  given: Gyorgy
+citations:
+- author: AL Beam
+  doi: 10.1001/jama.2017.18391
+  first-page: '1317'
+  journal-title: JAMA
+  unstructured: Beam, A. L. & Kohane, I. S. Big Data and Machine Learning in Health
+    CareBig Data and Machine Learning in Health CareBig Data and Machine Learning
+    in Health Care. JAMA 319, 1317–1318, https://doi.org/10.1001/jama.2017.18391 (2018).
+  volume: '319'
+  year: '2018'
+- author: TB Murdoch
+  doi: 10.1001/jama.2013.393
+  first-page: '1351'
+  journal-title: JAMA
+  unstructured: Murdoch, T. B. & Detsky, A. S. The Inevitable Application of Big Data
+    to Health CareThe Inevitable Application of Big Data to Health Care. JAMA 309,
+    1351–1352, https://doi.org/10.1001/jama.2013.393 (2013).
+  volume: '309'
+  year: '2013'
+- author: AD Trister
+  doi: 10.1001/jamaoncol.2017.0473
+  first-page: '1463'
+  journal-title: JAMA Oncology
+  unstructured: Trister, A. D., Buist, D. S. M. & Lee, C. I. Will Machine Learning
+    Tip the Balance in Breast Cancer Screening?Will Machine Learning Tip the Balance
+    in Breast Cancer Screening?Will Machine Learning Tip the Balance in Breast Cancer
+    Screening? JAMA Oncology 3, 1463–1464, https://doi.org/10.1001/jamaoncol.2017.0473
+    (2017).
+  volume: '3'
+  year: '2017'
+- unstructured: Rogers, M. B. There’s No Tomorrow for TOMMORROW. ALZFORUM https://www.alzforum.org/news/research-news/theres-no-tomorrow-tommorrow
+    (2018).
+- author: Z Arvanitakis
+  doi: 10.1212/01.wnl.0000247053.45483.4e
+  first-page: '1960'
+  journal-title: Neurology
+  unstructured: Arvanitakis, Z. et al. Diabetes is related to cerebral infarction
+    but not to AD pathology in older persons. Neurology 67, 1960–1965, https://doi.org/10.1212/01.wnl.0000247053.45483.4e
+    (2006).
+  volume: '67'
+  year: '2006'
+- author: P Vemuri
+  doi: 10.1002/ana.25071
+  first-page: '706'
+  journal-title: Ann. Neurol.
+  unstructured: Vemuri, P. et al. Age, vascular health, and Alzheimer disease biomarkers
+    in an elderly sample. Ann. Neurol. 82, 706–718, https://doi.org/10.1002/ana.25071
+    (2017).
+  volume: '82'
+  year: '2017'
+- author: CR Jack Jr.
+  doi: 10.1016/s1474-4422(12)70291-0
+  first-page: '207'
+  journal-title: Lancet Neurol.
+  unstructured: 'Jack, C. R. Jr. et al. Tracking pathophysiological processes in Alzheimer’s
+    disease: an updated hypothetical model of dynamic biomarkers. Lancet Neurol. 12,
+    207–216, https://doi.org/10.1016/s1474-4422(12)70291-0 (2013).'
+  volume: '12'
+  year: '2013'
+- unstructured: 'Pearl, J. Causality: Models, Reasoning, and Inference. Vol. 64 (Cambridge
+    University Press, 2000).'
+- unstructured: Spirtes, P., Meek, C. & Richardson, T. S. Causal Inference in the
+    Presence of Latent Variables and Selection Bias. CoRR abs/1302.4983 (2013).
+- unstructured: Ramsey, J. D. Scaling up Greedy Equivalence Search for Continuous
+    Variables. CoRR abs/1507.07749 (2015).
+- author: DM Chickering
+  first-page: '507'
+  journal-title: Journal of Machine Learning Research
+  unstructured: Chickering, D. M. Optimal Structure Identification With Greedy Search.
+    Journal of Machine Learning Research 3, 507–554 (2002).
+  volume: '3'
+  year: '2002'
+- unstructured: Mani, S., Spirtes, P. & Cooper, G. F. A theoretical study of Y structures
+    for causal discovery. CoRR abs/1206.6853 (2012).
+- doi: 10.7551/mitpress/1754.001.0001
+  unstructured: Spirtes, P., Clark, G. & Scheines, R. Causation, Prediction, and Search.
+    (The MIT Press, 2000).
+- author: G Schwarz
+  doi: 10.1214/aos/1176344136
+  first-page: '461'
+  journal-title: The Annals of Statistics
+  unstructured: Schwarz, G. Estimating the Dimension of a Model. The Annals of Statistics
+    6, 461–464, https://doi.org/10.1214/aos/1176344136 (1978).
+  volume: '6'
+  year: '1978'
+- unstructured: 'Meek, C. Graphical Models: Selecting causal and statistical models,
+    (1997).'
+- unstructured: Kline, R. B. Principles and practice of structural equation modeling,
+    3rd ed. 265–295 (Guilford Press, 2011).
+- unstructured: 'Heckerman, D., Meek, C. & Cooper, G. In Innovations in Machine Learning:
+    Theory and Applications (eds. Dawn E. Holmes & Lakhmi C. Jain) 1–28 (Springer
+    Berlin Heidelberg, 2006).'
+- author: Y Rosseel
+  doi: 10.18637/jss.v048.i02
+  first-page: '36'
+  journal-title: Journal of Statistical Software
+  unstructured: 'Rosseel, Y. lavaan: An R Package for Structural Equation Modeling.
+    Journal of Statistical Software 48, 36, https://doi.org/10.18637/jss.v048.i02
+    (2012).'
+  volume: '48'
+  year: '2012'
+- author: MW Weiner
+  doi: 10.1016/j.jalz.2015.04.005
+  first-page: '865'
+  journal-title: 'Alzheimer’s & dementia: the journal of the Alzheimer’s Association'
+  unstructured: 'Weiner, M. W. et al. Impact of the Alzheimer’s Disease Neuroimaging
+    Initiative, 2004 to 2014. Alzheimer’s & dementia: the journal of the Alzheimer’s
+    Association 11, 865–884, https://doi.org/10.1016/j.jalz.2015.04.005 (2015).'
+  volume: '11'
+  year: '2015'
+- author: S Mishra
+  doi: 10.1093/brain/awy103
+  first-page: '1828'
+  journal-title: Brain
+  unstructured: 'Mishra, S. et al. Longitudinal brain imaging in preclinical Alzheimer
+    disease: impact of APOE epsilon4 genotype. Brain 141, 1828–1839, https://doi.org/10.1093/brain/awy103
+    (2018).'
+  volume: '141'
+  year: '2018'
+- author: CR Jack Jr.
+  doi: 10.1001/jamaneurol.2014.4821
+  first-page: '511'
+  journal-title: JAMA neurology
+  unstructured: Jack, C. R. Jr. et al. Age, Sex, and APOE epsilon4 Effects on Memory,
+    Brain Structure, and beta-Amyloid Across the Adult Life Span. JAMA neurology 72,
+    511–519, https://doi.org/10.1001/jamaneurol.2014.4821 (2015).
+  volume: '72'
+  year: '2015'
+- author: SM Landau
+  doi: 10.1016/j.neurobiolaging.2009.07.002
+  first-page: '1207'
+  journal-title: Neurobiology of aging
+  unstructured: Landau, S. M. et al. Associations between cognitive, functional, and
+    FDG-PET measures of decline in AD and MCI. Neurobiology of aging 32, 1207–1218,
+    https://doi.org/10.1016/j.neurobiolaging.2009.07.002 (2011).
+  volume: '32'
+  year: '2011'
+- author: RS Desikan
+  doi: 10.1002/ana.22509
+  first-page: '657'
+  journal-title: Ann. Neurol.
+  unstructured: Desikan, R. S. et al. Amyloid-beta associated volume loss occurs only
+    in the presence of phospho-tau. Ann. Neurol. 70, 657–661 (2011).
+  volume: '70'
+  year: '2011'
+- author: JB Toledo
+  doi: 10.1186/2051-5960-2-26
+  journal-title: Acta neuropathologica communications
+  unstructured: Toledo, J. B. et al. Neuronal injury biomarkers and prognosis in ADNI
+    subjects with normal cognition. Acta neuropathologica communications 2, 26, https://doi.org/10.1186/2051-5960-2-26
+    (2014).
+  volume: '2'
+  year: '2014'
+- author: CR Jack Jr.
+  doi: 10.1016/j.neuron.2013.12.003
+  first-page: '1347'
+  journal-title: Neuron.
+  unstructured: Jack, C. R. Jr. & Holtzman, D. M. Biomarker modeling of Alzheimer’s
+    Disease. Neuron. 80, 1347–1358 (2013).
+  volume: '80'
+  year: '2013'
+- author: P Vemuri
+  doi: 10.1093/brain/awr049
+  first-page: '1479'
+  journal-title: Brain
+  unstructured: Vemuri, P. et al. Cognitive reserve and Alzheimer’s disease biomarkers
+    are independent determinants of cognition. Brain 134, 1479–1492 (2011).
+  volume: '134'
+  year: '2011'
+doc_url: http://www.nature.com/articles/s41598-020-59669-x
+doi: 10.1038/s41598-020-59669-x
+files:
+- shen-xinpeng-and-none-none-and-ma-sisi-and-vemuri-prashanthi-and-simon-gyorgychallenges-and-opportunities-with-causal-discovery-algorithms-appli.data
+issue: '1'
+journal: Scientific Reports
+language: en
+month: 12
+publisher: Springer Science and Business Media LLC
+time-added: 2021-03-12-18:36:44
+title: 'Challenges and Opportunities with Causal Discovery Algorithms: Application
+  to Alzheimer’s Pathophysiology'
+type: article
+url: http://dx.doi.org/10.1038/s41598-020-59669-x
+volume: '10'
+year: 2020

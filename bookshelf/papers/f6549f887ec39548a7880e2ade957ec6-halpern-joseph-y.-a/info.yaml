@@ -1,0 +1,33 @@
+abstract: At the heart of the Bitcoin is a blockchain protocol, a protocol for achieving
+  consensus on a public ledger that records bitcoin transactions. To the extent that
+  a blockchain protocol is used for applications such as contract signing and making
+  certain transactions (such as house sales) public, we need to understand what guarantees
+  the protocol gives us in terms of agents' knowledge. Here, we provide a complete
+  characterization of agent's knowledge when running a blockchain protocol using a
+  variant of common knowledge that takes into account the fact that agents can enter
+  and leave the system, it is not known which agents are in fact following the protocol
+  (some agents may want to deviate if they can gain by doing so), and the fact that
+  the guarantees provided by blockchain protocols are probabilistic. We then consider
+  some scenarios involving contracts and show that this level of knowledge suffices
+  for some scenarios, but not others.
+archiveprefix: arXiv
+author: Halpern, Joseph Y. and Pass, Rafael
+author_list:
+- family: Halpern
+  given: Joseph Y.
+- family: Pass
+  given: Rafael
+doi: 10.4204/EPTCS.251.22
+eprint: 1707.08751v1
+file: 1707.08751v1.pdf
+files:
+- halpern-joseph-y.-and-pass-rafaela-knowledge-based-analysis-of-the-blockchain-protocol2017.pdf
+month: Jul
+note: EPTCS 251, 2017, pp. 324-335
+primaryclass: cs.CR
+ref: 1707.08751v1
+time-added: 2021-03-01-18:53:32
+title: A Knowledge-Based Analysis of the Blockchain Protocol
+type: article
+url: http://arxiv.org/abs/1707.08751v1
+year: '2017'

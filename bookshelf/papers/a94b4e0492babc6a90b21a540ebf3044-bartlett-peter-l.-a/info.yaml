@@ -1,0 +1,44 @@
+abstract: 'The remarkable practical success of deep learning has revealed some major
+  surprises from a theoretical perspective. In particular, simple gradient methods
+  easily find near-optimal solutions to non-convex optimization problems, and despite
+  giving a near-perfect fit to training data without any explicit effort to control
+  model complexity, these methods exhibit excellent predictive accuracy. We conjecture
+  that specific principles underlie these phenomena: that overparametrization allows
+  gradient methods to find interpolating solutions, that these methods implicitly
+  impose regularization, and that overparametrization leads to benign overfitting.
+  We survey recent theoretical progress that provides examples illustrating these
+  principles in simpler settings. We first review classical uniform convergence results
+  and why they fall short of explaining aspects of the behavior of deep learning methods.
+  We give examples of implicit regularization in simple settings, where gradient methods
+  lead to minimal norm functions that perfectly fit the training data. Then we review
+  prediction methods that exhibit benign overfitting, focusing on regression problems
+  with quadratic loss. For these methods, we can decompose the prediction rule into
+  a simple component that is useful for prediction and a spiky component that is useful
+  for overfitting but, in a favorable setting, does not harm prediction accuracy.
+  We focus specifically on the linear regime for neural networks, where the network
+  can be approximated by a linear model. In this regime, we demonstrate the success
+  of gradient flow, and we consider benign overfitting with two-layer networks, giving
+  an exact asymptotic analysis that precisely demonstrates the impact of overparametrization.
+  We conclude by highlighting the key challenges that arise in extending these insights
+  to realistic deep learning settings.'
+archiveprefix: arXiv
+author: Bartlett, Peter L. and Montanari, Andrea and Rakhlin, Alexander
+author_list:
+- family: Bartlett
+  given: Peter L.
+- family: Montanari
+  given: Andrea
+- family: Rakhlin
+  given: Alexander
+eprint: 2103.09177v1
+file: 2103.09177v1.pdf
+files:
+- bartlett-peter-l.-and-montanari-andrea-and-rakhlin-alexanderdeep-learning-a-statistical-viewpoint2021.pdf
+month: Mar
+primaryclass: math.ST
+ref: 2103.09177v1
+time-added: 2021-03-23-19:19:21
+title: 'Deep learning: a statistical viewpoint'
+type: article
+url: http://arxiv.org/abs/2103.09177v1
+year: '2021'

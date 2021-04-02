@@ -1,0 +1,30 @@
+abstract: Can simple algorithms with a good representation solve challenging reinforcement
+  learning problems? In this work, we answer this question in the affirmative, where
+  we take "simple learning algorithm" to be tabular Q-Learning, the "good representations"
+  to be a learned state abstraction, and "challenging problems" to be continuous control
+  tasks. Our main contribution is a learning algorithm that abstracts a continuous
+  state-space into a discrete one. We transfer this learned representation to unseen
+  problems to enable effective learning. We provide theory showing that learned abstractions
+  maintain a bounded value loss, and we report experiments showing that the abstractions
+  empower tabular Q-Learning to learn efficiently in unseen tasks.
+archiveprefix: arXiv
+author: Asadi, Kavosh and Abel, David and Littman, Michael L.
+author_list:
+- family: Asadi
+  given: Kavosh
+- family: Abel
+  given: David
+- family: Littman
+  given: Michael L.
+eprint: 2002.05518v1
+file: 2002.05518v1.pdf
+files:
+- asadi-kavosh-and-abel-david-and-littman-michael-l.learning-state-abstractions-for-transfer-in-continuous-control2020.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2002.05518v1
+time-added: 2021-03-19-14:11:27
+title: Learning State Abstractions for Transfer in Continuous Control
+type: article
+url: http://arxiv.org/abs/2002.05518v1
+year: '2020'

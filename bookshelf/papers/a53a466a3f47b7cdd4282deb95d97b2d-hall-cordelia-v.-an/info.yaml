@@ -1,0 +1,197 @@
+abstract: <jats:p>This article defines a set of type inference rules for resolving
+  overloading introduced by type classes, as used in the functional programming language
+  Haskell. Programs including type classes are transformed into ones which may be
+  typed by standard Hindley-Milner inference rules. In contrast to other work on type
+  classes, the rules presented here relate directly to Haskell programs. An innovative
+  aspect of this work is the use of second-order lambda calculus to record type information
+  in the transformed program.</jats:p>
+author: Hall, Cordelia V. and Hammond, Kevin and Peyton Jones, Simon L. and Wadler,
+  Philip L.
+author_list:
+- affiliation:
+  - name: Glasgow Univ., Glasgow, Scotland, UK
+  family: Hall
+  given: Cordelia V.
+- affiliation:
+  - name: Glasgow Univ., Glasgow, Scotland, UK
+  family: Hammond
+  given: Kevin
+- affiliation:
+  - name: Glasgow Univ., Glasgow, Scotland, UK
+  family: Peyton Jones
+  given: Simon L.
+- affiliation:
+  - name: Glasgow Univ., Glasgow, Scotland, UK
+  family: Wadler
+  given: Philip L.
+citations:
+- author: AUGUSTSSON L.
+  first-page: '65'
+  volume-title: Proceedings of the 1993 Conference on Functional Programming and Computer
+    Architecture
+  year: '1993'
+- unstructured: BLOTT S. 1991. Type classes. Ph.D. thesis Dept. of Computing Science
+    Glasgow Univ. Glasgow Scotland.  BLOTT S. 1991. Type classes. Ph.D. thesis Dept.
+    of Computing Science Glasgow Univ. Glasgow Scotland.
+- doi: 10.1016/0167-6423(87)90019-0
+- unstructured: CHEN I~. 1994. Semantics and coherence for parametric type classes.
+    Res. Rep. YALEU/DCS/RR-1003 Dept. of Computer Science Yale Univ. New Haven Conn.
+    June.  CHEN I~. 1994. Semantics and coherence for parametric type classes. Res.
+    Rep. YALEU/DCS/RR-1003 Dept. of Computer Science Yale Univ. New Haven Conn. June.
+- unstructured: CHEN I~. 1995. A parametric extension of Haskell's type classes. Ph.D.
+    thesis Dept. of Computer Science Yale Univ. New Haven Conn.   CHEN I~. 1995. A
+    parametric extension of Haskell's type classes. Ph.D. thesis Dept. of Computer
+    Science Yale Univ. New Haven Conn.
+- author: CHEN~ K.
+  first-page: '170'
+  volume-title: Proceedings of the 1992 ACM Conference on Lisp and Functional Programming.
+    ACM
+  year: '1992'
+- author: CORMACK G. V.
+  first-page: '127'
+  volume-title: Proceedings of the 1990 A CM Conference on Programming Language Design
+    and Implementation (White Plains, N.Y.), ACM
+  year: '1990'
+- unstructured: GIRARD J.-Y. 1972. Interpr6tation functionelle et 61imination des
+    coupures dans l'arithm6tique d'ordre sup6rieure. ThSse de doctorat d'6tat Universit6
+    Paris VII Paris France.  GIRARD J.-Y. 1972. Interpr6tation functionelle et 61imination
+    des coupures dans l'arithm6tique d'ordre sup6rieure. ThSse de doctorat d'6tat
+    Universit6 Paris VII Paris France.
+- author: HAMMOND K.
+  first-page: '146'
+  volume-title: 1991 Glasgow Workshop on Functional Programming (Ullapool, Scotland}.
+    Workshops in Computing Science, Springer-Verlag
+  year: '1991'
+- unstructured: HAMMOND~ K. 1993. Extended type classes Int. Memo. Dept. of Computer
+    Science Glasgow Univ. Glasgow Scotland.  HAMMOND~ K. 1993. Extended type classes
+    Int. Memo. Dept. of Computer Science Glasgow Univ. Glasgow Scotland.
+- author: HAMMOND~ K.
+  first-page: '266'
+  volume-title: 1989 Glasgow Workshop on Functional Programming (Fraserburgh, Scotland}.
+    Workshops in Computing Science, Springer-Verlag
+  year: '1989'
+- article-title: The principal type scheme of an object in combinatory logic
+  author: HINDLEY~ R.
+  first-page: '29'
+  journal-title: Trans. Am. Math. Soc.
+  volume: '146'
+  year: '1969'
+- doi: 10.1145/130697.130699
+- unstructured: HUET (~.~ Ed. 1990. Logical Foundations of Functional Programming.
+    Addison-Wesley Reading Mass.   HUET (~.~ Ed. 1990. Logical Foundations of Functional
+    Programming. Addison-Wesley Reading Mass.
+- author: JONES M. P.
+  volume: '582'
+  volume-title: Proceedings of the 1992 European Symposium on Programming
+  year: '1992'
+- unstructured: JONES M.P. 1992b. A theory of qualified types. D.Phil. thesis Programming
+    Research Group Oxford Univ. Oxford England. Published by Oxford University Press
+    1994.  JONES M.P. 1992b. A theory of qualified types. D.Phil. thesis Programming
+    Research Group Oxford Univ. Oxford England. Published by Oxford University Press
+    1994.
+- author: JONES M. P.
+  volume-title: Int. Memo.
+- unstructured: JONES M.P. 1993. Partial Evaluation for dictionary-free overloading.
+    Res. Rep. YALEU/DCS/RR-959 Dept. of Computer Science Yale Univ. New Haven Conn.
+    Apr.  JONES M.P. 1993. Partial Evaluation for dictionary-free overloading. Res.
+    Rep. YALEU/DCS/RR-959 Dept. of Computer Science Yale Univ. New Haven Conn. Apr.
+- unstructured: JONES M. P. 1994. Simplifying and improving qualified types. Res.
+    Rep. YALEU/DCS/RR-1040 Dept. of Computer Science Yale Univ. New Haven Conn. June.  JONES
+    M. P. 1994. Simplifying and improving qualified types. Res. Rep. YALEU/DCS/RR-1040
+    Dept. of Computer Science Yale Univ. New Haven Conn. June.
+- article-title: 'A system of constructor classes: Overloading and implicit higher-order
+    polymorphism'
+  author: JONES~ M. P.
+  doi: 10.1017/S0956796800001210
+  first-page: '1'
+  issue: '1'
+  journal-title: J. Func. Program.
+  volume: '5'
+  year: '1995'
+- author: KAES S.
+  volume: '300'
+  volume-title: Proceedings of the 1988 European Symposium on Programming
+  year: '1988'
+- unstructured: LAUFER~ K. 1992. Polymorphic type inference and abstract data types.
+    Ph.D. thesis New York Univ. New York.   LAUFER~ K. 1992. Polymorphic type inference
+    and abstract data types. Ph.D. thesis New York Univ. New York.
+- doi: 10.1145/186025.186031
+- article-title: A theory of type polymorphism in programming
+  author: MILNER~ R.
+  doi: 10.1016/0022-0000(78)90014-4
+  first-page: '348'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '17'
+  year: '1978'
+- unstructured: MILNER~ R.~ TOFTE~ M.~ AND HARPER~ R. 1990. The Definition of Standard
+    ML. MIT Press Cambridge Mass.   MILNER~ R.~ TOFTE~ M.~ AND HARPER~ R. 1990. The
+    Definition of Standard ML. MIT Press Cambridge Mass.
+- unstructured: MILNER~ R. AND TOFTE~ M. 1991. Commentary on Standard ML. MIT Press
+    Cambridge Mass.   MILNER~ R. AND TOFTE~ M. 1991. Commentary on Standard ML. MIT
+    Press Cambridge Mass.
+- author: NIPKOW~ T.
+  first-page: '409'
+  volume-title: Proceedings of the 20th ACM Symposium on Principles of Programming
+    Languages. ACM
+  year: '1993'
+- author: NIPKOW~ T.
+  volume: '523'
+  volume-title: Proceedings of the 1991 Conference on Functional Programming Languages
+    and Computer Architecture
+  year: '1991'
+- unstructured: PEYTON JONES S. L. 1987. The Implementation of Functional Programming
+    Languages. Prentice- Hall International Englewood Cliffs N.J.   PEYTON JONES S.
+    L. 1987. The Implementation of Functional Programming Languages. Prentice- Hall
+    International Englewood Cliffs N.J.
+- unstructured: PEYTON JONES S.L. AND WADLER P.L. 1991. A static semantics for Haskell.
+    Int. Memo. Dept. of Computing Science Glasgow Univ. Glasgow Scotland.  PEYTON
+    JONES S.L. AND WADLER P.L. 1991. A static semantics for Haskell. Int. Memo. Dept.
+    of Computing Science Glasgow Univ. Glasgow Scotland.
+- author: REYNOLDS J. C.
+  series-title: Lecture Notes in Computer Science
+  volume-title: Proceedings of the Colloque sur la Programmation
+- author: REYNOLDS J. C.
+  series-title: Lecture Notes in Computer Science
+  volume-title: Mathematical Foundations of Software Development
+- author: ROUAIX F.
+  first-page: '355'
+  volume-title: Proceedings of the 17th ACM Symposium on Principles of Programming
+    Languages
+  year: '1990'
+- author: TURNER D.
+  first-page: '1'
+  volume: '201'
+  volume-title: Proceedings of the 1985 Conference on Functional Programming Languages
+    and Computer Architecture
+  year: '1985'
+- author: VOLPANO D. M.
+  first-page: '15'
+  volume: '523'
+  volume-title: Proceedings of the 1991 Conference on Functional Programming Languages
+    and Computer Architecture
+  year: '1991'
+- author: WADLER P. L.
+  first-page: '1'
+  volume-title: Proceedings of the 19th ACM Symposium on Principles of Programming
+    Languages
+  year: '1992'
+- author: WADLER P. L.
+  first-page: '60'
+  volume-title: Proceedings of the 16th ACM Symposium on Principles of Programming
+    Languages
+  year: '1989'
+doi: 10.1145/227699.227700
+files:
+- hall-cordelia-v.-and-hammond-kevin-and-peyton-jones-simon-l.-and-wadler-philip-l.type-classes-in-haskell1996.pdf
+issue: '2'
+journal: ACM Transactions on Programming Languages and Systems
+language: en
+month: 3
+pages: 109--138
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-11-16:44:50
+title: Type classes in Haskell
+type: article
+url: http://dx.doi.org/10.1145/227699.227700
+volume: '18'
+year: 1996

@@ -1,0 +1,37 @@
+abstract: Reinforcement learning (RL) methods usually treat reward functions as black
+  boxes. As such, these methods must extensively interact with the environment in
+  order to discover rewards and optimal policies. In most RL applications, however,
+  users have to program the reward function and, hence, there is the opportunity to
+  treat reward functions as white boxes instead -- to show the reward function's code
+  to the RL agent so it can exploit its internal structures to learn optimal policies
+  faster. In this paper, we show how to accomplish this idea in two steps. First,
+  we propose reward machines (RMs), a type of finite state machine that supports the
+  specification of reward functions while exposing reward function structure. We then
+  describe different methodologies to exploit such structures, including automated
+  reward shaping, task decomposition, and counterfactual reasoning for data augmentation.
+  Experiments on tabular and continuous domains show the benefits of exploiting reward
+  structure across different tasks and RL agents.
+archiveprefix: arXiv
+author: Icarte, Rodrigo Toro and Klassen, Toryn Q. and Valenzano, Richard and McIlraith,
+  Sheila A.
+author_list:
+- family: Icarte
+  given: Rodrigo Toro
+- family: Klassen
+  given: Toryn Q.
+- family: Valenzano
+  given: Richard
+- family: McIlraith
+  given: Sheila A.
+eprint: 2010.03950v1
+file: 2010.03950v1.pdf
+files:
+- icarte-rodrigo-toro-and-klassen-toryn-q.-and-valenzano-richard-and-mcilraith-sheila-a.reward-machines-exploiting-reward-function-structure-in-rei.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2010.03950v1
+time-added: 2021-03-05-18:12:17
+title: 'Reward Machines: Exploiting Reward Function Structure in Reinforcement   Learning'
+type: article
+url: http://arxiv.org/abs/2010.03950v1
+year: '2020'

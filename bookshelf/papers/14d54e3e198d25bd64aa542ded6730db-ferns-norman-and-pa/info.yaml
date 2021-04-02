@@ -1,0 +1,28 @@
+abstract: We present metrics for measuring the similarity of states in a finite Markov
+  decision process (MDP). The formulation of our metrics is based on the notion of
+  bisimulation for MDPs, with an aim towards solving discounted infinite horizon reinforcement
+  learning tasks. Such metrics can be used to aggregate states, as well as to better
+  structure other value function approximators (e.g., memory-based or nearest-neighbor
+  approximators). We provide bounds that relate our metric distances to the optimal
+  values of states in the given MDP.
+archiveprefix: arXiv
+author: Ferns, Norman and Panangaden, Prakash and Precup, Doina
+author_list:
+- family: Ferns
+  given: Norman
+- family: Panangaden
+  given: Prakash
+- family: Precup
+  given: Doina
+eprint: 1207.4114v1
+file: 1207.4114v1.pdf
+files:
+- ferns-norman-and-panangaden-prakash-and-precup-doinametrics-for-finite-markov-decision-processes2012.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 1207.4114v1
+time-added: 2021-03-19-19:53:48
+title: Metrics for Finite Markov Decision Processes
+type: article
+url: http://arxiv.org/abs/1207.4114v1
+year: '2012'

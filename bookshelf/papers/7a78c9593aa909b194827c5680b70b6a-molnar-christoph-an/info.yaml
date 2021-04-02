@@ -1,0 +1,38 @@
+abstract: We present a brief history of the field of interpretable machine learning
+  (IML), give an overview of state-of-the-art interpretation methods, and discuss
+  challenges. Research in IML has boomed in recent years. As young as the field is,
+  it has over 200 years old roots in regression modeling and rule-based machine learning,
+  starting in the 1960s. Recently, many new IML methods have been proposed, many of
+  them model-agnostic, but also interpretation techniques specific to deep learning
+  and tree-based ensembles. IML methods either directly analyze model components,
+  study sensitivity to input perturbations, or analyze local or global surrogate approximations
+  of the ML model. The field approaches a state of readiness and stability, with many
+  methods not only proposed in research, but also implemented in open-source software.
+  But many important challenges remain for IML, such as dealing with dependent features,
+  causal interpretation, and uncertainty estimation, which need to be resolved for
+  its successful application to scientific problems. A further challenge is a missing
+  rigorous definition of interpretability, which is accepted by the community. To
+  address the challenges and advance the field, we urge to recall our roots of interpretable,
+  data-driven modeling in statistics and (rule-based) ML, but also to consider other
+  areas such as sensitivity analysis, causal inference, and the social sciences.
+archiveprefix: arXiv
+author: Molnar, Christoph and Casalicchio, Giuseppe and Bischl, Bernd
+author_list:
+- family: Molnar
+  given: Christoph
+- family: Casalicchio
+  given: Giuseppe
+- family: Bischl
+  given: Bernd
+eprint: 2010.09337v1
+file: 2010.09337v1.pdf
+files:
+- molnar-christoph-and-casalicchio-giuseppe-and-bischl-berndinterpretable-machine-learning-a-brief-history-state-of-the-art-and-challenges2020.pdf
+month: Oct
+primaryclass: stat.ML
+ref: 2010.09337v1
+time-added: 2021-03-28-19:55:05
+title: Interpretable Machine Learning -- A Brief History, State-of-the-Art and   Challenges
+type: article
+url: http://arxiv.org/abs/2010.09337v1
+year: '2020'

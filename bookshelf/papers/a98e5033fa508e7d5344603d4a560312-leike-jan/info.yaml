@@ -1,0 +1,41 @@
+abstract: 'Reinforcement learning (RL) problems are often phrased in terms of Markov
+  decision processes (MDPs). In this thesis we go beyond MDPs and consider RL in environments
+  that are non-Markovian, non-ergodic and only partially observable. Our focus is
+  not on practical algorithms, but rather on the fundamental underlying problems:
+  How do we balance exploration and exploitation? How do we explore optimally? When
+  is an agent optimal? We follow the nonparametric realizable paradigm.   We establish
+  negative results on Bayesian RL agents, in particular AIXI. We show that unlucky
+  or adversarial choices of the prior cause the agent to misbehave drastically. Therefore
+  Legg-Hutter intelligence and balanced Pareto optimality, which depend crucially
+  on the choice of the prior, are entirely subjective. Moreover, in the class of all
+  computable environments every policy is Pareto optimal. This undermines all existing
+  optimality properties for AIXI. However, there are Bayesian approaches to general
+  RL that satisfy objective optimality guarantees: We prove that Thompson sampling
+  is asymptotically optimal in stochastic environments in the sense that its value
+  converges to the value of the optimal policy. We connect asymptotic optimality to
+  regret given a recoverability assumption on the environment that allows the agent
+  to recover from mistakes. Hence Thompson sampling achieves sublinear regret in these
+  environments.   Our results culminate in a formal solution to the grain of truth
+  problem: A Bayesian agent acting in a multi-agent environment learns to predict
+  the other agents'' policies if its prior assigns positive probability to them (the
+  prior contains a grain of truth). We construct a large but limit computable class
+  containing a grain of truth and show that agents based on Thompson sampling over
+  this class converge to play Nash equilibria in arbitrary unknown computable multi-agent
+  environments.'
+archiveprefix: arXiv
+author: Leike, Jan
+author_list:
+- family: Leike
+  given: Jan
+eprint: 1611.08944v1
+file: 1611.08944v1.pdf
+files:
+- leike-jannonparametric-general-reinforcement-learning2016.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1611.08944v1
+time-added: 2021-03-07-21:33:10
+title: Nonparametric General Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1611.08944v1
+year: '2016'

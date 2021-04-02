@@ -1,0 +1,46 @@
+abstract: 'There have been various types of pretraining architectures including autoregressive
+  models (e.g., GPT), autoencoding models (e.g., BERT), and encoder-decoder models
+  (e.g., T5). On the other hand, NLP tasks are different in nature, with three main
+  categories being classification, unconditional generation, and conditional generation.
+  However, none of the pretraining frameworks performs the best for all tasks, which
+  introduces inconvenience for model development and selection. We propose a novel
+  pretraining framework GLM (General Language Model) to address this challenge. Compared
+  to previous work, our architecture has three major benefits: (1) it performs well
+  on classification, unconditional generation, and conditional generation tasks with
+  one single pretrained model; (2) it outperforms BERT-like models on classification
+  due to improved pretrain-finetune consistency; (3) it naturally handles variable-length
+  blank filling which is crucial for many downstream tasks. Empirically, GLM substantially
+  outperforms BERT on the SuperGLUE natural language understanding benchmark with
+  the same amount of pre-training data. Moreover, GLM with 1.25x parameters of BERT-Large
+  achieves the best performance in NLU, conditional and unconditional generation at
+  the same time, which demonstrates its generalizability to different downstream tasks.'
+archiveprefix: arXiv
+author: Du, Zhengxiao and Qian, Yujie and Liu, Xiao and Ding, Ming and Qiu, Jiezhong
+  and Yang, Zhilin and Tang, Jie
+author_list:
+- family: Du
+  given: Zhengxiao
+- family: Qian
+  given: Yujie
+- family: Liu
+  given: Xiao
+- family: Ding
+  given: Ming
+- family: Qiu
+  given: Jiezhong
+- family: Yang
+  given: Zhilin
+- family: Tang
+  given: Jie
+eprint: 2103.10360v1
+file: 2103.10360v1.pdf
+files:
+- du-zhengxiao-and-qian-yujie-and-liu-xiao-and-ding-ming-and-qiu-jiezhong-and-yang-zhilin-and-tang-jieall-nlp-tasks-are-generation-tasks-a-gener.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 2103.10360v1
+time-added: 2021-03-23-19:22:03
+title: 'All NLP Tasks Are Generation Tasks: A General Pretraining Framework'
+type: article
+url: http://arxiv.org/abs/2103.10360v1
+year: '2021'

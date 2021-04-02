@@ -1,0 +1,55 @@
+abstract: 'We present the first massively distributed architecture for deep reinforcement
+  learning. This architecture uses four main components: parallel actors that generate
+  new behaviour; parallel learners that are trained from stored experience; a distributed
+  neural network to represent the value function or behaviour policy; and a distributed
+  store of experience. We used our architecture to implement the Deep Q-Network algorithm
+  (DQN). Our distributed algorithm was applied to 49 games from Atari 2600 games from
+  the Arcade Learning Environment, using identical hyperparameters. Our performance
+  surpassed non-distributed DQN in 41 of the 49 games and also reduced the wall-time
+  required to achieve these results by an order of magnitude on most games.'
+archiveprefix: arXiv
+author: Nair, Arun and Srinivasan, Praveen and Blackwell, Sam and Alcicek, Cagdas
+  and Fearon, Rory and Maria, Alessandro De and Panneershelvam, Vedavyas and Suleyman,
+  Mustafa and Beattie, Charles and Petersen, Stig and Legg, Shane and Mnih, Volodymyr
+  and Kavukcuoglu, Koray and Silver, David
+author_list:
+- family: Nair
+  given: Arun
+- family: Srinivasan
+  given: Praveen
+- family: Blackwell
+  given: Sam
+- family: Alcicek
+  given: Cagdas
+- family: Fearon
+  given: Rory
+- family: Maria
+  given: Alessandro De
+- family: Panneershelvam
+  given: Vedavyas
+- family: Suleyman
+  given: Mustafa
+- family: Beattie
+  given: Charles
+- family: Petersen
+  given: Stig
+- family: Legg
+  given: Shane
+- family: Mnih
+  given: Volodymyr
+- family: Kavukcuoglu
+  given: Koray
+- family: Silver
+  given: David
+eprint: 1507.04296v2
+file: 1507.04296v2.pdf
+files:
+- nair-arun-and-srinivasan-praveen-and-blackwell-sam-and-alcicek-cagdas-and-fearon-rory-and-maria-alessandro-de-and-panneershelvam-vedavyas-and-s.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1507.04296v2
+time-added: 2021-03-07-21:37:59
+title: Massively Parallel Methods for Deep Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1507.04296v2
+year: '2015'

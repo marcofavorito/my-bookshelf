@@ -1,0 +1,41 @@
+abstract: 'Deep reinforcement learning has shown remarkable success in the past few
+  years. Highly complex sequential decision making problems have been solved in tasks
+  such as game playing and robotics. Unfortunately, the sample complexity of most
+  deep reinforcement learning methods is high, precluding their use in some important
+  applications. Model-based reinforcement learning creates an explicit model of the
+  environment dynamics to reduce the need for environment samples. Current deep learning
+  methods use high-capacity networks to solve high-dimensional problems. Unfortunately,
+  high-capacity models typically require many samples, negating the potential benefit
+  of lower sample complexity in model-based methods. A challenge for deep model-based
+  methods is therefore to achieve high predictive power while maintaining low sample
+  complexity. In recent years, many model-based methods have been introduced to address
+  this challenge. In this paper, we survey the contemporary model-based landscape.
+  First we discuss definitions and relations to other fields. We propose a taxonomy
+  based on three approaches: using explicit planning on given transitions, using explicit
+  planning on learned transitions, and end-to-end learning of both planning and transitions.
+  We use these approaches to organize a comprehensive overview of important recent
+  developments such as latent models. We describe methods and benchmarks, and we suggest
+  directions for future work for each of the approaches. Among promising research
+  directions are curriculum learning, uncertainty modeling, and use of latent models
+  for transfer learning.'
+archiveprefix: arXiv
+author: Plaat, Aske and Kosters, Walter and Preuss, Mike
+author_list:
+- family: Plaat
+  given: Aske
+- family: Kosters
+  given: Walter
+- family: Preuss
+  given: Mike
+eprint: 2008.05598v2
+file: 2008.05598v2.pdf
+files:
+- plaat-aske-and-kosters-walter-and-preuss-mikedeep-model-based-reinforcement-learning-for-high-dimensional-problems-a-survey2020.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2008.05598v2
+time-added: 2021-02-25-16:38:07
+title: Deep Model-Based Reinforcement Learning for High-Dimensional Problems, a   Survey
+type: article
+url: http://arxiv.org/abs/2008.05598v2
+year: '2020'

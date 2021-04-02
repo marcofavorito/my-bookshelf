@@ -1,0 +1,45 @@
+abstract: We study contextual multi-armed bandit problems where the context comes
+  from a metric space and the payoff satisfies a Lipschitz condition with respect
+  to the metric. Abstractly, a contextual multi-armed bandit problem models a situation
+  where, in a sequence of independent trials, an online algorithm chooses, based on
+  a given context (side information), an action from a set of possible actions so
+  as to maximize the total payoff of the chosen actions. The payoff depends on both
+  the action chosen and the context. In contrast, context-free multi-armed bandit
+  problems, a focus of much previous research, model situations where no side information
+  is available and the payoff depends only on the action chosen. Our problem is motivated
+  by sponsored web search, where the task is to display ads to a user of an Internet
+  search engine based on her search query so as to maximize the click-through rate
+  (CTR) of the ads displayed. We cast this problem as a contextual multi-armed bandit
+  problem where queries and ads form metric spaces and the payoff function is Lipschitz
+  with respect to both the metrics. For any ε> 0 we present an algorithm with regret
+  O(T^\fraca+b+1a+b+2 + ε) where a,b are the covering dimensions of the query space
+  and the ad space respectively. We prove a lower bound Ω(T^\frac\tildea+\tildeb+1\tildea+\tildeb+2
+  ε) for the regret of any algorithm where \tildea, \tildeb are packing dimensions
+  of the query spaces and the ad space respectively. For finite spaces or convex bounded
+  subsets of Euclidean spaces, this gives an almost matching upper and lower bound.
+address: Chia Laguna Resort, Sardinia, Italy
+author: Lu, Tyler and Pal, David and Pal, Martin
+author_list:
+- family: Lu
+  given: Tyler
+- family: Pal
+  given: David
+- family: Pal
+  given: Martin
+booktitle: Proceedings of the Thirteenth International Conference on Artificial Intelligence
+  and Statistics
+editor: Yee Whye Teh and Mike Titterington
+files:
+- lu-tyler-and-pal-david-and-pal-martincontextual-multi-armed-bandits2010.pdf
+month: 13--15 May
+pages: 485--492
+pdf: http://proceedings.mlr.press/v9/lu10a/lu10a.pdf
+publisher: JMLR Workshop and Conference Proceedings
+ref: pmlr-v9-lu10a
+series: Proceedings of Machine Learning Research
+time-added: 2021-03-11-13:04:00
+title: Contextual Multi-Armed Bandits
+type: inproceedings
+url: http://proceedings.mlr.press/v9/lu10a.html
+volume: '9'
+year: '2010'

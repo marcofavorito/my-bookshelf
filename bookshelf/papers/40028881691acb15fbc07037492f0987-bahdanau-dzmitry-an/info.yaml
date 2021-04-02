@@ -1,0 +1,42 @@
+abstract: Numerous models for grounded language understanding have been recently proposed,
+  including (i) generic models that can be easily adapted to any given task and (ii)
+  intuitively appealing modular models that require background knowledge to be instantiated.
+  We compare both types of models in how much they lend themselves to a particular
+  form of systematic generalization. Using a synthetic VQA test, we evaluate which
+  models are capable of reasoning about all possible object pairs after training on
+  only a small subset of them. Our findings show that the generalization of modular
+  models is much more systematic and that it is highly sensitive to the module layout,
+  i.e. to how exactly the modules are connected. We furthermore investigate if modular
+  models that generalize well could be made more end-to-end by learning their layout
+  and parametrization. We find that end-to-end methods from prior work often learn
+  inappropriate layouts or parametrizations that do not facilitate systematic generalization.
+  Our results suggest that, in addition to modularity, systematic generalization in
+  language understanding may require explicit regularizers or priors.
+archiveprefix: arXiv
+author: Bahdanau, Dzmitry and Murty, Shikhar and Noukhovitch, Michael and Nguyen,
+  Thien Huu and de Vries, Harm and Courville, Aaron
+author_list:
+- family: Bahdanau
+  given: Dzmitry
+- family: Murty
+  given: Shikhar
+- family: Noukhovitch
+  given: Michael
+- family: Nguyen
+  given: Thien Huu
+- family: de Vries
+  given: Harm
+- family: Courville
+  given: Aaron
+eprint: 1811.12889v3
+file: 1811.12889v3.pdf
+files:
+- bahdanau-dzmitry-and-murty-shikhar-and-noukhovitch-michael-and-nguyen-thien-huu-and-de-vries-harm-and-courville-aaronsystematic-generalization.pdf
+month: Nov
+primaryclass: cs.CL
+ref: 1811.12889v3
+time-added: 2021-03-25-15:18:42
+title: 'Systematic Generalization: What Is Required and Can It Be Learned?'
+type: article
+url: http://arxiv.org/abs/1811.12889v3
+year: '2018'

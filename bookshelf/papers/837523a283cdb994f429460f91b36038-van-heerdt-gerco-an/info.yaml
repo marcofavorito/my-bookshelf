@@ -1,0 +1,35 @@
+abstract: 'The classical subset construction for non-deterministic automata can be
+  generalized to other side-effects captured by a monad. The key insight is that both
+  the state space of the determinized automaton and its semantics---languages over
+  an alphabet---have a common algebraic structure: they are Eilenberg-Moore algebras
+  for the powerset monad. In this paper we study the reverse question to determinization.
+  We will present a construction to associate succinct automata to languages based
+  on different algebraic structures. For instance, for classical regular languages
+  the construction will transform a deterministic automaton into a non-deterministic
+  one, where the states represent the join-irreducibles of the language accepted by
+  a (potentially) larger deterministic automaton. Other examples will yield alternating
+  automata, automata with symmetries, CABA-structured automata, and weighted automata.'
+archiveprefix: arXiv
+author: van Heerdt, Gerco and Moerman, Joshua and Sammartino, Matteo and Silva, Alexandra
+author_list:
+- family: van Heerdt
+  given: Gerco
+- family: Moerman
+  given: Joshua
+- family: Sammartino
+  given: Matteo
+- family: Silva
+  given: Alexandra
+doi: 10.1016/j.jlamp.2019.02.008
+eprint: 1905.05519v1
+file: 1905.05519v1.pdf
+files:
+- van-heerdt-gerco-and-moerman-joshua-and-sammartino-matteo-and-silva-alexandraa-co-algebraic-theory-of-succinct-automata2019.pdf
+month: May
+primaryclass: cs.FL
+ref: 1905.05519v1
+time-added: 2021-03-07-10:37:57
+title: A (co)algebraic theory of succinct automata
+type: article
+url: http://arxiv.org/abs/1905.05519v1
+year: '2019'

@@ -1,0 +1,43 @@
+abstract: 'The growing need to deal with massive instances motivates the design of
+  algorithms balancing the quality of the solution with applicability. For the latter,
+  an important measure is the \emph{adaptive complexity}, capturing the number of
+  sequential rounds of parallel computation needed. In this work we obtain the first
+  \emph{constant factor} approximation algorithm for non-monotone submodular maximization
+  subject to a knapsack constraint with \emph{near-optimal} $O(\log n)$ adaptive complexity.
+  Low adaptivity by itself, however, is not enough: one needs to account for the total
+  number of function evaluations (or value queries) as well. Our algorithm asks $\tilde{O}(n^2)$
+  value queries, but can be modified to run with only $\tilde{O}(n)$ instead, while
+  retaining a low adaptive complexity of $O(\log^2n)$. Besides the above improvement
+  in adaptivity, this is also the first \emph{combinatorial} approach with sublinear
+  adaptive complexity for the problem and yields algorithms comparable to the state-of-the-art
+  even for the special cases of cardinality constraints or monotone objectives. Finally,
+  we showcase our algorithms'' applicability on real-world datasets.'
+archiveprefix: arXiv
+author: Amanatidis, Georgios and Fusco, Federico and Lazos, Philip and Leonardi, Stefano
+  and Spaccamela, Alberto Marchetti and Reiffenhäuser, Rebecca
+author_list:
+- family: Amanatidis
+  given: Georgios
+- family: Fusco
+  given: Federico
+- family: Lazos
+  given: Philip
+- family: Leonardi
+  given: Stefano
+- family: Spaccamela
+  given: Alberto Marchetti
+- family: Reiffenhäuser
+  given: Rebecca
+eprint: 2102.08327v1
+file: 2102.08327v1.pdf
+files:
+- amanatidis-georgios-and-fusco-federico-and-lazos-philip-and-leonardi-stefano-and-spaccamela-alberto-marchetti-and-reiffenhauser-rebeccasubmodula.pdf
+month: Feb
+primaryclass: cs.DS
+ref: 2102.08327v1
+time-added: 2021-03-11-11:30:49
+title: 'Submodular Maximization subject to a Knapsack Constraint: Combinatorial   Algorithms
+  with Near-optimal Adaptive Complexity'
+type: article
+url: http://arxiv.org/abs/2102.08327v1
+year: '2021'

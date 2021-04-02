@@ -1,0 +1,39 @@
+abstract: We initiate the study of computing (near-)optimal contracts in succinctly
+  representable principal-agent settings. Here optimality means maximizing the principal's
+  expected payoff over all incentive-compatible contracts---known in economics as
+  "second-best" solutions. We also study a natural relaxation to approximately incentive-compatible
+  contracts.   We focus on principal-agent settings with succinctly described (and
+  exponentially large) outcome spaces. We show that the computational complexity of
+  computing a near-optimal contract depends fundamentally on the number of agent actions.
+  For settings with a constant number of actions, we present a fully polynomial-time
+  approximation scheme (FPTAS) for the separation oracle of the dual of the problem
+  of minimizing the principal's payment to the agent, and use this subroutine to efficiently
+  compute a delta-incentive-compatible (delta-IC) contract whose expected payoff matches
+  or surpasses that of the optimal IC contract.   With an arbitrary number of actions,
+  we prove that the problem is hard to approximate within any constant c. This inapproximability
+  result holds even for delta-IC contracts where delta is a sufficiently rapidly-decaying
+  function of c. On the positive side, we show that simple linear delta-IC contracts
+  with constant delta are sufficient to achieve a constant-factor approximation of
+  the "first-best" (full-welfare-extracting) solution, and that such a contract can
+  be computed in polynomial time.
+archiveprefix: arXiv
+author: Duetting, Paul and Roughgarden, Tim and Talgam-Cohen, Inbal
+author_list:
+- family: Duetting
+  given: Paul
+- family: Roughgarden
+  given: Tim
+- family: Talgam-Cohen
+  given: Inbal
+eprint: 2002.12034v1
+file: 2002.12034v1.pdf
+files:
+- duetting-paul-and-roughgarden-tim-and-talgam-cohen-inbalthe-complexity-of-contracts2020.pdf
+month: Feb
+primaryclass: cs.DS
+ref: 2002.12034v1
+time-added: 2021-03-11-11:38:38
+title: The Complexity of Contracts
+type: article
+url: http://arxiv.org/abs/2002.12034v1
+year: '2020'

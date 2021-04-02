@@ -1,0 +1,48 @@
+abstract: We present a general framework for applying machine-learning algorithms
+  to the verification of Markov decision processes (MDPs). The primary goal of these
+  techniques is to improve performance by avoiding an exhaustive exploration of the
+  state space. Our framework focuses on probabilistic reachability, which is a core
+  property for verification, and is illustrated through two distinct instantiations.
+  The first assumes that full knowledge of the MDP is available, and performs a heuristic-driven
+  partial exploration of the model, yielding precise lower and upper bounds on the
+  required probability. The second tackles the case where we may only sample the MDP,
+  and yields probabilistic guarantees, again in terms of both the lower and upper
+  bounds, which provides efficient stopping criteria for the approximation. The latter
+  is the first extension of statistical model-checking for unbounded properties in
+  MDPs. In contrast with other related approaches, we do not restrict our attention
+  to time-bounded (finite-horizon) or discounted properties, nor assume any particular
+  properties of the MDP. We also show how our techniques extend to LTL objectives.
+  We present experimental results showing the performance of our framework on several
+  examples.
+archiveprefix: arXiv
+author: Brázdil, Tomáš and Chatterjee, Krishnendu and Chmelík, Martin and Forejt,
+  Vojtěch and Křetínský, Jan and Kwiatkowska, Marta and Parker, David and Ujma, Mateusz
+author_list:
+- family: Brázdil
+  given: Tomáš
+- family: Chatterjee
+  given: Krishnendu
+- family: Chmelík
+  given: Martin
+- family: Forejt
+  given: Vojtěch
+- family: Křetínský
+  given: Jan
+- family: Kwiatkowska
+  given: Marta
+- family: Parker
+  given: David
+- family: Ujma
+  given: Mateusz
+eprint: 1402.2967v3
+file: 1402.2967v3.pdf
+files:
+- brazdil-tomas-and-chatterjee-krishnendu-and-chmelik-martin-and-forejt-vojtech-and-kretinsky-jan-and-kwiatkowska-marta-and-parker-david-and-ujma.pdf
+month: Feb
+primaryclass: cs.LO
+ref: 1402.2967v3
+time-added: 2021-03-11-16:57:10
+title: Verification of Markov Decision Processes using Learning Algorithms
+type: article
+url: http://arxiv.org/abs/1402.2967v3
+year: '2014'

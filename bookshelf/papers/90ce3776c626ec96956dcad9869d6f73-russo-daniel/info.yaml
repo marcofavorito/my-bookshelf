@@ -1,0 +1,36 @@
+abstract: This paper considers the optimal adaptive allocation of measurement effort
+  for identifying the best among a finite set of options or designs. An experimenter
+  sequentially chooses designs to measure and observes noisy signals of their quality
+  with the goal of confidently identifying the best design after a small number of
+  measurements. This paper proposes three simple and intuitive Bayesian algorithms
+  for adaptively allocating measurement effort, and formalizes a sense in which these
+  seemingly naive rules are the best possible. One proposal is top-two probability
+  sampling, which computes the two designs with the highest posterior probability
+  of being optimal, and then randomizes to select among these two. One is a variant
+  of top-two sampling which considers not only the probability a design is optimal,
+  but the expected amount by which its quality exceeds that of other designs. The
+  final algorithm is a modified version of Thompson sampling that is tailored for
+  identifying the best design. We prove that these simple algorithms satisfy a sharp
+  optimality property. In a frequentist setting where the true quality of the designs
+  is fixed, one hopes the posterior definitively identifies the optimal design, in
+  the sense that that the posterior probability assigned to the event that some other
+  design is optimal converges to zero as measurements are collected. We show that
+  under the proposed algorithms this convergence occurs at an exponential rate, and
+  the corresponding exponent is the best possible among all allocation
+archiveprefix: arXiv
+author: Russo, Daniel
+author_list:
+- family: Russo
+  given: Daniel
+eprint: 1602.08448v4
+file: 1602.08448v4.pdf
+files:
+- russo-danielsimple-bayesian-algorithms-for-best-arm-identification2016.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 1602.08448v4
+time-added: 2021-03-11-17:21:02
+title: Simple Bayesian Algorithms for Best Arm Identification
+type: article
+url: http://arxiv.org/abs/1602.08448v4
+year: '2016'

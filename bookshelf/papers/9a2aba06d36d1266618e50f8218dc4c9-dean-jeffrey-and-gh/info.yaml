@@ -1,0 +1,64 @@
+abstract: <jats:p>MapReduce advantages over parallel databases include storage-system
+  independence and fine-grain fault tolerance for large jobs.</jats:p>
+author: Dean, Jeffrey and Ghemawat, Sanjay
+author_list:
+- affiliation:
+  - name: Systems Infrastructure Group of Google, Mountain View, CA
+  family: Dean
+  given: Jeffrey
+- affiliation:
+  - name: Systems Infrastructure Group of Google, Mountain View, CA
+  family: Ghemawat
+  given: Sanjay
+citations:
+- doi: 10.14778/1687627.1687731
+- unstructured: Aster Data Systems Inc. In-Database MapReduce for Rich Analytics;
+    http://www.asterdata.com/product/mapreduce.php.  Aster Data Systems Inc. In-Database
+    MapReduce for Rich Analytics ; http://www.asterdata.com/product/mapreduce.php.
+- author: Chang F.
+  volume-title: Proceedings of the Seventh Symposium on Operating System Design and
+    Implementation
+  year: '2006'
+- author: Dean J.
+  volume-title: Proceedings of the Sixth Symposium on Operating System Design and
+    Implementation
+  year: '2004'
+- unstructured: 'Dewitt D. and Stonebraker M. MapReduce: A Major Step Backwards blogpost;
+    http://databasecolumn.vertica.com/database-innovation/mapreduce-a-major-step-backwards/  Dewitt
+    D. and Stonebraker M. MapReduce: A Major Step Backwards blogpost; http://databasecolumn.vertica.com/database-innovation/mapreduce-a-major-step-backwards/'
+- unstructured: Dewitt D. and Stonebraker M. MapReduce II blogpost; http://databasecolumn.vertica.com/database-innovation/mapreduce-ii/  Dewitt
+    D. and Stonebraker M. MapReduce II blogpost; http://databasecolumn.vertica.com/database-innovation/mapreduce-ii/
+- doi: 10.1145/945445.945450
+- unstructured: 'Google. Protocol Buffers: Google''s Data Interchange Format. Documentation
+    and open source release; http://code.google.com/p/protobuf/  Google. Protocol
+    Buffers: Google''s Data Interchange Format. Documentation and open source release;
+    http://code.google.com/p/protobuf/'
+- unstructured: 'Greenplum. Greenplum MapReduce: Bringing Next-Generation Analytics
+    Technology to the Enterprise; http://www.greenplum.com/resources/mapreduce/  Greenplum.
+    Greenplum MapReduce: Bringing Next-Generation Analytics Technology to the Enterprise;
+    http://www.greenplum.com/resources/mapreduce/'
+- unstructured: Hadoop. Documentation and open source release; http://hadoop.apache.org/core/  Hadoop.
+    Documentation and open source release; http://hadoop.apache.org/core/
+- unstructured: Hadoop. Users list; http://wiki.apache.org/hadoop/PoweredBy  Hadoop.
+    Users list; http://wiki.apache.org/hadoop/PoweredBy
+- doi: 10.1145/1376616.1376726
+- doi: 10.1145/1559845.1559865
+- author: Pike R.
+  first-page: '227'
+  journal-title: Infrastructure
+  volume: '13'
+doi: 10.1145/1629175.1629198
+files:
+- dean-jeffrey-and-ghemawat-sanjaymapreduce2010.pdf
+issue: '1'
+journal: Communications of the ACM
+language: en
+month: 1
+pages: 72--77
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-11-16:48:30
+title: MapReduce
+type: article
+url: http://dx.doi.org/10.1145/1629175.1629198
+volume: '53'
+year: 2010

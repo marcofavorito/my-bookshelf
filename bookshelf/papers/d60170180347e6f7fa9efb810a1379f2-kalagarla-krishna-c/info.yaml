@@ -1,0 +1,35 @@
+abstract: We present a method to find an optimal policy with respect to a reward function
+  for a discounted Markov Decision Process under general linear temporal logic (LTL)
+  specifications. Previous work has either focused on maximizing a cumulative reward
+  objective under finite-duration tasks, specified by syntactically co-safe LTL, or
+  maximizing an average reward for persistent (e.g., surveillance) tasks. This paper
+  extends and generalizes these results by introducing a pair of occupancy measures
+  to express the LTL satisfaction objective and the expected discounted reward objective,
+  respectively. These occupancy measures are then connected to a single policy via
+  a novel reduction resulting in a mixed integer linear program whose solution provides
+  an optimal policy. Our formulation can also be extended to include additional constraints
+  with respect to secondary reward functions. We illustrate the effectiveness of our
+  approach in the context of robotic motion planning for complex missions under uncertainty
+  and performance objectives.
+archiveprefix: arXiv
+author: Kalagarla, Krishna C. and Jain, Rahul and Nuzzo, Pierluigi
+author_list:
+- family: Kalagarla
+  given: Krishna C.
+- family: Jain
+  given: Rahul
+- family: Nuzzo
+  given: Pierluigi
+eprint: 2011.00632v1
+file: 2011.00632v1.pdf
+files:
+- kalagarla-krishna-c.-and-jain-rahul-and-nuzzo-pierluigisynthesis-of-discounted-reward-optimal-policies-for-markov-decision-processes-under-linear.pdf
+month: Nov
+primaryclass: eess.SY
+ref: 2011.00632v1
+time-added: 2021-03-08-18:11:17
+title: Synthesis of Discounted-Reward Optimal Policies for Markov Decision   Processes
+  Under Linear Temporal Logic Specifications
+type: article
+url: http://arxiv.org/abs/2011.00632v1
+year: '2020'

@@ -1,0 +1,39 @@
+abstract: Model-free reinforcement learning is known to be memory and computation
+  efficient and more amendable to large scale problems. In this paper, two model-free
+  algorithms are introduced for learning infinite-horizon average-reward Markov Decision
+  Processes (MDPs). The first algorithm reduces the problem to the discounted-reward
+  version and achieves $\mathcal{O}(T^{2/3})$ regret after $T$ steps, under the minimal
+  assumption of weakly communicating MDPs. To our knowledge, this is the first model-free
+  algorithm for general MDPs in this setting. The second algorithm makes use of recent
+  advances in adaptive algorithms for adversarial multi-armed bandits and improves
+  the regret to $\mathcal{O}(\sqrt{T})$, albeit with a stronger ergodic assumption.
+  This result significantly improves over the $\mathcal{O}(T^{3/4})$ regret achieved
+  by the only existing model-free algorithm by Abbasi-Yadkori et al. (2019a) for ergodic
+  MDPs in the infinite-horizon average-reward setting.
+archiveprefix: arXiv
+author: Wei, Chen-Yu and Jafarnia-Jahromi, Mehdi and Luo, Haipeng and Sharma, Hiteshi
+  and Jain, Rahul
+author_list:
+- family: Wei
+  given: Chen-Yu
+- family: Jafarnia-Jahromi
+  given: Mehdi
+- family: Luo
+  given: Haipeng
+- family: Sharma
+  given: Hiteshi
+- family: Jain
+  given: Rahul
+eprint: 1910.07072v2
+file: 1910.07072v2.pdf
+files:
+- wei-chen-yu-and-jafarnia-jahromi-mehdi-and-luo-haipeng-and-sharma-hiteshi-and-jain-rahulmodel-free-reinforcement-learning-in-infinite-horizon-ave.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 1910.07072v2
+time-added: 2021-03-11-17:16:44
+title: Model-free Reinforcement Learning in Infinite-horizon Average-reward   Markov
+  Decision Processes
+type: article
+url: http://arxiv.org/abs/1910.07072v2
+year: '2019'

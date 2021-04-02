@@ -1,0 +1,32 @@
+abstract: Higher-order recursion schemes are an expressive formalism used to define
+  languages of possibly infinite ranked trees. They extend regular and context-free
+  grammars, and are equivalent to simply typed $\lambda Y$-calculus and collapsible
+  pushdown automata. In this work we prove, under a syntactical constraint called
+  safety, decidability of the model-checking problem for recursion schemes against
+  properties defined by alternating B-automata, an extension of alternating parity
+  automata for infinite trees with a boundedness acceptance condition. We then exploit
+  this result to show how to compute downward closures of languages of finite trees
+  recognized by safe recursion schemes.
+archiveprefix: arXiv
+author: Barozzini, David and Clemente, Lorenzo and Colcombet, Thomas and Parys, Paweł
+author_list:
+- family: Barozzini
+  given: David
+- family: Clemente
+  given: Lorenzo
+- family: Colcombet
+  given: Thomas
+- family: Parys
+  given: Paweł
+eprint: 2004.12187v1
+file: 2004.12187v1.pdf
+files:
+- barozzini-david-and-clemente-lorenzo-and-colcombet-thomas-and-parys-pawelcost-automata-safe-schemes-and-downward-closures2020.pdf
+month: Apr
+primaryclass: cs.FL
+ref: 2004.12187v1
+time-added: 2021-03-11-16:49:27
+title: Cost Automata, Safe Schemes, and Downward Closures
+type: article
+url: http://arxiv.org/abs/2004.12187v1
+year: '2020'

@@ -1,0 +1,223 @@
+abstract: "<jats:p>\n            A high-level, knowledge-based approach for deriving\
+  \ a family of protocols for the\n            <jats:italic>sequence transmission</jats:italic>\n\
+  \            problem is presented. The protocols of Aho et al. [2, 3], the Alternating\
+  \ Bit protocol [5], and Stenning's protocol [44] are all instances of one knowledge-based\
+  \ protocol that is derived. The derivation in this paper leads to transparent and\
+  \ uniform correctness proofs for all these protocols.\n          </jats:p>"
+author: Halpern, Joseph Y. and Zuck, Lenore D.
+author_list:
+- affiliation:
+  - name: IBM Almaden Research Center, San Jose, CA
+  family: Halpern
+  given: Joseph Y.
+- affiliation:
+  - name: Yale Univ., New Haven, CT
+  family: Zuck
+  given: Lenore D.
+citations:
+- author: AFEK Y.
+  first-page: '131'
+  volume-title: Proceedings of the 7th A CM Symposium on Prmciples of Distributed
+    Computing
+  year: '1988'
+- article-title: Bounds on the size and transmission rate of communication protocols
+  author: AHO A. V.
+  first-page: '3'
+  journal-title: Comput. Math. Appl.
+  volume: '8'
+  year: '1982'
+- author: AHO A. V.
+  first-page: '267'
+  volume-title: Proceedings of the 20th IEEE Symposium on Foundations of Computer
+    Science. IEEE
+  year: '1979'
+- author: ATTIYA C.
+  volume-title: Reliable communication usmg unreliable channels. Unpubhshed manuscript
+  year: '1988'
+- doi: 10.1145/362946.362970
+- author: BOCHMANN G. V.
+  first-page: '229'
+  volume-title: Information Processing 77, North-Holland
+  year: '1977'
+- unstructured: BOCHMANN G. V. AND SUNSHINE C.A. Formal methods is communication protocol
+    design IEEE Trans. Commun. COM-28 (1980) 624-631.  BOCHMANN G. V. AND SUNSHINE
+    C.A. Formal methods is communication protocol design IEEE Trans. Commun. COM-28
+    (1980) 624-631.
+- doi: 10.1007/BF01843569
+- author: CLARK D. D.
+  first-page: '353'
+  volume-title: SigComm 87 Workshop.
+  year: '1987'
+- doi: 10.1145/5397.5399
+- doi: 10.1016/0890-5401(90)90014-9
+- doi: 10.1145/128749.150945
+- author: FISCHER M. J.
+  first-page: '171'
+  volume-title: Cahf.
+  year: '1986'
+- author: FITTING M.
+  first-page: '113'
+  volume-title: J.-L. Lassez and G. Plotkin, ed, Computational Logic, Essays in Honor
+    of Alan Robinson
+  year: '1991'
+- author: GAFNI E.
+  first-page: 1.1.1
+  volume-title: Proceedings of IEEE MILCOM'86
+  year: '1986'
+- article-title: On deadlock detection in distributed systems
+  author: GLIGOR V. D.
+  doi: 10.1109/TSE.1980.230491
+  first-page: '435'
+  journal-title: IEEE Trans. Softw. Eng. SE-6
+  volume: '5'
+  year: '1980'
+- article-title: A simple protocol whose proof isn't
+  author: GOUDA M.
+  first-page: '382'
+  journal-title: IEEE Trans. Commun. COM-33
+  volume: '4'
+  year: '1985'
+- author: GROVE A.
+  first-page: '301'
+  volume-title: 'Principles of Knowledge Representation and Reasoning: Proceedings
+    of the 2nd International Conference. Morgan-Kaufmann, San Mateo, Calif.'
+  year: '1991'
+- author: HADZILACOS V.
+  first-page: '129'
+  volume-title: Proceedings of the 6th A CM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems
+  year: '1987'
+- article-title: A simple protocol whose proof isn't
+  author: HAILPERN B. T
+  doi: 10.1109/TCOM.1985.1096306
+  first-page: '330'
+  journal-title: IEEE Trans. Commun. COM-33
+  volume: '4'
+  year: '1985'
+- article-title: Modular verificatlon of communication protocols
+  author: HAILPERN B. T.
+  doi: 10.1109/TCOM.1983.1095720
+  first-page: '56'
+  journal-title: IEEE Trans. Commun. COM-31
+  volume: '1'
+  year: '1983'
+- author: HALPERN J.Y.
+  first-page: '37'
+  volume: '2'
+  volume-title: Annual Review of Computer Science
+  year: '1987'
+- author: HALPERN J. Y.
+  first-page: '224'
+  volume-title: Proceedings of the 4th A CM Symposium on Principles of Distributed
+    Computing. (Minaki, Ont., Canada, Aug. 5-7). ACM
+  year: '1985'
+- article-title: Modeling knowledge and action in distributed systems
+  author: HALPERN J. Y.
+  first-page: '4'
+  journal-title: Dist. Computing
+  volume: '3'
+  year: '1989'
+- doi: 10.1145/79147.79161
+- author: HALPERN J. Y.
+  first-page: '132'
+  volume-title: Proceedings of the 20th A CM Symposium on Theory of Computing
+  year: '1988'
+- author: HALPERN J. Y.
+  first-page: '333'
+  volume-title: Proceedings of the 9th A CM Symposium on Principles of Distributed
+    Computing. (Quebec City, Que., Canada, Aug. 22-24)
+  year: '1990'
+- doi: 10.1016/0022-0000(89)90039-1
+- author: LADNER R.
+  first-page: '207'
+  volume-title: Calif.
+  year: '1986'
+- author: LYNCH N. A.
+  first-page: '149'
+  volume-title: Proceedings of the 7th A CM Symposium on Principles of Distributed
+    Computing
+  year: '1988'
+- author: MAZER M. S.
+  first-page: '309'
+  volume-title: Proceedings of the 2nd Conference on Theoretical Aspects of Reasoning
+    about Knowledge. Morgan-Kaufmann, San Mateo, Calif.
+  year: '1988'
+- author: MAZER M.S.
+  first-page: '289'
+  volume-title: Proceedings of the 3rd Conference on Theoretical Aspects of Reasoning
+    about Knowledge. Morgan-Kaufmann, San Mateo, Calif.
+  year: '1990'
+- article-title: A methodology for the design and implementation of communication
+    protocols
+  author: MERHN P.M
+  first-page: '614'
+  journal-title: IEEE Trans. Commun. COM-24
+  volume: '4'
+  year: '1976'
+- author: Y.
+  volume-title: Knowledge in a distributed environment. Ph D dissertation
+  year: '1986'
+- article-title: Programming sxmultaneous actions using common knowledge
+  author: MOSES Y.
+  doi: 10.1007/BF01762112
+  first-page: '121'
+  journal-title: Algorithmica
+  volume: '3'
+  year: '1988'
+- author: NEIGER G.
+  first-page: '281'
+  volume-title: Proceedings of the 6th Annual A CM Symposlum of Principles of Distributed
+    Computing
+  year: '1987'
+- doi: 10.1145/357172.357178
+- author: PAR~KH R.
+  first-page: '256'
+  volume-title: Proceedings of the Workshop on Logics of Programs. Springer-Verlag
+  year: '1985'
+- author: PNUF~LT A.
+  first-page: '46'
+  volume-title: Proceedings of the 18th {EEE Symposmm on Foundations of Conwuter Science.
+    IEEE
+  year: '1977'
+- author: QUEILLE J. P.
+  doi: 10.1007/3-540-11494-7_22
+  first-page: '337'
+  series-title: Lecture Notes in Computer Science, rot 157
+  volume-title: Proceedings of the 5th International Symposium on Programming
+  year: '1982'
+- article-title: From state machines to temporal logic. Specification methods for
+    protocol standards
+  author: SCHWARTZ R. L.
+  doi: 10.1109/TCOM.1982.1095451
+  first-page: '2486'
+  journal-title: IEEE Trans. Comrnun. COM-30
+  volume: '12'
+  year: '1982'
+- article-title: A data transfer protocol
+  author: STF NG, M
+  first-page: '99'
+  journal-title: Comput. Netw.
+  volume: '1'
+  year: '1976'
+- article-title: Formal techniques for protocol ~pecificat~on and verification
+  author: SUNSHINE C.A
+  doi: 10.1109/MC.1979.1658889
+  first-page: '20'
+  journal-title: IEEE Comput.
+  volume: '12'
+  year: '1979'
+doi: 10.1145/146637.146638
+files:
+- halpern-joseph-y.-and-zuck-lenore-d.a-little-knowledge-goes-a-long-way1992.pdf
+issue: '3'
+journal: Journal of the ACM
+language: en
+month: 7
+pages: 449--478
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-01-18:51:10
+title: A little knowledge goes a long way
+type: article
+url: http://dx.doi.org/10.1145/146637.146638
+volume: '39'
+year: 1992

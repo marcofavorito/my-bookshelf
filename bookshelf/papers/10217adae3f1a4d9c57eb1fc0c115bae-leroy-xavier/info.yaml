@@ -1,0 +1,82 @@
+abstract: '<jats:p>This paper reports on the development and formal verification (proof
+  of semantic preservation) of CompCert, a compiler from Clight (a large subset of
+  the C programming language) to PowerPC assembly code, using the Coq proof assistant
+  both for programming the compiler and for proving its correctness. Such a verified
+  compiler is useful in the context of critical software and its formal verification:
+  the verification of the compiler guarantees that the safety properties proved on
+  the source code hold for the executable compiled code as well.</jats:p>'
+author: Leroy, Xavier
+author_list:
+- affiliation:
+  - name: INRIA Paris-Rocquencourt, France
+  family: Leroy
+  given: Xavier
+citations:
+- doi: 10.5555/871816.871860
+- doi: 10.5555/1792233.1792236
+- doi: 10.1007/978-3-662-07964-5
+  unstructured: ']]Bertot Y. Castéran P. Interactive Theorem Proving and Program Development---Coq''Art:
+    The Calculus of Inductive Constructions (2004) Springer.   ]]Bertot Y. Castéran
+    P. Interactive Theorem Proving and Program Development---Coq''Art: The Calculus
+    of Inductive Constructions (2004) Springer.'
+- doi: 10.1007/11813040_31
+- doi: 10.1007/s10817-009-9148-3
+  unstructured: ']]Blazy S. Leroy X. Mechanized semantics for the Clight subset of
+    the C language. J. Autom. Reasoning (2009). Accepted for publication to appear.  ]]Blazy
+    S. Leroy X. Mechanized semantics for the Clight subset of the C language. J. Autom.
+    Reasoning (2009). Accepted for publication to appear.'
+- doi: 10.1145/800230.806984
+- unstructured: ']]Coq development team. The Coq proof assistant. Available at http://coq.inria.fr/
+    1989--2009.  ]]Coq development team. The Coq proof assistant. Available at http://coq.inria.fr/
+    1989--2009.'
+- doi: 10.1145/966221.966235
+- doi: 10.1145/229542.229546
+- author: Hales T.C.
+  first-page: '11'
+  journal-title: Notices AMS
+  volume: '55'
+  year: '2008'
+- doi: 10.1145/1111037.1111042
+- unstructured: ']]Leroy X. The CompCert verified compiler software and commented
+    proof. Available at http://compcert.inria.fr/ Aug.2008.  ]]Leroy X. The CompCert
+    verified compiler software and commented proof. Available at http://compcert.inria.fr/
+    Aug.2008.'
+- author: Leroy X.
+  volume-title: July
+  year: '2008'
+- doi: 10.1007/s10817-008-9099-0
+- doi: 10.1007/978-3-540-69407-6_39
+- author: McCarthy J.
+  series-title: Proceedings of Symposia in Applied Mathematics (1967)
+  volume-title: Mathematical Aspects of Computer Science
+- author: Milner R.
+  volume: '7'
+  volume-title: Proceedings of 7th Annual Machine Intelligence Workshop
+  year: '1972'
+- doi: 10.1145/319301.319345
+- doi: 10.1145/263699.263712
+- doi: 10.1145/349299.349314
+- author: Necula G.C.
+  series-title: LNCS (2002)
+  volume-title: Compiler Construction
+- author: Pnueli A.
+  series-title: LNCS (1998)
+  volume-title: Tools and Algorithms for Construction and Analysis of Systems, TACAS
+    '98
+- doi: 10.1145/1328438.1328444
+- doi: 10.1145/1542476.1542512
+doi: 10.1145/1538788.1538814
+files:
+- leroy-xavierformal-verification-of-a-realistic-compiler2009.pdf
+issue: '7'
+journal: Communications of the ACM
+language: en
+month: 7
+pages: 107--115
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-11-16:46:59
+title: Formal verification of a realistic compiler
+type: article
+url: http://dx.doi.org/10.1145/1538788.1538814
+volume: '52'
+year: 2009

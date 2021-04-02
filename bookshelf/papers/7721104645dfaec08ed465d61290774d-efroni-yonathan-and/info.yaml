@@ -1,0 +1,38 @@
+abstract: In many sequential decision-making problems, the goal is to optimize a utility
+  function while satisfying a set of constraints on different utilities. This learning
+  problem is formalized through Constrained Markov Decision Processes (CMDPs). In
+  this paper, we investigate the exploration-exploitation dilemma in CMDPs. While
+  learning in an unknown CMDP, an agent should trade-off exploration to discover new
+  information about the MDP, and exploitation of the current knowledge to maximize
+  the reward while satisfying the constraints. While the agent will eventually learn
+  a good or optimal policy, we do not want the agent to violate the constraints too
+  often during the learning process. In this work, we analyze two approaches for learning
+  in CMDPs. The first approach leverages the linear formulation of CMDP to perform
+  optimistic planning at each episode. The second approach leverages the dual formulation
+  (or saddle-point formulation) of CMDP to perform incremental, optimistic updates
+  of the primal and dual variables. We show that both achieves sublinear regret w.r.t.\
+  the main utility while having a sublinear regret on the constraint violations. That
+  being said, we highlight a crucial difference between the two approaches; the linear
+  programming approach results in stronger guarantees than in the dual formulation
+  based approach.
+archiveprefix: arXiv
+author: Efroni, Yonathan and Mannor, Shie and Pirotta, Matteo
+author_list:
+- family: Efroni
+  given: Yonathan
+- family: Mannor
+  given: Shie
+- family: Pirotta
+  given: Matteo
+eprint: 2003.02189v1
+file: 2003.02189v1.pdf
+files:
+- efroni-yonathan-and-mannor-shie-and-pirotta-matteoexploration-exploitation-in-constrained-mdps2020.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2003.02189v1
+time-added: 2021-03-17-08:44:37
+title: Exploration-Exploitation in Constrained MDPs
+type: article
+url: http://arxiv.org/abs/2003.02189v1
+year: '2020'

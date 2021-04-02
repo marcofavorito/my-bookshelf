@@ -1,0 +1,39 @@
+abstract: We provide the first solution for model-free reinforcement learning of {\omega}-regular
+  objectives for Markov decision processes (MDPs). We present a constructive reduction
+  from the almost-sure satisfaction of {\omega}-regular objectives to an almost- sure
+  reachability problem and extend this technique to learning how to control an unknown
+  model so that the chance of satisfying the objective is maximized. A key feature
+  of our technique is the compilation of {\omega}-regular properties into limit- deterministic
+  Buechi automata instead of the traditional Rabin automata; this choice sidesteps
+  difficulties that have marred previous proposals. Our approach allows us to apply
+  model-free, off-the-shelf reinforcement learning algorithms to compute optimal strategies
+  from the observations of the MDP. We present an experimental evaluation of our technique
+  on benchmark learning problems.
+archiveprefix: arXiv
+author: Hahn, Ernst Moritz and Perez, Mateo and Schewe, Sven and Somenzi, Fabio and
+  Trivedi, Ashutosh and Wojtczak, Dominik
+author_list:
+- family: Hahn
+  given: Ernst Moritz
+- family: Perez
+  given: Mateo
+- family: Schewe
+  given: Sven
+- family: Somenzi
+  given: Fabio
+- family: Trivedi
+  given: Ashutosh
+- family: Wojtczak
+  given: Dominik
+eprint: 1810.00950v1
+file: 1810.00950v1.pdf
+files:
+- hahn-ernst-moritz-and-perez-mateo-and-schewe-sven-and-somenzi-fabio-and-trivedi-ashutosh-and-wojtczak-dominikomega-regular-objectives-in-model-f.pdf
+month: Sep
+primaryclass: cs.LO
+ref: 1810.00950v1
+time-added: 2021-03-08-18:00:40
+title: Omega-Regular Objectives in Model-Free Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1810.00950v1
+year: '2018'

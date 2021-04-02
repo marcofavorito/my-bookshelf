@@ -1,0 +1,35 @@
+abstract: We propose a novel consensus protocol based on a hybrid approach, that combines
+  a directed acyclic graph (DAG) and a classical chain of blocks. This architecture
+  allows us to enforce collective block construction, minimising the monopolistic
+  power of the round-leader. In this way, we decrease the possibility for collusion
+  among senders and miners, as well as miners themselves, allowing the use of more
+  incentive compatible and fair pricing strategies. We investigate these possibilities
+  alongside the ability to use the DAG structure to minimise the risk of transaction
+  censoring. We conclude by providing preliminary benchmarks of our protocol and by
+  exploring further research directions.
+archiveprefix: arXiv
+author: Abram, Marcin and Galindo, David and Honerkamp, Daniel and Ward, Jonathan
+  and Wong, Jin-Mann
+author_list:
+- family: Abram
+  given: Marcin
+- family: Galindo
+  given: David
+- family: Honerkamp
+  given: Daniel
+- family: Ward
+  given: Jonathan
+- family: Wong
+  given: Jin-Mann
+eprint: 2006.05390v1
+file: 2006.05390v1.pdf
+files:
+- abram-marcin-and-galindo-david-and-honerkamp-daniel-and-ward-jonathan-and-wong-jin-manndemocratising-blockchain-a-minimal-agency-consensus-model.pdf
+month: Jun
+primaryclass: cs.CR
+ref: 2006.05390v1
+time-added: 2021-02-23-15:24:28
+title: 'Democratising blockchain: A minimal agency consensus model'
+type: article
+url: http://arxiv.org/abs/2006.05390v1
+year: '2020'

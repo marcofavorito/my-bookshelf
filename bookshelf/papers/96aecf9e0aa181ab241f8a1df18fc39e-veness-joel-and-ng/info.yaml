@@ -1,0 +1,34 @@
+abstract: This paper introduces a principled approach for the design of a scalable
+  general reinforcement learning agent. This approach is based on a direct approximation
+  of AIXI, a Bayesian optimality notion for general reinforcement learning agents.
+  Previously, it has been unclear whether the theory of AIXI could motivate the design
+  of practical algorithms. We answer this hitherto open question in the affirmative,
+  by providing the first computationally feasible approximation to the AIXI agent.
+  To develop our approximation, we introduce a Monte Carlo Tree Search algorithm along
+  with an agent-specific extension of the Context Tree Weighting algorithm. Empirically,
+  we present a set of encouraging results on a number of stochastic, unknown, and
+  partially observable domains.
+archiveprefix: arXiv
+author: Veness, Joel and Ng, Kee Siong and Hutter, Marcus and Silver, David
+author_list:
+- family: Veness
+  given: Joel
+- family: Ng
+  given: Kee Siong
+- family: Hutter
+  given: Marcus
+- family: Silver
+  given: David
+eprint: 1007.2049v1
+file: 1007.2049v1.pdf
+files:
+- veness-joel-and-ng-kee-siong-and-hutter-marcus-and-silver-davidreinforcement-learning-via-aixi-approximation2010.pdf
+month: Jul
+note: Proc. 24th AAAI Conference on Artificial Intelligence (AAAI 2010)   pages 605-611
+primaryclass: cs.LG
+ref: 1007.2049v1
+time-added: 2021-03-07-21:47:56
+title: Reinforcement Learning via AIXI Approximation
+type: article
+url: http://arxiv.org/abs/1007.2049v1
+year: '2010'

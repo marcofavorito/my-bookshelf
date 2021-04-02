@@ -1,0 +1,34 @@
+abstract: 'We consider a discounted infinite horizon optimal stopping problem. If
+  the underlying distribution is known a priori, the solution of this problem is obtained
+  via dynamic programming (DP) and is given by a well known threshold rule. When information
+  on this distribution is lacking, a natural (though naive) approach is "explore-then-exploit,"
+  whereby the unknown distribution or its parameters are estimated over an initial
+  exploration phase, and this estimate is then used in the DP to determine actions
+  over the residual exploitation phase. We show: (i) with proper tuning, this approach
+  leads to performance comparable to the full information DP solution; and (ii) despite
+  common wisdom on the sensitivity of such "plug in" approaches in DP due to propagation
+  of estimation errors, a surprisingly "short" (logarithmic in the horizon) exploration
+  horizon suffices to obtain said performance. In cases where the underlying distribution
+  is heavy-tailed, these observations are even more pronounced: a ${\it single \,
+  sample}$ exploration phase suffices.'
+archiveprefix: arXiv
+author: Russo, Daniel and Zeevi, Assaf and Zhang, Tianyi
+author_list:
+- family: Russo
+  given: Daniel
+- family: Zeevi
+  given: Assaf
+- family: Zhang
+  given: Tianyi
+eprint: 2102.10025v2
+file: 2102.10025v2.pdf
+files:
+- russo-daniel-and-zeevi-assaf-and-zhang-tianyilearning-to-stop-with-surprisingly-few-samples2021.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2102.10025v2
+time-added: 2021-02-26-11:56:42
+title: Learning to Stop with Surprisingly Few Samples
+type: article
+url: http://arxiv.org/abs/2102.10025v2
+year: '2021'

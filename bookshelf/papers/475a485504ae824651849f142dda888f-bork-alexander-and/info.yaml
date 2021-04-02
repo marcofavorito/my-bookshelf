@@ -1,0 +1,33 @@
+abstract: The verification problem in MDPs asks whether, for any policy resolving
+  the nondeterminism, the probability that something bad happens is bounded by some
+  given threshold. This verification problem is often overly pessimistic, as the policies
+  it considers may depend on the complete system state. This paper considers the verification
+  problem for partially observable MDPs, in which the policies make their decisions
+  based on (the history of) the observations emitted by the system. We present an
+  abstraction-refinement framework extending previous instantiations of the Lovejoy-approach.
+  Our experiments show that this framework significantly improves the scalability
+  of the approach.
+archiveprefix: arXiv
+author: Bork, Alexander and Junges, Sebastian and Katoen, Joost-Pieter and Quatmann,
+  Tim
+author_list:
+- family: Bork
+  given: Alexander
+- family: Junges
+  given: Sebastian
+- family: Katoen
+  given: Joost-Pieter
+- family: Quatmann
+  given: Tim
+eprint: 2007.00102v1
+file: 2007.00102v1.pdf
+files:
+- bork-alexander-and-junges-sebastian-and-katoen-joost-pieter-and-quatmann-timverification-of-indefinite-horizon-pomdps2020.pdf
+month: Jun
+primaryclass: cs.AI
+ref: 2007.00102v1
+time-added: 2021-03-21-14:43:20
+title: Verification of indefinite-horizon POMDPs
+type: article
+url: http://arxiv.org/abs/2007.00102v1
+year: '2020'

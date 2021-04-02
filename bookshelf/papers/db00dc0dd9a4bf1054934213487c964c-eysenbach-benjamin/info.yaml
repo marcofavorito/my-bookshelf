@@ -1,0 +1,37 @@
+abstract: In the standard Markov decision process formalism, users specify tasks by
+  writing down a reward function. However, in many scenarios, the user is unable to
+  describe the task in words or numbers, but can readily provide examples of what
+  the world would look like if the task were solved. Motivated by this observation,
+  we derive a control algorithm from first principles that aims to visit states that
+  have a high probability of leading to successful outcomes, given only examples of
+  successful outcome states. Prior work has approached similar problem settings in
+  a two-stage process, first learning an auxiliary reward function and then optimizing
+  this reward function using another reinforcement learning algorithm. In contrast,
+  we derive a method based on recursive classification that eschews auxiliary reward
+  functions and instead directly learns a value function from transitions and successful
+  outcomes. Our method therefore requires fewer hyperparameters to tune and lines
+  of code to debug. We show that our method satisfies a new data-driven Bellman equation,
+  where examples take the place of the typical reward function term. Experiments show
+  that our approach outperforms prior methods that learn explicit reward functions.
+archiveprefix: arXiv
+author: Eysenbach, Benjamin and Levine, Sergey and Salakhutdinov, Ruslan
+author_list:
+- family: Eysenbach
+  given: Benjamin
+- family: Levine
+  given: Sergey
+- family: Salakhutdinov
+  given: Ruslan
+eprint: 2103.12656v1
+file: 2103.12656v1.pdf
+files:
+- eysenbach-benjamin-and-levine-sergey-and-salakhutdinov-ruslanreplacing-rewards-with-examples-example-based-policy-search-via-recursive-classific.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2103.12656v1
+time-added: 2021-03-28-19:53:37
+title: 'Replacing Rewards with Examples: Example-Based Policy Search via   Recursive
+  Classification'
+type: article
+url: http://arxiv.org/abs/2103.12656v1
+year: '2021'

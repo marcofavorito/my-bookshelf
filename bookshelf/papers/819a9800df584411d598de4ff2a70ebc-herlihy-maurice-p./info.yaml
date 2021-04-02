@@ -1,0 +1,182 @@
+abstract: <jats:p>A concurrent object is a data object shared by concurrent processes.
+  Linearizability is a correctness condition for concurrent objects that exploits
+  the semantics of abstract data types. It permits a high degree of concurrency, yet
+  it permits programmers to specify and reason about concurrent objects using known
+  techniques from the sequential domain. Linearizability provides the illusion that
+  each operation applied by concurrent processes takes effect instantaneously at some
+  point between its invocation and its response, implying that the meaning of a concurrent
+  object's operations can be given by pre- and post-conditions. This paper defines
+  linearizability, compares it to other correctness conditions, presents and demonstrates
+  a method for proving the correctness of implementations, and shows how to reason
+  about concurrent objects, given they are linearizable.</jats:p>
+author: Herlihy, Maurice P. and Wing, Jeannette M.
+author_list:
+- affiliation:
+  - name: Carnegie-Mellon Univ., Pittsburgh, PA
+  family: Herlihy
+  given: Maurice P.
+- affiliation:
+  - name: Carnegie-Mellon Univ., Pittsburgh, PA
+  family: Wing
+  given: Jeannette M.
+citations:
+- author: GOGUEN J. A.
+  first-page: '89'
+  volume-title: Proceedings of the Conference on Computer Graphics, Pattern Recognition
+    and Data Structures (May 1975
+  year: '1975'
+- doi: 10.1145/357103.357110
+- doi: 10.1007/BF00263762
+  unstructured: BAYER R. AND SCHKOLNICK M. Concurrency of operations on B-trees. Acta
+    In{. 1 1 (1977) 1-21.]]  BAYER R. AND SCHKOLNICK M. Concurrency of operations
+    on B-trees. Acta In{. 1 1 (1977) 1-21.]]
+- article-title: Heterogeneous algebras
+  author: BIRKHOFF G.
+  doi: 10.1016/S0021-9800(70)80014-X
+  first-page: '115'
+  journal-title: J. Comb. Theor.
+  volume: '8'
+  year: '1970'
+- author: BISWAS Z.
+  volume-title: Proceedings of the 1987 International Conference on Parallel Processing
+    (St. Charles, Ill.
+  year: '1987'
+- author: BROOKES S.D.
+  doi: 10.1007/3-540-15670-4
+  series-title: Lecture Notes in Computer Science.
+  volume-title: Proceedings of Conference on Logics of Programs
+  year: '1985'
+- author: BURSTALL R. M.
+  volume-title: Fifth International Joint Conference on Artificial Intelligence
+  year: '1977'
+- author: DEPARTMENT OF DEFENSE.
+  volume-title: ANSI/ MIL-STD-1815A-1983
+  year: '1983'
+- author: EHRIG H.
+  volume-title: Springer-Verlag
+  year: '1985'
+- article-title: Concurrent search and insertion in 2-3 trees
+  author: ELLIS C.S
+  doi: 10.1007/BF00289064
+  first-page: '63'
+  journal-title: Acta Inf.
+  volume: '14'
+  year: '1980'
+- doi: 10.1145/360363.360369
+- author: FORD R.
+  first-page: '51'
+  volume-title: 3rd ACM Symposium on Principles of Database Systems (1984
+  year: '1984'
+- article-title: 'Proving monitors revisited: A first step towards verifying object
+    oriented systems'
+  author: GERTH R.
+  first-page: '371'
+  journal-title: Fundamental Inf.
+  volume: '9'
+  year: '1986'
+- doi: 10.1145/69624.357206
+- author: GUIBAS L.
+  first-page: '8'
+  volume-title: 19th ACM Symposium on Foundations of Computer Science (Providence,
+    R.I., 1978
+  year: '1978'
+- author: GUTTAG J.V.
+  volume-title: Univ. of Toronto
+  year: '1975'
+- doi: 10.1145/359657.359666
+- article-title: The Larch family of specification languages
+  author: GUTTAG J. V.
+  doi: 10.1109/MS.1985.231756
+  first-page: '5'
+  journal-title: IEEE Softw.
+  volume: '2'
+  year: '1985'
+- author: HERLIHY M.
+  first-page: '13'
+  volume-title: 14th ACM Symposium on Principles of Programming Languages (Jan. 1987
+  year: '1987'
+- doi: 10.1145/22952.22953
+- author: HERLIHY U.P.
+  first-page: '276'
+  volume: '1988'
+  volume-title: Seventh ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing
+    (PODC)
+  year: '1988'
+- doi: 10.1145/363235.363259
+- article-title: Proof of correctness of data representations
+  author: HOARE C. A.
+  doi: 10.1007/BF00289507
+  first-page: '271'
+  journal-title: Acta Inf.
+  volume: '1'
+- doi: 10.1145/355620.361161
+- doi: 10.1145/359576.359585
+- doi: 10.1145/360051.360079
+- unstructured: 'JONES C.B. Software Development: A Rigorous Approach. Prentice-Hall
+    Englewood Cliffs N.J. 1980.]]   JONES C.B. Software Development: A Rigorous Approach.
+    Prentice-Hall Englewood Cliffs N.J. 1980.]]'
+- author: KRUSKAL C. P.
+  volume-title: Fifth ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing
+    (Aug. 1986
+  year: '1986'
+- article-title: How to make a multiprocessor computer that correctly executes multiprocess
+    programs
+  author: LAMPORT L
+  doi: 10.1109/TC.1979.1675439
+  first-page: '690'
+  journal-title: IEEE Trans. Comput. C-28
+  volume: '9'
+  year: '1979'
+- doi: 10.1145/69624.357207
+- doi: 10.1145/319628.319663
+- doi: 10.1145/5001.5007
+  unstructured: MISRA J. Axioms for memory access in asynchronous hardware systems.
+    ACM Trans. Program. Lang. Syst. 8 i (Jan. 1986) 142-153.]] 10.1145/5001.5007   MISRA
+    J. Axioms for memory access in asynchronous hardware systems. ACM Trans. Program.
+    Lang. Syst. 8 i (Jan. 1986) 142-153.]] 10.1145/5001.5007
+- article-title: Hierarchical program specification and verification--A many-sorted
+    logical approach
+  author: NAKAJIMA R.
+  doi: 10.1007/BF00288541
+  first-page: '135'
+  journal-title: Acta Inf.
+  volume: '14'
+  year: '1980'
+- doi: 10.1145/360051.360224
+- article-title: An axiomatic proof technique for parallel programs
+  author: OWICKI S.
+  doi: 10.1007/BF00268134
+  first-page: '4'
+  journal-title: Acta Inf.
+  volume: '6'
+  year: '1976'
+- doi: 10.1145/357172.357178
+- doi: 10.1145/322154.322158
+- doi: 10.1145/357353.357355
+  unstructured: REED D.P. Implementing atomic actions on decentralized data. ACM Trans.
+    Comput. Syst. 1 i (Feb. 1983) 3-23.]] 10.1145/357353.357355   REED D.P. Implementing
+    atomic actions on decentralized data. ACM Trans. Comput. Syst. 1 i (Feb. 1983)
+    3-23.]] 10.1145/357353.357355
+- author: SAGIV Y.
+  first-page: '28'
+  volume-title: Symposium on Principles of Database Systems (Waterloo, Ont.
+  year: '1985'
+- author: STANDISH W. A.
+  volume-title: Mass.
+  year: '1973'
+- doi: 10.1145/63264.63518
+doi: 10.1145/78969.78972
+files:
+- herlihy-maurice-p.-and-wing-jeannette-m.linearizability-a-correctness-condition-for-concurrent-objects1990.pdf
+issue: '3'
+journal: ACM Transactions on Programming Languages and Systems
+language: en
+month: 7
+pages: 463--492
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-11-16:46:10
+title: 'Linearizability: a correctness condition for concurrent objects'
+type: article
+url: http://dx.doi.org/10.1145/78969.78972
+volume: '12'
+year: 1990

@@ -1,0 +1,105 @@
+abstract: "<jats:p>Conventional programming languages are growing ever more enormous,\
+  \ but not stronger. Inherent defects at the most basic level cause them to be both\
+  \ fat and weak: their primitive word-at-a-time style of programming inherited from\
+  \ their common ancestor—the von Neumann computer, their close coupling of semantics\
+  \ to state transitions, their division of programming into a world of expressions\
+  \ and a world of statements, their inability to effectively use powerful combining\
+  \ forms for building new programs from existing ones, and their lack of useful mathematical\
+  \ properties for reasoning about programs.</jats:p>\n          <jats:p>An alternative\
+  \ functional style of programming is founded on the use of combining forms for creating\
+  \ programs. Functional programs deal with structured data, are often nonrepetitive\
+  \ and nonrecursive, are hierarchically constructed, do not name their arguments,\
+  \ and do not require the complex machinery of procedure declarations to become generally\
+  \ applicable. Combining forms can use high level programs to build still higher\
+  \ level ones in a style not possible in conventional languages.</jats:p>\n     \
+  \     <jats:p>Associated with the functional style of programming is an algebra\
+  \ of programs whose variables range over programs and whose operations are combining\
+  \ forms. This algebra can be used to transform programs and to solve equations whose\
+  \ “unknowns” are programs in much the same way one transforms equations in high\
+  \ school algebra. These transformations are given by algebraic laws and are carried\
+  \ out in the same language in which programs are written. Combining forms are chosen\
+  \ not only for their programming power but also for the power of their associated\
+  \ algebraic laws. General theorems of the algebra give the detailed behavior and\
+  \ termination conditions for large classes of programs.</jats:p>\n          <jats:p>A\
+  \ new class of computing systems uses the functional programming style both in its\
+  \ programming language and in its state transition rules. Unlike von Neumann languages,\
+  \ these systems have semantics loosely coupled to states—only one state transition\
+  \ occurs per major computation.</jats:p>"
+author: Backus, John
+author_list:
+- affiliation:
+  - name: IBM Research Center, San Jose, CA
+  family: Backus
+  given: John
+citations:
+- doi: 10.1145/512927.512934
+- author: Berkling K.J.
+  volume-title: Bonn
+  year: '1976'
+- author: Burge W.H.
+  volume-title: Recursive Programming Techniques
+  year: '1975'
+- author: Church A.
+  volume-title: The Calculi of Lambda-Conversion
+  year: '1941'
+- author: Curry H.B.
+  volume-title: North- Holland Pub. Co.
+  year: '1958'
+- author: Dennis J.B.
+  volume-title: Lab. for Comptr. Sci., M.I.T.
+  year: '1973'
+- unstructured: Dijkstra E.W. 4 Discipline of Programming. Prentice-Hall Englewood
+    Cliffs N.J. 1976.   Dijkstra E.W. 4 Discipline of Programming. Prentice-Hall Englewood
+    Cliffs N.J. 1976.
+- author: Friedman D.P.
+  first-page: '257'
+  volume-title: CONS should not evaluate its arguments
+  year: '1976'
+- doi: 10.1145/800168.811543
+- doi: 10.1145/363235.363259
+- doi: 10.5555/1098666
+- author: Kosinski P.
+  volume-title: IBM T.J. Watson Research Ctr.
+  year: '1973'
+- doi: 10.1093/comjnl/6.4.308
+- unstructured: Mag~ G.A. A network of microprocessors to execute reduction languages.
+    To appear in Int. J. Comptr. and Inform. Sci.  Mag~ G.A. A network of microprocessors
+    to execute reduction languages. To appear in Int. J. Comptr. and Inform. Sci.
+- doi: 10.1145/355609.362336
+  unstructured: Manna Z. Ness S. and Vuillemin J. Inductive methods for proving properties
+    of programs. Comm.4 CM 16 8 (Aug. 1973) 491-502. 10.1145/355609.362336   Manna
+    Z. Ness S. and Vuillemin J. Inductive methods for proving properties of programs.
+    Comm.4 CM 16 8 (Aug. 1973) 491-502. 10.1145/355609.362336
+- doi: 10.1145/367177.367199
+- author: Me Jones P.
+  volume-title: Calif.
+  year: '1975'
+- doi: 10.1145/362349.362364
+- author: Reynolds J.C.
+  volume-title: Syracuse U.
+  year: '1972'
+- author: Scott D.
+  volume-title: Proc. 4th Princeton Conf. on Inform. Sci. and Syst.
+  year: '1970'
+- author: Scott D.
+  volume-title: Proc. Fourth Int. Congress for Logic, Methodology, and the Philosophy
+    of Science
+  year: '1972'
+- author: Scott D.
+  volume-title: Proc. Symp. on Comptrs. and Automata, Polytechnic Inst. of Brooklyn
+  year: '1971'
+doi: 10.1145/359576.359579
+files:
+- backus-johncan-programming-be-liberated-from-the-von-neumann-style-1978.pdf
+issue: '8'
+journal: Communications of the ACM
+language: en
+month: 8
+pages: 613--641
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-03-11-16:47:27
+title: Can programming be liberated from the von Neumann style?
+type: article
+url: http://dx.doi.org/10.1145/359576.359579
+volume: '21'
+year: 1978

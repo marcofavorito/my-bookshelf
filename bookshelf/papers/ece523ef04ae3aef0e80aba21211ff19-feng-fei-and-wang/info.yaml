@@ -1,0 +1,38 @@
+abstract: 'Motivated by the prevailing paradigm of using unsupervised learning for
+  efficient exploration in reinforcement learning (RL) problems [tang2017exploration,bellemare2016unifying],
+  we investigate when this paradigm is provably efficient. We study episodic Markov
+  decision processes with rich observations generated from a small number of latent
+  states. We present a general algorithmic framework that is built upon two components:
+  an unsupervised learning algorithm and a no-regret tabular RL algorithm. Theoretically,
+  we prove that as long as the unsupervised learning algorithm enjoys a polynomial
+  sample complexity guarantee, we can find a near-optimal policy with sample complexity
+  polynomial in the number of latent states, which is significantly smaller than the
+  number of observations. Empirically, we instantiate our framework on a class of
+  hard exploration problems to demonstrate the practicality of our theory.'
+archiveprefix: arXiv
+author: Feng, Fei and Wang, Ruosong and Yin, Wotao and Du, Simon S. and Yang, Lin
+  F.
+author_list:
+- family: Feng
+  given: Fei
+- family: Wang
+  given: Ruosong
+- family: Yin
+  given: Wotao
+- family: Du
+  given: Simon S.
+- family: Yang
+  given: Lin F.
+eprint: 2003.06898v4
+file: 2003.06898v4.pdf
+files:
+- feng-fei-and-wang-ruosong-and-yin-wotao-and-du-simon-s.-and-yang-lin-f.provably-efficient-exploration-for-reinforcement-learning-using-unsuperv.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2003.06898v4
+time-added: 2021-03-27-19:11:07
+title: Provably Efficient Exploration for Reinforcement Learning Using   Unsupervised
+  Learning
+type: article
+url: http://arxiv.org/abs/2003.06898v4
+year: '2020'
