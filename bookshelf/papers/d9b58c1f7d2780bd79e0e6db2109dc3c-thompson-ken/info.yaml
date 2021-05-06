@@ -1,0 +1,40 @@
+abstract: <jats:p>A method for locating specific character strings embedded in character
+  text is described and an implementation of this method in the form of a compiler
+  is discussed. The compiler accepts a regular expression as source language and produces
+  an IBM 7094 program as object language. The object program then accepts the text
+  to be searched as input and produces a signal every time an embedded string in the
+  text matches the given regular expression. Examples, problems, and solutions are
+  also presented.</jats:p>
+author: Thompson, Ken
+author_list:
+- affiliation:
+  - name: Bell Telphone Labs, Inc., Murray Hill
+  family: Thompson
+  given: Ken
+citations:
+- doi: 10.1145/321239.321249
+- author: KLEENE S. C.
+  first-page: '3'
+  volume-title: Automata Studies, Ann. Math. Stud. No. 34
+  year: '1956'
+- unstructured: IBM Corp. IBM 7094 principles of operation. File No. 7094-01 Form
+    A22-6703-1.  IBM Corp. IBM 7094 principles of operation. File No. 7094-01 Form
+    A22-6703-1.
+- author: KUNO S.
+  volume-title: Proc. IFIP Congress
+  year: '1962'
+doi: 10.1145/363347.363387
+files:
+- thompson-kenprogramming-techniques-regular-expression-search-algorithm1968.pdf
+issue: '6'
+journal: Communications of the ACM
+language: en
+month: 6
+pages: 419--422
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-04-21-18:00:13
+title: 'Programming Techniques: Regular expression search algorithm'
+type: article
+url: http://dx.doi.org/10.1145/363347.363387
+volume: '11'
+year: 1968

@@ -1,0 +1,34 @@
+abstract: This paper proposes a reinforcement learning method for controller synthesis
+  of autonomous systems in unknown and partially-observable environments with subjective
+  time-dependent safety constraints. Mathematically, we model the system dynamics
+  by a partially-observable Markov decision process (POMDP) with unknown transition/observation
+  probabilities. The time-dependent safety constraint is captured by iLTL, a variation
+  of linear temporal logic for state distributions. Our Reinforcement learning method
+  first constructs the belief MDP of the POMDP, capturing the time evolution of estimated
+  state distributions. Then, by building the product belief MDP of the belief MDP
+  and the limiting deterministic B\uchi automaton (LDBA) of the temporal logic constraint,
+  we transform the time-dependent safety constraint on the POMDP into a state-dependent
+  constraint on the product belief MDP. Finally, we learn the optimal policy by value
+  iteration under the state-dependent constraint.
+archiveprefix: arXiv
+author: Wang, Yu and Bozkurt, Alper Kamil and Pajic, Miroslav
+author_list:
+- family: Wang
+  given: Yu
+- family: Bozkurt
+  given: Alper Kamil
+- family: Pajic
+  given: Miroslav
+eprint: 2104.01612v1
+file: 2104.01612v1.pdf
+files:
+- wang-yu-and-bozkurt-alper-kamil-and-pajic-miroslavreinforcement-learning-with-temporal-logic-constraints-for-partially-observable-markov-decision.pdf
+month: Apr
+primaryclass: cs.RO
+ref: 2104.01612v1
+time-added: 2021-04-13-06:48:51
+title: Reinforcement Learning with Temporal Logic Constraints for   Partially-Observable
+  Markov Decision Processes
+type: article
+url: http://arxiv.org/abs/2104.01612v1
+year: '2021'

@@ -1,0 +1,31 @@
+abstract: Recent progress in language modeling has been driven not only by advances
+  in neural architectures, but also through hardware and optimization improvements.
+  In this paper, we revisit the neural probabilistic language model (NPLM) of~\citet{Bengio2003ANP},
+  which simply concatenates word embeddings within a fixed window and passes the result
+  through a feed-forward network to predict the next word. When scaled up to modern
+  hardware, this model (despite its many limitations) performs much better than expected
+  on word-level language model benchmarks. Our analysis reveals that the NPLM achieves
+  lower perplexity than a baseline Transformer with short input contexts but struggles
+  to handle long-term dependencies. Inspired by this result, we modify the Transformer
+  by replacing its first self-attention layer with the NPLM's local concatenation
+  layer, which results in small but consistent perplexity decreases across three word-level
+  language modeling datasets.
+archiveprefix: arXiv
+author: Sun, Simeng and Iyyer, Mohit
+author_list:
+- family: Sun
+  given: Simeng
+- family: Iyyer
+  given: Mohit
+eprint: 2104.03474v1
+file: 2104.03474v1.pdf
+files:
+- sun-simeng-and-iyyer-mohitrevisiting-simple-neural-probabilistic-language-models2021.pdf
+month: Apr
+primaryclass: cs.CL
+ref: 2104.03474v1
+time-added: 2021-04-11-19:51:50
+title: Revisiting Simple Neural Probabilistic Language Models
+type: article
+url: http://arxiv.org/abs/2104.03474v1
+year: '2021'

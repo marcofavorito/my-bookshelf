@@ -1,0 +1,27 @@
+abstract: This work attempts to explain the types of computation that neural networks
+  can perform by relating them to automata. We first define what it means for a real-time
+  network with bounded precision to accept a language. A measure of network memory
+  follows from this definition. We then characterize the classes of languages acceptable
+  by various recurrent networks, attention, and convolutional networks. We find that
+  LSTMs function like counter machines and relate convolutional networks to the subregular
+  hierarchy. Overall, this work attempts to increase our understanding and ability
+  to interpret neural networks through the lens of theory. These theoretical insights
+  help explain neural computation, as well as the relationship between neural networks
+  and natural language grammar.
+archiveprefix: arXiv
+author: Merrill, William
+author_list:
+- family: Merrill
+  given: William
+eprint: 1906.01615v3
+file: 1906.01615v3.pdf
+files:
+- merrill-williamsequential-neural-networks-as-automata2019.pdf
+month: Jun
+primaryclass: cs.CL
+ref: 1906.01615v3
+time-added: 2021-04-20-19:26:05
+title: Sequential Neural Networks as Automata
+type: article
+url: http://arxiv.org/abs/1906.01615v3
+year: '2019'

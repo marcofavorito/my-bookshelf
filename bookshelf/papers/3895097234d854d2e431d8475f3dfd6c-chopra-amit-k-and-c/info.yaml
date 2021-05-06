@@ -1,0 +1,42 @@
+abstract: '<jats:p>Communication protocols are central to engineering decentralized
+  multiagent systems. Modern protocol languages are typically formal and address aspects
+  of decentralization, such as asynchrony. However, modern languages differ in important
+  ways in their basic abstractions and operational assumptions. This diversity makes
+  a comparative evaluation of protocol languages a challenging task.&#x0D;
+
+  We contribute a rich evaluation of diverse and modern protocol languages. Among
+  the selected languages, Scribble is based on session types; Trace-C and Trace-F
+  on trace expressions; HAPN on hierarchical state machines, and BSPL on information
+  causality. Our contribution is four-fold. One, we contribute important criteria
+  for evaluating protocol languages. Two, for each criterion, we compare the languages
+  on the basis of whether they are able to specify elementary protocols that go to
+  the heart of the criterion. Three, for each language, we map our findings to a canonical
+  architecture style for multiagent systems, highlighting where the languages depart
+  from the architecture. Four, we identify design principles for protocol languages
+  as guidance for future research.</jats:p>'
+author: Chopra, Amit K and Christie V, Samuel H and Singh, Munindar P.
+author_list:
+- affiliation: []
+  family: Chopra
+  given: Amit K
+- affiliation: []
+  family: Christie V
+  given: Samuel H
+- affiliation: []
+  family: Singh
+  given: Munindar P.
+doc_url: https://www.jair.org/index.php/jair/article/download/12212/26636
+doi: 10.1613/jair.1.12212
+files:
+- chopra-amit-k-and-christie-v-samuel-h-and-singh-munindar-p.an-evaluation-of-communication-protocol-languages-for-engineering-multiagent-systems2020.pdf
+journal: Journal of Artificial Intelligence Research
+month: 12
+pages: 1351--1393
+publisher: AI Access Foundation
+time-added: 2021-04-24-19:04:01
+title: An Evaluation of Communication Protocol Languages for Engineering Multiagent
+  Systems
+type: article
+url: http://dx.doi.org/10.1613/jair.1.12212
+volume: '69'
+year: 2020
