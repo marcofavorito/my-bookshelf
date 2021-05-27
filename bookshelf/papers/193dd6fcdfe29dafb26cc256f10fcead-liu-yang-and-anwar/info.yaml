@@ -1,0 +1,45 @@
+abstract: 'The prevalent convolutional neural network (CNN) based image denoising
+  methods extract features of images to restore the clean ground truth, achieving
+  high denoising accuracy. However, these methods may ignore the underlying distribution
+  of clean images, inducing distortions or artifacts in denoising results. This paper
+  proposes a new perspective to treat image denoising as a distribution learning and
+  disentangling task. Since the noisy image distribution can be viewed as a joint
+  distribution of clean images and noise, the denoised images can be obtained via
+  manipulating the latent representations to the clean counterpart. This paper also
+  provides a distribution learning based denoising framework. Following this framework,
+  we present an invertible denoising network, FDN, without any assumptions on either
+  clean or noise distributions, as well as a distribution disentanglement method.
+  FDN learns the distribution of noisy images, which is different from the previous
+  CNN based discriminative mapping. Experimental results demonstrate FDN''s capacity
+  to remove synthetic additive white Gaussian noise (AWGN) on both category-specific
+  and remote sensing images. Furthermore, the performance of FDN surpasses that of
+  previously published methods in real image denoising with fewer parameters and faster
+  speed. Our code is available at: https://github.com/Yang-Liu1082/FDN.git.'
+archiveprefix: arXiv
+author: Liu, Yang and Anwar, Saeed and Qin, Zhenyue and Ji, Pan and Caldwell, Sabrina
+  and Gedeon, Tom
+author_list:
+- family: Liu
+  given: Yang
+- family: Anwar
+  given: Saeed
+- family: Qin
+  given: Zhenyue
+- family: Ji
+  given: Pan
+- family: Caldwell
+  given: Sabrina
+- family: Gedeon
+  given: Tom
+eprint: 2105.04746v1
+file: 2105.04746v1.pdf
+files:
+- liu-yang-and-anwar-saeed-and-qin-zhenyue-and-ji-pan-and-caldwell-sabrina-and-gedeon-tomdisentangling-noise-from-images-a-flow-based-image-denoi.pdf
+month: May
+primaryclass: cs.CV
+ref: 2105.04746v1
+time-added: 2021-05-18-21:21:05
+title: 'Disentangling Noise from Images: A Flow-Based Image Denoising Neural   Network'
+type: article
+url: http://arxiv.org/abs/2105.04746v1
+year: '2021'

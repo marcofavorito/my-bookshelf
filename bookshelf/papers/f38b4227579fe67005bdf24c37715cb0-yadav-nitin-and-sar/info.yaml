@@ -1,0 +1,34 @@
+abstract: The behavior composition problem involves automatically building a controller
+  that is able to realize a desired, but unavailable, target system (e.g., a house
+  surveillance) by suitably coordinating a set of available components (e.g., video
+  cameras, blinds, lamps, a vacuum cleaner, phones, etc.) Previous work has almost
+  exclusively aimed at bringing about the desired component in its totality, which
+  is highly unsatisfactory for unsolvable problems. In this work, we develop an approach
+  for approximate behavior composition without departing from the classical setting,
+  thus making the problem applicable to a much wider range of cases. Based on the
+  notion of simulation, we characterize what a maximal controller and the "closest"
+  implementable target module (optimal approximation) are, and show how these can
+  be computed using ATL model checking technology for a special case. We show the
+  uniqueness of optimal approximations, and prove their soundness and completeness
+  with respect to their imported controllers.
+archiveprefix: arXiv
+author: Yadav, Nitin and Sardina, Sebastian
+author_list:
+- family: Yadav
+  given: Nitin
+- family: Sardina
+  given: Sebastian
+eprint: 1207.3863v1
+file: 1207.3863v1.pdf
+files:
+- yadav-nitin-and-sardina-sebastianqualitative-approximate-behavior-composition2012.pdf
+month: Jul
+note: In Proceedings of the European Conference on Logics in Artificial   Intelligence
+  (JELIA), volume 7519 of LNCS, pages 450-462, 2012
+primaryclass: cs.AI
+ref: 1207.3863v1
+time-added: 2021-05-07-15:21:37
+title: Qualitative Approximate Behavior Composition
+type: article
+url: http://arxiv.org/abs/1207.3863v1
+year: '2012'

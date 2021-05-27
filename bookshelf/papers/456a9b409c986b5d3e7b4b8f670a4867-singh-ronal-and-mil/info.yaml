@@ -1,0 +1,37 @@
+abstract: Intelligent agents powered by AI planning assist people in complex scenarios,
+  such as managing teams of semi-autonomous vehicles. However, AI planning models
+  may be incomplete, leading to plans that do not adequately meet the stated objectives,
+  especially in unpredicted situations. Humans, who are apt at identifying and adapting
+  to unusual situations, may be able to assist planning agents in these situations
+  by encoding their knowledge into a planner at run-time. We investigate whether people
+  can collaborate with agents by providing their knowledge to an agent using linear
+  temporal logic (LTL) at run-time without changing the agent's domain model. We presented
+  24 participants with baseline plans for situations in which a planner had limitations,
+  and asked the participants for workarounds for these limitations. We encoded these
+  workarounds as LTL constraints. Results show that participants' constraints improved
+  the expected return of the plans by 10% ($p < 0.05$) relative to baseline plans,
+  demonstrating that human insight can be used in collaborative planning for resilience.
+  However, participants used more declarative than control constraints over time,
+  but declarative constraints produced plans less similar to the expectation of the
+  participants, which could lead to potential trust issues.
+archiveprefix: arXiv
+author: Singh, Ronal and Miller, Tim and Reid, Darryn
+author_list:
+- family: Singh
+  given: Ronal
+- family: Miller
+  given: Tim
+- family: Reid
+  given: Darryn
+eprint: 2104.14089v1
+file: 2104.14089v1.pdf
+files:
+- singh-ronal-and-miller-tim-and-reid-darryncollaborative-human-agent-planning-for-resilience2021.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 2104.14089v1
+time-added: 2021-05-10-19:07:44
+title: Collaborative Human-Agent Planning for Resilience
+type: article
+url: http://arxiv.org/abs/2104.14089v1
+year: '2021'

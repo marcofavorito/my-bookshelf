@@ -1,0 +1,31 @@
+abstract: Input validation is the first line of defense against malformed or malicious
+  inputs. It is therefore critical that the validator (which is often part of the
+  parser) is free of bugs.   To build dependable input validators, we propose using
+  parser generators for context-free languages. In the context of network protocols,
+  various works have pointed at context-free languages as falling short to specify
+  precisely or concisely common idioms found in protocols. We review those assessments
+  and perform a rigorous, language-theoretic analysis of several common protocol idioms.
+  We then demonstrate the practical value of our findings by developing a modular,
+  robust, and efficient input validator for HTTP relying on context-free grammars
+  and regular expressions.
+archiveprefix: arXiv
+author: Ganty, Pierre and Köpf, Boris and Valero, Pedro
+author_list:
+- family: Ganty
+  given: Pierre
+- family: Köpf
+  given: Boris
+- family: Valero
+  given: Pedro
+eprint: 1610.07198v2
+file: 1610.07198v2.pdf
+files:
+- ganty-pierre-and-kopf-boris-and-valero-pedroa-language-theoretic-view-on-network-protocols2016.pdf
+month: Oct
+primaryclass: cs.FL
+ref: 1610.07198v2
+time-added: 2021-05-24-17:28:14
+title: A Language-theoretic View on Network Protocols
+type: article
+url: http://arxiv.org/abs/1610.07198v2
+year: '2016'

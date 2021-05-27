@@ -1,0 +1,46 @@
+abstract: Answer Set Programming (ASP) has become a popular and quite sophisticated
+  approach to declarative problem solving. This is arguably due to its attractive
+  modeling-grounding-solving workflow that provides an easy approach to problem solving,
+  even for laypersons outside computer science. Unlike this, the high degree of sophistication
+  of the underlying technology makes it increasingly hard for ASP experts to put ideas
+  into practice.   For addressing this issue, this tutorial aims at enabling users
+  to build their own ASP-based systems. More precisely, we show how the ASP system
+  CLINGO can be used for extending ASP and for implementing customized special-purpose
+  systems. To this end, we propose two alternatives. We begin with a traditional AI
+  technique and show how meta programming can be used for extending ASP. This is a
+  rather light approach that relies on CLINGO's reification feature to use ASP itself
+  for expressing new functionalities. Unlike this, the major part of this tutorial
+  uses traditional programming (in PYTHON) for manipulating CLINGO via its application
+  programming interface. This approach allows for changing and controlling the entire
+  model-ground-solve workflow of ASP. Central to this is CLINGO's new Application
+  class that allows us to draw on CLINGO's infrastructure by customizing processes
+  similar to the one in CLINGO. For instance, we may engage manipulations to programs'
+  abstract syntax trees, control various forms of multi-shot solving, and set up theory
+  propagators for foreign inferences. Another cross-sectional structure, spanning
+  meta as well as application programming, is CLINGO's intermediate format, ASPIF,
+  that specifies the interface among the underlying grounder and solver. We illustrate
+  the aforementioned concepts and techniques throughout this tutorial by means of
+  examples and several non-trivial case-studies.
+archiveprefix: arXiv
+author: Kaminski, Roland and Romero, Javier and Schaub, Torsten and Wanko, Philipp
+author_list:
+- family: Kaminski
+  given: Roland
+- family: Romero
+  given: Javier
+- family: Schaub
+  given: Torsten
+- family: Wanko
+  given: Philipp
+eprint: 2008.06692v1
+file: 2008.06692v1.pdf
+files:
+- kaminski-roland-and-romero-javier-and-schaub-torsten-and-wanko-philipphow-to-build-your-own-asp-based-system-2020.pdf
+month: Aug
+primaryclass: cs.AI
+ref: 2008.06692v1
+time-added: 2021-05-16-19:52:00
+title: How to build your own ASP-based system?!
+type: article
+url: http://arxiv.org/abs/2008.06692v1
+year: '2020'

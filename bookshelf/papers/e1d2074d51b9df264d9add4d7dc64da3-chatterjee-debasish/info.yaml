@@ -1,0 +1,32 @@
+abstract: We present a dynamic programming-based solution to a stochastic optimal
+  control problem up to a hitting time for a discrete-time Markov control process.
+  Firstly, we determine an optimal control policy to steer the process toward a compact
+  target set while simultaneously minimizing an expected discounted cost. We then
+  provide a rolling-horizon strategy for approximating the optimal policy, together
+  with quantitative characterization of its sub-optimality with respect to the optimal
+  policy. Finally, we address related issues of asymptotic discount-optimality of
+  the value-iteration policy. Both the state and action spaces are assumed to be Polish.
+archiveprefix: arXiv
+author: Chatterjee, Debasish and Cinquemani, Eugenio and Chaloulos, Giorgos and Lygeros,
+  John
+author_list:
+- family: Chatterjee
+  given: Debasish
+- family: Cinquemani
+  given: Eugenio
+- family: Chaloulos
+  given: Giorgos
+- family: Lygeros
+  given: John
+eprint: 0806.3008v3
+file: 0806.3008v3.pdf
+files:
+- chatterjee-debasish-and-cinquemani-eugenio-and-chaloulos-giorgos-and-lygeros-johnstochastic-control-up-to-a-hitting-time-optimality-and-rolling-h.pdf
+month: Jun
+primaryclass: math.OC
+ref: 0806.3008v3
+time-added: 2021-05-25-22:08:31
+title: 'Stochastic control up to a hitting time: optimality and rolling-horizon   implementation'
+type: article
+url: http://arxiv.org/abs/0806.3008v3
+year: '2008'

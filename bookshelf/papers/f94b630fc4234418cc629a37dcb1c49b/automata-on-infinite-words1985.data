@@ -1,0 +1,998 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="format-detection" content="telephone=no"/>
+
+        <title>Automata on Infinite Words | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/book/10.1007/3-540-15641-0"/>
+        <link rel="shortcut icon" href="/springerlink-static/1415637398/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/1415637398/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/1415637398/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/1415637398/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/1415637398/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/1415637398/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/1415637398/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/1415637398/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/1415637398/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/1415637398/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/1415637398/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/1415637398/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/1415637398/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/1415637398/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/1415637398/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/1415637398/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/1415637398/css/print.css" media="print">
+
+
+        <script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return;
+        window.CustomEvent = function ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+    })();
+</script>
+
+<script>
+    (function() {
+        if (!!document.documentElement.dataset) return;
+
+        Object.defineProperty(Element.prototype, 'dataset', {
+            get: function() {
+                var element = this;
+                var attributes = this.attributes;
+                var map = {};
+
+                for (var i = 0; i < attributes.length; i++) {
+                    var attribute = attributes[i];
+
+                    if (attribute && attribute.name && (/^data-\w[\w-]*$/).test(attribute.name)) {
+                        var name = attribute.name;
+                        var value = attribute.value;
+
+                        var propName = name.substr(5).replace(/-./g, function (prop) {
+                            return prop.charAt(1).toUpperCase();
+                        });
+
+                        Object.defineProperty(map, propName, {
+                            enumerable: true,
+                            get: function() {
+                                return this.value;
+                            }.bind({value: value || ''}),
+                            set: function setter(name, value) {
+                                if (typeof value !== 'undefined') {
+                                    this.setAttribute(name, value);
+                                } else {
+                                    this.removeAttribute(name);
+                                }
+                            }.bind(element, name)
+                        });
+                    }
+                }
+
+                return map;
+            }
+        });
+    })();
+</script>
+
+
+
+    <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Conference Proceedings",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/3-540-15641-0",
+                'hasAccess':"N",
+                'Full HTML':"N",
+                'Has Body':"N",
+                'Static Hash':"1415637398",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":["2000328745","3000155420","3000180852","3003532199","3004220731"],"businessPartnerIDString":"2000328745|3000155420|3000180852|3003532199|3004220731"}},
+                'content':{"serial":{"eissn":"1611-3349","pissn":"0302-9743"},"book":{"seriesTitle":"Lecture Notes in Computer Science","eisbn":"978-3-540-39505-8","pisbn":"978-3-540-15641-3","bookProductType":"Proceedings","seriesId":"558","title":"Automata on Infinite Words","doi":"10.1007/3-540-15641-0"},"attributes":{"deliveryPlatform":"bunsen"},"category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"1":"Mathematical Logic and Formal Languages"},"secondarySubjectCodes":{"1":"I16048"}},"sucode":"SUCO11645"},"type":"ConferenceProceedings"},
+                'Access Type':"noaccess",
+                'Page':"book",
+                'Bpids':"2000328745, 3000155420, 3000180852, 3003532199, 3004220731",
+                'Bpnames':"Sapienza Università di Roma, CARE-CRUI, CARE 2009 & 2010, CARE-CRUI NATURE, CARE-CRUI COMPACT",
+                'SubjectCodes':"I, I16048",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"Finite, Words, automata, decidability, equality, finite automata, form, formal proof, language, logic, mapping, object, proof, system, theorem",
+                'Country':"IT",
+                'ConferenceSeriesId':"litp",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-3-540-15641-0",
+
+                    'doi': "10.1007-3-540-15641-0",
+                    'kwrd': ["Finite","Words","automata","decidability","equality","finite_automata","form","formal_proof","language","logic","mapping","object","proof","system","theorem"],
+                    'pmc': ["I","I16048"],
+                    'BPID': ["2000328745","3000155420","3000180852","3003532199","3004220731"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/1415637398/js/jquery-3.3.1.min.js"></script>
+
+<script>
+    (function() {
+        function deleteCookie (name, domain) {
+            document.cookie = encodeURIComponent(name) +
+                '=' +
+                ';path=/' +
+                ';domain=' + domain +
+                ';expires=Thu, 01 Jan 1970 00:00:00 GMT';
+        }
+
+        var consentCookieParts = ('; ' + document.cookie).split('; OptanonConsent=');
+
+        if (consentCookieParts.length > 1) {
+            consentCookieParts.shift(); // remove redundant first part from the split array
+
+            // onetrust can set the same cookie multiple times with different domain specificities
+            for (let i=0; i<consentCookieParts.length; i++) {
+                var otCookieGroups = consentCookieParts[i].split('&groups=').pop().split('&').shift();
+
+                if (otCookieGroups.indexOf('C0001') === -1) {
+                    deleteCookie('OptanonConsent', window.location.host);
+                    deleteCookie('OptanonAlertBoxClosed', window.location.host);
+                }
+            }
+        }
+    })();
+</script>
+
+<script>
+    (function(w,d,t) {
+        function cc() {
+            var h = w.location.host, id;
+            if (h === 'link.springer.com' || h === 'local-link.springer.com' || h === 'link-qa.springer.com') { id = '4f53bc14-4ee3-45bd-9935-e3d2b6b2a543'}
+            if (h === 'rd.springer.com' || h === 'local-rd.springer.com' || h === 'rd-qa.springer.com') { id = 'ee0bb2c1-7bb6-4b9a-bbfe-41fc45438f37'}
+            var e = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            if (id) {
+                e.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+                e.setAttribute('data-domain-script', id);
+            } else {
+                e.src = '/static/js/lib/cookie-consent.min.js';
+                e.setAttribute('data-consent', h);
+            }
+            s.parentNode.insertBefore(e, s);
+        }
+        w.google_tag_manager ? cc() : window.addEventListener('gtm_loaded', function() {cc()});
+    })(window,document,'script');
+</script>
+<script>
+    function OptanonWrapper() {
+        window.dataLayer.push({ event:'OneTrustGroupsUpdated' });
+        document.activeElement.blur();
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+            j.addEventListener('load', function() {
+                var _ge = new CustomEvent('gtm_loaded', {bubbles: true});
+                d.dispatchEvent(_ge);
+            });
+
+            f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+
+    </head>
+    <body>
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a href="#toc" class="skip-to__link skip-to__link--contents pseudo-focus">Skip to table of contents</a>
+</div>
+        <div class="page-wrapper page-wrapper--book">
+                        <div id="leaderboard" class="leaderboard u-hide" data-google-ad="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available</p>
+    </div>
+</noscript>
+                <header id="header" class="header">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+            <picture>
+    <source type="image/svg+xml" srcset="/springerlink-static/1415637398/images/svg/springerlink.svg">
+    <img class="site-logo__springer" src="/springerlink-static/1415637398/images/png/springerlink.png" alt="SpringerLink" width="148" height="30" data-test="springer-logo">
+</picture>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input u-system" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" class="u-vertical-align-absolute" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M12.82 11.972a.607.607 0 01.007.856.611.611 0 01-.856-.006L9.45 10.3A5.798 5.797 0 010 5.798 5.798 5.797 0 1110.3 9.45zm-7.022-1.205A4.97 4.97 0 105.797.83a4.97 4.97 0 000 9.939z" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span>
+                <svg class="u-vertical-align-absolute" xmlns="http://www.w3.org/2000/svg" height="22" width="22" focusable="false" aria-hidden="true" role="presentation">
+                    <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%252F3-540-15641-0">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+
+            <main id="main-content" tabindex="-1">
+                <div itemscope itemtype="http://schema.org/Book">
+                    <article class="main-wrapper main-wrapper--no-gradient main-wrapper--dual-main">
+                        <div class="main-container">
+                            <aside class="main-sidebar-left u-three-col-pl-0">
+                                <div class="main-sidebar-left__content">
+                                    <div class="cover-image">
+                                        <div class="cover-image--book test-cover" itemscope>
+                                            
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-540-39505-8" itemprop="image" alt=""/>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            <div class="main-body u-mb-36 u-pb-0 main-body--no-background" data-role="NavigationContainer">
+                                <div class="main-body__content">
+
+                                    <div class="main-context">
+                                        <div class="evaluation-section">
+                                            <div class="evaluation-section__text-col">
+                                                <div id="enumeration" class="enumeration">    <div>
+        <a data-test="ConfSeriesLink" href="/conference/litp">
+                <span data-test="ConferenceAcronym">LITP:</span>
+            <span data-test="ConfSeriesName"> LITP Spring School on Theoretical Computer Science</span>
+        </a>
+    </div>
+</div>
+
+                                                    <p class="u-interface u-mb-0">© 1985</p>
+
+                                                <div data-test="book-title" class="page-title">
+                                                    <h1 itemprop="name">Automata on Infinite Words</h1>
+                                                        <h2 class="page-title__subtitle" itemprop="alternateName">Ecole de Printemps d'Informatique Théorique Le Mont Dore, May 14–18, 1984</h2>
+                                                </div>
+
+                                                
+                                                    <div id="editors" class="persons u-clearfix" data-component="SV.Persons">
+        <ul class="u-inline-list persons__title">
+            <li>
+                <span class="u-strong">Editors</span>
+            </li>
+        </ul>
+        <div class="persons__list" data-role="PersonsList">
+            <ul xmlns="http://www.w3.org/1999/xhtml" class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4" itemprop="editor"><span itemprop="name" class="authors__name">M. Nivat</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4" itemprop="editor"><span itemprop="name" class="authors__name">D. Perrin</span></li></ul>
+        </div>
+    </div>
+
+                                            </div>
+
+                                            <div class="evaluation-section__image-col">
+                                                <div class="cover-image">
+                                                    <div class="cover-image--book test-cover">
+                                                        
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-540-39505-8" itemprop="image" alt=""/>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="evaluation-section__text-col">
+                                            <div class="main-context__container main-context__container--duel main-context__container--with-metrics" data-component="SpringerLink.ArticleMetrics">
+                                                <div class="main-context__column">
+                                                    <span>
+                                                        
+                                                            <span class="test-content-type" id="content-type">Conference proceedings</span>
+                                                    </span>
+
+                                                        <strong class="conference-acronym" data-test="ConferenceAcronymAndYear">LITP 1984</strong>
+                                                </div>
+
+                                                    <div class="main-context__column main-context__column--books-metrics">
+                                                            <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-bookcitations-count" href="https://citations.springer.com/book?doi&#x3D;10.1007/3-540-15641-0" target="_blank" rel="noopener"
+                       title="Visit Springer Citations for full citation details" id="bookcitations-link">
+                            <span id="bookcitations-count-number" class="test-metric-count c-button-circle gtm-bookcitations-count">94</span>
+                       <span class="test-metric-name article-metrics__label gtm-bookcitations-count">Citations</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                     <span class="test-metric-count article-metrics__views">2.8k</span>
+                     <span class="test-metric-name article-metrics__label">Downloads</span>
+            </li>
+    </ul>
+
+                                                    </div>
+                                            </div>
+                                         </div>
+                                                <div class="vol-info u-interface">
+        <p data-test="test-series">
+            Part of the
+            <a href="/bookseries/558">Lecture Notes in Computer Science</a>
+            book series
+              <span class="test-AbbreviationVolumeNumber">(LNCS, volume 192)</span>
+
+        </p>
+
+    </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                            <div class="cta-button-container cta-button-container--inline cta-button-container--stacked u-pt-36 test-download-book-separate-buttons" aria-hidden="true">
+            </div>
+
+                            </div>
+
+                            <aside class="main-sidebar-right u-pb-36 u-two-col-pb-0   u-interface u-hide">
+                                <div class="main-sidebar-right__content u-composite-layer">
+                                    <div id="article-actions" class="article-actions">
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </article>
+
+                    <article class="main-wrapper main-wrapper--no-gradient">
+                        <div class="main-container">
+                            <aside class="main-sidebar-left" aria-hidden="true">
+                                <div class="main-sidebar-left__content">
+                                </div>
+                            </aside>
+
+                            <div class="main-body main-body u-pb-70 u-pt-0" data-role="NavigationContainer">
+                                <div class="main-body__content">
+                                    <div id="tabs" class="c-tabs c-tabs--off" data-component="SV.Tabs">
+                                        <ul class="c-tabs__list">
+                                            <li class="c-tabs__list-item">
+                                                <a href="#toc" class="c-tabs__list-link" data-test="toc-link"
+                                                   title="Table of contents (18 papers)">
+                                                    <span class="u-hide-small" aria-hidden="true">Papers</span>
+                                                    <span class="u-hide u-show-small">Table of contents <span class="c-tabs__deemphasize" data-test="no-of-chapters">(18 papers)</span></span>
+                                                </a>
+                                            </li>
+                                            
+                                            <li class="c-tabs__list-item">
+                                                <a href="#about" class="c-tabs__list-link" title="About these proceedings">
+                                                    <span class="u-hide-small" aria-hidden="true">About</span>
+                                                    <span class="u-hide u-show-small">About these proceedings</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="c-tabs__content">
+                                            <div id="toc" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                                <h2 class="section__heading">Table of contents </h2>
+                                                <div class="c-tabs__block c-tabs__block--content-type-list">
+
+                                                        <div class="interface-bar">
+                                                            <form class="u-form-single-input-right" action="/search" method="get" role="search">
+    <input type="hidden" name="facet-conf-event-id" value="litp1984"/>
+    <input type="hidden" name="facet-content-type" value="Chapter"/>
+    <label for="springerlink-event-search" class="u-pr-8">Search within event</label>
+    <div class="u-relative">
+        <input id="springerlink-event-search" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit"
+               title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1"
+             xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z"
+                  stroke="none" fill-rule="evenodd"/>
+        </svg>
+   </div>
+</form>
+
+                                                        </div>
+
+
+                                                    <div class="book-toc-container" id="booktoc">
+                                                        <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-3-540-39505-8%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_19" data-track="click" data-track-action="ToC link to content page" data-track-label="">An introduction to finite automata on infinite words</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dominique Perrin</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 1-17</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_20" data-track="click" data-track-action="ToC link to content page" data-track-label="">Deterministic and non ambiguous rational ω-languages</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">André Arnold</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 18-27</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_21" data-track="click" data-track-action="ToC link to content page" data-track-label="">Ensembles reconnaissables de mots bi-inpinis Limite et déterminisme</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">D. Beauquier</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 28-46</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_22" data-track="click" data-track-action="ToC link to content page" data-track-label="">Automates boustrophedon sur des mots infinis</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">J. P Pecuchet</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 47-54</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_23" data-track="click" data-track-action="ToC link to content page" data-track-label="">Star-free ω-languages and first order logic</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">J. E. Pin</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 55-67</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_24" data-track="click" data-track-action="ToC link to content page" data-track-label="">A formal proof system for infinitary rational expressions</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Ph. Darondeau, L. Kott</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 68-80</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_25" data-track="click" data-track-action="ToC link to content page" data-track-label="">Logical formulas and four subclasses of ω-regular languages</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">K. Kobayashl, M. Takahashi, H. Yamasaki</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 81-88</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_26" data-track="click" data-track-action="ToC link to content page" data-track-label="">Deterministic asynchronous automata</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">M. W. Shields</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 89-98</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_27" data-track="click" data-track-action="ToC link to content page" data-track-label="">Alternating automata on infinite objects, determinacy and Rabin's theorem</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">David Muller, Paul E. Schupp</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 99-107</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_28" data-track="click" data-track-action="ToC link to content page" data-track-label="">The solution of two star-height problems for regular trees</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">J. P. Braquelaire, B. Courcelle</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 108-117</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_29" data-track="click" data-track-action="ToC link to content page" data-track-label="">Decidability of yield's equality for infinite regular trees</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Max Dauchet, Erick Timmerman</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 118-136</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_30" data-track="click" data-track-action="ToC link to content page" data-track-label="">Languages and subshifts</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">F. Blanchard, G. Hansel</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 137-146</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_31" data-track="click" data-track-action="ToC link to content page" data-track-label="">The adherences of languages as topological spaces</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Tom Head</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 147-163</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_32" data-track="click" data-track-action="ToC link to content page" data-track-label="">Mots infinis en arithmetique</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">G. Rauzy</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 164-171</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_33" data-track="click" data-track-action="ToC link to content page" data-track-label="">Kth power-free codes</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Michel Leconte</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 172-187</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_34" data-track="click" data-track-action="ToC link to content page" data-track-label="">On various classes of infinite words obtained by iterated mappings</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Jean-Jacques Pansiot</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 188-197</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_35" data-track="click" data-track-action="ToC link to content page" data-track-label="">Overlap free words on two symbols</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Antonio Restivo, Sergio Salemi</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 198-206</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/3-540-15641-0_36" data-track="click" data-track-action="ToC link to content page" data-track-label="">Overlap-free sequences</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Patrice Séébold</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 207-215</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="back-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Back Matter</span>
+
+
+                    <div class="content-type-list__text">
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bbm%3A978-3-540-39505-8%2F1.pdf" aria-label="Download PDF - Back Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Back matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+</ol>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div id="about" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                                <h2 class="section__heading">About these proceedings</h2>
+                                                <div class="c-tabs__block">
+                                                            <h3>Keywords</h3>
+        <div class="u-content u-mb-24" itemprop="keywords">
+          <span data-test="book-keyword" class="Keyword">Finite </span><span data-test="book-keyword" class="Keyword">Words </span><span data-test="book-keyword" class="Keyword">automata </span><span data-test="book-keyword" class="Keyword">decidability </span><span data-test="book-keyword" class="Keyword">equality </span><span data-test="book-keyword" class="Keyword">finite automata </span><span data-test="book-keyword" class="Keyword">form </span><span data-test="book-keyword" class="Keyword">formal proof </span><span data-test="book-keyword" class="Keyword">language </span><span data-test="book-keyword" class="Keyword">logic </span><span data-test="book-keyword" class="Keyword">mapping </span><span data-test="book-keyword" class="Keyword">object </span><span data-test="book-keyword" class="Keyword">proof </span><span data-test="book-keyword" class="Keyword">system </span><span data-test="book-keyword" class="Keyword">theorem </span>
+        </div>
+
+                                                    
+                                                    
+                                                    
+                                                        <div id="bibliographic-info">
+        <h3>Bibliographic information</h3>
+
+        <div class="bibliographic-information">
+            <ul class="bibliographic-information__list--inline">
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Book Title</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="title">Automata on Infinite Words</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Book Subtitle</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="sub-title">Ecole de Printemps d'Informatique Théorique Le Mont Dore, May 14–18, 1984</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Editors</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="editors">M. Nivat<br/>D. Perrin<br/></span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Series Title</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="series-title">Lecture Notes in Computer Science</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Series Abbreviated Title</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="series-abbreviated-title">Lect Notes Comput Sci</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">DOI</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/3-540-15641-0</span>
+                </li>
+
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Copyright Information</span>
+                    <span class="bibliographic-information__value" id="copyright-info"><span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Springer-Verlag Berlin Heidelberg</span></span> <span itemprop="copyrightYear">1985</span></span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Publisher Name</span>
+                    <span class="bibliographic-information__value" id="publisher-name"><span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Springer, Berlin, Heidelberg</span></span></span>
+                </li>
+
+                    <li class="bibliographic-information__item">
+        <span class="bibliographic-information__title">eBook Packages</span>
+        <span class="bibliographic-information__value">
+            <a id="ebook-package" href="http://www.springer.com/gb/librarians/marc">Springer Book Archive</a>
+        </span>
+    </li>
+
+
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Softcover ISBN</span>
+                        <span class="bibliographic-information__value" id="print-softcover-isbn" itemprop="isbn">978-3-540-15641-3</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">eBook ISBN</span>
+                        <span class="bibliographic-information__value" id="ebook-isbn" itemprop="isbn">978-3-540-39505-8</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series ISSN</span>
+                        <span class="bibliographic-information__value" id="print-issn">0302-9743</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series E-ISSN</span>
+                        <span class="bibliographic-information__value" id="electronic-issn">1611-3349</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Edition Number</span>
+                        <span class="bibliographic-information__value" id="edition-number">1</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Number of Pages</span>
+                        <span class="bibliographic-information__value" id="number-of-pages">X, 222</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Number of Illustrations</span>
+                        <span class="bibliographic-information__value" id="illustrations">0 b/w illustrations, 0 illustrations in colour</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Topics</span>
+                        <span class="bibliographic-information__value" id="topics"><a href="/search?facet-sub-discipline=Mathematical%20Logic%20and%20Formal%20Languages&amp;facet-content-type=Book">Mathematical Logic and Formal Languages</a><br/></span>
+                    </li>
+                        <li class="bibliographic-information__item">
+                            <a id="about-book" href="//www.springer.com/978-3-540-39505-8?utm_source&#x3D;springerlink&amp;utm_medium&#x3D;referral&amp;utm_campaign&#x3D;bookpage_about_buyonpublisherssite" >Buy this book on publisher's site</a>
+                        </li>
+            </ul>
+
+            
+
+
+                
+        </div>
+    </div>
+
+                                                    
+                                                </div>
+                                            </div>
+
+
+                                            
+
+
+                <div class="sticky-banner sticky-banner--no-download sticky-banner--force-title u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasButtonAndNoMQ">
+                    <div class="sticky-banner__container">
+                    </div>
+                </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <aside class="main-sidebar-right main-sidebar-right--buybox u-interface">
+                            </aside>
+                        </div>
+                    </article>
+                </div>
+            </main>
+
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/book/10.1007%2F3-540-15641-0&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/book/10.1007%2F3-540-15641-0&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="https://www.springernature.com/ccpa">California privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Manage cookies/Do not sell my data</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/1415637398/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/1415637398/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Sapienza Università di Roma (2000328745) - CARE-CRUI (3000155420) - CARE 2009 &amp; 2010 (3000180852) - CARE-CRUI NATURE (3003532199) - CARE-CRUI COMPACT (3004220731)</span>
+                    <span>151.100.59.194</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/1415637398';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/book';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+        
+    </body>
+</html>

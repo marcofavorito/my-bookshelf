@@ -1,0 +1,33 @@
+abstract: Recently, there is an increasing interest in obtaining the relational structures
+  of the environment in the Reinforcement Learning community. However, the resulting
+  "relations" are not the discrete, logical predicates compatible to the symbolic
+  reasoning such as classical planning or goal recognition. Meanwhile, Latplan (Asai
+  and Fukunaga 2018) bridged the gap between deep-learning perceptual systems and
+  symbolic classical planners. One key component of the system is a Neural Network
+  called State AutoEncoder (SAE), which encodes an image-based input into a propositional
+  representation compatible to classical planning. To get the best of both worlds,
+  we propose First-Order State AutoEncoder, an unsupervised architecture for grounding
+  the first-order logic predicates and facts. Each predicate models a relationship
+  between objects by taking the interpretable arguments and returning a propositional
+  value. In the experiment using 8-Puzzle and a photo-realistic Blocksworld environment,
+  we show that (1) the resulting predicates capture the interpretable relations (e.g.
+  spatial), (2) they help obtaining the compact, abstract model of the environment,
+  and finally, (3) the resulting model is compatible to symbolic classical planning.
+archiveprefix: arXiv
+author: Asai, Masataro
+author_list:
+- family: Asai
+  given: Masataro
+eprint: 1902.08093v4
+file: 1902.08093v4.pdf
+files:
+- asai-masatarounsupervised-grounding-of-plannable-first-order-logic-representation-from-images2019.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1902.08093v4
+time-added: 2021-05-15-20:04:06
+title: Unsupervised Grounding of Plannable First-Order Logic Representation   from
+  Images
+type: article
+url: http://arxiv.org/abs/1902.08093v4
+year: '2019'

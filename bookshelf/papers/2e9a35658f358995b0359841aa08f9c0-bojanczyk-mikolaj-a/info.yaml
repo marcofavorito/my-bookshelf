@@ -1,0 +1,39 @@
+abstract: 'We define a new class of languages of $\omega$-words, strictly extending
+  $\omega$-regular languages.   One way to present this new class is by a type of
+  regular expressions. The new expressions are an extension of $\omega$-regular expressions
+  where two new variants of the Kleene star $L^*$ are added: $L^B$ and $L^S$. These
+  new exponents are used to say that parts of the input word have bounded size, and
+  that parts of the input can have arbitrarily large sizes, respectively. For instance,
+  the expression $(a^Bb)^\omega$ represents the language of infinite words over the
+  letters $a,b$ where there is a common bound on the number of consecutive letters
+  $a$. The expression $(a^Sb)^\omega$ represents a similar language, but this time
+  the distance between consecutive $b$''s is required to tend toward the infinite.   We
+  develop a theory for these languages, with a focus on decidability and closure.
+  We define an equivalent automaton model, extending B\"uchi automata. The main technical
+  result is a complementation lemma that works for languages where only one type of
+  exponent---either $L^B$ or $L^S$---is used.   We use the closure and decidability
+  results to obtain partial decidability results for the logic MSOLB, a logic obtained
+  by extending monadic second-order logic with new quantifiers that speak about the
+  size of sets.'
+archiveprefix: arXiv
+author: Bojańczyk, Mikołaj and Colcombet, Thomas
+author_list:
+- family: Bojańczyk
+  given: Mikołaj
+- family: Colcombet
+  given: Thomas
+doi: 10.23638/LMCS-13(4:3)2017
+eprint: 1708.09765v2
+file: 1708.09765v2.pdf
+files:
+- bojanczyk-mikolaj-and-colcombet-thomasboundedness-in-languages-of-infinite-words2017.pdf
+month: Aug
+note: Logical Methods in Computer Science, Volume 13, Issue 4 (October   26, 2017)
+  lmcs:4016
+primaryclass: cs.LO
+ref: 1708.09765v2
+time-added: 2021-05-14-12:26:19
+title: Boundedness in languages of infinite words
+type: article
+url: http://arxiv.org/abs/1708.09765v2
+year: '2017'

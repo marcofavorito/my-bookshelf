@@ -1,0 +1,27 @@
+abstract: BatchNorm is a critical building block in modern convolutional neural networks.
+  Its unique property of operating on "batches" instead of individual samples introduces
+  significantly different behaviors from most other operations in deep learning. As
+  a result, it leads to many hidden caveats that can negatively impact model's performance
+  in subtle ways. This paper thoroughly reviews such problems in visual recognition
+  tasks, and shows that a key to address them is to rethink different choices in the
+  concept of "batch" in BatchNorm. By presenting these caveats and their mitigations,
+  we hope this review can help researchers use BatchNorm more effectively.
+archiveprefix: arXiv
+author: Wu, Yuxin and Johnson, Justin
+author_list:
+- family: Wu
+  given: Yuxin
+- family: Johnson
+  given: Justin
+eprint: 2105.07576v1
+file: 2105.07576v1.pdf
+files:
+- wu-yuxin-and-johnson-justinrethinking-batch-in-batchnorm2021.pdf
+month: May
+primaryclass: cs.CV
+ref: 2105.07576v1
+time-added: 2021-05-25-18:13:06
+title: Rethinking "Batch" in BatchNorm
+type: article
+url: http://arxiv.org/abs/2105.07576v1
+year: '2021'

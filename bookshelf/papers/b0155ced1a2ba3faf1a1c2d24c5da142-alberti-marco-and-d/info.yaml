@@ -1,0 +1,44 @@
+abstract: In multiagent systems, agent interaction is ruled by means of interaction
+  protocols. Compliance to protocols can be hardwired in agent programs; however,
+  this requires that only certified agents interact. In open societies, composed of
+  autonomous and heterogeneous agents whose internal structure is, in general, not
+  accessible, interaction protocols should be specified in terms of the agent observable
+  behaviour, and compliance should be verified by an external entity.In this paper,
+  we propose a Java-Prolog-CHR system for verification of compliance of agents' behaviour
+  to protocols specified in a logic-based formalism (Social Integrity Constraints).
+  We also present the application of the formalism and the system to the specification
+  and verification of the FIPA Contract-Net protocol.
+address: New York, NY, USA
+author: Alberti, Marco and Daolio, Davide and Torroni, Paolo and Gavanelli, Marco
+  and Lamma, Evelina and Mello, Paola
+author_list:
+- family: Alberti
+  given: Marco
+- family: Daolio
+  given: Davide
+- family: Torroni
+  given: Paolo
+- family: Gavanelli
+  given: Marco
+- family: Lamma
+  given: Evelina
+- family: Mello
+  given: Paola
+booktitle: Proceedings of the 2004 ACM Symposium on Applied Computing
+doi: 10.1145/967900.967918
+files:
+- alberti-marco-and-daolio-davide-and-torroni-paolo-and-gavanelli-marco-and-lamma-evelina-and-mello-paolaspecification-and-verification-of-agent-i.pdf
+isbn: '1581138121'
+keywords: agents, verification, computational logic
+location: Nicosia, Cyprus
+numpages: '7'
+pages: 72–78
+publisher: Association for Computing Machinery
+ref: 10.1145/967900.967918
+series: SAC '04
+time-added: 2021-05-24-18:31:40
+title: Specification and Verification of Agent Interaction Protocols in a Logic-Based
+  System
+type: inproceedings
+url: https://doi.org/10.1145/967900.967918
+year: '2004'

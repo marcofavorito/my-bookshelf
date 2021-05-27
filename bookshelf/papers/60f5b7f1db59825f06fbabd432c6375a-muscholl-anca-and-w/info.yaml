@@ -1,0 +1,27 @@
+abstract: A web service is modeled here as a finite state machine. A composition problem
+  for web services is to decide if a given web service can be constructed from a given
+  set of web services; where the construction is understood as a simulation of the
+  specification by a fully asynchronous product of the given services. We show an
+  EXPTIME-lower bound for this problem, thus matching the known upper bound. Our result
+  also applies to richer models of web services, such as the Roman model.
+archiveprefix: arXiv
+author: Muscholl, Anca and Walukiewicz, Igor
+author_list:
+- family: Muscholl
+  given: Anca
+- family: Walukiewicz
+  given: Igor
+doi: 10.2168/LMCS-4(2:5)2008
+eprint: 0804.3105v2
+file: 0804.3105v2.pdf
+files:
+- muscholl-anca-and-walukiewicz-igora-lower-bound-on-web-services-composition2008.pdf
+month: Apr
+note: Logical Methods in Computer Science, Volume 4, Issue 2 (May 15,   2008) lmcs:824
+primaryclass: cs.LO
+ref: 0804.3105v2
+time-added: 2021-05-07-17:40:58
+title: A lower bound on web services composition
+type: article
+url: http://arxiv.org/abs/0804.3105v2
+year: '2008'

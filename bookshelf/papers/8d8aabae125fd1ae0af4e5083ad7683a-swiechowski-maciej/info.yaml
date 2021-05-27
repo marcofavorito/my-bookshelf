@@ -1,0 +1,36 @@
+abstract: Monte Carlo Tree Search (MCTS) is a powerful approach to designing game-playing
+  bots or solving sequential decision problems. The method relies on intelligent tree
+  search that balances exploration and exploitation. MCTS performs random sampling
+  in the form of simulations and stores statistics of actions to make more educated
+  choices in each subsequent iteration. The method has become a state-of-the-art technique
+  for combinatorial games, however, in more complex games (e.g. those with high branching
+  factor or real-time ones), as well as in various practical domains (e.g. transportation,
+  scheduling or security) an efficient MCTS application often requires its problem-dependent
+  modification or integration with other techniques. Such domain-specific modifications
+  and hybrid approaches are the main focus of this survey. The last major MCTS survey
+  has been published in 2012. Contributions that appeared since its release are of
+  particular interest for this review.
+archiveprefix: arXiv
+author: Świechowski, Maciej and Godlewski, Konrad and Sawicki, Bartosz and Mańdziuk,
+  Jacek
+author_list:
+- family: Świechowski
+  given: Maciej
+- family: Godlewski
+  given: Konrad
+- family: Sawicki
+  given: Bartosz
+- family: Mańdziuk
+  given: Jacek
+eprint: 2103.04931v2
+file: 2103.04931v2.pdf
+files:
+- swiechowski-maciej-and-godlewski-konrad-and-sawicki-bartosz-and-mandziuk-jacekmonte-carlo-tree-search-a-review-of-recent-modifications-and-appl.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2103.04931v2
+time-added: 2021-05-23-11:23:20
+title: 'Monte Carlo Tree Search: A Review of Recent Modifications and   Applications'
+type: article
+url: http://arxiv.org/abs/2103.04931v2
+year: '2021'

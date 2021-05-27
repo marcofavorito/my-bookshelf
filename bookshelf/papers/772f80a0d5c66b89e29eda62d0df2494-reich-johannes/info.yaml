@@ -1,0 +1,34 @@
+abstract: The aim of this article is to delineate a theory of interaction semantics
+  and thereby provide a proper understanding of the "meaning" of the exchanged characters
+  within an interaction. The idea is to describe the interaction (between discrete
+  systems) by a mechanism that depends on information exchange, that is, on the identical
+  naming of the "exchanged" characters -- by a protocol. Complementing a nondeterministic
+  protocol with decisions to a game in its interactive form (GIF) makes it interpretable
+  in the sense of an execution. The consistency of such a protocol depends on the
+  particular choice of its sets of characters. Thus, assigning a protocol its sets
+  of charaacters makes it consistent or not, creating a fulfillment relation. The
+  interpretation of the characters during GIF execution results in their meaning.
+  The proposed theory of interaction semantics is consistent with the model of information
+  transport and processing, it has a clear relation to models of formal semantics,
+  it accounts for the fact that the meaning of a character is invariant against renaming
+  and locates the concept of meaning in the technical description of interactions.
+  It defines when two different characters have the same meaning and what an "interpretation"
+  and what an "interpretation context" is as well as under which conditions meaning
+  is compositional.
+archiveprefix: arXiv
+author: Reich, Johannes
+author_list:
+- family: Reich
+  given: Johannes
+eprint: 2007.06258v1
+file: 2007.06258v1.pdf
+files:
+- reich-johannesa-theory-of-interaction-semantics2020.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 2007.06258v1
+time-added: 2021-05-24-17:30:36
+title: A theory of interaction semantics
+type: article
+url: http://arxiv.org/abs/2007.06258v1
+year: '2020'

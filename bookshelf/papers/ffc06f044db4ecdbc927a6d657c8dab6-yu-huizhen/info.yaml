@@ -1,0 +1,33 @@
+abstract: We consider a class of two-player zero-sum stochastic games with finite
+  state and compact control spaces, which we call stochastic shortest path (SSP) games.
+  They are undiscounted total cost stochastic dynamic games that have a cost-free
+  termination state. Exploiting the close connection of these games to single-player
+  SSP problems, we introduce novel model conditions under which we show that the SSP
+  games have strong optimality properties, including the existence of a unique solution
+  to the dynamic programming equation, the existence of optimal stationary policies,
+  and the convergence of value and policy iteration. We then focus on finite state
+  and control SSP games and the classical Q-learning algorithm for computing the value
+  function. Q-learning is a model-free, asynchronous stochastic iterative algorithm.
+  By the theory of stochastic approximation involving monotone nonexpansive mappings,
+  it is known to converge when its associated dynamic programming equation has a unique
+  solution and its iterates are bounded with probability one. For the SSP case, as
+  the main result of this paper, we prove the boundedness of the Q-learning iterates
+  under our proposed model conditions, thereby establishing completely the convergence
+  of Q-learning for a broad class of total cost finite-space stochastic games.
+archiveprefix: arXiv
+author: Yu, Huizhen
+author_list:
+- family: Yu
+  given: Huizhen
+eprint: 1412.8570v1
+file: 1412.8570v1.pdf
+files:
+- yu-huizhenstochastic-shortest-path-games-and-q-learning2014.pdf
+month: Dec
+primaryclass: math.OC
+ref: 1412.8570v1
+time-added: 2021-05-25-22:08:04
+title: Stochastic Shortest Path Games and Q-Learning
+type: article
+url: http://arxiv.org/abs/1412.8570v1
+year: '2014'

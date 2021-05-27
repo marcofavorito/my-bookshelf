@@ -1,0 +1,36 @@
+abstract: In this paper we reexamine the place and role of stable model semantics
+  in logic programming and contrast it with a least Herbrand model approach to Horn
+  programs. We demonstrate that inherent features of stable model semantics naturally
+  lead to a logic programming system that offers an interesting alternative to more
+  traditional logic programming styles of Horn logic programming, stratified logic
+  programming and logic programming with well-founded semantics. The proposed approach
+  is based on the interpretation of program clauses as constraints. In this setting
+  programs do not describe a single intended model, but a family of stable models.
+  These stable models encode solutions to the constraint satisfaction problem described
+  by the program. Our approach imposes restrictions on the syntax of logic programs.
+  In particular, function symbols are eliminated from the language. We argue that
+  the resulting logic programming system is well-attuned to problems in the class
+  NP, has a well-defined domain of applications, and an emerging methodology of programming.
+  We point out that what makes the whole approach viable is recent progress in implementations
+  of algorithms to compute stable models of propositional logic programs.
+archiveprefix: arXiv
+author: Marek, Victor W. and Truszczynski, Miroslaw
+author_list:
+- family: Marek
+  given: Victor W.
+- family: Truszczynski
+  given: Miroslaw
+eprint: cs/9809032v1
+file: cs/9809032v1.pdf
+files:
+- marek-victor-w.-and-truszczynski-miroslawstable-models-and-an-alternative-logic-programming-paradigm1998.pdf
+month: Sep
+note: The Logic Programming Paradigm, K.R. Apt, V.W. Marek, M.   Truszczynski, D.S.
+  Warren (eds.), pp. 375-398. Springer-Verlag, 1999
+primaryclass: cs.LO
+ref: cs/9809032v1
+time-added: 2021-05-16-19:29:42
+title: Stable models and an alternative logic programming paradigm
+type: article
+url: http://arxiv.org/abs/cs/9809032v1
+year: '1998'
