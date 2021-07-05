@@ -1,0 +1,40 @@
+abstract: 'The quest for determinism in machine learning has disproportionately focused
+  on characterizing the impact of noise introduced by algorithmic design choices.
+  In this work, we address a less well understood and studied question: how does our
+  choice of tooling introduce randomness to deep neural network training. We conduct
+  large scale experiments across different types of hardware, accelerators, state
+  of art networks, and open-source datasets, to characterize how tooling choices contribute
+  to the level of non-determinism in a system, the impact of said non-determinism,
+  and the cost of eliminating different sources of noise.   Our findings are surprising,
+  and suggest that the impact of non-determinism in nuanced. While top-line metrics
+  such as top-1 accuracy are not noticeably impacted, model performance on certain
+  parts of the data distribution is far more sensitive to the introduction of randomness.
+  Our results suggest that deterministic tooling is critical for AI safety. However,
+  we also find that the cost of ensuring determinism varies dramatically between neural
+  network architectures and hardware types, e.g., with overhead up to $746\%$, $241\%$,
+  and $196\%$ on a spectrum of widely used GPU accelerator architectures, relative
+  to non-deterministic training. The source code used in this paper is available at
+  https://github.com/usyd-fsalab/NeuralNetworkRandomness.'
+archiveprefix: arXiv
+author: Zhuang, Donglin and Zhang, Xingyao and Song, Shuaiwen Leon and Hooker, Sara
+author_list:
+- family: Zhuang
+  given: Donglin
+- family: Zhang
+  given: Xingyao
+- family: Song
+  given: Shuaiwen Leon
+- family: Hooker
+  given: Sara
+eprint: 2106.11872v1
+file: 2106.11872v1.pdf
+files:
+- zhuang-donglin-and-zhang-xingyao-and-song-shuaiwen-leon-and-hooker-sararandomness-in-neural-network-training-characterizing-the-impact-of-tooli.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.11872v1
+time-added: 2021-06-23-19:45:42
+title: 'Randomness In Neural Network Training: Characterizing The Impact of   Tooling'
+type: article
+url: http://arxiv.org/abs/2106.11872v1
+year: '2021'

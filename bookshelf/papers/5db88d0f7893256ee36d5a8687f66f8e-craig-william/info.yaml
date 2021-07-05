@@ -1,0 +1,99 @@
+abstract: '<jats:p>One task of metamathematics is to relate suggestive but nonelementary
+  modeltheoretic concepts to more elementary proof-theoretic concepts, thereby opening
+  up modeltheoretic problems to proof-theoretic methods of attack. Herbrand''s Theorem
+  (see [8] or also [9], vol. 2) or Gentzen''s Extended Hauptsatz (see [5] or also
+  [10]) was first used along these lines by Beth [1]. Using a modified version he
+  showed that for all first-order systems a certain modeltheoretic notion of definability
+  coincides with a certain proof theoretic notion. In the present paper the Herbrand-Gentzen
+  Theorem will be applied to generalize Beth''s results from primitive predicate symbols
+  to arbitrary formulas and terms.</jats:p><jats:p>This may be interpreted as showing
+  that (apart from some relatively minor exceptions which will be made apparent below)
+  the expressive power of each first-order system is rounded out, or the system is
+  <jats:italic>functionally complete</jats:italic>, in the following sense: Any functional
+  relationship which obtains between concepts that are expressible in the system is
+  itself expressible and provable in the system.</jats:p><jats:p>A second application
+  is concerned with the hierarchy of second-order formulas. A certain relationship
+  is shown to hold between first-order formulas and those second-order formulas which
+  are of the form (∃T<jats:sub>1</jats:sub>)…(∃T<jats:sub><jats:italic>k</jats:italic></jats:sub>)A
+  or (T<jats:sub>1</jats:sub>)…(T<jats:sub><jats:italic>k</jats:italic></jats:sub>)A
+  with A being a first-order formula. Modeltheoretically this can be regarded as a
+  relationship between the class <jats:bold>AC</jats:bold> and the class <jats:bold>PC</jats:bold><jats:sub>⊿</jats:sub>
+  of sets of models, investigated by Tarski in [12] and [13].</jats:p>'
+author: Craig, William
+author_list:
+- affiliation: []
+  family: Craig
+  given: William
+citations:
+- article-title: Some notions and methods on the borderline of algebra and metamathematics
+  author: Tarski
+  first-page: '705'
+  journal-title: Proceedings of the International Congress of Mathematicians
+  volume: '1'
+  year: '1950'
+- author: Kleene
+  volume-title: Introduction to metamathematics
+  year: '1952'
+- author: Herbrand
+  volume-title: Recherches sur la théorie de la démonstration
+  year: '1930'
+- author: Hailperin
+  first-page: '14'
+  journal-title: Remarks on identity and description in first-order systems
+  volume: '19'
+  year: '1954'
+- doi: 10.1007/BF01201363
+- article-title: On Padoa's method in the theory of definitions
+  author: Beth
+  first-page: '330'
+  journal-title: Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings
+  volume: '56'
+  year: '1953'
+- author: Craig
+  first-page: '250'
+  journal-title: Linear reasoning. A new form of the Herbrand-Gentzen Theorem
+  volume: '22'
+  year: '1957'
+- article-title: A result on consistency and its application to the theory of definition
+  author: Robinson
+  first-page: '47'
+  journal-title: Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings
+  volume: '59'
+  year: '1956'
+- author: Henkin
+  first-page: '159'
+  journal-title: The completeness of the first-order functional calculus
+  volume: '14'
+  year: '1949'
+- author: Birkhoff
+  volume: '25'
+  volume-title: Lattice theory
+  year: '1940'
+- author: Hilbert
+  volume: '1'
+  volume-title: Grundlagen der Mathematik
+  year: '1934'
+- author: Tarski
+  first-page: '572'
+  volume: '57'
+  volume-title: Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings
+  year: '1954'
+- author: Büchi
+  first-page: '222'
+  journal-title: Notes on the family PC⊿ of sets of models
+  volume: '21'
+  year: '1956'
+doi: 10.2307/2963594
+issue: '3'
+journal: Journal of Symbolic Logic
+language: en
+month: 9
+pages: 269--285
+publisher: Cambridge University Press (CUP)
+time-added: 2021-06-05-11:00:47
+title: Three uses of the Herbrand-Gentzen theorem in relating model theory and proof
+  theory
+type: article
+url: http://dx.doi.org/10.2307/2963594
+volume: '22'
+year: 1957

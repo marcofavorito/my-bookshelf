@@ -1,0 +1,34 @@
+abstract: Deep Learning has revolutionized the fields of computer vision, natural
+  language understanding, speech recognition, information retrieval and more. However,
+  with the progressive improvements in deep learning models, their number of parameters,
+  latency, resources required to train, etc. have all have increased significantly.
+  Consequently, it has become important to pay attention to these footprint metrics
+  of a model as well, not just its quality. We present and motivate the problem of
+  efficiency in deep learning, followed by a thorough survey of the five core areas
+  of model efficiency (spanning modeling techniques, infrastructure, and hardware)
+  and the seminal work there. We also present an experiment-based guide along with
+  code, for practitioners to optimize their model training and deployment. We believe
+  this is the first comprehensive survey in the efficient deep learning space that
+  covers the landscape of model efficiency from modeling techniques to hardware support.
+  Our hope is that this survey would provide the reader with the mental model and
+  the necessary understanding of the field to apply generic efficiency techniques
+  to immediately get significant improvements, and also equip them with ideas for
+  further research and experimentation to achieve additional gains.
+archiveprefix: arXiv
+author: Menghani, Gaurav
+author_list:
+- family: Menghani
+  given: Gaurav
+eprint: 2106.08962v2
+file: 2106.08962v2.pdf
+files:
+- menghani-gauravefficient-deep-learning-a-survey-on-making-deep-learning-models-smaller-faster-and-better2021.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.08962v2
+time-added: 2021-06-24-09:49:52
+title: 'Efficient Deep Learning: A Survey on Making Deep Learning Models   Smaller,
+  Faster, and Better'
+type: article
+url: http://arxiv.org/abs/2106.08962v2
+year: '2021'

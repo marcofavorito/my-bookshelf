@@ -1,0 +1,36 @@
+abstract: Liquidity and trading activity on constant function market makers (CFMMs)
+  such as Uniswap, Curve, and Balancer has grown significantly in the second half
+  of 2020. Much of the growth of these protocols has been driven by incentivized pools
+  or 'yield farming', which reward participants in crypto assets for providing liquidity
+  to CFMMs. As a result, CFMMs and associated protocols, which were historically very
+  small markets, now constitute the most liquid trading venues for a large number
+  of crypto assets. But what does it mean for a CFMM to be the most liquid market?
+  In this paper, we propose a basic definition of price sensitivity and liquidity.
+  We show that this definition is tightly related to the curvature of a CFMM's trading
+  function and can be used to explain a number of heuristic results. For example,
+  we show that low-curvature markets are good for coins whose market value is approximately
+  fixed and that high-curvature markets are better for liquidity providers when traders
+  have an informational edge. Additionally, the results can also be used to model
+  interacting markets and explain the rise of incentivized liquidity provision, also
+  known as 'yield farming.'
+archiveprefix: arXiv
+author: Angeris, Guillermo and Evans, Alex and Chitra, Tarun
+author_list:
+- family: Angeris
+  given: Guillermo
+- family: Evans
+  given: Alex
+- family: Chitra
+  given: Tarun
+eprint: 2012.08040v1
+file: 2012.08040v1.pdf
+files:
+- angeris-guillermo-and-evans-alex-and-chitra-tarunwhen-does-the-tail-wag-the-dog-curvature-and-market-making2020.pdf
+month: Dec
+primaryclass: q-fin.TR
+ref: 2012.08040v1
+time-added: 2021-06-26-14:06:48
+title: When does the tail wag the dog? Curvature and market making
+type: article
+url: http://arxiv.org/abs/2012.08040v1
+year: '2020'

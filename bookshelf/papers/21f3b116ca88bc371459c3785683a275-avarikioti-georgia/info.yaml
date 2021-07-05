@@ -1,0 +1,35 @@
+abstract: Sharding distributed ledgers is the most promising on-chain solution for
+  scaling blockchain technology. In this work, we define and analyze the properties
+  a sharded distributed ledger should fulfill. More specifically, we show that a sharded
+  blockchain cannot be scalable under a fully adaptive adversary, but it can scale
+  up to $O(n/\log n)$ under an epoch-adaptive adversary. This is possible only if
+  the distributed ledger creates succinct proofs of the valid state updates at the
+  end of each epoch. Our model builds upon and extends the Bitcoin backbone protocol
+  by defining consistency and scalability. Consistency encompasses the need for atomic
+  execution of cross-shard transactions to preserve safety, whereas scalability encapsulates
+  the speedup a sharded system can gain in comparison to a non-sharded system. We
+  introduce a protocol abstraction and highlight the sufficient components for secure
+  and efficient sharding in our model. In order to show the power of our framework,
+  we analyze the most prominent shared blockchains (Elastico, Monoxide, OmniLedger,
+  RapidChain) and pinpoint where they fail to meet the desired properties.
+archiveprefix: arXiv
+author: Avarikioti, Georgia and Kokoris-Kogias, Eleftherios and Wattenhofer, Roger
+author_list:
+- family: Avarikioti
+  given: Georgia
+- family: Kokoris-Kogias
+  given: Eleftherios
+- family: Wattenhofer
+  given: Roger
+eprint: 1910.10434v5
+file: 1910.10434v5.pdf
+files:
+- avarikioti-georgia-and-kokoris-kogias-eleftherios-and-wattenhofer-rogerdivide-and-scale-formalization-of-distributed-ledger-sharding-protocols2019.pdf
+month: Oct
+primaryclass: cs.DC
+ref: 1910.10434v5
+time-added: 2021-07-03-22:02:19
+title: 'Divide and Scale: Formalization of Distributed Ledger Sharding Protocols'
+type: article
+url: http://arxiv.org/abs/1910.10434v5
+year: '2019'

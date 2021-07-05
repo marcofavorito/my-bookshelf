@@ -1,0 +1,49 @@
+abstract: It has been postulated that a good representation is one that disentangles
+  the underlying explanatory factors of variation. However, it remains an open question
+  what kind of training framework could potentially achieve that. Whereas most previous
+  work focuses on the static setting (e.g., with images), we postulate that some of
+  the causal factors could be discovered if the learner is allowed to interact with
+  its environment. The agent can experiment with different actions and observe their
+  effects. More specifically, we hypothesize that some of these factors correspond
+  to aspects of the environment which are independently controllable, i.e., that there
+  exists a policy and a learnable feature for each such aspect of the environment,
+  such that this policy can yield changes in that feature with minimal changes to
+  other features that explain the statistical variations in the observed data. We
+  propose a specific objective function to find such factors and verify experimentally
+  that it can indeed disentangle independently controllable aspects of the environment
+  without any extrinsic reward signal.
+archiveprefix: arXiv
+author: Thomas, Valentin and Pondard, Jules and Bengio, Emmanuel and Sarfati, Marc
+  and Beaudoin, Philippe and Meurs, Marie-Jean and Pineau, Joelle and Precup, Doina
+  and Bengio, Yoshua
+author_list:
+- family: Thomas
+  given: Valentin
+- family: Pondard
+  given: Jules
+- family: Bengio
+  given: Emmanuel
+- family: Sarfati
+  given: Marc
+- family: Beaudoin
+  given: Philippe
+- family: Meurs
+  given: Marie-Jean
+- family: Pineau
+  given: Joelle
+- family: Precup
+  given: Doina
+- family: Bengio
+  given: Yoshua
+eprint: 1708.01289v2
+file: 1708.01289v2.pdf
+files:
+- thomas-valentin-and-pondard-jules-and-bengio-emmanuel-and-sarfati-marc-and-beaudoin-philippe-and-meurs-marie-jean-and-pineau-joelle-and-precup.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 1708.01289v2
+time-added: 2021-06-25-17:06:32
+title: Independently Controllable Factors
+type: article
+url: http://arxiv.org/abs/1708.01289v2
+year: '2017'

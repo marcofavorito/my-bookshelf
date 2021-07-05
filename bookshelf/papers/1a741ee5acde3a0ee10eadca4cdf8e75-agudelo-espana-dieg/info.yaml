@@ -1,0 +1,36 @@
+abstract: Random features is a powerful universal function approximator that inherits
+  the theoretical rigor of kernel methods and can scale up to modern learning tasks.
+  This paper views uncertain system models as unknown or uncertain smooth functions
+  in universal reproducing kernel Hilbert spaces. By directly approximating the one-step
+  dynamics function using random features with uncertain parameters, which are equivalent
+  to a shallow Bayesian neural network, we then view the whole dynamical system as
+  a multi-layer neural network. Exploiting the structure of Hamiltonian dynamics,
+  we show that finding worst-case dynamics realizations using Pontryagin's minimum
+  principle is equivalent to performing the Frank-Wolfe algorithm on the deep net.
+  Various numerical experiments on dynamics learning showcase the capacity of our
+  modeling methodology.
+archiveprefix: arXiv
+author: Agudelo-España, Diego and Nemmour, Yassine and Schölkopf, Bernhard and Zhu,
+  Jia-Jie
+author_list:
+- family: Agudelo-España
+  given: Diego
+- family: Nemmour
+  given: Yassine
+- family: Schölkopf
+  given: Bernhard
+- family: Zhu
+  given: Jia-Jie
+eprint: 2106.13066v1
+file: 2106.13066v1.pdf
+files:
+- agudelo-espana-diego-and-nemmour-yassine-and-scholkopf-bernhard-and-zhu-jia-jieshallow-representation-is-deep-learning-uncertainty-aware-and-wo.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.13066v1
+time-added: 2021-07-01-15:34:40
+title: 'Shallow Representation is Deep: Learning Uncertainty-aware and   Worst-case
+  Random Feature Dynamics'
+type: article
+url: http://arxiv.org/abs/2106.13066v1
+year: '2021'

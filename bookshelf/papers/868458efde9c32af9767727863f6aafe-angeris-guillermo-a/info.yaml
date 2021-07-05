@@ -1,0 +1,32 @@
+abstract: We present a method for constructing Constant Function Market Makers (CFMMs)
+  whose portfolio value functions match a desired payoff. More specifically, we show
+  that the space of concave, nonnegative, nondecreasing, 1-homogeneous payoff functions
+  and the space of convex CFMMs are equivalent; in other words, every CFMM has a concave,
+  nonnegative, nondecreasing, 1-homogeneous payoff function, and every payoff function
+  with these properties has a corresponding convex CFMM. We demonstrate a simple method
+  for recovering a CFMM trading function that produces this desired payoff. This method
+  uses only basic tools from convex analysis and is intimately related to Fenchel
+  conjugacy. We demonstrate our result by constructing trading functions corresponding
+  to basic payoffs, as well as standard financial derivatives such as options and
+  swaps.
+archiveprefix: arXiv
+author: Angeris, Guillermo and Evans, Alex and Chitra, Tarun
+author_list:
+- family: Angeris
+  given: Guillermo
+- family: Evans
+  given: Alex
+- family: Chitra
+  given: Tarun
+eprint: 2103.14769v1
+file: 2103.14769v1.pdf
+files:
+- angeris-guillermo-and-evans-alex-and-chitra-tarunreplicating-market-makers2021.pdf
+month: Mar
+primaryclass: q-fin.MF
+ref: 2103.14769v1
+time-added: 2021-06-26-14:08:11
+title: Replicating Market Makers
+type: article
+url: http://arxiv.org/abs/2103.14769v1
+year: '2021'

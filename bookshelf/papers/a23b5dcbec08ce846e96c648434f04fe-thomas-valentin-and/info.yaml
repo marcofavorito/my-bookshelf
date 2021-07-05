@@ -1,0 +1,50 @@
+abstract: It has been postulated that a good representation is one that disentangles
+  the underlying explanatory factors of variation. However, it remains an open question
+  what kind of training framework could potentially achieve that. Whereas most previous
+  work focuses on the static setting (e.g., with images), we postulate that some of
+  the causal factors could be discovered if the learner is allowed to interact with
+  its environment. The agent can experiment with different actions and observe their
+  effects. More specifically, we hypothesize that some of these factors correspond
+  to aspects of the environment which are independently controllable, i.e., that there
+  exists a policy and a learnable feature for each such aspect of the environment,
+  such that this policy can yield changes in that feature with minimal changes to
+  other features that explain the statistical variations in the observed data. We
+  propose a specific objective function to find such factors, and verify experimentally
+  that it can indeed disentangle independently controllable aspects of the environment
+  without any extrinsic reward signal.
+archiveprefix: arXiv
+author: Thomas, Valentin and Bengio, Emmanuel and Fedus, William and Pondard, Jules
+  and Beaudoin, Philippe and Larochelle, Hugo and Pineau, Joelle and Precup, Doina
+  and Bengio, Yoshua
+author_list:
+- family: Thomas
+  given: Valentin
+- family: Bengio
+  given: Emmanuel
+- family: Fedus
+  given: William
+- family: Pondard
+  given: Jules
+- family: Beaudoin
+  given: Philippe
+- family: Larochelle
+  given: Hugo
+- family: Pineau
+  given: Joelle
+- family: Precup
+  given: Doina
+- family: Bengio
+  given: Yoshua
+eprint: 1802.09484v1
+file: 1802.09484v1.pdf
+files:
+- thomas-valentin-and-bengio-emmanuel-and-fedus-william-and-pondard-jules-and-beaudoin-philippe-and-larochelle-hugo-and-pineau-joelle-and-precup.pdf
+month: Feb
+primaryclass: stat.ML
+ref: 1802.09484v1
+time-added: 2021-06-25-17:06:23
+title: Disentangling the independently controllable factors of variation by   interacting
+  with the world
+type: article
+url: http://arxiv.org/abs/1802.09484v1
+year: '2018'

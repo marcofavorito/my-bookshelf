@@ -1,0 +1,44 @@
+abstract: 'We study the connection between the highly non-convex loss function of
+  a simple model of the fully-connected feed-forward neural network and the Hamiltonian
+  of the spherical spin-glass model under the assumptions of: i) variable independence,
+  ii) redundancy in network parametrization, and iii) uniformity. These assumptions
+  enable us to explain the complexity of the fully decoupled neural network through
+  the prism of the results from random matrix theory. We show that for large-size
+  decoupled networks the lowest critical values of the random loss function form a
+  layered structure and they are located in a well-defined band lower-bounded by the
+  global minimum. The number of local minima outside that band diminishes exponentially
+  with the size of the network. We empirically verify that the mathematical model
+  exhibits similar behavior as the computer simulations, despite the presence of high
+  dependencies in real networks. We conjecture that both simulated annealing and SGD
+  converge to the band of low critical points, and that all critical points found
+  there are local minima of high quality measured by the test error. This emphasizes
+  a major difference between large- and small-size networks where for the latter poor
+  quality local minima have non-zero probability of being recovered. Finally, we prove
+  that recovering the global minimum becomes harder as the network size increases
+  and that it is in practice irrelevant as global minimum often leads to overfitting.'
+archiveprefix: arXiv
+author: Choromanska, Anna and Henaff, Mikael and Mathieu, Michael and Arous, Gérard
+  Ben and LeCun, Yann
+author_list:
+- family: Choromanska
+  given: Anna
+- family: Henaff
+  given: Mikael
+- family: Mathieu
+  given: Michael
+- family: Arous
+  given: Gérard Ben
+- family: LeCun
+  given: Yann
+eprint: 1412.0233v3
+file: 1412.0233v3.pdf
+files:
+- choromanska-anna-and-henaff-mikael-and-mathieu-michael-and-arous-gerard-ben-and-lecun-yannthe-loss-surfaces-of-multilayer-networks2014.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1412.0233v3
+time-added: 2021-07-03-11:55:54
+title: The Loss Surfaces of Multilayer Networks
+type: article
+url: http://arxiv.org/abs/1412.0233v3
+year: '2014'

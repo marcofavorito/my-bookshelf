@@ -1,0 +1,68 @@
+abstract: '<jats:p>This paper presents an algorithm by which a process in a distributed
+  system determines a global state of the system during a computation. Many problems
+  in distributed systems can be cast in terms of the problem of detecting global states.
+  For instance, the global state detection algorithm helps to solve an important class
+  of problems: stable property detection. A stable property is one that persists:
+  once a stable property becomes true it remains true thereafter. Examples of stable
+  properties are “computation has terminated,” “ the system is deadlocked” and “all
+  tokens in a token ring have disappeared.” The stable property detection problem
+  is that of devising algorithms to detect a given stable property. Global state detection
+  can also be used for checkpointing.</jats:p>'
+author: Chandy, K. Mani and Lamport, Leslie
+author_list:
+- affiliation:
+  - name: Department of Computer Sciences, University of Texas at Austin, Austin,
+      TX
+  family: Chandy
+  given: K. Mani
+- affiliation:
+  - name: Stanford Research Institute, Menlo Park, CA
+  family: Lamport
+  given: Leslie
+citations:
+- doi: 10.1145/358690.358717
+- doi: 10.1145/357360.357365
+- author: DIJKSTRA E. W.
+  doi: 10.1016/0020-0190(80)90021-6
+  first-page: '1'
+  journal-title: Inf. Proc. Lett.
+  volume: '11'
+  year: '1980'
+- author: GLIGOR V. D.
+  doi: 10.1109/TSE.1980.230491
+  first-page: '435'
+  journal-title: IEEE Trans. Softw. Eng. SE-6
+  volume: '5'
+  year: '1980'
+- doi: 10.1145/359545.359563
+- unstructured: LAMPORT L. AND CHANDY K.M. On partially-ordered event models of distributed
+    computations. Submitted for publication.  LAMPORT L. AND CHANDY K.M. On partially-ordered
+    event models of distributed computations. Submitted for publication.
+- author: MAHOUD S. A.
+  first-page: '1'
+  journal-title: INFOR
+  volume: '15'
+  year: '1977'
+- author: MENASCE D.
+  doi: 10.1109/TSE.1979.234181
+  first-page: '195'
+  journal-title: IEEE Trans. Softw. Eng. SE-5
+  volume: '3'
+  year: '1979'
+- doi: 10.1145/357153.357156
+- doi: 10.1145/319702.319717
+doi: 10.1145/214451.214456
+files:
+- chandy-k.-mani-and-lamport-lesliedistributed-snapshots1985.pdf
+issue: '1'
+journal: ACM Transactions on Computer Systems
+language: en
+month: 2
+pages: 63--75
+publisher: Association for Computing Machinery (ACM)
+time-added: 2021-05-28-09:45:59
+title: "Distributed snapshots: Determining global states of distributed systems"
+type: article
+url: http://dx.doi.org/10.1145/214451.214456
+volume: '3'
+year: 1985

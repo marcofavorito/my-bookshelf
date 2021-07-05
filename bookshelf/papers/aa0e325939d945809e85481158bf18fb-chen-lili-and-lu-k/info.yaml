@@ -1,0 +1,47 @@
+abstract: We present a framework that abstracts Reinforcement Learning (RL) as a sequence
+  modeling problem. This allows us to draw upon the simplicity and scalability of
+  the Transformer architecture, and associated advances in language modeling such
+  as GPT-x and BERT. In particular, we present Decision Transformer, an architecture
+  that casts the problem of RL as conditional sequence modeling. Unlike prior approaches
+  to RL that fit value functions or compute policy gradients, Decision Transformer
+  simply outputs the optimal actions by leveraging a causally masked Transformer.
+  By conditioning an autoregressive model on the desired return (reward), past states,
+  and actions, our Decision Transformer model can generate future actions that achieve
+  the desired return. Despite its simplicity, Decision Transformer matches or exceeds
+  the performance of state-of-the-art model-free offline RL baselines on Atari, OpenAI
+  Gym, and Key-to-Door tasks.
+archiveprefix: arXiv
+author: Chen, Lili and Lu, Kevin and Rajeswaran, Aravind and Lee, Kimin and Grover,
+  Aditya and Laskin, Michael and Abbeel, Pieter and Srinivas, Aravind and Mordatch,
+  Igor
+author_list:
+- family: Chen
+  given: Lili
+- family: Lu
+  given: Kevin
+- family: Rajeswaran
+  given: Aravind
+- family: Lee
+  given: Kimin
+- family: Grover
+  given: Aditya
+- family: Laskin
+  given: Michael
+- family: Abbeel
+  given: Pieter
+- family: Srinivas
+  given: Aravind
+- family: Mordatch
+  given: Igor
+eprint: 2106.01345v1
+file: 2106.01345v1.pdf
+files:
+- chen-lili-and-lu-kevin-and-rajeswaran-aravind-and-lee-kimin-and-grover-aditya-and-laskin-michael-and-abbeel-pieter-and-srinivas-aravind-and-mo.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.01345v1
+time-added: 2021-06-16-17:44:24
+title: 'Decision Transformer: Reinforcement Learning via Sequence Modeling'
+type: article
+url: http://arxiv.org/abs/2106.01345v1
+year: '2021'

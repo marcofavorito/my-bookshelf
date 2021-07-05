@@ -1,0 +1,36 @@
+abstract: Constant Function Market Makers (CFMMs) are a family of automated market
+  makers that enable censorship-resistant decentralized exchange on public blockchains.
+  Arbitrage trades have been shown to align the prices reported by CFMMs with those
+  of external markets. These trades impose costs on Liquidity Providers (LPs) who
+  supply reserves to CFMMs. Trading fees have been proposed as a mechanism for compensating
+  LPs for arbitrage losses. However, large fees reduce the accuracy of the prices
+  reported by CFMMs and can cause reserves to deviate from desirable asset compositions.
+  CFMM designers are therefore faced with the problem of how to optimally select fees
+  to attract liquidity. We develop a framework for determining the value to LPs of
+  supplying liquidity to a CFMM with fees when the underlying process follows a general
+  diffusion. Focusing on a popular class of CFMMs which we call Geometric Mean Market
+  Makers (G3Ms), our approach also allows one to select optimal fees for maximizing
+  LP value. We illustrate our methodology by showing that an LP with mean-variance
+  utility will prefer a G3M over all alternative trading strategies as fees approach
+  zero.
+archiveprefix: arXiv
+author: Evans, Alex and Angeris, Guillermo and Chitra, Tarun
+author_list:
+- family: Evans
+  given: Alex
+- family: Angeris
+  given: Guillermo
+- family: Chitra
+  given: Tarun
+eprint: 2104.00446v1
+file: 2104.00446v1.pdf
+files:
+- evans-alex-and-angeris-guillermo-and-chitra-tarunoptimal-fees-for-geometric-mean-market-makers2021.pdf
+month: Apr
+primaryclass: q-fin.MF
+ref: 2104.00446v1
+time-added: 2021-06-26-14:07:41
+title: Optimal Fees for Geometric Mean Market Makers
+type: article
+url: http://arxiv.org/abs/2104.00446v1
+year: '2021'

@@ -1,0 +1,40 @@
+abstract: 'In this paper, we apply machine learning to distributed private data owned
+  by multiple data owners, entities with access to non-overlapping training datasets.
+  We use noisy, differentially-private gradients to minimize the fitness cost of the
+  machine learning model using stochastic gradient descent. We quantify the quality
+  of the trained model, using the fitness cost, as a function of privacy budget and
+  size of the distributed datasets to capture the trade-off between privacy and utility
+  in machine learning. This way, we can predict the outcome of collaboration among
+  privacy-aware data owners prior to executing potentially computationally-expensive
+  machine learning algorithms. Particularly, we show that the difference between the
+  fitness of the trained machine learning model using differentially-private gradient
+  queries and the fitness of the trained machine model in the absence of any privacy
+  concerns is inversely proportional to the size of the training datasets squared
+  and the privacy budget squared. We successfully validate the performance prediction
+  with the actual performance of the proposed privacy-aware learning algorithms, applied
+  to: financial datasets for determining interest rates of loans using regression;
+  and detecting credit card frauds using support vector machines.'
+archiveprefix: arXiv
+author: Wu, Nan and Farokhi, Farhad and Smith, David and Kaafar, Mohamed Ali
+author_list:
+- family: Wu
+  given: Nan
+- family: Farokhi
+  given: Farhad
+- family: Smith
+  given: David
+- family: Kaafar
+  given: Mohamed Ali
+eprint: 1906.09679v1
+file: 1906.09679v1.pdf
+files:
+- wu-nan-and-farokhi-farhad-and-smith-david-and-kaafar-mohamed-alithe-value-of-collaboration-in-convex-machine-learning-with-differential-privacy2.pdf
+month: Jun
+note: IEEE Symposium on Security and Privacy 2020 (IEEE SP 2020)
+primaryclass: cs.CR
+ref: 1906.09679v1
+time-added: 2021-06-28-22:01:58
+title: The Value of Collaboration in Convex Machine Learning with Differential   Privacy
+type: article
+url: http://arxiv.org/abs/1906.09679v1
+year: '2019'

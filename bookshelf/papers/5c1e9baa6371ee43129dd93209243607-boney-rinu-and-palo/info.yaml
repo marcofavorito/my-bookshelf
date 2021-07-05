@@ -1,0 +1,39 @@
+abstract: Trajectory optimization using a learned model of the environment is one
+  of the core elements of model-based reinforcement learning. This procedure often
+  suffers from exploiting inaccuracies of the learned model. We propose to regularize
+  trajectory optimization by means of a denoising autoencoder that is trained on the
+  same trajectories as the model of the environment. We show that the proposed regularization
+  leads to improved planning with both gradient-based and gradient-free optimizers.
+  We also demonstrate that using regularized trajectory optimization leads to rapid
+  initial learning in a set of popular motor control tasks, which suggests that the
+  proposed approach can be a useful tool for improving sample efficiency.
+archiveprefix: arXiv
+author: Boney, Rinu and Palo, Norman Di and Berglund, Mathias and Ilin, Alexander
+  and Kannala, Juho and Rasmus, Antti and Valpola, Harri
+author_list:
+- family: Boney
+  given: Rinu
+- family: Palo
+  given: Norman Di
+- family: Berglund
+  given: Mathias
+- family: Ilin
+  given: Alexander
+- family: Kannala
+  given: Juho
+- family: Rasmus
+  given: Antti
+- family: Valpola
+  given: Harri
+eprint: 1903.11981v3
+file: 1903.11981v3.pdf
+files:
+- boney-rinu-and-palo-norman-di-and-berglund-mathias-and-ilin-alexander-and-kannala-juho-and-rasmus-antti-and-valpola-harriregularizing-trajector.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1903.11981v3
+time-added: 2021-06-14-22:18:32
+title: Regularizing Trajectory Optimization with Denoising Autoencoders
+type: article
+url: http://arxiv.org/abs/1903.11981v3
+year: '2019'

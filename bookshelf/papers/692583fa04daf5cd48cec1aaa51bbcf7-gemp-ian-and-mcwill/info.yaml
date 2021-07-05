@@ -1,0 +1,32 @@
+abstract: We present a novel view on principal component analysis (PCA) as a competitive
+  game in which each approximate eigenvector is controlled by a player whose goal
+  is to maximize their own utility function. We analyze the properties of this PCA
+  game and the behavior of its gradient based updates. The resulting algorithm --
+  which combines elements from Oja's rule with a generalized Gram-Schmidt orthogonalization
+  -- is naturally decentralized and hence parallelizable through message passing.
+  We demonstrate the scalability of the algorithm with experiments on large image
+  datasets and neural network activations. We discuss how this new view of PCA as
+  a differentiable game can lead to further algorithmic developments and insights.
+archiveprefix: arXiv
+author: Gemp, Ian and McWilliams, Brian and Vernade, Claire and Graepel, Thore
+author_list:
+- family: Gemp
+  given: Ian
+- family: McWilliams
+  given: Brian
+- family: Vernade
+  given: Claire
+- family: Graepel
+  given: Thore
+eprint: 2010.00554v2
+file: 2010.00554v2.pdf
+files:
+- gemp-ian-and-mcwilliams-brian-and-vernade-claire-and-graepel-thoreeigengame-pca-as-a-nash-equilibrium2020.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2010.00554v2
+time-added: 2021-06-21-17:07:29
+title: 'EigenGame: PCA as a Nash Equilibrium'
+type: article
+url: http://arxiv.org/abs/2010.00554v2
+year: '2020'

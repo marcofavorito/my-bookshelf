@@ -1,0 +1,43 @@
+abstract: Accurate estimation of predictive uncertainty (model calibration) is essential
+  for the safe application of neural networks. Many instances of miscalibration in
+  modern neural networks have been reported, suggesting a trend that newer, more accurate
+  models produce poorly calibrated predictions. Here, we revisit this question for
+  recent state-of-the-art image classification models. We systematically relate model
+  calibration and accuracy, and find that the most recent models, notably those not
+  using convolutions, are among the best calibrated. Trends observed in prior model
+  generations, such as decay of calibration with distribution shift or model size,
+  are less pronounced in recent architectures. We also show that model size and amount
+  of pretraining do not fully explain these differences, suggesting that architecture
+  is a major determinant of calibration properties.
+archiveprefix: arXiv
+author: Minderer, Matthias and Djolonga, Josip and Romijnders, Rob and Hubis, Frances
+  and Zhai, Xiaohua and Houlsby, Neil and Tran, Dustin and Lucic, Mario
+author_list:
+- family: Minderer
+  given: Matthias
+- family: Djolonga
+  given: Josip
+- family: Romijnders
+  given: Rob
+- family: Hubis
+  given: Frances
+- family: Zhai
+  given: Xiaohua
+- family: Houlsby
+  given: Neil
+- family: Tran
+  given: Dustin
+- family: Lucic
+  given: Mario
+eprint: 2106.07998v1
+file: 2106.07998v1.pdf
+files:
+- minderer-matthias-and-djolonga-josip-and-romijnders-rob-and-hubis-frances-and-zhai-xiaohua-and-houlsby-neil-and-tran-dustin-and-lucic-mariorev.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.07998v1
+time-added: 2021-06-23-19:45:33
+title: Revisiting the Calibration of Modern Neural Networks
+type: article
+url: http://arxiv.org/abs/2106.07998v1
+year: '2021'

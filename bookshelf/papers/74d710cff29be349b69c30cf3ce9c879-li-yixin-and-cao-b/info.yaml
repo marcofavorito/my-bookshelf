@@ -1,0 +1,51 @@
+abstract: Direct Acyclic Graph (DAG)-based ledger and the corresponding consensus
+  algorithm has been identified as a promising technology for Internet of Things (IoT).
+  Compared with Proof-of-Work (PoW) and Proof-of-Stake (PoS) that have been widely
+  used in blockchain, the consensus mechanism designed on DAG structure (simply called
+  as DAG consensus) can overcome some shortcomings such as high resource consumption,
+  high transaction fee, low transaction throughput and long confirmation delay. However,
+  the theoretic analysis on the DAG consensus is an untapped venue to be explored.
+  To this end, based on one of the most typical DAG consensuses, Tangle, we investigate
+  the impact of network load on the performance and security of the DAG-based ledger.
+  Considering unsteady network load, we first propose a Markov chain model to capture
+  the behavior of DAG consensus process under dynamic load conditions. The key performance
+  metrics, i.e., cumulative weight and confirmation delay are analysed based on the
+  proposed model. Then, we leverage a stochastic model to analyse the probability
+  of a successful double-spending attack in different network load regimes. The results
+  can provide an insightful understanding of DAG consensus process, e.g., how the
+  network load affects the confirmation delay and the probability of a successful
+  attack. Meanwhile, we also demonstrate the trade-off between security level and
+  confirmation delay, which can act as a guidance for practical deployment of DAG-based
+  ledgers.
+archiveprefix: arXiv
+author: Li, Yixin and Cao, Bin and Peng, Mugen and Zhang, Long and Zhang, Lei and
+  Feng, Daquan and Yu, Jihong
+author_list:
+- family: Li
+  given: Yixin
+- family: Cao
+  given: Bin
+- family: Peng
+  given: Mugen
+- family: Zhang
+  given: Long
+- family: Zhang
+  given: Lei
+- family: Feng
+  given: Daquan
+- family: Yu
+  given: Jihong
+doi: 10.1109/TNET.2020.2991994
+eprint: 1905.10925v2
+file: 1905.10925v2.pdf
+files:
+- li-yixin-and-cao-bin-and-peng-mugen-and-zhang-long-and-zhang-lei-and-feng-daquan-and-yu-jihongdirect-acyclic-graph-based-ledger-for-internet-of.pdf
+month: May
+primaryclass: cs.DC
+ref: 1905.10925v2
+time-added: 2021-06-29-10:12:43
+title: 'Direct Acyclic Graph based Ledger for Internet of Things: Performance   and
+  Security Analysis'
+type: article
+url: http://arxiv.org/abs/1905.10925v2
+year: '2019'
