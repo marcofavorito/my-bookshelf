@@ -1,0 +1,32 @@
+abstract: Most of the Blockchain permissioned systems employ Byzantine fault-tolerance
+  (BFT) consensus protocols to ensure that honest validators agree on the order for
+  appending entries to their ledgers. In this paper, we study the performance and
+  the scalability of prominent consensus protocols, namely PBFT, Tendermint, HotStuff,
+  and Streamlet, both analytically via load formulas and practically via implementation
+  and evaluation. Under identical conditions, we identify the bottlenecks of these
+  consensus protocols and show that these protocols do not scale well as the number
+  of validators increases. Our investigation points to the communication complexity
+  as the culprit. Even when there is enough network bandwidth, the CPU cost of serialization
+  and deserialization of the messages limits the throughput and increases the latency
+  of the protocols. To alleviate the bottlenecks, the most useful techniques include
+  reducing the communication complexity, rotating the hotspot of communications, and
+  pipelining across consensus instances.
+archiveprefix: arXiv
+author: Alqahtani, Salem and Demirbas, Murat
+author_list:
+- family: Alqahtani
+  given: Salem
+- family: Demirbas
+  given: Murat
+eprint: 2103.04234v3
+file: 2103.04234v3.pdf
+files:
+- alqahtani-salem-and-demirbas-muratbottlenecks-in-blockchain-consensus-protocols2021.pdf
+month: Mar
+primaryclass: cs.DC
+ref: 2103.04234v3
+time-added: 2021-08-04-22:56:47
+title: Bottlenecks in Blockchain Consensus Protocols
+type: article
+url: http://arxiv.org/abs/2103.04234v3
+year: '2021'

@@ -1,0 +1,519 @@
+abstract: <jats:p>In this article, we provide a comprehensive introduction to knowledge
+  graphs, which have recently garnered significant attention from both industry and
+  academia in scenarios that require exploiting diverse, dynamic, large-scale collections
+  of data. After some opening remarks, we motivate and contrast various graph-based
+  data models, as well as languages used to query and validate knowledge graphs. We
+  explain how knowledge can be represented and extracted using a combination of deductive
+  and inductive techniques. We conclude with high-level future research directions
+  for knowledge graphs.</jats:p>
+author: Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and D’amato, Claudia and
+  Melo, Gerard De and Gutierrez, Claudio and Kirrane, Sabrina and Gayo, José Emilio
+  Labra and Navigli, Roberto and Neumaier, Sebastian and Ngomo, Axel-Cyrille Ngonga
+  and Polleres, Axel and Rashid, Sabbir M. and Rula, Anisa and Schmelzeisen, Lukas
+  and Sequeda, Juan and Staab, Steffen and Zimmermann, Antoine
+author_list:
+- affiliation:
+  - name: DCC, Universidad de Chile; IMFD, Chile
+  family: Hogan
+  given: Aidan
+- affiliation:
+  - name: Linköping University, Sweden
+  family: Blomqvist
+  given: Eva
+- affiliation:
+  - name: Vrije Universiteit and Discovery Lab, Elsevier, The Netherlands
+  family: Cochez
+  given: Michael
+- affiliation:
+  - name: University of Bari, Italy
+  family: D’amato
+  given: Claudia
+- affiliation:
+  - name: Rutgers University, USA
+  family: Melo
+  given: Gerard De
+- affiliation:
+  - name: DCC, Universidad de Chile; IMFD, Chile
+  family: Gutierrez
+  given: Claudio
+- affiliation:
+  - name: WU Vienna, Austria
+  family: Kirrane
+  given: Sabrina
+- affiliation:
+  - name: Universidad de Oviedo, Spain
+  family: Gayo
+  given: José Emilio Labra
+- affiliation:
+  - name: Sapienza University of Rome, Italy
+  family: Navigli
+  given: Roberto
+- affiliation:
+  - name: WU Vienna, Austria
+  family: Neumaier
+  given: Sebastian
+- affiliation:
+  - name: DICE, Universität Paderborn, Germany
+  family: Ngomo
+  given: Axel-Cyrille Ngonga
+- affiliation:
+  - name: WU Vienna, Austria
+  family: Polleres
+  given: Axel
+- affiliation:
+  - name: Tetherless World Constellation, Rensselaer Polytechnic Institute, USA
+  family: Rashid
+  given: Sabbir M.
+- affiliation:
+  - name: University of Milano–Bicocca, Italy and University of Bonn, Germany
+  family: Rula
+  given: Anisa
+- affiliation:
+  - name: Universität Stuttgart, Germany
+  family: Schmelzeisen
+  given: Lukas
+- affiliation:
+  - name: data.world, USA
+  family: Sequeda
+  given: Juan
+- affiliation:
+  - name: Universität Stuttgart, Germany and University of Southampton, UK
+  family: Staab
+  given: Steffen
+- affiliation:
+  - name: École des mines de Saint-Étienne, France
+  family: Zimmermann
+  given: Antoine
+citations:
+- author: Agrawal R.
+  volume-title: Proc. of SIGMOD.
+- doi: 10.1109/ACCESS.2020.2973928
+- author: Angles R.
+  volume-title: Proc. of AMW.
+  year: '2018'
+- doi: 10.1145/3104031
+- author: Angles R.
+  volume-title: Proc. of SIGMOD.
+- doi: 10.1145/1322432.1322433
+- doi: 10.1017/9781139025355
+  unstructured: F. Baader I. Horrocks C. Lutz and U. Sattler. 2017. An Introduction
+    to Description Logic. Cambridge University Press.  F. Baader I. Horrocks C. Lutz
+    and U. Sattler. 2017. An Introduction to Description Logic. Cambridge University
+    Press.
+- author: Balazevic I.
+  volume-title: Proc. of ICANN Workshops.
+- author: Balazevic I.
+  volume-title: Proc. of NeurIPs.
+- author: Balazevic I.
+  volume-title: Proc. of EMNLP.
+- author: Barceló P.
+  volume-title: Proc. of ICLR.
+- author: Bellomarini L.
+  volume-title: Proc. oVLDB Endow. 11
+  year: '2018'
+- unstructured: M. K. Bergman. 2019. A Common Sense View of Knowledge Graphs. Adaptive
+    Information Adaptive Innovation Adaptive Infrastructure Blog. Retrieved from http://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/.  M.
+    K. Bergman. 2019. A Common Sense View of Knowledge Graphs. Adaptive Information
+    Adaptive Innovation Adaptive Infrastructure Blog. Retrieved from http://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/.
+- author: Bollacker K.
+  volume-title: Proceedings of the International Workshop on Information Integration
+    on the Web (IIWeb’07)
+- article-title: '2018. Knowledge graphs: New directions for knowledge representation
+    on the semantic web (Dagstuhl Seminar 18371)'
+  author: Bonatti P. A.
+  first-page: '9'
+  journal-title: Dagstuhl Rep.
+  volume: '8'
+  year: '2018'
+- doi: 10.1016/j.websem.2011.06.003
+- author: Bordes A.
+  volume-title: Proc. of NIPS.
+- unstructured: D. Brickley and R. V. Guha. 2014. RDF Schema 1.1. W3C Recommendation.
+    W3C. https://www.w3.org/TR/rdf-schema/.  D. Brickley and R. V. Guha. 2014. RDF
+    Schema 1.1. W3C Recommendation. W3C. https://www.w3.org/TR/rdf-schema/.
+- author: Bruna J.
+  volume-title: Proc. of ICLR.
+- article-title: 2016. DL-learner—A framework for inductive learning on the Semantic
+    Web
+  author: Bühmann L.
+  first-page: '39'
+  journal-title: J. Web Seman.
+  year: '2016'
+- article-title: '2019. Summarizing semantic graphs: A survey'
+  author: Goasdoué F.
+  first-page: '3'
+  journal-title: VLDB J.
+  volume: '28'
+  year: '2019'
+- author: Cochez M.
+  volume-title: Proc. of ISWC.
+- unstructured: S. Cox C. Little J. R. Hobbs and F. Pan. 2017. Time Ontology in OWL.
+    W3C Recommendation/OGC 16-071r2. W3C and OGC. https://www.w3.org/TR/owl-time/.  S.
+    Cox C. Little J. R. Hobbs and F. Pan. 2017. Time Ontology in OWL. W3C Recommendation/OGC
+    16-071r2. W3C and OGC. https://www.w3.org/TR/owl-time/.
+- unstructured: R. Cyganiak D. Wood and M. Lanthaler. 2014. RDF 1.1 Concepts and Abstract
+    Syntax. W3C Recommendation. W3C. https://www.w3.org/TR/rdf11-concepts/.  R. Cyganiak
+    D. Wood and M. Lanthaler. 2014. RDF 1.1 Concepts and Abstract Syntax. W3C Recommendation.
+    W3C. https://www.w3.org/TR/rdf11-concepts/.
+- author: Amato C.
+  volume-title: Proc. of SAC.
+- author: Dave A.
+  volume-title: Proc. of GRADES.
+- doi: 10.1007/978-3-540-68856-3
+  unstructured: 'L. De Raedt (Ed.). 2008. Logical and Relational Learning: From ILP
+    to MRDM (Cognitive Technologies). Springer.  L. De Raedt (Ed.). 2008. Logical
+    and Relational Learning: From ILP to MRDM (Cognitive Technologies). Springer.'
+- author: Demeester T.
+  volume-title: Proc. of EMNLP.
+- author: Dettmers T.
+  volume-title: Proc. of AAAI.
+- article-title: 2009. Querying for provenance, trust, uncertainty and other meta
+    knowledge
+  author: Dividino R. Q.
+  first-page: '3'
+  journal-title: RDF. J. Web Seman.
+  volume: '7'
+  year: '2009'
+- author: Dong X.
+  volume-title: Proc. of KDD.
+- author: Ehrlinger L.
+  volume-title: Proc. of SEMANTiCS Posters & Demos.
+- doi: 10.1007/978-3-030-37439-6
+  unstructured: D. Fensel U. Simsek K. Angele E. Huaman E. Kärle O. Panasiuk I. Toma
+    J. Umbrich and A. Wahler. 2020. Knowledge Graphs—Methodology Tools and Selected
+    Use Cases. Springer.  D. Fensel U. Simsek K. Angele E. Huaman E. Kärle O. Panasiuk
+    I. Toma J. Umbrich and A. Wahler. 2020. Knowledge Graphs—Methodology Tools and
+    Selected Use Cases. Springer.
+- author: Francis N.
+  volume-title: Proc. of SIGMOD.
+- author: Gad-Elrab M. H.
+  volume-title: Proc. of ISWC.
+- author: Galárraga L. A.
+  volume-title: Proc. of WWW.
+- doi: 10.1007/s00778-015-0394-1
+- author: Gesese G. A.
+  volume-title: Proc. of DL4KG.
+- unstructured: Y. Gil S. Miles K. Belhajjame D. Garijo G. Klyne P. Missier S. Soiland-Reyes
+    and S. Zednik. 2013. PROV Model Primer. W3C Working Group Note. W3C. https://www.w3.org/TR/rdf11-concepts/.  Y.
+    Gil S. Miles K. Belhajjame D. Garijo G. Klyne P. Missier S. Soiland-Reyes and
+    S. Zednik. 2013. PROV Model Primer. W3C Working Group Note. W3C. https://www.w3.org/TR/rdf11-concepts/.
+- author: Giménez-García J. M.
+  volume-title: Proc. of ESWC.
+- author: Glorot X.
+  volume-title: Proc. of ICLR Workshops.
+- author: Guha R. V.
+  volume-title: Proc. of ISWC.
+- author: Guo S.
+  volume-title: Proc. of EMNLP.
+- doi: 10.1109/TKDE.2007.34
+- author: Hamilton W. L.
+  volume-title: Proc. of NIPS.
+- unstructured: S. Harris A. Seaborne and E. Prud’hommeaux. 2013. SPARQL 1.1 Query
+    Language. W3C Recommendation. W3C. https://www.w3.org/TR/sparql11-query/.  S.
+    Harris A. Seaborne and E. Prud’hommeaux. 2013. SPARQL 1.1 Query Language. W3C
+    Recommendation. W3C. https://www.w3.org/TR/sparql11-query/.
+- author: Hartig O.
+  volume-title: Proc. of AMW.
+  year: '2017'
+- author: Heath T.
+  edition: '1'
+  volume-title: 'Linked Data: Evolving the Web into a Global Data Space'
+  year: '2011'
+- unstructured: N. Heist S. Hertling R. Ringler and H. Paulheim. 2020. Knowledge graphs
+    on the web—An overview. CoRR abs/2003.00719 (2020).  N. Heist S. Hertling R. Ringler
+    and H. Paulheim. 2020. Knowledge graphs on the web—An overview. CoRR abs/2003.00719
+    (2020).
+- author: Hernández D.
+  volume-title: Proc. of SSWS.
+- author: Hitchcock F. L.
+  volume-title: The expression of a tensor or a polyadic as a sum of products. J.
+    Math. Phys. 6, 1–4
+  year: '1927'
+- unstructured: P. Hitzler M. Krötzsch B. Parsia P. F. Patel-Schneider and S. Rudolph.
+    2012. OWL 2 Web Ontology Language Primer (2nd Edition). W3C Recommendation. W3C.
+    https://www.w3.org/TR/owl2-primer/.  P. Hitzler M. Krötzsch B. Parsia P. F. Patel-Schneider
+    and S. Rudolph. 2012. OWL 2 Web Ontology Language Primer (2nd Edition). W3C Recommendation.
+    W3C. https://www.w3.org/TR/owl2-primer/.
+- doi: 10.1201/9781420090512
+  unstructured: P. Hitzler M. Krötzsch and S. Rudolph. 2010. Foundations of Semantic
+    Web Technologies. Chapman and Hall/CRC Press.  P. Hitzler M. Krötzsch and S. Rudolph.
+    2010. Foundations of Semantic Web Technologies. Chapman and Hall/CRC Press.
+- author: Ho V. T.
+  volume-title: Proc. of ISWC.
+- author: Hoffart J.
+  volume-title: Proc. of WWW.
+- author: Hogan A.
+  volume-title: Proc. of Reasoning Web
+- article-title: 2020. Knowledge graphs
+  author: Hogan A.
+  first-page: '02320'
+  journal-title: CoRRarxiv
+  year: '2003'
+- article-title: 2012. Contextualized knowledge repositories for the semantic web
+  author: Homola M.
+  first-page: '12'
+  journal-title: J. Web Seman.
+  year: '2012'
+- author: Horrocks I.
+  volume-title: 'SWRL: A Semantic Web Rule Language Combining OWL and RuleML. W3C
+    Member Submission. https://www.w3.org/Submission/SWRL/.'
+  year: '2004'
+- author: Huang X.
+  volume-title: Proc. of WSDM.
+- author: Hussein R.
+  volume-title: Proc. of CIKM.
+- doi: 10.14778/3007263.3007270
+- author: Janke D.
+  volume-title: Proc. of RW.
+- author: Ji G.
+  volume-title: Proc. of ACL.
+- unstructured: 'S. Ji S. Pan E. Cambria P. Marttinen and P. S. Yu. 2020. A survey
+    on knowledge graphs: Representation acquisition and applications. CoRR abs/2002.00388
+    (2020).  S. Ji S. Pan E. Cambria P. Marttinen and P. S. Yu. 2020. A survey on
+    knowledge graphs: Representation acquisition and applications. CoRR abs/2002.00388
+    (2020).'
+- unstructured: E. Kärle U. Simsek O. Panasiuk and D. Fensel. 2018. Building an ecosystem
+    for the Tyrolean tourism knowledge graph. CoRR abs/1805.05744 (2018).  E. Kärle
+    U. Simsek O. Panasiuk and D. Fensel. 2018. Building an ecosystem for the Tyrolean
+    tourism knowledge graph. CoRR abs/1805.05744 (2018).
+- unstructured: 'S. M. Kazemi R. Goel K. Jain I. Kobyzev A. Sethi P. Forsyth and P.
+    Poupart. 2019. Relational representation learning for dynamic (knowledge) graphs:
+    A survey. CoRR abs/1905.11485 (2019).  S. M. Kazemi R. Goel K. Jain I. Kobyzev
+    A. Sethi P. Forsyth and P. Poupart. 2019. Relational representation learning for
+    dynamic (knowledge) graphs: A survey. CoRR abs/1905.11485 (2019).'
+- author: Kazemi S. M.
+  volume-title: Proc. of NIPS.
+- author: Kejriwal M.
+  doi: 10.1007/978-3-030-12375-8
+  volume-title: Domain-specific Knowledge Graph Construction
+- unstructured: M. Kifer and H. Boley. 2013. RIF Overview (2nd Edition). W3C Working
+    Group Note. W3C. https://www.w3.org/TR/rif-overview/.  M. Kifer and H. Boley.
+    2013. RIF Overview (2nd Edition). W3C Working Group Note. W3C. https://www.w3.org/TR/rif-overview/.
+- author: Kipf T. N.
+  volume-title: Proc. of ICLR.
+- unstructured: H. Knublauch and D. Kontokostas. 2017. Shapes Constraint Language
+    (SHACL). W3C Recommendation. W3C. https://www.w3.org/TR/shacl/.  H. Knublauch
+    and D. Kontokostas. 2017. Shapes Constraint Language (SHACL). W3C Recommendation.
+    W3C. https://www.w3.org/TR/shacl/.
+- doi: 10.1145/3065386
+- author: Krötzsch M.
+  volume-title: Proc. of IJCAI.
+- doi: 10.2200/S00786ED1V01Y201707WBE016
+  unstructured: J. E. Labra Gayo E. Prud’hommeaux I. Boneva and D. Kontokostas. 2017.
+    Validating RDF Data. Vol. 7. Morgan & Claypool.  J. E. Labra Gayo E. Prud’hommeaux
+    I. Boneva and D. Kontokostas. 2017. Validating RDF Data. Vol. 7. Morgan & Claypool.
+- doi: 10.3233/SW-140134
+- author: Lin Y.
+  volume-title: Proc. of AAAI.
+- doi: 10.14778/2212351.2212354
+- author: Lu C.
+  volume-title: Proc. of EKAW.
+- author: Malewicz G.
+  volume-title: Proc. of SIGMOD.
+- author: McCarthy J.
+  volume-title: Proc. of IJCAI.
+  year: '1993'
+- author: Mihindukulasooriya N.
+  volume-title: Proc. of SAC.
+- author: Mikolov T.
+  volume-title: Proc. of ICLR Workshops. arXiv preprint arXiv:1301
+  year: '2013'
+- author: J
+  journal-title: J. Miller.
+  year: '2013'
+- author: Minsky M.
+  volume-title: Santa Monica
+  year: '1974'
+- author: Monti F.
+  volume-title: Proc. of CVPR.
+- unstructured: B. Motik B. C. Grau I. Horrocks Z. Wu A. Fokoue and C. Lutz. 2012.
+    OWL 2 Web Ontology Language Profiles (2nd Edition). W3C Recommendation. W3C. https://www.w3.org/TR/owl2-profiles/.  B.
+    Motik B. C. Grau I. Horrocks Z. Wu A. Fokoue and C. Lutz. 2012. OWL 2 Web Ontology
+    Language Profiles (2nd Edition). W3C Recommendation. W3C. https://www.w3.org/TR/owl2-profiles/.
+- article-title: 2009. Hypertableau reasoning for description logics
+  author: Motik B.
+  first-page: '36'
+  journal-title: J. Artif. Intell. Res.
+  year: '2009'
+- unstructured: C. Mungall A. Ruttenberg I. Horrocks and D. Osumi-Sutherland. 2012.
+    OBO Flat File Format 1.4 Syntax and Semantics. Editor’s Draft. https://owlcollab.github.io/oboformat/doc/obo-syntax.html.  C.
+    Mungall A. Ruttenberg I. Horrocks and D. Osumi-Sutherland. 2012. OBO Flat File
+    Format 1.4 Syntax and Semantics. Editor’s Draft. https://owlcollab.github.io/oboformat/doc/obo-syntax.html.
+- article-title: '2012. BabelNet: The automatic construction, evaluation and application
+    of a wide-coverage multilingual semantic network'
+  author: Navigli R.
+  first-page: '193'
+  journal-title: AI J.
+  year: '2012'
+- author: Nguyen V.
+  volume-title: Proc. of WWW.
+- author: Nickel M.
+  volume-title: Proc. of AAAI.
+- author: Nickel M.
+  volume-title: Proc. of ECML-PKDD.
+- unstructured: I. Nonaka and H. Takeuchi. 1995. The Knowledge-Creating Company. Oxford
+    University.  I. Nonaka and H. Takeuchi. 1995. The Knowledge-Creating Company.
+    Oxford University.
+- doi: 10.1145/3329781.3332266
+- author: Page L.
+  volume-title: Technical Report 1999-66. Stanford InfoLab.
+  year: '1999'
+- doi: 10.1007/978-3-319-45654-6
+  unstructured: J. Z. Pan G. Vetere J. M. Gómez-Pérez and H. Wu (Eds.). 2017. Exploiting
+    Linked Data and Knowledge Graphs in Large Organisations. Springer.  J. Z. Pan
+    G. Vetere J. M. Gómez-Pérez and H. Wu (Eds.). 2017. Exploiting Linked Data and
+    Knowledge Graphs in Large Organisations. Springer.
+- author: Park N.
+  volume-title: Proc. of SIGKDD.
+- author: Park N.
+  volume-title: Proc. of SIGKDD.
+- author: Paulheim H.
+  volume-title: 'Knowledge graph refinement: A survey of approaches and evaluation
+    methods. Seman. Web J. 8, 3'
+  year: '2017'
+- author: Tanon T. Pellissier
+  volume-title: Proc. of ISWC.
+- author: Pennington J.
+  volume-title: Proc. of EMNLP.
+- author: Piscopo A.
+  volume-title: Proc. of ISWC.
+- author: Prud’hommeaux E.
+  volume-title: Proc. of SEMANTICS.
+- author: Pujara J.
+  volume-title: Proc. of ISWC.
+- unstructured: G. Qi H. Chen K. Liu H. Wang Q. Ji and T. Wu. 2020. Knowledge Graph.  G.
+    Qi H. Chen K. Liu H. Wang Q. Ji and T. Wu. 2020. Knowledge Graph.
+- unstructured: S. Rabanser O. Shchur and S. Günnemann. 2017. Introduction to tensor
+    decompositions and their applications in machine learning. CoRR abs/1711.10781
+    (2017).  S. Rabanser O. Shchur and S. Günnemann. 2017. Introduction to tensor
+    decompositions and their applications in machine learning. CoRR abs/1711.10781
+    (2017).
+- author: Ristoski P.
+  volume-title: Proc. of ISWC.
+- author: Rizzo G.
+  volume-title: Proc. of ESWC.
+- author: Rocktäschel T.
+  volume-title: Proc. of NIPS.
+- author: Rodriguez M. A.
+  volume-title: Proc. of DBPL.
+  year: '2015'
+- author: Rudolph S.
+  volume-title: Proc. of ISWC.
+- author: Rula A.
+  volume-title: Proc. of ISWC.
+- article-title: '2019. TISCO: Temporal scoping of facts'
+  author: Rula A.
+  first-page: '54'
+  journal-title: J. Web Seman.
+  year: '2019'
+- author: Sadeghian A.
+  volume-title: Proc. of NIPS.
+- doi: 10.1109/TNN.2008.2005605
+- doi: 10.1037/e436252004-001
+- author: Schneider M.
+  volume-title: Proc. of CADE.
+- author: Schuetz C.
+  volume-title: 'OLAP: A multidimensional model and query operations for contextualized
+    knowledge graphs. Seman. Web J.'
+  year: '2021'
+- author: Seifer P.
+  volume-title: Proc. of SLE.
+- unstructured: 'A. Singhal. 2012. Introducing the Knowledge Graph: Things not strings.
+    Google Blog. Retrieved from https://www.blog.google/products/search/introducing-knowledge-graph-things-not/.  A.
+    Singhal. 2012. Introducing the Knowledge Graph: Things not strings. Google Blog.
+    Retrieved from https://www.blog.google/products/search/introducing-knowledge-graph-things-not/.'
+- author: Socher R.
+  volume-title: Proc. of NIPS.
+- doi: 10.1109/72.572108
+- doi: 10.1007/978-3-642-05082-4_12
+- article-title: 2016. Signal/Collect12
+  author: Stutz P.
+  first-page: '2'
+  journal-title: Seman. Web J.
+  volume: '7'
+  year: '2016'
+- author: Suchanek F. M.
+  volume-title: Proc. of RWeb.
+- author: Sun Yizhou
+  volume-title: 'Mining Heterogeneous Information Networks: Principles and Methodologies'
+- doi: 10.14778/3402707.3402736
+- author: Sun Z.
+  volume-title: Proc. of ICLR.
+- author: Töpper G.
+  volume-title: Proc. of I-SEMANTICS.
+- author: Trouillon T.
+  volume-title: Proc. of ICML.
+- unstructured: L. R. Tucker. 1964. The extension of factor analysis to three-dimensional
+    matrices. In Contributions to Mathematical Psychology. Holt Rinehart and Winston.  L.
+    R. Tucker. 1964. The extension of factor analysis to three-dimensional matrices.
+    In Contributions to Mathematical Psychology. Holt Rinehart and Winston.
+- article-title: '2010'
+  author: Udrea O.
+  first-page: '2'
+  journal-title: Annotated RDF. ACM Trans. Comput. Log.
+  volume: '11'
+  year: '2010'
+- author: Vashishth S.
+  volume-title: Proc. of WWW.
+- author: Velickovic P.
+  volume-title: Proc. of ICLR.
+- doi: 10.1016/j.websem.2015.07.001
+- doi: 10.1145/2629489
+- author: Wang M.
+  volume-title: 'SPARQL: Approximating querying with RDF embedding. In Proc. of ISWC.'
+  year: '2018'
+- doi: 10.1109/TKDE.2017.2754499
+- author: Wang Q.
+  volume-title: Proc. of IJCAI.
+- author: Wang X.
+  volume-title: Proc. of WWW.
+- author: Wang X.
+  volume-title: Proc. of CyberDI/CyberLife. 256–271
+- author: Wang Z.
+  volume-title: Proc. of AAAI.
+- unstructured: Z. Wu S. Pan F. Chen G. Long C. Zhang and P. S. Yu. 2019. A comprehensive
+    survey on graph neural networks. CoRR abs/1901.00596 (2019).  Z. Wu S. Pan F.
+    Chen G. Long C. Zhang and P. S. Yu. 2019. A comprehensive survey on graph neural
+    networks. CoRR abs/1901.00596 (2019).
+- doi: 10.1145/3177850
+- article-title: '2019. Virtual knowledge graphs: An overview of systems and use cases'
+  author: Xiao G.
+  first-page: '3'
+  journal-title: Data Int.
+  volume: '1'
+  year: '2019'
+- author: Xin R.
+  volume-title: Proc. of GRADES.
+- author: Xin R.
+  volume-title: Proc. of SIGMOD.
+- author: Xu K.
+  volume-title: Proc. of ICLR.
+- doi: 10.1007/s11704-016-5228-9
+- author: Yang B.
+  volume-title: Proc. of ICLR.
+- author: Yang F.
+  volume-title: Proc. of NIPS.
+- author: Yang L.
+  volume-title: Proc. of ECIR.
+- author: Zhang F.
+  volume-title: Proc. of SIGKDD.
+- article-title: 2012. A general framework for representing, reasoning and querying
+    with annotated semantic web data
+  author: Zimmermann A.
+  journal-title: J. Web Seman.
+  volume: '12'
+  year: '2012'
+doi: 10.1145/3447772
+issue: '4'
+journal: ACM Computing Surveys
+language: en
+month: 7
+pages: 1--37
+publisher: Association for Computing Machinery (ACM)
+ref: KnowledgeGraphHogan2021
+time-added: 2021-07-31-19:42:38
+title: Knowledge Graphs
+type: article
+url: http://dx.doi.org/10.1145/3447772
+volume: '54'
+year: 2021

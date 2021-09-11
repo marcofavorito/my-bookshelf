@@ -1,0 +1,41 @@
+abstract: This document presents the material of two lectures on statistical physics
+  and neural representations, delivered by one of us (R.M.) at the Fundamental Problems
+  in Statistical Physics XIV summer school in July 2017. In a first part, we consider
+  the neural representations of space (maps) in the hippocampus. We introduce an extension
+  of the Hopfield model, able to store multiple spatial maps as continuous, finite-dimensional
+  attractors. The phase diagram and dynamical properties of the model are analyzed.
+  We then show how spatial representations can be dynamically decoded using an effective
+  Ising model capturing the correlation structure in the neural data, and compare
+  applications to data obtained from hippocampal multi-electrode recordings and by
+  (sub)sampling our attractor model. In a second part, we focus on the problem of
+  learning data representations in machine learning, in particular with artificial
+  neural networks. We start by introducing data representations through some illustrations.
+  We then analyze two important algorithms, Principal Component Analysis and Restricted
+  Boltzmann Machines, with tools from statistical physics.
+archiveprefix: arXiv
+author: Cocco, Simona and Monasson, Rémi and Posani, Lorenzo and Rosay, Sophie and
+  Tubiana, Jérôme
+author_list:
+- family: Cocco
+  given: Simona
+- family: Monasson
+  given: Rémi
+- family: Posani
+  given: Lorenzo
+- family: Rosay
+  given: Sophie
+- family: Tubiana
+  given: Jérôme
+doi: 10.1016/j.physa.2017.11.153
+eprint: 1709.02470v1
+file: 1709.02470v1.pdf
+files:
+- cocco-simona-and-monasson-remi-and-posani-lorenzo-and-rosay-sophie-and-tubiana-jeromestatistical-physics-and-representations-in-real-and-artifici.pdf
+month: Sep
+primaryclass: physics.data-an
+ref: 1709.02470v1
+time-added: 2021-08-23-18:00:37
+title: Statistical Physics and Representations in Real and Artificial Neural   Networks
+type: article
+url: http://arxiv.org/abs/1709.02470v1
+year: '2017'

@@ -1,0 +1,126 @@
+abstract: '<jats:p> Formal Methods are mathematically-based techniques for software
+  design and engineering, which enable the unambiguous description of and reasoning
+  about a system’s behaviour. Autonomous systems use software to make decisions without
+  human control, are often embedded in a robotic system, are often safety-critical,
+  and are increasingly being introduced into everyday settings. Autonomous systems
+  need robust development and verification methods, but formal methods practitioners
+  are often asked: Why use Formal Methods for Autonomous Systems? To answer this question,
+  this position paper describes five recipes for formally verifying aspects of an
+  autonomous system, collected from the literature. The recipes are examples of how
+  Formal Methods can be an effective tool for the development and verification of
+  autonomous systems. During design, they enable unambiguous description of requirements;
+  in development, formal specifications can be verified against requirements; software
+  components may be synthesised from verified specifications; and behaviour can be
+  monitored at runtime and compared to its original specification. Modern Formal Methods
+  often include highly automated tool support, which enables exhaustive checking of
+  a system’s state space. This paper argues that Formal Methods are a powerful tool
+  for the repertoire of development techniques for safe autonomous systems, alongside
+  other robust software engineering techniques. </jats:p>'
+author: Luckcuck, Matt
+author_list:
+- affiliation:
+  - name: Department of Computer Science, Maynooth University, Maynooth, Ireland
+  family: Luckcuck
+  given: Matt
+citations:
+- doi: 10.1109/52.57887
+- doi: 10.1109/52.391826
+- doi: 10.1145/1592434.1592436
+- doi: 10.1145/3342355
+- doi: 10.1109/MS.1984.233702
+- doi: 10.3390/robotics10020067
+- doi: 10.1038/s42256-019-0088-2
+- author: Farrell M
+  doi: 10.1007/978-3-319-98938-9_10
+  first-page: '161'
+  volume: '11023'
+  volume-title: Integrated formal methods
+- author: Bordini RH
+  journal-title: Programming multi-agent systems in AgentSpeak using Jason
+  year: '2007'
+- doi: 10.1515/pjbr-2018-0024
+- doi: 10.1109/MIS.2018.111144814
+- doi: 10.1080/001401399185595
+- doi: 10.5898/JHRI.3.2.Beer
+- author: Sotiropoulos T
+  first-page: '150'
+  volume-title: 2017 IEEE international conference on software quality, reliability
+    and security (QRS)
+- unstructured: Huang X, Kroening D, Ruan W, et al. A survey of safety and trustworthiness
+    of deep neural networks. arXiv:181208342 [cs], 2019.
+- doi: 10.1145/3448975
+- author: Chkouri MY
+  first-page: '5'
+  volume-title: International conference on model driven engineering languages and
+    systems
+- doi: 10.1109/MRA.2011.942116
+- doi: 10.21105/joss.00617
+- author: Webster M
+  first-page: '1'
+  issue: '5'
+  journal-title: J Aerosp Inf Syst
+  volume: '11'
+  year: '2014'
+- doi: 10.1145/3357231
+- doi: 10.1177/0278364919883338
+- author: Visser W
+  first-page: '3'
+  issue: '2'
+  journal-title: Autom Softw Eng
+  volume: '10'
+  year: '2002'
+- doi: 10.1007/s10515-011-0088-x
+- doi: 10.1007/978-3-319-48869-1_2
+- doi: 10.1007/978-3-540-73099-6_17
+- doi: 10.4204/EPTCS.232.10
+- doi: 10.1016/j.scico.2018.11.008
+- doi: 10.1007/978-3-642-28891-3_37
+- doi: 10.1016/j.jss.2017.06.060
+- doi: 10.1109/TRO.2011.2163434
+- author: Cardoso RC
+  first-page: '15'
+  journal-title: Second workshop on formal methods for autonomous systems (FMAS2020)
+  volume: '329'
+- doi: 10.1109/MRA.2016.2636359
+- author: Rao AS
+  first-page: '312'
+  volume-title: Proceedings of the first international conference on multiagent systems
+- doi: 10.1109/JPROC.2011.2173265
+- doi: 10.1016/j.robot.2015.11.012
+- doi: 10.1098/rspl.1867.0055
+- doi: 10.1145/3195555.3195558
+- doi: 10.1007/s10703-017-0276-9
+- unstructured: Luckcuck M. Ofﬂine runtime verification of safety requirements using
+    CSP. arXiv:200703522 [cs], 2021.
+- doi: 10.1145/363235.363259
+- author: Dennis LA
+  first-page: '995'
+  volume-title: ECAI 2014 – 21st European conference on artificial intelligence, including
+    prestigious applications of intelligent systems (PAIS 2014)
+- doi: 10.1109/TSE.2019.2945329
+  unstructured: Menghi C, Tsigkanos C, Pelliccione P, et al. Specification patterns
+    for robotic missions. IEEE Transactions on Software Engineering 2019; 11DOI:10.1109/TSE.2019.2945329.
+    URL https://ieeexplore.ieee.org/document/8859226/.
+- doi: 10.1016/j.scico.2017.05.006
+- doi: 10.1016/j.ins.2017.03.016
+- author: Prajna S
+  doi: 10.1007/978-3-540-24743-2_32
+  first-page: '477'
+  volume: '2993'
+  volume-title: 'Hybrid systems: computation and control'
+doc_url: http://journals.sagepub.com/doi/full-xml/10.1177/1748006X211034970
+doi: 10.1177/1748006x211034970
+files:
+- luckcuck-mattusing-formal-methods-for-autonomous-systems-five-recipes-for-formal-verification2021.data
+journal: 'Proceedings of the Institution of Mechanical Engineers, Part O: Journal
+  of Risk and Reliability'
+language: en
+month: 7
+pages: 1748006X2110349
+publisher: SAGE Publications
+ref: UsingFormalMeLuckcu2021
+time-added: 2021-07-31-18:01:37
+title: 'Using formal methods for autonomous systems: Five recipes for formal verification'
+type: article
+url: http://dx.doi.org/10.1177/1748006x211034970
+year: 2021

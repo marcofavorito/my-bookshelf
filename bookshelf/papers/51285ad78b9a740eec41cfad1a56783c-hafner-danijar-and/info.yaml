@@ -1,0 +1,38 @@
+abstract: Intelligent agents need to generalize from past experience to achieve goals
+  in complex environments. World models facilitate such generalization and allow learning
+  behaviors from imagined outcomes to increase sample-efficiency. While learning world
+  models from image inputs has recently become feasible for some tasks, modeling Atari
+  games accurately enough to derive successful behaviors has remained an open challenge
+  for many years. We introduce DreamerV2, a reinforcement learning agent that learns
+  behaviors purely from predictions in the compact latent space of a powerful world
+  model. The world model uses discrete representations and is trained separately from
+  the policy. DreamerV2 constitutes the first agent that achieves human-level performance
+  on the Atari benchmark of 55 tasks by learning behaviors inside a separately trained
+  world model. With the same computational budget and wall-clock time, Dreamer V2
+  reaches 200M frames and surpasses the final performance of the top single-GPU agents
+  IQN and Rainbow. DreamerV2 is also applicable to tasks with continuous actions,
+  where it learns an accurate world model of a complex humanoid robot and solves stand-up
+  and walking from only pixel inputs.
+archiveprefix: arXiv
+author: Hafner, Danijar and Lillicrap, Timothy and Norouzi, Mohammad and Ba, Jimmy
+author_list:
+- family: Hafner
+  given: Danijar
+- family: Lillicrap
+  given: Timothy
+- family: Norouzi
+  given: Mohammad
+- family: Ba
+  given: Jimmy
+eprint: 2010.02193v3
+file: 2010.02193v3.pdf
+files:
+- hafner-danijar-and-lillicrap-timothy-and-norouzi-mohammad-and-ba-jimmymastering-atari-with-discrete-world-models2020.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2010.02193v3
+time-added: 2021-07-30-19:37:32
+title: Mastering Atari with Discrete World Models
+type: article
+url: http://arxiv.org/abs/2010.02193v3
+year: '2020'

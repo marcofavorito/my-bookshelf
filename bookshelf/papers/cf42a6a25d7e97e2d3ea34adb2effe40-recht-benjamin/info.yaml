@@ -1,0 +1,39 @@
+abstract: <jats:p>This article surveys reinforcement learning from the perspective
+  of optimization and control, with a focus on continuous control applications. It
+  reviews the general formulation, terminology, and typical experimental implementations
+  of reinforcement learning as well as competing solution paradigms. In order to compare
+  the relative merits of various techniques, it presents a case study of the linear
+  quadratic regulator (LQR) with unknown dynamics, perhaps the simplest and best-studied
+  problem in optimal control. It also describes how merging techniques from learning
+  theory and control can provide nonasymptotic characterizations of LQR performance
+  and shows that these characterizations tend to match experimental behavior. In turn,
+  when revisiting more complex applications, many of the observed phenomena in LQR
+  persist. In particular, theory and experiment demonstrate the role and importance
+  of models and the cost of generality in reinforcement learning algorithms. The article
+  concludes with a discussion of some of the challenges in designing learning systems
+  that safely and reliably interact with complex and uncertain environments and how
+  tools from reinforcement learning and control might be combined to approach these
+  challenges.</jats:p>
+author: Recht, Benjamin
+author_list:
+- affiliation:
+  - name: Department of Electrical Engineering and Computer Sciences, University of
+      California, Berkeley, California 94720, USA;
+  family: Recht
+  given: Benjamin
+doi: 10.1146/annurev-control-053018-023825
+files:
+- recht-benjamina-tour-of-reinforcement-learning-the-view-from-continuous-control2019.pdf
+issue: '1'
+journal: Annual Review of Control, Robotics, and Autonomous Systems
+language: en
+month: 5
+pages: 253--279
+publisher: Annual Reviews
+ref: ATourOfReinfRecht2019
+time-added: 2021-08-01-12:50:32
+title: 'A Tour of Reinforcement Learning: The View from Continuous Control'
+type: article
+url: http://dx.doi.org/10.1146/annurev-control-053018-023825
+volume: '2'
+year: 2019
