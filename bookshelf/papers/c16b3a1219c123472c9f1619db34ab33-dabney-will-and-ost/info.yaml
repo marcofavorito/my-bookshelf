@@ -1,0 +1,34 @@
+abstract: 'Recent work on exploration in reinforcement learning (RL) has led to a
+  series of increasingly complex solutions to the problem. This increase in complexity
+  often comes at the expense of generality. Recent empirical studies suggest that,
+  when applied to a broader set of domains, some sophisticated exploration methods
+  are outperformed by simpler counterparts, such as {\epsilon}-greedy. In this paper
+  we propose an exploration algorithm that retains the simplicity of {\epsilon}-greedy
+  while reducing dithering. We build on a simple hypothesis: the main limitation of
+  {\epsilon}-greedy exploration is its lack of temporal persistence, which limits
+  its ability to escape local optima. We propose a temporally extended form of {\epsilon}-greedy
+  that simply repeats the sampled action for a random duration. It turns out that,
+  for many duration distributions, this suffices to improve exploration on a large
+  set of domains. Interestingly, a class of distributions inspired by ecological models
+  of animal foraging behaviour yields particularly strong performance.'
+archiveprefix: arXiv
+author: Dabney, Will and Ostrovski, Georg and Barreto, André
+author_list:
+- family: Dabney
+  given: Will
+- family: Ostrovski
+  given: Georg
+- family: Barreto
+  given: André
+eprint: 2006.01782v1
+file: 2006.01782v1.pdf
+files:
+- dabney-will-and-ostrovski-georg-and-barreto-andretemporally-extended-e-greedy-exploration2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.01782v1
+time-added: 2021-08-01-19:11:02
+title: Temporally-Extended ε-Greedy Exploration
+type: article
+url: http://arxiv.org/abs/2006.01782v1
+year: '2020'

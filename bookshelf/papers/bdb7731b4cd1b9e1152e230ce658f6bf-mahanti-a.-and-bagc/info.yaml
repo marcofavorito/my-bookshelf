@@ -1,0 +1,67 @@
+abstract: <jats:p>Two new marking algorithms for AND/OR graphs called CF and CS are
+  presented. For admissible heuristics CS is not needed, and CF is shown to be preferable
+  to the marking algorithms of Martelli and Montanari. When the heuristic is not admissible,
+  the analysis is carried out with the help of the notion of the first and second
+  discriminants of an AND/OR graph. It is proved that in this case CF can be followed
+  by CS to get optimal solutions, provided the sumcost criterion is used and the first
+  discriminant equals the second. Estimates of time and storage requirements are given.
+  Other cost measures, such as maxcost, are also considered, and a number of interesting
+  open problems are enumerated.</jats:p>
+author: Mahanti, A. and Bagchi, A.
+author_list:
+- affiliation:
+  - name: Indian Institute of Management Calcutta, Calcutta, India
+  family: Mahanti
+  given: A.
+- affiliation:
+  - name: Indian Institute of Management Calcutta, Calcutta, India
+  family: Bagchi
+  given: A.
+citations:
+- doi: 10.1145/322358.322359
+- article-title: heuristic search in AND/OR graphs
+  author: BAGCHI A.
+  doi: 10.1016/0304-3975(83)90050-6
+  first-page: '2'
+  journal-title: Theor. Comput. Sci.
+  volume: '24'
+  year: '1983'
+- doi: 10.1145/2455.2458
+- article-title: An admissible and optimal algorithm for searching AND/OR graphs
+  author: CHANG C. L.
+  doi: 10.1016/0004-3702(71)90006-3
+  first-page: '117'
+  journal-title: Artif Intell.
+  volume: '2'
+  year: '1971'
+- author: HOROWITZ E.
+  volume-title: Calif.
+  year: '1978'
+- author: MARTELLI A.
+  first-page: '1'
+  volume-title: O.Additive AND/OR Graphs. In Proceedings of the 3rd International
+    Joint Conference on Artificial Intelligence (Stanford, Calif.
+  year: '1973'
+- doi: 10.1145/359657.359664
+- author: NILSSON N. J.
+  volume-title: McGraw-Hill
+  year: '1971'
+- author: NILSSON N. J.
+  volume-title: Calif.
+  year: '1980'
+doi: 10.1145/2455.2459
+files:
+- or-graph-heuristic-search-methods1985.pdf
+issue: '1'
+journal: Journal of the ACM
+language: en
+month: 1
+pages: 28--51
+publisher: Association for Computing Machinery (ACM)
+ref: AndOrGraphHeMahant1985
+time-added: 2021-08-22-11:48:45
+title: AND/OR graph heuristic search methods
+type: article
+url: http://dx.doi.org/10.1145/2455.2459
+volume: '32'
+year: 1985

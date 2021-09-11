@@ -1,0 +1,36 @@
+abstract: The ICT (Information Communication Technologies) ecosystem is estimated
+  to be responsible, as of today, for 10% of the total worldwide energy demand - equivalent
+  to the combined energy production of Germany and Japan. Cloud storage, mainly operated
+  through large and densely-packed data centers, constitutes a non-negligible part
+  of it. However, since the cloud is a fast-inflating market and the energy-efficiency
+  of data centers is mostly an insensitive issue for the collectivity, its carbon
+  footprint shows no signs of slowing down. In this paper, we analyze a novel paradigm
+  for cloud storage (implemented by Cubbit, http://cubbit.io), in which data are stored
+  and distributed over a network of p2p-interacting ARM-based single-board devices.
+  We compare Cubbit's distributed cloud to the traditional centralized solution in
+  terms of environmental footprint and energy efficiency. We demonstrate that, compared
+  to the centralized cloud, the distributed architecture of Cubbit has a carbon footprint
+  reduced of a 77% factor for data storage and of a 50% factor for data transfers.
+  These results provide an example of how a radical paradigm shift in a large-reach
+  technology can benefit both the final consumer as well as our society as a whole.
+archiveprefix: arXiv
+author: Posani, Lorenzo and Paccoia, Alessio and Moschettini, Marco
+author_list:
+- family: Posani
+  given: Lorenzo
+- family: Paccoia
+  given: Alessio
+- family: Moschettini
+  given: Marco
+eprint: 1803.06973v3
+file: 1803.06973v3.pdf
+files:
+- posani-lorenzo-and-paccoia-alessio-and-moschettini-marcothe-carbon-footprint-of-distributed-cloud-storage2018.pdf
+month: Mar
+primaryclass: cs.DC
+ref: 1803.06973v3
+time-added: 2021-08-24-08:39:06
+title: The carbon footprint of distributed cloud storage
+type: article
+url: http://arxiv.org/abs/1803.06973v3
+year: '2018'

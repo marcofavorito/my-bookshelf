@@ -1,0 +1,41 @@
+abstract: Given a relational specification between Boolean inputs and outputs, the
+  goal of Boolean functional synthesis is to synthesize each output as a function
+  of the inputs such that the specification is met. In this paper, we first show that
+  unless some hard conjectures in complexity theory are falsified, Boolean functional
+  synthesis must necessarily generate exponential-sized Skolem functions, thereby
+  requiring exponential time, in the worst-case. Given this inherent hardness, what
+  does one do to solve the problem? We present a two-phase algorithm for Boolean functional
+  synthesis, where the first phase is efficient both in terms of time and sizes of
+  synthesized functions, and solves an overwhelming majority of benchmarks. To explain
+  this surprisingly good performance, we provide a sufficient condition under which
+  the first phase must produce exact correct answers. When this condition fails, the
+  second phase builds upon the result of the first phase, possibly requiring exponential
+  time and generating exponential-sized functions in the worst-case. Detailed experimental
+  evaluation shows our algorithm to perform better than state-of-the-art techniques
+  for a majority of benchmarks.
+archiveprefix: arXiv
+author: Akshay, S. and Chakraborty, Supratik and Goel, Shubham and Kulal, Sumith and
+  Shah, Shetal
+author_list:
+- family: Akshay
+  given: S.
+- family: Chakraborty
+  given: Supratik
+- family: Goel
+  given: Shubham
+- family: Kulal
+  given: Sumith
+- family: Shah
+  given: Shetal
+eprint: 1804.05507v2
+file: 1804.05507v2.pdf
+files:
+- akshay-s.-and-chakraborty-supratik-and-goel-shubham-and-kulal-sumith-and-shah-shetalwhat-s-hard-about-boolean-functional-synthesis2018.pdf
+month: Apr
+primaryclass: cs.LO
+ref: 1804.05507v2
+time-added: 2021-07-08-15:06:04
+title: What's hard about Boolean Functional Synthesis
+type: article
+url: http://arxiv.org/abs/1804.05507v2
+year: '2018'

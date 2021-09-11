@@ -1,0 +1,37 @@
+abstract: The success of blockchain as the underlying technology for cryptocurrencies
+  has opened up possibilities for its use in other application domains as well. The
+  main advantages of blockchain for its potential use in other domains are its inherent
+  security mechanisms and immunity to different attacks. A blockchain relies on a
+  consensus method for agreeing on any new data. Most of the consensus methods which
+  are currently used for the blockchain of different cryptocurrencies require high
+  computational power and thus are not apt for resource-constrained systems.   In
+  this article, we discuss and survey the various blockchain based consensus methods
+  that are applicable to resource constrained IoT devices and networks. A typical
+  IoT network consists of several devices which have limited computational and communications
+  capabilities. Most often, these devices cannot perform intensive computations and
+  are starved for bandwidth. Therefore, we discuss the possible measures that can
+  be taken to reduce the computational power and convergence time for the underlying
+  consensus methods. We also talk about some of the alternatives to the public blockchain
+  like private blockchain and tangle, along with their potential adoption for IoT
+  networks. Furthermore, we review the existing consensus methods that have been implemented
+  and explore the possibility of utilizing them to realize a blockchain based IoT
+  network. Some of the open research challenges are also put forward.
+archiveprefix: arXiv
+author: Salimitari, Mehrdad and Chatterjee, Mainak
+author_list:
+- family: Salimitari
+  given: Mehrdad
+- family: Chatterjee
+  given: Mainak
+eprint: 1809.05613v4
+file: 1809.05613v4.pdf
+files:
+- salimitari-mehrdad-and-chatterjee-mainaka-survey-on-consensus-protocols-in-blockchain-for-iot-networks2018.pdf
+month: Sep
+primaryclass: cs.NI
+ref: 1809.05613v4
+time-added: 2021-08-09-10:08:04
+title: A Survey on Consensus Protocols in Blockchain for IoT Networks
+type: article
+url: http://arxiv.org/abs/1809.05613v4
+year: '2018'

@@ -1,0 +1,31 @@
+abstract: The increasing demand for democratizing machine learning algorithms calls
+  for hyperparameter optimization (HPO) solutions at low cost. Many machine learning
+  algorithms have hyperparameters which can cause a large variation in the training
+  cost. But this effect is largely ignored in existing HPO methods, which are incapable
+  to properly control cost during the optimization process. To address this problem,
+  we develop a new cost-frugal HPO solution. The core of our solution is a simple
+  but new randomized direct-search method, for which we prove a convergence rate of
+  $O(\frac{\sqrt{d}}{\sqrt{K}})$ and an $O(d\epsilon^{-2})$-approximation guarantee
+  on the total cost. We provide strong empirical results in comparison with state-of-the-art
+  HPO methods on large AutoML benchmarks.
+archiveprefix: arXiv
+author: Wu, Qingyun and Wang, Chi and Huang, Silu
+author_list:
+- family: Wu
+  given: Qingyun
+- family: Wang
+  given: Chi
+- family: Huang
+  given: Silu
+eprint: 2005.01571v3
+file: 2005.01571v3.pdf
+files:
+- wu-qingyun-and-wang-chi-and-huang-silufrugal-optimization-for-cost-related-hyperparameters2020.pdf
+month: May
+primaryclass: cs.LG
+ref: 2005.01571v3
+time-added: 2021-09-10-10:16:38
+title: Frugal Optimization for Cost-related Hyperparameters
+type: article
+url: http://arxiv.org/abs/2005.01571v3
+year: '2020'

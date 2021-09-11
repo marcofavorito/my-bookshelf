@@ -1,0 +1,46 @@
+abstract: We introduce a unified objective for action and perception of intelligent
+  agents. Extending representation learning and control, we minimize the joint divergence
+  between the combined system of agent and environment and a target distribution.
+  Intuitively, such agents use perception to align their beliefs with the world, and
+  use actions to align the world with their beliefs. Minimizing the joint divergence
+  to an expressive target maximizes the mutual information between the agent's representations
+  and inputs, thus inferring representations that are informative of past inputs and
+  exploring future inputs that are informative of the representations. This lets us
+  explain intrinsic objectives, such as representation learning, information gain,
+  empowerment, and skill discovery from minimal assumptions. Moreover, interpreting
+  the target distribution as a latent variable model suggests powerful world models
+  as a path toward highly adaptive agents that seek large niches in their environments,
+  rendering task rewards optional. The framework provides a common language for comparing
+  a wide range of objectives, advances the understanding of latent variables for decision
+  making, and offers a recipe for designing novel objectives. We recommend deriving
+  future agent objectives the joint divergence to facilitate comparison, to point
+  out the agent's target distribution, and to identify the intrinsic objective terms
+  needed to reach that distribution.
+archiveprefix: arXiv
+author: Hafner, Danijar and Ortega, Pedro A. and Ba, Jimmy and Parr, Thomas and Friston,
+  Karl and Heess, Nicolas
+author_list:
+- family: Hafner
+  given: Danijar
+- family: Ortega
+  given: Pedro A.
+- family: Ba
+  given: Jimmy
+- family: Parr
+  given: Thomas
+- family: Friston
+  given: Karl
+- family: Heess
+  given: Nicolas
+eprint: 2009.01791v2
+file: 2009.01791v2.pdf
+files:
+- hafner-danijar-and-ortega-pedro-a.-and-ba-jimmy-and-parr-thomas-and-friston-karl-and-heess-nicolasaction-and-perception-as-divergence-minimizati.pdf
+month: Sep
+primaryclass: cs.AI
+ref: 2009.01791v2
+time-added: 2021-07-30-19:36:55
+title: Action and Perception as Divergence Minimization
+type: article
+url: http://arxiv.org/abs/2009.01791v2
+year: '2020'

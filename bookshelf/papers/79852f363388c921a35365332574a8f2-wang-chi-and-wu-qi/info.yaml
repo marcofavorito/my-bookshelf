@@ -1,0 +1,28 @@
+abstract: We study the problem of using low cost to search for hyperparameter configurations
+  in a large search space with heterogeneous evaluation cost and model quality. We
+  propose a blended search strategy to combine the strengths of global and local search,
+  and prioritize them on the fly with the goal of minimizing the total cost spent
+  in finding good configurations. Our approach demonstrates robust performance for
+  tuning both tree-based models and deep neural networks on a large AutoML benchmark,
+  as well as superior performance in model quality, time, and resource consumption
+  for a production transformer-based NLP model fine-tuning task.
+author: Wang, Chi and Wu, Qingyun and Huang, Silu and Saied, Amin
+author_list:
+- family: Wang
+  given: Chi
+- family: Wu
+  given: Qingyun
+- family: Huang
+  given: Silu
+- family: Saied
+  given: Amin
+booktitle: The Ninth International Conference on Learning Representations (ICLR 2021)
+files:
+- wang-chi-and-wu-qingyun-and-huang-silu-and-saied-amineconomical-hyperparameter-optimization-with-blended-search-strategy2021.pdf
+month: May
+ref: wang2021economical
+time-added: 2021-09-10-10:16:45
+title: Economical Hyperparameter Optimization with Blended Search Strategy
+type: inproceedings
+url: https://www.microsoft.com/en-us/research/publication/economical-hyperparameter-optimization-with-blended-search-strategy/
+year: '2021'

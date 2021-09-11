@@ -1,0 +1,39 @@
+abstract: Boolean functional synthesis is the process of constructing a Boolean function
+  from a Boolean specification that relates input and output variables. Despite significant
+  recent developments in synthesis algorithms, Boolean functional synthesis remains
+  a challenging problem even when state-of-the-art methods are used for decomposing
+  the specification. In this work we bring a fresh decomposition approach, orthogonal
+  to existing methods, that explores the decomposition of the specification into separate
+  input and output components. We make use of an input-output decomposition of a given
+  specification described as a CNF formula, by alternatingly analyzing the separate
+  input and output components. We exploit well-defined properties of these components
+  to ultimately synthesize a solution for the entire specification. We first provide
+  a theoretical result that, for input components with specific structures, synthesis
+  for CNF formulas via this framework can be performed more efficiently than in the
+  general case. We then show by experimental evaluations that our algorithm performs
+  well also in practice on instances which are challenging for existing state-of-the-art
+  tools, serving as a good complement to modern synthesis techniques.
+archiveprefix: arXiv
+author: Chakraborty, Supratik and Fried, Dror and Tabajara, Lucas M. and Vardi, Moshe
+  Y.
+author_list:
+- family: Chakraborty
+  given: Supratik
+- family: Fried
+  given: Dror
+- family: Tabajara
+  given: Lucas M.
+- family: Vardi
+  given: Moshe Y.
+eprint: 1808.08190v1
+file: 1808.08190v1.pdf
+files:
+- chakraborty-supratik-and-fried-dror-and-tabajara-lucas-m.-and-vardi-moshe-y.functional-synthesis-via-input-output-separation2018.pdf
+month: Aug
+primaryclass: cs.LO
+ref: 1808.08190v1
+time-added: 2021-07-08-14:59:41
+title: Functional Synthesis via Input-Output Separation
+type: article
+url: http://arxiv.org/abs/1808.08190v1
+year: '2018'
