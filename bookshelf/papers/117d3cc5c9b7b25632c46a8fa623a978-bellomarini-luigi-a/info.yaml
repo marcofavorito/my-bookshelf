@@ -1,0 +1,30 @@
+abstract: In this paper, we investigate finite representations of DatalogMTL. First,
+  we introduce programs that have finite models and propose a toolkit for structuring
+  the execution of DatalogMTL rules into sequential phases. Then, we study infinite
+  models that eventually become constant and introduce sufficient criteria for programs
+  that allow for such representation. We proceed by considering infinite models that
+  are eventually periodic and show that such a representation encompasses all DatalogMTLFP
+  programs, a widely discussed fragment. Finally, we provide a novel algorithm for
+  reasoning over finite representable DatalogMTL programs that incorporates all of
+  the previously discussed representations.
+archiveprefix: arXiv
+author: Bellomarini, Luigi and Nissl, Markus and Sallinger, Emanuel
+author_list:
+- family: Bellomarini
+  given: Luigi
+- family: Nissl
+  given: Markus
+- family: Sallinger
+  given: Emanuel
+eprint: 2109.10691v1
+file: 2109.10691v1.pdf
+files:
+- bellomarini-luigi-and-nissl-markus-and-sallinger-emanuelquery-evaluation-in-datalogmtl-taming-infinite-query-results2021.pdf
+month: Sep
+primaryclass: cs.DB
+ref: 2109.10691v1
+time-added: 2021-09-23-15:58:20
+title: Query Evaluation in DatalogMTL -- Taming Infinite Query Results
+type: article
+url: http://arxiv.org/abs/2109.10691v1
+year: '2021'

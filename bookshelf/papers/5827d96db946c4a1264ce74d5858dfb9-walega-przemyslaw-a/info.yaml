@@ -1,0 +1,46 @@
+abstract: We study the data complexity of  reasoning for several fragments
+  of MTL - an extension of Datalog with metric temporal operators over the rational
+  numbers. Reasoning in the full MTL language is PSPACE-complete, which handicaps
+  its application in practice. To achieve tractability we first study the core fragment,
+  which disallows conjunction in rule bodies, and show that reasoning remains PSPACE-hard.
+  Intractability prompts us to also limit the kinds of temporal operators allowed
+  in rules, and we propose a practical core fragment for which reasoning becomes TC0-complete.
+  Finally, we show that this fragment can be extended by allowing linear conjunctions
+  in rule bodies, where at most one atom can be intensional (IDB); we show that the
+  resulting fragment is NL-complete, and hence no harder than plain linear Datalog.
+author: Walega, Przemysław A. and Cuenca Grau, Bernardo and Kaminski, Mark and Kostylev,
+  Egor V.
+author_list:
+- affiliation:
+  - name: University of Oxford
+  family: Walega
+  given: Przemysław A.
+- affiliation:
+  - name: University of Oxford
+  family: Cuenca Grau
+  given: Bernardo
+- affiliation:
+  - name: University of Oxford
+  family: Kaminski
+  given: Mark
+- affiliation:
+  - name: University of Oxford
+  family: Kostylev
+  given: Egor V.
+booktitle: Twenty-Ninth International Joint Conference on Artificial Intelligence
+  and Seventeenth Pacific Rim International Conference on Artificial Intelligence
+  {IJCAI-PRICAI-20}
+doi: 10.24963/ijcai.2020/266
+files:
+- walega-przemyslaw-a.-and-cuenca-grau-bernardo-and-kaminski-mark-and-kostylev-egor-v.tractable-fragments-of-datalog-with-metric-temporal-operators2.pdf
+journal: Proceedings of the Twenty-Ninth International Joint Conference on Artificial
+  Intelligence
+month: 7
+publisher: International Joint Conferences on Artificial Intelligence Organization
+ref: TractableFragmWalega2020
+time-added: 2021-09-23-10:21:01
+title: Tractable Fragments of Datalog with Metric Temporal Operators
+type: inproceedings
+url: http://dx.doi.org/10.24963/ijcai.2020/266
+venue: Yokohama, Japan
+year: 2020

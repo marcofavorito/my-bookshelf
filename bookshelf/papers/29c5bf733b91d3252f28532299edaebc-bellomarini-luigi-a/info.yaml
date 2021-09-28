@@ -1,0 +1,57 @@
+abstract: 'Over the past years, there has been a resurgence of Datalog-based systems
+  in the database
+
+  community as well as in industry. In this context, it has been recognized that to
+
+  handle the complex knowledge-based scenarios encountered today, such as reasoning
+
+  over large knowledge graphs, Datalog has to be extended with features such as existential
+
+  quantification. Yet, Datalog-based reasoning in the presence of existential quantification
+
+  is in general undecidable. Many efforts have been made to define decidable fragments.
+
+  Warded Datalog+/- is a very promising one, as it captures PTIME complexity while
+  allowing
+
+  ontological reasoning. Yet so far, no implementation of Warded Datalog+/- was available.
+
+  In this paper we present the Vadalog system, a Datalog-based system for performing
+
+  complex logic reasoning tasks, such as those required in advanced knowledge graphs.
+
+  The Vadalog system is Oxford''s contribution to the VADA research programme, a joint
+
+  effort of the universities of Oxford, Manchester and Edinburgh and around 20 industrial
+
+  partners. As the main contribution of this paper, we illustrate the first implementation
+
+  of Warded Datalog+/-, a high-performance Datalog+/- system utilizing an aggressive
+
+  termination control strategy. We also provide a comprehensive experimental evaluation.'
+author: Bellomarini, Luigi and Sallinger, Emanuel and Gottlob, Georg
+author_list:
+- family: Bellomarini
+  given: Luigi
+- family: Sallinger
+  given: Emanuel
+- family: Gottlob
+  given: Georg
+doi: 10.14778/3213880.3213888
+files:
+- bellomarini-luigi-and-sallinger-emanuel-and-gottlob-georgthe-vadalog-system-datalog-based-reasoning-for-knowledge-graphs2018.pdf
+issn: 2150-8097
+issue_date: May 2018
+journal: Proc. VLDB Endow.
+month: May
+number: '9'
+numpages: '13'
+pages: 975–987
+publisher: VLDB Endowment
+ref: 10.14778/3213880.3213888
+time-added: 2021-09-15-11:35:26
+title: 'The Vadalog System: Datalog-Based Reasoning for Knowledge Graphs'
+type: article
+url: https://doi.org/10.14778/3213880.3213888
+volume: '11'
+year: '2018'

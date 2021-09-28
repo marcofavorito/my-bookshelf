@@ -1,0 +1,1204 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="access" content="No">
+
+    
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="twitter:title" content="Metcalfe’s law: not so wrong after all"/>
+
+    <meta name="twitter:description" content="NETNOMICS: Economic Research and Electronic Networking - Briscoe et al. IEEE Spectrum, 43(7), 34&#8211;39 (2006) claim that Metcalfe&#8217;s law is &#8220;wrong&#8221;. One of their arguments is..."/>
+
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/journal/11066/15/1.jpg"/>
+
+    <meta name="journal_id" content="11066"/>
+
+    <meta name="dc.title" content="Metcalfe&#8217;s law: not so wrong after all"/>
+
+    <meta name="dc.source" content="NETNOMICS: Economic Research and Electronic Networking 2014 15:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2014-06-12"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2014 Springer Science+Business Media New York"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Briscoe et al. IEEE Spectrum, 43(7), 34&#8211;39 (2006) claim that Metcalfe&#8217;s law is &#8220;wrong&#8221;. One of their arguments is that &#8220;if Metcalfe&#8217;s Law were true, then two networks ought to interconnect regardless of their relative sizes&#8221;. This paper shows that this argument is flawed."/>
+
+    <meta name="prism.issn" content="1573-7071"/>
+
+    <meta name="prism.publicationName" content="NETNOMICS: Economic Research and Electronic Networking"/>
+
+    <meta name="prism.publicationDate" content="2014-06-12"/>
+
+    <meta name="prism.volume" content="15"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="1"/>
+
+    <meta name="prism.endingPage" content="8"/>
+
+    <meta name="prism.copyright" content="2014 Springer Science+Business Media New York"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s11066-014-9084-1"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s11066-014-9084-1"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s11066-014-9084-1.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s11066-014-9084-1"/>
+
+    <meta name="citation_journal_title" content="NETNOMICS: Economic Research and Electronic Networking"/>
+
+    <meta name="citation_journal_abbrev" content="Netnomics"/>
+
+    <meta name="citation_publisher" content="Springer US"/>
+
+    <meta name="citation_issn" content="1573-7071"/>
+
+    <meta name="citation_title" content="Metcalfe&#8217;s law: not so wrong after all"/>
+
+    <meta name="citation_volume" content="15"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="2014/07"/>
+
+    <meta name="citation_online_date" content="2014/06/12"/>
+
+    <meta name="citation_firstpage" content="1"/>
+
+    <meta name="citation_lastpage" content="8"/>
+
+    <meta name="citation_article_type" content="Article"/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s11066-014-9084-1"/>
+
+    <meta name="DOI" content="10.1007/s11066-014-9084-1"/>
+
+    <meta name="citation_doi" content="10.1007/s11066-014-9084-1"/>
+
+    <meta name="description" content="Briscoe et al. IEEE Spectrum, 43(7), 34&#8211;39 (2006) claim that Metcalfe&#8217;s law is &#8220;wrong&#8221;. One of their arguments is that &#8220;if Me"/>
+
+    <meta name="dc.creator" content="Van Hove, Leo"/>
+
+    <meta name="dc.subject" content="Economic Theory/Quantitative Economics/Mathematical Methods"/>
+
+    <meta name="dc.subject" content="Data Structures and Information Theory"/>
+
+    <meta name="dc.subject" content="IT in Business"/>
+
+    <meta name="dc.subject" content="Economic Growth"/>
+
+    <meta name="dc.subject" content="e-Commerce/e-business"/>
+
+    <meta name="citation_reference" content="citation_journal_title=IEEE Spectrum; citation_title=Metcalfe&#8217;s law is wrong; citation_author=B Briscoe, A Odlyzko, B Tilly; citation_volume=43; citation_issue=7; citation_publication_date=2006; citation_pages=34-39; citation_doi=10.1109/MSPEC.2006.1653003; citation_id=CR1"/>
+
+    <meta name="citation_reference" content="citation_journal_title=International Commerce Review; citation_title=When a &#8220;law&#8221; isn&#8217;t a law at all; citation_author=B Briscoe, A Odlyzko, B Tilly; citation_volume=8; citation_issue=2; citation_publication_date=2010; citation_pages=146-149; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="citation_title=Compatibility and the creation of shared networks; citation_inbook_title=Electronic services networks: A business and public policy challenge; citation_publication_date=1991; citation_id=CR3; citation_author=N Economides; citation_publisher=Praeger"/>
+
+    <meta name="citation_reference" content="citation_journal_title=International Journal of Research in Marketing; citation_title=Marketing compatible, yet differentiated products: in search of competitive equilibria when network externalities are at work; citation_author=P Esser, L Leruth; citation_volume=5; citation_issue=4; citation_publication_date=1988; citation_pages=251-270; citation_doi=10.1016/0167-8116(88)90004-3; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="citation_journal_title=American Economic Review; citation_title=Installed base and compatibility: innovation, product preannouncements, and predation; citation_author=J Farrell, G Saloner; citation_volume=76; citation_issue=5; citation_publication_date=1986; citation_pages=940-955; citation_id=CR5"/>
+
+    <meta name="citation_reference" content="citation_journal_title=RAND Journal of Economics; citation_title=Dynamic competition with switching costs; citation_author=J Farrell, C Shapiro; citation_volume=19; citation_issue=1; citation_publication_date=1988; citation_pages=123-137; citation_doi=10.2307/2555402; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="Fuentelsaz, L., Garrido, E., Maicas, J.P. (2012). A strategic approach to network value in network industries. Forthcoming in Journal of Management. Published online 31 May 2012. doi:
+                    10.1177/0149206312448399
+                    
+                  ."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Marketing Science; citation_title=Intraconnectivity and interconnectivity: when value creation may reduce profits; citation_author=T He, D Kuksov, C Narasimhan; citation_volume=31; citation_issue=4; citation_publication_date=2012; citation_pages=587-602; citation_doi=10.1287/mksc.1120.0705; citation_id=CR8"/>
+
+    <meta name="citation_reference" content="citation_journal_title=American Economic Review; citation_title=Network externalities, competition, and compatibility; citation_author=ML Katz, C Shapiro; citation_volume=75; citation_issue=3; citation_publication_date=1985; citation_pages=424-440; citation_id=CR9"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Journal of Political Economy; citation_title=Technology adoption in the presence of network externalities; citation_author=ML Katz, C Shapiro; citation_volume=94; citation_issue=4; citation_publication_date=1986; citation_pages=822-841; citation_doi=10.1086/261409; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Oxford Economic Papers; citation_title=Product compatibility choice in a market with technological progress; citation_author=ML Katz, C Shapiro; citation_volume=38; citation_issue=0; citation_publication_date=1986; citation_pages=146-165; citation_id=CR11"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Journal of Indus- trial Economics; citation_title=Product introduction and network externalities; citation_author=ML Katz, C Shapiro; citation_volume=40; citation_issue=1; citation_publication_date=1992; citation_pages=55-83; citation_doi=10.2307/2950627; citation_id=CR12"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Information Economics Policy; citation_title=Empirical validation of Metcalfe&#8217;s law: how Internet usage patterns have changed over time; citation_author=A Madureira, F den Hartog, H Bouwman, N Baken; citation_volume=25; citation_issue=4; citation_publication_date=2013; citation_pages=246-256; citation_doi=10.1016/j.infoecopol.2013.07.002; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_journal_title=European Economic Review; citation_title=Shared ATM networks and banking competition; citation_author=C Matutes, AJ Padilla; citation_volume=38; citation_issue=6; citation_publication_date=1994; citation_pages=113-1138; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Computer; citation_title=Metcalfe&#8217;s law after 40 years of ethernet; citation_author=B Metcalfe; citation_volume=46; citation_issue=12; citation_publication_date=2013; citation_pages=26-31; citation_doi=10.1109/MC.2013.374; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="Odlyzko, A., &amp; Tilly, B. (2005). A refutation of Metcalfe&#8217;s law and a better estimate for the value of networks and network interconnections, mimeo. Digital Technology Center, University of Minnesota. 
+                    http://www.dtc.umn.edu/~odlyzko/doc/metcalfe.pdf
+                    
+                  ."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Management Science; citation_title=Price competition and compatibility in the presence of positive demand externalities; citation_author=J Xie, MM Sirbu; citation_volume=41; citation_issue=5; citation_publication_date=1995; citation_pages=909-926; citation_doi=10.1287/mnsc.41.5.909; citation_id=CR17"/>
+
+    <meta name="citation_author" content="Van Hove, Leo"/>
+
+    <meta name="citation_author_email" content="Leo.Van.Hove@vub.ac.be"/>
+
+    <meta name="citation_author_institution" content="Department of Applied Economics (APEC), Vrije Universiteit Brussel (Free University of Brussels), Brussels, Belgium"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s11066-014-9084-1&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2014/07/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s11066-014-9084-1"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="NETNOMICS: Economic Research and Electronic Networking"/>
+        <meta property="og:title" content="Metcalfe’s law: not so wrong after all - NETNOMICS: Economic Research and Electronic Networking"/>
+        <meta property="og:description" content="Briscoe et al. IEEE Spectrum, 43(7), 34–39 (2006) claim that Metcalfe’s law is “wrong”. One of their arguments is that “if Metcalfe’s Law were true, then two networks ought to interconnect regardless of their relative sizes”. This paper shows that this argument is flawed."/>
+        <meta property="og:image" content="https://media.springernature.com/w200/springer-static/cover/journal/11066.jpg"/>
+    
+
+    <title>Metcalfe’s law: not so wrong after all | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    <style>h1,h2{font-family:Georgia,Palatino,serif;font-style:normal}h1{margin-bottom:1em}.u-h3,h2,h3{margin-bottom:1em}.u-h3{line-height:1.4}.u-h3,h3,h4{font-family:Georgia,Palatino,serif;font-style:normal}h4{margin-bottom:1em}button{line-height:inherit}[tabindex="0"]:focus{outline:4px solid #fc0}html,label{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}html{-webkit-font-smoothing:subpixel-antialiased;box-sizing:border-box;color:#333;font-size:62.5%;height:100%;line-height:1.61803;overflow-y:scroll}*{box-sizing:inherit}body{background:#fcfcfc;max-width:100%;min-height:100%}body,figure{margin:0}button,div,form,input{margin:0;padding:0}body,p{padding:0}a{color:#004b83;text-decoration:underline;text-decoration-skip-ink:auto}a:focus{outline:4px solid #fc0}a>img{vertical-align:middle}h1,h2,h3,h4{line-height:1.4}p{margin:0}h1,h2,h3,h4,ul{margin-top:0}p{margin-bottom:1.5em}p:empty{display:none}.c-ad{text-align:center}@media only screen and (min-width:320px){.c-ad{padding:8px}}.c-ad--728x90{background-color:#ccc;display:none}.c-ad--728x90 .c-ad__inner{min-height:calc(1.5em + 94px)}@media only screen and (min-width:768px){.js .c-ad--728x90{display:none}.js .u-show-following-ad+.c-ad--728x90{display:block}}.c-ad--300x250{background-color:#f2f2f2;display:none;padding:8px}.c-ad--300x250 .c-ad__inner{min-height:calc(1.5em + 254px)}@media only screen and (min-width:320px){.js .c-ad--300x250{display:block}}.c-ad__label,.c-header{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-ad__label{color:#333;font-size:1.4rem;font-weight:400;line-height:1.5;margin-bottom:4px}.c-header{background-color:#fff;border-bottom:4px solid #00285a;font-size:16px;padding:16px 0}.c-header__container{-webkit-box-align:center;-webkit-box-pack:justify;align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1280px;padding:0 16px}.c-header__brand{margin-right:32px}.c-header__brand a{text-decoration:none}.c-header__menu,.c-header__navigation{display:flex}.c-header__navigation{-webkit-box-align:center;align-items:center}.c-header__menu{list-style:none;margin:0;padding:0}.c-header__item{color:inherit;margin-right:24px}.c-header__item:last-child{margin-right:0}.c-header__link{color:inherit;text-decoration:none}.c-skip-link{background:#f7fbfe;color:#004b83;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1.4rem;padding:8px;position:absolute;text-align:center;transform:translateY(-100%);width:100%;z-index:9999}@media (prefers-reduced-motion:reduce){.c-skip-link{transition:top .3s ease-in-out 0s}}@media print{.c-skip-link{display:none}}.c-skip-link:link{color:#004b83}h1{font-size:3.2rem}.u-h3,h1,h2,h3{font-weight:700}.u-h3,h2,h3{font-size:2.8rem}.u-h3,h3{font-size:2.4rem}h4{font-size:2rem;font-weight:700}body{font-size:1.8em}.c-article-header{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;margin-bottom:40px}.c-article-main-column{font-family:Georgia,Palatino,serif;margin-right:8.6%;width:60.2%}@media only screen and (max-width:1023px){.c-article-main-column{margin-right:0;width:100%}}.c-article__sub-heading{color:#222;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:2rem;font-style:normal;font-weight:400;line-height:1.3;margin:0 0 8px}@media only screen and (min-width:768px){.c-article__sub-heading{font-size:2.4rem;line-height:1.24}}.c-article-extras{float:left;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;width:31.2%}@media only screen and (max-width:1023px){.c-article-extras{display:none}}.c-pdf-download{display:flex;margin-bottom:24px;max-height:48px}@media only screen and (min-width:540px){.c-pdf-download{max-height:none}}@media only screen and (min-width:1024px){.c-pdf-download{max-height:48px}}.c-pdf-download__link{-webkit-box-pack:justify;-webkit-box-flex:1;background:linear-gradient(#4d78af,#3365a0);border:1px solid transparent;border-radius:2px;color:#fff;display:flex;flex:1 1 0%;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1.6rem;justify-content:space-between;line-height:1.3;padding:13px 24px;text-decoration:none}.c-popup-search{background-color:#eee;box-shadow:0 3px 3px -3px rgba(0,0,0,.21);padding:16px 0;position:relative;z-index:10}@media only screen and (min-width:1024px){.js .c-popup-search{position:absolute;top:100%;width:100%}.c-popup-search__container{margin:auto;max-width:70%}}.app-search__content{display:flex}.app-search__label{color:#666;display:inline-block;font-size:1.4rem;margin-bottom:8px}.app-search__input{-webkit-box-flex:0;border:1px solid #b3b3b3;border-bottom-left-radius:3px;border-top-left-radius:3px;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.21);flex:0 1 auto;font-size:1.4rem;line-height:1.2;padding:.75em 1em;vertical-align:middle;width:100%}.app-search__button{-webkit-box-align:center;-webkit-box-pack:center;align-items:center;background-color:#33629d;background-image:linear-gradient(#4d76a9,#33629d);border:1px solid rgba(0,59,132,.5);border-radius:0 2px 2px 0;color:#fff;cursor:pointer;display:inline-flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:16px;justify-content:center;line-height:1.3;margin:0;padding:8px;position:relative;text-align:center;text-decoration:none;transition:all .25s ease 0s,color .25s ease 0s,border-color .25s ease 0s;width:50px}.app-search__button svg{fill:currentcolor}.u-display-block{display:block}.u-display-flex{display:flex;width:100%}.u-align-items-center{-webkit-box-align:center;align-items:center}.u-flex-static{-webkit-box-flex:0;flex:0 1 auto;flex:0 0 auto}.js .u-js-hide{display:none;visibility:hidden}@media print{.u-hide-print{display:none}}.u-icon{fill:currentcolor;display:inline-block;transform:translate(0);vertical-align:text-top}.u-button-reset{background-color:transparent;border:0;padding:0}.u-sans-serif{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.u-container{margin:0 auto;max-width:1280px;padding:0 16px}.u-position-relative{position:relative}.u-mt-16{margin-top:16px}.u-mt-32{margin-top:32px}.u-mr-24{margin-right:24px}.u-mb-16{margin-bottom:16px}.u-mb-24{margin-bottom:24px}.u-mb-32{margin-bottom:32px}.u-ml-8{margin-left:8px}.u-hide{display:none;visibility:hidden}.u-visually-hidden{clip:rect(0,0,0,0);border:0;height:1px;margin:-100%;overflow:hidden;padding:0;position:absolute!important;width:1px}.hide{display:none;visibility:hidden}</style>
+
+
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-30256e094e.css media="screen">
+    <link rel="stylesheet" data-inline-css-source="critical-css" href="/oscar-static/app-springerlink/css/enhanced-article-0847260dec.css" media="print" onload="this.media='only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)';this.onload=null">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"GA Key":"UA-26408784-1","DOI":"10.1007/s11066-014-9084-1","Page":"article","page":{"attributes":{"environment":"live"}},"Country":"IT","doi":"10.1007-s11066-014-9084-1","Journal Title":"NETNOMICS: Economic Research and Electronic Networking","Journal Id":11066,"Keywords":"Metcalfe’s law, Zipf’s law, Networks, Telecommunications, Network effects","kwrd":["Metcalfe’s_law","Zipf’s_law","Networks","Telecommunications","Network_effects"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"N","Features":[],"Open Access":"N","hasAccess":"N","bypassPaywall":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-s11066-014-9084-1","Full HTML":"N","Subject Codes":["SCW","SCW29000","SCI15009","SC522000","SCW44000","SCI26000"],"pmc":["W","W29000","I15009","522000","W44000","I26000"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1573-7071","pissn":"1385-9587"},"type":"Article","category":{"pmc":{"primarySubject":"Economics","primarySubjectCode":"W","secondarySubjects":{"1":"Economic Theory/Quantitative Economics/Mathematical Methods","2":"Data Structures and Information Theory","3":"IT in Business","4":"Economic Growth","5":"e-Commerce/e-business"},"secondarySubjectCodes":{"1":"W29000","2":"I15009","3":"522000","4":"W44000","5":"I26000"}},"sucode":"SC4"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article"}];
+    </script>
+
+
+    
+    
+        
+            <script src=/oscar-static/js/jquery-220afd743d.js></script>
+        
+    
+
+    <script data-test="onetrust-control">
+        
+            (function(w,d,t) {
+                var assetPath = '/oscar-static/js/cookie-consent-es5-bundle-a0eb3ebbaa.js';
+                function cc() {
+                    var h = w.location.hostname,
+                        e = d.createElement(t),
+                        s = d.getElementsByTagName(t)[0];
+
+                    if (h === "link.springer.com") {
+                        e.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+                        e.setAttribute("data-domain-script", "4f53bc14-4ee3-45bd-9935-e3d2b6b2a543");
+                    } else {
+                        e.src = assetPath;
+                        e.setAttribute("data-consent", h);
+                    }
+                    s.parentNode.insertBefore(e, s);
+                }
+                w.google_tag_manager ? cc() : window.addEventListener("gtm_loaded", cc);
+            })(window,document,"script");
+        
+    </script>
+    <script>
+        function OptanonWrapper() {
+            var elementInside = function(candidate, element) {
+                if (candidate === element) {
+                    return true;
+                } else if (candidate.nodeName.toLowerCase() === 'body') {
+                    return false;
+                } else {
+                    return elementInside(candidate.parentNode, element);
+                }
+            };
+
+            var disclaimer = document.querySelector('.c-disclaimer[aria-hidden="false"]');
+            window.dataLayer.push({event:'OneTrustGroupsUpdated'});
+            if (disclaimer) {
+                if (!elementInside(document.activeElement, disclaimer)) {
+                    disclaimer.querySelector('button').focus();
+                }
+            } else {
+                document.activeElement.blur();
+            }
+        }
+    </script>
+
+    <script>
+    (function(w, d) {
+        w.config = w.config || {};
+        w.config.mustardcut = false;
+
+        
+        if (w.matchMedia && w.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+            w.config.mustardcut = true;
+            d.classList.add('js');
+            d.classList.remove('grade-c');
+        }
+    })(window, document.documentElement);
+</script>
+
+    
+<script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+
+    
+    
+        
+            <!-- Google Tag Manager -->
+            <script data-test="gtm-head">
+                if (window.config.mustardcut) {
+                    (function (w, d, s, l, i) {
+                        w[l] = w[l] || [];
+                        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                        var f = d.getElementsByTagName(s)[0],
+                                j = d.createElement(s),
+                                dl = l != 'dataLayer' ? '&l=' + l : '';
+                        j.async = true;
+                        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                        
+                        j.addEventListener('load', function() {
+                            var _ge = new CustomEvent('gtm_loaded', { bubbles: true });
+                            d.dispatchEvent(_ge);
+                        });
+                        f.parentNode.insertBefore(j, f);
+                    })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+                }
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+
+
+    <script class="js-entry">
+    if (window.config.mustardcut) {
+        (function(w, d) {
+            
+            
+            
+                window.Component = {};
+                window.suppressShareButton = false;
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+            }
+
+            var headScripts = [
+                {'src': '/oscar-static/js/polyfill-es5-bundle-3ae6e1981b.js', 'async': false},
+                {'src': '/oscar-static/js/airbrake-es5-bundle-c0f0a1d6d9.js', 'async': false},
+            ];
+
+            var bodyScripts = [
+                {'src': '/oscar-static/js/app-es5-bundle-0d8a6c284f.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/app-es6-bundle-464f45a2db.js', 'async': false, 'module': true}
+                
+                
+                    , {'src': '/oscar-static/js/global-article-es5-bundle-6c6c6e21a1.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/global-article-es6-bundle-ff57660707.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i = 0; i < headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i = 0; i < bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        })(window, document);
+    }
+</script>
+
+    
+    
+    <link rel="canonical" href="https://link.springer.com/article/10.1007/s11066-014-9084-1"/>
+    
+
+    
+    <script type="application/ld+json">{"mainEntity":{"headline":"Metcalfe’s law: not so wrong after all","description":"Briscoe et al. IEEE Spectrum, 43(7), 34–39 (2006) claim that Metcalfe’s law is “wrong”. One of their arguments is that “if Metcalfe’s Law were true, then two networks ought to interconnect regardless of their relative sizes”. This paper shows that this argument is flawed.","datePublished":"2014-06-12","dateModified":"2014-06-12","pageStart":"1","pageEnd":"8","sameAs":"https://doi.org/10.1007/s11066-014-9084-1","keywords":"Economic Theory/Quantitative Economics/Mathematical Methods,Data Structures and Information Theory,IT in Business,Economic Growth,e-Commerce/e-business","image":"","isPartOf":{"name":"NETNOMICS: Economic Research and Electronic Networking","issn":["1573-7071","1385-9587"],"volumeNumber":"15","@type":["Periodical","PublicationVolume"]},"publisher":{"name":"Springer US","logo":{"url":"https://www.springernature.com/app-sn/public/images/logo-springernature.png","@type":"ImageObject"},"@type":"Organization"},"author":[{"name":"Van Hove, Leo","affiliation":[{"name":"Vrije Universiteit Brussel (Free University of Brussels)","address":{"name":"Department of Applied Economics (APEC), Vrije Universiteit Brussel (Free University of Brussels), Brussels, Belgium","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"}],"@type":"ScholarlyArticle"},"@context":"https://schema.org","@type":"WebPage"}</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript data-test="gtm-body">
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+
+
+    <div class="u-vh-full">
+        <a class="c-skip-link" href="#main-content">Skip to main content</a>
+        
+        <div class="u-hide u-show-following-ad"></div>
+        <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+            <div class="c-ad__inner">
+                <p class="c-ad__label">Advertisement</p>
+                    <div id="div-gpt-ad-LB1" data-pa11y-ignore data-gpt data-gpt-unitpath="/270604982/springerlink/11066/article" data-gpt-sizes="728x90" style="min-width:728px;min-height:90px" data-gpt-targeting="pos=LB1;articleid=s11066-014-9084-1;"></div>
+            </div>
+        </aside>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="firstTabbable"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="u-icon u-flex-static u-ml-8" width="22" height="22" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a
+                        data-test="login-link"
+                        class="c-header__link"
+                        href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11066-014-9084-1"
+                        data-track="click"
+                        data-track-category="header"
+                        data-track-action="login header"
+                        data-track-label="link">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="u-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+
+            <div class="c-pdf-button__container">
+                
+            </div>
+
+            <div class="c-article-collection__container">
+                
+    
+
+            </div>
+
+
+            <article lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="2014-06-12">12 June 2014</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="">Metcalfe’s law: not so wrong after all</h1>
+                        <ul class="c-article-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-article-author-list__item"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Leo-Hove" data-author-popup="auth-Leo-Hove" data-corresp-id="c1">Leo Van Hove<svg width="16" height="16" focusable="false" role="img" aria-hidden="true" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a><sup class="u-js-hide"><a href="#Aff1">1</a></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/11066"><i data-test="journal-title">NETNOMICS: Economic Research and Electronic Networking</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 15</b>, <span class="u-visually-hidden">pages </span>1–8 (<span data-test="article-publication-year">2014</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    <div class="c-article-metrics-bar__wrapper u-clear-both">
+        <ul class="c-article-metrics-bar u-list-reset">
+            
+                <li class=" c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__count">468 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                </li>
+            
+            
+                <li class="c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__count">6 <span class="c-article-metrics-bar__label">Citations</span></p>
+                </li>
+            
+            
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">7 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                    </li>
+                
+            
+            <li class="c-article-metrics-bar__item">
+                <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs11066-014-9084-1/metrics" data-track="click" data-track-action="view metrics" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+                        </div>
+                        
+    
+
+    
+
+                        
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" data-title="Abstract" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><p>Briscoe et al. IEEE Spectrum, <i>43</i>(7), 34–39 (<a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2006" title="Briscoe, B., Odlyzko, A., Tilly, B. (2006). Metcalfe’s law is wrong. IEEE Spectrum, 43(7), 34–39. &#xA;                    http://spectrum.ieee.org/jul06/4109&#xA;                    &#xA;                  ." href="/article/10.1007/s11066-014-9084-1#ref-CR1" id="ref-link-section-d3760610e260">2006</a>) claim that Metcalfe’s law is “wrong”. One of their arguments is that “if Metcalfe’s Law were true, then two networks ought to interconnect regardless of their relative sizes”. This paper shows that this argument is flawed.</p></div></div></section>
+                    
+    
+
+
+                    
+                        
+                            <div class="c-notes">
+                                <p class="c-notes__text">This is a preview of subscription content, <a id="test-login-banner-link" href="//wayf.springernature.com?redirect_uri&#x3D;https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11066-014-9084-1" data-track="click" data-track-action="login" data-track-label="link">access via your institution</a>.</p>
+                            </div>
+                        
+                        
+                            <div class="c-article-buy-box c-article-buy-box--article">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Tax calculation will be finalised during checkout.</p>
+    <form action="https://order.springer.com/public/checkout?abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s11066-014-9084-1">
+     <input type="hidden" name="isxn" value="1573-7071">
+     <input type="hidden" name="contenttitle" value="Metcalfe’s law: not so wrong after all">
+     <input type="hidden" name="copyrightyear" value="2014">
+     <input type="hidden" name="year" value="2014">
+     <input type="hidden" name="authors" value="Leo Van Hove">
+     <input type="hidden" name="title" value="NETNOMICS: Economic Research and Electronic Networking">
+     <input type="hidden" name="mac" value="62DC1E0E113A8BFCA28215AC60E1BBA8">
+     <input type="submit" class="c-box__button" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Metcalfe’s law: not so wrong after all&quot;,&quot;id&quot;:&quot;1573-7071&quot;,&quot;price&quot;:42.64,&quot;brand&quot;:&quot;Springer US&quot;,&quot;category&quot;:&quot;Economics&quot;,&quot;variant&quot;:&quot;ppv-article&quot;,&quot;quantity&quot;:1}]}}});" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+  <script>dataLayer.push({"ecommerce":{"currency":"EUR","impressions":[{"name":"Metcalfe’s law: not so wrong after all","id":"1573-7071","price":42.64,"brand":"Springer US","category":"Economics","variant":"ppv-article","quantity":1}]}});</script>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">90,07 €</p>
+    <p class="buybox__price-info">Tax calculation will be finalised during checkout.</p>
+    <form action="https://order.springer.com/public/checkout?abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="NETNOMICS: Economic Research and Electronic Networking">
+     <input type="hidden" name="journalnumber" value="11066">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" rel="nofollow" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s11066-014-9084-1&journal=1573-7071&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+                        <div class="u-display-none">
+                            
+                        </div>
+                    
+
+                    
+
+                    
+
+                    <div id="MagazineFulltextArticleBodySuffix"><section aria-labelledby="Bib1" data-title="References"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">1.</span><p class="c-article-references__text" id="ref-CR1">Briscoe, B., Odlyzko, A., Tilly, B. (2006). Metcalfe’s law is wrong. <i>IEEE Spectrum</i>, <i>43</i>(7), 34–39. <a href="http://spectrum.ieee.org/jul06/4109">http://spectrum.ieee.org/jul06/4109</a>.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FMSPEC.2006.1653003" aria-label="Article reference 1">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 1" href="http://scholar.google.com/scholar_lookup?&amp;title=Metcalfe%E2%80%99s%20law%20is%20wrong&amp;journal=IEEE%20Spectrum&amp;volume=43&amp;issue=7&amp;pages=34-39&amp;publication_year=2006&amp;author=Briscoe%2CB&amp;author=Odlyzko%2CA&amp;author=Tilly%2CB">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">2.</span><p class="c-article-references__text" id="ref-CR2">Briscoe, B., Odlyzko, A., Tilly, B. (2010). When a “law” isn’t a law at all. <i>International Commerce Review</i>, <i>8</i>(2), 146–149.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 2" href="http://scholar.google.com/scholar_lookup?&amp;title=When%20a%20%E2%80%9Claw%E2%80%9D%20isn%E2%80%99t%20a%20law%20at%20all&amp;journal=International%20Commerce%20Review&amp;volume=8&amp;issue=2&amp;pages=146-149&amp;publication_year=2010&amp;author=Briscoe%2CB&amp;author=Odlyzko%2CA&amp;author=Tilly%2CB">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">3.</span><p class="c-article-references__text" id="ref-CR3">Economides, N. (1991). Compatibility and the creation of shared networks. In: Guerin-Calvert, M., &amp; Wildman, S. (Eds.) In <i>Electronic services networks: A business and public policy challenge</i>. Praeger, New York.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 3" href="http://scholar.google.com/scholar_lookup?&amp;title=Compatibility%20and%20the%20creation%20of%20shared%20networks&amp;publication_year=1991&amp;author=Economides%2CN">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">4.</span><p class="c-article-references__text" id="ref-CR4">Esser, P., &amp; Leruth, L. (1988). Marketing compatible, yet differentiated products: in search of competitive equilibria when network externalities are at work. <i>International Journal of Research in Marketing</i>, <i>5</i>(4), 251–270.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2F0167-8116%2888%2990004-3" aria-label="Article reference 4">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 4" href="http://scholar.google.com/scholar_lookup?&amp;title=Marketing%20compatible%2C%20yet%20differentiated%20products%3A%20in%20search%20of%20competitive%20equilibria%20when%20network%20externalities%20are%20at%20work&amp;journal=International%20Journal%20of%20Research%20in%20Marketing&amp;volume=5&amp;issue=4&amp;pages=251-270&amp;publication_year=1988&amp;author=Esser%2CP&amp;author=Leruth%2CL">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">5.</span><p class="c-article-references__text" id="ref-CR5">Farrell, J., &amp; Saloner, G. (1986). Installed base and compatibility: innovation, product preannouncements, and predation. <i>American Economic Review</i>, <i>76</i>(5), 940–955.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 5" href="http://scholar.google.com/scholar_lookup?&amp;title=Installed%20base%20and%20compatibility%3A%20innovation%2C%20product%20preannouncements%2C%20and%20predation&amp;journal=American%20Economic%20Review&amp;volume=76&amp;issue=5&amp;pages=940-955&amp;publication_year=1986&amp;author=Farrell%2CJ&amp;author=Saloner%2CG">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">6.</span><p class="c-article-references__text" id="ref-CR6">Farrell, J., &amp; Shapiro, C. (1988). Dynamic competition with switching costs. <i>RAND Journal of Economics</i>, <i>19</i>(1), 123–137.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.2307%2F2555402" aria-label="Article reference 6">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 6" href="http://scholar.google.com/scholar_lookup?&amp;title=Dynamic%20competition%20with%20switching%20costs&amp;journal=RAND%20Journal%20of%20Economics&amp;volume=19&amp;issue=1&amp;pages=123-137&amp;publication_year=1988&amp;author=Farrell%2CJ&amp;author=Shapiro%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">7.</span><p class="c-article-references__text" id="ref-CR7">Fuentelsaz, L., Garrido, E., Maicas, J.P. (2012). A strategic approach to network value in network industries. Forthcoming in <i>Journal of Management</i>. Published online 31 May 2012. doi:<a href="https://doi.org/10.1177/0149206312448399">10.1177/0149206312448399</a>.</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">8.</span><p class="c-article-references__text" id="ref-CR8">He, T., Kuksov, D., Narasimhan, C. (2012). Intraconnectivity and interconnectivity: when value creation may reduce profits. <i>Marketing Science</i>, <i>31</i>(4), 587–602. doi:<a href="https://doi.org/10.1287/mksc.1120.0705">10.1287/mksc.1120.0705</a>.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1287%2Fmksc.1120.0705" aria-label="Article reference 8">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 8" href="http://scholar.google.com/scholar_lookup?&amp;title=Intraconnectivity%20and%20interconnectivity%3A%20when%20value%20creation%20may%20reduce%20profits&amp;journal=Marketing%20Science&amp;doi=10.1287%2Fmksc.1120.0705&amp;volume=31&amp;issue=4&amp;pages=587-602&amp;publication_year=2012&amp;author=He%2CT&amp;author=Kuksov%2CD&amp;author=Narasimhan%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">9.</span><p class="c-article-references__text" id="ref-CR9">Katz, M.L., &amp; Shapiro, C. (1985). Network externalities, competition, and compatibility. <i>American Economic Review</i>, <i>75</i>(3), 424–440.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 9" href="http://scholar.google.com/scholar_lookup?&amp;title=Network%20externalities%2C%20competition%2C%20and%20compatibility&amp;journal=American%20Economic%20Review&amp;volume=75&amp;issue=3&amp;pages=424-440&amp;publication_year=1985&amp;author=Katz%2CML&amp;author=Shapiro%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">10.</span><p class="c-article-references__text" id="ref-CR10">Katz, M.L., &amp; Shapiro, C. (1986a). Technology adoption in the presence of network externalities. <i>Journal of Political Economy</i>, <i>94</i>(4), 822–841.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1086%2F261409" aria-label="Article reference 10">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 10" href="http://scholar.google.com/scholar_lookup?&amp;title=Technology%20adoption%20in%20the%20presence%20of%20network%20externalities&amp;journal=Journal%20of%20Political%20Economy&amp;volume=94&amp;issue=4&amp;pages=822-841&amp;publication_year=1986&amp;author=Katz%2CML&amp;author=Shapiro%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">11.</span><p class="c-article-references__text" id="ref-CR11">Katz, M.L., &amp; Shapiro, C. (1986b). Product compatibility choice in a market with technological progress. <i>Oxford Economic Papers</i>, <i>38</i>(0), 146–165.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 11" href="http://scholar.google.com/scholar_lookup?&amp;title=Product%20compatibility%20choice%20in%20a%20market%20with%20technological%20progress&amp;journal=Oxford%20Economic%20Papers&amp;volume=38&amp;issue=0&amp;pages=146-165&amp;publication_year=1986&amp;author=Katz%2CML&amp;author=Shapiro%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">12.</span><p class="c-article-references__text" id="ref-CR12">Katz, M.L., &amp; Shapiro, C. (1992). Product introduction and network externalities. <i>Journal of Indus- trial Economics</i>, <i>40</i>(1), 55–83.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.2307%2F2950627" aria-label="Article reference 12">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 12" href="http://scholar.google.com/scholar_lookup?&amp;title=Product%20introduction%20and%20network%20externalities&amp;journal=Journal%20of%20Indus-%20trial%20Economics&amp;volume=40&amp;issue=1&amp;pages=55-83&amp;publication_year=1992&amp;author=Katz%2CML&amp;author=Shapiro%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">13.</span><p class="c-article-references__text" id="ref-CR13">Madureira, A., den Hartog, F., Bouwman, H., Baken, N. (2013). Empirical validation of Metcalfe’s law: how Internet usage patterns have changed over time. <i>Information Economics Policy</i>, <i>25</i>(4), 246–256. doi:<a href="https://doi.org/10.1016/j.infoecopol.2013.07.002">10.1016/j.infoecopol.2013.07.002</a>.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2Fj.infoecopol.2013.07.002" aria-label="Article reference 13">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 13" href="http://scholar.google.com/scholar_lookup?&amp;title=Empirical%20validation%20of%20Metcalfe%E2%80%99s%20law%3A%20how%20Internet%20usage%20patterns%20have%20changed%20over%20time&amp;journal=Information%20Economics%20Policy&amp;doi=10.1016%2Fj.infoecopol.2013.07.002&amp;volume=25&amp;issue=4&amp;pages=246-256&amp;publication_year=2013&amp;author=Madureira%2CA&amp;author=den%20Hartog%2CF&amp;author=Bouwman%2CH&amp;author=Baken%2CN">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">14.</span><p class="c-article-references__text" id="ref-CR14">Matutes, C., &amp; Padilla, A.J. (1994). Shared ATM networks and banking competition. <i>European Economic Review</i>, <i>38</i>(6), 113–1138.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 14" href="http://scholar.google.com/scholar_lookup?&amp;title=Shared%20ATM%20networks%20and%20banking%20competition&amp;journal=European%20Economic%20Review&amp;volume=38&amp;issue=6&amp;pages=113-1138&amp;publication_year=1994&amp;author=Matutes%2CC&amp;author=Padilla%2CAJ">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">15.</span><p class="c-article-references__text" id="ref-CR15">Metcalfe, B. (2013). Metcalfe’s law after 40 years of ethernet. <i>Computer</i>, <i>46</i>(12), 26–31. doi:<a href="https://doi.org/10.1109/MC.2013.374">10.1109/MC.2013.374</a>.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FMC.2013.374" aria-label="Article reference 15">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 15" href="http://scholar.google.com/scholar_lookup?&amp;title=Metcalfe%E2%80%99s%20law%20after%2040%20years%20of%20ethernet&amp;journal=Computer&amp;doi=10.1109%2FMC.2013.374&amp;volume=46&amp;issue=12&amp;pages=26-31&amp;publication_year=2013&amp;author=Metcalfe%2CB">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">16.</span><p class="c-article-references__text" id="ref-CR16">Odlyzko, A., &amp; Tilly, B. (2005). A refutation of Metcalfe’s law and a better estimate for the value of networks and network interconnections, mimeo. Digital Technology Center, University of Minnesota. <a href="http://www.dtc.umn.edu/~odlyzko/doc/metcalfe.pdf">http://www.dtc.umn.edu/~odlyzko/doc/metcalfe.pdf</a>.</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">17.</span><p class="c-article-references__text" id="ref-CR17">Xie, J., &amp; Sirbu, M.M. (1995). Price competition and compatibility in the presence of positive demand externalities. <i>Management Science</i>, <i>41</i>(5), 909–926.</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1287%2Fmnsc.41.5.909" aria-label="Article reference 17">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 17" href="http://scholar.google.com/scholar_lookup?&amp;title=Price%20competition%20and%20compatibility%20in%20the%20presence%20of%20positive%20demand%20externalities&amp;journal=Management%20Science&amp;volume=41&amp;issue=5&amp;pages=909-926&amp;publication_year=1995&amp;author=Xie%2CJ&amp;author=Sirbu%2CMM">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="https://citation-needed.springer.com/v2/references/10.1007/s11066-014-9084-1?format=refman&amp;flavour=references">Download references<svg width="16" height="16" focusable="false" role="img" aria-hidden="true" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section></div><section><div class="c-article-section" id="Ack1-section"><div class="c-article-section__content" id="Ack1-content"></div></div></section><section aria-labelledby="author-information" data-title="Author information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><p class="c-article-author-affiliation__address">Department of Applied Economics (APEC), Vrije Universiteit Brussel (Free University of Brussels), Pleinlaan 2, 1050, Brussels, Belgium</p><p class="c-article-author-affiliation__authors-list">Leo Van Hove</p></li></ol><div class="u-js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-Leo-Hove"><span class="c-article-authors-search__title u-h3 js-search-name">Leo Van Hove</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Leo+Van+Hove&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Leo+Van+Hove" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Leo+Van+Hove%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li></ol></div><h3 class="c-article__sub-heading" id="corresponding-author">Corresponding author</h3><p id="corresponding-author-list">Correspondence to
+                Leo Van Hove.</p></div></div></section><section data-title="Rights and permissions"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content"><p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=Metcalfe%E2%80%99s%20law%3A%20not%20so%20wrong%20after%20all&amp;author=Leo%20Van%20Hove&amp;contentID=10.1007%2Fs11066-014-9084-1&amp;copyright=Springer%20Science%2BBusiness%20Media%20New%20York&amp;publication=1385-9587&amp;publicationDate=2014-06-12&amp;publisherName=SpringerNature&amp;orderBeanReset=true">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info" data-title="About this article"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="u-hide-print c-bibliographic-information__column c-bibliographic-information__column--border"><a data-crossmark="10.1007/s11066-014-9084-1" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007/s11066-014-9084-1" data-track="click" data-track-action="Click Crossmark" data-track-label="link" data-test="crossmark"><img width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgxIiB3aWR0aD0iNTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJtMTcuMzUgMzUuNDUgMjEuMy0xNC4ydi0xNy4wM2gtMjEuMyIgZmlsbD0iIzk4OTg5OCIvPjxwYXRoIGQ9Im0zOC42NSAzNS40NS0yMS4zLTE0LjJ2LTE3LjAzaDIxLjMiIGZpbGw9IiM3NDc0NzQiLz48cGF0aCBkPSJtMjggLjVjLTEyLjk4IDAtMjMuNSAxMC41Mi0yMy41IDIzLjVzMTAuNTIgMjMuNSAyMy41IDIzLjUgMjMuNS0xMC41MiAyMy41LTIzLjVjMC02LjIzLTIuNDgtMTIuMjEtNi44OC0xNi42Mi00LjQxLTQuNC0xMC4zOS02Ljg4LTE2LjYyLTYuODh6bTAgNDEuMjVjLTkuOCAwLTE3Ljc1LTcuOTUtMTcuNzUtMTcuNzVzNy45NS0xNy43NSAxNy43NS0xNy43NSAxNy43NSA3Ljk1IDE3Ljc1IDE3Ljc1YzAgNC43MS0xLjg3IDkuMjItNS4yIDEyLjU1cy03Ljg0IDUuMi0xMi41NSA1LjJ6IiBmaWxsPSIjNTM1MzUzIi8+PHBhdGggZD0ibTQxIDM2Yy01LjgxIDYuMjMtMTUuMjMgNy40NS0yMi40MyAyLjktNy4yMS00LjU1LTEwLjE2LTEzLjU3LTcuMDMtMjEuNWwtNC45Mi0zLjExYy00Ljk1IDEwLjctMS4xOSAyMy40MiA4Ljc4IDI5LjcxIDkuOTcgNi4zIDIzLjA3IDQuMjIgMzAuNi00Ljg2eiIgZmlsbD0iIzljOWM5YyIvPjxwYXRoIGQ9Im0uMiA1OC40NWMwLS43NS4xMS0xLjQyLjMzLTIuMDFzLjUyLTEuMDkuOTEtMS41Yy4zOC0uNDEuODMtLjczIDEuMzQtLjk0LjUxLS4yMiAxLjA2LS4zMiAxLjY1LS4zMi41NiAwIDEuMDYuMTEgMS41MS4zNS40NC4yMy44MS41IDEuMS44MWwtLjkxIDEuMDFjLS4yNC0uMjQtLjQ5LS40Mi0uNzUtLjU2LS4yNy0uMTMtLjU4LS4yLS45My0uMi0uMzkgMC0uNzMuMDgtMS4wNS4yMy0uMzEuMTYtLjU4LjM3LS44MS42Ni0uMjMuMjgtLjQxLjYzLS41MyAxLjA0LS4xMy40MS0uMTkuODgtLjE5IDEuMzkgMCAxLjA0LjIzIDEuODYuNjggMi40Ni40NS41OSAxLjA2Ljg4IDEuODQuODguNDEgMCAuNzctLjA3IDEuMDctLjIzcy41OS0uMzkuODUtLjY4bC45MSAxYy0uMzguNDMtLjguNzYtMS4yOC45OS0uNDcuMjItMSAuMzQtMS41OC4zNC0uNTkgMC0xLjEzLS4xLTEuNjQtLjMxLS41LS4yLS45NC0uNTEtMS4zMS0uOTEtLjM4LS40LS42Ny0uOS0uODgtMS40OC0uMjItLjU5LS4zMy0xLjI2LS4zMy0yLjAyem04LjQtNS4zM2gxLjYxdjIuNTRsLS4wNSAxLjMzYy4yOS0uMjcuNjEtLjUxLjk2LS43MnMuNzYtLjMxIDEuMjQtLjMxYy43MyAwIDEuMjcuMjMgMS42MS43MS4zMy40Ny41IDEuMTQuNSAyLjAydjQuMzFoLTEuNjF2LTQuMWMwLS41Ny0uMDgtLjk3LS4yNS0xLjIxLS4xNy0uMjMtLjQ1LS4zNS0uODMtLjM1LS4zIDAtLjU2LjA4LS43OS4yMi0uMjMuMTUtLjQ5LjM2LS43OC42NHY0LjhoLTEuNjF6bTcuMzcgNi40NWMwLS41Ni4wOS0xLjA2LjI2LTEuNTEuMTgtLjQ1LjQyLS44My43MS0xLjE0LjI5LS4zLjYzLS41NCAxLjAxLS43MS4zOS0uMTcuNzgtLjI1IDEuMTgtLjI1LjQ3IDAgLjg4LjA4IDEuMjMuMjQuMzYuMTYuNjUuMzguODkuNjdzLjQyLjYzLjU0IDEuMDNjLjEyLjQxLjE4Ljg0LjE4IDEuMzIgMCAuMzItLjAyLjU3LS4wNy43NmgtNC4zNmMuMDcuNjIuMjkgMS4xLjY1IDEuNDQuMzYuMzMuODIuNSAxLjM4LjUuMjkgMCAuNTctLjA0LjgzLS4xM3MuNTEtLjIxLjc2LS4zN2wuNTUgMS4wMWMtLjMzLjIxLS42OS4zOS0xLjA5LjUzLS40MS4xNC0uODMuMjEtMS4yNi4yMS0uNDggMC0uOTItLjA4LTEuMzQtLjI1LS40MS0uMTYtLjc2LS40LTEuMDctLjctLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDQtLjI2LS45NS0uMjYtMS41MnptNC42LS42MmMwLS41NS0uMTEtLjk4LS4zNC0xLjI4LS4yMy0uMzEtLjU4LS40Ny0xLjA2LS40Ny0uNDEgMC0uNzcuMTUtMS4wNy40NS0uMzEuMjktLjUuNzMtLjU4IDEuM3ptMi41LjYyYzAtLjU3LjA5LTEuMDguMjgtMS41My4xOC0uNDQuNDMtLjgyLjc1LTEuMTNzLjY5LS41NCAxLjEtLjcxYy40Mi0uMTYuODUtLjI0IDEuMzEtLjI0LjQ1IDAgLjg0LjA4IDEuMTcuMjNzLjYxLjM0Ljg1LjU3bC0uNzcgMS4wMmMtLjE5LS4xNi0uMzgtLjI4LS41Ni0uMzctLjE5LS4wOS0uMzktLjE0LS42MS0uMTQtLjU2IDAtMS4wMS4yMS0xLjM1LjYzLS4zNS40MS0uNTIuOTctLjUyIDEuNjcgMCAuNjkuMTcgMS4yNC41MSAxLjY2LjM0LjQxLjc4LjYyIDEuMzIuNjIuMjggMCAuNTQtLjA2Ljc4LS4xNy4yNC0uMTIuNDUtLjI2LjY0LS40MmwuNjcgMS4wM2MtLjMzLjI5LS42OS41MS0xLjA4LjY1LS4zOS4xNS0uNzguMjMtMS4xOC4yMy0uNDYgMC0uOS0uMDgtMS4zMS0uMjQtLjQtLjE2LS43NS0uMzktMS4wNS0uN3MtLjUzLS42OS0uNy0xLjEzYy0uMTctLjQ1LS4yNS0uOTYtLjI1LTEuNTN6bTYuOTEtNi40NWgxLjU4djYuMTdoLjA1bDIuNTQtMy4xNmgxLjc3bC0yLjM1IDIuOCAyLjU5IDQuMDdoLTEuNzVsLTEuNzctMi45OC0xLjA4IDEuMjN2MS43NWgtMS41OHptMTMuNjkgMS4yN2MtLjI1LS4xMS0uNS0uMTctLjc1LS4xNy0uNTggMC0uODcuMzktLjg3IDEuMTZ2Ljc1aDEuMzR2MS4yN2gtMS4zNHY1LjZoLTEuNjF2LTUuNmgtLjkydi0xLjJsLjkyLS4wN3YtLjcyYzAtLjM1LjA0LS42OC4xMy0uOTguMDgtLjMxLjIxLS41Ny40LS43OXMuNDItLjM5LjcxLS41MWMuMjgtLjEyLjYzLS4xOCAxLjA0LS4xOC4yNCAwIC40OC4wMi42OS4wNy4yMi4wNS40MS4xLjU3LjE3em0uNDggNS4xOGMwLS41Ny4wOS0xLjA4LjI3LTEuNTMuMTctLjQ0LjQxLS44Mi43Mi0xLjEzLjMtLjMxLjY1LS41NCAxLjA0LS43MS4zOS0uMTYuOC0uMjQgMS4yMy0uMjRzLjg0LjA4IDEuMjQuMjRjLjQuMTcuNzQuNCAxLjA0Ljcxcy41NC42OS43MiAxLjEzYy4xOS40NS4yOC45Ni4yOCAxLjUzcy0uMDkgMS4wOC0uMjggMS41M2MtLjE4LjQ0LS40Mi44Mi0uNzIgMS4xM3MtLjY0LjU0LTEuMDQuNy0uODEuMjQtMS4yNC4yNC0uODQtLjA4LTEuMjMtLjI0LS43NC0uMzktMS4wNC0uN2MtLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDUtLjI3LS45Ni0uMjctMS41M3ptMS42NSAwYzAgLjY5LjE0IDEuMjQuNDMgMS42Ni4yOC40MS42OC42MiAxLjE4LjYyLjUxIDAgLjktLjIxIDEuMTktLjYyLjI5LS40Mi40NC0uOTcuNDQtMS42NiAwLS43LS4xNS0xLjI2LS40NC0xLjY3LS4yOS0uNDItLjY4LS42My0xLjE5LS42My0uNSAwLS45LjIxLTEuMTguNjMtLjI5LjQxLS40My45Ny0uNDMgMS42N3ptNi40OC0zLjQ0aDEuMzNsLjEyIDEuMjFoLjA1Yy4yNC0uNDQuNTQtLjc5Ljg4LTEuMDIuMzUtLjI0LjctLjM2IDEuMDctLjM2LjMyIDAgLjU5LjA1Ljc4LjE0bC0uMjggMS40LS4zMy0uMDljLS4xMS0uMDEtLjIzLS4wMi0uMzgtLjAyLS4yNyAwLS41Ni4xLS44Ni4zMXMtLjU1LjU4LS43NyAxLjF2NC4yaC0xLjYxem0tNDcuODcgMTVoMS42MXY0LjFjMCAuNTcuMDguOTcuMjUgMS4yLjE3LjI0LjQ0LjM1LjgxLjM1LjMgMCAuNTctLjA3LjgtLjIyLjIyLS4xNS40Ny0uMzkuNzMtLjczdi00LjdoMS42MXY2Ljg3aC0xLjMybC0uMTItMS4wMWgtLjA0Yy0uMy4zNi0uNjMuNjQtLjk4Ljg2LS4zNS4yMS0uNzYuMzItMS4yNC4zMi0uNzMgMC0xLjI3LS4yNC0xLjYxLS43MS0uMzMtLjQ3LS41LTEuMTQtLjUtMi4wMnptOS40NiA3LjQzdjIuMTZoLTEuNjF2LTkuNTloMS4zM2wuMTIuNzJoLjA1Yy4yOS0uMjQuNjEtLjQ1Ljk3LS42My4zNS0uMTcuNzItLjI2IDEuMS0uMjYuNDMgMCAuODEuMDggMS4xNS4yNC4zMy4xNy42MS40Ljg0LjcxLjI0LjMxLjQxLjY4LjUzIDEuMTEuMTMuNDIuMTkuOTEuMTkgMS40NCAwIC41OS0uMDkgMS4xMS0uMjUgMS41Ny0uMTYuNDctLjM4Ljg1LS42NSAxLjE2LS4yNy4zMi0uNTguNTYtLjk0LjczLS4zNS4xNi0uNzIuMjUtMS4xLjI1LS4zIDAtLjYtLjA3LS45LS4ycy0uNTktLjMxLS44Ny0uNTZ6bTAtMi4zYy4yNi4yMi41LjM3LjczLjQ1LjI0LjA5LjQ2LjEzLjY2LjEzLjQ2IDAgLjg0LS4yIDEuMTUtLjYuMzEtLjM5LjQ2LS45OC40Ni0xLjc3IDAtLjY5LS4xMi0xLjIyLS4zNS0xLjYxLS4yMy0uMzgtLjYxLS41Ny0xLjEzLS41Ny0uNDkgMC0uOTkuMjYtMS41Mi43N3ptNS44Ny0xLjY5YzAtLjU2LjA4LTEuMDYuMjUtMS41MS4xNi0uNDUuMzctLjgzLjY1LTEuMTQuMjctLjMuNTgtLjU0LjkzLS43MXMuNzEtLjI1IDEuMDgtLjI1Yy4zOSAwIC43My4wNyAxIC4yLjI3LjE0LjU0LjMyLjgxLjU1bC0uMDYtMS4xdi0yLjQ5aDEuNjF2OS44OGgtMS4zM2wtLjExLS43NGgtLjA2Yy0uMjUuMjUtLjU0LjQ2LS44OC42NC0uMzMuMTgtLjY5LjI3LTEuMDYuMjctLjg3IDAtMS41Ni0uMzItMi4wNy0uOTVzLS43Ni0xLjUxLS43Ni0yLjY1em0xLjY3LS4wMWMwIC43NC4xMyAxLjMxLjQgMS43LjI2LjM4LjY1LjU4IDEuMTUuNTguNTEgMCAuOTktLjI2IDEuNDQtLjc3di0zLjIxYy0uMjQtLjIxLS40OC0uMzYtLjctLjQ1LS4yMy0uMDgtLjQ2LS4xMi0uNy0uMTItLjQ1IDAtLjgyLjE5LTEuMTMuNTktLjMxLjM5LS40Ni45NS0uNDYgMS42OHptNi4zNSAxLjU5YzAtLjczLjMyLTEuMy45Ny0xLjcxLjY0LS40IDEuNjctLjY4IDMuMDgtLjg0IDAtLjE3LS4wMi0uMzQtLjA3LS41MS0uMDUtLjE2LS4xMi0uMy0uMjItLjQzcy0uMjItLjIyLS4zOC0uM2MtLjE1LS4wNi0uMzQtLjEtLjU4LS4xLS4zNCAwLS42OC4wNy0xIC4ycy0uNjMuMjktLjkzLjQ3bC0uNTktMS4wOGMuMzktLjI0LjgxLS40NSAxLjI4LS42My40Ny0uMTcuOTktLjI2IDEuNTQtLjI2Ljg2IDAgMS41MS4yNSAxLjkzLjc2cy42MyAxLjI1LjYzIDIuMjF2NC4wN2gtMS4zMmwtLjEyLS43NmgtLjA1Yy0uMy4yNy0uNjMuNDgtLjk4LjY2cy0uNzMuMjctMS4xNC4yN2MtLjYxIDAtMS4xLS4xOS0xLjQ4LS41Ni0uMzgtLjM2LS41Ny0uODUtLjU3LTEuNDZ6bTEuNTctLjEyYzAgLjMuMDkuNTMuMjcuNjcuMTkuMTQuNDIuMjEuNzEuMjEuMjggMCAuNTQtLjA3Ljc3LS4ycy40OC0uMzEuNzMtLjU2di0xLjU0Yy0uNDcuMDYtLjg2LjEzLTEuMTguMjMtLjMxLjA5LS41Ny4xOS0uNzYuMzFzLS4zMy4yNS0uNDEuNGMtLjA5LjE1LS4xMy4zMS0uMTMuNDh6bTYuMjktMy42M2gtLjk4di0xLjJsMS4wNi0uMDcuMi0xLjg4aDEuMzR2MS44OGgxLjc1djEuMjdoLTEuNzV2My4yOGMwIC44LjMyIDEuMi45NyAxLjIuMTIgMCAuMjQtLjAxLjM3LS4wNC4xMi0uMDMuMjQtLjA3LjM0LS4xMWwuMjggMS4xOWMtLjE5LjA2LS40LjEyLS42NC4xNy0uMjMuMDUtLjQ5LjA4LS43Ni4wOC0uNCAwLS43NC0uMDYtMS4wMi0uMTgtLjI3LS4xMy0uNDktLjMtLjY3LS41Mi0uMTctLjIxLS4zLS40OC0uMzctLjc4LS4wOC0uMy0uMTItLjY0LS4xMi0xLjAxem00LjM2IDIuMTdjMC0uNTYuMDktMS4wNi4yNy0xLjUxcy40MS0uODMuNzEtMS4xNGMuMjktLjMuNjMtLjU0IDEuMDEtLjcxLjM5LS4xNy43OC0uMjUgMS4xOC0uMjUuNDcgMCAuODguMDggMS4yMy4yNC4zNi4xNi42NS4zOC44OS42N3MuNDIuNjMuNTQgMS4wM2MuMTIuNDEuMTguODQuMTggMS4zMiAwIC4zMi0uMDIuNTctLjA3Ljc2aC00LjM3Yy4wOC42Mi4yOSAxLjEuNjUgMS40NC4zNi4zMy44Mi41IDEuMzguNS4zIDAgLjU4LS4wNC44NC0uMTMuMjUtLjA5LjUxLS4yMS43Ni0uMzdsLjU0IDEuMDFjLS4zMi4yMS0uNjkuMzktMS4wOS41M3MtLjgyLjIxLTEuMjYuMjFjLS40NyAwLS45Mi0uMDgtMS4zMy0uMjUtLjQxLS4xNi0uNzctLjQtMS4wOC0uNy0uMy0uMzEtLjU0LS42OS0uNzItMS4xMy0uMTctLjQ0LS4yNi0uOTUtLjI2LTEuNTJ6bTQuNjEtLjYyYzAtLjU1LS4xMS0uOTgtLjM0LTEuMjgtLjIzLS4zMS0uNTgtLjQ3LTEuMDYtLjQ3LS40MSAwLS43Ny4xNS0xLjA4LjQ1LS4zMS4yOS0uNS43My0uNTcgMS4zem0zLjAxIDIuMjNjLjMxLjI0LjYxLjQzLjkyLjU3LjMuMTMuNjMuMi45OC4yLjM4IDAgLjY1LS4wOC44My0uMjNzLjI3LS4zNS4yNy0uNmMwLS4xNC0uMDUtLjI2LS4xMy0uMzctLjA4LS4xLS4yLS4yLS4zNC0uMjgtLjE0LS4wOS0uMjktLjE2LS40Ny0uMjNsLS41My0uMjJjLS4yMy0uMDktLjQ2LS4xOC0uNjktLjMtLjIzLS4xMS0uNDQtLjI0LS42Mi0uNHMtLjMzLS4zNS0uNDUtLjU1Yy0uMTItLjIxLS4xOC0uNDYtLjE4LS43NSAwLS42MS4yMy0xLjEuNjgtMS40OS40NC0uMzggMS4wNi0uNTcgMS44My0uNTcuNDggMCAuOTEuMDggMS4yOS4yNXMuNzEuMzYuOTkuNTdsLS43NC45OGMtLjI0LS4xNy0uNDktLjMyLS43My0uNDItLjI1LS4xMS0uNTEtLjE2LS43OC0uMTYtLjM1IDAtLjYuMDctLjc2LjIxLS4xNy4xNS0uMjUuMzMtLjI1LjU0IDAgLjE0LjA0LjI2LjEyLjM2cy4xOC4xOC4zMS4yNmMuMTQuMDcuMjkuMTQuNDYuMjFsLjU0LjE5Yy4yMy4wOS40Ny4xOC43LjI5cy40NC4yNC42NC40Yy4xOS4xNi4zNC4zNS40Ni41OC4xMS4yMy4xNy41LjE3LjgyIDAgLjMtLjA2LjU4LS4xNy44My0uMTIuMjYtLjI5LjQ4LS41MS42OC0uMjMuMTktLjUxLjM0LS44NC40NS0uMzQuMTEtLjcyLjE3LTEuMTUuMTctLjQ4IDAtLjk1LS4wOS0xLjQxLS4yNy0uNDYtLjE5LS44Ni0uNDEtMS4yLS42OHoiIGZpbGw9IiM1MzUzNTMiLz48L2c+PC9zdmc+" /></a></div><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Van Hove, L. Metcalfe’s law: not so wrong after all.
+                    <i>Netnomics</i> <b>15, </b>1–8 (2014). https://doi.org/10.1007/s11066-014-9084-1</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" data-track-external="" href="https://citation-needed.springer.com/v2/references/10.1007/s11066-014-9084-1?format=refman&amp;flavour=citation">Download citation<svg width="16" height="16" focusable="false" role="img" aria-hidden="true" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2014-05-19">19 May 2014</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2014-06-12">12 June 2014</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2014-07">July 2014</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/s11066-014-9084-1" data-track="click" data-track-action="view doi" data-track-label="link">https://doi.org/10.1007/s11066-014-9084-1</a></span></p></li></ul><div data-component="share-box"><div class="c-article-share-box u-display-none" hidden=""><h3 class="c-article__sub-heading">Share this article</h3><p class="c-article-share-box__description">Anyone you share the following link with will be able to read this content:</p><button class="js-get-share-url c-article-share-box__button" id="get-share-url" data-track="click" data-track-label="button" data-track-external="" data-track-action="get shareable link">Get shareable link</button><div class="js-no-share-url-container u-display-none" hidden=""><p class="js-c-article-share-box__no-sharelink-info c-article-share-box__no-sharelink-info">Sorry, a shareable link is not currently available for this article.</p></div><div class="js-share-url-container u-display-none" hidden=""><p class="js-share-url c-article-share-box__only-read-input" id="share-url" data-track="click" data-track-label="button" data-track-action="select share url"></p><button class="js-copy-share-url c-article-share-box__button--link-like" id="copy-share-url" data-track="click" data-track-label="button" data-track-action="copy share url" data-track-external="">Copy to clipboard</button></div><p class="js-c-article-share-box__additional-info c-article-share-box__additional-info">
+                            Provided by the Springer Nature SharedIt content-sharing initiative
+                        </p></div></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">Metcalfe’s law</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Zipf’s law</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Networks</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Telecommunications</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Network effects</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+                </div>
+
+                <div data-test="collections">
+                    
+    
+
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+                            <div class="c-article-buy-box">
+                                <div class="sprcom-buybox-articleSidebar" id="sprcom-buybox-articleSidebar">
+ <h2 class="c-box__heading">Access options</h2>
+ <article class="c-box" data-test-id="buy-article">
+  <h3 class="c-box__heading">Buy single article</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Instant access to the full article PDF.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">42,64 €</p>
+    <p class="buybox__price-info">Tax calculation will be finalised during checkout.</p>
+    <form action="https://order.springer.com/public/checkout?abtest=v2" method="post">
+     <input type="hidden" name="type" value="article">
+     <input type="hidden" name="doi" value="10.1007/s11066-014-9084-1">
+     <input type="hidden" name="isxn" value="1573-7071">
+     <input type="hidden" name="contenttitle" value="Metcalfe’s law: not so wrong after all">
+     <input type="hidden" name="copyrightyear" value="2014">
+     <input type="hidden" name="year" value="2014">
+     <input type="hidden" name="authors" value="Leo Van Hove">
+     <input type="hidden" name="title" value="NETNOMICS: Economic Research and Electronic Networking">
+     <input type="hidden" name="mac" value="62DC1E0E113A8BFCA28215AC60E1BBA8">
+     <input type="submit" class="c-box__button" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Metcalfe’s law: not so wrong after all&quot;,&quot;id&quot;:&quot;1573-7071&quot;,&quot;price&quot;:42.64,&quot;brand&quot;:&quot;Springer US&quot;,&quot;category&quot;:&quot;Economics&quot;,&quot;variant&quot;:&quot;ppv-article&quot;,&quot;quantity&quot;:1}]}}});" value="Buy article PDF">
+    </form>
+   </div>
+  </div>
+  <script>dataLayer.push({"ecommerce":{"currency":"EUR","impressions":[{"name":"Metcalfe’s law: not so wrong after all","id":"1573-7071","price":42.64,"brand":"Springer US","category":"Economics","variant":"ppv-article","quantity":1}]}});</script>
+ </article>
+ <article class="c-box buybox__subscribe-subscription" data-test-id="journal-subscription">
+  <h3 class="c-box__heading">Subscribe to journal</h3>
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p>Immediate online access to all issues from 2019. Subscription will auto renew annually.</p>
+   </div>
+   <div class="buybox__buy">
+    <p class="buybox__price">90,07 €</p>
+    <p class="buybox__price-info">Tax calculation will be finalised during checkout.</p>
+    <form action="https://order.springer.com/public/checkout?abtest=v2" method="post">
+     <input type="hidden" name="type" value="journal">
+     <input type="hidden" name="contenttitle" value="NETNOMICS: Economic Research and Electronic Networking">
+     <input type="hidden" name="journalnumber" value="11066">
+     <input type="hidden" name="pricetype" value="PSE">
+     <input type="hidden" name="countrycode" value="IT">
+     <input type="submit" class="c-box__button" data-track="click" data-track-action="subscribe to journal" data-track-category="journal" data-track-label="subscribe action, new buybox" value="Buy journal subscription">
+    </form>
+   </div>
+  </div>
+ </article>
+ <article class="c-box buybox__rent-article" id="deepdyve" style="display: none" data-test-id="journal-subscription">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a class="deepdyve-link" target="deepdyve" rel="nofollow" data-track="click" data-track-action="rent article" data-track-label="rent action, new buybox">Rent this article via DeepDyve.</a></p>
+   </div>
+  </div>
+  <script>
+            function deepDyveResponse(data) {
+                if (data.status === 'ok') {
+                    [].slice.call(document.querySelectorAll('.c-box.buybox__rent-article')).forEach(function (article) {
+                        article.style.display = 'flex'
+                        var link = article.querySelector('.deepdyve-link')
+                        if (link) {
+                          link.setAttribute('href', data.url)
+                        }
+                    })
+                }
+            }
+
+            var script = document.createElement('script')
+            script.src = '//www.deepdyve.com/rental-link?docId=10.1007/s11066-014-9084-1&journal=1573-7071&fieldName=journal_doi&affiliateId=springer&format=jsonp&callback=deepDyveResponse'
+            document.body.appendChild(script)
+          </script>
+ </article>
+ <aside class="buybox__institutional-sub">
+  <div class="c-box__body">
+   <div class="buybox__info">
+    <p><a href="https://www.springernature.com/gp/librarians/licensing/license-options?&amp;abtest=v2" data-track="click" data-track-action="institutional link" data-track-label="institutional subscriptions, new buybox">Learn more about Institutional subscriptions</a></p>
+   </div>
+  </div>
+ </aside>
+ <style>.sprcom-buybox-articleSidebar{
+  box-shadow: 0px 0px 5px rgba(51,51,51,0.101);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar *{
+  box-sizing: border-box;
+  line-height: calc(100% + 4px);
+  margin: 0px;
+}
+.sprcom-buybox-articleSidebar > *{
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5px;
+}
+.sprcom-buybox-articleSidebar > *{
+  box-shadow: 0 0 0 1px rgba(204,204,204,0.494);
+}
+.sprcom-buybox-articleSidebar .c-box__body{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6%;
+}
+.sprcom-buybox-articleSidebar .c-box__body .buybox__buy{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.sprcom-buybox-articleSidebar p{
+  color: #333;
+  font-size: 15px;
+}
+.sprcom-buybox-articleSidebar .buybox__price{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: calc(100% + 8px);
+  margin: 20px 0;
+  order: 1;
+}
+.sprcom-buybox-articleSidebar form{
+  order: 1;
+}
+.sprcom-buybox-articleSidebar .buybox__price-info{
+  margin-bottom: 20px;
+}
+.sprcom-buybox-articleSidebar .c-box__heading{
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.sprcom-buybox-articleSidebar .c-box__button{
+  background-color: #3365A4;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  max-width: 222px;
+  padding: 10px 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.sprcom-buybox-articleSidebar h3{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar h2{
+  flex-basis: 100%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .c-box__body{
+  flex-direction: row;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub, .buybox__rent-article .buybox__info{
+  text-align: left;
+}
+.sprcom-buybox-articleSidebar .buybox__institutional-sub{
+  background-color: #f0f0f0;
+}
+.sprcom-buybox-articleSidebar .visually-hidden{
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.sprcom-buybox-articleSidebar style{
+  display: none;
+}
+</style>
+</div>
+                            </div>
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="u-mt-16" data-component-mpu>
+    <aside class="c-ad c-ad--300x250">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-pa11y-ignore data-gpt data-gpt-unitpath="/270604982/springerlink/11066/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=s11066-014-9084-1;"></div>
+        </div>
+    </aside>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    
+    <script src="/.cdn-rum/performance.js" async></script>
+
+    
+        <script>
+            
+        </script>
+    
+
+
+        
+    <footer class="app-footer" role="contentinfo" data-test="springerlink-footer">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="https://www.springernature.com/ccpa">California Privacy Statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                
+                <li><a class="optanon-toggle-display" href="javascript:void(0);">Manage cookies/Do not sell my data</a></li>
+                
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 79.55.235.24</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2021 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm0 7h-1.5l-.11662113.00672773c-.49733868.05776511-.88337887.48043643-.88337887.99327227 0 .47338693.32893365.86994729.77070917.97358929l.1126697.01968298.11662113.00672773h.5v3h-.5l-.11662113.0067277c-.42082504.0488782-.76196299.3590206-.85696816.7639815l-.01968298.1126697-.00672773.1166211.00672773.1166211c.04887817.4208251.35902055.761963.76398144.8569682l.1126697.019683.11662113.0067277h3l.1166211-.0067277c.4973387-.0577651.8833789-.4804365.8833789-.9932723 0-.4733869-.3289337-.8699473-.7707092-.9735893l-.1126697-.019683-.1166211-.0067277h-.5v-4l-.00672773-.11662113c-.04887817-.42082504-.35902055-.76196299-.76398144-.85696816l-.1126697-.01968298zm0-3.25c-.69035594 0-1.25.55964406-1.25 1.25s.55964406 1.25 1.25 1.25 1.25-.55964406 1.25-1.25-.55964406-1.25-1.25-1.25z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-success" viewBox="0 0 18 18">
+            <path d="M9 0a9 9 0 110 18A9 9 0 019 0zm3.486 4.982l-4.718 5.506L5.14 8.465a.991.991 0 00-1.423.133 1.06 1.06 0 00.13 1.463l3.407 2.733a1 1 0 001.387-.133l5.385-6.334a1.06 1.06 0 00-.116-1.464.991.991 0 00-1.424.119z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16">
+            <path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" fill-rule="evenodd" transform="matrix(0 1 -1 0 11 1)"/>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+abstract: Recent years have seen increasing popularity of logic-based reasoning systems,
+  with research and industrial interest as well as many flourishing applications in
+  the area of Knowledge Graphs. Despite that, one can observe a substantial lack of
+  specific tools able to generate nontrivial reasoning settings and benchmark scenarios.
+  As a consequence, evaluating, analysing and comparing reasoning systems is a complex
+  task, especially when they embody sophisticated optimizations and execution techniques
+  that leverage the theoretical underpinnings of the adopted logic fragment. In this
+  paper, we aim at filling this gap by introducing iWarded, a system that can generate
+  very large, complex, realistic reasoning settings to be used for the benchmarking
+  of logic-based reasoning systems adopting Datalog+/-, a family of extensions of
+  Datalog that has seen a resurgence in the last few years. In particular, iWarded
+  generates reasoning settings for Warded Datalog+/-, a language with a very good
+  tradeoff between computational complexity and expressive power. In the paper, we
+  present the iWarded system and a set of novel theoretical results adopted to generate
+  effective scenarios. As Datalog-based languages are of general interest and see
+  increasing adoption, we believe that iWarded is a step forward in the empirical
+  evaluation of current and future systems.
+archiveprefix: arXiv
+author: Baldazzi, Teodoro and Bellomarini, Luigi and Sallinger, Emanuel and Atzeni,
+  Paolo
+author_list:
+- family: Baldazzi
+  given: Teodoro
+- family: Bellomarini
+  given: Luigi
+- family: Sallinger
+  given: Emanuel
+- family: Atzeni
+  given: Paolo
+eprint: 2103.08588v1
+file: 2103.08588v1.pdf
+files:
+- reasoning-technical.pdf
+month: Mar
+primaryclass: cs.DB
+ref: 2103.08588v1
+time-added: 2021-09-19-20:19:48
+title: 'iWarded: A System for Benchmarking Datalog+/- Reasoning (technical   report)'
+type: article
+url: http://arxiv.org/abs/2103.08588v1
+year: '2021'

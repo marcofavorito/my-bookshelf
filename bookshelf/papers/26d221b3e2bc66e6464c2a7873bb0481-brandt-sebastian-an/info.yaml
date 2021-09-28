@@ -1,0 +1,55 @@
+abstract: '<jats:p>&#x0D;
+
+  &#x0D;
+
+  &#x0D;
+
+  We propose a novel framework for ontology-based access to temporal log data using
+  a datalog extension datalogMTL of the Horn fragment of the metric temporal logic
+  MTL. We show that datalogMTL is EXPSPACE-complete even with punctual intervals,
+  in which case full MTL is known to be undecidable. We also prove that nonrecursive
+  datalogMTL is PSPACE-complete for combined complexity and in AC0 for data complexity.
+  We demonstrate by two real-world use cases that nonrecursive datalogMTL programs
+  can express complex temporal concepts from typical user queries and thereby facilitate
+  access to temporal log data. Our experiments with Siemens turbine data and MesoWest
+  weather data show that datalogMTL ontology-mediated queries are efficient and scale
+  on large datasets.&#x0D;
+
+  &#x0D;
+
+  &#x0D;
+
+  </jats:p>'
+author: Brandt, Sebastian and Kalaycı, Elem Güzel and Ryzhikov, Vladislav and Xiao,
+  Guohui and Zakharyaschev, Michael
+author_list:
+- affiliation: []
+  family: Brandt
+  given: Sebastian
+- affiliation: []
+  family: Kalaycı
+  given: Elem Güzel
+- affiliation: []
+  family: Ryzhikov
+  given: Vladislav
+- affiliation: []
+  family: Xiao
+  given: Guohui
+- affiliation: []
+  family: Zakharyaschev
+  given: Michael
+doc_url: http://jair.org/index.php/jair/article/download/11229/26434
+doi: 10.1613/jair.1.11229
+files:
+- brandt-sebastian-and-kalayci-elem-guzel-and-ryzhikov-vladislav-and-xiao-guohui-and-zakharyaschev-michaelquerying-log-data-with-metric-temporal-l.pdf
+journal: Journal of Artificial Intelligence Research
+month: 8
+pages: 829--877
+publisher: AI Access Foundation
+ref: QueryingLogDaBrandt2018
+time-added: 2021-09-23-10:27:00
+title: Querying Log Data with Metric Temporal Logic
+type: article
+url: http://dx.doi.org/10.1613/jair.1.11229
+volume: '62'
+year: 2018

@@ -1,0 +1,45 @@
+abstract: Bitcoin is a decentralized crypto-currency, and an accompanying protocol,
+  created in 2008. Bitcoin nodes continuously generate and propagate blocks---collections
+  of newly approved transactions that are added to Bitcoin's ledger. Block creation
+  requires nodes to invest computational resources, but also carries a reward in the
+  form of bitcoins that are paid to the creator. While the protocol requires nodes
+  to quickly distribute newly created blocks, strong nodes can in fact gain higher
+  payoffs by withholding blocks they create and selectively postponing their publication.
+  The existence of such selfish mining attacks was first reported by Eyal and Sirer,
+  who have demonstrated a specific deviation from the standard protocol (a strategy
+  that we name SM1).   In this paper we extend the underlying model for selfish mining
+  attacks, and provide an algorithm to find $\epsilon$-optimal policies for attackers
+  within the model, as well as tight upper bounds on the revenue of optimal policies.
+  As a consequence, we are able to provide lower bounds on the computational power
+  an attacker needs in order to benefit from selfish mining. We find that the profit
+  threshold -- the minimal fraction of resources required for a profitable attack
+  -- is strictly lower than the one induced by the SM1 scheme. Indeed, the policies
+  given by our algorithm dominate SM1, by better regulating attack-withdrawals.   Using
+  our algorithm, we show that Eyal and Sirer's suggested countermeasure to selfish
+  mining is slightly less effective than previously conjectured. Next, we gain insight
+  into selfish mining in the presence of communication delays, and show that, under
+  a model that accounts for delays, the profit threshold vanishes, and even small
+  attackers have incentive to occasionally deviate from the protocol. We conclude
+  with observations regarding the combined power of selfish mining and double spending
+  attacks.
+archiveprefix: arXiv
+author: Sapirshtein, Ayelet and Sompolinsky, Yonatan and Zohar, Aviv
+author_list:
+- family: Sapirshtein
+  given: Ayelet
+- family: Sompolinsky
+  given: Yonatan
+- family: Zohar
+  given: Aviv
+eprint: 1507.06183v2
+file: 1507.06183v2.pdf
+files:
+- sapirshtein-ayelet-and-sompolinsky-yonatan-and-zohar-avivoptimal-selfish-mining-strategies-in-bitcoin2015.pdf
+month: Jul
+primaryclass: cs.CR
+ref: 1507.06183v2
+time-added: 2021-09-15-19:33:10
+title: Optimal Selfish Mining Strategies in Bitcoin
+type: article
+url: http://arxiv.org/abs/1507.06183v2
+year: '2015'

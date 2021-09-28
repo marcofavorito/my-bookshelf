@@ -1,0 +1,30 @@
+abstract: 'Any reinforcement learning algorithm that applies to all Markov decision
+  processes (MDPs) will suffer $\Omega(\sqrt{SAT})$ regret on some MDP, where $T$
+  is the elapsed time and $S$ and $A$ are the cardinalities of the state and action
+  spaces. This implies $T = \Omega(SA)$ time to guarantee a near-optimal policy. In
+  many settings of practical interest, due to the curse of dimensionality, $S$ and
+  $A$ can be so enormous that this learning time is unacceptable. We establish that,
+  if the system is known to be a \emph{factored} MDP, it is possible to achieve regret
+  that scales polynomially in the number of \emph{parameters} encoding the factored
+  MDP, which may be exponentially smaller than $S$ or $A$. We provide two algorithms
+  that satisfy near-optimal regret bounds in this context: posterior sampling reinforcement
+  learning (PSRL) and an upper confidence bound algorithm (UCRL-Factored).'
+archiveprefix: arXiv
+author: Osband, Ian and Roy, Benjamin Van
+author_list:
+- family: Osband
+  given: Ian
+- family: Roy
+  given: Benjamin Van
+eprint: 1403.3741v3
+file: 1403.3741v3.pdf
+files:
+- osband-ian-and-roy-benjamin-vannear-optimal-reinforcement-learning-in-factored-mdps2014.pdf
+month: Mar
+primaryclass: stat.ML
+ref: 1403.3741v3
+time-added: 2021-09-28-12:46:17
+title: Near-optimal Reinforcement Learning in Factored MDPs
+type: article
+url: http://arxiv.org/abs/1403.3741v3
+year: '2014'

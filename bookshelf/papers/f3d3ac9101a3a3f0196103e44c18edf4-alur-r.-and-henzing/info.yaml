@@ -1,0 +1,34 @@
+abstract: The theory of the natural numbers with linear order and monadic predicates
+  underlies propositional linear temporal logic. To study temporal logics that are
+  suitable for reasoning about real-time systems, we combine this classical theory
+  of infinite state sequences with a theory of discrete time, via a monotonic function
+  that maps every state to its time. The resulting theory of timed state sequences
+  is shown to be decidable, albeit nonelementary, and its expressive power is characterized
+  by ω-regular sets. Several more expressive variants are proved to be highly undecidable.
+  This framework allows us to classify a wide variety of real-time logics according
+  to their complexity and expressiveness. Indeed, it follows that most formalisms
+  proposed in the literature cannot be decided. We are, however, able to identify
+  two elementary real-time temporal logics as expressively complete fragments of the
+  theory of timed state sequences, and we present tableau-based decision procedures
+  for checking validity. Consequently, these two formalisms are well-suited for the
+  specification and verification of real-time systems.
+author: Alur, R. and Henzinger, T.A.
+author_list:
+- family: Alur
+  given: R.
+- family: Henzinger
+  given: T.A.
+doi: https://doi.org/10.1006/inco.1993.1025
+files:
+- alur-r.-and-henzinger-t.a.real-time-logics-complexity-and-expressiveness1993.pdf
+issn: 0890-5401
+journal: Information and Computation
+number: '1'
+pages: 35-77
+ref: ALUR199335
+time-added: 2021-09-13-17:15:11
+title: 'Real-Time Logics: Complexity and Expressiveness'
+type: article
+url: https://www.sciencedirect.com/science/article/pii/S0890540183710254
+volume: '104'
+year: '1993'

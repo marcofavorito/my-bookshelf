@@ -1,0 +1,99 @@
+abstract: <jats:p>In the context of business process management, the resources required
+  by business processes, such as workshop staff, manufacturing machines, etc., tend
+  to follow certain availability patterns, due to maintenance cycles, work shifts
+  and other factors. Such availability patterns heavily influence the efficiency and
+  effectiveness of enterprise resource management. Most existing process scheduling
+  and resource management approaches tend to tune the process structure to seek better
+  resource utilisation, yet neglect the constraints on resource availability. In this
+  article, we investigate the scheduling of business process instances in accordance
+  with resource availability patterns, to find out how enterprise resources can be
+  rationally and sufficiently used. Three heuristic-based planning strategies are
+  proposed to maximise the process instance throughput together with another strategy
+  based on a genetic algorithm. The performance of these strategies has been evaluated
+  by conducting experiments of different settings and analysing the strategy characteristics.</jats:p>
+author: Xu, Jiajie and Liu, Chengfei and Zhao, Xiaohui and Yongchareon, Sira and Ding,
+  Zhiming
+author_list:
+- affiliation:
+  - name: Soochow University, Swinburne University of Technology, Suzhou, China
+  family: Xu
+  given: Jiajie
+- affiliation:
+  - name: Swinburne University of Technology, Hawthorn, Australia
+  family: Liu
+  given: Chengfei
+- affiliation:
+  - name: University of Canberra, Bruce, Australia
+  family: Zhao
+  given: Xiaohui
+- affiliation:
+  - name: Auckland University of Technology, Auckland, New Zealand
+  family: Yongchareon
+  given: Sira
+- affiliation:
+  - name: Chinese Academy of Sciences, Beijing, China
+  family: Ding
+  given: Zhiming
+citations:
+- author: Ashraf J.
+  volume-title: Proceedings of HPCS. 63--70
+- doi: 10.14778/1454159.1454238
+- doi: 10.1016/j.ins.2009.11.044
+- doi: 10.1109/CCGRID.2007.56
+- doi: 10.1109/WIIAT.2008.108
+- author: Fechner B.
+  volume-title: Proceedings of the IEEE International Symposium on Parallel and Distributed
+    Processing. 1--6.
+- doi: 10.1016/j.amc.2006.09.023
+- doi: 10.1109/GRID.2007.4354112
+- doi: 10.1109/TEVC.2003.810067
+- unstructured: F. Jin S. Song and C. Wu. 2009. A simulated annealing algorithm for
+    single machine scheduling problems with family setups. Computers 8 Operations
+    Research 36 7 (2009) 2133--2138. 10.1016/j.cor.2008.08.001   F. Jin S. Song and
+    C. Wu. 2009. A simulated annealing algorithm for single machine scheduling problems
+    with family setups. Computers 8 Operations Research 36 7 (2009) 2133--2138. 10.1016/j.cor.2008.08.001
+- unstructured: J. Jose A. E. Ashikhmin P. Whiting and S. Vishwanath. 2008. Scheduling
+    and precoding in multi-user multiple antenna time division duplex systems. The
+    Computing Research Repository abs/0812.0621 2008.  J. Jose A. E. Ashikhmin P.
+    Whiting and S. Vishwanath. 2008. Scheduling and precoding in multi-user multiple
+    antenna time division duplex systems. The Computing Research Repository abs/0812.0621
+    2008.
+- author: Langguth C.
+  volume-title: Proceedings of SSDBM. 434--451
+- doi: 10.1109/CCGRID.2010.15
+- doi: 10.1109/TSE.2010.99
+- doi: 10.1109/GRID.2008.4662791
+- doi: 10.1007/11431855_16
+- doi: 10.1016/j.amc.2006.09.082
+- doi: 10.1016/j.is.2004.03.003
+- doi: 10.1016/j.artmed.2008.07.019
+- doi: 10.1109/TPDS.2004.38
+- doi: 10.1007/11427391_125
+- doi: 10.1007/978-3-540-85758-7_18
+- doi: 10.1007/978-3-642-05148-7_16
+- author: Xu J.
+  volume: '6426'
+  volume-title: Part I. In Lecture Notes in Computer Science (LNCS)
+- author: Yarkhan A.
+  volume-title: Proceedings of GRID. 232--242
+- doi: 10.1016/j.jss.2008.08.039
+- doi: 10.1007/s10723-005-9010-8
+- doi: 10.5555/1376960.1376967
+- doi: 10.1109/71.954620
+doi: 10.1145/2990197
+files:
+- xu-jiajie-and-liu-chengfei-and-zhao-xiaohui-and-yongchareon-sira-and-ding-zhimingresource-management-for-business-process-scheduling-in-the-prese.pdf
+issue: '3'
+journal: ACM Transactions on Management Information Systems
+language: en
+month: 10
+pages: 1--26
+publisher: Association for Computing Machinery (ACM)
+ref: ResourceManageXuJi2016
+time-added: 2021-09-13-11:30:27
+title: Resource Management for Business Process Scheduling in the Presence of Availability
+  Constraints
+type: article
+url: http://dx.doi.org/10.1145/2990197
+volume: '7'
+year: 2016

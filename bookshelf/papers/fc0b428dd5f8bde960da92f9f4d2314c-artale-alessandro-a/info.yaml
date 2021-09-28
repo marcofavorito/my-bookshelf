@@ -1,0 +1,41 @@
+abstract: We design temporal description logics suitable for reasoning about temporal
+  conceptual data models and investigate their computational complexity. Our formalisms
+  are based on DL-Lite logics with three types of concept inclusions (ranging from
+  atomic concept inclusions and disjointness to the full Booleans), as well as cardinality
+  constraints and role inclusions. In the temporal dimension, they capture future
+  and past temporal operators on concepts, flexible and rigid roles, the operators
+  `always' and `some time' on roles, data assertions for particular moments of time
+  and global concept inclusions. The logics are interpreted over the Cartesian products
+  of object domains and the flow of time (Z,<), satisfying the constant domain assumption.
+  We prove that the most expressive of our temporal description logics (which can
+  capture lifespan cardinalities and either qualitative or quantitative evolution
+  constraints) turn out to be undecidable. However, by omitting some of the temporal
+  operators on concepts/roles or by restricting the form of concept inclusions we
+  obtain logics whose complexity ranges between PSpace and NLogSpace. These positive
+  results were obtained by reduction to various clausal fragments of propositional
+  temporal logic, which opens a way to employ propositional or first-order temporal
+  provers for reasoning about temporal data models.
+archiveprefix: arXiv
+author: Artale, Alessandro and Kontchakov, Roman and Ryzhikov, Vladislav and Zakharyaschev,
+  Michael
+author_list:
+- family: Artale
+  given: Alessandro
+- family: Kontchakov
+  given: Roman
+- family: Ryzhikov
+  given: Vladislav
+- family: Zakharyaschev
+  given: Michael
+eprint: 1209.5571v3
+file: 1209.5571v3.pdf
+files:
+- artale-alessandro-and-kontchakov-roman-and-ryzhikov-vladislav-and-zakharyaschev-michaela-cookbook-for-temporal-conceptual-data-modelling-with-desc.pdf
+month: Sep
+primaryclass: cs.LO
+ref: 1209.5571v3
+time-added: 2021-09-19-14:38:45
+title: A Cookbook for Temporal Conceptual Data Modelling with Description   Logics
+type: article
+url: http://arxiv.org/abs/1209.5571v3
+year: '2012'

@@ -1,0 +1,51 @@
+abstract: '<jats:p>We study DatalogMTL—an extension of Datalog with metric temporal
+  operators—under integer semantics, where the temporal domain of both interpretations
+  and temporal operators consists of integer time points only. This is in contrast
+  to the standard semantics, which is defined over the rational timeline. DatalogMTL
+  under integer semantics is an interesting KR language: on the one hand, one can
+  often assume the integer timeline in applications; on the other hand, it captures
+  prominent temporal extensions of Datalog such as Datalog1S. We show that the choice
+  of integer semantics leads to more favourable computational properties. We first
+  show that reasoning over integers is at most as hard as reasoning over rationals
+  for DatalogMTL and its natural fragments. Then, we investigate fragments of DatalogMTL
+  where adopting the integer semantics makes reasoning easier. In particular, we show
+  that complexity drops from P-hard to NC1-complete for the propositional fragment
+  (where all object variables are grounded), and from TC0-hard to ACC0 for the linear
+  fragment where the past diamond operator is the only metric operator allowed in
+  rule bodies. Thus, reasoning in such fragments is both tractable and highly parallelisable,
+  which suggests their appropriateness for data-intensive applications.</jats:p>'
+author: Walega, Przemysław A. and Cuenca Grau, Bernardo and Kaminski, Mark and V.
+  Kostylev, Egor
+author_list:
+- affiliation:
+  - name: University of Oxford
+  family: Walega
+  given: Przemysław A.
+- affiliation:
+  - name: University of Oxford
+  family: Cuenca Grau
+  given: Bernardo
+- affiliation:
+  - name: University of Oxford
+  family: Kaminski
+  given: Mark
+- affiliation:
+  - name: University of Oxford
+  family: V. Kostylev
+  given: Egor
+booktitle: 17th International Conference on Principles of Knowledge Representation
+  and Reasoning {KR-2020}
+doi: 10.24963/kr.2020/79
+files:
+- walega-przemyslaw-a.-and-cuenca-grau-bernardo-and-kaminski-mark-and-v.-kostylev-egordatalogmtl-over-the-integer-timeline2020.pdf
+journal: Proceedings of the Seventeenth International Conference on Principles of
+  Knowledge Representation and Reasoning
+month: 9
+publisher: International Joint Conferences on Artificial Intelligence Organization
+ref: DatalogmtlOverWalega2020
+time-added: 2021-09-23-15:30:56
+title: DatalogMTL over the Integer Timeline
+type: inproceedings
+url: http://dx.doi.org/10.24963/kr.2020/79
+venue: Rhodes, Greece
+year: 2020

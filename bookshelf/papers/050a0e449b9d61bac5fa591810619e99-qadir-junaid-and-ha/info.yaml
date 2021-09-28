@@ -1,0 +1,35 @@
+abstract: Despite its great importance, modern network infrastructure is remarkable
+  for the lack of rigor in its engineering. The Internet which began as a research
+  experiment was never designed to handle the users and applications it hosts today.
+  The lack of formalization of the Internet architecture meant limited abstractions
+  and modularity, especially for the control and management planes, thus requiring
+  for every new need a new protocol built from scratch. This led to an unwieldy ossified
+  Internet architecture resistant to any attempts at formal verification, and an Internet
+  culture where expediency and pragmatism are favored over formal correctness. Fortunately,
+  recent work in the space of clean slate Internet design---especially, the software
+  defined networking (SDN) paradigm---offers the Internet community another chance
+  to develop the right kind of architecture and abstractions. This has also led to
+  a great resurgence in interest of applying formal methods to specification, verification,
+  and synthesis of networking protocols and applications. In this paper, we present
+  a self-contained tutorial of the formidable amount of work that has been done in
+  formal methods, and present a survey of its applications to networking.
+archiveprefix: arXiv
+author: Qadir, Junaid and Hasan, Osman
+author_list:
+- family: Qadir
+  given: Junaid
+- family: Hasan
+  given: Osman
+doi: 10.1109/COMST.2014.2345792
+eprint: 1311.4303v1
+file: 1311.4303v1.pdf
+files:
+- qadir-junaid-and-hasan-osmanapplying-formal-methods-to-networking-theory-techniques-and-applications2013.pdf
+month: Nov
+primaryclass: cs.NI
+ref: 1311.4303v1
+time-added: 2021-09-27-11:39:33
+title: 'Applying Formal Methods to Networking: Theory, Techniques and   Applications'
+type: article
+url: http://arxiv.org/abs/1311.4303v1
+year: '2013'

@@ -1,0 +1,44 @@
+abstract: '<jats:p>The chase algorithm is a fundamental tool for query evaluation
+  and for testing query containment under tuple-generating dependencies (TGDs) and
+  equality-generating dependencies (EGDs).  So far, most of the research on this topic
+  has focused on cases where the chase procedure terminates.  This paper introduces
+  expressive classes of TGDs defined via syntactic restrictions: guarded TGDs (GTGDs)
+  and weakly guarded sets of TGDs (WGTGDs).  For these classes, the chase procedure
+  is not guaranteed to terminate and thus may have an infinite outcome. Nevertheless,
+  we prove that the problems of conjunctive-query answering and query containment
+  under such TGDs are decidable.  We provide decision procedures and tight complexity
+  bounds for these problems.  Then we show how EGDs can be incorporated into our results
+  by providing conditions under which EGDs do not harmfully interact with TGDs and
+  do not affect the decidability and complexity of query answering.  We show applications
+  of the aforesaid classes of constraints to the problem of answering conjunctive
+  queries in F-Logic Lite, an object-oriented ontology language, and in some tractable
+  Description Logics.
+
+  </jats:p>'
+author: Calì, A. and Gottlob, G. and Kifer, M.
+author_list:
+- affiliation: []
+  family: Calì
+  given: A.
+- affiliation: []
+  family: Gottlob
+  given: G.
+- affiliation: []
+  family: Kifer
+  given: M.
+doc_url: https://www.jair.org/index.php/jair/article/download/10837/25864
+doi: 10.1613/jair.3873
+files:
+- cali-a.-and-gottlob-g.-and-kifer-m.taming-the-infinite-chase-query-answering-under-expressive-relational-constraints2013.ps
+- cali-a.-and-gottlob-g.-and-kifer-m.taming-the-infinite-chase-query-answering-under-expressive-relational-constraints2013-a.pdf
+journal: Journal of Artificial Intelligence Research
+month: 10
+pages: 115--174
+publisher: AI Access Foundation
+ref: TamingTheInfiCali2013
+time-added: 2021-09-22-08:19:46
+title: 'Taming the Infinite Chase: Query Answering under Expressive Relational Constraints'
+type: article
+url: http://dx.doi.org/10.1613/jair.3873
+volume: '48'
+year: 2013
