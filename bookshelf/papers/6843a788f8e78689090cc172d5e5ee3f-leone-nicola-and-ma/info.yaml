@@ -1,0 +1,197 @@
+abstract: "<jats:p>\n            Enhancing Datalog with existential quantification\
+  \ gives rise to Datalog\n            <jats:sup>∃</jats:sup>\n            , a powerful\
+  \ knowledge representation language widely used in ontology-based query answering.\
+  \ In this setting, a conjunctive query is evaluated over a Datalog\n           \
+  \ <jats:sup>∃</jats:sup>\n            program consisting of extensional data paired\
+  \ with so-called “existential” rules. Owing to their high expressiveness, such rules\
+  \ make the evaluation of queries undecidable, even when the latter are atomic. Decidable\
+  \ generalizations of Datalog by existential rules have been proposed in the literature\
+  \ (such as weakly acyclic and weakly guarded); but they pay the price of higher\
+  \ computational complexity, hindering the implementation of effective systems. Conversely,\
+  \ the results in this article demonstrate that it is definitely possible to enable\
+  \ fast yet powerful query answering over existential rules that strictly generalize\
+  \ Datalog by ensuring decidability without any complexity overhead. On the theoretical\
+  \ side, we define the class of parsimonious programs that guarantees decidability\
+  \ of atomic queries. We then strengthen this class to strongly parsimonious programs\
+  \ ensuring decidability also for conjunctive queries. Since parsimony is an undecidable\
+  \ property, we single out Shy, an easily recognizable class of strongly parsimonious\
+  \ programs that generalizes Datalog while preserving its complexity even under conjunctive\
+  \ queries. Shy also generalizes the class of linear existential programs, while\
+  \ it is uncomparable to the other main classes ensuring decidability. On the practical\
+  \ side, we exploit our results to implement DLV\n            <jats:sup>∃</jats:sup>\n\
+  \            , an effective system for query answering over parsimonious existential\
+  \ rules. To assess its efficiency, we carry out an experimental analysis, evaluating\
+  \ DLV\n            <jats:sup>∃</jats:sup>\n            performances for ontology-based\
+  \ query answering on both real-world and synthetic ontologies.\n          </jats:p>"
+author: Leone, Nicola and Manna, Marco and Terracina, Giorgio and Veltri, Pierfrancesco
+author_list:
+- affiliation:
+  - name: Department of Mathematics and Computer Science, University of Calabria,
+      Italy
+  family: Leone
+  given: Nicola
+- affiliation:
+  - name: Department of Mathematics and Computer Science, University of Calabria,
+      Italy
+  family: Manna
+  given: Marco
+- affiliation:
+  - name: Department of Mathematics and Computer Science, University of Calabria,
+      Italy
+  family: Terracina
+  given: Giorgio
+- affiliation:
+  - name: Department of Mathematics and Computer Science, University of Calabria,
+      Italy
+  family: Veltri
+  given: Pierfrancesco
+citations:
+- unstructured: 'Serge Abiteboul Richard Hull and Victor Vianu. 1995. Foundations
+    of Databases: The Logical Level. Addison-Wesley Longman Publishing Co. Inc.   Serge
+    Abiteboul Richard Hull and Victor Vianu. 1995. Foundations of Databases: The Logical
+    Level. Addison-Wesley Longman Publishing Co. Inc.'
+- author: Acciarri Andrea
+  volume: '4'
+  volume-title: Proceedings of AAAI’05
+  year: '2005'
+- doi: 10.1017/S1471068412000257
+- doi: 10.1145/3034786.3034794
+- doi: 10.1145/2745754.2745758
+- doi: 10.5555/1734953.1734954
+- author: Baader Franz
+  volume-title: Proceedings of IJCAI’05
+  year: '2005'
+- doi: 10.1016/j.artint.2011.03.002
+- author: Baget Jean-François
+  volume-title: Proceedings of IJCAI’11
+  year: '2011'
+- author: Baget Jean-François
+  volume-title: Proceedings of KR’10
+  year: '2010'
+- doi: 10.1007/978-3-319-21542-6_21
+- author: Baget Jean-François
+  volume-title: Proceedings of IJCAI’09
+  year: '2009'
+- doi: 10.2168/LMCS-10(2:3)2014
+- author: Beeri Catriel
+  volume-title: Proceedings of ICALP’81
+- doi: 10.14778/3213880.3213888
+- doi: 10.1145/3034786.3034796
+- doi: 10.1145/2661643
+- doi: 10.5555/2019470.2019472
+- doi: 10.1145/2976736
+- doi: 10.5555/3171642.3171768
+- author: Brandt Sebastian
+  volume-title: Proceedings of PAIS’04
+  year: '2004'
+- author: Calì Andrea
+  volume-title: Proceedings of KR’08
+  year: '2008'
+- doi: 10.5555/2591248.2591252
+- doi: 10.1145/1559795.1559809
+- doi: 10.1145/1514894.1514897
+- author: Calì Andrea
+  volume-title: Proceedings of DL Workshop
+  year: '2009'
+- doi: 10.1016/j.websem.2012.03.001
+- doi: 10.14778/1920841.1920912
+- doi: 10.5555/1894568.1894570
+- doi: 10.1016/j.artint.2012.08.002
+- author: Calimeri Francesco
+  volume-title: Proceedings of AAAI’10
+  year: '2010'
+- doi: 10.3233/SW-160217
+- doi: 10.1007/s10817-007-9078-x
+- doi: 10.1016/j.artint.2012.10.003
+- doi: 10.5555/2019470.2019475
+- doi: 10.5555/2032266.2032282
+- doi: 10.1007/978-3-642-32925-8_8
+- doi: 10.5555/2387915.2387927
+- doi: 10.1007/978-3-540-27775-0_26
+- doi: 10.1145/502807.502810
+- doi: 10.1145/1376916.1376938
+- author: Eiter Thomas
+  volume-title: Proceedings of AAAI’12
+  year: '2012'
+- doi: 10.5555/1085304.1085309
+- author: Febbraro O.
+  volume-title: Proceedings of SEBD’13
+- doi: 10.5555/1622655.1622660
+- doi: 10.1109/LICS.2013.61
+- author: Gottlob Georg
+  volume-title: Proceedings of KR’14
+  year: '2014'
+- doi: 10.1016/j.artint.2014.04.004
+- doi: 10.1017/S1471068413000550
+- doi: 10.1145/2638546
+- doi: 10.1007/978-3-642-39212-2_27
+- doi: 10.5555/2566972.2566991
+- doi: 10.14778/3402707.3402750
+- doi: 10.1016/j.websem.2005.06.005
+- author: Haarslev V.
+  volume-title: Proceedings of IJCAR’01
+- author: Hustadt U.
+  volume-title: Proceedings of KR’04
+- doi: 10.1016/0022-0000(84)90081-3
+- author: Kloks Ton
+  volume: '842'
+  volume-title: Lecture Notes in Computer Science
+  year: '1994'
+- author: König Mélanie
+  volume-title: Proceedings of IJCAI’15
+  year: '2015'
+- author: Krötzsch Markus
+  volume-title: Proceedings of IJCAI’11
+  year: '2011'
+- author: Leone Nicola
+  volume-title: Proceedings of KR’12
+  year: '2012'
+- doi: 10.1145/1149114.1149117
+- doi: 10.1007/978-3-642-41335-3_20
+- doi: 10.1145/320107.320115
+- doi: 10.1145/1559795.1559799
+- doi: 10.14778/1687627.1687737
+- doi: 10.5555/1734953.1734957
+- doi: 10.5555/2036949.2036951
+- doi: 10.1007/978-3-642-04930-9_31
+- doi: 10.1016/j.jal.2009.09.004
+- author: Rodriguez-Muro Mariano
+  volume: '477'
+  volume-title: Proceedings of AMW’11
+  year: '2011'
+- author: Rodriguez-Muro Mariano
+  volume: '745'
+  volume-title: Proceedings of DL Workshop’11
+  year: '2011'
+- author: Rosati Riccardo
+  volume-title: Proceedings of DL Workshop’07
+  year: '2007'
+- author: Rosati R.
+  volume-title: Proceedings of KR’10
+- author: Rudolph Sebastian
+  volume: '353'
+  volume-title: Proceedings of DL Workshop’08
+  year: '2008'
+- doi: 10.1016/j.websem.2007.03.004
+- doi: 10.1016/j.websem.2015.02.001
+- doi: 10.1007/11814771_26
+- author: Urbani Jacopo
+  series-title: Lecture Notes in Computer Science
+  volume-title: Proceedings of IJCAR’18
+- doi: 10.5555/2910557.2910566
+doi: 10.1145/3308448
+files:
+- leone-nicola-and-manna-marco-and-terracina-giorgio-and-veltri-pierfrancescofast-query-answering-over-existential-rules2019.pdf
+issue: '2'
+journal: ACM Transactions on Computational Logic
+language: en
+month: 4
+pages: 1--48
+publisher: Association for Computing Machinery (ACM)
+ref: FastQueryAnswLeone2019
+time-added: 2022-01-04-12:21:20
+title: Fast Query Answering over Existential Rules
+type: article
+url: http://dx.doi.org/10.1145/3308448
+volume: '20'
+year: 2019

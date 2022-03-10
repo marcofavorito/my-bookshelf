@@ -1,0 +1,45 @@
+abstract: Low-complexity models such as linear function representation play a pivotal
+  role in enabling sample-efficient reinforcement learning (RL). The current paper
+  pertains to a scenario with value-based linear representation, which postulates
+  the linear realizability of the optimal Q-function (also called the "linear $Q^{\star}$
+  problem"). While linear realizability alone does not allow for sample-efficient
+  solutions in general, the presence of a large sub-optimality gap is a potential
+  game changer, depending on the sampling mechanism in use. Informally, sample efficiency
+  is achievable with a large sub-optimality gap when a generative model is available
+  but is unfortunately infeasible when we turn to standard online RL settings.   In
+  this paper, we make progress towards understanding this linear $Q^{\star}$ problem
+  by investigating a new sampling protocol, which draws samples in an online/exploratory
+  fashion but allows one to backtrack and revisit previous states in a controlled
+  and infrequent manner. This protocol is more flexible than the standard online RL
+  setting, while being practically relevant and far more restrictive than the generative
+  model. We develop an algorithm tailored to this setting, achieving a sample complexity
+  that scales polynomially with the feature dimension, the horizon, and the inverse
+  sub-optimality gap, but not the size of the state/action space. Our findings underscore
+  the fundamental interplay between sampling protocols and low-complexity structural
+  representation in RL.
+archiveprefix: arXiv
+author: Li, Gen and Chen, Yuxin and Chi, Yuejie and Gu, Yuantao and Wei, Yuting
+author_list:
+- family: Li
+  given: Gen
+- family: Chen
+  given: Yuxin
+- family: Chi
+  given: Yuejie
+- family: Gu
+  given: Yuantao
+- family: Wei
+  given: Yuting
+eprint: 2105.08024v2
+file: 2105.08024v2.pdf
+files:
+- li-gen-and-chen-yuxin-and-chi-yuejie-and-gu-yuantao-and-wei-yutingsample-efficient-reinforcement-learning-is-feasible-for-linearly-realizable-m.pdf
+month: May
+primaryclass: cs.LG
+ref: 2105.08024v2
+time-added: 2021-11-29-14:08:57
+title: Sample-Efficient Reinforcement Learning Is Feasible for Linearly   Realizable
+  MDPs with Limited Revisiting
+type: article
+url: http://arxiv.org/abs/2105.08024v2
+year: '2021'

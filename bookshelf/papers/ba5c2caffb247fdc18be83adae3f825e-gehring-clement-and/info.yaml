@@ -1,0 +1,47 @@
+abstract: Recent advances in reinforcement learning (RL) have led to a growing interest
+  in applying RL to classical planning domains or applying classical planning methods
+  to some complex RL domains. However, the long-horizon goal-based problems found
+  in classical planning lead to sparse rewards for RL, making direct application inefficient.
+  In this paper, we propose to leverage domain-independent heuristic functions commonly
+  used in the classical planning literature to improve the sample efficiency of RL.
+  These classical heuristics act as dense reward generators to alleviate the sparse-rewards
+  issue and enable our RL agent to learn domain-specific value functions as residuals
+  on these heuristics, making learning easier. Correct application of this technique
+  requires consolidating the discounted metric used in RL and the non-discounted metric
+  used in heuristics. We implement the value functions using Neural Logic Machines,
+  a neural network architecture designed for grounded first-order logic inputs. We
+  demonstrate on several classical planning domains that using classical heuristics
+  for RL allows for good sample efficiency compared to sparse-reward RL. We further
+  show that our learned value functions generalize to novel problem instances in the
+  same domain.
+archiveprefix: arXiv
+author: Gehring, Clement and Asai, Masataro and Chitnis, Rohan and Silver, Tom and
+  Kaelbling, Leslie Pack and Sohrabi, Shirin and Katz, Michael
+author_list:
+- family: Gehring
+  given: Clement
+- family: Asai
+  given: Masataro
+- family: Chitnis
+  given: Rohan
+- family: Silver
+  given: Tom
+- family: Kaelbling
+  given: Leslie Pack
+- family: Sohrabi
+  given: Shirin
+- family: Katz
+  given: Michael
+eprint: 2109.14830v1
+file: 2109.14830v1.pdf
+files:
+- gehring-clement-and-asai-masataro-and-chitnis-rohan-and-silver-tom-and-kaelbling-leslie-pack-and-sohrabi-shirin-and-katz-michaelreinforcement-l.pdf
+month: Sep
+primaryclass: cs.AI
+ref: 2109.14830v1
+time-added: 2021-10-07-10:19:38
+title: 'Reinforcement Learning for Classical Planning: Viewing Heuristics as   Dense
+  Reward Generators'
+type: article
+url: http://arxiv.org/abs/2109.14830v1
+year: '2021'

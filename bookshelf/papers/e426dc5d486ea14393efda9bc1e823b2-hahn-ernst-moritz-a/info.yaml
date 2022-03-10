@@ -1,0 +1,39 @@
+abstract: Reinforcement learning synthesizes controllers without prior knowledge of
+  the system. At each timestep, a reward is given. The controllers optimize the discounted
+  sum of these rewards. Applying this class of algorithms requires designing a reward
+  scheme, which is typically done manually. The designer must ensure that their intent
+  is accurately captured. This may not be trivial, and is prone to error. An alternative
+  to this manual programming, akin to programming directly in assembly, is to specify
+  the objective in a formal language and have it "compiled" to a reward scheme. Mungojerrie
+  (https://plv.colorado.edu/mungojerrie/) is a tool for testing reward schemes for
+  $\omega$-regular objectives on finite models. The tool contains reinforcement learning
+  algorithms and a probabilistic model checker. Mungojerrie supports models specified
+  in PRISM and $\omega$-automata specified in HOA.
+archiveprefix: arXiv
+author: Hahn, Ernst Moritz and Perez, Mateo and Schewe, Sven and Somenzi, Fabio and
+  Trivedi, Ashutosh and Wojtczak, Dominik
+author_list:
+- family: Hahn
+  given: Ernst Moritz
+- family: Perez
+  given: Mateo
+- family: Schewe
+  given: Sven
+- family: Somenzi
+  given: Fabio
+- family: Trivedi
+  given: Ashutosh
+- family: Wojtczak
+  given: Dominik
+eprint: 2106.09161v2
+file: 2106.09161v2.pdf
+files:
+- hahn-ernst-moritz-and-perez-mateo-and-schewe-sven-and-somenzi-fabio-and-trivedi-ashutosh-and-wojtczak-dominikmungojerrie-reinforcement-learning.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.09161v2
+time-added: 2021-10-31-18:08:07
+title: 'Mungojerrie: Reinforcement Learning of Linear-Time Objectives'
+type: article
+url: http://arxiv.org/abs/2106.09161v2
+year: '2021'

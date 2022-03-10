@@ -1,0 +1,56 @@
+abstract: Answering conjunctive queries (CQs) over a set of facts extended with existential
+  rules is a prominent problem in knowledge representation and databases. This problem
+  can be solved using the chase algorithm, which extends the given set of facts with
+  fresh facts in order to satisfy the rules. If the chase terminates, then CQs can
+  be evaluated directly in the resulting set of facts. The chase, however, does not
+  terminate necessarily, and checking whether the chase terminates on a given set
+  of rules and facts is undecidable. Numerous acyclicity notions were proposed as
+  sufficient conditions for chase termination. In this paper, we present two new acyclicity
+  notions called model-faithful acyclicity (MFA) and model-summarising acyclicity
+  (MSA). Furthermore, we investigate the landscape of the known acyclicity notions
+  and establish a complete taxonomy of all notions known to us. Finally, we show that
+  MFA and MSA generalise most of these notions.   Existential rules are closely related
+  to the Horn fragments of the OWL 2 ontology language; furthermore, several prominent
+  OWL 2 reasoners implement CQ answering by using the chase to materialise all relevant
+  facts. In order to avoid termination problems, many of these systems handle only
+  the OWL 2 RL profile of OWL 2; furthermore, some systems go beyond OWL 2 RL, but
+  without any termination guarantees. In this paper we also investigate whether various
+  acyclicity notions can provide a principled and practical solution to these problems.
+  On the theoretical side, we show that query answering for acyclic ontologies is
+  of lower complexity than for general ontologies. On the practical side, we show
+  that many of the commonly used OWL 2 ontologies are MSA, and that the number of
+  facts obtained by materialisation is not too large. Our results thus suggest that
+  principled development of materialisation-based OWL 2 reasoners is practically feasible.
+archiveprefix: arXiv
+author: Grau, Bernardo Cuenca and Horrocks, Ian and Krötzsch, Markus and Kupke, Clemens
+  and Magka, Despoina and Motik, Boris and Wang, Zhe
+author_list:
+- family: Grau
+  given: Bernardo Cuenca
+- family: Horrocks
+  given: Ian
+- family: Krötzsch
+  given: Markus
+- family: Kupke
+  given: Clemens
+- family: Magka
+  given: Despoina
+- family: Motik
+  given: Boris
+- family: Wang
+  given: Zhe
+doi: 10.1613/jair.3949
+eprint: 1406.4110v1
+file: 1406.4110v1.pdf
+files:
+- grau-bernardo-cuenca-and-horrocks-ian-and-krotzsch-markus-and-kupke-clemens-and-magka-despoina-and-motik-boris-and-wang-zheacyclicity-notions-f.pdf
+month: Feb
+note: Journal Of Artificial Intelligence Research, Volume 47, pages   741-808, 2013
+primaryclass: cs.DB
+ref: 1406.4110v1
+time-added: 2022-01-04-11:14:04
+title: Acyclicity Notions for Existential Rules and Their Application to Query   Answering
+  in Ontologies
+type: article
+url: http://arxiv.org/abs/1406.4110v1
+year: '2014'

@@ -1,0 +1,45 @@
+abstract: A fundamental computation for statistical inference and accurate decision-making
+  is to compute the marginal probabilities or most probable states of task-relevant
+  variables. Probabilistic graphical models can efficiently represent the structure
+  of such complex data, but performing these inferences is generally difficult. Message-passing
+  algorithms, such as belief propagation, are a natural way to disseminate evidence
+  amongst correlated variables while exploiting the graph structure, but these algorithms
+  can struggle when the conditional dependency graphs contain loops. Here we use Graph
+  Neural Networks (GNNs) to learn a message-passing algorithm that solves these inference
+  tasks. We first show that the architecture of GNNs is well-matched to inference
+  tasks. We then demonstrate the efficacy of this inference approach by training GNNs
+  on a collection of graphical models and showing that they substantially outperform
+  belief propagation on loopy graphs. Our message-passing algorithms generalize out
+  of the training set to larger graphs and graphs with different structure.
+archiveprefix: arXiv
+author: Yoon, KiJung and Liao, Renjie and Xiong, Yuwen and Zhang, Lisa and Fetaya,
+  Ethan and Urtasun, Raquel and Zemel, Richard and Pitkow, Xaq
+author_list:
+- family: Yoon
+  given: KiJung
+- family: Liao
+  given: Renjie
+- family: Xiong
+  given: Yuwen
+- family: Zhang
+  given: Lisa
+- family: Fetaya
+  given: Ethan
+- family: Urtasun
+  given: Raquel
+- family: Zemel
+  given: Richard
+- family: Pitkow
+  given: Xaq
+eprint: 1803.07710v5
+file: 1803.07710v5.pdf
+files:
+- yoon-kijung-and-liao-renjie-and-xiong-yuwen-and-zhang-lisa-and-fetaya-ethan-and-urtasun-raquel-and-zemel-richard-and-pitkow-xaqinference-in-pr.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1803.07710v5
+time-added: 2021-09-30-12:49:46
+title: Inference in Probabilistic Graphical Models by Graph Neural Networks
+type: article
+url: http://arxiv.org/abs/1803.07710v5
+year: '2018'

@@ -1,0 +1,35 @@
+abstract: We present a new method for computing core universal solutions in data exchange
+  settings specified by source-to-target dependencies, by means of SQL queries. Unlike
+  previously known algorithms, which are recursive in nature, our method can be implemented
+  directly on top of any DBMS. Our method is based on the new notion of a laconic
+  schema mapping. A laconic schema mapping is a schema mapping for which the canonical
+  universal solution is the core universal solution. We give a procedure by which
+  every schema mapping specified by FO s-t tgds can be turned into a laconic schema
+  mapping specified by FO s-t tgds that may refer to a linear order on the domain
+  of the source instance. We show that our results are optimal, in the sense that
+  the linear order is necessary and the method cannot be extended to schema mapping
+  involving target constraints.
+archiveprefix: arXiv
+author: ten Cate, Balder and Chiticariu, Laura and Kolaitis, Phokion and Tan, Wang-Chiew
+author_list:
+- family: ten Cate
+  given: Balder
+- family: Chiticariu
+  given: Laura
+- family: Kolaitis
+  given: Phokion
+- family: Tan
+  given: Wang-Chiew
+eprint: 0903.1953v1
+file: 0903.1953v1.pdf
+files:
+- ten-cate-balder-and-chiticariu-laura-and-kolaitis-phokion-and-tan-wang-chiewlaconic-schema-mappings-computing-core-universal-solutions-by-means-o.pdf
+month: Mar
+primaryclass: cs.DB
+ref: 0903.1953v1
+time-added: 2022-01-04-11:30:50
+title: 'Laconic schema mappings: computing core universal solutions by means of   SQL
+  queries'
+type: article
+url: http://arxiv.org/abs/0903.1953v1
+year: '2009'

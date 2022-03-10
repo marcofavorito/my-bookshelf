@@ -1,0 +1,50 @@
+abstract: Tendermint-core blockchains (e.g. Cosmos) are considered today one of the
+  most viable alternatives for the highly energy consuming proof-of-work blockchains
+  such as Bitcoin and Ethereum. Their particularity is that they aim at offering strong
+  consistency (no forks) in an open system combining two ingredients (i) a set of
+  validators that generate blocks via a variant of Practical Byzantine Fault Tolerant
+  (PBFT) consensus protocol and (ii) a selection strategy that dynamically selects
+  nodes to be validators for the next block via a proof-of-stake mechanism. However,the
+  exact assumptions on the system model under which Tendermint underlying algorithms
+  are correct and the exact properties Tendermint verifies have never been formally
+  analyzed. The contribution of this paper is two-fold. First, while formalizing Tendermint
+  algorithms we precisely characterize the system model and the exact problem solved
+  by Tendermint. We prove that in eventual synchronous systems a modified version
+  of Tendermint solves (i) under additional assumptions, a variant of one-shot consensus
+  for the validation of one single block and (ii) a variant of the repeated consensus
+  problem for multiple blocks. These results hold even if the set of validators is
+  hit by Byzantine failures, provided that for each one-shot consensus instance less
+  than one third of the validators is Byzantine. Our second contribution relates to
+  the fairness of the rewarding mechanism. It is common knowledge that in permisionless
+  blockchain systems the main threat is the tragedy of commons that may yield the
+  system to collapse if the rewarding mechanism is not adequate. Ad minimum the rewarding
+  mechanism must be fair, i.e.distributing the rewards in proportion to the merit
+  of participants. We prove, for the first time in blockchain systems, that in repeated-consensus
+  based blockchains there exists an (eventual) fair rewarding mechanism if and only
+  if the system is (eventual) synchronous. We also show that the original Tendermint
+  rewarding is not fair, however, a modification of the original protocol makes it
+  eventually fair.
+archiveprefix: arXiv
+author: Amoussou-Guenou, Yackolley and Pozzo, Antonella Del and Potop-Butucaru, Maria
+  and Tucci-Piergiovanni, Sara
+author_list:
+- family: Amoussou-Guenou
+  given: Yackolley
+- family: Pozzo
+  given: Antonella Del
+- family: Potop-Butucaru
+  given: Maria
+- family: Tucci-Piergiovanni
+  given: Sara
+eprint: 1805.08429v3
+file: 1805.08429v3.pdf
+files:
+- amoussou-guenou-yackolley-and-pozzo-antonella-del-and-potop-butucaru-maria-and-tucci-piergiovanni-saracorrectness-and-fairness-of-tendermint-core.pdf
+month: May
+primaryclass: cs.DC
+ref: 1805.08429v3
+time-added: 2021-10-01-20:41:10
+title: Correctness and Fairness of Tendermint-core Blockchains
+type: article
+url: http://arxiv.org/abs/1805.08429v3
+year: '2018'

@@ -1,0 +1,494 @@
+author: Calì, Andrea and Gottlob, Georg and Lukasiewicz, Thomas
+author_list:
+- affiliation: []
+  family: Calì
+  given: Andrea
+- affiliation: []
+  family: Gottlob
+  given: Georg
+- affiliation: []
+  family: Lukasiewicz
+  given: Thomas
+citations:
+- article-title: 'Data exchange: semantics and query answering'
+  author: Fagin
+  doi: 10.1016/j.tcs.2004.10.033
+  first-page: '89'
+  issue: '1'
+  journal-title: Theoret. Comput. Sci.
+  volume: '336'
+  year: '2005'
+- article-title: Open constraint programming
+  author: Faltings
+  doi: 10.1016/j.artint.2004.10.005
+  first-page: '181'
+  issue: 1/2
+  journal-title: Artif. Intell.
+  volume: '161'
+  year: '2005'
+- article-title: A classification and constraint-based framework for configuration
+  author: Mailharrow
+  doi: 10.1017/S0890060498124101
+  first-page: '383'
+  issue: '4'
+  journal-title: Artif. Intell. Eng. Des. Anal. Manuf.
+  volume: '12'
+  year: '1998'
+- doi: 10.1145/543613.543644
+  unstructured: 'M. Lenzerini, Data integration: a theoretical perspective, in: Proc.
+    PODS-2002, 2002, pp. 233–246.'
+- article-title: 'Tractable reasoning and efficient query answering in description
+    logics: the DL-Lite family'
+  author: Calvanese
+  doi: 10.1007/s10817-007-9078-x
+  first-page: '385'
+  issue: '3'
+  journal-title: J. Autom. Reasoning
+  volume: '39'
+  year: '2007'
+- article-title: Linking data to ontologies
+  author: Poggi
+  first-page: '133'
+  journal-title: J. Data Semantics
+  volume: '10'
+  year: '2008'
+- unstructured: 'A. Artale, D. Calvanese, R. Kontchakov, M. Zakharyaschev, DL-Lite
+    in the light of first-order logic, in: Proc. AAAI-2007, 2007, pp. 361–366.'
+- article-title: The DL-Lite family and relations
+  author: Artale
+  doi: 10.1613/jair.2820
+  first-page: '1'
+  journal-title: J. Artif. Intell. Res.
+  volume: '36'
+  year: '2009'
+- article-title: A normal form for relational databases that is based on domains and
+    keys
+  author: Fagin
+  doi: 10.1145/319587.319592
+  first-page: '387'
+  issue: '3'
+  journal-title: ACM Trans. Database Syst.
+  volume: '6'
+  year: '1981'
+- author: Abiteboul
+  series-title: Foundations of Databases
+  year: '1995'
+- article-title: A comparison of two modelling paradigms in the Semantic Web
+  author: Patel-Schneider
+  doi: 10.1016/j.websem.2007.09.004
+  first-page: '240'
+  issue: '4'
+  journal-title: J. Web Sem.
+  volume: '5'
+  year: '2007'
+- article-title: A proof procedure for data dependencies
+  author: Beeri
+  doi: 10.1145/1634.1636
+  first-page: '718'
+  issue: '4'
+  journal-title: J. ACM
+  volume: '31'
+  year: '1984'
+- doi: 10.1007/3-540-10843-2_7
+  unstructured: 'C. Beeri, M.Y. Vardi, The implication problem for data dependencies,
+    in: Proc. ICALP-1981, 1981, pp. 73–85.'
+- article-title: Datalog extensions for database queries and updates
+  author: Abiteboul
+  doi: 10.1016/0022-0000(91)90032-Z
+  first-page: '62'
+  issue: '1'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '43'
+  year: '1991'
+- unstructured: 'A. Calì, G. Gottlob, M. Kifer, Taming the infinite chase: query answering
+    under expressive relational constraints, in: Proc. KR-2008, 2008, pp. 70–80, Revised
+    version: http://dbai.tuwien.ac.at/staff/gottlob/CGK.pdf.'
+- article-title: Testing implications of data dependencies
+  author: Maier
+  doi: 10.1145/320107.320115
+  first-page: '455'
+  issue: '4'
+  journal-title: ACM Trans. Database Syst.
+  volume: '4'
+  year: '1979'
+- article-title: Testing containment of conjunctive queries under functional and inclusion
+    dependencies
+  author: Johnson
+  doi: 10.1016/0022-0000(84)90081-3
+  first-page: '167'
+  issue: '1'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '28'
+  year: '1984'
+- unstructured: 'F. Baader, Least common subsumers and most specific concepts in a
+    description logic with existential restrictions and terminological cycles, in:
+    Proc. IJCAI-2003, 2003, pp. 319–324.'
+- unstructured: 'F. Baader, S. Brandt, C. Lutz, Pushing the EL envelope, in: Proc.
+    IJCAI-2005, 2005, pp. 364–369.'
+- unstructured: 'A.A. Krisnadhi, C. Lutz, Data complexity in the EL family of DLs,
+    in: Proc. DL-2007, 2007.'
+- doi: 10.1145/773153.773179
+  unstructured: 'A. Calì, D. Lembo, R. Rosati, On the decidability and complexity
+    of query answering over inconsistent and incomplete databases, in: Proc. PODS-2003,
+    2003, pp. 260–271.'
+- article-title: Towards a theory of declarative knowledge
+  author: Apt
+  first-page: '89'
+  series-title: Foundations of Deductive Databases and Logic Programming
+  year: '1988'
+- doi: 10.1145/800105.803397
+  unstructured: 'A.K. Chandra, P.M. Merlin, Optimal implementation of conjunctive
+    queries in relational data bases, in: Proc. STOC-1977, 1977, pp. 77–90.'
+- doi: 10.1145/1376916.1376938
+  unstructured: A. Deutsch, A. Nash, J.B. Remmel, The chase revisited, in Proc. PODS-2008,
+    2008, pp. 149–158.
+- article-title: Modal languages and bounded fragments of predicate logic
+  author: Andréka
+  doi: 10.1023/A:1004275029985
+  first-page: '217'
+  issue: '3'
+  journal-title: J. Phil. Log.
+  volume: '27'
+  year: '1998'
+- doi: 10.1145/212433.212474
+  unstructured: 'M.Y. Vardi, On the complexity of bounded-variable queries, in: Proc.
+    PODS-1995, 1995, pp. 266–276.'
+- article-title: The implication problem for functional and inclusion dependencies
+    is undecidable
+  author: Chandra
+  doi: 10.1137/0214049
+  first-page: '671'
+  journal-title: SIAM J. Comput.
+  volume: '14'
+  year: '1985'
+- unstructured: 'D. Brickley, R.V. Guha, RDF vocabulary description language 1.0:
+    RDF schema, W3C recommendation, 10 Feb. 2004, http://www.w3.org/TR/rdf-schema/.'
+- doi: 10.1007/978-3-540-76298-0_7
+  unstructured: 'J. de Bruijn, S. Heymans, Logical foundations of (e)RDF(S): complexity
+    and reasoning, in: Proc. ISWC-2007, 2007, pp. 86–99.'
+- doi: 10.1007/978-3-540-87803-2_30
+  unstructured: 'S. Rudolph, M. Krötzsch, P. Hitzler, Cheap Boolean role constructors
+    for description logics, in: Proc. JELIA-2008, 2008, pp. 362–374.'
+- unstructured: 'D. Calvanese, G. De Giacomo, D. Lembo, M. Lenzerini, A. Poggi, R.
+    Rosati, Linking data to ontologies: the description logic DL-LiteA, in: Proc.
+    OWLED-2006, 2006.'
+- unstructured: 'D. Calvanese, G. De Giacomo, D. Lembo, M. Lenzerini, R. Rosati, Can
+    OWL model football leagues? in: Proc. OWLED-2007, 2007.'
+- unstructured: 'A. Calì, M. Kifer, Containment of conjunctive object meta-queries,
+    in: Proc. VLDB-2006, 2006, pp. 942–952.'
+- article-title: Logical foundations of object-oriented and frame-based languages
+  author: Kifer
+  doi: 10.1145/210332.210335
+  first-page: '741'
+  issue: '4'
+  journal-title: J. ACM
+  volume: '42'
+  year: '1995'
+- doi: 10.1145/1559795.1559809
+  unstructured: 'A. Calì, G. Gottlob, T. Lukasiewicz, A general Datalog-based framework
+    for tractable query answering over ontologies, in: Proc. PODS-2009, 2009, pp.
+    77–86.'
+- article-title: On the declarative semantics of logic programs with negation
+  author: Lifschitz
+  first-page: '177'
+  series-title: Foundations of Deductive Databases and Logic Programming
+  year: '1988'
+- unstructured: 'I. Horrocks, O. Kutz, U. Sattler, The even more irresistible SROIQ,
+    in: Proc. KR-2006, 2006, pp. 57–67.'
+- unstructured: W3C, OWL 2 web ontology language document overview, W3C recommendation,
+    27 Oct. 2009, http://www.w3.org/TR/owl2-overview/.
+- unstructured: W3C, OWL web ontology language overview, W3C recommendation, 10 Feb.
+    2004, http://www.w3.org/TR/owl-features/.
+- doi: 10.1145/775152.775160
+  unstructured: 'B.N. Grosof, I. Horrocks, R. Volz, S. Decker, Description logic programs:
+    combining logic programs with description logic, in: Proc. WWW-2003, 2003, pp.
+    48–57.'
+- unstructured: W3C, OWL 2 web ontology language profiles, W3C recommendation, 27
+    Oct. 2009, http://www.w3.org/TR/owl2-profiles/.
+- doi: 10.1007/978-3-540-88564-1_41
+  unstructured: 'M. Krötzsch, S. Rudolph, P. Hitzler, ELP: tractable rules for OWL
+    2, in: Proc. ISWC-2008, 2008, pp. 649–664.'
+- unstructured: 'M. Krötzsch, Efficient rule-based inferencing for OWL EL, in: Proc.
+    IJCAI-2011, 2011, pp. 2668–2673.'
+- doi: 10.1145/1963405.1963496
+  unstructured: 'M. Krötzsch, F. Maier, A.A. Krisnadhi, P. Hitzler, A better uncle
+    for OWL: nominal schemas for integrating rules and ontologies, in: Proc. WWW-2011,
+    2011, pp. 645–654.'
+- doi: 10.1007/978-3-642-04840-1_15
+  unstructured: 'A. Calì, G. Gottlob, A. Pieris, Tractable query answering over conceptual
+    schemata, in: Proc. ER-2009, 2009, pp. 175–190.'
+- doi: 10.1007/978-3-642-16373-9_25
+  unstructured: 'A. Calì, G. Gottlob, A. Pieris, Query answering under expressive
+    entity-relationship schemata, in: Proc. ER-10, 2010, pp. 347–361.'
+- doi: 10.1145/1559795.1559799
+  unstructured: 'B. Marnette, Generalized schema-mappings: from termination to tractability,
+    in: Proc. PODS-2009, 2009, pp. 13–22.'
+- article-title: The expressive power of stratified logic programs with value invention
+  author: Cabibbo
+  doi: 10.1006/inco.1998.2734
+  first-page: '22'
+  issue: '1'
+  journal-title: Inf. Comput.
+  volume: '147'
+  year: '1998'
+- doi: 10.1007/978-3-642-23032-5_7
+  unstructured: 'A.A. Krisnadhi, F. Maier, P. Hitzler, OWL and rules, in: Reasoning
+    Web 2011, 2011, pp. 382–415.'
+- author: Krötzsch
+  series-title: Description Logic Rules
+  year: '2010'
+- unstructured: 'M. Krötzsch, S. Rudolph, P. Hitzler, Description logic rules, in:
+    Proc. ECAI-2008, 2008, pp. 80–84.'
+- doi: 10.14778/1920841.1920912
+  unstructured: 'A. Calì, G. Gottlob, A. Pieris, Advanced processing for ontological
+    queries, in: Proc. VLDB-10, vol. 3, (1), 2010, pp. 554–565.'
+- doi: 10.1007/978-3-642-15918-3_1
+  unstructured: 'A. Calì, G. Gottlob, A. Pieris, Query answering under non-guarded
+    rules in Datalog+/-, in: Proc. RR-10, 2010, pp. 1–17.'
+- article-title: 'On rules with existential variables: walking the decidability line'
+  author: Baget
+  doi: 10.1016/j.artint.2011.03.002
+  first-page: '1620'
+  issue: 9/10
+  journal-title: Artif. Intell.
+  volume: '175'
+  year: '2011'
+- doi: 10.1007/978-3-642-23580-1_2
+  unstructured: 'M.-L. Mugnier, Ontological query answering with existential rules,
+    in: Proc. RR-2011, 2011, pp. 2–23.'
+- unstructured: 'J.-F. Baget, M.-L. Mugnier, S. Rudolph, M. Thomazo, Walking the complexity
+    lines for generalized guarded existential rules, in: Proc. IJCAI-2011, 2011, pp.
+    712–717.'
+- article-title: 'FDNC: decidable nonmonotonic disjunctive logic programs with function
+    symbols'
+  author: Eiter
+  doi: 10.1145/1656242.1656249
+  issue: '2'
+  journal-title: ACM Trans. Comput. Log.
+  volume: '11'
+  year: '2010'
+- doi: 10.1007/3-540-45581-7_21
+  unstructured: 'A. Calì, D. Calvanese, G. De Giacomo, M. Lenzerini, Accessing data
+    integration systems through conceptual schemas, in: Proc. ER-2001, 2001, pp. 270–284.'
+- unstructured: 'A. Calì, D. Lembo, R. Rosati, Query rewriting and answering under
+    constraints in data integration systems, in: Proc. IJCAI-2003, 2003, pp. 16–21.'
+- doi: 10.1109/ICDE.2011.5767965
+  unstructured: 'G. Gottlob, G. Orsi, A. Pieris, Ontological queries: rewriting and
+    optimization, in: Proc. ICDE-2011, 2011, pp. 2–13.'
+- article-title: Tractable query answering and rewriting under description logic constraints
+  author: Pérez-Urbina
+  doi: 10.1016/j.jal.2009.09.004
+  first-page: '186'
+  issue: '2'
+  journal-title: J. Appl. Log.
+  volume: '8'
+  year: '2010'
+- unstructured: 'R. Rosati, On conjunctive query answering in EL, in: Proc. DL-2007,
+    2007.'
+- doi: 10.1007/978-3-540-76298-0_23
+  unstructured: 'M. Krötzsch, S. Rudolph, P. Hitzler, Conjunctive queries for a tractable
+    fragment of OWL 1.1, in: Proc. ISWC/ASWC-2007, 2007, pp. 310–323.'
+- unstructured: 'C. Lutz, D. Toman, F. Wolter, Conjunctive query answering in the
+    description logic EL using a relational database system, in: Proc. IJCAI-2009,
+    2009, pp. 2070–2075.'
+- unstructured: 'R. Kontchakov, C. Lutz, D. Toman, F. Wolter, M. Zakharyaschev, Combined
+    FO rewritability for conjunctive query answering in DL-Lite, in: Proc. DL-2009,
+    2009.'
+- unstructured: 'R. Kontchakov, C. Lutz, D. Toman, F. Wolter, M. Zakharyaschev, The
+    combined approach to query answering in DL-Lite, in: Proc. KR-10, 2010, pp. 247–257.'
+- unstructured: 'R. Rosati, A. Almatelli, Improving query answering over DL-Lite ontologies,
+    in: Proc KR-2010, 2010.'
+- article-title: Optimizing query answering under ontological constraints
+  author: Orsi
+  first-page: '1004'
+  issue: '11'
+  journal-title: PVLDB
+  volume: '4'
+  year: '2011'
+- unstructured: 'G. Gottlob, T. Schwentick, Rewriting ontological queries into small
+    nonrecursive Datalog programs, in: Proc. DL-2011, 2011, See also: CoRR, abs/1106.3767,
+    2011, Revised version, in: Proc. KR-2012, 2012.'
+- doi: 10.1007/978-3-642-23737-9_1
+  unstructured: 'G. Gottlob, G. Orsi, A. Pieris, Ontological query answering via rewriting,
+    in: Proc. ADBIS-2011, 2011, pp. 1–18.'
+- unstructured: 'T. Eiter, G. Ianni, R. Schindlauer, H. Tompits, A uniform integration
+    of higher-order reasoning and external evaluations in answer-set programming,
+    in: Proc. IJCAI-2005, 2005, pp. 90–96.'
+- doi: 10.1007/11762256_22
+  unstructured: 'T. Eiter, G. Ianni, R. Schindlauer, H. Tompits, Effective integration
+    of declarative rules with external evaluations for Semantic Web reasoning, in:
+    Proc. ESWC-2006, 2006, pp. 273–287.'
+- article-title: Combining answer set programming with description logics for the
+    Semantic Web
+  author: Eiter
+  doi: 10.1016/j.artint.2008.04.002
+  first-page: '1495'
+  issue: 12/13
+  journal-title: Artif. Intell.
+  volume: '172'
+  year: '2008'
+- article-title: Well-founded semantics for description logic programs in the Semantic
+    Web
+  author: Eiter
+  doi: 10.1145/1877714.1877717
+  issue: '2'
+  journal-title: ACM Trans. Comput. Log.
+  volume: '12'
+  year: '2011'
+- article-title: Probabilistic description logic programs
+  author: Lukasiewicz
+  doi: 10.1016/j.ijar.2006.06.012
+  first-page: '288'
+  issue: '2'
+  journal-title: Int. J. Approx. Reas.
+  volume: '45'
+  year: '2007'
+- article-title: Fuzzy description logic programs under the answer set semantics for
+    the Semantic Web
+  author: Lukasiewicz
+  first-page: '289'
+  issue: '3'
+  journal-title: Fundam. Inform.
+  volume: '82'
+  year: '2008'
+- doi: 10.1007/11580072_13
+  unstructured: 'K. Wang, G. Antoniou, R.W. Topor, A. Sattar, Merging and aligning
+    ontologies in dl-programs, in: Proc. RuleML-2005, 2005, pp. 160–171.'
+- unstructured: 'F. Yang, X. Chen, Z. Wang, P-dl-programs: combining dl-programs with
+    preferences for the Semantic Web, unpublished manuscript, August 2006.'
+- doi: 10.1007/3-540-48005-6_30
+  unstructured: 'G. Antoniou, Non-monotonic rule systems on top of ontology layers,
+    in: Proc. ISWC-2002, 2002, pp. 394–398.'
+- doi: 10.1007/3-540-48005-6_28
+  unstructured: 'M. Sintek, S. Decker, TRIPLE—a query, inference, and transformation
+    language for the Semantic Web, in: Proc. ISWC-2002, 2002, pp. 364–378.'
+- article-title: 'OWL rules: a proposal and prototype implementation'
+  author: Horrocks
+  doi: 10.1016/j.websem.2005.05.003
+  first-page: '23'
+  issue: '1'
+  journal-title: J. Web Sem.
+  volume: '3'
+  year: '2005'
+- article-title: 'AL-log: integrating Datalog and description logics'
+  author: Donini
+  doi: 10.1023/A:1008687430626
+  first-page: '227'
+  issue: '3'
+  journal-title: J. Intell. Inf. Syst.
+  volume: '10'
+  year: '1998'
+- article-title: Combining Horn rules and description logics in CARIN
+  author: Levy
+  doi: 10.1016/S0004-3702(98)00048-4
+  first-page: '165'
+  issue: 1/2
+  journal-title: Artif. Intell.
+  volume: '104'
+  year: '1998'
+- unstructured: 'R. Rosati, Towards expressive KR systems integrating Datalog and
+    description logics: preliminary report, in: Proc. DL-1999, 1999.'
+- article-title: On the decidability and complexity of integrating ontologies and
+    rules
+  author: Rosati
+  doi: 10.1016/j.websem.2005.05.002
+  first-page: '61'
+  issue: '1'
+  journal-title: J. Web Sem.
+  volume: '3'
+  year: '2005'
+- article-title: Query answering for OWL-DL with rules
+  author: Motik
+  doi: 10.1016/j.websem.2005.05.001
+  first-page: '41'
+  issue: '1'
+  journal-title: J. Web Sem.
+  volume: '3'
+  year: '2005'
+- unstructured: 'R. Rosati, DL+log: tight integration of description logics and disjunctive
+    Datalog, in: Proc. KR-2006, 2006, pp. 68–78.'
+- unstructured: 'B. Motik, R. Rosati, A faithful integration of description logics
+    with logic programming, in: Proc. IJCAI-2007, 2007, pp. 477–482.'
+- unstructured: 'V. Lifschitz, Non-monotonic databases and epistemic queries, in:
+    Proc. IJCAI-1991, 1991, pp. 381–386.'
+- article-title: A novel combination of answer set programming with description logics
+    for the Semantic Web
+  author: Lukasiewicz
+  doi: 10.1109/TKDE.2010.111
+  first-page: '1577'
+  issue: '11'
+  journal-title: IEEE Trans. Knowl. Data Eng.
+  volume: '22'
+  year: '2010'
+- unstructured: 'J.D. Bruijn, T. Eiter, A. Polleres, H. Tompits, Embedding non-ground
+    logic programs into autoepistemic logic for knowledge base combination, in: Proc.
+    IJCAI-2007, 2007, pp. 304–309.'
+- doi: 10.1007/11814771_25
+  unstructured: 'F. Baader, C. Lutz, B. Suntisrivaraporn, CEL—a polynomial-time reasoner
+    for life science ontologies, in: Proc. IJCAR-2006, 2006, pp. 287–291.'
+- unstructured: 'R. Cote, D. Rothwell, J. Palotay, R. Beckett, L. Brochu, The systematized
+    nomenclature of human and veterinary medicine, Technical report, SNOMED International,
+    Northfield, IL: College of American Pathologists, 1993.'
+- unstructured: 'M.J. Lawley, C. Bousquet, Fast classification in Protégé: Snorocket
+    as an OWL2 EL reasoner, in: Proc. DL-2010, 2010.'
+- unstructured: 'A. Acciarri, D. Calvanese, G. De Giacomo, D. Lembo, M. Lenzerini,
+    M. Palmieri, R. Rosati, QuOnto: querying ontologies, in: Proc. AAAI-2005, 2005,
+    pp. 1670–1671.'
+- doi: 10.1145/2063576.2063800
+  unstructured: 'R. de Virgilio, G. Orsi, L. Tanca, R. Torlone, Semantic data markets:
+    a flexible environment for knowledge management, in: Proc. CIKM-2011, 2011, pp.
+    1559–1564.'
+- article-title: 'OWLIM: a family of scalable semantic repositories'
+  author: Bishop
+  doi: 10.3233/SW-2011-0026
+  first-page: '33'
+  issue: '1'
+  journal-title: J. Web Sem.
+  volume: '2'
+  year: '2011'
+- doi: 10.1007/11836025_42
+  unstructured: 'J. Zhou, L. Ma, Q. Liu, L. Zhang, Y. Yu, Y. Pan, Minerva: a scalable
+    OWL ontology storage and inference system, in: Proc. ASWC-2006, 2006, pp. 429–443.'
+- doi: 10.1109/ICDE.2008.4497533
+  unstructured: 'Z. Wu, G. Eadon, S. Das, E.I. Chong, V. Kolovski, M. Annamalai, J.
+    Srinivasan, Implementing an inference engine for RDFS/OWL constructs and user-defined
+    rules in Oracle, in: Proc. ICDE-2008, 2008, pp. 1239–1248.'
+- unstructured: 'B. Parsia, E. Sirin, Pellet: an OWL DL reasoner, in: Proc. DL-2004,
+    2004.'
+- unstructured: 'V. Haarslev, R. Möller, Racer: an OWL reasoning agent for the Semantic
+    Web, in: Proc. Web Intelligence Workshops-2003, 2003, pp. 91–95.'
+- doi: 10.1145/1142351.1142404
+  unstructured: 'R. Rosati, On the decidability and finite controllability of query
+    processing in databases with incomplete information, in: Proc. PODS-2006, 2006,
+    pp. 356–365.'
+- doi: 10.2168/LMCS-10(2:3)2014
+  unstructured: 'V. Barany, G. Gottlob, M. Otto, Querying the guarded fragment, in:
+    Proc. LICS-10, 2010, pp. 1–10. Full paper available from the authors.'
+- doi: 10.1007/978-3-540-88564-1_8
+  unstructured: 'R. Angles, C. Gutierrez, The expressive power of SPARQL, in: Proc.
+    ISWC-2008, 2008, pp. 114–129.'
+- article-title: Complexity and expressive power of logic programming
+  author: Dantsin
+  doi: 10.1145/502807.502810
+  first-page: '374'
+  issue: '3'
+  journal-title: ACM Comput. Surv.
+  volume: '33'
+  year: '2001'
+doc_url: https://api.elsevier.com/content/article/PII:S1570826812000388?httpAccept=text/plain
+doi: 10.1016/j.websem.2012.03.001
+files:
+- cali-andrea-and-gottlob-georg-and-lukasiewicz-thomasa-general-datalog-based-framework-for-tractable-query-answering-over-ontologies2012.data
+- cali-andrea-and-gottlob-georg-and-lukasiewicz-thomasa-general-datalog-based-framework-for-tractable-query-answering-over-ontologies2012-a.pdf
+journal: Journal of Web Semantics
+language: en
+month: 7
+pages: 57--83
+publisher: Elsevier BV
+ref: AGeneralDatalCali2012
+time-added: 2021-09-29-17:25:36
+title: A general Datalog-based framework for tractable query answering over ontologies
+type: article
+url: http://dx.doi.org/10.1016/j.websem.2012.03.001
+volume: '14'
+year: 2012

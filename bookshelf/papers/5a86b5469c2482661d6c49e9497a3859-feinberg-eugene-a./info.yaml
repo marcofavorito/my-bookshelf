@@ -1,0 +1,35 @@
+abstract: This paper deals with constrained optimization of Markov Decision Processes.
+  Both objective function and constraints are sums of standard discounted rewards,
+  but each with a different discount factor. Such models arise, e.g., in production
+  and in applications involving multiple time scales. We prove that if a feasible
+  policy exists, then there exists an optimal policy which is (i) stationary (nonrandomized)
+  from some step onward, (ii) randomized Markov before this step, but the total number
+  of actions which are added by randomization is bounded by the number of constraints.
+  Optimality of such policies for multi-criteria problems is also established. These
+  new policies have the pleasing aesthetic property that the amount of randomization
+  they require over any trajectory is restricted by the number of constraints. This
+  result is new even for constrained optimization with a single discount factor, where
+  the optimality of randomized stationary policies is known. However, a randomized
+  stationary policy may require an infinite number of randomizations over time. We
+  also formulate a linear programming algorithm for approximate solutions of constrained
+  weighted discounted models.
+author: Feinberg, Eugene A. and Shwartz, Adam
+author_list:
+- family: Feinberg
+  given: Eugene A.
+- family: Shwartz
+  given: Adam
+files:
+- feinberg-eugene-a.-and-shwartz-adamconstrained-markov-decision-models-with-weighted-discounted-rewards1995.pdf
+issn: 0364765X, 15265471
+journal: Mathematics of Operations Research
+number: '2'
+pages: 302--320
+publisher: INFORMS
+ref: 10.2307/3690407
+time-added: 2022-03-06-16:49:32
+title: Constrained Markov Decision Models with Weighted Discounted Rewards
+type: article
+url: http://www.jstor.org/stable/3690407
+volume: '20'
+year: '1995'

@@ -1,0 +1,1328 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="This textbook introduces students to the basics of classical and intuitionistic logic, model theory and Gödel’s famous incompleteness theorem."/>
+
+        <title>Logic and Structure | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/book/10.1007/978-1-4471-4558-5"/>
+        <link rel="shortcut icon" href="/springerlink-static/1895273086/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/1895273086/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/1895273086/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/1895273086/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/1895273086/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/1895273086/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/1895273086/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/1895273086/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/1895273086/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/1895273086/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/1895273086/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/1895273086/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/1895273086/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/1895273086/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/1895273086/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/1895273086/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/1895273086/css/print.css" media="print">
+
+
+        <script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return;
+        window.CustomEvent = function ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+    })();
+</script>
+
+<script>
+    (function() {
+        if (!!document.documentElement.dataset) return;
+
+        Object.defineProperty(Element.prototype, 'dataset', {
+            get: function() {
+                var element = this;
+                var attributes = this.attributes;
+                var map = {};
+
+                for (var i = 0; i < attributes.length; i++) {
+                    var attribute = attributes[i];
+
+                    if (attribute && attribute.name && (/^data-\w[\w-]*$/).test(attribute.name)) {
+                        var name = attribute.name;
+                        var value = attribute.value;
+
+                        var propName = name.substr(5).replace(/-./g, function (prop) {
+                            return prop.charAt(1).toUpperCase();
+                        });
+
+                        Object.defineProperty(map, propName, {
+                            enumerable: true,
+                            get: function() {
+                                return this.value;
+                            }.bind({value: value || ''}),
+                            set: function setter(name, value) {
+                                if (typeof value !== 'undefined') {
+                                    this.setAttribute(name, value);
+                                } else {
+                                    this.removeAttribute(name);
+                                }
+                            }.bind(element, name)
+                        });
+                    }
+                }
+
+                return map;
+            }
+        });
+    })();
+</script>
+
+
+
+    <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Book",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/978-1-4471-4558-5",
+                'productId':"9781447145585",
+                'hasAccess':"N",
+                'Full HTML':"N",
+                'Has Body':"N",
+                'Static Hash':"1895273086",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},
+                'content':{"serial":{"eissn":"2191-6675","pissn":"0172-5939"},"book":{"seriesTitle":"Universitext","eisbn":"978-1-4471-4558-5","pisbn":"978-1-4471-4557-8","bookProductType":"Graduate/advanced undergraduate textbook","seriesId":"223","title":"Logic and Structure","doi":"10.1007/978-1-4471-4558-5"},"attributes":{"deliveryPlatform":"bunsen"},"category":{"pmc":{"primarySubject":"Mathematics","primarySubjectCode":"M","secondarySubjects":{"1":"Mathematical Logic and Foundations"},"secondarySubjectCodes":{"1":"M24005"}},"sucode":"SUCO11649"},"type":"Book"},
+                'Access Type':"noaccess",
+                'Page':"book",
+                'Bpids':"",
+                'Bpnames':"",
+                'SubjectCodes':"SCM, SCM24005",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"Basic model theory, First-order logic with natural deduction, Goedel's theorem, Intuitionistic logic and semantics, Normalisation of first-order logic, Recursive functions, Second order logic",
+                'Country':"IT",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-978-1-4471-4558-5",
+
+                    'doi': "10.1007-978-1-4471-4558-5",
+                    'kwrd': ["Basic_model_theory","First-order_logic_with_natural_deduction","Goedel's_theorem","Intuitionistic_logic_and_semantics","Normalisation_of_first-order_logic","Recursive_functions","Second_order_logic"],
+                    'pmc': ["M","M24005"],
+                    'BPID': ["1"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+    <script>
+        window.dataLayer.push({
+            content: {
+                attributes: {
+                    deliveryPlatform: "bunsen"
+                }
+            }
+        });
+    </script>
+    <script>
+        window.dataLayer.push({
+            ga4MeasurementId: 'G-B3E4QL2TPR',
+            ga360TrackingId: 'UA-26408784-1',
+            twitterId: 'o47a7',
+            ga4ServerUrl: 'https://collect.springer.com'
+        });
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/1895273086/js/jquery-3.3.1.min.js"></script>
+
+<script data-test="gtm-head">
+    window.initGTM = function() {
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+            var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://collect.springer.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MRVXSHQ');
+    }
+</script>
+
+
+<script>
+    (function(w,d,t) {
+        function cc() {
+            var h = w.location.hostname;
+            var e = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+
+            if (h.indexOf('springer.com') > -1) {
+                e.src = 'https://push-content.springernature.io/pcf_sb_5_1617714720898560639/production_live/consent-bundle-17-6.js';
+                e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-MRVXSHQ')");
+            } else {
+                e.src = '/static/js/lib/cookie-consent.min.js';
+                e.setAttribute('data-consent', h);
+            }
+            s.insertAdjacentElement('afterend', e);
+        }
+
+        cc();
+    })(window,document,'script');
+</script>
+
+    </head>
+    <body>
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MRVXSHQ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a href="#toc" class="skip-to__link skip-to__link--contents pseudo-focus">Skip to table of contents</a>
+</div>
+        <div class="page-wrapper page-wrapper--book">
+                        <div id="leaderboard" class="leaderboard u-hide" data-google-ad="leaderboard" data-gpt-hide-ad>
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement" data-gpt-hide-ad-button data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24" data-gpt></div>
+            </div>
+        </div>
+
+
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available</p>
+    </div>
+</noscript>
+                <header id="header" class="header">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+            <picture>
+    <source type="image/svg+xml" srcset="/springerlink-static/1895273086/images/svg/springerlink.svg">
+    <img class="site-logo__springer" src="/springerlink-static/1895273086/images/png/springerlink.png" alt="SpringerLink" width="148" height="30" data-test="springer-logo">
+</picture>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input u-system" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" class="u-vertical-align-absolute" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M12.82 11.972a.607.607 0 01.007.856.611.611 0 01-.856-.006L9.45 10.3A5.798 5.797 0 010 5.798 5.798 5.797 0 1110.3 9.45zm-7.022-1.205A4.97 4.97 0 105.797.83a4.97 4.97 0 000 9.939z" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span>
+                <svg class="u-vertical-align-absolute" xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 22 22" focusable="false" aria-hidden="true" role="presentation">
+                   <path d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z" fill-rule="evenodd" fill="#666"/>
+                </svg>
+            </a>
+        </div>
+
+            <div id="ecommerce-header-cart-icon-link" class="c-header__item ecommerce-cart" style="display: inline-block; margin-right: 10px;">
+  <form action="https://order.springer.com/public/precheckout" method="post">
+    <button class="c-header__link" type="submit" style="
+        appearance: none;
+        border: none;
+        background: none;
+        color: inherit;
+    "><svg aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18"
+        style="vertical-align: text-bottom;" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="m5 14c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm10 0c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm-10 1c-.55228475 0-1 .4477153-1 1s.44771525 1 1 1 1-.4477153 1-1-.44771525-1-1-1zm10 0c-.5522847 0-1 .4477153-1 1s.4477153 1 1 1 1-.4477153 1-1-.4477153-1-1-1zm-12.82032249-15c.47691417 0 .88746157.33678127.98070211.80449199l.23823144 1.19501025 13.36277974.00045554c.5522847.00001882.9999659.44774934.9999659 1.00004222 0 .07084994-.0075361.14150708-.022474.2107727l-1.2908094 5.98534344c-.1007861.46742419-.5432548.80388386-1.0571651.80388386h-10.24805106c-.59173366 0-1.07142857.4477153-1.07142857 1 0 .5128358.41361449.9355072.94647737.9932723l.1249512.0067277h10.35933776c.2749512 0 .4979349.2228539.4979349.4978051 0 .2749417-.2227336.4978951-.4976753.4980063l-10.35959736.0041886c-1.18346732 0-2.14285714-.8954305-2.14285714-2 0-.6625717.34520317-1.24989198.87690425-1.61383592l-1.63768102-8.19004794c-.01312273-.06561364-.01950005-.131011-.0196107-.19547395l-1.71961253-.00064219c-.27614237 0-.5-.22385762-.5-.5 0-.27614237.22385763-.5.5-.5zm14.53193359 2.99950224h-13.11300004l1.20580469 6.02530174c.11024034-.0163252.22327998-.02480398.33844139-.02480398h10.27064786z"
+          fill="#333" />
+      </svg><span class="u-screenreader-only visually-hidden">Go to cart</span></button>
+  </form>
+</div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-1-4471-4558-5">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+
+            </div>
+
+        </div>
+    </header>
+
+
+            <main id="main-content" tabindex="-1">
+                <div itemscope itemtype="http://schema.org/Book">
+                    <article class="main-wrapper main-wrapper--no-gradient main-wrapper--dual-main">
+                        <div class="main-container">
+                            <aside class="main-sidebar-left u-three-col-pl-0">
+                                <div class="main-sidebar-left__content">
+                                    <div class="cover-image">
+                                        <div class="cover-image--book test-cover" itemscope>
+                                            
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4471-4558-5" itemprop="image" alt=""/>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            <div class="main-body u-mb-36 u-pb-0 main-body--no-background" data-role="NavigationContainer">
+                                <div class="main-body__content">
+
+                                    <div class="main-context main-context--buybox">
+                                        <div class="evaluation-section">
+                                            <div class="evaluation-section__text-col">
+                                                <div id="enumeration" class="enumeration"></div>
+
+                                                    <p class="u-interface u-mb-0">© 2013</p>
+
+                                                <div data-test="book-title" class="page-title">
+                                                    <h1 itemprop="name">Logic and Structure</h1>
+                                                </div>
+
+                                                    <div id="authors" class="persons u-clearfix" data-component="SV.Persons">
+        <ul class="u-inline-list persons__title">
+            <li>
+                <span class="u-strong">Authors</span>
+            </li>
+            <li>
+               <a id="author-affiliations-link" href="#authorsandaffiliationsbook">(view affiliations)</a>
+            </li>
+        </ul>
+        <div class="persons__list" data-role="PersonsList">
+            <ul xmlns="http://www.w3.org/1999/xhtml" class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4" itemprop="author"><span itemprop="name" class="authors__name">Dirk van Dalen</span></li></ul>
+        </div>
+    </div>
+
+                                                
+
+                                                    <div data-component="SpringerLink.UniqueSellingPoints" class="unique-selling-points unique-selling-points--collapsed u-mb-36">
+                                                        <ul><li><p>Features a self-contained introduction into classical and intuitionistic logic using Gentzen’s natural deduction</p></li><li><p>Includes the basics of recursion, proof and model theory (including a new section on ultraproducts)</p></li><li><p>Gives a comprehensive account of Goedel’s Incompleteness Theorem within the framework of natural deduction</p></li><li><p><b>Includes supplementary material: <a href="https://sn.pub/extras">sn.pub/extras</a></b></p></li></ul>
+                                                    </div>
+                                            </div>
+
+                                            <div class="evaluation-section__image-col">
+                                                <div class="cover-image">
+                                                    <div class="cover-image--book test-cover">
+                                                        
+    <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4471-4558-5" itemprop="image" alt=""/>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="evaluation-section__text-col">
+                                            <div class="main-context__container main-context__container--duel main-context__container--with-metrics" data-component="SpringerLink.ArticleMetrics">
+                                                <div class="main-context__column">
+                                                    <span>
+                                                        
+                                                          <span class="test-content-type" id="content-type">Textbook</span>
+                                                    </span>
+
+                                                </div>
+
+                                                    <div class="main-context__column main-context__column--books-metrics">
+                                                            <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-bookcitations-count" href="https://citations.springer.com/book?doi&#x3D;10.1007/978-1-4471-4558-5" target="_blank" rel="noopener"
+                       title="Visit Springer Citations for full citation details" id="bookcitations-link">
+                            <span id="bookcitations-count-number" class="test-metric-count c-button-circle gtm-bookcitations-count">21</span>
+                       <span class="test-metric-name article-metrics__label gtm-bookcitations-count">Citations</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-bookmentions-count" href="https://www.altmetric.com/details.php?citation_id&#x3D;15099515" target="_blank" rel="noopener"
+                       title="Visit Altmetric for full social mention details" id="bookmentions-link">
+                            <span id="bookmentions-count-number" class="test-metric-count c-button-circle gtm-bookmentions-count">7</span>
+                       <span class="test-metric-name article-metrics__label gtm-bookmentions-count">Mentions</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                     <span class="test-metric-count article-metrics__views">66k</span>
+                     <span class="test-metric-name article-metrics__label">Downloads</span>
+            </li>
+    </ul>
+
+                                                    </div>
+                                            </div>
+                                         </div>
+                                                <div class="vol-info u-interface">
+        <p data-test="test-series">
+            Part of the
+            <a href="https://www.springer.com/series/223">Universitext</a>
+            book series
+              <span class="test-AbbreviationVolumeNumber">(UTX)</span>
+
+        </p>
+
+    </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+
+                            <aside class="main-sidebar-right u-pb-36 u-two-col-pb-0 main-sidebar-right--buybox u-interface">
+                                <div class="main-sidebar-right__content u-composite-layer">
+                                    <div id="article-actions" class="article-actions">
+                                            <div id="buy" class="buybox-container">
+                                                
+
+        <div class="sprcom-buybox buybox" id="sprcom-buybox">
+            <div>
+                <div class="c-box" style="padding: 0">
+                    <h2 class="c-box__heading visually-hidden">Buying options</h2>
+                    <div class="buying-options">
+                        
+                            <div class="buying-option expanded">
+                                <dl class="buying-option-price">
+                                    <dt><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                            focusable="false">
+                                            <path
+                                                d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z"
+                                                fill="#666" fill-rule="evenodd"></path>
+                                        </svg>eBook</dt>
+                                    <dd class="price-amount">EUR&nbsp;53.49</dd>
+                                    <dd class="price-info">Price includes VAT (Italy)</dd>
+                                </dl>
+                                <form class="buying-option-form" action="https://order.springer.com/public/checkout" method="post">
+                                    <input type="hidden" name="type" value="ebook">
+                                    <input type="hidden" name="doi" value="10.1007/978-1-4471-4558-5">
+                                    <input type="hidden" name="isxn" value="978-1-4471-4558-5">
+                                    <input type="hidden" name="contenttitle" value="Logic and Structure">
+                                    <ul class="buying-option-usps">
+                                        
+                                            <li>ISBN: 978-1-4471-4558-5</li>
+                                        
+                                            <li>Instant PDF download</li>
+                                        
+                                            <li>Readable on all devices</li>
+                                        
+                                            <li>Own it forever</li>
+                                        
+                                            <li>Exclusive offer for individuals only</li>
+                                        
+                                            <li>Tax calculation will be finalised during checkout</li>
+                                        
+                                    </ul>
+                                    <button
+                                        type="submit"
+                                        class="buybox__buy-button c-button c-button--blue"
+                                        value="Submit"
+                                        data-track="click"
+                                        data-track-label="buy ebook"
+                                        onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Logic and Structure&quot;,&quot;id&quot;:&quot;978-1-4471-4558-5&quot;,&quot;price&quot;:49.99,&quot;brand&quot;:&quot;Springer London&quot;,&quot;category&quot;:&quot;Mathematical Logic and Foundations&quot;,&quot;variant&quot;:&quot;ebo&quot;,&quot;quantity&quot;:1}]}}});"
+                                    >Buy eBook</button>
+                                </form>
+                            </div>
+                        
+                            <div class="buying-option expanded">
+                                <dl class="buying-option-price">
+                                    <dt><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                            focusable="false">
+                                            <path
+                                                d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z"
+                                                fill="#666" fill-rule="evenodd"></path>
+                                        </svg>Softcover Book</dt>
+                                    <dd class="price-amount">EUR&nbsp;67.59</dd>
+                                    <dd class="price-info">Price includes VAT (Italy)</dd>
+                                </dl>
+                                <form class="buying-option-form" action="https://order.springer.com/public/checkout" method="post">
+                                    <input type="hidden" name="type" value="book">
+                                    <input type="hidden" name="doi" value="10.1007/978-1-4471-4558-5">
+                                    <input type="hidden" name="isxn" value="978-1-4471-4557-8">
+                                    <input type="hidden" name="contenttitle" value="Logic and Structure">
+                                    <ul class="buying-option-usps">
+                                        
+                                            <li>ISBN: 978-1-4471-4557-8</li>
+                                        
+                                            <li>Dispatched in 3 to 5 business days</li>
+                                        
+                                            <li>Exclusive offer for individuals only</li>
+                                        
+                                            <li>Free shipping worldwide<br><a href='https://support.springernature.com/en/support/solutions/articles/6000233448-coronavirus-disease-covid-19-delivery-information' target='_blank'>Shipping restrictions may apply, check to see if you are impacted</a>.</li>
+                                        
+                                            <li>Tax calculation will be finalised during checkout</li>
+                                        
+                                    </ul>
+                                    <button
+                                        type="submit"
+                                        class="buybox__buy-button c-button c-button--blue"
+                                        value="Submit"
+                                        data-track="click"
+                                        data-track-label="buy softcover"
+                                        onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Logic and Structure&quot;,&quot;id&quot;:&quot;978-1-4471-4557-8&quot;,&quot;price&quot;:64.99,&quot;brand&quot;:&quot;Springer London&quot;,&quot;category&quot;:&quot;Mathematical Logic and Foundations&quot;,&quot;variant&quot;:&quot;print&quot;,&quot;quantity&quot;:1}]}}});"
+                                    >Buy Softcover Book</button>
+                                </form>
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="c-box buybox-additional-info">
+                    <a class="c-box__item"
+                        href="https://www.springernature.com/gp/librarians/licensing/license-options">Learn about institutional subscriptions</a>
+                </div>
+            </div>
+            <style>
+                .sprcom-buybox {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .sprcom-buybox>div {
+                    flex-grow: 1;
+                    width: 100%;
+                }
+
+                .sprcom-buybox * {
+                    font-size: 13px !important;
+                }
+
+                .sprcom-buybox>div>*+* {
+                    margin-top: 24px;
+                }
+
+                .sprcom-buybox .c-box__heading {
+                    margin-bottom: 0;
+                }
+
+
+                .sprcom-buybox .buying-options {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .sprcom-buybox .buying-options>* {
+                    background-color: #ddd;
+                    box-shadow: 0 0 0 1px #bbb;
+                    flex-grow: 1;
+                    flex-basis: auto;
+                    width: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                    font-weight: 400;
+                    margin-left: -10px;
+                }
+
+                .sprcom-buybox .buying-option-form {
+                    padding: 12px;
+                }
+
+                .sprcom-buybox .buying-option-price {
+                    align-items: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 1.6rem;
+                    line-height: 1.4;
+                    user-select: none;
+                    padding: 6px 12px;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dt svg path,
+                .sprcom-buybox .buying-option-price dd {
+                    color: #004aa7;
+                    fill: #004aa7;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dd {
+                    flex-grow: 1;
+                }
+
+                .sprcom-buybox .buying-option-price .price-info {
+                    color: #666;
+                    font-size: 80%;
+                    text-align: right;
+                    width: 100%;
+                }
+
+                .sprcom-buybox .buying-option-price .price-amount {
+                    font-size: 140%;
+                    text-align: right;
+                    font-weight: 600;
+                }
+
+                .sprcom-buybox .buying-option-price .price-amount-without-discount {
+                    color: #c40606;
+                    font-size: 140%;
+                    text-decoration: line-through;
+                    width: 100%;
+                }
+
+                .sprcom-buybox .buying-option-price .price-type {
+                    font-size: 40%;
+                    margin-left: 8px;
+                }
+
+                .sprcom-buybox .buying-option-usps {
+                    color: #666;
+                    font-size: 1.4rem;
+                    line-height: 1.4;
+                    margin: 0 0 0 13px;
+                    padding-left: 16px;
+
+                    list-style: disc;
+                }
+
+                .sprcom-buybox .buying-option-usps>li {
+                    position: relative;
+                }
+
+                .sprcom-buybox .buying-option-usps>li:not(:first-child) {
+                    margin-top: 4px;
+                }
+
+                .sprcom-buybox .c-button {
+                    margin-top: 18px;
+                    text-align: center;
+                }
+
+                .sprcom-buybox .buying-options>.expanded {
+                    background-color: #fff;
+                }
+
+                .sprcom-buybox .buying-options>.expanded dt,
+                .sprcom-buybox .buying-options>.expanded dt svg path,
+                .sprcom-buybox .buying-options>.expanded .price-amount {
+                    color: #333;
+                    fill: #666;
+                }
+
+
+
+                .sprcom-buybox .buybox-additional-info {
+                    padding-top: 6px;
+                    padding-bottom: 8px;
+                }
+
+                .sprcom-buybox .buybox-additional-info .c-box__item {
+                    font-size: 13px !important;
+                    margin-bottom: 0;
+                }
+
+                .sprcom-buybox a:visited {
+                    color: #004b83;
+                }
+
+
+
+                .sprcom-buybox [role=button] {
+                    cursor: pointer;
+                }
+
+                .sprcom-buybox button:focus,
+                .sprcom-buybox [role=button]:focus {
+                    outline: 4px solid #fc0;
+                    position: relative;
+                }
+
+                .sprcom-buybox [aria-expanded=false] svg {
+                    transform: rotate(0deg);
+                }
+
+                .sprcom-buybox [aria-expanded=true] svg {
+                    transform: rotate(90deg);
+                }
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                }
+
+
+
+                .sprcom-buybox .visually-hidden {
+                    clip: rect(1px, 1px, 1px, 1px);
+                    height: 1px;
+                    overflow: hidden;
+                    position: absolute;
+                    width: 1px;
+                }
+
+                .sprcom-buybox style {
+                    display: none;
+                }
+
+                .message-body a.btn.close-modal:hover {
+                    text-decoration: none;
+                }
+            </style>
+            <script id="ecommerce-scripts" async src="https://buy.springer.com/assets/js/buybox-bundle-52d08dec1e.js"></script>
+            <script>
+                ;(function () {
+                    var timestamp = Date.now()
+                    document.write('<div data-id="id_'+ timestamp +'"></div>')
+
+                    var buybox = document.querySelector("[data-id=id_"+ timestamp +"]").parentNode
+
+                    ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(initCollapsibles)
+
+                    function initCollapsibles(subscription, index) {
+                        var toggle = subscription.querySelector(".buying-option-price")
+                        subscription.classList.remove("expanded")
+                        var form = subscription.querySelector(".buying-option-form")
+                        
+                        if (form) {
+                            var formAction = form.getAttribute("action")
+                            form.setAttribute("action", formAction.replace("/checkout", "/cart"))
+                            document.querySelector("#ecommerce-scripts").addEventListener("load", bindModal(form, formAction, timestamp, index), false)
+                        }
+                        
+                        var priceInfo = subscription.querySelector(".price-info")
+                        var buyingOption = toggle.parentElement
+
+                        if (toggle && form && priceInfo) {
+                            toggle.setAttribute("role", "button")
+                            toggle.setAttribute("tabindex", "0")
+
+                            toggle.addEventListener("click", function (event) {
+                                var expanded = toggle.getAttribute("aria-expanded") === "true" || false
+                                toggle.setAttribute("aria-expanded", !expanded)
+                                form.hidden = expanded
+                                if (!expanded) {
+                                    buyingOption.classList.add("expanded")
+                                } else {
+                                    buyingOption.classList.remove("expanded")
+                                }
+                                priceInfo.hidden = expanded
+                            }, false)
+                        }
+                    }
+
+                    function bindModal(form, formAction, timestamp, index) {
+                        var weHasBrowserSupport = window.fetch && Array.from
+
+                        return function() {
+                            var Buybox = EcommScripts ? EcommScripts.Buybox : null
+                            var Modal = EcommScripts ? EcommScripts.Modal : null
+                            
+                            if (weHasBrowserSupport && Buybox && Modal) {
+                                var modalID = "ecomm-modal_" + timestamp + "_" + index
+                                
+                                var modal = new Modal(modalID)
+                                modal.domEl.addEventListener("close", close)
+                                function close() {
+                                    form.querySelector("button[type=submit]").focus()
+                                }
+
+                                form.setAttribute(
+                                    "action",
+                                    formAction.replace("/checkout", "/cart?messageOnly=1")
+                                )
+                                
+                                form.addEventListener(
+                                    "submit",
+                                    Buybox.interceptFormSubmit(
+                                        Buybox.fetchFormAction(window.fetch),
+                                        Buybox.triggerModalAfterAddToCartSuccess(modal),
+                                        console.log,
+                                    ),
+                                    false
+                                )
+                                
+                                document.body.appendChild(modal.domEl)
+                            }
+                        }
+                    }
+
+                    function initKeyControls() {
+                        document.addEventListener("keydown", function (event) {
+                            if (document.activeElement.classList.contains("buying-option-price") && (event.code === "Space" || event.code === "Enter")) {
+                                if (document.activeElement) {
+                                    event.preventDefault()
+                                    document.activeElement.click()
+                                }
+                            }
+                        }, false)
+                    }
+
+                    function initialStateOpen() {
+                        var buyboxWidth = buybox.offsetWidth
+                        ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(function (option, index) {
+                            var toggle = option.querySelector(".buying-option-price")
+                            var form = option.querySelector(".buying-option-form")
+                            var priceInfo = option.querySelector(".price-info")
+                            if (buyboxWidth > 480) {
+                                toggle.click()
+                            } else {
+                                if (index === 0) {
+                                    toggle.click()
+                                } else {
+                                    toggle.setAttribute("aria-expanded", "false")
+                                    form.hidden = "hidden"
+                                    priceInfo.hidden = "hidden"
+                                }
+                            }
+                        })
+                    }
+
+                    initialStateOpen()
+
+                    if (window.buyboxInitialised) return
+                    window.buyboxInitialised = true
+
+                    initKeyControls()
+                })()
+            </script>
+            <script>
+                ;(function () {
+                    dataLayer.push({
+           "ecommerce": {
+             "currency": "EUR",
+             "impressions": [{
+  "name" : "Logic and Structure",
+  "id" : "978-1-4471-4558-5",
+  "price" : 49.99,
+  "brand" : "Springer London",
+  "category" : "Mathematical Logic and Foundations",
+  "variant" : "ebo",
+  "quantity" : 1
+}, {
+  "name" : "Logic and Structure",
+  "id" : "978-1-4471-4557-8",
+  "price" : 64.99,
+  "brand" : "Springer London",
+  "category" : "Mathematical Logic and Foundations",
+  "variant" : "print",
+  "quantity" : 1
+}]
+            }
+         }) 
+                })()
+            </script>
+        </div>
+
+
+                                            </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </article>
+
+                    <article class="main-wrapper main-wrapper--no-gradient">
+                        <div class="main-container">
+                            <aside class="main-sidebar-left" aria-hidden="true">
+                                <div class="main-sidebar-left__content">
+                                </div>
+                            </aside>
+
+                            <div class="main-body main-body u-pb-70 u-pt-0" data-role="NavigationContainer">
+                                <div class="main-body__content">
+                                    <div id="tabs" class="c-tabs c-tabs--off" data-component="SV.Tabs">
+                                        <ul class="c-tabs__list">
+                                            <li class="c-tabs__list-item">
+                                                <a href="#toc" class="c-tabs__list-link" data-test="toc-link"
+                                                   title="Table of contents (8 chapters)">
+                                                    <span class="u-hide-small" aria-hidden="true">Chapters</span>
+                                                    <span class="u-hide u-show-small">Table of contents <span class="c-tabs__deemphasize" data-test="no-of-chapters">(8 chapters)</span></span>
+                                                </a>
+                                            </li>
+
+                                            <li class="c-tabs__list-item">
+                                                <a href="#about" class="c-tabs__list-link" title="About this book">
+                                                    <span class="u-hide-small" aria-hidden="true">About</span>
+                                                    <span class="u-hide u-show-small">About this book</span>
+                                                </a>
+                                            </li>
+                                                <li class="c-tabs__list-item" data-test="book-reviews">
+                                                    <a href="#reviews" class="c-tabs__list-link" title="Reviews">
+                                                        <span class="u-hide-small" aria-hidden="true">Reviews</span>
+                                                        <span class="u-hide u-show-small">Reviews</span>
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                        <div class="c-tabs__content">
+                                            <div id="toc" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                                <h2 class="section__heading">Table of contents </h2>
+                                                <div class="c-tabs__block c-tabs__block--content-type-list">
+
+                                                        <div class="interface-bar">
+                                                            <form class="u-form-single-input-right" action="/search" method="get" role="search">
+    <input type="hidden" name="facet-eisbn" value="978-1-4471-4558-5"/>
+    <input type="hidden" name="facet-content-type" value="Chapter"/>
+    <label for="springerlink-event-search" class="u-pr-8">Search within book</label>
+    <div class="u-relative">
+        <input id="springerlink-event-search" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit"
+               title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1"
+             xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z"
+                  stroke="none" fill-rule="evenodd"/>
+        </svg>
+   </div>
+</form>
+
+                                                        </div>
+
+
+                                                    <div class="book-toc-container" id="booktoc">
+                                                        <ol class="content-type-list">
+            <li class="front-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Front Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages I-X</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bfm%3A978-1-4471-4558-5%2F1.pdf" aria-label="Download PDF - Front Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Front matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_1" data-track="click" data-track-action="ToC link to content page" data-track-label="">Introduction</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 1-3</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_2" data-track="click" data-track-action="ToC link to content page" data-track-label="">Propositional Logic</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 5-52</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_3" data-track="click" data-track-action="ToC link to content page" data-track-label="">Predicate Logic</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 53-96</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_4" data-track="click" data-track-action="ToC link to content page" data-track-label="">Completeness and Applications</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 97-144</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_5" data-track="click" data-track-action="ToC link to content page" data-track-label="">Second-Order Logic</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 145-153</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_6" data-track="click" data-track-action="ToC link to content page" data-track-label="">Intuitionistic Logic</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 155-185</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_7" data-track="click" data-track-action="ToC link to content page" data-track-label="">Normalization</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 187-207</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="chapter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <div class="content-type-list__title">
+                            <a class="content-type-list__link u-interface-link" href="/chapter/10.1007/978-1-4471-4558-5_8" data-track="click" data-track-action="ToC link to content page" data-track-label="">Gödel’s Theorem</a>
+                        </div>
+
+                        <div class="content-type-list__text" data-test="author-text">Dirk van Dalen</div>
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 209-255</span>
+                    </div>
+                </div>
+
+            </li>
+            <li class="back-matter-item content-type-list__item">
+                <div class="content-type-list__meta">
+                        <span class="content-type-list__title">Back Matter</span>
+
+
+                    <div class="content-type-list__text">
+                            <span class="content-type-list__text" data-test="page-range">Pages 257-263</span>
+                    </div>
+                </div>
+
+                    <div class="content-type-list__action">
+                        <a class="content-type-list__action-label test-book-toc-download-link" href="/content/pdf/bbm%3A978-1-4471-4558-5%2F1.pdf" aria-label="Download PDF - Back Matter" target="_blank" rel="noopener" data-track="click" data-track-action="ToC - Back matter" data-track-label="">
+                            <span>PDF</span><svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"></path></svg>
+                        </a>
+                    </div>
+            </li>
+</ol>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div id="about" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                                <h2 class="section__heading">About this book</h2>
+                                                <div class="c-tabs__block">
+                                                            <h3>Introduction</h3>
+        <div id="book-description" class="u-content u-overflow-wrap" itemprop="description"><p>Dirk van Dalen’s popular textbook<i> Logic and Structure</i>, now in its fifth edition, provides a comprehensive introduction to the basics of classical and intuitionistic logic, model theory and Gödel’s famous incompleteness theorem. </p><p>Propositional and predicate logic are presented in an easy-to-read style using Gentzen’s natural deduction. The book proceeds with some basic concepts and facts of model theory: a discussion on compactness, Skolem-Löwenheim, non-standard models and quantifier elimination. The discussion of classical logic is concluded with a concise exposition of second-order logic. </p><p>In view of the growing recognition of constructive methods and principles, intuitionistic logic and Kripke semantics is carefully explored. A number of specific constructive features, such as apartness and equality, the Gödel translation, the disjunction and existence property are also included. </p><p>The last chapter on Gödel's first incompleteness theorem is self-contained and provides a systematic exposition of the necessary recursion theory. </p><p>This new edition has been properly revised and contains a new section on ultra-products.</p></div>
+        <h3>Keywords</h3>
+        <div class="u-content u-mb-24" itemprop="keywords">
+          <span data-test="book-keyword" class="Keyword">Basic model theory </span><span data-test="book-keyword" class="Keyword">First-order logic with natural deduction </span><span data-test="book-keyword" class="Keyword">Goedel's theorem </span><span data-test="book-keyword" class="Keyword">Intuitionistic logic and semantics </span><span data-test="book-keyword" class="Keyword">Normalisation of first-order logic </span><span data-test="book-keyword" class="Keyword">Recursive functions </span><span data-test="book-keyword" class="Keyword">Second order logic </span>
+        </div>
+
+                                                        <div id="authorsandaffiliationsbook" class="test-authors-affiliations authors-and-affiliations">
+        <h4 class="u-h3">Authors and affiliations</h4>
+        <div class="authors-affiliations u-interface" itemscope>
+            <ul xmlns="http://www.w3.org/1999/xhtml" class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4" itemprop="author"><span itemprop="name" class="authors-affiliations__name">Dirk van Dalen</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li></ul><ol xmlns="http://www.w3.org/1999/xhtml" class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Department of Philosophy</span><span itemprop="name" class="affiliation__name">Utrecht University</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Utrecht</span><span itemprop="addressCountry" class="affiliation__country">Netherlands</span></span></span></li></ol>
+        </div>
+    </div>
+
+                                                    
+                                                    
+                                                        <div id="bibliographic-info">
+        <h3>Bibliographic information</h3>
+
+        <div class="bibliographic-information">
+            <ul class="bibliographic-information__list--inline">
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Book Title</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="title">Logic and Structure</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Authors</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="authors">Dirk van Dalen<br/></span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Series Title</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="series-title">Universitext</span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">DOI</span>
+                    <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/978-1-4471-4558-5</span>
+                </li>
+
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Copyright Information</span>
+                    <span class="bibliographic-information__value" id="copyright-info"><span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Springer-Verlag London</span></span> <span itemprop="copyrightYear">2013</span></span>
+                </li>
+                <li class="bibliographic-information__item">
+                    <span class="bibliographic-information__title">Publisher Name</span>
+                    <span class="bibliographic-information__value" id="publisher-name"><span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Springer, London</span></span></span>
+                </li>
+
+                        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">eBook Packages</span>
+                <span class="bibliographic-information__value" itemprop="genre"><a id="ebook-package" href="/search?facet-content-type&#x3D;%22Book%22&amp;package&#x3D;11649&amp;facet-start-year&#x3D;2013&amp;facet-end-year&#x3D;2013">Mathematics and Statistics</a></span>
+                <span class="bibliographic-information__value" itemprop="genre"><a id="ebook-package" href="/search?facet-content-type&#x3D;%22Book%22&amp;package&#x3D;43713&amp;facet-start-year&#x3D;2013&amp;facet-end-year&#x3D;2013">Mathematics and Statistics (R0)</a></span>
+        </li>
+
+
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Softcover ISBN</span>
+                        <span class="bibliographic-information__value" id="print-softcover-isbn" itemprop="isbn">978-1-4471-4557-8</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">eBook ISBN</span>
+                        <span class="bibliographic-information__value" id="ebook-isbn" itemprop="isbn">978-1-4471-4558-5</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series ISSN</span>
+                        <span class="bibliographic-information__value" id="print-issn">0172-5939</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Series E-ISSN</span>
+                        <span class="bibliographic-information__value" id="electronic-issn">2191-6675</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Edition Number</span>
+                        <span class="bibliographic-information__value" id="edition-number">5</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Number of Pages</span>
+                        <span class="bibliographic-information__value" id="number-of-pages">X, 263</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Number of Illustrations</span>
+                        <span class="bibliographic-information__value" id="illustrations">27 b/w illustrations, 0 illustrations in colour</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Additional Information</span>
+                        <span class="bibliographic-information__value" id="additional-information">5th ed.</span>
+                    </li>
+                    <li class="bibliographic-information__item">
+                        <span class="bibliographic-information__title">Topics</span>
+                        <span class="bibliographic-information__value" id="topics"><a href="/search?facet-sub-discipline=Mathematical%20Logic%20and%20Foundations&amp;facet-content-type=Book">Mathematical Logic and Foundations</a><br/></span>
+                    </li>
+            </ul>
+
+            
+
+
+                
+        </div>
+    </div>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                                <div id="reviews" data-test="book-review" class="c-tabs__content-item c-tabs__content-item section section--non-collapsible">
+                                                    <h2 class="section__heading">Reviews</h2>
+                                                    <div class="c-tabs__block">
+                                                        <div class="u-content u-overflow-wrap"><p>From the reviews of the fifth edition:</p><p>“This is the fifth edition of van Dalen’s respected and enduring logic textbook, first published in 1980. ... Intended as a text for an undergraduate course in logic, this text contains considerably more material than can be covered in one semester. … this is quite a good book and is certainly a very serious contender as a text for an undergraduate course, and should be carefully looked at by anybody teaching such a course.” (Mark Hunacek, MAA Reviews, June, 2013)</p></div>
+                                                    </div>
+                                                </div>
+
+                                            
+
+
+
+    <div class="sticky-banner sticky-banner--buybox u-interface u-js-screenreader-only" aria-hidden="true" data-component="SpringerLink.StickyBanner" data-namespace="hasLink">
+        <div class="sticky-banner__container">
+                <div class="sticky-banner__buybox-link sticky-banner__buybox-link--sticky">
+        <a href="#buy" class="gtm-buybox-anchor">
+            Buy options
+        </a>
+    </div>
+
+        </div>
+    </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <aside class="main-sidebar-right main-sidebar-right--buybox u-interface">
+                            </aside>
+                        </div>
+                    </article>
+                </div>
+            </main>
+
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/book/10.1007/978-1-4471-4558-5&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/book/10.1007/978-1-4471-4558-5&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="https://www.springernature.com/ccpa">California privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);" data-cc-action="preferences">Manage cookies/Do not sell my data</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a href="https://support.springer.com/en/support/home">FAQ</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="https://support.springer.com/en/support/solutions/articles/6000206179-contacting-us">Contact us</a>
+                </li>
+                <li>
+                    <a href="https://www.springer.com/gp/shop/promo/affiliate/springer-nature">Affiliate program</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/1895273086/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/1895273086/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2020 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Not affiliated</span>
+                    <span>87.3.212.252</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/1895273086';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/book';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,37 @@
+abstract: 'Ontology-based query answering (OBQA) asks whether a Boolean conjunctive
+  query is satisfied by all models of a logical theory consisting of a relational
+  database paired with an ontology. The introduction of existential rules (i.e., Datalog
+  rules extended with existential quantifiers in rule-heads) as a means to specify
+  the ontology gave birth to Datalog+/-, a framework that has received increasing
+  attention in the last decade, with focus also on decidability and finite controllability
+  to support effective reasoning. Five basic decidable fragments have been singled
+  out: linear, weakly-acyclic, guarded, sticky, and shy. Moreover, for all these fragments,
+  except shy, the important property of finite controllability has been proved, ensuring
+  that a query is satisfied by all models of the theory iff it is satisfied by all
+  its finite models. In this paper we complete the picture by demonstrating that finite
+  controllability of OBQA holds also for shy ontologies, and it therefore applies
+  to all basic decidable Datalog+/- classes. To make the demonstration, we devise
+  a general technique to facilitate the process of (dis)proving finite controllability
+  of an arbitrary ontological fragment. This paper is under consideration for acceptance
+  in TPLP.'
+archiveprefix: arXiv
+author: Amendola, Giovanni and Leone, Nicola and Manna, Marco
+author_list:
+- family: Amendola
+  given: Giovanni
+- family: Leone
+  given: Nicola
+- family: Manna
+  given: Marco
+eprint: 1707.01870v1
+file: 1707.01870v1.pdf
+files:
+- amendola-giovanni-and-leone-nicola-and-manna-marcofinite-model-reasoning-over-existential-rules2017.pdf
+month: Jul
+primaryclass: cs.LO
+ref: 1707.01870v1
+time-added: 2021-11-02-10:05:17
+title: Finite model reasoning over existential rules
+type: article
+url: http://arxiv.org/abs/1707.01870v1
+year: '2017'

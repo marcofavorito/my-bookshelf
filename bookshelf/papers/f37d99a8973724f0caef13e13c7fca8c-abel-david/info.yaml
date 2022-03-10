@@ -1,0 +1,33 @@
+abstract: 'Reinforcement learning defines the problem facing agents that learn to
+  make good decisions through action and observation alone. To be effective problem
+  solvers, such agents must efficiently explore vast worlds, assign credit from delayed
+  feedback, and generalize to new experiences, all while making use of limited data,
+  computational resources, and perceptual bandwidth. Abstraction is essential to all
+  of these endeavors. Through abstraction, agents can form concise models of their
+  environment that support the many practices required of a rational, adaptive decision
+  maker. In this dissertation, I present a theory of abstraction in reinforcement
+  learning. I first offer three desiderata for functions that carry out the process
+  of abstraction: they should 1) preserve representation of near-optimal behavior,
+  2) be learned and constructed efficiently, and 3) lower planning or learning time.
+  I then present a suite of new algorithms and analysis that clarify how agents can
+  learn to abstract according to these desiderata. Collectively, these results provide
+  a partial path toward the discovery and use of abstraction that minimizes the complexity
+  of effective reinforcement learning.'
+archiveprefix: arXiv
+author: Abel, David
+author_list:
+- family: Abel
+  given: David
+eprint: 2203.00397v1
+file: 2203.00397v1.pdf
+files:
+- abel-davida-theory-of-abstraction-in-reinforcement-learning2022.pdf
+month: Mar
+note: Doctoral Dissertation, Department of Computer Science, Brown   University, 2020
+primaryclass: cs.LG
+ref: 2203.00397v1
+time-added: 2022-03-06-12:04:34
+title: A Theory of Abstraction in Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2203.00397v1
+year: '2022'

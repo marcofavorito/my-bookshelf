@@ -1,0 +1,41 @@
+abstract: 'Vadalog is a system for performing complex reasoning tasks such as those
+  required in advanced knowledge graphs. The logical core of the underlying Vadalog
+  language is the warded fragment of tuple-generating dependencies (TGDs). This formalism
+  ensures tractable reasoning in data complexity, while a recent analysis focusing
+  on a practical implementation led to the reasoning algorithm around which the Vadalog
+  system is built. A fundamental question that has emerged in the context of Vadalog
+  is the following: can we limit the recursion allowed by wardedness in order to obtain
+  a formalism that provides a convenient syntax for expressing useful recursive statements,
+  and at the same time achieves space-efficiency? After analyzing several real-life
+  examples of warded sets of TGDs provided by our industrial partners, as well as
+  recent benchmarks, we observed that recursion is often used in a restricted way:
+  the body of a TGD contains at most one atom whose predicate is mutually recursive
+  with a predicate in the head. We show that this type of recursion, known as piece-wise
+  linear in the Datalog literature, is the answer to our main question. We further
+  show that piece-wise linear recursion alone, without the wardedness condition, is
+  not enough as it leads to the undecidability of reasoning. We finally study the
+  relative expressiveness of the query languages based on (piece-wise linear) warded
+  sets of TGDs.'
+archiveprefix: arXiv
+author: Berger, Gerald and Gottlob, Georg and Pieris, Andreas and Sallinger, Emanuel
+author_list:
+- family: Berger
+  given: Gerald
+- family: Gottlob
+  given: Georg
+- family: Pieris
+  given: Andreas
+- family: Sallinger
+  given: Emanuel
+eprint: 1809.05951v1
+file: 1809.05951v1.pdf
+files:
+- berger-gerald-and-gottlob-georg-and-pieris-andreas-and-sallinger-emanuelthe-space-efficient-core-of-vadalog2018.pdf
+month: Sep
+primaryclass: cs.DB
+ref: 1809.05951v1
+time-added: 2021-09-30-23:34:16
+title: The Space-Efficient Core of Vadalog
+type: article
+url: http://arxiv.org/abs/1809.05951v1
+year: '2018'

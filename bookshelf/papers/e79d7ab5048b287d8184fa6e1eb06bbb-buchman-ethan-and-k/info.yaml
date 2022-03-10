@@ -1,0 +1,29 @@
+abstract: The paper presents Tendermint, a new protocol for ordering events in a distributed
+  network under adversarial conditions. More commonly known as Byzantine Fault Tolerant
+  (BFT) consensus or atomic broadcast, the problem has attracted significant attention
+  in recent years due to the widespread success of blockchain-based digital currencies,
+  such as Bitcoin and Ethereum, which successfully solved the problem in a public
+  setting without a central authority. Tendermint modernizes classic academic work
+  on the subject and simplifies the design of the BFT algorithm by relying on a peer-to-peer
+  gossip protocol among nodes.
+archiveprefix: arXiv
+author: Buchman, Ethan and Kwon, Jae and Milosevic, Zarko
+author_list:
+- family: Buchman
+  given: Ethan
+- family: Kwon
+  given: Jae
+- family: Milosevic
+  given: Zarko
+eprint: 1807.04938v3
+file: 1807.04938v3.pdf
+files:
+- buchman-ethan-and-kwon-jae-and-milosevic-zarkothe-latest-gossip-on-bft-consensus2018.pdf
+month: Jul
+primaryclass: cs.DC
+ref: 1807.04938v3
+time-added: 2021-10-01-20:35:20
+title: The latest gossip on BFT consensus
+type: article
+url: http://arxiv.org/abs/1807.04938v3
+year: '2018'

@@ -1,0 +1,133 @@
+abstract: '<jats:p>The problem of querying RDF data is a central issue for the development
+  of the Semantic Web. The query language SPARQL has become the standard language
+  for querying RDF since its W3C standardization in 2008. However, the 2008 version
+  of this language missed some important functionalities: reasoning capabilities to
+  deal with RDFS and OWL vocabularies, navigational capabilities to exploit the graph
+  structure of RDF data, and a general form of recursion much needed to express some
+  natural queries. To overcome these limitations, a new version of SPARQL, called
+  SPARQL 1.1, was released in 2013, which includes entailment regimes for RDFS and
+  OWL vocabularies, and a mechanism to express navigation patterns through regular
+  expressions. Unfortunately, there are a number of useful navigation patterns that
+  cannot be expressed in SPARQL 1.1, and the language lacks a general mechanism to
+  express recursive queries. To the best of our knowledge, no efficient RDF query
+  language that combines the above functionalities is known. It is the aim of this
+  work to fill this gap. To this end, we focus on a core fragment of the OWL 2 QL
+  profile of OWL 2 and show that every SPARQL query enriched with the above features
+  can be naturally translated into a query expressed in a language that is based on
+  an extension of Datalog, which allows for value invention and stratified negation.
+  However, the query evaluation problem for this language is highly intractable, which
+  is not surprising since it is expressive enough to encode some inherently hard queries.
+  We identify a natural fragment of it, and we show it to be tractable and powerful
+  enough to define SPARQL queries enhanced with the desired functionalities.</jats:p>'
+author: Arenas, Marcelo and Gottlob, Georg and Pieris, Andreas
+author_list:
+- affiliation:
+  - name: Pontificia Universidad Católica de Chile 8 IMFD, Chile
+  family: Arenas
+  given: Marcelo
+- affiliation:
+  - name: University of Oxford, Oxford, UK
+  family: Gottlob
+  given: Georg
+- affiliation:
+  - name: University of Edinburgh, UK
+  family: Pieris
+  given: Andreas
+citations:
+- author: Abiteboul Serge
+  volume-title: Foundations of Databases
+- doi: 10.1016/j.websem.2009.02.002
+- doi: 10.1007/978-3-540-88564-1_8
+- doi: 10.1145/2594538.2594555
+- doi: 10.1007/978-3-642-03754-2_4
+  unstructured: Marcelo Arenas Claudio Gutierrez and Jorge Pérez. 2009. Foundations
+    of RDF databases. In Reasoning Web. 158--204. 10.1007/978-3-642-03754-2_4   Marcelo
+    Arenas Claudio Gutierrez and Jorge Pérez. 2009. Foundations of RDF databases.
+    In Reasoning Web. 158--204. 10.1007/978-3-642-03754-2_4
+- doi: 10.1016/j.artint.2011.03.002
+- doi: 10.1145/2463664.2465216
+- author: Beeri Catriel
+  volume-title: Proceedings of the 8th International Colloquium on Automata, Languages
+    and Programming. 73--85
+- doi: 10.5555/3171642.3171643
+- doi: 10.14778/3213880.3213888
+- author: Berger Gerald
+  volume-title: Proceedings of the 38th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems. To Appear.
+  year: '2018'
+- author: Bertossi Leopoldo E.
+  volume-title: 'Datalog: Bag semantics via set semantics. CoRR abs/1803.06445'
+  year: '2018'
+- doi: 10.5555/2591248.2591252
+- doi: 10.1109/LICS.2010.27
+- doi: 10.1016/j.artint.2012.08.002
+- doi: 10.1007/s10817-007-9078-x
+- author: Ceri Stefano
+  volume-title: Logic Programming and Databases
+- doi: 10.1016/j.datak.2009.04.001
+- doi: 10.1145/502807.502810
+- doi: 10.1145/2187836.2187875
+- doi: 10.1007/11837787_1
+  unstructured: 'Tim Furche Benedikt Linse François Bry Dimitris Plexousakis and Georg
+    Gottlob. 2006. RDF querying: Language constructs and evaluation methods compared.
+    In Reasoning Web. 1--52.  Tim Furche Benedikt Linse François Bry Dimitris Plexousakis
+    and Georg Gottlob. 2006. RDF querying: Language constructs and evaluation methods
+    compared. In Reasoning Web. 1--52.'
+- author: Glimm Birte
+  volume-title: Retrieved
+  year: '2013'
+- author: Gottlob Georg
+  volume-title: Proceedings of the 24th International Joint Conference on Artificial
+    Intelligence. 2999--3007
+  year: '2015'
+- doi: 10.1145/2594538.2594556
+- author: Harris Steve
+  volume-title: Retrieved
+  year: '2013'
+- doi: 10.1145/2463664.2465229
+- doi: 10.1016/j.websem.2014.06.004
+- doi: 10.5555/2008892.2008925
+- doi: 10.1145/2463664.2465226
+- author: Deborah
+  volume-title: OWL Web Ontology Language Overview. Retrieved on
+  year: '2004'
+- author: Motik Boris
+  volume-title: Retrieved
+  year: '2012'
+- author: Motik Boris
+  edition: '2'
+  volume-title: OWL 2 Web Ontology Language Structural Specification and Functional-Style
+    Syntax
+  year: '2012'
+- author: Peter
+  volume-title: Patel-Schneider and Boris Motik
+  year: '2012'
+- doi: 10.1145/1567274.1567278
+- doi: 10.1016/j.websem.2010.01.002
+- doi: 10.1145/1242572.1242679
+- author: Prud’hommeaux Eric
+  volume-title: Retrieved
+  year: '2008'
+- doi: 10.1007/978-3-319-25007-6_2
+- doi: 10.1145/2463664.2465227
+- doi: 10.1007/978-3-540-74565-5_14
+- author: W3C OWL Working Group
+  edition: '2'
+  volume-title: OWL 2 Web Ontology Language Document Overview
+  year: '2012'
+doi: 10.1145/3238304
+files:
+- arenas-marcelo-and-gottlob-georg-and-pieris-andreasexpressive-languages-for-querying-the-semantic-web2018.pdf
+issue: '3'
+journal: ACM Transactions on Database Systems
+language: en
+month: 11
+pages: 1--45
+publisher: Association for Computing Machinery (ACM)
+ref: ExpressiveLangArenas2018
+time-added: 2021-09-29-18:14:22
+title: Expressive Languages for Querying the Semantic Web
+type: article
+url: http://dx.doi.org/10.1145/3238304
+volume: '43'
+year: 2018

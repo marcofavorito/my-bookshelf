@@ -1,0 +1,34 @@
+abstract: This monograph presents the main complexity theorems in convex optimization
+  and their corresponding algorithms. Starting from the fundamental theory of black-box
+  optimization, the material progresses towards recent advances in structural optimization
+  and stochastic optimization. Our presentation of black-box optimization, strongly
+  influenced by Nesterov's seminal book and Nemirovski's lecture notes, includes the
+  analysis of cutting plane methods, as well as (accelerated) gradient descent schemes.
+  We also pay special attention to non-Euclidean settings (relevant algorithms include
+  Frank-Wolfe, mirror descent, and dual averaging) and discuss their relevance in
+  machine learning. We provide a gentle introduction to structural optimization with
+  FISTA (to optimize a sum of a smooth and a simple non-smooth term), saddle-point
+  mirror prox (Nemirovski's alternative to Nesterov's smoothing), and a concise description
+  of interior point methods. In stochastic optimization we discuss stochastic gradient
+  descent, mini-batches, random coordinate descent, and sublinear algorithms. We also
+  briefly touch upon convex relaxation of combinatorial problems and the use of randomness
+  to round solutions, as well as random walks based methods.
+archiveprefix: arXiv
+author: Bubeck, Sébastien
+author_list:
+- family: Bubeck
+  given: Sébastien
+eprint: 1405.4980v2
+file: 1405.4980v2.pdf
+files:
+- bubeck-sebastienconvex-optimization-algorithms-and-complexity2014.pdf
+month: May
+note: 'In Foundations and Trends in Machine Learning, Vol. 8: No. 3-4, pp   231-357,
+  2015'
+primaryclass: math.OC
+ref: 1405.4980v2
+time-added: 2022-03-02-16:39:51
+title: 'Convex Optimization: Algorithms and Complexity'
+type: article
+url: http://arxiv.org/abs/1405.4980v2
+year: '2014'

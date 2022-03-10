@@ -1,0 +1,2054 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="grade-c">
+<head>
+    <meta charset="utf-8">
+    <script>
+    (function(w, d) {
+        w.config = w.config || {};
+        w.config.mustardcut = false;
+
+        
+        if (w.matchMedia && w.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+            w.config.mustardcut = true;
+            d.classList.add('js');
+            d.classList.remove('grade-c');
+        }
+    })(window, document.documentElement);
+</script>
+
+    
+<script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>Why deep-learning AIs are so easy to fool</title>
+    <meta name="description" content="Artificial-intelligence researchers are trying to fix the flaws of neural networks."/>
+    <meta property="og:url" content="https://www.nature.com/articles/d41586-019-03013-5"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Why deep-learning AIs are so easy to fool"/>
+    <meta property="og:description" content="Artificial-intelligence researchers are trying to fix the flaws of neural networks."/>
+    <meta property="og:image"
+          content="https://media.nature.com/lw1024/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249374.jpg"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@nature"/>
+    <meta name="twitter:title" content="Why deep-learning AIs are so easy to fool"/>
+    <meta name="twitter:description" content="Nature - Artificial-intelligence researchers are trying to fix the flaws of neural networks."/>
+    <meta name="twitter:image"
+          content="https://media.nature.com/lw1024/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249374.jpg"/>
+    
+
+    <meta name="journal_id" content="41586"/>
+
+    <meta name="dc.title" content="Why deep-learning AIs are so easy to fool"/>
+
+    <meta name="dc.source" content="Nature 2021 574:7777"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Nature Publishing Group"/>
+
+    <meta name="dc.date" content="2019-10-09"/>
+
+    <meta name="dc.type" content="News Feature"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2021 Nature"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="Artificial-intelligence researchers are trying to fix the flaws of neural networks.  Artificial-intelligence researchers are trying to fix the flaws of neural networks."/>
+
+    <meta name="prism.publicationName" content="Nature"/>
+
+    <meta name="prism.publicationDate" content="2019-10-09"/>
+
+    <meta name="prism.volume" content="574"/>
+
+    <meta name="prism.number" content="7777"/>
+
+    <meta name="prism.section" content="News"/>
+
+    <meta name="prism.startingPage" content="163"/>
+
+    <meta name="prism.endingPage" content="166"/>
+
+    <meta name="prism.copyright" content="2021 Nature"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://www.nature.com/articles/d41586-019-03013-5"/>
+
+    <meta name="prism.doi" content="doi:10.1038/d41586-019-03013-5"/>
+
+    <meta name="dc.identifier" content="doi:10.1038/d41586-019-03013-5"/>
+
+    <meta name="DOI" content="10.1038/d41586-019-03013-5"/>
+
+    <meta name="description" content="Artificial-intelligence researchers are trying to fix the flaws of neural networks.  Artificial-intelligence researchers are trying to fix the flaws of neural networks."/>
+
+    <meta name="dc.creator" content="Heaven, Douglas"/>
+
+    <meta name="dc.subject" content="Computer science"/>
+
+    <meta name="dc.subject" content="Information technology"/>
+
+
+
+<script>(function(e){var t=e.documentElement,n=e.implementation;t.className='js';if(n&&n.hasFeature('http://www.w3.org/TR/SVG11/feature#Image','1.1')){t.className+=' svg'}})(document)</script>
+<link rel="stylesheet" href="/static/css/grade-c.e42097f1bb.css">
+
+<link rel="preload" href=/static/fonts/HardingText-Regular-Web.b167e675dc.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" class="js-ctm" href="/static/css/magazine-nature-branded.9926aab6e7.css" media="only screen, print and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+
+<link rel="stylesheet" type="text/css" href="/static/css/magazine-print.4a1bcb54d1.css" media="print">
+<link rel="apple-touch-icon" sizes="180x180" href=/static/images/favicons/nature/apple-touch-icon.f39cb19454.png>
+<link rel="icon" type="image/png" sizes="32x32" href=/static/images/favicons/nature/favicon-32x32.3fe59ece92.png>
+<link rel="icon" type="image/png" sizes="16x16" href=/static/images/favicons/nature/favicon-16x16.951651ab72.png>
+<link rel="manifest" href=/static/manifest.1a481c42b1.json crossorigin="use-credentials">
+<link rel="mask-icon" href=/static/images/favicons/nature/safari-pinned-tab.69bff48fe6.svg color="#000000">
+<link rel="shortcut icon" href=/static/images/favicons/nature/favicon.62367f778b.ico>
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content=/static/browserconfig.e35b3b052c.xml>
+<meta name="theme-color" content="#000000">
+<meta name="application-name" content="Nature">
+
+<link rel="search" href="http://www.nature.com/search">
+<link rel="search" href="http://www.nature.com/opensearch/opensearch.xml" type="application/opensearchdescription+xml" title="nature.com">
+<link rel="search" href="http://www.nature.com/opensearch/request" type="application/sru+xml" title="nature.com">
+
+    <meta name="WT.cg_s" content="News Feature"/>
+    <meta name="WT.z_cg_type" content="News Feature"/>
+    <meta name="WT.page_categorisation" content="Article page"/>
+    <meta name="WT.z_subject_term" content="Computer science, Information technology"/>
+
+<meta name="WT.template" content="oscar"/>
+<meta name="WT.cg_n" content="Nature"/>
+<meta name="dc.rights" content="©2021 Macmillan Publishers Limited. All Rights Reserved."/>
+<meta name="WT.z_bandiera_abtest" content="a"/>
+
+
+    
+    <script data-test="dataLayer">
+        dataLayer = [{"content":{"category":{"contentType":"news feature","legacy":{"webtrendsPrimaryArticleType":"news","webtrendsSubjectTerms":"computer-science;information-technology","webtrendsContentCategory":null,"webtrendsContentCollection":null,"webtrendsContentGroup":"Nature","webtrendsContentGroupType":null,"webtrendsContentSubGroup":"News Feature"}},"article":{"doi":"10.1038/d41586-019-03013-5"},"attributes":{"cms":"core media","deliveryPlatform":"oscar","copyright":{"open":false,"legacy":{"webtrendsLicenceType":null}}},"contentInfo":{"authors":["Douglas Heaven"],"publishedAt":1570579200,"publishedAtString":"2019-10-09","title":"Why deep-learning AIs are so easy to fool","legacy":null,"publishedAtTime":null,"documentType":"aplusplus"},"journal":{"pcode":"nature","title":"nature","volume":"574","issue":"7777"},"authorization":{"status":true},"features":[{"name":"furtherReadingSection","present":false}],"collection":null},"page":{"category":{"pageType":"article"},"attributes":{"template":"magazine mosaic","featureFlags":[{"name":"ab_test_news_feature","active":false},{"name":"ab_test_highlight_supp_info","active":false},{"name":"nature-oa-paywall","active":true},{"name":"nature-onwards-journey","active":true}],"testGroup":null},"search":null},"privacy":{},"version":"1.0.0","product":null,"session":null,"user":null,"backHalfContent":false,"country":"IT","hasBody":false,"uneditedManuscript":false,"twitterId":["o3xnx","o43y9","o3ef7"]}];
+</script>
+
+
+
+
+    <script>
+    (function(w,d,t) {
+        function cc() {
+            var h = w.location.hostname;
+            if (h.indexOf('preview-www.nature.com') > -1) return;
+
+            var e = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+
+            if (h.indexOf('nature.com') > -1) {
+                e.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+                e.setAttribute('data-domain-script', '83f2c78a-6cbc-4d1a-9088-3f8e8c4c7460');
+            } else {
+                e.src = '/static/js/cookie-consent-es5-bundle.34a145d526.js';
+                e.setAttribute('data-consent', h);
+            }
+            s.parentNode.insertBefore(e, s);
+        }
+
+        !!w.google_tag_manager ? cc() : window.addEventListener('gtm_loaded', function() {cc()});
+    })(window,document,'script');
+</script>
+<script>
+    function OptanonWrapper() {
+        window.dataLayer.push({event:'OneTrustGroupsUpdated'});
+        document.activeElement.blur();
+    }
+</script>
+
+
+
+
+        
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+    
+    j.addEventListener('load', function() {
+    var _ge = new CustomEvent('gtm_loaded', { bubbles: true });
+    d.dispatchEvent(_ge);
+    });
+
+    f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWDMT9Q');</script>
+
+
+    
+
+    <script>
+        window.eligibleForRa21 = 'true'; // required by js files for displaying the cobranding box (entitlement-box.js)
+        window.idpVerifyPrefix = 'https://verify.nature.com';
+        window.ra21Host = 'https://wayf.springernature.com';
+    </script>
+
+    <script src="https://js.sentry-cdn.com/f81201b2ef1d4895848163b43aeaecb4.min.js" crossorigin="anonymous"></script>
+<script id="js-position0">
+    (function(w, d) {
+        w.idpVerifyPrefix = 'https://verify.nature.com';
+        w.ra21Host = 'https://wayf.springernature.com';
+
+        if (w.Sentry) {
+            w.Sentry.onLoad(function() {
+                w.Sentry.init({
+                    allowUrls: [/^https?:\/\/www\.nature\.com\//i],
+                    ignoreErrors: ['Non-Error exception captured', 'Non-Error promise rejection captured', 'Illegal invocation', 'Failed to fetch']
+                });
+            });
+        }
+
+        var moduleSupport = (function() {
+            return 'noModule' in d.createElement('script');
+        })();
+
+        var polyfillsUrl = function() {
+            var features = {
+                'IntersectionObserver': window.IntersectionObserver,
+                'Promise': window.Promise,
+                'URLSearchParams': window.URLSearchParams,
+                'Symbol.iterator': window.Symbol && Symbol.iterator,
+                'Array.from': Array.from,
+                'Array.prototype.includes': Array.prototype.includes,
+                'Array.prototype.find': Array.prototype.find,
+                'Array.prototype.forEach': Array.prototype.forEach,
+                'NodeList.prototype.forEach': NodeList.prototype.forEach,
+                'Element.prototype.closest': Element.prototype.closest,
+                'Element.prototype.prepend': Element.prototype.prepend,
+                'Element.prototype.remove': Element.prototype.remove,
+                'Object.assign': Object.assign
+            };
+            var req = [];
+            for (var feature in features) {
+                if (Object.prototype.hasOwnProperty.call(features, feature) && !features[feature]) {
+                    req.push(feature);
+                }
+            }
+            if (req.length) {
+                return 'https://polyfill.io/v3/polyfill.min.js?features=' + req.join('%2C') + '&flags=always';
+            }
+            return null;
+        };
+
+        if (w.config.mustardcut === true) {
+            w.loader = {
+                index: 0,
+                registered: [],
+                scripts: [
+                    {src: polyfillsUrl(), test: 'polyfills-js', noinit: true},
+                    
+                        {src: '/static/js/magazine/magazine-mosaic.bf9d858b3e.js', test: 'magazine-mosaic-js'},
+                        {src: '/static/js/shared-es6-bundle.bc701b2283.js', test: 'shared-js', module: true},
+                        {src: '/static/js/shared-es5-bundle.6b94ed7e0e.js', test: 'shared-js', nomodule: true},
+                        {src: '/static/js/header-150-es6-bundle.785ec93d66.js', test: 'header-150-js', module: true},
+                        {src: '/static/js/header-150-es5-bundle.4f4f49f383.js', test: 'header-150-js', nomodule: true}
+                    
+                ].filter(function (s) {
+                    if (s.src === null) return false;
+                    if (moduleSupport && s.nomodule) return false;
+                    return !(!moduleSupport && s.module);
+                }),
+
+                register: function (value) {
+                    this.registered.push(value);
+                },
+
+                ready: function () {
+                    if (this.registered.length === this.scripts.length) {
+                        this.registered.forEach(function (fn) {
+                            if (typeof fn === 'function') {
+                                setTimeout(fn, 0); 
+                            }
+                        });
+                        this.ready = function () {};
+                    }
+                },
+
+                insert: function (s) {
+                    var t = d.getElementById('js-position' + this.index);
+                    if (t && t.insertAdjacentElement) {
+                        t.insertAdjacentElement('afterend', s);
+                    } else {
+                        d.head.appendChild(s);
+                    }
+                    ++this.index;
+                },
+
+                createScript: function (script, beforeLoad) {
+                    var s = d.createElement('script');
+                    s.id = 'js-position' + (this.index + 1);
+                    s.setAttribute('data-test', script.test);
+                    if (beforeLoad) {
+                        s.defer = 'defer';
+                        s.onload = function () {
+                            if (script.noinit) {
+                                loader.register(true);
+                            }
+                            if (d.readyState === 'interactive' || d.readyState === 'complete') {
+                                loader.ready();
+                            }
+                        };
+                    } else {
+                        s.async = 'async';
+                    }
+                    s.src = script.src;
+                    return s;
+                },
+
+                init: function () {
+                    this.scripts.forEach(function (s) {
+                        loader.insert(loader.createScript(s, true));
+                    });
+
+                    d.addEventListener('DOMContentLoaded', function () {
+                        loader.ready();
+                        
+                            var conditionalScripts = null;
+                        
+
+                        if (conditionalScripts) {
+                            conditionalScripts.filter(function (script) {
+                                return !!document.querySelector(script.match) && !((moduleSupport && script.nomodule) || (!moduleSupport && script.module));
+                            }).forEach(function (script) {
+                                loader.insert(loader.createScript(script));
+                            });
+                        }
+                    }, false);
+                }
+            };
+            loader.init();
+        }
+    })(window, document);
+</script>
+
+</head>
+<body>
+    
+    
+        
+<div class="position-relative cleared z-index-50 background-white" data-test="top-containers">
+    <a class="c-skip-link" href="#content">Skip to main content</a>
+
+
+
+<div class="c-grade-c-banner u-hide">
+    <div class="c-grade-c-banner__container">
+        
+        <p>Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.</p>
+
+    </div>
+</div>
+
+    
+
+    
+    
+        <div class="u-hide u-show-following-ad"></div>
+
+        <aside class="c-ad c-ad--728x90">
+            <div class="c-ad__inner" data-container-type="banner-advert">
+                <p class="c-ad__label">Advertisement</p>
+                
+        
+            
+    <div id="div-gpt-ad-top-1"
+         class="div-gpt-ad advert leaderboard js-ad text-center hide-print grade-c-hide"
+         data-ad-type="top"
+         data-pa11y-ignore
+         data-gpt
+         data-gpt-unitpath="/285/nature.com/article"
+         data-gpt-sizes="728x90"
+         data-gpt-targeting="type=article;pos=top;artid=d41586-019-03013-5;doi=10.1038/d41586-019-03013-5;subjmeta=117,258,639,705;kwrd=Computer science,Information technology">
+        <noscript>
+            <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/nature.com/article&amp;sz=728x90&amp;c=180953008&amp;t=pos%3Dtop%26type%3Darticle%26artid%3Dd41586-019-03013-5%26doi%3D10.1038/d41586-019-03013-5%26subjmeta%3D117,258,639,705%26kwrd%3DComputer science,Information technology">
+                <img data-test="gpt-advert-fallback-img"
+                     src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&amp;sz=728x90&amp;c=180953008&amp;t=pos%3Dtop%26type%3Darticle%26artid%3Dd41586-019-03013-5%26doi%3D10.1038/d41586-019-03013-5%26subjmeta%3D117,258,639,705%26kwrd%3DComputer science,Information technology"
+                     alt="Advertisement"
+                     width="728"
+                     height="90"></a>
+        </noscript>
+    </div>
+
+        
+    
+            </div>
+        </aside>
+    <header class="c-header" id="header" data-header data-track-component="nature-150-split-header" style="border-color:#000">
+        <div class="c-header__row c-header__row--flush">
+            <div class="c-header__container">
+                <div class="c-header__split">
+                    
+                    
+                    <div class="c-header__logo-container">
+                        
+                        <a href="/"
+                           data-track="click" data-track-action="home" data-track-label="image">
+                            <picture class="c-header__logo">
+                                <source srcset="//media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg" media="(min-width: 875px)">
+                                <img src="//media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg" alt="Nature">
+                            </picture>
+                        </a>
+                    
+                    </div>
+                    
+                    <ul class="c-header__menu c-header__menu--global">
+                        <li class="c-header__item c-header__item--nature-research">
+                            <a class="c-header__link" href="https://www.nature.com/siteindex" data-test="siteindex-link"
+                               data-track="click" data-track-action="open nature research index" data-track-label="link">
+                                <span>View all journals</span>
+                            </a>
+                        </li>
+                        <li class="c-header__item c-header__item--pipe">
+                            <a class="c-header__link"
+                               href="#search-menu"
+                               data-header-expander
+                               data-test="search-link" data-track="click" data-track-action="open search tray" data-track-label="button">
+                                <span>Search</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 15.455c.283.282.29.749.007 1.032a.738.738 0 01-1.032-.007l-3.045-3.044a7 7 0 111.026-1.026zM8 14A6 6 0 108 2a6 6 0 000 12z"/></svg>
+                            </a>
+                        </li>
+                        <li class="c-header__item">
+                            <a href="/nams/svc/myaccount"
+    id="my-account"
+    class="c-header__link placeholder"
+    data-test="login-link" data-track="click" data-track-action="my account" data-track-category="nature-150-split-header" data-track-label="link">
+    <span>My Account</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg>
+</a>
+<a href="https://idp.nature.com/authorize/natureuser?client_id&#x3D;grover&amp;redirect_uri&#x3D;https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-019-03013-5"
+    id="login-button"
+    style="display: none;"
+    class="c-header__link placeholder"
+    data-test="login-link" data-track="click" data-track-action="login" data-track-category="nature-150-split-header" data-track-label="link">
+    <span>Login</span><svg role="img" aria-hidden="true" focusable="false" height="22" width="22" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M10.238 16.905a7.96 7.96 0 003.53-1.48c-.874-2.514-2.065-3.936-3.768-4.319V9.83a3.001 3.001 0 10-2 0v1.277c-1.703.383-2.894 1.805-3.767 4.319A7.96 7.96 0 009 17c.419 0 .832-.032 1.238-.095zm4.342-2.172a8 8 0 10-11.16 0c.757-2.017 1.84-3.608 3.49-4.322a4 4 0 114.182 0c1.649.714 2.731 2.305 3.488 4.322zM9 18A9 9 0 119 0a9 9 0 010 18z" fill="#333" fill-rule="evenodd"/></svg>
+</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+            <div class="c-header__row">
+                <div class="c-header__container" data-test="c-header__container">
+                    <div class="c-header__split">
+                        <div class="c-header__split">
+                            <ul class="c-header__menu c-header__menu--journal">
+                                
+                                    <li class="c-header__item c-header__item--dropdown-menu" data-test="explore-content-button">
+                                        <a href="#explore"
+                                           class="c-header__link c-header__link--chevron"
+                                           data-header-expander
+                                           data-test="menu-button--explore"
+                                           data-track="click" data-track-action="open explore expander" data-track-label="button">
+                                            <span><span class="c-header__show-text">Explore</span> content</span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                        </a>
+                                    </li>
+                                
+                                <li class="c-header__item c-header__item--dropdown-menu">
+                                    <a href="#about-the-journal"
+                                       class="c-header__link c-header__link--chevron"
+                                       data-header-expander
+                                       data-test="menu-button--about-the-journal"
+                                       data-track="click" data-track-action="open about the journal expander" data-track-label="button">
+                                        <span>About <span class="c-header__show-text">the journal</span></span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                    </a>
+                                </li>
+                                
+                                    <li class="c-header__item c-header__item--dropdown-menu u-mr-2" data-test="publish-with-us-button">
+                                        <a href="#publish-with-us"
+                                           class="c-header__link c-header__link--chevron c-header__link--dropdown-menu"
+                                           data-header-expander
+                                           data-test="menu-button--publish"
+                                           data-track="click" data-track-action="open publish with us expander" data-track-label="button">
+                                            <span>Publish <span class="c-header__show-text">with us</span></span><svg role="img" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" transform="matrix(0 1 -1 0 11 3)"/></svg>
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+
+                            
+                                <div class="c-header__menu u-ml-16 u-show-lg u-hide u-show-at-lg">
+                                    <div class="c-header__item c-header__item--pipe">
+                                        <a class="c-header__link"
+                                           href="https://www.nature.com/nature/subscribe"
+                                           data-track="click"
+                                           data-track-action="subscribe"
+                                           data-track-label="link"
+                                           data-test=menu-button-subscribe>
+                                            <span>Subscribe</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                        </div>
+
+                        <ul class="c-header__menu c-header__menu--tools">
+                            
+                                <li class="c-header__item">
+                                    <a class="c-header__link"
+                                       href="https://www.nature.com/my-account/alerts/subscribe-journal?list-id&#x3D;1"
+                                       rel="nofollow"
+                                       data-track="click"
+                                       data-track-action="Sign up for alerts"
+                                       data-track-label="link (desktop site header)"
+                                       data-track-external>
+                                        <span>Sign up for alerts</span><svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#222"/></svg>
+                                    </a>
+                                </li>
+                            
+                            
+                                <li class="c-header__item c-header__item--pipe">
+                                    <a class="c-header__link"
+                                       href="http://feeds.nature.com/nature/rss/current"
+                                       data-track="click"
+                                       data-track-action="rss feed"
+                                       data-track-label="link">
+                                        <span>RSS feed</span>
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+
+    
+    
+        <nav class="u-mb-16 u-hide u-show-at-md" aria-label="breadcrumbs">
+            <div class="u-container">
+                <ol class="c-breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li class="c-breadcrumbs__item" id="breadcrumb0" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a class="c-breadcrumbs__link"
+                               href="/" itemprop="item"
+                               data-track="click" data-track-action="breadcrumb" data-track-category="header" data-track-label="link:nature"><span itemprop="name">nature</span></a><meta itemprop="position" content="1">
+                                    <svg class="u-icon c-breadcrumbs__chevron" role="img" aria-hidden="true" focusable="false" height="10" viewBox="0 0 10 10" width="10"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m5.96738168 4.70639573 2.39518594-2.41447274c.37913917-.38219212.98637524-.38972225 1.35419292-.01894278.37750606.38054586.37784436.99719163-.00013556 1.37821513l-4.03074001 4.06319683c-.37758093.38062133-.98937525.38100976-1.367372-.00003075l-4.03091981-4.06337806c-.37759778-.38063832-.38381821-.99150444-.01600053-1.3622839.37750607-.38054587.98772445-.38240057 1.37006824.00302197l2.39538588 2.4146743.96295325.98624457z"
+                                              fill="#666" fill-rule="evenodd" transform="matrix(0 -1 1 0 0 10)"/>
+                                    </svg>
+                                </li><li class="c-breadcrumbs__item" id="breadcrumb1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a class="c-breadcrumbs__link"
+                               href="/nature/articles?type&#x3D;news-feature" itemprop="item"
+                               data-track="click" data-track-action="breadcrumb" data-track-category="header" data-track-label="link:news feature"><span itemprop="name">news feature</span></a><meta itemprop="position" content="2">
+                                    <svg class="u-icon c-breadcrumbs__chevron" role="img" aria-hidden="true" focusable="false" height="10" viewBox="0 0 10 10" width="10"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m5.96738168 4.70639573 2.39518594-2.41447274c.37913917-.38219212.98637524-.38972225 1.35419292-.01894278.37750606.38054586.37784436.99719163-.00013556 1.37821513l-4.03074001 4.06319683c-.37758093.38062133-.98937525.38100976-1.367372-.00003075l-4.03091981-4.06337806c-.37759778-.38063832-.38381821-.99150444-.01600053-1.3622839.37750607-.38054587.98772445-.38240057 1.37006824.00302197l2.39538588 2.4146743.96295325.98624457z"
+                                              fill="#666" fill-rule="evenodd" transform="matrix(0 -1 1 0 0 10)"/>
+                                    </svg>
+                                </li><li class="c-breadcrumbs__item" id="breadcrumb2" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                    <span itemprop="name">article</span><meta itemprop="position" content="3"></li>
+                </ol>
+            </div>
+        </nav>
+    
+
+
+
+    
+
+</div>
+
+    
+    <div id="content" class="article-page position-relative z-index-1">
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix article-page--news">
+        
+
+
+
+
+
+
+
+<article class="article-item article-item--open" itemscope="" itemtype="http://schema.org/NewsArticle" data-track-component="news" lang="en">
+    <div class="u-clearfix container-type-article" data-container-type="article" data-component="article-container">
+        
+            
+                
+                    
+<div class="c-article-header">
+    <header>
+        <div class="c-article-header__restrict">
+            <ul class="c-article-identifiers" data-test="article-identifier">
+                <li class="c-article-identifiers__item" data-test="article-category"><span class="c-article-identifiers__type">NEWS FEATURE</li>
+                <li class="c-article-identifiers__item"><time itemprop="datePublished">09 October 2019</time></li>
+                
+            </ul>
+
+            <h1 class="c-article-magazine-title" itemprop="headline">Why deep-learning AIs are so easy to fool</h1>
+
+            <div class="u-clearfix">
+                
+                <div class="c-article-teaser-text">
+                    Artificial-intelligence researchers are trying to fix the flaws of neural networks.
+                </div>
+            </div>
+        </div>
+        
+            <div class="c-article-author-list-container u-clearfix">
+                <ul class="c-article-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list">
+    
+        <li class="c-author-list__item"><a data-test="author-name"
+                data-track="click" data-track-label="view author info" href="#author-0" data-author-popup="author-0"
+                >Douglas Heaven</a>
+            
+                
+            
+            
+                <sup class="u-js-hide"><a href="#Aff0">0</a></sup>
+            
+        </li>
+    
+</ul>
+<div class="u-js-hide u-hide-print cleared" data-test="author-info">
+    <ol class="c-article-authors-listing u-list-reset">
+        
+            <li class="c-article-authors-listing__item">
+                
+                    <span class="c-article-authors-search__title u-h3 js-search-name">Douglas Heaven</span>
+                
+                
+                    <ol class="c-article-author-affiliation__list u-list-reset">
+                        <li id="Aff0">
+                            <p class="c-article-author-affiliation__address">Douglas Heaven is a freelance writer based in London.</p>
+                        </li>
+                    </ol>
+                
+                
+                    <div id="author-0">
+                        <div class="c-article-authors-search__list">
+                            <div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?author=&quot;Douglas Heaven&quot;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div>
+                            <div class="c-article-authors-search__item c-article-authors-search__list-item--right">
+                                <p class="search-in-title-js c-article-authors-search__text">You can also search for this author in <span
+                                    class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd&#x3D;search&amp;term&#x3D;%22Douglas%2BHeaven%22" data-track="click" data-track-action="author link - PubMed" data-track-label="link">PubMed</a>
+                                    <span class="u-hide">&nbsp;</span><a class="c-article-identifiers__item" href="https://scholar.google.co.uk/scholar?as_q&#x3D;&amp;btnG&#x3D;Search+Scholar&amp;as_sauthors&#x3D;%22Douglas%2BHeaven%22" data-track="click" data-track-action="author link - Google Scholar" data-track-label="link">Google Scholar</a>
+                                    </span></p>
+                            </div>
+                       </div>
+                    </div>
+                
+            </li>
+        
+    </ol>
+</div>
+
+            </div>
+        
+
+        <div class="u-clearfix">
+            <ul class="c-article-social-list u-hide-print">
+    <li class="c-article-social-list__item">
+        <a class="c-article-social-list__icon--inline" data-track="click" data-track-action="twitter" data-track-category="social" data-track-label="10.1038/d41586-019-03013-5" href="https://twitter.com/intent/tweet?text=Why+deep-learning+AIs+are+so+easy+to+fool&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-019-03013-5">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg role="img" focusable="false" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Share on Twitter</title>
+                <desc>Share on Twitter</desc>
+                <defs></defs>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g>
+                        <polygon points="0 0 30 0 30 30 0 30"></polygon>
+                        <path d="M20.8125,11.4875 C21.42,11.10375 21.8875,10.49625 22.105,9.7725 C21.5375,10.1275 20.90875,10.385 20.23875,10.5225 C19.70625,9.9225 18.9425,9.545 18.0975,9.545 C16.475,9.545 15.16,10.9325 15.16,12.6425 C15.16,12.885 15.185,13.1225 15.235,13.3475 C12.7975,13.2175 10.63125,11.985 9.1825,10.11 C8.93,10.56875 8.785,11.10125 8.785,11.66875 C8.785,12.74375 9.30375,13.69125 10.09125,14.2475 C9.61125,14.23125 9.1575,14.09 8.76125,13.86 L8.76125,13.8975 C8.76125,15.3975 9.77375,16.65125 11.11875,16.935 C10.87125,17.0075 10.6125,17.04375 10.34375,17.04375 C10.15625,17.04375 9.96875,17.025 9.79125,16.98875 C10.16625,18.22125 11.24875,19.11875 12.535,19.1425 C11.52875,19.97375 10.2625,20.4675 8.885,20.4675 C8.6475,20.4675 8.415,20.455 8.185,20.42625 C9.485,21.30375 11.02875,21.81625 12.6875,21.81625 C18.09,21.81625 21.04375,17.095 21.04375,13.00125 L21.03625,12.60125 C21.61125,12.16375 22.11125,11.6175 22.50125,10.99625 C21.97375,11.2425 21.4075,11.40875 20.81375,11.48375 L20.8125,11.4875 Z"
+                              fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </li>
+    <li class="c-article-social-list__item">
+        <a class="c-article-social-list__icon--inline" data-track="click" data-track-action="facebook" data-track-category="social" data-track-label="10.1038/d41586-019-03013-5" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-019-03013-5">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg role="img" focusable="false" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Share on Facebook</title>
+                <desc>Share on Facebook</desc>
+                <defs></defs>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g>
+                        <polygon points="0 0 30 0 30 30 0 30"></polygon>
+                        <path d="M15.89625,22.8625 L12.57125,22.8625 L12.57125,15.02125 L10.90875,15.02125 L10.90875,12.31875 L12.57125,12.31875 L12.57125,10.69625 C12.57125,8.4925 13.50875,7.18 16.175,7.18 L18.39375,7.18 L18.39375,9.8825 L17.00625,9.8825 C15.96875,9.8825 15.9,10.26 15.9,10.965 L15.895,12.3175 L18.4075,12.3175 L18.115,15.02 L15.89625,15.02 L15.89625,22.8625 Z"
+                              fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </li>
+    <li class="c-article-social-list__item">
+        <a class="c-article-social-list__icon--inline" data-track="click" data-track-action="email" data-track-category="social" data-track-label="10.1038/d41586-019-03013-5" href="mailto:?subject=Why deep-learning AIs are so easy to fool&body=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-019-03013-5">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg role="img" focusable="false" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Share via E-Mail</title>
+                <desc>Share via E-Mail</desc>
+                <defs></defs>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g>
+                        <g>
+                            <polygon points="0 0 30 0 30 30 0 30"></polygon>
+                            <path d="M15,15.3269887 L10.6248577,11.9177869 C10.4236021,11.7609644 10.1299323,11.7927468 9.96892789,11.988775 C9.80792343,12.1848031 9.84055341,12.4708451 10.041809,12.6276676 L14.7012493,16.2584003 C14.8680779,16.3940555 15.1152493,16.4013884 15.2915244,16.2640313 C15.2939898,16.2622325 15.2963784,16.2603294 15.2987507,16.2584003 L19.958191,12.6276676 C20.1594466,12.4708451 20.1920766,12.1848031 20.0310721,11.988775 C19.8700677,11.7927468 19.5763979,11.7609644 19.3751423,11.9177869 L15,15.3269887 Z M9,10 L21,10 C21.5522847,10 22,10.4477153 22,11 L22,19 C22,19.5522847 21.5522847,20 21,20 L9,20 C8.44771525,20 8,19.5522847 8,19 L8,11 C8,10.4477153 8.44771525,10 9,10 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </li>
+</ul>
+
+        </div>
+    </header>
+</div>
+
+                    <div class="u-clear-both c-article-wide-figure">
+                        <figure class="figure">
+    <picture>
+        <source media="(min-width: 1220px)"
+                srcset="//media.nature.com/w1248/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247326.jpg"/>
+        <source media="(min-width: 768px) and (max-width: 1219px)"
+                srcset="//media.nature.com/w1219/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247326.jpg"/>
+        <source media="(max-width: 767px)"
+                srcset="//media.nature.com/w767/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247326.jpg"/>
+        <img
+                aria-describedby="Fig2"
+                src="//media.nature.com/w700/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247326.jpg"
+                alt=""/>
+    </picture>
+    <div>
+        <figcaption>
+            <p class="figure__caption u-sans-serif" id="Fig2"> Illustration by Edgar Bąk</p>
+        </figcaption>
+    </div>
+</figure>
+                    </div>
+                    <main class="c-article-main-column u-float-left" itemprop="articleBody">
+                
+            
+        
+
+        
+            
+                
+                    <noscript>
+                        
+<div class="c-nature-box c-nature-box--side " data-component="entitlement-box">
+    
+        <p class="c-nature-box__text js-text">You have full access to this article via your institution.</p>
+        
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="/articles/d41586-019-03013-5.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="download-pdf" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="link" data-track-external>
+            <span>Download PDF</span>
+            <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+        </a>
+    </div>
+    
+
+    
+</div>
+
+                    </noscript>
+
+                    
+                        <div class="c-nature-box c-nature-box--side u-display-none u-hide-print" aria-hidden="true" data-component="entitlement-box"
+    id=entitlement-box-entitled-mobile
+    
+    >
+
+    
+        <p class="c-nature-box__text js-text u-display-none" aria-hidden="true"></p>
+        
+        
+            
+                <div class="c-pdf-download u-clear-both">
+                    <a href="//media.nature.com/original/magazine-assets/d41586-019-03013-5/d41586-019-03013-5.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="download-pdf" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="link">
+                        <span>Download PDF</span>
+                        <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+                    </a>
+                </div>
+            
+        
+    
+</div>
+
+                    
+                
+            
+
+            
+                
+                    
+                
+                <div class="c-article-body u-clearfix">
+                    <p>A self-driving car approaches a stop sign, but instead of slowing down, it accelerates into the busy intersection. An accident report later reveals that four small rectangles had been stuck to the face of the sign. These fooled the car’s onboard artificial intelligence (AI) into misreading the word ‘stop’ as ‘speed limit 45’.</p><p>Such an event hasn’t actually happened, but the potential for sabotaging AI is very real. Researchers have already demonstrated <a href="https://arxiv.org/abs/1707.08945" data-track="click" data-label="https://arxiv.org/abs/1707.08945" data-track-category="body text link">how to fool an AI system into misreading a stop sign</a>, by carefully positioning stickers on it<sup><a href="#ref-CR1" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">1</a></sup>. They have <a href="https://arxiv.org/abs/1908.08705" data-track="click" data-label="https://arxiv.org/abs/1908.08705" data-track-category="body text link">deceived facial-recognition systems</a> by sticking a printed pattern on glasses or hats. And they have <a href="https://arxiv.org/abs/1707.05373" data-track="click" data-label="https://arxiv.org/abs/1707.05373" data-track-category="body text link">tricked speech-recognition systems</a> into hearing phantom phrases by inserting patterns of white noise in the audio.</p><p>These are just some examples of how easy it is to break the leading pattern-recognition technology in AI, known as deep neural networks (DNNs). These have proved incredibly successful at correctly classifying all kinds of input, including images, speech and data on consumer preferences. They are part of daily life, running everything from automated telephone systems to user recommendations on the streaming service Netflix. Yet making alterations to inputs — in the form of tiny changes that are typically imperceptible to humans — can flummox the best neural networks around.</p><p>These problems are more concerning than idiosyncratic quirks in a not-quite-perfect technology, says Dan Hendrycks, a PhD student in computer science at the University of California, Berkeley. Like many scientists, he has come to see them as the most striking illustration that DNNs are fundamentally brittle: brilliant at what they do until, taken into unfamiliar territory, they break in unpredictable ways.</p><figure class="figure">
+ <div class="embed intensity--high">
+  <img class="figure__image" alt="" data-src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247076.png">
+  <noscript>
+   <img class="" alt="" src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17247076.png">
+  </noscript>
+  <figcaption>
+   <p class="figure__caption u-sans-serif"><span>Sources: Stop sign: Ref. 1; Penguin: Ref. 5</span></p>
+  </figcaption>
+ </div>
+</figure><p>That could lead to substantial problems. Deep-learning systems are increasingly moving out of the lab into the real world, from <a href="https://www.nature.com/news/autonomous-vehicles-no-drivers-required-1.16832" data-track="click" data-label="https://www.nature.com/news/autonomous-vehicles-no-drivers-required-1.16832" data-track-category="body text link">piloting self-driving cars</a> to <a href="https://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805" data-track="click" data-label="https://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805" data-track-category="body text link">mapping crime</a> and <a href="https://www.nature.com/articles/d41586-019-02870-4" data-track="click" data-label="https://www.nature.com/articles/d41586-019-02870-4" data-track-category="body text link">diagnosing disease</a>. But pixels maliciously added to medical scans could fool a DNN into wrongly detecting cancer, one study reported this year<sup><a href="#ref-CR2" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">2</a></sup>. Another suggested that a hacker could use these weaknesses to hijack an online AI-based system so that it runs the invader’s own algorithms<sup><a href="#ref-CR3" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">3</a></sup>.</p><p>In their efforts to work out what’s going wrong, researchers have discovered a lot about why DNNs fail. “There are no fixes for the fundamental brittleness of deep neural networks,” argues François Chollet, an AI engineer at Google in Mountain View, California. To move beyond the flaws, he and others say, researchers need to augment pattern-matching DNNs with extra abilities: for instance, making AIs that can explore the world for themselves, write their own code and retain memories. These kinds of system will, some experts think, form the story of the coming decade in AI research.</p><h2>Reality check</h2><p>In 2011, Google revealed a system that could recognize cats in YouTube videos, and soon after came <a href="https://www.nature.com/news/computer-science-the-learning-machines-1.14481" data-track="click" data-label="https://www.nature.com/news/computer-science-the-learning-machines-1.14481" data-track-category="body text link">a wave of DNN-based classification systems</a>. “Everybody was saying, ‘Wow, this is amazing, computers are finally able to understand the world,’” says Jeff Clune at the University of Wyoming in Laramie, who is also a senior research manager at Uber AI Labs in San Francisco, California.</p><p>But AI researchers knew that DNNs do not actually understand the world. Loosely modelled on the architecture of the brain, they are software structures made up of large numbers of digital neurons arranged in many layers. Each neuron is connected to others in layers above and below it.</p><p>The idea is that features of the raw input coming into the bottom layers — such as pixels in an image — trigger some of those neurons, which then pass on a signal to neurons in the layer above according to simple mathematical rules. Training a DNN network involves exposing it to a massive collection of examples, each time tweaking the way in which the neurons are connected so that, eventually, the top layer gives the desired answer — such as always interpreting a picture of a lion as a lion, even if the DNN hasn’t seen that picture before.</p><p>A first big reality check came in 2013, when Google researcher Christian Szegedy and his colleagues posted a preprint called ‘Intriguing properties of neural networks’<sup><a href="#ref-CR4" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">4</a></sup>. The team showed that it was possible to take an image — of a lion, for example — that a DNN could identify and, by altering a few pixels, convince the machine that it was looking at something different, such as a library. The team called the doctored images ‘adversarial examples’.</p><figure class="figure">
+ <div class="embed intensity--high">
+  <img class="figure__image" alt="" data-src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249554.png">
+  <noscript>
+   <img class="" alt="" src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249554.png">
+  </noscript>
+  <figcaption>
+   <p class="figure__caption u-sans-serif"><span></span></p>
+  </figcaption>
+ </div>
+</figure><p>A year later, Clune and his then-PhD student Anh Nguyen, together with Jason Yosinski at Cornell University in Ithaca, New York, showed that it was possible to make DNNs see things that were not there, such as a penguin in a pattern of wavy lines<sup><a href="#ref-CR5" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">5</a></sup>. “Anybody who has played with machine learning knows these systems make stupid mistakes once in a while,” says Yoshua Bengio at the University of Montreal in Canada, who is a pioneer of deep learning. “What was a surprise was the type of mistake,” he says. “That was pretty striking. It’s a type of mistake we would not have imagined would happen.”</p><p>New types of mistake have come thick and fast. Last year, Nguyen, who is now at Auburn University in Alabama, showed that simply rotating objects in an image was sufficient to throw off some of the best image classifiers around<sup><a href="#ref-CR6" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">6</a></sup>. This year, Hendrycks and his colleagues reported that even unadulterated, natural images can still trick state-of-the-art classifiers into making unpredictable gaffes, such as identifying a mushroom as a pretzel or a dragonfly as a manhole cover<sup><a href="#ref-CR7" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">7</a></sup>.</p><figure class="figure">
+ <div class="embed intensity--high">
+  <img class="figure__image" alt="" data-src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249562.png">
+  <noscript>
+   <img class="" alt="" src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17249562.png">
+  </noscript>
+  <figcaption>
+   <p class="figure__caption u-sans-serif"><span></span></p>
+  </figcaption>
+ </div>
+</figure><p>The issue goes beyond object recognition: any AI that uses DNNs to classify inputs — such as speech — can be fooled. AIs that play games can be sabotaged: in 2017, computer scientist Sandy Huang, a PhD student at the University of California, Berkeley, and her colleagues focused on DNNs that had been trained to beat Atari video games through a process called reinforcement learning<sup><a href="#ref-CR8" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">8</a></sup>. In this approach, an AI is given a goal and, in response to a range of inputs, learns through trial and error what to do to reach that goal. It is the technology behind superhuman game-playing AIs such as <a href="https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go" data-track="click" data-label="https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go" data-track-category="body text link">AlphaZero</a> and the <a href="https://www.nature.com/articles/d41586-019-02156-9" data-track="click" data-label="https://www.nature.com/articles/d41586-019-02156-9" data-track-category="body text link">poker bot Pluribus</a>. Even so, Huang’s team was able to make their AIs lose games by adding one or two random pixels to the screen.</p><p>Earlier this year, AI PhD student Adam Gleave at the University of California, Berkeley, and his colleagues demonstrated that it is possible to introduce an agent to an AI’s environment that acts out an ‘adversarial policy’ designed to confuse the AI’s responses<sup><a href="#ref-CR9" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">9</a></sup>. For example, an AI footballer trained to kick a ball past an AI goalkeeper in a simulated environment loses its ability to score when the goalkeeper starts to behave in unexpected ways, such as collapsing on the ground.</p><figure class="figure">
+ <div class="embed intensity--high">
+  <img class="figure__image" alt="A simulated soccer penalty shootout between two Humanoid robots displayed with and without a adversarial policy" data-src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17239016.gif">
+  <noscript>
+   <img class="" alt="A simulated soccer penalty shootout between two Humanoid robots displayed with and without a adversarial policy" src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17239016.gif">
+  </noscript>
+  <figcaption>
+   <p class="figure__caption u-sans-serif"><span class="mr10">An AI footballer in a simulated penalty-shootout is confused when the AI goalkeeper enacts an ‘adversarial policy’: falling to the floor (right).</span><span>Credit: Adam Gleave/Ref. 9</span></p>
+  </figcaption>
+ </div>
+</figure><p>Knowing where a DNN’s weak spots are could even let a hacker take over a powerful AI. One example of that came last year, when a team from Google showed that it was possible to use adversarial examples not only to force a DNN to make specific mistakes, but also to reprogram it entirely — effectively repurposing an AI trained on one task to do another<sup><a href="#ref-CR3" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">3</a></sup>.</p><p>Many neural networks, such as those that learn to understand language, can, in principle, be used to encode any other computer program. “In theory, you can turn a chatbot into whatever programme you want,” says Clune. “This is where the mind starts to boggle.” He imagines a situation in the near future in which hackers could hijack neural nets in the cloud to run their own spambot-dodging algorithms.</p><p>For computer scientist Dawn Song at the University of California, Berkeley, DNNs are like sitting ducks. “There are so many different ways that you can attack a system,” she says. “And defence is very, very difficult.”</p><h2>With great power comes great fragility</h2><p>DNNs are powerful because their many layers mean they can pick up on patterns in many different features of an input when attempting to classify it. An AI trained to recognize aircraft might find that features such as patches of colour, texture or background are just as strong predictors as the things that we would consider salient, such as wings. But this also means that a very small change in the input can tip it over into what the AI considers an apparently different state.</p><p>One answer is simply to throw more data at the AI; in particular, to repeatedly expose the AI to problematic cases and correct its errors. In this form of ‘adversarial training’, as one network learns to identify objects, a second tries to change the first network’s inputs so that it makes mistakes. In this way, adversarial examples become part of a DNN’s training data.</p><p>Hendrycks and his colleagues have suggested quantifying a DNN’s robustness against making errors by testing how it performs against a large range of adversarial examples. However, training a network to withstand one kind of attack <a href="https://arxiv.org/abs/1908.08016" data-track="click" data-label="https://arxiv.org/abs/1908.08016" data-track-category="body text link">could weaken it against others</a>, they say. And researchers led by Pushmeet Kohli at Google DeepMind in London are <a href="https://deepmind.com/blog/article/robust-and-verified-ai" data-track="click" data-label="https://deepmind.com/blog/article/robust-and-verified-ai" data-track-category="body text link">trying to inoculate DNNs against making mistakes</a>. Many adversarial attacks work by making tiny tweaks to the component parts of an input — such as subtly altering the colour of pixels in an image — until this tips a DNN over into a misclassification. Kohli’s team has suggested that a robust DNN should not change its output as a result of small changes in its input, and that this property might be mathematically incorporated into the network, constraining how it learns.</p><p>For the moment, however, no one has a fix on the overall problem of brittle AIs. The root of the issue, says Bengio, is that DNNs don’t have a good model of how to pick out what matters. When an AI sees a doctored image of a lion as a library, a person still sees a lion because they have a mental model of the animal that rests on a set of high-level features — ears, a tail, a mane and so on — that lets them abstract away from low-level arbitrary or incidental details. “We know from prior experience which features are the salient ones,” says Bengio. “And that comes from a deep understanding of the structure of the world.”</p><p>One attempt to address this is to combine DNNs with symbolic AI, which was the dominant paradigm in AI before machine learning. With symbolic AI, machines reasoned using hard-coded rules about how the world worked, such as that it contains discrete objects and that they are related to one another in various ways. Some researchers, such as psychologist Gary Marcus at New York University, say hybrid AI models are the way forward. “Deep learning is so useful in the short term that people have lost sight of the long term,” says Marcus, who is a long-time critic of the current deep-learning approach. In May, he co-founded a start-up called Robust AI in Palo Alto, California, which aims to mix deep learning with rule-based AI techniques to develop robots that can operate safely alongside people. Exactly what the company is working on remains under wraps.</p><p>Even if rules can be embedded into DNNs, they are still only as good as the data they learn from. Bengio says that AI agents need to learn in richer environments that they can explore. For example, most computer-vision systems fail to recognize that a can of beer is cylindrical because they were trained on data sets of 2D images. That is why Nguyen and colleagues found it so easy to fool DNNs by presenting familiar objects from different perspectives. Learning in a 3D environment — real or simulated — will help.</p><p>But the way AIs do their learning also needs to change. “Learning about causality needs to be done by agents that do things in the world, that can experiment and explore,” says Bengio. Another deep-learning pioneer, Jürgen Schmidhuber at the Dalle Molle Institute for Artificial Intelligence Research in Manno, Switzerland, thinks along similar lines. Pattern recognition is extremely powerful, he says — good enough to have made companies such as Alibaba, Tencent, Amazon, Facebook and Google the most valuable in the world. “But there’s a much bigger wave coming,” he says. “And this will be about machines that manipulate the world and create their own data through their own actions.”</p><p>In a sense, AIs that use reinforcement learning to beat computer games are doing this already in artificial environments: by trial and error, they manipulate pixels on screen in allowed ways until they reach a goal. But real environments are much richer than the simulated or curated data sets on which most DNNs train today.</p><h2>Robots that improvise</h2><p>In a laboratory at the University of California, Berkeley, a robot arm rummages through clutter. It picks up a red bowl and uses it to nudge a blue oven glove a couple of centimetres to the right. It drops the bowl and picks up an empty plastic spray bottle. Then it explores the heft and shape of a paperback book. Over several days of non-stop sifting, the robot starts to get a feel for these alien objects and what it can do with them.</p><p>The robot arm is using deep learning to teach itself to use tools. Given a tray of objects, it picks up and looks at each in turn, seeing what happens when it moves them around and knocks one object into another.</p><figure class="figure">
+ <div class="embed intensity--high">
+  <img class="figure__image" alt="Collection of clips of robots improvising with tools" data-src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17239018.gif">
+  <noscript>
+   <img class="" alt="Collection of clips of robots improvising with tools" src="//media.nature.com/lw800/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_17239018.gif">
+  </noscript>
+  <figcaption>
+   <p class="figure__caption u-sans-serif"><span class="mr10">Robots use deep learning to explore how to use 3D tools.</span><span>Credit: Annie Xie</span></p>
+  </figcaption>
+ </div>
+</figure><p>When researchers give the robot a goal — for instance, presenting it with an image of a nearly empty tray and specifying that the robot arrange objects to match that state — it improvises, and can work with objects it has not seen before, such as using a sponge to wipe objects off a table. It also figured out that clearing up using a plastic water bottle to knock objects out of the way is quicker than picking up those objects directly. “Compared to other machine-learning techniques, the generality of what it can accomplish continues to impress me,” says Chelsea Finn, who worked at the Berkeley lab and is now <a href="http://ai.stanford.edu/~cbfinn/" data-track="click" data-label="http://ai.stanford.edu/~cbfinn/" data-track-category="body text link">continuing that research</a> at Stanford University in California.</p><p>This kind of learning gives an AI a much richer understanding of objects and the world in general, says Finn. If you had seen a water bottle or a sponge only in photographs, you might be able to recognize them in other images. But you would not really understand what they were or what they could be used for. “Your understanding of the world would be much shallower than if you could actually interact with them,” she says.</p><p>But this learning is a slow process. In a simulated environment, an AI can rattle through examples at lightning speed. In 2017, AlphaZero, the latest version of DeepMind’s self-taught game-playing software, was trained to become a superhuman player of Go, then chess and then shogi (a form of Japanese chess) in just over a day. In that time, it played more than 20 million training games of each event.</p><p>AI robots can’t learn this quickly. Almost all major results in deep learning have relied heavily on large amounts of data, says Jeff Mahler, co-founder of Ambidextrous, an AI and robotics company in Berkeley, California. “Collecting tens of millions of data points would cost years of continuous execution time on a single robot.” What’s more, the data might not be reliable, because the calibration of sensors can change over time and hardware can degrade.</p><p>Because of this, most robotics work that involves deep learning still uses simulated environments to speed up the training. “What you can learn depends on how good the simulators are,” says David Kent, a PhD student in robotics at the Georgia Institute of Technology in Atlanta. Simulators are improving all the time, and researchers are getting better at transferring lessons learnt in virtual worlds over to the real. Such simulations are still no match for real-world complexities, however.</p><p>Finn argues that learning using robots is ultimately easier to scale up than learning with artificial data. Her tool-using robot took a few days to learn a relatively simple task, but it did not require heavy monitoring. “You just run the robot and just kind of check in with it every once in a while,” she says. She imagines one day having lots of robots out in the world left to their own devices, learning around the clock. This should be possible — after all, this is how people gain an understanding of the world. “A baby doesn’t learn by downloading data from Facebook,” says Schmidhuber.</p><h2>Learning from less data</h2><p>A baby can also recognize new examples from just a few data points: even if they have never seen a giraffe before, they can still learn to spot one after seeing it once or twice. Part of the reason this works so quickly is because the baby has seen many other living things, if not giraffes, so is already familiar with their salient features.</p><p>A catch-all term for granting these kinds of abilities to AIs is transfer learning: the idea being to transfer the knowledge gained from previous rounds of training to another task. One way to do this is to reuse all or part of a pre-trained network as the starting point when training for a new task. For example, reusing parts of a DNN that has already been trained to identify one type of animal — such as those layers that recognize basic body shape — could give a new network the edge when learning to identify a giraffe.</p><p>An extreme form of transfer learning aims to train a new network by showing it just a handful of examples, and sometimes only one. Known as one-shot or few-shot learning, this relies heavily on pre-trained DNNs. Imagine you want to build a facial-recognition system that identifies people in a criminal database. A quick way is to use a DNN that has already seen millions of faces (not necessarily those in the database) so that it has a good idea of salient features, such as the shapes of noses and jaws. Now, when the network looks at just one instance of a new face, it can extract a useful feature set from that image. It can then compare how similar that feature set is to those of single images in the criminal database, and find the closest match.</p><p>Having a pre-trained memory of this kind can help AIs to recognize new examples without needing to see lots of patterns, which could speed up learning with robots. But such DNNs might still be at a loss when confronted with anything too far from their experience. It’s still not clear how much these networks can generalize.</p><p>Even the most successful AI systems such as DeepMind’s AlphaZero have an extremely narrow sphere of expertise. AlphaZero’s algorithm can be trained to play both Go and chess, but not both at once. Retraining a model’s connections and responses so that it can win at chess resets any previous experience it had of Go. “If you think about it from the perspective of a human, this is kind of ridiculous,” says Finn. People don’t forget what they’ve learnt so easily.</p><h2>Learning how to learn</h2><p>AlphaZero’s success at playing games wasn’t just down to effective reinforcement learning, but also to an algorithm that helped it (using a variant of a technique called Monte Carlo tree search) to narrow down its choices from the possible next steps<sup><a href="#ref-CR10" data-track="click" data-action="anchor-link" data-track-label="go to reference" data-track-category="references">10</a></sup>. In other words, the AI was guided in how best to learn from its environment. Chollet thinks that an important next step in AI will be to give DNNs the ability to write their own such algorithms, rather than using code provided by humans.</p><p>Supplementing basic pattern-matching with reasoning abilities would make AIs better at dealing with inputs beyond their comfort zone, he argues. Computer scientists have for years studied program synthesis, in which a computer generates code automatically. Combining that field with deep learning could lead to systems with DNNs that are much closer to the abstract mental models that humans use, Chollet thinks.</p><p>In robotics, for instance, computer scientist Kristen Grauman at Facebook AI Research in Menlo Park, California, and the University of Texas at Austin is teaching robots how best to explore new environments for themselves. This can involve picking in which directions to look when presented with new scenes, for instance, and which way to manipulate an object to best understand its shape or purpose. The idea is to get the AI to predict which new viewpoint or angle will give it the most useful new data to learn from.</p><p>Researchers in the field say they are making progress in fixing deep learning’s flaws, but acknowledge that they’re still groping for new techniques to make the process less brittle. There is not much theory behind deep learning, says Song. “If something doesn’t work, it’s difficult to figure out why,” she says. “The whole field is still very empirical. You just have to try things.”</p><p>For the moment, although scientists recognize the brittleness of DNNs and their reliance on large amounts of data, most say that the technique is here to stay. The realization this decade that neural networks — allied with enormous computing resources — can be trained to recognize patterns so well remains a revelation. “No one really has any idea how to better it,” says Clune.</p>
+                </div>
+            
+                <p><em>Nature</em> <strong>574</strong>, 163-166 (2019)</p>
+                <p><em>doi: <a href="https://doi.org/10.1038/d41586-019-03013-5">https://doi.org/10.1038/d41586-019-03013-5</a></em></p>
+
+            <div id="references" class="c-article-references__container">
+                <section aria-labelledby="Bib1"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">1.</span><p class="c-article-references__text" id="ref-CR1">Eykholt, K. <i>et al.</i> <i>IEEE/CVF Conf. Comp. Vision Pattern Recog.</i> <b>2018</b>, 1625–1634 (2018).</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FCVPR.2018.00175" aria-label="Article reference 1">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 1" href="http://scholar.google.com/scholar_lookup?&amp;title=&amp;journal=IEEE%2FCVF%20Conf.%20Comp.%20Vision%20Pattern%20Recog.&amp;volume=2018&amp;pages=1625-1634&amp;publication_year=2018&amp;author=Eykholt%2CK.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">2.</span><p class="c-article-references__text" id="ref-CR2">Finlayson, S. G. <i>et al.</i> <i>Science</i> <b>363</b>, 1287–1289 (2019).</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=30898923" aria-label="PubMed reference 2" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1126%2Fscience.aaw4399" aria-label="Article reference 2">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 2" href="http://scholar.google.com/scholar_lookup?&amp;title=&amp;journal=Science&amp;volume=363&amp;pages=1287-1289&amp;publication_year=2019&amp;author=Finlayson%2CS.%20G.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">3.</span><p class="c-article-references__text" id="ref-CR3">Elsayed, G. F., Goodfellow, I. &amp; Sohl-Dickstein, J. Preprint at <a href="https://arxiv.org/abs/1806.11146">https://arxiv.org/abs/1806.11146</a> (2018).</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">4.</span><p class="c-article-references__text" id="ref-CR4">Szegedy, C. <i>et al</i>. Preprint at <a href="https://arxiv.org/abs/1312.6199v1">https://arxiv.org/abs/1312.6199v1</a> (2013).</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">5.</span><p class="c-article-references__text" id="ref-CR5">Nguyen, A., Yosinski, J. &amp; Clune, J. <i>IEEE Conf. Comp. Vision Pattern Recog</i>. <b>2015</b>, 427–436 (2015).</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1109%2FCVPR.2015.7298640" aria-label="Article reference 5">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 5" href="http://scholar.google.com/scholar_lookup?&amp;title=&amp;journal=IEEE%20Conf.%20Comp.%20Vision%20Pattern%20Recog&amp;volume=2015&amp;pages=427-436&amp;publication_year=2015&amp;author=Nguyen%2CA.&amp;author=Yosinski%2CJ.&amp;author=Clune%2CJ.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">6.</span><p class="c-article-references__text" id="ref-CR6">Alcorn, M. A. <i>et al.</i> <i>IEEE Conf. Comp. Vision Pattern Recog</i>. <b>2019</b>, 4845–4854 (2019).</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 6" href="http://scholar.google.com/scholar_lookup?&amp;title=&amp;journal=IEEE%20Conf.%20Comp.%20Vision%20Pattern%20Recog&amp;volume=2019&amp;pages=4845-4854&amp;publication_year=2019&amp;author=Alcorn%2CM.%20A.">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">7.</span><p class="c-article-references__text" id="ref-CR7">Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J. &amp; Song, D. Preprint at <a href="https://arxiv.org/abs/1907.07174">https://arxiv.org/abs/1907.07174</a> (2019).</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">8.</span><p class="c-article-references__text" id="ref-CR8">Huang, S., Papernot, N., Goodfellow, I., Duan, Y. &amp; Abbeel, P. Preprint at <a href="https://arxiv.org/abs/1702.02284">https://arxiv.org/abs/1702.02284</a> (2017).</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">9.</span><p class="c-article-references__text" id="ref-CR9">Gleave, A.<i> et al</i>. Preprint at <a href="https://arxiv.org/abs/1905.10615">https://arxiv.org/abs/1905.10615</a> (2019).</p></li><li class="c-article-references__item js-c-reading-companion-references-item"><span class="c-article-references__counter">10.</span><p class="c-article-references__text" id="ref-CR10">Silver, D. <i>et al.</i> <i>Science</i> <b>362</b>, 1140–1144 (2018).</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=30523106" aria-label="PubMed reference 10" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1126%2Fscience.aar6404" aria-label="Article reference 10">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Google Scholar reference 10" href="http://scholar.google.com/scholar_lookup?&amp;title=&amp;journal=Science&amp;volume=362&amp;pages=1140-1144&amp;publication_year=2018&amp;author=Silver%2CD.">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="https://citation-needed.springer.com/v2/references/10.1038/d41586-019-03013-5?format=refman&amp;flavour=references">Download references<svg width="16" height="16" focusable="false" role="img" aria-hidden="true" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section>
+            </div>
+
+            
+                <h2 class="small-space-below temporary-class-to-handle-titles-visibility u-hide-print" id="related-articles">Related Articles</h2>
+                
+    <ul class="c-article-related-articles u-clearfix u-hide-print">
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/news/can-we-open-the-black-box-of-ai-1.20731" data-track="click" data-track-label="related article (rank:0)">
+                        
+                            <img class="c-article-related-articles__img" loading="lazy" src="//media.nature.com/lw100/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_15853104.jpg" alt="">
+                        
+                        Can we open the black box of AI?
+                    </a>
+                </h3>
+            </li>
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/articles/d41586-019-00505-2" data-track="click" data-track-label="related article (rank:1)">
+                        
+                            <img class="c-article-related-articles__img" loading="lazy" src="//media.nature.com/lw100/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_16655430.jpg" alt="">
+                        
+                        AI pioneer: ‘The dangers of abuse are very real’
+                    </a>
+                </h3>
+            </li>
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/articles/d41586-019-01510-1" data-track="click" data-track-label="related article (rank:2)">
+                        
+                        AI can now defend itself against malicious messages hidden in speech
+                    </a>
+                </h3>
+            </li>
+        
+    </ul>
+
+            
+            
+            
+                <h2 class="small-space-below temporary-class-to-handle-titles-visibility u-hide-print" id="subjects">Subjects</h2>
+                
+    <ul class="c-article-subjects u-clearfix u-hide-print">
+        
+            <li class="c-article-subjects__item">
+                <a href="/subjects/computer-science" data-track="click" data-track-label="subject (rank:0)">Computer science</a>
+            </li>
+        
+            <li class="c-article-subjects__item">
+                <a href="/subjects/information-technology" data-track="click" data-track-label="subject (rank:1)">Information technology</a>
+            </li>
+        
+    </ul>
+
+            <section class="c-article-latest-content__container c-latest-content mt40 hide-print" data-simple-tab data-tab-group  data-component-id="latest-news" data-track="in-view" data-track-action="in-view" data-track-category="latest content" data-track-label="visible">
+    <div id="latest-content" role="tablist">
+        <h2 class="c-article-latest-content__title">Latest on:</h2>
+        <div class="cleared">
+            
+                <div id="latest-content-0" class="c-latest-content__container" data-container>
+                    <button id="latest-content-0-head" class="c-latest-content__category c-latest-content__switch" data-switch role="tab"
+                       aria-controls="latest-content-0-content" data-track="click" data-track-label="latest tag (rank:0)">Computer science</button>
+                    <div id="latest-content-0-content" class="c-latest-content__item-container" role="tabpanel">
+                        <div class="u-flex__container--lc" aria-labelledby="author-affiliation-news-0-head" data-content>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/s41586-021-03854-z" data-track="click" data-track-label="latest grover (tag:0) (rank:0)">
+                                        
+                                            <img class="c-latest-content__image" src="https://media.nature.com/w140h79/springer-static/image/art%3A10.1038%2Fs41586-021-03854-z/MediaObjects/41586_2021_3854_Fig1_HTML.png" alt="Skilful precipitation nowcasting using deep generative models of radar">
+                                        
+                                        <h3 class="c-latest-content__title">Skilful precipitation nowcasting using deep generative models of radar</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">Article</span> <span class="c-latest-content__date sans-serif"><time>29 SEP 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/s41586-021-03922-4" data-track="click" data-track-label="latest grover (tag:0) (rank:1)">
+                                        
+                                            <img class="c-latest-content__image" src="https://media.nature.com/w140h79/springer-static/image/art%3A10.1038%2Fs41586-021-03922-4/MediaObjects/41586_2021_3922_Fig1_HTML.png" alt="Biologically informed deep neural network for prostate cancer discovery">
+                                        
+                                        <h3 class="c-latest-content__title">Biologically informed deep neural network for prostate cancer discovery</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">Article</span> <span class="c-latest-content__date sans-serif"><time>22 SEP 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/d41586-021-02497-4" data-track="click" data-track-label="latest magazine (tag:0) (rank:2)">
+                                        
+                                            <img class="c-latest-content__image" src="https://images.nature.com/w140h79/magazine-assets/d41586-021-02497-4/d41586-021-02497-4_19656408.jpg" alt="Women less likely to win major research awards">
+                                        
+                                        <h3 class="c-latest-content__title">Women less likely to win major research awards</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">News</span> <span class="c-latest-content__date sans-serif"><time>13 SEP 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="latest-content-1" class="c-latest-content__container" data-container>
+                    <button id="latest-content-1-head" class="c-latest-content__category c-latest-content__switch" data-switch role="tab"
+                       aria-controls="latest-content-1-content" data-track="click" data-track-label="latest tag (rank:1)">Information technology</button>
+                    <div id="latest-content-1-content" class="c-latest-content__item-container" role="tabpanel">
+                        <div class="u-flex__container--lc" aria-labelledby="author-affiliation-news-1-head" data-content>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/d41586-021-01812-3" data-track="click" data-track-label="latest magazine (tag:1) (rank:0)">
+                                        
+                                            <img class="c-latest-content__image" src="https://images.nature.com/w140h79/magazine-assets/d41586-021-01812-3/d41586-021-01812-3_19311294.jpg" alt="Everyone should decide how their digital data are used — not just tech companies">
+                                        
+                                        <h3 class="c-latest-content__title">Everyone should decide how their digital data are used — not just tech companies</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">Comment</span> <span class="c-latest-content__date sans-serif"><time>01 JUL 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/d41586-021-01793-3" data-track="click" data-track-label="latest magazine (tag:1) (rank:1)">
+                                        
+                                            <img class="c-latest-content__image" src="https://images.nature.com/w140h79/magazine-assets/d41586-021-01793-3/d41586-021-01793-3_19311562.jpg" alt="Machines learn to unearth new materials">
+                                        
+                                        <h3 class="c-latest-content__title">Machines learn to unearth new materials</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">Nature Index</span> <span class="c-latest-content__date sans-serif"><time>30 JUN 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                                <article  class="c-latest-content__item box-sizing u-flex__item">
+                                    <a class="c-latest-content__link" href="http://www.nature.com/articles/d41586-021-01507-9" data-track="click" data-track-label="latest magazine (tag:1) (rank:2)">
+                                        
+                                            <img class="c-latest-content__image" src="https://images.nature.com/w140h79/magazine-assets/d41586-021-01507-9/d41586-021-01507-9_19235170.jpg" alt="Google’s AI approach to microchips is welcome — but needs care">
+                                        
+                                        <h3 class="c-latest-content__title">Google’s AI approach to microchips is welcome — but needs care</h3>
+                                        <p><span class="c-latest-content__content-type sans-serif">Editorial</span> <span class="c-latest-content__date sans-serif"><time>09 JUN 21</time></span></p>
+                                    </a>
+                                </article>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+            <div class="js-jobs-career-wrapper u-hide-print">
+                
+    <div class="u-mb-48" data-track="in-view" data-track-action="in-view" data-track-category="career" data-track-label="visible">
+        <div class="c-slice-heading">
+            <h2>
+                <img class="u-vertical-align-baseline"
+                     src="/static/images/logos/nature-careers-logo.f6ff1c1c64.svg"
+                     width="195"
+                     height="23"
+                     alt="Nature Careers">
+            </h2>
+        </div>
+        <h3 class="app-careers-row__title">
+            <a href="https://www.nature.com/naturecareers/"
+               class="u-link-inherit u-display-inline-flex u-align-items-center"
+               data-track="click" data-track-action="section-link" data-track-label="jobs list title">
+                Jobs
+                <svg class="u-icon u-mt-2" aria-hidden="true" focusable="false" height="18" width="18" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.08573416 5.70052374 2.48162731-2.4816273c.39282216-.39282216 1.02197315-.40056173 1.40306523-.01946965.39113012.39113012.3914806 1.02492687-.00014045 1.41654791l-4.17620791 4.17620792c-.39120769.39120768-1.02508144.39160691-1.41671995-.0000316l-4.17639421-4.1763942c-.39122513-.39122514-.39767006-1.01908149-.01657797-1.40017357.39113012-.39113012 1.02337105-.3930364 1.41951348.00310603l2.48183447 2.48183446.99770587 1.01367533z" transform="matrix(0 -1 1 0 2.081146 11.085734)"/></svg>
+            </a>
+        </h3>
+        <div class="app-careers-row__listing">
+            <ul class="c-list-group c-list-group--md c-list-group--flush c-list-group--bordered u-mb-16">
+                
+                    <li class="c-list-group__item u-position-relative u-display-flex u-flex-direction-column" itemscope itemtype="http://schema.org/JobPosting">
+                        <h4 class="u-mb-8" itemprop="title">
+                            <a href="https://www.nature.com/naturecareers/job/imaging-specialist-max-perutz-labs-747098"
+                               class="u-link-inherit u-link-faux-block"
+                               itemprop="url" data-track="click" data-track-action="Rank:(0)"
+                               data-track-category="job-list" data-track-label="747098">
+                                Imaging Specialist
+                            </a>
+                        </h4>
+                        <div class="u-mt-auto c-meta">
+                            <p class="u-mb-0" itemprop="hiringOrganization"itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Max Perutz Labs</span></p>
+                                <p class="u-mb-0">Vienna, Austria</p>
+                            
+                        </div>
+                    </li>
+                
+                    <li class="c-list-group__item u-position-relative u-display-flex u-flex-direction-column" itemscope itemtype="http://schema.org/JobPosting">
+                        <h4 class="u-mb-8" itemprop="title">
+                            <a href="https://www.nature.com/naturecareers/job/postdoctoral-position-in-human-ige-biology-anaphylaxis-national-institute-for-health-and-medical-research-inserm-747096"
+                               class="u-link-inherit u-link-faux-block"
+                               itemprop="url" data-track="click" data-track-action="Rank:(1)"
+                               data-track-category="job-list" data-track-label="747096">
+                                Postdoctoral position in human IgE biology / anaphylaxis
+                            </a>
+                        </h4>
+                        <div class="u-mt-auto c-meta">
+                            <p class="u-mb-0" itemprop="hiringOrganization"itemscope itemtype="http://schema.org/Organization"><span itemprop="name">National Institute for Health and Medical Research (INSERM)</span></p>
+                                <p class="u-mb-0">Toulouse, France</p>
+                            
+                        </div>
+                    </li>
+                
+                    <li class="c-list-group__item u-position-relative u-display-flex u-flex-direction-column" itemscope itemtype="http://schema.org/JobPosting">
+                        <h4 class="u-mb-8" itemprop="title">
+                            <a href="https://www.nature.com/naturecareers/job/postdoctoral-researcher-position-mfd-discovery-of-synthetic-lethal-interactions-in-dna-repair-sdr-biomed-x-institute-747094"
+                               class="u-link-inherit u-link-faux-block"
+                               itemprop="url" data-track="click" data-track-action="Rank:(2)"
+                               data-track-category="job-list" data-track-label="747094">
+                                Postdoctoral Researcher Position (m/f/d) Discovery of Synthetic Lethal Interactions in DNA Repair (SDR)
+                            </a>
+                        </h4>
+                        <div class="u-mt-auto c-meta">
+                            <p class="u-mb-0" itemprop="hiringOrganization"itemscope itemtype="http://schema.org/Organization"><span itemprop="name">BioMed X Institute</span></p>
+                                <p class="u-mb-0">Heidelberg, Germany</p>
+                            
+                        </div>
+                    </li>
+                
+                    <li class="c-list-group__item u-position-relative u-display-flex u-flex-direction-column" itemscope itemtype="http://schema.org/JobPosting">
+                        <h4 class="u-mb-8" itemprop="title">
+                            <a href="https://www.nature.com/naturecareers/job/professorship-w2-6-yearstenure-track-of-quantitative-evolutionary-cell-and-developmental-biology-ludwig-maximilians-university-of-munich-lmu-747093"
+                               class="u-link-inherit u-link-faux-block"
+                               itemprop="url" data-track="click" data-track-action="Rank:(3)"
+                               data-track-category="job-list" data-track-label="747093">
+                                Professorship (W2)  (6 years/tenure track) of Quantitative Evolutionary Cell  and Developmental Biology
+                            </a>
+                        </h4>
+                        <div class="u-mt-auto c-meta">
+                            <p class="u-mb-0" itemprop="hiringOrganization"itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Ludwig Maximilians University of Munich (LMU)</span></p>
+                                <p class="u-mb-0">Munich, Bavaria, Germany</p>
+                            
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            </div>
+        </main>
+        <aside class="c-article-extras u-hide-print">
+            
+                
+                    <noscript>
+                        
+<div class="c-nature-box c-nature-box--side " data-component="entitlement-box">
+    
+        <p class="c-nature-box__text js-text">You have full access to this article via your institution.</p>
+        
+    
+    <div class="c-pdf-download u-clear-both">
+        <a href="/articles/d41586-019-03013-5.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="download-pdf" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="link" data-track-external>
+            <span>Download PDF</span>
+            <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+        </a>
+    </div>
+    
+
+    
+</div>
+
+                    </noscript>
+
+                    <div class="c-nature-box c-nature-box--side u-display-none u-hide-print" aria-hidden="true" data-component="entitlement-box"
+    id=entitlement-box-right-column
+    
+    >
+
+    
+        <p class="c-nature-box__text js-text u-display-none" aria-hidden="true"></p>
+        
+        
+            
+                <div class="c-pdf-download u-clear-both">
+                    <a href="//media.nature.com/original/magazine-assets/d41586-019-03013-5/d41586-019-03013-5.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="download-pdf" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="link">
+                        <span>Download PDF</span>
+                        <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+                    </a>
+                </div>
+            
+        
+    
+</div>
+
+                
+            
+
+            
+                <h2 class="c-article-extras-heading">Related Articles</h2>
+                
+    <ul class="c-article-related-articles u-clearfix u-hide-print">
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/news/can-we-open-the-black-box-of-ai-1.20731" data-track="click" data-track-label="related article (rank:0)">
+                        
+                            <img class="c-article-related-articles__img" loading="lazy" src="//media.nature.com/lw100/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_15853104.jpg" alt="">
+                        
+                        Can we open the black box of AI?
+                    </a>
+                </h3>
+            </li>
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/articles/d41586-019-00505-2" data-track="click" data-track-label="related article (rank:1)">
+                        
+                            <img class="c-article-related-articles__img" loading="lazy" src="//media.nature.com/lw100/magazine-assets/d41586-019-03013-5/d41586-019-03013-5_16655430.jpg" alt="">
+                        
+                        AI pioneer: ‘The dangers of abuse are very real’
+                    </a>
+                </h3>
+            </li>
+        
+            <li class="c-article-related-articles__item u-clearfix">
+                <h3 class="c-article-related-articles__title">
+                    <a href="https://www.nature.com/articles/d41586-019-01510-1" data-track="click" data-track-label="related article (rank:2)">
+                        
+                        AI can now defend itself against malicious messages hidden in speech
+                    </a>
+                </h3>
+            </li>
+        
+    </ul>
+
+            
+            
+            
+                <h2 class="c-article-extras-heading">Subjects</h2>
+                
+    <ul class="c-article-subjects u-clearfix u-hide-print">
+        
+            <li class="c-article-subjects__item">
+                <a href="/subjects/computer-science" data-track="click" data-track-label="subject (rank:0)">Computer science</a>
+            </li>
+        
+            <li class="c-article-subjects__item">
+                <a href="/subjects/information-technology" data-track="click" data-track-label="subject (rank:1)">Information technology</a>
+            </li>
+        
+    </ul>
+
+            
+           
+    
+<div id="div-gpt-ad-right-2"
+     class="div-gpt-ad medium-rectangle c-ad c-ad--300x250 advert js-ad hide-print grade-c-hide"
+     data-ad-type="right"
+     data-pa11y-ignore
+     data-gpt
+     data-gpt-unitpath="/285/nature.com/article"
+     data-gpt-sizes="300x250"
+     data-gpt-targeting="pos=right;artid=/articles/d41586-019-03013-5;path=/articles/d41586-019-03013-5"
+     >
+    <noscript>
+        <a href="//pubads.g.doubleclick.net/gampad/jump?iu=/285/nature.com/article&amp;sz=300x250&amp;c=-691681316&amp;t=pos%3Dright%26artid%3D/articles/d41586-019-03013-5">
+            <img data-test="gpt-advert-fallback-img"
+                 src="//pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&amp;sz=300x250&amp;c=-691681316&amp;t=pos%3Dright%26artid%3D/articles/d41586-019-03013-5"
+                 alt="Advertisement"
+                 width="300"
+                 height="250"/>
+        </a>
+    </noscript>
+</div>
+
+
+           <div class="nature-briefing--sidebar bordered-container shrink--aside hide-print">
+    
+
+    <div class="nature-briefing nature-briefing-box u-hide-print" data-component-id="nature-briefing-box" data-track="in-view" data-track-action="in-view" data-track-category="nature briefing" data-track-label="sidebar box visible">
+        <div class="nature-briefing-box__header">
+            <h2 class="nature-briefing-box__headline">Sign up to Nature Briefing</h2>
+            <p class="nature-briefing-box__standfirst">An essential round-up of science news, opinion and analysis, delivered to your inbox every weekday.</p>
+        </div>
+        <form action="/briefing/signup/formfeedback" method="post" class="nature-briefing-box__form" data-location="box" data-track="submit" data-track-action="transmit-form">
+            <input id="briefing-box-signup-form-sidebar-input-track-originReferralPoint" type="hidden" name="track_originReferralPoint" value="DirectEmailBox-sidebar">
+            <input id="briefing-box-signup-form-sidebar-input-track-formType" type="hidden" name="track_formType" value="DirectEmailBox">
+            <label class="nature-briefing-box__input-label" for="box-sidebar-EmailAddressInput">Email address</label>
+            <input class="nature-briefing-box__input-input" type="email" id="box-sidebar-EmailAddressInput" name="email" value="" placeholder="e.g. jo.smith@university.ac.uk" required="true" aria-required="true" data-test-element="briefing-box-email-input">
+
+            <div class="nature-briefing-box__checkbox-wrapper" role="group">
+                <input class="nature-briefing-box__checkbox-checkbox" id="gdpr-briefing-box-sidebar-checkbox" type="checkbox" name="gdpr" value="1" data-test-element="briefing-box-gdpr-checkbox" required>
+                <label class="nature-briefing-box__checkbox-label" for="gdpr-briefing-box-sidebar-checkbox">Yes! Sign me up to receive the daily <em>Nature Briefing</em> email. I agree my information will be processed in accordance with the <em>Nature</em> and Springer Nature Limited <a href="https://www.nature.com/info/privacy">Privacy Policy</a>.</label>
+            </div>
+
+            <button type="submit" class="nature-briefing-box__submit-button c-btn--squared" data-test-element="briefing-box-signup-button">Sign up</button>
+
+        </form>
+    </div>
+
+
+</div>
+
+        </aside>
+
+        <div data-microformat-only="" itemscope="" itemprop="publisher" itemtype="https://schema.org/Organization">
+            <meta content="Macmillan Publishers Limited, part of Springer Nature" itemprop="name"/>
+        </div>
+        <div data-microformat-only="" itemscope="" itemprop="author" itemtype="https://schema.org/Organization">
+            <meta content="Nature Editorial" itemprop="name"/>
+        </div>
+        <img src="/platform/track/article/d41586-019-03013-5" width="1" height="1" alt="" class="visually-hidden"/>
+    </div>
+</article>
+        
+
+<div class="c-site-messages message hide u-hide-print c-site-messages--nature-briefing c-site-messages--nature-briefing-email-variant c-site-messages--nature-briefing-redesign-2020 sans-serif"
+data-component-id="nature-briefing-banner"
+data-component-expirydays="30"
+data-component-trigger-scroll-percentage="15"
+data-track="in-view"
+data-track-action="in-view"
+data-track-category="nature briefing"
+data-track-label="redesign banner visible">
+
+    
+    <div class="c-site-messages__banner-large">
+
+        
+<div class="c-site-messages__close-container">
+    <button class="c-site-messages__close"
+        data-track="click"
+        data-track-category="nature briefing"
+        data-track-label="redesign banner dismiss">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <svg width="25px" height="25px" focusable="false" aria-hidden="true" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Close banner</title>
+            <defs></defs>
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <rect opacity="0" x="0" y="0" width="25" height="25"></rect>
+                <path d="M6.29679575,16.2772478 C5.90020818,16.6738354 5.90240728,17.3100587 6.29617427,17.7038257 C6.69268654,18.100338 7.32864195,18.0973145 7.72275218,17.7032043 L12,13.4259564 L16.2772478,17.7032043 C16.6738354,18.0997918 17.3100587,18.0975927 17.7038257,17.7038257 C18.100338,17.3073135 18.0973145,16.671358 17.7032043,16.2772478 L13.4259564,12 L17.7032043,7.72275218 C18.0997918,7.32616461 18.0975927,6.68994127 17.7038257,6.29617427 C17.3073135,5.89966201 16.671358,5.90268552 16.2772478,6.29679575 L12,10.5740436 L7.72275218,6.29679575 C7.32616461,5.90020818 6.68994127,5.90240728 6.29617427,6.29617427 C5.89966201,6.69268654 5.90268552,7.32864195 6.29679575,7.72275218 L10.5740436,12 L6.29679575,16.2772478 Z" fill="#ffffff"></path>
+            </g>
+        </svg>
+        <span class="visually-hidden">Close</span>
+    </button>
+</div>
+
+
+        <div class="c-site-messages__form-container">
+
+            <div class="grid grid-12 last">
+                <div class="grid grid-4">
+                    <img alt="Nature Briefing" src="/static/images/logos/nature-briefing-logo-n150-white.d81c9da3ec.svg" width="250" height="40">
+                    <p class="c-site-messages--nature-briefing__strapline extra-tight-line-height">Sign up for the <em>Nature Briefing</em> newsletter — what matters in science, free to your inbox daily.</p>
+                </div>
+                <div class="grid grid-8 last">
+                    <form action="/briefing/signup/formfeedback" method="post" data-location="banner" data-track="submit" data-track-action="transmit-form">
+                        <input id="briefing-banner-signup-form-input-track-originReferralPoint" type="hidden" name="track_originReferralPoint" value="DirectEmailBannerRedesign2020">
+                        <input id="briefing-banner-signup-form-input-track-formType" type="hidden" name="track_formType" value="DirectEmailBanner">
+                        <label class="nature-briefing-banner__email-label" for="banner-EmailAddressInput">Email address</label>
+
+                        <div class="nature-briefing-banner__email-wrapper">
+                            <input class="nature-briefing-banner__email-input box-sizing text14" type="email" id="banner-EmailAddressInput" name="email" value="" placeholder="e.g. jo.smith@university.ac.uk" required="true" aria-required="true" data-test-element="briefing-emailbanner-email-input">
+                            <button type="submit" class="nature-briefing-banner__submit-button box-sizing text14" data-test-element="briefing-emailbanner-signup-button">Sign up</button>
+                        </div>
+
+                        <div class="nature-briefing-banner__checkbox-wrapper grid grid-12 last">
+                            <input class="nature-briefing-banner__checkbox-checkbox" id="gdpr-briefing-banner-checkbox" type="checkbox" name="gdpr" value="1" data-test-element="briefing-emailbanner-gdpr-checkbox" required>
+                            <label class="nature-briefing-banner__checkbox-label box-sizing text13 sans-serif block tighten-line-height" for="gdpr-briefing-banner-checkbox">I agree my information will be processed in accordance with the <em>Nature</em> and Springer Nature Limited <a href="https://www.nature.com/info/privacy">Privacy Policy</a>.</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    <div class="c-site-messages__banner-small">
+
+        
+<div class="c-site-messages__close-container">
+    <button class="c-site-messages__close"
+        data-track="click"
+        data-track-category="nature briefing"
+        data-track-label="redesign banner dismiss">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <svg width="25px" height="25px" focusable="false" aria-hidden="true" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Close banner</title>
+            <defs></defs>
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <rect opacity="0" x="0" y="0" width="25" height="25"></rect>
+                <path d="M6.29679575,16.2772478 C5.90020818,16.6738354 5.90240728,17.3100587 6.29617427,17.7038257 C6.69268654,18.100338 7.32864195,18.0973145 7.72275218,17.7032043 L12,13.4259564 L16.2772478,17.7032043 C16.6738354,18.0997918 17.3100587,18.0975927 17.7038257,17.7038257 C18.100338,17.3073135 18.0973145,16.671358 17.7032043,16.2772478 L13.4259564,12 L17.7032043,7.72275218 C18.0997918,7.32616461 18.0975927,6.68994127 17.7038257,6.29617427 C17.3073135,5.89966201 16.671358,5.90268552 16.2772478,6.29679575 L12,10.5740436 L7.72275218,6.29679575 C7.32616461,5.90020818 6.68994127,5.90240728 6.29617427,6.29617427 C5.89966201,6.69268654 5.90268552,7.32864195 6.29679575,7.72275218 L10.5740436,12 L6.29679575,16.2772478 Z" fill="#ffffff"></path>
+            </g>
+        </svg>
+        <span class="visually-hidden">Close</span>
+    </button>
+</div>
+
+
+        <div class="c-site-messages__content text14">
+            <span class="c-site-messages--nature-briefing__strapline strong">Get the most important science stories of the day, free in your inbox.</span>
+            <a class="nature-briefing__link text14 sans-serif"
+                data-track="click"
+                data-track-category="nature briefing"
+                data-track-label="redesign banner CTA to site"
+                data-test-element="briefing-banner-link"
+                target="_blank"
+                rel="noreferrer noopener"
+                href="/briefing/signup/?origin=Nature&amp;originReferralPoint=EmailBanner">Sign up for Nature Briefing
+            </a>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+</div>
+    <script>
+        if (window.config.mustardcut) {
+            window.onload = function () {
+                Array.prototype.slice.call(document.querySelectorAll(".magazine-infographic > iframe"))
+                        .forEach(function (element) {
+                            function listener(event) {
+                                if (event.data.height) {
+                                    if (element.id === event.data.requestData.id) {
+                                        element.setAttribute("height", event.data.height)
+                                    }
+                                }
+                            }
+
+                            window.addEventListener("message", listener);
+                            element.contentWindow.postMessage({name: "getHeight", id: element.id}, "*");
+                        });
+            }
+        }
+    </script>
+    <script>
+        var idp = {
+            hasNatureUserProof: function (hasProof) {
+                if (!hasProof) {
+                    document.getElementById("my-account").setAttribute("style", "display: none;");
+                    document.getElementById("login-button").setAttribute("style", "");
+                }
+            }
+        }
+    </script>
+
+    
+
+    
+
+    
+        
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="Explore-content" data-test="Explore-content" id="explore" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="Explore-content" class="c-header-expander__heading u-js-hide">Explore content</h2>
+                <ul class="c-header-expander__list">
+                    
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/research-articles"
+                                   data-track="click"
+                                   data-track-action="research articles"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Research articles
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/news"
+                                   data-track="click"
+                                   data-track-action="news"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    News
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/opinion"
+                                   data-track="click"
+                                   data-track-action="opinion"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Opinion
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/research-analysis"
+                                   data-track="click"
+                                   data-track-action="research analysis"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Research Analysis
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/careers"
+                                   data-track="click"
+                                   data-track-action="careers"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Careers
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/books-culture"
+                                   data-track="click"
+                                   data-track-action="books &amp; culture"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Books &amp; Culture
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/podcasts"
+                                   data-track="click"
+                                   data-track-action="podcasts"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Podcasts
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/videos"
+                                   data-track="click"
+                                   data-track-action="videos"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Videos
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/current-issue"
+                                   data-track="click"
+                                   data-track-action="current issue"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Current issue
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/browse-issues"
+                                   data-track="click"
+                                   data-track-action="browse issues"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Browse issues
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/collections"
+                                   data-track="click"
+                                   data-track-action="collections"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Collections
+                                </a>
+                            </li>
+                        
+                            <li class="c-header-expander__item">
+                                <a class="c-header-expander__link"
+                                   href="/nature/browse-subjects"
+                                   data-track="click"
+                                   data-track-action="subjects"
+                                   data-track-label="link"
+                                   data-test="explore-nav-item">
+                                    Subjects
+                                </a>
+                            </li>
+                        
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only">
+                            <a class="c-header-expander__link"
+                               href="https://www.facebook.com/NatureNews"
+                               data-track="click"
+                               data-track-action="facebook"
+                               data-track-label="link">Follow us on Facebook
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only">
+                            <a class="c-header-expander__link"
+                               href="https://twitter.com/nature"
+                               data-track="click"
+                               data-track-action="twitter"
+                               data-track-label="link">Follow us on Twitter
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only u-hide-at-lg">
+                            <a data-test="subscribe-button" class=c-header-expander__link"
+                               href="https://www.nature.com/nature/subscribe"
+                               data-track="click"
+                               data-track-action="subscribe"
+                               data-track-label="link">
+                                <span>Subscribe</span>
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only u-hide-at-lg">
+                            <a class="c-header-expander__link"
+                               href="https://www.nature.com/my-account/alerts/subscribe-journal?list-id&#x3D;1"
+                               rel="nofollow"
+                               data-track="click"
+                               data-track-action="Sign up for alerts"
+                               data-track-external
+                               data-track-label="link (mobile dropdown)">Sign up for alerts<svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m4 10h2.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-3.08578644l-1.12132034 1.1213203c-.18753638.1875364-.29289322.4418903-.29289322.7071068v.1715729h14v-.1715729c0-.2652165-.1053568-.5195704-.2928932-.7071068l-1.7071068-1.7071067v-3.4142136c0-2.76142375-2.2385763-5-5-5-2.76142375 0-5 2.23857625-5 5zm3 4c0 1.1045695.8954305 2 2 2s2-.8954305 2-2zm-5 0c-.55228475 0-1-.4477153-1-1v-.1715729c0-.530433.21071368-1.0391408.58578644-1.4142135l1.41421356-1.4142136v-3c0-3.3137085 2.6862915-6 6-6s6 2.6862915 6 6v3l1.4142136 1.4142136c.3750727.3750727.5857864.8837805.5857864 1.4142135v.1715729c0 .5522847-.4477153 1-1 1h-4c0 1.6568542-1.3431458 3-3 3-1.65685425 0-3-1.3431458-3-3z" fill="#fff"/></svg>
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline c-header-expander__item--keyline-first-item-only u-hide-at-lg">
+                            <a class="c-header-expander__link"
+                               href="http://feeds.nature.com/nature/rss/current"
+                               data-track="click"
+                               data-track-action="rss feed"
+                               data-track-label="link">
+                                <span>RSS feed</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="About-the-journal" id="about-the-journal" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="About-the-journal" class="c-header-expander__heading u-js-hide">About the journal</h2>
+                <ul class="c-header-expander__list">
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/journal-staff"
+                               data-track="click"
+                               data-track-action="journal staff"
+                               data-track-label="link">
+                                Journal Staff
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/editors"
+                               data-track="click"
+                               data-track-action="about the editors"
+                               data-track-label="link">
+                                About the Editors
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/journal-information"
+                               data-track="click"
+                               data-track-action="journal information"
+                               data-track-label="link">
+                                Journal Information
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/our-publishing-models"
+                               data-track="click"
+                               data-track-action="our publishing models"
+                               data-track-label="link">
+                                Our publishing models
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/editorial-values-statement"
+                               data-track="click"
+                               data-track-action="editorial values statement"
+                               data-track-label="link">
+                                Editorial Values Statement
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/awards"
+                               data-track="click"
+                               data-track-action="awards"
+                               data-track-label="link">
+                                Awards
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/journal-impact"
+                               data-track="click"
+                               data-track-action="journal impact"
+                               data-track-label="link">
+                                Journal Impact
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/contact"
+                               data-track="click"
+                               data-track-action="contact"
+                               data-track-label="link">
+                                Contact
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/editorial-policies"
+                               data-track="click"
+                               data-track-action="editorial policies"
+                               data-track-label="link">
+                                Editorial policies
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/history-of-nature"
+                               data-track="click"
+                               data-track-action="history of nature"
+                               data-track-label="link">
+                                History of Nature
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/send-a-news-tip"
+                               data-track="click"
+                               data-track-action="send a news tip"
+                               data-track-label="link">
+                                Send a news tip
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+    
+        <nav class="u-hide-print c-header-expander" aria-labelledby="Publish-with-us-label" id="publish-with-us" data-track-component="nature-150-split-header">
+            <div class="c-header-expander__container">
+                <h2 id="Publish-with-us-label" class="c-header-expander__heading u-js-hide">Publish with us</h2>
+                <ul class="c-header-expander__list">
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/for-authors"
+                               data-track="click"
+                               data-track-action="for authors"
+                               data-track-label="link">
+                                For Authors
+                            </a>
+                        </li>
+                    
+                        <li class="c-header-expander__item">
+                            <a class="c-header-expander__link"
+                               href="/nature/for-referees"
+                               data-track="click"
+                               data-track-action="for referees"
+                               data-track-label="link">
+                                For Referees
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="c-header-expander__item c-header-expander__item--keyline">
+                            <a class="c-header-expander__link"
+                               href="https://mts-nature.nature.com/"
+                               data-track="click"
+                               data-track-action="Submit manuscript"
+                               data-track-label="link"
+                               data-track-external>Submit manuscript<svg role="img" aria-hidden="true" focusable="false" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m15 0c1.1045695 0 2 .8954305 2 2v5.5c0 .27614237-.2238576.5-.5.5s-.5-.22385763-.5-.5v-5.5c0-.51283584-.3860402-.93550716-.8833789-.99327227l-.1166211-.00672773h-9v3c0 1.1045695-.8954305 2-2 2h-3v10c0 .5128358.38604019.9355072.88337887.9932723l.11662113.0067277h7.5c.27614237 0 .5.2238576.5.5s-.22385763.5-.5.5h-7.5c-1.1045695 0-2-.8954305-2-2v-10.17157288c0-.53043297.21071368-1.0391408.58578644-1.41421356l3.82842712-3.82842712c.37507276-.37507276.88378059-.58578644 1.41421356-.58578644zm-.5442863 8.18867991 3.3545404 3.35454039c.2508994.2508994.2538696.6596433.0035959.909917-.2429543.2429542-.6561449.2462671-.9065387-.0089489l-2.2609825-2.3045251.0010427 7.2231989c0 .3569916-.2898381.6371378-.6473715.6371378-.3470771 0-.6473715-.2852563-.6473715-.6371378l-.0010428-7.2231995-2.2611222 2.3046654c-.2531661.2580415-.6562868.2592444-.9065605.0089707-.24295423-.2429542-.24865597-.6576651.0036132-.9099343l3.3546673-3.35466731c.2509089-.25090888.6612706-.25227691.9135302-.00001728zm-.9557137-3.18867991c.2761424 0 .5.22385763.5.5s-.2238576.5-.5.5h-6c-.27614237 0-.5-.22385763-.5-.5s.22385763-.5.5-.5zm-8.5-3.587-3.587 3.587h2.587c.55228475 0 1-.44771525 1-1zm8.5 1.587c.2761424 0 .5.22385763.5.5s-.2238576.5-.5.5h-6c-.27614237 0-.5-.22385763-.5-.5s.22385763-.5.5-.5z" fill="#fff"/></svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+
+
+<div id="search-menu" class="c-header-expander c-header-expander--tray u-hide-print" data-track-component="nature-150-split-header">
+    <div class="c-header-expander__container">
+        <h2 class="u-visually-hidden">Search</h2>
+        <div data-test="inline-search">
+            <div class="c-search c-search--max-width u-mb-16">
+                <form action="/search"
+                      method="get"
+                      role="search"
+                      autocomplete="off"
+                      data-dynamic-track-label
+                      data-track="submit" data-track-action="search" data-track-label="form">
+                    <label class="c-header-expander__heading u-mb-8" for="keywords">Search articles by subject, keyword or author</label>
+                    <div class="c-search__field">
+                        <div class="c-search__input-container c-search__input-container--md">
+                            <input type="text"
+                               required
+                               class="c-search__input"
+                               id="keywords"
+                               name="q"
+                               value=""
+                               data-test="search-keywords">
+                        </div>
+
+                        <div class="c-search__select-container">
+                            <label for="results-from" class="u-visually-hidden">Show results from</label>
+                            <select id="results-from" name="journal" class="c-search__select">
+                                
+                                    <option value="" selected>All journals</option>
+                                
+                            </select>
+                        </div>
+                        <div class="c-search__button-container">
+                            <button type="submit" class="u-button u-button--primary u-button--full-width" data-test="search-submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="c-header-expander__keyline u-mb-16">
+            <p class="u-ma-0">
+                <a href="/search/advanced"
+                   data-track="click" data-track-action="advanced search" data-track-label="link">
+                    Advanced search
+                </a>
+            </p>
+        </div>
+        <h3 class="c-header-expander__heading">Quick links</h3>
+        <ul class="u-list-reset">
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/subjects" data-track="click" data-track-action="explore articles by subject" data-track-label="link">Explore articles by subject</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/naturecareers" data-track="click" data-track-action="find a job" data-track-label="link">Find a job</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/authors/index.html" data-track="click" data-track-action="guide to authors" data-track-label="link">Guide to authors</a></li>
+            <li class="u-display-inline-block u-mr-24 u-mb-16"><a href="/authors/editorial_policies/" data-track="click" data-track-action="editorial policies" data-track-label="link">Editorial policies</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer role="contentinfo" class="composite-layer">
+    
+    <div class="u-mt-16 u-mb-16">
+    <div class="u-container">
+        <div class="u-display-flex u-flex-wrap u-justify-content-space-between">
+            
+
+            <p class="c-meta u-ma-0 u-flex-shrink">
+                <span class="c-meta__item">
+                    Nature (<i>Nature</i>)
+                </span>
+                
+    
+    <span class="c-meta__item">
+        <abbr title="International Standard Serial Number">ISSN</abbr> <span itemprop="onlineIssn">1476-4687</span> (online)
+    </span>
+    
+
+
+                
+    
+    <span class="c-meta__item">
+        <abbr title="International Standard Serial Number">ISSN</abbr> <span itemprop="printIssn">0028-0836</span> (print)
+    </span>
+    
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    <div itemscope itemtype="http://schema.org/Periodical">
+        <meta itemprop="publisher" content="Springer Nature">
+        <div class="c-footer">
+            <div class="u-container">
+                <div class="u-hide-print" data-track-component="footer">
+    <h2 aria-level="2" class="u-visually-hidden">nature.com sitemap</h2>
+    <div class="c-footer__header">
+        <div class="c-footer__logo">
+            <img alt="Nature portfolio" src="/static/images/logos/nature-portfolio-white.7caca87447.svg" loading="lazy" width="200" height="31">
+        </div>
+        <ul class="c-menu c-menu--inherit u-mr-32">
+            <li class="c-menu__item"><a class="c-menu__link" href="https://www.nature.com/npg_/company_info/index.html" data-track="click" data-track-action="about us" data-track-label="link">About us</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://www.nature.com/npg_/press_room/press_releases.html" data-track="click" data-track-action="press releases" data-track-label="link">Press releases</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://press.nature.com/" data-track="click" data-track-action="press office" data-track-label="link">Press office</a></li>
+            <li class="c-menu__item"><a class="c-menu__link" href="https://support.nature.com/support/home" data-track="click" data-track-action="contact us" data-track-label="link">Contact us</a></li>
+        </ul>
+        <ul class="c-menu c-menu--inherit">
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://www.facebook.com/nature/" aria-label="Facebook" data-track="click" data-track-action="facebook" data-track-label="link">
+                    <svg class="u-icon u-mt-2 u-mb-2" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20"><path d="M2.5 20C1.1 20 0 18.9 0 17.5v-15C0 1.1 1.1 0 2.5 0h15C18.9 0 20 1.1 20 2.5v15c0 1.4-1.1 2.5-2.5 2.5h-3.7v-7.7h2.6l.4-3h-3v-2c0-.9.2-1.5 1.5-1.5h1.6V3.1c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8.1v3h2.6V20H2.5z"/></svg>
+                </a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://twitter.com/NaturePortfolio?lang=en" aria-label="Twitter" data-track="click" data-track-action="twitter" data-track-label="link">
+                    <svg class="u-icon" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M17.6 4.1c.8-.5 1.5-1.4 1.8-2.4-.8.5-1.7.9-2.6 1-.7-.8-1.8-1.4-3-1.4-2.3 0-4.1 1.9-4.1 4.3 0 .3 0 .7.1 1-3.4 0-6.4-1.8-8.4-4.4C1 2.9.8 3.6.8 4.4c0 1.5.7 2.8 1.8 3.6C2 8 1.4 7.8.8 7.5v.1c0 2.1 1.4 3.8 3.3 4.2-.3.1-.7.2-1.1.2-.3 0-.5 0-.8-.1.5 1.7 2 3 3.8 3-1.3 1.1-3.1 1.8-5 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9C13.8 18.6 18 12 18 6.3v-.6c.8-.6 1.5-1.4 2-2.2-.7.3-1.5.5-2.4.6z"/></svg>
+                </a>
+            </li>
+            <li class="c-menu__item">
+                <a class="c-menu__link" href="https://www.youtube.com/channel/UCvCLdSgYdSTpWcOgEJgi-ng" aria-label="YouTube" data-track="click" data-track-action="youtube" data-track-label="link">
+                    <svg class="u-icon" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M7.9 12.6V6.9l5.4 2.8c0 .1-5.4 2.9-5.4 2.9zM19.8 6s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9-2.8-.2-7-.2-7-.2s-4.2 0-7 .2c-.4 0-1.2 0-2 .9-.6.6-.8 2-.8 2S0 7.6 0 9.2v1.5c0 1.7.2 3.3.2 3.3s.2 1.4.8 2c.8.8 1.8.8 2.2.9 1.6.1 6.8.2 6.8.2s4.2 0 7-.2c.4 0 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.3V9.2c0-1.6-.2-3.2-.2-3.2z"/></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="c-footer__grid">
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Discover content</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/siteindex" data-track="click" data-track-action="journals a-z" data-track-label="link">Journals A-Z</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/subjects/" data-track="click" data-track-action="article by subject" data-track-label="link">Articles by subject</a></li>
+                <li class="c-footer__item"><a href="https://nano.nature.com/" data-track="click" data-track-action="nano" data-track-label="link">Nano</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/protocolexchange/" data-track="click" data-track-action="protocol exchange" data-track-label="link">Protocol Exchange</a></li>
+                <li class="c-footer__item"><a href="https://www.natureindex.com/" data-track="click" data-track-action="nature index" data-track-label="link">Nature Index</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Publishing policies</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/authors/editorial_policies/" data-track="click" data-track-action="Nature portfolio policies" data-track-label="link">Nature portfolio policies</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nature-research/open-access" data-track="click" data-track-action="open access" data-track-label="link">Open access</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Author &amp; Researcher services</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/reprints/" data-track="click" data-track-action="reprints and permissions" data-track-label="link">Reprints &amp; permissions</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/authors/research-data" data-track="click" data-track-action="data research service" data-track-label="link">Research data</a></li>
+                <li class="c-footer__item"><a href="https://authorservices.springernature.com/go/nr" data-track="click" data-track-action="language editing" data-track-label="link">Language editing</a></li>
+                <li class="c-footer__item"><a href="https://authorservices.springernature.com/scientific-editing/" data-track="click" data-track-action="scientific editing" data-track-label="link">Scientific editing</a></li>
+                <li class="c-footer__item"><a href="https://masterclasses.nature.com/" data-track="click" data-track-action="nature masterclasses" data-track-label="link">Nature Masterclasses</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/researcher-training/" data-track="click" data-track-action="nature research academies" data-track-label="link">Nature Research Academies</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Libraries &amp; institutions</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/tools-services" data-track="click" data-track-action="librarian service and tools" data-track-label="link">Librarian service &amp; tools</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/manage-your-account/librarianportal" data-track="click" data-track-action="librarian portal" data-track-label="link">Librarian portal</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/openresearch/about-open-access/information-for-institutions/" data-track="click" data-track-action="open research" data-track-label="link">Open research</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/gp/librarians/recommend-to-your-library" data-track="click" data-track-action="Recommend to library" data-track-label="link">Recommend to library</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Advertising &amp; partnerships</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/digital-advertising/" data-track="click" data-track-action="advertising" data-track-label="link">Advertising</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/" data-track="click" data-track-action="partnerships and services" data-track-label="link">Partnerships &amp; Services</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/media-kits/" data-track="click" data-track-action="media kits" data-track-label="link">Media kits</a></li>
+                <li class="c-footer__item"><a href="https://partnerships.nature.com/product/branded-content-native-advertising/" data-track-action="branded content" data-track-label="link">Branded content</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Career development</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/naturecareers" data-track="click" data-track-action="nature careers" data-track-label="link">Nature Careers</a></li>
+                <li class="c-footer__item"><a href="https://conferences.nature.com" data-track="click" data-track-action="nature conferences" data-track-label="link">Nature<span class="u-visually-hidden"> </span> Conferences</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/natureevents/" data-track="click" data-track-action="nature events" data-track-label="link">Nature<span class="u-visually-hidden"> </span> events</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Regional websites</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/natafrica" data-track="click" data-track-action="nature africa" data-track-label="link">Nature Africa</a></li>
+                <li class="c-footer__item"><a href="http://www.naturechina.com" data-track="click" data-track-action="nature china" data-track-label="link">Nature China</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nindia" data-track="click" data-track-action="nature india" data-track-label="link">Nature India</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/natitaly" data-track="click" data-track-action="nature Italy" data-track-label="link">Nature Italy</a></li>
+                <li class="c-footer__item"><a href="https://www.natureasia.com/ja-jp/" data-track="click" data-track-action="nature japan" data-track-label="link">Nature Japan</a></li>
+                <li class="c-footer__item"><a href="https://www.natureasia.com/ko-kr/" data-track="click" data-track-action="nature korea" data-track-label="link">Nature Korea</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/nmiddleeast/" data-track="click" data-track-action="nature middle east" data-track-label="link">Nature Middle East</a></li>
+            </ul>
+        </div>
+
+        <div class="c-footer__group">
+            <h3 class="c-footer__heading">Legal &amp; Privacy</h3>
+            <ul class="c-footer__list">
+                <li class="c-footer__item"><a href="https://www.nature.com/info/privacy" data-track="click" data-track-action="privacy policy" data-track-label="link">Privacy Policy</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/cookies" data-track="click" data-track-action="use of cookies" data-track-label="link">Use of cookies</a></li>
+                <li class="c-footer__item"><a class="optanon-toggle-display" href="javascript:;" data-track="click" data-track-action="manage cookies" data-track-label="link">Manage cookies/Do not sell my data</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/legal-notice" data-track="click" data-track-action="legal notice" data-track-label="link">Legal notice</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/accessibility-statement" data-track="click" data-track-action="accessibility statement" data-track-label="link">Accessibility statement</a></li>
+                <li class="c-footer__item"><a href="https://www.nature.com/info/terms-and-conditions" data-track="click" data-track-action="terms and conditions" data-track-label="link">Terms &amp; Conditions</a></li>
+                <li class="c-footer__item"><a href="https://www.springernature.com/ccpa" data-track="click" data-track-action="california privacy statement" data-track-label="link">California Privacy Statement</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="c-corporate-footer">
+    <div class="u-container">
+        <img src="/static/images/logos/sn-logo-white.ea63208b81.svg" alt="Springer Nature" loading="lazy" width="140" height="14"/>
+        <p class="c-corporate-footer__legal" data-test="copyright">&copy; 2021 Springer Nature Limited</p>
+    </div>
+</div>
+
+    
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm0 7h-1.5l-.11662113.00672773c-.49733868.05776511-.88337887.48043643-.88337887.99327227 0 .47338693.32893365.86994729.77070917.97358929l.1126697.01968298.11662113.00672773h.5v3h-.5l-.11662113.0067277c-.42082504.0488782-.76196299.3590206-.85696816.7639815l-.01968298.1126697-.00672773.1166211.00672773.1166211c.04887817.4208251.35902055.761963.76398144.8569682l.1126697.019683.11662113.0067277h3l.1166211-.0067277c.4973387-.0577651.8833789-.4804365.8833789-.9932723 0-.4733869-.3289337-.8699473-.7707092-.9735893l-.1126697-.019683-.1166211-.0067277h-.5v-4l-.00672773-.11662113c-.04887817-.42082504-.35902055-.76196299-.76398144-.85696816l-.1126697-.01968298zm0-3.25c-.69035594 0-1.25.55964406-1.25 1.25s.55964406 1.25 1.25 1.25 1.25-.55964406 1.25-1.25-.55964406-1.25-1.25-1.25z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-success" viewBox="0 0 18 18">
+            <path d="M9 0a9 9 0 110 18A9 9 0 019 0zm3.486 4.982l-4.718 5.506L5.14 8.465a.991.991 0 00-1.423.133 1.06 1.06 0 00.13 1.463l3.407 2.733a1 1 0 001.387-.133l5.385-6.334a1.06 1.06 0 00-.116-1.464.991.991 0 00-1.424.119z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16">
+            <path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" fill-rule="evenodd" transform="matrix(0 1 -1 0 11 1)"/>
+        </symbol>
+    </svg>
+
+</footer>
+
+    
+</body>
+</html>
+

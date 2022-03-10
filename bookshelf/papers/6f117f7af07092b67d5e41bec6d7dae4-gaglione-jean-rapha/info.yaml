@@ -1,0 +1,40 @@
+abstract: We address the problem of inferring descriptions of system behavior using
+  Linear Temporal Logic (LTL) from a finite set of positive and negative examples.
+  Most of the existing approaches for solving such a task rely on predefined templates
+  for guiding the structure of the inferred formula. The approaches that can infer
+  arbitrary LTL formulas, on the other hand, are not robust to noise in the data.
+  To alleviate such limitations, we devise two algorithms for inferring concise LTL
+  formulas even in the presence of noise. Our first algorithm infers minimal LTL formulas
+  by reducing the inference problem to a problem in maximum satisfiability and then
+  using off-the-shelf MaxSAT solvers to find a solution. To the best of our knowledge,
+  we are the first to incorporate the usage of MaxSAT solvers for inferring formulas
+  in LTL. Our second learning algorithm relies on the first algorithm to derive a
+  decision tree over LTL formulas based on a decision tree learning algorithm. We
+  have implemented both our algorithms and verified that our algorithms are efficient
+  in extracting concise LTL descriptions even in the presence of noise.
+archiveprefix: arXiv
+author: Gaglione, Jean-Raphaël and Neider, Daniel and Roy, Rajarshi and Topcu, Ufuk
+  and Xu, Zhe
+author_list:
+- family: Gaglione
+  given: Jean-Raphaël
+- family: Neider
+  given: Daniel
+- family: Roy
+  given: Rajarshi
+- family: Topcu
+  given: Ufuk
+- family: Xu
+  given: Zhe
+eprint: 2104.15083v2
+file: 2104.15083v2.pdf
+files:
+- gaglione-jean-raphael-and-neider-daniel-and-roy-rajarshi-and-topcu-ufuk-and-xu-zhelearning-linear-temporal-properties-from-noisy-data-a-maxsat-a.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2104.15083v2
+time-added: 2021-09-30-12:44:34
+title: 'Learning Linear Temporal Properties from Noisy Data: A MaxSAT Approach'
+type: article
+url: http://arxiv.org/abs/2104.15083v2
+year: '2021'

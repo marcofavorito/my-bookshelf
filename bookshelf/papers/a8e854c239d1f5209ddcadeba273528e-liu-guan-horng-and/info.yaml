@@ -1,0 +1,37 @@
+abstract: We propose a novel second-order optimization framework for training the
+  emerging deep continuous-time models, specifically the Neural Ordinary Differential
+  Equations (Neural ODEs). Since their training already involves expensive gradient
+  computation by solving a backward ODE, deriving efficient second-order methods becomes
+  highly nontrivial. Nevertheless, inspired by the recent Optimal Control (OC) interpretation
+  of training deep networks, we show that a specific continuous-time OC methodology,
+  called Differential Programming, can be adopted to derive backward ODEs for higher-order
+  derivatives at the same O(1) memory cost. We further explore a low-rank representation
+  of the second-order derivatives and show that it leads to efficient preconditioned
+  updates with the aid of Kronecker-based factorization. The resulting method converges
+  much faster than first-order baselines in wall-clock time, and the improvement remains
+  consistent across various applications, e.g. image classification, generative flow,
+  and time-series prediction. Our framework also enables direct architecture optimization,
+  such as the integration time of Neural ODEs, with second-order feedback policies,
+  strengthening the OC perspective as a principled tool of analyzing optimization
+  in deep learning.
+archiveprefix: arXiv
+author: Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A.
+author_list:
+- family: Liu
+  given: Guan-Horng
+- family: Chen
+  given: Tianrong
+- family: Theodorou
+  given: Evangelos A.
+eprint: 2109.14158v1
+file: 2109.14158v1.pdf
+files:
+- liu-guan-horng-and-chen-tianrong-and-theodorou-evangelos-a.second-order-neural-ode-optimizer2021.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2109.14158v1
+time-added: 2021-10-06-18:44:07
+title: Second-Order Neural ODE Optimizer
+type: article
+url: http://arxiv.org/abs/2109.14158v1
+year: '2021'

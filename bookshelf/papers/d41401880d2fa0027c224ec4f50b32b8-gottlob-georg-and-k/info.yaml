@@ -1,0 +1,158 @@
+abstract: <jats:p>We study the complexity and expressive power of conjunctive queries
+  over unranked labeled trees represented using a variety of structure relations such
+  as “child”, “descendant”, and “following” as well as unary relations for node labels.
+  We establish a framework for characterizing structures representing trees for which
+  conjunctive queries can be evaluated efficiently. Then we completely chart the tractability
+  frontier of the problem and establish a dichotomy theorem for our axis relations,
+  that is, we find all subset-maximal sets of axes for which query evaluation is in
+  polynomial time and show that for all other cases, query evaluation is NP-complete.
+  All polynomial-time results are obtained immediately using the proof techniques
+  from our framework. Finally, we study the expressiveness of conjunctive queries
+  over trees and show that for each conjunctive query, there is an equivalent acyclic
+  positive query (i.e., a set of acyclic conjunctive queries), but that in general
+  this query is not of polynomial size.</jats:p>
+author: Gottlob, Georg and Koch, Christoph and Schulz, Klaus U.
+author_list:
+- affiliation:
+  - name: Oxford University, Oxford, United Kingdom
+  family: Gottlob
+  given: Georg
+- affiliation:
+  - name: Universität des Saarlandes, Saarbrücken, Germany
+  family: Koch
+  given: Christoph
+- affiliation:
+  - name: Ludwig-Maximilians-Universität München, Munich, Germany
+  family: Schulz
+  given: Klaus U.
+citations:
+- unstructured: Abiteboul S. Hull R. and Vianu V. 1995. Foundations of Databases.
+    Addison-Wesley Reading MA.]]   Abiteboul S. Hull R. and Vianu V. 1995. Foundations
+    of Databases. Addison-Wesley Reading MA.]]
+- author: Baumgartner R.
+  volume-title: Proceedings of the 27th International Conference on Very Large Data
+    Bases (VLDB)
+- author: Benedikt M.
+  volume-title: Proceedings of the 9th International Conference on Database Theory
+    (ICDT)
+- author: Bodirsky M.
+  volume-title: Proc. 15th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)
+- author: Chandra A. K.
+  volume-title: Conference Record of the 9th Annual ACM Symposium on Theory of Computing
+    (STOC'77)
+- author: Chekuri C.
+  volume-title: Proceedings of the 6th International Conference on Database Theory
+    (ICDT)
+- unstructured: Dechter R. 2003. Constraint Processing. Morgan Kaufmann San Francisco
+    CA.]]   Dechter R. 2003. Constraint Processing. Morgan Kaufmann San Francisco
+    CA.]]
+- author: Deutsch A.
+  volume-title: Proceedings of the 29th International Conference on Very Large Data
+    Bases (VLDB)
+- author: Deutsch A.
+  volume-title: Proceedings of the 9th International Conference on Database Theory
+    (ICDT). 225--241
+- unstructured: Ebbinghaus H.-D. and Flum J. 1999. Finite Model Theory. 2nd ed. Springer-Verlag
+    New York.]]  Ebbinghaus H.-D. and Flum J. 1999. Finite Model Theory. 2nd ed. Springer-Verlag
+    New York.]]
+- doi: 10.1145/602220.602222
+- author: Gottlob G.
+  volume-title: Proceedings of the 17th Annual IEEE Symposium on Logic in Computer
+    Science (LICS)
+- doi: 10.1145/962446.962450
+- doi: 10.1145/1071610.1071614
+- doi: 10.1145/1059513.1059520
+- author: Gottlob G.
+  volume-title: Proceedings of the 23rd ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems (PODS'04)
+- doi: 10.1016/0166-218X(92)90294-K
+- doi: 10.1093/acprof:oso/9780198528173.001.0001
+  unstructured: Hell P. and Nesetril J. 2004. Graphs and Homomorphisms. Oxford University
+    Press.]]  Hell P. and Nesetril J. 2004. Graphs and Homomorphisms. Oxford University
+    Press.]]
+- doi: 10.1016/0166-218X(96)00099-6
+- article-title: Duality and polynomial testing of tree homomorphisms
+  author: Hell P.
+  doi: 10.1090/S0002-9947-96-01537-1
+  first-page: '4'
+  journal-title: Trans. AMS
+  volume: '348'
+  year: '1996'
+- author: Hidders J.
+  volume-title: Proceedings of the 9th International Workshop on Database Programming
+    Languages (DBPL)
+  year: '2003'
+- author: Kolaitis P.
+  volume-title: Proceedings of the 17th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems (PODS'98)
+- unstructured: LDC. 1999. The Penn Treebank project. http://www.cis.upenn.edu/~treebank/home.html.]]  LDC.
+    1999. The Penn Treebank project. http://www.cis.upenn.edu/~treebank/home.html.]]
+- doi: 10.1007/978-3-662-07003-1
+  unstructured: Libkin L. 2004. Elements of Finite Model Theory. Springer-Verlag New
+    York.]]   Libkin L. 2004. Elements of Finite Model Theory. Springer-Verlag New
+    York.]]
+- unstructured: Maier D. 1983. The Theory of Relational Databases. Computer Science
+    Press.]]   Maier D. 1983. The Theory of Relational Databases. Computer Science
+    Press.]]
+- author: Marcus M. P.
+  volume-title: Proceedings of the 21st Annual Meeting of the Association for Computational
+    Linguistics (ACL). 129--136
+- author: Marx M.
+  volume-title: Proceedings of the 11th International Conference on Database Theory
+    (ICDT
+  year: '2005'
+- doi: 10.1145/382979.383042
+- author: Meuss H.
+  volume-title: Proceedings of the 8th International Conference on Database Theory
+    (ICDT'01)
+- doi: 10.1016/0020-0190(88)90124-X
+- author: Olteanu D.
+  volume: '2490'
+  volume-title: Proceedings of the EDBT Workshop on XML Data Management (Prague, Czech
+    Republic). Lecture Notes in Computer Science
+- author: Schaefer T.
+  volume-title: Proceedings of the 10th Annual ACM Symposium on Theory of Computing
+    (STOC). ACM
+  year: '1978'
+- author: Schmidt-Schauß M.
+  volume-title: Proceedings of the 9th International Conference on Rewriting Techniques
+    and Applications. 61--75
+- doi: 10.1006/jsco.2001.0438
+- article-title: The complexity of linear and stratified context matching problems
+  author: Schmidt-Schauß M.
+  doi: 10.1007/s00224-004-1151-9
+  first-page: '717'
+  journal-title: Theoret. Comput. Syst.
+  volume: '37'
+  year: '2004'
+- author: Schwentick T.
+  volume-title: Proceedings of the International Symposium on Mathematical Foundations
+    of Computer Science (MFCS). 660--669
+  year: '2000'
+- author: Vardi M. Y.
+  volume-title: Proceedings of the 14th Annual ACM Symposium on Theory of Computing
+    (STOC'82)
+  year: '1982'
+- unstructured: World Wide Web Consortium. 1999. XML Path Language (XPath) Recommendation.
+    http://www.w3c.org/TR/xpath/.]]  World Wide Web Consortium. 1999. XML Path Language
+    (XPath) Recommendation. http://www.w3c.org/TR/xpath/.]]
+- author: Yannakakis M.
+  volume-title: Proceedings of the 7th International Conference on Very Large Data
+    Bases (VLDB'81)
+  year: '1981'
+doi: 10.1145/1131342.1131345
+files:
+- gottlob-georg-and-koch-christoph-and-schulz-klaus-u.conjunctive-queries-over-trees2006.pdf
+issue: '2'
+journal: Journal of the ACM
+language: en
+month: 3
+pages: 238--272
+publisher: Association for Computing Machinery (ACM)
+ref: ConjunctiveQueGottlo2006
+time-added: 2022-01-04-12:23:52
+title: Conjunctive queries over trees
+type: article
+url: http://dx.doi.org/10.1145/1131342.1131345
+volume: '53'
+year: 2006

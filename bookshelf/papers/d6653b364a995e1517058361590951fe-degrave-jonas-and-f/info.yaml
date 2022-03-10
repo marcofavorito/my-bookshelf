@@ -1,0 +1,466 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Nuclear fusion using magnetic confinement,
+  in particular in the tokamak configuration, is a promising path towards sustainable
+  energy. A core challenge is to shape and maintain a high-temperature plasma within
+  the tokamak vessel. This requires high-dimensional, high-frequency, closed-loop
+  control using magnetic actuator coils, further complicated by the diverse requirements
+  across a wide range of plasma configurations. In this work, we introduce a previously
+  undescribed architecture for tokamak magnetic controller design that autonomously
+  learns to command the full set of control coils. This architecture meets control
+  objectives specified at a high level, at the same time satisfying physical and operational
+  constraints. This approach has unprecedented flexibility and generality in problem
+  specification and yields a notable reduction in design effort to produce new plasma
+  configurations. We successfully produce and control a diverse set of plasma configurations
+  on the Tokamak à Configuration Variable<jats:sup>1,2</jats:sup>, including elongated,
+  conventional shapes, as well as advanced configurations, such as negative triangularity
+  and ‘snowflake’ configurations. Our approach achieves accurate tracking of the location,
+  current and shape for these configurations. We also demonstrate sustained ‘droplets’
+  on TCV, in which two separate plasmas are maintained simultaneously within the vessel.
+  This represents a notable advance for tokamak feedback control, showing the potential
+  of reinforcement learning to accelerate research in the fusion domain, and is one
+  of the most challenging real-world systems to which reinforcement learning has been
+  applied.</jats:p>
+author: Degrave, Jonas and Felici, Federico and Buchli, Jonas and Neunert, Michael
+  and Tracey, Brendan and Carpanese, Francesco and Ewalds, Timo and Hafner, Roland
+  and Abdolmaleki, Abbas and de las Casas, Diego and Donner, Craig and Fritz, Leslie
+  and Galperti, Cristian and Huber, Andrea and Keeling, James and Tsimpoukelli, Maria
+  and Kay, Jackie and Merle, Antoine and Moret, Jean-Marc and Noury, Seb and Pesamosca,
+  Federico and Pfau, David and Sauter, Olivier and Sommariva, Cristian and Coda, Stefano
+  and Duval, Basil and Fasoli, Ambrogio and Kohli, Pushmeet and Kavukcuoglu, Koray
+  and Hassabis, Demis and Riedmiller, Martin
+author_list:
+- affiliation: []
+  family: Degrave
+  given: Jonas
+- affiliation: []
+  family: Felici
+  given: Federico
+- affiliation: []
+  family: Buchli
+  given: Jonas
+- affiliation: []
+  family: Neunert
+  given: Michael
+- affiliation: []
+  family: Tracey
+  given: Brendan
+- affiliation: []
+  family: Carpanese
+  given: Francesco
+- affiliation: []
+  family: Ewalds
+  given: Timo
+- affiliation: []
+  family: Hafner
+  given: Roland
+- affiliation: []
+  family: Abdolmaleki
+  given: Abbas
+- affiliation: []
+  family: de las Casas
+  given: Diego
+- affiliation: []
+  family: Donner
+  given: Craig
+- affiliation: []
+  family: Fritz
+  given: Leslie
+- affiliation: []
+  family: Galperti
+  given: Cristian
+- affiliation: []
+  family: Huber
+  given: Andrea
+- affiliation: []
+  family: Keeling
+  given: James
+- affiliation: []
+  family: Tsimpoukelli
+  given: Maria
+- affiliation: []
+  family: Kay
+  given: Jackie
+- affiliation: []
+  family: Merle
+  given: Antoine
+- affiliation: []
+  family: Moret
+  given: Jean-Marc
+- affiliation: []
+  family: Noury
+  given: Seb
+- affiliation: []
+  family: Pesamosca
+  given: Federico
+- affiliation: []
+  family: Pfau
+  given: David
+- affiliation: []
+  family: Sauter
+  given: Olivier
+- affiliation: []
+  family: Sommariva
+  given: Cristian
+- affiliation: []
+  family: Coda
+  given: Stefano
+- affiliation: []
+  family: Duval
+  given: Basil
+- affiliation: []
+  family: Fasoli
+  given: Ambrogio
+- affiliation: []
+  family: Kohli
+  given: Pushmeet
+- affiliation: []
+  family: Kavukcuoglu
+  given: Koray
+- affiliation: []
+  family: Hassabis
+  given: Demis
+- affiliation: []
+  family: Riedmiller
+  given: Martin
+citations:
+- author: F Hofmann
+  doi: 10.1088/0741-3335/36/12B/023
+  first-page: B277
+  journal-title: Plasma Phys. Control. Fusion
+  unstructured: Hofmann, F. et al. Creation and control of variably shaped plasmas
+    in TCV. Plasma Phys. Control. Fusion 36, B277 (1994).
+  volume: '36'
+  year: '1994'
+- author: S Coda
+  doi: 10.1088/1741-4326/ab25cb
+  first-page: '112023'
+  journal-title: Nucl. Fusion
+  unstructured: 'Coda, S. et al. Physics research on the TCV tokamak facility: from
+    conventional to alternative scenarios and beyond. Nucl. Fusion 59, 112023 (2019).'
+  volume: '59'
+  year: '2019'
+- author: H Anand
+  doi: 10.1088/1741-4326/aa7f4d
+  first-page: '126026'
+  journal-title: Nucl. Fusion
+  unstructured: Anand, H., Coda, S., Felici, F., Galperti, C. & Moret, J.-M. A novel
+    plasma position and shape controller for advanced configuration development on
+    the TCV tokamak. Nucl. Fusion 57, 126026 (2017).
+  volume: '57'
+  year: '2017'
+- author: A Mele
+  doi: 10.1016/j.fusengdes.2019.02.058
+  first-page: '1282'
+  journal-title: Fusion Eng. Des.
+  unstructured: 'Mele, A. et al. MIMO shape control at the EAST tokamak: simulations
+    and experiments. Fusion Eng. Des. 146, 1282–1285 (2019).'
+  volume: '146'
+  year: '2019'
+- author: H Anand
+  doi: 10.1088/1361-6587/abc457
+  first-page: '015006'
+  journal-title: Plasma Phys. Control. Fusion
+  unstructured: Anand, H. et al. Plasma flux expansion control on the DIII-D tokamak.
+    Plasma Phys. Control. Fusion 63, 015006 (2020).
+  volume: '63'
+  year: '2020'
+- author: G De Tommasi
+  doi: 10.1007/s10894-018-0162-5
+  first-page: '406'
+  journal-title: J. Fusion Energy
+  unstructured: De Tommasi, G. Plasma magnetic control in tokamak devices. J. Fusion
+    Energy 38, 406–436 (2019).
+  volume: '38'
+  year: '2019'
+- author: ML Walker
+  doi: 10.13182/FST06-A1271
+  first-page: '473'
+  journal-title: Fusion Sci. Technol.
+  unstructured: Walker, M. L. & Humphreys, D. A. Valid coordinate systems for linearized
+    plasma shape response models in tokamaks. Fusion Sci. Technol. 50, 473–489 (2006).
+  volume: '50'
+  year: '2006'
+- author: J Blum
+  doi: 10.1016/j.jcp.2019.05.046
+  first-page: '594'
+  journal-title: J. Comput. Phys.
+  unstructured: Blum, J., Heumann, H., Nardon, E. & Song, X. Automating the design
+    of tokamak experiment scenarios. J. Comput. Phys. 394, 594–614 (2019).
+  volume: '394'
+  year: '2019'
+- author: JR Ferron
+  doi: 10.1088/0029-5515/38/7/308
+  first-page: '1055'
+  journal-title: Nucl. Fusion
+  unstructured: Ferron, J. R. et al. Real time equilibrium reconstruction for tokamak
+    discharge control. Nucl. Fusion 38, 1055 (1998).
+  volume: '38'
+  year: '1998'
+- author: J-M Moret
+  doi: 10.1016/j.fusengdes.2014.09.019
+  first-page: '1'
+  journal-title: Fusion Eng. Des.
+  unstructured: Moret, J.-M. et al. Tokamak equilibrium reconstruction code LIUQE
+    and its real time implementation. Fusion Eng. Des. 91, 1–15 (2015).
+  volume: '91'
+  year: '2015'
+- doi: 10.1109/IROS.2018.8593722
+  unstructured: Xie, Z., Berseth, G., Clary, P., Hurst, J. & van de Panne, M. Feedback
+    control for Cassie with deep reinforcement learning. In 2018 IEEE/RSJ International
+    Conference on Intelligent Robots and Systems (IROS) 1241–1246 (IEEE, 2018).
+- unstructured: Akkaya, I. et al. Solving Rubik’s cube with a robot hand. Preprint
+    at https://arxiv.org/abs/1910.07113 (2019).
+- author: MG Bellemare
+  doi: 10.1038/s41586-020-2939-8
+  first-page: '77'
+  journal-title: Nature
+  unstructured: Bellemare, M. G. et al. Autonomous navigation of stratospheric balloons
+    using reinforcement learning. Nature 588, 77–82 (2020).
+  volume: '588'
+  year: '2020'
+- author: D Humphreys
+  doi: 10.1007/s10894-020-00258-1
+  first-page: '123'
+  journal-title: J. Fusion Energy
+  unstructured: Humphreys, D. et al. Advancing fusion with machine learning research
+    needs workshop report. J. Fusion Energy 39, 123–155 (2020).
+  volume: '39'
+  year: '2020'
+- author: CM Bishop
+  doi: 10.1162/neco.1995.7.1.206
+  first-page: '206'
+  journal-title: Neural Comput.
+  unstructured: Bishop, C. M., Haynes, P. S., Smith, M. E., Todd, T. N. & Trotman,
+    D. L. Real time control of a tokamak plasma using neural networks. Neural Comput.
+    7, 206–217 (1995).
+  volume: '7'
+  year: '1995'
+- author: S Joung
+  doi: 10.1088/1741-4326/ab555f
+  first-page: '16034'
+  journal-title: Nucl. Fusion
+  unstructured: Joung, S. et al. Deep neural network Grad-Shafranov solver constrained
+    with measured magnetic signals. Nucl. Fusion 60, 16034 (2019).
+  volume: '60'
+  year: '2019'
+- author: KL van de Plassche
+  doi: 10.1063/1.5134126
+  first-page: '022310'
+  journal-title: Phys. Plasmas
+  unstructured: van de Plassche, K. L. et al. Fast modeling of turbulent transport
+    in fusion plasmas using neural networks. Phys. Plasmas 27, 022310 (2020).
+  volume: '27'
+  year: '2020'
+- author: J Abbate
+  doi: 10.1088/1741-4326/abe08d
+  first-page: '046027'
+  journal-title: Nucl. Fusion
+  unstructured: Abbate, J., Conlin, R. & Kolemen, E. Data-driven profile prediction
+    for DIII-D. Nucl. Fusion 61, 046027 (2021).
+  volume: '61'
+  year: '2021'
+- author: J Kates-Harbeck
+  doi: 10.1038/s41586-019-1116-4
+  first-page: '526'
+  journal-title: Nature
+  unstructured: Kates-Harbeck, J., Svyatkovskiy, A. & Tang, W. Predicting disruptive
+    instabilities in controlled fusion plasmas through deep learning. Nature 568,
+    526–531 (2019).
+  volume: '568'
+  year: '2019'
+- doi: 10.1201/EBK1439810958
+  unstructured: Jardin, S. Computational Methods in Plasma Physics (CRC Press, 2010).
+- author: H Grad
+  doi: 10.1016/0891-3919(58)90139-6
+  first-page: '284'
+  journal-title: J. Nucl. Energy (1954)
+  unstructured: Grad, H. & Rubin, H. Hydromagnetic equilibria and force-free fields.
+    J. Nucl. Energy (1954) 7, 284–285 (1958).
+  volume: '7'
+  year: '1958'
+- unstructured: Carpanese, F. Development of Free-boundary Equilibrium and Transport
+    Solvers for Simulation and Real-time Interpretation of Tokamak Experiments. PhD
+    thesis, EPFL (2021).
+- unstructured: Abdolmaleki, A. et al. Relative entropy regularized policy iteration.
+    Preprint at https://arxiv.org/abs/1812.02256 (2018).
+- doi: 10.1109/RTC.2010.5750487
+  unstructured: Paley, J. I., Coda, S., Duval, B., Felici, F. & Moret, J.-M. Architecture
+    and commissioning of the TCV distributed feedback control system. In 2010 17th
+    IEEE-NPSS Real Time Conference 1–6 (IEEE, 2010).
+- doi: 10.1017/CBO9780511755705
+  unstructured: Freidberg, J. P. Plasma Physics and Fusion Energy (Cambridge Univ.
+    Press, 2008).
+- author: GD Hommen
+  doi: 10.1088/0029-5515/54/7/073018
+  first-page: 073018
+  journal-title: Nucl. Fusion
+  unstructured: Hommen, G. D. et al. Real-time optical plasma boundary reconstruction
+    for plasma position control at the TCV Tokamak. Nucl. Fusion 54, 073018 (2014).
+  volume: '54'
+  year: '2014'
+- author: ME Austin
+  doi: 10.1103/PhysRevLett.122.115001
+  first-page: '115001'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Austin, M. E. et al. Achievement of reactor-relevant performance in
+    negative triangularity shape in the DIII-D tokamak. Phys. Rev. Lett. 122, 115001
+    (2019).
+  volume: '122'
+  year: '2019'
+- author: E Kolemen
+  doi: 10.1088/1741-4326/aab0d3
+  first-page: '066007'
+  journal-title: Nucl. Fusion
+  unstructured: Kolemen, E. et al. Initial development of the DIII–D snowflake divertor
+    control. Nucl. Fusion 58, 066007 (2018).
+  volume: '58'
+  year: '2018'
+- author: H Anand
+  doi: 10.1088/1741-4326/ab4440
+  first-page: '126032'
+  journal-title: Nucl. Fusion
+  unstructured: Anand, H. et al. Real time magnetic control of the snowflake plasma
+    configuration in the TCV tokamak. Nucl. Fusion 59, 126032 (2019).
+  volume: '59'
+  year: '2019'
+- unstructured: Wigbers, M. & Riedmiller, M. A new method for the analysis of neural
+    reference model control. In Proc. International Conference on Neural Networks
+    (ICNN’97) Vol. 2, 739–743 (IEEE, 1997).
+- unstructured: Berkenkamp, F., Turchetta, M., Schoellig, A. & Krause, A. Safe model-based
+    reinforcement learning with stability guarantees. In 2017 Advances in Neural Information
+    Processing Systems 908–919 (ACM, 2017).
+- author: KP Wabersich
+  doi: 10.1109/TAC.2021.3049335
+  first-page: '176'
+  journal-title: IEEE Tran. Automat. Control
+  unstructured: Wabersich, K. P., Hewing, L., Carron, A. & Zeilinger, M. N. Probabilistic
+    model predictive safety certification for learning-based control. IEEE Tran. Automat.
+    Control 67, 176–188 (2021).
+  volume: '67'
+  year: '2021'
+- unstructured: Abdolmaleki, A. et al. On multi-objective policy optimization as a
+    tool for reinforcement learning. Preprint at https://arxiv.org/abs/2106.08199
+    (2021).
+- author: S Coda
+  doi: 10.1088/1741-4326/aa6412
+  first-page: '102011'
+  journal-title: Nucl. Fusion
+  unstructured: 'Coda, S. et al. Overview of the TCV tokamak program: scientific progress
+    and facility upgrades. Nucl. Fusion 57, 102011 (2017).'
+  volume: '57'
+  year: '2017'
+- author: AN Karpushov
+  doi: 10.1016/j.fusengdes.2017.02.076
+  first-page: '468'
+  journal-title: Fusion Eng. Des.
+  unstructured: Karpushov, A. N. et al. Neutral beam heating on the TCV tokamak. Fusion
+    Eng. Des. 123, 468–472 (2017).
+  volume: '123'
+  year: '2017'
+- author: JB Lister
+  doi: 10.1088/0029-5515/42/6/309
+  first-page: '708'
+  journal-title: Nucl. Fusion
+  unstructured: Lister, J. B. et al. Plasma equilibrium response modelling and validation
+    on JT-60U. Nucl. Fusion 42, 708 (2002).
+  volume: '42'
+  year: '2002'
+- author: JB Lister
+  doi: 10.13182/FST97-A1
+  first-page: '321'
+  journal-title: Fusion Technol.
+  unstructured: Lister, J. B. et al. The control of tokamak configuration variable
+    plasmas. Fusion Technol. 32, 321–373 (1997).
+  volume: '32'
+  year: '1997'
+- unstructured: 'Ulyanov, D., Vedaldi, A. & Lempitsky, V. Instance normalization:
+    the missing ingredient for fast stylization. Preprint at https://arxiv.org/abs/1607.08022
+    (2016).'
+- unstructured: Andrychowicz, M. et al. What matters in on-policy reinforcement learning?
+    A large-scale empirical study. In ICLR 2021 Ninth International Conference on
+    Learning Representations (2021).
+- unstructured: 'Cassirer, A. et al. Reverb: a framework for experience replay. Preprint
+    at https://arxiv.org/abs/2102.04736 (2021).'
+- unstructured: 'Hoffman, M. et al. Acme: a research framework for distributed reinforcement
+    learning. Preprint at https://arxiv.org/abs/2006.00979 (2020).'
+- author: F Hofmann
+  doi: 10.1016/0010-4655(88)90041-0
+  first-page: '207'
+  journal-title: Comput. Phys. Commun.
+  unstructured: Hofmann, F. FBT-a free-boundary tokamak equilibrium code for highly
+    elongated and shaped plasmas. Comput. Phys. Commun. 48, 207–221 (1988).
+  volume: '48'
+  year: '1988'
+- unstructured: 'Abadi, M. et al. TensorFlow: a system for large-scale machine learning.
+    In Proc. 12th USENIX Symposium on Operating Systems Design and Implementation
+    (OSDI ’16) 265–283 (2016).'
+- author: G De Tommasi
+  doi: 10.1016/j.fusengdes.2018.02.020
+  first-page: '152'
+  journal-title: Fusion Eng. Des.
+  unstructured: De Tommasi, G. et al. Model-based plasma vertical stabilization and
+    position control at EAST. Fusion Eng. Des. 129, 152–157 (2018).
+  volume: '129'
+  year: '2018'
+- doi: 10.1109/CCA.2016.7587895
+  unstructured: Gerkšič, S. & De Tommasi, G. ITER plasma current and shape control
+    using MPC. In 2016 IEEE Conference on Control Applications (CCA) 599–604 (IEEE,
+    2016).
+- doi: 10.1109/CDC.2015.7402553
+  unstructured: 'Boncagni, L. et al. Performance-based controller switching: an application
+    to plasma current control at FTU. In 2015 54th IEEE Conference on Decision and
+    Control (CDC) 2319–2324 (IEEE, 2015).'
+- author: T Wakatsuki
+  doi: 10.1088/1741-4326/ab1571
+  first-page: '066022'
+  journal-title: Nucl. Fusion
+  unstructured: Wakatsuki, T., Suzuki, T., Hayashi, N., Oyama, N. & Ide, S. Safety
+    factor profile control with reduced central solenoid flux consumption during plasma
+    current ramp-up phase using a reinforcement learning technique. Nucl. Fusion 59,
+    066022 (2019).
+  volume: '59'
+  year: '2019'
+- author: T Wakatsuki
+  doi: 10.1088/1741-4326/abe68d
+  first-page: '046036'
+  journal-title: Nucl. Fusion
+  unstructured: Wakatsuki, T., Suzuki, T., Oyama, N. & Hayashi, N. Ion temperature
+    gradient control using reinforcement learning technique. Nucl. Fusion 61, 046036
+    (2021).
+  volume: '61'
+  year: '2021'
+- author: J Seo
+  doi: 10.1088/1741-4326/ac121b
+  first-page: '106010'
+  journal-title: Nucl. Fusion
+  unstructured: Seo, J. et al. Feedforward beta control in the KSTAR tokamak by deep
+    reinforcement learning. Nucl. Fusion 61, 106010 (2021).
+  volume: '61'
+  year: '2021'
+- doi: 10.1155/2021/6593438
+  unstructured: 'Yang, F. et al. Launchpad: a programming model for distributed machine
+    learning research. Preprint at https://arxiv.org/abs/2106.04516 (2021).'
+- unstructured: 'Muldal, A. et al. dm_env: a Python interface for reinforcement learning
+    environments. http://github.com/deepmind/dm_env (2019).'
+- unstructured: 'Reynolds, M. et al. Sonnet: TensorFlow-based neural network library.
+    http://github.com/deepmind/sonnet (2017).'
+- unstructured: 'Martín A. et al. TensorFlow: large-scale machine learning on heterogeneous
+    systems. Software available from https://www.tensorflow.org/ 2015.'
+- unstructured: 'Hender, T. C. et al. Chapter 3: MHD stability, operational limits
+    and disruptions. Nucl. Fusion 47, S128–S202 (2007). '
+doc_url: https://www.nature.com/articles/s41586-021-04301-9
+doi: 10.1038/s41586-021-04301-9
+files:
+- degrave-jonas-and-felici-federico-and-buchli-jonas-and-neunert-michael-and-tracey-brendan-and-carpanese-francesco-and-ewalds-timo-and-hafner-r.data
+issue: '7897'
+journal: Nature
+language: en
+month: 2
+pages: 414--419
+publisher: Springer Science and Business Media LLC
+ref: MagneticControDegrav2022
+time-added: 2022-02-21-19:30:25
+title: Magnetic control of tokamak plasmas through deep reinforcement learning
+type: article
+url: http://dx.doi.org/10.1038/s41586-021-04301-9
+volume: '602'
+year: 2022

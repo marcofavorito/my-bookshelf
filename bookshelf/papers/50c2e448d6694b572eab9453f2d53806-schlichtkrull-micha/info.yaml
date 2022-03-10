@@ -1,0 +1,42 @@
+abstract: 'Knowledge graphs enable a wide variety of applications, including question
+  answering and information retrieval. Despite the great effort invested in their
+  creation and maintenance, even the largest (e.g., Yago, DBPedia or Wikidata) remain
+  incomplete. We introduce Relational Graph Convolutional Networks (R-GCNs) and apply
+  them to two standard knowledge base completion tasks: Link prediction (recovery
+  of missing facts, i.e. subject-predicate-object triples) and entity classification
+  (recovery of missing entity attributes). R-GCNs are related to a recent class of
+  neural networks operating on graphs, and are developed specifically to deal with
+  the highly multi-relational data characteristic of realistic knowledge bases. We
+  demonstrate the effectiveness of R-GCNs as a stand-alone model for entity classification.
+  We further show that factorization models for link prediction such as DistMult can
+  be significantly improved by enriching them with an encoder model to accumulate
+  evidence over multiple inference steps in the relational graph, demonstrating a
+  large improvement of 29.8% on FB15k-237 over a decoder-only baseline.'
+archiveprefix: arXiv
+author: Schlichtkrull, Michael and Kipf, Thomas N. and Bloem, Peter and van den Berg,
+  Rianne and Titov, Ivan and Welling, Max
+author_list:
+- family: Schlichtkrull
+  given: Michael
+- family: Kipf
+  given: Thomas N.
+- family: Bloem
+  given: Peter
+- family: van den Berg
+  given: Rianne
+- family: Titov
+  given: Ivan
+- family: Welling
+  given: Max
+eprint: 1703.06103v4
+file: 1703.06103v4.pdf
+files:
+- schlichtkrull-michael-and-kipf-thomas-n.-and-bloem-peter-and-van-den-berg-rianne-and-titov-ivan-and-welling-maxmodeling-relational-data-with-gra.pdf
+month: Mar
+primaryclass: stat.ML
+ref: 1703.06103v4
+time-added: 2021-11-10-15:39:08
+title: Modeling Relational Data with Graph Convolutional Networks
+type: article
+url: http://arxiv.org/abs/1703.06103v4
+year: '2017'

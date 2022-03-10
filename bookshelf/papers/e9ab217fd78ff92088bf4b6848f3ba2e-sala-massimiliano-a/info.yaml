@@ -1,0 +1,75 @@
+abstract: <jats:p>We show how a small subgroup confinement-like attack may be mounted
+  on the Bitcoin addresses generation protocol, by inspecting a special subgroup of
+  the group associated to point multiplication. This approach does not undermine the
+  system security but highlights the importance of using fair random sources during
+  the private key selection.</jats:p>
+author: Sala, Massimiliano and Sogiorno, Domenica and Taufer, Daniele
+author_list:
+- affiliation: []
+  family: Sala
+  given: Massimiliano
+- affiliation: []
+  family: Sogiorno
+  given: Domenica
+- affiliation: []
+  family: Taufer
+  given: Daniele
+citations:
+- unstructured: 'Bitcoin: A Peer-to-Peer Electronic Cash System
+
+    https://bitcoin.org/bitcoin.pdf'
+- author: Narayanan
+  series-title: 'Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction'
+  year: '2016'
+- doi: 10.1145/3301403.3301407
+- unstructured: 'Blockchains: The Great Chain of Being Sure about Things. The Economist
+
+    https://www.economist.com/briefing/2015/10/31/the-great-chain-of-being-sure-about-things'
+- doi: 10.1109/ICCBB.2018.8756390
+- doi: 10.1109/MC.2017.3571042
+- unstructured: 'Foodchain
+
+    https://food-chain.it/'
+- doi: 10.1109/TrustCom/BigDataSE.2018.00183
+- doi: 10.6633/IJNS.201709.19(5).01
+- doi: 10.33166/AETiC.2020.01.002
+- doi: 10.1007/BFb0052240
+- unstructured: 'Una Famiglia di Chiavi Deboli Nel Bitcoin, CRYPTANALYSIS: A Key Tool
+    in Securing and Breaking Ciphers
+
+    http://www.decifris.it/2020/crittanalisi2020.html'
+- doi: 10.1007/s10623-015-0146-7
+- author: Silverman
+  series-title: The Arithmetic of Elliptic Curves
+  year: '1986'
+- doi: 10.1017/CBO9780511525926
+- {}
+- unstructured: 'SEC 2: Recommended Elliptic Curve Domain Parameters
+
+    http://www.secg.org/sec2-v2.pdf'
+- unstructured: 'On the Secure Hash Algorithm Family, Cryptography in Context. Chapter
+    1
+
+    https://www.staff.science.uu.nl/~tel00101/liter/Books/CrypCont.pdf'
+- doi: 10.1007/3-540-60865-6_44
+- article-title: Base58 and Base58Check Encoding
+  author: Antonopoulos
+  series-title: Mastering Bitcoin
+  year: '2015'
+- unstructured: 'Blockchain.com
+
+    https://www.blockchain.com/explorer?view=btc'
+doi: 10.3390/math8101645
+issue: '10'
+journal: Mathematics
+language: en
+month: 9
+pages: '1645'
+publisher: MDPI AG
+ref: ASmallSubgrouSala2020
+time-added: 2021-11-18-16:31:36
+title: A Small Subgroup Attack on Bitcoin Address Generation
+type: article
+url: http://dx.doi.org/10.3390/math8101645
+volume: '8'
+year: 2020

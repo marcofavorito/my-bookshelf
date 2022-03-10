@@ -1,0 +1,40 @@
+abstract: Relational joins are at the core of relational algebra, which in turn is
+  the core of the standard database query language SQL. As their evaluation is expensive
+  and very often dominated by the output size, it is an important task for database
+  query optimisers to compute estimates on the size of joins and to find good execution
+  plans for sequences of joins. We study these problems from a theoretical perspective,
+  both in the worst-case model, and in an average-case model where the database is
+  chosen according to a known probability distribution. In the former case, our first
+  key observation is that the worst-case size of a query is characterised by the fractional
+  edge cover number of its underlying hypergraph, a combinatorial parameter previously
+  known to provide an upper bound. We complete the picture by proving a matching lower
+  bound, and by showing that there exist queries for which the join-project plan suggested
+  by the fractional edge cover approach may be substantially better than any join
+  plan that does not use intermediate projections. On the other hand, we show that
+  in the average-case model, every join-project plan can be turned into a plan containing
+  no projections in such a way that the expected time to evaluate the plan increases
+  only by a constant factor independent of the size of the database. Not surprisingly,
+  the key combinatorial parameter in this context is the maximum density of the underlying
+  hypergraph. We show how to make effective use of this parameter to eliminate the
+  projections.
+archiveprefix: arXiv
+author: Atserias, Albert and Grohe, Martin and Marx, Dániel
+author_list:
+- family: Atserias
+  given: Albert
+- family: Grohe
+  given: Martin
+- family: Marx
+  given: Dániel
+eprint: 1711.03860v1
+file: 1711.03860v1.pdf
+files:
+- atserias-albert-and-grohe-martin-and-marx-danielsize-bounds-and-query-plans-for-relational-joins2017.pdf
+month: Nov
+primaryclass: cs.DB
+ref: 1711.03860v1
+time-added: 2021-11-08-17:23:09
+title: Size bounds and query plans for relational joins
+type: article
+url: http://arxiv.org/abs/1711.03860v1
+year: '2017'

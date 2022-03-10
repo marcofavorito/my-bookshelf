@@ -1,0 +1,43 @@
+abstract: This book develops an effective theory approach to understanding deep neural
+  networks of practical relevance. Beginning from a first-principles component-level
+  picture of networks, we explain how to determine an accurate description of the
+  output of trained networks by solving layer-to-layer iteration equations and nonlinear
+  learning dynamics. A main result is that the predictions of networks are described
+  by nearly-Gaussian distributions, with the depth-to-width aspect ratio of the network
+  controlling the deviations from the infinite-width Gaussian description. We explain
+  how these effectively-deep networks learn nontrivial representations from training
+  and more broadly analyze the mechanism of representation learning for nonlinear
+  models. From a nearly-kernel-methods perspective, we find that the dependence of
+  such models' predictions on the underlying learning algorithm can be expressed in
+  a simple and universal way. To obtain these results, we develop the notion of representation
+  group flow (RG flow) to characterize the propagation of signals through the network.
+  By tuning networks to criticality, we give a practical solution to the exploding
+  and vanishing gradient problem. We further explain how RG flow leads to near-universal
+  behavior and lets us categorize networks built from different activation functions
+  into universality classes. Altogether, we show that the depth-to-width ratio governs
+  the effective model complexity of the ensemble of trained networks. By using information-theoretic
+  techniques, we estimate the optimal aspect ratio at which we expect the network
+  to be practically most useful and show how residual connections can be used to push
+  this scale to arbitrary depths. With these tools, we can learn in detail about the
+  inductive bias of architectures, hyperparameters, and optimizers.
+archiveprefix: arXiv
+author: Roberts, Daniel A. and Yaida, Sho and Hanin, Boris
+author_list:
+- family: Roberts
+  given: Daniel A.
+- family: Yaida
+  given: Sho
+- family: Hanin
+  given: Boris
+eprint: 2106.10165v2
+file: 2106.10165v2.pdf
+files:
+- roberts-daniel-a.-and-yaida-sho-and-hanin-boristhe-principles-of-deep-learning-theory2021.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.10165v2
+time-added: 2022-03-02-15:05:18
+title: The Principles of Deep Learning Theory
+type: article
+url: http://arxiv.org/abs/2106.10165v2
+year: '2021'
