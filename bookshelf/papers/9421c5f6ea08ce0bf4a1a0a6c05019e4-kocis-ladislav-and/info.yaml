@@ -1,0 +1,149 @@
+abstract: <jats:p>The Halton, Sobol, and Faure sequences and the Braaten-Weller construction
+  of the generalized Halton sequence are studied in order to assess their applicability
+  for the quasi Monte Carlo integration with large number of variates. A modification
+  of the Halton sequence (the Halton sequence leaped) and a new construction of the
+  generalized Halton sequence are suggested for unrestricted number of dimensions
+  and are shown to improve considerably on the original Halton sequence. Problems
+  associated with estimation of the error in quasi Monte Carlo integration and with
+  the selection of test functions are identified. Then an estimate of the maximum
+  error of the quasi Monte Carlo integration of nine test functions is computed for
+  up to 400 dimensions and is used to evaluate the known    generators mentioned above
+  and the two new generators. An empirical formula for the error of the quasi Monte
+  Carlo integration is suggested.</jats:p>
+author: Kocis, Ladislav and Whiten, William J.
+author_list:
+- affiliation:
+  - name: The Univ. of Queensland, Brisbane, Australia
+  family: Kocis
+  given: Ladislav
+- affiliation:
+  - name: The Univ. of Queensland, Brisbane, Australia
+  family: Whiten
+  given: William J.
+citations:
+- article-title: An economic method of computing LPt-sequences
+  author: ANTONOV I. A.
+  doi: 10.1016/0041-5553(79)90085-5
+  first-page: '252'
+  journal-title: USSR Comput. Math. Math. Phys.
+  volume: '19'
+  year: '1979'
+- article-title: An improved low-discrepancy sequence for multidimensional Quasi-Monte
+    Carlo integration
+  author: BRAATEN E.
+  doi: 10.1016/0021-9991(79)90019-6
+  first-page: '249'
+  journal-title: J. Comput. Phys.
+  volume: '33'
+  year: '1979'
+- doi: 10.1145/42288.214372
+- doi: 10.1145/146382.146385
+- article-title: Discrepance de suites associees a un systeme de numeration (en dimension
+    s)
+  author: FAURE H.
+  doi: 10.4064/aa-41-4-337-351
+  first-page: '337'
+  journal-title: Acta Arith.
+  volume: '41'
+  year: '1982'
+- article-title: On the star discrepancy of generalised Hammersley sequences in two
+    dimensions
+  author: FAURE H.
+  doi: 10.1007/BF01559392
+  first-page: '291'
+  journal-title: Monatsh. Math.
+  volume: '101'
+  year: '1986'
+- doi: 10.1145/22721.356187
+- article-title: Multidimensional additive spline approximation
+  author: FRIEDMAN J. H.
+  doi: 10.1137/0904023
+  first-page: '291'
+  issue: '2'
+  journal-title: SIAM J. Sci. Stat. Comput.
+  volume: '4'
+  year: '1983'
+- doi: 10.1145/355934.355939
+- article-title: On the efficiency of certain quasi-random sequences of points in
+    evaluating multi-dimensional integrals
+  author: HALTON J. H.
+  doi: 10.1007/BF01386213
+  first-page: '84'
+  journal-title: Numer. Math.
+  volume: '2'
+  year: '1960'
+- article-title: Regularities in the distribution of special sequences
+  author: HELLEKALEK P.
+  doi: 10.1016/0022-314X(84)90041-6
+  first-page: '41'
+  journal-title: J. Number Theory
+  volume: '18'
+  year: '1984'
+- author: HICKERNELL F.J.
+  volume-title: Monte Carlo and Quasi Monte Carlo Methods in Scientific Computing
+- doi: 10.1006/jcom.1996.0003
+- author: KROMMER A. R.
+  doi: 10.1007/BFb0025796
+  volume-title: Numerical Integration on Advanced Computer Systems
+- author: NIEDERREITER H.
+  volume-title: Random Number Generation and Quasi-Monte Carlo Methods. CBMS-NSF Regional
+    Conference Series in Applied Mathematics
+- article-title: A central limiting theorem for latin hypercube sampling
+  author: OWEN A.B.
+  first-page: '541'
+  issue: '2'
+  journal-title: J. Royal Stat. Soc. B.
+  volume: '54'
+  year: '1992'
+- author: OWEN A. B.
+  volume-title: Monte Carlo and Quasi Monte Carlo Methods in Scientific Computing
+- author: PRESS W. H.
+  edition: '2'
+  volume-title: Numerical Recipes in C
+- article-title: Multidimensional Monte Carlo integration based on factorized approximation
+    functions
+  author: SASAKI T.
+  doi: 10.1137/0715061
+  first-page: '938'
+  issue: '5'
+  journal-title: SIAM J. Numer. Anal.
+  volume: '15'
+  year: '1978'
+- author: SLOAN I. H.
+  doi: 10.1016/0377-0427(85)90012-3
+  volume-title: Lattice Methods for Multiple Integration
+- article-title: The distribution of points in a cube and approximate evaluation of
+    integrals
+  author: SOBOL I. M.
+  first-page: '784'
+  journal-title: Zh. Vychisl. Mat. Mat. Fiz.
+  volume: '7'
+  year: '1967'
+- doi: 10.1145/169702.169694
+- article-title: Verteilungsfunctionen I
+  author: VAN DER CORP
+  first-page: '813'
+  journal-title: Nederl. Akad. Wetensch. Proc.
+  volume: '38'
+  year: '1935'
+- article-title: Verteilungsfunctionen II
+  author: VAN DER CORP
+  first-page: '1058'
+  journal-title: Nederl. Akad. Wetensch. Proc.
+  volume: '38'
+  year: '1935'
+- doi: 10.1145/214437.214440
+doi: 10.1145/264029.264064
+issue: '2'
+journal: ACM Transactions on Mathematical Software
+language: en
+month: 6
+pages: 266--294
+publisher: Association for Computing Machinery (ACM)
+ref: ComputationalIKocis1997
+time-added: 2022-03-17-18:02:53
+title: Computational investigations of low-discrepancy sequences
+type: article
+url: http://dx.doi.org/10.1145/264029.264064
+volume: '23'
+year: 1997

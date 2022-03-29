@@ -1,0 +1,41 @@
+abstract: The problem of inverse reinforcement learning (IRL) is relevant to a variety
+  of tasks including value alignment and robot learning from demonstration. Despite
+  significant algorithmic contributions in recent years, IRL remains an ill-posed
+  problem at its core; multiple reward functions coincide with the observed behavior
+  and the actual reward function is not identifiable without prior knowledge or supplementary
+  information. This paper presents an IRL framework called Bayesian optimization-IRL
+  (BO-IRL) which identifies multiple solutions that are consistent with the expert
+  demonstrations by efficiently exploring the reward function space. BO-IRL achieves
+  this by utilizing Bayesian Optimization along with our newly proposed kernel that
+  (a) projects the parameters of policy invariant reward functions to a single point
+  in a latent space and (b) ensures nearby points in the latent space correspond to
+  reward functions yielding similar likelihoods. This projection allows the use of
+  standard stationary kernels in the latent space to capture the correlations present
+  across the reward function space. Empirical results on synthetic and real-world
+  environments (model-free and model-based) show that BO-IRL discovers multiple reward
+  functions while minimizing the number of expensive exact policy optimizations.
+archiveprefix: arXiv
+author: Balakrishnan, Sreejith and Nguyen, Quoc Phong and Low, Bryan Kian Hsiang and
+  Soh, Harold
+author_list:
+- family: Balakrishnan
+  given: Sreejith
+- family: Nguyen
+  given: Quoc Phong
+- family: Low
+  given: Bryan Kian Hsiang
+- family: Soh
+  given: Harold
+eprint: 2011.08541v1
+file: 2011.08541v1.pdf
+files:
+- balakrishnan-sreejith-and-nguyen-quoc-phong-and-low-bryan-kian-hsiang-and-soh-haroldefficient-exploration-of-reward-functions-in-inverse-reinforce.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2011.08541v1
+time-added: 2022-03-14-11:50:08
+title: Efficient Exploration of Reward Functions in Inverse Reinforcement   Learning
+  via Bayesian Optimization
+type: article
+url: http://arxiv.org/abs/2011.08541v1
+year: '2020'

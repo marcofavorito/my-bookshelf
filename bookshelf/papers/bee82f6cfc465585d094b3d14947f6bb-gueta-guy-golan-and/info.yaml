@@ -1,0 +1,48 @@
+abstract: 'SBFT is a state of the art Byzantine fault tolerant permissioned blockchain
+  system that addresses the challenges of scalability, decentralization and world-scale
+  geo-replication. SBFTis optimized for decentralization and can easily handle more
+  than 200 active replicas in a real world-scale deployment. We evaluate \sysname
+  in a world-scale geo-replicated deployment with 209 replicas withstanding f=64 Byzantine
+  failures. We provide experiments that show how the different algorithmic ingredients
+  of \sysname increase its performance and scalability. The results show that SBFT
+  simultaneously provides almost 2x better throughput and about 1.5x better latency
+  relative to a highly optimized system that implements the PBFT protocol. To achieve
+  this performance improvement, SBFT uses a combination of four ingredients: using
+  collectors and threshold signatures to reduce communication to linear, using an
+  optimistic fast path, reducing client communication and utilizing redundant servers
+  for the fast path.'
+archiveprefix: arXiv
+author: Gueta, Guy Golan and Abraham, Ittai and Grossman, Shelly and Malkhi, Dahlia
+  and Pinkas, Benny and Reiter, Michael K. and Seredinschi, Dragos-Adrian and Tamir,
+  Orr and Tomescu, Alin
+author_list:
+- family: Gueta
+  given: Guy Golan
+- family: Abraham
+  given: Ittai
+- family: Grossman
+  given: Shelly
+- family: Malkhi
+  given: Dahlia
+- family: Pinkas
+  given: Benny
+- family: Reiter
+  given: Michael K.
+- family: Seredinschi
+  given: Dragos-Adrian
+- family: Tamir
+  given: Orr
+- family: Tomescu
+  given: Alin
+eprint: 1804.01626v3
+file: 1804.01626v3.pdf
+files:
+- gueta-guy-golan-and-abraham-ittai-and-grossman-shelly-and-malkhi-dahlia-and-pinkas-benny-and-reiter-michael-k.-and-seredinschi-dragos-adrian-an.pdf
+month: Apr
+primaryclass: cs.DC
+ref: 1804.01626v3
+time-added: 2022-03-22-14:44:08
+title: 'SBFT: a Scalable and Decentralized Trust Infrastructure'
+type: article
+url: http://arxiv.org/abs/1804.01626v3
+year: '2018'
