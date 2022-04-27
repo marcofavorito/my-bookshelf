@@ -1,0 +1,36 @@
+abstract: Interest in agent-based models of financial markets and the wider economy
+  has increased consistently over the last few decades, in no small part due to their
+  ability to reproduce a number of empirically-observed stylised facts that are not
+  easily recovered by more traditional modelling approaches. Nevertheless, the agent-based
+  modelling paradigm faces mounting criticism, focused particularly on the rigour
+  of current validation and calibration practices, most of which remain qualitative
+  and stylised fact-driven. While the literature on quantitative and data-driven approaches
+  has seen significant expansion in recent years, most studies have focused on the
+  introduction of new calibration methods that are neither benchmarked against existing
+  alternatives nor rigorously tested in terms of the quality of the estimates they
+  produce. We therefore compare a number of prominent ABM calibration methods, both
+  established and novel, through a series of computational experiments in an attempt
+  to determine the respective strengths and weaknesses of each approach and the overall
+  quality of the resultant parameter estimates. We find that Bayesian estimation,
+  though less popular in the literature, consistently outperforms frequentist, objective
+  function-based approaches and results in reasonable parameter estimates in many
+  contexts. Despite this, we also find that agent-based model calibration techniques
+  require further development in order to definitively calibrate large-scale models.
+  We therefore make suggestions for future research.
+archiveprefix: arXiv
+author: Platt, Donovan
+author_list:
+- family: Platt
+  given: Donovan
+eprint: 1902.05938v1
+file: 1902.05938v1.pdf
+files:
+- platt-donovana-comparison-of-economic-agent-based-model-calibration-methods2019.pdf
+month: Feb
+primaryclass: q-fin.CP
+ref: 1902.05938v1
+time-added: 2022-04-07-15:17:41
+title: A Comparison of Economic Agent-Based Model Calibration Methods
+type: article
+url: http://arxiv.org/abs/1902.05938v1
+year: '2019'

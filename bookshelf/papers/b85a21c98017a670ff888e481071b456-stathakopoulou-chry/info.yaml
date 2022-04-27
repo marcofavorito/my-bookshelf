@@ -1,0 +1,43 @@
+abstract: This paper presents Mir-BFT, a robust Byzantine fault-tolerant (BFT) total
+  order broadcast protocol aimed at maximizing throughput on wide-area networks (WANs),
+  targeting deployments in decentralized networks, such as permissioned and Proof-of-Stake
+  permissionless blockchain systems.   Mir-BFT is the first BFT protocol that allows
+  multiple leaders to propose request batches independently (i.e., parallel leaders),
+  in a way that precludes request duplication attacks by malicious (Byzantine) clients,
+  by rotating the assignment of a partitioned request hash space to leaders.   As
+  this mechanism removes a single-leader bandwidth bottleneck and exposes a computation
+  bottleneck related to authenticating clients even on a WAN, our protocol further
+  boosts throughput using a client signature verification sharding optimization.   Our
+  evaluation shows that Mir-BFT outperforms state-of-the-art and orders more than
+  60000 signed Bitcoin-sized (500-byte) transactions per second on a widely distributed
+  100 nodes, 1 Gbps WAN setup, with typical latencies of few seconds.   We also evaluate
+  Mir-BFT under different crash and Byzantine faults, demonstrating its performance
+  robustness.   Mir-BFT relies on classical BFT protocol constructs, which simplifies
+  reasoning about its correctness.   Specifically, Mir-BFT is a generalization of
+  the celebrated and scrutinized PBFT protocol. In a nutshell, Mir-BFT follows PBFT
+  "safety-wise", with changes needed to accommodate novel features restricted to PBFT
+  liveness.
+archiveprefix: arXiv
+author: Stathakopoulou, Chrysoula and David, Tudor and Pavlovic, Matej and Vukolić,
+  Marko
+author_list:
+- family: Stathakopoulou
+  given: Chrysoula
+- family: David
+  given: Tudor
+- family: Pavlovic
+  given: Matej
+- family: Vukolić
+  given: Marko
+eprint: 1906.05552v3
+file: 1906.05552v3.pdf
+files:
+- stathakopoulou-chrysoula-and-david-tudor-and-pavlovic-matej-and-vukolic-markomir-bft-high-throughput-robust-bft-for-decentralized-networks2019.pdf
+month: Jun
+primaryclass: cs.DC
+ref: 1906.05552v3
+time-added: 2022-03-25-12:49:21
+title: 'Mir-BFT: High-Throughput Robust BFT for Decentralized Networks'
+type: article
+url: http://arxiv.org/abs/1906.05552v3
+year: '2019'
