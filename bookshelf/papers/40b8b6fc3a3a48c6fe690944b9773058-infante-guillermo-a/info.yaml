@@ -1,0 +1,34 @@
+abstract: In this work we present a novel approach to hierarchical reinforcement learning
+  for linearly-solvable Markov decision processes. Our approach assumes that the state
+  space is partitioned, and the subtasks consist in moving between the partitions.
+  We represent value functions on several levels of abstraction, and use the compositionality
+  of subtasks to estimate the optimal values of the states in each partition. The
+  policy is implicitly defined on these optimal value estimates, rather than being
+  decomposed among the subtasks. As a consequence, our approach can learn the globally
+  optimal policy, and does not suffer from the non-stationarity of high-level decisions.
+  If several partitions have equivalent dynamics, the subtasks of those partitions
+  can be shared. If the set of boundary states is smaller than the entire state space,
+  our approach can have significantly smaller sample complexity than that of a flat
+  learner, and we validate this empirically in several experiments.
+archiveprefix: arXiv
+author: Infante, Guillermo and Jonsson, Anders and Gómez, Vicenç
+author_list:
+- family: Infante
+  given: Guillermo
+- family: Jonsson
+  given: Anders
+- family: Gómez
+  given: Vicenç
+eprint: 2106.15380v2
+file: 2106.15380v2.pdf
+files:
+- infante-guillermo-and-jonsson-anders-and-gomez-vicencglobally-optimal-hierarchical-reinforcement-learning-for-linearly-solvable-markov-decision-p.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.15380v2
+time-added: 2022-04-27-10:21:30
+title: Globally Optimal Hierarchical Reinforcement Learning for   Linearly-Solvable
+  Markov Decision Processes
+type: article
+url: http://arxiv.org/abs/2106.15380v2
+year: '2021'

@@ -1,0 +1,32 @@
+abstract: Replicated services accessed via {\em quorums} enable each access to be
+  performed at only a subset (quorum) of the servers, and achieve consistency across
+  accesses by requiring any two quorums to intersect. Recently, $b$-masking quorum
+  systems, whose intersections contain at least $2b+1$ servers, have been proposed
+  to construct replicated services tolerant of $b$ arbitrary (Byzantine) server failures.
+  In this paper we consider a hybrid fault model allowing benign failures in addition
+  to the Byzantine ones. We present four novel constructions for $b$-masking quorum
+  systems in this model, each of which has optimal {\em load} (the probability of
+  access of the busiest server) or optimal availability (probability of some quorum
+  surviving failures). To show optimality we also prove lower bounds on the load and
+  availability of any $b$-masking quorum system in this model.
+archiveprefix: arXiv
+author: Malkhi, Dahlia and Reiter, Michael and Wool, Avishai
+author_list:
+- family: Malkhi
+  given: Dahlia
+- family: Reiter
+  given: Michael
+- family: Wool
+  given: Avishai
+eprint: cs/9908011v1
+file: cs/9908011v1.pdf
+files:
+- malkhi-dahlia-and-reiter-michael-and-wool-avishaithe-load-and-availability-of-byzantine-quorum-systems1999.pdf
+month: Aug
+primaryclass: cs.DC
+ref: cs/9908011v1
+time-added: 2022-04-27-10:22:50
+title: The Load and Availability of Byzantine Quorum Systems
+type: article
+url: http://arxiv.org/abs/cs/9908011v1
+year: '1999'
