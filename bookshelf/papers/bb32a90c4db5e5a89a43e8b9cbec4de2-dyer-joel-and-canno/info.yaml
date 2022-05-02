@@ -1,0 +1,47 @@
+abstract: 'Simulation models, in particular agent-based models, are gaining popularity
+  in economics. The considerable flexibility they offer, as well as their capacity
+  to reproduce a variety of empirically observed behaviours of complex systems, give
+  them broad appeal, and the increasing availability of cheap computing power has
+  made their use feasible. Yet a widespread adoption in real-world modelling and decision-making
+  scenarios has been hindered by the difficulty of performing parameter estimation
+  for such models. In general, simulation models lack a tractable likelihood function,
+  which precludes a straightforward application of standard statistical inference
+  techniques. Several recent works have sought to address this problem through the
+  application of likelihood-free inference techniques, in which parameter estimates
+  are determined by performing some form of comparison between the observed data and
+  simulation output. However, these approaches are (a) founded on restrictive assumptions,
+  and/or (b) typically require many hundreds of thousands of simulations. These qualities
+  make them unsuitable for large-scale simulations in economics and can cast doubt
+  on the validity of these inference methods in such scenarios. In this paper, we
+  investigate the efficacy of two classes of black-box approximate Bayesian inference
+  methods that have recently drawn significant attention within the probabilistic
+  machine learning community: neural posterior estimation and neural density ratio
+  estimation. We present benchmarking experiments in which we demonstrate that neural
+  network based black-box methods provide state of the art parameter inference for
+  economic simulation models, and crucially are compatible with generic multivariate
+  time-series data. In addition, we suggest appropriate assessment criteria for future
+  benchmarking of approximate Bayesian inference procedures for economic simulation
+  models.'
+archiveprefix: arXiv
+author: Dyer, Joel and Cannon, Patrick and Farmer, J. Doyne and Schmon, Sebastian
+author_list:
+- family: Dyer
+  given: Joel
+- family: Cannon
+  given: Patrick
+- family: Farmer
+  given: J. Doyne
+- family: Schmon
+  given: Sebastian
+eprint: 2202.00625v1
+file: 2202.00625v1.pdf
+files:
+- dyer-joel-and-cannon-patrick-and-farmer-j.-doyne-and-schmon-sebastianblack-box-bayesian-inference-for-economic-agent-based-models2022.pdf
+month: Feb
+primaryclass: econ.EM
+ref: 2202.00625v1
+time-added: 2022-04-13-16:47:16
+title: Black-box Bayesian inference for economic agent-based models
+type: article
+url: http://arxiv.org/abs/2202.00625v1
+year: '2022'
