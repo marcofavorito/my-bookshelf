@@ -1,0 +1,2761 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="access" content="No">
+
+    
+    
+    <meta name="doi" content="10.1007/978-3-030-60990-0"/>
+    <meta name="title" content="Handbook of Reinforcement Learning and Control"/>
+    <meta name="description" content="This edited volume presents state of the art research in Reinforcement Learning, focusing on its applications in the control of dynamic systems and future directions the technology may take. It provides a comprehensive guide for graduate students, academics and engineers alike."/>
+    
+
+    
+    
+    <meta property="og:url" content="https://link.springer.com/book/10.1007/978-3-030-60990-0"/>
+    <meta property="og:type" content="book"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:title" content="Handbook of Reinforcement Learning and Control"/>
+    <meta property="og:image" content="https://media.springernature.com/w153/springer-static/cover/book/978-3-030-60990-0.jpg"/>
+    
+
+
+    <title>Handbook of Reinforcement Learning and Control | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+    
+        <style>@media only print, only all and (prefers-color-scheme: no-preference), only all and (prefers-color-scheme: light), only all and (prefers-color-scheme: dark) { a{text-decoration:underline;text-decoration-skip-ink:auto}html{text-size-adjust:100%;-webkit-font-smoothing:subpixel-antialiased;box-sizing:border-box;color:#333;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:100%;height:100%;line-height:1.61803;overflow-y:scroll}body{background:#fcfcfc;font-size:1.125rem;line-height:1.5;max-width:100%;min-height:100%}aside,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent;color:#004b83;overflow-wrap:break-word;word-break:break-word}img{border:0;height:auto;max-width:100%;vertical-align:middle}svg:not(:root){overflow:hidden}button,input{font-family:sans-serif;font-size:100%}input{line-height:1.15}button,input{overflow:visible}button{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[hidden]{display:none}button{border-radius:0;cursor:pointer;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;line-height:inherit}.app-journal-header__title{font-family:Georgia,Palatino,serif;font-style:normal}h1,h2{font-weight:400}h1{font-family:Georgia,Palatino,serif;font-size:2rem;font-style:normal;margin-bottom:1em}h2{font-family:Georgia,Palatino,serif;font-size:1.75rem;font-style:normal;margin-bottom:1em}label{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}*{box-sizing:inherit}body,button,div,dt,form,input{margin:0;padding:0}dd,dl,p{padding:0}h1,h2{line-height:1.4}dd,dl,p{margin:0}h1,h2,ul{margin-top:0}p{margin-bottom:1.5em;overflow-wrap:break-word;word-break:break-word}p:last-child{margin-bottom:0}.c-ad{text-align:center}@media only screen and (min-width:320px){.c-ad{padding:8px}}.c-ad--728x90{background-color:#ccc;display:none}.c-ad--728x90 .c-ad__inner{min-height:calc(1.5em + 94px)}.c-ad--728x90 iframe{height:90px;max-width:970px}@media only screen and (min-width:768px){.js .c-ad--728x90{display:none}.js .u-show-following-ad+.c-ad--728x90{display:block}}.c-ad iframe{border:0;overflow:auto;vertical-align:top}.c-ad__label{color:#333;font-size:.875rem;font-weight:400;line-height:1.5;margin-bottom:4px}.c-ad__label,.c-banner{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-banner{background-color:#f7fbfe;border-bottom:1px solid #003b84;font-size:1rem;margin:0 auto;padding:16px 12px;position:relative;text-align:center}.c-banner--marketing .c-banner__link{color:#fff}.c-banner--marketing{background-color:#004b83;border-bottom:0;color:#fff}.c-banner__link{color:#004b83;text-decoration:underline}.c-skip-link{background:#f7fbfe;bottom:auto;color:#004b83;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:.875rem;padding:8px;position:absolute;text-align:center;transform:translateY(-100%);z-index:9999}@media (prefers-reduced-motion:reduce){.c-skip-link{transition:top .3s ease-in-out 0s}}@media print{.c-skip-link{display:none}}.c-skip-link:link{color:#004b83}.c-pagination{align-items:center;display:flex;flex-wrap:wrap;font-size:.875rem;list-style:none;margin:0;padding:16px}@media only screen and (min-width:540px){.c-pagination{justify-content:center}}.c-pagination__item{margin-bottom:8px;margin-right:16px}.c-pagination__item:last-child{margin-right:0}.c-pagination__link{align-items:center;background-color:#f2f2f2;background-image:linear-gradient(#fff,#f2f2f2);border:1px solid #ccc;border-radius:2px;color:#004b83;cursor:pointer;display:inline-flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;justify-content:center;line-height:1.3;margin:0;min-width:30px;padding:8px;position:relative;text-align:center;text-decoration:none;transition:all .25s ease 0s,color .25s ease 0s,border-color .25s ease 0s;width:auto}.c-pagination__link svg,.c-pagination__link--disabled svg{fill:currentcolor}.c-pagination__link:visited{color:#004b83}.c-pagination__link:focus,.c-pagination__link:hover{border:1px solid #666;text-decoration:none}.c-pagination__link:focus,.c-pagination__link:hover{background-color:#666;background-image:none;color:#fff}.c-pagination__link:focus svg path,.c-pagination__link:hover svg path{fill:#fff}.c-pagination__link--disabled{align-items:center;background-color:transparent;background-image:none;border-radius:2px;color:#333;cursor:default;display:inline-flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;justify-content:center;line-height:1.3;margin:0;opacity:.67;padding:8px;position:relative;transition:all .25s ease 0s,color .25s ease 0s,border-color .25s ease 0s;width:auto}.c-pagination__link--disabled:visited{color:#333}.c-pagination__link--disabled,.c-pagination__link--disabled:focus,.c-pagination__link--disabled:hover{border:1px solid #ccc;text-decoration:none}.c-pagination__link--disabled:focus,.c-pagination__link--disabled:hover{background-color:transparent;background-image:none;color:#333}.c-pagination__link--disabled:focus svg path,.c-pagination__link--disabled:hover svg path{fill:#333}.c-pagination__link--active{background-color:#666;background-image:none;border-color:#666;color:#fff;cursor:default}.c-pagination__ellipsis{background:0 0;border:0;min-width:auto;padding-left:0;padding-right:0}.c-pagination__icon{fill:#999;height:12px;width:16px}.c-pagination__icon--active{fill:#004b83}.c-box{background-color:#fff;border:1px solid #ccc;border-radius:2px;line-height:1.3;padding:16px}.c-box--shadowed{box-shadow:0 0 5px 0 hsla(0,0%,50%,.1)}.c-box__item{display:block;line-height:1.4;margin-bottom:16px;text-decoration:none}.c-box__item,.c-header{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem}.c-header{background-color:#fff;border-bottom:4px solid #00285a;padding:16px 0}.c-header__container,.c-header__menu{align-items:center;display:flex;flex-wrap:wrap}@supports (gap:2em){.c-header__container,.c-header__menu{gap:2em 2em}}.c-header__menu{list-style:none;margin:0;padding:0}.c-header__item{color:inherit}@supports not (gap:2em){.c-header__item{margin-left:24px}}.c-header__container{justify-content:space-between;margin:0 auto;max-width:1280px;padding:0 16px}@supports not (gap:2em){.c-header__brand{margin-right:32px}}.c-header__brand a{display:block;text-decoration:none}.c-header__link{color:inherit;text-decoration:none}.c-popup-search{background-color:#eee;box-shadow:0 3px 3px -3px rgba(0,0,0,.21);padding:16px 0;position:relative;z-index:10}@media only screen and (min-width:1024px){.js .c-popup-search{position:absolute;top:100%;width:100%}.c-popup-search__container{margin:auto;max-width:70%}}.c-article-identifiers{color:#6f6f6f;display:flex;flex-wrap:wrap;font-size:1rem;line-height:1.3;list-style:none;margin:0 0 8px;padding:0}.c-article-identifiers__item{border-right:1px solid #6f6f6f;list-style:none;margin-right:8px;padding-right:8px}.c-article-identifiers__item:last-child{border-right:0;margin-right:0;padding-right:0}.c-article-author-list{display:inline;font-size:1rem;list-style:none;margin:0 8px 0 0;padding:0;width:100%}.c-article-author-list__item{margin-left:0}.c-article-author-list li,.c-article-author-list__item{display:inline;padding-right:0}.c-article-metrics-bar{display:flex;flex-wrap:wrap;font-size:1rem;line-height:1.3}.c-article-metrics-bar__wrapper{margin:0 0 16px}.c-article-metrics-bar__item{align-items:baseline;border-right:1px solid #6f6f6f;margin-right:8px}.c-article-metrics-bar__item:last-child{border-right:0}.c-article-metrics-bar__count{font-weight:700;margin:0}.c-article-metrics-bar__label{color:#626262;font-style:normal;font-weight:400;margin:0 10px 0 5px}.c-article-main-column{font-family:Georgia,Palatino,serif;margin-right:8.6%;width:60.2%}@media only screen and (max-width:1023px){.c-article-main-column{margin-right:0;width:100%}}.c-article-extras{float:left;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;width:31.2%}@media only screen and (max-width:1023px){.c-article-extras{display:none}}.app-journal-header__theme{border-top-left-radius:2px;border-top-right-radius:2px;height:50px;margin:-16px -16px 0;overflow:hidden;position:relative}@media only screen and (min-width:1024px){.app-journal-header__theme:after{background-color:hsla(0,0%,100%,.15);bottom:0;content:"";position:absolute;right:0;top:0;width:456px}}.app-journal-header__content{padding-top:16px}@media only screen and (min-width:1024px){.app-journal-header__content{display:flex}}.app-journal-header__main{display:flex;flex:1 1 auto}@media only screen and (min-width:1024px){.app-journal-header__side{flex:1 0 440px;margin-left:16px;max-width:440px;padding-left:16px}}.app-journal-header__side:not(:empty){border-top:1px solid #ccc;margin-top:16px;padding-top:16px}@media only screen and (min-width:1024px){.app-journal-header__side:not(:empty){border-left:1px solid #ccc;border-top:0;margin-top:0;padding-top:0}}.app-journal-header__cover{margin-right:16px;margin-top:-50px;position:relative;z-index:5}.app-journal-header__cover img{border:2px solid #fff;border-radius:4px;box-shadow:0 0 5px 2px hsla(0,0%,64%,.2);max-height:125px;max-width:96px}.app-journal-header__title{font-size:1.875rem;line-height:1.2;margin-bottom:0}.app-journal-header__subtitle{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1.125rem;margin-bottom:0}.app-search__content{display:flex}.app-search__label{color:#666;display:inline-block;font-size:.875rem;margin-bottom:8px}.app-search__input{border:1px solid #b3b3b3;border-bottom-left-radius:3px;border-top-left-radius:3px;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.21);flex:0 1 auto;font-size:.875rem;line-height:1.2;padding:.75em 1em;vertical-align:middle;width:100%}.app-search__button{align-items:center;background-color:#33629d;background-image:linear-gradient(#4d76a9,#33629d);border:1px solid rgba(0,59,132,.5);border-radius:0 2px 2px 0;color:#fff;cursor:pointer;display:inline-flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;justify-content:center;line-height:1.3;margin:0;padding:8px;position:relative;text-align:center;text-decoration:none;transition:all .25s ease 0s,color .25s ease 0s,border-color .25s ease 0s;width:50px}.app-search__button svg{fill:currentcolor}.u-clearfix:after,.u-clearfix:before{content:"";display:table}.u-clearfix:after{clear:both}.u-display-block{display:block}.u-display-flex{display:flex;width:100%}.u-align-items-center{align-items:center}.u-flex-shrink{flex:0 1 auto}.u-flex-static{flex:0 0 auto}.js .u-js-hide{display:none;visibility:hidden}@media print{.u-hide-print{display:none}}.u-icon{fill:currentcolor;display:inline-block;height:1em;transform:translate(0);vertical-align:text-top;width:1em}.u-list-reset{list-style:none;margin:0;padding:0}.u-button-reset{background-color:transparent;border:0;padding:0}.u-text-bold{font-weight:700}.u-container{margin:0 auto;max-width:1280px;padding:0 16px}.u-position-relative{position:relative}.u-mr-24{margin-right:24px}.u-mb-8{margin-bottom:8px}.u-mb-16{margin-bottom:16px}.u-mb-24{margin-bottom:24px}.u-mb-32{margin-bottom:32px}.u-ml-8{margin-left:8px}.u-float-left{float:left}.u-hide{display:none;visibility:hidden}.u-visually-hidden{clip:rect(0,0,0,0);border:0;height:1px;margin:-100%;overflow:hidden;padding:0;position:absolute!important;width:1px}.u-text-sm{font-size:1rem}.u-text-sans-serif{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.hide{display:none;visibility:hidden}.visually-hidden{clip:rect(1px,1px,1px,1px);height:1px;position:absolute!important;width:1px}.c-pagination__section{margin:24px 0}.c-pagination__left{justify-content:left}.c-pagination__input{border:1px solid #bfbfbf;border-radius:2px;box-shadow:inset 0 2px 6px 0 rgba(51,51,51,.2);box-sizing:initial;display:inline-block;height:28px;margin:0;max-width:64px;min-width:16px;padding:0 8px;text-align:center;transition:width .15s ease 0s}.c-pagination__input::-webkit-inner-spin-button,.c-pagination__input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.app-journal-header__title{font-weight:400}@media only screen and (max-width:539px){.app-journal-header__cover img{max-width:76px}}.c-book-evaluation{font-size:1rem;line-height:1.76}.c-book-evaluation-divider{border-top:1px solid #eee;margin-top:16px;padding-top:16px}.c-book-section-title{display:inline;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;font-weight:700}.c-article-main-column .c-buybox__container{display:none}@media only screen and (max-width:1023px){.c-article-main-column .c-buybox__container{display:block}}.c-button{border:1px solid #b3b3b3;border-radius:2px;cursor:pointer;display:block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;line-height:1.6em;margin:0;padding:8px 12px;text-decoration:none;transition:background-color .25s ease 0s,color .25s ease 0s,border-color .25s ease 0s;width:100%}.c-button--blue{background-color:#3365a4;background-image:linear-gradient(#4d78af,#3365a4);border-color:rgba(0,63,141,.5);color:#fff}.c-header__cart-icon{margin-right:12px}.c-header__navigation{display:flex} }</style>
+
+    
+
+    
+        <link rel="stylesheet" data-inline-css-source="critical-css" href="/oscar-static/app-springerlink/css/enhanced-article-a7f5903a4a.css" media="print" onload="this.media='only print, only all and (prefers-color-scheme: no-preference), only all and (prefers-color-scheme: light), only all and (prefers-color-scheme: dark)';this.onload=null">
+    
+
+
+    
+    <script>
+        window.dataLayer = [{"GA Key":"UA-26408784-1","DOI":"10.1007/978-3-030-60990-0","page":{"attributes":{"environment":"live"}},"doi":"10.1007-978-3-030-60990-0","Features":[],"hasAccess":"N","Open Access":"N","user":{"license":{"businessPartnerID":[],"businessPartnerIDString":""}},"Access Type":"no-access","Page":"Book","Country":"IT","Bpids":"","Bpnames":"","BPID":["1"],"VG Wort Identifier":"pw-vgzm.415900-10.1007-978-3-030-60990-0","Full HTML":"N","Has Body":"N","Has Preview":"N","Labs":"Y","Keywords":"Reinforcement Learning, Privacy and Security, Control Systems, Cyber-Physical Systems, Distributed Control, Multi-Agent Systems, Game Theory, Non-equilibrium Learning, Optimal and Adaptive Control, Data-driven Decision Making","Event Category":"Book","SubjectCodes":"SCT, SCT19010, SCI21060, SCI21010, SCI28010, SCT24080","session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"attributes":{"deliveryPlatform":"oscar"},"book":{"bookProductType":"Contributed volume","doi":{"value":"10.1007/978-3-030-60990-0"},"eisbn":"978-3-030-60990-0","pisbn":"978-3-030-60989-4","seriesId":"13304","seriesTitle":"Studies in Systems, Decision and Control","title":"Handbook of Reinforcement Learning and Control"},"category":{"pmc":{"primarySubject":"Engineering","primarySubjectCode":"T","secondarySubjectCodes":{"1":"T19010","2":"I21060","3":"I21010","4":"I28010","5":"T24080"},"secondarySubjects":{"1":"Control and Systems Theory","2":"Multiagent Systems","3":"Machine Learning","4":"Privacy","5":"Cyber-physical systems, IoT"}},"sucode":"SUCO11647"},"serial":{"eissn":"2198-4190","pissn":"2198-4182"},"type":"Book"},"pmc":["T","T19010","I21060","I21010","I28010","T24080"],"kwrd":["Reinforcement_Learning","Privacy_and_Security","Control_Systems","Cyber-Physical_Systems","Distributed_Control","Multi-Agent_Systems","Game_Theory","Non-equilibrium_Learning","Optimal_and_Adaptive_Control","Data-driven_Decision_Making"],"topLevelCategory":"Engineering","isbn":"978-3-030-60990-0","productId":"9783030609900","pIsbn":"978-3-030-60990-0","url":"https://link.springer.com/book/10.1007/978-3-030-60990-0","photo":"https://media.springernature.com/w153/springer-static/cover/book/978-3-030-60990-0.jpg"}];
+    </script>
+
+    <script>
+    window.dataLayer.push({
+        ga4MeasurementId: 'G-B3E4QL2TPR',
+        ga360TrackingId: 'UA-26408784-1',
+        twitterId: 'o47a7',
+        ga4ServerUrl: 'https://collect.springer.com',
+        imprint: 'springerlink'
+    });
+</script>
+
+
+    <script>
+        window.dataLayer.push({
+            cmpAndNewGtmFeatureFlag: true
+        });
+    </script>
+
+
+
+
+    <script data-test="gtm-head">
+    window.initGTM = function() {
+        if (window.config.mustardcut) {
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                
+                    j.src = 'https://collect.springer.com/gtm.js?id=' + i + dl;
+                
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-MRVXSHQ');
+        }
+    }
+</script>
+    <script>
+    (function(w,d,t) {
+        function cc() {
+            var h = w.location.hostname;
+            var e = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+
+            if (h.indexOf('springer.com') > -1) {
+                e.src = 'https://push-content.springernature.io/pcf_sb_5_1617714720898560639/production_live/consent-bundle-17-8.js';
+                e.setAttribute('onload', "initGTM(window,document,'script','dataLayer','GTM-MRVXSHQ')");
+            } else {
+                e.src = '/static/js/lib/cookie-consent.min.js';
+                e.setAttribute('data-consent', h);
+            }
+            s.insertAdjacentElement('afterend', e);
+        }
+
+        cc();
+    })(window,document,'script');
+</script>
+
+    
+    <script>
+        (function(w, d) {
+            w.config = w.config || {};
+            w.config.mustardcut = false;
+
+            
+            if (w.matchMedia && w.matchMedia('only print, only all and (prefers-color-scheme: no-preference), only all and (prefers-color-scheme: light), only all and (prefers-color-scheme: dark)').matches) {
+                w.config.mustardcut = true;
+                d.classList.add('js');
+                d.classList.remove('grade-c');
+            }
+        })(window, document.documentElement);
+    </script>
+
+
+
+    
+<script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+
+
+
+    
+    <script class="js-entry">
+        if (window.config.mustardcut) {
+            (function(w, d) {
+                
+                
+                
+                    window.Component = {};
+                    window.suppressShareButton = true;
+                
+
+                var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+                
+                function catchNoModuleSupport() {
+                    var scriptEl = d.createElement('script');
+                    return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+                }
+
+                var headScripts = [
+                    {'src': '/oscar-static/js/polyfill-es5-bundle-5deb9f81de.js', 'async': false},
+                    {'src': '/oscar-static/js/airbrake-es5-bundle-e9c03fbcf8.js', 'async': false},
+                ];
+
+                var bodyScripts = [
+                    {'src': '/oscar-static/js/app-es5-bundle-4dbc670b63.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/app-es6-bundle-23006f03e0.js', 'async': false, 'module': true}
+                    
+                    
+                        , {'src': '/oscar-static/js/global-article-es5-bundle-a068685303.js', 'async': false, 'module': false},
+                        {'src': '/oscar-static/js/global-article-es6-bundle-47ef9ee60e.js', 'async': false, 'module': true}
+                    
+                ];
+
+                function createScript(script) {
+                    var scriptEl = d.createElement('script');
+                    scriptEl.src = script.src;
+                    scriptEl.async = script.async;
+                    if (script.module === true) {
+                        scriptEl.type = "module";
+                        if (catchNoModuleSupport()) {
+                            scriptEl.src = '';
+                        }
+                    } else if (script.module === false) {
+                        scriptEl.setAttribute('nomodule', true)
+                    }
+                    if (script.charset) {
+                        scriptEl.setAttribute('charset', script.charset);
+                    }
+
+                    return scriptEl;
+                }
+
+                for (var i = 0; i < headScripts.length; ++i) {
+                    var scriptEl = createScript(headScripts[i]);
+                    currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+                }
+
+                d.addEventListener('DOMContentLoaded', function() {
+                    for (var i = 0; i < bodyScripts.length; ++i) {
+                        var scriptEl = createScript(bodyScripts[i]);
+                        d.body.appendChild(scriptEl);
+                    }
+                });
+
+                // Webfont repeat view
+                var config = w.config;
+                if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                    d.documentElement.className += ' webfonts-loaded';
+                }
+            })(window, document);
+        }
+    </script>
+
+
+
+    
+    
+    <link rel="canonical" href="https://link.springer.com/book/10.1007/978-3-030-60990-0"/>
+    
+
+    
+    <script type="application/ld+json">{"image":"https://media.springernature.com/w153/springer-static/cover/book/978-3-030-60990-0","genre":["Intelligent Technologies and Robotics","Intelligent Technologies and Robotics (R0)"],"publisher":{"name":"Springer International Publishing","logo":{"url":"https://www.springernature.com/app-sn/public/images/logo-springernature.png","@type":"ImageObject"},"@type":"Organization"},"editor":[{"name":"Kyriakos G. Vamvoudakis","affiliation":[{"name":"","address":{"name":"The Daniel Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, Atlanta, USA","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Yan Wan","affiliation":[{"name":"","address":{"name":"Department of Electrical Engineering, The University of Texas at Arlington, Arlington, USA","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Frank L. Lewis","affiliation":[{"name":"","address":{"name":"Department of Electrical Engineering, The University of Texas at Arlington, Arlington, USA","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"},{"name":"Derya Cansever","affiliation":[{"name":"","address":{"name":"Army Research Office, Durham, USA","@type":"PostalAddress"},"@type":"Organization"}],"@type":"Person"}],"keywords":"Reinforcement Learning, Privacy and Security, Control Systems, Cyber-Physical Systems, Distributed Control, Multi-Agent Systems, Game Theory, Non-equilibrium Learning, Optimal and Adaptive Control, Data-driven Decision Making","description":"This edited volume presents state of the art research in Reinforcement Learning, focusing on its applications in the control of dynamic systems and future directions the technology may take. It provides a comprehensive guide for graduate students, academics and engineers alike.","copyrightYear":"2021","name":"Handbook of Reinforcement Learning and Control","numberOfPages":24,"isbn":"978-3-030-60990-0","copyrightHolder":{"name":"Springer Nature Switzerland AG","@type":"Organization"},"@type":"Book","@context":"https://schema.org"}</script>
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript data-test="gtm-body">
+                <iframe src="https://collect.springer.com/ns.html?id=GTM-MRVXSHQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+
+
+    <div class="u-vh-full">
+        <a class="c-skip-link" href="#main-content">Skip to main content</a>
+        
+            <div class="u-hide u-show-following-ad"></div>
+            <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+                <div class="c-ad__inner">
+                    <p class="c-ad__label">Advertisement</p>
+                    <div id="div-gpt-ad-LB1" data-pa11y-ignore data-gpt
+                         data-gpt-unitpath="/270604982/springerlink/book" data-gpt-sizes="728x90"
+                         style="min-width:728px;min-height:90px" data-gpt-targeting="pos=LB1;">
+                </div>
+            </aside>
+
+
+<div class="u-position-relative">
+        <header class="c-header u-mb-24" data-test="publisher-header">
+    
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-6c9a864b59.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="firstTabbable"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                <span class="u-text-sm">Search</span>
+                <svg class="u-icon u-flex-static u-ml-8" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+
+        <div class="c-header__cart-icon">
+            <div id="ecommerce-header-cart-icon-link" class="c-header__item ecommerce-cart" style="display: inline-block; margin-right: 10px;"> 
+ <form action="https://order.springer.com/public/precheckout" method="post"> <button class="c-header__link" type="submit" style="
+        appearance: none;
+        border: none;
+        background: none;
+        color: inherit;
+    ">
+   <svg aria-hidden="true" focusable="false" height="18" viewbox="0 0 18 18" width="18" style="vertical-align: text-bottom;" xmlns="http://www.w3.org/2000/svg"> <path d="m5 14c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm10 0c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm-10 1c-.55228475 0-1 .4477153-1 1s.44771525 1 1 1 1-.4477153 1-1-.44771525-1-1-1zm10 0c-.5522847 0-1 .4477153-1 1s.4477153 1 1 1 1-.4477153 1-1-.4477153-1-1-1zm-12.82032249-15c.47691417 0 .88746157.33678127.98070211.80449199l.23823144 1.19501025 13.36277974.00045554c.5522847.00001882.9999659.44774934.9999659 1.00004222 0 .07084994-.0075361.14150708-.022474.2107727l-1.2908094 5.98534344c-.1007861.46742419-.5432548.80388386-1.0571651.80388386h-10.24805106c-.59173366 0-1.07142857.4477153-1.07142857 1 0 .5128358.41361449.9355072.94647737.9932723l.1249512.0067277h10.35933776c.2749512 0 .4979349.2228539.4979349.4978051 0 .2749417-.2227336.4978951-.4976753.4980063l-10.35959736.0041886c-1.18346732 0-2.14285714-.8954305-2.14285714-2 0-.6625717.34520317-1.24989198.87690425-1.61383592l-1.63768102-8.19004794c-.01312273-.06561364-.01950005-.131011-.0196107-.19547395l-1.71961253-.00064219c-.27614237 0-.5-.22385762-.5-.5 0-.27614237.22385763-.5.5-.5zm14.53193359 2.99950224h-13.11300004l1.20580469 6.02530174c.11024034-.0163252.22327998-.02480398.33844139-.02480398h10.27064786z" fill="#333" /> 
+   </svg><span class="u-screenreader-only visually-hidden">Go to cart</span></button> 
+ </form> 
+</div>
+        </div>
+
+        <nav>
+            <ul class="c-header__menu">
+                
+        
+            <li class="c-header__item">
+                <a
+                    data-test="login-link"
+                    class="c-header__link"
+                    href="https://link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-030-60990-0%3FnoAccess%3Dtrue"
+                    data-track="click"
+                    data-track-category="header"
+                    data-track-action="login header"
+                    data-track-label="link">Log in</a>
+            </li>
+        
+
+        
+
+
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="u-icon" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+    <div class="u-container u-mb-32 u-clearfix page-temporary-flag" id="main-content" data-component="article-container">
+        
+
+        
+    <header class="u-mb-24" data-test="book-header">
+        <div class="c-box c-box--shadowed c-book-info-container" id="book-header">
+            <div class="app-journal-header">
+                <div class="app-journal-header__theme" style="background-image: url('//media.springernature.com/dominant-colour/springer-static/cover/book/978-3-030-60990-0.jpg?default-colour=238,125,17')"></div>
+                <div class="app-journal-header__content">
+                    <div class="app-journal-header__main">
+                        <div class="app-journal-header__cover">
+                            <img alt=""
+                                 srcset="
+                                        //media.springernature.com/w92/springer-static/cover/book/978-3-030-60990-0.jpg 1x,
+                                        //media.springernature.com/w138/springer-static/cover/book/978-3-030-60990-0.jpg 1.5x,
+                                        //media.springernature.com/w184/springer-static/cover/book/978-3-030-60990-0.jpg 2x,
+                                        //media.springernature.com/w276/springer-static/cover/book/978-3-030-60990-0.jpg 3x"
+                                 src="//media.springernature.com/w92/springer-static/cover/book/978-3-030-60990-0.jpg"/>
+                        </div>
+                        <div class="u-flex-shrink">
+                            <ul class="c-article-identifiers">
+                                <li class="c-article-identifiers__item">Book</li>
+                                
+                                <li class="c-article-identifiers__item">&copy; 2021</li>
+                            </ul>
+                            <h1 class="app-journal-header__title" data-test="book-title">
+                                Handbook of Reinforcement Learning and Control
+                            </h1>
+                            
+                        </div>
+                    </div>
+                    <div class="app-journal-header__side">
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+        <main class="c-article-main-column u-float-left js-main-column u-text-sans-serif" data-track-component="Book">
+            
+
+            <section>
+                <div class="c-box c-box--shadowed u-mb-24 c-book-evaluation">
+                    
+    
+    
+        <div class="u-clearfix">
+            <h2 class="c-book-section-title">Editors:</h2>
+            <span class="u-text-sm">(<a href="#affiliations" data-track="click" data-track-action="view affiliations" data-track-category="book" data-track-label="link">view affiliations</a>)</span>
+            <ul class="c-article-author-list" data-component="book-contributor-list" data-list-type="editors" data-test="editors-listing">
+                
+                    <li class="c-article-author-list__item">Kyriakos G. Vamvoudakis, </li>
+                
+                    <li class="c-article-author-list__item">Yan Wan, </li>
+                
+                    <li class="c-article-author-list__item">Frank L. Lewis, </li>
+                
+                    <li class="c-article-author-list__item">Derya Cansever</li>
+                
+            </ul>
+        </div>
+    
+
+    
+        <div data-component="data-unique-selling-points">
+            <ul class="c-book-evaluation-divider u-list-reset c-book-show-more-less c-book-show-more-less--collapsed" data-test="unique-selling-points">
+                
+                    <li class="u-mb-8"><p>Enriches understanding of the applications of reinforcement learning for control of dynamic systems</p></li>
+                
+                    <li class="u-mb-8"><p>Collates research from a wide-range of experts, creating a comprehensive guide</p></li>
+                
+                    <li class="u-mb-8"><p>Discusses both theoretical and practical aspects of machine learning and control</p></li>
+                
+            </ul>
+        </div>
+    
+
+                    
+    
+        <div class="c-book-evaluation-divider">
+            <p class="u-mb-8" data-test="series-link"><span class="u-text-bold">Part of the book series:</span> <a href="https://www.springer.com/series/13304" data-track="click" data-track-action="open book series" data-track-label="link">Studies in Systems, Decision and Control</a> (SSDC, volume 325)</p>
+            
+        </div>
+    
+    
+
+                    <div class="c-book-evaluation-divider" data-test="article-metrics">
+                        <div id="altmetric-container">
+    <div class="c-article-metrics-bar__wrapper u-clear-both">
+        <ul class="c-article-metrics-bar u-list-reset">
+            
+                <li class=" c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__count">63k <span class="c-article-metrics-bar__label">Accesses</span></p>
+                </li>
+            
+            
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">33
+                            <a href="http://citations.springer.com/book?doi&#x3D;10.1007/978-3-030-60990-0" target="_blank" rel="noopener"
+                               title="Visit Springer Citations for full citation details"
+                               class="c-article-metrics-bar__label"
+                               data-track="click"
+                               data-track-action="Citation count"
+                               data-track-label="link">Citations</a></p>
+                    </li>
+                
+            
+            
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">6
+                            
+                                <a href="https://link.altmetric.com/details/99229217" target="_blank" rel="noopener"
+                                   title="Visit Altmetric for full social mention details"
+                                   class="c-article-metrics-bar__label"
+                                   data-track="click"
+                                   data-track-action="Social mentions"
+                                   data-track-label="link">Altmetric</a></p>
+                            
+                    </li>
+                
+            
+        </ul>
+    </div>
+</div>
+
+                    </div>
+                    
+    
+
+                </div>
+            </section>
+
+            
+        <section data-title="Sections">
+            <div class="c-box c-box--shadowed u-mb-24">
+                <h2 class="c-box__heading u-mb-0">Sections</h2>
+                <ul class="u-list-reset c-book-section" id="sections-content">
+                        <li><a href="#toc">Table of contents</a></li>
+                        <li><a href="#about-book-content">About this book</a></li>
+                        <li><a href="#about-authors-content">About the editors</a></li>
+                    <li><a href="#bibliographic-information">Bibliographic Information</a></li>
+                </ul>
+            </div>
+        </section>
+    
+
+            <div class="c-buybox__container u-mb-24">
+                <div class="sprcom-buybox buybox " id="sprcom-buybox"> 
+ <div> 
+  <div class="c-box" style="padding: 0"> 
+   <h2 class="c-box__heading visually-hidden">Buying options</h2> 
+   <div class="buying-options"> 
+    <div class="buying-option expanded"> 
+     <dl class="buying-option-price"> 
+      <dt>
+       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+       </svg><span>eBook</span>
+      </dt> 
+      <dd class="price-amount">
+        EUR&nbsp;160.49 
+      </dd> 
+      <dd class="price-info">
+       Price includes VAT (Italy)
+      </dd> 
+     </dl> 
+     <dl class="buying-option-price-campaign " style="display: none;"> 
+      <div class="buying-option-price"> 
+       <dt>
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+        </svg><span>eBook</span>
+       </dt> 
+       <dd class="price-amount">
+         EUR&nbsp;160.49 
+       </dd> 
+      </div> 
+      <dd class="price-info"> <span> <span class="vat-info">Price includes VAT (Italy)</span> </span> 
+      </dd> 
+     </dl> 
+     <form class="buying-option-form" action="https://order.springer.com/public/cart" method="post"> 
+      <input type="hidden" name="type" value="ebook"> 
+      <input type="hidden" name="doi" value="10.1007/978-3-030-60990-0"> 
+      <input type="hidden" name="isxn" value="978-3-030-60990-0"> 
+      <input type="hidden" name="contenttitle" value="Handbook of Reinforcement Learning and Control"> 
+      <ul class="buying-option-usps"> 
+       <li>ISBN: 978-3-030-60990-0</li> 
+       <li>Instant PDF download</li> 
+       <li>Readable on all devices</li> 
+       <li>Own it forever</li> 
+       <li>Exclusive offer for individuals only</li> 
+       <li>Tax calculation will be finalised during checkout</li> 
+      </ul> <button type="submit" class="buybox__buy-button c-button c-button--blue" value="Submit" data-track="click" data-track-label="buy ebook" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Handbook of Reinforcement Learning and Control&quot;,&quot;id&quot;:&quot;978-3-030-60990-0&quot;,&quot;price&quot;:149.99,&quot;brand&quot;:&quot;Springer International Publishing&quot;,&quot;category&quot;:&quot;Control and Systems Theory&quot;,&quot;variant&quot;:&quot;ebo&quot;,&quot;quantity&quot;:1}]}}});">Buy eBook</button> 
+     </form> 
+    </div> 
+    <div class="buying-option expanded"> 
+     <dl class="buying-option-price"> 
+      <dt>
+       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+       </svg><span>Hardcover Book</span>
+      </dt> 
+      <dd class="price-amount">
+        EUR&nbsp;207.99 
+      </dd> 
+      <dd class="price-info">
+       Price includes VAT (Italy)
+      </dd> 
+     </dl> 
+     <dl class="buying-option-price-campaign " style="display: none;"> 
+      <div class="buying-option-price"> 
+       <dt>
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+        </svg><span>Hardcover Book</span>
+       </dt> 
+       <dd class="price-amount">
+         EUR&nbsp;207.99 
+       </dd> 
+      </div> 
+      <dd class="price-info"> <span> <span class="vat-info">Price includes VAT (Italy)</span> </span> 
+      </dd> 
+     </dl> 
+     <form class="buying-option-form" action="https://order.springer.com/public/cart" method="post"> 
+      <input type="hidden" name="type" value="book"> 
+      <input type="hidden" name="doi" value="10.1007/978-3-030-60990-0"> 
+      <input type="hidden" name="isxn" value="978-3-030-60989-4"> 
+      <input type="hidden" name="contenttitle" value="Handbook of Reinforcement Learning and Control"> 
+      <ul class="buying-option-usps"> 
+       <li>ISBN: 978-3-030-60989-4</li> 
+       <li>Dispatched in 3 to 5 business days</li> 
+       <li>Exclusive offer for individuals only</li> 
+       <li>Free shipping worldwide<br><a href="https://support.springernature.com/en/support/solutions/articles/6000233448-coronavirus-disease-covid-19-delivery-information" target="_blank">Shipping restrictions may apply, check to see if you are impacted</a>.</li> 
+       <li>Tax calculation will be finalised during checkout</li> 
+      </ul> <button type="submit" class="buybox__buy-button c-button c-button--blue" value="Submit" data-track="click" data-track-label="buy hardcover" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Handbook of Reinforcement Learning and Control&quot;,&quot;id&quot;:&quot;978-3-030-60989-4&quot;,&quot;price&quot;:199.99,&quot;brand&quot;:&quot;Springer International Publishing&quot;,&quot;category&quot;:&quot;Control and Systems Theory&quot;,&quot;variant&quot;:&quot;print&quot;,&quot;quantity&quot;:1}]}}});">Buy Hardcover Book</button> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="c-box buybox-additional-info"> <a class="c-box__item" href="https://www.springernature.com/gp/librarians/licensing/license-options">Learn about institutional subscriptions</a> 
+  </div> 
+ </div> 
+ <style>
+                .sprcom-buybox {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .sprcom-buybox>div {
+                    flex-grow: 1;
+                    width: 100%;
+                }
+
+                .sprcom-buybox * {
+                    font-size: 13px !important;
+                }
+
+                .sprcom-buybox>div>*+* {
+                    margin-top: 24px;
+                }
+
+                .sprcom-buybox .c-box__heading {
+                    margin-bottom: 0;
+                }
+
+
+                .sprcom-buybox .buying-options {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .sprcom-buybox .buying-options>* {
+                    background-color: #ddd;
+                    box-shadow: 0 0 0 1px #bbb;
+                    flex-grow: 1;
+                    flex-basis: auto;
+                    width: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                    font-weight: 400;
+                    margin-left: -10px;
+                }
+
+                .sprcom-buybox .buying-option-form {
+                    padding: 12px;
+                }
+
+                .sprcom-buybox .buying-option-price {
+                    align-items: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 1.6rem;
+                    line-height: 1.4;
+                    user-select: none;
+                    padding: 6px 12px;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dt svg path,
+                .sprcom-buybox .buying-option-price dd {
+                    color: #004aa7;
+                    fill: #004aa7;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dd {
+                    flex-grow: 1;
+                }
+
+                .sprcom-buybox .buying-option .price-info {
+                    color: #666;
+                    font-size: 80%;
+                    text-align: right;
+                    width: 100%;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option .price-info > span {
+                    display: block;
+                    padding: 0 12px;
+                }
+
+                .sprcom-buybox .campaign-prices .expanded .discounted .price-amount,
+                .sprcom-buybox .campaign-prices .buying-option .price-info .discount-info {
+                    color: #c60000 !important;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option .price-info .discount-info {
+                    display: block;
+                }
+
+                .sprcom-buybox .buying-option-price .price-amount {
+                    font-size: 140%;
+                    text-align: right;
+                    font-weight: 600;
+                }
+
+                .sprcom-buybox .buying-option-price .price-type {
+                    font-size: 40%;
+                    margin-left: 8px;
+                }
+
+                .sprcom-buybox .buying-option-usps {
+                    color: #666;
+                    font-size: 1.4rem;
+                    line-height: 1.4;
+                    margin: 0 0 0 13px;
+                    padding-left: 16px;
+
+                    list-style: disc;
+                }
+
+                .sprcom-buybox .buying-option-usps>li {
+                    position: relative;
+                }
+
+                .sprcom-buybox .buying-option-usps>li:not(:first-child) {
+                    margin-top: 4px;
+                }
+
+                .sprcom-buybox .c-button {
+                    margin-top: 18px;
+                    text-align: center;
+                }
+
+                .sprcom-buybox .buying-options .expanded {
+                    background-color: #fff;
+                }
+
+                .sprcom-buybox .buying-options .expanded dt,
+                .sprcom-buybox .buying-options .expanded dt svg path,
+                .sprcom-buybox .buying-options .expanded .price-amount {
+                    color: #333;
+                    fill: #666;
+                }
+
+
+
+                .sprcom-buybox .buybox-additional-info {
+                    padding-top: 6px;
+                    padding-bottom: 8px;
+                }
+
+                .sprcom-buybox .buybox-additional-info .c-box__item {
+                    font-size: 13px !important;
+                    margin-bottom: 0;
+                }
+
+                .sprcom-buybox a:visited {
+                    color: #004b83;
+                }
+
+
+
+                .sprcom-buybox [role=button] {
+                    cursor: pointer;
+                }
+
+                .sprcom-buybox button:focus,
+                .sprcom-buybox [role=button]:focus {
+                    outline: 4px solid #fc0;
+                    position: relative;
+                }
+
+                .sprcom-buybox [aria-expanded=false] svg {
+                    transform: rotate(0deg);
+                }
+
+                .sprcom-buybox [aria-expanded=true] svg {
+                    transform: rotate(90deg);
+                }
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                }
+
+
+
+                .sprcom-buybox .visually-hidden {
+                    clip: rect(1px, 1px, 1px, 1px);
+                    height: 1px;
+                    overflow: hidden;
+                    position: absolute;
+                    width: 1px;
+                }
+
+                .sprcom-buybox style {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount {
+                    padding-left: 20px;
+                }
+
+                .sprcom-buybox .campaign-prices .discounted .price-amount {
+                    font-size: 16px !important;
+                    margin-top: -2px;
+                }
+
+                .sprcom-buybox .price-amount s,
+                .sprcom-buybox .price-amount .price-discount {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option > .buying-option-price {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount .price-discount {
+                    display: block;
+                    margin-top: -2px;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount s {
+                    display: block;
+                    font-size: 10px !important;
+                }
+
+                .sprcom-buybox  .campaign-prices .buying-options .expanded .price-amount s {
+                    color: #666;
+                    font-size: 13px !important;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-options .expanded .discounted .buying-option-price dt {
+                    margin-top: -4px;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price {
+                    flex-wrap: nowrap;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price dt svg {
+                    min-width: 24px;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price dt span {
+                    line-height: 14px;
+                    margin-bottom: -1px;
+                }
+            </style> 
+ <script>
+                ;(function () {
+                    var timestamp = Date.now()
+                    document.write('<div data-id="id_'+ timestamp +'"></div>')
+
+                    var head = document.getElementsByTagName("head")[0]
+                    var script = document.createElement("script")
+                    script.type = "text/javascript"
+                    script.src = "https://buy.springer.com/assets/js/buybox-bundle-52d08dec1e.js"
+                    script.id = "ecommerce-scripts-" + timestamp
+                    head.appendChild(script)
+
+                    var buybox = document.querySelector("[data-id=id_"+ timestamp +"]").parentNode
+
+                    var now = new Date().getTime()
+                    var start = 1650956400000
+                    var   end = 1651734000000
+                    var isMeasuringTime = now > start && now < end
+                    
+                    var campaignPricesMetricsGroup = initMetrics(start, end)
+
+                    var campaignPricesActive = campaignPricesMetricsGroup === "B"
+
+                    if (campaignPricesActive) {
+                        revealCampaignPriceVersion()
+                    }
+
+                    var priceNS = campaignPricesActive ? ".buying-option-price-campaign " : ""
+
+                    ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(initCollapsibles)
+                    ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(addMetrics)
+
+                    function initMetrics(start, end) {
+                        var metricsKey = "abMetricsCampaignPrices-v1"
+                        var campaignPricesMetricsGroup = "X"
+                        
+                        if (!window.localStorage || !window.fetch) return campaignPricesMetricsGroup
+
+                        if (!isMeasuringTime) {
+                            window.localStorage.removeItem(metricsKey)
+                            return "NONE"
+                        }
+
+                        try {
+                            var metricsValue = window.localStorage.getItem(metricsKey)
+                            campaignPricesMetricsGroup = metricsValue || randomDistribution(metricsKey)
+                        } catch (err) {
+                            console.log(err)
+                        }
+
+                        return campaignPricesMetricsGroup
+                    }
+
+                    function randomDistribution(metricsKey) {
+                        var randomGroup = Math.random() < 0.5 ? "A" : "B"
+                        window.localStorage.setItem(metricsKey, randomGroup)
+                        return randomGroup
+                    }
+
+                    function revealCampaignPriceVersion() {
+                        buybox.querySelector(".c-box").classList.add("campaign-prices")
+                        buybox.querySelectorAll(".buying-option-price-campaign").forEach(function (campaignPrice) {
+                            campaignPrice.removeAttribute("style")
+                        })
+                    }
+
+                    function initCollapsibles(buyingOption, index) {
+                        var toggle = buyingOption.querySelector(priceNS + ".buying-option-price")
+                        buyingOption.classList.remove("expanded")
+                        var form = buyingOption.querySelector(".buying-option-form")
+                        
+                        if (form) {
+                            var formAction = form.getAttribute("action")
+                            document.querySelector("#ecommerce-scripts-" + timestamp).addEventListener("load", bindModal(form, formAction, timestamp, index), false)
+                        }
+                        
+                        var priceInfo = buyingOption.querySelector(priceNS + ".price-info")
+
+                        if (toggle && form && priceInfo) {
+                            toggle.setAttribute("role", "button")
+                            toggle.setAttribute("tabindex", "0")
+
+                            toggle.addEventListener("click", function (event) {
+                                var expanded = toggle.getAttribute("aria-expanded") === "true" || false
+                                toggle.setAttribute("aria-expanded", !expanded)
+                                form.hidden = expanded
+                                if (!expanded) {
+                                    buyingOption.classList.add("expanded")
+                                } else {
+                                    buyingOption.classList.remove("expanded")
+                                }
+                                priceInfo.hidden = expanded
+                            }, false)
+                        }
+                    }
+
+                    function addMetrics(buyingOption) {
+                        setTimeout(function () {
+                            var collapsed = buybox.querySelector(".buying-option.expanded") === null
+                            var form = buyingOption.querySelector(".buying-option-form")
+                            var formAction = form.getAttribute("action")
+                            if (form) {
+                                var metricsAppendix = formAction.indexOf("?") ==! -1 ? "&" : "?"
+                                metricsAppendix += "discount=" + (buyingOption.querySelector(".buying-option-price-campaign").className.indexOf("discounted") !== -1).toString()
+                                metricsAppendix += "&metricsGroup=" + campaignPricesMetricsGroup
+                                metricsAppendix += "&collapsed=" + collapsed.toString()
+                                form.action = formAction + metricsAppendix
+                            }
+                        }, 1)
+                    }
+
+                    function bindModal(form, formAction, timestamp, index) {
+                        var weHasBrowserSupport = window.fetch && Array.from
+
+                        return function() {
+                            var Buybox = EcommScripts ? EcommScripts.Buybox : null
+                            var Modal = EcommScripts ? EcommScripts.Modal : null
+                            
+                            if (weHasBrowserSupport && Buybox && Modal) {
+                                var modalID = "ecomm-modal_" + timestamp + "_" + index
+                                
+                                var modal = new Modal(modalID)
+                                modal.domEl.addEventListener("close", close)
+                                function close() {
+                                    form.querySelector("button[type=submit]").focus()
+                                }
+
+                                var cartURL = "/cart"
+                                var cartModalURL = "/cart?messageOnly=1"
+                                
+                                formAction = form.getAttribute("action")
+
+                                if (formAction.indexOf(cartURL + "?")) {
+                                    form.setAttribute(
+                                        "action",
+                                        formAction.replace(cartURL + "?", cartModalURL + "&")
+                                    )
+                                } else {
+                                    form.setAttribute(
+                                        "action",
+                                        formAction.replace(cartURL, cartModalURL)
+                                    )
+                                }
+
+                                var formSubmit = Buybox.interceptFormSubmit(
+                                    Buybox.fetchFormAction(window.fetch),
+                                    Buybox.triggerModalAfterAddToCartSuccess(modal),
+                                    function() {
+                                        form.removeEventListener("submit", formSubmit, false)
+                                        form.setAttribute(
+                                            "action",
+                                            formAction.replace(cartModalURL, cartURL)
+                                        )
+                                        form.submit()
+                                    }
+                                )
+                                
+                                form.addEventListener("submit", formSubmit, false)
+                                
+                                document.body.appendChild(modal.domEl)
+                            }
+                        }
+                    }
+
+                    function initKeyControls() {
+                        document.addEventListener("keydown", function (event) {
+                            if (document.activeElement.classList.contains("buying-option-price") && (event.code === "Space" || event.code === "Enter")) {
+                                if (document.activeElement) {
+                                    event.preventDefault()
+                                    document.activeElement.click()
+                                }
+                            }
+                        }, false)
+                    }
+
+                    function initialStateOpen() {
+                        var narrowBuyboxArea = buybox.offsetWidth <= 480
+                        var allOptionsInitiallyCollapsed = buybox.className.indexOf("all-options-initially-collapsed") > -1
+                        ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(function (option, index) {
+                            var toggle = option.querySelector(priceNS + ".buying-option-price")
+                            var form = option.querySelector(".buying-option-form")
+                            var priceInfo = option.querySelector(priceNS + ".price-info")
+                            if (allOptionsInitiallyCollapsed || narrowBuyboxArea && index > 0) {
+                                toggle.setAttribute("aria-expanded", "false")
+                                form.hidden = "hidden"
+                                priceInfo.hidden = "hidden"
+                            } else {
+                                toggle.click()
+                            }
+                        })
+                    }
+
+                    initialStateOpen()
+
+                    if (window.buyboxInitialised) return
+                    window.buyboxInitialised = true
+
+                    initKeyControls()
+                    
+                    if (window.fetch && isMeasuringTime) {
+                        var collapsed = buybox.querySelector(".buying-option.expanded") === null
+                        var metricsAppendix = ""
+                        metricsAppendix += "&discount=" + (buybox.querySelector(".buying-option-price-campaign").className.indexOf("discounted") !== -1).toString()
+                        metricsAppendix += "&metricsGroup=" + campaignPricesMetricsGroup
+                        metricsAppendix += "&collapsed=" + collapsed.toString()
+                        window.fetch("https://test-buckets.springer.com/log?v3&time=" + now + metricsAppendix)
+                            .then(function (res) {
+                                return res.text()
+                            })
+                            .catch(function () {
+                                
+                            })
+                    }
+                })()
+            </script> 
+ <script>
+                ;(function () {
+                    dataLayer.push({
+           "ecommerce": {
+             "currency": "EUR",
+             "impressions": [{
+  "name" : "Handbook of Reinforcement Learning and Control",
+  "id" : "978-3-030-60990-0",
+  "price" : 149.99,
+  "brand" : "Springer International Publishing",
+  "category" : "Control and Systems Theory",
+  "variant" : "ebo",
+  "quantity" : 1
+}, {
+  "name" : "Handbook of Reinforcement Learning and Control",
+  "id" : "978-3-030-60989-4",
+  "price" : 199.99,
+  "brand" : "Springer International Publishing",
+  "category" : "Control and Systems Theory",
+  "variant" : "print",
+  "quantity" : 1
+}]
+            }
+         }) 
+                })()
+            </script> 
+</div>
+            </div>
+
+            
+    
+            <section data-title="Table of contents">
+                <div class="c-box c-box--shadowed u-mb-24">
+                    <h2 class="c-box__heading u-mb-0" data-test="book-bits">Table of contents (26 chapters)</h2>
+                    <div class="c-book-section" id="toc">
+                        <div class="app-search">
+    <form action="/search" method="get" role="search">
+        <label for="springerlink-event-search" class="app-search__label">Search within book</label>
+        <div class="app-search__content">
+            <input id="springerlink-event-search" name="query" type="text" autocomplete="off" value="" class="app-search__input">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="u-icon" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            <input type="hidden" name="facet-eisbn" value="978-3-030-60990-0">
+            <input type="hidden" name="facet-content-type" value="Chapter">
+        </div>
+    </form>
+</div>
+                        
+<nav data-test="book-pagination u-pt-24" role="navigation" aria-label="Pagination Navigation">
+    <ul class="c-pagination u-justify-content-left u-pl-0 u-pr-0">
+        <li class="c-pagination__item">
+            <span class="c-pagination__link c-pagination__link--disabled" data-test="previous-page-disabled">
+                <svg class="c-icon c-pagination__icon" aria-hidden="true">
+                    <use xlink:href="#icon-springer-arrow-left"></use>
+                </svg>
+                <span>&nbsp Previous <span class="u-visually-hidden">page</span></span>
+            </span>
+        </li>
+    
+        <li class="c-pagination__item">
+            <div class="u-display-flex u-align-items-center">
+                <span>Page &nbsp; <span class="u-js-hide" aria-current="1">1</span></span>
+                <form action="/book/10.1007/978-3-030-60990-0#toc" method="GET">
+                    <label for="pagination-1-page-number" class="u-visually-hidden">Navigate to page number</label>
+                    <input type="number" min="1" max="2" id="pagination-1-page-number" name="page" class="c-pagination__input" value="1" required />
+
+                    <!-- remove this param when oscar-books live and feature flag removed -->
+                    <input type="submit" value="Submit" aria-hidden="true" tabindex="-1" class="u-visually-hidden" />
+                </form>
+                <span>&nbsp; of 2</span>
+            </div>
+        </li>
+    <li class="c-pagination__item">
+        <a class="c-pagination__link" href="/book/10.1007/978-3-030-60990-0?page=2#toc" data-test="next-page">
+        <span>Next <span class="u-visually-hidden">page</span></span>
+        <svg class="c-icon c-pagination__icon" aria-hidden="true">
+            <use xlink:href="#icon-springer-arrow-right"></use>
+        </svg>
+        </a>
+    </li>
+   
+    </ul>
+</nav>
+                        <section data-title="book-toc" class="app-book-toc u-pb-16 u-pt-0">
+                            <ol class="c-list-group c-list-group--bordered">
+                                        
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16 u-pl-0
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                <h3 class="c-card__title" data-test="front-matter">Front Matter</h3>
+            
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages i-xxiv</span>
+            </div>
+        </div>
+            
+    <div class="u-flex-static u-pl-16">
+        <a data-test="front-matter-pdf"
+           data-track="click" data-track-action="Toc - Front Matter" data-track-label="link"
+           href="/content/pdf/bfm%3A978-3-030-60990-0%2F1" class="c-card__link--no-block-link">PDF
+            <svg aria-hidden="true" focusable="false" width="16"
+                 height="16"
+                 class="u-icon u-vertical-align-middle">
+                <use xlink:href="#global-icon-download"></use>
+            </svg>
+        </a>
+    </div>
+
+        
+
+    </div>
+</li>
+    
+                                    <li class="c-card c-card--flush c-list-group__item">
+                                        <div class="c-card__body u-display-flex u-justify-content-space-between">
+                                            <div style="width: 100%">
+                                                <h3 class="u-keyline u-mb-0 u-pb-8 u-pt-8" data-title="part-title" >Theory of Reinforcement Learning for Model-Free and Model-Based Control and Games</h3>
+                                                <ol class="c-list-group c-list-group--bordered">
+                                                        
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                <h4 class="c-card__title" data-test="front-matter">Front Matter</h4>
+            
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 1-1</span>
+            </div>
+        </div>
+            
+    <div class="u-flex-static u-pl-16">
+        <a data-test="front-matter-pdf"
+           data-track="click" data-track-action="Toc - Front Matter" data-track-label="link"
+           href="/content/pdf/bfm%3A978-3-030-60990-0%2F1%2F1" class="c-card__link--no-block-link">PDF
+            <svg aria-hidden="true" focusable="false" width="16"
+                 height="16"
+                 class="u-icon u-vertical-align-middle">
+                <use xlink:href="#global-icon-download"></use>
+            </svg>
+        </a>
+    </div>
+
+        
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-What May Lie Ahead in Reinforcement Learning">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_1"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>What May Lie Ahead in Reinforcement Learning</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Derya Cansever</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 3-5</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Reinforcement Learning for Distributed Control and Multi-player Games">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_2"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Reinforcement Learning for Distributed Control and Multi-player Games</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Bahare Kiumarsi, Hamidreza Modares, Frank Lewis</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 7-27</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-From Reinforcement Learning to Optimal Control: A Unified Framework for Sequential Decisions">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_3"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>From Reinforcement Learning to Optimal Control: A Unified Framework for Sequential Decisions</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Warren B. Powell</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 29-74</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Fundamental Design Principles for Reinforcement Learning Algorithms">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_4"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Fundamental Design Principles for Reinforcement Learning Algorithms</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Adithya M. Devraj, Ana Bušić, Sean Meyn</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 75-137</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Mixed Density Methods for Approximate Dynamic Programming">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_5"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Mixed Density Methods for Approximate Dynamic Programming</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Max L. Greene, Patryk Deptula, Rushikesh Kamalapurkar, Warren E. Dixon</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 139-172</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Model-Free Linear Quadratic Regulator">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_6"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Model-Free Linear Quadratic Regulator</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Hesameddin Mohammadi, Mahdi Soltanolkotabi, Mihailo R. Jovanović</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 173-185</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li class="c-card c-card--flush c-list-group__item">
+                                        <div class="c-card__body u-display-flex u-justify-content-space-between">
+                                            <div style="width: 100%">
+                                                <h3 class="u-keyline u-mb-0 u-pb-8 u-pt-8" data-title="part-title" >Constraint-Driven and Verified RL</h3>
+                                                <ol class="c-list-group c-list-group--bordered">
+                                                        
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                <h4 class="c-card__title" data-test="front-matter">Front Matter</h4>
+            
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 187-187</span>
+            </div>
+        </div>
+            
+    <div class="u-flex-static u-pl-16">
+        <a data-test="front-matter-pdf"
+           data-track="click" data-track-action="Toc - Front Matter" data-track-label="link"
+           href="/content/pdf/bfm%3A978-3-030-60990-0%2F2%2F1" class="c-card__link--no-block-link">PDF
+            <svg aria-hidden="true" focusable="false" width="16"
+                 height="16"
+                 class="u-icon u-vertical-align-middle">
+                <use xlink:href="#global-icon-download"></use>
+            </svg>
+        </a>
+    </div>
+
+        
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Adaptive Dynamic Programming in the Hamiltonian-Driven Framework">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_7"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Adaptive Dynamic Programming in the Hamiltonian-Driven Framework</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Yongliang Yang, Donald C. Wunsch II, Yixin Yin</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 189-214</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Reinforcement Learning for Optimal Adaptive Control of Time Delay Systems">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_8"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Reinforcement Learning for Optimal Adaptive Control of Time Delay Systems</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Syed Ali Asad Rizvi, Yusheng Wei, Zongli Lin</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 215-242</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Optimal Adaptive Control of Partially Uncertain Linear Continuous-Time Systems with State Delay">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_9"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Optimal Adaptive Control of Partially Uncertain Linear Continuous-Time Systems with State Delay</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Rohollah Moghadam, S. Jagannathan, Vignesh Narayanan, Krishnan Raghavan</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 243-272</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Dissipativity-Based Verification for Autonomous Systems in Adversarial Environments">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_10"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Dissipativity-Based Verification for Autonomous Systems in Adversarial Environments</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Aris Kanellopoulos, Kyriakos G. Vamvoudakis, Vijay Gupta, Panos Antsaklis</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 273-291</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Reinforcement Learning-Based Model Reduction for Partial Differential Equations: Application to the Burgers Equation">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_11"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Reinforcement Learning-Based Model Reduction for Partial Differential Equations: Application to the Burgers Equation</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Mouhacine Benosman, Ankush Chakrabarty, Jeff Borggaard</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 293-317</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li class="c-card c-card--flush c-list-group__item">
+                                        <div class="c-card__body u-display-flex u-justify-content-space-between">
+                                            <div style="width: 100%">
+                                                <h3 class="u-keyline u-mb-0 u-pb-8 u-pt-8" data-title="part-title" >Multi-agent Systems and RL</h3>
+                                                <ol class="c-list-group c-list-group--bordered">
+                                                        
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                <h4 class="c-card__title" data-test="front-matter">Front Matter</h4>
+            
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 319-319</span>
+            </div>
+        </div>
+            
+    <div class="u-flex-static u-pl-16">
+        <a data-test="front-matter-pdf"
+           data-track="click" data-track-action="Toc - Front Matter" data-track-label="link"
+           href="/content/pdf/bfm%3A978-3-030-60990-0%2F3%2F1" class="c-card__link--no-block-link">PDF
+            <svg aria-hidden="true" focusable="false" width="16"
+                 height="16"
+                 class="u-icon u-vertical-align-middle">
+                <use xlink:href="#global-icon-download"></use>
+            </svg>
+        </a>
+    </div>
+
+        
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_12"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Kaiqing Zhang, Zhuoran Yang, Tamer Başar</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 321-384</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Computational Intelligence in Uncertainty Quantification for Learning Control and Differential Games">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_13"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Computational Intelligence in Uncertainty Quantification for Learning Control and Differential Games</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Mushuang Liu, Yan Wan, Zongli Lin, Frank L. Lewis, Junfei Xie, Brian A. Jalaian</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 385-418</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-A Top-Down Approach to Attain Decentralized Multi-agents">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_14"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>A Top-Down Approach to Attain Decentralized Multi-agents</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Alex Tong Lin, Guido Montúfar, Stanley J. Osher</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 419-431</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                            <h4 class="c-card__title" data-test="chapter-title-Modeling and Mitigating Link-Flooding Distributed Denial-of-Service Attacks via Learning in Stackelberg Games">
+                                <a href="/chapter/10.1007/978-3-030-60990-0_15"
+    data-track="click" data-track-action="ToC link to content page" data-track-label="link"
+>Modeling and Mitigating Link-Flooding Distributed Denial-of-Service Attacks via Learning in Stackelberg Games</a>
+                            </h4>
+                        
+                    
+            
+                <ul class="c-author-list c-author-list--compact u-mb-4 u-mt-auto">
+                    <li class="c-author-list__item">Guosong Yang, João P. Hespanha</li>
+                </ul>
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 433-463</span>
+            </div>
+        </div>
+
+    </div>
+</li>
+    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li class="c-card c-card--flush c-list-group__item">
+                                        <div class="c-card__body u-display-flex u-justify-content-space-between">
+                                            <div style="width: 100%">
+                                                <h3 class="u-keyline u-mb-0 u-pb-8 u-pt-8" data-title="part-title" >Bounded Rationality and Value of Information in RL and Games</h3>
+                                                <ol class="c-list-group c-list-group--bordered">
+                                                        
+                
+
+
+
+
+
+<li class="c-card c-list-group__item c-card--flush u-pa-16
+" data-test="chapter">
+    <div class="c-card__body u-display-flex u-justify-content-space-between">
+        <div>
+                <h4 class="c-card__title" data-test="front-matter">Front Matter</h4>
+            
+            <div class="c-meta"><span class="c-meta__item u-display-inline-block" data-test="page-number">Pages 465-465</span>
+            </div>
+        </div>
+            
+    <div class="u-flex-static u-pl-16">
+        <a data-test="front-matter-pdf"
+           data-track="click" data-track-action="Toc - Front Matter" data-track-label="link"
+           href="/content/pdf/bfm%3A978-3-030-60990-0%2F4%2F1" class="c-card__link--no-block-link">PDF
+            <svg aria-hidden="true" focusable="false" width="16"
+                 height="16"
+                 class="u-icon u-vertical-align-middle">
+                <use xlink:href="#global-icon-download"></use>
+            </svg>
+        </a>
+    </div>
+
+        
+
+    </div>
+</li>
+    
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                            </ol>
+                        </section>
+                        
+<nav data-test="book-pagination u-pt-24" role="navigation" aria-label="Pagination Navigation">
+    <ul class="c-pagination u-justify-content-left u-pl-0 u-pr-0">
+        <li class="c-pagination__item">
+            <span class="c-pagination__link c-pagination__link--disabled" data-test="previous-page-disabled">
+                <svg class="c-icon c-pagination__icon" aria-hidden="true">
+                    <use xlink:href="#icon-springer-arrow-left"></use>
+                </svg>
+                <span>&nbsp Previous <span class="u-visually-hidden">page</span></span>
+            </span>
+        </li>
+    
+        <li class="c-pagination__item">
+            <div class="u-display-flex u-align-items-center">
+                <span>Page &nbsp; <span class="u-js-hide" aria-current="1">1</span></span>
+                <form action="/book/10.1007/978-3-030-60990-0#toc" method="GET">
+                    <label for="pagination-2-page-number" class="u-visually-hidden">Navigate to page number</label>
+                    <input type="number" min="1" max="2" id="pagination-2-page-number" name="page" class="c-pagination__input" value="1" required />
+
+                    <!-- remove this param when oscar-books live and feature flag removed -->
+                    <input type="submit" value="Submit" aria-hidden="true" tabindex="-1" class="u-visually-hidden" />
+                </form>
+                <span>&nbsp; of 2</span>
+            </div>
+        </li>
+    <li class="c-pagination__item">
+        <a class="c-pagination__link" href="/book/10.1007/978-3-030-60990-0?page=2#toc" data-test="next-page">
+        <span>Next <span class="u-visually-hidden">page</span></span>
+        <svg class="c-icon c-pagination__icon" aria-hidden="true">
+            <use xlink:href="#icon-springer-arrow-right"></use>
+        </svg>
+        </a>
+    </li>
+   
+    </ul>
+</nav>
+                    </div>
+                </div>
+            </section>
+
+            
+            
+    
+        
+            <section data-title="About this book">
+                <div class="c-box c-box--shadowed u-mb-24">
+                    <h2 class="c-box__heading u-mb-0">About this book</h2>
+                    <div class="c-book-section" id="about-book-content">
+                        <p>This handbook presents state-of-the-art research in reinforcement learning, focusing on its applications in the control and game theory of dynamic systems and future directions for related research and technology.</p><p>The contributions gathered in this book deal with challenges faced when using learning and adaptation methods to solve academic and industrial problems, such as optimization in dynamic environments with single and multiple agents, convergence and performance analysis, and online implementation. They explore means by which these difficulties can be solved, and cover a wide range of related topics including:</p><p></p><ul><li>deep learning;</li><li>artificial intelligence;</li><li>applications of game theory;</li><li>mixed modality learning; and</li><li>multi-agent reinforcement learning.</li></ul><p></p><p>Practicing engineers and scholars in the field of machine learning, game theory, and autonomous control will find the <i>Handbook of Reinforcement Learning and Control</i> to be thought-provoking, instructive and informative.&nbsp;<br></p>
+                    </div>
+                    
+    <div class="u-display-flex u-justify-content-space-between u-align-items-baseline u-flex-wrap u-mt-24">
+        <a class="u-button" href="#book-header">
+            <span class="u-display-flex u-align-items-center">Back to top
+                <svg class="u-icon u-flex-static u-mt-4 u-ml-8" width="12" height="14" aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-up"></use></svg>
+            </span>
+        </a>
+    </div>
+
+                </div>
+            </section>
+        
+    
+
+    
+        <section>
+            <div class="c-box c-box--shadowed u-mb-24">
+                <h2 class="c-box__heading u-mb-0">Keywords</h2>
+                <div class="c-book-section" id="keywords-content">
+                    <ul class="c-article-subject-list u-mb-0"><li class="c-article-subject-list__subject"><span>Reinforcement Learning</span></li><li class="c-article-subject-list__subject"><span>Privacy and Security</span></li><li class="c-article-subject-list__subject"><span>Control Systems</span></li><li class="c-article-subject-list__subject"><span>Cyber-Physical Systems</span></li><li class="c-article-subject-list__subject"><span>Distributed Control</span></li><li class="c-article-subject-list__subject"><span>Multi-Agent Systems</span></li><li class="c-article-subject-list__subject"><span>Game Theory</span></li><li class="c-article-subject-list__subject"><span>Non-equilibrium Learning</span></li><li class="c-article-subject-list__subject"><span>Optimal and Adaptive Control</span></li><li class="c-article-subject-list__subject"><span>Data-driven Decision Making</span></li></ul>
+                </div>
+                
+    <div class="u-display-flex u-justify-content-space-between u-align-items-baseline u-flex-wrap u-mt-24">
+        <a class="u-button" href="#book-header">
+            <span class="u-display-flex u-align-items-center">Back to top
+                <svg class="u-icon u-flex-static u-mt-4 u-ml-8" width="12" height="14" aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-up"></use></svg>
+            </span>
+        </a>
+    </div>
+
+            </div>
+        </section>
+    
+
+    
+        
+    
+
+    
+        <section>
+            <div class="c-box c-box--shadowed u-mb-24">
+                <h2 class="c-box__heading u-mb-0" id="affiliations">Editors and Affiliations</h2>
+                <div class="c-book-section" id="affiliations-content">
+                    <ul class="u-pa-0 u-pt-8 u-list-style-none">
+                        
+                            
+                                <li class="u-pb-8">
+                                    
+                                    <h3 class="u-ma-0 u-sans-serif u-text-md u-text-bold">
+                                        The Daniel Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, Atlanta, USA
+                                    </h3>
+                                    
+                                    <p class="u-text-md">
+                                        
+                                            Kyriakos G. Vamvoudakis
+                                        
+                                    </p>
+                                </li>
+                            
+                        
+                            
+                                <li class="u-pb-8">
+                                    
+                                    <h3 class="u-ma-0 u-sans-serif u-text-md u-text-bold">
+                                        Department of Electrical Engineering, The University of Texas at Arlington, Arlington, USA
+                                    </h3>
+                                    
+                                    <p class="u-text-md">
+                                        
+                                            Yan Wan, 
+                                        
+                                            Frank L. Lewis
+                                        
+                                    </p>
+                                </li>
+                            
+                        
+                            
+                                <li class="u-pb-8">
+                                    
+                                    <h3 class="u-ma-0 u-sans-serif u-text-md u-text-bold">
+                                        Army Research Office, Durham, USA
+                                    </h3>
+                                    
+                                    <p class="u-text-md">
+                                        
+                                            Derya Cansever
+                                        
+                                    </p>
+                                </li>
+                            
+                        
+                    </ul>
+                    
+    <div class="u-display-flex u-justify-content-space-between u-align-items-baseline u-flex-wrap u-mt-24">
+        <a class="u-button" href="#book-header">
+            <span class="u-display-flex u-align-items-center">Back to top
+                <svg class="u-icon u-flex-static u-mt-4 u-ml-8" width="12" height="14" aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-up"></use></svg>
+            </span>
+        </a>
+    </div>
+
+                </div>
+            </div>
+        </section>
+    
+
+    
+        
+            <section data-title="About the authors">
+                <div class="c-box c-box--shadowed u-mb-24">
+                    <h2 class="c-box__heading u-mb-0">About the editors</h2>
+                    <div class="c-book-section" id="about-authors-content">
+                        <p><b>Kyriakos G. Vamvoudakis</b> serves as an Assistant Professor at The Daniel Guggenheim School of Aerospace Engineering at Georgia Tech. He received the Diploma in Electronic and Computer Engineering from the Technical University of Crete, Greece in 2006. He received his M.S. and Ph.D. in Electrical Engineering in 2008 and 2011 respectively from the University of Texas, Arlington. During the period from 2012 to 2016 he was a project research scientist at the Center for Control, Dynamical Systems and Computation at the University of California, Santa Barbara. He was an assistant professor at the Kevin T. Crofton Department of Aerospace and Ocean Engineering at Virginia Tech until 2018. His research interests include reinforcement learning, control theory, and safe/assured autonomy. He is the recipient of a 2019 ARO YIP award, a 2018 NSF CAREER award, and of several international awards including the 2016 International Neural Network Society Young Investigator Award. He currently is an Associate Editor of: Automatica; IEEE Computational Intelligence Magazine; IEEE Transactions on Systems, Man, and Cybernetics: Systems; Neurocomputing; Journal of Optimization Theory and Applications; and of IEEE Control Systems Letters.</p><p><b>Yan Wan</b> is currently an Associate Professor in the Electrical Engineering Department at the University of Texas at Arlington. She received her Ph.D. degree in Electrical Engineering from Washington State University in 2009 and then did postdoctoral training at the University of California, Santa Barbara. Her research interests lie in the modeling, evaluation, and control of large-scale dynamical networks, cyber-physical system and stochastic networks. She has been recognized by several prestigious awards, including the NSF CAREER Award, RTCA William E. Jackson Award and U.S. Ignite and GENI demonstration awards. She currently serves as the Associate Editor for IEEE Transactions on Control of Network Systems, Transactions of the Institute of Measurement and Control, and Journal of Advanced Control for Applications.<br></p><p><b>Frank L. Lewis</b> is a Distinguished Scholar Professor and Moncrief-O’Donnell Chair at University of Texas at Arlington’s Automation & Robotics Research Institute. He obtained his Bachelor’s Degree in Physics/EE and MSEE at Rice University, his MS in Aeronautical Engineering from Univ. W. Florida, and his Ph.D. at Ga. Tech. He received the Fulbright Research Award, the Outstanding Service Award from Dallas IEEE Section, and was selected as Engineer of the year by Ft. Worth IEEE Section. He is an elected Guest Consulting Professor at South China University of Technology and Shanghai Jiao Tong University. He is a Fellow of the IEEE, Fellow of IFAC, Fellow of the U.K. Institute of Measurement & Control, and a U.K. Chartered Engineer. His current research interests include distributed control on graphs, neural and fuzzy systems, and intelligent control.<br></p><p><b>Derya Cansever</b> is a Program Manager at the US Army Research Office. Prior to that, he was the Chief Engineer of the Communication Networks and Networking Division at US Army CERDEC, where he conducts research in Tactical, Mission Aware and Software Defined Networks. Dr. Cansever has also worked at Johns Hopkins University Applied Physics Laboratory, AT&T Bell Labs, and GTE Laboratory. He taught courses on Data Communications and Network Security at Boston University and University of Massachusetts. He has a Ph.D. in Electrical and Computer Engineering from the University of Illinois at Urbana Champaign.<br></p>
+                    </div>
+                    
+    <div class="u-display-flex u-justify-content-space-between u-align-items-baseline u-flex-wrap u-mt-24">
+        <a class="u-button" href="#book-header">
+            <span class="u-display-flex u-align-items-center">Back to top
+                <svg class="u-icon u-flex-static u-mt-4 u-ml-8" width="12" height="14" aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-up"></use></svg>
+            </span>
+        </a>
+    </div>
+
+                </div>
+            </section>
+        
+    
+
+    <section data-title="Bibliographic Information">
+        <div id ="bibliographic-information" class="c-box c-box--shadowed u-mb-24">
+            <h2 class="c-box__heading u-mb-0">Bibliographic Information</h2>
+            <div class="c-bibliographic-information u-pt-8">
+                <div class="c-bibliographic-information__column">
+                    <ul class="c-bibliographic-information__list">
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Book Title</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">Handbook of Reinforcement Learning and Control</span></p></li>
+                        
+                        
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Editors</span><span class="u-hide">: </span><span class="c-bibliographic-information__value" data-component="book-contributor-list" data-list-type="editors">Kyriakos G. Vamvoudakis, Yan Wan, Frank L. Lewis, Derya Cansever</span></p></li>
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Series Title</span><span class="u-hide">: </span>
+                            <span class="c-bibliographic-information__value">
+                                    <a href="https://www.springer.com/series/13304">Studies in Systems, Decision and Control</a>
+                            </span></p></li>
+                        
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">DOI</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">https://doi.org/10.1007/978-3-030-60990-0</span></p></li>
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Publisher</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">Springer Cham</span></p></li>
+                        
+                            
+                                <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">eBook Packages</span><span class="u-hide">: </span>
+                                <span class="c-bibliographic-information__value">
+                                    <a href="/search?facet-content-type=%22Book%22&package=42732&facet-start-year=2021&facet-end-year=2021">Intelligent Technologies and Robotics</a><span>, </span><a href="/search?facet-content-type=%22Book%22&package=43728&facet-start-year=2021&facet-end-year=2021">Intelligent Technologies and Robotics (R0)</a>
+                                </span></p></li>
+                            
+                        
+                        
+                            <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Copyright Information</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">Springer Nature Switzerland AG 2021</span></p></li>
+                        
+                        
+
+                        
+                            <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Hardcover ISBN</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">978-3-030-60989-4</span></p></li>
+                            
+                        
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">eBook ISBN</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">978-3-030-60990-0</span></p></li>
+                        
+                            <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Series ISSN</span><span class="u-hide">: </span>
+                                <span class="c-bibliographic-information__value"> 2198-4182 </span></p></li>
+                        
+                        
+                            <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Series E-ISSN</span><span class="u-hide">: </span>
+                                <span class="c-bibliographic-information__value"> 2198-4190 </span></p></li>
+                        
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Edition Number</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">1</span></p></li>
+
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Number of Pages</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">XXIV, 833</span></p></li>
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Number of Illustrations</span><span class="u-hide">: </span><span class="c-bibliographic-information__value">14 b/w illustrations, 145 illustrations in colour</span></p></li>
+                        
+                        <li class="c-bibliographic-information__list-item"><p><span class="u-text-bold">Topics</span><span class="u-hide">: </span>
+                            <span class="c-bibliographic-information__value">
+                                <a href="https://link.springer.com/search?facet-sub-discipline=Control and Systems Theory&amp;facet-content-type=Book">Control and Systems Theory</a><span>, </span><a href="https://link.springer.com/search?facet-sub-discipline=Multiagent Systems&amp;facet-content-type=Book">Multiagent Systems</a><span>, </span><a href="https://link.springer.com/search?facet-sub-discipline=Machine Learning&amp;facet-content-type=Book">Machine Learning</a><span>, </span><a href="https://link.springer.com/search?facet-sub-discipline=Privacy&amp;facet-content-type=Book">Privacy</a><span>, </span><a href="https://link.springer.com/search?facet-sub-discipline=Cyber-Physical Systems&amp;facet-content-type=Book">Cyber-Physical Systems</a>
+                            </span></p></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+    <div class="u-display-flex u-justify-content-space-between u-align-items-baseline u-flex-wrap u-mt-24">
+        <a class="u-button" href="#book-header">
+            <span class="u-display-flex u-align-items-center">Back to top
+                <svg class="u-icon u-flex-static u-mt-4 u-ml-8" width="12" height="14" aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-up"></use></svg>
+            </span>
+        </a>
+    </div>
+
+        </div>
+    </section>
+
+            
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-track-component="Book">
+            
+            <div class="c-book-buy-box c-book-buy-box--book" data-container-type="buy-box" data-track-component="buy-box">
+                <div class="sprcom-buybox buybox " id="sprcom-buybox"> 
+ <div> 
+  <div class="c-box" style="padding: 0"> 
+   <h2 class="c-box__heading visually-hidden">Buying options</h2> 
+   <div class="buying-options"> 
+    <div class="buying-option expanded"> 
+     <dl class="buying-option-price"> 
+      <dt>
+       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+       </svg><span>eBook</span>
+      </dt> 
+      <dd class="price-amount">
+        EUR&nbsp;160.49 
+      </dd> 
+      <dd class="price-info">
+       Price includes VAT (Italy)
+      </dd> 
+     </dl> 
+     <dl class="buying-option-price-campaign " style="display: none;"> 
+      <div class="buying-option-price"> 
+       <dt>
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+        </svg><span>eBook</span>
+       </dt> 
+       <dd class="price-amount">
+         EUR&nbsp;160.49 
+       </dd> 
+      </div> 
+      <dd class="price-info"> <span> <span class="vat-info">Price includes VAT (Italy)</span> </span> 
+      </dd> 
+     </dl> 
+     <form class="buying-option-form" action="https://order.springer.com/public/cart" method="post"> 
+      <input type="hidden" name="type" value="ebook"> 
+      <input type="hidden" name="doi" value="10.1007/978-3-030-60990-0"> 
+      <input type="hidden" name="isxn" value="978-3-030-60990-0"> 
+      <input type="hidden" name="contenttitle" value="Handbook of Reinforcement Learning and Control"> 
+      <ul class="buying-option-usps"> 
+       <li>ISBN: 978-3-030-60990-0</li> 
+       <li>Instant PDF download</li> 
+       <li>Readable on all devices</li> 
+       <li>Own it forever</li> 
+       <li>Exclusive offer for individuals only</li> 
+       <li>Tax calculation will be finalised during checkout</li> 
+      </ul> <button type="submit" class="buybox__buy-button c-button c-button--blue" value="Submit" data-track="click" data-track-label="buy ebook" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Handbook of Reinforcement Learning and Control&quot;,&quot;id&quot;:&quot;978-3-030-60990-0&quot;,&quot;price&quot;:149.99,&quot;brand&quot;:&quot;Springer International Publishing&quot;,&quot;category&quot;:&quot;Control and Systems Theory&quot;,&quot;variant&quot;:&quot;ebo&quot;,&quot;quantity&quot;:1}]}}});">Buy eBook</button> 
+     </form> 
+    </div> 
+    <div class="buying-option expanded"> 
+     <dl class="buying-option-price"> 
+      <dt>
+       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+       </svg><span>Hardcover Book</span>
+      </dt> 
+      <dd class="price-amount">
+        EUR&nbsp;207.99 
+      </dd> 
+      <dd class="price-info">
+       Price includes VAT (Italy)
+      </dd> 
+     </dl> 
+     <dl class="buying-option-price-campaign " style="display: none;"> 
+      <div class="buying-option-price"> 
+       <dt>
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"> <path d="M11.782 11L9.3 8.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L11.782 13l1.013-.998L11.782 11z" fill="#666" fill-rule="evenodd"></path> 
+        </svg><span>Hardcover Book</span>
+       </dt> 
+       <dd class="price-amount">
+         EUR&nbsp;207.99 
+       </dd> 
+      </div> 
+      <dd class="price-info"> <span> <span class="vat-info">Price includes VAT (Italy)</span> </span> 
+      </dd> 
+     </dl> 
+     <form class="buying-option-form" action="https://order.springer.com/public/cart" method="post"> 
+      <input type="hidden" name="type" value="book"> 
+      <input type="hidden" name="doi" value="10.1007/978-3-030-60990-0"> 
+      <input type="hidden" name="isxn" value="978-3-030-60989-4"> 
+      <input type="hidden" name="contenttitle" value="Handbook of Reinforcement Learning and Control"> 
+      <ul class="buying-option-usps"> 
+       <li>ISBN: 978-3-030-60989-4</li> 
+       <li>Dispatched in 3 to 5 business days</li> 
+       <li>Exclusive offer for individuals only</li> 
+       <li>Free shipping worldwide<br><a href="https://support.springernature.com/en/support/solutions/articles/6000233448-coronavirus-disease-covid-19-delivery-information" target="_blank">Shipping restrictions may apply, check to see if you are impacted</a>.</li> 
+       <li>Tax calculation will be finalised during checkout</li> 
+      </ul> <button type="submit" class="buybox__buy-button c-button c-button--blue" value="Submit" data-track="click" data-track-label="buy hardcover" onclick="dataLayer.push({&quot;event&quot;:&quot;addToCart&quot;,&quot;ecommerce&quot;:{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;add&quot;:{&quot;products&quot;:[{&quot;name&quot;:&quot;Handbook of Reinforcement Learning and Control&quot;,&quot;id&quot;:&quot;978-3-030-60989-4&quot;,&quot;price&quot;:199.99,&quot;brand&quot;:&quot;Springer International Publishing&quot;,&quot;category&quot;:&quot;Control and Systems Theory&quot;,&quot;variant&quot;:&quot;print&quot;,&quot;quantity&quot;:1}]}}});">Buy Hardcover Book</button> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="c-box buybox-additional-info"> <a class="c-box__item" href="https://www.springernature.com/gp/librarians/licensing/license-options">Learn about institutional subscriptions</a> 
+  </div> 
+ </div> 
+ <style>
+                .sprcom-buybox {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .sprcom-buybox>div {
+                    flex-grow: 1;
+                    width: 100%;
+                }
+
+                .sprcom-buybox * {
+                    font-size: 13px !important;
+                }
+
+                .sprcom-buybox>div>*+* {
+                    margin-top: 24px;
+                }
+
+                .sprcom-buybox .c-box__heading {
+                    margin-bottom: 0;
+                }
+
+
+                .sprcom-buybox .buying-options {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .sprcom-buybox .buying-options>* {
+                    background-color: #ddd;
+                    box-shadow: 0 0 0 1px #bbb;
+                    flex-grow: 1;
+                    flex-basis: auto;
+                    width: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                    font-weight: 400;
+                    margin-left: -10px;
+                }
+
+                .sprcom-buybox .buying-option-form {
+                    padding: 12px;
+                }
+
+                .sprcom-buybox .buying-option-price {
+                    align-items: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 1.6rem;
+                    line-height: 1.4;
+                    user-select: none;
+                    padding: 6px 12px;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dt svg path,
+                .sprcom-buybox .buying-option-price dd {
+                    color: #004aa7;
+                    fill: #004aa7;
+                }
+
+                .sprcom-buybox .buying-option-price dt,
+                .sprcom-buybox .buying-option-price dd {
+                    flex-grow: 1;
+                }
+
+                .sprcom-buybox .buying-option .price-info {
+                    color: #666;
+                    font-size: 80%;
+                    text-align: right;
+                    width: 100%;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option .price-info > span {
+                    display: block;
+                    padding: 0 12px;
+                }
+
+                .sprcom-buybox .campaign-prices .expanded .discounted .price-amount,
+                .sprcom-buybox .campaign-prices .buying-option .price-info .discount-info {
+                    color: #c60000 !important;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option .price-info .discount-info {
+                    display: block;
+                }
+
+                .sprcom-buybox .buying-option-price .price-amount {
+                    font-size: 140%;
+                    text-align: right;
+                    font-weight: 600;
+                }
+
+                .sprcom-buybox .buying-option-price .price-type {
+                    font-size: 40%;
+                    margin-left: 8px;
+                }
+
+                .sprcom-buybox .buying-option-usps {
+                    color: #666;
+                    font-size: 1.4rem;
+                    line-height: 1.4;
+                    margin: 0 0 0 13px;
+                    padding-left: 16px;
+
+                    list-style: disc;
+                }
+
+                .sprcom-buybox .buying-option-usps>li {
+                    position: relative;
+                }
+
+                .sprcom-buybox .buying-option-usps>li:not(:first-child) {
+                    margin-top: 4px;
+                }
+
+                .sprcom-buybox .c-button {
+                    margin-top: 18px;
+                    text-align: center;
+                }
+
+                .sprcom-buybox .buying-options .expanded {
+                    background-color: #fff;
+                }
+
+                .sprcom-buybox .buying-options .expanded dt,
+                .sprcom-buybox .buying-options .expanded dt svg path,
+                .sprcom-buybox .buying-options .expanded .price-amount {
+                    color: #333;
+                    fill: #666;
+                }
+
+
+
+                .sprcom-buybox .buybox-additional-info {
+                    padding-top: 6px;
+                    padding-bottom: 8px;
+                }
+
+                .sprcom-buybox .buybox-additional-info .c-box__item {
+                    font-size: 13px !important;
+                    margin-bottom: 0;
+                }
+
+                .sprcom-buybox a:visited {
+                    color: #004b83;
+                }
+
+
+
+                .sprcom-buybox [role=button] {
+                    cursor: pointer;
+                }
+
+                .sprcom-buybox button:focus,
+                .sprcom-buybox [role=button]:focus {
+                    outline: 4px solid #fc0;
+                    position: relative;
+                }
+
+                .sprcom-buybox [aria-expanded=false] svg {
+                    transform: rotate(0deg);
+                }
+
+                .sprcom-buybox [aria-expanded=true] svg {
+                    transform: rotate(90deg);
+                }
+
+                .sprcom-buybox dt {
+                    align-items: center;
+                    display: flex;
+                }
+
+
+
+                .sprcom-buybox .visually-hidden {
+                    clip: rect(1px, 1px, 1px, 1px);
+                    height: 1px;
+                    overflow: hidden;
+                    position: absolute;
+                    width: 1px;
+                }
+
+                .sprcom-buybox style {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount {
+                    padding-left: 20px;
+                }
+
+                .sprcom-buybox .campaign-prices .discounted .price-amount {
+                    font-size: 16px !important;
+                    margin-top: -2px;
+                }
+
+                .sprcom-buybox .price-amount s,
+                .sprcom-buybox .price-amount .price-discount {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option > .buying-option-price {
+                    display: none;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount .price-discount {
+                    display: block;
+                    margin-top: -2px;
+                }
+
+                .sprcom-buybox .campaign-prices .price-amount s {
+                    display: block;
+                    font-size: 10px !important;
+                }
+
+                .sprcom-buybox  .campaign-prices .buying-options .expanded .price-amount s {
+                    color: #666;
+                    font-size: 13px !important;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-options .expanded .discounted .buying-option-price dt {
+                    margin-top: -4px;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price {
+                    flex-wrap: nowrap;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price dt svg {
+                    min-width: 24px;
+                }
+
+                .sprcom-buybox .campaign-prices .buying-option-price dt span {
+                    line-height: 14px;
+                    margin-bottom: -1px;
+                }
+            </style> 
+ <script>
+                ;(function () {
+                    var timestamp = Date.now()
+                    document.write('<div data-id="id_'+ timestamp +'"></div>')
+
+                    var head = document.getElementsByTagName("head")[0]
+                    var script = document.createElement("script")
+                    script.type = "text/javascript"
+                    script.src = "https://buy.springer.com/assets/js/buybox-bundle-52d08dec1e.js"
+                    script.id = "ecommerce-scripts-" + timestamp
+                    head.appendChild(script)
+
+                    var buybox = document.querySelector("[data-id=id_"+ timestamp +"]").parentNode
+
+                    var now = new Date().getTime()
+                    var start = 1650956400000
+                    var   end = 1651734000000
+                    var isMeasuringTime = now > start && now < end
+                    
+                    var campaignPricesMetricsGroup = initMetrics(start, end)
+
+                    var campaignPricesActive = campaignPricesMetricsGroup === "B"
+
+                    if (campaignPricesActive) {
+                        revealCampaignPriceVersion()
+                    }
+
+                    var priceNS = campaignPricesActive ? ".buying-option-price-campaign " : ""
+
+                    ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(initCollapsibles)
+                    ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(addMetrics)
+
+                    function initMetrics(start, end) {
+                        var metricsKey = "abMetricsCampaignPrices-v1"
+                        var campaignPricesMetricsGroup = "X"
+                        
+                        if (!window.localStorage || !window.fetch) return campaignPricesMetricsGroup
+
+                        if (!isMeasuringTime) {
+                            window.localStorage.removeItem(metricsKey)
+                            return "NONE"
+                        }
+
+                        try {
+                            var metricsValue = window.localStorage.getItem(metricsKey)
+                            campaignPricesMetricsGroup = metricsValue || randomDistribution(metricsKey)
+                        } catch (err) {
+                            console.log(err)
+                        }
+
+                        return campaignPricesMetricsGroup
+                    }
+
+                    function randomDistribution(metricsKey) {
+                        var randomGroup = Math.random() < 0.5 ? "A" : "B"
+                        window.localStorage.setItem(metricsKey, randomGroup)
+                        return randomGroup
+                    }
+
+                    function revealCampaignPriceVersion() {
+                        buybox.querySelector(".c-box").classList.add("campaign-prices")
+                        buybox.querySelectorAll(".buying-option-price-campaign").forEach(function (campaignPrice) {
+                            campaignPrice.removeAttribute("style")
+                        })
+                    }
+
+                    function initCollapsibles(buyingOption, index) {
+                        var toggle = buyingOption.querySelector(priceNS + ".buying-option-price")
+                        buyingOption.classList.remove("expanded")
+                        var form = buyingOption.querySelector(".buying-option-form")
+                        
+                        if (form) {
+                            var formAction = form.getAttribute("action")
+                            document.querySelector("#ecommerce-scripts-" + timestamp).addEventListener("load", bindModal(form, formAction, timestamp, index), false)
+                        }
+                        
+                        var priceInfo = buyingOption.querySelector(priceNS + ".price-info")
+
+                        if (toggle && form && priceInfo) {
+                            toggle.setAttribute("role", "button")
+                            toggle.setAttribute("tabindex", "0")
+
+                            toggle.addEventListener("click", function (event) {
+                                var expanded = toggle.getAttribute("aria-expanded") === "true" || false
+                                toggle.setAttribute("aria-expanded", !expanded)
+                                form.hidden = expanded
+                                if (!expanded) {
+                                    buyingOption.classList.add("expanded")
+                                } else {
+                                    buyingOption.classList.remove("expanded")
+                                }
+                                priceInfo.hidden = expanded
+                            }, false)
+                        }
+                    }
+
+                    function addMetrics(buyingOption) {
+                        setTimeout(function () {
+                            var collapsed = buybox.querySelector(".buying-option.expanded") === null
+                            var form = buyingOption.querySelector(".buying-option-form")
+                            var formAction = form.getAttribute("action")
+                            if (form) {
+                                var metricsAppendix = formAction.indexOf("?") ==! -1 ? "&" : "?"
+                                metricsAppendix += "discount=" + (buyingOption.querySelector(".buying-option-price-campaign").className.indexOf("discounted") !== -1).toString()
+                                metricsAppendix += "&metricsGroup=" + campaignPricesMetricsGroup
+                                metricsAppendix += "&collapsed=" + collapsed.toString()
+                                form.action = formAction + metricsAppendix
+                            }
+                        }, 1)
+                    }
+
+                    function bindModal(form, formAction, timestamp, index) {
+                        var weHasBrowserSupport = window.fetch && Array.from
+
+                        return function() {
+                            var Buybox = EcommScripts ? EcommScripts.Buybox : null
+                            var Modal = EcommScripts ? EcommScripts.Modal : null
+                            
+                            if (weHasBrowserSupport && Buybox && Modal) {
+                                var modalID = "ecomm-modal_" + timestamp + "_" + index
+                                
+                                var modal = new Modal(modalID)
+                                modal.domEl.addEventListener("close", close)
+                                function close() {
+                                    form.querySelector("button[type=submit]").focus()
+                                }
+
+                                var cartURL = "/cart"
+                                var cartModalURL = "/cart?messageOnly=1"
+                                
+                                formAction = form.getAttribute("action")
+
+                                if (formAction.indexOf(cartURL + "?")) {
+                                    form.setAttribute(
+                                        "action",
+                                        formAction.replace(cartURL + "?", cartModalURL + "&")
+                                    )
+                                } else {
+                                    form.setAttribute(
+                                        "action",
+                                        formAction.replace(cartURL, cartModalURL)
+                                    )
+                                }
+
+                                var formSubmit = Buybox.interceptFormSubmit(
+                                    Buybox.fetchFormAction(window.fetch),
+                                    Buybox.triggerModalAfterAddToCartSuccess(modal),
+                                    function() {
+                                        form.removeEventListener("submit", formSubmit, false)
+                                        form.setAttribute(
+                                            "action",
+                                            formAction.replace(cartModalURL, cartURL)
+                                        )
+                                        form.submit()
+                                    }
+                                )
+                                
+                                form.addEventListener("submit", formSubmit, false)
+                                
+                                document.body.appendChild(modal.domEl)
+                            }
+                        }
+                    }
+
+                    function initKeyControls() {
+                        document.addEventListener("keydown", function (event) {
+                            if (document.activeElement.classList.contains("buying-option-price") && (event.code === "Space" || event.code === "Enter")) {
+                                if (document.activeElement) {
+                                    event.preventDefault()
+                                    document.activeElement.click()
+                                }
+                            }
+                        }, false)
+                    }
+
+                    function initialStateOpen() {
+                        var narrowBuyboxArea = buybox.offsetWidth <= 480
+                        var allOptionsInitiallyCollapsed = buybox.className.indexOf("all-options-initially-collapsed") > -1
+                        ;[].slice.call(buybox.querySelectorAll(".buying-option")).forEach(function (option, index) {
+                            var toggle = option.querySelector(priceNS + ".buying-option-price")
+                            var form = option.querySelector(".buying-option-form")
+                            var priceInfo = option.querySelector(priceNS + ".price-info")
+                            if (allOptionsInitiallyCollapsed || narrowBuyboxArea && index > 0) {
+                                toggle.setAttribute("aria-expanded", "false")
+                                form.hidden = "hidden"
+                                priceInfo.hidden = "hidden"
+                            } else {
+                                toggle.click()
+                            }
+                        })
+                    }
+
+                    initialStateOpen()
+
+                    if (window.buyboxInitialised) return
+                    window.buyboxInitialised = true
+
+                    initKeyControls()
+                    
+                    if (window.fetch && isMeasuringTime) {
+                        var collapsed = buybox.querySelector(".buying-option.expanded") === null
+                        var metricsAppendix = ""
+                        metricsAppendix += "&discount=" + (buybox.querySelector(".buying-option-price-campaign").className.indexOf("discounted") !== -1).toString()
+                        metricsAppendix += "&metricsGroup=" + campaignPricesMetricsGroup
+                        metricsAppendix += "&collapsed=" + collapsed.toString()
+                        window.fetch("https://test-buckets.springer.com/log?v3&time=" + now + metricsAppendix)
+                            .then(function (res) {
+                                return res.text()
+                            })
+                            .catch(function () {
+                                
+                            })
+                    }
+                })()
+            </script> 
+ <script>
+                ;(function () {
+                    dataLayer.push({
+           "ecommerce": {
+             "currency": "EUR",
+             "impressions": [{
+  "name" : "Handbook of Reinforcement Learning and Control",
+  "id" : "978-3-030-60990-0",
+  "price" : 149.99,
+  "brand" : "Springer International Publishing",
+  "category" : "Control and Systems Theory",
+  "variant" : "ebo",
+  "quantity" : 1
+}, {
+  "name" : "Handbook of Reinforcement Learning and Control",
+  "id" : "978-3-030-60989-4",
+  "price" : 199.99,
+  "brand" : "Springer International Publishing",
+  "category" : "Control and Systems Theory",
+  "variant" : "print",
+  "quantity" : 1
+}]
+            }
+         }) 
+                })()
+            </script> 
+</div>
+            </div>
+        </div>
+
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo" data-test="springerlink-footer">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li>
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="https://www.springernature.com/ccpa">California Privacy Statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                
+                <li><a class="optanon-toggle-display" data-cc-action="preferences" href="javascript:void(0);">Manage cookies/Do not sell my data</a></li>
+                
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="https://support.springer.com/en/support/home">FAQ</a></li>
+                <li><a id="contactus-footer-link" href="https://support.springer.com/en/support/solutions/articles/6000206179-contacting-us">Contact us</a></li>
+                <li><a href="https://www.springer.com/gp/shop/promo/affiliate/springer-nature">Affiliate program</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 45.134.22.204</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            Not affiliated
+        </p>
+
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-b88bf25ad4.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2022 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+    </footer>
+
+
+
+    </div>
+
+    
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm0 7h-1.5l-.11662113.00672773c-.49733868.05776511-.88337887.48043643-.88337887.99327227 0 .47338693.32893365.86994729.77070917.97358929l.1126697.01968298.11662113.00672773h.5v3h-.5l-.11662113.0067277c-.42082504.0488782-.76196299.3590206-.85696816.7639815l-.01968298.1126697-.00672773.1166211.00672773.1166211c.04887817.4208251.35902055.761963.76398144.8569682l.1126697.019683.11662113.0067277h3l.1166211-.0067277c.4973387-.0577651.8833789-.4804365.8833789-.9932723 0-.4733869-.3289337-.8699473-.7707092-.9735893l-.1126697-.019683-.1166211-.0067277h-.5v-4l-.00672773-.11662113c-.04887817-.42082504-.35902055-.76196299-.76398144-.85696816l-.1126697-.01968298zm0-3.25c-.69035594 0-1.25.55964406-1.25 1.25s.55964406 1.25 1.25 1.25 1.25-.55964406 1.25-1.25-.55964406-1.25-1.25-1.25z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-success" viewBox="0 0 18 18">
+            <path d="M9 0a9 9 0 110 18A9 9 0 019 0zm3.486 4.982l-4.718 5.506L5.14 8.465a.991.991 0 00-1.423.133 1.06 1.06 0 00.13 1.463l3.407 2.733a1 1 0 001.387-.133l5.385-6.334a1.06 1.06 0 00-.116-1.464.991.991 0 00-1.424.119z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16">
+            <path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" fill-rule="evenodd" transform="matrix(0 1 -1 0 11 1)"/>
+        </symbol>
+        <symbol id="icon-warning" viewBox="0 0 18 18">
+            <path d="m9 11.75c.69035594 0 1.25.5596441 1.25 1.25s-.55964406 1.25-1.25 1.25-1.25-.5596441-1.25-1.25.55964406-1.25 1.25-1.25zm.41320045-7.75c.55228475 0 1.00000005.44771525 1.00000005 1l-.0034543.08304548-.3333333 4c-.043191.51829212-.47645714.91695452-.99654578.91695452h-.15973424c-.52008864 0-.95335475-.3986624-.99654576-.91695452l-.33333333-4c-.04586475-.55037702.36312325-1.03372649.91350028-1.07959124l.04148683-.00259031zm-.41320045 14c-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9 4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-plus" viewBox="0 0 16 16">
+            <path d="m2.00087166 7h4.99912834v-4.99912834c0-.55276616.44386482-1.00087166 1-1.00087166.55228475 0 1 .44463086 1 1.00087166v4.99912834h4.9991283c.5527662 0 1.0008717.44386482 1.0008717 1 0 .55228475-.4446309 1-1.0008717 1h-4.9991283v4.9991283c0 .5527662-.44386482 1.0008717-1 1.0008717-.55228475 0-1-.4446309-1-1.0008717v-4.9991283h-4.99912834c-.55276616 0-1.00087166-.44386482-1.00087166-1 0-.55228475.44463086-1 1.00087166-1z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-minus" viewBox="0 0 16 16">
+            <path d="m2.00087166 7h11.99825664c.5527662 0 1.0008717.44386482 1.0008717 1 0 .55228475-.4446309 1-1.0008717 1h-11.99825664c-.55276616 0-1.00087166-.44386482-1.00087166-1 0-.55228475.44463086-1 1.00087166-1z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-error" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm2.8630343 4.71100931-2.8630343 2.86303426-2.86303426-2.86303426c-.39658757-.39658757-1.03281091-.39438847-1.4265779-.00062147-.39651227.39651226-.39348876 1.03246767.00062147 1.4265779l2.86303426 2.86303426-2.86303426 2.8630343c-.39658757.3965875-.39438847 1.0328109-.00062147 1.4265779.39651226.3965122 1.03246767.3934887 1.4265779-.0006215l2.86303426-2.8630343 2.8630343 2.8630343c.3965875.3965876 1.0328109.3943885 1.4265779.0006215.3965122-.3965123.3934887-1.0324677-.0006215-1.4265779l-2.8630343-2.8630343 2.8630343-2.86303426c.3965876-.39658757.3943885-1.03281091.0006215-1.4265779-.3965123-.39651227-1.0324677-.39348876-1.4265779.00062147z" fill="currentColor" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-springer-arrow-left">
+            <path d="M15 7a1 1 0 000-2H3.385l2.482-2.482a.994.994 0 00.02-1.403 1.001 1.001 0 00-1.417 0L.294 5.292a1.001 1.001 0 000 1.416l4.176 4.177a.991.991 0 001.4.016 1 1 0 00-.003-1.42L3.385 7H15z"/>
+        </symbol>
+        <symbol id="icon-springer-arrow-right">
+            <path d="M1 7a1 1 0 010-2h11.615l-2.482-2.482a.994.994 0 01-.02-1.403 1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L12.615 7H1z"/>
+        </symbol>
+        <symbol id="icon-arrow-up" viewBox="0 0 16 16">
+            <path d="m12.716625 4.46975946-4.03074003-4.17620792c-.37758093-.39120768-.98937525-.39160691-1.367372.0000316l-4.03091981 4.1763942c-.37759778.39122514-.38381821 1.01908149-.01600053 1.40017357.37750607.39113012.98772445.3930364 1.37006824-.00310603l2.39538588-2.48183446v11.61478958l.00649339.1166211c.055753.4973387.46370161.8833789.95867408.8833789.49497246 0 .90292107-.3860402.95867408-.8833789l.00649338-.1166211v-11.61478958l2.39518592 2.4816273c.3791392.39282216.9863753.40056173 1.3541929.01946965.3775061-.39113012.3778444-1.02492687-.0001355-1.41654791z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-tick" viewBox="0 0 24 24">
+            <path d="M12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 Z M7.657,10.79 C7.45285634,10.6137568 7.18569967,10.5283283 6.91717333,10.5534259 C6.648647,10.5785236 6.40194824,10.7119794 6.234,10.923 C5.87705269,11.3666969 5.93445559,12.0131419 6.364,12.387 L10.261,15.754 C10.6765468,16.112859 11.3037113,16.0695601 11.666,15.657 L17.759,8.713 C18.120307,8.27302248 18.0695334,7.62621189 17.644,7.248 C17.4414817,7.06995024 17.1751516,6.9821166 16.9064461,7.00476032 C16.6377406,7.02740404 16.3898655,7.15856958 16.22,7.368 L10.768,13.489 L7.657,10.79 Z"/>
+        </symbol>
+    </svg>
+
+</body>
+</html>

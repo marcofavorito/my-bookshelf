@@ -1,0 +1,327 @@
+author: Han, Minghao and Tian, Yuan and Zhang, Lixian and Wang, Jun and Pan, Wei
+author_list:
+- affiliation: []
+  family: Han
+  given: Minghao
+- affiliation: []
+  family: Tian
+  given: Yuan
+- affiliation: []
+  family: Zhang
+  given: Lixian
+- affiliation: []
+  family: Wang
+  given: Jun
+- affiliation: []
+  family: Pan
+  given: Wei
+citations:
+- unstructured: 'Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., & Dean, J.,
+    et al. (2016). Tensorflow: A system for large-scale machine learning. In 12th
+    {USENIX} symposium on operating systems design and implementation (pp. 265–283).'
+- article-title: Constrained policy optimization
+  author: Achiam
+  first-page: '22'
+  series-title: Proceedings of the 34th international conference on machine learning-volume
+    70
+  year: '2017'
+- author: Altman
+  series-title: Constrained markov decision processes (vol. 7)
+  year: '1999'
+- author: Amodei
+  series-title: Concrete problems in ai safety
+  year: '2016'
+- article-title: Safe model-based reinforcement learning with stability guarantees
+  author: Berkenkamp
+  first-page: '908'
+  series-title: Advances in neural information processing systems
+  year: '2017'
+- article-title: Nonlinear programming
+  author: Bertsekas
+  doi: 10.1057/palgrave.jors.2600425
+  first-page: '334'
+  issue: '3'
+  journal-title: Journal of the Operational Research Society
+  volume: '48'
+  year: '1997'
+- author: Bhandari
+  series-title: A finite time analysis of temporal difference learning with linear
+    function approximation
+  year: '2018'
+- article-title: 'Robust stability and h/sub/spl infin//control of discrete-time jump
+    linear systems with time-delay: An lmi approach'
+  author: Boukas
+  first-page: '1527'
+  series-title: Decision and control, 2000. Proceedings of the 39th IEEE conference
+    on (vol. 2)
+  year: '2000'
+- author: Brockman
+  series-title: Openai gym
+  year: '2016'
+- article-title: 'Reinforcement learning for control: Performance, stability, and
+    deep approximators'
+  author: Busoniu
+  journal-title: Annual Reviews in Control
+  year: '2018'
+- author: Cheng
+  series-title: End-to-end safe reinforcement learning through barrier functions for
+    safety-critical continuous control tasks
+  year: '2019'
+- author: Choi
+  series-title: Reinforcement learning for safety-critical control under model uncertainty,
+    using control lyapunov functions and control barrier functions
+  year: '2020'
+- author: Chow
+  series-title: A lyapunov-based approach to safe reinforcement learning
+  year: '2018'
+- author: Chow
+  series-title: Lyapunov-based safe policy optimization for continuous control
+  year: '2019'
+- article-title: Continuous state feedback guaranteeing uniform ultimate boundedness
+    for uncertain dynamic systems
+  author: Corless
+  doi: 10.1109/TAC.1981.1102785
+  first-page: '1139'
+  issue: '5'
+  journal-title: IEEE Transactions on Automatic Control
+  volume: '26'
+  year: '1981'
+- unstructured: Fujimoto, S., Hoof, H., & Meger, D. (2018). Addressing function approximation
+    error in actor-critic methods. In International conference on machine learning
+    (pp. 1587–1596).
+- article-title: A comprehensive survey on safe reinforcement learning
+  author: Garcıa
+  first-page: '1437'
+  issue: '1'
+  journal-title: Journal of Machine Learning Research
+  volume: '16'
+  year: '2015'
+- article-title: 'Model predictive control: Theory and practice—a survey'
+  author: Garcia
+  doi: 10.1016/0005-1098(89)90002-2
+  first-page: '335'
+  issue: '3'
+  journal-title: Automatica
+  volume: '25'
+  year: '1989'
+- article-title: Relations between model predictive control and reinforcement learning
+  author: Gorges
+  doi: 10.1016/j.ifacol.2017.08.747
+  first-page: '4920'
+  issue: '1'
+  journal-title: IFAC-PapersOnLine
+  volume: '50'
+  year: '2017'
+- unstructured: 'Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). Soft actor-critic:
+    Off-policy maximum entropy deep reinforcement learning with a stochastic actor.
+    In International conference on machine learning (pp. 1861–1870).'
+- author: Haarnoja
+  series-title: Soft actor-critic algorithms and applications
+  year: '2018'
+- author: Han
+  series-title: H∞ model-free reinforcement learning with robust stability guarantee
+  year: '2019'
+- article-title: Actor-critic reinforcement learning for control with stability guarantee
+  author: Han
+  doi: 10.1109/LRA.2020.3011351
+  journal-title: IEEE Robotics and Automation Letters
+  year: '2020'
+- article-title: 'Adapt: Zero-shot adaptive policy transfer for stochastic dynamical
+    systems'
+  author: Harrison
+  first-page: '437'
+  series-title: Robotics research
+  year: '2020'
+- article-title: Uniformly ultimately bounded tracking control of linear differential
+    inclusions with stochastic disturbance
+  author: Huang
+  doi: 10.1016/j.matcom.2011.05.008
+  first-page: '2662'
+  issue: '12'
+  journal-title: Mathematics and Computers in Simulation
+  volume: '81'
+  year: '2011'
+- article-title: Uniformly ultimately bounded tracking for uncertain euler-lagrange
+    systems with unknown time-varying input delay
+  author: Jain
+  doi: 10.1016/j.ifacol.2017.08.248
+  first-page: '1415'
+  issue: '1'
+  journal-title: IFAC-PapersOnLine
+  volume: '50'
+  year: '2017'
+- unstructured: 'Korda, N., & La, P. (2015). On td (0) with function approximation:
+    Concentration bounds and a centered variant with exponential convergence. In International
+    conference on machine learning. (pp. 626–634).'
+- author: Lillicrap
+  series-title: Continuous control with deep reinforcement learning
+  year: '2015'
+- article-title: Event-triggered optimal control with performance guarantees using
+    adaptive dynamic programming
+  author: Luo
+  journal-title: IEEE Transactions on Neural Networks and Learning Systems
+  year: '2019'
+- author: Ma
+  series-title: Distributional soft actor critic for risk sensitive learning
+  year: '2020'
+- article-title: Control of constrained dynamic systems
+  author: Mayne
+  doi: 10.3166/ejc.7.87-99
+  first-page: '87'
+  issue: 2–3
+  journal-title: European Journal of Control
+  volume: '7'
+  year: '2001'
+- article-title: 'Constrained model predictive control: Stability and optimality'
+  author: Mayne
+  doi: 10.1016/S0005-1098(99)00214-9
+  first-page: '789'
+  issue: '6'
+  journal-title: Automatica
+  volume: '36'
+  year: '2000'
+- unstructured: Moldovan, T. M., & Abbeel, P. (2012). Safe exploration in markov decision
+    processes. In ICML.
+- article-title: Data-driven tracking control with adaptive dynamic programming for
+    a class of continuous-time nonlinear systems
+  author: Mu
+  doi: 10.1109/TCYB.2016.2548941
+  first-page: '1460'
+  issue: '6'
+  journal-title: IEEE Transactions on Cybernetics
+  volume: '47'
+  year: '2016'
+- article-title: Robust constrained learning-based nmpc enabling reliable mobile robot
+    path tracking
+  author: Ostafew
+  doi: 10.1177/0278364916645661
+  first-page: '1547'
+  issue: '13'
+  journal-title: International Journal of Robotics Research
+  volume: '35'
+  year: '2016'
+- author: Royden
+  series-title: Real analysis
+  year: '1968'
+- author: Sastry
+  series-title: 'Nonlinear systems: Analysis, stability, and control (vol. 10)'
+  year: '2013'
+- article-title: 'Trial without error: Towards safe reinforcement learning via human
+    intervention'
+  author: Saunders
+  first-page: '2067'
+  series-title: Proceedings of the 17th international conference on autonomous agents
+    and multiAgent systems
+  year: '2018'
+- article-title: Architectures for distributed and hierarchical model predictive control–a
+    review
+  author: Scattolini
+  doi: 10.1016/j.jprocont.2009.02.003
+  first-page: '723'
+  issue: '5'
+  journal-title: Journal of Process Control
+  volume: '19'
+  year: '2009'
+- unstructured: Schulman, J., Levine, S., Abbeel, P., Jordan, M., & Moritz, P. (2015).
+    Trust region policy optimization. In International conference on machine learning.
+    (pp. 1889–1897).
+- article-title: Near optimal output-feedback control of nonlinear discrete-time systems
+    in nonstrict feedback form with application to engines
+  author: Shih
+  series-title: 2007 international joint conference on neural networks
+  year: '2007'
+- author: Slotine
+  series-title: Applied nonlinear control (vol. 199)
+  year: '1991'
+- article-title: Reinforcement learning is direct adaptive optimal control
+  author: Sutton
+  doi: 10.1109/37.126844
+  first-page: '19'
+  issue: '2'
+  journal-title: IEEE Control Systems Magazine
+  volume: '12'
+  year: '1992'
+- article-title: A convergent o(n) temporal-difference algorithm for off-policy learning
+    with linear function approximation
+  author: Sutton
+  first-page: '1609'
+  series-title: Advances in neural information processing systems
+  year: '2009'
+- author: Tan
+  series-title: 'Sim-to-real: Learning agile locomotion for quadruped robots'
+  year: '2018'
+- article-title: 'Safety augmented value estimation from demonstrations (saved): Safe
+    deep model-based rl for sparse cost robotic tasks'
+  author: Thananjeyan
+  doi: 10.1109/LRA.2020.2976272
+  first-page: '3612'
+  issue: '2'
+  journal-title: IEEE Robotics and Automation Letters
+  volume: '5'
+  year: '2020'
+- article-title: Uniform ultimate boundedness of the solutions of uncertain dynamic
+    delay systems with state-dependent and memoryless feedback control
+  author: Thowsen
+  doi: 10.1080/00207178308933035
+  first-page: '1135'
+  issue: '5'
+  journal-title: International Journal of Control
+  volume: '37'
+  year: '1983'
+- article-title: 'Mujoco: A physics engine for model-based control'
+  author: Todorov
+  first-page: '5026'
+  series-title: 2012 IEEE/RSJ international conference on intelligent robots and systems
+  year: '2012'
+- unstructured: Van Hasselt, H., Guez, A., & Silver, D. (2016). Deep reinforcement
+    learning with double q-learning. In Thirtieth AAAI conference on artificial intelligence.
+- author: Vidyasagar
+  series-title: Nonlinear systems analysis (vol. 42)
+  year: '2002'
+- article-title: Event-driven optimal control for uncertain nonlinear systems with
+    external disturbance via adaptive dynamic programming
+  author: Wang
+  doi: 10.1016/j.neucom.2017.12.010
+  first-page: '188'
+  journal-title: Neurocomputing
+  volume: '281'
+  year: '2018'
+- article-title: Guaranteed cost neural tracking control for a class of uncertain
+    nonlinear systems using adaptive dynamic programming
+  author: Yang
+  doi: 10.1016/j.neucom.2015.08.119
+  first-page: '80'
+  journal-title: Neurocomputing
+  volume: '198'
+  year: '2016'
+- article-title: Sim-to-real transfer for biped locomotion
+  author: Yu
+  first-page: '3503'
+  series-title: 2019 IEEE/RSJ international conference on intelligent robots and systems
+  year: '2019'
+- article-title: Safe reinforcement learning using robust mpc
+  author: Zanon
+  journal-title: IEEE Transactions on Automatic Control
+  year: '2020'
+- article-title: Finite-sample analysis for sarsa with linear function approximation
+  author: Zou
+  first-page: '8665'
+  series-title: Advances in neural information processing systems
+  year: '2019'
+doc_url: https://api.elsevier.com/content/article/PII:S0005109821002090?httpAccept=text/plain
+doi: 10.1016/j.automatica.2021.109689
+files:
+- han-minghao-and-tian-yuan-and-zhang-lixian-and-wang-jun-and-pan-weireinforcement-learning-control-of-constrained-dynamic-systems-with-uniformly-u.data
+journal: Automatica
+language: en
+month: 7
+pages: '109689'
+publisher: Elsevier BV
+ref: ReinforcementLHanM2021
+time-added: 2022-05-03-11:18:19
+title: Reinforcement learning control of constrained dynamic systems with uniformly
+  ultimate boundedness stability guarantee
+type: article
+url: http://dx.doi.org/10.1016/j.automatica.2021.109689
+volume: '129'
+year: 2021

@@ -1,0 +1,40 @@
+abstract: Multi-task learning can leverage information learned by one task to benefit
+  the training of other tasks. Despite this capacity, naively training all tasks together
+  in one model often degrades performance, and exhaustively searching through combinations
+  of task groupings can be prohibitively expensive. As a result, efficiently identifying
+  the tasks that would benefit from training together remains a challenging design
+  question without a clear solution. In this paper, we suggest an approach to select
+  which tasks should train together in multi-task learning models. Our method determines
+  task groupings in a single run by training all tasks together and quantifying the
+  effect to which one task's gradient would affect another task's loss. On the large-scale
+  Taskonomy computer vision dataset, we find this method can decrease test loss by
+  10.0% compared to simply training all tasks together while operating 11.6 times
+  faster than a state-of-the-art task grouping method.
+archiveprefix: arXiv
+author: Fifty, Christopher and Amid, Ehsan and Zhao, Zhe and Yu, Tianhe and Anil,
+  Rohan and Finn, Chelsea
+author_list:
+- family: Fifty
+  given: Christopher
+- family: Amid
+  given: Ehsan
+- family: Zhao
+  given: Zhe
+- family: Yu
+  given: Tianhe
+- family: Anil
+  given: Rohan
+- family: Finn
+  given: Chelsea
+eprint: 2109.04617v2
+file: 2109.04617v2.pdf
+files:
+- fifty-christopher-and-amid-ehsan-and-zhao-zhe-and-yu-tianhe-and-anil-rohan-and-finn-chelseaefficiently-identifying-task-groupings-for-multi-task.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2109.04617v2
+time-added: 2022-05-03-11:09:05
+title: Efficiently Identifying Task Groupings for Multi-Task Learning
+type: article
+url: http://arxiv.org/abs/2109.04617v2
+year: '2021'
