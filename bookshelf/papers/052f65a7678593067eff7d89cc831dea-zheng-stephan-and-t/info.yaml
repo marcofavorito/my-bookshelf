@@ -1,0 +1,150 @@
+abstract: <jats:p>Artificial intelligence (AI) and reinforcement learning (RL) have
+  improved many areas but are not yet widely adopted in economic policy design, mechanism
+  design, or economics at large. The AI Economist is a two-level, deep RL framework
+  for policy design in which agents and a social planner coadapt. In particular, the
+  AI Economist uses structured curriculum learning to stabilize the challenging two-level,
+  coadaptive learning problem. We validate this framework in the domain of taxation.
+  In one-step economies, the AI Economist recovers the optimal tax policy of economic
+  theory. In spatiotemporal economies, the AI Economist substantially improves both
+  utilitarian social welfare and the trade-off between equality and productivity over
+  baselines. It does so despite emergent tax-gaming strategies while accounting for
+  emergent labor specialization, agent interactions, and behavioral change. These
+  results demonstrate that two-level, deep RL complements economic theory and unlocks
+  an AI-based approach to designing and understanding economic policy.</jats:p>
+author: Zheng, Stephan and Trott, Alexander and Srinivasa, Sunil and Parkes, David
+  C. and Socher, Richard
+author_list:
+- affiliation:
+  - name: Salesforce Research, Palo Alto, CA, USA.
+  family: Zheng
+  given: Stephan
+- affiliation:
+  - name: Salesforce Research, Palo Alto, CA, USA.
+  family: Trott
+  given: Alexander
+- affiliation:
+  - name: Salesforce Research, Palo Alto, CA, USA.
+  family: Srinivasa
+  given: Sunil
+- affiliation:
+  - name: Harvard University, Cambridge, MA, USA.
+  family: Parkes
+  given: David C.
+- affiliation:
+  - name: You.com, Palo Alto, CA, USA.
+  family: Socher
+  given: Richard
+citations:
+- unstructured: 'United Nations Inequality Matters: Report of the World Social Situation
+    2013 (Department of Economic and Social Affairs 2013).'
+- doi: 10.1093/epirev/mxh003
+- doi: 10.1287/moor.6.1.58
+- doi: 10.1177/1043463192004001008
+- doi: 10.2307/j.ctvcm4j8j.18
+  unstructured: 'C. F. Camerer Behavioral Game Theory: Experiments in Strategic Interaction
+    (Princeton Univ. Press 2011).'
+- doi: 10.1016/S0167-2231(76)80003-6
+  unstructured: 'R. E. Lucas Jr. Econometric policy evaluation: A critique in Carnegie-Rochester
+    Conference Series on Public Policy (Elsevier 1976) vol. 1 pp. 19–46.'
+- unstructured: A. M. Rivlin P. M. Timpane Ethical and Legal Issues of Social Experimentation
+    (Brookings Institution Washington 1975) vol. 4.
+- unstructured: V. Conitzer T. Sandholm Complexity of mechanism design in Proceedings
+    of the 18th Conference on Uncertainty in Artificial Intelligence (University of
+    Alberta Edmonton Alberta Canada August 1-4 2002) pp. 103–110.
+- doi: 10.1007/978-3-540-45193-8_2
+  unstructured: 'T. Sandholm Automated mechanism design: A new application area for
+    search algorithms in International Conference on Principles and Practice of Constraint
+    Programming (Springer Berlin Heidelberg 2003) pp. 19–36.'
+- unstructured: H. Narasimhan S. Agarwal D. C. Parkes Automated mechanism design without
+    money via machine learning in Proceedings of the 25th International Joint Conference
+    on Artificial Intelligence (AAAI Press/International Joint Conferences on Artificial
+    Intelligence 2016) pp. 433–439.
+- unstructured: 'T. Baumann T. Graepel J. Shawe-Taylor Adaptive mechanism design:
+    Learning to promote cooperation. arXiv:1806.04067 [cs.GT] (11 June 2018).'
+- unstructured: P. Duetting Z. Feng H. Narasimhan D. Parkes S. S. Ravindranath Optimal
+    auctions through deep learning in Proceedings of the 36th International Conference
+    on Machine Learning K. Chaudhuri R. Salakhutdinov Eds. (PMLR 2019) pp. 1706–1715.
+- doi: 10.1038/nature24270
+- doi: 10.1038/s41586-019-1724-z
+- unstructured: OpenAI Openai five (2018); https://blog.openai.com/openai-five/.
+- unstructured: J. Z. Leibo V. Zambaldi M. Lanctot J. Marecki T. Graepel Multi-agent
+    reinforcement learning in sequential social dilemmas in Proceedings of the 16th
+    Conference on Autonomous Agents and MultiAgent Systems (AAMAS ‘17) (International
+    Foundation for Autonomous Agents and Multiagent Systems 2017) pp. 464–473.
+- doi: 10.1016/j.eswa.2018.01.039
+- doi: 10.3390/g10040042
+- doi: 10.1073/pnas.082080899
+- doi: 10.1257/aer.102.3.53
+- doi: 10.1145/1553374.1553380
+  unstructured: Y. Bengio J. Louradour R. Collobert J. Weston Curriculum learning
+    in Proceedings of the 26th Annual International Conference on Machine Learning
+    (ICML ’09) (Association for Computing Machinery 2009) pp. 41–48.
+- doi: 10.1080/09540099108946587
+- doi: 10.1007/s10458-009-9108-7
+- unstructured: M. P. Wellman Methods for empirical game-theoretic analysis. AAAI
+    1552–1556 (2006).
+- unstructured: K. Tuyls J. Perolat M. Lanctot J. Z. Leibo T. Graepel A generalised
+    method for empirical game theoretic analysis in Proceedings of the 17th International
+    Conference on Autonomous Agents and MultiAgent Systems (AAMAS ‘18) (International
+    Foundation for Autonomous Agents and Multiagent Systems 2018) pp. 77–85.
+- unstructured: P. Muller S. Omidshafiei M. Rowland K. Tuyls J. Perolat S. Liu D.
+    Hennes L. Marris M. Lanctot E. Hughes Z. Wang G. Lever N. Heess T. Graepel R.
+    Munos A generalized training approach for multiagent learning in International
+    Conference on Learning Representations (OpenReview.net 2020) pp. 1–35.
+- article-title: 'Optimal taxation and public production I: Production efficiency'
+  author: Diamond P.
+  first-page: '8'
+  journal-title: Am. Econ. Rev.
+  unstructured: 'P. Diamond, J. Mirrlees, Optimal taxation and public production I:
+    Production efficiency. Am. Econ. Rev. 61, 8–27 (1971).'
+  volume: '61'
+  year: '1971'
+- doi: 10.1016/0047-2727(76)90047-5
+- doi: 10.1257/jep.23.4.147
+- doi: 10.1016/S1573-4420(02)80025-8
+  unstructured: A. Auerbach J. Hines Taxation and economic efficiency in Handbook
+    of Public Economics A. J. Auerbach M. Feldstein Eds. (Elsevier ed. 1 2002) vol.
+    3 chap. 21 pp. 1347–1421.
+- doi: 10.1111/1467-937X.00166
+- doi: 10.1257/aer.20141362
+- doi: 10.1515/9781400835270
+  unstructured: N. R. Kocherlakota The New Dynamic Public Finance (Princeton Univ.
+    Press 2010).
+- doi: 10.1146/annurev-economics-100119-013035
+- doi: 10.1111/j.1467-937X.2006.00367.x
+- doi: 10.3386/w17642
+  unstructured: M. Golosov M. Troshkin A. Tsyvinski “Optimal dynamic taxes” (Technical
+    Report National Bureau of Economic Research 2011).
+- doi: 10.1111/j.1467-937X.2009.00587.x
+- doi: 10.1177/1091142110381640
+- doi: 10.1016/j.socec.2012.11.002
+- unstructured: 'R. S. Sutton A. G. Barto Reinforcement Learning: An Introduction
+    (MIT Press 2018).'
+- unstructured: K. J. Arrow The theory of risk aversion in Essays in the Theory of
+    Risk-Bearing (Markham Publishing Co. Chicago 1971) pp. 90–120.
+- doi: 10.1016/S0047-2727(01)00085-8
+- unstructured: T. Gebru J. Morgenstern B. Vecchione J. W. Vaughan H. Wallach H. Daumé
+    III K. Crawford Datasheets for datasets. arXiv:1803.09010 [cs.DB] (23 March 2018).
+- doi: 10.1145/3287560.3287596
+  unstructured: M. Mitchell S. Wu A. Zaldivar P. Barnes L. Vasserman B. Hutchinson
+    E. Spitzer I. D. Raji T. Gebru Model cards for model reporting in Proceedings
+    of the Conference on Fairness Accountability and Transparency (Association for
+    Computing Machinery New York NY United States 2019) pp. 220–229.
+- unstructured: J. Schulman F. Wolski P. Dhariwal A. Radford O. Klimov Proximal policy
+    optimization algorithms. arXiv:1707.06347 [cs.LG] (20 July 2017).
+doi: 10.1126/sciadv.abk2607
+files:
+- zheng-stephan-and-trott-alexander-and-srinivasa-sunil-and-parkes-david-c.-and-socher-richardthe-ai-economist-taxation-policy-design-via-two-leve.pdf
+issue: '18'
+journal: Science Advances
+language: en
+month: 5
+publisher: American Association for the Advancement of Science (AAAS)
+ref: TheAiEconomisZheng2022
+time-added: 2022-05-06-11:06:24
+title: 'The AI Economist: Taxation policy design via two-level deep multiagent reinforcement
+  learning'
+type: article
+url: http://dx.doi.org/10.1126/sciadv.abk2607
+volume: '8'
+year: 2022

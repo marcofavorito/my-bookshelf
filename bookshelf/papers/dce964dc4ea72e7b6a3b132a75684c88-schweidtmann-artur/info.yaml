@@ -1,0 +1,50 @@
+abstract: Gaussian processes~(Kriging) are interpolating data-driven models that are
+  frequently applied in various disciplines. Often, Gaussian processes are trained
+  on datasets and are subsequently embedded as surrogate models in optimization problems.
+  These optimization problems are nonconvex and global optimization is desired. However,
+  previous literature observed computational burdens limiting deterministic global
+  optimization to Gaussian processes trained on few data points. We propose a reduced-space
+  formulation for deterministic global optimization with trained Gaussian processes
+  embedded. For optimization, the branch-and-bound solver branches only on the degrees
+  of freedom and McCormick relaxations are propagated through explicit Gaussian process
+  models. The approach also leads to significantly smaller and computationally cheaper
+  subproblems for lower and upper bounding. To further accelerate convergence, we
+  derive envelopes of common covariance functions for GPs and tight relaxations of
+  acquisition functions used in Bayesian optimization including expected improvement,
+  probability of improvement, and lower confidence bound. In total, we reduce computational
+  time by orders of magnitude compared to state-of-the-art methods, thus overcoming
+  previous computational burdens. We demonstrate the performance and scaling of the
+  proposed method and apply it to Bayesian optimization with global optimization of
+  the acquisition function and chance-constrained programming. The Gaussian process
+  models, acquisition functions, and training scripts are available open-source within
+  the "MeLOn - Machine Learning Models for Optimization" toolbox~(https://git.rwth-aachen.de/avt.svt/public/MeLOn).
+archiveprefix: arXiv
+author: Schweidtmann, Artur M. and Bongartz, Dominik and Grothe, Daniel and Kerkenhoff,
+  Tim and Lin, Xiaopeng and Najman, Jaromil and Mitsos, Alexander
+author_list:
+- family: Schweidtmann
+  given: Artur M.
+- family: Bongartz
+  given: Dominik
+- family: Grothe
+  given: Daniel
+- family: Kerkenhoff
+  given: Tim
+- family: Lin
+  given: Xiaopeng
+- family: Najman
+  given: Jaromil
+- family: Mitsos
+  given: Alexander
+eprint: 2005.10902v1
+file: 2005.10902v1.pdf
+files:
+- schweidtmann-artur-m.-and-bongartz-dominik-and-grothe-daniel-and-kerkenhoff-tim-and-lin-xiaopeng-and-najman-jaromil-and-mitsos-alexanderglobal.pdf
+month: May
+primaryclass: math.OC
+ref: 2005.10902v1
+time-added: 2022-05-06-19:49:08
+title: Global Optimization of Gaussian processes
+type: article
+url: http://arxiv.org/abs/2005.10902v1
+year: '2020'

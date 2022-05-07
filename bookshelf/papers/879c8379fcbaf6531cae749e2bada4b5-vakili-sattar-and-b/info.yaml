@@ -1,0 +1,38 @@
+abstract: Consider the sequential optimization of a continuous, possibly non-convex,
+  and expensive to evaluate objective function $f$. The problem can be cast as a Gaussian
+  Process (GP) bandit where $f$ lives in a reproducing kernel Hilbert space (RKHS).
+  The state of the art analysis of several learning algorithms shows a significant
+  gap between the lower and upper bounds on the simple regret performance. When $N$
+  is the number of exploration trials and $\gamma_N$ is the maximal information gain,
+  we prove an $\tilde{\mathcal{O}}(\sqrt{\gamma_N/N})$ bound on the simple regret
+  performance of a pure exploration algorithm that is significantly tighter than the
+  existing bounds. We show that this bound is order optimal up to logarithmic factors
+  for the cases where a lower bound on regret is known. To establish these results,
+  we prove novel and sharp confidence intervals for GP models applicable to RKHS elements
+  which may be of broader interest.
+archiveprefix: arXiv
+author: Vakili, Sattar and Bouziani, Nacime and Jalali, Sepehr and Bernacchia, Alberto
+  and Shiu, Da-shan
+author_list:
+- family: Vakili
+  given: Sattar
+- family: Bouziani
+  given: Nacime
+- family: Jalali
+  given: Sepehr
+- family: Bernacchia
+  given: Alberto
+- family: Shiu
+  given: Da-shan
+eprint: 2108.09262v1
+file: 2108.09262v1.pdf
+files:
+- vakili-sattar-and-bouziani-nacime-and-jalali-sepehr-and-bernacchia-alberto-and-shiu-da-shanoptimal-order-simple-regret-for-gaussian-process-bandi.pdf
+month: Aug
+primaryclass: stat.ML
+ref: 2108.09262v1
+time-added: 2022-05-06-19:50:55
+title: Optimal Order Simple Regret for Gaussian Process Bandits
+type: article
+url: http://arxiv.org/abs/2108.09262v1
+year: '2021'

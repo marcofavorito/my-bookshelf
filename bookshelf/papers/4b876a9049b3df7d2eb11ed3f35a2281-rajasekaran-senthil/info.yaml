@@ -1,0 +1,36 @@
+abstract: The problems of \emph{verification} and \emph{realizability} are two central
+  themes in the analysis of reactive systems. When multiagent systems are considered,
+  these problems have natural analogues of existence (nonemptiness) of pure-strategy
+  Nash equilibria and verification of pure-strategy Nash equilibria. Recently, this
+  body of work has begun to include finite-horizon temporal goals. With finite-horizon
+  temporal goals, there is a natural hierarchy of goal representation, ranging from
+  deterministic finite automata (DFA), to nondeterministic finite automata (NFA),
+  and to alternating finite automata (AFA), with a worst-case exponential gap between
+  each successive representation. Previous works showed that the realizability problem
+  with DFA goals was PSPACE-complete, while the realizability problem with temporal
+  logic goals is in 2EXPTIME. In this work, we study both the realizability and the
+  verification problems with respect to various goal representations. We first show
+  that the realizability problem with NFA goals is EXPTIME-complete and with AFA goals
+  is 2EXPTIME-complete, thus establishing strict complexity gaps between realizability
+  with respect to DFA, NFA, and AFA goals. We then contrast these complexity gaps
+  with the complexity of the verification problem, where we show that verification
+  with respect to DFAs, NFA, and AFA goals is PSPACE-complete.
+archiveprefix: arXiv
+author: Rajasekaran, Senthil and Vardi, Moshe Y.
+author_list:
+- family: Rajasekaran
+  given: Senthil
+- family: Vardi
+  given: Moshe Y.
+eprint: 2205.01029v1
+file: 2205.01029v1.pdf
+files:
+- rajasekaran-senthil-and-vardi-moshe-y.verification-and-realizability-in-finite-horizon-multiagent-systems2022.pdf
+month: May
+primaryclass: cs.GT
+ref: 2205.01029v1
+time-added: 2022-05-07-11:43:06
+title: Verification and Realizability in Finite-Horizon Multiagent Systems
+type: article
+url: http://arxiv.org/abs/2205.01029v1
+year: '2022'

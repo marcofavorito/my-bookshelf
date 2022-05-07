@@ -1,0 +1,45 @@
+abstract: Personalized web services strive to adapt their services (advertisements,
+  news articles, etc) to individual users by making use of both content and user information.
+  Despite a few recent advances, this problem remains challenging for at least two
+  reasons. First, web service is featured with dynamically changing pools of content,
+  rendering traditional collaborative filtering methods inapplicable. Second, the
+  scale of most web services of practical interest calls for solutions that are both
+  fast in learning and computation.   In this work, we model personalized recommendation
+  of news articles as a contextual bandit problem, a principled approach in which
+  a learning algorithm sequentially selects articles to serve users based on contextual
+  information about the users and articles, while simultaneously adapting its article-selection
+  strategy based on user-click feedback to maximize total user clicks.   The contributions
+  of this work are three-fold. First, we propose a new, general contextual bandit
+  algorithm that is computationally efficient and well motivated from learning theory.
+  Second, we argue that any bandit algorithm can be reliably evaluated offline using
+  previously recorded random traffic. Finally, using this offline evaluation method,
+  we successfully applied our new algorithm to a Yahoo! Front Page Today Module dataset
+  containing over 33 million events. Results showed a 12.5% click lift compared to
+  a standard context-free bandit algorithm, and the advantage becomes even greater
+  when data gets more scarce.
+archiveprefix: arXiv
+author: Li, Lihong and Chu, Wei and Langford, John and Schapire, Robert E.
+author_list:
+- family: Li
+  given: Lihong
+- family: Chu
+  given: Wei
+- family: Langford
+  given: John
+- family: Schapire
+  given: Robert E.
+doi: 10.1145/1772690.1772758
+eprint: 1003.0146v2
+file: 1003.0146v2.pdf
+files:
+- li-lihong-and-chu-wei-and-langford-john-and-schapire-robert-e.a-contextual-bandit-approach-to-personalized-news-article-recommendation2010.pdf
+month: Feb
+note: Presented at the Nineteenth International Conference on World Wide   Web (WWW
+  2010), Raleigh, NC, USA, 2010
+primaryclass: cs.LG
+ref: 1003.0146v2
+time-added: 2022-05-06-15:54:05
+title: A Contextual-Bandit Approach to Personalized News Article Recommendation
+type: article
+url: http://arxiv.org/abs/1003.0146v2
+year: '2010'

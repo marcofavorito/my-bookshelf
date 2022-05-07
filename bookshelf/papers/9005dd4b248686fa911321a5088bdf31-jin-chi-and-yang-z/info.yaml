@@ -1,0 +1,39 @@
+abstract: 'Modern Reinforcement Learning (RL) is commonly applied to practical problems
+  with an enormous number of states, where function approximation must be deployed
+  to approximate either the value function or the policy. The introduction of function
+  approximation raises a fundamental set of challenges involving computational and
+  statistical efficiency, especially given the need to manage the exploration/exploitation
+  tradeoff. As a result, a core RL question remains open: how can we design provably
+  efficient RL algorithms that incorporate function approximation? This question persists
+  even in a basic setting with linear dynamics and linear rewards, for which only
+  linear function approximation is needed.   This paper presents the first provable
+  RL algorithm with both polynomial runtime and polynomial sample complexity in this
+  linear setting, without requiring a "simulator" or additional assumptions. Concretely,
+  we prove that an optimistic modification of Least-Squares Value Iteration (LSVI)---a
+  classical algorithm frequently studied in the linear setting---achieves $\tilde{\mathcal{O}}(\sqrt{d^3H^3T})$
+  regret, where $d$ is the ambient dimension of feature space, $H$ is the length of
+  each episode, and $T$ is the total number of steps. Importantly, such regret is
+  independent of the number of states and actions.'
+archiveprefix: arXiv
+author: Jin, Chi and Yang, Zhuoran and Wang, Zhaoran and Jordan, Michael I.
+author_list:
+- family: Jin
+  given: Chi
+- family: Yang
+  given: Zhuoran
+- family: Wang
+  given: Zhaoran
+- family: Jordan
+  given: Michael I.
+eprint: 1907.05388v2
+file: 1907.05388v2.pdf
+files:
+- jin-chi-and-yang-zhuoran-and-wang-zhaoran-and-jordan-michael-i.provably-efficient-reinforcement-learning-with-linear-function-approximation2019.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1907.05388v2
+time-added: 2022-05-06-18:46:29
+title: Provably Efficient Reinforcement Learning with Linear Function   Approximation
+type: article
+url: http://arxiv.org/abs/1907.05388v2
+year: '2019'

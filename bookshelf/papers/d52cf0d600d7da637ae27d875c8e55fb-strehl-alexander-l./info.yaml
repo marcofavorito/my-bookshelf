@@ -1,0 +1,33 @@
+abstract: Model-based learning algorithms have been shown to use experience efficiently
+  when learning to solve Markov Decision Processes (MDPs) with finite state and action
+  spaces. However, their high computational cost due to repeatedly solving an internal
+  model inhibits their use in large-scale problems. We propose a method based on real-time
+  dynamic programming (RTDP) to speed up two model-based algorithms, RMAX and MBIE
+  (model-based interval estimation), resulting in computationally much faster algorithms
+  with little loss compared to existing bounds. Specifically, our two new learning
+  algorithms, RTDP-RMAX and RTDP-IE, have considerably smaller computational demands
+  than RMAX and MBIE. We develop a general theoretical framework that allows us to
+  prove that both are efficient learners in a PAC (probably approximately correct)
+  sense. We also present an experimental evaluation of these new algorithms that helps
+  quantify the tradeoff between computational and experience demands.
+archiveprefix: arXiv
+author: Strehl, Alexander L. and Li, Lihong and Littman, Michael L.
+author_list:
+- family: Strehl
+  given: Alexander L.
+- family: Li
+  given: Lihong
+- family: Littman
+  given: Michael L.
+eprint: 1206.6870v1
+file: 1206.6870v1.pdf
+files:
+- strehl-alexander-l.-and-li-lihong-and-littman-michael-l.incremental-model-based-learners-with-formal-learning-time-guarantees2012.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1206.6870v1
+time-added: 2022-05-06-18:09:41
+title: Incremental Model-based Learners With Formal Learning-Time Guarantees
+type: article
+url: http://arxiv.org/abs/1206.6870v1
+year: '2012'

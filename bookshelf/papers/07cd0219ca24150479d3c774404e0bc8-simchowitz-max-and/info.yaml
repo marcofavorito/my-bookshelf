@@ -1,0 +1,25 @@
+abstract: This paper establishes that optimistic algorithms attain gap-dependent and
+  non-asymptotic logarithmic regret for episodic MDPs. In contrast to prior work,
+  our bounds do not suffer a dependence on diameter-like quantities or ergodicity,
+  and smoothly interpolate between the gap dependent logarithmic-regret, and the $\widetilde{\mathcal{O}}(\sqrt{HSAT})$-minimax
+  rate. The key technique in our analysis is a novel "clipped" regret decomposition
+  which applies to a broad family of recent optimistic algorithms for episodic MDPs.
+archiveprefix: arXiv
+author: Simchowitz, Max and Jamieson, Kevin
+author_list:
+- family: Simchowitz
+  given: Max
+- family: Jamieson
+  given: Kevin
+eprint: 1905.03814v2
+file: 1905.03814v2.pdf
+files:
+- simchowitz-max-and-jamieson-kevinnon-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps2019.pdf
+month: May
+primaryclass: cs.LG
+ref: 1905.03814v2
+time-added: 2022-05-06-18:46:16
+title: Non-Asymptotic Gap-Dependent Regret Bounds for Tabular MDPs
+type: article
+url: http://arxiv.org/abs/1905.03814v2
+year: '2019'

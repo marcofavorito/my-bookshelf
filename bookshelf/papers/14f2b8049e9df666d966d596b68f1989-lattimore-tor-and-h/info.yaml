@@ -1,0 +1,28 @@
+abstract: We study upper and lower bounds on the sample-complexity of learning near-optimal
+  behaviour in finite-state discounted Markov Decision Processes (MDPs). For the upper
+  bound we make the assumption that each action leads to at most two possible next-states
+  and prove a new bound for a UCRL-style algorithm on the number of time-steps when
+  it is not Probably Approximately Correct (PAC). The new lower bound strengthens
+  previous work by being both more general (it applies to all policies) and tighter.
+  The upper and lower bounds match up to logarithmic factors.
+archiveprefix: arXiv
+author: Lattimore, Tor and Hutter, Marcus
+author_list:
+- family: Lattimore
+  given: Tor
+- family: Hutter
+  given: Marcus
+eprint: 1202.3890v1
+file: 1202.3890v1.pdf
+files:
+- lattimore-tor-and-hutter-marcuspac-bounds-for-discounted-mdps2012.pdf
+month: Feb
+note: Proc. 23rd International Conf. on Algorithmic Learning Theory (ALT   2012) pages
+  320-334
+primaryclass: cs.LG
+ref: 1202.3890v1
+time-added: 2022-05-06-18:35:22
+title: PAC Bounds for Discounted MDPs
+type: article
+url: http://arxiv.org/abs/1202.3890v1
+year: '2012'

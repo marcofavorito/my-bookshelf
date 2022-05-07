@@ -1,0 +1,53 @@
+abstract: 'Count-based exploration algorithms are known to perform near-optimally
+  when used in conjunction with tabular reinforcement learning (RL) methods for solving
+  small discrete Markov decision processes (MDPs). It is generally thought that count-based
+  methods cannot be applied in high-dimensional state spaces, since most states will
+  only occur once. Recent deep RL exploration strategies are able to deal with high-dimensional
+  continuous state spaces through complex heuristics, often relying on optimism in
+  the face of uncertainty or intrinsic motivation. In this work, we describe a surprising
+  finding: a simple generalization of the classic count-based approach can reach near
+  state-of-the-art performance on various high-dimensional and/or continuous deep
+  RL benchmarks. States are mapped to hash codes, which allows to count their occurrences
+  with a hash table. These counts are then used to compute a reward bonus according
+  to the classic count-based exploration theory. We find that simple hash functions
+  can achieve surprisingly good results on many challenging tasks. Furthermore, we
+  show that a domain-dependent learned hash code may further improve these results.
+  Detailed analysis reveals important aspects of a good hash function: 1) having appropriate
+  granularity and 2) encoding information relevant to solving the MDP. This exploration
+  strategy achieves near state-of-the-art performance on both continuous control tasks
+  and Atari 2600 games, hence providing a simple yet powerful baseline for solving
+  MDPs that require considerable exploration.'
+archiveprefix: arXiv
+author: Tang, Haoran and Houthooft, Rein and Foote, Davis and Stooke, Adam and Chen,
+  Xi and Duan, Yan and Schulman, John and Turck, Filip De and Abbeel, Pieter
+author_list:
+- family: Tang
+  given: Haoran
+- family: Houthooft
+  given: Rein
+- family: Foote
+  given: Davis
+- family: Stooke
+  given: Adam
+- family: Chen
+  given: Xi
+- family: Duan
+  given: Yan
+- family: Schulman
+  given: John
+- family: Turck
+  given: Filip De
+- family: Abbeel
+  given: Pieter
+eprint: 1611.04717v3
+file: 1611.04717v3.pdf
+files:
+- tang-haoran-and-houthooft-rein-and-foote-davis-and-stooke-adam-and-chen-xi-and-duan-yan-and-schulman-john-and-turck-filip-de-and-abbeel-piete.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1611.04717v3
+time-added: 2022-05-06-18:22:23
+title: '#Exploration: A Study of Count-Based Exploration for Deep Reinforcement   Learning'
+type: article
+url: http://arxiv.org/abs/1611.04717v3
+year: '2016'

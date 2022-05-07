@@ -1,0 +1,39 @@
+abstract: 'Bellemare et al. (2016) introduced the notion of a pseudo-count, derived
+  from a density model, to generalize count-based exploration to non-tabular reinforcement
+  learning. This pseudo-count was used to generate an exploration bonus for a DQN
+  agent and combined with a mixed Monte Carlo update was sufficient to achieve state
+  of the art on the Atari 2600 game Montezuma''s Revenge. We consider two questions
+  left open by their work: First, how important is the quality of the density model
+  for exploration? Second, what role does the Monte Carlo update play in exploration?
+  We answer the first question by demonstrating the use of PixelCNN, an advanced neural
+  density model for images, to supply a pseudo-count. In particular, we examine the
+  intrinsic difficulties in adapting Bellemare et al.''s approach when assumptions
+  about the model are violated. The result is a more practical and general algorithm
+  requiring no special apparatus. We combine PixelCNN pseudo-counts with different
+  agent architectures to dramatically improve the state of the art on several hard
+  Atari games. One surprising finding is that the mixed Monte Carlo update is a powerful
+  facilitator of exploration in the sparsest of settings, including Montezuma''s Revenge.'
+archiveprefix: arXiv
+author: Ostrovski, Georg and Bellemare, Marc G. and van den Oord, Aaron and Munos,
+  Remi
+author_list:
+- family: Ostrovski
+  given: Georg
+- family: Bellemare
+  given: Marc G.
+- family: van den Oord
+  given: Aaron
+- family: Munos
+  given: Remi
+eprint: 1703.01310v2
+file: 1703.01310v2.pdf
+files:
+- ostrovski-georg-and-bellemare-marc-g.-and-van-den-oord-aaron-and-munos-remicount-based-exploration-with-neural-density-models2017.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 1703.01310v2
+time-added: 2022-05-06-18:20:11
+title: Count-Based Exploration with Neural Density Models
+type: article
+url: http://arxiv.org/abs/1703.01310v2
+year: '2017'

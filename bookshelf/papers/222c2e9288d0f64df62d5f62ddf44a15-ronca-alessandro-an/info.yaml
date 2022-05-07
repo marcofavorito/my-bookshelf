@@ -1,0 +1,34 @@
+abstract: Our work aims at developing reinforcement learning algorithms that do not
+  rely on the Markov assumption. We consider the class of Non-Markov Decision Processes
+  where histories can be abstracted into a finite set of states while preserving the
+  dynamics. We call it a Markov abstraction since it induces a Markov Decision Process
+  over a set of states that encode the non-Markov dynamics. This phenomenon underlies
+  the recently introduced Regular Decision Processes (as well as POMDPs where only
+  a finite number of belief states is reachable). In all such kinds of decision process,
+  an agent that uses a Markov abstraction can rely on the Markov property to achieve
+  optimal behaviour. We show that Markov abstractions can be learned during reinforcement
+  learning. For these two tasks, any algorithms satisfying some basic requirements
+  can be employed. We show that our approach has PAC guarantees when the employed
+  algorithms have PAC guarantees, and we also provide an experimental evaluation.
+archiveprefix: arXiv
+author: Ronca, Alessandro and Licks, Gabriel Paludo and Giacomo, Giuseppe De
+author_list:
+- family: Ronca
+  given: Alessandro
+- family: Licks
+  given: Gabriel Paludo
+- family: Giacomo
+  given: Giuseppe De
+eprint: 2205.01053v1
+file: 2205.01053v1.pdf
+files:
+- ronca-alessandro-and-licks-gabriel-paludo-and-giacomo-giuseppe-demarkov-abstractions-for-pac-reinforcement-learning-in-non-markov-decision-proces.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2205.01053v1
+time-added: 2022-05-07-11:58:00
+title: Markov Abstractions for PAC Reinforcement Learning in Non-Markov   Decision
+  Processes
+type: article
+url: http://arxiv.org/abs/2205.01053v1
+year: '2022'

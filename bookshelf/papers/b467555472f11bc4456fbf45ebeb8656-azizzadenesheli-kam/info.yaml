@@ -1,0 +1,36 @@
+abstract: We study reinforcement learning (RL) in high dimensional episodic Markov
+  decision processes (MDP). We consider value-based RL when the optimal Q-value is
+  a linear function of d-dimensional state-action feature representation. For instance,
+  in deep-Q networks (DQN), the Q-value is a linear function of the feature representation
+  layer (output layer). We propose two algorithms, one based on optimism, LINUCB,
+  and another based on posterior sampling, LINPSRL. We guarantee frequentist and Bayesian
+  regret upper bounds of O(d sqrt{T}) for these two algorithms, where T is the number
+  of episodes. We extend these methods to deep RL and propose Bayesian deep Q-networks
+  (BDQN), which uses an efficient Thompson sampling algorithm for high dimensional
+  RL. We deploy the double DQN (DDQN) approach, and instead of learning the last layer
+  of Q-network using linear regression, we use Bayesian linear regression, resulting
+  in an approximated posterior over Q-function. This allows us to directly incorporate
+  the uncertainty over the Q-function and deploy Thompson sampling on the learned
+  posterior distribution resulting in efficient exploration/exploitation trade-off.
+  We empirically study the behavior of BDQN on a wide range of Atari games. Since
+  BDQN carries out more efficient exploration and exploitation, it is able to reach
+  higher return substantially faster compared to DDQN.
+archiveprefix: arXiv
+author: Azizzadenesheli, Kamyar and Anandkumar, Animashree
+author_list:
+- family: Azizzadenesheli
+  given: Kamyar
+- family: Anandkumar
+  given: Animashree
+eprint: 1802.04412v4
+file: 1802.04412v4.pdf
+files:
+- azizzadenesheli-kamyar-and-anandkumar-animashreeefficient-exploration-through-bayesian-deep-q-networks2018.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1802.04412v4
+time-added: 2022-05-06-18:44:20
+title: Efficient Exploration through Bayesian Deep Q-Networks
+type: article
+url: http://arxiv.org/abs/1802.04412v4
+year: '2018'
