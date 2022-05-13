@@ -1,0 +1,38 @@
+abstract: This paper considers the use of a simple posterior sampling algorithm to
+  balance between exploration and exploitation when learning to optimize actions such
+  as in multi-armed bandit problems. The algorithm, also known as Thompson Sampling,
+  offers significant advantages over the popular upper confidence bound (UCB) approach,
+  and can be applied to problems with finite or infinite action spaces and complicated
+  relationships among action rewards. We make two theoretical contributions. The first
+  establishes a connection between posterior sampling and UCB algorithms. This result
+  lets us convert regret bounds developed for UCB algorithms into Bayesian regret
+  bounds for posterior sampling. Our second theoretical contribution is a Bayesian
+  regret bound for posterior sampling that applies broadly and can be specialized
+  to many model classes. This bound depends on a new notion we refer to as the eluder
+  dimension, which measures the degree of dependence among action rewards. Compared
+  to UCB algorithm Bayesian regret bounds for specific model classes, our general
+  bound matches the best available for linear models and is stronger than the best
+  available for generalized linear models. Further, our analysis provides insight
+  into performance advantages of posterior sampling, which are highlighted through
+  simulation results that demonstrate performance surpassing recently proposed UCB
+  algorithms.
+archiveprefix: arXiv
+author: Russo, Daniel and Roy, Benjamin Van
+author_list:
+- family: Russo
+  given: Daniel
+- family: Roy
+  given: Benjamin Van
+eprint: 1301.2609v5
+file: 1301.2609v5.pdf
+files:
+- russo-daniel-and-roy-benjamin-vanlearning-to-optimize-via-posterior-sampling2013.pdf
+- russo-daniel-and-roy-benjamin-vanlearning-to-optimize-via-posterior-sampling2013-a.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1301.2609v5
+time-added: 2022-05-07-17:50:53
+title: Learning to Optimize Via Posterior Sampling
+type: article
+url: http://arxiv.org/abs/1301.2609v5
+year: '2013'

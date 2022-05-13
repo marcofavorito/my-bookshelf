@@ -1,0 +1,42 @@
+abstract: Temporal logic is often used to describe temporal properties in AI applications.
+  The most popular language for doing so is Linear Temporal Logic (LTL). Recently,
+  LTL on finite traces, LTLf, has been investigated in several contexts. In order
+  to reason about LTLf, formulas are typically compiled into deterministic finite
+  automata (DFA), as the intermediate semantic representation. Moreover, due to the
+  fact that DFAs have canonical representation, efficient minimization algorithms
+  can be applied to maximally reduce DFA size, helping to speed up subsequent computations.
+  Here, we present a thorough investigation on two classical minimization algorithms,
+  namely, the Hopcroft and Brzozowski algorithms. More specifically, we show how to
+  apply these algorithms to semi-symbolic (explicit states, symbolic transition functions)
+  automata representation. We then compare the two algorithms in the context of an
+  LTLf-synthesis framework, starting from LTLf formulas. While earlier studies on
+  comparing the two algorithms starting from randomly-generated automata concluded
+  that neither algorithm dominates, our results suggest that starting from LTLf formulas,
+  Hopcroft's algorithm is the best choice in the context of reactive synthesis. Deeper
+  analysis explains why the supposed advantage of Brzozowski's algorithm does not
+  materialize in practice.
+archiveprefix: arXiv
+author: Zhu, Shufang and Tabajara, Lucas M. and Pu, Geguang and Vardi, Moshe Y.
+author_list:
+- family: Zhu
+  given: Shufang
+- family: Tabajara
+  given: Lucas M.
+- family: Pu
+  given: Geguang
+- family: Vardi
+  given: Moshe Y.
+doi: 10.4204/EPTCS.346.8
+eprint: 2008.06790v2
+file: 2008.06790v2.pdf
+files:
+- zhu-shufang-and-tabajara-lucas-m.-and-pu-geguang-and-vardi-moshe-y.on-the-power-of-automata-minimization-in-reactive-synthesis2020.pdf
+month: Aug
+note: EPTCS 346, 2021, pp. 117-134
+primaryclass: cs.FL
+ref: 2008.06790v2
+time-added: 2022-05-13-18:16:11
+title: On the Power of Automata Minimization in Reactive Synthesis
+type: article
+url: http://arxiv.org/abs/2008.06790v2
+year: '2020'

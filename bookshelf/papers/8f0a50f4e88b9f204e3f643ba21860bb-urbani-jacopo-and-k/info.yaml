@@ -1,0 +1,29 @@
+abstract: We study reasoning with existential rules to perform query answering over
+  streams of data. On static databases, this problem has been widely studied, but
+  its extension to rapidly changing data has not yet been considered. To bridge this
+  gap, we extend LARS, a well-known framework for rule-based stream reasoning, to
+  support existential rules. For that, we show how to translate LARS with existentials
+  into a semantics-preserving set of existential rules. As query answering with such
+  rules is undecidable in general, we describe how to leverage the temporal nature
+  of streams and present suitable notions of acyclicity that ensure decidability.
+archiveprefix: arXiv
+author: Urbani, Jacopo and Krötzsch, Markus and Eiter, Thomas
+author_list:
+- family: Urbani
+  given: Jacopo
+- family: Krötzsch
+  given: Markus
+- family: Eiter
+  given: Thomas
+eprint: 2205.02220v1
+file: 2205.02220v1.pdf
+files:
+- urbani-jacopo-and-krotzsch-markus-and-eiter-thomaschasing-streams-with-existential-rules2022.pdf
+month: May
+primaryclass: cs.AI
+ref: 2205.02220v1
+time-added: 2022-05-10-08:23:42
+title: Chasing Streams with Existential Rules
+type: article
+url: http://arxiv.org/abs/2205.02220v1
+year: '2022'

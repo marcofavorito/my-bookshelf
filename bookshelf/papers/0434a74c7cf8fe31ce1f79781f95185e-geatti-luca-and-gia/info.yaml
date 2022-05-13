@@ -1,0 +1,33 @@
+abstract: This paper studies Linear Temporal Logic over Finite Traces (LTLf) where
+  proposition letters are replaced with first-order formulas interpreted over arbitrary
+  theories, in the spirit of Satisfiability Modulo Theories. The resulting logic,
+  called LTLf Modulo Theories (LTLfMT), is semi-decidable. Nevertheless, its high
+  expressiveness comes useful in a number of use cases, such as model-checking of
+  data-aware processes and data-aware planning. Despite the general undecidability
+  of these problems, being able to solve satisfiable instances is a compromise worth
+  studying. After motivating and describing such use cases, we provide a sound and
+  complete semi-decision procedure for LTLfMT based on the SMT encoding of a one-pass
+  tree-shaped tableau system. The algorithm is implemented in the BLACK satisfiability
+  checking tool, and an experimental evaluation shows the feasibility of the approach
+  on novel benchmarks.
+archiveprefix: arXiv
+author: Geatti, Luca and Gianola, Alessandro and Gigante, Nicola
+author_list:
+- family: Geatti
+  given: Luca
+- family: Gianola
+  given: Alessandro
+- family: Gigante
+  given: Nicola
+eprint: 2204.13693v1
+file: 2204.13693v1.pdf
+files:
+- geatti-luca-and-gianola-alessandro-and-gigante-nicolalinear-temporal-logic-modulo-theories-over-finite-traces-extended-version-2022.pdf
+month: Apr
+primaryclass: cs.LO
+ref: 2204.13693v1
+time-added: 2022-05-08-13:00:13
+title: Linear Temporal Logic Modulo Theories over Finite Traces (Extended   Version)
+type: article
+url: http://arxiv.org/abs/2204.13693v1
+year: '2022'

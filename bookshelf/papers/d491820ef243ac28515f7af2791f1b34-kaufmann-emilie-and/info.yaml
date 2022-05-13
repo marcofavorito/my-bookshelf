@@ -1,0 +1,40 @@
+abstract: 'Stochastic bandit problems have been analyzed from two different perspectives:
+  a frequentist view, where the parameter is a deterministic unknown quantity, and
+  a Bayesian approach, where the parameter is drawn from a prior distribution.  We
+  show in this paper that methods derived from this second perspective prove optimal
+  when evaluated using the frequentist cumulated regret as a measure of performance.
+  We give a general formulation for a class of Bayesian index policies that rely on
+  quantiles of the posterior distribution. For binary bandits, we prove that the corresponding
+  algorithm, termed Bayes-UCB, satisfies finite-time regret bounds that imply its
+  asymptotic optimality.  More generally, Bayes-UCB appears as an unifying framework
+  for several variants of the UCB algorithm addressing different bandit problems (parametric
+  multi-armed bandits, Gaussian bandits with unknown mean and variance, linear bandits).
+  But the generality of the Bayesian approach makes it possible to address more challenging
+  models. In particular, we show how to handle linear bandits with sparsity constraints
+  by resorting to Gibbs sampling.'
+address: La Palma, Canary Islands
+author: Kaufmann, Emilie and Cappe, Olivier and Garivier, Aurelien
+author_list:
+- family: Kaufmann
+  given: Emilie
+- family: Cappe
+  given: Olivier
+- family: Garivier
+  given: Aurelien
+booktitle: Proceedings of the Fifteenth International Conference on Artificial Intelligence
+  and Statistics
+editor: Lawrence, Neil D. and Girolami, Mark
+files:
+- kaufmann-emilie-and-cappe-olivier-and-garivier-aurelienon-bayesian-upper-confidence-bounds-for-bandit-problems2012.pdf
+month: 21--23 Apr
+pages: 592--600
+pdf: http://proceedings.mlr.press/v22/kaufmann12/kaufmann12.pdf
+publisher: PMLR
+ref: pmlr-v22-kaufmann12
+series: Proceedings of Machine Learning Research
+time-added: 2022-05-07-17:48:08
+title: On Bayesian Upper Confidence Bounds for Bandit Problems
+type: inproceedings
+url: https://proceedings.mlr.press/v22/kaufmann12.html
+volume: '22'
+year: '2012'
