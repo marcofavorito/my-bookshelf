@@ -1,0 +1,36 @@
+abstract: In recent years, researchers have made significant progress in devising
+  reinforcement-learning algorithms for optimizing linear temporal logic (LTL) objectives
+  and LTL-like objectives. Despite these advancements, there are fundamental limitations
+  to how well this problem can be solved that previous studies have alluded to but,
+  to our knowledge, have not examined in depth. In this paper, we address theoretically
+  the hardness of learning with general LTL objectives. We formalize the problem under
+  the probably approximately correct learning in Markov decision processes (PAC-MDP)
+  framework, a standard framework for measuring sample complexity in reinforcement
+  learning. In this formalization, we prove that the optimal policy for any LTL formula
+  is PAC-MDP-learnable only if the formula is in the most limited class in the LTL
+  hierarchy, consisting of only finite-horizon-decidable properties. Practically,
+  our result implies that it is impossible for a reinforcement-learning algorithm
+  to obtain a PAC-MDP guarantee on the performance of its learned policy after finitely
+  many interactions with an unconstrained environment for non-finite-horizon-decidable
+  LTL objectives.
+archiveprefix: arXiv
+author: Yang, Cambridge and Littman, Michael and Carbin, Michael
+author_list:
+- family: Yang
+  given: Cambridge
+- family: Littman
+  given: Michael
+- family: Carbin
+  given: Michael
+eprint: 2111.12679v1
+file: 2111.12679v1.pdf
+files:
+- yang-cambridge-and-littman-michael-and-carbin-michaelreinforcement-learning-for-general-ltl-objectives-is-intractable2021.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 2111.12679v1
+time-added: 2022-05-14-16:17:13
+title: Reinforcement Learning for General LTL Objectives Is Intractable
+type: article
+url: http://arxiv.org/abs/2111.12679v1
+year: '2021'

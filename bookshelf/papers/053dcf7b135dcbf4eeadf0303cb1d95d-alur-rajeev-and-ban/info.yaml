@@ -1,0 +1,42 @@
+abstract: Reactive synthesis algorithms allow automatic construction of policies to
+  control an environment modeled as a Markov Decision Process (MDP) that are optimal
+  with respect to high-level temporal logic specifications. However, they assume that
+  the MDP model is known a priori. Reinforcement Learning (RL) algorithms, in contrast,
+  are designed to learn an optimal policy when the transition probabilities of the
+  MDP are unknown, but require the user to associate local rewards with transitions.
+  The appeal of high-level temporal logic specifications has motivated research to
+  develop RL algorithms for synthesis of policies from specifications. To understand
+  the techniques, and nuanced variations in their theoretical guarantees, in the growing
+  body of resulting literature, we develop a formal framework for defining transformations
+  among RL tasks with different forms of objectives. We define the notion of sampling-based
+  reduction to transform a given MDP into another one which can be simulated even
+  when the transition probabilities of the original MDP are unknown. We formalize
+  the notions of preservation of optimal policies, convergence, and robustness of
+  such reductions. We then use our framework to restate known results, establish new
+  results to fill in some gaps, and identify open problems. In particular, we show
+  that certain kinds of reductions from LTL specifications to reward-based ones do
+  not exist, and prove the non-existence of RL algorithms with PAC-MDP guarantees
+  for safety specifications.
+archiveprefix: arXiv
+author: Alur, Rajeev and Bansal, Suguman and Bastani, Osbert and Jothimurugan, Kishor
+author_list:
+- family: Alur
+  given: Rajeev
+- family: Bansal
+  given: Suguman
+- family: Bastani
+  given: Osbert
+- family: Jothimurugan
+  given: Kishor
+eprint: 2111.00272v2
+file: 2111.00272v2.pdf
+files:
+- alur-rajeev-and-bansal-suguman-and-bastani-osbert-and-jothimurugan-kishora-framework-for-transforming-specifications-in-reinforcement-learning2021.pdf
+month: Oct
+primaryclass: cs.FL
+ref: 2111.00272v2
+time-added: 2022-05-14-15:55:22
+title: A Framework for Transforming Specifications in Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2111.00272v2
+year: '2021'
