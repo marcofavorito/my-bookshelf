@@ -1,0 +1,145 @@
+author: Bloem, R. and Cimatti, A. and Pill, I. and Roveri, M. and Semprini, S.
+author_list:
+- affiliation: []
+  family: Bloem
+  given: R.
+- affiliation: []
+  family: Cimatti
+  given: A.
+- affiliation: []
+  family: Pill
+  given: I.
+- affiliation: []
+  family: Roveri
+  given: M.
+- affiliation: []
+  family: Semprini
+  given: S.
+citations:
+- unstructured: 'IEEE-Commission: IEEE standard for Property Specification Language
+    (PSL) (2005) IEEE Std (1850-2005)'
+- author: R. Armoni
+  doi: 10.1007/3-540-46002-0_21
+  first-page: '296'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Armoni, R., Fix, L., Flaisher, A., Gerth, R., Ginsburg, B., Kanza,
+    T., Landver, A., Mador-Haim, S., Singerman, E., Tiemeyer, A., Vardi, M.Y., Zbar,
+    Y.: The forSpec temporal logic: A new temporal property-specification language.
+    In: Katoen, J.-P., Stevens, P. (eds.) TACAS 2002. LNCS, vol. 2280, pp. 296–311.
+    Springer, Heidelberg (2002)'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2002'
+- unstructured: 'Vardi, M.Y., Wolper, P.: An automata-theoretic approach to automatic
+    program verification. In: Proc. Logic in Computer Science, pp. 322–331 (1986)'
+- author: F. Somenzi
+  doi: 10.1007/10722167_21
+  first-page: '248'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Somenzi, F., Bloem, R.: Efficient Büchi automata from LTL formulae.
+    In: Emerson, E.A., Sistla, A.P. (eds.) CAV 2000. LNCS, vol. 1855, pp. 248–263.
+    Springer, Heidelberg (2000)'
+  volume-title: Computer Aided Verification
+  year: '2000'
+- author: P. Gastin
+  doi: 10.1007/3-540-44585-4_6
+  first-page: '53'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Gastin, P., Oddoux, D.: Fast LTL to büchi automata translation. In:
+    Berry, G., Comon, H., Finkel, A. (eds.) CAV 2001. LNCS, vol. 2102, pp. 53–65.
+    Springer, Heidelberg (2001)'
+  volume-title: Computer Aided Verification
+  year: '2001'
+- author: E.M. Clarke
+  doi: 10.1023/A:1008615614281
+  first-page: '47'
+  journal-title: Formal Methods in System Design
+  unstructured: 'Clarke, E.M., Grumberg, O., Hamaguchi, K.: Another look at LTL model
+    checking. Formal Methods in System Design 1, 47–71 (1997)'
+  volume: '1'
+  year: '1997'
+- unstructured: "Ben-David, S., Bloem, R., Fisman, D., Griesmayer, A., Pill, I., Ruah,\
+    \ S.: Automata construction algorithms optimized for PSL, Prosyd D 3.2/4 (2005),\
+    \ \n                    \n                      http://www.prosyd.org"
+- author: S. Miyano
+  doi: 10.1016/0304-3975(84)90049-5
+  first-page: '321'
+  journal-title: Theoretical Computer Science
+  unstructured: 'Miyano, S., Hayashi, T.: Alternating finite automata on ω-words.
+    Theoretical Computer Science 32, 321–330 (1984)'
+  volume: '32'
+  year: '1984'
+- unstructured: 'Leucker, M.: Logics for mazurkiewicz traces. Technical Report AIB-2002-10,
+    RWTH, Aachen, Germany (2002)'
+- doi: 10.1016/j.entcs.2005.07.016
+  unstructured: 'Jehle, M., Johannsen, J., Lange, M., Rachinsky, N.: Bounded model
+    checking for all regular properties. In: 3rd Workshop on Bounded Model Checking
+    (BMC 2005). Electronic Notes in Theoretical Computer Science, vol. 144.1, pp.
+    3–18 (2005)'
+- author: Z. Manna
+  doi: 10.1007/978-1-4612-0931-7
+  unstructured: 'Manna, Z., Pnueli, A.: The Temporal Logic of Reactive and Concurrent
+    Systems, Specification. Springer, New York (1992)'
+  volume-title: The Temporal Logic of Reactive and Concurrent Systems, Specification
+  year: '1992'
+- author: O. Kupferman
+  doi: 10.1145/377978.377993
+  first-page: '408'
+  issue: '3'
+  journal-title: ACM Transactions on Computational Logic
+  unstructured: 'Kupferman, O., Vardi, M.Y.: Weak alternating automata are not that
+    weak. ACM Transactions on Computational Logic 2(3), 408–429 (2001)'
+  volume: '2'
+  year: '2001'
+- author: A. Cimatti
+  doi: 10.1007/3-540-48683-6_44
+  first-page: '495'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Cimatti, A., Clarke, E., Giunchiglia, F., Roveri, M.: NUSMV: A new
+    symbolic model verifier. In: Halbwachs, N., Peled, D.A. (eds.) CAV 1999. LNCS,
+    vol. 1633, pp. 495–499. Springer, Heidelberg (1999)'
+  volume-title: Computer Aided Verification
+  year: '1999'
+- author: K. Heljanko
+  doi: 10.1007/11513988_10
+  first-page: '98'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Heljanko, K., Junttila, T.A., Latvala, T.: Incremental and complete
+    bounded model checking for full PLTL. In: Etessami, K., Rajamani, S.K. (eds.)
+    CAV 2005. LNCS, vol. 3576, pp. 98–111. Springer, Heidelberg (2005)'
+  volume-title: Computer Aided Verification
+  year: '2005'
+- unstructured: "Eén, N., Sörensson, N.: MiniSAT (2005), \n                    \n\
+    \                      http://www.cs.chalmers.se/Cs/Research/FormalMethods/MiniSat/Main.html"
+- unstructured: "David, S.B., Orni, A.: Property-by-Example guide: a handbook of PSL/Sugar\
+    \ examples - PROSYD deliverable d1.1/3 (2005), \n                    \n      \
+    \                http://www.prosyd.org"
+- author: C. Fritz
+  doi: 10.1007/3-540-45089-0_5
+  first-page: '35'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Fritz, C.: Constructing büchi automata from linear temporal logic
+    using simulation relations for alternating büchi automata. In: Ibarra, O., Dang,
+    Z. (eds.) CIAA 2003. LNCS, vol. 2759, pp. 35–48. Springer, Heidelberg (2003)'
+  volume-title: Implementation and Application of Automata
+  year: '2003'
+- author: C. Fritz
+  doi: 10.1016/j.tcs.2005.01.016
+  first-page: '275'
+  journal-title: Theoretical Computer Science
+  unstructured: 'Fritz, C., Wilke, T.: Simulation relations for alternating Büchi
+    automata. Theoretical Computer Science 338, 275–314 (2005)'
+  volume: '338'
+  year: '2005'
+doi: 10.1007/11812128_20
+isbn:
+- '9783540372134'
+- '9783540372141'
+journal: Implementation and Application of Automata
+pages: 208--218
+publisher: Springer Berlin Heidelberg
+ref: SymbolicImplemBloem2006
+time-added: 2022-05-14-18:21:55
+title: Symbolic Implementation of Alternating Automata
+type: inbook
+url: http://dx.doi.org/10.1007/11812128_20
+year: 2006
