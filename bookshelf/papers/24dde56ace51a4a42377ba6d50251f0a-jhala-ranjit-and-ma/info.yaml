@@ -1,0 +1,561 @@
+abstract: <jats:p>We survey recent progress in software model checking.</jats:p>
+author: Jhala, Ranjit and Majumdar, Rupak
+author_list:
+- affiliation:
+  - name: University of California, San Diego, La Jolla, CA
+  family: Jhala
+  given: Ranjit
+- affiliation:
+  - name: University of California, Los Angeles, Los Angeles, CA
+  family: Majumdar
+  given: Rupak
+citations:
+- doi: 10.1145/151646.151649
+- doi: 10.1145/203095.201069
+- author: Agerwala T.
+  volume-title: Tech. Rep. 83
+  year: '1978'
+- doi: 10.1007/BF01782772
+- doi: 10.1016/j.tcs.2005.11.026
+- doi: 10.1023/A:1008739929481
+- author: Alur R.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'Mocha: Modularity in model checking. In CAV 98: Computer-Aided Verification'
+  year: '1998'
+- doi: 10.1006/inco.1995.1059
+- unstructured: Andersen L. 1994. Program analysis and specialization for the c programming
+    language. Ph.D. dissertation. DIKU University of Copenhagen Copenhagen.  Andersen
+    L. 1994. Program analysis and specialization for the c programming language. Ph.D.
+    dissertation. DIKU University of Copenhagen Copenhagen.
+- doi: 10.1007/978-1-4757-4376-0
+  unstructured: Apt K. and Olderog E.-R. 1991. Verification of Sequential and Concurrent
+    Programs. Springer-Verlag Berlin Germany.   Apt K. and Olderog E.-R. 1991. Verification
+    of Sequential and Concurrent Programs. Springer-Verlag Berlin Germany.
+- doi: 10.1007/11691617_9
+- doi: 10.1145/1368088.1368118
+- doi: 10.1007/11547662_3
+- doi: 10.1016/j.scico.2007.08.001
+- doi: 10.1145/1218063.1217943
+  unstructured: Ball T. Bounimova E. Cook B. Levin V. Lichtenberg J. McGarvey C. Ondrusek
+    B. Rajamani S. K. and Ustuner A. 2006. Thorough static analysis of device drivers.
+    EuroSys. 73--85. 10.1145/1217935.1217943   Ball T. Bounimova E. Cook B. Levin
+    V. Lichtenberg J. McGarvey C. Ondrusek B. Rajamani S. K. and Ustuner A. 2006.
+    Thorough static analysis of device drivers. EuroSys. 73--85. 10.1145/1217935.1217943
+- doi: 10.1145/378795.378846
+- doi: 10.1145/1057387.1057391
+- author: Ball T.
+  volume: '2031'
+  volume-title: 'TACAS 01: Proceedings of the Symposium on Tools and Algorithms for
+    Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- author: Ball T.
+  volume: '2280'
+  volume-title: 'TACAS 02: Proceedings of the Symposium on Tools and Algorithms for
+    Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- author: Ball T.
+  volume-title: Tech. Rep. MSR-TR-2002-09, Microsoft Research.
+  year: '2002'
+- doi: 10.1145/503272.503274
+- author: Ball T.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'Bebop: A symbolic model checker for Boolean programs. In SPIN 00:
+    Proceedings of the SPIN Workshop'
+  year: '2000'
+- author: Ball T.
+  volume-title: Tech. Rep. MSR Technical Report 2000-14, Microsoft Research.
+  year: '2000'
+- doi: 10.1145/1390630.1390634
+- author: Beyer D.
+  volume-title: 'ICSE 04: Proceedings of the International Conference on Software
+    Engineering. ACM'
+- author: Beyer D.
+  volume: '4349'
+  volume-title: 'VMCAI 07: Proceedings of the Symposium on Verification, Model Checking,
+    and Abstract Interpretation. Lecture Notes in Computer Science'
+- doi: 10.1145/1250734.1250769
+- doi: 10.5555/1296691.1296695
+- author: Beyer D.
+  volume: '4590'
+  volume-title: 'CAV 07: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1145/309847.309942
+- author: Blanchet B.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'Analysis, Transformation: Essays Dedicated to Neil D. Jones'
+  year: '2002'
+- doi: 10.1145/781131.781153
+- author: Bouajjani A.
+  volume: '1243'
+  volume-title: 'CONCUR 97: Proceedings of the Symposium on Concurrency Theory. Lecture
+    Notes in Computer Science'
+- doi: 10.1145/604131.604137
+- author: Bouajjani A.
+  volume: '531'
+  volume-title: 'CAV 90: Proceedings of the Symposium on Computer-aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1007/11523468_109
+- unstructured: Brat G. Drusinsky D. Giannakopolou D. Goldberg A. Havelund K. Lowry
+    M. Pasareanu C. Venet A. Washington R. and Visser W. 2004. Experimental evaluation
+    of verification and validation tools on Martian rover software. Form. Meth. Syst.
+    Des. 25. 10.1023/B:FORM.0000040027.28662.a4   Brat G. Drusinsky D. Giannakopolou
+    D. Goldberg A. Havelund K. Lowry M. Pasareanu C. Venet A. Washington R. and Visser
+    W. 2004. Experimental evaluation of verification and validation tools on Martian
+    rover software. Form. Meth. Syst. Des. 25. 10.1023/B:FORM.0000040027.28662.a4
+- doi: 10.1007/978-3-540-70545-1_28
+- doi: 10.1109/TC.1986.1676819
+- doi: 10.1016/0890-5401(92)90017-A
+- doi: 10.1145/635499.635502
+- doi: 10.1145/1180405.1180445
+- doi: 10.1023/B:FORM.0000040026.56959.91
+- doi: 10.1007/11691372_22
+- doi: 10.1007/978-3-540-39724-3_5
+  unstructured: Chaki S. Clarke E. M. Groce A. and Strichman O. 2003. Predicate abstraction
+    with minimum predicates. In CHARME. 19--34.  Chaki S. Clarke E. M. Groce A. and
+    Strichman O. 2003. Predicate abstraction with minimum predicates. In CHARME. 19--34.
+- doi: 10.1145/581339.581393
+- doi: 10.1145/1328438.1328469
+- doi: 10.1145/93542.93585
+- doi: 10.1145/1328438.1328460
+- doi: 10.1145/586110.586142
+- author: Clarke E. M.
+  volume: '131'
+  volume-title: Logic of Programs. Lecture Notes in Computer Science
+- author: Clarke E. M.
+  volume: '697'
+  volume-title: 'CAV 93: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- author: Clarke E. M.
+  volume: '1855'
+  volume-title: 'CAV 00: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1145/143165.143235
+- doi: 10.1109/TSE.1976.233817
+- author: Colón M.
+  volume: '2031'
+  volume-title: 'TACAS 01: Proceedings of the Symposium on Tools and Algorithms for
+    the Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- author: Colón M.
+  volume: '2404'
+  volume-title: 'CAV 02: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- unstructured: Constable R. 1986. Implementing Mathematics with the Nuprl Proof Development
+    System. Prentice-Hall Englewood Cliffs NJ.   Constable R. 1986. Implementing Mathematics
+    with the Nuprl Proof Development System. Prentice-Hall Englewood Cliffs NJ.
+- doi: 10.1145/1133981.1134029
+- doi: 10.1137/0207005
+- doi: 10.1145/337180.337234
+- doi: 10.1007/BF00121128
+- unstructured: Cousot P. and Cousot R. 1976. Static determination of dynamic properties
+    of programs. In ISOP. 106--130.  Cousot P. and Cousot R. 1976. Static determination
+    of dynamic properties of programs. In ISOP. 106--130.
+- doi: 10.1145/512950.512973
+- doi: 10.1145/567752.567778
+- doi: 10.1145/325694.325699
+- doi: 10.1145/512760.512770
+- doi: 10.2307/2963593
+- doi: 10.1145/512529.512538
+- author: Das S.
+  volume: '1633'
+  volume-title: 'CAV 99: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1145/359104.359106
+- author: de Moura L.
+  volume: '4963'
+  volume-title: 'TACAS 08: Proceedings of the Symposium on Tools and Algorithms for
+    the Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- author: de Moura L.
+  volume: '2725'
+  volume-title: 'CAV 03: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- author: de Moura L.
+  volume: '2392'
+  volume-title: 'CADE 02: Proceedings of the Symposium on Automated Deduction. Lecture
+    Notes in Computer Science'
+- unstructured: Dijkstra E. 1976. A Discipline of Programming. Prentice-Hall Englewood
+    Cliffs NJ.   Dijkstra E. 1976. A Discipline of Programming. Prentice-Hall Englewood
+    Cliffs NJ.
+- author: Dill D.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'CAV 96: Proceedings of the Symposium on Computer-Aided Verification'
+- author: Dimitrova R.
+  volume: '4905'
+  volume-title: Lecture Notes in Computer Science
+- doi: 10.1007/11691372_19
+- article-title: Decidability of the weak second-order theory of two successors
+  author: Doner J. E.
+  first-page: '365'
+  journal-title: Notices Amer. Math. Soc.
+  volume: '12'
+  year: '1965'
+- doi: 10.1007/11817963_11
+- doi: 10.1145/193173.195295
+- doi: 10.5555/3049063.3049099
+- author: Een N.
+  volume: '2919'
+  volume-title: 'SAT 2003: Proceedings of the 6th International Conference on Theory
+    and Applications of Satisfiability Testing. Lecture Notes in Computer Science'
+- author: Emerson E.
+  volume-title: Handbook of Theoretical Computer Science
+- author: Emerson E.
+  volume-title: Proceedings of the 1st Annual Symposium on Logic in Computer Science.
+    IEEE Computer Society Press
+- doi: 10.1007/BF00625970
+- doi: 10.1007/3-540-44585-4_30
+  unstructured: Esparza J. and Schwoon S. 2001. A BDD-based model checker for recursive
+    programs. In CAV. 324--336.   Esparza J. and Schwoon S. 2001. A BDD-based model
+    checker for recursive programs. In CAV. 324--336.
+- author: Fahndrich M.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'ECOOP 04: Proceedings of the Symposium on Object-Oriented Programming'
+- doi: 10.1145/1095430.1081742
+  unstructured: 'Fischer J. Jhala R. and Majumdar R. 2005. Joining dataflow with predicates.
+    In ESEC/FSE 2005: Proceedings of the Symposium on Foundations of Software Engineering.
+    ACM New York 227--236. 10.1145/1081706.1081742   Fischer J. Jhala R. and Majumdar
+    R. 2005. Joining dataflow with predicates. In ESEC/FSE 2005: Proceedings of the
+    Symposium on Foundations of Software Engineering. ACM New York 227--236. 10.1145/1081706.1081742'
+- doi: 10.1145/1111037.1111059
+- author: Flanagan C.
+  volume: '2305'
+  volume-title: 'ESOP 02: Proceedings of the European Symposium on Programming. Lecture
+    Notes in Computer Science'
+- doi: 10.1016/j.tcs.2004.12.006
+- doi: 10.1016/S0020-0190(00)00196-4
+- doi: 10.1145/512529.512558
+- doi: 10.1145/503272.503291
+- doi: 10.1145/360204.360220
+- author: Floyd R.
+  volume-title: Mathematical Aspects of Computer Science
+- doi: 10.1145/512529.512531
+- doi: 10.1007/978-1-4612-4886-6
+  unstructured: Francez N. 1986. Fairness. Springer-Verlag Berlin Germany.   Francez
+    N. 1986. Fairness. Springer-Verlag Berlin Germany.
+- author: Fraser R.
+  volume: '1855'
+  volume-title: 'CAV 00: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1145/1233501.1233664
+- doi: 10.1145/237721.237724
+- author: Giesl J.
+  volume: '2083'
+  volume-title: 'IJCAR 2001: Proceedings of the International Joint Conference on
+    Automated Reasoning. Lecture Notes in Computer Science'
+- author: Godefroid P.
+  volume: '1032'
+  volume-title: Lecture Notes in Computer Science
+  year: '1996'
+- doi: 10.1145/263699.263717
+- doi: 10.1145/1065010.1065036
+- doi: 10.1145/1040305.1040333
+- author: Graf S.
+  volume: '1254'
+  volume-title: CAV. Lecture Notes in Computer Science
+- author: Gulavani B. S.
+  volume: '4963'
+  volume-title: 'TACAS 08: Proceedings of the Symposium on Tools and Algorithms for
+    the Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- doi: 10.1145/1181775.1181790
+- doi: 10.1145/1328438.1328468
+- doi: 10.1145/1133981.1134026
+- doi: 10.1145/1328438.1328459
+- doi: 10.1007/978-3-642-00768-2_24
+- unstructured: 'Hackett B. and Aiken A. 2006. How is aliasing used in systems software&quest;
+    In FSE 06: Proceedings of the Symposium on Foundations of Software Engineering.
+    ACM New York 69--80. 10.1145/1181775.1181785   Hackett B. and Aiken A. 2006. How
+    is aliasing used in systems software&quest; In FSE 06: Proceedings of the Symposium
+    on Foundations of Software Engineering. ACM New York 69--80. 10.1145/1181775.1181785'
+- doi: 10.1145/1250734.1250767
+- doi: 10.1109/TSSC.1968.300136
+- article-title: Model checking Java programs using Java Pathfinder
+  author: Havelund K.
+  first-page: '72'
+  journal-title: Softw. Tools Tech. Trans. (STTT)
+  volume: '2'
+  year: '2000'
+- doi: 10.1145/964001.964021
+- author: Henzinger T.
+  volume-title: 'CAV 03: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science. Springer-Verlag'
+- doi: 10.1145/503272.503279
+- doi: 10.1007/BFb0028765
+  unstructured: "Henzinger T. Qadeer S. and \n      \n      \n      Rajamani S\n \
+    \     \n  \n  . \n  1998\n  . You assume we guarantee: methodology and case studies.\
+    \ In CAV 98: Proceedings of the Symposium on Computer-Aided Verification Lecture\
+    \ Notes in Computer Science vol. \n  1427\n  . \n  Springer-Verlag Berlin Germany\
+    \ 440--451.   Henzinger T. Qadeer S. and Rajamani S. 1998. You assume we guarantee:\
+    \ methodology and case studies. In CAV 98: Proceedings of the Symposium on Computer-Aided\
+    \ Verification Lecture Notes in Computer Science vol. 1427. Springer-Verlag Berlin\
+    \ Germany 440--451."
+- doi: 10.1145/996841.996844
+- doi: 10.1145/379605.379665
+  unstructured: 'Hind M. 2001. Pointer analysis: Haven''t we solved this problem yet&quest;
+    In Proceedings of the ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software
+    Tools and Engineering (PASTE''01). ACM New York 54--61. 10.1145/379605.379665   Hind
+    M. 2001. Pointer analysis: Haven''t we solved this problem yet&quest; In Proceedings
+    of the ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and
+    Engineering (PASTE''01). ACM New York 54--61. 10.1145/379605.379665'
+- doi: 10.1145/363235.363259
+- doi: 10.1109/32.588521
+- doi: 10.1007/978-3-540-30124-0_15
+  unstructured: Immerman N. Rabinovich A. Reps T. Sagiv M. and Yorsh G. 2004. The
+    boundary between decidability and undecidability for transitive-closure logics.
+    In CSL. 160--174.  Immerman N. Rabinovich A. Reps T. Sagiv M. and Yorsh G. 2004.
+    The boundary between decidability and undecidability for transitive-closure logics.
+    In CSL. 160--174.
+- doi: 10.1007/BF00625968
+- doi: 10.1016/j.tcs.2008.03.013
+- doi: 10.1007/11513988_31
+- doi: 10.1007/11817963_15
+- author: Jha S. K.
+  volume-title: 'Proceedings of the 12th ACM International Conference on Hybrid Systems:
+    Computation and Control. ACM'
+- doi: 10.1145/1065010.1065016
+- doi: 10.1007/11691372_33
+- doi: 10.1007/11513988_6
+- doi: 10.1145/69575.69577
+- doi: 10.1145/1190216.1190262
+- doi: 10.1007/BF02252682
+- author: Killian C. E.
+  volume-title: Proceedings of the 4th Symposium on Networked Systems Design and Implementation
+    (NSDI). ACM
+- doi: 10.1145/360248.360252
+- doi: 10.1016/0004-3702(85)90084-0
+- doi: 10.1145/775832.775928
+- doi: 10.1515/9781400864041
+  unstructured: Kurshan R. 1994. Computer-Aided Verification of Coordinating Processes.
+    Princeton University Press Princeton NJ.   Kurshan R. 1994. Computer-Aided Verification
+    of Coordinating Processes. Princeton University Press Princeton NJ.
+- author: Lahiri S. K.
+  volume-title: Proceedings of the 5th International Conference on Verification Model
+    Checking, and Abstract Interpretation (VMCAI). Lecture Notes in Computer Science.
+    Springer-Verlag
+- doi: 10.1145/1328438.1328461
+- author: Lal A.
+  volume: '4963'
+  volume-title: 'TACAS 08: Proceedings of the Symposium on Tools and Algorithms for
+    the Construction and Analysis of Systems. Lecture Notes in Computer Science'
+- doi: 10.1145/69624.357207
+- doi: 10.1145/129712.129738
+- author: Lehmann D.
+  volume-title: 'ICALP 81: Proceedings of the International Conference on Automata,
+    Languages, and Programming. Lecture Notes in Computer Science 115'
+- author: Leino K. R. M.
+  volume: '1383'
+  volume-title: 'CC 98: Proceedings of the Symposium on Compiler Construction. Lecture
+    Notes in Computer Science'
+- author: Lev-Ami T.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'TVLA: A system for implementing static analyses. In Proceedings of
+    the 5th International Symposium on Static Analysis (SAS)'
+  year: '2000'
+- unstructured: Lluch-Lafuente A. 2003. Directed search for the verification of communication
+    protocols. Ph.D. dissertation Univ. Freiburg Freiburg Germany.  Lluch-Lafuente
+    A. 2003. Directed search for the verification of communication protocols. Ph.D.
+    dissertation Univ. Freiburg Freiburg Germany.
+- doi: 10.1007/BF01384313
+- author: Magill S.
+  volume-title: Proceedings of the 14th International Symposium on Static Analysis.
+    Lecture Notes in Computer Science, Springer-Verlag
+- doi: 10.1007/978-1-4612-0931-7
+  unstructured: 'Manna Z. and Pnueli A. 1992. The Temporal Logic of Reactive and Concurrent
+    Systems: Specification. Springer-Verlag Berlin Germany.   Manna Z. and Pnueli
+    A. 1992. The Temporal Logic of Reactive and Concurrent Systems: Specification.
+    Springer-Verlag Berlin Germany.'
+- doi: 10.1098/rsta.1984.0073
+- doi: 10.1007/978-1-4615-3190-6
+  unstructured: 'McMillan K. 1993. Symbolic Model Checking: An Approach to the State-Explosion
+    Problem. Kluwer Academic Publishers.   McMillan K. 1993. Symbolic Model Checking:
+    An Approach to the State-Explosion Problem. Kluwer Academic Publishers.'
+- author: McMillan K. L.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'TACAS: Proceedings of the Symposium on Tools and Algorithms for the
+    Construction and Analysis of Systems'
+- doi: 10.1007/11817963_14
+- author: McMillan K. L.
+  series-title: Lecture Notes in Computer Science
+  volume-title: Proceedings of the Symposium on Tools and Algorithms for the Construction
+    and Analysis of Systems
+- doi: 10.1007/11921240_23
+- doi: 10.1007/s10990-006-8609-1
+- doi: 10.1109/TSE.1981.230844
+- doi: 10.1145/378795.378851
+- doi: 10.1145/378239.379017
+- unstructured: Muchnick S. 1997. Advanced Compiler Design and Implementation. Morgan-Kaufman
+    San Francisco CA.   Muchnick S. 1997. Advanced Compiler Design and Implementation.
+    Morgan-Kaufman San Francisco CA.
+- unstructured: Musuvathi M. and Engler D. R. 2004. Model checking large network protocol
+    implementations. In NSDI. 155--168.   Musuvathi M. and Engler D. R. 2004. Model
+    checking large network protocol implementations. In NSDI. 155--168.
+- doi: 10.1145/1250734.1250785
+- author: Namjoshi K. S.
+  volume-title: 'CAV 00: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science. Springer-Verlag'
+- author: Nanevski A.
+  volume-title: Proceedings of the 13th ACM SIGPLAN International Conference on Functional
+    Programming, ICFP. ACM
+- author: Necula G. C.
+  volume: '1831'
+  volume-title: 'CADE 00: Proceedings of the Symposium on Computer-Aided Deduction.
+    Lecture Notes in Computer Science'
+- doi: 10.1145/567067.567073
+- doi: 10.1145/322186.322198
+- author: Owre S.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'PVS: Combining specification, proof checking, and model checking.
+    In CAV 96: Proceedings of the Symposium on Computer-Aided Verification'
+  year: '1996'
+- doi: 10.1007/s10703-008-0049-6
+- unstructured: Penix J. Visser W. Park S. Pasareanu C. Engstrom E. Larson A. and
+    Weininger N. 2005. Verifying time partitioning in the DEOS scheduling kernel.
+    Form. Meth. Syst. Des. 26. 10.1007/s10703-005-1490-4   Penix J. Visser W. Park
+    S. Pasareanu C. Engstrom E. Larson A. and Weininger N. 2005. Verifying time partitioning
+    in the DEOS scheduling kernel. Form. Meth. Syst. Des. 26. 10.1007/s10703-005-1490-4
+- doi: 10.1109/SFCS.1977.32
+- doi: 10.1007/978-3-540-31980-1_9
+- doi: 10.1007/978-3-540-24622-0_20
+  unstructured: Podelski A. and Rybalchenko A. 2004a. A complete method for the synthesis
+    of linear ranking functions. In VMCAI. 239--251.  Podelski A. and Rybalchenko
+    A. 2004a. A complete method for the synthesis of linear ranking functions. In
+    VMCAI. 239--251.
+- author: Podelski A.
+  volume-title: 'LICS 04: Proceedings of the Symposium on Logic in Computer Science.
+    IEEE, Computer Society Press'
+- doi: 10.1007/978-3-540-69611-7_16
+- doi: 10.1007/11547662_19
+- doi: 10.1145/964001.964022
+- doi: 10.1007/978-3-540-31980-1_7
+- doi: 10.1145/996841.996845
+- author: Queille J.
+  volume: '137'
+  volume-title: Proceedings of the 5th International Symposium on Programming, M.
+    Dezani-Ciancaglini and U. Montanari, Eds. Lecture Notes in Computer Science
+- doi: 10.1145/349214.349241
+- doi: 10.1145/199448.199462
+- doi: 10.1016/j.scico.2005.02.009
+- unstructured: 'Reynolds J. C. 2002. Separation logic: A logic for shared mutable
+    data structures. Lecture Notes in Computer Science. Springer-Verlag Berlin Germany
+    55--74.   Reynolds J. C. 2002. Separation logic: A logic for shared mutable data
+    structures. Lecture Notes in Computer Science. Springer-Verlag Berlin Germany
+    55--74.'
+- doi: 10.1145/1375581.1375602
+- author: Russell S.
+  edition: '2'
+  volume-title: 'Artificial Intelligence: A Modern Approach'
+  year: '2003'
+- doi: 10.1007/978-3-540-69738-1_25
+  unstructured: Rybalchenko A. and Sofronie-Stokkermans V. 2007. Constraint solving
+    for interpolation. In VMCAI. 346--362.   Rybalchenko A. and Sofronie-Stokkermans
+    V. 2007. Constraint solving for interpolation. In VMCAI. 346--362.
+- doi: 10.1145/514188.514190
+- author: Saidi H.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'SAS 00: Proceedings of the Static-Analysis Symposium'
+- author: Saïdi H.
+  volume: '1633'
+  volume-title: 'CAV 99: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science'
+- doi: 10.1007/978-3-540-30579-8_2
+  unstructured: Sankaranarayanan S. Sipma H. B. and Manna Z. 2005. Scalable analysis
+    of linear systems using mathematical programming. In VMCAI. 25--41. 10.1007/978-3-540-30579-8_2   Sankaranarayanan
+    S. Sipma H. B. and Manna Z. 2005. Scalable analysis of linear systems using mathematical
+    programming. In VMCAI. 25--41. 10.1007/978-3-540-30579-8_2
+- doi: 10.1145/268946.268950
+- author: Schmidt D. A.
+  volume: '1503'
+  volume-title: 'SAS 98: Proceedings of the Static Analysis Symposium. Lecture Notes
+    in Computer Science'
+- doi: 10.1145/1081706.1081750
+- unstructured: 'Sharir M. and Pnueli A. 1981. Two approaches to interprocedural data
+    dalow analysis. In Program Flow Analysis: Theory and Applications. Prentice-Hall
+    Englewood Cliffs NJ 189--233.  Sharir M. and Pnueli A. 1981. Two approaches to
+    interprocedural data dalow analysis. In Program Flow Analysis: Theory and Applications.
+    Prentice-Hall Englewood Cliffs NJ 189--233.'
+- author: Sheeran M.
+  volume: '1954'
+  volume-title: 'FMCAD 00: Proceedings of the Symposium on Formal Methods in Computer-Aided
+    Design. Lecture Notes in Computer Science'
+- doi: 10.1145/2422.322411
+- author: Silva J. P. M.
+  volume-title: 'ICCAD 96: Proceedings of the International Conference on Computer-Aided
+    Design. ACM'
+- doi: 10.1145/350887.350891
+- unstructured: Somenzi F. 1998. Colorado University decision diagram package. http://vlsi.colorado.edu/pub/.  Somenzi
+    F. 1998. Colorado University decision diagram package. http://vlsi.colorado.edu/pub/.
+- doi: 10.5555/646823.706907
+- doi: 10.1145/237721.237727
+- author: Steffen B.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'TACS 91: Proceedings of the Symposium on Theoretical Aspects of Computer
+    Science'
+- author: Stern U.
+  volume-title: 'CAV 98: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science. Springer-Verlag'
+- doi: 10.1109/TSE.1986.6312929
+- article-title: Survey of protocol definition and verification techniques
+  author: Sunshine C.
+  first-page: '346'
+  journal-title: Comput. Netw.
+  volume: '2'
+  year: '1978'
+- doi: 10.1109/TSE.1982.235736
+- unstructured: Suwimonteerabuth D. Esparza J. and Schwoon S. 2008. Symbolic context-bounded
+    analysis of multithreaded Java programs. In SPIN. 270--287. 10.1007/978-3-540-85114-1_19   Suwimonteerabuth
+    D. Esparza J. and Schwoon S. 2008. Symbolic context-bounded analysis of multithreaded
+    Java programs. In SPIN. 270--287. 10.1007/978-3-540-85114-1_19
+- author: Tiwari A.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'CAV 04: Proceedings of the Symposium on Computer-Aided Verification'
+- author: Turing A. M.
+  volume-title: Proceedings of the London Mathematical Soceity. 230--265
+  year: '1936'
+- doi: 10.1007/BF00709154
+- doi: 10.1016/0168-0072(91)90066-U
+- author: Vardi M.
+  series-title: Lecture Notes in Computer Science
+  volume-title: Logics for Concurrency—Structure versus Automata (8th Banff Higher
+    Order Workshop Proceedings)
+- doi: 10.1016/0022-0000(86)90026-7
+- doi: 10.1006/inco.1994.1092
+- author: Velroyen H.
+  volume: '4966'
+  volume-title: 'TAP: Tests and Proofs. Lecture Notes in Computer Science'
+- doi: 10.1023/A:1022920129859
+  unstructured: Visser W. Havelund K. Brat G. Park S. and Lerda F. 2003. Model checking
+    programs. Automat. Softw. Eng. J. 10. 10.1023/A:1022920129859   Visser W. Havelund
+    K. Brat G. Park S. and Lerda F. 2003. Model checking programs. Automat. Softw.
+    Eng. J. 10. 10.1023/A:1022920129859
+- author: Walukiewicz I.
+  series-title: Lecture Notes in Computer Science
+  volume-title: 'CAV 96: Proceedings of the Symposium on Computer-Aided Verification'
+- author: Wang C.
+  volume-title: 'CAV 07: Proceedings of the Symposium on Computer-Aided Verification.
+    Lecture Notes in Computer Science. Springer-Verlag'
+- doi: 10.1145/996841.996859
+- doi: 10.1145/292540.292560
+- doi: 10.1145/1101908.1101951
+- doi: 10.1145/1040305.1040334
+- doi: 10.1145/360204.360206
+- doi: 10.1145/277044.277201
+- doi: 10.1007/978-3-540-70545-1_36
+- author: Yang J.
+  volume-title: 'OSDI 04: Proceedings of the Symposium on Operating System Design
+    and Implementation. Usenix Association.'
+- unstructured: Yang Z. Wang C. Gupta A. and Ivancic F. 2006. Mixed symbolic representations
+    for model checking software programs. In MEMOCODE. 17--26.  Yang Z. Wang C. Gupta
+    A. and Ivancic F. 2006. Mixed symbolic representations for model checking software
+    programs. In MEMOCODE. 17--26.
+- doi: 10.1145/298514.298576
+doi: 10.1145/1592434.1592438
+files:
+- jhala-ranjit-and-majumdar-rupaksoftware-model-checking2009.pdf
+issue: '4'
+journal: ACM Computing Surveys
+language: en
+month: 10
+pages: 1--54
+publisher: Association for Computing Machinery (ACM)
+ref: SoftwareModelJhala2009
+time-added: 2022-05-16-18:11:29
+title: Software model checking
+type: article
+url: http://dx.doi.org/10.1145/1592434.1592438
+volume: '41'
+year: 2009

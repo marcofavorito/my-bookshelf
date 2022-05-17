@@ -1,0 +1,252 @@
+abstract: <jats:p>Alloy is a little language for describing structural properties.
+  It offers a declaration syntax compatible with graphical object models, and a set-based
+  formula syntax powerful enough to express complex constraints and yet amenable to
+  a fully automatic semantic analysis. Its meaning is given by translation to an even
+  smaller (formally defined) kernel. This paper presents the language in its entirety,
+  and explains its motivation, contributions and deficiencies.</jats:p>
+author: Jackson, Daniel
+author_list:
+- affiliation:
+  - name: Massachusetts Institute of Technology, Cambridge, MA
+  family: Jackson
+  given: Daniel
+citations:
+- doi: 10.1145/32204.32205
+- unstructured: ABRIAL J. R. 1974. Data Semantics. In J. W. Klimbie and K. L. Koffeman
+    (eds.) Data Base Management. North Holland.  ABRIAL J. R. 1974. Data Semantics.
+    In J. W. Klimbie and K. L. Koffeman (eds.) Data Base Management. North Holland.
+- author: ARTHAN R.
+  volume-title: CADE-13 Workshop on Mechanization of Partial Functions
+  year: '1996'
+- doi: 10.1109/32.469459
+- unstructured: BICKFORD M. AND GUASPARI D. 1998. Lightweight Analysis of UML. TM-98-0036
+    Odyssey Research Associates Ithaca NY (Nov.).  BICKFORD M. AND GUASPARI D. 1998.
+    Lightweight Analysis of UML. TM-98-0036 Odyssey Research Associates Ithaca NY
+    (Nov.).
+- unstructured: 'BOTTING R. 1992. Maths in Ascii. Poster. Joint Meeting of Southern
+    California Chapter of Mathematical Association of America and Society for Industrial
+    and Applied Mathematics (SIAM Spring). Text available at: http://www.csci.csusb.edu/dick/papers/rjb92b.discrete.  BOTTING
+    R. 1992. Maths in Ascii. Poster. Joint Meeting of Southern California Chapter
+    of Mathematical Association of America and Society for Industrial and Applied
+    Mathematics (SIAM Spring). Text available at: http://www.csci.csusb.edu/dick/papers/rjb92b.discrete.'
+- doi: 10.1007/PL00013316
+- unstructured: 'COLEMAN D. ARNOLD P. BODOFF S. DOLLIN C. GILCHRIST H. HAYES F. AND
+    JEREMAES P. 1994. Object-Oriented Development: The Fusion Method Prentice-Hall
+    Englewood Cliffs NJ.   COLEMAN D. ARNOLD P. BODOFF S. DOLLIN C. GILCHRIST H. HAYES
+    F. AND JEREMAES P. 1994. Object-Oriented Development: The Fusion Method Prentice-Hall
+    Englewood Cliffs NJ.'
+- unstructured: 'COOK S. AND DANIELS J. 1994. Designing Object Systems: Object-Oriented
+    Modelling with Syntropy. Prentice-Hall Englewood Cliffs NJ.   COOK S. AND DANIELS
+    J. 1994. Designing Object Systems: Object-Oriented Modelling with Syntropy. Prentice-Hall
+    Englewood Cliffs NJ.'
+- doi: 10.1145/320434.320440
+- author: CRAIGEN D.
+  volume-title: Industrial-Strength Formal Methods in Practice
+- unstructured: 'D''SOUZA D. F. AND WILLS A. C. 1998. Objects Components and Frameworks
+    With Uml: The Catalysis Approach. Addison-Wesley.   D''SOUZA D. F. AND WILLS A.
+    C. 1998. Objects Components and Frameworks With Uml: The Catalysis Approach. Addison-Wesley.'
+- author: EVANS A. S.
+  volume-title: 2nd Northern Formal Methods Workshop, Ilkley, Electronic Workshops
+    in Computing. Springer-Verlag.
+  year: '1998'
+- author: FOWLER M.
+  volume-title: 'Analysis Patterns: Reusable Object Models'
+  year: '1997'
+- article-title: An Integrated Object-Oriented and Formal Modeling Environment
+  author: FRANCE R. B.
+  first-page: '7'
+  journal-title: J. Obj. Orient. Prog. (JOOP)
+  volume: '10'
+  year: '1997'
+- author: FRANCE R. B.
+  volume-title: Proceedings of the Formal Methods for Open Object-based Distributed
+    Systems (FMOODS '97)
+  year: '1997'
+- author: GIL J.
+  volume-title: 'Constraint Diagrams: A Step Beyond UML. In Proceedings of Tools USA
+    ''99'
+  year: '1999'
+- article-title: 'An introduction to OBJ: A language for writing and testing software
+    specifications. In M. Zelkowitz (ed.)'
+  author: GOGUEN J.
+  first-page: '170'
+  journal-title: Specification of Reliable Software
+  year: '1979'
+- article-title: Avoiding the Undefined by Underspecification. In Jan van Leeuwen
+    (ed.)
+  author: GRIES D.
+  doi: 10.1007/BFb0015254
+  first-page: '366'
+  journal-title: 'Computer Science Today: Recent Trends and Developments'
+  volume: '1000'
+  year: '1995'
+- article-title: Using Z as a Specification Calculus for Object-Oriented Systems.
+    In D. Bjorner, C. A. R. Hoare, and H. Langmaack (eds.)
+  author: HALL A.
+  first-page: '290'
+  journal-title: 'VDM and Z: Formal Methods in Software Development'
+  volume: '428'
+  year: '1990'
+- author: HAMIE A.
+  volume-title: Proceedings of Asia Pacific Conference in Software Engineering, IEEE
+    Press.
+  year: '1998'
+- unstructured: HAMMER E. M. 1995. Logic and Visual Information. Center for the Study
+    of Language and Information Stanford University Stanford CA.   HAMMER E. M. 1995.
+    Logic and Visual Information. Center for the Study of Language and Information
+    Stanford University Stanford CA.
+- doi: 10.1145/319587.319588
+- doi: 10.1145/42411.42414
+- unstructured: HAYES I. 1993. Specification Case Studies. Prentice-Hall Englewood
+    Cliffs NJ.   HAYES I. 1993. Specification Case Studies. Prentice-Hall Englewood
+    Cliffs NJ.
+- article-title: 'Bunch Theory: A Simple Set Theory For Computer Science'
+  author: HEHNER E. C.
+  doi: 10.1016/0020-0190(81)90071-5
+  first-page: '26'
+  journal-title: Information Processing Letters
+  volume: '12'
+  year: '1981'
+- doi: 10.1145/62061.62062
+- author: JACKSON D.
+  volume-title: Proceedings of the First ACM SIGSOFT Workshop on Formal Methods in
+    Software Practice
+  year: '1996'
+- author: JACKSON D.
+  volume-title: Proc. ACM SIGSOFT Conference on Foundations of Software Engineering
+  year: '2000'
+- unstructured: JACKSON D. AND DAMON C. 1995. Semi-executable Specifications. Tech.
+    rep. CMU-CS-95-216 School of Computer Science Carnegie Mellon University Pittsburgh
+    PA. (Nov.).  JACKSON D. AND DAMON C. 1995. Semi-executable Specifications. Tech.
+    rep. CMU-CS-95-216 School of Computer Science Carnegie Mellon University Pittsburgh
+    PA. (Nov.).
+- doi: 10.1145/276393.276396
+- author: JACKSON D.
+  volume-title: Proceedings of ACM SIGSOFT Conf. Foundations of Software Engineering=European
+    Software Engineering Conference (FSE/ESEC '01)
+  year: '2001'
+- author: JACKSON D.
+  volume-title: Proceedings of ACM SIGSOFT Conference Foundations of Software Engineering.
+    San Diego (Nov.). 10
+  year: '2000'
+- author: JACKSON D.
+  volume-title: International Symposium on Software Testing and Analysis (ISSTA '2000)
+  year: '2000'
+- doi: 10.21236/ADA341559
+  unstructured: JACKSON D. NG Y. AND WING J. 1999. A Nitpick Analysis of IPv6. Formal
+    Aspects of Computing.  JACKSON D. NG Y. AND WING J. 1999. A Nitpick Analysis of
+    IPv6. Formal Aspects of Computing.
+- author: JACKSON D.
+  volume-title: Proceedings of the International Conference on Software Engineering,
+    Limerick, Ireland (June). 10
+  year: '2000'
+- unstructured: 'JACKSON M. 1995. Software Requirements and Specifications: A Lexicon
+    of Practice Principles and Prejudices. Addison-Wesley.   JACKSON M. 1995. Software
+    Requirements and Specifications: A Lexicon of Practice Principles and Prejudices.
+    Addison-Wesley.'
+- unstructured: JONES C. 1990. Systematic Software Development Using VDM. Second edition
+    Prentice-Hall.   JONES C. 1990. Systematic Software Development Using VDM. Second
+    edition Prentice-Hall.
+- author: KHURSHID S.
+  volume-title: Proc. Auto. Softw. Eng., Grenoble, France (Sept.).
+  year: '2000'
+- doi: 10.1007/BFb0015041
+  unstructured: 'KOYMANS C. P. J. AND DE LAVALETTE G. R. R. 1989. The logic MPLw.
+    Algebraic Methods: Theory Tools and Applications M. Wirsing and J. A. Bergstra
+    (eds.) LNCS 394 Springer-Verlag 247- 282.   KOYMANS C. P. J. AND DE LAVALETTE
+    G. R. R. 1989. The logic MPLw. Algebraic Methods: Theory Tools and Applications
+    M. Wirsing and J. A. Bergstra (eds.) LNCS 394 Springer-Verlag 247- 282.'
+- unstructured: 'LAMPORT L. 1986. LaTeX: a document preparation system. Addison-Wesley.   LAMPORT
+    L. 1986. LaTeX: a document preparation system. Addison-Wesley.'
+- unstructured: LISKOV B. AND GUTTAG J. 2001. Program Development in Java. Addison-Wesley.  LISKOV
+    B. AND GUTTAG J. 2001. Program Development in Java. Addison-Wesley.
+- article-title: A Logic for Describing, not Verifying, Software
+  author: PARNAS D.
+  first-page: '3'
+  journal-title: Erkenntnis (Kluwer)
+  volume: '43'
+  year: '1995'
+- doi: 10.1145/45072.45073
+- article-title: New Foundations for Mathematical Logic
+  author: QUINE W. V.
+  doi: 10.1080/00029890.1937.11987928
+  first-page: '70'
+  journal-title: American Mathematical Monthly
+  volume: '44'
+  year: '1937'
+- article-title: OCL-Syntax, Semantics and Tools. In Tony Clark and Jos Warmer, editors
+  author: RICHTERS M.
+  first-page: '38'
+  journal-title: Advances in Object Modelling with the OCL
+  year: '2001'
+- unstructured: RUMBAUGH J. BLAHA M. PREMERLANI W. EDDY F. AND LORENSEN W. 1991. Object-Oriented
+    Modeling and Design. Prentice Hall Englewood Cliffs NJ.   RUMBAUGH J. BLAHA M.
+    PREMERLANI W. EDDY F. AND LORENSEN W. 1991. Object-Oriented Modeling and Design.
+    Prentice Hall Englewood Cliffs NJ.
+- unstructured: RUMBAUGH J. JACOBSON I. AND BOOCH G. 1999. The Unified Modeling Language
+    Reference Manual. Addison-Wesley.   RUMBAUGH J. JACOBSON I. AND BOOCH G. 1999.
+    The Unified Modeling Language Reference Manual. Addison-Wesley.
+- author: SAALTINK M.
+  volume-title: Domain Checking Z Specifications. 4th NASA LaRC Formal Methods Workshop
+    (Sept.).
+  year: '1997'
+- author: SCOTT D. S.
+  first-page: '181'
+  volume-title: Allen and Unwin
+  year: '1967'
+- doi: 10.1145/319540.319561
+- author: SOWA J. F.
+  volume-title: 'Conceptual Structures: Information Processing in Mind and Machine'
+  year: '1984'
+- unstructured: 'SPIVEY J. M. 1992. The Z Notation: A Reference Manual. Second edition
+    Prentice-Hall Englewood Cliffs NJ.   SPIVEY J. M. 1992. The Z Notation: A Reference
+    Manual. Second edition Prentice-Hall Englewood Cliffs NJ.'
+- article-title: A Formalization of Set Theory Without Variables
+  author: TARSKI A.
+  first-page: '1987'
+  journal-title: American Mathematical Society Colloquium Publications
+  volume: '41'
+  year: '1987'
+- author: VALENTINE S. H.
+  volume-title: Inconsistency and Undefinedness in Z-A Practical Guide. 11th International
+    Conference of Z Users (ZUM '98)
+  year: '1998'
+- unstructured: VAZIRI M. AND JACKSON D. 1999. Some Shortcomings of OCL the Object
+    Constraint Language of UML. Response to Object Management Group's Request for
+    Information on UML 2.0 (Dec.). Available at http://sdg.lcs.mit.edu/cdnj/publications.  VAZIRI
+    M. AND JACKSON D. 1999. Some Shortcomings of OCL the Object Constraint Language
+    of UML. Response to Object Management Group's Request for Information on UML 2.0
+    (Dec.). Available at http://sdg.lcs.mit.edu/cdnj/publications.
+- unstructured: UML Partners. 1997. UML Semantics. Version 1.1 September. Available
+    at http://www. rational.com.  UML Partners. 1997. UML Semantics. Version 1.1 September.
+    Available at http://www. rational.com.
+- unstructured: 'WARMER J. AND KLEPPE A. 1999. The Object Constraint Language: Precise
+    Modeling with UML. Addison Wesley.   WARMER J. AND KLEPPE A. 1999. The Object
+    Constraint Language: Precise Modeling with UML. Addison Wesley.'
+- article-title: 'ZTC: A Type Checker for Z Notation. User''s Guide'
+  author: JIA X.
+  first-page: '03'
+  journal-title: Version
+  volume: '2'
+  year: '1998'
+- unstructured: ZHANG D. 2000. Design of the Collaborative Arrival Planner using Object
+    Modeling. MEng. Thesis Dept. of Electrical Engineering and Computer Science Massachusetts
+    Institute of Technology Cambridge MA (May).  ZHANG D. 2000. Design of the Collaborative
+    Arrival Planner using Object Modeling. MEng. Thesis Dept. of Electrical Engineering
+    and Computer Science Massachusetts Institute of Technology Cambridge MA (May).
+doi: 10.1145/505145.505149
+files:
+- jackson-danielalloy2002.pdf
+issue: '2'
+journal: ACM Transactions on Software Engineering and Methodology
+language: en
+month: 4
+pages: 256--290
+publisher: Association for Computing Machinery (ACM)
+ref: AlloyJackso2002
+time-added: 2022-05-16-16:05:25
+title: 'Alloy: A Lightweight Object Modelling Notation'
+type: article
+url: http://dx.doi.org/10.1145/505145.505149
+volume: '11'
+year: 2002
