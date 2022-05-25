@@ -1,0 +1,247 @@
+abstract: '<jats:p>Deep reinforcement learning (DRL) has achieved significant results
+  in many machine learning (ML) benchmarks. In this short survey, we provide an overview
+  of DRL applied to trading on financial markets with the purpose of unravelling common
+  structures used in the trading community using DRL, as well as discovering common
+  issues and limitations of such approaches. We include also a short corpus summarization
+  using Google Scholar. Moreover, we discuss how one can use hierarchy for dividing
+  the problem space, as well as using model-based RL to learn a world model of the
+  trading environment which can be used for prediction. In addition, multiple risk
+  measures are defined and discussed, which not only provide a way of quantifying
+  the performance of various algorithms, but they can also act as (dense) reward-shaping
+  mechanisms for the agent. We discuss in detail the various state representations
+  used for financial markets, which we consider critical for the success and efficiency
+  of such DRL agents. The market in focus for this survey is the cryptocurrency market;
+  the results of this survey are two-fold: firstly, to find the most promising directions
+  for further research and secondly, to show how a lack of consistency in the community
+  can significantly impede research and the development of DRL agents for trading.</jats:p>'
+author: Millea, Adrian
+author_list:
+- affiliation: []
+  family: Millea
+  given: Adrian
+citations:
+- doi: 10.1038/nature14236
+- article-title: 'Model-free reinforcement learning for financial portfolios: A brief
+    survey'
+  author: Sato
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.3390/asi4010009
+- author: Fischer
+  series-title: Reinforcement Learning in Financial Markets-a Survey
+  year: '2018'
+- doi: 10.3390/math8101640
+- doi: 10.3390/data4030110
+- article-title: A peer-to-peer electronic cash system
+  author: Nakamoto
+  first-page: '21260'
+  journal-title: Decentralized Bus. Rev.
+  volume: '4'
+  year: '2008'
+- {}
+- doi: 10.1016/j.frl.2018.12.023
+- {}
+- article-title: Neural networks for stock price prediction
+  author: Song
+  journal-title: arXiv
+  year: '2018'
+- {}
+- doi: 10.1016/j.jfds.2018.04.003
+- doi: 10.1016/j.procs.2020.03.326
+- {}
+- {}
+- article-title: 'Model-based reinforcement learning: A survey'
+  author: Moerland
+  journal-title: arXiv
+  year: '2020'
+- {}
+- doi: 10.18178/ijke.2019.5.2.116
+- article-title: Estimating risk and uncertainty in deep reinforcement learning
+  author: Clements
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.1186/s40854-020-00217-x
+- unstructured: 'Attentive Hierarchical Reinforcement Learning for Stock Order Executions
+
+    https://github.com/karush17/Hierarchical-Attention-Reinforcement-Learning'
+- article-title: Model-based deep reinforcement learning for dynamic portfolio optimization
+  author: Yu
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.1007/s00521-020-05359-8
+- article-title: 'Commission Fee is not Enough: A Hierarchical Reinforced Framework
+    for Portfolio Management'
+  author: Wang
+  journal-title: arXiv
+  year: '2020'
+- {}
+- article-title: A deep reinforcement learning framework for the financial portfolio
+    management problem
+  author: Jiang
+  journal-title: arXiv
+  year: '2017'
+- {}
+- {}
+- doi: 10.1016/j.physd.2020.132495
+- article-title: Stock price prediction using convolutional neural networks on a multivariate
+    timeseries
+  author: Mehtab
+  journal-title: arXiv
+  year: '2020'
+- article-title: Deep Reinforcement Learning for Active High Frequency Trading
+  author: Briola
+  journal-title: arXiv
+  year: '2021'
+- doi: 10.1007/s10994-021-06020-8
+- {}
+- article-title: Extending Deep Reinforcement Learning Frameworks in Cryptocurrency
+    Market Making
+  author: Sadighian
+  journal-title: arXiv
+  year: '2020'
+- doi: 10.1016/j.asoc.2015.07.008
+- article-title: Learning Financial Asset-Specific Trading Rules via Deep Reinforcement
+    Learning
+  author: Taghian
+  journal-title: arXiv
+  year: '2020'
+- {}
+- doi: 10.1016/j.eswa.2021.114632
+- {}
+- article-title: Universal portfolios
+  author: Cover
+  first-page: '181'
+  series-title: 'The Kelly Capital Growth Investment Criterion: Theory and Practice'
+  year: '2011'
+- doi: 10.1016/j.artint.2015.01.006
+- article-title: Empirical investigation of state-of-the-art mean reversion strategies
+    for equity markets
+  author: Moon
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.1086/294846
+- doi: 10.1109/CIFER.1997.618952
+- {}
+- doi: 10.2139/ssrn.3690996
+- article-title: An analysis of the maximum drawdown risk measure
+  author: Magdon-Ismail
+  journal-title: Citeseer
+  year: '2015'
+- author: Sutton
+  series-title: 'Reinforcement Learning: An Introduction'
+  volume: Volume 1
+  year: '1998'
+- article-title: 'Deep reinforcement learning: An overview'
+  author: Li
+  journal-title: arXiv
+  year: '2017'
+- {}
+- doi: 10.1109/MSP.2017.2743240
+- article-title: Language understanding for text-based games using deep reinforcement
+    learning
+  author: Narasimhan
+  journal-title: arXiv
+  year: '2015'
+- article-title: Learning to communicate to solve riddles with deep distributed recurrent
+    q-networks
+  author: Foerster
+  journal-title: arXiv
+  year: '2016'
+- author: Heravi
+  series-title: Learning Representations in Reinforcement Learning
+  year: '2019'
+- {}
+- doi: 10.1145/3065386
+- article-title: A deep architecture for semantic parsing
+  author: Grefenstette
+  journal-title: arXiv
+  year: '2014'
+- {}
+- doi: 10.1016/j.neucom.2020.03.011
+- article-title: Deep Reinforcement Learning for Portfolio Optimization using Latent
+    Feature State Space (LFSS) Module
+  author: Yashaswi
+  journal-title: arXiv
+  year: '2021'
+- unstructured: 'Technical Indicators
+
+    https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/list-of-technical-indicators/'
+- doi: 10.1016/j.ins.2020.05.066
+- article-title: Capturing financial markets to apply deep reinforcement learning
+  author: Chakraborty
+  journal-title: arXiv
+  year: '2019'
+- {}
+- doi: 10.3390/app9204460
+- article-title: Deep reinforcement learning agent for S&P 500 stock selection
+  author: Huotari
+  doi: 10.3390/axioms9040130
+  first-page: '130'
+  journal-title: Axioms
+  volume: '9'
+  year: '2020'
+- doi: 10.1016/j.neunet.2021.02.026
+- {}
+- doi: 10.1007/s10489-021-02262-0
+- doi: 10.1016/j.neucom.2020.04.004
+- article-title: 'TradeR: Practical Deep Hierarchical Reinforcement Learning for Trade
+    Execution'
+  author: Suri
+  journal-title: arXiv
+  year: '2021'
+- article-title: Model-based reinforcement learning for predictions and control for
+    limit order books
+  author: Wei
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.1371/journal.pone.0236178
+- doi: 10.1016/j.eswa.2018.09.036
+- doi: 10.1016/j.eswa.2019.112872
+- doi: 10.1016/j.eswa.2020.114553
+- {}
+- article-title: Model-based relative entropy stochastic search
+  author: Abdolmaleki
+  first-page: '3537'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '28'
+  year: '2015'
+- {}
+- doi: 10.1038/nature14540
+- article-title: Autoencoders, minimum description length, and Helmholtz free energy
+  author: Hinton
+  first-page: '3'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '6'
+  year: '1994'
+- article-title: Continuous control with deep reinforcement learning
+  author: Lillicrap
+  journal-title: arXiv
+  year: '2015'
+- article-title: Reinforcement learning with unsupervised auxiliary tasks
+  author: Jaderberg
+  journal-title: arXiv
+  year: '2016'
+- article-title: Meta-gradient reinforcement learning
+  author: Xu
+  journal-title: arXiv
+  year: '2018'
+- doi: 10.1016/j.knosys.2020.106622
+- {}
+- {}
+- {}
+doi: 10.3390/data6110119
+files:
+- millea-adriandeep-reinforcement-learning-for-trading-a-critical-survey2021.pdf
+issue: '11'
+journal: Data
+language: en
+month: 11
+pages: '119'
+publisher: MDPI AG
+ref: DeepReinforcemMillea2021
+time-added: 2022-05-25-09:54:34
+title: Deep Reinforcement Learning for Trading—A Critical Survey
+type: article
+url: http://dx.doi.org/10.3390/data6110119
+volume: '6'
+year: 2021

@@ -1,0 +1,318 @@
+abstract: <jats:p>The popularity of deep reinforcement learning (DRL) applications
+  in economics has increased exponentially. DRL, through a wide range of capabilities
+  from reinforcement learning (RL) to deep learning (DL), offers vast opportunities
+  for handling sophisticated dynamic economics systems. DRL is characterized by scalability
+  with the potential to be applied to high-dimensional problems in conjunction with
+  noisy and nonlinear patterns of economic data. In this paper, we initially consider
+  a brief review of DL, RL, and deep RL methods in diverse applications in economics,
+  providing an in-depth insight into the state-of-the-art. Furthermore, the architecture
+  of DRL applied to economic applications is investigated in order to highlight the
+  complexity, robustness, accuracy, performance, computational tasks, risk constraints,
+  and profitability. The survey results indicate that DRL can provide better performance
+  and higher efficiency as compared to the traditional algorithms while facing real
+  economic problems in the presence of risk parameters and the ever-increasing uncertainties.</jats:p>
+author: Mosavi, Amirhosein and Faghan, Yaser and Ghamisi, Pedram and Duan, Puhong
+  and Ardabili, Sina Faizollahzadeh and Salwana, Ely and Band, Shahab S.
+author_list:
+- affiliation: []
+  family: Mosavi
+  given: Amirhosein
+- affiliation: []
+  family: Faghan
+  given: Yaser
+- affiliation: []
+  family: Ghamisi
+  given: Pedram
+- affiliation: []
+  family: Duan
+  given: Puhong
+- affiliation: []
+  family: Ardabili
+  given: Sina Faizollahzadeh
+- affiliation: []
+  family: Salwana
+  given: Ely
+- affiliation: []
+  family: Band
+  given: Shahab S.
+citations:
+- article-title: Visualizing higher-layer features of a deep network
+  author: Erhan
+  first-page: '1'
+  journal-title: Univ. Montr.
+  volume: '1341'
+  year: '2009'
+- doi: 10.23915/distill.00007
+- {}
+- doi: 10.4236/jilsa.2011.32012
+- article-title: 'Dropout: A simple way to prevent neural networks from overfitting'
+  author: Srivastava
+  first-page: '1929'
+  journal-title: J. Mach. Learn. Res.
+  volume: '15'
+  year: '2014'
+- doi: 10.1038/nature14236
+- {}
+- doi: 10.1109/MSP.2017.2743240
+- doi: 10.1002/(SICI)1099-131X(1998090)17:5/6<441::AID-FOR707>3.0.CO;2-#
+- doi: 10.1109/72.935088
+- doi: 10.1016/j.jedc.2010.01.015
+- article-title: Machine learning for market microstructure and high frequency trading
+  author: Kearns
+  series-title: 'High Frequency Trading: New Realities for Traders, Markets, and Regulators'
+  year: '2013'
+- unstructured: Introduction to Learning to Trade with Reinforcement Learninghttp://www.wildml.com/2018/02/introduction-to-learning-to-tradewith-reinforcement-learning
+- article-title: Robust log-optimal strategy with reinforcement learning
+  author: Guo
+  journal-title: arXiv
+  year: '2018'
+- article-title: A deep reinforcement learning framework for the financial portfolio
+    management problem
+  author: Jiang
+  journal-title: arXiv
+  year: '2017'
+- article-title: Data science in economics
+  author: Nosratabadi
+  journal-title: arXiv
+  year: '2020'
+- doi: 10.1109/JSTARS.2014.2329330
+- doi: 10.1109/JSTARS.2015.2388577
+- {}
+- doi: 10.1109/72.279181
+- doi: 10.1162/neco.1989.1.2.270
+- article-title: Long short-term memory
+  author: Schmidhuber
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  volume: '9'
+  year: '1997'
+- article-title: Empirical evaluation of gated recurrent neural networks on sequence
+    modeling
+  author: Chung
+  journal-title: arXiv
+  year: '2014'
+- author: Wu
+  first-page: '23'
+  series-title: Introduction to Convolutional Neural Networks
+  volume: Volume 5
+  year: '2017'
+- doi: 10.1561/2200000071
+- doi: 10.1007/BF00992698
+- author: Bellman
+  series-title: Applied Dynamic Programming
+  year: '1962'
+- doi: 10.1007/BF00992699
+- article-title: 'Lecture 6.5-rmsprop: Divide the gradient by a running average of
+    its recent magnitude'
+  author: Tieleman
+  first-page: '26'
+  journal-title: COURSERA Neural Netw. Mach. Learn.
+  volume: '4'
+  year: '2012'
+- {}
+- {}
+- {}
+- article-title: An analysis of categorical distributional reinforcement learning
+  author: Rowland
+  journal-title: arXiv
+  year: '2018'
+- {}
+- article-title: Reinforcement learning with unsupervised auxiliary tasks
+  author: Jaderberg
+  journal-title: arXiv
+  year: '2016'
+- {}
+- article-title: Evolution strategies as a scalable alternative to reinforcement learning
+  author: Salimans
+  journal-title: arXiv
+  year: '2017'
+- doi: 10.1007/BF00992696
+- {}
+- doi: 10.1007/s10994-011-5235-x
+- article-title: Continuous control with deep reinforcement learning
+  author: Lillicrap
+  journal-title: arXiv
+  year: '2015'
+- {}
+- article-title: Sample efficient actor-critic with experience replay
+  author: Wang
+  journal-title: arXiv
+  year: '2016'
+- article-title: 'The reactor: A sample-efficient actor-critic architecture'
+  author: Gruslys
+  journal-title: arXiv
+  year: '2017'
+- article-title: Combining policy gradient and Q-learning
+  author: O’Donoghue
+  journal-title: arXiv
+  year: '2016'
+- article-title: Taming the noise in reinforcement learning via soft updates
+  author: Fox
+  journal-title: arXiv
+  year: '2015'
+- {}
+- article-title: Equivalence between policy gradients and soft q-learning
+  author: Schulman
+  journal-title: arXiv
+  year: '2017'
+- {}
+- article-title: Deep multi-scale video prediction beyond mean square error
+  author: Mathieu
+  journal-title: arXiv
+  year: '2015'
+- {}
+- article-title: Learning model-based planning from scratch
+  author: Pascanu
+  journal-title: arXiv
+  year: '2017'
+- {}
+- article-title: 'From pixels to torques: Policy learning with deep dynamical models'
+  author: Wahlström
+  journal-title: arXiv
+  year: '2015'
+- {}
+- {}
+- {}
+- doi: 10.1038/nature16961
+- {}
+- {}
+- doi: 10.1016/j.eswa.2014.07.040
+- doi: 10.1109/ACCESS.2018.2868970
+- doi: 10.1007/s10489-018-1308-x
+- doi: 10.35940/ijrte.B1007.0782S619
+- doi: 10.35940/ijitee.B2453.0881019
+- {}
+- {}
+- doi: 10.1016/j.asoc.2018.07.024
+- article-title: The detection of professional fraud in automobile insurance using
+    social network analysis
+  author: Bodaghi
+  journal-title: arXiv
+  year: '2018'
+- doi: 10.1016/j.dss.2017.11.001
+- {}
+- doi: 10.1287/moor.6.1.58
+- doi: 10.1016/j.jet.2005.08.007
+- doi: 10.2202/1935-1704.1664
+- {}
+- {}
+- {}
+- {}
+- {}
+- article-title: Optimal auctions through deep learning
+  author: Dütting
+  journal-title: arXiv
+  year: '2017'
+- doi: 10.9734/jamcs/2019/v33i530192
+- {}
+- {}
+- doi: 10.14569/IJACSA.2018.090103
+- doi: 10.1111/j.1540-6261.1991.tb02674.x
+- doi: 10.18651/RWP2017-11
+- article-title: Inflation forecasting in Pakistan using artificial neural networks
+  author: Haider
+  first-page: '123'
+  journal-title: Pak. Econ. Soc. Rev.
+  volume: '47'
+  year: '2009'
+- doi: 10.2139/ssrn.3242432
+- doi: 10.3390/risks6020038
+- {}
+- doi: 10.1002/asmb.2209
+- doi: 10.2139/ssrn.2799443
+- doi: 10.5120/ijca2017913283
+- article-title: 'Machine learning in finance: The case of deep learning for option
+    pricing'
+  author: Culkin
+  first-page: '92'
+  journal-title: J. Invest. Manag.
+  volume: '15'
+  year: '2017'
+- doi: 10.3390/a12020035
+- {}
+- doi: 10.1111/j.1540-6261.1994.tb00081.x
+- doi: 10.1007/s10055-018-0338-3
+- doi: 10.1016/j.dss.2018.08.010
+- {}
+- {}
+- doi: 10.1007/s00521-018-3377-5
+- article-title: Deep learning architecture for high-level feature generation using
+    stacked auto encoder for business intelligence
+  author: Singh
+  first-page: '269'
+  series-title: 'Complex Systems: Solutions and Challenges in Economics, Management
+    and Engineering'
+  year: '2018'
+- {}
+- doi: 10.1016/j.dss.2017.04.003
+- doi: 10.1016/S0305-0548(99)00149-5
+- doi: 10.1016/j.dss.2007.12.001
+- doi: 10.1016/j.asoc.2017.02.006
+- article-title: Practical deep reinforcement learning approach for stock trading
+  author: Xiong
+  journal-title: arXiv
+  year: '2018'
+- article-title: 'Optimistic bull or pessimistic bear: Adaptive deep reinforcement
+    learning for stock portfolio allocation'
+  author: Li
+  journal-title: arXiv
+  year: '2019'
+- doi: 10.5220/0007722000520058
+- article-title: Stock Trading Bot Using Deep Reinforcement Learning
+  author: Azhikodan
+  first-page: '41'
+  series-title: Innovations in Computer Science and Engineering
+  year: '2019'
+- article-title: Adversarial deep reinforcement learning in portfolio management
+  author: Liang
+  journal-title: arXiv
+  year: '2018'
+- {}
+- article-title: Model-based Deep Reinforcement Learning for Dynamic Portfolio Optimization
+  author: Yu
+  journal-title: arXiv
+  year: '2019'
+- article-title: Deep reinforcement learning based recommendation with explicit user-item
+    interactions modeling
+  author: Feng
+  journal-title: arXiv
+  year: '2018'
+- {}
+- article-title: Dynamic Pricing on E-commerce Platform with Deep Reinforcement Learning
+  author: Liu
+  journal-title: arXiv
+  year: '2019'
+- {}
+- {}
+- article-title: Human-level performance in first-person multiplayer games with population-based
+    deep reinforcement learning
+  author: Jaderberg
+  journal-title: arXiv
+  year: '2018'
+- article-title: Mean field games and applications
+  author: Guéant
+  first-page: '205'
+  series-title: Paris-Princeton Lectures on Mathematical Finance 2010
+  year: '2011'
+- article-title: An introduction to mean field games using probabilistic methods
+  author: Vasiliadis
+  journal-title: arXiv
+  year: '2019'
+doi: 10.3390/math8101640
+files:
+- mosavi-amirhosein-and-faghan-yaser-and-ghamisi-pedram-and-duan-puhong-and-ardabili-sina-faizollahzadeh-and-salwana-ely-and-band-shahab-s.compre.pdf
+issue: '10'
+journal: Mathematics
+language: en
+month: 9
+pages: '1640'
+publisher: MDPI AG
+ref: ComprehensiveRMosavi2020
+time-added: 2022-05-25-09:54:53
+title: Comprehensive Review of Deep Reinforcement Learning Methods and Applications
+  in Economics
+type: article
+url: http://dx.doi.org/10.3390/math8101640
+volume: '8'
+year: 2020

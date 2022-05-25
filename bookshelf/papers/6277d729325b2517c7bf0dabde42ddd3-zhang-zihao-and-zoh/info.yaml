@@ -1,0 +1,32 @@
+abstract: We adopt Deep Reinforcement Learning algorithms to design trading strategies
+  for continuous futures contracts. Both discrete and continuous action spaces are
+  considered and volatility scaling is incorporated to create reward functions which
+  scale trade positions based on market volatility. We test our algorithms on the
+  50 most liquid futures contracts from 2011 to 2019, and investigate how performance
+  varies across different asset classes including commodities, equity indices, fixed
+  income and FX markets. We compare our algorithms against classical time series momentum
+  strategies, and show that our method outperforms such baseline models, delivering
+  positive profits despite heavy transaction costs. The experiments show that the
+  proposed algorithms can follow large market trends without changing positions and
+  can also scale down, or hold, through consolidation periods.
+archiveprefix: arXiv
+author: Zhang, Zihao and Zohren, Stefan and Roberts, Stephen
+author_list:
+- family: Zhang
+  given: Zihao
+- family: Zohren
+  given: Stefan
+- family: Roberts
+  given: Stephen
+eprint: 1911.10107v1
+file: 1911.10107v1.pdf
+files:
+- zhang-zihao-and-zohren-stefan-and-roberts-stephendeep-reinforcement-learning-for-trading2019.pdf
+month: Nov
+primaryclass: q-fin.CP
+ref: 1911.10107v1
+time-added: 2022-05-22-19:13:05
+title: Deep Reinforcement Learning for Trading
+type: article
+url: http://arxiv.org/abs/1911.10107v1
+year: '2019'

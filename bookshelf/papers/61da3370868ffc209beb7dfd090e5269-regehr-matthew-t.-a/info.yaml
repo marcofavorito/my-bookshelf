@@ -1,0 +1,33 @@
+abstract: Watkins' and Dayan's Q-learning is a model-free reinforcement learning algorithm
+  that iteratively refines an estimate for the optimal action-value function of an
+  MDP by stochastically "visiting" many state-ation pairs [Watkins and Dayan, 1992].
+  Variants of the algorithm lie at the heart of numerous recent state-of-the-art achievements
+  in reinforcement learning, including the superhuman Atari-playing deep Q-network
+  [Mnih et al., 2015]. The goal of this paper is to reproduce a precise and (nearly)
+  self-contained proof that Q-learning converges. Much of the available literature
+  leverages powerful theory to obtain highly generalizable results in this vein. However,
+  this approach requires the reader to be familiar with and make many deep connections
+  to different research areas. A student seeking to deepen their understand of Q-learning
+  risks becoming caught in a vicious cycle of "RL-learning Hell". For this reason,
+  we give a complete proof from start to finish using only one external result from
+  the field of stochastic approximation, despite the fact that this minimal dependence
+  on other results comes at the expense of some "shininess".
+archiveprefix: arXiv
+author: Regehr, Matthew T. and Ayoub, Alex
+author_list:
+- family: Regehr
+  given: Matthew T.
+- family: Ayoub
+  given: Alex
+eprint: 2108.02827v1
+file: 2108.02827v1.pdf
+files:
+- regehr-matthew-t.-and-ayoub-alexan-elementary-proof-that-q-learning-converges-almost-surely2021.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2108.02827v1
+time-added: 2022-05-22-18:43:30
+title: An Elementary Proof that Q-learning Converges Almost Surely
+type: article
+url: http://arxiv.org/abs/2108.02827v1
+year: '2021'

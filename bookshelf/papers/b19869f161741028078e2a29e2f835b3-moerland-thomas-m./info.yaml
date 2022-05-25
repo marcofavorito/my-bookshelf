@@ -1,0 +1,35 @@
+abstract: Sequential decision making, commonly formalized as optimization of a Markov
+  Decision Process, is a key challenge in artificial intelligence. Two successful
+  approaches to MDP optimization are reinforcement learning and planning, which both
+  largely have their own research communities. However, if both research fields solve
+  the same problem, then we might be able to disentangle the common factors in their
+  solution approaches. Therefore, this paper presents a unifying algorithmic framework
+  for reinforcement learning and planning (FRAP), which identifies underlying dimensions
+  on which MDP planning and learning algorithms have to decide. At the end of the
+  paper, we compare a variety of well-known planning, model-free and model-based RL
+  algorithms along these dimensions. Altogether, the framework may help provide deeper
+  insight in the algorithmic design space of planning and reinforcement learning.
+archiveprefix: arXiv
+author: Moerland, Thomas M. and Broekens, Joost and Plaat, Aske and Jonker, Catholijn
+  M.
+author_list:
+- family: Moerland
+  given: Thomas M.
+- family: Broekens
+  given: Joost
+- family: Plaat
+  given: Aske
+- family: Jonker
+  given: Catholijn M.
+eprint: 2006.15009v4
+file: 2006.15009v4.pdf
+files:
+- moerland-thomas-m.-and-broekens-joost-and-plaat-aske-and-jonker-catholijn-m.a-unifying-framework-for-reinforcement-learning-and-planning2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.15009v4
+time-added: 2022-05-22-18:07:37
+title: A Unifying Framework for Reinforcement Learning and Planning
+type: article
+url: http://arxiv.org/abs/2006.15009v4
+year: '2020'

@@ -1,0 +1,42 @@
+abstract: We study the problem of learning exploration-exploitation strategies that
+  effectively adapt to dynamic environments, where the task may change over time.
+  While RNN-based policies could in principle represent such strategies, in practice
+  their training time is prohibitive and the learning process often converges to poor
+  solutions. In this paper, we consider the case where the agent has access to a description
+  of the task (e.g., a task id or task parameters) at training time, but not at test
+  time. We propose a novel algorithm that regularizes the training of an RNN-based
+  policy using informed policies trained to maximize the reward in each task. This
+  dramatically reduces the sample complexity of training RNN-based policies, without
+  losing their representational power. As a result, our method learns exploration
+  strategies that efficiently balance between gathering information about the unknown
+  and changing task and maximizing the reward over time. We test the performance of
+  our algorithm in a variety of environments where tasks may vary within each episode.
+archiveprefix: arXiv
+author: Kamienny, Pierre-Alexandre and Pirotta, Matteo and Lazaric, Alessandro and
+  Lavril, Thibault and Usunier, Nicolas and Denoyer, Ludovic
+author_list:
+- family: Kamienny
+  given: Pierre-Alexandre
+- family: Pirotta
+  given: Matteo
+- family: Lazaric
+  given: Alessandro
+- family: Lavril
+  given: Thibault
+- family: Usunier
+  given: Nicolas
+- family: Denoyer
+  given: Ludovic
+eprint: 2005.02934v1
+file: 2005.02934v1.pdf
+files:
+- kamienny-pierre-alexandre-and-pirotta-matteo-and-lazaric-alessandro-and-lavril-thibault-and-usunier-nicolas-and-denoyer-ludoviclearning-adaptive.pdf
+month: May
+primaryclass: cs.LG
+ref: 2005.02934v1
+time-added: 2022-05-22-17:45:04
+title: Learning Adaptive Exploration Strategies in Dynamic Environments Through   Informed
+  Policy Regularization
+type: article
+url: http://arxiv.org/abs/2005.02934v1
+year: '2020'

@@ -1,0 +1,37 @@
+abstract: 'Reinforcement learning algorithms describe how an agent can learn an optimal
+  action policy in a sequential decision process, through repeated experience. In
+  a given environment, the agent policy provides him some running and terminal rewards.
+  As in online learning, the agent learns sequentially. As in multi-armed bandit problems,
+  when an agent picks an action, he can not infer ex-post the rewards induced by other
+  action choices. In reinforcement learning, his actions have consequences: they influence
+  not only rewards, but also future states of the world. The goal of reinforcement
+  learning is to find an optimal policy -- a mapping from the states of the world
+  to the set of actions, in order to maximize cumulative reward, which is a long term
+  strategy. Exploring might be sub-optimal on a short-term horizon but could lead
+  to optimal long-term ones. Many problems of optimal control, popular in economics
+  for more than forty years, can be expressed in the reinforcement learning framework,
+  and recent advances in computational science, provided in particular by deep learning
+  algorithms, can be used by economists in order to solve complex behavioral problems.
+  In this article, we propose a state-of-the-art of reinforcement learning techniques,
+  and present applications in economics, game theory, operation research and finance.'
+archiveprefix: arXiv
+author: Charpentier, Arthur and Elie, Romuald and Remlinger, Carl
+author_list:
+- family: Charpentier
+  given: Arthur
+- family: Elie
+  given: Romuald
+- family: Remlinger
+  given: Carl
+eprint: 2003.10014v1
+file: 2003.10014v1.pdf
+files:
+- charpentier-arthur-and-elie-romuald-and-remlinger-carlreinforcement-learning-in-economics-and-finance2020.pdf
+month: Mar
+primaryclass: econ.TH
+ref: 2003.10014v1
+time-added: 2022-05-25-09:54:50
+title: Reinforcement Learning in Economics and Finance
+type: article
+url: http://arxiv.org/abs/2003.10014v1
+year: '2020'

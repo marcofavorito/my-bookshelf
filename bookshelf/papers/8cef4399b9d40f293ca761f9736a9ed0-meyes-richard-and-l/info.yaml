@@ -1,0 +1,47 @@
+abstract: Ablation studies have been widely used in the field of neuroscience to tackle
+  complex biological systems such as the extensively studied Drosophila central nervous
+  system, the vertebrate brain and more interestingly and most delicately, the human
+  brain. In the past, these kinds of studies were utilized to uncover structure and
+  organization in the brain, i.e. a mapping of features inherent to external stimuli
+  onto different areas of the neocortex. considering the growth in size and complexity
+  of state-of-the-art artificial neural networks (ANNs) and the corresponding growth
+  in complexity of the tasks that are tackled by these networks, the question arises
+  whether ablation studies may be used to investigate these networks for a similar
+  organization of their inner representations. In this paper, we address this question
+  and performed two ablation studies in two fundamentally different ANNs to investigate
+  their inner representations of two well-known benchmark datasets from the computer
+  vision domain. We found that features distinct to the local and global structure
+  of the data are selectively represented in specific parts of the network. Furthermore,
+  some of these representations are redundant, awarding the network a certain robustness
+  to structural damages. We further determined the importance of specific parts of
+  the network for the classification task solely based on the weight structure of
+  single units. Finally, we examined the ability of damaged networks to recover from
+  the consequences of ablations by means of recovery training. We argue that ablations
+  studies are a feasible method to investigate knowledge representations in ANNs and
+  are especially helpful to examine a networks robustness to structural damages, a
+  feature of ANNs that will become increasingly important for future safety-critical
+  applications.
+archiveprefix: arXiv
+author: Meyes, Richard and Lu, Melanie and de Puiseau, Constantin Waubert and Meisen,
+  Tobias
+author_list:
+- family: Meyes
+  given: Richard
+- family: Lu
+  given: Melanie
+- family: de Puiseau
+  given: Constantin Waubert
+- family: Meisen
+  given: Tobias
+eprint: 1901.08644v2
+file: 1901.08644v2.pdf
+files:
+- meyes-richard-and-lu-melanie-and-de-puiseau-constantin-waubert-and-meisen-tobiasablation-studies-in-artificial-neural-networks2019.pdf
+month: Jan
+primaryclass: cs.NE
+ref: 1901.08644v2
+time-added: 2022-05-22-11:08:03
+title: Ablation Studies in Artificial Neural Networks
+type: article
+url: http://arxiv.org/abs/1901.08644v2
+year: '2019'

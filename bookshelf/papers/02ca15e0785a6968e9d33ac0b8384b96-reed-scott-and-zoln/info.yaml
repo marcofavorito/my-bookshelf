@@ -1,0 +1,67 @@
+abstract: Inspired by progress in large-scale language modeling, we apply a similar
+  approach towards building a single generalist agent beyond the realm of text outputs.
+  The agent, which we refer to as Gato, works as a multi-modal, multi-task, multi-embodiment
+  generalist policy. The same network with the same weights can play Atari, caption
+  images, chat, stack blocks with a real robot arm and much more, deciding based on
+  its context whether to output text, joint torques, button presses, or other tokens.
+  In this report we describe the model and the data, and document the current capabilities
+  of Gato.
+archiveprefix: arXiv
+author: Reed, Scott and Zolna, Konrad and Parisotto, Emilio and Colmenarejo, Sergio
+  Gomez and Novikov, Alexander and Barth-Maron, Gabriel and Gimenez, Mai and Sulsky,
+  Yury and Kay, Jackie and Springenberg, Jost Tobias and Eccles, Tom and Bruce, Jake
+  and Razavi, Ali and Edwards, Ashley and Heess, Nicolas and Chen, Yutian and Hadsell,
+  Raia and Vinyals, Oriol and Bordbar, Mahyar and de Freitas, Nando
+author_list:
+- family: Reed
+  given: Scott
+- family: Zolna
+  given: Konrad
+- family: Parisotto
+  given: Emilio
+- family: Colmenarejo
+  given: Sergio Gomez
+- family: Novikov
+  given: Alexander
+- family: Barth-Maron
+  given: Gabriel
+- family: Gimenez
+  given: Mai
+- family: Sulsky
+  given: Yury
+- family: Kay
+  given: Jackie
+- family: Springenberg
+  given: Jost Tobias
+- family: Eccles
+  given: Tom
+- family: Bruce
+  given: Jake
+- family: Razavi
+  given: Ali
+- family: Edwards
+  given: Ashley
+- family: Heess
+  given: Nicolas
+- family: Chen
+  given: Yutian
+- family: Hadsell
+  given: Raia
+- family: Vinyals
+  given: Oriol
+- family: Bordbar
+  given: Mahyar
+- family: de Freitas
+  given: Nando
+eprint: 2205.06175v2
+file: 2205.06175v2.pdf
+files:
+- reed-scott-and-zolna-konrad-and-parisotto-emilio-and-colmenarejo-sergio-gomez-and-novikov-alexander-and-barth-maron-gabriel-and-gimenez-mai-and.pdf
+month: May
+primaryclass: cs.AI
+ref: 2205.06175v2
+time-added: 2022-05-22-15:01:10
+title: A Generalist Agent
+type: article
+url: http://arxiv.org/abs/2205.06175v2
+year: '2022'

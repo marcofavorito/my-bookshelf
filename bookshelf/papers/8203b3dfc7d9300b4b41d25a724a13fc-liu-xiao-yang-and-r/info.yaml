@@ -1,0 +1,47 @@
+abstract: Deep reinforcement learning (DRL) has shown huge potentials in building
+  financial market simulators recently. However, due to the highly complex and dynamic
+  nature of real-world markets, raw historical financial data often involve large
+  noise and may not reflect the future of markets, degrading the fidelity of DRL-based
+  market simulators. Moreover, the accuracy of DRL-based market simulators heavily
+  relies on numerous and diverse DRL agents, which increases demand for a universe
+  of market environments and imposes a challenge on simulation speed. In this paper,
+  we present a FinRL-Meta framework that builds a universe of market environments
+  for data-driven financial reinforcement learning. First, FinRL-Meta separates financial
+  data processing from the design pipeline of DRL-based strategy and provides open-source
+  data engineering tools for financial big data. Second, FinRL-Meta provides hundreds
+  of market environments for various trading tasks. Third, FinRL-Meta enables multiprocessing
+  simulation and training by exploiting thousands of GPU cores. Our codes are available
+  online at https://github.com/AI4Finance-Foundation/FinRL-Meta.
+archiveprefix: arXiv
+author: Liu, Xiao-Yang and Rui, Jingyang and Gao, Jiechao and Yang, Liuqing and Yang,
+  Hongyang and Wang, Zhaoran and Wang, Christina Dan and Guo, Jian
+author_list:
+- family: Liu
+  given: Xiao-Yang
+- family: Rui
+  given: Jingyang
+- family: Gao
+  given: Jiechao
+- family: Yang
+  given: Liuqing
+- family: Yang
+  given: Hongyang
+- family: Wang
+  given: Zhaoran
+- family: Wang
+  given: Christina Dan
+- family: Guo
+  given: Jian
+eprint: 2112.06753v2
+file: 2112.06753v2.pdf
+files:
+- liu-xiao-yang-and-rui-jingyang-and-gao-jiechao-and-yang-liuqing-and-yang-hongyang-and-wang-zhaoran-and-wang-christina-dan-and-guo-jianfinrl-me.pdf
+month: Dec
+primaryclass: q-fin.TR
+ref: 2112.06753v2
+time-added: 2022-05-25-09:52:52
+title: 'FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven   Deep
+  Reinforcement Learning in Quantitative Finance'
+type: article
+url: http://arxiv.org/abs/2112.06753v2
+year: '2021'

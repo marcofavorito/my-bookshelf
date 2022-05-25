@@ -1,0 +1,38 @@
+abstract: Financial portfolio management is the process of constant redistribution
+  of a fund into different financial products. This paper presents a financial-model-free
+  Reinforcement Learning framework to provide a deep machine learning solution to
+  the portfolio management problem. The framework consists of the Ensemble of Identical
+  Independent Evaluators (EIIE) topology, a Portfolio-Vector Memory (PVM), an Online
+  Stochastic Batch Learning (OSBL) scheme, and a fully exploiting and explicit reward
+  function. This framework is realized in three instants in this work with a Convolutional
+  Neural Network (CNN), a basic Recurrent Neural Network (RNN), and a Long Short-Term
+  Memory (LSTM). They are, along with a number of recently reviewed or published portfolio-selection
+  strategies, examined in three back-test experiments with a trading period of 30
+  minutes in a cryptocurrency market. Cryptocurrencies are electronic and decentralized
+  alternatives to government-issued money, with Bitcoin as the best-known example
+  of a cryptocurrency. All three instances of the framework monopolize the top three
+  positions in all experiments, outdistancing other compared trading algorithms. Although
+  with a high commission rate of 0.25% in the backtests, the framework is able to
+  achieve at least 4-fold returns in 50 days.
+archiveprefix: arXiv
+author: Jiang, Zhengyao and Xu, Dixing and Liang, Jinjun
+author_list:
+- family: Jiang
+  given: Zhengyao
+- family: Xu
+  given: Dixing
+- family: Liang
+  given: Jinjun
+eprint: 1706.10059v2
+file: 1706.10059v2.pdf
+files:
+- jiang-zhengyao-and-xu-dixing-and-liang-jinjuna-deep-reinforcement-learning-framework-for-the-financial-portfolio-management-problem2017.pdf
+month: Jun
+primaryclass: q-fin.CP
+ref: 1706.10059v2
+time-added: 2022-05-22-19:12:57
+title: A Deep Reinforcement Learning Framework for the Financial Portfolio   Management
+  Problem
+type: article
+url: http://arxiv.org/abs/1706.10059v2
+year: '2017'
