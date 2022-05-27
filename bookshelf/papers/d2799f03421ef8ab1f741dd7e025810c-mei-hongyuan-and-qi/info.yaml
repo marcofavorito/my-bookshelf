@@ -1,0 +1,35 @@
+abstract: Learning how to predict future events from patterns of past events is difficult
+  when the set of possible event types is large. Training an unrestricted neural model
+  might overfit to spurious patterns. To exploit domain-specific knowledge of how
+  past events might affect an event's present probability, we propose using a temporal
+  deductive database to track structured facts over time. Rules serve to prove facts
+  from other facts and from past events. Each fact has a time-varying state---a vector
+  computed by a neural net whose topology is determined by the fact's provenance,
+  including its experience of past events. The possible event types at any time are
+  given by special facts, whose probabilities are neurally modeled alongside their
+  states. In both synthetic and real-world domains, we show that neural probabilistic
+  models derived from concise Datalog programs improve prediction by encoding appropriate
+  domain knowledge in their architecture.
+archiveprefix: arXiv
+author: Mei, Hongyuan and Qin, Guanghui and Xu, Minjie and Eisner, Jason
+author_list:
+- family: Mei
+  given: Hongyuan
+- family: Qin
+  given: Guanghui
+- family: Xu
+  given: Minjie
+- family: Eisner
+  given: Jason
+eprint: 2006.16723v2
+file: 2006.16723v2.pdf
+files:
+- mei-hongyuan-and-qin-guanghui-and-xu-minjie-and-eisner-jasonneural-datalog-through-time-informed-temporal-modeling-via-logical-specification202.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.16723v2
+time-added: 2022-05-25-17:36:08
+title: 'Neural Datalog Through Time: Informed Temporal Modeling via Logical   Specification'
+type: article
+url: http://arxiv.org/abs/2006.16723v2
+year: '2020'

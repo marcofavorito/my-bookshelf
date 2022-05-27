@@ -1,0 +1,148 @@
+abstract: <jats:p> In the last decade, decision diagrams (DDs) have been the basis
+  for a large array of novel approaches for modeling and solving optimization problems.
+  Many techniques now use DDs as a key tool to achieve state-of-the-art performance
+  within other optimization paradigms, such as integer programming and constraint
+  programming. This paper provides a survey of the use of DDs in discrete optimization,
+  particularly focusing on recent developments. We classify these works into two groups
+  based on the type of diagram (i.e., exact or approximate) and present a thorough
+  description of their use. We discuss the main advantages of DDs, point out major
+  challenges, and provide directions for future work. </jats:p>
+author: Castro, Margarita P. and Cire, Andre A. and Beck, J. Christopher
+author_list:
+- affiliation:
+  - name: Department of Industrial and Systems Engineering, Pontificia Universidad
+      Católica de Chile, Santiago 7820436, Chile;
+  family: Castro
+  given: Margarita P.
+- affiliation:
+  - name: Department of Management, University of Toronto Scarborough and Rotman School
+      of Management, Toronto, Ontario M1E 1A4, Canada;
+  family: Cire
+  given: Andre A.
+- affiliation:
+  - name: Department of Mechanical and Industrial Engineering, University of Toronto,
+      Toronto, Ontario M5S 3G8, Canada
+  family: Beck
+  given: J. Christopher
+citations:
+- doi: 10.1109/TC.1978.1675141
+- doi: 10.1287/opre.1110.0975
+- doi: 10.1287/ijoc.1110.0456
+- doi: 10.1287/opre.46.3.316
+- doi: 10.1007/s10878-007-9123-z
+- doi: 10.1007/BF01386316
+- doi: 10.1007/s10601-016-9239-9
+- doi: 10.1287/mnsc.2017.2849
+- doi: 10.1287/ijoc.2019.0938
+- doi: 10.1613/jair.4199
+- doi: 10.1007/s10601-015-9193-y
+- doi: 10.1287/ijoc.2021.1066
+- doi: 10.1287/ijoc.2013.0561
+- doi: 10.1007/978-3-319-42849-9
+- doi: 10.1287/ijoc.2015.0648
+- doi: 10.1007/s10732-014-9238-1
+- author: Bertsekas DP
+  edition: '3'
+  volume: '1'
+  volume-title: Dynamic Programming and Optimal Control
+  year: '2017'
+- doi: 10.1109/12.537122
+- doi: 10.1109/TC.1986.1676819
+- doi: 10.1145/136035.136043
+- author: Cappart Q
+  first-page: '1443'
+  journal-title: Proc. Conf. AAAI Artificial Intelligence (AAAI Press, Palo Alto,
+    CA)
+  volume: '33'
+  year: '2019'
+- author: Castro MP
+  first-page: '263'
+  issue: '2'
+  journal-title: INFORMS J. Comput.
+  volume: '32'
+  year: '2020'
+- author: Castro MP
+  journal-title: Math. Programming
+  year: '2022'
+- doi: 10.1613/jair.1.11659
+- doi: 10.1007/s10601-009-9087-y
+- doi: 10.1002/net.3230110207
+- doi: 10.1287/opre.2013.1221
+- doi: 10.1111/poms.12978
+- author: Conforti M
+  edition: '1'
+  volume-title: Integer Programming
+  year: '2014'
+- doi: 10.1007/s10107-006-0086-0
+- doi: 10.1016/j.orl.2021.01.011
+- doi: 10.1007/s10107-020-01475-4
+- doi: 10.1016/j.ejor.2021.04.024
+- doi: 10.1007/s10601-018-9297-2
+- doi: 10.1016/j.ejor.2020.09.042
+- doi: 10.1007/BF01386390
+- doi: 10.1287/mnsc.1040.0263
+- doi: 10.1007/s10601-011-9111-x
+- doi: 10.1007/s10601-019-09306-w
+- author: González JE
+  journal-title: Discrete Optim.
+  year: '2022'
+- author: Guo C
+  first-page: '1551'
+  issue: '4'
+  journal-title: INFORMS J. Comput.
+  volume: '33'
+  year: '2021'
+- doi: 10.1007/s10472-016-9496-8
+- author: Horn M
+  first-page: '344'
+  journal-title: Computer Aided Systems Theory (Springer, Berlin, Heidelberg)
+  year: '2019'
+- doi: 10.1016/j.cor.2020.105125
+- author: Hosseininasab A
+  first-page: '721'
+  issue: '2'
+  journal-title: INFORMS J. Comput.
+  volume: '33'
+  year: '2021'
+- doi: 10.1016/j.ejor.2016.11.035
+- doi: 10.1287/ijoc.2018.0809
+- doi: 10.1007/s10107-018-1315-z
+- doi: 10.1287/opre.2020.1979
+- doi: 10.1080/24725854.2020.1828668
+- doi: 10.1287/opre.35.6.820
+- doi: 10.1287/ijoc.2021.1120
+- doi: 10.1287/ijoc.2015.0667
+- doi: 10.1287/opre.2019.1953
+- doi: 10.1016/j.orl.2019.03.008
+- author: Rossi F
+  edition: '1'
+  volume-title: Handbook of Constraint Programming
+  year: '2006'
+- author: Salemi H
+  volume-title: On the Structure of Decision Diagram-Representable Mixed Integer Programs
+    with Application to Unit Commitment
+  year: '2021'
+- doi: 10.1142/S0218213094000108
+- doi: 10.1007/s10107-019-01390-3
+- doi: 10.1587/transfun.E101.A.1375
+- doi: 10.1287/ijoc.2018.0830
+- doi: 10.1007/s12532-020-00191-6
+- doi: 10.1016/j.orl.2018.11.003
+- doi: 10.1007/s10107-021-01662-x
+- doi: 10.1007/s10601-018-9286-5
+- doi: 10.1137/1.9780898719789
+- author: Wolsey LA
+  edition: '1'
+  volume-title: Integer and Combinatorial Optimization
+  year: '1999'
+doi: 10.1287/ijoc.2022.1170
+journal: INFORMS Journal on Computing
+language: en
+month: 3
+publisher: Institute for Operations Research and the Management Sciences (INFORMS)
+ref: DecisionDiagraCastro2022
+time-added: 2022-05-27-08:47:44
+title: 'Decision Diagrams for Discrete Optimization: A Survey of Recent Advances'
+type: article
+url: http://dx.doi.org/10.1287/ijoc.2022.1170
+year: 2022

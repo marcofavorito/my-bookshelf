@@ -1,0 +1,34 @@
+abstract: We survey the average-case complexity of problems in NP.   We discuss various
+  notions of good-on-average algorithms, and present completeness results due to Impagliazzo
+  and Levin. Such completeness results establish the fact that if a certain specific
+  (but somewhat artificial) NP problem is easy-on-average with respect to the uniform
+  distribution, then all problems in NP are easy-on-average with respect to all samplable
+  distributions. Applying the theory to natural distributional problems remain an
+  outstanding open question. We review some natural distributional problems whose
+  average-case complexity is of particular interest and that do not yet fit into this
+  theory.   A major open question whether the existence of hard-on-average problems
+  in NP can be based on the P$\neq$NP assumption or on related worst-case assumptions.
+  We review negative results showing that certain proof techniques cannot prove such
+  a result. While the relation between worst-case and average-case complexity for
+  general NP problems remains open, there has been progress in understanding the relation
+  between different "degrees" of average-case complexity. We discuss some of these
+  "hardness amplification" results.
+archiveprefix: arXiv
+author: Bogdanov, Andrej and Trevisan, Luca
+author_list:
+- family: Bogdanov
+  given: Andrej
+- family: Trevisan
+  given: Luca
+eprint: cs/0606037v3
+file: cs/0606037v3.pdf
+files:
+- bogdanov-andrej-and-trevisan-lucaaverage-case-complexity2006.pdf
+month: Jun
+primaryclass: cs.CC
+ref: cs/0606037v3
+time-added: 2022-05-26-19:30:34
+title: Average-Case Complexity
+type: article
+url: http://arxiv.org/abs/cs/0606037v3
+year: '2006'
