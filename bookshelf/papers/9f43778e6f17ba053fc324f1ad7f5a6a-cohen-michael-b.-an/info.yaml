@@ -1,0 +1,32 @@
+abstract: 'This paper shows how to solve linear programs of the form $\min_{Ax=b,x\geq0}
+  c^\top x$ with $n$ variables in time $$O^*((n^{\omega}+n^{2.5-\alpha/2}+n^{2+1/6})
+  \log(n/\delta))$$ where $\omega$ is the exponent of matrix multiplication, $\alpha$
+  is the dual exponent of matrix multiplication, and $\delta$ is the relative accuracy.
+  For the current value of $\omega\sim2.37$ and $\alpha\sim0.31$, our algorithm takes
+  $O^*(n^{\omega} \log(n/\delta))$ time. When $\omega = 2$, our algorithm takes $O^*(n^{2+1/6}
+  \log(n/\delta))$ time.   Our algorithm utilizes several new concepts that we believe
+  may be of independent interest:   $\bullet$ We define a stochastic central path
+  method.   $\bullet$ We show how to maintain a projection matrix $\sqrt{W}A^{\top}(AWA^{\top})^{-1}A\sqrt{W}$
+  in sub-quadratic time under $\ell_{2}$ multiplicative changes in the diagonal matrix
+  $W$.'
+archiveprefix: arXiv
+author: Cohen, Michael B. and Lee, Yin Tat and Song, Zhao
+author_list:
+- family: Cohen
+  given: Michael B.
+- family: Lee
+  given: Yin Tat
+- family: Song
+  given: Zhao
+eprint: 1810.07896v3
+file: 1810.07896v3.pdf
+files:
+- cohen-michael-b.-and-lee-yin-tat-and-song-zhaosolving-linear-programs-in-the-current-matrix-multiplication-time2018.pdf
+month: Oct
+primaryclass: cs.DS
+ref: 1810.07896v3
+time-added: 2022-05-29-14:11:38
+title: Solving Linear Programs in the Current Matrix Multiplication Time
+type: article
+url: http://arxiv.org/abs/1810.07896v3
+year: '2018'

@@ -1,0 +1,43 @@
+abstract: 'Register automata are finite automata equipped with a finite set of registers
+  in which they can store data, i.e. elements from an unbounded or infinite alphabet.
+  They provide a simple formalism to specify the behaviour of reactive systems operating
+  over data {\omega}-words. We study the synthesis problem for specifications given
+  as register automata over a linearly ordered data domain (e.g. (N, {\leq}) or (Q,
+  {\leq})), which allow for comparison of data with regards to the linear order. To
+  that end, we extend the classical Church synthesis game to infinite alphabets: two
+  players, Adam and Eve, alternately play some data, and Eve wins whenever their interaction
+  complies with the specification, which is a language of {\omega}-words over ordered
+  data. Such games are however undecidable, even when the specification is recognised
+  by a deterministic register automaton. This is in contrast with the equality case,
+  where the problem is only undecidable for nondeterministic and universal specifications.
+  Thus, we study one-sided Church games, where Eve instead operates over a finite
+  alphabet, while Adam still manipulates data. We show they are determined, and deciding
+  the existence of a winning strategy is in ExpTime, both for Q and N. This follows
+  from a study of constraint sequences, which abstract the behaviour of register automata,
+  and allow us to reduce Church games to {\omega}-regular games. Lastly, we apply
+  these results to the transducer synthesis problem for input-driven register automata,
+  where each output data is restricted to be the content of some register, and show
+  that if there exists an implementation, then there exists one which is a register
+  transducer.'
+archiveprefix: arXiv
+author: Exibard, Léo and Filiot, Emmanuel and Khalimov, Ayrat
+author_list:
+- family: Exibard
+  given: Léo
+- family: Filiot
+  given: Emmanuel
+- family: Khalimov
+  given: Ayrat
+doi: 10.4230/LIPIcs.STACS.2021.54
+eprint: 2004.12141v5
+file: 2004.12141v5.pdf
+files:
+- exibard-leo-and-filiot-emmanuel-and-khalimov-ayratchurch-synthesis-on-register-automata-over-linearly-ordered-data-domains2020.pdf
+month: Apr
+primaryclass: cs.FL
+ref: 2004.12141v5
+time-added: 2022-05-28-19:18:17
+title: Church Synthesis on Register Automata over Linearly Ordered Data Domains
+type: article
+url: http://arxiv.org/abs/2004.12141v5
+year: '2020'

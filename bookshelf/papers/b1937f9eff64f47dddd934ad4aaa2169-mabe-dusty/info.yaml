@@ -1,0 +1,18 @@
+abstract: getopt is extremely useful for quickly being able to add options and arguments
+  to your program without having to worry much about the parsing yourself. There are
+  getopt libraries for many languages but what about BASH? It turns out there are
+  actually two versions of getopt that you can use in your BASH scripts; a command
+  line utility getopt provided by the util-linux package, and a bash builtin getopts.
+  I have provided a brief overview of each in the following sections.
+author: Mabe, Dusty
+author_list:
+- family: Mabe
+  given: Dusty
+journal: A Random Walk Down Tech Street
+language: en
+ref: mabe_easy_nodate
+time-added: 2022-06-01-21:56:59
+title: Easy getopt for a {BASH} script
+type: misc
+url: https://dustymabe.com/2013/05/17/easy-getopt-for-a-bash-script/
+urldate: '2022-06-01'

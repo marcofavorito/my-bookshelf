@@ -1,0 +1,38 @@
+abstract: Reward machines (RMs) are a recent formalism for representing the reward
+  function of a reinforcement learning task through a finite-state machine whose edges
+  encode landmarks of the task using high-level events. The structure of RMs enables
+  the decomposition of a task into simpler and independently solvable subtasks that
+  help tackle long-horizon and/or sparse reward tasks. We propose a formalism for
+  further abstracting the subtask structure by endowing an RM with the ability to
+  call other RMs, thus composing a hierarchy of RMs (HRM). We exploit HRMs by treating
+  each call to an RM as an independently solvable subtask using the options framework,
+  and describe a curriculum-based method to induce HRMs from example traces observed
+  by the agent. Our experiments reveal that exploiting a handcrafted HRM leads to
+  faster convergence than with a flat HRM, and that learning an HRM is more scalable
+  than learning an equivalent flat HRM.
+archiveprefix: arXiv
+author: Furelos-Blanco, Daniel and Law, Mark and Jonsson, Anders and Broda, Krysia
+  and Russo, Alessandra
+author_list:
+- family: Furelos-Blanco
+  given: Daniel
+- family: Law
+  given: Mark
+- family: Jonsson
+  given: Anders
+- family: Broda
+  given: Krysia
+- family: Russo
+  given: Alessandra
+eprint: 2205.15752v1
+file: 2205.15752v1.pdf
+files:
+- furelos-blanco-daniel-and-law-mark-and-jonsson-anders-and-broda-krysia-and-russo-alessandrahierarchies-of-reward-machines2022.pdf
+month: May
+primaryclass: cs.LG
+ref: 2205.15752v1
+time-added: 2022-06-01-16:31:06
+title: Hierarchies of Reward Machines
+type: article
+url: http://arxiv.org/abs/2205.15752v1
+year: '2022'

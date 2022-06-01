@@ -1,0 +1,40 @@
+abstract: Neuro-symbolic artificial intelligence is a novel area of AI research which
+  seeks to combine traditional rules-based AI approaches with modern deep learning
+  techniques. Neuro-symbolic models have already demonstrated the capability to outperform
+  state-of-the-art deep learning models in domains such as image and video reasoning.
+  They have also been shown to obtain high accuracy with significantly less training
+  data than traditional models. Due to the recency of the field's emergence and relative
+  sparsity of published results, the performance characteristics of these models are
+  not well understood. In this paper, we describe and analyze the performance characteristics
+  of three recent neuro-symbolic models. We find that symbolic models have less potential
+  parallelism than traditional neural models due to complex control flow and low-operational-intensity
+  operations, such as scalar multiplication and tensor addition. However, the neural
+  aspect of computation dominates the symbolic part in cases where they are clearly
+  separable. We also find that data movement poses a potential bottleneck, as it does
+  in many ML workloads.
+archiveprefix: arXiv
+author: Susskind, Zachary and Arden, Bryce and John, Lizy K. and Stockton, Patrick
+  and John, Eugene B.
+author_list:
+- family: Susskind
+  given: Zachary
+- family: Arden
+  given: Bryce
+- family: John
+  given: Lizy K.
+- family: Stockton
+  given: Patrick
+- family: John
+  given: Eugene B.
+eprint: 2109.06133v1
+file: 2109.06133v1.pdf
+files:
+- susskind-zachary-and-arden-bryce-and-john-lizy-k.-and-stockton-patrick-and-john-eugene-b.neuro-symbolic-ai-an-emerging-class-of-ai-workloads-and.pdf
+month: Sep
+primaryclass: cs.AI
+ref: 2109.06133v1
+time-added: 2022-05-29-12:44:07
+title: 'Neuro-Symbolic AI: An Emerging Class of AI Workloads and their   Characterization'
+type: article
+url: http://arxiv.org/abs/2109.06133v1
+year: '2021'

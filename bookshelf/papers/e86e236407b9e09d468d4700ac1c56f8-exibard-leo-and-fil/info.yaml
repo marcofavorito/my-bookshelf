@@ -1,0 +1,40 @@
+abstract: 'We study synthesis of reactive systems interacting with environments using
+  an infinite data domain. A popular formalism for specifying and modelling such systems
+  is register automata and transducers. They extend finite-state automata by adding
+  registers to store data values and to compare the incoming data values against stored
+  ones. Synthesis from nondeterministic or universal register automata is undecidable
+  in general. However, its register-bounded variant, where additionally a bound on
+  the number of registers in a sought transducer is given, is known to be decidable
+  for universal register automata which can compare data for equality, i.e., for data
+  domain (N,=). This paper extends the decidability border to the domain (N,<) of
+  natural numbers with linear order. Our solution is generic: we define a sufficient
+  condition on data domains (regular approximability) for decidability of register-bounded
+  synthesis. The condition is satisfied by natural data domains like (N,<). It allows
+  one to use simple language-theoretic arguments and avoid technical game-theoretic
+  reasoning. Further, by defining a generic notion of reducibility between data domains,
+  we show the decidability of synthesis in the domain (N^d,<^d) of tuples of numbers
+  equipped with the component-wise partial order and in the domain (\Sigma^*,\prec)
+  of finite strings with the prefix relation.'
+archiveprefix: arXiv
+author: Exibard, Léo and Filiot, Emmanuel and Khalimov, Ayrat
+author_list:
+- family: Exibard
+  given: Léo
+- family: Filiot
+  given: Emmanuel
+- family: Khalimov
+  given: Ayrat
+doi: 10.4230/LIPIcs.ICALP.2022.116
+eprint: 2105.09978v4
+file: 2105.09978v4.pdf
+files:
+- exibard-leo-and-filiot-emmanuel-and-khalimov-ayrata-generic-solution-to-register-bounded-synthesis-with-an-application-to-discrete-orders2021.pdf
+month: May
+primaryclass: cs.FL
+ref: 2105.09978v4
+time-added: 2022-05-28-19:19:57
+title: A Generic Solution to Register-bounded Synthesis with an Application to   Discrete
+  Orders
+type: article
+url: http://arxiv.org/abs/2105.09978v4
+year: '2021'

@@ -1,0 +1,38 @@
+abstract: Reinforcement learning (RL) methods learn optimal decisions in the presence
+  of a stationary environment. However, the stationary assumption on the environment
+  is very restrictive. In many real world problems like traffic signal control, robotic
+  applications, one often encounters situations with non-stationary environments and
+  in these scenarios, RL methods yield sub-optimal decisions. In this paper, we thus
+  consider the problem of developing RL methods that obtain optimal decisions in a
+  non-stationary environment. The goal of this problem is to maximize the long-term
+  discounted reward achieved when the underlying model of the environment changes
+  over time. To achieve this, we first adapt a change point algorithm to detect change
+  in the statistics of the environment and then develop an RL algorithm that maximizes
+  the long-run reward accrued. We illustrate that our change point method detects
+  change in the model of the environment effectively and thus facilitates the RL algorithm
+  in maximizing the long-run reward. We further validate the effectiveness of the
+  proposed solution on non-stationary random Markov decision processes, a sensor energy
+  management problem and a traffic signal control problem.
+archiveprefix: arXiv
+author: Padakandla, Sindhu and J, Prabuchandran K. and Bhatnagar, Shalabh
+author_list:
+- family: Padakandla
+  given: Sindhu
+- family: J
+  given: Prabuchandran K.
+- family: Bhatnagar
+  given: Shalabh
+doi: 10.1007/s10489-020-01758-5
+eprint: 1905.03970v4
+file: 1905.03970v4.pdf
+files:
+- padakandla-sindhu-and-j-prabuchandran-k.-and-bhatnagar-shalabhreinforcement-learning-in-non-stationary-environments2019.pdf
+month: May
+note: Applied Intelligence 2020
+primaryclass: cs.LG
+ref: 1905.03970v4
+time-added: 2022-05-27-23:12:28
+title: Reinforcement Learning in Non-Stationary Environments
+type: article
+url: http://arxiv.org/abs/1905.03970v4
+year: '2019'

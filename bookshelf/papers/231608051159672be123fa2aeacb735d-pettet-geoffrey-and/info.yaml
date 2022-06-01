@@ -1,0 +1,44 @@
+abstract: Decision-making under uncertainty (DMU) is present in many important problems.
+  An open challenge is DMU in non-stationary environments, where the dynamics of the
+  environment can change over time. Reinforcement Learning (RL), a popular approach
+  for DMU problems, learns a policy by interacting with a model of the environment
+  offline. Unfortunately, if the environment changes the policy can become stale and
+  take sub-optimal actions, and relearning the policy for the updated environment
+  takes time and computational effort. An alternative is online planning approaches
+  such as Monte Carlo Tree Search (MCTS), which perform their computation at decision
+  time. Given the current environment, MCTS plans using high-fidelity models to determine
+  promising action trajectories. These models can be updated as soon as environmental
+  changes are detected to immediately incorporate them into decision making. However,
+  MCTS's convergence can be slow for domains with large state-action spaces. In this
+  paper, we present a novel hybrid decision-making approach that combines the strengths
+  of RL and planning while mitigating their weaknesses. Our approach, called Policy
+  Augmented MCTS (PA-MCTS), integrates a policy's actin-value estimates into MCTS,
+  using the estimates to seed the action trajectories favored by the search. We hypothesize
+  that PA-MCTS will converge more quickly than standard MCTS while making better decisions
+  than the policy can make on its own when faced with nonstationary environments.
+  We test our hypothesis by comparing PA-MCTS with pure MCTS and an RL agent applied
+  to the classical CartPole environment. We find that PC-MCTS can achieve higher cumulative
+  rewards than the policy in isolation under several environmental shifts while converging
+  in significantly fewer iterations than pure MCTS.
+archiveprefix: arXiv
+author: Pettet, Geoffrey and Mukhopadhyay, Ayan and Dubey, Abhishek
+author_list:
+- family: Pettet
+  given: Geoffrey
+- family: Mukhopadhyay
+  given: Ayan
+- family: Dubey
+  given: Abhishek
+eprint: 2202.13003v1
+file: 2202.13003v1.pdf
+files:
+- pettet-geoffrey-and-mukhopadhyay-ayan-and-dubey-abhishekdecision-making-in-non-stationary-environments-with-policy-augmented-monte-carlo-tree-sea.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 2202.13003v1
+time-added: 2022-05-27-23:12:38
+title: Decision Making in Non-Stationary Environments with Policy-Augmented   Monte
+  Carlo Tree Search
+type: article
+url: http://arxiv.org/abs/2202.13003v1
+year: '2022'

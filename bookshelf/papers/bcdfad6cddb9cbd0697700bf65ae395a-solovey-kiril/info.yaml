@@ -1,0 +1,29 @@
+abstract: This is a chapter in the Encyclopedia of Robotics. It is devoted to the
+  study of complexity of complete (or exact) algorithms for robot motion planning.
+  The term ``complete'' indicates that an approach is guaranteed to find the correct
+  solution (a motion path or trajectory in our setting), or to report that none exists
+  otherwise (in case that for instance, no feasible path exists). Complexity theory
+  is a fundamental tool in computer science for analyzing the performance of algorithms,
+  in terms of the amount of resources they require. (While complexity can express
+  different quantities such as space and communication effort, our focus in this chapter
+  is on time complexity.) Moreover, complexity theory helps to identify ``hard'' problems
+  which require excessive amount of computation time to solve. In the context of motion
+  planning, complexity theory can come in handy in various ways, some of which are
+  illustrated here.
+archiveprefix: arXiv
+author: Solovey, Kiril
+author_list:
+- family: Solovey
+  given: Kiril
+eprint: 2003.03632v2
+file: 2003.03632v2.pdf
+files:
+- solovey-kirilcomplexity-of-planning2020.pdf
+month: Mar
+primaryclass: cs.RO
+ref: 2003.03632v2
+time-added: 2022-05-28-15:02:43
+title: Complexity of Planning
+type: article
+url: http://arxiv.org/abs/2003.03632v2
+year: '2020'
