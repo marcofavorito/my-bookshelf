@@ -1,0 +1,482 @@
+abstract: '<jats:title>Abstract</jats:title><jats:p>A quantum computer attains computational
+  advantage when outperforming the best classical computers running the best-known
+  algorithms on well-defined tasks. No photonic machine offering programmability over
+  all its quantum gates has demonstrated quantum computational advantage: previous
+  machines<jats:sup>1,2</jats:sup> were largely restricted to static gate sequences.
+  Earlier photonic demonstrations were also vulnerable to spoofing<jats:sup>3</jats:sup>,
+  in which classical heuristics produce samples, without direct simulation, lying
+  closer to the ideal distribution than do samples from the quantum hardware. Here we
+  report quantum computational advantage using Borealis, a photonic processor offering
+  dynamic programmability on all gates implemented. We carry out Gaussian boson sampling<jats:sup>4</jats:sup>
+  (GBS) on 216 squeezed modes entangled with three-dimensional connectivity<jats:sup>5</jats:sup>,
+  using a time-multiplexed and photon-number-resolving architecture. On average, it
+  would take more than 9,000 years for the best available algorithms and supercomputers
+  to produce, using exact methods, a single sample from the programmed distribution,
+  whereas Borealis requires only 36 μs. This runtime advantage is over 50 million
+  times as extreme as that reported from earlier photonic machines. Ours constitutes
+  a very large GBS experiment, registering events with up to 219 photons and a mean
+  photon number of 125. This work is a critical milestone on the path to a practical
+  quantum computer, validating key technological features of photonics as a platform
+  for this goal.</jats:p>'
+author: Madsen, Lars S. and Laudenbach, Fabian and Askarani, Mohsen Falamarzi. and
+  Rortais, Fabien and Vincent, Trevor and Bulmer, Jacob F. F. and Miatto, Filippo
+  M. and Neuhaus, Leonhard and Helt, Lukas G. and Collins, Matthew J. and Lita, Adriana
+  E. and Gerrits, Thomas and Nam, Sae Woo and Vaidya, Varun D. and Menotti, Matteo
+  and Dhand, Ish and Vernon, Zachary and Quesada, Nicolás and Lavoie, Jonathan
+author_list:
+- affiliation: []
+  family: Madsen
+  given: Lars S.
+- affiliation: []
+  family: Laudenbach
+  given: Fabian
+- affiliation: []
+  family: Askarani
+  given: Mohsen Falamarzi.
+- affiliation: []
+  family: Rortais
+  given: Fabien
+- affiliation: []
+  family: Vincent
+  given: Trevor
+- affiliation: []
+  family: Bulmer
+  given: Jacob F. F.
+- affiliation: []
+  family: Miatto
+  given: Filippo M.
+- affiliation: []
+  family: Neuhaus
+  given: Leonhard
+- affiliation: []
+  family: Helt
+  given: Lukas G.
+- affiliation: []
+  family: Collins
+  given: Matthew J.
+- affiliation: []
+  family: Lita
+  given: Adriana E.
+- affiliation: []
+  family: Gerrits
+  given: Thomas
+- affiliation: []
+  family: Nam
+  given: Sae Woo
+- affiliation: []
+  family: Vaidya
+  given: Varun D.
+- affiliation: []
+  family: Menotti
+  given: Matteo
+- affiliation: []
+  family: Dhand
+  given: Ish
+- affiliation: []
+  family: Vernon
+  given: Zachary
+- affiliation: []
+  family: Quesada
+  given: Nicolás
+- affiliation: []
+  family: Lavoie
+  given: Jonathan
+citations:
+- author: H-S Zhong
+  doi: 10.1126/science.abe8770
+  first-page: '1460'
+  journal-title: Science
+  unstructured: Zhong, H.-S. et al. Quantum computational advantage using photons.
+    Science 370, 1460–1463 (2020).
+  volume: '370'
+  year: '2020'
+- author: H-S Zhong
+  doi: 10.1103/PhysRevLett.127.180502
+  first-page: '180502'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Zhong, H.-S. et al. Phase-programmable Gaussian boson sampling using
+    stimulated squeezed light. Phys. Rev. Lett. 127, 180502 (2021).
+  volume: '127'
+  year: '2021'
+- unstructured: Villalonga, B. et al. Efficient approximation of experimental Gaussian
+    boson sampling. Preprint at https://arxiv.org/abs/2109.11525 (2021).
+- author: CS Hamilton
+  doi: 10.1103/PhysRevLett.119.170501
+  first-page: '170501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Hamilton, C. S. et al. Gaussian boson sampling. Phys. Rev. Lett. 119,
+    170501 (2017).
+  volume: '119'
+  year: '2017'
+- author: A Deshpande
+  doi: 10.1126/sciadv.abi7894
+  first-page: eabi7894
+  journal-title: Sci. Adv.
+  unstructured: Deshpande, A. et al. Quantum computational advantage via high-dimensional
+    gaussian boson sampling. Sci. Adv. 8, eabi7894 (2022).
+  volume: '8'
+  year: '2022'
+- author: F Arute
+  doi: 10.1038/s41586-019-1666-5
+  first-page: '505'
+  journal-title: Nature
+  unstructured: Arute, F. et al. Quantum supremacy using a programmable superconducting
+    processor. Nature 574, 505–510 (2019).
+  volume: '574'
+  year: '2019'
+- author: Y Wu
+  doi: 10.1103/PhysRevLett.127.180501
+  first-page: '180501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Wu, Y. et al. Strong quantum computational advantage using a superconducting
+    quantum processor. Phys. Rev. Lett. 127, 180501 (2021).
+  volume: '127'
+  year: '2021'
+- author: Q Zhu
+  doi: 10.1016/j.scib.2021.10.017
+  first-page: '240'
+  journal-title: Sci. Bull.
+  unstructured: Zhu, Q. et al. Quantum computational advantage via 60-qubit 24-cycle
+    random circuit sampling. Sci. Bull. 67, 240–245 (2022).
+  volume: '67'
+  year: '2022'
+- author: JE Bourassa
+  doi: 10.22331/q-2021-02-04-392
+  first-page: '392'
+  journal-title: Quantum
+  unstructured: Bourassa, J. E. et al. Blueprint for a scalable photonic fault-tolerant
+    quantum computer. Quantum 5, 392 (2021).
+  volume: '5'
+  year: '2021'
+- unstructured: Bartolucci, S. et al. Fusion-based quantum computation. Preprint at
+    https://arxiv.org/abs/2101.09310 (2021).
+- author: MV Larsen
+  doi: 10.1103/PRXQuantum.2.030325
+  first-page: '030325'
+  journal-title: PRX Quantum
+  unstructured: Larsen, M. V., Chamberland, C., Noh, K., Neergaard-Nielsen, J. S.
+    & Andersen, U. L. Fault-tolerant continuous-variable measurement-based quantum
+    computation architecture. PRX Quantum 2, 030325 (2021).
+  volume: '2'
+  year: '2021'
+- author: TR Bromley
+  doi: 10.1088/2058-9565/ab8504
+  first-page: '034010'
+  journal-title: Quantum Sci. Technol.
+  unstructured: 'Bromley, T. R. et al. Applications of near-term photonic quantum
+    computers: software and algorithms. Quantum Sci. Technol. 5, 034010 (2020).'
+  volume: '5'
+  year: '2020'
+- author: J Huh
+  doi: 10.1038/nphoton.2015.153
+  first-page: '615'
+  journal-title: Nat. Photonics
+  unstructured: Huh, J., Guerreschi, G. G., Peropadre, B., McClean, J. R. & Aspuru-Guzik,
+    A. Boson sampling for molecular vibronic spectra. Nat. Photonics 9, 615–620 (2015).
+  volume: '9'
+  year: '2015'
+- author: JM Arrazola
+  doi: 10.1103/PhysRevLett.121.030503
+  first-page: '030503'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Arrazola, J. M. & Bromley, T. R. Using Gaussian boson sampling to
+    find dense subgraphs. Phys. Rev. Lett. 121, 030503 (2018).
+  volume: '121'
+  year: '2018'
+- author: L Banchi
+  doi: 10.1126/sciadv.aax1950
+  first-page: eaax1950
+  journal-title: Sci. Adv.
+  unstructured: Banchi, L., Fingerhuth, M., Babej, T., Ing, C. & Arrazola, J. M. Molecular
+    docking with Gaussian boson sampling. Sci. Adv. 6, eaax1950 (2020).
+  volume: '6'
+  year: '2020'
+- author: S Jahangiri
+  doi: 10.1103/PhysRevE.101.022134
+  first-page: '022134'
+  journal-title: Phys. Rev. E
+  unstructured: Jahangiri, S., Arrazola, J. M., Quesada, N. & Killoran, N. Point processes
+    with Gaussian boson sampling. Phys. Rev. E 101, 022134 (2020).
+  volume: '101'
+  year: '2020'
+- author: S Jahangiri
+  doi: 10.1039/D0CP03593A
+  first-page: '25528'
+  journal-title: Phys. Chem. Chem. Phys.
+  unstructured: Jahangiri, S., Arrazola, J. M., Quesada, N. & Delgado, A. Quantum
+    algorithm for simulating molecular vibrational excitations. Phys. Chem. Chem.
+    Phys. 22, 25528–25537 (2020).
+  volume: '22'
+  year: '2020'
+- author: L Banchi
+  doi: 10.1103/PhysRevA.102.012417
+  first-page: '012417'
+  journal-title: Phys. Rev. A
+  unstructured: Banchi, L., Quesada, N. & Arrazola, J. M. Training Gaussian boson
+    sampling distributions. Phys. Rev. A 102, 012417 (2020).
+  volume: '102'
+  year: '2020'
+- author: S Takeda
+  doi: 10.1063/1.5100160
+  first-page: 060902
+  journal-title: APL Photonics
+  unstructured: Takeda, S. & Furusawa, A. Toward large-scale fault-tolerant universal
+    photonic quantum computing. APL Photonics 4, 060902 (2019).
+  volume: '4'
+  year: '2019'
+- author: KR Motes
+  doi: 10.1103/PhysRevLett.113.120501
+  first-page: '120501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Motes, K. R., Gilchrist, A., Dowling, J. P. & Rohde, P. P. Scalable
+    boson sampling with time-bin encoding using a loop-based architecture. Phys. Rev.
+    Lett. 113, 120501 (2014).
+  volume: '113'
+  year: '2014'
+- author: J-i Yoshikawa
+  doi: 10.1063/1.4962732
+  first-page: 060801
+  journal-title: APL Photonics
+  unstructured: 'Yoshikawa, J.-i et al. Invited article: generation of one-million-mode
+    continuous-variable cluster state by unlimited time-domain multiplexing. APL Photonics
+    1, 060801 (2016).'
+  volume: '1'
+  year: '2016'
+- author: MV Larsen
+  doi: 10.1126/science.aay4354
+  first-page: '369'
+  journal-title: Science
+  unstructured: Larsen, M. V., Guo, X., Breum, C. R., Neergaard-Nielsen, J. S. & Andersen,
+    U. L. Deterministic generation of a two-dimensional cluster state. Science 366,
+    369–372 (2019).
+  volume: '366'
+  year: '2019'
+- author: W Asavanant
+  doi: 10.1126/science.aay2645
+  first-page: '373'
+  journal-title: Science
+  unstructured: Asavanant, W. et al. Generation of time-domain-multiplexed two-dimensional
+    cluster state. Science 366, 373–376 (2019).
+  volume: '366'
+  year: '2019'
+- author: W Asavanant
+  doi: 10.1103/PhysRevApplied.16.034005
+  first-page: '034005'
+  journal-title: Phys. Rev. Appl.
+  unstructured: Asavanant, W. et al. Time-domain-multiplexed measurement-based quantum
+    operations with 25-MHz clock frequency. Phys. Rev. Appl. 16, 034005 (2021).
+  volume: '16'
+  year: '2021'
+- author: MV Larsen
+  doi: 10.1038/s41567-021-01296-y
+  first-page: '1018'
+  journal-title: Nat. Phys.
+  unstructured: Larsen, M. V., Guo, X., Breum, C. R., Neergaard-Nielsen, J. S. & Andersen,
+    U. L. Deterministic multi-mode gates on a scalable photonic quantum computing
+    platform. Nat. Phys. 17, 1018–1023 (2021).
+  volume: '17'
+  year: '2021'
+- author: Y Enomoto
+  doi: 10.1126/sciadv.abj6624
+  first-page: eabj6624
+  journal-title: Sci. Adv.
+  unstructured: Enomoto, Y., Yonezu, K., Mitsuhashi, Y., Takase, K. & Takeda, S. Programmable
+    and sequential Gaussian gates in a loop-based single-mode photonic quantum processor.
+    Sci. Adv. 7, eabj6624 (2021).
+  volume: '7'
+  year: '2021'
+- author: SD Bartlett
+  doi: 10.1103/PhysRevLett.88.097904
+  first-page: 097904
+  journal-title: Phys. Rev. Lett.
+  unstructured: Bartlett, S. D., Sanders, B. C., Braunstein, S. L. & Nemoto, K. Efficient
+    classical simulation of continuous variable quantum information processes. Phys.
+    Rev. Lett. 88, 097904 (2002).
+  volume: '88'
+  year: '2002'
+- author: R Raussendorf
+  doi: 10.1016/j.aop.2006.01.012
+  first-page: '2242'
+  journal-title: Ann. Phys.
+  unstructured: Raussendorf, R., Harrington, J. & Goyal, K. A fault-tolerant one-way
+    quantum computer. Ann. Phys. 321, 2242–2270 (2006).
+  volume: '321'
+  year: '2006'
+- author: R Raussendorf
+  doi: 10.1088/1367-2630/9/6/199
+  first-page: '199'
+  journal-title: New J. Phys.
+  unstructured: Raussendorf, R., Harrington, J. & Goyal, K. Topological fault-tolerance
+    in cluster state quantum computation. New J. Phys. 9, 199 (2007).
+  volume: '9'
+  year: '2007'
+- author: JF Bulmer
+  doi: 10.1126/sciadv.abl9236
+  first-page: eabl9236
+  journal-title: Sci. Adv.
+  unstructured: Bulmer, J. F. et al. The boundary for quantum advantage in Gaussian
+    boson sampling. Sci. Adv. 8, eabl9236 (2021).
+  volume: '8'
+  year: '2021'
+- author: H Qi
+  doi: 10.1103/PhysRevLett.124.100502
+  first-page: '100502'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Qi, H., Brod, D. J., Quesada, N. & García-Patrón, R. Regimes of classical
+    simulability for noisy Gaussian boson sampling. Phys. Rev. Lett. 124, 100502 (2020).
+  volume: '124'
+  year: '2020'
+- author: A Björklund
+  first-page: '11'
+  journal-title: J. Exp. Algor.
+  unstructured: Björklund, A., Gupt, B. & Quesada, N. A faster Hafnian formula for
+    complex matrices and its benchmarking on a supercomputer. J. Exp. Algor. 24, 11
+    (2019).
+  volume: '24'
+  year: '2019'
+- author: B Gupt
+  doi: 10.21105/joss.01705
+  first-page: '1705'
+  journal-title: J. Open Source Softw.
+  unstructured: 'Gupt, B., Izaac, J. & Quesada, N. The walrus: a library for the calculation
+    of Hafnians, hermite polynomials and Gaussian boson sampling. J. Open Source Softw.
+    4, 1705 (2019).'
+  volume: '4'
+  year: '2019'
+- author: N Quesada
+  doi: 10.1103/PRXQuantum.3.010306
+  first-page: '010306'
+  journal-title: PRX Quantum
+  unstructured: Quesada, N. et al. Quadratic speed-up for simulating gaussian boson
+    sampling. PRX Quantum 3, 010306 (2022).
+  volume: '3'
+  year: '2022'
+- unstructured: 56th edition of the top 500 Top 500 the List https://www.top500.org/lists/top500/2020/11/
+    (2020).
+- doi: 10.1109/TPDS.2021.3111185
+  unstructured: Li, Y. et al. Benchmarking 50-photon Gaussian boson sampling on the
+    sunway taihulight. IEEE Trans. Parallel Distrib. Syst. 33, 1357-1372 (2021).
+- author: J Gray
+  doi: 10.22331/q-2021-03-15-410
+  first-page: '410'
+  journal-title: Quantum
+  unstructured: Gray, J. & Kourtis, S. Hyper-optimized tensor network contraction.
+    Quantum 5, 410 (2021).
+  volume: '5'
+  year: '2021'
+- author: PP Rohde
+  doi: 10.1103/PhysRevA.91.012306
+  first-page: '012306'
+  journal-title: Phys. Rev. A
+  unstructured: Rohde, P. P. Simple scheme for universal linear-optics quantum computing
+    with constant experimental complexity using fiber loops. Phys. Rev. A 91, 012306
+    (2015).
+  volume: '91'
+  year: '2015'
+- author: AE Lita
+  doi: 10.1364/OE.16.003032
+  first-page: '3032'
+  journal-title: Opt. Express
+  unstructured: Lita, A. E., Miller, A. J. & Nam, S. W. Counting near-infrared single-photons
+    with 95% efficiency. Opt. Express 16, 3032–3040 (2008).
+  volume: '16'
+  year: '2008'
+- author: JM Arrazola
+  doi: 10.1038/s41586-021-03202-1
+  first-page: '54'
+  journal-title: Nature
+  unstructured: Arrazola, J. M. et al. Quantum circuits with many photons on a programmable
+    nanophotonic chip. Nature 591, 54–60 (2021).
+  volume: '591'
+  year: '2021'
+- unstructured: 'Qi, H., Helt, L. G., Su, D., Vernon, Z. & Brádler, K. Linear multiport
+    photonic interferometers: loss analysis of temporally-encoded architectures. Preprint
+    at https://arxiv.org/abs/1812.07015 (2018).'
+- author: M Mehmet
+  doi: 10.1364/OE.19.025763
+  first-page: '25763'
+  journal-title: Opt. Express
+  unstructured: Mehmet, M. et al. Squeezed light at 1550 nm with a quantum noise reduction
+    of 12.3 dB. Opt. Express 19, 25763–25772 (2011).
+  volume: '19'
+  year: '2011'
+- author: C Weedbrook
+  doi: 10.1103/RevModPhys.84.621
+  first-page: '621'
+  journal-title: Rev. Mod. Phys.
+  unstructured: Weedbrook, C. et al. Gaussian quantum information. Rev. Mod. Phys.
+    84, 621 (2012).
+  volume: '84'
+  year: '2012'
+- author: E Figueroa-Feliciano
+  doi: 10.1016/S0168-9002(99)01434-5
+  first-page: '453'
+  journal-title: Nucl. Instrum. Methods Phys. Res., Sect. A
+  unstructured: Figueroa-Feliciano, E. et al. Optimal filter analysis of energy-dependent
+    pulse shapes and its application to tes detectors. Nucl. Instrum. Methods Phys.
+    Res., Sect. A 444, 453–456 (2000).
+  volume: '444'
+  year: '2000'
+- author: PC Humphreys
+  doi: 10.1088/1367-2630/17/10/103044
+  first-page: '103044'
+  journal-title: New J. Phys.
+  unstructured: Humphreys, P. C. et al. Tomography of photon-number resolving continuous-output
+    detectors. New J. Phys. 17, 103044 (2015).
+  volume: '17'
+  year: '2015'
+- unstructured: Morais, L. A. et al. Precisely determining photon-number in real-time.
+    Preprint at https://arxiv.org/abs/2012.10158 (2020).
+- author: ZH Levine
+  doi: 10.1364/JOSAB.29.002066
+  first-page: '2066'
+  journal-title: J. Opt. Soc. Am. B.
+  unstructured: Levine, Z. H. et al. Algorithm for finding clusters with a known distribution
+    and its application to photon-number resolution using a superconducting transition-edge
+    sensor. J. Opt. Soc. Am. B. 29, 2066–2073 (2012).
+  volume: '29'
+  year: '2012'
+- author: G Harder
+  doi: 10.1103/PhysRevLett.116.143601
+  first-page: '143601'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Harder, G. et al. Single-mode parametric-down-conversion states with
+    50 photons as a source for mesoscopic quantum optics. Phys. Rev. Lett. 116, 143601
+    (2016).
+  volume: '116'
+  year: '2016'
+- author: O Aytür
+  doi: 10.1103/PhysRevLett.65.1551
+  first-page: '1551'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Aytür, O. & Kumar, P. Pulsed twin beams of light. Phys. Rev. Lett.
+    65, 1551 (1990).
+  volume: '65'
+  year: '1990'
+- author: A Christ
+  doi: 10.1088/1367-2630/13/3/033027
+  first-page: '033027'
+  journal-title: New J. Phys.
+  unstructured: Christ, A., Laiho, K., Eckstein, A., Cassemiro, K. N. & Silberhorn,
+    C. Probing multimode squeezing with correlation functions. New J. Phys. 13, 033027
+    (2011).
+  volume: '13'
+  year: '2011'
+doc_url: https://www.nature.com/articles/s41586-022-04725-x
+doi: 10.1038/s41586-022-04725-x
+files:
+- madsen-lars-s.-and-laudenbach-fabian-and-askarani-mohsen-falamarzi.-and-rortais-fabien-and-vincent-trevor-and-bulmer-jacob-f.-f.-and-miatto-fil.data
+- madsen-lars-s.-and-laudenbach-fabian-and-askarani-mohsen-falamarzi.-and-rortais-fabien-and-vincent-trevor-and-bulmer-jacob-f.-f.-and-miatto-fil-a.pdf
+issue: '7912'
+journal: Nature
+language: en
+month: 6
+pages: 75--81
+publisher: Springer Science and Business Media LLC
+ref: QuantumComputaMadsen2022
+time-added: 2022-06-02-09:55:29
+title: Quantum computational advantage with a programmable photonic processor
+type: article
+url: http://dx.doi.org/10.1038/s41586-022-04725-x
+volume: '606'
+year: 2022
