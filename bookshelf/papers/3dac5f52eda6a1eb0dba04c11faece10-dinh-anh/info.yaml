@@ -1,0 +1,29 @@
+abstract: 'Almost a year has gone by since I sat down and decided to take on Byzantine
+  fault tolerance protocols,
+
+  starting with its poster child PBFT. Despite countless reprintings and re-readings
+  the OSDI’99 version of the
+
+  paper, I never stop learning new things at every reread. This is party exacerbated
+  by the fact that
+
+  Hyperledger Fabric, an open source permissioned blockchain system, contains a Go
+  implementation of PBFT which
+
+  serves as the basis for truly understanding the protocol. Discrepancies between
+  the implementation and the
+
+  paper bring the protocol’s internal intricacies out to the surface. The following
+  summarizes few subtleties I
+
+  discovered.'
+author: Dinh, Anh
+author_list:
+- family: Dinh
+  given: Anh
+ref: dinh_subtle_nodate
+time-added: 2022-06-04-13:01:35
+title: Subtle {Details} in {PBFT}
+type: misc
+url: https://dinhtta.github.io/pbft/
+urldate: '2022-06-04'
