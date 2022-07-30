@@ -1,0 +1,39 @@
+abstract: High dimensional black-box optimization has broad applications but remains
+  a challenging problem to solve. Given a set of samples $\{\vx_i, y_i\}$, building
+  a global model (like Bayesian Optimization (BO)) suffers from the curse of dimensionality
+  in the high-dimensional search space, while a greedy search may lead to sub-optimality.
+  By recursively splitting the search space into regions with high/low function values,
+  recent works like LaNAS shows good performance in Neural Architecture Search (NAS),
+  reducing the sample complexity empirically. In this paper, we coin LA-MCTS that
+  extends LaNAS to other domains. Unlike previous approaches, LA-MCTS learns the partition
+  of the search space using a few samples and their function values in an online fashion.
+  While LaNAS uses linear partition and performs uniform sampling in each region,
+  our LA-MCTS adopts a nonlinear decision boundary and learns a local model to pick
+  good candidates. If the nonlinear partition function and the local model fits well
+  with ground-truth black-box function, then good partitions and candidates can be
+  reached with much fewer samples. LA-MCTS serves as a \emph{meta-algorithm} by using
+  existing black-box optimizers (e.g., BO, TuRBO) as its local models, achieving strong
+  performance in general black-box optimization and reinforcement learning benchmarks,
+  in particular for high-dimensional problems.
+archiveprefix: arXiv
+author: Wang, Linnan and Fonseca, Rodrigo and Tian, Yuandong
+author_list:
+- family: Wang
+  given: Linnan
+- family: Fonseca
+  given: Rodrigo
+- family: Tian
+  given: Yuandong
+eprint: 2007.00708v2
+file: 2007.00708v2.pdf
+files:
+- wang-linnan-and-fonseca-rodrigo-and-tian-yuandonglearning-search-space-partition-for-black-box-optimization-using-monte-carlo-tree-search2020.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 2007.00708v2
+time-added: 2022-07-12-17:37:33
+title: Learning Search Space Partition for Black-box Optimization using Monte   Carlo
+  Tree Search
+type: article
+url: http://arxiv.org/abs/2007.00708v2
+year: '2020'

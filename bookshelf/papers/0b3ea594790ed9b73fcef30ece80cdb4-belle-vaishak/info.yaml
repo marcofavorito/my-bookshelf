@@ -1,0 +1,33 @@
+abstract: The unification of logic and probability is a long-standing concern in AI,
+  and more generally, in the philosophy of science. In essence, logic provides an
+  easy way to specify properties that must hold in every possible world, and probability
+  allows us to further quantify the weight and ratio of the worlds that must satisfy
+  a property. To that end, numerous developments have been undertaken, culminating
+  in proposals such as probabilistic relational models. While this progress has been
+  notable, a general-purpose first-order knowledge representation language to reason
+  about probabilities and dynamics, including in continuous settings, is still to
+  emerge. In this paper, we survey recent results pertaining to the integration of
+  logic, probability and actions in the situation calculus, which is arguably one
+  of the oldest and most well-known formalisms. We then explore reduction theorems
+  and programming interfaces for the language. These results are motivated in the
+  context of cognitive robotics (as envisioned by Reiter and his colleagues) for the
+  sake of concreteness. Overall, the advantage of proving results for such a general
+  language is that it becomes possible to adapt them to any special-purpose fragment,
+  including but not limited to popular probabilistic relational models.
+archiveprefix: arXiv
+author: Belle, Vaishak
+author_list:
+- family: Belle
+  given: Vaishak
+eprint: 2006.09868v1
+file: 2006.09868v1.pdf
+files:
+- belle-vaishaklogic-probability-and-action-a-situation-calculus-perspective2020.pdf
+month: Jun
+primaryclass: cs.AI
+ref: 2006.09868v1
+time-added: 2022-07-17-18:06:46
+title: 'Logic, Probability and Action: A Situation Calculus Perspective'
+type: article
+url: http://arxiv.org/abs/2006.09868v1
+year: '2020'

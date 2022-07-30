@@ -1,0 +1,124 @@
+author: De Prisco, Roberto and Lampson, Butler and Lynch, Nancy
+author_list:
+- affiliation: []
+  family: De Prisco
+  given: Roberto
+- affiliation: []
+  family: Lampson
+  given: Butler
+- affiliation: []
+  family: Lynch
+  given: Nancy
+citations:
+- doi: 10.21236/ADA253611
+  unstructured: T.D. Chandra, V. Hadzilacos, S. Toueg, The weakest failure detector
+    for solving consensus, in Proceedings of the 11th Annual ACM Symposium on Principles
+    of Distributed Computing, pages 147–158, Vancouver, British Columbia, Canada,
+    August 1992.
+- author: T.D. Chandra
+  doi: 10.1145/226643.226647
+  first-page: '225'
+  issue: '2'
+  journal-title: Journal of the ACM
+  unstructured: T.D. Chandra, S. Toueg, Unreliable failure detector for asynchronous
+    distributed systems, Journal of the ACM, Vol. 43 (2), pp. 225–267. A preliminary
+    version appeared in the Proceedings of the loth Annual ACM Symposium on Principles
+    of Distributed Computing, pages 325–340, August 1991.
+  volume: '43'
+  year: '1991'
+- unstructured: F. Cristian and C. Fetzer, The timed asynchronous system model, Dept.
+    of Computer Science, UCSD, La Jolla, CA. Technical Report CSE97-519.
+- author: R. Prisco De
+  unstructured: R. De Prisco, Revisiting the Paxos algorithm, M.S. Thesis, Massachusetts
+    Institute of Technology, Laboratory for Computer Science, Cambridge, MA, June
+    1997. Technical Report MIT-LCS-TR-717, Lab. for Computer Science, MIT, Cambridge,
+    MA, USA, June 1997.
+  volume-title: Revisiting the Paxos algorithm
+  year: '1997'
+- author: C. Dwork
+  doi: 10.1145/42282.42283
+  first-page: '288'
+  issue: '2'
+  journal-title: J. of the ACM
+  unstructured: C. Dwork, N. Lynch, L. Stockmeyer, Consensus in the presence of partial
+    synchrony, J. of the ACM, vol. 35 (2), pp. 288–323, April 1988.
+  volume: '35'
+  year: '1988'
+- doi: 10.1145/259380.259422
+  unstructured: A. Fekete, N. Lynch, A. Shvartsman, Specifying and using a partitionable
+    group communication service, to appear in Proceedings of the 16th Annual ACM Symposium
+    on Principles of Distributed Computing, August 1997.
+- author: M.J. Fischer
+  series-title: Rep. YALEU/DSC/RR-273
+  unstructured: M.J. Fischer, The consensus problem in unreliable distributed systems
+    (a brief survey). Rep. YALEU/DSC/RR-273. Dept. of Computer Science, Yale Univ.,
+    New Have, Conn., June 1983.
+  volume-title: The consensus problem in unreliable distributed systems (a brief survey)
+  year: '1983'
+- author: L. Lamport
+  series-title: Research Report
+  unstructured: L. Lamport, The part-time parliament, Research Report 49, Digital
+    Equipment Corporation Systems Research Center, Palo Alto, CA, September 1989.
+  volume-title: The part-time parliament
+  year: '1989'
+- doi: 10.1007/3-540-61769-8_1
+  unstructured: B. Lampson, How to build a highly available system using consensus,
+    in Proceedings of the 10th International Workshop on Distributed Algorithms WDAG
+    96, Bologna, Italy, pages 1–15, 1996.
+- unstructured: 'B. Liskov, B. Oki, Viewstamped replication: A new primary copy method
+    to support highly-available distributed systems, in Proceedings of the 7th Annual
+    ACM Symposium on Principles of Distributed Computing, pages 8–17, August 1988.'
+- author: N. Lynch
+  unstructured: N. Lynch, Distributed Algorithms, Morgan Kaufmann Publishers, San
+    Francisco, 1996.
+  volume-title: Distributed Algorithms
+  year: '1996'
+- doi: 10.1007/BFb0032002
+  unstructured: 'N. Lynch, F. Vaandrager, Forward and backward simulations for timing-based
+    systems. in Real-Time: Theory in Practice, Vol. 600 of Lecture Notes in Computer
+    Science, Springer-Verlag, pp. 397–446, 1992.'
+- author: N. Lynch
+  series-title: Technical Memo MIT-LCS-TM-487.b
+  unstructured: 'N. Lynch, F. Vaandrager, Forward and backward simulations—Part II:
+    Timing-based systems. Technical Memo MIT-LCS-TM-487.b, Lab. for Computer Science,
+    MIT Cambridge, MA, USA, April 1993.'
+  volume-title: 'Forward and backward simulations—Part II: Timing-based systems'
+  year: '1993'
+- author: N. Lynch
+  series-title: Technical Memo MIT-LCS-TM-480.b
+  unstructured: N. Lynch, F. Vaandrager. Actions transducers and timed automata. Technical
+    Memo MIT-LCS-TM-480.b, Lab. for Computer Science, MIT, Cambridge, MA, USA, October
+    1994.
+  volume-title: Actions transducers and timed automata
+  year: '1994'
+- author: B. Oki
+  unstructured: B. Oki, Viewstamped replication for highly-available distributed systems,
+    Ph.D. Thesis, Laboratory for Computer Science, Massachusetts Institute of Technology,
+    Cambridge, MA 02139, 1988.
+  volume-title: Viewstamped replication for highly-available distributed systems
+  year: '1988'
+- author: B. Patt-Shamir
+  unstructured: B. Patt-Shamir, A theory of clock synchronization, Ph.D. Thesis, Laboratory
+    for Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139,
+    October 1994.
+  volume-title: A theory of clock synchronization
+  year: '1994'
+- doi: 10.1145/582318.582339
+  unstructured: D. Skeen, Nonblocking Commit Protocols, Proceedings of the ACM SIGMOD
+    International Conference on Management of Data, pp. 133–142, May 1981.
+doi: 10.1007/bfb0030679
+files:
+- de-prisco-roberto-and-lampson-butler-and-lynch-nancyrevisiting-the-paxos-algorithm1997.pdf
+isbn:
+- '9783540635758'
+- '9783540696001'
+journal: Distributed Algorithms
+month: 6
+pages: 111--125
+publisher: Springer Berlin Heidelberg
+ref: RevisitingTheDePri1997
+time-added: 2022-07-16-18:32:05
+title: Revisiting the Paxos algorithm
+type: inbook
+url: http://dx.doi.org/10.1007/bfb0030679
+year: 1997
