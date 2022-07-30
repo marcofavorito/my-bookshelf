@@ -1,0 +1,49 @@
+abstract: Learning to optimize (L2O) is an emerging approach that leverages machine
+  learning to develop optimization methods, aiming at reducing the laborious iterations
+  of hand engineering. It automates the design of an optimization method based on
+  its performance on a set of training problems. This data-driven procedure generates
+  methods that can efficiently solve problems similar to those in the training. In
+  sharp contrast, the typical and traditional designs of optimization methods are
+  theory-driven, so they obtain performance guarantees over the classes of problems
+  specified by the theory. The difference makes L2O suitable for repeatedly solving
+  a certain type of optimization problems over a specific distribution of data, while
+  it typically fails on out-of-distribution problems. The practicality of L2O depends
+  on the type of target optimization, the chosen architecture of the method to learn,
+  and the training procedure. This new paradigm has motivated a community of researchers
+  to explore L2O and report their findings.   This article is poised to be the first
+  comprehensive survey and benchmark of L2O for continuous optimization. We set up
+  taxonomies, categorize existing works and research directions, present insights,
+  and identify open challenges. We also benchmarked many existing L2O approaches on
+  a few but representative optimization problems. For reproducible research and fair
+  benchmarking purposes, we released our software implementation and data in the package
+  Open-L2O at https://github.com/VITA-Group/Open-L2O.
+archiveprefix: arXiv
+author: Chen, Tianlong and Chen, Xiaohan and Chen, Wuyang and Heaton, Howard and Liu,
+  Jialin and Wang, Zhangyang and Yin, Wotao
+author_list:
+- family: Chen
+  given: Tianlong
+- family: Chen
+  given: Xiaohan
+- family: Chen
+  given: Wuyang
+- family: Heaton
+  given: Howard
+- family: Liu
+  given: Jialin
+- family: Wang
+  given: Zhangyang
+- family: Yin
+  given: Wotao
+eprint: 2103.12828v2
+file: 2103.12828v2.pdf
+files:
+- chen-tianlong-and-chen-xiaohan-and-chen-wuyang-and-heaton-howard-and-liu-jialin-and-wang-zhangyang-and-yin-wotaolearning-to-optimize-a-primer.pdf
+month: Mar
+primaryclass: math.OC
+ref: 2103.12828v2
+time-added: 2022-07-20-10:33:33
+title: 'Learning to Optimize: A Primer and A Benchmark'
+type: article
+url: http://arxiv.org/abs/2103.12828v2
+year: '2021'

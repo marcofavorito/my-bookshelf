@@ -1,0 +1,47 @@
+abstract: "<jats:p>A family of unimplemented computing languages is described that\
+  \ is intended to span differences of application area by a unified framework. This\
+  \ framework dictates the rules about the uses of user-coined names, and the conventions\
+  \ about characterizing functional relationships. Within this framework the design\
+  \ of a specific language splits into two independent parts. One is the choice of\
+  \ written appearances of programs (or more generally, their physical representation).\
+  \ The other is the choice of the abstract entities (such as numbers, character-strings,\
+  \ list of them, functional relations among them) that can be referred to in the\
+  \ language.</jats:p>\n          <jats:p>The system is biased towards “expressions”\
+  \ rather than “statements.” It includes a nonprocedural (purely functional) subsystem\
+  \ that aims to expand the class of users' needs that can be met by a single print-instruction,\
+  \ without sacrificing the important properties that make conventional right-hand-side\
+  \ expressions easy to construct and understand.</jats:p>"
+author: Landin, P. J.
+author_list:
+- affiliation:
+  - name: Univac Division of Sperry Rand Corp., New York, NY
+  family: Landin
+  given: P. J.
+citations:
+- author: The
+  first-page: '4'
+  journal-title: Comput. J.
+  volume: '6'
+  year: '1964'
+- doi: 10.1145/363744.363749
+- author: The
+  volume-title: Formal Language Description Languages for Computer Programming
+  year: '1965'
+- author: The
+  volume-title: IFIP65 Proc., Part II.
+doi: 10.1145/365230.365257
+files:
+- landin-p.-j.the-next-700-programming-languages1966.pdf
+issue: '3'
+journal: Communications of the ACM
+language: en
+month: 3
+pages: 157--166
+publisher: Association for Computing Machinery (ACM)
+ref: TheNext700PrLandin1966
+time-added: 2022-07-28-21:32:17
+title: The next 700 programming languages
+type: article
+url: http://dx.doi.org/10.1145/365230.365257
+volume: '9'
+year: 1966

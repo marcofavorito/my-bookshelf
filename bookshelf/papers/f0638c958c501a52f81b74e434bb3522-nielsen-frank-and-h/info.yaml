@@ -1,0 +1,38 @@
+abstract: Exponential families and mixture families are parametric probability models
+  that can be geometrically studied as smooth statistical manifolds with respect to
+  any statistical divergence like the Kullback-Leibler (KL) divergence or the Hellinger
+  divergence. When equipping a statistical manifold with the KL divergence, the induced
+  manifold structure is dually flat, and the KL divergence between distributions amounts
+  to an equivalent Bregman divergence on their corresponding parameters. In practice,
+  the corresponding Bregman generators of mixture/exponential families require to
+  perform definite integral calculus that can either be too time-consuming (for exponentially
+  large discrete support case) or even do not admit closed-form formula (for continuous
+  support case). In these cases, the dually flat construction remains theoretical
+  and cannot be used by information-geometric algorithms. To bypass this problem,
+  we consider performing stochastic Monte Carlo (MC) estimation of those integral-based
+  mixture/exponential family Bregman generators. We show that, under natural assumptions,
+  these MC generators are almost surely Bregman generators. We define a series of
+  dually flat information geometries, termed Monte Carlo Information Geometries, that
+  increasingly-finely approximate the untractable geometry. The advantage of this
+  MCIG is that it allows a practical use of the Bregman algorithmic toolbox on a wide
+  range of probability distribution families. We demonstrate our approach with a clustering
+  task on a mixture family manifold.
+archiveprefix: arXiv
+author: Nielsen, Frank and Hadjeres, Gaëtan
+author_list:
+- family: Nielsen
+  given: Frank
+- family: Hadjeres
+  given: Gaëtan
+eprint: 1803.07225v1
+file: 1803.07225v1.pdf
+files:
+- nielsen-frank-and-hadjeres-gaetanmonte-carlo-information-geometry-the-dually-flat-case2018.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1803.07225v1
+time-added: 2022-07-19-11:50:19
+title: 'Monte Carlo Information Geometry: The dually flat case'
+type: article
+url: http://arxiv.org/abs/1803.07225v1
+year: '2018'

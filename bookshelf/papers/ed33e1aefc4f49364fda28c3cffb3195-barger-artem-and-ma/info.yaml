@@ -1,0 +1,37 @@
+abstract: Hyperledger Fabric is an enterprise grade permissioned distributed ledger
+  platform that offers modularity for a broad set of industry use cases. One modular
+  component is a pluggable ordering service that establishes consensus on the order
+  of transactions and batches them into blocks. However, as of the time of this writing,
+  there is no production grade Byzantine Fault-Tolerant (BFT) ordering service for
+  Fabric, with the latest version (v2.1) supporting only Crash Fault-Tolerance (CFT).
+  In our work, we address crucial aspects of BFT integration into Fabric that were
+  left unsolved in all prior works, making them unfit for production use. In this
+  work we describe the design and implementation of a BFT ordering service for Fabric,
+  employing a new BFT consensus library. The new library, based on the BFT-Smart protocol
+  and written in Go, is tailored to the blockchain use-case, yet is general enough
+  to cater to a wide variety of other uses. We evaluate the new BFT ordering service
+  by comparing it with the currently supported Raft-based CFT ordering service in
+  Hyperledger Fabric.
+archiveprefix: arXiv
+author: Barger, Artem and Manevich, Yacov and Meir, Hagar and Tock, Yoav
+author_list:
+- family: Barger
+  given: Artem
+- family: Manevich
+  given: Yacov
+- family: Meir
+  given: Hagar
+- family: Tock
+  given: Yoav
+eprint: 2107.06922v1
+file: 2107.06922v1.pdf
+files:
+- barger-artem-and-manevich-yacov-and-meir-hagar-and-tock-yoava-byzantine-fault-tolerant-consensus-library-for-hyperledger-fabric2021.pdf
+month: Jul
+primaryclass: cs.DC
+ref: 2107.06922v1
+time-added: 2022-07-28-09:04:02
+title: A Byzantine Fault-Tolerant Consensus Library for Hyperledger Fabric
+type: article
+url: http://arxiv.org/abs/2107.06922v1
+year: '2021'

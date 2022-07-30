@@ -1,0 +1,32 @@
+abstract: We present a tutorial on Bayesian optimization, a method of finding the
+  maximum of expensive cost functions. Bayesian optimization employs the Bayesian
+  technique of setting a prior over the objective function and combining it with evidence
+  to get a posterior function. This permits a utility-based selection of the next
+  observation to make on the objective function, which must take into account both
+  exploration (sampling from areas of high uncertainty) and exploitation (sampling
+  areas likely to offer improvement over the current best observation). We also present
+  two detailed extensions of Bayesian optimization, with experiments---active user
+  modelling with preferences, and hierarchical reinforcement learning---and a discussion
+  of the pros and cons of Bayesian optimization based on our experiences.
+archiveprefix: arXiv
+author: Brochu, Eric and Cora, Vlad M. and de Freitas, Nando
+author_list:
+- family: Brochu
+  given: Eric
+- family: Cora
+  given: Vlad M.
+- family: de Freitas
+  given: Nando
+eprint: 1012.2599v1
+file: 1012.2599v1.pdf
+files:
+- brochu-eric-and-cora-vlad-m.-and-de-freitas-nandoa-tutorial-on-bayesian-optimization-of-expensive-cost-functions-with-application-to-active-user.pdf
+month: Dec
+primaryclass: cs.LG
+ref: 1012.2599v1
+time-added: 2022-07-20-10:50:09
+title: A Tutorial on Bayesian Optimization of Expensive Cost Functions, with   Application
+  to Active User Modeling and Hierarchical Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1012.2599v1
+year: '2010'

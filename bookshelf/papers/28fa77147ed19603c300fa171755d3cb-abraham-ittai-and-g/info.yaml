@@ -1,0 +1,32 @@
+abstract: In this note, we observe a safety violation in Zyzzyva and a liveness violation
+  in FaB. To demonstrate these issues, we require relatively simple scenarios, involving
+  only four replicas, and one or two view changes. In all of them, the problem is
+  manifested already in the first log slot.
+archiveprefix: arXiv
+author: Abraham, Ittai and Gueta, Guy and Malkhi, Dahlia and Alvisi, Lorenzo and Kotla,
+  Rama and Martin, Jean-Philippe
+author_list:
+- family: Abraham
+  given: Ittai
+- family: Gueta
+  given: Guy
+- family: Malkhi
+  given: Dahlia
+- family: Alvisi
+  given: Lorenzo
+- family: Kotla
+  given: Rama
+- family: Martin
+  given: Jean-Philippe
+eprint: 1712.01367v1
+file: 1712.01367v1.pdf
+files:
+- abraham-ittai-and-gueta-guy-and-malkhi-dahlia-and-alvisi-lorenzo-and-kotla-rama-and-martin-jean-philipperevisiting-fast-practical-byzantine-faul.pdf
+month: Dec
+primaryclass: cs.DC
+ref: 1712.01367v1
+time-added: 2022-07-28-12:15:56
+title: Revisiting Fast Practical Byzantine Fault Tolerance
+type: article
+url: http://arxiv.org/abs/1712.01367v1
+year: '2017'

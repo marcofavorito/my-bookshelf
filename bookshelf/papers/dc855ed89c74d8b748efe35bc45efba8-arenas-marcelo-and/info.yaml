@@ -1,0 +1,110 @@
+abstract: <jats:p>With the popularity of Bitcoin, there is a growing need to understand
+  the functionality, security, and performance of various mechanisms that comprise
+  it. In this paper, we analyze Bitcoin’s scripting language, Script, that is one
+  of the main building blocks of Bitcoin transactions. We formally define the semantics
+  of Script, and study the problem of determining whether a user-defined script is
+  well-formed; that is, whether it can be unlocked, or whether it contains errors
+  that would prevent this from happening.</jats:p>
+author: Arenas, Marcelo and Reisenegger, Thomas and Reutter, Juan and Vrgoč, Domagoj
+author_list:
+- affiliation: []
+  family: Arenas
+  given: Marcelo
+- affiliation: []
+  family: Reisenegger
+  given: Thomas
+- affiliation: []
+  family: Reutter
+  given: Juan
+- affiliation: []
+  family: Vrgoč
+  given: Domagoj
+citations:
+- article-title: Modeling Bitcoin Contracts by Timed Automata
+  author: Andrychowicz
+  first-page: '7'
+  year: '2014'
+- author: Antonopoulos
+  volume-title: 'Mastering Bitcoin: Programming the Open Blockchain'
+  year: '2017'
+- author: Antonopoulos
+  volume-title: 'Mastering Ethereum: Building Smart Contracts and Dapps'
+  year: '2018'
+- article-title: A Survey of Attacks on Ethereum Smart Contracts (Sok)
+  author: Atzei
+  first-page: '164'
+  year: '2017'
+- article-title: 'Sok: Unraveling Bitcoin Smart Contracts'
+  author: Atzei
+  first-page: '217'
+  year: ''
+- article-title: A Formal Model of Bitcoin Transactions
+  author: Atzei
+  first-page: '541'
+  year: ''
+- article-title: 'Bitml: A Calculus for Bitcoin Smart Contracts'
+  author: Bartoletti
+  first-page: '83'
+  year: '2018'
+- article-title: 'Formal Models of Bitcoin Contracts: A Survey'
+  author: Bartoletti
+  doi: 10.3389/fbloc.2019.00008
+  first-page: '8'
+  journal-title: Front. Blockchain
+  volume: '2'
+  year: '2019'
+- unstructured: Bitcoin Wiki - Script2021
+- article-title: 'Sok: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies'
+  author: Bonneau
+  doi: 10.1109/sp.2015.14
+  first-page: '104'
+  year: '2015'
+- article-title: A next-generation smart contract and decentralized application platform
+  author: Buterin
+  journal-title: White Paper
+  volume: '3'
+  year: '2014'
+- author: Dannen
+  doi: 10.1007/978-1-4842-2535-6
+  volume-title: Introducing Ethereum and Solidity
+  year: '2017'
+- unstructured: 'Script Implementation: Security Improvements2010'
+- article-title: Do smart Contract Languages Need to Be Turing Complete
+  author: Jansen
+  first-page: '19'
+  year: '2019'
+- article-title: On Symbolic Verification of Bitcoin's Script Language
+  author: Klomp
+  first-page: '38'
+  year: '2018'
+- article-title: 'Bitcoin: A Peer-To-Peer Electronic Cash System'
+  author: Nakamoto
+  year: '2008'
+- author: Narayanan
+  volume-title: Bitcoin and Cryptocurrency Technologies - A Comprehensive Introduction
+  year: '2016'
+- article-title: 'Simplicity: A New Language for Blockchains'
+  author: O’Connor
+  first-page: '107'
+  year: '2017'
+- article-title: 'Blockchain Smart Contracts Formalization: Approaches and Challenges
+    to Address Vulnerabilities'
+  author: Singh
+  doi: 10.1016/j.cose.2019.101654
+  first-page: '101654'
+  journal-title: Comput. Security
+  volume: '88'
+  year: '2020'
+doi: 10.3389/fbloc.2021.770503
+files:
+- arenas-marcelo-and-reisenegger-thomas-and-reutter-juan-and-vrgoc-domagojis-it-possible-to-verify-if-a-transaction-is-spendable-2021.pdf
+journal: Frontiers in Blockchain
+month: 12
+publisher: Frontiers Media SA
+ref: IsItPossibleArenas2021
+time-added: 2022-07-27-20:52:34
+title: Is it Possible to Verify if a Transaction is Spendable?
+type: article
+url: http://dx.doi.org/10.3389/fbloc.2021.770503
+volume: '4'
+year: 2021

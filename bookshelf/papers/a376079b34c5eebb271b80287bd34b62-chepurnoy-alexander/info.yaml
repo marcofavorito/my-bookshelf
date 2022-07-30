@@ -1,0 +1,30 @@
+abstract: Turing-completeness of smart contract languages in blockchain systems is
+  often associated with a variety of language features (such as loops). In opposite,
+  we show that Turing-completeness of a blockchain system can be achieved through
+  unwinding the recursive calls between multiple transactions and blocks instead of
+  using a single one. We prove it by constructing a simple universal Turing machine
+  using a small set of language features in the unspent transaction output (UTXO)
+  model, with explicitly given relations between input and output transaction states.
+  Neither unbounded loops nor possibly infinite validation time are needed in this
+  approach.
+archiveprefix: arXiv
+author: Chepurnoy, Alexander and Kharin, Vasily and Meshkov, Dmitry
+author_list:
+- family: Chepurnoy
+  given: Alexander
+- family: Kharin
+  given: Vasily
+- family: Meshkov
+  given: Dmitry
+eprint: 1806.10116v1
+file: 1806.10116v1.pdf
+files:
+- chepurnoy-alexander-and-kharin-vasily-and-meshkov-dmitryself-reproducing-coins-as-universal-turing-machine2018.pdf
+month: Jun
+primaryclass: cs.CR
+ref: 1806.10116v1
+time-added: 2022-07-18-11:40:30
+title: Self-Reproducing Coins as Universal Turing Machine
+type: article
+url: http://arxiv.org/abs/1806.10116v1
+year: '2018'

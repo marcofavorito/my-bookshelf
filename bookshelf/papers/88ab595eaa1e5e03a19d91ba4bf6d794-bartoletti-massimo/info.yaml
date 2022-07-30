@@ -1,0 +1,40 @@
+abstract: 'Decentralised Finance (DeFi) applications constitute an entire financial
+  ecosystem deployed on blockchains. Such applications are based on complex protocols
+  and incentive mechanisms whose financial safety is hard to determine. Besides, their
+  adoption is rapidly growing, hence imperilling an increasingly higher amount of
+  assets. Therefore, accurate formalisation and verification of DeFi applications
+  is essential to assess their safety. We present a tool for the formal analysis of
+  one of the most widespread DeFi applications: Lending Pools (LP). This was achieved
+  by leveraging an existing formal model for LPs, the Maude verification environment
+  and the MultiVeStA statistical analyser. The tool supports several analyses including
+  reachability analysis, LTL model checking and statistical model checking. We show
+  how the tool can be used to statistically analyse several parameters of LPs that
+  are fundamental to assess and predict their behaviour.'
+archiveprefix: arXiv
+author: Bartoletti, Massimo and Chiang, James and Junttila, Tommi and Lafuente, Alberto
+  Lluch and Mirelli, Massimiliano and Vandin, Andrea
+author_list:
+- family: Bartoletti
+  given: Massimo
+- family: Chiang
+  given: James
+- family: Junttila
+  given: Tommi
+- family: Lafuente
+  given: Alberto Lluch
+- family: Mirelli
+  given: Massimiliano
+- family: Vandin
+  given: Andrea
+eprint: 2206.01333v1
+file: 2206.01333v1.pdf
+files:
+- bartoletti-massimo-and-chiang-james-and-junttila-tommi-and-lafuente-alberto-lluch-and-mirelli-massimiliano-and-vandin-andreaformal-analysis-of-l.pdf
+month: Jun
+primaryclass: cs.SE
+ref: 2206.01333v1
+time-added: 2022-07-18-11:59:01
+title: Formal Analysis of Lending Pools in Decentralized Finance
+type: article
+url: http://arxiv.org/abs/2206.01333v1
+year: '2022'

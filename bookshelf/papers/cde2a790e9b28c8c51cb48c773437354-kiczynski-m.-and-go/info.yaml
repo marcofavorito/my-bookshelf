@@ -1,0 +1,433 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>The realization of controllable
+  fermionic quantum systems via quantum simulation is instrumental for exploring many
+  of the most intriguing effects in condensed-matter physics<jats:sup>1–3</jats:sup>.
+  Semiconductor quantum dots are particularly promising for quantum simulation as
+  they can be engineered to achieve strong quantum correlations. However, although
+  simulation of the Fermi–Hubbard model<jats:sup>4</jats:sup> and Nagaoka ferromagnetism<jats:sup>5</jats:sup>
+  have been reported before, the simplest one-dimensional model of strongly correlated
+  topological matter, the many-body Su–Schrieffer–Heeger (SSH) model<jats:sup>6–11</jats:sup>,
+  has so far remained elusive—mostly owing to the challenge of precisely engineering
+  long-range interactions between electrons to reproduce the chosen Hamiltonian. Here
+  we show that for precision-placed atoms in silicon with strong Coulomb confinement,
+  we can engineer a minimum of six all-epitaxial in-plane gates to tune the energy
+  levels across a linear array of ten quantum dots to realize both the trivial and
+  the topological phases of the many-body SSH model. The strong on-site energies (about
+  25 millielectronvolts) and the ability to engineer gates with subnanometre precision
+  in a unique staggered design allow us to tune the ratio between intercell and intracell
+  electron transport to observe clear signatures of a topological phase with two conductance
+  peaks at quarter-filling, compared with the ten conductance peaks of the trivial
+  phase. The demonstration of the SSH model in a fermionic system isomorphic to qubits
+  showcases our highly controllable quantum system and its usefulness for future simulations
+  of strongly interacting electrons.</jats:p>
+author: Kiczynski, M. and Gorman, S. K. and Geng, H. and Donnelly, M. B. and Chung,
+  Y. and He, Y. and Keizer, J. G. and Simmons, M. Y.
+author_list:
+- affiliation: []
+  family: Kiczynski
+  given: M.
+- affiliation: []
+  family: Gorman
+  given: S. K.
+- affiliation: []
+  family: Geng
+  given: H.
+- affiliation: []
+  family: Donnelly
+  given: M. B.
+- affiliation: []
+  family: Chung
+  given: Y.
+- affiliation: []
+  family: He
+  given: Y.
+- affiliation: []
+  family: Keizer
+  given: J. G.
+- affiliation: []
+  family: Simmons
+  given: M. Y.
+citations:
+- author: J Bardeen
+  doi: 10.1103/PhysRev.108.1175
+  first-page: '1175'
+  journal-title: Phys. Rev.
+  unstructured: Bardeen, J., Cooper, L. N. & Schrieffer, J. R. Theory of superconductivity.
+    Phys. Rev. 108, 1175–1204 (1957).
+  volume: '108'
+  year: '1957'
+- author: DD Osheroff
+  doi: 10.1103/PhysRevLett.28.885
+  first-page: '885'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Osheroff, D. D., Richardson, R. C. & Lee, D. M. Evidence for a new
+    phase of solid He3. Phys. Rev. Lett. 28, 885–888 (1972).
+  volume: '28'
+  year: '1972'
+- author: KV Klitzing,
+  doi: 10.1103/PhysRevLett.45.494
+  first-page: '494'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Klitzing, K. V., Dorda, G. & Pepper, M. New method for high-accuracy
+    determination of the fine-structure constant based on quantized Hall resistance.
+    Phys. Rev. Lett. 45, 494–497 (1980).
+  volume: '45'
+  year: '1980'
+- author: T Hensgens
+  doi: 10.1038/nature23022
+  first-page: '70'
+  journal-title: Nature
+  unstructured: Hensgens, T. et al. Quantum simulation of a Fermi–Hubbard model using
+    a semiconductor quantum dot array. Nature 548, 70–73 (2017).
+  volume: '548'
+  year: '2017'
+- author: JP Dehollain
+  doi: 10.1038/s41586-020-2051-0
+  first-page: '528'
+  journal-title: Nature
+  unstructured: Dehollain, J. P. et al. Nagaoka ferromagnetism observed in a quantum
+    dot plaquette. Nature 579, 528–533 (2020).
+  volume: '579'
+  year: '2020'
+- author: M Atala
+  doi: 10.1038/nphys2790
+  first-page: '795'
+  journal-title: Nat. Phys.
+  unstructured: Atala, M. et al. Direct measurement of the Zak phase in topological
+    Bloch bands. Nat. Phys. 9, 795–800 (2013).
+  volume: '9'
+  year: '2013'
+- author: EJ Meier
+  doi: 10.1038/ncomms13986
+  journal-title: Nat. Commun.
+  unstructured: Meier, E. J., An, F. A. & Gadway, B. Observation of the topological
+    soliton state in the Su–Schrieffer–Heeger model. Nat. Commun. 7, 13986 (2016).
+  volume: '7'
+  year: '2016'
+- author: P St-Jean
+  doi: 10.1038/s41566-017-0006-2
+  first-page: '651'
+  journal-title: Nat. Photon.
+  unstructured: St-Jean, P. et al. Lasing in topological edge states of a one-dimensional
+    lattice. Nat. Photon. 11, 651–656 (2017).
+  volume: '11'
+  year: '2017'
+- author: R Chaunsali
+  doi: 10.1103/PhysRevLett.119.024301
+  first-page: '024301'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Chaunsali, R., Kim, E., Thakkar, A., Kevrekidis, P. & Yang, J. Demonstrating
+    an in situ topological band transition in cylindrical granular chains. Phys. Rev.
+    Lett. 119, 024301 (2017).
+  volume: '119'
+  year: '2017'
+- author: S de Léséleuc
+  doi: 10.1126/science.aav9105
+  first-page: '775'
+  journal-title: Science
+  unstructured: de Léséleuc, S. et al. Observation of a symmetry-protected topological
+    phase of interacting bosons with Rydberg atoms. Science 365, 775–780 (2019).
+  volume: '365'
+  year: '2019'
+- author: W Cai
+  doi: 10.1103/PhysRevLett.123.080501
+  first-page: 080501
+  journal-title: Phys. Rev. Lett.
+  unstructured: Cai, W. et al. Observation of topological magnon insulator states
+    in a superconducting circuit. Phys. Rev. Lett. 123, 080501 (2019).
+  volume: '123'
+  year: '2019'
+- author: E Nielsen
+  doi: 10.1103/PhysRevB.76.161202
+  first-page: '161202'
+  journal-title: Phys. Rev. B
+  unstructured: Nielsen, E. & Bhatt, R. N. Nanoscale ferromagnetism in nonmagnetic
+    doped semiconductors. Phys. Rev. B 76, 161202 (2007).
+  volume: '76'
+  year: '2007'
+- author: NH Le
+  doi: 10.1103/PhysRevB.96.245406
+  first-page: '245406'
+  journal-title: Phys. Rev. B
+  unstructured: Le, N. H., Fisher, A. J. & Ginossar, E. Extended Hubbard model for
+    mesoscopic transport in donor arrays in silicon. Phys. Rev. B 96, 245406 (2017).
+  volume: '96'
+  year: '2017'
+- author: NH Le
+  doi: 10.1038/s41534-020-0253-9
+  journal-title: npj Quantum Inf.
+  unstructured: Le, N. H., Fisher, A. J., Curson, N. J. & Ginossar, E. Topological
+    phases of a dimerized Fermi–Hubbard model for semiconductor nano-lattices. npj
+    Quantum Inf. 6, 24 (2020).
+  volume: '6'
+  year: '2020'
+- author: M Imada
+  doi: 10.1103/RevModPhys.70.1039
+  first-page: '1039'
+  journal-title: Rev. Mod. Phys.
+  unstructured: Imada, M., Fujimori, A. & Tokura, Y. Metal–insulator transitions.
+    Rev. Mod. Phys. 70, 1039–1263 (1998).
+  volume: '70'
+  year: '1998'
+- doi: 10.1146/annurev-conmatphys-090921-033948
+  unstructured: 'Qin, M., Schäfer, T., Andergassen, S., Corboz, P. & Gull, E. The
+    Hubbard model: a computational perspective. Annu. Rev. Condens. Matter Phys. 13,
+    275–302 (2022).'
+- author: R Feynman
+  doi: 10.1007/BF02650179
+  first-page: '46'
+  journal-title: Int. J. Theor. Phys.
+  unstructured: Feynman, R. Simulating physics with computers. Int. J. Theor. Phys.
+    21, 46–488 (1982).
+  volume: '21'
+  year: '1982'
+- author: JI Cirac
+  doi: 10.1038/nphys2275
+  first-page: '264'
+  journal-title: Nat. Phys.
+  unstructured: Cirac, J. I. & Zoller, P. Goals and opportunities in quantum simulation.
+    Nat. Phys. 8, 264–266 (2012).
+  volume: '8'
+  year: '2012'
+- author: J Argüello-Luengo
+  doi: 10.1038/s41586-019-1614-4
+  first-page: '215'
+  journal-title: Nature
+  unstructured: Argüello-Luengo, J., González-Tudela, A., Shi, T., Zoller, P. & Cirac,
+    J. I. Analogue quantum chemistry simulation. Nature 574, 215–218 (2019).
+  volume: '574'
+  year: '2019'
+- author: E Altman
+  doi: 10.1103/PRXQuantum.2.017003
+  first-page: '017003'
+  journal-title: PRX Quantum
+  unstructured: 'Altman, E. et al. Quantum simulators: architectures and opportunities.
+    PRX Quantum 2, 017003 (2021).'
+  volume: '2'
+  year: '2021'
+- author: WP Su
+  doi: 10.1103/PhysRevLett.42.1698
+  first-page: '1698'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Su, W. P., Schrieffer, J. R. & Heeger, A. J. Solitons in polyacetylene.
+    Phys. Rev. Lett. 42, 1698–1701 (1979).
+  volume: '42'
+  year: '1979'
+- author: H Tasaki
+  doi: 10.1088/0953-8984/10/20/004
+  first-page: '4353'
+  journal-title: J. Phys Condens. Matter
+  unstructured: Tasaki, H. The Hubbard model—an introduction and selected rigorous
+    results. J. Phys Condens. Matter 10, 4353–4378 (1998).
+  volume: '10'
+  year: '1998'
+- author: J Salfi
+  doi: 10.1038/ncomms11342
+  journal-title: Nat. Commun.
+  unstructured: Salfi, J. et al. Quantum simulation of the Hubbard model with dopant
+    atoms in silicon. Nat. Commun. 7, 11342 (2016).
+  volume: '7'
+  year: '2016'
+- author: X Wang
+  doi: 10.1103/PhysRevB.84.115301
+  first-page: '115301'
+  journal-title: Phys. Rev. B
+  unstructured: Wang, X., Yang, S. & Das Sarma, S. Quantum theory of the charge-stability
+    diagram of semiconductor double-quantum-dot systems. Phys. Rev. B 84, 115301 (2011).
+  volume: '84'
+  year: '2011'
+- author: A Dusko
+  doi: 10.1038/s41534-017-0051-1
+  journal-title: npj Quantum Inf.
+  unstructured: Dusko, A., Delgado, A., Saraiva, A. & Koiller, B. Adequacy of Si:P
+    chains as Fermi–Hubbard simulators. npj Quantum Inf. 4, 1 (2018).
+  volume: '4'
+  year: '2018'
+- author: T Maier
+  doi: 10.1103/PhysRevLett.85.1524
+  first-page: '1524'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Maier, T., Jarrell, M., Pruschke, T. & Keller, J. d-wave superconductivity
+    in the Hubbard model. Phys. Rev. Lett. 85, 1524–1527 (2000).
+  volume: '85'
+  year: '2000'
+- author: JE Hirsch
+  doi: 10.1103/PhysRevLett.62.591
+  first-page: '591'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Hirsch, J. E. & Tang, S. Antiferromagnetism in the two-dimensional
+    Hubbard model. Phys. Rev. Lett. 62, 591–594 (1989).
+  volume: '62'
+  year: '1989'
+- doi: 10.1146/annurev-conmatphys-031620-102024
+  unstructured: Arovas, D. P., Berg, E., Kivelson, S. & Raghu, S. The Hubbard model.
+    Annu. Rev. Condens. Matter Phys. 13, 239–274 (2022).
+- author: JM Nichol
+  doi: 10.1038/s41534-016-0003-1
+  journal-title: npj Quantum Inf.
+  unstructured: Nichol, J. M. et al. High-fidelity entangling gate for double-quantum-dot
+    spin qubits. npj Quantum Inf. 3, 3 (2017).
+  volume: '3'
+  year: '2017'
+- author: AR Mills
+  doi: 10.1038/s41467-019-08970-z
+  journal-title: Nat. Commun.
+  unstructured: Mills, A. R. et al. Shuttling a single charge across a one-dimensional
+    array of silicon quantum dots. Nat. Commun. 10, 1063 (2019).
+  volume: '10'
+  year: '2019'
+- author: CH Yang
+  doi: 10.1038/s41586-020-2171-6
+  first-page: '350'
+  journal-title: Nature
+  unstructured: Yang, C. H. et al. Operation of a silicon quantum processor unit cell
+    above one kelvin. Nature 580, 350–354 (2020).
+  volume: '580'
+  year: '2020'
+- author: ER MacQuarrie
+  doi: 10.1038/s41534-020-00314-w
+  journal-title: npj Quantum Inf.
+  unstructured: MacQuarrie, E. R. et al. Progress toward a capacitively mediated CNOT
+    between two charge qubits in Si/SiGe. npj Quantum Inf. 6, 81 (2020).
+  volume: '6'
+  year: '2020'
+- doi: 10.1007/978-3-319-25607-8_1
+  unstructured: Asbóth, J. K., Oroszlány, L. & Pályi, A. The Su–Schrieffer–Heeger
+    (SSH) Model (Springer, 2016).
+- unstructured: Wang, Y., Chen, C.-Y., Klimeck, G., Simmons, M. Y. & Rahman, R. All-electrical
+    control of donor-bound electron spin qubits in silicon. Preprint at https://arxiv.org/abs/1703.05370
+    (2017).
+- author: TF Watson
+  doi: 10.1021/nl4045026
+  first-page: '1830'
+  journal-title: Nano Lett.
+  unstructured: Watson, T. F. et al. Transport in asymmetrically coupled donor-based
+    silicon triple quantum dots. Nano Lett. 14, 1830–1835 (2014).
+  volume: '14'
+  year: '2014'
+- author: Y He
+  doi: 10.1038/s41586-019-1381-2
+  first-page: '371'
+  journal-title: Nature
+  unstructured: He, Y. et al. A two-qubit gate between phosphorus donor electrons
+    in silicon. Nature 571, 371–375 (2019).
+  volume: '571'
+  year: '2019'
+- author: L Kranz
+  doi: 10.1002/adma.202003361
+  first-page: '2003361'
+  journal-title: Adv. Mater.
+  unstructured: Kranz, L. et al. Exploiting a single-crystal environment to minimize
+    the charge noise on qubits in silicon. Adv. Mater. 32, 2003361 (2020).
+  volume: '32'
+  year: '2020'
+- unstructured: Wang, X. et al. Quantum simulation of an extended Fermi-Hubbard model
+    using a 2D lattice of dopant-based quantum dots. Preprint at https://arxiv.org/abs/2110.08982
+    (2021).
+- author: E Kim
+  doi: 10.1103/PhysRevX.11.011015
+  first-page: '011015'
+  journal-title: Phys. Rev.
+  unstructured: Kim, E. et al. Quantum electrodynamics in a topological waveguide.
+    Phys. Rev. 11, 011015 (2021).
+  volume: '11'
+  year: '2021'
+- author: S Lin
+  doi: 10.1021/acs.nanolett.0c04121
+  first-page: '1025'
+  journal-title: Nano Lett.
+  unstructured: Lin, S., Zhang, L., Tian, T., Duan, C.-K. & Du, J. Dynamic observation
+    of topological soliton states in a programmable nanomechanical lattice. Nano Lett.
+    21, 1025–1031 (2021).
+  volume: '21'
+  year: '2021'
+- author: S Kruk
+  doi: 10.1002/smll.201603190
+  first-page: '1603190'
+  journal-title: Small
+  unstructured: Kruk, S. et al. Edge states and topological phase transitions in chains
+    of dielectric nanoparticles. Small 13, 1603190 (2017).
+  volume: '13'
+  year: '2017'
+- author: FJ Rueß
+  doi: 10.1002/smll.200600680
+  first-page: '563'
+  journal-title: Small
+  unstructured: Rueß, F. J. et al. Realization of atomically controlled dopant devices
+    in silicon. Small 3, 563–567 (2007).
+  volume: '3'
+  year: '2007'
+- author: MA Broome
+  doi: 10.1038/s41467-018-02982-x
+  journal-title: Nat. Commun.
+  unstructured: Broome, M. A. et al. Two-electron spin correlations in precision placed
+    donors in silicon. Nat. Commun. 9, 980 (2018).
+  volume: '9'
+  year: '2018'
+- author: L Fricke
+  doi: 10.1038/s41467-021-23662-3
+  journal-title: Nat. Commun.
+  unstructured: Fricke, L. et al. Coherent control of a donor-molecule electron spin
+    qubit in silicon. Nat. Commun. 12, 3323 (2021).
+  volume: '12'
+  year: '2021'
+- author: G Kiršanskas
+  doi: 10.1016/j.cpc.2017.07.024
+  first-page: '317'
+  journal-title: Comput. Phys. Commun.
+  unstructured: 'Kiršanskas, G., Pedersen, J. N., Karlström, O., Leijnse, M. & Wacker,
+    A. QmeQ 1.0: an open-source python package for calculations of transport through
+    quantum dot devices. Comput. Phys. Commun. 221, 317–342 (2017).'
+  volume: '221'
+  year: '2017'
+- author: HQ Lin
+  doi: 10.1063/1.4823192
+  first-page: '400'
+  journal-title: Comput. Phys.
+  unstructured: Lin, H. Q., Gubernatis, J. E., Gould, H. & Tobochnik, J. Exact diagonalization
+    methods for quantum systems. Comput. Phys. 7, 400 (1993).
+  volume: '7'
+  year: '1993'
+- unstructured: Hogg, M. Scalable Readout and Control of Phosphorus Donor Spin Qubits
+    in Silicon. PhD thesis, UNSW Sydney Australia (2021).
+- author: B Koiller
+  doi: 10.1103/PhysRevLett.88.027903
+  first-page: 027903
+  journal-title: Phys. Rev. Lett.
+  unstructured: Koiller, B., Hu, X. & Das Sarma, S. Exchange in silicon-based quantum
+    computer architecture. Phys. Rev. Lett. 88, 027903 (2002).
+  volume: '88'
+  year: '2002'
+- author: CJ Wellard
+  doi: 10.1103/PhysRevB.68.195209
+  first-page: '195209'
+  journal-title: Phys. Rev. B
+  unstructured: Wellard, C. J. et al. Electron exchange coupling for single-donor
+    solid-state spin qubits. Phys. Rev. B 68, 195209 (2003).
+  volume: '68'
+  year: '2003'
+- author: B Joecker
+  doi: 10.1088/1367-2630/ac0abf
+  first-page: '073007'
+  journal-title: New J. Phys.
+  unstructured: Joecker, B. et al. Full configuration interaction simulations of exchange-coupled
+    donors in silicon using multi-valley effective mass theory. New J. Phys. 23, 073007
+    (2021).
+  volume: '23'
+  year: '2021'
+doc_url: https://www.nature.com/articles/s41586-022-04706-0
+doi: 10.1038/s41586-022-04706-0
+files:
+- kiczynski-m.-and-gorman-s.-k.-and-geng-h.-and-donnelly-m.-b.-and-chung-y.-and-he-y.-and-keizer-j.-g.-and-simmons-m.-y.engineering-topological.pdf
+issue: '7915'
+journal: Nature
+language: en
+month: 6
+pages: 694--699
+publisher: Springer Science and Business Media LLC
+ref: EngineeringTopKiczyn2022
+time-added: 2022-07-18-15:57:14
+title: Engineering topological states in atom-based semiconductor quantum dots
+type: article
+url: http://dx.doi.org/10.1038/s41586-022-04706-0
+volume: '606'
+year: 2022

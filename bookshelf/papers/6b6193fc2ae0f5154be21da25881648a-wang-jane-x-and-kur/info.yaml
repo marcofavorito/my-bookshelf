@@ -1,0 +1,50 @@
+abstract: In recent years deep reinforcement learning (RL) systems have attained superhuman
+  performance in a number of challenging task domains. However, a major limitation
+  of such applications is their demand for massive amounts of training data. A critical
+  present objective is thus to develop deep RL methods that can adapt rapidly to new
+  tasks. In the present work we introduce a novel approach to this challenge, which
+  we refer to as deep meta-reinforcement learning. Previous work has shown that recurrent
+  networks can support meta-learning in a fully supervised context. We extend this
+  approach to the RL setting. What emerges is a system that is trained using one RL
+  algorithm, but whose recurrent dynamics implement a second, quite separate RL procedure.
+  This second, learned RL algorithm can differ from the original one in arbitrary
+  ways. Importantly, because it is learned, it is configured to exploit structure
+  in the training domain. We unpack these points in a series of seven proof-of-concept
+  experiments, each of which examines a key aspect of deep meta-RL. We consider prospects
+  for extending and scaling up the approach, and also point out some potentially important
+  implications for neuroscience.
+archiveprefix: arXiv
+author: Wang, Jane X and Kurth-Nelson, Zeb and Tirumala, Dhruva and Soyer, Hubert
+  and Leibo, Joel Z and Munos, Remi and Blundell, Charles and Kumaran, Dharshan and
+  Botvinick, Matt
+author_list:
+- family: Wang
+  given: Jane X
+- family: Kurth-Nelson
+  given: Zeb
+- family: Tirumala
+  given: Dhruva
+- family: Soyer
+  given: Hubert
+- family: Leibo
+  given: Joel Z
+- family: Munos
+  given: Remi
+- family: Blundell
+  given: Charles
+- family: Kumaran
+  given: Dharshan
+- family: Botvinick
+  given: Matt
+eprint: 1611.05763v3
+file: 1611.05763v3.pdf
+files:
+- wang-jane-x-and-kurth-nelson-zeb-and-tirumala-dhruva-and-soyer-hubert-and-leibo-joel-z-and-munos-remi-and-blundell-charles-and-kumaran-dharsha.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1611.05763v3
+time-added: 2022-07-20-13:50:12
+title: Learning to reinforcement learn
+type: article
+url: http://arxiv.org/abs/1611.05763v3
+year: '2016'

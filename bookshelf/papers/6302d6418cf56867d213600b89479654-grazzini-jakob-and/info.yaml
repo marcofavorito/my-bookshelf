@@ -1,0 +1,38 @@
+abstract: 'We consider Bayesian inference techniques for agent-based (AB) models,
+  as an alternative to simulated minimum distance (SMD). Three computationally heavy
+  steps are involved: (i) simulating the model, (ii) estimating the likelihood and
+  (iii) sampling from the posterior distribution of the parameters. Computational
+  complexity of AB models implies that efficient techniques have to be used with respect
+  to points (ii) and (iii), possibly involving approximations. We first discuss non-parametric
+  (kernel density) estimation of the likelihood, coupled with Markov chain Monte Carlo
+  sampling schemes. We then turn to parametric approximations of the likelihood, which
+  can be derived by observing the distribution of the simulation outcomes around the
+  statistical equilibria, or by assuming a specific form for the distribution of external
+  deviations in the data. Finally, we introduce Approximate Bayesian Computation techniques
+  for likelihood-free estimation. These allow embedding SMD methods in a Bayesian
+  framework, and are particularly suited when robust estimation is needed. These techniques
+  are first tested in a simple price discovery model with one parameter, and then
+  employed to estimate the behavioural macroeconomic model of De Grauwe (2012), with
+  nine unknown parameters.'
+author: Grazzini, Jakob and Richiardi, Matteo G. and Tsionas, Mike
+author_list:
+- family: Grazzini
+  given: Jakob
+- family: Richiardi
+  given: Matteo G.
+- family: Tsionas
+  given: Mike
+doi: https://doi.org/10.1016/j.jedc.2017.01.014
+files:
+- grazzini-jakob-and-richiardi-matteo-g.-and-tsionas-mikebayesian-estimation-of-agent-based-models2017.pdf
+issn: 0165-1889
+journal: Journal of Economic Dynamics and Control
+keywords: Agent-based, Estimation, Bayes, Approximate Bayesian computation, Likelihood
+pages: 26-47
+ref: GRAZZINI201726
+time-added: 2022-07-20-10:20:45
+title: Bayesian estimation of agent-based models
+type: article
+url: https://www.sciencedirect.com/science/article/pii/S0165188917300222
+volume: '77'
+year: '2017'
