@@ -1,0 +1,33 @@
+abstract: Metalearning of deep neural network (DNN) architectures and hyperparameters
+  has become an increasingly important area of research. Loss functions are a type
+  of metaknowledge that is crucial to effective training of DNNs, however, their potential
+  role in metalearning has not yet been fully explored. Whereas early work focused
+  on genetic programming (GP) on tree representations, this paper proposes continuous
+  CMA-ES optimization of multivariate Taylor polynomial parameterizations. This approach,
+  TaylorGLO, makes it possible to represent and search useful loss functions more
+  effectively. In MNIST, CIFAR-10, and SVHN benchmark tasks, TaylorGLO finds new loss
+  functions that outperform functions previously discovered through GP, as well as
+  the standard cross-entropy loss, in fewer generations. These functions serve to
+  regularize the learning task by discouraging overfitting to the labels, which is
+  particularly useful in tasks where limited training data is available. The results
+  thus demonstrate that loss function optimization is a productive new avenue for
+  metalearning.
+archiveprefix: arXiv
+author: Gonzalez, Santiago and Miikkulainen, Risto
+author_list:
+- family: Gonzalez
+  given: Santiago
+- family: Miikkulainen
+  given: Risto
+eprint: 2002.00059v4
+file: 2002.00059v4.pdf
+files:
+- gonzalez-santiago-and-miikkulainen-ristooptimizing-loss-functions-through-multivariate-taylor-polynomial-parameterization2020.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2002.00059v4
+time-added: 2022-08-02-11:34:43
+title: Optimizing Loss Functions Through Multivariate Taylor Polynomial   Parameterization
+type: article
+url: http://arxiv.org/abs/2002.00059v4
+year: '2020'

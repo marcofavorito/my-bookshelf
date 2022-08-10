@@ -1,0 +1,29 @@
+abstract: Most classical planners use grounding as a preprocessing step, essentially
+  reducing planning to propositional logic. However, grounding involves instantiating
+  all action rules with concrete object combinations, and results in large encodings
+  for SAT/QBF-based planners. This severe cost in memory becomes a main bottleneck
+  when actions have many parameters, such as in the Organic Synthesis problems from
+  the IPC 2018 competition. We provide a compact QBF encoding that is logarithmic
+  in the number of objects and avoids grounding completely, by using universal quantification
+  for object combinations. We show that we can solve some of the Organic Synthesis
+  problems, which could not be handled before by any SAT/QBF based planners due to
+  grounding.
+archiveprefix: arXiv
+author: Shaik, Irfansha and van de Pol, Jaco
+author_list:
+- family: Shaik
+  given: Irfansha
+- family: van de Pol
+  given: Jaco
+eprint: 2106.10138v2
+file: 2106.10138v2.pdf
+files:
+- shaik-irfansha-and-van-de-pol-jacoclassical-planning-as-qbf-without-grounding-extended-version-2021.pdf
+month: Jun
+primaryclass: cs.AI
+ref: 2106.10138v2
+time-added: 2022-08-09-10:47:52
+title: Classical Planning as QBF without Grounding (extended version)
+type: article
+url: http://arxiv.org/abs/2106.10138v2
+year: '2021'

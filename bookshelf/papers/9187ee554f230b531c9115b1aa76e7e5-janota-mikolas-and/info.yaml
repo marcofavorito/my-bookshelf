@@ -1,0 +1,267 @@
+author: Janota, Mikoláš and Marques-Silva, Joao
+author_list:
+- affiliation: []
+  family: Janota
+  given: Mikoláš
+- affiliation: []
+  family: Marques-Silva
+  given: Joao
+citations:
+- author: C.W. Barrett
+  doi: 10.1007/3-540-45657-0_18
+  first-page: '236'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Barrett, C.W., Dill, D.L., Stump, A.: Checking satisfiability of
+    first-order formulas by incremental translation to SAT. In: Brinksma, E., Larsen,
+    K.G. (eds.) CAV 2002. LNCS, vol. 2404, pp. 236–249. Springer, Heidelberg (2002)'
+  volume-title: Computer Aided Verification
+  year: '2002'
+- unstructured: 'Biere, A., Heule, M., van Maaren, H., Walsh, T. (eds.): Handbook
+    of Satisfiability, Frontiers in Artificial Intelligence and Applications, vol. 185.
+    IOS Press, Amsterdam (2009)'
+  volume-title: Handbook of Satisfiability, Frontiers in Artificial Intelligence and
+    Applications
+  year: '2009'
+- author: B. Browning
+  doi: 10.1145/1185448.1185456
+  first-page: '30'
+  unstructured: 'Browning, B., Remshagen, A.: A SAT-based solver for Q-ALL SAT. In:
+    Menezes, R. (ed.) ACM Southeast Regional Conference, pp. 30–33. ACM, New York
+    (2006)'
+  volume-title: ACM Southeast Regional Conference
+  year: '2006'
+- unstructured: 'Castellini, C., Giunchiglia, E., Tacchella, A.: Improvements to SAT-based
+    conformant planning. In: European Conference on Planning (2001)'
+- author: P. Chauhan
+  doi: 10.1007/3-540-36126-X_3
+  first-page: '33'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Chauhan, P., Clarke, E.M., Kukula, J.H., Sapra, S., Veith, H., Wang,
+    D.: Automated abstraction refinement for model checking large state spaces using
+    SAT based conflict analysis. In: Aagaard, M.D., O’Leary, J.W. (eds.) FMCAD 2002.
+    LNCS, vol. 2517, pp. 33–51. Springer, Heidelberg (2002)'
+  volume-title: Formal Methods in Computer-Aided Design
+  year: '2002'
+- author: E.M. Clarke
+  doi: 10.1007/10722167_15
+  first-page: '154'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Clarke, E.M., Grumberg, O., Jha, S., Lu, Y., Veith, H.: Counterexample-guided
+    abstraction refinement. In: Emerson, E.A., Sistla, A.P. (eds.) CAV 2000. LNCS,
+    vol. 1855, pp. 154–169. Springer, Heidelberg (2000)'
+  volume-title: Computer Aided Verification
+  year: '2000'
+- author: E.M. Clarke
+  doi: 10.1145/876638.876643
+  first-page: '752'
+  issue: '5'
+  journal-title: J. ACM
+  unstructured: 'Clarke, E.M., Grumberg, O., Jha, S., Lu, Y., Veith, H.: Counterexample-guided
+    abstraction refinement for symbolic model checking. J. ACM 50(5), 752–794 (2003)'
+  volume: '50'
+  year: '2003'
+- author: E.M. Clarke
+  doi: 10.1109/TCAD.2004.829807
+  first-page: '1113'
+  issue: '7'
+  journal-title: IEEE Trans. on CAD of Integrated Circuits and Systems
+  unstructured: 'Clarke, E.M., Gupta, A., Strichman, O.: SAT-based counterexample-guided
+    abstraction refinement. IEEE Trans. on CAD of Integrated Circuits and Systems 23(7),
+    1113–1123 (2004)'
+  volume: '23'
+  year: '2004'
+- author: N. Dershowitz
+  doi: 10.1007/11499107_32
+  first-page: '408'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Dershowitz, N., Hanna, Z., Katz, J.: Bounded model checking with
+    QBF. In: Bacchus, F., Walsh, T. (eds.) SAT 2005. LNCS, vol. 3569, pp. 408–414.
+    Springer, Heidelberg (2005)'
+  volume-title: Theory and Applications of Satisfiability Testing
+  year: '2005'
+- unstructured: 'Eén, N., Sörensson, N.: An extensible SAT-solver. In: Giunchiglia,
+    E., Tacchella, A. (eds.) [18]'
+- author: T. Eiter
+  doi: 10.1016/0304-3975(93)90073-3
+  first-page: '231'
+  issue: '2'
+  journal-title: Theor. Comput. Sci.
+  unstructured: 'Eiter, T., Gottlob, G.: Propositional circumscription and extended
+    closed-world reasoning are Π P 2-complete. Theor. Comput. Sci. 114(2), 231–245
+    (1993)'
+  volume: '114'
+  year: '1993'
+- author: C. Flanagan
+  doi: 10.1007/978-3-540-45069-6_34
+  first-page: '355'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Flanagan, C., Joshi, R., Ou, X., Saxe, J.B.: Theorem proving using
+    lazy proof explication. In: Hunt Jr., W.A., Somenzi, F. (eds.) CAV 2003. LNCS,
+    vol. 2725, pp. 355–367. Springer, Heidelberg (2003)'
+  volume-title: Computer Aided Verification
+  year: '2003'
+- unstructured: 'Giunchiglia, E., Marin, P., Narizzano, M.: An effective preprocessor
+    for QBF pre-reasoning. In: 2nd International Workshop on Quantification in Constraint
+    Programming, QiCP (2008)'
+- unstructured: 'Giunchiglia, E., Marin, P., Narizzano, M.: Reasoning with quantified
+    boolean formulas. In: Biere, et al (eds.) [2], pp. 761–780'
+- doi: 10.1007/978-3-642-14186-7_9
+  unstructured: 'Giunchiglia, E., Marin, P., Narizzano, M.: sQueezeBF: An effective
+    preprocessor for QBFs based on equivalence reasoning. In: Strichman, O., Szeider,
+    A. (eds.) [36], pp. 85–98'
+- author: E. Giunchiglia
+  doi: 10.1007/978-3-540-30494-4_15
+  first-page: '201'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Giunchiglia, E., Narizzano, M., Tacchella, A.: QuBE++: An Efficient
+    QBF Solver. In: Hu, A.J., Martin, A.K. (eds.) FMCAD 2004. LNCS, vol. 3312, pp.
+    201–213. Springer, Heidelberg (2004)'
+  volume-title: Formal Methods in Computer-Aided Design
+  year: '2004'
+- author: E. Giunchiglia
+  doi: 10.1613/jair.1959
+  first-page: '371'
+  journal-title: J. Artif. Intell. Res. (JAIR)
+  unstructured: 'Giunchiglia, E., Narizzano, M., Tacchella, A.: Clause/term resolution
+    and learning in the evaluation of quantified boolean formulas. J. Artif. Intell.
+    Res (JAIR) 26, 371–416 (2006)'
+  volume: '26'
+  year: '2006'
+- series-title: Lecture Notes in Computer Science
+  unstructured: 'Giunchiglia, E., Tacchella, A. (eds.): SAT 2003. LNCS, vol. 2919.
+    Springer, Heidelberg (2004)'
+  volume-title: Theory and Applications of Satisfiability Testing
+  year: '2004'
+- author: M. Janota
+  doi: 10.1007/978-3-642-11266-9_44
+  first-page: '528'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Janota, M., Botterweck, G., Grigore, R., Marques-Silva, J.: How to
+    complete an interactive configuration process? In: van Leeuwen, J., Muscholl,
+    A., Peleg, D., Pokorný, J., Rumpe, B. (eds.) SOFSEM 2010. LNCS, vol. 5901, pp.
+    528–539. Springer, Heidelberg (2010)'
+  volume-title: 'SOFSEM 2010: Theory and Practice of Computer Science'
+  year: '2010'
+- author: M. Janota
+  doi: 10.1007/978-3-642-15675-5_18
+  first-page: '195'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Janota, M., Grigore, R., Marques-Silva, J.: Counterexample guided
+    abstraction refinement algorithm for propositional circumscription. In: Janhunen,
+    T., Niemelä, I. (eds.) JELIA 2010. LNCS, vol. 6341, pp. 195–207. Springer, Heidelberg
+    (2010)'
+  volume-title: Logics in Artificial Intelligence
+  year: '2010'
+- unstructured: 'Kleine-Büning, H., Bubeck, U.: Theory of quantified boolean formulas.
+    In: Biere, et al (eds.) [2]'
+- unstructured: 'Li, C.M., Manyà, F.: Maxsat, hard and soft constraints. In: Biere,
+    et al (eds.) [2], pp. 613–631'
+- unstructured: 'Marques-Silva, J., Lynce, I., Malik, S.: Conflict-driven clause learning
+    SAT solvers. In: Biere, et al (eds.) [2], pp. 131–153'
+- doi: 10.1109/SWAT.1972.29
+  unstructured: 'Meyer, A.R., Stockmeyer, L.J.: The equivalence problem for regular
+    expressions with squaring requires exponential space. In: Symposium Switching
+    and Automata Theory (October 1972)'
+- doi: 10.1007/978-3-540-24605-3_31
+  unstructured: 'Mneimneh, M.N., Sakallah, K.A.: Computing vertex eccentricity in
+    exponentially large graphs: QBF formulation and solution. In: Giunchiglia, E.,
+    Tacchella, A. (eds.) [18], pp. 411–425'
+- author: D. Monniaux
+  doi: 10.1007/978-3-642-14295-6_51
+  first-page: '585'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Monniaux, D.: Quantifier elimination by lazy model enumeration. In:
+    Touili, T., Cook, B., Jackson, P. (eds.) CAV 2010. LNCS, vol. 6174, pp. 585–599.
+    Springer, Heidelberg (2010)'
+  volume-title: Computer Aided Verification
+  year: '2010'
+- author: L.M. Moura de
+  doi: 10.1007/3-540-45620-1_35
+  first-page: '438'
+  series-title: Lecture Notes in Artificial Intelligence
+  unstructured: 'de Moura, L.M., Rueß, H., Sorea, M.: Lazy theorem proving for bounded
+    model checking over infinite domains. In: Voronkov, A. (ed.) CADE 2002. LNCS (LNAI),
+    vol. 2392, pp. 438–455. Springer, Heidelberg (2002)'
+  volume-title: Automated Deduction - CADE-18
+  year: '2002'
+- doi: 10.1007/978-3-642-14186-7_20
+  unstructured: 'Peschiera, C., Pulina, L., Tacchella, A., Bubeck, U., Kullmann, O.,
+    Lynce, I.: The seventh QBF solvers evaluation (QBFEVAL’10). In: Strichman, O.,
+    Szeider, S. (eds.) [36], pp. 237–250'
+- author: D.A. Plaisted
+  doi: 10.1016/S0166-218X(02)00409-2
+  first-page: '291'
+  issue: '2'
+  journal-title: Discrete Applied Mathematics
+  unstructured: 'Plaisted, D.A., Biere, A., Zhu, Y.: A satisfiability procedure for
+    quantified boolean formulae. Discrete Applied Mathematics 130(2), 291–328 (2003)'
+  volume: '130'
+  year: '2003'
+- author: D.A. Plaisted
+  doi: 10.1016/S0747-7171(86)80028-1
+  first-page: '293'
+  issue: '3'
+  journal-title: J. Symb. Comput.
+  unstructured: 'Plaisted, D.A., Greenbaum, S.: A structure-preserving clause form
+    translation. J. Symb. Comput. 2(3), 293–304 (1986)'
+  volume: '2'
+  year: '1986'
+- unstructured: QBF solver evaluation portal, http://www.qbflib.org/index_eval.php
+- unstructured: The Quantified Boolean Formulas satisfiability library, http://www.qbflib.org/
+- unstructured: 'Ranjan, D.P., Tang, D., Malik, S.: A comparative study of 2QBF algorithms.
+    In: SAT (2004)'
+- author: J. Rintanen
+  first-page: '1192'
+  unstructured: 'Rintanen, J.: Improvements to the evaluation of quantified Boolean
+    formulae. In: Dean, T. (ed.) IJCAI, pp. 1192–1197. Morgan Kaufmann, San Francisco
+    (1999)'
+  volume-title: IJCAI
+  year: '1999'
+- author: E.D. Rosa
+  doi: 10.1007/s10601-010-9095-y
+  first-page: '485'
+  issue: '4'
+  journal-title: Constraints
+  unstructured: 'Rosa, E.D., Giunchiglia, E., Maratea, M.: Solving satisfiability
+    problems with preferences. Constraints 15(4), 485–515 (2010)'
+  volume: '15'
+  year: '2010'
+- series-title: Lecture Notes in Computer Science
+  unstructured: 'Strichman, O., Szeider, S. (eds.): SAT 2010. LNCS, vol. 6175. Springer,
+    Heidelberg (2010)'
+  volume-title: Theory and Applications of Satisfiability Testing – SAT 2010
+  year: '2010'
+- unstructured: 'STRUQS: A Structural QBF Solver, www.qbflib.org/DESCRIPTIONS/struqs.pdf'
+- author: G.S. Tseitin
+  first-page: '10'
+  issue: 115-125
+  journal-title: Studies in Constructive Mathematics and Mathematical Logic
+  unstructured: 'Tseitin, G.S.: On the complexity of derivation in propositional calculus.
+    Studies in Constructive Mathematics and Mathematical Logic 2(115-125), 10–13 (1968)'
+  volume: '2'
+  year: '1968'
+- author: C. Umans
+  doi: 10.1006/jcss.2001.1775
+  first-page: '597'
+  issue: '4'
+  journal-title: J. Comput. Syst. Sci.
+  unstructured: 'Umans, C.: The minimum equivalent DNF problem and shortest implicants.
+    J. Comput. Syst. Sci. 63(4), 597–611 (2001)'
+  volume: '63'
+  year: '2001'
+- unstructured: 'Wintersteiger, C.M., Hamadi, Y., de Moura, L.: Efficiently solving
+    quantified bit-vector formulas. In: Proceedings of Formal Methods in Computer
+    Aided Design FMCAD (October 2010)'
+doi: 10.1007/978-3-642-21581-0_19
+isbn:
+- '9783642215803'
+- '9783642215810'
+journal: Theory and Applications of Satisfiability Testing - SAT 2011
+pages: 230--244
+publisher: Springer Berlin Heidelberg
+ref: AbstractionBasJanota2011
+time-added: 2022-08-05-17:01:16
+title: Abstraction-Based Algorithm for 2QBF
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-642-21581-0_19
+year: 2011

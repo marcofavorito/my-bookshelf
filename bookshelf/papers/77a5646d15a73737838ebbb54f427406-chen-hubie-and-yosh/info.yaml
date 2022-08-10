@@ -1,0 +1,171 @@
+author: Chen, Hubie and Yoshida, Yuichi
+author_list:
+- affiliation:
+  - name: Birkbeck, University of London, London, United Kingdom
+  family: Chen
+  given: Hubie
+- affiliation:
+  - name: National Institute of Informatics, Tokyo, Japan
+  family: Yoshida
+  given: Yuichi
+booktitle: the 38th ACM SIGMOD-SIGACT-SIGAI Symposium
+citations:
+- unstructured: S. Abiteboul, R. Hull, and V. Vianu. 1995. Foundations of Databases
+    .Addison-Wesley.
+- unstructured: Isolde Adler and Frederik Harwath. 2018. Property Testing for Bounded
+    Degree Databases . In STACS. 6:1--6:14.
+- unstructured: Noga Alon, W Fernandez de la Vega, Ravi Kannan, and Marek Karpinski.
+    2003. Random sampling and approximation of MAX-CSPs. J. Comput. System Sci. ,
+    Vol. 67, 2 (2003), 212--243.
+- unstructured: 'Noga Alon, Eldar Fischer, Ilan Newman, and Asaf Shapira. 2009. A
+    Combinatorial Characterization of the Testable Graph Properties: It''s All About
+    Regularity. SIAM J. Comput. , Vol. 39, 1 (2009), 143--167.'
+- unstructured: Noga Alon, Tali Kaufman, Michael Krivelevich, and Dana Ron. 2008.
+    Testing Triangle-Freeness in General Graphs. SIAM Journal on Discrete Mathematics
+    , Vol. 22, 2 (2008), 786--819.
+- unstructured: Noga Alon and Asaf Shapira. 2002. Testing satisfiability. In SODA.
+    645--654.
+- doi: 10.1109/FOCS.2009.32
+  unstructured: L. Barto and M. Kozik. 2009. Constraint Satisfaction Problems of Bounded
+    Width. In FOCS. 595--603.
+- doi: 10.1145/1938551.1938584
+  unstructured: Sagi Ben-Moshe, Yaron Kanza, Eldar Fischer, Arie Matsliah, Mani Fischer,
+    and Carl Staelin. 2011. Detecting and exploiting near-sortedness for efficient
+    relational query evaluation. In ICDT . 256--267.
+- unstructured: Eli Ben-Sasson, Prahladh Harsha, and Sofya Raskhodnikova. 2005. Some
+    3CNF Properties Are Hard to Test. SIAM J. Comput. , Vol. 35, 1 (2005), 1--21.
+- unstructured: Jon Louis Bentley. 1979. Decomposable searching problems . Inform.
+    Process. Lett. , Vol. 8, 5 (1979), 244--251.
+- doi: 10.1007/978-3-642-39206-1_11
+  unstructured: Arnab Bhattacharyya and Yuichi Yoshida. 2013. An Algebraic Characterization
+    of Testable Boolean CSPs. In ICALP. 123--134.
+- unstructured: Manuel Blum, Michael Luby, and Ronitt Rubinfeld. 1993. Self-testing/correcting
+    with applications to numerical problems. J. Comput. System Sci. , Vol. 47, 3 (1993),
+    549--595.
+- unstructured: Simone Bova and Hubie Chen. 2014. The Complexity of Width Minimization
+    for Existential Positive Queries. In ICDT . 235--244.
+- unstructured: Johann Brault-Baron. 2016. Hypergraph Acyclicity Revisited. Comput.
+    Surveys , Vol. 49, 3 (2016), 54:1--54:26.
+- doi: 10.1109/FOCS.2017.37
+  unstructured: Andrei A. Bulatov. 2017. A Dichotomy Theorem for Nonuniform CSPs.
+    In FOCS. 319--330.
+- doi: 10.1145/800105.803397
+  unstructured: Ashok K Chandra and Philip M Merlin. 1977. Optimal implementation
+    of conjunctive queries in relational data bases. In STOC . 77--90.
+- doi: 10.1145/153850.153856
+  unstructured: Surajit Chaudhuri and Moshe Y. Vardi. 1993. Optimization of Real Conjunctive
+    Queries. In PODS. 59--70.
+- doi: 10.1145/2559946
+  unstructured: Hubie Chen. 2014. On the complexity of existential positive queries.
+    ACM Trans. Comput. Log. , Vol. 15, 1 (2014).
+- unstructured: Hubie Chen and Benoit Larose. 2017. Asking the Metaquestions in Constraint
+    Tractability. TOCT , Vol. 9, 3 (2017), 11:1--11:27.
+- doi: 10.1145/2751316
+  unstructured: Hubie Chen and Moritz M&#252; ller. 2015. The Fine Classification
+    of Conjunctive Queries and Parameterized Logarithmic Space. Transactions on Computation
+    Theory , Vol. 7, 2 (2015), 7.
+- unstructured: 'Hubie Chen and Moritz M&#252; ller. 2017a. One Hierarchy Spawns Another:
+    Graph Deconstructions and the Complexity Classification of Conjunctive Queries.
+    ACM Trans. Comput. Log. , Vol. 18, 4 (2017), 29:1--29:37.'
+- unstructured: Hubie Chen and Moritz M&#252; ller. 2017b. The Parameterized Space
+    Complexity of Embedding Along a Path. Theory Comput. Syst. , Vol. 61, 3 (2017),
+    851--870.
+- doi: 10.1109/FOCS.2016.63
+  unstructured: Hubie Chen, Matt Valeriote, and Yuichi Yoshida. 2016. Testing Assignments
+    to Constraint Satisfaction Problems. In FOCS. 525--534.
+- doi: 10.1145/2566486.2568019
+  unstructured: Anirban Dasgupta, Ravi Kumar, and Tamas Sarlos. 2014. On estimating
+    the average degree. In WWW. 795--806.
+- unstructured: 'Ronald Fagin, Phokion G Kolaitis, Ren&#233;e J Miller, and Lucian
+    Popa. 2005. Data exchange: semantics and query answering. Theoretical Computer
+    Science , Vol. 336, 1 (2005), 89--124.'
+- unstructured: 'T. Feder and M. Vardi. 1999. The computational structure of monotone
+    monadic SNP and constraint satisfaction: A study through Datalog and group theory.
+    SIAM J. Comput. , Vol. 28 (1999), 57--104.'
+- doi: 10.1145/509907.509977
+  unstructured: Eldar Fischer, Eric Lehman, Ilan Newman, Sofya Raskhodnikova, Ronitt
+    Rubinfeld, and Alex Samorodnitsky. 2002. Monotonicity testing over general poset
+    domains. In STOC. 474--483.
+- unstructured: Jacob Fox, J&#225;nos Pach, and Andrew Suk. 2016. A Polynomial Regularity
+    Lemma for Semialgebraic Hypergraphs and Its Applications in Geometry and Property
+    Testing. SIAM J. Comput. , Vol. 45, 6 (2016), 2199--2223.
+- doi: 10.1007/978-3-642-16367-8
+  unstructured: 'Oded Goldreich (Ed.). 2010. Property Testing: Current Research and
+    Surveys. LNCS, Vol. 6390. Springer.'
+- unstructured: Oded Goldreich, Shafi Goldwasser, and Dana Ron. 1998. Property testing
+    and its connection to learning and approximation. J. ACM , Vol. 45, 4 (1998),
+    653--750.
+- unstructured: Oded Goldreich and Dana Ron. 2002. Property Testing in Bounded Degree
+    Graphs. Algorithmica , Vol. 32, 2 (2002), 302--343.
+- doi: 10.1002/rsa.20203
+  unstructured: Oded Goldreich and Dana Ron. 2008. Approximating average parameters
+    of graphs. Random Structures &#38
+- doi: 10.1002/rsa.20203
+  unstructured: Algorithms , Vol. 32, 4 (2008), 473--493.
+- unstructured: Georg Gottlob, Nicola Leone, and Francesco Scarcello. 2001. The complexity
+    of acyclic conjunctive queries. J. ACM , Vol. 48, 3 (2001), 431--498.
+- unstructured: Georg Gottlob, Nicola Leone, and Francesco Scarcello. 2002. Hypertree
+    decompositions and tractable queries. J. Comput. System Sci. , Vol. 64, 3 (2002),
+    579--627.
+- doi: 10.1145/1206035.1206036
+  unstructured: Martin Grohe. 2007. The complexity of homomorphism and constraint
+    satisfaction problems seen from the other side. J. ACM , Vol. 54, 1 (2007).
+- unstructured: P. Hell and J. Nesetril. 1992. The core of a graph. Discrete Mathematics
+    , Vol. 109 (1992), 117--126.
+- unstructured: Kazuo Iwama and Yuichi Yoshida. 2018. Parameterized Testability. ACM
+    Transactions on Computation Theory , Vol. 9, 4 (2018), 16--16.
+- doi: 10.1109/FOCS.2017.84
+  unstructured: Felix Joos, Jaehoon Kim, Daniela K&#252;hn, and Deryk Osthus. 2017.
+    A characterization of testable hypergraph properties. In FOCS. 859--867.
+- unstructured: Tali Kaufman, Michael Krivelevich, and Dana Ron. 2004. Tight Bounds
+    for Testing Bipartiteness in General Graphs. SIAM J. Comput. , Vol. 33, 6 (2004),
+    1441--1483.
+- unstructured: D&#225;niel Marx. 2010. Tractable hypergraph properties for constraint
+    satisfaction and conjunctive queries. In STOC . 735--744.
+- unstructured: C. Papadimitriou and M. Yannakakis. 1999. On the Complexity of Database
+    Queries . J. Comput. System Sci. , Vol. 58, 3 (1999), 407--427.
+- unstructured: V R&#246;dl and M Schacht. 2007. Property testing in hypergraphs and
+    the removal lemma. In STOC. 488--495.
+- unstructured: Dana Ron. 2010. Algorithmic and Analysis Techniques in Property Testing.
+    Foundations and Trends in Theoretical Computer Science , Vol. 5 (2010), 73--205.
+    Issue 2.
+- unstructured: Ronitt Rubinfeld and Asaf Shapira. 2011. Sublinear Time Algorithms.
+    Electronic Colloquium on Computational Complexity (ECCC) , Vol. 18 (2011). TR11-013.
+- unstructured: Ronitt Rubinfeld and Madhu Sudan. 1996. Robust Characterizations of
+    Polynomials with Applications to Program Testing. SIAM J. Comput. , Vol. 25, 2
+    (1996), 252--271.
+- unstructured: 'Nicole Schweikardt, Thomas Schwentick, and Luc Segoufin. 2009. Database
+    Theory: Query Languages. In Algorithms and Theory of Computation Handbook second
+    ed.), , Mikhail J. Atallah and Marina Blanton (Eds.). Vol. 2: Special Topics and
+    Techniques. CRC Press, Chapter 19.'
+- doi: 10.1109/FOCS.2012.59
+  unstructured: Christian Sohler. 2012. Almost Optimal Canonical Property Testers
+    for Satisfiability. In FOCS . 541--550.
+- doi: 10.1145/1993636.1993725
+  unstructured: Yuichi Yoshida. 2011. Optimal constant-time approximation algorithms
+    and (unconditional) inapproximability results for every bounded-degree CSP. In
+    STOC. 665--674.
+- doi: 10.1145/2591796.2591802
+  unstructured: Yuichi Yoshida. 2014a. A Characterization of Locally Testable Affine-Invariant
+    Properties via Decomposition Theorems. In STOC. 154--163.
+- unstructured: Yuichi Yoshida. 2014b. Gowers Norm, Function Limits, and Parameter
+    Estimation. In SODA . 1391--1406.
+- unstructured: Yuichi Yoshida. 2016. Testing list H-homomorphisms. Computional Complexity
+    , Vol. 25, 4 (2016), 737--773.
+- doi: 10.1109/FOCS.2017.38
+  unstructured: Dmitriy Zhuk. 2017. A Proof of CSP Dichotomy Conjecture. In FOCS.
+    331--342.
+doi: 10.1145/3294052.3319679
+files:
+- chen-hubie-and-yoshida-yuichitestability-of-homomorphism-inadmissibility2019.pdf
+journal: Proceedings of the 38th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of
+  Database Systems  - PODS '19
+month: 6
+publisher: ACM Press
+ref: TestabilityOfChen2019
+time-added: 2022-08-09-16:52:42
+title: Testability of Homomorphism Inadmissibility
+type: inproceedings
+url: http://dx.doi.org/10.1145/3294052.3319679
+venue: Amsterdam, Netherlands
+year: 2019

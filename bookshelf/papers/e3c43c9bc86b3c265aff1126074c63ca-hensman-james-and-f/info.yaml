@@ -1,0 +1,29 @@
+abstract: We introduce stochastic variational inference for Gaussian process models.
+  This enables the application of Gaussian process (GP) models to data sets containing
+  millions of data points. We show how GPs can be vari- ationally decomposed to depend
+  on a set of globally relevant inducing variables which factorize the model in the
+  necessary manner to perform variational inference. Our ap- proach is readily extended
+  to models with non-Gaussian likelihoods and latent variable models based around
+  Gaussian processes. We demonstrate the approach on a simple toy problem and two
+  real world data sets.
+archiveprefix: arXiv
+author: Hensman, James and Fusi, Nicolo and Lawrence, Neil D.
+author_list:
+- family: Hensman
+  given: James
+- family: Fusi
+  given: Nicolo
+- family: Lawrence
+  given: Neil D.
+eprint: 1309.6835v1
+file: 1309.6835v1.pdf
+files:
+- hensman-james-and-fusi-nicolo-and-lawrence-neil-d.gaussian-processes-for-big-data2013.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1309.6835v1
+time-added: 2022-08-04-19:50:30
+title: Gaussian Processes for Big Data
+type: article
+url: http://arxiv.org/abs/1309.6835v1
+year: '2013'

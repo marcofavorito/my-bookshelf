@@ -1,0 +1,47 @@
+abstract: In this paper, a new technique for the optimization of (partially) bound
+  queries over disjunctive Datalog programs with stratified negation is presented.
+  The technique exploits the propagation of query bindings and extends the Magic Set
+  (MS) optimization technique.   An important feature of disjunctive Datalog is nonmonotonicity,
+  which calls for nondeterministic implementations, such as backtracking search. A
+  distinguishing characteristic of the new method is that the optimization can be
+  exploited also during the nondeterministic phase. In particular, after some assumptions
+  have been made during the computation, parts of the program may become irrelevant
+  to a query under these assumptions. This allows for dynamic pruning of the search
+  space. In contrast, the effect of the previously defined MS methods for disjunctive
+  Datalog is limited to the deterministic portion of the process. In this way, the
+  potential performance gain by using the proposed method can be exponential, as could
+  be observed empirically.   The correctness of MS is established thanks to a strong
+  relationship between MS and unfounded sets that has not been studied in the literature
+  before. This knowledge allows for extending the method also to programs with stratified
+  negation in a natural way.   The proposed method has been implemented in DLV and
+  various experiments have been conducted. Experimental results on synthetic data
+  confirm the utility of MS for disjunctive Datalog, and they highlight the computational
+  gain that may be obtained by the new method w.r.t. the previously proposed MS methods
+  for disjunctive Datalog programs. Further experiments on real-world data show the
+  benefits of MS within an application scenario that has received considerable attention
+  in recent years, the problem of answering user queries over possibly inconsistent
+  databases originating from integration of autonomous sources of information.
+archiveprefix: arXiv
+author: Alviano, Mario and Faber, Wolfgang and Greco, Gianluigi and Leone, Nicola
+author_list:
+- family: Alviano
+  given: Mario
+- family: Faber
+  given: Wolfgang
+- family: Greco
+  given: Gianluigi
+- family: Leone
+  given: Nicola
+doi: 10.1007/978-3-642-28148-8_5
+eprint: 1204.6346v1
+file: 1204.6346v1.pdf
+files:
+- alviano-mario-and-faber-wolfgang-and-greco-gianluigi-and-leone-nicolamagic-sets-for-disjunctive-datalog-programs2012.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 1204.6346v1
+time-added: 2022-08-09-11:05:59
+title: Magic Sets for Disjunctive Datalog Programs
+type: article
+url: http://arxiv.org/abs/1204.6346v1
+year: '2012'

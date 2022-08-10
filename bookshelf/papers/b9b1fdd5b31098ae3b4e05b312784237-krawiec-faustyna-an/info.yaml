@@ -1,0 +1,48 @@
+abstract: <jats:p>In this paper, we give a simple and efficient implementation of
+  reverse-mode automatic differentiation, which both extends easily to higher-order
+  functions, and has run time and memory consumption linear in the run time of the
+  original program. In addition to a formal description of the translation, we also
+  describe an implementation of this algorithm, and prove its correctness by means
+  of a logical relations argument.</jats:p>
+author: Krawiec, Faustyna and Peyton Jones, Simon and Krishnaswami, Neel and Ellis,
+  Tom and Eisenberg, Richard A. and Fitzgibbon, Andrew
+author_list:
+- affiliation:
+  - name: University of Cambridge, UK
+  family: Krawiec
+  given: Faustyna
+- affiliation:
+  - name: Microsoft Research, UK
+  family: Peyton Jones
+  given: Simon
+- affiliation:
+  - name: University of Cambridge, UK
+  family: Krishnaswami
+  given: Neel
+- affiliation:
+  - name: Microsoft Research, UK
+  family: Ellis
+  given: Tom
+- affiliation:
+  - name: Tweag, France
+  family: Eisenberg
+  given: Richard A.
+- affiliation:
+  - name: Microsoft Research, UK
+  family: Fitzgibbon
+  given: Andrew
+doi: 10.1145/3498710
+issue: POPL
+journal: Proceedings of the ACM on Programming Languages
+language: en
+month: 1
+pages: 1--30
+publisher: Association for Computing Machinery (ACM)
+ref: ProvablyCorrecKrawie2022
+time-added: 2022-08-08-19:32:19
+title: Provably correct, asymptotically efficient, higher-order reverse-mode automatic
+  differentiation
+type: article
+url: http://dx.doi.org/10.1145/3498710
+volume: '6'
+year: 2022
