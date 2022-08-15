@@ -1,0 +1,86 @@
+author: Evrard, Hugues
+author_list:
+- affiliation: []
+  family: Evrard
+  given: Hugues
+citations:
+- doi: 10.1145/2480359.2429101
+  unstructured: 'Carbone, M., Montesi, F.: Deadlock-freedom-by-design: multiparty
+    asynchronous global programming. In: POPL 2013, pp. 263–274. ACM (2013)'
+- author: D Castro
+  first-page: '23'
+  journal-title: ENTCS
+  unstructured: 'Castro, D., Gulías, V.M., Earle, C.B., Fredlund, L., Rivas, S.: A
+    case study on verifying a supervisor component using McErlang. ENTCS 271, 23–40
+    (2011)'
+  volume: '271'
+  year: '2011'
+- unstructured: 'Champelovier, D., Clerc, X., Garavel, H., Guerte, Y., McKinty, C.,
+    Powazny, V., Lang, F., Serwe, W., Smeding, G.: Reference Manual of the LNT to
+    LOTOS Translator (Version 6.1). INRIA/VASY and INRIA/CONVECS, August 2014'
+- unstructured: 'Evrard, H.: Génération automatique d’implémentation distribuée à
+    partir de modéles formels de processus concurrents asynchrones. Ph.D. thesis,
+    Université de Grenoble, July 2015'
+- author: H Evrard
+  doi: 10.1007/978-3-642-38592-6_11
+  first-page: '146'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Evrard, H., Lang, F.: Formal verification of distributed branching
+    multiway synchronization protocols. In: Beyer, D., Boreale, M. (eds.) FMOODS/FORTE
+    2013. LNCS, vol. 7892, pp. 146–160. Springer, Heidelberg (2013)'
+  volume-title: Formal Techniques for Distributed Systems
+  year: '2013'
+- doi: 10.1109/PDP.2015.96
+  unstructured: 'Evrard, H., Lang, F.: Automatic distributed code generation from
+    formal models of asynchronous concurrent processes. In: PDP 2015. IEEE (2015)'
+- author: H Garavel
+  doi: 10.1007/s10009-012-0244-z
+  first-page: '89'
+  issue: '2'
+  journal-title: STTT
+  unstructured: 'Garavel, H., Lang, F., Mateescu, R., Serwe, W.: CADP 2011: a toolbox
+    for the construction and analysis of distributed processes. STTT 15(2), 89–107
+    (2013). Springer'
+  volume: '15'
+  year: '2013'
+- author: H Garavel
+  doi: 10.1007/978-0-387-35578-8_11
+  first-page: '185'
+  series-title: IFIP Advances in Information and Communication Technology
+  unstructured: 'Garavel, H., Sighireanu, M.: A graphical parallel composition operator
+    for process algebras. In: Wu, J., Chanson, S.T., Gao, Q. (eds.) FORTE/PSTV 1999.
+    IFIP AICT, vol. 28, pp. 185–202. Springer, Heidelberg (1999)'
+  volume-title: Formal Methods for Protocol Engineering and Distributed Systems
+  year: '1999'
+- author: H Garavel
+  doi: 10.1007/s100090100044
+  first-page: '314'
+  issue: '3'
+  journal-title: STTT
+  unstructured: 'Garavel, H., Viho, C., Zendri, M.: System design of a CC-NUMA multiprocessor
+    architecture using formal specification, model-checking, co-simulation, and test
+    generation. STTT 3(3), 314–331 (2001). Springer'
+  volume: '3'
+  year: '2001'
+- doi: 10.1145/2245276.2232017
+  unstructured: 'Proenca, J., Clarke, D., Vink, E., Arbab, F.: Dreams: a framework
+    for distributed synchronous coordination. In: SAC. ACM (2012)'
+- unstructured: 'Quilbeuf, J.: Distributed implementations of component-based systems
+    with prioritized multiparty interactions. Ph.D. thesis, Université de Grenoble
+    (2013)'
+doi: 10.1007/978-3-662-49674-9_34
+files:
+- evrard-huguesdlc-compiling-a-concurrent-system-formal-specification-to-a-distributed-implementation2016.pdf
+isbn:
+- '9783662496732'
+- '9783662496749'
+journal: Tools and Algorithms for the Construction and Analysis of Systems
+month: 4
+pages: 553--559
+publisher: Springer Berlin Heidelberg
+ref: DlcCompilingEvrard2016
+time-added: 2022-08-15-16:45:17
+title: 'DLC: Compiling a Concurrent System Formal Specification to a Distributed Implementation'
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-662-49674-9_34
+year: 2016

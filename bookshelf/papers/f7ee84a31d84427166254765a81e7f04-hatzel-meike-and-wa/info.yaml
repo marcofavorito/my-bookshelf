@@ -1,0 +1,34 @@
+abstract: We study encodings from CSP into asynchronous CCS with name passing and
+  matching, so in fact, the asynchronous pi-calculus. By doing so, we discuss two
+  different ways to map the multi-way synchronisation mechanism of CSP into the two-way
+  synchronisation mechanism of CCS. Both encodings satisfy the criteria of Gorla except
+  for compositionality, as both use an additional top-level context. Following the
+  work of Parrow and Sj\"odin, the first encoding uses a centralised coordinator and
+  establishes a variant of weak bisimilarity between source terms and their translations.
+  The second encoding is decentralised, and thus more efficient, but ensures only
+  a form of coupled similarity between source terms and their translations.
+archiveprefix: arXiv
+author: Hatzel, Meike and Wagner, Christoph and Peters, Kirstin and Nestmann, Uwe
+author_list:
+- family: Hatzel
+  given: Meike
+- family: Wagner
+  given: Christoph
+- family: Peters
+  given: Kirstin
+- family: Nestmann
+  given: Uwe
+doi: 10.4204/EPTCS.190.5
+eprint: 1508.06712v1
+file: 1508.06712v1.pdf
+files:
+- hatzel-meike-and-wagner-christoph-and-peters-kirstin-and-nestmann-uweencoding-csp-into-ccs2015.pdf
+month: Aug
+note: EPTCS 190, 2015, pp. 61-75
+primaryclass: cs.LO
+ref: 1508.06712v1
+time-added: 2022-08-15-16:44:48
+title: Encoding CSP into CCS
+type: article
+url: http://arxiv.org/abs/1508.06712v1
+year: '2015'
