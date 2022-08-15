@@ -1,0 +1,38 @@
+abstract: 'The expressiveness of propositional non-clausal (NC) formulas is exponentially
+  richer than that of clausal formulas. Yet, clausal efficiency outperforms non-clausal
+  one. Indeed, a major weakness of the latter is that, while Horn clausal formulas,
+  along with Horn algorithms, are crucial for the high efficiency of clausal reasoning,
+  no Horn-like formulas in non-clausal form had been proposed. To overcome such weakness,
+  we define the hybrid class $\mathbb{H_{NC}}$ of Horn Non-Clausal (Horn-NC) formulas,
+  by adequately lifting the Horn pattern to NC form, and argue that $\mathbb{H_{NC}}$,
+  along with future Horn-NC algorithms, shall increase non-clausal efficiency just
+  as the Horn class has increased clausal efficiency. Secondly, we: (i) give the compact,
+  inductive definition of $\mathbb{H_{NC}}$; (ii) prove that syntactically $\mathbb{H_{NC}}$
+  subsumes the Horn class but semantically both classes are equivalent, and (iii)
+  characterize the non-clausal formulas belonging to $\mathbb{H_{NC}}$. Thirdly, we
+  define the Non-Clausal Unit-Resolution calculus, $UR_{NC}$, and prove that it checks
+  the satisfiability of $\mathbb{H_{NC}}$ in polynomial time. This fact, to our knowledge,
+  makes $\mathbb{H_{NC}}$ the first characterized polynomial class in NC reasoning.
+  Finally, we prove that $\mathbb{H_{NC}}$ is linearly recognizable, and also that
+  it is both strictly succincter and exponentially richer than the Horn class. We
+  discuss that in NC automated reasoning, e.g. satisfiability solving, theorem proving,
+  logic programming, etc., can directly benefit from $\mathbb{H_{NC}}$ and $UR_{NC}$
+  and that, as a by-product of its proved properties, $\mathbb{H_{NC}}$ arises as
+  a new alternative to analyze Horn functions and implication systems.'
+archiveprefix: arXiv
+author: Imaz, Gonzalo E.
+author_list:
+- family: Imaz
+  given: Gonzalo E.
+eprint: 2108.13744v3
+file: 2108.13744v3.pdf
+files:
+- imaz-gonzalo-e.the-horn-non-clausal-class-and-its-polynomiality2021.pdf
+month: Aug
+primaryclass: cs.AI
+ref: 2108.13744v3
+time-added: 2022-08-14-19:33:06
+title: The Horn Non-Clausal Class and its Polynomiality
+type: article
+url: http://arxiv.org/abs/2108.13744v3
+year: '2021'

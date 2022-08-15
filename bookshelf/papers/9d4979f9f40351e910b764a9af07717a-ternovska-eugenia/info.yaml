@@ -1,0 +1,33 @@
+abstract: The central open question in Descriptive Complexity is whether there is
+  a logic that characterizes deterministic polynomial time (PTIME) on relational structures.
+  Towards this goal, we define a logic that is obtained from first-order logic with
+  fixed points, FO(FP), by a series of transformations that include restricting logical
+  connectives and adding a dynamic version of Hilbert's Choice operator Epsilon. The
+  formalism can be viewed, simultaneously, as an algebra of binary relations and as
+  a linear-time modal dynamic logic, where algebraic expressions describing ``proofs''
+  or ``programs'' appear inside the modalities. We show how counting, reachability
+  and ``mixed'' examples (that include linear equations modulo two) are axiomatized
+  in the logic, and how an arbitrary PTIME Turing machine can be encoded. For each
+  fixed Choice function, the data complexity of model checking is in PTIME. However,
+  there can be exponentially many such functions. A crucial question is under what
+  syntactic conditions on algebraic terms checking just one Choice function is sufficient.
+  Answering this question requires a study of symmetries among computations. This
+  paper sets mathematical foundations towards such a study via algebraic and automata-theoretic
+  techniques.
+archiveprefix: arXiv
+author: Ternovska, Eugenia
+author_list:
+- family: Ternovska
+  given: Eugenia
+eprint: 2111.07978v1
+file: 2111.07978v1.pdf
+files:
+- ternovska-eugeniatowards-capturing-ptime-with-no-counting-construct-but-with-a-choice-operator-2021.pdf
+month: Nov
+primaryclass: cs.LO
+ref: 2111.07978v1
+time-added: 2022-08-11-12:17:51
+title: Towards Capturing PTIME with no Counting Construct (but with a Choice   Operator)
+type: article
+url: http://arxiv.org/abs/2111.07978v1
+year: '2021'

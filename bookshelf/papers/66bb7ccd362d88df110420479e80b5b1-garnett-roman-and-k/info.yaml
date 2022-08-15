@@ -1,0 +1,41 @@
+abstract: We consider two active binary-classification problems with atypical objectives.
+  In the first, active search, our goal is to actively uncover as many members of
+  a given class as possible. In the second, active surveying, our goal is to actively
+  query points to ultimately predict the proportion of a given class. Numerous real-world
+  problems can be framed in these terms, and in either case typical model-based concerns
+  such as generalization error are only of secondary importance.   We approach these
+  problems via Bayesian decision theory; after choosing natural utility functions,
+  we derive the optimal policies. We provide three contributions. In addition to introducing
+  the active surveying problem, we extend previous work on active search in two ways.
+  First, we prove a novel theoretical result, that less-myopic approximations to the
+  optimal policy can outperform more-myopic approximations by any arbitrary degree.
+  We then derive bounds that for certain models allow us to reduce (in practice dramatically)
+  the exponential search space required by a naive implementation of the optimal policy,
+  enabling further lookahead while still ensuring that optimal decisions are always
+  made.
+archiveprefix: arXiv
+author: Garnett, Roman and Krishnamurthy, Yamuna and Xiong, Xuehan and Schneider,
+  Jeff and Mann, Richard
+author_list:
+- family: Garnett
+  given: Roman
+- family: Krishnamurthy
+  given: Yamuna
+- family: Xiong
+  given: Xuehan
+- family: Schneider
+  given: Jeff
+- family: Mann
+  given: Richard
+eprint: 1206.6406v1
+file: 1206.6406v1.pdf
+files:
+- garnett-roman-and-krishnamurthy-yamuna-and-xiong-xuehan-and-schneider-jeff-and-mann-richardbayesian-optimal-active-search-and-surveying2012.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1206.6406v1
+time-added: 2022-08-10-17:02:57
+title: Bayesian Optimal Active Search and Surveying
+type: article
+url: http://arxiv.org/abs/1206.6406v1
+year: '2012'

@@ -1,0 +1,559 @@
+author: Martins, Ruben and Manquinho, Vasco and Lynce, Inês
+author_list:
+- affiliation: []
+  family: Martins
+  given: Ruben
+- affiliation: []
+  family: Manquinho
+  given: Vasco
+- affiliation: []
+  family: Lynce
+  given: Inês
+citations:
+- doi: 10.1007/978-3-642-25566-3_4
+  unstructured: Arbelaez, A., & Hamadi, Y. (2011). Improving parallel local search
+    for SAT. In Learning and intelligent optimization (pp. 46–60).
+- author: R Asín
+  doi: 10.3233/AIC-2010-0462
+  first-page: '145'
+  issue: 2–3
+  journal-title: AI Communications
+  unstructured: Asín, R., Nieuwenhuis, R., Oliveras, A., & Rodríguez-Carbonell, E.
+    (2010). Practical algorithms for unsatisfiability proof and core generation in
+    SAT solvers. AI Communications, 23(2–3), 145–157.
+  volume: '23'
+  year: '2010'
+- doi: 10.1007/978-3-540-79719-7_3
+  unstructured: Audemard, G., Bordeaux, L., Hamadi, Y., Jabbour, S., & Sais, L. (2008).
+    A generalized framework for conflict analysis. In International conference on
+    theory and applications of satisfiability testing (pp. 21–27).
+- unstructured: Audemard, G., & Simon, L. (2009). Predicting learnt clauses quality
+    in modern SAT solvers. In International joint conference on artificial intelligence
+    (pp. 399–404).
+- unstructured: Bacchus, F., & Winter, J. (2003). Effective preprocessing with hyper-resolution
+    and equality reduction. In International conference on theory and applications
+    of satisfiability testing (pp. 341–355).
+- doi: 10.1007/3-540-45349-0_36
+  unstructured: Baptista, L., & Marques-Silva, J. (2000). Using randomization and
+    learning to solve hard real-world instances of satisfiability. In International
+    conference on principles and practice of constraint programming (pp. 489–494).
+- unstructured: Bayardo, R. J., & Schrag, R. C. (1997). Using CSP look-back techniques
+    to solve real-world SAT instances. In AAAI conference on artificial intelligence
+    (pp. 203–208).
+- author: A Biere
+  doi: 10.3233/SAT190039
+  first-page: '75'
+  issue: 2–4
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: Biere, A. (2008). Picosat essentials. Journal on Satisfiability, Boolean
+    Modeling and Computation, 4(2–4), 75–97.
+  volume: '4'
+  year: '2008'
+- unstructured: Biere, A. (2009). PrecoSAT. SAT Competition, Solver Description.
+- unstructured: Biere, A. (2010). Lingeling, plingeling, PicoSAT and PrecoSAT at SAT
+    Race 2010. SAT Race, Solver Description.
+- unstructured: Blochinger, W. (2005). Towards robustness in parallel SAT solving.
+    In International conference on parallel computing (pp. 301–308).
+- author: W Blochinger
+  doi: 10.1016/S0167-8191(03)00068-1
+  first-page: '969'
+  issue: '7'
+  journal-title: Journal of Parallel Computing
+  unstructured: Blochinger, W., Sinz, C., & Küchlin, W. (2003). Parallel propositional
+    satisfiability checking with distributed dynamic learning. Journal of Parallel
+    Computing, 29(7), 969–994.
+  volume: '29'
+  year: '2003'
+- doi: 10.1109/CCGRID.2005.1558680
+  unstructured: Blochinger, W., Westje, W., Kuchlin, W., & Wedeniwski, S. (2005).
+    ZetaSAT—Boolean SATisfiability solving on desktop grids. In International symposium
+    on cluster computing and the grid (pp. 1079–1086).
+- author: M Böhm
+  doi: 10.1007/BF02127976
+  first-page: '381'
+  issue: 3–4
+  journal-title: Annals of Mathematics and Artificial Intelligence
+  unstructured: Böhm, M., & Speckenmeyer, E. (1996). A fast parallel SAT-solver—Efficient
+    workload balancing. Annals of Mathematics and Artificial Intelligence, 17(3–4),
+    381–400.
+  volume: '17'
+  year: '1996'
+- unstructured: Bordeaux, L., Hamadi, Y., & Samulowitz, H. (2009). Experiments with
+    massively parallel constraint solving. In International joint conference on artificial
+    intelligence (pp. 443–448).
+- doi: 10.1145/1048935.1050188
+  unstructured: 'Chrabakh, W., & Wolski, R. (2003). GridSAT: A Chaff-based distributed
+    SAT solver for the grid. In International supercomputing conference (pp. 37–49).'
+- author: G Chu
+  doi: 10.3233/SAT190064
+  first-page: '99'
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: Chu, G., Harwood, A., & Stuckey. P. J. (2009). Cache conscious data
+    structures for Boolean satisfiability solvers. Journal on Satisfiability, Boolean
+    Modeling and Computation, 6, 99–120.
+  volume: '6'
+  year: '2009'
+- doi: 10.1007/978-3-642-04244-7_20
+  unstructured: Chu, G., Schulte, C., & Stuckey, P. J. (2009). Confidence-based work
+    stealing in parallel constraint programming. In International conference on principles
+    and practice of constraint programming (pp. 226–241).
+- unstructured: 'Chu, G., & Stuckey, P. J. (2008). PMiniSAT : A parallelization of
+    M iniSAT 2.0. SAT Race, Solver Description.'
+- author: SH Clearwater
+  doi: 10.1126/science.254.5035.1181
+  first-page: '1181'
+  issue: '5035'
+  journal-title: Science
+  unstructured: Clearwater, S. H., Huberman, B. A., & Hogg, T. (1991). Cooperative
+    solution of constraint satisfaction problems. Science, 254(5035), 1181–1183.
+  volume: '254'
+  year: '1991'
+- author: M Davis
+  doi: 10.1145/368273.368557
+  first-page: '394'
+  issue: '7'
+  journal-title: Communications of the ACM
+  unstructured: Davis, M., Logemann, G., & Loveland, D. (1962). A machine program
+    for theorem-proving. Communications of the ACM, 5(7), 394–397.
+  volume: '5'
+  year: '1962'
+- author: M Davis
+  doi: 10.1145/321033.321034
+  first-page: '201'
+  issue: '3'
+  journal-title: Journal of the ACM
+  unstructured: Davis, M., & Putnam, H. (1960). A computing procedure for quantification
+    theory. Journal of the ACM, 7(3), 201–215.
+  volume: '7'
+  year: '1960'
+- doi: 10.1109/ICTAI.2009.63
+  unstructured: Dequen, G., Vander-Swalmen, P., & Krajecki, M. (2009). Toward easy
+    parallel SAT solving. In International conference on tools with artificial intelligence
+    (pp. 425–432).
+- unstructured: Edmund, M. Y., Durfee, E. H., Ishida, T., & Kuwabara, K. (1992). Distributed
+    constraint satisfaction for formalizing distributed problem solving. In International
+    conference on distributed computing systems (pp. 614–621).
+- doi: 10.1007/11499107_5
+  unstructured: Eén, N., & Biere, A. (2005). Effective preprocessing in SAT through
+    variable and clause elimination. In International conference on theory and applications
+    of satisfiability testing (pp. 61–75).
+- unstructured: Eén, N., & Sörensson, N. (2003). An extensible SAT-solver. In International
+    conference on theory and applications of satisfiability testing (pp. 502–518).
+- doi: 10.1007/978-1-4612-3390-9_3
+  unstructured: Feldman, R., Monien, B., Mysliwietz, P., & Vornberger, O. (1990).
+    Distributed game tree search. In Parallel algorithms for machine intelligence
+    and pattern recognition (pp. 66–101). Springer-Verlag.
+- unstructured: Feldmann, R., Monien, B., & Schamberger, S. (2000). A distributed
+    algorithm to evaluate quantified Boolean formulae. In AAAI conference on artificial
+    intelligence (pp. 285–290).
+- author: Y Feldman
+  doi: 10.1016/j.entcs.2004.10.020
+  first-page: '75'
+  issue: '3'
+  journal-title: Electronic Notes in Theoretical Computer Science
+  unstructured: 'Feldman, Y., Dershowitz, N., & Hanna, Z. (2005). Parallel multithreaded
+    satisfiability solver: Design and implementation. Electronic Notes in Theoretical
+    Computer Science, 128(3), 75–90.'
+  volume: '128'
+  year: '2005'
+- unstructured: 'Forman, S., & Segre, A. (2002). NAGSAT: A randomized, complete, parallel
+    solver for 3-SAT. In International conference on theory and applications of satisfiability
+    testing (pp. 236–243).'
+- unstructured: Gent, I. P., Jefferson, C., Miguel, I., Moore, N. C., Nightingale,
+    P., Prosser, P., et al. (2011). A preliminary review of literature on parallel
+    constraint solving. In Workshop on parallel methods for constraint solving.
+- author: L Gil
+  doi: 10.3233/SAT190063
+  first-page: '71'
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: 'Gil, L., Flores, P., & Silveira, L. M. (2008). PMSat: A parallel
+    version of MiniSAT. Journal on Satisfiability, Boolean Modeling and Computation,
+    6, 71–98.'
+  volume: '6'
+  year: '2008'
+- doi: 10.1007/11814948_11
+  unstructured: Goldberg, E. (2006). Determinization of resolution by an algorithm
+    operating on complete assignments. In International conference on theory and applications
+    of satisfiability testing (pp. 90–95).
+- doi: 10.1007/978-3-540-79719-7_11
+  unstructured: Goldberg, E. (2008). A decision-making procedure for resolution-based
+    SAT-solvers. In International conference on theory and applications of satisfiability
+    testing (pp. 119–132).
+- doi: 10.1109/DATE.2002.998262
+  unstructured: 'Goldberg, E., & Novikov, Y. (2002). BerkMin: A fast and robust SAT-solver.
+    In Design, automation, and test in Europe (pp. 142–149).'
+- unstructured: Gomes, C. P., Selman, B., & Kautz, H. (1998). Boosting combinatorial
+    search through randomization. In AAAI conference on artificial intelligence (pp. 431–437).
+- doi: 10.1007/978-3-642-15396-9_22
+  unstructured: Guo, L., Hamadi, Y., Jabbour, S., & Sais, L. (2010). Diversification
+    and intensification in parallel SAT solving. In International conference on principles
+    and practice of constraint programming (pp. 252–265).
+- doi: 10.1007/978-3-540-48085-3_16
+  unstructured: Hamadi, Y. (1999). Optimal distributed arc-consistency. In International
+    conference on principles and practice of constraint programming (pp. 219–233).
+- author: Y Hamadi
+  doi: 10.1142/S0218213002000836
+  first-page: '167'
+  issue: '2'
+  journal-title: International Journal on Artificial Intelligence Tools
+  unstructured: Hamadi, Y. (2002). Interleaved backtracking in distributed constraint
+    networks. International Journal on Artificial Intelligence Tools, 11(2), 167–188.
+  volume: '11'
+  year: '2002'
+- unstructured: 'Hamadi, Y. (2003). Disolver: A distributed constraint solver. Technical
+    Report MSR-TR-2003-91, Microsoft Research.'
+- author: Y Hamadi
+  doi: 10.3233/SAT190081
+  first-page: '127'
+  issue: '4'
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: Hamadi, Y., Jabbour, S., Piette, C., & Sais, L. (2011). Deterministic
+    parallel DPLL. Journal on Satisfiability, Boolean Modeling and Computation, 7(4),
+    127–132.
+  volume: '7'
+  year: '2011'
+- unstructured: Hamadi, Y., Jabbour, S., & Sais, L. (2009). Control-based clause sharing
+    in parallel SAT solving. In International joint conference on artificial intelligence
+    (pp. 499–504).
+- author: Y Hamadi
+  doi: 10.3233/SAT190070
+  first-page: '245'
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: 'Hamadi, Y., Jabbour, S., & Sais, L. (2009). ManySAT: A parallel SAT
+    solver. Journal on Satisfiability, Boolean Modeling and Computation, 6, 245–262.'
+  volume: '6'
+  year: '2009'
+- doi: 10.4204/EPTCS.72.5
+  unstructured: Hamadi, Y., Marques-Silva, J., & Wintersteiger, C. M. (2011). Lazy
+    decomposition for distributed decision procedures. In International workshop on
+    parallel and distributed methods in verification (pp. 43–54).
+- author: Y Hamadi
+  doi: 10.1007/s10732-010-9134-2
+  first-page: '251'
+  issue: '3'
+  journal-title: Journal of Heuristics
+  unstructured: Hamadi, Y., & Ringwelski, G. (2011). Boosting distributed constraint
+    satisfaction. Journal of heuristics, 17(3), 251–279.
+  volume: '17'
+  year: '2011'
+- doi: 10.1007/978-3-642-02777-2_21
+  unstructured: Han, H., & Somenzi, F. (2009). On-the-fly clause improvement. In International
+    conference on theory and applications of satisfiability testing (pp. 209–222).
+- unstructured: Hertel, P., Bacchus, F., Pitassi, T., & Gelder, A. V. (2008). Clause
+    learning can effectively p-simulate general propositional resolution. In AAAI
+    conference on artificial intelligence (pp. 283–290).
+- doi: 10.1007/11814948_39
+  unstructured: Hyvärinen, A., Junttila, T., & Niemelä, I. (2006). A distribution
+    method for solving SAT in grids. In International conference on theory and applications
+    of satisfiability testing (pp. 430–435).
+- doi: 10.1145/52324.52356
+  unstructured: Jacobson, V. (1988). Congestion avoidance and control. In Special
+    interest group on data communication (pp. 314–329).
+- doi: 10.1016/S1571-0653(04)00321-X
+  unstructured: Jurkowiak, B., Li, C. M., & Utard, G. (2001). Parallelizing satz using
+    dynamic workload balancing. In International conference on theory and applications
+    of satisfiability testing (pp. 205–211).
+- unstructured: Kalinnik, N., Schubert, T., Ábrahám, E., Wimmer, R., & Becker, B.
+    (2009). Picoso—A parallel interval constraint solver. In International conference
+    on parallel and distributed processing techniques and applications (pp. 473–479).
+- author: S Kasif
+  doi: 10.1016/0004-3702(90)90009-O
+  first-page: '275'
+  issue: '3'
+  journal-title: Journal of Artificial Intelligence
+  unstructured: Kasif, S. (1990). On the parallel complexity of discrete relaxation
+    in constraint satisfaction networks. Journal of Artificial Intelligence, 45(3),
+    275–286.
+  volume: '45'
+  year: '1990'
+- doi: 10.1007/978-3-642-14186-7_13
+  unstructured: Kottler, S. (2010). SAT solving with reference points. In international
+    conference on theory and applications of satisfiability testing (pp. 143–157).
+- unstructured: Kottler, S., & Kaufmann, M. (2011). SArTagnan—A parallel portfolio
+    SAT solver with lockless physical clause sharing. In Pragmatics of SAT workshop.
+- author: O Kullmann
+  doi: 10.1016/S0166-218X(00)00262-6
+  first-page: '99'
+  journal-title: Discrete Applied Mathematics
+  unstructured: Kullmann, O. (2000). Investigations on autark assignments. Discrete
+    Applied Mathematics, 107, 99–137.
+  volume: '107'
+  year: '2000'
+- unstructured: 'Kunz, W., & Pradhan, D. K. (992). Recursive learning: An attractive
+    alternative to the decision tree for test generation in digital circuits. In International
+    test conference (pp. 816–825).'
+- author: D Le Berre
+  doi: 10.3233/SAT190075
+  first-page: '59'
+  journal-title: Journal on Satisfiability Boolean Modeling and Computation
+  unstructured: Le Berre, D., & Parrain, A. (2010). The sat4j library, release 2.2
+    system description. Journal on Satisfiability Boolean Modeling and Computation,
+    7, 59–64.
+  volume: '7'
+  year: '2010'
+- doi: 10.1007/978-3-642-02777-2_46
+  unstructured: 'Lewis, M., Marin, P., Schubert, T., Narizzano, M., Becker, B., &
+    Giunchiglia, E. (2009). PaQuBE: Distributed QBF solving with advanced knowledge
+    sharing. In International conference on theory and applications of satisfiability
+    testing (pp. 509–523).'
+- doi: 10.1109/ASPDAC.2007.358108
+  unstructured: Lewis, M., Schubert, T., & Becker, B. (2007). Multithreaded SAT solving.
+    In Asia and south pacific design automation conference (pp. 926–931).
+- unstructured: Lewis, M., Schubert, T., & Becker, B. (2009). QMiraXT—A multithreaded
+    QBF solver. In Methoden und beschreibungssprachen zur modellierung und verifikation
+    von Schaltungen und systemen (pp. 7–16).
+- author: M Luby
+  doi: 10.1016/0020-0190(93)90029-9
+  first-page: '173'
+  issue: '4'
+  journal-title: Journal of Information Processing Letters
+  unstructured: Luby, M., Sinclair, A., & Zuckerman, D. (1993). Optimal speedup of
+    Las Vegas algorithms. Journal of Information Processing Letters, 47(4), 173–180.
+  volume: '47'
+  year: '1993'
+- author: I Lynce
+  doi: 10.1007/s10472-005-0425-5
+  first-page: '137'
+  issue: 1–4
+  journal-title: Annals of Mathematics and Artificial Intelligence
+  unstructured: Lynce, I., & Marques-Silva, J. (2005). Efficient data structures for
+    backtrack search SAT solvers. Annals of Mathematics and Artificial Intelligence,
+    43(1–4), 137–152.
+  volume: '43'
+  year: '2005'
+- unstructured: Mailler, R., & Lesser, V. (2004). Solving distributed constraint optimization
+    problems using cooperative mediation. In International conference on autonomous
+    agents and multiagent systems (pp. 438–445).
+- unstructured: Manthey, N. (2011). Parallel SAT solving—Using more cores. In Pragmatics
+    of SAT workshop.
+- doi: 10.1109/HPCSIM.2009.5195312
+  unstructured: Marin, P., Lewis, M., Schubert, T., Narizzano, M., Becker, B., & Giunchiglia,
+    E. (2009). Comparison of knowledge sharing strategies in a parallel QBF solver.
+    In Workshop on parallel satisfiability solving (pp. 161–167).
+- unstructured: Marques-Silva, J., Lynce, I., & Malik, S. (2009). Conflict-driven
+    clause learning SAT solvers. In Handbook of satisfiability (Vol. 185, pp. 131–153).
+    IOS Press.
+- author: J Marques-Silva
+  doi: 10.1109/12.769433
+  first-page: '506'
+  journal-title: IEEE Transactions on Computers
+  unstructured: Marques-Silva, J., & Sakallah, K. A. (1999). GRASP—A search algorithm
+    for propositional satisfiability. IEEE Transactions on Computers, 48. 506–521.
+  volume: '48'
+  year: '1999'
+- doi: 10.1109/ICTAI.2010.56
+  unstructured: Martins, R., Manquinho, V., & Lynce, I. (2010). Improving search space
+    splitting for parallel SAT solving. In International conference on tools with
+    artificial intelligence (pp. 336–343).
+- author: PJ Modi
+  doi: 10.1016/j.artint.2004.09.003
+  first-page: '149'
+  issue: 1–2
+  journal-title: Journal of Artificial Intelligence
+  unstructured: 'Modi, P. J., Shen, W. M., Tambe, M., & Yokoo, M. (2005). Adopt: Asynchronous
+    distributed constraint optimization with quality guarantees. Journal of Artificial
+    Intelligence, 16(1–2), 149–180.'
+  volume: '16'
+  year: '2005'
+- doi: 10.1145/378239.379017
+  unstructured: 'Moskewicz, M., Madigan, C., Zhao, Y., Zhang, L., & Malik, S. (2001).
+    Chaff: Engineering an efficient SAT solver. In Design automation conference (pp. 530–535).'
+- author: T Nguyen
+  doi: 10.1016/S0167-6423(97)00012-9
+  first-page: '227'
+  journal-title: Science of Computer Programming
+  unstructured: Nguyen, T., & Deville, Y. (1998). A distributed arc-consistency algorithm.
+    Science of Computer Programming, 30, 227–250.
+  volume: '30'
+  year: '1998'
+- doi: 10.1007/978-3-642-02777-2_47
+  unstructured: 'Ohmura, K., & Ueda, K. (2009). c-SAT: A parallel SAT solver for clusters.
+    In International conference on theory and applications of satisfiability testing
+    (pp. 524–537).'
+- unstructured: Pham, D. N., Gretton, C. (2009). gNovelty(v. 2). SAT Competition,
+    Solver Description.
+- unstructured: Piette, C., Hamadi, Y., & Lakhdar, S. (2008). Vivifying propositional
+    clausal formulae. In European conference on artificial intelligence (pp. 525–529).
+- unstructured: Pilarski, S., & Hu, G. (2002). SAT with partial clauses and back-leaps.
+    In Design automation conference (pp. 743–746).
+- doi: 10.1007/978-3-540-72788-0_28
+  unstructured: Pipatsrisawat, K., & Darwiche, A. (2007). A lightweight component
+    caching scheme for satisfiability solvers. In International conference on theory
+    and applications of satisfiability testing (pp. 294–299).
+- author: K Pipatsrisawat
+  doi: 10.1016/j.artint.2010.10.002
+  first-page: '512'
+  journal-title: Artificial Intelligence
+  unstructured: Pipatsrisawat, K., & Darwiche, A. (2011). On the power of clause-learning
+    SAT solvers as resolution engines. Artificial Intelligence, 175, 512–525.
+  volume: '175'
+  year: '2011'
+- unstructured: Plaza, S., Kountanis, I., Andraus, Z., Bertacco, V., & Mudge, T. (2006).
+    Advances and insights into parallel SAT solving. In International workshop on
+    logic and synthesis (pp. 188–194).
+- unstructured: Plaza, S., Markov, I., & Bertacco, V. (2008). Low-latency SAT solving
+    on multicore processors with priority scheduling and XOR partitioning. In International
+    workshop on logic and synthesis.
+- doi: 10.1007/11814948_28
+  unstructured: Prestwich, S. D., & Lynce, I. (2006). Local search for unsatisfiability.
+    In International conference on theory and applications of satisfiability testing
+    (pp. 283–296).
+- doi: 10.1109/CLUSTR.2008.4663786
+  unstructured: Rolf, C. C., & Kuchcinski, K. (2008). Load-balancing methods for parallel
+    and distributed constraint solving. In Interational conference on cluster computing
+    (pp. 304–309).
+- unstructured: Rolf, C. C., & Kuchcinski, K. (2010). Combining parallel search and
+    parallel consistency in constraint programming. In TRICS workshop at the international
+    conference on principles and practice of constraint programming (pp. 38–52).
+- doi: 10.1016/S1571-0653(04)00319-1
+  unstructured: Roll, A. (2001). Criticality and parallelism in GSAT. In Workshop
+    on theory and applications of satisfiability testing (pp. 150–161).
+- unstructured: Ryan, L. (2004). Efficient algorithms for clause-learning SAT solvers.
+    Master’s thesis, Simon Fraser University.
+- doi: 10.1109/MTV.2005.17
+  unstructured: Schubert, T., Lewis, M., & Becker, B. (2005). PaMira—A parallel SAT
+    solver with knowledge sharing. In International workshop on microprocessor test
+    and verification (pp. 29–36).
+- author: T Schubert
+  doi: 10.3233/SAT190068
+  first-page: '203'
+  journal-title: Journal on Satisfiability, Boolean Modeling and Computation
+  unstructured: 'Schubert, T., Lewis, M., & Becker, B. (2009). PaMiraXT: Parallel
+    SAT solving with threads and message passing. Journal on Satisfiability, Boolean
+    Modeling and Computation, 6, 203–222.'
+  volume: '6'
+  year: '2009'
+- unstructured: Schubert, T., Lewis, M., & Becker, B. (2010). Antom—Solver description.
+    SAT Race, Solver Description.
+- author: S Schulz
+  doi: 10.1007/s10723-010-9160-1
+  first-page: '443'
+  journal-title: Journal of Grid Computing
+  unstructured: Schulz, S., & Blochinger, W. (2010). Parallel SAT solving on peer-to-peer
+    desktop grids. Journal of Grid Computing, 8, 443–471.
+  volume: '8'
+  year: '2010'
+- unstructured: 'Selman, B., Kautz, H. A., & Cohen, B. (1996). Local search strategies
+    for satisfiability testing. In Cliques, coloring, and satisfiability: Second DIMACS
+    implementation challenge (Vol. 26, pp. 521–532). American Mathematical Society.'
+- unstructured: Selman, B., Levesque, H., & Mitchell, D. (1992). A new method for
+    solving hard satisfiability problems. In AAAI conference on artificial intelligence
+    (pp. 440–446).
+- author: M Sheeran
+  doi: 10.1023/A:1008725524946
+  first-page: '23'
+  journal-title: Formal Methods in System Design
+  unstructured: Sheeran, M., & Stalmarck, G. (2000). A tutorial on Stalmarck’s proof
+    procedure for propositional logic. Formal Methods in System Design, 16, 23–58.
+  volume: '16'
+  year: '2000'
+- unstructured: Silaghi, M.-C., Sam-haroud, D., & Faltings, B. V. (2000). Asynchronous
+    search with aggregations. In AAAI conference on artificial intelligence (pp. 917–922).
+- doi: 10.1002/9780470053928.ch5
+  unstructured: 'Singer, D. (2006). Parallel resolution of the satisfiability problem:
+    A survey. In Parallel combinatorial optimization (pp. 123–147). Wiley.'
+- doi: 10.1007/978-3-540-68111-3_27
+  unstructured: 'Singer, D., & Monnet, A. (2008). JaCk-SAT: A new parallel scheme
+    to solve the satisfiability problem (SAT) based on join-and-check. In Parallel
+    processing and applied mathematics (pp. 249–258).'
+- author: C Sinz
+  doi: 10.1016/S1571-0653(04)00323-3
+  first-page: '205'
+  journal-title: Electronic Notes in Discrete Mathematics
+  unstructured: 'Sinz, C., Blochinger, W., & Küchlin, W. (2001). PaSAT—Parallel SAT-Checking
+    with lemma exchange: Implementation and applications. Electronic Notes in Discrete
+    Mathematics, 9, 205–216.'
+  volume: '9'
+  year: '2001'
+- unstructured: Snir, M., Otto, S., Huss-Lederman, S., Walker, D., & Dongarra, J.
+    (1998). MPI-the complete reference. MIT Press.
+- unstructured: Soos, M. (2010). CryptoMiniSat 2.5.0. SAT Race, Solver Description.
+- unstructured: Söreasson, N., & Eée, N. (2008). MINISAT 2.1 and MINISAT+ + 1.0—SAT
+    race 2008 editions. SAt Race, Solver Description.
+- unstructured: Sripriya, G., Bundy, A., & Smaill, A. (2009). Concurrent-distributed
+    programming techniques for SAT using DPLL-stalmarck. In Workshop on parallel satisfiability
+    solving (pp. 168–175).
+- unstructured: 'Tsuyuzaki, K., Ohmura, K., & Ueda, K. (2009). Satake: Solver description.
+    SAT Competition, Solver Description.'
+- doi: 10.1145/22145.22196
+  unstructured: Valiant, L., & Vazirani, V. (1985). NP is as easy as detecting unique
+    solutions. In Symposium on theory of computing (pp. 458–463).
+- author: A Gelder Van
+  doi: 10.1023/A:1006143621319
+  first-page: '137'
+  journal-title: Journal of Automated Reasoning
+  unstructured: Van Gelder, A. (1999). Autarky pruning in propositional model elimination
+    reduces failure redundancy. Journal of Automated Reasoning, 23, 137–193.
+  volume: '23'
+  year: '1999'
+- author: P Vander-Swalmen
+  doi: 10.1007/s10766-009-0097-6
+  first-page: '324'
+  issue: '3'
+  journal-title: International Journal of Parallel Programming
+  unstructured: Vander-Swalmen, P., Dequen, G., & Krajecki, M. (2009). A collaborative
+    approach for multi-threaded SAT solving. International Journal of Parallel Programming,
+    37(3), 324–342.
+  volume: '37'
+  year: '2009'
+- doi: 10.1109/ICTAI.2010.46
+  unstructured: Vautard, J., Lallouet, A., & Hamadi, Y. (2010). A parallel solving
+    algorithm for quantified constraints problems. In International conference on
+    tools with artificial intelligence (pp. 271–274).
+- unstructured: Williams, R., Gomes, C. P., & Selman, B. (2003). Backdoors to typical
+    case complexity. In International joint conference on artificial intelligence
+    (pp. 1173–1178).
+- doi: 10.1007/978-3-642-02658-4_60
+  unstructured: Wintersteiger, C. M., Hamadi, Y., & de Moura, L. M. (2009). A concurrent
+    portfolio approach to smt solving. In Computer aided verification (pp. 715–720).
+- author: M Yokoo
+  doi: 10.1109/69.729707
+  first-page: '673'
+  journal-title: IEEE Transactions on Knowledge and Data Engineering
+  unstructured: 'Yokoo, M., Durfee, E. H., Ishida, T., & Kuwabara, K. (1998). The
+    distributed constraint satisfaction problem: Formalization and algorithms. IEEE
+    Transactions on Knowledge and Data Engineering, 10, 673–685.'
+  volume: '10'
+  year: '1998'
+- doi: 10.1007/3-540-63104-6_28
+  unstructured: 'Zhang, H. (1997). SATO: An efficient propositional prover. In International
+    conference on automated deduction (pp. 272–275).'
+- author: H Zhang
+  doi: 10.1006/jsco.1996.0030
+  first-page: '543'
+  journal-title: Journal of Symbolic Computation
+  unstructured: 'Zhang, H., Bonacina, M. P., Bonacina, M. P., & Hsiang, J. (1996).
+    PSATO: A distributed propositional prover and its application to quasigroup problems.
+    Journal of Symbolic Computation, 21, 543–560.'
+  volume: '21'
+  year: '1996'
+- doi: 10.1007/11499107_42
+  unstructured: Zhang, L. (2005). On subsumption removal and on-the-fly CNF simplification.
+    In International conference on theory and applications of satisfiability testing
+    (pp. 482–489).
+- unstructured: Zhang, L., Madigan, C., Moskewicz, M., & Malik, S. (2001). Efficient
+    conflict driven learning in a Boolean satisfiability solver. In International
+    conference on computer-aided design (pp. 279–285).
+- unstructured: 'Zhang, L., & Malik, S. (2003). Cache performance of SAT solvers:
+    A case study for efficient implementation of algorithms. In International conference
+    on theory and applications of satisfiability testing (pp. 287–298).'
+- unstructured: 'Zhang, L., & Malik, S. (2003). Validating SAT solvers using an independent
+    resolution-based checker: Practical implementations and other applications. In
+    Design, automation, and test in Europe (pp. 10880–10885).'
+doc_url: http://link.springer.com/article/10.1007/s10601-012-9121-3/fulltext.html
+doi: 10.1007/s10601-012-9121-3
+files:
+- martins-ruben-and-manquinho-vasco-and-lynce-inesan-overview-of-parallel-sat-solving2012.pdf
+issue: '3'
+journal: Constraints
+language: en
+month: 7
+pages: 304--347
+publisher: Springer Science and Business Media LLC
+ref: AnOverviewOfMartin2012
+time-added: 2022-08-14-16:44:50
+title: An overview of parallel SAT solving
+type: article
+url: http://dx.doi.org/10.1007/s10601-012-9121-3
+volume: '17'
+year: 2012

@@ -1,0 +1,36 @@
+abstract: 'The boolean Pythagorean Triples problem has been a longstanding open problem
+  in Ramsey Theory: Can the set N = $\{1, 2, ...\}$ of natural numbers be divided
+  into two parts, such that no part contains a triple $(a,b,c)$ with $a^2 + b^2 =
+  c^2$ ? A prize for the solution was offered by Ronald Graham over two decades ago.   We
+  solve this problem, proving in fact the impossibility, by using the Cube-and-Conquer
+  paradigm, a hybrid SAT method for hard problems, employing both look-ahead and CDCL
+  solvers. An important role is played by dedicated look-ahead heuristics, which indeed
+  allowed to solve the problem on a cluster with 800 cores in about 2 days.   Due
+  to the general interest in this mathematical problem, our result requires a formal
+  proof. Exploiting recent progress in unsatisfiability proofs of SAT solvers, we
+  produced and verified a proof in the DRAT format, which is almost 200 terabytes
+  in size. From this we extracted and made available a compressed certificate of 68
+  gigabytes, that allows anyone to reconstruct the DRAT proof for checking.'
+archiveprefix: arXiv
+author: Heule, Marijn J. H. and Kullmann, Oliver and Marek, Victor W.
+author_list:
+- family: Heule
+  given: Marijn J. H.
+- family: Kullmann
+  given: Oliver
+- family: Marek
+  given: Victor W.
+doi: 10.1007/978-3-319-40970-2_15
+eprint: 1605.00723v1
+file: 1605.00723v1.pdf
+files:
+- heule-marijn-j.-h.-and-kullmann-oliver-and-marek-victor-w.solving-and-verifying-the-boolean-pythagorean-triples-problem-via-cube-and-conquer2016.pdf
+month: May
+note: SAT 2016, LNCS 9710, pages 228-245
+primaryclass: cs.DM
+ref: 1605.00723v1
+time-added: 2022-08-14-16:47:59
+title: Solving and Verifying the boolean Pythagorean Triples problem via   Cube-and-Conquer
+type: article
+url: http://arxiv.org/abs/1605.00723v1
+year: '2016'

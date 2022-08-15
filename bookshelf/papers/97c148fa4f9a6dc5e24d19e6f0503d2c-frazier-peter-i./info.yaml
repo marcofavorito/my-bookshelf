@@ -1,0 +1,35 @@
+abstract: 'Bayesian optimization is an approach to optimizing objective functions
+  that take a long time (minutes or hours) to evaluate. It is best-suited for optimization
+  over continuous domains of less than 20 dimensions, and tolerates stochastic noise
+  in function evaluations. It builds a surrogate for the objective and quantifies
+  the uncertainty in that surrogate using a Bayesian machine learning technique, Gaussian
+  process regression, and then uses an acquisition function defined from this surrogate
+  to decide where to sample. In this tutorial, we describe how Bayesian optimization
+  works, including Gaussian process regression and three common acquisition functions:
+  expected improvement, entropy search, and knowledge gradient. We then discuss more
+  advanced techniques, including running multiple function evaluations in parallel,
+  multi-fidelity and multi-information source optimization, expensive-to-evaluate
+  constraints, random environmental conditions, multi-task Bayesian optimization,
+  and the inclusion of derivative information. We conclude with a discussion of Bayesian
+  optimization software and future research directions in the field. Within our tutorial
+  material we provide a generalization of expected improvement to noisy evaluations,
+  beyond the noise-free setting where it is more commonly applied. This generalization
+  is justified by a formal decision-theoretic argument, standing in contrast to previous
+  ad hoc modifications.'
+archiveprefix: arXiv
+author: Frazier, Peter I.
+author_list:
+- family: Frazier
+  given: Peter I.
+eprint: 1807.02811v1
+file: 1807.02811v1.pdf
+files:
+- frazier-peter-i.a-tutorial-on-bayesian-optimization2018.pdf
+month: Jul
+primaryclass: stat.ML
+ref: 1807.02811v1
+time-added: 2022-08-10-16:24:16
+title: A Tutorial on Bayesian Optimization
+type: article
+url: http://arxiv.org/abs/1807.02811v1
+year: '2018'
