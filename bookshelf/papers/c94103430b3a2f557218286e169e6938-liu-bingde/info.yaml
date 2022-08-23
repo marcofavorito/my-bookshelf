@@ -1,0 +1,38 @@
+abstract: The basic Multi-Armed Bandits (MABs) problem is trying to maximize the rewards
+  obtained from bandits with different unknown probability distributions of payoff
+  for pulling different arms, given that only a finite number of attempts can be made.
+  When studying trading algorithms in the market, we are looking at one of the most
+  complex variants of MABs problems, namely the Non-stationary Continuum Bandits (NCBs)
+  problem. The Bristol Stock Exchange (BSE) is a simple simulation of an electronic
+  financial exchange based on a continuous double auction running via a limit order
+  book. The market can be populated by automated trader agents with different trading
+  algorithms. Within them, the PRSH algorithm embodies some basic ideas for solving
+  NCBs problems. However, it faces the difficulty to adjust hyperparameters and adapt
+  to changes in complex market conditions. We propose a new algorithm called PRB,
+  which solves Continuum Bandits problem by Bayesian optimization, and solves Non-stationary
+  Bandits problem by a novel "bandit-over-bandit" framework. With BSE, we use as many
+  kinds of trader agents as possible to simulate the real market environment under
+  two different market dynamics. We then examine the optimal hyperparameters of the
+  PRSH algorithm and the PRB algorithm under different market dynamics respectively.
+  Finally, by having trader agents using both algorithms trade in the market at the
+  same time, we demonstrate that the PRB algorithm has better performance than the
+  PRSH algorithm under both market dynamics. In particular, we perform rigorous hypothesis
+  testing on all experimental results to ensure their correctness.
+archiveprefix: arXiv
+author: Liu, Bingde
+author_list:
+- family: Liu
+  given: Bingde
+eprint: 2208.02901v1
+file: 2208.02901v1.pdf
+files:
+- liu-bingdelearning-the-trading-algorithm-in-simulated-markets-with-non-stationary-continuum-bandits2022.pdf
+month: Aug
+primaryclass: cs.MA
+ref: 2208.02901v1
+time-added: 2022-08-22-15:35:13
+title: Learning the Trading Algorithm in Simulated Markets with Non-stationary   Continuum
+  Bandits
+type: article
+url: http://arxiv.org/abs/2208.02901v1
+year: '2022'

@@ -1,0 +1,329 @@
+abstract: '<jats:p>This paper deals with the evaluation of acyclic Boolean
+
+  conjunctive queries in relational databases. By well-known results
+
+  of Yannakakis[1981], this problem is solvable in polynomial time;
+
+  its precise complexity, however, has not been pinpointed so far. We
+
+  show that the problem of evaluating acyclic Boolean conjunctive
+
+  queries is complete for LOGCFL, the class of decision problems that
+
+  are logspace-reducible to a context-free language. Since LOGCFL is
+
+  contained in AC1 and NC2, the evaluation problem of acyclic Boolean
+
+  conjunctive queries is highly parallelizable. We present a parallel
+
+  database algorithm solving this problem with alogarithmic number of
+
+  parallel join operations. The algorithm is generalized to computing
+
+  the output of relevant classes of non-Boolean queries. We also show
+
+  that the acyclic versions of the following well-known database and
+
+  AI problems are all LOGCFL-complete: The Query Output Tuple problem
+
+  for conjunctive queries, Conjunctive Query Containment, Clause
+
+  Subsumption, and Constraint Satisfaction. The LOGCFL-completeness
+
+  result is extended to the class of queries of bounded tree width
+
+  and to other relevant query classes which are more general than the
+
+  acyclic queries.</jats:p>'
+author: Gottlob, Georg and Leone, Nicola and Scarcello, Francesco
+author_list:
+- affiliation:
+  - name: Technische Universität Wien, Vienna, Austria
+  family: Gottlob
+  given: Georg
+- affiliation:
+  - name: University of Calabria, Rende, Italy
+  family: Leone
+  given: Nicola
+- affiliation:
+  - name: University of Calabria, Rende, Italy
+  family: Scarcello
+  given: Francesco
+citations:
+- unstructured: ABITEBOUL S. HULL R. AND VIANU V. 1995. Foundations of Databases.
+    Addison-Wesley Reading Mass.   ABITEBOUL S. HULL R. AND VIANU V. 1995. Foundations
+    of Databases. Addison-Wesley Reading Mass.
+- doi: 10.1016/0196-6774(91)90006-K
+- author: BACHMAIR L.
+  first-page: '135'
+  series-title: Lecture Notes in Computer Science
+  volume-title: Proceedings of the 21st Colloquium on Trees in Algebra and Programming
+    (CAAP '96) (Linkoping, Sweden, Apr. 22-24)
+- doi: 10.1007/978-3-642-97062-7
+  unstructured: BALCAZAR J.L. DIAZ J. AND GABARRO J. 1988. Structural Complexity I.
+    EATCS Monographs on Theoretical Computer Science. Springer-Verlag Berlin Germany.   BALCAZAR
+    J.L. DIAZ J. AND GABARRO J. 1988. Structural Complexity I. EATCS Monographs on
+    Theoretical Computer Science. Springer-Verlag Berlin Germany.
+- doi: 10.1016/0304-3975(93)90253-P
+- author: BEERI C.
+  first-page: '355'
+  volume-title: Proceedings of the 13th Annual ACM Symposium on Theory of Computing
+    (STOC '81)
+  year: '1981'
+- doi: 10.1145/2402.322389
+- unstructured: BERGE C. 1976. Graphs and Hypergraphs. North-Holland Amsterdam The
+    Netherlands.   BERGE C. 1976. Graphs and Hypergraphs. North-Holland Amsterdam
+    The Netherlands.
+- doi: 10.1145/322234.322238
+- article-title: The power of natural semijoins
+  author: BERNSTEIN P.A.
+  doi: 10.1137/0210059
+  first-page: '751'
+  issue: '4'
+  journal-title: SIAM J. Comput.
+  volume: '10'
+  year: '1981'
+- doi: 10.1137/0218038
+- author: CHANDRA A.K.
+  first-page: '77'
+  volume-title: Proceedings of the 9th Annual ACM Symposium on Theory of Computing
+    (STOC '77)
+  year: '1977'
+- unstructured: CHANG C.L. AND LEE R. C. T. 1973. Symbolic Logic and Mechanical Theorem
+    Proving. Academic Press New York.   CHANG C.L. AND LEE R. C. T. 1973. Symbolic
+    Logic and Mechanical Theorem Proving. Academic Press New York.
+- doi: 10.1016/S0304-3975(99)00220-0
+- author: CHASE K.
+  first-page: '95'
+  volume-title: Proceedings of the International Conference on Very Large Databases
+    (VLDB '81)
+  year: '1981'
+- doi: 10.1145/321623.321625
+- doi: 10.1016/S0019-9958(85)80041-3
+- doi: 10.1016/0196-6774(87)90018-6
+- unstructured: DAHLHAUS E. 1990. Chordale Graphen im besonderen Hinblick auf parallele
+    Algorithmen. Habilitationsschrift Universitat Bonn Bonn Germany. Unpublished.  DAHLHAUS
+    E. 1990. Chordale Graphen im besonderen Hinblick auf parallele Algorithmen. Habilitationsschrift
+    Universitat Bonn Bonn Germany. Unpublished.
+- author: D'ATRI A.
+  first-page: '43'
+  volume-title: Advances in Computing Research
+- doi: 10.1016/0004-3702(89)90037-4
+- doi: 10.1145/129888.129894
+- doi: 10.1016/0743-1066(84)90022-0
+- doi: 10.1145/2402.322390
+- doi: 10.1145/319732.319735
+- unstructured: GAREY M.R. AND JOHNSON D. S. 1979. Computers and Intractability. A
+    Guide to the Theory of NP-Completeness. Freeman and Co. New York.   GAREY M.R.
+    AND JOHNSON D. S. 1979. Computers and Intractability. A Guide to the Theory of
+    NP-Completeness. Freeman and Co. New York.
+- doi: 10.1145/319758.319775
+- doi: 10.1145/2157.322405
+- author: GOTTLOB G.
+  first-page: '167'
+  volume-title: Proceedings of the 2000 Conference on Software Engineering and Knowledge
+    Engineering (SEKE '00)
+  year: '2000'
+- unstructured: GOTTLOB G. LEONE N. AND SCARCELLO F. 2000a. Computing LOGCFL certificates.
+    Theoret. Comput. Sci. to appear. 10.1016/S0304-3975(01)00108-6   GOTTLOB G. LEONE
+    N. AND SCARCELLO F. 2000a. Computing LOGCFL certificates. Theoret. Comput. Sci.
+    to appear. 10.1016/S0304-3975(01)00108-6
+- article-title: Hypertree decompositions and tractable queries
+  author: GOTTLOB G.
+  journal-title: J. Comput. Syst. Sci., to appear.
+  year: '2000'
+- doi: 10.1016/S0004-3702(00)00078-3
+- unstructured: GRAHAM M. H. 1979. On the universal relation. Tech. Report Univ. Toronto
+    Toronto Ont. Canada.  GRAHAM M. H. 1979. On the universal relation. Tech. Report
+    Univ. Toronto Toronto Ont. Canada.
+- doi: 10.1093/oso/9780195085914.001.0001
+  unstructured: 'GREENLAW R. HOOVER H.J. AND RUZZO W. L. 1995. Limits to Parallel
+    Computation: P- Completeness Theory. Oxford University Press Cambridge United
+    Kingdom.   GREENLAW R. HOOVER H.J. AND RUZZO W. L. 1995. Limits to Parallel Computation:
+    P- Completeness Theory. Oxford University Press Cambridge United Kingdom.'
+- article-title: The hardest context-free language
+  author: GREIBACH S. H.
+  doi: 10.1137/0202025
+  first-page: '304'
+  issue: '4'
+  journal-title: SIAM J. Comput.
+  volume: '2'
+  year: '1973'
+- doi: 10.1145/5236.5237
+- doi: 10.1016/0004-3702(94)90003-5
+- author: GYSSENS M.
+  first-page: '85'
+  volume-title: Advances in Database Theory
+- doi: 10.1145/234889.234894
+- doi: 10.1007/BF01277518
+- unstructured: HOPCROFT J.E. AND ULLMAN J. D. 1979. Introduction to Automata Theory
+    Languages and Computation. Addison-Wesley Reading Mass.   HOPCROFT J.E. AND ULLMAN
+    J. D. 1979. Introduction to Automata Theory Languages and Computation. Addison-Wesley
+    Reading Mass.
+- article-title: Acyclic join dependency and data base projections
+  author: HULL R.
+  doi: 10.1016/0022-0000(83)90046-6
+  first-page: '331'
+  issue: '3'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '27'
+  year: '1983'
+- doi: 10.1145/263867.263489
+- author: JOHNSON D. S.
+  volume-title: Handbook of Theoretical Computer Science
+- unstructured: 'JONES N. D. 1997. Computability and Complexity: From a Programming
+    Perspective. Foundations of Computing Series. The MIT Press Cambridge Mass.   JONES
+    N. D. 1997. Computability and Complexity: From a Programming Perspective. Foundations
+    of Computing Series. The MIT Press Cambridge Mass.'
+- author: KARP R.M.
+  volume-title: Handbook of Theoretical Computer Science
+- doi: 10.1016/0004-3702(94)90085-X
+- doi: 10.1137/S0097539789166880
+- doi: 10.1006/jcss.2000.1713
+- article-title: On the shortest spanning subtree of a graph and the traveling salesman
+    problem
+  author: KRUSKAL J. B.
+  doi: 10.1090/S0002-9939-1956-0078686-7
+  first-page: '48'
+  journal-title: Proc. AMS
+  volume: '7'
+  year: '1956'
+- article-title: Relativization of questions about log-space reducibility
+  author: LADNER R.
+  doi: 10.1007/BF01683260
+  first-page: '19'
+  journal-title: Math. Syst. Theory
+  volume: '10'
+  year: '1976'
+- doi: 10.1109/69.63253
+- author: LEVY A.Y.
+  first-page: '95'
+  volume-title: Proceedings of the 14th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems (PODS '95)
+  year: '1995'
+- article-title: Symmetric Space-Bounded Computation
+  author: LEWIS H.R.
+  doi: 10.1016/0304-3975(82)90058-5
+  first-page: '161'
+  journal-title: Theoret. Comput. Sci.
+  volume: '19'
+  year: '1982'
+- unstructured: MAIER D. 1986. The Theory of Relational Databases. Computer Science
+    Press Rockville Md.   MAIER D. 1986. The Theory of Relational Databases. Computer
+    Science Press Rockville Md.
+- author: MALVESTUTO F. M.
+  volume-title: Proceedings of the 1st International Conference on Database Theory
+  year: '1986'
+- doi: 10.1137/0218023
+- article-title: Symmetric logspace is closed under complement. Chi
+  author: NISAN N.
+  journal-title: J. Theoret. Comput. Sci. 1.
+  year: '1995'
+- unstructured: PAPADIMITRIOU C. H. 1994. Computational Complexity. Addison-Wesley
+    Reading Mass.  PAPADIMITRIOU C. H. 1994. Computational Complexity. Addison-Wesley
+    Reading Mass.
+- author: PAPADIMITRIOU C.H.
+  volume-title: 'Combinatorial Optimization: Algorithms and Complexity'
+  year: '1982'
+- author: PAPADIMITRIOU C.H.
+  first-page: '12'
+  volume-title: Proceedings of 16th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems (PODS '97)
+  year: '1997'
+- author: QIAN X.
+  doi: 10.1109/ICDE.1996.492088
+  first-page: '48'
+  volume-title: Proceedings of the International Conference on Data Engineering (ICDE
+    '96)
+  year: '1996'
+- author: RAJAMARAN A.
+  first-page: '105'
+  volume-title: Proceedings of the 14th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems (PODS '95)
+  year: '1995'
+- doi: 10.1145/62.322436
+- article-title: Graph Minors. II. Algorithmic aspects of tree width
+  author: ROBERTSON N.
+  doi: 10.1016/0196-6774(86)90023-4
+  first-page: '309'
+  journal-title: J. Algorithms
+  volume: '7'
+  year: '1986'
+- doi: 10.1016/0095-8956(86)90030-4
+- article-title: Tree-size bounded alternation
+  author: RUZZO W. L.
+  doi: 10.1016/0022-0000(80)90036-7
+  first-page: '218'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '21'
+  year: '1980'
+- article-title: On uniform circuit complexity
+  author: RUZZO W. L.
+  doi: 10.1016/0022-0000(81)90038-6
+  first-page: '365'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '22'
+  year: '1981'
+- doi: 10.1145/4221.4997
+- doi: 10.1145/155271.155277
+- doi: 10.1145/3149.3158
+- author: SUDBOROUGH I. H.
+  first-page: '493'
+  series-title: Lecture Notes in Computer Science
+  volume-title: Mathematical Foundations of Computer Science (MFCS '77)
+- doi: 10.1145/322077.322083
+- doi: 10.1137/0213035
+- unstructured: ULLMAN J. D. 1989. Principles of Database and Knowledge Base Systems
+    Vol II. Computer Science Press Rockville Md.   ULLMAN J. D. 1989. Principles of
+    Database and Knowledge Base Systems Vol II. Computer Science Press Rockville Md.
+- author: ULLMAN J. D.
+  volume: '1186'
+  volume-title: Proceedings of the International Conference on Database Theory (ICDT
+    '97)
+  year: '1997'
+- author: VARDI M.
+  first-page: '137'
+  volume-title: Proceedings of the 14th ACM Symposium on Theory of Computing (STOC
+    '82)
+  year: '1982'
+- doi: 10.1016/0022-0000(91)90020-6
+- doi: 10.1006/jagm.1994.1022
+- author: WILSCHUT A.N.
+  doi: 10.1145/223784.223803
+  first-page: '115'
+  volume-title: Proceedings of the 1995 ACM SIGMOD International Conference on Management
+    of Data (SIGMOD '95)
+  year: '1995'
+- author: WOS L.
+  volume-title: 'Computational Logic: Essays in Honor of Alan Robinson'
+- author: YANNAKAKIS M.
+  first-page: '82'
+  volume-title: Proceedings of the International Conference on Very Large Data Bases
+    (VLDB '81)
+  year: '1981'
+- author: YU C.T.
+  first-page: '306'
+  volume-title: Proceedings of the
+- article-title: On determining tree-query membership of a distributed query
+  author: YU C.T.
+  first-page: '261'
+  issue: '3'
+  journal-title: Informatica
+  volume: '22'
+  year: '1984'
+- author: ZHANG Y.
+  volume-title: Parallel Processing for Artificial Intelligence
+doi: 10.1145/382780.382783
+issue: '3'
+journal: Journal of the ACM
+language: en
+month: 5
+pages: 431--498
+publisher: Association for Computing Machinery (ACM)
+ref: TheComplexityGottlo2001
+time-added: 2022-08-17-14:33:14
+title: The complexity of acyclic conjunctive queries
+type: article
+url: http://dx.doi.org/10.1145/382780.382783
+volume: '48'
+year: 2001

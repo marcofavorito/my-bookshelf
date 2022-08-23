@@ -1,0 +1,48 @@
+abstract: Motivated by recent increased interest in optimization algorithms for non-convex
+  optimization in application to training deep neural networks and other optimization
+  problems in data analysis, we give an overview of recent theoretical results on
+  global performance guarantees of optimization algorithms for non-convex optimization.
+  We start with classical arguments showing that general non-convex problems could
+  not be solved efficiently in a reasonable time. Then we give a list of problems
+  that can be solved efficiently to find the global minimizer by exploiting the structure
+  of the problem as much as it is possible. Another way to deal with non-convexity
+  is to relax the goal from finding the global minimum to finding a stationary point
+  or a local minimum. For this setting, we first present known results for the convergence
+  rates of deterministic first-order methods, which are then followed by a general
+  theoretical analysis of optimal stochastic and randomized gradient schemes, and
+  an overview of the stochastic first-order methods. After that, we discuss quite
+  general classes of non-convex problems, such as minimization of $\alpha$-weakly-quasi-convex
+  functions and functions that satisfy Polyak--Lojasiewicz condition, which still
+  allow obtaining theoretical convergence guarantees of first-order methods. Then
+  we consider higher-order and zeroth-order/derivative-free methods and their convergence
+  rates for non-convex optimization problems.
+archiveprefix: arXiv
+author: Danilova, Marina and Dvurechensky, Pavel and Gasnikov, Alexander and Gorbunov,
+  Eduard and Guminov, Sergey and Kamzolov, Dmitry and Shibaev, Innokentiy
+author_list:
+- family: Danilova
+  given: Marina
+- family: Dvurechensky
+  given: Pavel
+- family: Gasnikov
+  given: Alexander
+- family: Gorbunov
+  given: Eduard
+- family: Guminov
+  given: Sergey
+- family: Kamzolov
+  given: Dmitry
+- family: Shibaev
+  given: Innokentiy
+eprint: 2012.06188v3
+file: 2012.06188v3.pdf
+files:
+- danilova-marina-and-dvurechensky-pavel-and-gasnikov-alexander-and-gorbunov-eduard-and-guminov-sergey-and-kamzolov-dmitry-and-shibaev-innokentiy.pdf
+month: Dec
+primaryclass: math.OC
+ref: 2012.06188v3
+time-added: 2022-08-16-14:08:50
+title: Recent Theoretical Advances in Non-Convex Optimization
+type: article
+url: http://arxiv.org/abs/2012.06188v3
+year: '2020'

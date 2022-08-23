@@ -1,0 +1,35 @@
+abstract: The loss functions of deep neural networks are complex and their geometric
+  properties are not well understood. We show that the optima of these complex loss
+  functions are in fact connected by simple curves over which training and test accuracy
+  are nearly constant. We introduce a training procedure to discover these high-accuracy
+  pathways between modes. Inspired by this new geometric insight, we also propose
+  a new ensembling method entitled Fast Geometric Ensembling (FGE). Using FGE we can
+  train high-performing ensembles in the time required to train a single model. We
+  achieve improved performance compared to the recent state-of-the-art Snapshot Ensembles,
+  on CIFAR-10, CIFAR-100, and ImageNet.
+archiveprefix: arXiv
+author: Garipov, Timur and Izmailov, Pavel and Podoprikhin, Dmitrii and Vetrov, Dmitry
+  and Wilson, Andrew Gordon
+author_list:
+- family: Garipov
+  given: Timur
+- family: Izmailov
+  given: Pavel
+- family: Podoprikhin
+  given: Dmitrii
+- family: Vetrov
+  given: Dmitry
+- family: Wilson
+  given: Andrew Gordon
+eprint: 1802.10026v4
+file: 1802.10026v4.pdf
+files:
+- garipov-timur-and-izmailov-pavel-and-podoprikhin-dmitrii-and-vetrov-dmitry-and-wilson-andrew-gordonloss-surfaces-mode-connectivity-and-fast-ens.pdf
+month: Feb
+primaryclass: stat.ML
+ref: 1802.10026v4
+time-added: 2022-08-16-14:06:37
+title: Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs
+type: article
+url: http://arxiv.org/abs/1802.10026v4
+year: '2018'

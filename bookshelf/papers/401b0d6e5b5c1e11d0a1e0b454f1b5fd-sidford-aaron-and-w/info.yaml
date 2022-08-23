@@ -1,0 +1,40 @@
+abstract: In this paper we consider the problem of computing an $\epsilon$-optimal
+  policy of a discounted Markov Decision Process (DMDP) provided we can only access
+  its transition function through a generative sampling model that given any state-action
+  pair samples from the transition function in $O(1)$ time. Given such a DMDP with
+  states $S$, actions $A$, discount factor $\gamma\in(0,1)$, and rewards in range
+  $[0, 1]$ we provide an algorithm which computes an $\epsilon$-optimal policy with
+  probability $1 - \delta$ where \emph{both} the time spent and number of sample taken
+  are upper bounded by \[ O\left[\frac{|S||A|}{(1-\gamma)^3 \epsilon^2} \log \left(\frac{|S||A|}{(1-\gamma)\delta
+  \epsilon}   \right)   \log\left(\frac{1}{(1-\gamma)\epsilon}\right)\right] ~. \]
+  For fixed values of $\epsilon$, this improves upon the previous best known bounds
+  by a factor of $(1 - \gamma)^{-1}$ and matches the sample complexity lower bounds
+  proved in Azar et al. (2013) up to logarithmic factors. We also extend our method
+  to computing $\epsilon$-optimal policies for finite-horizon MDP with a generative
+  model and provide a nearly matching sample complexity lower bound.
+archiveprefix: arXiv
+author: Sidford, Aaron and Wang, Mengdi and Wu, Xian and Yang, Lin F. and Ye, Yinyu
+author_list:
+- family: Sidford
+  given: Aaron
+- family: Wang
+  given: Mengdi
+- family: Wu
+  given: Xian
+- family: Yang
+  given: Lin F.
+- family: Ye
+  given: Yinyu
+eprint: 1806.01492v3
+file: 1806.01492v3.pdf
+files:
+- sidford-aaron-and-wang-mengdi-and-wu-xian-and-yang-lin-f.-and-ye-yinyunear-optimal-time-and-sample-complexities-for-solving-discounted-markov-d.pdf
+month: Jun
+primaryclass: math.OC
+ref: 1806.01492v3
+time-added: 2022-08-23-08:47:34
+title: Near-Optimal Time and Sample Complexities for Solving Discounted Markov   Decision
+  Process with a Generative Model
+type: article
+url: http://arxiv.org/abs/1806.01492v3
+year: '2018'

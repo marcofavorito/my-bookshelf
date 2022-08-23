@@ -1,0 +1,35 @@
+abstract: We consider the compilation of a binary neural network's decision function
+  into tractable representations such as Ordered Binary Decision Diagrams (OBDDs)
+  and Sentential Decision Diagrams (SDDs). Obtaining this function as an OBDD/SDD
+  facilitates the explanation and formal verification of a neural network's behavior.
+  First, we consider the task of verifying the robustness of a neural network, and
+  show how we can compute the expected robustness of a neural network, given an OBDD/SDD
+  representation of it. Next, we consider a more efficient approach for compiling
+  neural networks, based on a pseudo-polynomial time algorithm for compiling a neuron.
+  We then provide a case study in a handwritten digits dataset, highlighting how two
+  neural networks trained from the same dataset can have very high accuracies, yet
+  have very different levels of robustness. Finally, in experiments, we show that
+  it is feasible to obtain compact representations of neural networks as SDDs.
+archiveprefix: arXiv
+author: Shi, Weijia and Shih, Andy and Darwiche, Adnan and Choi, Arthur
+author_list:
+- family: Shi
+  given: Weijia
+- family: Shih
+  given: Andy
+- family: Darwiche
+  given: Adnan
+- family: Choi
+  given: Arthur
+eprint: 2004.02082v2
+file: 2004.02082v2.pdf
+files:
+- shi-weijia-and-shih-andy-and-darwiche-adnan-and-choi-arthuron-tractable-representations-of-binary-neural-networks2020.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2004.02082v2
+time-added: 2022-08-17-09:55:23
+title: On Tractable Representations of Binary Neural Networks
+type: article
+url: http://arxiv.org/abs/2004.02082v2
+year: '2020'

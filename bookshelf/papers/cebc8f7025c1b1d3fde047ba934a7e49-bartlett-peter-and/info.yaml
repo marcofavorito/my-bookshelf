@@ -1,0 +1,30 @@
+abstract: 'This paper presents a margin-based multiclass generalization bound for
+  neural networks that scales with their margin-normalized "spectral complexity":
+  their Lipschitz constant, meaning the product of the spectral norms of the weight
+  matrices, times a certain correction factor. This bound is empirically investigated
+  for a standard AlexNet network trained with SGD on the mnist and cifar10 datasets,
+  with both original and random labels; the bound, the Lipschitz constants, and the
+  excess risks are all in direct correlation, suggesting both that SGD selects predictors
+  whose complexity scales with the difficulty of the learning task, and secondly that
+  the presented bound is sensitive to this complexity.'
+archiveprefix: arXiv
+author: Bartlett, Peter and Foster, Dylan J. and Telgarsky, Matus
+author_list:
+- family: Bartlett
+  given: Peter
+- family: Foster
+  given: Dylan J.
+- family: Telgarsky
+  given: Matus
+eprint: 1706.08498v2
+file: 1706.08498v2.pdf
+files:
+- bartlett-peter-and-foster-dylan-j.-and-telgarsky-matusspectrally-normalized-margin-bounds-for-neural-networks2017.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1706.08498v2
+time-added: 2022-08-23-08:41:46
+title: Spectrally-normalized margin bounds for neural networks
+type: article
+url: http://arxiv.org/abs/1706.08498v2
+year: '2017'

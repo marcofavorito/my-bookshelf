@@ -1,0 +1,32 @@
+abstract: Approximate linear programming (ALP) represents one of the major algorithmic
+  families to solve large-scale Markov decision processes (MDP). In this work, we
+  study a primal-dual formulation of the ALP, and develop a scalable, model-free algorithm
+  called bilinear $\pi$ learning for reinforcement learning when a sampling oracle
+  is provided. This algorithm enjoys a number of advantages. First, it adopts (bi)linear
+  models to represent the high-dimensional value function and state-action distributions,
+  using given state and action features. Its run-time complexity depends on the number
+  of features, not the size of the underlying MDPs. Second, it operates in a fully
+  online fashion without having to store any sample, thus having minimal memory footprint.
+  Third, we prove that it is sample-efficient, solving for the optimal policy to high
+  precision with a sample complexity linear in the dimension of the parameter space.
+archiveprefix: arXiv
+author: Chen, Yichen and Li, Lihong and Wang, Mengdi
+author_list:
+- family: Chen
+  given: Yichen
+- family: Li
+  given: Lihong
+- family: Wang
+  given: Mengdi
+eprint: 1804.10328v1
+file: 1804.10328v1.pdf
+files:
+- chen-yichen-and-li-lihong-and-wang-mengdiscalable-bilinear-p-learning-using-state-and-action-features2018.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1804.10328v1
+time-added: 2022-08-23-08:48:06
+title: Scalable Bilinear $π$ Learning Using State and Action Features
+type: article
+url: http://arxiv.org/abs/1804.10328v1
+year: '2018'

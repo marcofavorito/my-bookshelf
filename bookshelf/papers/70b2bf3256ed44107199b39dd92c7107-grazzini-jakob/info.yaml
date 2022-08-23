@@ -1,0 +1,30 @@
+abstract: This paper illustrates the use of the nonparametric Wald-Wolfowitz test
+  to detect stationarity and ergodicity in agent-based models. A nonparametric test
+  is needed due to the practical impossibility to understand how the random component
+  influences the emergent properties of the model in many agent-based models. Nonparametric
+  tests on real data often lack power and this problem is addressed by applying the
+  Wald-Wolfowitz test to the simulated data. The performance of the tests is evaluated
+  using Monte Carlo simulations of a stochastic process with known properties. It
+  is shown that with appropriate settings the tests can detect non-stationarity and
+  non-ergodicity. Knowing whether a model is ergodic and stationary is essential in
+  order to understand its behavior and the real system it is intended to represent;
+  quantitative analysis of the artificial data helps to acquire such knowledge.
+author: Grazzini, Jakob
+author_list:
+- family: Grazzini
+  given: Jakob
+doi: 10.18564/jasss.1929
+files:
+- grazzini-jakobanalysis-of-the-emergent-properties-stationarity-and-ergodicity2012.pdf
+issn: 1460-7425
+journal: Journal of Artificial Societies and Social Simulation
+keywords: Statistical Test, Stationarity, Ergodicity, Agent-Based, Simulations
+number: '2'
+pages: '7'
+ref: grazzini2012
+time-added: 2022-08-21-18:31:49
+title: 'Analysis of the Emergent Properties: Stationarity and Ergodicity'
+type: article
+url: http://jasss.soc.surrey.ac.uk/15/2/7.html
+volume: '15'
+year: '2012'

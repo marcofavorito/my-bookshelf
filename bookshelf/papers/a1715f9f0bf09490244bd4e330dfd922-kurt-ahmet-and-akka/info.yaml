@@ -1,0 +1,50 @@
+abstract: Bitcoin has emerged as a revolutionary payment system with its decentralized
+  ledger concept; however it has significant problems such as high transaction fees
+  and low throughput. Lightning Network (LN), which was introduced much later, solves
+  most of these problems with an innovative concept called off-chain payments. With
+  this advancement, Bitcoin has become an attractive venue to perform micro-payments
+  which can also be adopted in many IoT applications (e.g., toll payments). Nevertheless,
+  it is not feasible to host LN and Bitcoin on IoT devices due to the storage, memory,
+  and processing restrictions. Therefore, in this paper, we propose a secure and efficient
+  protocol that enables an IoT device to use LN's functions through an untrusted gateway
+  node. Through this gateway which hosts the LN and Bitcoin nodes, the IoT device
+  can open & close LN channels and send & receive LN payments. This delegation approach
+  is powered by a threshold cryptography based scheme that requires the IoT device
+  and the LN gateway to jointly perform all LN operations. Specifically, we propose
+  thresholdizing LN's Bitcoin public and private keys as well as its public and private
+  keys for the new channel states (i.e., commitment points). We prove with a game
+  theoretical security analysis that the IoT device is secure against collusion and
+  stealing attacks. We implemented the proposed protocol by changing LN's source code
+  and thoroughly evaluated its performance using a Raspberry Pi. Our evaluation results
+  show that the protocol is fast, does not bring extra cost overhead and can be run
+  on low data-rate wireless networks. To the best of our knowledge, this is the first
+  work that implemented threshold cryptography in LN.
+archiveprefix: arXiv
+author: Kurt, Ahmet and Akkaya, Kemal and Yilmaz, Sabri and Mercan, Suat and Shlomovits,
+  Omer and Erdin, Enes
+author_list:
+- family: Kurt
+  given: Ahmet
+- family: Akkaya
+  given: Kemal
+- family: Yilmaz
+  given: Sabri
+- family: Mercan
+  given: Suat
+- family: Shlomovits
+  given: Omer
+- family: Erdin
+  given: Enes
+eprint: 2206.02248v1
+file: 2206.02248v1.pdf
+files:
+- kurt-ahmet-and-akkaya-kemal-and-yilmaz-sabri-and-mercan-suat-and-shlomovits-omer-and-erdin-eneslngate-2-secure-bidirectional-iot-micro-paymen.pdf
+month: Jun
+primaryclass: cs.CR
+ref: 2206.02248v1
+time-added: 2022-08-19-16:07:52
+title: 'LNGate$^2$: Secure Bidirectional IoT Micro-payments using Bitcoin''s   Lightning
+  Network and Threshold Cryptography'
+type: article
+url: http://arxiv.org/abs/2206.02248v1
+year: '2022'

@@ -1,0 +1,32 @@
+abstract: 'This paper describes the design, implementation, and successful use of
+  the Bristol Stock Exchange (BSE), a novel minimal simulation of a centralised financial
+  market, based on a Limit Order Book (LOB) such as is common in major stock exchanges.
+  Construction of BSE was motivated by the fact that most of the world''s major financial
+  markets have automated, with trading activity that previously was the responsibility
+  of human traders now being performed by high-speed autonomous automated trading
+  systems. Research aimed at understanding the dynamics of this new style of financial
+  market is hampered by the fact that no operational real-world exchange is ever likely
+  to allow experimental probing of that market while it is open and running live,
+  forcing researchers to work primarily from time-series of past trading data. Similarly,
+  university-level education of the engineers who can create next-generation automated
+  trading systems requires that they have hands-on learning experience in a sufficiently
+  realistic teaching environment. BSE as described here addresses both those needs:
+  it has been successfully used for teaching and research in a leading UK university
+  since 2012, and the BSE program code is freely available as open-source on GitHuB.'
+archiveprefix: arXiv
+author: Cliff, Dave
+author_list:
+- family: Cliff
+  given: Dave
+eprint: 1809.06027v1
+file: 1809.06027v1.pdf
+files:
+- cliff-davebse-a-minimal-simulation-of-a-limit-order-book-stock-exchange2018.pdf
+month: Sep
+primaryclass: cs.CE
+ref: 1809.06027v1
+time-added: 2022-08-22-14:16:56
+title: 'BSE: A Minimal Simulation of a Limit-Order-Book Stock Exchange'
+type: article
+url: http://arxiv.org/abs/1809.06027v1
+year: '2018'

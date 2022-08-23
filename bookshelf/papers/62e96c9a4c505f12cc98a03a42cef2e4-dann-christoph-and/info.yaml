@@ -1,0 +1,38 @@
+abstract: We study the computational tractability of PAC reinforcement learning with
+  rich observations. We present new provably sample-efficient algorithms for environments
+  with deterministic hidden state dynamics and stochastic rich observations. These
+  methods operate in an oracle model of computation -- accessing policy and value
+  function classes exclusively through standard optimization primitives -- and therefore
+  represent computationally efficient alternatives to prior algorithms that require
+  enumeration. With stochastic hidden state dynamics, we prove that the only known
+  sample-efficient algorithm, OLIVE, cannot be implemented in the oracle model. We
+  also present several examples that illustrate fundamental challenges of tractable
+  PAC reinforcement learning in such general settings.
+archiveprefix: arXiv
+author: Dann, Christoph and Jiang, Nan and Krishnamurthy, Akshay and Agarwal, Alekh
+  and Langford, John and Schapire, Robert E.
+author_list:
+- family: Dann
+  given: Christoph
+- family: Jiang
+  given: Nan
+- family: Krishnamurthy
+  given: Akshay
+- family: Agarwal
+  given: Alekh
+- family: Langford
+  given: John
+- family: Schapire
+  given: Robert E.
+eprint: 1803.00606v4
+file: 1803.00606v4.pdf
+files:
+- dann-christoph-and-jiang-nan-and-krishnamurthy-akshay-and-agarwal-alekh-and-langford-john-and-schapire-robert-e.on-oracle-efficient-pac-rl-with.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1803.00606v4
+time-added: 2022-08-23-08:48:37
+title: On Oracle-Efficient PAC RL with Rich Observations
+type: article
+url: http://arxiv.org/abs/1803.00606v4
+year: '2018'

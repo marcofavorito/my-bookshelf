@@ -1,0 +1,37 @@
+abstract: Deep neural networks are a family of computational models that are naturally
+  suited to the analysis of hierarchical data such as, for instance, sequential data
+  with the use of recurrent neural networks. In the other hand, ordinal regression
+  is a well-known predictive modelling problem used in fields as diverse as psychometry
+  to deep neural network based voice modelling. Their specificity lies in the properties
+  of their outcome variable, typically considered as a categorical variable with natural
+  ordering properties, typically allowing comparisons between different states ("a
+  little" is less than "somewhat" which is itself less than "a lot", with transitivity
+  allowed). This article investigates the application of sequence-to-sequence learning
+  methods provided by the deep learning framework in ordinal regression, by formulating
+  the ordinal regression problem as a sequential binary search. A method for visualizing
+  the model's explanatory variables according to the ordinal target variable is proposed,
+  that bears some similarities to linear discriminant analysis. The method is compared
+  to traditional ordinal regression methods on a number of benchmark dataset, and
+  is shown to have comparable or significantly better predictive power.
+archiveprefix: arXiv
+author: Falissard, Louis and Bounebache, Karim and Rey, Grégoire
+author_list:
+- family: Falissard
+  given: Louis
+- family: Bounebache
+  given: Karim
+- family: Rey
+  given: Grégoire
+eprint: 2101.02609v1
+file: 2101.02609v1.pdf
+files:
+- falissard-louis-and-bounebache-karim-and-rey-gregoirelearning-a-binary-search-with-a-recurrent-neural-network.-a-novel-approach-to-ordinal-regres.pdf
+month: Jan
+primaryclass: stat.ML
+ref: 2101.02609v1
+time-added: 2022-08-17-09:55:58
+title: Learning a binary search with a recurrent neural network. A novel   approach
+  to ordinal regression analysis
+type: article
+url: http://arxiv.org/abs/2101.02609v1
+year: '2021'
