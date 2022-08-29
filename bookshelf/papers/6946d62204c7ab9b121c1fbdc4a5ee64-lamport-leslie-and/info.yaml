@@ -1,0 +1,33 @@
+abstract: "From late fall 1996 through early summer 1997, Mark Tuttle, Yuan Yu, and\
+  \ I worked on the specification and verification of the cache-coherence protocol\
+  \ for a computer code-named Wildfire.  We worked closely with Madhu Sharma, one\
+  \ of Wildfire's designers.  We wrote a detailed specification of the protocol as\
+  \ well as a specification of the memory model that it was supposed to implement.\
+  \  We then proved various properties, but did not attempt a complete proof.  In\
+  \ early 2000, Madhu, Mark, and I wrote a specification of a higher-level abstract\
+  \ version of the protocol.  \n\nThere was one detail of the protocol that struck\
+  \ me as particularly subtle.  I had the idea of publishing an incorrect version\
+  \ of the specification with that detail omitted as a challenge problem for the verification\
+  \ community.  I did that and put it on the Web in June, 2000.  To further disseminate\
+  \ the problem, we wrote this description of it for the CAV (Computer Aided Verification)\
+  \ conference."
+author: Lamport, Leslie and Sharma, Madhu and Tuttle, Mark and Yu, Yuan
+author_list:
+- family: Lamport
+  given: Leslie
+- family: Sharma
+  given: Madhu
+- family: Tuttle
+  given: Mark
+- family: Yu
+  given: Yuan
+edition: Rejected from CAV 2001
+files:
+- lamport-leslie-and-sharma-madhu-and-tuttle-mark-and-yu-yuanthe-wildfire-challenge-problem2001.pdf
+month: January
+ref: lamport2001the
+time-added: 2022-08-26-14:12:15
+title: The Wildfire Challenge Problem
+type: article
+url: https://www.microsoft.com/en-us/research/publication/wildfire-challenge-problem/
+year: '2001'

@@ -1,0 +1,241 @@
+abstract: "<jats:p>Distributed protocols such as Paxos play an important role in many\
+  \ computer systems. Therefore, a bug in a distributed protocol may have tremendous\
+  \ effects. Accordingly, a lot of effort has been invested in verifying such protocols.\
+  \ However, checking invariants of such protocols is undecidable and hard in practice,\
+  \ as it requires reasoning about an unbounded number of nodes and messages. Moreover,\
+  \ protocol actions and invariants involve both quantifier alternations and higher-order\
+  \ concepts such as set cardinalities and arithmetic.</jats:p>\n          <jats:p>This\
+  \ paper makes a step towards automatic verification of such protocols. We aim at\
+  \ a technique that can verify correct protocols and identify bugs in incorrect protocols.\
+  \ To this end, we develop a methodology for deductive verification based on effectively\
+  \ propositional logic (EPR)—a decidable fragment of first-order logic (also known\
+  \ as the Bernays-Schönfinkel-Ramsey class). In addition to decidability, EPR also\
+  \ enjoys the finite model property, allowing to display violations as finite structures\
+  \ which are intuitive for users. Our methodology involves modeling protocols using\
+  \ general (uninterpreted) first-order logic, and then systematically transforming\
+  \ the model to obtain a model and an inductive invariant that are decidable to check.\
+  \ The steps of the transformations are also mechanically checked, ensuring the soundness\
+  \ of the method. We have used our methodology to verify the safety of Paxos, and\
+  \ several of its variants, including Multi-Paxos, Vertical Paxos, Fast Paxos, Flexible\
+  \ Paxos and Stoppable Paxos. To the best of our knowledge, this work is the first\
+  \ to verify these protocols using a decidable logic, and the first formal verification\
+  \ of Vertical Paxos, Fast Paxos and Stoppable Paxos.</jats:p>"
+author: Padon, Oded and Losa, Giuliano and Sagiv, Mooly and Shoham, Sharon
+author_list:
+- affiliation:
+  - name: Tel Aviv University, Israel
+  family: Padon
+  given: Oded
+- affiliation:
+  - name: University of California at Los Angeles, USA
+  family: Losa
+  given: Giuliano
+- affiliation:
+  - name: Tel Aviv University, Israel
+  family: Sagiv
+  given: Mooly
+- affiliation:
+  - name: Tel Aviv University, Israel
+  family: Shoham
+  given: Sharon
+citations:
+- doi: 10.1007/978-3-319-40229-1_6
+- author: Barrett Clark
+  unstructured: Clark Barrett , Christopher L. Conway , Morgan Deters , Liana Hadarean
+    , Dejan Jovanovic , Tim King , Andrew Reynolds , and Cesare Tinelli . 2011 . CVC4.
+    In Computer Aided Verification - 23rd International Conference , CAV 2011, Snowbird,
+    UT, USA, July 14-20, 2011. Proceedings. 171–177 . Clark Barrett, Christopher L.
+    Conway, Morgan Deters, Liana Hadarean, Dejan Jovanovic, Tim King, Andrew Reynolds,
+    and Cesare Tinelli. 2011. CVC4. In Computer Aided Verification - 23rd International
+    Conference, CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings. 171–177.
+  volume-title: CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings. 171–177
+  year: '2011'
+- doi: 10.1007/978-3-662-07964-5
+- doi: 10.1007/978-3-642-11294-2_6
+- doi: 10.2200/S00658ED1V01Y201508DCT013
+- author: Burrows Michael
+  unstructured: Michael Burrows . 2006 . The Chubby Lock Service for Loosely-Coupled
+    Distributed Systems. In 7th Symposium on Operating Systems Design and Implementation
+    OSDI ’06) , November 6-8, Seattle, WA, USA. USENIX Association, 335–350. Michael
+    Burrows. 2006. The Chubby Lock Service for Loosely-Coupled Distributed Systems.
+    In 7th Symposium on Operating Systems Design and Implementation OSDI ’06), November
+    6-8, Seattle, WA, USA. USENIX Association, 335–350.
+  volume-title: The Chubby Lock Service for Loosely-Coupled Distributed Systems. In
+    7th Symposium on Operating Systems Design and Implementation OSDI ’06)
+  year: '2006'
+- doi: 10.1007/978-3-319-48989-6_8
+- doi: 10.1007/s00446-009-0084-6
+- doi: 10.1007/978-3-642-14808-8_3
+- author: Chen Haogang
+  unstructured: Haogang Chen , Daniel Ziegler , Tej Chajed , Adam Chlipala , M. Frans
+    Kaashoek , and Nickolai Zeldovich . 2016 . Using Crash Hoare Logic for Certifying
+    the FSCQ File System. In 2016 USENIX Annual Technical Conference, USENIX ATC 2016
+    , Denver, CO, USA , June 22-24, 2016. Haogang Chen, Daniel Ziegler, Tej Chajed,
+    Adam Chlipala, M. Frans Kaashoek, and Nickolai Zeldovich. 2016. Using Crash Hoare
+    Logic for Certifying the FSCQ File System. In 2016 USENIX Annual Technical Conference,
+    USENIX ATC 2016, Denver, CO, USA, June 22-24, 2016.
+  volume-title: Using Crash Hoare Logic for Certifying the FSCQ File System. In 2016
+    USENIX Annual Technical Conference, USENIX ATC 2016
+  year: '2016'
+- doi: 10.1145/503112.503113
+- doi: 10.5555/1792734.1792766
+- doi: 10.1007/978-3-642-54013-4_10
+- doi: 10.1145/2914770.2837650
+- doi: 10.1007/978-3-662-54577-5_5
+- doi: 10.1145/2815400.2815428
+- author: Howard Heidi
+  unstructured: 'Heidi Howard , Dahlia Malkhi , and Alexander Spiegelman . 2016 .
+    Flexible Paxos: Quorum Intersection Revisited. arXiv preprint arXiv:1608.06696
+    (2016). Heidi Howard, Dahlia Malkhi, and Alexander Spiegelman. 2016. Flexible
+    Paxos: Quorum Intersection Revisited. arXiv preprint arXiv:1608.06696 (2016).'
+  volume-title: 'Flexible Paxos: Quorum Intersection Revisited. arXiv preprint arXiv:1608.06696'
+  year: '2016'
+- doi: 10.1145/2535838.2535854
+- doi: 10.1007/978-3-642-39799-8_53
+- author: Jackson Daniel
+  unstructured: 'Daniel Jackson . 2006 . Software Abstractions: Logic, Language, and
+    Analysis . The MIT Press . Daniel Jackson. 2006. Software Abstractions: Logic,
+    Language, and Analysis. The MIT Press.'
+  volume-title: 'Software Abstractions: Logic, Language, and Analysis'
+  year: '2006'
+- author: Jaskelioff Mauro
+  unstructured: Mauro Jaskelioff and Stephan Merz . 2005. Proving the Correctness
+    of Disk Paxos. Archive of Formal Proofs (June 2005 ). http://isa- afp.org/entries/DiskPaxos.shtml
+    , Formal proof development. Mauro Jaskelioff and Stephan Merz. 2005. Proving the
+    Correctness of Disk Paxos. Archive of Formal Proofs (June 2005). http://isa- afp.org/entries/DiskPaxos.shtml
+    , Formal proof development.
+  volume-title: Proving the Correctness of Disk Paxos. Archive of Formal Proofs (June
+  year: '2005'
+- doi: 10.1145/3009837.3009860
+- doi: 10.1007/978-3-319-21690-4_6
+- doi: 10.1007/978-3-319-41579-6_2
+- author: Korovin Konstantin
+  unstructured: Konstantin Korovin . 2008 . iProver - An Instantiation-Based Theorem
+    Prover for First-Order Logic (System Description). In Automated Reasoning , 4th
+    International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008,
+    Proceedings. 292–298 . Konstantin Korovin. 2008. iProver - An Instantiation-Based
+    Theorem Prover for First-Order Logic (System Description). In Automated Reasoning,
+    4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15,
+    2008, Proceedings. 292–298.
+  volume-title: 4th International Joint Conference, IJCAR 2008, Sydney, Australia,
+    August 12-15, 2008, Proceedings. 292–298
+  year: '2008'
+- doi: 10.1145/177492.177726
+- doi: 10.1145/279227.279229
+- author: Lamport Leslie
+  unstructured: Leslie Lamport . 2001. Paxos Made Simple. (December 2001 ), 51–58.
+    https://www.microsoft.com/en- us/research/publication/ paxos- made- simple/ Leslie
+    Lamport. 2001. Paxos Made Simple. (December 2001), 51–58. https://www.microsoft.com/en-
+    us/research/publication/ paxos- made- simple/
+  volume-title: Paxos Made Simple. (December
+  year: '2001'
+- author: Lamport Leslie
+  unstructured: 'Leslie Lamport . 2002 . Specifying Systems: The TLA+ Language and
+    Tools for Hardware and Software Engineers . Addison-Wesley Longman Publishing
+    Co., Inc. , Boston, MA, USA . Leslie Lamport. 2002. Specifying Systems: The TLA+
+    Language and Tools for Hardware and Software Engineers. Addison-Wesley Longman
+    Publishing Co., Inc., Boston, MA, USA.'
+  volume-title: 'Specifying Systems: The TLA+ Language and Tools for Hardware and
+    Software Engineers'
+  year: '2002'
+- doi: 10.1007/s00446-006-0005-x
+- unstructured: Leslie Lamport Dahlia Malkhi and Lidong Zhou. 2008. Stoppable Paxos.
+    Technical Report. TechReport Microsoft Research. https://www.microsoft.com/en-
+    us/research/publication/stoppable- paxos/  Leslie Lamport Dahlia Malkhi and Lidong
+    Zhou. 2008. Stoppable Paxos. Technical Report. TechReport Microsoft Research.
+    https://www.microsoft.com/en- us/research/publication/stoppable- paxos/
+- doi: 10.1145/1582716.1582783
+- doi: 10.1145/1753171.1753191
+- article-title: The ABCD’s of Paxos
+  author: Lampson Butler
+  first-page: '13'
+  journal-title: PODC
+  unstructured: Butler Lampson . 2001 . The ABCD’s of Paxos . In PODC , Vol. 1. 13
+    . Butler Lampson. 2001. The ABCD’s of Paxos. In PODC, Vol. 1. 13.
+  volume: '1'
+  year: '2001'
+- author: Leino K Rustan M
+  unstructured: 'K Rustan M Leino . 2010 . Dafny: An automatic program verifier for
+    functional correctness. In Logic for Programming, Artificial Intelligence, and
+    Reasoning . Springer , 348–370. K Rustan M Leino. 2010. Dafny: An automatic program
+    verifier for functional correctness. In Logic for Programming, Artificial Intelligence,
+    and Reasoning. Springer, 348–370.'
+  volume-title: 'Dafny: An automatic program verifier for functional correctness.
+    In Logic for Programming, Artificial Intelligence, and Reasoning'
+  year: '2010'
+- doi: 10.1016/0022-0000(80)90027-6
+- doi: 10.1007/978-3-319-63390-9_12
+- doi: 10.1109/FMCAD.2016.7886668
+- doi: 10.1145/2699417
+- author: Nipkow Tobias
+  unstructured: 'Tobias Nipkow , Lawrence C. Paulson , and Markus Wenzel . 2002. Isabelle/HOL
+    : A Proof Assistant for Higher-Order Logic . Vol. 2283 . Springer Science & amp;
+    Business Media. Tobias Nipkow, Lawrence C. Paulson, and Markus Wenzel. 2002. Isabelle/HOL:
+    A Proof Assistant for Higher-Order Logic. Vol. 2283. Springer Science &amp; Business
+    Media.'
+  volume-title: A Proof Assistant for Higher-Order Logic
+- author: Ongaro Diego
+  unstructured: Diego Ongaro and John K. Ousterhout . 2014. In Search of an Understandable
+    Consensus Algorithm . In 2014 USENIX Annual Technical Conference, USENIX ATC ’14
+    , Philadelphia, PA, USA , June 19-20, 2014 . 305–319. https://www.usenix.org/
+    conference/atc14/technical- sessions/presentation/ongaro Diego Ongaro and John
+    K. Ousterhout. 2014. In Search of an Understandable Consensus Algorithm. In 2014
+    USENIX Annual Technical Conference, USENIX ATC ’14, Philadelphia, PA, USA, June
+    19-20, 2014. 305–319. https://www.usenix.org/ conference/atc14/technical- sessions/presentation/ongaro
+  volume-title: 2014 USENIX Annual Technical Conference, USENIX ATC ’14
+  year: '2014'
+- doi: 10.1145/2908080.2908118
+- doi: 10.1145/357172.357177
+- doi: 10.1007/s10817-009-9161-6
+- author: Rahli Vincent
+  unstructured: Vincent Rahli , David Guaspari , Mark Bickford , and Robert L. Constable
+    . 2015 . 15th international workshop on automated verification of critical systems
+    (avocs 2015 ). electronic communications of the easst 72 ( 2015 ). Vincent Rahli,
+    David Guaspari, Mark Bickford, and Robert L. Constable. 2015. 15th international
+    workshop on automated verification of critical systems (avocs 2015). electronic
+    communications of the easst 72 (2015).
+  volume-title: 15th international workshop on automated verification of critical
+    systems (avocs 2015
+  year: '2015'
+- doi: 10.1145/1749608.1749613
+- article-title: The Design and Implementation of VAMPIRE
+  author: Riazanov Alexandre
+  first-page: '3'
+  journal-title: AI Commun.
+  unstructured: Alexandre Riazanov and Andrei Voronkov . 2002 . The Design and Implementation
+    of VAMPIRE . AI Commun. 15 , 2, 3 (Aug. 2002), 91–110. http://dl.acm.org/citation.cfm?id=1218615.1218620
+    Alexandre Riazanov and Andrei Voronkov. 2002. The Design and Implementation of
+    VAMPIRE. AI Commun. 15, 2,3 (Aug. 2002), 91–110. http://dl.acm.org/citation.cfm?id=1218615.1218620
+  volume: '15'
+  year: '2002'
+- doi: 10.1109/DSN.2014.45
+  unstructured: N. Schiper V. Rahli R. V. Renesse M. Bickford and R. L. Constable.
+    2014. developing correctly replicated databases using formal tools. In 2014 44th
+    annual ieee/ifip international conference on dependable systems and networks.
+    395–406.  N. Schiper V. Rahli R. V. Renesse M. Bickford and R. L. Constable. 2014.
+    developing correctly replicated databases using formal tools. In 2014 44th annual
+    ieee/ifip international conference on dependable systems and networks. 395–406.
+- doi: 10.1145/98163.98167
+- doi: 10.1145/2737924.2737964
+- doi: 10.1145/2908080.2908129
+- doi: 10.1007/978-3-642-02959-2_10
+- doi: 10.1145/2737924.2737958
+- doi: 10.1007/3-540-48153-2_6
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3140568
+doi: 10.1145/3140568
+files:
+- padon-oded-and-losa-giuliano-and-sagiv-mooly-and-shoham-sharonpaxos-made-epr-decidable-reasoning-about-distributed-protocols2017.pdf
+- padon-oded-and-losa-giuliano-and-sagiv-mooly-and-shoham-sharonpaxos-made-epr-decidable-reasoning-about-distributed-protocols2017-a.pdf
+issue: OOPSLA
+journal: Proceedings of the ACM on Programming Languages
+language: en
+month: 10
+pages: 1--31
+publisher: Association for Computing Machinery (ACM)
+ref: PaxosMadeEprPadon2017
+time-added: 2022-08-26-17:43:35
+title: 'Paxos made EPR: decidable reasoning about distributed protocols'
+type: article
+url: http://dx.doi.org/10.1145/3140568
+volume: '1'
+year: 2017

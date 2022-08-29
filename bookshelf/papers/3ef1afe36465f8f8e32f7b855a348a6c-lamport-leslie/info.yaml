@@ -1,0 +1,48 @@
+abstract: "TLA gave me, for the first time, a formalism in which it was possible to\
+  \ write completely formal proofs without first having to add an additional layer\
+  \ of formal semantics.  I began writing proofs the way I and all mathematicians\
+  \ and computer scientists had learned to write them, using a sequence of lemmas\
+  \ whose proofs were a mixture of prose and formulas.  I quickly discovered that\
+  \ this approach collapsed under the weight of the complexity of any nontrivial proof.\
+  \  I became lost in a maze of details, and couldn't keep track of what had and had\
+  \ not been proved at any point.  Programmers learned long ago that the way to handle\
+  \ complexity is with hierarchical structuring.  So, it was quite natural to start\
+  \ structuring the proofs hierarchically, and I soon developed a simple hierarchical\
+  \ proof style.  It then occurred to me that this structured proof style should be\
+  \ good for ordinary mathematical proofs, not just for formal verification of systems.\
+  \  Trying it out, I found that it was great.  I now never write old-fashioned unstructured\
+  \ proofs for myself, and use them only in some papers for short proof sketches that\
+  \ are not meant to be rigorous.  \n\nI first presented these ideas in a talk at\
+  \ a celebration of the 60th birthday of Richard Palais, my de jure thesis advisor,\
+  \ collaborator, and friend.  I was invited along with all of Palais' former doctoral\
+  \ students, and I was the only non-mathematician who gave a talk.  (I believe all\
+  \ the other talks presented that day appear among the articles in the volume edited\
+  \ by Uhlenbeck.)  Lots of people jumped on me for trying to take the fun out of\
+  \ mathematics.  The strength of their reaction indicates that I hit a nerve.  Perhaps\
+  \ they really do think it's fun having to recreate the proofs themselves if they\
+  \ want to know whether a theorem in a published paper is actually correct, and to\
+  \ have to struggle to figure out why a particular step in the proof is supposed\
+  \ to hold.  I republished the paper in the AMM Monthly so it would reach a larger\
+  \ audience of mathematicians.  Maybe I should republish it again for computer scientists."
+author: Lamport, Leslie
+author_list:
+- family: Lamport
+  given: Leslie
+edition: American Mathematical Monthly. Also appeared in Global Analysis in Modern
+  Mathematics, Karen Uhlenbeck, editor. Publish or Perish Press, Houston. Also appeared
+  as SRC Research Report 94.
+files:
+- lamport-lesliehow-to-write-a-proof1995.pdf
+journal: American Mathematical Monthly. Also appeared in Global Analysis in Modern
+  Mathematics, Karen Uhlenbeck, editor. Publish or Perish Press, Houston. Also appeared
+  as SRC Research Report 94.
+month: August
+number: '7'
+pages: 600-608
+ref: lamport1995how
+time-added: 2022-08-26-15:11:19
+title: How to Write a Proof
+type: article
+url: https://www.microsoft.com/en-us/research/publication/how-to-write-a-proof/
+volume: '102'
+year: '1995'

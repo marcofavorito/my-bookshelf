@@ -1,0 +1,22 @@
+abstract: An algorithm is described which guarantees reliable storage of data in a
+  distributed system, even when different portions of the data base, stored on separate
+  machines, are updated as part of a single transaction. The algorithm is implemented
+  by a hierarchy of rather simple abstractions, and it works properly regardless of
+  crashes of the client or servers. Some care is taken to state precisely the assumptions
+  about the physical components of the system (storage, processors and communication).
+author: Lampson, Butler and Sturgis, Howard E.
+author_list:
+- family: Lampson
+  given: Butler
+- family: Sturgis
+  given: Howard E.
+files:
+- lampson-butler-and-sturgis-howard-e.crash-recovery-in-a-distributed-data-storage-system1979.pdf
+month: June
+note: This unpublished paper was widely circulated in samizdat.
+ref: lampson1979crash
+time-added: 2022-08-26-18:13:43
+title: Crash Recovery in a Distributed Data Storage System
+type: unpublished
+url: https://www.microsoft.com/en-us/research/publication/crash-recovery-in-a-distributed-data-storage-system/
+year: '1979'

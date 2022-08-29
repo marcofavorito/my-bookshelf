@@ -1,0 +1,33 @@
+abstract: Agent-based models (ABMs) highlight the importance of simulation validation,
+  such as qualitative face validation and quantitative empirical validation. In particular,
+  we focused on quantitative validation by adjusting simulation input parameters of
+  the ABM. This study introduces an automatic calibration framework that combines
+  the suggested dynamic and heterogeneous calibration methods. Specifically, the dynamic
+  calibration fits the simulation results to the real-world data by automatically
+  capturing suitable simulation time to adjust the simulation parameters. Meanwhile,
+  the heterogeneous calibration reduces the distributional discrepancy between individuals
+  in the simulation and the real world by adjusting agent related parameters cluster-wisely.
+archiveprefix: arXiv
+author: Kim, Dongjun and Yun, Tae-Sub and Moon, Il-Chul and Bae, Jang Won
+author_list:
+- family: Kim
+  given: Dongjun
+- family: Yun
+  given: Tae-Sub
+- family: Moon
+  given: Il-Chul
+- family: Bae
+  given: Jang Won
+eprint: 2203.03147v1
+file: 2203.03147v1.pdf
+files:
+- kim-dongjun-and-yun-tae-sub-and-moon-il-chul-and-bae-jang-wonautomatic-calibration-framework-of-agent-based-models-for-dynamic-and-heterogeneous.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2203.03147v1
+time-added: 2022-08-23-11:37:33
+title: Automatic Calibration Framework of Agent-Based Models for Dynamic and   Heterogeneous
+  Parameters
+type: article
+url: http://arxiv.org/abs/2203.03147v1
+year: '2022'

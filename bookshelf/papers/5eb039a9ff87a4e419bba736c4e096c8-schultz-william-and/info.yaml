@@ -1,0 +1,34 @@
+abstract: We present a new technique for automatically inferring inductive invariants
+  of parameterized distributed protocols specified in TLA+. Ours is the first such
+  invariant inference technique to work directly on TLA+, an expressive, high level
+  specification language. To achieve this, we present a new algorithm for invariant
+  inference that is based around a core procedure for generating plain, potentially
+  non-inductive lemma invariants that are used as candidate conjuncts of an overall
+  inductive invariant. We couple this with a greedy lemma invariant selection procedure
+  that selects lemmas that eliminate the largest number of counterexamples to induction
+  at each round of our inference procedure. We have implemented our algorithm in a
+  tool, endive, and evaluate it on a diverse set of distributed protocol benchmarks,
+  demonstrating competitive performance and ability to uniquely solve an industrial
+  scale reconfiguration protocol.
+archiveprefix: arXiv
+author: Schultz, William and Dardik, Ian and Tripakis, Stavros
+author_list:
+- family: Schultz
+  given: William
+- family: Dardik
+  given: Ian
+- family: Tripakis
+  given: Stavros
+eprint: 2205.06360v1
+file: 2205.06360v1.pdf
+files:
+- schultz-william-and-dardik-ian-and-tripakis-stavrosplain-and-simple-inductive-invariant-inference-for-distributed-protocols-in-tla-2022.pdf
+month: May
+primaryclass: cs.LO
+ref: 2205.06360v1
+time-added: 2022-08-26-17:14:04
+title: Plain and Simple Inductive Invariant Inference for Distributed Protocols   in
+  TLA+
+type: article
+url: http://arxiv.org/abs/2205.06360v1
+year: '2022'

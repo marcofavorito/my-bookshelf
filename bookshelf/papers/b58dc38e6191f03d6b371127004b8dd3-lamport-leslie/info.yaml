@@ -1,0 +1,33 @@
+abstract: 'I was invited to give a talk at a celebration of the 80th birthday of Richard
+  Palais. It was at a celebration of his 60th birthday that I first gave a talk about
+  how to write a proof--a talk that led to [101]. So, I thought it would be fun to
+  give the same talk, updated to reflect my 20 years of experience writing structured
+  proofs. The talk was received much more calmly than my earlier one, and the mathematicians
+  were open to considering that I might have something interesting to say about writing
+  proofs. Perhaps in the last 20 years I have learned to be more persuasive, or perhaps
+  the mathematicians in the audience had just grown older and calmer. In any case,
+  they were still not ready to try changing how they write their own proofs.
+
+
+  My experience preparing and giving the talk made me realize it was time for a new
+  paper on the subject. This paper is built around a simple example--a lemma from
+  Michael Spivak''s calculus text. I tried to show how a mathematician can easily
+  transform the proofs she now writes into structured proofs. The paper also briefly
+  describes how formal structured proofs are written in TLA+, and an appendix contains
+  a machine-checked proof of Spivak''s lemma. While mathematicians will not write
+  formal proofs in the forseeable future, I argue that learning how to write them
+  is a good way to learn how to write rigorous informal proofs.'
+author: Lamport, Leslie
+author_list:
+- family: Lamport
+  given: Leslie
+files:
+- lamport-lesliehow-to-write-a-21st-century-proof2011.pdf
+journal: Journal of Fixed Point Theory and Applications
+month: November
+ref: lamport2011how
+time-added: 2022-08-26-15:10:33
+title: How to Write a 21st Century Proof
+type: article
+url: https://www.microsoft.com/en-us/research/publication/write-21st-century-proof/
+year: '2011'

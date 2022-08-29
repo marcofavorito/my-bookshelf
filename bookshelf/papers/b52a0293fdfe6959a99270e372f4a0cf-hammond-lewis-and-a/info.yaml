@@ -1,0 +1,40 @@
+abstract: In this paper, we study the problem of learning to satisfy temporal logic
+  specifications with a group of agents in an unknown environment, which may exhibit
+  probabilistic behaviour. From a learning perspective these specifications provide
+  a rich formal language with which to capture tasks or objectives, while from a logic
+  and automated verification perspective the introduction of learning capabilities
+  allows for practical applications in large, stochastic, unknown environments. The
+  existing work in this area is, however, limited. Of the frameworks that consider
+  full linear temporal logic or have correctness guarantees, all methods thus far
+  consider only the case of a single temporal logic specification and a single agent.
+  In order to overcome this limitation, we develop the first multi-agent reinforcement
+  learning technique for temporal logic specifications, which is also novel in its
+  ability to handle multiple specifications. We provide correctness and convergence
+  guarantees for our main algorithm - ALMANAC (Automaton/Logic Multi-Agent Natural
+  Actor-Critic) - even when using function approximation. Alongside our theoretical
+  results, we further demonstrate the applicability of our technique via a set of
+  preliminary experiments.
+archiveprefix: arXiv
+author: Hammond, Lewis and Abate, Alessandro and Gutierrez, Julian and Wooldridge,
+  Michael
+author_list:
+- family: Hammond
+  given: Lewis
+- family: Abate
+  given: Alessandro
+- family: Gutierrez
+  given: Julian
+- family: Wooldridge
+  given: Michael
+eprint: 2102.00582v2
+file: 2102.00582v2.pdf
+files:
+- hammond-lewis-and-abate-alessandro-and-gutierrez-julian-and-wooldridge-michaelmulti-agent-reinforcement-learning-with-temporal-logic-specification.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 2102.00582v2
+time-added: 2022-08-23-14:05:05
+title: Multi-Agent Reinforcement Learning with Temporal Logic Specifications
+type: article
+url: http://arxiv.org/abs/2102.00582v2
+year: '2021'

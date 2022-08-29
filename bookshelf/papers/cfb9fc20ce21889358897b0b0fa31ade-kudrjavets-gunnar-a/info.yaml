@@ -1,0 +1,30 @@
+abstract: The use of assertions in software development is thought to help produce
+  quality software. Unfortunately, there is scant empirical evidence in commercial
+  software systems for this argument to date. This paper presents an empirical case
+  study of two commercial software components at Microsoft Corporation. The developers
+  of these components systematically employed assertions, which allowed us to investigate
+  the relationship between software assertions and code quality. We also compare the
+  efficacy of assertions against that of popular bug finding techniques like source
+  code static analysis tools. We observe from our case study that with an increase
+  in the assertion density in a file there is a statistically significant decrease
+  in fault density. Further, the usage of software assertions in these components
+  found a large percentage of the faults in the bug database.
+author: Kudrjavets, Gunnar and Nagappan, Nachi and Ball, Thomas
+author_list:
+- family: Kudrjavets
+  given: Gunnar
+- family: Nagappan
+  given: Nachi
+- family: Ball
+  given: Thomas
+files:
+- kudrjavets-gunnar-and-nagappan-nachi-and-ball-thomasassessing-the-relationship-between-software-assertions-and-code-quality-an-empirical-investiga.pdf
+month: May
+number: MSR-TR-2006-54
+ref: kudrjavets2006assessing
+time-added: 2022-08-26-14:39:42
+title: 'Assessing the Relationship between Software Assertions and Code Quality: An
+  Empirical Investigation'
+type: techreport
+url: https://www.microsoft.com/en-us/research/publication/assessing-the-relationship-between-software-assertions-and-code-qualityan-empirical-investigation/
+year: '2006'

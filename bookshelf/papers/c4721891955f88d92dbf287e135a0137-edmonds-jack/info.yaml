@@ -1,0 +1,49 @@
+abstract: <jats:p>A <jats:italic>graph G</jats:italic> for purposes here is a finite
+  set of elements called <jats:italic>vertices</jats:italic> and a finite set of elements
+  called <jats:italic>edges</jats:italic> such that each edge <jats:italic>meets</jats:italic>
+  exactly two vertices, called the <jats:italic>end-points</jats:italic> of the edge.
+  An edge is said to <jats:italic>join</jats:italic> its end-points.</jats:p><jats:p>A
+  <jats:italic>matching</jats:italic> in <jats:italic>G</jats:italic> is a subset
+  of its edges such that no two meet the same vertex. We describe an efficient algorithm
+  for finding in a given graph a matching of maximum cardinality. This problem was
+  posed and partly solved by C. Berge; see Sections 3.7 and 3.8.</jats:p>
+author: Edmonds, Jack
+author_list:
+- affiliation: []
+  family: Edmonds
+  given: Jack
+citations:
+- doi: 10.1112/jlms/s1-22.2.107
+- author: Ford
+  volume-title: Flows in networks
+  year: '1962'
+- doi: 10.1090/S0002-9939-1959-0106853-5
+- author: Witzgall
+  journal-title: Modification of Edmonds﹜ algorithm for maximum matching of graphs
+  volume: 69B
+  year: '1965'
+- author: Berge
+  volume-title: The theory of graphs and its applications
+  year: '1962'
+- doi: 10.1090/S0002-9904-1962-10791-5
+- doi: 10.1090/psapm/010/0114759
+- author: Edmonds
+  journal-title: J. Res. Natl. Bureau Standards
+  volume: 69B
+  year: '1965'
+- doi: 10.1073/pnas.43.9.842
+doi: 10.4153/cjm-1965-045-4
+files:
+- edmonds-jackpaths-trees-and-flowers1965.pdf
+journal: Canadian Journal of Mathematics
+language: en
+month: 11
+pages: 449--467
+publisher: Canadian Mathematical Society
+ref: PathsTreesAEdmond1965
+time-added: 2022-08-29-15:03:45
+title: Paths, Trees, and Flowers
+type: article
+url: http://dx.doi.org/10.4153/cjm-1965-045-4
+volume: '17'
+year: 1965

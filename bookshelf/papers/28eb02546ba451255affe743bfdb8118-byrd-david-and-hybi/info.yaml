@@ -1,0 +1,36 @@
+abstract: We introduce ABIDES, an Agent-Based Interactive Discrete Event Simulation
+  environment. ABIDES is designed from the ground up to support AI agent research
+  in market applications. While simulations are certainly available within trading
+  firms for their own internal use, there are no broadly available high-fidelity market
+  simulation environments. We hope that the availability of such a platform will facilitate
+  AI research in this important area. ABIDES currently enables the simulation of tens
+  of thousands of trading agents interacting with an exchange agent to facilitate
+  transactions. It supports configurable pairwise network latencies between each individual
+  agent as well as the exchange. Our simulator's message-based design is modeled after
+  NASDAQ's published equity trading protocols ITCH and OUCH. We introduce the design
+  of the simulator and illustrate its use and configuration with sample code, validating
+  the environment with example trading scenarios. The utility of ABIDES is illustrated
+  through experiments to develop a market impact model. We close with discussion of
+  future experimental problems it can be used to explore, such as the development
+  of ML-based trading algorithms.
+archiveprefix: arXiv
+author: Byrd, David and Hybinette, Maria and Balch, Tucker Hybinette
+author_list:
+- family: Byrd
+  given: David
+- family: Hybinette
+  given: Maria
+- family: Balch
+  given: Tucker Hybinette
+eprint: 1904.12066v1
+file: 1904.12066v1.pdf
+files:
+- byrd-david-and-hybinette-maria-and-balch-tucker-hybinetteabides-towards-high-fidelity-market-simulation-for-ai-research2019.pdf
+month: Apr
+primaryclass: cs.MA
+ref: 1904.12066v1
+time-added: 2022-08-23-14:29:02
+title: 'ABIDES: Towards High-Fidelity Market Simulation for AI Research'
+type: article
+url: http://arxiv.org/abs/1904.12066v1
+year: '2019'

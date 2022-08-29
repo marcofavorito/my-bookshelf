@@ -1,0 +1,159 @@
+abstract: <jats:p>We demonstrate how a reinforcement learning agent can use compositional
+  recurrent neural networks to learn to carry out commands specified in linear temporal
+  logic (LTL). Our approach takes as input an LTL formula, structures a deep network
+  according to the parse of the formula, and determines satisfying actions. This compositional
+  structure of the network enables zero-shot generalization to significantly more
+  complex unseen formulas. We demonstrate this ability in multiple problem domains
+  with both discrete and continuous state-action spaces. In a symbolic domain, the
+  agent finds a sequence of letters that satisfy a specification. In a Minecraft-like
+  environment, the agent finds a sequence of actions that conform to a formula. In
+  the Fetch environment, the robot finds a sequence of arm configurations that move
+  blocks on a table to fulfill the commands. While most prior work can learn to execute
+  one formula reliably, we develop a novel form of multi-task learning for RL agents
+  that allows them to learn from a diverse set of tasks and generalize to a new set
+  of diverse tasks without any additional training. The compositional structures presented
+  here are not specific to LTL, thus opening the path to RL agents that perform zero-shot
+  generalization in other compositional domains.</jats:p>
+author: Kuo, Yen-Ling and Katz, Boris and Barbu, Andrei
+author_list:
+- affiliation: []
+  family: Kuo
+  given: Yen-Ling
+- affiliation: []
+  family: Katz
+  given: Boris
+- affiliation: []
+  family: Barbu
+  given: Andrei
+citations:
+- article-title: Safe Reinforcement Learning via Shielding
+  author: Alshiekh
+  year: '2018'
+- article-title: Modular Multitask Reinforcement Learning with Policy Sketches
+  author: Andreas
+  first-page: '166'
+  year: '2017'
+- article-title: The Logical Options Framework
+  author: Araki
+  year: '2021'
+- article-title: Learning to Plan with Logical Automata
+  author: Araki
+  doi: 10.15607/RSS.2019.XV.064
+  year: '2019'
+- article-title: SALT-structured Assertion Language for Temporal Logic
+  author: Bauer
+  first-page: '757'
+  year: '2006'
+- article-title: 'LTL and beyond: Formal Languages for Reward Function Specification
+    in Reinforcement Learning'
+  author: Camacho
+  first-page: '6065'
+  year: '2019'
+- article-title: 'On the Properties of Neural Machine Translation: Encoder-Decoder
+    Approaches'
+  author: Cho
+  doi: 10.3115/v1/W14-4012
+  year: '2014'
+- article-title: Linear Temporal Logic and Linear Dynamic Logic on Finite Traces
+  author: De Giacomo
+  first-page: '854'
+  year: '2013'
+- article-title: Spot 2.0 — a Framework for LTL and ω-automata Manipulation
+  author: Duret-Lutz
+  doi: 10.1007/978-3-319-46520-3_8
+  year: '2016'
+- article-title: Probably Approximately Correct MDP Learning and Control with Temporal
+    Logic Constraints
+  author: Fu
+  doi: 10.15607/RSS.2014.X.039
+  year: '2014'
+- article-title: 'Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement
+    Learning with a Stochastic Actor'
+  author: Haarnoja
+  first-page: '1861'
+  year: '2018'
+- article-title: 'Adam: A Method for Stochastic Optimization'
+  author: Kingma
+  year: '2015'
+- article-title: Deep Compositional Robotic Planners that Follow Natural Language
+    Commands
+  author: Kuo
+  doi: 10.1109/ICRA40945.2020.9197464
+  year: ''
+- article-title: 'Encoding formulas as deep networks: Reinforcement learning for zero-shot
+    execution of LTL formulas'
+  author: Kuo
+  year: ''
+- article-title: A Policy Search Method for Temporal Logic Specified Reinforcement
+    Learning Tasks
+  author: Li
+  first-page: '240'
+  year: '2018'
+- article-title: Reinforcement Learning with Temporal Logic Rewards
+  author: Li
+  first-page: '3834'
+  year: '2017'
+- article-title: Asynchronous Methods for Deep Reinforcement Learning
+  author: Mnih
+  first-page: '1928'
+  year: '2016'
+- author: Plappert
+  volume-title: 'Multi-goal Reinforcement Learning: Challenging Robotics Environments
+    and Request for Research'
+  year: '2018'
+- article-title: The Temporal Logic of Programs
+  author: Pnueli
+  first-page: '46'
+  year: '1977'
+- article-title: A Learning Based Approach to Control Synthesis of Markov Decision
+    Processes for Linear Temporal Logic Specifications
+  author: Sadigh
+  first-page: '1091'
+  year: '2014'
+- article-title: Learning to Compose Skills
+  author: Sahni
+  year: '2017'
+- article-title: Generating Hard Satisfiability Problems
+  author: Selman
+  doi: 10.1016/0004-3702(95)00045-3
+  first-page: '17'
+  journal-title: Artif. intelligence
+  volume: '81'
+  year: '1996'
+- article-title: Policy Gradient Methods for Reinforcement Learning with Function
+    Approximation
+  author: Sutton
+  first-page: '1057'
+  year: '2000'
+- author: Tijmen Tieleman
+  volume-title: 'Lecture 6.5-RMSprop, Coursera: Neural Networks for Machine learningTech.
+    Rep.'
+  year: '2012'
+- article-title: Teaching Multiple Tasks to an RL Agent Using LTL
+  author: Toro Icarte
+  first-page: '452'
+  year: '2018'
+- article-title: 'Ltl2action: Generalizing LTL Instructions for Multi-Task Rl'
+  author: Vaezipoor
+  year: '2021'
+- article-title: Learning a Natural-Language to LTL Executable Semantic Parser for
+    Grounded Robotics
+  author: Wang
+  year: '2020'
+- article-title: Correct-by-synthesis Reinforcement Learning with Temporal Logic Constraints
+  author: Wen
+  first-page: '4983'
+  year: '2015'
+doi: 10.3389/frobt.2021.689550
+files:
+- kuo-yen-ling-and-katz-boris-and-barbu-andreicompositional-rl-agents-that-follow-language-commands-in-temporal-logic2021.pdf
+journal: Frontiers in Robotics and AI
+month: 7
+publisher: Frontiers Media SA
+ref: CompositionalRKuoY2021
+time-added: 2022-08-23-14:08:04
+title: Compositional RL Agents That Follow Language Commands in Temporal Logic
+type: article
+url: http://dx.doi.org/10.3389/frobt.2021.689550
+volume: '8'
+year: 2021

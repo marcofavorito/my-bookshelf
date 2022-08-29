@@ -1,0 +1,31 @@
+abstract: Timed automata are a common formalism for the verification of concurrent
+  systems subject to timing constraints. They extend finite-state automata with clocks,
+  that constrain the system behavior in locations, and to take transitions. While
+  timed automata were originally designed for safety (in the wide sense of correctness
+  w.r.t. a formal property), they were progressively used in a number of works to
+  guarantee security properties. In this work, we review works studying security properties
+  for timed automata in the last two decades. We notably review theoretical works,
+  with a particular focus on opacity, as well as more practical works, with a particular
+  focus on attack trees and their extensions. We derive main conclusions concerning
+  open perspectives, as well as tool support.
+archiveprefix: arXiv
+author: Arcile, Johan and André, Étienne
+author_list:
+- family: Arcile
+  given: Johan
+- family: André
+  given: Étienne
+doi: 10.1145/3534967
+eprint: 2206.03445v1
+file: 2206.03445v1.pdf
+files:
+- arcile-johan-and-andre-etiennetimed-automata-as-a-formalism-for-expressing-security-a-survey-on-theory-and-practice2022.pdf
+month: Jun
+primaryclass: cs.CR
+ref: 2206.03445v1
+time-added: 2022-08-25-09:39:39
+title: 'Timed automata as a formalism for expressing security: A survey on   theory
+  and practice'
+type: article
+url: http://arxiv.org/abs/2206.03445v1
+year: '2022'

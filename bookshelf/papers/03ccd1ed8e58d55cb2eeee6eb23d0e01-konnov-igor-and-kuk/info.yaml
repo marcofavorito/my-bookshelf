@@ -1,0 +1,276 @@
+abstract: "<jats:p>TLA+ is a language for formal specification of all kinds of computer\
+  \ systems. System designers use this language to specify concurrent, distributed,\
+  \ and fault-tolerant protocols, which are traditionally presented in pseudo-code.\
+  \ TLA+ is extremely concise yet expressive: The language primitives include Booleans,\
+  \ integers, functions, tuples, records, sequences, and sets thereof, which can be\
+  \ also nested. This is probably why the only model checker for TLA+ (called TLC)\
+  \ relies on explicit enumeration of values and states.</jats:p>\n          <jats:p>In\
+  \ this paper, we present APALACHE -- a first symbolic model checker for TLA+. Like\
+  \ TLC, it assumes that all specification parameters are fixed and all states are\
+  \ finite structures. Unlike TLC, APALACHE translates the underlying transition relation\
+  \ into quantifier-free SMT constraints, which allows us to exploit the power of\
+  \ SMT solvers. Designing this translation is the central challenge that we address\
+  \ in this paper. Our experiments show that APALACHE outperforms TLC on examples\
+  \ with large state spaces.</jats:p>"
+author: Konnov, Igor and Kukovec, Jure and Tran, Thanh-Hai
+author_list:
+- affiliation:
+  - name: Inria, France / LORIA, France / University of Lorraine, France / CNRS, France
+  family: Konnov
+  given: Igor
+- affiliation:
+  - name: TU Vienna, Austria
+  family: Kukovec
+  given: Jure
+- affiliation:
+  - name: TU Vienna, Austria
+  family: Tran
+  given: Thanh-Hai
+citations:
+- doi: 10.1109/MoDRE.2018.00008
+- author: Abrial Jean-Raymond
+  volume-title: 'The B-book: assigning programs to meanings'
+- author: ABZ.
+  volume-title: 6th International ABZ Conference ASM, Alloy, B, TLA, VDM, Z
+  year: '2018'
+- doi: 10.5555/983102
+- doi: 10.1016/j.scico.2017.08.003
+- author: Ball Thomas
+  volume-title: Rajamani
+  year: '2001'
+- author: Barnett Mike
+  volume-title: International Symposium on Formal Methods for Components and Objects.
+    Springer, 364–387
+  year: '2005'
+- author: Barnett Mike
+  volume-title: International Workshop on Construction and Analysis of Safe, Secure,
+    and Interoperable Smart Devices . Springer, 49–69
+  year: '2004'
+- doi: 10.1007/3-540-48119-2_22
+- doi: 10.1007/978-3-030-25543-5_15
+  unstructured: Idan Berkovits Marijana Lazic Giuliano Losa Oded Padon and Sharon
+    Shoham. 2019. Verification of Threshold-Based Distributed Algorithms by Decomposition
+    to Decidable Logics. In CAV. 245–266.  Idan Berkovits Marijana Lazic Giuliano
+    Losa Oded Padon and Sharon Shoham. 2019. Verification of Threshold-Based Distributed
+    Algorithms by Decomposition to Decidable Logics. In CAV. 245–266.
+- author: Bertot Yves
+  volume-title: 'Interactive theorem proving and program development: Coq’Art: the
+    calculus of inductive constructions'
+- doi: 10.1007/s10817-013-9278-5
+- author: Carlsson Mats
+  volume-title: SICStus Prolog user’s manual
+- doi: 10.1007/978-3-319-08867-9_22
+- doi: 10.1007/978-3-319-41540-6_29
+- author: Chaudhuri Kaustuv
+  volume-title: Theoretical aspects of computing
+- doi: 10.1007/3-540-45657-0_29
+- doi: 10.1145/876638.876643
+- doi: 10.1007/978-3-642-03359-9_2
+- doi: 10.1007/BFb0055631
+  unstructured: Ernie Cohen and Leslie Lamport. 1998. Reduction in TLA. In CONCUR
+    (LNCS). 317–331.  Ernie Cohen and Leslie Lamport. 1998. Reduction in TLA. In CONCUR
+    (LNCS). 317–331.
+- doi: 10.1007/978-3-319-41528-4_10
+  unstructured: Maximiliano Cristiá and Gianfranco Rossi. 2016. A Decision Procedure
+    for Sets Binary Relations and Partial Functions. In CAV . 179–198.  Maximiliano
+    Cristiá and Gianfranco Rossi. 2016. A Decision Procedure for Sets Binary Relations
+    and Partial Functions. In CAV . 179–198.
+- doi: 10.1007/978-3-030-25543-5_20
+  unstructured: Andrei Damian Cezara Dragoi Alexandru Militaru and Josef Widder. 2019.
+    Communication-Closed Asynchronous Protocols. In CAV. 344–363.  Andrei Damian Cezara
+    Dragoi Alexandru Militaru and Josef Widder. 2019. Communication-Closed Asynchronous
+    Protocols. In CAV. 344–363.
+- article-title: 'Z3: An efficient SMT solver'
+  author: Moura Leonardo De
+  first-page: '337'
+  journal-title: TACAS. LNCS
+  volume: '1579'
+  year: '2008'
+- doi: 10.4204/EPTCS.161.13
+- article-title: A Logic-based Framework for Verifying Consensus Algorithms
+  author: Drăgoi Cezara
+  first-page: '161'
+  journal-title: VMCAI (LNCS)
+  volume: '8318'
+  year: '2014'
+- doi: 10.1145/2914770.2837650
+  unstructured: 'Cezara Drăgoi Thomas A. Henzinger and Damien Zufferey. 2016. PSync:
+    a partially synchronous language for fault-tolerant distributed algorithms. In
+    POPL. 400–415.  Cezara Drăgoi Thomas A. Henzinger and Damien Zufferey. 2016. PSync:
+    a partially synchronous language for fault-tolerant distributed algorithms. In
+    POPL. 400–415.'
+- doi: 10.1007/978-3-319-63390-9_7
+- doi: 10.1007/978-3-642-21437-0_12
+- doi: 10.1145/2933575.2935310
+  unstructured: Azadeh Farzan Zachary Kincaid and Andreas Podelski. 2016. Proving
+    Liveness of Parameterized Programs. In LICS. 185–196.  Azadeh Farzan Zachary Kincaid
+    and Andreas Podelski. 2016. Proving Liveness of Parameterized Programs. In LICS.
+    185–196.
+- doi: 10.1007/s00446-002-0070-8
+- doi: 10.1145/1132863.1132867
+- doi: 10.1145/1755913.1755950
+- unstructured: Jason Gustafson. 2019. Kafka Improvement Proposal 320. https://cwiki.apache.org/confluence/display/KAFKA/KIP-320%3A+Allow+fetchers+to+detect+and+handle+log+truncation  Jason
+    Gustafson. 2019. Kafka Improvement Proposal 320. https://cwiki.apache.org/confluence/display/KAFKA/KIP-320%3A+Allow+fetchers+to+detect+and+handle+log+truncation
+- doi: 10.1007/978-3-642-30729-4_3
+  unstructured: Dominik Hansen and Michael Leuschel. 2012. Translating TLA + to B
+    for Validation with ProB. In IFM. 24–38.  Dominik Hansen and Michael Leuschel.
+    2012. Translating TLA + to B for Validation with ProB. In IFM. 24–38.
+- article-title: IronFleet
+  author: Hawblitzel Chris
+  first-page: '7'
+  journal-title: Proving Safety and Liveness of Practical Distributed Systems. Commun.
+    ACM
+  volume: '60'
+  year: '2017'
+- doi: 10.1145/363235.363259
+- author: Holzmann Gerard
+  doi: 10.1109/32.588521
+  volume-title: The SPIN Model Checker
+- article-title: Flexible Paxos
+  author: Howard Heidi
+  first-page: '1'
+  journal-title: Quorum Intersection Revisited. In OPODIS.
+  volume: '25'
+  year: '2016'
+- author: Jackson Daniel
+  volume-title: 'Software Abstractions: logic, language, and analysis'
+- author: Jones Cliff B
+  volume-title: Systematic software development using VDM
+- unstructured: Igor Konnov Jure Kukovec and Thanh-Hai Tran. 2019. APALACHE Model
+    Checker. https://github.com/konnov/apalache .  Igor Konnov Jure Kukovec and Thanh-Hai
+    Tran. 2019. APALACHE Model Checker. https://github.com/konnov/apalache .
+- doi: 10.1007/s10703-017-0297-4
+- doi: 10.1145/3093333.3009860
+  unstructured: Igor Konnov Marijana Lazić Helmut Veith and Josef Widder. 2017b. A
+    Short Counterexample Property for Safety and Liveness Verification of Fault-tolerant
+    Distributed Algorithms. In POPL. 719–734.  Igor Konnov Marijana Lazić Helmut Veith
+    and Josef Widder. 2017b. A Short Counterexample Property for Safety and Liveness
+    Verification of Fault-tolerant Distributed Algorithms. In POPL. 719–734.
+- doi: 10.1007/978-3-319-91271-4_6
+- doi: 10.1007/978-3-319-91271-4_7
+  unstructured: Jure Kukovec Thanh-Hai Tran and Igor Konnov. 2018. Extracting Symbolic
+    Transitions from TLA+ Specifications. In Abstract State Machines Alloy B TLA VDM
+    and Z . 89–104.  Jure Kukovec Thanh-Hai Tran and Igor Konnov. 2018. Extracting
+    Symbolic Transitions from TLA+ Specifications. In Abstract State Machines Alloy
+    B TLA VDM and Z . 89–104.
+- author: Kuncak Viktor
+  volume-title: Huu Hai Nguyen, and Martin C. Rinard
+  year: '2005'
+- doi: 10.1145/177492.177726
+- author: Lamport Leslie
+  volume-title: 'Specifying systems: The TLA+ language and tools for hardware and
+    software engineers'
+- author: Lamport Leslie
+  volume-title: DISC (LNCS)
+- unstructured: 'Leslie Lamport. 2018. TLA +2 : A Preliminary Guide. https://lamport.azurewebsites.net/tla/tla2-guide.pdf  Leslie
+    Lamport. 2018. TLA +2 : A Preliminary Guide. https://lamport.azurewebsites.net/tla/tla2-guide.pdf'
+- article-title: Paxos made simple
+  author: Leslie Lamport
+  first-page: '18'
+  journal-title: ACM Sigact News
+  volume: '32'
+  year: '2001'
+- unstructured: Butler Lampson and Howard E Sturgis. 1979. Crash recovery in a distributed
+    data storage system. (1979).  Butler Lampson and Howard E Sturgis. 1979. Crash
+    recovery in a distributed data storage system. (1979).
+- author: Leino K Rustan M
+  volume-title: This is boogie 2. manuscript KRML 178, 131
+  year: '2008'
+- doi: 10.5555/1939141.1939161
+- doi: 10.5555/3220900.3221117
+- doi: 10.1145/361227.361234
+- unstructured: Nancy A Lynch. 1996. Distributed algorithms. Morgan Kaufmann.  Nancy
+    A Lynch. 1996. Distributed algorithms. Morgan Kaufmann.
+- doi: 10.1016/0890-5401(89)90066-7
+- doi: 10.1145/2950290.2950318
+- author: Macedo Nuno
+  volume-title: 'Alloy meets TLA+: An exploratory study. arXiv preprint arXiv:1603.03599'
+  year: '2016'
+- author: Maric Ognjen
+  volume-title: Basin
+  year: '2017'
+- author: McMillan Kenneth L
+  volume-title: Symbolic Model Checking
+- doi: 10.1007/978-3-642-39799-8_48
+- doi: 10.1007/978-3-319-63046-5_10
+- author: Merz Stephan
+  volume-title: Logics of Specification Languages, Dines Bjørner and Martin C
+- article-title: On the Logic of TLA +
+  author: Merz Stephan
+  first-page: '3'
+  journal-title: Computing and Informatics
+  volume: '22'
+  year: '2012'
+- author: Merz Stephan
+  volume-title: LPAR
+- doi: 10.1016/j.scico.2017.09.004
+- doi: 10.1145/2517349.2517350
+  unstructured: Iulian Moraru David G Andersen and Michael Kaminsky. 2013. There is
+    more consensus in egalitarian parliaments. In SOSP . ACM 358–372.  Iulian Moraru
+    David G Andersen and Michael Kaminsky. 2013. There is more consensus in egalitarian
+    parliaments. In SOSP . ACM 358–372.
+- doi: 10.1007/978-3-662-43652-3_3
+- doi: 10.1145/2699417
+- author: Nipkow Tobias
+  volume-title: a proof assistant for higher-order logic
+- unstructured: 'Diego Ongaro. 2014. Consensus: Bridging theory and practice. Ph.D.
+    Dissertation. Stanford University.  Diego Ongaro. 2014. Consensus: Bridging theory
+    and practice. Ph.D. Dissertation. Stanford University.'
+- doi: 10.1145/3140568
+- doi: 10.1007/978-3-540-74591-4_18
+- doi: 10.1007/978-3-642-32759-9_31
+- doi: 10.1016/j.scico.2017.05.009
+- author: Raynal Michel
+  volume-title: Communication and Agreement Abstractions for Fault-Tolerant Asynchronous
+    Distributed Systems. Morgan &amp
+- doi: 10.1145/3158116
+- author: Michael Spivey J
+  volume-title: The Z notation
+- doi: 10.1145/2837614.2837655
+- author: Tinelli Cesare
+  volume-title: Reasoning with Finite Sets and Cardinality Constraints in SMT. Logical
+    Methods in Computer Science 14
+  year: '2018'
+- unstructured: TLAPlus. 2019. A collection of TLA+ specifications of varying complexities.
+    https://github.com/tlaplus/Examples  TLAPlus. 2019. A collection of TLA+ specifications
+    of varying complexities. https://github.com/tlaplus/Examples
+- doi: 10.1007/978-3-540-71209-1_49
+- doi: 10.1145/2980983.2908129
+  unstructured: Klaus von Gleissenthall Nikolaj Bjørner and Andrey Rybalchenko. 2016.
+    Cardinalities and universal quantifiers for verifying parameterized systems. In
+    PLDI. 599–613.  Klaus von Gleissenthall Nikolaj Bjørner and Andrey Rybalchenko.
+    2016. Cardinalities and universal quantifiers for verifying parameterized systems.
+    In PLDI. 599–613.
+- author: von Gleissenthall Klaus
+  volume-title: Alexander Bakst, Deian Stefan, and Ranjit Jhala.
+  year: '2019'
+- doi: 10.1007/978-1-4842-3829-5
+  unstructured: Hillel Wayne. 2018. Practical TLA+. Apress.  Hillel Wayne. 2018. Practical
+    TLA+. Apress.
+- author: Wilcox James R.
+  volume-title: Anderson
+  year: '2015'
+- doi: 10.1007/978-3-642-11319-2_27
+  unstructured: Kuat Yessenov Ruzica Piskac and Viktor Kuncak. 2010. Collections Cardinalities
+    and Relations. In VMCAI. 380–395.  Kuat Yessenov Ruzica Piskac and Viktor Kuncak.
+    2010. Collections Cardinalities and Relations. In VMCAI. 380–395.
+- author: Yu Yuan
+  volume-title: Correct Hardware Design and Verification Methods
+- doi: 10.1145/2185376.2185383
+- doi: 10.1007/s00165-014-0302-2
+doi: 10.1145/3360549
+files:
+- konnov-igor-and-kukovec-jure-and-tran-thanh-haitla-model-checking-made-symbolic2019.pdf
+issue: OOPSLA
+journal: Proceedings of the ACM on Programming Languages
+language: en
+month: 10
+pages: 1--30
+publisher: Association for Computing Machinery (ACM)
+ref: TlaModelChecKonnov2019
+time-added: 2022-08-26-17:54:08
+title: TLA+ model checking made symbolic
+type: article
+url: http://dx.doi.org/10.1145/3360549
+volume: '3'
+year: 2019
