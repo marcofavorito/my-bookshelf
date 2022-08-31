@@ -1,0 +1,62 @@
+abstract: 'This paper introduces TLA, which I now believe is the best general formalism
+  for describing and reasoning about concurrent systems. The new idea in TLA is that
+  one can use actions--formulas with primed and unprimed variables--in temporal formulas.
+  An action describes a state-transition relation. For example, the action x''=x+1
+  means approximately the same thing as the programming-language statement x := x+1.
+  However, the action is much simpler because it talks only about x and says nothing
+  about another variable y, while the assignment statement may (or may not) assert
+  that y doesn''t change. TLA allows you to write specifications essentially the same
+  way advocated in [82]. However, the specification becomes a single mathematical
+  formula. This opens up a whole new realm of possibilities. Among other things, it
+  provides an elegant way to formalize and systematize all the reasoning used in concurrent
+  system verification.
+
+
+  The moral of TLA is: if you''re not writing a program, don''t use a programming
+  language. Programming languages are complicated and have many ugly properties because
+  a program is input to a compiler that must generate reasonably efficient code. If
+  you''re describing an algorithm, not writing an actual program, you shouldn''t burden
+  yourselves with those complications and ugly properties. The toy concurrent programming
+  languages with which computer scientists have traditionally described algorithms
+  are not as bad as real programming languages, but they are still uglier and more
+  complicated than they need to be. Such a toy program is no closer to a real C or
+  Java program than is a TLA formula. And the TLA formula is a lot easier to deal
+  with mathematically than is a toy program. (Everything I say about programming languages
+  applies just as well to hardware description languages. However, hardware designers
+  are generally more sensible than to try to use low-level hardware languages for
+  higher-level system descriptions.) Had I only realized this 20 years ago!
+
+
+  The first major step in getting beyond traditional programming languages to describe
+  concurrent algorithms was Misra and Chandy''s Unity. Unity simply eliminated the
+  control state, so you just had a single global state that you reasoned about with
+  a single invariant. You can structure the invariant any way you want; you''re not
+  restricted by the particular programming constructs with which the algorithm is
+  described. The next step was TLA, which eliminated the programming language and
+  allowed you to write your algorithm directly in mathematics. This provides a much
+  more powerful and flexible way of describing the next-state relation.
+
+
+  An amusing footnote to this paper is that, after reading an earlier draft, Simon
+  Lam claimed that he deserved credit for the idea of describing actions as formulas
+  with primed and unprimed variables. A similar notation for writing postconditions
+  dates from the 70s, but that''s not the same as actually specifying the action in
+  this way. I had credited Rick Hehner''s 1984 CACM article, but I figured there were
+  probably earlier instances. After a modest amount of investigation, I found one
+  earlier published use--in [50].'
+author: Lamport, Leslie
+author_list:
+- family: Lamport
+  given: Leslie
+edition: ACM Transactions on Programming Languages and Systems 16
+files:
+- lamport-lesliethe-temporal-logic-of-actions1994.pdf
+month: May
+note: ACM Transactions on Programming Languages and Systems 16
+number: '79'
+ref: lamport1994the
+time-added: 2022-08-30-10:03:02
+title: The Temporal Logic of Actions
+type: techreport
+url: https://www.microsoft.com/en-us/research/publication/the-temporal-logic-of-actions/
+year: '1994'
