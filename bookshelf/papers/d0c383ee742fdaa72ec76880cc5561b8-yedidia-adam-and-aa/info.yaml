@@ -1,0 +1,32 @@
+abstract: Since the definition of the Busy Beaver function by Rado in 1962, an interesting
+  open question has been the smallest value of n for which BB(n) is independent of
+  ZFC set theory. Is this n approximately 10, or closer to 1,000,000, or is it even
+  larger? In this paper, we show that it is at most 7,910 by presenting an explicit
+  description of a 7,910-state Turing machine Z with 1 tape and a 2-symbol alphabet
+  that cannot be proved to run forever in ZFC (even though it presumably does), assuming
+  ZFC is consistent. The machine is based on the work of Harvey Friedman on independent
+  statements involving order-invariant graphs. In doing so, we give the first known
+  upper bound on the highest provable Busy Beaver number in ZFC. To create Z, we develop
+  and use a higher-level language, Laconic, which is much more convenient than direct
+  state manipulation. We also use Laconic to design two Turing machines, G and R,
+  that halt if and only if there are counterexamples to Goldbach's Conjecture and
+  the Riemann Hypothesis, respectively.
+archiveprefix: arXiv
+author: Yedidia, Adam and Aaronson, Scott
+author_list:
+- family: Yedidia
+  given: Adam
+- family: Aaronson
+  given: Scott
+eprint: 1605.04343v1
+file: 1605.04343v1.pdf
+files:
+- yedidia-adam-and-aaronson-scotta-relatively-small-turing-machine-whose-behavior-is-independent-of-set-theory2016.pdf
+month: May
+primaryclass: cs.FL
+ref: 1605.04343v1
+time-added: 2022-09-01-12:38:52
+title: A Relatively Small Turing Machine Whose Behavior Is Independent of Set   Theory
+type: article
+url: http://arxiv.org/abs/1605.04343v1
+year: '2016'

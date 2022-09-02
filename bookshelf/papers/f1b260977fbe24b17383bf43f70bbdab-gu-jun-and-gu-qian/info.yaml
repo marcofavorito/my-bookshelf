@@ -1,0 +1,566 @@
+author: Gu, Jun and Gu, Qianping and Du, Dingzhu
+author_list:
+- affiliation: []
+  family: Gu
+  given: Jun
+- affiliation: []
+  family: Gu
+  given: Qianping
+- affiliation: []
+  family: Du
+  given: Dingzhu
+citations:
+- unstructured: Dershowitz N, Hsiang J, Josephson N, Plaisted D. Associative-commutative
+    rewriting. InProceedings of IJCAI, 1983, pp. 940–944.
+- author: J Hsiang
+  doi: 10.1016/0004-3702(85)90074-8
+  first-page: '255'
+  journal-title: Artificial Intelligence
+  unstructured: 'Hsiang J. Refutational theorem proving using term-rewriting systems.Artificial
+    Intelligence, 1985, 16: 255–300.'
+  volume: '16'
+  year: '1985'
+- unstructured: Shensa M J. A computational structure for the propositional calculus.
+    InProceedings of IJCAI, 1989, pp. 384–388.
+- unstructured: P C Jackson Jr. Heuristic search algorithms for the satisfiability
+    problem. Submitted to the third IEEE TAI Conference, Jul. 1991.
+- author: N J Nilsson
+  unstructured: Nilsson N J. Principles of Artificial Intelligence. Tioga Publishing
+    Company, Palo Alto, California, 1980.
+  volume-title: Principles of Artificial Intelligence
+  year: '1980'
+- author: P H Winston
+  unstructured: Winston P H. Artificial Intelligence. Addison-Wesley, Reading, 1984.
+  volume-title: Artificial Intelligence
+  year: '1984'
+- author: M Davis
+  doi: 10.1145/321033.321034
+  first-page: '201'
+  journal-title: J. ACM
+  unstructured: 'Davis M, Putnam H. A computing procedure for quantification theory.J.
+    ACM, 1960, 7: 201–215.'
+  volume: '7'
+  year: '1960'
+- unstructured: Gu J. How to solve very large-scale satisfiability problems. Technical
+    Report UUCS-TR-88-032. 1988, and UCECE-TR-90-002, 1990.
+- author: J Gu
+  doi: 10.1145/130836.130837
+  first-page: '8'
+  issue: '1'
+  journal-title: SIGART Bulletin
+  unstructured: 'Gu J. Efficient local search for very large-scale satisfiability
+    problem.SIGART Bulletin, Jan. 1992, 3(1): 8–12, ACM Press.'
+  volume: '3'
+  year: '1992'
+- doi: 10.1007/3-540-58325-4_176
+  unstructured: 'Gu J, Gu Q P. Average time complexities of several local search algorithms
+    for the satisfiability problem. Technical Report UCECE-TR-91-004, 1991. InLecture
+    Notes in Computer Science, 1994, 834: 146–154, and to appear inIEEE Trans. Knowledge
+    and Data Engineering.'
+- author: E Koutsoupias
+  doi: 10.1016/0020-0190(92)90029-U
+  first-page: '53'
+  journal-title: Information Processing Letters
+  unstructured: 'Koutsoupias E, Papadimitriou C H. On the greedy algorithm for satisfiability.Information
+    Processing Letters, 10 Aug. 1992, 43: 53–55.'
+  volume: '43'
+  year: '1992'
+- doi: 10.1142/9789814354707_0002
+  unstructured: 'Gu J. On Optimizing a Search Problem. InAdvanced Series on Artificial
+    Intelligence, Jan. 1992, 1 (Chapter 2): 63–105.'
+- author: J Gu
+  doi: 10.1109/69.334864
+  first-page: '361'
+  issue: '3'
+  journal-title: IEEE Trans. Knowledge and Data Engineering
+  unstructured: 'Gu J. Global optimization for satisfiability (SAT) problem.IEEE Trans.
+    Knowledge and Data Engineering, Jun. 1994, 6(3): 361–381, Feb. 1995, 7(1):192.'
+  volume: '6'
+  year: '1994'
+- author: J Gu
+  doi: 10.1090/dimacs/035/02
+  first-page: '19'
+  journal-title: DIMACS Volume Series on Discrete Mathematics and Theoretical Computer
+    Science. The Satisfiability (SAT) Problem
+  unstructured: 'Gu J, Purdom P W, Franco J, Wah B W. Algorithms for satisfiability
+    (SAT) problem: A survey.DIMACS Volume Series on Discrete Mathematics and Theoretical
+    Computer Science. The Satisfiability (SAT) Problem, 1997, 35: 19–151, American
+    Mathematical Society.'
+  volume: '35'
+  year: '1997'
+- author: A K Mackworth
+  doi: 10.1016/0004-3702(77)90007-8
+  first-page: '99'
+  journal-title: Artificial Intelligence
+  unstructured: 'Mackworth A K. Consistency in networks of relations.Artificial Intelligence,
+    1977, 8: 99–119.'
+  volume: '8'
+  year: '1977'
+- author: J R Bitner
+  doi: 10.1145/361219.361224
+  first-page: '651'
+  issue: '11'
+  journal-title: Comm. ACM
+  unstructured: 'Bitner J R, Reingold E M. Backtrack programming techniques.Comm.
+    ACM, Nov. 1975, 18(11): 651–656.'
+  volume: '18'
+  year: '1975'
+- author: C A Brown
+  doi: 10.1137/0210043
+  first-page: '583'
+  issue: '3'
+  journal-title: SIAM J. Computing
+  unstructured: 'Brown C A, Purdom P W. An average time analysis of backtracking.SIAM
+    J. Computing, Aug. 1981, 10(3): 583–593.'
+  volume: '10'
+  year: '1981'
+- unstructured: Bugrara K, Purdom P. Clause order backtracking. Technical Report 311,
+    1990.
+- author: T Larrabee
+  doi: 10.1109/43.108614
+  first-page: '4'
+  issue: '1'
+  journal-title: IEEE Trans. Computer-Aided Design
+  unstructured: 'Larrabee T. Test pattern generation using Boolean satisfiability.IEEE
+    Trans. Computer-Aided Design, Jan. 1992, 11(1): 4–15.'
+  volume: '11'
+  year: '1992'
+- author: P W Purdom
+  doi: 10.1016/S0004-3702(83)80007-1
+  first-page: '117'
+  journal-title: Artificial Intelligence
+  unstructured: 'Purdom P W. Search rearrangement backtracking and polynomial average
+    time.Artificial Intelligence, 1983, 21: 117–133.'
+  volume: '21'
+  year: '1983'
+- unstructured: Siegel P. Representation et Utilization de la Connaissances en Calcul
+    Propositionel. Ph.D. thesis, University Aix-Marseille II, 1987.
+- author: P Ashar
+  doi: 10.1016/0167-9260(92)90015-Q
+  first-page: '1'
+  issue: '1'
+  journal-title: Integration, the VLSI journal
+  unstructured: 'Ashar P, Ghosh A, Devadas S. Boolean satisfiability and equivalence
+    checking using general Binary Decision Diagrams.Integration, the VLSI journal,
+    1992, 13(1): 1–16.'
+  volume: '13'
+  year: '1992'
+- author: R E Bryant
+  doi: 10.1109/TC.1986.1676819
+  first-page: '677'
+  issue: '8'
+  journal-title: IEEE Trans. Computers
+  unstructured: 'Bryant R E. Graph-based algorithms for Boolean function manipulation.IEEE
+    Trans. Computers, Aug. 1986, C-35(8): 677–691.'
+  volume: '35'
+  year: '1986'
+- author: A V Gelder
+  doi: 10.1016/0890-5401(88)90014-4
+  first-page: '1'
+  issue: '1'
+  journal-title: Information and Computation
+  unstructured: 'Gelder A V. A satisfiability tester for non-clausal propositional
+    calculus.Information and Computation, Oct. 1988, 79(1): 1–21.'
+  volume: '79'
+  year: '1988'
+- author: J A Robinson
+  doi: 10.1145/321250.321253
+  first-page: '23'
+  journal-title: Journal of the ACM
+  unstructured: 'Robinson J A. A machine-oriented logic based on the resolution principle.Journal
+    of the ACM, 1965, 12: 23–41.'
+  volume: '12'
+  year: '1965'
+- author: M B Clowes
+  doi: 10.1016/0004-3702(71)90005-1
+  first-page: '79'
+  journal-title: Artificial Intelligence
+  unstructured: 'Clowes M B. On seeing things.Artificial Intelligence, 1971, 2: 79–116.'
+  volume: '2'
+  year: '1971'
+- unstructured: Gu J. Parallel algorithms and architectures for very fast search.
+    Technical Report UUCS-TR-88-005, Jul. 1988.
+- author: D A Huffman
+  first-page: '295'
+  unstructured: Huffman D A. Impossible Objects as Nonsense Sentences. InMachine Intelligence,
+    Meltzer B, Michie D (eds.), 1971, pp. 295–323. Edinburgh University Press, Edinburgh,
+    Scotland.
+  volume-title: Machine Intelligence
+  year: '1971'
+- unstructured: Waltz D. Generating semantic descriptions from drawings of scenes
+    with shadows. Technical Report AI271, MIT, Nov. 1972.
+- author: M Davis
+  doi: 10.1145/368273.368557
+  first-page: '394'
+  journal-title: Communications of the ACM
+  unstructured: 'Davis M, Logemann G, Loveland D. A machine program for theorem proving.Communications
+    of the ACM, 1962, 5: 394–397.'
+  volume: '5'
+  year: '1962'
+- unstructured: 'Loveland D W. Automated Theorem Proving: A Logical Basis. North-Holland,
+    1978.'
+- author: J Gu
+  doi: 10.1109/34.149596
+  first-page: '857'
+  issue: '8'
+  journal-title: IEEE Trans. Pattern Analysis and Machine Intelligence
+  unstructured: 'Gu J, Wang W. A novel discrete relaxation architecture.IEEE Trans.
+    Pattern Analysis and Machine Intelligence, Aug. 1992, 14(8): 857–865.'
+  volume: '14'
+  year: '1992'
+- author: J Gu
+  doi: 10.1109/TPAMI.1987.4767988
+  first-page: '816'
+  issue: '6'
+  journal-title: IEEE Trans. Pattern Analysis and Machine Intelligence
+  unstructured: 'Gu J, Wang W, Henderson T C. A parallel architecture for discrete
+    relaxation algorithm.IEEE Trans. Pattern Analysis and Machine Intelligence, Nov.
+    1987, PAMI-9(6): 816–831.'
+  volume: '9'
+  year: '1987'
+- author: R E Jeroslow
+  first-page: '167'
+  journal-title: Annals of Mathematics and AI
+  unstructured: 'Jeroslow R E, Wang J. Solving propositional satisfiability problems.Annals
+    of Mathematics and AI, 1990, 1: 167–187.'
+  volume: '1'
+  year: '1990'
+- author: J Gu
+  doi: 10.1109/21.247892
+  first-page: '1108'
+  issue: '4'
+  journal-title: IEEE Trans. Systems, Man, and Cybernetics
+  unstructured: 'Gu J. Local search for satisfiability (SAT) problem.IEEE Trans. Systems,
+    Man, and Cybernetics, Jul. 1993, 23(4): 1108–1129, Apr. 1994, 24(4): 709.'
+  volume: '23'
+  year: '1993'
+- unstructured: Purdom P W, Haven G N. Backtracking and probing. Technical Report
+    No. 387, Dept. of Computer Science, Indiana University, Aug. 1993.
+- unstructured: Bohm M, Speckenmeyer E. A fast parallel SAT-solver — Efficient workload
+    balancing. Presented at the 3rd International Symposium on AI&Mathematics, Jan.
+    1994.
+- unstructured: Truemper K. Polynomial algorithms for problems over d-systems. Presented
+    at the 3rd International Symposium on AI & Mathematics, Jan. 1994.
+- doi: 10.1090/dimacs/026/20
+  unstructured: 'Dubois O, Andre P, Boufkhad Y, Carlier J. SAT versus UNSAT.DIMACS
+    Series Volume: Clique, Graph Coloring, and Satisfiability — Second DIMACS Implementation
+    Challenge, Johnson D S, Trick M A (eds.), 26, American Mathematical Society, 1996.'
+- unstructured: Sosič R, Gu J. How to search for million queens. Technical Report
+    UUCS-TR-88-008, Feb. 1988.
+- unstructured: Sosič R, Gu J. Quickn-queen search on VAX and Bobcat machines. CS
+    547 AI Class Project, Feb. 1988.
+- author: R Sosič
+  doi: 10.1145/238997.239009
+  first-page: '456'
+  issue: '4'
+  journal-title: ACM Transactions on Design Automation of Electronic Systems
+  unstructured: 'Sosič R, Gu J, Johnson R. The Unison algorithm: Fast evaluation of
+    Boolean expressions.ACM Transactions on Design Automation of Electronic Systems,
+    Oct. 1996, 1(4): 456–477.'
+  volume: '1'
+  year: '1996'
+- unstructured: Sosič R, Gu J, Johnson R. A universal Boolean evaluator.IEEE Trans.
+    Computers, accepted for publication in 1992.
+- unstructured: Papadimitriou C H. Private Communications, 1992.
+- doi: 10.1109/SFCS.1991.185365
+  unstructured: Papadimitriou C H. On selecting a satisfying truth assignment. InProceedings
+    of the 32nd Annual Symposium of the Foundations of Computer Science, 1991, pp.
+    163–169.
+- unstructured: Selman B, Levesque H, Mitchell D. A new method for solving hard satisfiability
+    problem. InProceedings of AAAI'92, Jul. 1992, pp. 440–446.
+- author: C E Blair
+  doi: 10.1016/0305-0548(86)90056-0
+  first-page: '633'
+  journal-title: Computers and Operations Research
+  unstructured: 'Blair C E, Jeroslow R G, Lowe J K. Some results and experiments in
+    programming techniques for propositional logic.Computers and Operations Research,
+    1986, 5: 633–645.'
+  volume: '5'
+  year: '1986'
+- author: R G Jeroslow
+  doi: 10.1016/0167-9236(88)90128-5
+  first-page: '183'
+  journal-title: Decision Support Systems
+  unstructured: 'Jeroslow R G. Computation-oriented reductions of predicate to propositional
+    logic.Decision Support Systems, 1988, 4: 183–197.'
+  volume: '4'
+  year: '1988'
+- author: J N Hooker
+  doi: 10.1007/BF02186368
+  first-page: '217'
+  journal-title: Annals of Operations Research
+  unstructured: 'Hooker J N. Generalized resolution and cutting planes.Annals of Operations
+    Research, 1988, 12: 217–239.'
+  volume: '12'
+  year: '1988'
+- author: J N Hooker
+  doi: 10.1016/0167-6377(88)90044-2
+  first-page: '1'
+  issue: '1'
+  journal-title: Operations Research Letter
+  unstructured: 'Hooker J N. Resolution vs. cutting plane solution of inference problems:
+    Some computational experience.Operations Research Letter, 1988, 7(1): 1–7.'
+  volume: '7'
+  year: '1988'
+- unstructured: Hooker J N, Fedjki C. Branch-and-cut solution of inference problems
+    in propositional logic. Technical Report 77-88-89, GSIA, Carnegie Mellon University,
+    Aug. 1989.
+- author: A P Kamath
+  doi: 10.1007/BF02283686
+  first-page: '43'
+  journal-title: Annals of Operations Research
+  unstructured: 'Kamath A P, Karmarkar N K, Ramakrishnan K G, Resende M G C. Computational
+    experience with an interior point algorithm on the satisfiability problem.Annals
+    of Operations Research, 1990, 25: 43–58.'
+  volume: '25'
+  year: '1990'
+- unstructured: Kamath A P, Karmarkar N K, Ramakrishnan K G, Resende M G C. Computational
+    experience with an interior point algorithm on the satisbility problem.Mathematical
+    Sciences Research Center, AT&T Bell Laboratories, Oct. 1989.
+- author: J Gu
+  first-page: '865'
+  issue: '8'
+  journal-title: IEEE Trans. Pattern Analysis and Machine Intelligence
+  unstructured: 'Gu J. TheUniSAT problem models (appendix).IEEE Trans. Pattern Analysis
+    and Machine Intelligence, Aug. 1992, 14(8): 865.'
+  volume: '14'
+  year: '1992'
+- author: J L Johnson
+  doi: 10.1016/0743-7315(89)90068-3
+  first-page: '435'
+  journal-title: J. Parallel and Distributed Computing
+  unstructured: 'Johnson J L. A neural network approach to the 3-satisfiability problem.J.
+    Parallel and Distributed Computing, 1989, 6: 435–449.'
+  volume: '6'
+  year: '1989'
+- doi: 10.1109/54.60606
+  unstructured: Chakradhar S, Agrawal V, Bushnell M. Neural net and Boolean satisfiability
+    model of logic circuits.IEEE Design & Test of Computers, Oct. 1990, pp.54–57.
+- author: M R Genesereth
+  unstructured: Genesereth M R, Nilsson N J. Logical Foundations of Artificial Intelligence.
+    Morgan, Kaufmann Publishers, Los Altos, California, 1987.
+  volume-title: Logical Foundations of Artificial Intelligence
+  year: '1987'
+- doi: 10.1007/978-1-4899-5327-8_25
+  unstructured: Tseitin G S. On the Complexity of Derivations in Propositional Calculus.
+    InStructures in Constructive Mathematics and Mathematical Logic, Part II, Slisenko
+    A O (ed.), 1968, pp. 115–125.
+- author: A Urquhart
+  doi: 10.2178/bsl/1203350879
+  first-page: '425'
+  issue: '4'
+  journal-title: The Bulletin of Symbolic Logic
+  unstructured: 'Urquhart A. The complexity of propositional proofs.The Bulletin of
+    Symbolic Logic, 1995, 1(4): 425–467.'
+  volume: '1'
+  year: '1995'
+- author: K Iwama
+  doi: 10.1137/0218026
+  first-page: '385'
+  journal-title: SIAM J. Computing
+  unstructured: 'Iwama K. CNF satisfiability test by counting and polynomial average
+    time.SIAM J. Computing, 1989, 18: 385–391.'
+  volume: '18'
+  year: '1989'
+- doi: 10.1016/0304-3975(77)90054-8
+  unstructured: Galil Z. On the complexity of regular resolution and the Davis-Putnam
+    procedure.Theoretical Computer Science, 1977, pp. 23–46.
+- author: A Goldberg
+  doi: 10.1016/0020-0190(82)90110-7
+  first-page: '72'
+  issue: '2'
+  journal-title: Information Processing Letters
+  unstructured: 'Goldberg A, Purdom P W, Brown C A. Average time analysis of simplified
+    Davis-Putnam procedures.Information Processing Letters, Sept. 1982, 15(2): 72–75.'
+  volume: '15'
+  year: '1982'
+- author: P W Purdom
+  doi: 10.1137/0214067
+  first-page: '943'
+  journal-title: SIAM J. Computing
+  unstructured: 'Purdom P W, Brown C A. The pure literal rule and polynomial average
+    time.SIAM J. Computing, 1985, 14: 943–953.'
+  volume: '14'
+  year: '1985'
+- author: T H Hu
+  doi: 10.1007/BF01531030
+  first-page: '235'
+  journal-title: Annals of Mathematics and Artificial Intelligence
+  unstructured: 'Hu T H, Tang C Y, Lee R C T. An average case analysis of a resolution
+    principle algorithm in mechanical theorem proving.Annals of Mathematics and Artificial
+    Intelligence, 1992, 6: 235–252.'
+  volume: '6'
+  year: '1992'
+- author: P C Gilmore
+  doi: 10.1147/rd.41.0028
+  first-page: '28'
+  journal-title: IBM J. Res. Develop.
+  unstructured: 'Gilmore P C. A proof method for quantification theory,IBM J. Res.
+    Develop. 1960, 4: 28–35.'
+  volume: '4'
+  year: '1960'
+- author: A V Aho
+  unstructured: Aho A V, Hopcroft J E, Ullman J D. The Design and Analysis of Computer
+    Algorithms. Addison-Wesley, Reading, 1974.
+  volume-title: The Design and Analysis of Computer Algorithms
+  year: '1974'
+- doi: 10.1145/800157.805047
+  unstructured: Cook S A. The complexity of theorem-proving procedures. InProceedings
+    of the Third ACM Symposium on Theory of Computing, 1971, pp. 151–158.
+- author: B Aspvall
+  doi: 10.1016/0020-0190(79)90002-4
+  first-page: '121'
+  issue: '3'
+  journal-title: Information Processing Letters
+  unstructured: 'Aspvall B, Plass M F, Tarjan R E. A linear-time algorithm for testing
+    the truth of certain quantified Boolean formulas.Information Processing Letters,
+    Mar. 1979, 8(3): 121–132.'
+  volume: '8'
+  year: '1979'
+- author: S Even
+  doi: 10.1137/0205048
+  first-page: '691'
+  issue: '4'
+  journal-title: SIAM J. Computing
+  unstructured: 'Even S, Itai A, Shamir A. On the complexity of timetable and multi-commodity
+    flow problem.SIAM J. Computing, 1976, 5(4): 691–703.'
+  volume: '5'
+  year: '1976'
+- doi: 10.1145/800133.804350
+  unstructured: Schaefer T J. The complexity of satisfiability problem. InProceedings
+    of the 10th ACM Symposium on Theory of Computing, 1978, pp. 216–226.
+- author: J N Hooker
+  doi: 10.1016/0167-9236(88)90097-8
+  first-page: '45'
+  journal-title: Decision Support Systems
+  unstructured: 'Hooker J N. A quantitative approach to logical inference.Decision
+    Support Systems, 1988, 4: 45–69.'
+  volume: '4'
+  year: '1988'
+- author: C H Papadimitriou
+  unstructured: 'Papadimitriou C H, Steiglitz K. Combinatorial Optimization: Algorithms
+    and Complexity. Prentice Hall, Englewood Cliffs, 1982.'
+  volume-title: 'Combinatorial Optimization: Algorithms and Complexity'
+  year: '1982'
+- author: H P Williams
+  first-page: '81'
+  journal-title: Systems Research and Information Sciences
+  unstructured: 'Williams H P. Linear and integer programming applied to the propositional
+    calculus.Systems Research and Information Sciences, 1987, 2: 81–100.'
+  volume: '2'
+  year: '1987'
+- unstructured: Shi R C-J, Vannelli A, Vlach J. An improvement on Karmarkar's algorithm
+    for integer programming.COAL Bulletin of the Mathematical Programming Society,
+    1992.
+- author: J E Tyler
+  unstructured: Tyler J E. Parallel computer architectures and problem solving strategies
+    for the consistent labeling problem. Master's thesis, Dept. of Elec. Eng., Virginia
+    Polytech. Inst. State Univ., Blacksburg, Virginia, Oct. 1983.
+  volume-title: Parallel computer architectures and problem solving strategies for
+    the consistent labeling problem
+  year: '1983'
+- author: J T McCall
+  doi: 10.1109/TC.1985.1676530
+  first-page: '973'
+  issue: '11'
+  journal-title: IEEE Trans. Computers
+  unstructured: 'McCall J T, Tront J G, Gray F G, Haralick R M, McCormack W M. Parallel
+    computer architectures and problem solving strategies for the consistent labeling
+    problem.IEEE Trans. Computers, Nov. 1985, C-34(11): 973–980.'
+  volume: '34'
+  year: '1985'
+- doi: 10.1007/BF01407901
+  unstructured: Samal A, Henderson T C. Parallel consistent labeling algorithms.International
+    Journal of Parallel Programming, 1988.
+- author: W T Chen
+  doi: 10.1016/0020-0255(87)90005-3
+  first-page: '61'
+  issue: '1'
+  journal-title: Inform. Sci.
+  unstructured: 'Chen W T, Liu L L. Parallel approach for theorem proving in propositional
+    logic.Inform. Sci., 1987, 41(1): 61–76.'
+  volume: '41'
+  year: '1987'
+- author: M Y Fang
+  doi: 10.1109/69.166989
+  first-page: '475'
+  issue: '5'
+  journal-title: IEEE Trans. Knowledge and Data Engineering
+  unstructured: 'Fang M Y, Chen W T. Vectorization of a generalized procedure for
+    theorem proving in propositional logic on vector computers.IEEE Trans. Knowledge
+    and Data Engineering, Oct. 1992, 4(5): 475–486.'
+  volume: '4'
+  year: '1992'
+- author: J S Conery
+  doi: 10.1007/978-1-4613-1987-0
+  unstructured: Conery J S. Parallel Execution of Logic Programs. Kluwer Academic
+    Publishers, Boston, 1987.
+  volume-title: Parallel Execution of Logic Programs
+  year: '1987'
+- unstructured: Lin Y J. A Parallel Implementation of Logic Programs. PhD thesis,
+    The Univ. of Texas at Austin, Dept. of Computer Science, May 1988.
+- author: B Wah
+  unstructured: Wah B, Li G J Computers for Artificial Intelligence Applications.
+    IEEE Computer Society Press, Washington D. C., 1986.
+  volume-title: Computers for Artificial Intelligence Applications
+  year: '1986'
+- doi: 10.1109/MC.1987.1663350
+  unstructured: Wah B W (ed.). New computers for artificial intelligence processing.IEEE
+    Computer 1987, 20(1), IEEE Computer Society Press, 1987.
+- doi: 10.1109/5.24142
+  unstructured: 'Wah B W, Lowrie M B, Li G J. Computers for symbolic processing. InProceedings
+    of the IEEE, Apr. 1989, 77(4): 509–540.'
+- unstructured: Sosič R, Gu J. A parallel local search algorithm for satisfiability
+    (SAT) problem. Submitted for publication, 1993.
+- unstructured: Gu J. An αβ-relaxation for global optimization. Technical Report UCECE-TR-91-003,
+    Apr. 1991.
+- author: M R Garey
+  unstructured: 'Garey M R, Johnson D S. Computers and Intractability: A Guide to
+    the Theory of NP-Completeness. W. H. Freeman and Company, San Francisco, 1979.'
+  volume-title: 'Computers and Intractability: A Guide to the Theory of NP-Completeness'
+  year: '1979'
+- author: D G Luenberger
+  unstructured: Luenberger D G. Linear and Nonlinear Programming. Addison-Wesley,
+    Reading, 1984.
+  volume-title: Linear and Nonlinear Programming
+  year: '1984'
+- unstructured: Du Dingzhu. Convergence Theory of Feasible Direction Methods. Science
+    Press, 1991.
+- author: G Strang
+  unstructured: Strang G. Linear Algebra and Its Applications. Academic Press, New
+    York, 1976.
+  volume-title: Linear Algebra and Its Applications
+  year: '1976'
+- author: V Chvátal
+  doi: 10.1145/48014.48016
+  first-page: '759'
+  journal-title: J. ACM
+  unstructured: 'Chvátal V, Szemerédi E. Many hard examples for resolution.J. ACM,
+    1988, 35: 759–770.'
+  volume: '35'
+  year: '1988'
+- author: J Franco
+  doi: 10.1137/0220069
+  first-page: '1119'
+  journal-title: SIAM J. Computing
+  unstructured: 'Franco J. Elimination of infrequent variables improves average case
+    performance of satisfiability algorithms.SIAM J. Computing, 1991, 20: 1119–1127.'
+  volume: '20'
+  year: '1991'
+doc_url: http://link.springer.com/article/10.1007/BF02952482/fulltext.html
+doi: 10.1007/bf02952482
+files:
+- gu-jun-and-gu-qianping-and-du-dingzhuon-optimizing-the-satisfiability-sat-problem1999.pdf
+issue: '1'
+journal: Journal of Computer Science and Technology
+language: en
+month: 1
+pages: 1--17
+publisher: Springer Science and Business Media LLC
+ref: OnOptimizingTGuJu1999
+time-added: 2022-09-01-15:31:33
+title: On optimizing the satisfiability (SAT) problem
+type: article
+url: http://dx.doi.org/10.1007/bf02952482
+volume: '14'
+year: 1999

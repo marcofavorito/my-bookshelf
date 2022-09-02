@@ -1,0 +1,37 @@
+abstract: This paper develops an algorithmic-based approach for proving inductive
+  properties of propositional sequent systems such as admissibility, invertibility,
+  cut-elimination, and identity expansion. Although undecidable in general, these
+  structural properties are crucial in proof theory because they can reduce the proof-search
+  effort and further be used as scaffolding for obtaining other meta-results such
+  as consistency. The algorithms -- which take advantage of the rewriting logic meta-logical
+  framework, and use rewrite- and narrowing-based reasoning -- are explained in detail
+  and illustrated with examples throughout the paper. They have been fully mechanized
+  in the L-Framework, thus offering both a formal specification language and off-the-shelf
+  mechanization of the proof-search algorithms coming together with semi-decision
+  procedures for proving theorems and meta-theorems of the object system. As illustrated
+  with case studies in the paper, the L-Framework, achieves a great degree of automation
+  when used on several propositional sequent systems, including single conclusion
+  and multi-conclusion intuitionistic logic, classical logic, classical linear logic
+  and its dyadic system, intuitionistic linear logic, and normal modal logics.
+archiveprefix: arXiv
+author: Olarte, Carlos and Pimentel, Elaine and Rocha, Camilo
+author_list:
+- family: Olarte
+  given: Carlos
+- family: Pimentel
+  given: Elaine
+- family: Rocha
+  given: Camilo
+eprint: 2101.03113v1
+file: 2101.03113v1.pdf
+files:
+- olarte-carlos-and-pimentel-elaine-and-rocha-camiloa-rewriting-logic-approach-to-specification-proof-search-and-meta-proofs-in-sequent-systems20.pdf
+month: Jan
+primaryclass: cs.LO
+ref: 2101.03113v1
+time-added: 2022-08-31-17:12:24
+title: A Rewriting Logic Approach to Specification, Proof-search, and   Meta-proofs
+  in Sequent Systems
+type: article
+url: http://arxiv.org/abs/2101.03113v1
+year: '2021'

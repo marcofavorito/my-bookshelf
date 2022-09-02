@@ -1,0 +1,49 @@
+abstract: 'Systems are complicated. We master their complexity by building them from
+  simpler components. This suggests that to master the complexity of reasoning about
+  systems, we should prove properties of the separate components and then combine
+  those properties to deduce properties of the entire system. In concurrent systems,
+  the obvious choice of component is the process. So, compositional reasoning has
+  come to mean deducing properties of a system from properties of its processes.
+
+
+  I have long felt that this whole approach is rather silly. You don''t design a mutual
+  exclusion algorithm by first designing the individual processes and then hoping
+  that putting them together guarantees mutual exclusion. Similarly, anyone who has
+  tried to deduce mutual exclusion from properties proved by considering the processes
+  in isolation knows that it''s the wrong way to approach the problem. You prove mutual
+  exclusion by finding a global invariant, and then showing that each process''s actions
+  maintains the invariant. TLA makes the entire reasoning process completely mathematical--the
+  specifications about which one reasons are mathematical formulas, and proving correctness
+  means proving a single mathematical formula. A mathematical proof is essentially
+  decompositional: you apply a deduction rule to reduce the problem of proving a formula
+  to that of proving one or more simpler formulas.
+
+
+  This paper explains why traditional compositional reasoning is just one particular,
+  highly constrained way of decomposing the proof. In most cases, it''s not a very
+  natural way and results in extra work. This extra work is justified if it can be
+  done by a computer. In particular, decomposition along processes makes sense if
+  the individual processes are simple enough to be verified by model checking. TLA
+  is particularly good for doing this because, as illustrated by [119], it allows
+  a great deal of flexibility in choosing what constitutes a process.'
+author: Lamport, Leslie
+author_list:
+- family: Lamport
+  given: Leslie
+booktitle: 'Compositionality: The Significant Difference (Proceedings of the COMPOS''97
+  Symposium), Willem-Paul de Roever, Hans Langmaack, and Amir Pnueli editors. Lecture
+  Notes in Computer Science.'
+edition: 'Compositionality: The Significant Difference (Proceedings of the COMPOS''97
+  Symposium), Willem-Paul de Roever, Hans Langmaack, and Amir Pnueli editors. Lecture
+  Notes in Computer Science.'
+files:
+- lamport-lesliecomposition-a-way-to-make-proofs-harder1997.pdf
+month: December
+pages: 402-423
+ref: lamport1997composition
+time-added: 2022-08-31-12:12:08
+title: 'Composition: A Way to Make Proofs Harder'
+type: inproceedings
+url: https://www.microsoft.com/en-us/research/publication/composition-way-make-proofs-harder/
+volume: '1536'
+year: '1997'

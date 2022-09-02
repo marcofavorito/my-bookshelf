@@ -1,0 +1,37 @@
+abstract: Consensus is unnecessary when the truth is available. In this paper, we
+  present a new perspective of rebuilding the blockchain without consensus. When the
+  consensus phase is eliminated from a blockchain, transactions could be canonized
+  quickly using a well-defined universal rule without consuming hashing power. Thus,
+  the transactions per second(TPS) metric of such the consensusless blockchain can
+  be largely boosted. Although consensus blockchain is promising, several technical
+  challenges are also crucial. For example, double-spending attacks and frequent forking
+  events must be prevented, the credit of block's minting must be carefully defined,
+  and etc. To address those technical challenges, we propose several solutions for
+  our consensusless blockchain (CB), including a naive monotonic scoring mechanism
+  to calculate the ranking of each block in the chain, and a two-stage witness mechanism
+  to add new blocks. The proposed CB chain is promising to offer a simplified and
+  equipment-cheap infrastructure for rich real-world decentralized applications.
+archiveprefix: arXiv
+author: Wang, Qing and Zheng, Jian and Huang, Huawei and Lin, Jianru
+author_list:
+- family: Wang
+  given: Qing
+- family: Zheng
+  given: Jian
+- family: Huang
+  given: Huawei
+- family: Lin
+  given: Jianru
+eprint: 2208.12381v3
+file: 2208.12381v3.pdf
+files:
+- wang-qing-and-zheng-jian-and-huang-huawei-and-lin-jianruconsensusless-blockchain-a-promising-high-performance-blockchain-without-consensus2022.pdf
+month: Aug
+primaryclass: cs.NI
+ref: 2208.12381v3
+time-added: 2022-09-01-09:18:42
+title: 'Consensusless Blockchain: A Promising High-Performance Blockchain   without
+  Consensus'
+type: article
+url: http://arxiv.org/abs/2208.12381v3
+year: '2022'

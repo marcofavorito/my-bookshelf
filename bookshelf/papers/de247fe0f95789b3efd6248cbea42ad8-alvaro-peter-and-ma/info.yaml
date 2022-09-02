@@ -1,0 +1,52 @@
+abstract: 'Recent research has explored using Datalog-based languages to express a
+  distributed system as a set of logical invariants. Two properties of distributed
+  systems proved difficult to model in Datalog. First, the state of any such system
+  evolves with its execution. Second, deductions in these systems may be arbitrarily
+  delayed, dropped, or reordered by the unreliable network links they must traverse.
+  Previous efforts addressed the former by extending Datalog to include updates, key
+  constraints, persistence and events, and the latter by assuming ordered and reliable
+  delivery while ignoring delay. These details have a semantics outside Datalog, which
+  increases the complexity of the language or its interpretation, and forces programmers
+  to think operationally. We argue that the missing component from these previous
+  languages is a notion of time.
+
+
+  In this paper we present Dedalus, a foundation language for programming and reasoning
+  about distributed systems. Dedalus reduces to a subset of Datalog with negation,
+  aggregate functions, successor and choice, and admits an explicit representation
+  of time into the logic language. We show that Dedalus provides a declarative foundation
+  for the two signature features of distributed systems: mutable state, and asynchronous
+  processing and communication. Given these two features, we address three important
+  properties of programs in a domain-specific manner: a notion of safety appropriate
+  to non-terminating computations, stratified monotonic reasoning with negation over
+  time, and efficient evaluation over time via a simple execution strategy. We also
+  provide conservative syntactic checks for our temporal notions of safety and stratification.
+  Our experience implementing full-featured systems in variants of Datalog suggests
+  that Dedalus is well-suited to the specification of rich distributed services and
+  protocols, and provides both cleaner semantics and richer tests of correctness.'
+author: Alvaro, Peter and Marczak, William and Conway, Neil and Hellerstein, Joseph
+  M. and Maier, David and Sears, Russell C
+author_list:
+- family: Alvaro
+  given: Peter
+- family: Marczak
+  given: William
+- family: Conway
+  given: Neil
+- family: Hellerstein
+  given: Joseph M.
+- family: Maier
+  given: David
+- family: Sears
+  given: Russell C
+files:
+- alvaro-peter-and-marczak-william-and-conway-neil-and-hellerstein-joseph-m.-and-maier-david-and-sears-russell-cdedalus-datalog-in-time-and-space.pdf
+institution: EECS Department, University of California, Berkeley
+month: Dec
+number: UCB/EECS-2009-173
+ref: Alvaro:EECS-2009-173
+time-added: 2022-08-31-15:45:21
+title: 'Dedalus: Datalog in Time and Space'
+type: techreport
+url: http://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-173.html
+year: '2009'

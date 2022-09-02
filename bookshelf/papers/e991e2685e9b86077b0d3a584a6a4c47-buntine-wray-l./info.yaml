@@ -1,0 +1,29 @@
+abstract: 'Theory refinement is the task of updating a domain theory in the light
+  of new cases, to be done automatically or with some expert assistance. The problem
+  of theory refinement under uncertainty is reviewed here in the context of Bayesian
+  statistics, a theory of belief revision. The problem is reduced to an incremental
+  learning task as follows: the learning system is initially primed with a partial
+  theory supplied by a domain expert, and thereafter maintains its own internal representation
+  of alternative theories which is able to be interrogated by the domain expert and
+  able to be incrementally refined from data. Algorithms for refinement of Bayesian
+  networks are presented to illustrate what is meant by "partial theory", "alternative
+  theory representation", etc. The algorithms are an incremental variant of batch
+  learning algorithms from the literature so can work well in batch and incremental
+  mode.'
+archiveprefix: arXiv
+author: Buntine, Wray L.
+author_list:
+- family: Buntine
+  given: Wray L.
+eprint: 1303.5709v1
+file: 1303.5709v1.pdf
+files:
+- buntine-wray-l.theory-refinement-on-bayesian-networks2013.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 1303.5709v1
+time-added: 2022-09-01-10:18:49
+title: Theory Refinement on Bayesian Networks
+type: article
+url: http://arxiv.org/abs/1303.5709v1
+year: '2013'

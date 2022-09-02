@@ -1,0 +1,38 @@
+abstract: 'My 1987 book is now out of print, but it is available here in its entirety
+  in PDF form, in one of two formats:
+
+
+  single-page portrait
+
+  double-page landscape
+
+
+  Both are fully searchable, thanks to OCR and Norman Ramsey.
+
+
+  Errata
+
+
+  Section 5.2.4, p87.  We need an extra rule
+
+
+  match us [] E = E
+
+  This accounts for the possibility that in the constructor rule (Section 5.2.4) there
+  may be some non-nullary constructors for which there are no equations.
+
+
+
+  P168, line 2, VAR should be TVAR.'
+author: Peyton Jones, Simon
+author_list:
+- family: Peyton Jones
+  given: Simon
+month: January
+publisher: Prentice Hall
+ref: peytonjones1987the
+time-added: 2022-09-01-11:21:12
+title: The Implementation of Functional Programming Languages
+type: book
+url: https://www.microsoft.com/en-us/research/publication/the-implementation-of-functional-programming-languages/
+year: '1987'

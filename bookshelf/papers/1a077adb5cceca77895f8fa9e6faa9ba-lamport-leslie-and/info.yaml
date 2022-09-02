@@ -1,0 +1,27 @@
+abstract: Auxiliary variables are often needed for verifying that an implementation
+  is correct with respect to a higher-level specification. They augment the formal
+  description of the implementation without changing its semantics--that is, the set
+  of behaviors that it describes. This paper explains rules for adding history, prophecy,
+  and stuttering variables to TLA+ specifications, ensuring that the augmented specification
+  is equivalent to the original one. The rules are explained with toy examples, and
+  they are used to verify the correctness of a simplified version of a snapshot algorithm
+  due to Afek et al.
+archiveprefix: arXiv
+author: Lamport, Leslie and Merz, Stephan
+author_list:
+- family: Lamport
+  given: Leslie
+- family: Merz
+  given: Stephan
+eprint: 1703.05121v2
+file: 1703.05121v2.pdf
+files:
+- lamport-leslie-and-merz-stephanauxiliary-variables-in-tla-2017.pdf
+month: Mar
+primaryclass: cs.LO
+ref: 1703.05121v2
+time-added: 2022-08-31-18:22:38
+title: Auxiliary Variables in TLA+
+type: article
+url: http://arxiv.org/abs/1703.05121v2
+year: '2017'
