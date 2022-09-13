@@ -1,0 +1,40 @@
+abstract: LibraBFT is a Byzantine Fault Tolerant (BFT) consensus protocol based on
+  HotStuff. We present an abstract model of the protocol underlying HotStuff / LibraBFT,
+  and formal, machine-checked proofs of their core correctness (safety) property and
+  an extended condition that enables non-participating parties to verify committed
+  results. (Liveness properties would be proved for specific implementations, not
+  for the abstract model presented in this paper.)   A key contribution is precisely
+  defining assumptions about the behavior of honest peers, in an abstract way, independent
+  of any particular implementation. Therefore, our work is an important step towards
+  proving correctness of an entire class of concrete implementations, without repeating
+  the hard work of proving correctness of the underlying protocol. The abstract proofs
+  are for a single configuration (epoch); extending these proofs across configuration
+  changes is future work. Our models and proofs are expressed in Agda, and are available
+  in open source.
+archiveprefix: arXiv
+author: Carr, Harold and Jenkins, Christopher and Moir, Mark and Miraldo, Victor Cacciari
+  and Silva, Lisandra
+author_list:
+- family: Carr
+  given: Harold
+- family: Jenkins
+  given: Christopher
+- family: Moir
+  given: Mark
+- family: Miraldo
+  given: Victor Cacciari
+- family: Silva
+  given: Lisandra
+eprint: 2203.14711v2
+file: 2203.14711v2.pdf
+files:
+- carr-harold-and-jenkins-christopher-and-moir-mark-and-miraldo-victor-cacciari-and-silva-lisandratowards-formal-verification-of-hotstuff-based-byz.pdf
+month: Mar
+primaryclass: cs.DC
+ref: 2203.14711v2
+time-added: 2022-09-04-19:34:26
+title: 'Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant   Consensus
+  in Agda: Extended Version'
+type: article
+url: http://arxiv.org/abs/2203.14711v2
+year: '2022'

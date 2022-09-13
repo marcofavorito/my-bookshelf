@@ -1,0 +1,20 @@
+abstract: 'When teaching formal methods, I often get asked how we can connect the
+  specifications we write to the code we produce. One way we do this is with refinement.
+  All examples are in TLA+.1
+
+  Imagine we’re designing a multithreaded counter. We don’t know how we’re going to
+  implement it yet, so we start by specifying the abstract behavior.2
+
+  ---- MODULE abstract ---- EXTENDS Integers, Sequences VARIABLES pc, counter vars
+  == {\textless}{\textless}pc, counter{\textgreater}{\textgreater} {\textbackslash}*
+  Two threads Threads == 1.'
+journal: Hillel Wayne
+language: en
+month: July
+ref: noauthor_specification_2021
+time-added: 2022-09-02-22:19:40
+title: Specification {Refinement} • {Hillel} {Wayne}
+type: misc
+url: https://www.hillelwayne.com/post/refinement/
+urldate: '2022-09-02'
+year: '2021'

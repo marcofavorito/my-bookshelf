@@ -1,0 +1,369 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Real-time systems are notoriously
+  hard to verify due to nondeterminism, concurrency and timing constraints. When timing
+  constants are uncertain (in early the design phase, or due to slight variations
+  of the timing bounds), timed model checking techniques may not be satisfactory.
+  In contrast, parametric timed model checking synthesizes timing values ensuring
+  correctness.  takes as input an extension of parametric timed automata (PTAs), a
+  powerful formalism to formally verify critical real-time systems.  extends PTAs
+  with multi-rate clocks, global rational-valued variables and a set of additional
+  useful features. We describe here the new features and algorithms offered by  3,
+  that moved along the years from a simple prototype dedicated to robustness analysis
+  to a standalone parametric model checker for timed systems.</jats:p>
+author: André, Étienne
+author_list:
+- affiliation: []
+  family: André
+  given: Étienne
+citations:
+- author: L Aceto
+  doi: 10.1016/S0304-3975(02)00334-1
+  first-page: '411'
+  issue: 1–3
+  journal-title: TCS
+  unstructured: 'Aceto, L., Bouyer, P., Burgueño, A., Larsen, K.G.: The power of reachability
+    testing for timed automata. TCS 300(1–3), 411–475 (2003). https://doi.org/10.1016/S0304-3975(02)00334-1'
+  volume: '300'
+  year: '2003'
+- author: R Alur
+  doi: 10.1016/0304-3975(94)00202-T
+  first-page: '3'
+  issue: '1'
+  journal-title: TCS
+  unstructured: 'Alur, R., et al.: The algorithmic analysis of hybrid systems. TCS
+    138(1), 3–34 (1995). https://doi.org/10.1016/0304-3975(94)00202-T'
+  volume: '138'
+  year: '1995'
+- author: R Alur
+  doi: 10.1016/0304-3975(94)90010-8
+  first-page: '183'
+  issue: '2'
+  journal-title: TCS
+  unstructured: 'Alur, R., Dill, D.L.: A theory of timed automata. TCS 126(2), 183–235
+    (1994). https://doi.org/10.1016/0304-3975(94)90010-8'
+  volume: '126'
+  year: '1994'
+- author: R Alur
+  doi: 10.1016/S0304-3975(97)00173-4
+  first-page: '253'
+  issue: 1–2
+  journal-title: TCS
+  unstructured: 'Alur, R., Fix, L., Henzinger, T.A.: Event-clock automata: a determinizable
+    class of timed automata. TCS 211(1–2), 253–273 (1999). https://doi.org/10.1016/S0304-3975(97)00173-4'
+  volume: '211'
+  year: '1999'
+- doi: 10.1145/167088.167242
+  unstructured: 'Alur, R., Henzinger, T.A., Vardi, M.Y.: Parametric real-time reasoning.
+    In: Kosaraju, S.R., Johnson, D.S., Aggarwal, A. (eds.) STOC, pp. 592–601. ACM,
+    New York, NY, USA (1993). https://doi.org/10.1145/167088.167242'
+- doi: 10.1109/ICECCS.2013.26
+  unstructured: 'André, É.: Observer patterns for real-time systems. In: Liu, Y.,
+    Martin, A. (eds.) ICECCS, pp. 125–134. IEEE Computer Society, July 2013. https://doi.org/10.1109/ICECCS.2013.26'
+- author: É André
+  doi: 10.1007/978-3-319-46750-4_27
+  first-page: '469'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É.: Parametric deadlock-freeness checking timed automata.
+    In: Sampaio, A., Wang, F. (eds.) ICTAC 2016. LNCS, vol. 9965, pp. 469–478. Springer,
+    Cham (2016). https://doi.org/10.1007/978-3-319-46750-4_27'
+  volume-title: Theoretical Aspects of Computing – ICTAC 2016
+  year: '2016'
+- author: É André
+  doi: 10.1007/s10009-017-0467-0
+  first-page: '203'
+  issue: '2'
+  journal-title: STTT
+  unstructured: 'André, É.: What’s decidable about parametric timed automata? STTT
+    21(2), 203–219 (2019). https://doi.org/10.1007/s10009-017-0467-0'
+  volume: '21'
+  year: '2019'
+- doi: 10.5281/zenodo.4723415
+  unstructured: 'André, É.: Artifact for IMITATOR 3.0, April 2021. https://doi.org/10.5281/zenodo.4723415'
+- unstructured: 'André, É.: IMITATOR user manual, January 2021. https://github.com/imitator-model-checker/imitator/releases/download/v3.0.0/IMITATOR-user-manual.pdf'
+- author: É André
+  doi: 10.1007/978-3-030-72016-2_17
+  first-page: '311'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Arias, J., Petrucci, L., Pol, J.: Iterative bounded synthesis
+    for efficient cycle detection in parametric timed automata. In: TACAS 2021. LNCS,
+    vol. 12651, pp. 311–329. Springer, Cham (2021). https://doi.org/10.1007/978-3-030-72016-2_17'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2021'
+- author: É André
+  doi: 10.1007/978-3-030-17465-1_12
+  first-page: '211'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Bloemen, V., Petrucci, L., van de Pol, J.: Minimal-time
+    synthesis for parametric timed automata. In: Vojnar, T., Zhang, L. (eds.) TACAS
+    2019. LNCS, vol. 11428, pp. 211–228. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-17465-1_12'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2019'
+- doi: 10.1109/ACSD.2019.00006
+  unstructured: 'André, É., Coquard, E., Fribourg, L., Jerray, J., Lesens, D.: Scheduling
+    synthesis for a launcher flight control using parametric stopwatch automata. In:
+    Keller, J., Penczek, W. (eds.) ACSD, pp. 13–22. IEEE (2019). https://doi.org/10.1109/ACSD.2019.00006'
+- doi: 10.1145/2642769.2642784
+  unstructured: 'André, É., Coti, C., Evangelista, S.: Distributed behavioral cartography
+    of timed automata. In: Dongarra, J., Ishikawa, Y., Atsushi, H. (eds.) EuroMPI/ASIA,
+    pp. 109–114. ACM, September 2014. https://doi.org/10.1145/2642769.2642784'
+- author: É André
+  doi: 10.1007/978-3-319-25423-4_21
+  first-page: '319'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Coti, C., Nguyen, H.G.: Enhanced distributed behavioral
+    cartography of parametric timed automata. In: Butler, M., Conchon, S., Zaïdi,
+    F. (eds.) ICFEM 2015. LNCS, vol. 9407, pp. 319–335. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-25423-4_21'
+  volume-title: Formal Methods and Software Engineering
+  year: '2015'
+- author: É André
+  doi: 10.1007/978-3-642-15349-5_5
+  first-page: '76'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Fribourg, L.: Behavioral cartography of timed automata.
+    In: Kučera, A., Potapov, I. (eds.) RP 2010. LNCS, vol. 6227, pp. 76–90. Springer,
+    Heidelberg (2010). https://doi.org/10.1007/978-3-642-15349-5_5'
+  volume-title: Reachability Problems
+  year: '2010'
+- author: É André
+  doi: 10.1007/978-3-642-32759-9_6
+  first-page: '33'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Fribourg, L., Kühne, U., Soulat, R.: IMITATOR 2.5: a tool
+    for analyzing robustness in scheduling problems. In: Giannakopoulou, D., Méry,
+    D. (eds.) FM 2012. LNCS, vol. 7436, pp. 33–36. Springer, Heidelberg (2012). https://doi.org/10.1007/978-3-642-32759-9_6'
+  volume-title: 'FM 2012: Formal Methods'
+  year: '2012'
+- author: É André
+  doi: 10.1007/978-3-030-11245-5_19
+  first-page: '409'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Fribourg, L., Mota, J.-M., Soulat, R.: Verification of
+    an industrial asynchronous leader election algorithm using abstractions and parametric
+    model checking. In: Enea, C., Piskac, R. (eds.) VMCAI 2019. LNCS, vol. 11388,
+    pp. 409–424. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-11245-5_19'
+  volume-title: Verification, Model Checking, and Abstract Interpretation
+  year: '2019'
+- author: É André
+  doi: 10.1007/978-3-319-02444-8_27
+  first-page: '381'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Fribourg, L., Soulat, R.: Merge and conquer: state merging
+    in parametric timed automata. In: Van Hung, D., Ogawa, M. (eds.) ATVA 2013. LNCS,
+    vol. 8172, pp. 381–396. Springer, Cham (2013). https://doi.org/10.1007/978-3-319-02444-8_27'
+  volume-title: Automated Technology for Verification and Analysis
+  year: '2013'
+- doi: 10.1109/ICECCS2018.2018.00010
+  unstructured: 'André, É., Hasuo, I., Waga, M.: Offline timed pattern matching under
+    uncertainty. In: Lin, A.W., Sun, J. (eds.) ICECCS, pp. 10–20. IEEE Computer Society
+    (2018). https://doi.org/10.1109/ICECCS2018.2018.00010'
+- doi: 10.23638/LMCS-16(1:5)2020
+  unstructured: 'André, É., Lime, D., Markey, N.: Language preservation problems in
+    parametric timed automata. LMCS 16, January 2020. https://doi.org/10.23638/LMCS-16(1:5)2020'
+- author: É André
+  doi: 10.1007/978-3-030-21759-4_3
+  first-page: '39'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Lime, D., Ramparison, M.: Parametric updates in parametric
+    timed automata. In: Pérez, J.A., Yoshida, N. (eds.) FORTE 2019. LNCS, vol. 11535,
+    pp. 39–56. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-21759-4_3'
+  volume-title: Formal Techniques for Distributed Objects, Components, and Systems
+  year: '2019'
+- doi: 10.1109/ACSD.2019.00008
+  unstructured: 'André, É., Lime, D., Ramparison, M., Stoelinga, M.: Parametric analyses
+    of attack-fault trees. In: Keller, J., Penczek, W. (eds.) ACSD, pp. 33–42. IEEE
+    (2019). https://doi.org/10.1109/ACSD.2019.00008'
+- author: É André
+  doi: 10.1007/978-3-319-60225-7_2
+  first-page: '17'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Lin, S.-W.: Learning-based compositional parameter synthesis
+    for event-recording automata. In: Bouajjani, A., Silva, A. (eds.) FORTE 2017.
+    LNCS, vol. 10321, pp. 17–32. Springer, Cham (2017). https://doi.org/10.1007/978-3-319-60225-7_2'
+  volume-title: Formal Techniques for Distributed Objects, Components, and Systems
+  year: '2017'
+- author: É André
+  doi: 10.1007/978-3-319-17524-9_5
+  first-page: '50'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Lipari, G., Nguyen, H.G., Sun, Y.: Reachability preservation
+    based parameter synthesis for timed automata. In: Havelund, K., Holzmann, G.,
+    Joshi, R. (eds.) NFM 2015. LNCS, vol. 9058, pp. 50–65. Springer, Cham (2015).
+    https://doi.org/10.1007/978-3-319-17524-9_5'
+  volume-title: NASA Formal Methods
+  year: '2015'
+- doi: 10.1007/978-3-030-79379-1_3
+  unstructured: 'André, É., Marinho, D., van de Pol, J.: A benchmarks library for
+    extended timed automata. In: Loulergue, F., Wotawa, F. (eds.) TAP (2021). (to
+    appear)'
+- author: É André
+  doi: 10.1007/978-3-319-57288-8_3
+  first-page: '35'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Nguyen, H.G., Petrucci, L., Sun, J.: Parametric model
+    checking timed automata under non-zenoness assumption. In: Barrett, C., Davies,
+    M., Kahsai, T. (eds.) NFM 2017. LNCS, vol. 10227, pp. 35–51. Springer, Cham (2017).
+    https://doi.org/10.1007/978-3-319-57288-8_3'
+  volume-title: NASA Formal Methods
+  year: '2017'
+- unstructured: 'André, É., Petrucci, L.: Unifying patterns for modelling timed relationships
+    in systems and properties. In: Moldt, D., Rölke, H., Störrle, H. (eds.) PNSE,
+    vol. 1372, pp. 25–40. CEUR-WS, June 2015'
+- doi: 10.1002/9781118569351
+  unstructured: 'André, É., Soulat, R.: The Inverse Method. FOCUS Series in Computer
+    Engineering and Information Technology, p. 176, ISTE Ltd and John Wiley & Sons
+    Inc. Hoboken (2013)'
+- author: É André
+  doi: 10.1007/978-3-030-31784-3_7
+  first-page: '115'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'André, É., Sun, J.: Parametric timed model checking for guaranteeing
+    timed opacity. In: Chen, Y.-F., Cheng, C.-H., Esparza, J. (eds.) ATVA 2019. LNCS,
+    vol. 11781, pp. 115–130. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-31784-3_7'
+  volume-title: Automated Technology for Verification and Analysis
+  year: '2019'
+- author: J Arias
+  doi: 10.1007/978-3-030-63406-3_1
+  first-page: '3'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Arias, J., Budde, C.E., Penczek, W., Petrucci, L., Sidoruk, T., Stoelinga,
+    M.: Hackers vs. Security: attack-defence trees as asynchronous multi-agent systems.
+    In: Lin, S.-W., Hou, Z., Mahony, B. (eds.) ICFEM 2020. LNCS, vol. 12531, pp. 3–19.
+    Springer, Cham (2020). https://doi.org/10.1007/978-3-030-63406-3_1'
+  volume-title: Formal Methods and Software Engineering
+  year: '2020'
+- author: R Bagnara
+  doi: 10.1016/j.scico.2007.08.001
+  first-page: '3'
+  issue: 1–2
+  journal-title: Sci. Comput. Programm.
+  unstructured: 'Bagnara, R., Hill, P.M., Zaffanella, E.: The Parma Polyhedra Library:
+    Toward a complete set of numerical abstractions for the analysis and verification
+    of hardware and software systems. Sci. Comput. Programm. 72(1–2), 3–21 (2008).
+    https://doi.org/10.1016/j.scico.2007.08.001'
+  volume: '72'
+  year: '2008'
+- author: A Becchi
+  doi: 10.1007/978-3-030-32304-2_10
+  first-page: '183'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Becchi, A., Zaffanella, E.: Revisiting polyhedral analysis for hybrid
+    systems. In: Chang, B.-Y.E. (ed.) SAS 2019. LNCS, vol. 11822, pp. 183–202. Springer,
+    Cham (2019). https://doi.org/10.1007/978-3-030-32304-2_10'
+  volume-title: Static Analysis
+  year: '2019'
+- doi: 10.1016/j.ic.2020.104620
+  unstructured: 'Becchi, A., Zaffanella, E.: PPLite: zero-overhead encoding of NNC
+    polyhedra. Inf. Comput. 275, 104620 (2020). https://doi.org/10.1016/j.ic.2020.104620'
+- author: N Beneš
+  doi: 10.1007/978-3-662-47666-6_6
+  first-page: '69'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Beneš, N., Bezděk, P., Larsen, K.G., Srba, J.: Language emptiness
+    of continuous-time parametric timed automata. In: Halldórsson, M.M., Iwama, K.,
+    Kobayashi, N., Speckmann, B. (eds.) ICALP 2015. LNCS, vol. 9135, pp. 69–81. Springer,
+    Heidelberg (2015). https://doi.org/10.1007/978-3-662-47666-6_6'
+  volume-title: Automata, Languages, and Programming
+  year: '2015'
+- author: F Cassez
+  doi: 10.1007/3-540-44618-4_12
+  first-page: '138'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Cassez, F., Larsen, K.: The impressive power of stopwatches. In:
+    Palamidessi, C. (ed.) CONCUR 2000. LNCS, vol. 1877, pp. 138–152. Springer, Heidelberg
+    (2000). https://doi.org/10.1007/3-540-44618-4_12'
+  volume-title: CONCUR 2000 — Concurrency Theory
+  year: '2000'
+- author: R Chevallier
+  doi: 10.1007/s10703-008-0061-x
+  first-page: '59'
+  issue: '1'
+  journal-title: FMSD
+  unstructured: 'Chevallier, R., Encrenaz-Tiphène, E., Fribourg, L., Xu, W.: Timed
+    verification of the generic architecture of a memory circuit using parametric
+    timed automata. FMSD 34(1), 59–81 (2009). https://doi.org/10.1007/s10703-008-0061-x'
+  volume: '34'
+  year: '2009'
+- unstructured: 'Fanchon, L., Jacquemard, F.: Formal timing analysis of mixed music
+    scores. In: ICMC. Michigan Publishing, August 2013'
+- author: G Frehse
+  doi: 10.1007/978-3-642-22110-1_30
+  first-page: '379'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Frehse, G., et al.: SpaceEx: scalable verification of hybrid systems.
+    In: Gopalakrishnan, G., Qadeer, S. (eds.) CAV 2011. LNCS, vol. 6806, pp. 379–395.
+    Springer, Heidelberg (2011). https://doi.org/10.1007/978-3-642-22110-1_30'
+  volume-title: Computer Aided Verification
+  year: '2011'
+- doi: 10.1109/TIME.2012.10
+  unstructured: 'Fribourg, L., Lesens, D., Moro, P., Soulat, R.: Robustness analysis
+    for scheduling problems using the inverse method. In: Reynolds, M., Terenziani,
+    P., Moszkowski, B. (eds.) TIME, pp. 73–80. IEEE Computer Society Press, September
+    2012. https://doi.org/10.1109/TIME.2012.10'
+- author: TA Henzinger
+  doi: 10.1007/s100090050008
+  first-page: '110'
+  issue: 1–2
+  journal-title: STTT
+  unstructured: 'Henzinger, T.A., Ho, P.H., Wong-Toi, H.: HyTech: a model checker
+    for hybrid systems. STTT 1(1–2), 110–122 (1997). https://doi.org/10.1007/s100090050008'
+  volume: '1'
+  year: '1997'
+- author: KG Larsen
+  doi: 10.1007/s100090050010
+  first-page: '134'
+  issue: 1–2
+  journal-title: STTT
+  unstructured: 'Larsen, K.G., Pettersson, P., Yi, W.: UPPAAL in a nutshell. STTT
+    1(1–2), 134–152 (1997). https://doi.org/10.1007/s100090050010'
+  volume: '1'
+  year: '1997'
+- author: D Lime
+  doi: 10.1007/978-3-642-00768-2_6
+  first-page: '54'
+  series-title: Lecture Notes in Computer Science
+  unstructured: 'Lime, D., Roux, O.H., Seidner, C., Traonouez, L.-M.: Romeo: a parametric
+    model-checker for petri nets with stopwatches. In: Kowalewski, S., Philippou,
+    A. (eds.) TACAS 2009. LNCS, vol. 5505, pp. 54–57. Springer, Heidelberg (2009).
+    https://doi.org/10.1007/978-3-642-00768-2_6'
+  volume-title: Tools and Algorithms for the Construction and Analysis of Systems
+  year: '2009'
+- author: L Luthmann
+  doi: 10.1016/j.jss.2018.12.028
+  first-page: '535'
+  journal-title: J. Syst. Softw.
+  unstructured: 'Luthmann, L., Gerecht, T., Stephan, A., Bürdek, J., Lochau, M.: Minimum/maximum
+    delay testing of product lines with unbounded parametric real-time constraints.
+    J. Syst. Softw. 149, 535–553 (2019). https://doi.org/10.1016/j.jss.2018.12.028'
+  volume: '149'
+  year: '2019'
+- doi: 10.1109/ICECCS2018.2018.00009
+  unstructured: 'Nguyen, H.G., Petrucci, L., van de Pol, J.: Layered and collecting
+    NDFS with subsumption for parametric timed automata. In: Lin, A.W., Sun, J. (eds.)
+    ICECCS, pp. 1–9. IEEE Computer Society, December 2018. https://doi.org/10.1109/ICECCS2018.2018.00009'
+- unstructured: 'Sun, Y., André, É., Lipari, G.: Verification of two real-time systems
+    using parametric timed automata. In: Quinton, S., Vardanega, T. (eds.) WATERS,
+    July 2015'
+- author: LM Traonouez
+  doi: 10.3217/jucs-015-17-3273
+  first-page: '3273'
+  issue: '17'
+  journal-title: J. Univ. Comput. Sci.
+  unstructured: 'Traonouez, L.M., Lime, D., Roux, O.H.: Parametric model-checking
+    of stopwatch Petri nets. J. Univ. Comput. Sci. 15(17), 3273–3304 (2009). https://doi.org/10.3217/jucs-015-17-3273'
+  volume: '15'
+  year: '2009'
+doi: 10.1007/978-3-030-81685-8_26
+files:
+- andre-etienneimitator-3-synthesis-of-timing-parameters-beyond-decidability2021.pdf
+isbn:
+- '9783030816841'
+- '9783030816858'
+journal: Computer Aided Verification
+month: 7
+pages: 552--565
+publisher: Springer International Publishing
+ref: Imitator3SynAndre2021
+time-added: 2022-09-04-19:49:46
+title: 'IMITATOR 3: Synthesis of Timing Parameters Beyond Decidability'
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-030-81685-8_26
+year: 2021

@@ -1,0 +1,47 @@
+abstract: Byzantine Fault-Tolerant (BFT) protocols have recently been extensively
+  used by decentralized data management systems with non-trustworthy infrastructures,
+  e.g., permissioned blockchains. BFT protocols cover a broad spectrum of design dimensions
+  from infrastructure settings such as the communication topology, to more technical
+  features such as commitment strategy and even fundamental social choice properties
+  like order-fairness. The proliferation of different BFT protocols has rendered it
+  difficult to navigate the BFT landscape, let alone determine the protocol that best
+  meets application needs. This paper presents Bedrock, a unified platform for BFT
+  protocols design, analysis, implementation, and experiments. Bedrock proposes a
+  design space consisting of a set of design choices capturing the trade-offs between
+  different design space dimensions and providing fundamentally new insights into
+  the strengths and weaknesses of BFT protocols. Bedrock enables users to analyze
+  and experiment with BFT protocols within the space of plausible choices, evolve
+  current protocols to design new ones, and even uncover previously unknown protocols.
+  Our experimental results demonstrate the capability of Bedrock to uniformly evaluate
+  BFT protocols in new ways that were not possible before due to the diverse assumptions
+  made by these protocols. The results validate Bedrock's ability to analyze and derive
+  BFT protocols.
+archiveprefix: arXiv
+author: Amiri, Mohammad Javad and Wu, Chenyuan and Agrawal, Divyakant and Abbadi,
+  Amr El and Loo, Boon Thau and Sadoghi, Mohammad
+author_list:
+- family: Amiri
+  given: Mohammad Javad
+- family: Wu
+  given: Chenyuan
+- family: Agrawal
+  given: Divyakant
+- family: Abbadi
+  given: Amr El
+- family: Loo
+  given: Boon Thau
+- family: Sadoghi
+  given: Mohammad
+eprint: 2205.04534v2
+file: 2205.04534v2.pdf
+files:
+- amiri-mohammad-javad-and-wu-chenyuan-and-agrawal-divyakant-and-abbadi-amr-el-and-loo-boon-thau-and-sadoghi-mohammadthe-bedrock-of-byzantine-faul.pdf
+month: May
+primaryclass: cs.DC
+ref: 2205.04534v2
+time-added: 2022-09-06-23:29:33
+title: 'The Bedrock of Byzantine Fault Tolerance: A Unified Platform for BFT   Protocol
+  Design and Implementation'
+type: article
+url: http://arxiv.org/abs/2205.04534v2
+year: '2022'
