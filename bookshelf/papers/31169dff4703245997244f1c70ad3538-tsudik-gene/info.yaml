@@ -1,0 +1,74 @@
+abstract: <jats:p>Fast message integrity and authentication services are much desired
+  in today's high-speed network protocols. Current message authentication techniques
+  are mostly encryption-based which is undesirable for several reasons. In this brief
+  paper, we introduce encryption-free message authentication based entirely on fast
+  one-way hash functions. Two methods are presented and their strength is analyzed.
+  The security of the proposed methods is based on the strength of the underlying
+  one-way hash function.</jats:p>
+author: Tsudik, Gene
+author_list:
+- affiliation: []
+  family: Tsudik
+  given: Gene
+citations:
+- unstructured: "[\n  1\n  ]  Advanced Micro Devices AMD MOS Microprocessors and Peripherals\
+    \ Data Book. Advanced Micro Devices Inc. Sunnyvale CA. 1987.  [1] Advanced Micro\
+    \ Devices AMD MOS Microprocessors and Peripherals Data Book. Advanced Micro Devices\
+    \ Inc. Sunnyvale CA. 1987."
+- author: Biham E.
+  volume-title: Proceedings of CRYPTO'90
+  year: '1990'
+- unstructured: "[\n  3\n  ]  D. Davies W. Price Security For Computer Networks New\
+    \ York NY: Wiley 1984.   [3] D. Davies W. Price Security For Computer Networks\
+    \ New York NY: Wiley 1984."
+- doi: 10.1109/49.17712
+  unstructured: "[\n  4\n  ]  D. Estrin J. Mogul G. Tsudik Visa Protocols for Controlling\
+    \ Inter-Organizational Datagram Flow IEEE Journal on Selected Areas in Communications\
+    \ May 1989.  [4] D. Estrin J. Mogul G. Tsudik Visa Protocols for Controlling Inter-Organizational\
+    \ Datagram Flow IEEE Journal on Selected Areas in Communications May 1989."
+- author: Processing Standards Federal Information
+  first-page: '46'
+  journal-title: Publication
+  year: '1977'
+- author: Galvin J.
+  volume-title: Secure Management of SNMP Networks Proceedings of IFIP Integrated
+    Network Management Symposium
+  year: '1991'
+- author: Merkle R.
+  volume-title: Proceedings of CRYPTO
+  year: '1989'
+- doi: 10.1145/359657.359659
+- doi: 10.17487/rfc0791
+  unstructured: "[\n  9\n  ]  J. Postel Internet Protocol RFC 791 SRI Network Information\
+    \ Center September 1981.  [9] J. Postel Internet Protocol RFC 791 SRI Network\
+    \ Information Center September 1981."
+- doi: 10.1145/359340.359342
+- author: Rivest R.
+  volume-title: Proceedings of CRYPTO'90
+  year: '1990'
+- unstructured: "[\n  12\n  ]  J. Steiner The Kerberos Network Authentication Service\
+    \ Overview MIT Project Athena RFC Draft 1 April 1989.  [12] J. Steiner The Kerberos\
+    \ Network Authentication Service Overview MIT Project Athena RFC Draft 1 April\
+    \ 1989."
+- unstructured: "[\n  13\n  ]  M. Steenstrup and Internet Open Routing Working Group\
+    \ Inter-Domain Policy Routing Specification BBN Report Number 7346 December 1990\
+    \ BBN Corporation Cambridge MA 02138.  [13] M. Steenstrup and Internet Open Routing\
+    \ Working Group Inter-Domain Policy Routing Specification BBN Report Number 7346\
+    \ December 1990 BBN Corporation Cambridge MA 02138."
+- doi: 10.1145/356909.356913
+doi: 10.1145/141809.141812
+files:
+- tsudik-genemessage-authentication-with-one-way-hash-functions1992.pdf
+issue: '5'
+journal: ACM SIGCOMM Computer Communication Review
+language: en
+month: 10
+pages: 29--38
+publisher: Association for Computing Machinery (ACM)
+ref: MessageAuthentTsudik1992
+time-added: 2022-09-20-10:19:02
+title: Message authentication with one-way hash functions
+type: article
+url: http://dx.doi.org/10.1145/141809.141812
+volume: '22'
+year: 1992

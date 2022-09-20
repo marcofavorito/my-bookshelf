@@ -1,0 +1,31 @@
+abstract: A public ledger is a tamperproof sequence of data that can be read and augmented
+  by everyone. Public ledgers have innumerable and compelling uses. They can secure,
+  in plain sight, all kinds of transactions ---such as titles, sales, and payments---
+  in the exact order in which they occur. Public ledgers not only curb corruption,
+  but also enable very sophisticated applications ---such as cryptocurrencies and
+  smart contracts. They stand to revolutionize the way a democratic society operates.
+  As currently implemented, however, they scale poorly and cannot achieve their potential.   Algorand
+  is a truly democratic and efficient way to implement a public ledger. Unlike prior
+  implementations based on proof of work, it requires a negligible amount of computation,
+  and generates a transaction history that will not "fork" with overwhelmingly high
+  probability.   Algorand is based on (a novel and super fast) message-passing Byzantine
+  agreement.   For concreteness, we shall describe Algorand only as a money platform.
+archiveprefix: arXiv
+author: Chen, Jing and Micali, Silvio
+author_list:
+- family: Chen
+  given: Jing
+- family: Micali
+  given: Silvio
+eprint: 1607.01341v9
+file: 1607.01341v9.pdf
+files:
+- chen-jing-and-micali-silvioalgorand2016.pdf
+month: Jul
+primaryclass: cs.CR
+ref: 1607.01341v9
+time-added: 2022-09-15-15:55:57
+title: Algorand
+type: article
+url: http://arxiv.org/abs/1607.01341v9
+year: '2016'

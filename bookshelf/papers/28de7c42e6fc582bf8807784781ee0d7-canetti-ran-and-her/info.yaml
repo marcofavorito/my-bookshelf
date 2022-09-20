@@ -1,0 +1,115 @@
+author: Canetti, Ran and Herzberg, Amir
+author_list:
+- affiliation: []
+  family: Canetti
+  given: Ran
+- affiliation: []
+  family: Herzberg
+  given: Amir
+citations:
+- unstructured: '[BGH+93a]_Ray Bird, Inder Gopal, Amir Herzberg, Phil Janson, Shay
+    Kutten, Refik Molva, and Moti Yung. A family of light-weight protocols for authentication
+    and key distribution. Submitted to IEEE T. Networking, 1993.'
+- author: B. Bird
+  doi: 10.1109/49.223869
+  first-page: '679'
+  issue: '5'
+  journal-title: IEEE Journal on Selected Areas in Communications
+  unstructured: '[BGH+93b]_Ray Bird, Inder Gopal, Amir Herzberg, Phil Janson, Shay
+    Kutten, Refik Molva, and Moti Yung. Systematic design of a family of attack-resistant
+    authentication protocols. IEEE Journal on Selected Areas in Communications, 11(5):679–693,
+    June 1993. Special issue on Secure Communications. See also a different version
+    in Crypto 91.'
+  volume: '11'
+  year: '1993'
+- doi: 10.1145/168588.168618
+  unstructured: 'Steven M. Bellovin and Michael Merritt. Augmented encrypted key exchange:
+    a password based protocol secure against dictionary attacks and password file
+    compromise. In 1st ACM Conference on Computer and Communications Security, pages
+    244–250, November 1993.'
+- doi: 10.1007/3-540-48329-2_21
+  unstructured: 'Mihir Bellare and Phil Rogaway. Entity authentication and key distribution.
+    In Advances in Cryptology: Proc. of Crypto 93, pages 232–249, August 1993.'
+- unstructured: Chee-Seng Chow and Amir Herzberg. A reconstructible proactive pseudorandomness
+    protocol. Work in progress, June 1994.
+- unstructured: 'M. Elchin and J. Rochlis. With microscope and tweezers: An analysis
+    of the internet virus of november 1988. In IEEE Symp. on Security and Privacy,
+    pages 326–343, 1989.'
+- doi: 10.1145/62212.62225
+  unstructured: P. Feldman and S. Micali. Optimal algorithms for byzantine agreement.
+    In Proceedings of the 20 th Annual ACM Symposium on Theory of Computing, pages
+    148–161, May 1988.
+- unstructured: 'Mat Franklin and Moti Yung. Eavesdropping games: A graph-theoretic
+    approach to privacy in distributed systems. In 34th Annual Symposium on Foundations
+    of Computer Science, pages 670–679, November 1993.'
+- doi: 10.1007/BFb0020438
+  unstructured: Juan A. Garay. Reaching (and maintaining) agreement in the presence
+    of mobile faults. To be presented in WDAG, 1994.
+- doi: 10.1007/3-540-39568-7_22
+  unstructured: 'Oded Goldreich, Shafi Goldwasser, and Silvio Micali. On the cryptographic
+    applications of random functions. In Advances in Cryptology: Proc. of Crypto 84,
+    pages 276–288, 1984.'
+- author: O. Goldreich
+  doi: 10.1145/6490.6503
+  first-page: '792'
+  issue: '4'
+  journal-title: J. ACM
+  unstructured: Oded Goldreich, Shafi Goldwasser, and Silvio Micali. How to construct
+    random functions. J. ACM, 33(4):792–807, 1986. Extended abstract in FOCS84.
+  volume: '33'
+  year: '1986'
+- unstructured: John Hästad, Russell Impagliazzo, Leonid Levin, and Mike Luby. Construction
+    of pseudo-random generator from any one-way functions. Manuscript, see preliminary
+    versions by Impagliazzo et al. in 21st STOC and Hästad in 22nd STOC, 1993.
+- author: T. A. Longstaff
+  doi: 10.1016/0167-4048(93)90013-U
+  first-page: '61'
+  issue: '1'
+  journal-title: Computers and Security
+  unstructured: 'Thomas A. Longstaff and Schultz E. Eugene. Beyond preliminary analysis
+    of the wank and oilz worms: A case of study of malicious code. Computers and Security,
+    12(1):61–77, 1993.'
+  volume: '12'
+  year: '1993'
+- unstructured: S. P. Miller, C. Neuman, J. I. Schiller, and J. H. Saltzer. Kerberos
+    authentication and authorization system. In Project Athena Technical Plan. Massachusetts
+    Institute of Technology, July 1987.
+- author: R. H. Morris
+  doi: 10.1145/359168.359172
+  first-page: '594'
+  issue: '11'
+  journal-title: Comm. ACM
+  unstructured: R. H. Morris and K. Thompson. Unix password security. Comm. ACM, 22(11):594–597,
+    November 1979.
+  volume: '22'
+  year: '1979'
+- doi: 10.1145/112600.112605
+  unstructured: Rafail Ostrovsky and Moti Yung. How to withstand mobile virus attacks.
+    In Proceedings of the 10 th Annual ACM Symposium on Principles of Distributed
+    Computing, Montreal, Quebec, Canada, pages 51–59, 1991.
+- doi: 10.1016/S0019-9958(85)80042-5
+  unstructured: R. Reischuk. A new solution to the byzantine generals problem. Information
+    and Control, pages 23–42, 1985.
+- author: C. Stoll
+  doi: 10.1016/0167-4048(88)90003-X
+  first-page: '543'
+  issue: '6'
+  journal-title: Computers and Security
+  unstructured: Cliff Stoll. How secure are computers in the u.s.a.? Computers and
+    Security, 7(6):543–547, 1988.
+  volume: '7'
+  year: '1988'
+doi: 10.1007/3-540-48658-5_38
+files:
+- canetti-ran-and-herzberg-amirmaintaining-security-in-the-presence-of-transient-faults.pdf
+isbn:
+- '9783540583332'
+journal: Advances in Cryptology — CRYPTO ’94
+pages: 425--438
+publisher: Springer Berlin Heidelberg
+ref: MaintainingSecCanettNone
+time-added: 2022-09-14-15:53:39
+title: Maintaining Security in the Presence of Transient Faults
+type: inbook
+url: http://dx.doi.org/10.1007/3-540-48658-5_38
+year: 1994

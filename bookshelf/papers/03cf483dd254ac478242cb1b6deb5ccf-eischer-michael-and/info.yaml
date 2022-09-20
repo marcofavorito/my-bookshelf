@@ -1,0 +1,124 @@
+author: Eischer, Michael and Distler, Tobias
+author_list:
+- affiliation: []
+  family: Eischer
+  given: Michael
+- affiliation: []
+  family: Distler
+  given: Tobias
+citations:
+- unstructured: 'Aguilera MK, Strom RE (2000) Efficient atomic broadcast using deterministic
+    merge. In: Proceedings of the 19th symposium on principles of distributed computing,
+    pp 209–218'
+- unstructured: 'Amir Y, Coan B, Kirsch J, Lane J (2007) Customizable fault tolerance
+    for wide-area replication. In: Proceedings of the 26th international symposium
+    on reliable distributed systems, pp 65–82'
+- doi: 10.1109/TDSC.2010.70
+  unstructured: 'Amir Y, Coan B, Kirsch J, Lane J (2011) Prime: Byzantine replication
+    under attack. In: IEEE transactions on dependable and secure computing, vol 8,
+    no 4, pp 564–577'
+- doi: 10.1109/ICDCS.2013.53
+  unstructured: 'Aublin PL, Mokhtar SB, Quéma V (2013) RBFT: Redundant Byzantine fault
+    tolerance. In: Proceedings of the 33rd international conference on distributed
+    computing systems, pp 297–306'
+- doi: 10.1109/ICDCS.2016.20
+  unstructured: 'Babay A, Amir Y (2016) Fast total ordering for modern data centers.
+    In: Proceedings of the 36th international conference on distributed computing
+    systems, pp 669–679'
+- doi: 10.1145/2814576.2814800
+  unstructured: 'Behl J, Distler T, Kapitza R (2015) Consensus-oriented parallelization:
+    how to earn your first million. In: Proceedings of the 16th middleware conference,
+    pp 173–184'
+- doi: 10.1109/DSN.2014.43
+  unstructured: 'Bessani A, Sousa J, Alchieri EEP (2014) State machine replication
+    for the masses with BFT-SMaRt. In: Proceedings of the 44th international conference
+    on dependable systems networks, pp 355–362'
+- unstructured: 'Castro M, Liskov B (1999) Practical Byzantine fault tolerance. In:
+    Proceedings of the 3rd symposium on operating systems design and implementation,
+    pp 173–186'
+- doi: 10.1145/859716.859718
+  unstructured: 'Castro M, Rodrigues R, Liskov B (2003) BASE: using abstraction to
+    improve fault tolerance. In: ACM transactions on computer systems, vol 21, no
+    3, pp 236–269'
+- doi: 10.1145/1629575.1629602
+  unstructured: 'Clement A, Kapritsos M, Lee S, Wang Y, Alvisi L, Dahlin M, Riche
+    T (2009) UpRight cluster services. In: Proceedings of the 22nd symposium on operating
+    systems principles, pp 277–290'
+- unstructured: 'Distler T, Kapitza R, Reiser HP (2010) State transfer for hypervisor-based
+    proactive recovery of heterogeneous replicated services. In: Proceedings of the
+    5th “Sicherheit, Schutz und Zuverlässigkeit” conference, pp 61–72'
+- doi: 10.1109/TC.2015.2495213
+  unstructured: 'Distler T, Cachin C, Kapitza R (2016) Resource-efficient Byzantine
+    fault tolerance. In: IEEE transactions on computers, vol 65, no 9, pp 2807–2819'
+- doi: 10.1002/spe.2180
+  unstructured: 'Garcia M, Bessani A, Gashi I, Neves N, Obelheiro R (2014) Analysis
+    of operating system diversity for intrusion tolerance. In: Software—practice &
+    experience, vol 44, no 6, pp 735–770'
+- unstructured: 'Hunt P, Konar M, Junqueira F, Reed B (2010) ZooKeeper: wait-free
+    coordination for Internet-scale systems. In: Proceedings of the 2010 USENIX annual
+    technical conference, pp 145–158'
+- unstructured: 'Junqueira F, Bhagwan R, Hevia A, Marzullo K, Voelker GM (2005) Surviving
+    Internet catastrophes. In: Proceedings of the 2005 USENIX annual technical conference,
+    pp 45–60'
+- doi: 10.1145/2168836.2168866
+  unstructured: 'Kapitza R, Behl J, Cachin C, Distler T, Kuhnle S, Mohammadi SV, Schröder-Preikschat
+    W, Stengel K (2012) CheapBFT: resource-efficient Byzantine fault tolerance. In:
+    Proceedings of the 7th European conference on computer systems, pp 295–308'
+- unstructured: 'Kapritsos M, Junqueira FP (2010) Scalable agreement: toward ordering
+    as a service. In: Proceedings of the 6th workshop on hot topics in system dependability,
+    pp 7–12'
+- doi: 10.1109/EDCC.2016.36
+  unstructured: 'Li B, Xu W, Abid MZ, Distler T, Kapitza R (2016) SAREK: optimistic
+    parallel ordering in Byzantine fault tolerance. In: Proceedings of the 12th European
+    dependable computing conference, pp 77–88'
+- unstructured: 'Mao Y, Junqueira FP, Marzullo K (2008) Mencius: building efficient
+    replicated state machines for WANs. In: Proceedings of the 8th conference on operating
+    systems design and implementation, pp 369–384'
+- doi: 10.1109/TCC.2013.12
+  unstructured: 'Ou Z, Zhuang H, Lukyanenko A, Nurminen JK, Hui P, Mazalov V, Ylä-Jääski
+    A (2013) Is the same instance type created equal? Exploiting heterogeneity of
+    public clouds. In: IEEE transactions on cloud computing, vol 1, no 2, pp 201–214'
+- author: CH Papadimitriou
+  unstructured: 'Papadimitriou CH, Steiglitz K (1998) Combinatorial optimization:
+    algorithms and complexity. Dover Publications, New York'
+  volume-title: 'Combinatorial optimization: algorithms and complexity'
+  year: '1998'
+- author: M Pease
+  doi: 10.1145/322186.322188
+  first-page: '228'
+  issue: '2'
+  journal-title: J ACM
+  unstructured: Pease M, Shostak R, Lamport L (1980) Reaching agreement in the presence
+    of faults. J ACM 27(2):228–234
+  volume: '27'
+  year: '1980'
+- doi: 10.1109/SRDS.2009.36
+  unstructured: 'Veronese GS, Correia M, Bessani AN, Lung LC (2009) Spin one’s wheels?
+    Byzantine fault tolerance with a spinning primary. In: Proceedings of the 28th
+    international symposium on reliable distributed systems, pp 135–144'
+- doi: 10.1109/HASE.2010.19
+  unstructured: 'Veronese GS, Correia M, Bessani AN, Lung LC (2010) EBAWA: efficient
+    Byzantine agreement for wide-area networks. In: Proceedings of the 12th symposium
+    on high-assurance systems engineering, pp 10–19'
+- doi: 10.1145/945445.945470
+  unstructured: 'Yin J, Martin JP, Venkataramani A, Alvisi L, Dahlin M (2003) Separating
+    agreement from execution for Byzantine fault tolerant services. In: Proceedings
+    of the 19th symposium on operating systems principles, pp 253–267'
+doc_url: http://link.springer.com/content/pdf/10.1007/s00607-018-0652-3.pdf
+doi: 10.1007/s00607-018-0652-3
+files:
+- eischer-michael-and-distler-tobiasscalable-byzantine-fault-tolerant-state-machine-replication-on-heterogeneous-servers2019.pdf
+issue: '2'
+journal: Computing
+language: en
+month: 2
+pages: 97--118
+publisher: Springer Science and Business Media LLC
+ref: ScalableByzantEische2019
+time-added: 2022-09-20-14:47:31
+title: Scalable Byzantine fault-tolerant state-machine replication on heterogeneous
+  servers
+type: article
+url: http://dx.doi.org/10.1007/s00607-018-0652-3
+volume: '101'
+year: 2019

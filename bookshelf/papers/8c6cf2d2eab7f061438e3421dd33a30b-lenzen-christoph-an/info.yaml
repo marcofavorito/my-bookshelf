@@ -1,0 +1,42 @@
+abstract: 'We give fault-tolerant algorithms for establishing synchrony in distributed
+  systems in which each of the $n$ nodes has its own clock. Our algorithms operate
+  in a very strong fault model: we require self-stabilisation, i.e., the initial state
+  of the system may be arbitrary, and there can be up to $f<n/3$ ongoing Byzantine
+  faults, i.e., nodes that deviate from the protocol in an arbitrary manner. Furthermore,
+  we assume that the local clocks of the nodes may progress at different speeds (clock
+  drift) and communication has bounded delay. In this model, we study the pulse synchronisation
+  problem, where the task is to guarantee that eventually all correct nodes generate
+  well-separated local pulse events (i.e., unlabelled logical clock ticks) in a synchronised
+  manner.   Compared to prior work, we achieve exponential improvements in stabilisation
+  time and the number of communicated bits, and give the first sublinear-time algorithm
+  for the problem:   - In the deterministic setting, the state-of-the-art solutions
+  stabilise in time $\Theta(f)$ and have each node broadcast $\Theta(f \log f)$ bits
+  per time unit. We exponentially reduce the number of bits broadcasted per time unit
+  to $\Theta(\log f)$ while retaining the same stabilisation time.   - In the randomised
+  setting, the state-of-the-art solutions stabilise in time $\Theta(f)$ and have each
+  node broadcast $O(1)$ bits per time unit. We exponentially reduce the stabilisation
+  time to $\log^{O(1)} f$ while each node broadcasts $\log^{O(1)} f$ bits per time
+  unit.   These results are obtained by means of a recursive approach reducing the
+  above task of self-stabilising pulse synchronisation in the bounded-delay model
+  to non-self-stabilising binary consensus in the synchronous model. In general, our
+  approach introduces at most logarithmic overheads in terms of stabilisation time
+  and broadcasted bits over the underlying consensus routine.'
+archiveprefix: arXiv
+author: Lenzen, Christoph and Rybicki, Joel
+author_list:
+- family: Lenzen
+  given: Christoph
+- family: Rybicki
+  given: Joel
+eprint: 1705.06173v4
+file: 1705.06173v4.pdf
+files:
+- lenzen-christoph-and-rybicki-joelself-stabilising-byzantine-clock-synchronisation-is-almost-as-easy-as-consensus2017.pdf
+month: May
+primaryclass: cs.DC
+ref: 1705.06173v4
+time-added: 2022-09-16-10:31:49
+title: Self-stabilising Byzantine Clock Synchronisation is Almost as Easy as   Consensus
+type: article
+url: http://arxiv.org/abs/1705.06173v4
+year: '2017'

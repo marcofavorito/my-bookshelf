@@ -1,0 +1,44 @@
+abstract: Byzantine fault-tolerant (BFT) consensus algorithms are at the core of providing
+  safety and liveness guarantees for distributed systems that must operate in the
+  presence of arbitrary failures. Recently, numerous new BFT algorithms have been
+  proposed, not least due to the traction blockchain technologies have garnered in
+  the search for consensus solutions that offer high throughput, low latency, and
+  robust system designs. In this paper, we conduct a systematic survey of selected
+  and distinguished BFT algorithms that have received extensive attention in academia
+  and industry alike. We perform a qualitative comparison among all algorithms we
+  review considering message and time complexities. Furthermore, we decompose each
+  consensus algorithm into its constituent subprotocols for replication and view change
+  backed by intuitive figures to illustrate the message-passing pattern. We also elaborate
+  on the strengths and weaknesses of each algorithm as compared to the state-of-the-art
+  approaches.
+archiveprefix: arXiv
+author: Zhang, Gengrui and Pan, Fei and Dang'ana, Michael and Mao, Yunhao and Motepalli,
+  Shashank and Zhang, Shiquan and Jacobsen, Hans-Arno
+author_list:
+- family: Zhang
+  given: Gengrui
+- family: Pan
+  given: Fei
+- family: Dang'ana
+  given: Michael
+- family: Mao
+  given: Yunhao
+- family: Motepalli
+  given: Shashank
+- family: Zhang
+  given: Shiquan
+- family: Jacobsen
+  given: Hans-Arno
+eprint: 2204.03181v2
+file: 2204.03181v2.pdf
+files:
+- zhang-gengrui-and-pan-fei-and-dang-ana-michael-and-mao-yunhao-and-motepalli-shashank-and-zhang-shiquan-and-jacobsen-hans-arnoreaching-consensus.pdf
+month: Apr
+primaryclass: cs.DC
+ref: 2204.03181v2
+time-added: 2022-09-15-10:54:43
+title: 'Reaching Consensus in the Byzantine Empire: A Comprehensive Review of   BFT
+  Consensus Algorithms'
+type: article
+url: http://arxiv.org/abs/2204.03181v2
+year: '2022'
