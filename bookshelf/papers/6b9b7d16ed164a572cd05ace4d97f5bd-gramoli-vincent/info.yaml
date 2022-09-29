@@ -1,0 +1,218 @@
+author: Gramoli, Vincent
+author_list:
+- affiliation: []
+  family: Gramoli
+  given: Vincent
+citations:
+- unstructured: 'S. Nakamoto, Bitcoin: A peer-to-peer electronic cash system, 2008.
+    URL http://www.bitcoin.org.'
+- article-title: The Byzantine Generals Problem
+  author: Lamport
+  doi: 10.1145/357172.357176
+  first-page: '382'
+  issue: '3'
+  journal-title: ACM Trans. Program. Lang. Syst.
+  volume: '4'
+  year: '1982'
+- unstructured: 'G. Wood, ETHEREUM: A secure decentralised generalised transaction
+    ledger, Yellow paper, (2015).'
+- doi: 10.1109/NCA.2016.7778635
+  unstructured: 'C. Natoli, V. Gramoli, The blockchain anomaly, in: Proceedings of
+    the 15th IEEE International Symposium on Network Computing and Applications, NCA’16,
+    2016, pp. 310–317.'
+- unstructured: 'C. Natoli, V. Gramoli, The Balance Attack Against Proof-Of-Work Blockchains:
+    The R3 Testbed as an Example, Tech. Rep. 1765133, arXiv (2016).'
+- unstructured: A. Black, Hashcash - A denial of service counter-measure, Tech. rep.,Cypherspace,
+    2002. URL http://www.hashcash.org/papers/hashcash.pdf.
+- article-title: Practical byzantine fault tolerance and proactive recovery
+  author: Castro
+  doi: 10.1145/571637.571640
+  first-page: '398'
+  issue: '4'
+  journal-title: ACM Trans. Comput. Syst.
+  volume: '20'
+  year: '2002'
+- doi: 10.1007/978-3-662-53357-4_8
+  unstructured: 'K. Croman, C. Decker, I. Eyal, A.E. Gencer, A. Juels, A. Kosba, A.
+    Miller, P. Saxena, E. Shi, E.G. Sirer, D. Song, R. Wattenhofer, On Scaling Decentralized
+    Blockchains, in: 3rd Workshop on Bitcoin Research (BITCOIN), Barbados, (February
+    2016).'
+- doi: 10.1007/978-3-319-39028-4_9
+  unstructured: 'M. Vukolíc, The quest for scalable blockchain fabric: Proof-of-work
+    vs. BFT replication, in: Proceedings of the IFIP WG 11.4 Workshop on Open Research
+    Problems in Network Security, INetSec 2015, LNCS, 2016, pp. 112–125.'
+- doi: 10.1109/WICSA.2016.21
+  unstructured: 'X. Xu, C. Pautasso, L. Zhu, V. Gramoli, A. Ponomarev, A.B. Tran,
+    S. Chen, The blockchain as a software connector, in: 13th Working IEEE/IFIP Conference
+    on Software Architecture, WICSA 2016, Venice, Italy, April 5-8, 2016, 2016, pp.
+    182–191.'
+- article-title: Impossibility of distributed consensus with one faulty process
+  author: Fischer
+  doi: 10.1145/3149.214121
+  first-page: '374'
+  issue: '2'
+  journal-title: J. ACM
+  volume: '32'
+  year: '1985'
+- doi: 10.1109/SFCS.1983.48
+  unstructured: 'M.O. Rabin, Randomized byzantine generals, in: Proceedings of the
+    24th Annual Symposium on Foundations of Computer Science, SFCS ’83, 1983, pp.
+    403–409. ISBN: 0-8186-0508-1.'
+- article-title: Randomized protocols for asynchronous consensus
+  author: Aspnes
+  doi: 10.1007/s00446-002-0081-5
+  first-page: '165'
+  issue: 2–3
+  journal-title: Distrib. Comput.
+  volume: '16'
+  year: '2003'
+- article-title: 'Another advantage of free choice (extended abstract): Completely
+    asynchronous agreement protocols'
+  author: Ben-Or
+  first-page: '27'
+  series-title: Proceedings of the Second Annual ACM Symposium on Principles of Distributed
+    Computing
+  year: '1983'
+- doi: 10.1007/3-540-44647-8_31
+  unstructured: 'C. Cachin, K. Kursawe, F. Petzold, V. Shoup, Secure and efficient
+    asynchronous broadcast protocols, in: Proc. 21st Annual International Cryptology
+    Conference, CRYPTO, 2001, pp. 524–541.'
+- article-title: Signature-free asynchronous binary Byzantine consensus with t<n∕3,
+    O(n2) messages, and O(1) expected time
+  author: Mostéfaoui
+  doi: 10.1145/2785953
+  issue: '4'
+  journal-title: J. ACM
+  volume: '62'
+  year: '2015'
+- doi: 10.1145/2976749.2978399
+  unstructured: 'A. Miller, Y. Xia, K. Croman, E. Shi, D. Song, The honey badger of
+    BFT protocols, in: Proc. of the 2016 ACM SIGSAC Conference on Computer and Communications
+    Security, 2016.'
+- unstructured: 'V. Gramoli, On the danger of private blockchains, in: Workshop on
+    Distributed Cryptocurrencies and Consensus Ledgers, DCCL’16, 2016. URL http://poseidon.it.usyd.edu.au/~gramoli/web/doc/pubs/DCCL2016-position.pdf.'
+- article-title: On availability for blockchain-based systems
+  author: Weber
+  series-title: Proceedings of the 36th International Symposium on Reliable Distributed
+    Systems
+  year: '2017'
+- unstructured: 'I. Eyal, A.E. Gencer, E.G. Sirer, R. van Renesse, Bitcoin-NG: A scalable
+    blockchain protocol, in: 13th USENIX Symposium on Networked Systems Design and
+    Implementation, NSDI, 2016, pp. 45–59.'
+- unstructured: 'I. Bentov, R. Pass, E. Shi, Snow White: Provably Secure Proofs of
+    Stake, Tech. Rep. 919, IACR Cryptology ePrint Archive (2016).'
+- doi: 10.1007/978-3-662-46803-6_10
+  unstructured: 'J.A. Garay, A. Kiayias, N. Leonardos, The Bitcoin backbone protocol:
+    Analysis and applications, in: Proceedings of the 34th Annual International Conference
+    on the Theory and Applications of Cryptographic Technique, EUROCRYPT, 2015, pp.
+    281–310.'
+- doi: 10.1145/2332432.2332434
+  unstructured: 'J. Aspnes, Faster randomized consensus with an oblivious adversary,
+    in: ACM Symposium on Principles of Distributed Computing, PODC, 2012, pp. 1–8,
+    (Personal communication).'
+- unstructured: 'A. Miller, J.J. LaViola Jr., Anonymous Byzantine Consensus from Moderately-Hard
+    Puzzles: A Model for Bitcoin, Tech. Rep. CS-TR-14-01, University of Central Florida
+    (April 2014).'
+- doi: 10.1007/978-3-662-47854-7_32
+  unstructured: 'Y. Sompolinsky, A. Zohar, Secure High-Rate Transaction Processing
+    in Bitcoin, in: Financial Cryptography and Data Security - 19th International
+    Conference, FC 2015, San Juan, Puerto Rico, January 26-30, 2015, Revised Selected
+    Papers, 2015, pp. 507–527.'
+- doi: 10.1145/2976749.2978341
+  unstructured: 'A. Gervais, G.O. Karame, K. Wüst, V. Glykantzis, H. Ritzdorf, S.
+    Capkun, On the security and performance of proof of work blockchains, in: Proceedings
+    of the 2016 ACM SIGSAC Conference on Computer and Communications Security, CCS,
+    2016, pp. 3–16, ISBN: 978-1-4503-4139-4.'
+- doi: 10.1109/NCA.2016.7778636
+  unstructured: 'E. Anceaume, T. Lajoie-Mazenc, R. Ludinard, B. Sericola, Safety analysis
+    of Bitcoin improvement proposals, in: 15th IEEE International Symposium on Network
+    Computing and Applications, NCA 2016, 2016, pp. 318–325.'
+- doi: 10.1109/DSN.2017.44
+  unstructured: 'C. Natoli, V. Gramoli, The balance attack or why forkable blockchains
+    are ill-suited for consortium, in: Proceedings of the 47th IEEE/IFIP International
+    Conference on Dependable Systems and Networks, DSN’17, 2017.'
+- unstructured: H. Finney, Finney’s attack (February 2011). URL https://bitcointalk.org/index.php?topic=3441.msg48384#msg48384.
+- unstructured: G. Karame, E. Androulaki, S. Capkun, Two bitcoins at the price of
+    one? Double-spending attacks on fast payments in bitcoin, IACR Cryptology EPrint
+    Archive 2012 (2012) p. 248.
+- doi: 10.1109/P2P.2013.6688717
+  unstructured: 'T. Bamert, C. Decker, L. Elsen, R. Wattenhofer, S. Welten, Have a
+    snack, pay with Bitcoins, in: 13th IEEE International Conference on Peer-To-Peer
+    Computing, IEEE P2P 2013, Trento, Italy, September 9-11, 2013, Proceedings, pp.
+    1–5.'
+- unstructured: vector76, The vector76 attack (August 2011) URL https://bitcointalk.org/index.php?topic=36788.msg463391#msg463391.
+- unstructured: M. Rosenfeld, Analysis of hashrate-based double-spending, (2012).
+- doi: 10.1007/978-3-662-45472-5_28
+  unstructured: 'I. Eyal, E.G. Sirer, Majority is not enough: Bitcoin mining is vulnerable,
+    in: Financial Cryptography and Data Security - 18th International Conference,
+    FC 2014, Christ Church, Barbados, March 3-7, 2014, Revised Selected Papers, 2014,
+    pp. 436–454. URL http://dx.doi.org/10.1007/978-3-662-45472-5_28.'
+- doi: 10.1109/P2P.2013.6688704
+  unstructured: 'C. Decker, R. Wattenhofer, Information propagation in the bitcoin
+    network, in: Proc. of the IEEE International Conference on Peer-To-Peer Computing,
+    2013, pp. 1–10.'
+- unstructured: R. Pass, L. Seeman, A. Shelat, Analysis of the blockchain protocol
+    in asynchronous networks, Tech. Rep. 454, Crytology ePrint Archive (2016).
+- article-title: 'Bitcoin blockchain dynamics: The selfish-mine strategy in the presence
+    of propagation delay'
+  author: Göbel
+  doi: 10.1016/j.peva.2016.07.001
+  journal-title: Perform. Eval.
+  year: '2016'
+- doi: 10.1109/EuroSP.2016.32
+  unstructured: 'K. Nayak, S. Kumar, A. Miller, E. Shi, Stubborn mining: Generalizing
+    Selfish mining and combining with an eclipse attack, in: IEEE European Symposium
+    on Security and Privacy, EuroS&P 2016, SaarbrüCken, Germany, March 21-24, 2016,
+    2016, pp. 305–320.'
+- author: Birman
+  first-page: '635'
+  series-title: 'Guide to Reliable Distributed Systems: Building High-Assurance Applications
+    and Cloud-Hosted Services'
+  year: '2012'
+- unstructured: 'E. Heilman, A. Kendler, A. Zohar, S. Goldberg, Eclipse attacks on
+    bitcoin’s peer-to-peer network, in: 24th USENIX Security Symposium, 2015, pp.
+    129–144.'
+- unstructured: 'T. Crain, V. Gramoli, M. Larrea, M. Raynal, Blockchain consensus,
+    in: 19èMe Rencontres Francophones Sur Les Aspects Algorithmiques De TéléCommunications,
+    AlgoTel’17, 2017.'
+- unstructured: T. Crain, V. Gramoli, M. Larrea, M. Raynal, (Leader/Randomization/Signature)-free
+    Byzantine Consensus for Consortium Blockchains, Tech. Rep. 702.03068v2, arXiv
+    (Feb 2017).
+- article-title: 'Rollup: Non-disruptive rolling upgrade with fast consensus-based
+    dynamic reconfigurations'
+  author: Gramoli
+  doi: 10.1109/TPDS.2015.2499772
+  first-page: '2711'
+  issue: '9'
+  journal-title: IEEE Trans. Parallel Distrib. Syst. (TPDS)
+  volume: '27'
+  year: '2016'
+- unstructured: D. Schwartz, N. Youngs, A. Britto, The Ripple Consensus Protocol,
+    (1) Ripple Labs Inc., 2014, URL https://ripple.com/files/ripple_consensus_whitepaper.pdf.
+- article-title: 'Ripple: Overview and outlook'
+  author: Armknecht
+  first-page: '163'
+  series-title: Trust and Trustworthy Computing
+  volume: vol. 9229
+  year: '2015'
+- unstructured: 'C. Cachin, Architecture f the hyperledger blockchain fabric, in:
+    Workshop on Distributed Cryptocurrencies and Consensus Ledgers, DCCL’16, 2016.
+    URL https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf.'
+- unstructured: 'R.G. Brown, J. Carlyle, I. Grigg, M. Hearn, Corda: An introduction,
+    2016.'
+doc_url: https://api.elsevier.com/content/article/PII:S0167739X17320095?httpAccept=text/plain
+doi: 10.1016/j.future.2017.09.023
+files:
+- gramoli-vincentfrom-blockchain-consensus-back-to-byzantine-consensus2020.pdf
+journal: Future Generation Computer Systems
+language: en
+month: 6
+pages: 760--769
+publisher: Elsevier BV
+ref: FromBlockchainGramol2020
+time-added: 2022-09-22-15:32:26
+title: From blockchain consensus back to Byzantine consensus
+type: article
+url: http://dx.doi.org/10.1016/j.future.2017.09.023
+volume: '107'
+year: 2020

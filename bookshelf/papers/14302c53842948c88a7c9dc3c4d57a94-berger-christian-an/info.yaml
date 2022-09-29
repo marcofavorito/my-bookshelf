@@ -1,0 +1,104 @@
+author: Berger, Christian and Reiser, Hans P. and Bessani, Alysson
+author_list:
+- affiliation: []
+  family: Berger
+  given: Christian
+- affiliation: []
+  family: Reiser
+  given: Hans P.
+- affiliation: []
+  family: Bessani
+  given: Alysson
+booktitle: 2021 40th International Symposium on Reliable Distributed Systems (SRDS)
+citations:
+- doi: 10.1109/SRDS.2009.36
+- article-title: Making Byzantine fault tolerant systems tolerate Byzantine faults
+  author: clement
+  first-page: '153'
+  journal-title: Proceedings of the 6th USENIX Symposium on Networked Systems Design
+    and Implementation (NSDI)
+  volume: '9'
+  year: '0'
+- doi: 10.1109/DSN.2018.00019
+- doi: 10.1145/1095809.1095817
+- doi: 10.1109/ICDCS.2013.53
+- doi: 10.1109/TDSC.2010.70
+- article-title: On the efficiency of durable state machine replication
+  author: bessani
+  journal-title: Proceedings of the 2013 USENIX Annual Technical Conference
+  year: '2013'
+- doi: 10.1109/TC.2011.221
+- doi: 10.1145/78969.78972
+- doi: 10.1145/42282.42283
+- article-title: 'ZooKeeper: Wait-free coordination for internet-scale systems'
+  author: hunt
+  journal-title: Proceedings of the 2010 USENIX Annual Technical Conference
+  volume: '8'
+  year: '0'
+- doi: 10.1145/2518037.2491245
+- doi: 10.1007/s004460050050
+- doi: 10.1145/176575.176576
+- doi: 10.1109/DSN.2011.5958223
+- doi: 10.1145/2670979.2671001
+- article-title: The Chubby lock service for loosely-coupled distributed systems
+  author: burrows
+  first-page: '335'
+  journal-title: Proceedings of the 5th Symposium on Operating Systems Design and
+    Implementation (OSDI)
+  year: '0'
+- article-title: 'HQ replication: A hybrid quorum protocol for Byzantine fault tolerance'
+  author: cowling
+  first-page: '177'
+  journal-title: Proceedings of the 5th Symposium on Operating Systems Design and
+    Implementation (OSDI)
+  year: '0'
+- doi: 10.1145/1281100.1281103
+- article-title: Practical Byzantine fault tolerance
+  author: castro
+  first-page: '173'
+  journal-title: Proceedings of the 5th Symposium on Operating Systems Design and
+    Implementation (OSDI)
+  year: '0'
+- article-title: Tolerating latency in replicated state machines through client speculation
+  author: wester
+  first-page: '245'
+  journal-title: Proceedings of the 6th USENIX Symposium on Networked Systems Design
+    and Implementation (NSDI)
+  year: '0'
+- article-title: 'Megastore: Providing scalable, highly available storage for interactive
+    services'
+  author: baker
+  first-page: '223'
+  journal-title: Proceedings of the Conference on Innovative Data System Research
+    (CIDR)
+  year: '0'
+- doi: 10.1145/1294261.1294267
+- doi: 10.1109/DSN.2014.43
+- doi: 10.1145/1629575.1629602
+- doi: 10.1145/357172.357176
+- doi: 10.1109/SRDS.2015.40
+- doi: 10.1145/98163.98167
+- doi: 10.1109/DSN.2001.941437
+- doi: 10.1145/3436728
+- author: hadzilacos
+  journal-title: A Modular Approach to Fault-Tolerant Broadcasts and Related Problems
+  year: '1994'
+- doi: 10.1109/EDCC.2012.32
+- doi: 10.1145/571637.571640
+- doi: 10.1109/TDSC.2020.3030605
+- author: cachin
+  journal-title: Yet another visit to Paxos
+  year: '2009'
+doi: 10.1109/srds53918.2021.00010
+files:
+- berger-christian-and-reiser-hans-p.-and-bessani-alyssonmaking-reads-in-bft-state-machine-replication-fast-linearizable-and-live2021.pdf
+journal: 2021 40th International Symposium on Reliable Distributed Systems (SRDS)
+month: 9
+publisher: IEEE
+ref: MakingReadsInBerger2021
+time-added: 2022-09-22-17:13:48
+title: Making Reads in BFT State Machine Replication Fast, Linearizable, and Live
+type: inproceedings
+url: http://dx.doi.org/10.1109/srds53918.2021.00010
+venue: Chicago, IL, USA
+year: 2021

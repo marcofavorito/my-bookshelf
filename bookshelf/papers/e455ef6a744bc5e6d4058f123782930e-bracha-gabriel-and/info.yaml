@@ -1,0 +1,74 @@
+abstract: "<jats:p>\n            A consensus protocol enables a system of\n      \
+  \      <jats:italic>n</jats:italic>\n            asynchronous processes, some of\
+  \ which are faulty, to reach agreement. There are two kinds of faulty processes:\
+  \ fail-stop processes that can only die and malicious processes that can also send\
+  \ false messages. The class of asynchronous systems with fair schedulers is defined,\
+  \ and consensus protocols that terminate with probability 1 for these systems are\
+  \ investigated. With fail-stop processes, it is shown that ⌈(\n            <jats:italic>n</jats:italic>\n\
+  \            + 1)/2⌉ correct processes are necessary and sufficient to reach agreement.\
+  \ In the malicious case, it is shown that ⌈(2\n            <jats:italic>n</jats:italic>\n\
+  \            + 1)/3⌉ correct processes are necessary and sufficient to reach agreement.\
+  \ This is contrasted with an earlier result, stating that there is no consensus\
+  \ protocol for the fail-stop case that always terminates within a bounded number\
+  \ of steps, even if only one process can fail. The possibility of reliable broadcast\
+  \ (Byzantine Agreement) in asynchronous systems is also investigated. Asynchronous\
+  \ Byzantine Agreement is defined, and it is shown that ⌈(2\n            <jats:italic>n</jats:italic>\n\
+  \            + 1)/3⌉ correct processes are necessary and sufficient to achieve it.\n\
+  \          </jats:p>"
+author: Bracha, Gabriel and Toueg, Sam
+author_list:
+- affiliation:
+  - name: Department of Computer Science, Cornell University, 405 Upson Hall, Ithaca,
+      NY
+  family: Bracha
+  given: Gabriel
+- affiliation:
+  - name: Department of Computer Science, Cornell University, 405 Upson Hall, Ithaca,
+      NY
+  family: Toueg
+  given: Sam
+citations:
+- author: BEN-OR M.
+  first-page: '27'
+  volume-title: Proceedings of the 2nd Annual ACM Symposium on Principles of Distributed
+    Computing (Montreal, Ont., Canada, Aug.). ACM
+  year: '1983'
+- author: DOLEV D.
+  first-page: '159'
+  volume-title: Proceedings of the 22nd Annual Symposium on Foundations of Computer
+    Science (Nashville, Tenn., Oct.). IEEE
+  year: '1981'
+- doi: 10.1145/3149.214121
+- author: ISAACSON D. L.
+  first-page: '89'
+  journal-title: New York.
+  year: '1976'
+- author: ITAI A.
+  first-page: '150'
+  volume-title: Proceedings of the 22nd Annual Symposium on Foundation of Computer
+    Science (Nashville, Tenn. Oct.), IEEE
+  year: '1981'
+- doi: 10.1145/357172.357176
+- doi: 10.1145/322186.322188
+- author: RABIN M.
+  first-page: '133'
+  volume-title: Proceedings of the 8th ACM Symposium on the Principles of Programming
+    Languages (Williamsburg, Va. Jan. 26-28)
+  year: '1981'
+- doi: 10.1145/357369.357371
+doi: 10.1145/4221.214134
+files:
+- bracha-gabriel-and-toueg-samasynchronous-consensus-and-broadcast-protocols1985.pdf
+issue: '4'
+journal: Journal of the ACM
+language: en
+month: 10
+pages: 824--840
+publisher: Association for Computing Machinery (ACM)
+ref: AsynchronousCoBracha1985
+time-added: 2022-09-21-10:01:11
+title: Asynchronous consensus and broadcast protocols
+type: article
+url: http://dx.doi.org/10.1145/4221.214134
+volume: '32'
+year: 1985

@@ -1,0 +1,41 @@
+abstract: With upcoming blockchain infrastructures, world-spanning Byzantine consensus
+  is getting practical and necessary. In geographically distributed systems, the pace
+  at which consensus is achieved is limited by the heterogenous latencies of connections
+  between replicas. If deployed on a wide-area network, consensus-based systems benefit
+  from weighted replication, an approach that utilizes extra replicas and assigns
+  higher voting power to well connected replicas. This enables more choice in quorum
+  formation and replicas can leverage proportionally smaller quorums to advance, thus
+  decreasing consensus latency. However, the system needs a solution to autonomously
+  adjust to its environment if network conditions change or faults occur. We present
+  Adaptive Wide-Area REplication (AWARE), a mechanism which improves the geographical
+  scalability of consensus with nodes being widely spread across the world. Essentially,
+  AWARE is an automated and dynamic voting weight tuning and leader positioning scheme,
+  which supports the emergence of fast quorums in the system. It employs a reliable
+  self-monitoring process and provides a prediction model seeking to minimize the
+  system's consensus latency. In experiments using several AWS EC2 regions, AWARE
+  dynamically optimizes consensus latency by self-reliantly finding a fast weight
+  configuration yielding latency gains observed by clients located across the globe.
+archiveprefix: arXiv
+author: Berger, Christian and Reiser, Hans P. and Sousa, João and Bessani, Alysson
+author_list:
+- family: Berger
+  given: Christian
+- family: Reiser
+  given: Hans P.
+- family: Sousa
+  given: João
+- family: Bessani
+  given: Alysson
+doi: 10.1109/TDSC.2020.3030605
+eprint: 2011.01671v1
+file: 2011.01671v1.pdf
+files:
+- berger-christian-and-reiser-hans-p.-and-sousa-joao-and-bessani-alyssonaware-adaptive-wide-area-replication-for-fast-and-resilient-byzantine-con.pdf
+month: Nov
+primaryclass: cs.DC
+ref: 2011.01671v1
+time-added: 2022-09-22-16:57:34
+title: 'AWARE: Adaptive Wide-Area Replication for Fast and Resilient Byzantine   Consensus'
+type: article
+url: http://arxiv.org/abs/2011.01671v1
+year: '2020'

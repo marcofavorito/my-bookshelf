@@ -1,0 +1,40 @@
+abstract: This paper revisits the ubiquitous problem of achieving state machine replication
+  in blockchains based on repeated consensus, like Tendermint. To achieve state machine
+  replication in blockchains built on top of consensus, one needs to guarantee fairness
+  of user transactions. A huge body of work has been carried out on the relation between
+  state machine replication and consensus in the past years, in a variety of system
+  models and with respect to varied problem specifications. We systematize this work
+  by proposing novel and rigorous abstractions for state machine replication and repeated
+  consensus in a system model that accounts for realistic blockchains in which blocks
+  may contain several transactions issued by one or more users, and where validity
+  and order of transactions within a block is determined by an external application-dependent
+  function that can capture various approaches for order-fairness in the literature.
+  Based on these abstractions, we propose a reduction from state machine replication
+  to repeated consensus, such that user fairness is achieved using the consensus module
+  as a black box. This approach allows to achieve fairness as an add-on on top of
+  preexisting consensus modules in blockchains based on repeated consensus.
+archiveprefix: arXiv
+author: Bonomi, Silvia and Pozzo, Antonella Del and García-Pérez, Álvaro and Tucci-Piergiovanni,
+  Sara
+author_list:
+- family: Bonomi
+  given: Silvia
+- family: Pozzo
+  given: Antonella Del
+- family: García-Pérez
+  given: Álvaro
+- family: Tucci-Piergiovanni
+  given: Sara
+eprint: 2105.13732v2
+file: 2105.13732v2.pdf
+files:
+- bonomi-silvia-and-pozzo-antonella-del-and-garcia-perez-alvaro-and-tucci-piergiovanni-sarasok-achieving-state-machine-replication-in-blockchains-b.pdf
+month: May
+primaryclass: cs.DC
+ref: 2105.13732v2
+time-added: 2022-09-21-12:44:01
+title: 'SoK: Achieving State Machine Replication in Blockchains based on   Repeated
+  Consensus'
+type: article
+url: http://arxiv.org/abs/2105.13732v2
+year: '2021'
