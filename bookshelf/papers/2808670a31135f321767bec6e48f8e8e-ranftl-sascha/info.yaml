@@ -1,0 +1,35 @@
+abstract: We illustrate an approach that can be exploited for constructing neural
+  networks which a priori obey physical laws. We start with a simple single-layer
+  neural network (NN) but refrain from choosing the activation functions yet. Under
+  certain conditions and in the infinite-width limit, we may apply the central limit
+  theorem, upon which the NN output becomes Gaussian. We may then investigate and
+  manipulate the limit network by falling back on Gaussian process (GP) theory. It
+  is observed that linear operators acting upon a GP again yield a GP. This also holds
+  true for differential operators defining differential equations and describing physical
+  laws. If we demand the GP, or equivalently the limit network, to obey the physical
+  law, then this yields an equation for the covariance function or kernel of the GP,
+  whose solution equivalently constrains the model to obey the physical law. The central
+  limit theorem then suggests that NNs can be constructed to obey a physical law by
+  choosing the activation functions such that they match a particular kernel in the
+  infinite-width limit. The activation functions constructed in this way guarantee
+  the NN to a priori obey the physics, up to the approximation error of non-infinite
+  network width. Simple examples of the homogeneous 1D-Helmholtz equation are discussed
+  and compared to naive kernels and activations.
+archiveprefix: arXiv
+author: Ranftl, Sascha
+author_list:
+- family: Ranftl
+  given: Sascha
+eprint: 2209.12737v1
+file: 2209.12737v1.pdf
+files:
+- ranftl-saschaa-connection-between-probability-physics-and-neural-networks2022.pdf
+month: Sep
+note: Proceedings of MaxEnt 2022. Physical Sciences Forum
+primaryclass: stat.ML
+ref: 2209.12737v1
+time-added: 2022-09-29-12:52:21
+title: A connection between probability, physics and neural networks
+type: article
+url: http://arxiv.org/abs/2209.12737v1
+year: '2022'

@@ -1,0 +1,381 @@
+abstract: '<jats:title>Abstract</jats:title><jats:p>Improving the efficiency of algorithms
+  for fundamental computations can have a widespread impact, as it can affect the
+  overall speed of a large amount of computations. Matrix multiplication is one such
+  primitive task, occurring in many systems—from neural networks to scientific computing
+  routines. The automatic discovery of algorithms using machine learning offers the
+  prospect of reaching beyond human intuition and outperforming the current best human-designed
+  algorithms. However, automating the algorithm discovery procedure is intricate,
+  as the space of possible algorithms is enormous. Here we report a deep reinforcement
+  learning approach based on AlphaZero<jats:sup>1</jats:sup> for discovering efficient
+  and provably correct algorithms for the multiplication of arbitrary matrices. Our
+  agent, AlphaTensor, is trained to play a single-player game where the objective
+  is finding tensor decompositions within a finite factor space. AlphaTensor discovered
+  algorithms that outperform the state-of-the-art complexity for many matrix sizes.
+  Particularly relevant is the case of 4 × 4 matrices in a finite field, where AlphaTensor’s
+  algorithm improves on Strassen’s two-level algorithm for the first time, to our
+  knowledge, since its discovery 50 years ago<jats:sup>2</jats:sup>. We further showcase
+  the flexibility of AlphaTensor through different use-cases: algorithms with state-of-the-art
+  complexity for structured matrix multiplication and improved practical efficiency
+  by optimizing matrix multiplication for runtime on specific hardware. Our results
+  highlight AlphaTensor’s ability to accelerate the process of algorithmic discovery
+  on a range of problems, and to optimize for different criteria.</jats:p>'
+author: Fawzi, Alhussein and Balog, Matej and Huang, Aja and Hubert, Thomas and Romera-Paredes,
+  Bernardino and Barekatain, Mohammadamin and Novikov, Alexander and R. Ruiz, Francisco
+  J. and Schrittwieser, Julian and Swirszcz, Grzegorz and Silver, David and Hassabis,
+  Demis and Kohli, Pushmeet
+author_list:
+- affiliation: []
+  family: Fawzi
+  given: Alhussein
+- affiliation: []
+  family: Balog
+  given: Matej
+- affiliation: []
+  family: Huang
+  given: Aja
+- affiliation: []
+  family: Hubert
+  given: Thomas
+- affiliation: []
+  family: Romera-Paredes
+  given: Bernardino
+- affiliation: []
+  family: Barekatain
+  given: Mohammadamin
+- affiliation: []
+  family: Novikov
+  given: Alexander
+- affiliation: []
+  family: R. Ruiz
+  given: Francisco J.
+- affiliation: []
+  family: Schrittwieser
+  given: Julian
+- affiliation: []
+  family: Swirszcz
+  given: Grzegorz
+- affiliation: []
+  family: Silver
+  given: David
+- affiliation: []
+  family: Hassabis
+  given: Demis
+- affiliation: []
+  family: Kohli
+  given: Pushmeet
+citations:
+- author: D Silver
+  doi: 10.1126/science.aar6404
+  first-page: '1140'
+  journal-title: Science
+  unstructured: Silver, D. et al. A general reinforcement learning algorithm that
+    masters chess, shogi, and Go through self-play. Science 362, 1140–1144 (2018).
+  volume: '362'
+  year: '2018'
+- author: V Strassen
+  doi: 10.1007/BF02165411
+  first-page: '354'
+  journal-title: Numer. Math.
+  unstructured: Strassen, V. Gaussian elimination is not optimal. Numer. Math. 13,
+    354–356 (1969).
+  volume: '13'
+  year: '1969'
+- unstructured: Bürgisser, P., Clausen, M. & Shokrollahi, A. Algebraic Complexity
+    Theory Vol. 315 (Springer Science & Business Media, 2013).
+- doi: 10.1145/2493252.2493254
+  unstructured: Bläser, M. Fast matrix multiplication. Theory Comput. 5, 1–60 (2013).
+- doi: 10.1017/9781108183192
+  unstructured: Landsberg, J. M. Geometry and Complexity Theory 169 (Cambridge Univ.
+    Press, 2017).
+- unstructured: Pan, V. Y. Fast feasible and unfeasible matrix multiplication. Preprint
+    at https://arxiv.org/abs/1804.04102 (2018).
+- author: L-H Lim
+  doi: 10.1017/S0962492921000076
+  first-page: '555'
+  journal-title: Acta Numer.
+  unstructured: Lim, L.-H. Tensors in computations. Acta Numer. 30, 555–764 (2021).
+  volume: '30'
+  year: '2021'
+- author: A Schönhage
+  doi: 10.1137/0210032
+  first-page: '434'
+  journal-title: SIAM J. Comput.
+  unstructured: Schönhage, A. Partial and total matrix multiplication. SIAM J. Comput.
+    10, 434–455 (1981).
+  volume: '10'
+  year: '1981'
+- doi: 10.1145/28395.28396
+  unstructured: Coppersmith, D. & Winograd, S. Matrix multiplication via arithmetic
+    progressions. In ACM Symposium on Theory of Computing 1–6 (ACM, 1987).
+- doi: 10.1109/SFCS.1986.52
+  unstructured: Strassen, V. The asymptotic spectrum of tensors and the exponent of
+    matrix multiplication. In 27th Annual Symposium on Foundations of Computer Science
+    49–54 (IEEE, 1986).
+- doi: 10.1145/2608628.2608664
+  unstructured: Le Gall, F. Powers of tensors and fast matrix multiplication. In International
+    Symposium on Symbolic and Algebraic Computation 296–303 (ACM, 2014).
+- doi: 10.1137/1.9781611976465.32
+  unstructured: Alman, J. & Williams, V. V. A refined laser method and faster matrix
+    multiplication. In ACM-SIAM Symposium on Discrete Algorithms 522–539 (SIAM, 2021).
+- unstructured: Gauss, C. F. Theoria Motus Corporum Coelestium in Sectionibus Conicis
+    Solum Ambientium (Perthes and Besser, 1809).
+- author: CJ Hillar
+  doi: 10.1145/2512329
+  first-page: '1'
+  journal-title: J. ACM
+  unstructured: Hillar, C. J. & Lim, L.-H. Most tensor problems are NP-hard. J. ACM
+    60, 1–39 (2013).
+  volume: '60'
+  year: '2013'
+- doi: 10.1090/S0002-9904-1976-13988-2
+  unstructured: Laderman, J. D. A noncommutative algorithm for multiplying 3 × 3 matrices
+    using 23 multiplications. Bull. Am. Math. Soc. 82, 126–128 (1976).
+- author: JE Hopcroft
+  doi: 10.1137/0120004
+  first-page: '30'
+  journal-title: SIAM J. Appl. Math.
+  unstructured: Hopcroft, J. E. & Kerr, L. R. On minimizing the number of multiplications
+    necessary for matrix multiplication. SIAM J. Appl. Math. 20, 30–36 (1971).
+  volume: '20'
+  year: '1971'
+- unstructured: Vervliet, N., Debals, O., Sorber, L., Van Barel, M. & De Lathauwer,
+    L. Tensorlab 3.0 (2016); https://www.tensorlab.net/
+- author: AV Smirnov
+  doi: 10.1134/S0965542513120129
+  first-page: '1781'
+  journal-title: Comput. Math. Math. Phys.
+  unstructured: Smirnov, A. V. The bilinear complexity and practical algorithms for
+    matrix multiplication. Comput. Math. Math. Phys. 53, 1781–1795 (2013).
+  volume: '53'
+  year: '2013'
+- doi: 10.1145/3452143.3465537
+  unstructured: Sedoglavic, A. & Smirnov, A. V. The tensor rank of 5x5 matrices multiplication
+    is bounded by 98 and its border rank by 89. In Proc. 2021 on International Symposium
+    on Symbolic and Algebraic Computation 345–351 (ACM, 2021).
+- author: MJ Heule
+  doi: 10.1016/j.jsc.2020.10.003
+  first-page: '899'
+  journal-title: J. Symb. Comput.
+  unstructured: Heule, M. J., Kauers, M. & Seidl, M. New ways to multiply 3 × 3-matrices.
+    J. Symb. Comput. 104, 899–916 (2021).
+  volume: '104'
+  year: '2021'
+- unstructured: Hubert, T. et al. Learning and planning in complex action spaces.
+    In International Conference on Machine Learning 4476–4486 (PMLR, 2021).
+- unstructured: Zhang, W. & Dietterich, T. G. A reinforcement learning approach to
+    job-shop scheduling. In International Joint Conferences on Artificial Intelligence
+    Vol. 95, 1114–1120 (Morgan Kaufmann Publishers, 1995).
+- unstructured: Vaswani, A. Attention is all you need. In International Conference
+    on Neural Information Processing Systems Vol 30, 5998–6008 (Curran Associates,
+    2017).
+- unstructured: Ho, J., Kalchbrenner, N., Weissenborn, D. & Salimans, T. Axial attention
+    in multidimensional transformers. Preprint at https://arxiv.org/abs/1912.12180
+    (2019).
+- author: C-É Drevet
+  doi: 10.1016/j.tcs.2010.12.012
+  first-page: '2219'
+  journal-title: Theor. Comput. Sci.
+  unstructured: Drevet, C.-É., Islam, M. N. & Schost, É. Optimization techniques for
+    small matrix multiplication. Theor. Comput. Sci. 412, 2219–2236 (2011).
+  volume: '412'
+  year: '2011'
+- unstructured: Sedoglavic, A. A non-commutative algorithm for multiplying (7 × 7)
+    matrices using 250 multiplications. Preprint at https://arxiv.org/abs/1712.07935
+    (2017).
+- unstructured: Battaglia, P. W. et al. Relational inductive biases, deep learning,
+    and graph networks. Preprint at https://arxiv.org/abs/1806.01261 (2018).
+- unstructured: Balog, M., van Merriënboer, B., Moitra, S., Li, Y. & Tarlow, D. Fast
+    training of sparse graph neural networks on dense hardware. Preprint at https://arxiv.org/abs/1906.11786
+    (2019).
+- author: K Ye
+  doi: 10.1007/s10208-016-9332-x
+  first-page: '45'
+  journal-title: Found. Comput. Math.
+  unstructured: 'Ye, K. & Lim, L.-H. Fast structured matrix computations: tensor rank
+    and Cohn–Umans method. Found. Comput. Math. 18, 45–95 (2018).'
+  volume: '18'
+  year: '2018'
+- unstructured: 'Bradbury, J. et al. JAX: composable transformations of Python+NumPy
+    programs. GitHub http://github.com/google/jax (2018).'
+- author: AR Benson
+  doi: 10.1145/2858788.2688513
+  first-page: '42'
+  journal-title: ACM SIGPLAN Not.
+  unstructured: Benson, A. R. & Ballard, G. A framework for practical parallel fast
+    matrix multiplication. ACM SIGPLAN Not. 50, 42–53 (2015).
+  volume: '50'
+  year: '2015'
+- doi: 10.1109/SC.2016.58
+  unstructured: Huang, J., Smith, T. M., Henry, G. M. & Van De Geijn, R. A. Strassen’s
+    algorithm reloaded. In International Conference for High Performance Computing,
+    Networking, Storage and Analysis 690–701 (IEEE, 2016).
+- unstructured: 'Abadi, M. et al. Tensorflow: a system for large-scale machine learning.
+    In USENIX Symposium On Operating Systems Design And Implementation 265–283 (USENIX,
+    2016).'
+- doi: 10.1609/aaai.v32i1.11791
+  unstructured: Dabney, W., Rowland, M., Bellemare, M. & Munos, R. Distributional
+    reinforcement learning with quantile regression. In AAAI Conference on Artificial
+    Intelligence Vol. 32, 2892–2901 (AAAI Press, 2018).
+- unstructured: 'Kingma, D. P., & Ba, J. Adam: a method for stochastic optimization.
+    In International Conference on Learning Representations (ICLR) (2015).'
+- unstructured: Loshchilov, I. & Hutter, F. Decoupled weight decay regularization.
+    In International Conference on Learning Representations (ICLR) (2019).
+- author: D Silver
+  doi: 10.1038/nature16961
+  first-page: '484'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of Go with deep neural networks
+    and tree search. Nature 529, 484–489 (2016).
+  volume: '529'
+  year: '2016'
+- unstructured: Sedoglavic, A. A non-commutative algorithm for multiplying 5x5 matrices
+    using 99 multiplications. Preprint at https://arxiv.org/abs/1707.06860 (2017).
+- author: HF de Groote
+  doi: 10.1016/0304-3975(78)90045-2
+  first-page: '127'
+  journal-title: Theor. Comput. Sci.
+  unstructured: de Groote, H. F. On varieties of optimal algorithms for the computation
+    of bilinear mappings II. optimal algorithms for 2 × 2-matrix multiplication. Theor.
+    Comput. Sci. 7, 127–148 (1978).
+  volume: '7'
+  year: '1978'
+- unstructured: Burichenko, V. P. On symmetries of the Strassen algorithm. Preprint
+    at https://arxiv.org/abs/1408.6273 (2014).
+- author: L Chiantini
+  doi: 10.1080/10586458.2017.1403981
+  first-page: '322'
+  journal-title: Exp. Math.
+  unstructured: 'Chiantini, L., Ikenmeyer, C., Landsberg, J. M. & Ottaviani, G. The
+    geometry of rank decompositions of matrix multiplication I: 2 × 2 matrices. Exp.
+    Math. 28, 322–327 (2019).'
+  volume: '28'
+  year: '2019'
+- unstructured: Grochow, J. A. & Moore, C. Designing Strassen’s algorithm. Preprint
+    at https://arxiv.org/abs/1708.09398 (2017).
+- author: G Ballard
+  doi: 10.1016/j.jpaa.2018.10.014
+  first-page: '3205'
+  journal-title: J. Pure Appl. Algebra
+  unstructured: 'Ballard, G., Ikenmeyer, C., Landsberg, J. M. & Ryder, N. The geometry
+    of rank decompositions of matrix multiplication II: 3 × 3 matrices. J. Pure Appl.
+    Algebra 223, 3205–3224 (2019).'
+  volume: '223'
+  year: '2019'
+- unstructured: Grochow, J. A. & Moore, C. Matrix multiplication algorithms from group
+    orbits. Preprint at https://arxiv.org/abs/1612.01527 (2016).
+- author: TG Kolda
+  doi: 10.1137/07070111X
+  first-page: '455'
+  journal-title: SIAM Rev.
+  unstructured: Kolda, T. G. & Bader, B. W. Tensor decompositions and applications.
+    SIAM Rev. 51, 455–500 (2009).
+  volume: '51'
+  year: '2009'
+- author: A Bernardi
+  doi: 10.1016/j.jsc.2012.05.012
+  first-page: '51'
+  journal-title: J. Symb. Comput.
+  unstructured: Bernardi, A., Brachat, J., Comon, P. & Mourrain, B. General tensor
+    decomposition, moment matrices and applications. J. Symb. Comput. 52, 51–71 (2013).
+  volume: '52'
+  year: '2013'
+- author: V Elser
+  first-page: '3964'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Elser, V. A network that learns Strassen multiplication. J. Mach.
+    Learn. Res. 17, 3964–3976 (2016).
+  volume: '17'
+  year: '2016'
+- unstructured: 'Tschannen, M., Khanna, A. & Anandkumar, A, StrassenNets: deep learning
+    with a multiplication budget. In International Conference on Machine Learning
+    4985–4994 (PMLR, 2018).'
+- author: J Huang
+  doi: 10.1145/3372419
+  first-page: '1'
+  journal-title: ACM Trans. Math. Softw.
+  unstructured: Huang, J., Yu, C. D. & Geijn, R. A. V. D. Strassen’s algorithm reloaded
+    on GPUs. ACM Trans. Math. Softw. 46, 1–22 (2020).
+  volume: '46'
+  year: '2020'
+- author: A Mirhoseini
+  doi: 10.1038/s41586-021-03544-w
+  first-page: '207'
+  journal-title: Nature
+  unstructured: Mirhoseini, A. et al. A graph placement methodology for fast chip
+    design. Nature 594, 207–212 (2021).
+  volume: '594'
+  year: '2021'
+- unstructured: Bunel, R., Desmaison, A., Kohli, P., Torr, P. H. & Kumar, M. P. Learning
+    to superoptimize programs. In International Conference on Learning Representations
+    (ICLR) (2017).
+- unstructured: Li, Y., Gimeno, F., Kohli, P. & Vinyals, O. Strong generalization
+    and efficiency in neural programs. Preprint at https://arxiv.org/abs/2007.03629
+    (2020).
+- unstructured: Lagoudakis, M. G. et al. Algorithm selection using reinforcement learning.
+    In International Conference on Machine Learning 511–518 (Morgan Kaufmann Publishers,
+    2000).
+- unstructured: 'Schmidhuber, J. Evolutionary Principles in Self-Referential Learning.
+    On Learning now to Learn: The Meta-Meta-Meta...-Hook. Diploma thesis, Technische
+    Univ. Munchen (1987).'
+- unstructured: Kaliszyk, C., Urban, J., Michalewski, H. & Olšák, M. Reinforcement
+    learning of theorem proving. In International Conference on Neural Information
+    Processing Systems 8836–8847 (Curran Associates, 2018).
+- doi: 10.1007/978-3-319-94205-6_37
+  unstructured: 'Piotrowski, B. & Urban, J. ATPboost: learning premise selection in
+    binary setting with ATP feedback. In International Joint Conference on Automated
+    Reasoning 566–574 (Springer, 2018).'
+- unstructured: 'Bansal, K., Loos, S., Rabe, M., Szegedy, C. & Wilcox, S. HOList:
+    an environment for machine learning of higher order logic theorem proving. In
+    International Conference on Machine Learning 454–463 (PMLR, 2019).'
+- doi: 10.1007/978-3-030-51054-1_33
+  unstructured: Zombori, Z., Urban, J. & Brown, C. E. Prolog technology reinforcement
+    learning prover. In International Joint Conference on Automated Reasoning 489–507
+    (Springer, 2020).
+- unstructured: Wagner, A. Z. Constructions in combinatorics via neural networks.
+    Preprint at https://arxiv.org/abs/2104.14516 (2021).
+- doi: 10.1126/sciadv.aap7885
+  unstructured: Popova, M., Isayev, O. & Tropsha, A. Deep reinforcement learning for
+    de novo drug design. Sci. Adv. 4, eaap7885 (2018).
+- author: Z Zhou
+  doi: 10.1038/s41598-019-47148-x
+  first-page: '10752'
+  journal-title: Sci. Rep.
+  unstructured: Zhou, Z., Kearnes, S., Li, L., Zare, R. N. & Riley, P. Optimization
+    of molecules via deep reinforcement learning. Sci. Rep. 9, 10752 (2019).
+  volume: '9'
+  year: '2019'
+- author: MH Segler
+  doi: 10.1038/nature25978
+  first-page: '604'
+  journal-title: Nature
+  unstructured: Segler, M. H., Preuss, M. & Waller, M. P. Planning chemical syntheses
+    with deep neural networks and symbolic AI. Nature 555, 604–610 (2018).
+  volume: '555'
+  year: '2018'
+- author: M Dalgaard
+  doi: 10.1038/s41534-019-0241-0
+  first-page: '6'
+  journal-title: npj Quantum Inf.
+  unstructured: Dalgaard, M., Motzoi, F., Sørensen, J. J. & Sherson, J. Global optimization
+    of quantum dynamics with AlphaZero deep exploration. npj Quantum Inf. 6, 6 (2020).
+  volume: '6'
+  year: '2020'
+- unstructured: Fast matrix multiplication algorithms catalogue. Université de Lille
+    https://fmm.univ-lille.fr/ (2021).
+doc_url: https://www.nature.com/articles/s41586-022-05172-4
+doi: 10.1038/s41586-022-05172-4
+files:
+- fawzi-alhussein-and-balog-matej-and-huang-aja-and-hubert-thomas-and-romera-paredes-bernardino-and-barekatain-mohammadamin-and-novikov-alexander.pdf
+issue: '7930'
+journal: Nature
+language: en
+month: 10
+pages: 47--53
+publisher: Springer Science and Business Media LLC
+ref: DiscoveringFasFawzi2022
+time-added: 2022-10-06-12:12:12
+title: Discovering faster matrix multiplication algorithms with reinforcement learning
+type: article
+url: http://dx.doi.org/10.1038/s41586-022-05172-4
+volume: '610'
+year: 2022
