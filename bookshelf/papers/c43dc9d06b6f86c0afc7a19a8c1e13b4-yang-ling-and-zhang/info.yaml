@@ -1,0 +1,52 @@
+abstract: 'Diffusion models are a class of deep generative models that have shown
+  impressive results on various tasks with a solid theoretical foundation. Despite
+  demonstrated success than state-of-the-art approaches, diffusion models often entail
+  costly sampling procedures and sub-optimal likelihood estimation. Significant efforts
+  have been made to improve the performance of diffusion models in various aspects.
+  In this article, we present a comprehensive review of existing variants of diffusion
+  models. Specifically, we provide the taxonomy of research in diffusion models and
+  categorize them into three types: sampling-efficiency enhancement, likelihood-maximization
+  enhancement, and data-generalization enhancement. We also introduce the other generative
+  models (i.e., variational autoencoders, generative adversarial networks, normalizing
+  flow, autoregressive models, and energy-based models) and discuss the connections
+  between diffusion models and these generative models. Then we review the applications
+  of diffusion models, including computer vision, natural language processing, temporal
+  data modeling, multi-modal learning, robust learning, molecular graph modeling,
+  material design, and inverse problem solving. Furthermore, we propose new perspectives
+  pertaining to the development of generative models. Github: https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy.'
+archiveprefix: arXiv
+author: Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng
+  and Zhao, Yue and Shao, Yingxia and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan
+author_list:
+- family: Yang
+  given: Ling
+- family: Zhang
+  given: Zhilong
+- family: Song
+  given: Yang
+- family: Hong
+  given: Shenda
+- family: Xu
+  given: Runsheng
+- family: Zhao
+  given: Yue
+- family: Shao
+  given: Yingxia
+- family: Zhang
+  given: Wentao
+- family: Cui
+  given: Bin
+- family: Yang
+  given: Ming-Hsuan
+eprint: 2209.00796v7
+file: 2209.00796v7.pdf
+files:
+- yang-ling-and-zhang-zhilong-and-song-yang-and-hong-shenda-and-xu-runsheng-and-zhao-yue-and-shao-yingxia-and-zhang-wentao-and-cui-bin-and-yang.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2209.00796v7
+time-added: 2022-10-08-12:15:40
+title: 'Diffusion Models: A Comprehensive Survey of Methods and Applications'
+type: article
+url: http://arxiv.org/abs/2209.00796v7
+year: '2022'

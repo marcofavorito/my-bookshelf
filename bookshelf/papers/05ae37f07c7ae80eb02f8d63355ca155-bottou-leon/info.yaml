@@ -1,0 +1,33 @@
+abstract: A plausible definition of "reasoning" could be "algebraically manipulating
+  previously acquired knowledge in order to answer a new question". This definition
+  covers first-order logical inference or probabilistic inference. It also includes
+  much simpler manipulations commonly used to build large learning systems. For instance,
+  we can build an optical character recognition system by first training a character
+  segmenter, an isolated character recognizer, and a language model, using appropriate
+  labeled training sets. Adequately concatenating these modules and fine tuning the
+  resulting system can be viewed as an algebraic operation in a space of models. The
+  resulting model answers a new question, that is, converting the image of a text
+  page into a computer readable text.   This observation suggests a conceptual continuity
+  between algebraically rich inference systems, such as logical or probabilistic inference,
+  and simple manipulations, such as the mere concatenation of trainable learning systems.
+  Therefore, instead of trying to bridge the gap between machine learning systems
+  and sophisticated "all-purpose" inference mechanisms, we can instead algebraically
+  enrich the set of manipulations applicable to training systems, and build reasoning
+  capabilities from the ground up.
+archiveprefix: arXiv
+author: Bottou, Leon
+author_list:
+- family: Bottou
+  given: Leon
+eprint: 1102.1808v3
+file: 1102.1808v3.pdf
+files:
+- bottou-leonfrom-machine-learning-to-machine-reasoning2011.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 1102.1808v3
+time-added: 2022-10-08-12:27:35
+title: From Machine Learning to Machine Reasoning
+type: article
+url: http://arxiv.org/abs/1102.1808v3
+year: '2011'
