@@ -1,0 +1,273 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>The maximum likelihood decoding
+  problem (MLD) is known to be NP-hard and its complexity is strictly related to the
+  security of some post-quantum cryptosystems, that is, the so-called code-based primitives.
+  Analogously, the multivariate quadratic system problem (MQ) is NP-hard and its complexity
+  is necessary for the security of the so-called multivariate-based primitives. In
+  this paper we present a closed formula for a polynomial-time reduction from any
+  instance of MLD to an instance of MQ, and viceversa. We also show a polynomial-time
+  isomorphism between MQ and MLD, thus demonstrating the direct link between the two
+  post-quantum cryptographic families.</jats:p>
+author: Meneghetti, Alessio and Pellegrini, Alex and Sala, Massimiliano
+author_list:
+- affiliation: []
+  family: Meneghetti
+  given: Alessio
+- affiliation: []
+  family: Pellegrini
+  given: Alex
+- affiliation: []
+  family: Sala
+  given: Massimiliano
+citations:
+- author: AJ Menezes
+  doi: 10.1201/9780429466335
+  unstructured: 'Menezes, A.J., Van Oorschot, P.C., Vanstone, S.A.: Handbook of Applied
+    Cryptography. CRC Press, Boca Raton (2018)'
+  volume-title: Handbook of Applied Cryptography
+  year: '2018'
+- author: D Stinson
+  unstructured: 'Stinson, D., Paterson, M.: Cryptography Theory and Practice (Fourth
+    Edi). CRC Press, Taylor & Francis Group, Boca Raton (2019)'
+  volume-title: Cryptography Theory and Practice (Fourth Edi)
+  year: '2019'
+- unstructured: 'Shor, P.W.: Algorithms for quantum computation: discrete logarithms
+    and factoring. In: Proceedings 35th Annual Symposium on Foundations of Computer
+    Science, pp. 124–134 (1994). Ieee'
+- author: DJ Bernstein
+  doi: 10.1007/978-3-540-88702-7
+  unstructured: 'Bernstein, D.J., Buchmann, J., Dahmen, E.: Post-Quantum Cryptography.
+    Springer, Berlin (2009)'
+  volume-title: Post-Quantum Cryptography
+  year: '2009'
+- author: D Micciancio
+  doi: 10.1007/978-1-4615-0897-7
+  unstructured: 'Micciancio, D., Goldwasser, S.: Complexity of Lattice Problems: a
+    Cryptographic Perspective. Springer, Berlin (2002)'
+  volume-title: 'Complexity of Lattice Problems: a Cryptographic Perspective'
+  year: '2002'
+- author: E Berlekamp
+  doi: 10.1109/TIT.1978.1055873
+  first-page: '384'
+  issue: '3'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Berlekamp, E., McEliece, R., Van Tilborg, H.: On the inherent intractability
+    of certain coding problems (corresp.). IEEE Trans. Inf. Theory 24(3), 384–386
+    (1978)'
+  volume: '24'
+  year: '1978'
+- unstructured: 'Garey, M.R., Johnson, D.S.: Computers and Intractability. freeman
+    San Francisco (1979)'
+- unstructured: 'Bernstein, D.J., Chou, T., Lange, T., von Maurich, I., Misoczki,
+    R., Niederhagen, R., Persichetti, E., Peters, C., Schwabe, P., Sendrier, N., et
+    al.: Classic McEliece: conservative code-based cryptography. Submission to the
+    NIST’s post-quantum cryptography standardization process (2017)'
+- unstructured: 'Avanzi, R., Bos, J., Ducas, L., Kiltz, E., Lepoint, T., Lyubashevsky,
+    V., Schanck, J.M., Schwabe, P., Seiler, G., Stehlé, D.: CRYSTALS-Kyber algorithm
+    specifications and supporting documentation. Submission to the NIST’s post-quantum
+    cryptography standardization process (2017)'
+- unstructured: 'Chen, C., Danba, O., Hoffstein, J., Hülsing, A., Rijneveld, J., Schanck,
+    J.M., Schwabe, P., Whyte, W., Zhang, Z.: NTRU algorithm specications and supporting
+    documentation. Submission to the NIST’s post-quantum cryptography standardization
+    process (2019)'
+- unstructured: 'Basso, A., Bermudo Mera, J.M., D’Anvers, J.-P., Karmakar, A., Roy,
+    S.S., Van Beirendonck, M., Vercauteren, F.: SABER: Mod-LWR based KEM (Round 3
+    submission). Submission to the NIST’s post-quantum cryptography standardization
+    process (2020)'
+- unstructured: 'Bai, S., Ducas, L., Kiltz, E., Lepoint, T., Lyubashevsky, V., Schwabe,
+    P., Seiler, G., Stehlé, D.: CRYSTALS-Dilithium - Algorithm Specifications and
+    Supporting Documentation (Version 3.1) (2021). https://pq-crystals.org/dilithium/resources.shtml'
+- unstructured: 'Fouque, P.-A., Hoffstein, J., Kirchner, P., Lyubashevsky, V., Pornin,
+    T., Prest, T., Ricosset, T., Seiler, G., Whyte, W., Zhang, Z.: FALCON: Fast-Fourier
+    lattice-based compact signatures over NTRU. Submission to the NIST’s post-quantum
+    cryptography standardization process (2020)'
+- unstructured: 'Ding, J., Chen, M.-S., Petzoldt, A., Schmidt, D., Yang, B.-Y., Kannwischer,
+    M., Patarin, J.: Rainbow - algorithm specification and documentation. Submission
+    to the NIST’s post-quantum cryptography standardization process (2015)'
+- author: V Guruswami
+  doi: 10.1109/TIT.2005.850102
+  first-page: '2249'
+  issue: '7'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Guruswami, V., Vardy, A.: Maximum-likelihood decoding of Reed-Solomon
+    codes is NP-hard. IEEE Trans. Inf. Theory 51(7), 2249–2256 (2005)'
+  volume: '51'
+  year: '2005'
+- author: RM Karp
+  doi: 10.1007/978-1-4684-2001-2_9
+  unstructured: 'Karp, R.M.: Reducibility Among Combinatorial Problems. Springer,
+    Berlin (1972)'
+  volume-title: Reducibility Among Combinatorial Problems
+  year: '1972'
+- author: J Bruck
+  doi: 10.1109/18.52484
+  first-page: '381'
+  issue: '2'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Bruck, J., Naor, M.: The hardness of decoding linear codes with preprocessing.
+    IEEE Trans. Inf. Theory 36(2), 381–385 (1990)'
+  volume: '36'
+  year: '1990'
+- author: A Lobstein
+  doi: 10.1109/18.53763
+  first-page: '943'
+  issue: '4'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Lobstein, A.: The hardness of solving subset sum with preprocessing.
+    IEEE Trans. Inf. Theory 36(4), 943–946 (1990)'
+  volume: '36'
+  year: '1990'
+- author: A Vardy
+  doi: 10.1109/18.641542
+  first-page: '1757'
+  issue: '6'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Vardy, A.: The intractability of computing the minimum distance of
+    a code. IEEE Trans. Inf. Theory 43(6), 1757–1766 (1997)'
+  volume: '43'
+  year: '1997'
+- author: Q Cheng
+  doi: 10.1109/TIT.2007.911213
+  first-page: '402'
+  issue: '1'
+  journal-title: IEEE Trans. Inf. Theory
+  unstructured: 'Cheng, Q.: Hard problems of algebraic geometry codes. IEEE Trans.
+    Inf. Theory 54(1), 402–406 (2008)'
+  volume: '54'
+  year: '2008'
+- doi: 10.1109/ISIT.2015.7282988
+  unstructured: 'Gandikota, V., Ghazi, B., Grigorescu, E.: On the NP-hardness of bounded
+    distance decoding of Reed-Solomon codes. In: 2015 IEEE International Symposium
+    on Information Theory (ISIT), pp. 2904–2908 (2015). IEEE'
+- author: W Peterson
+  doi: 10.1109/TIT.1960.1057586
+  first-page: '459'
+  issue: '4'
+  journal-title: IRE Trans. Inf. Theory
+  unstructured: 'Peterson, W.: Encoding and error-correction procedures for the Bose-Chaudhuri
+    codes. IRE Trans. Inf. Theory 6(4), 459–470 (1960)'
+  volume: '6'
+  year: '1960'
+- author: RJ McEliece
+  first-page: '114'
+  journal-title: Coding Thv
+  unstructured: 'McEliece, R.J.: A public-key cryptosystem based on algebraic coding
+    theory. Coding Thv 4244, 114–116 (1978)'
+  volume: '4244'
+  year: '1978'
+- author: H Niederreiter
+  first-page: '157'
+  issue: '2'
+  journal-title: Prob. Contr. Inform. Theory
+  unstructured: 'Niederreiter, H.: Knapsack-type cryptosystems and algebraic coding
+    theory. Prob. Contr. Inform. Theory 15(2), 157–166 (1986)'
+  volume: '15'
+  year: '1986'
+- doi: 10.1007/3-540-48910-X_15
+  unstructured: 'Kipnis, A., Patarin, J., Goubin, L.: Unbalanced Oil and Vinegar signature
+    schemes. In: International Conference on the Theory and Applications of Cryptographic
+    Techniques, pp. 206–222 (1999). Springer'
+- unstructured: 'Casanova, A., Faugere, J.-C., Macario-Rat, G., Patarin, J., Perret,
+    L., Ryckeghem, J.: GeMSS: a great multivariate short signature. Submission to
+    the NIST’s post-quantum cryptography standardization process (2017)'
+- doi: 10.1007/3-540-45961-8_39
+  unstructured: 'Matsumoto, T., Imai, H.: Public quadratic polynomial-tuples for efficient
+    signature-verification and message-encryption. In: Workshop on the Theory and
+    Application of of Cryptographic Techniques, pp. 419–453 (1988). Springer'
+- doi: 10.1007/3-540-68339-9_4
+  unstructured: 'Patarin, J.: Hidden fields equations (hfe) and isomorphisms of polynomials
+    (ip): Two new families of asymmetric algorithms. In: International Conference
+    on the Theory and Applications of Cryptographic Techniques, pp. 33–48 (1996).
+    Springer'
+- doi: 10.1137/1.9781611971200
+  unstructured: 'Dennis Jr, J.E., Schnabel, R.B.: Numerical Methods for Unconstrained
+    Optimization and Nonlinear Equations. SIAM (1996)'
+- author: RB Schnabel
+  doi: 10.1137/0721054
+  first-page: '815'
+  issue: '5'
+  journal-title: SIAM J. Numer. Anal.
+  unstructured: 'Schnabel, R.B., Frank, P.D.: Tensor methods for nonlinear equations.
+    SIAM J. Numer. Anal. 21(5), 815–843 (1984)'
+  volume: '21'
+  year: '1984'
+- unstructured: 'Cox, D., Little, J., O’Shea, D.: Using algebraic geometry, ser. Graduate
+    Texts in Mathematics. Springer (2005)'
+- author: MA Bucero
+  doi: 10.1016/j.jsc.2015.08.004
+  first-page: '378'
+  journal-title: J. Symbolic Comput.
+  unstructured: 'Bucero, M.A., Mourrain, B.: Border basis relaxation for polynomial
+    optimization. J. Symbolic Comput. 74, 378–399 (2016)'
+  volume: '74'
+  year: '2016'
+- author: JB Lasserre
+  doi: 10.1137/S1052623400366802
+  first-page: '796'
+  issue: '3'
+  journal-title: SIAM J. Optim.
+  unstructured: 'Lasserre, J.B.: Global optimization with polynomials and the problem
+    of moments. SIAM J. Optim. 11(3), 796–817 (2001)'
+  volume: '11'
+  year: '2001'
+- author: PA Parrilo
+  doi: 10.1007/s10107-003-0387-5
+  first-page: '293'
+  issue: '2'
+  journal-title: Math. Programm.
+  unstructured: 'Parrilo, P.A.: Semidefinite programming relaxations for semialgebraic
+    problems. Math. Programm. 96(2), 293–320 (2003)'
+  volume: '96'
+  year: '2003'
+- author: T-Y Li
+  doi: 10.1017/S0962492900002749
+  first-page: '399'
+  journal-title: Acta Numerica
+  unstructured: 'Li, T.-Y.: Numerical solution of multivariate polynomial systems
+    by homotopy continuation methods. Acta Numerica 6, 399–436 (1997)'
+  volume: '6'
+  year: '1997'
+- unstructured: 'Verschelde, J.: Polynomial homotopies for dense, sparse and determinantal
+    systems. arXiv preprint math/9907060 (1999)'
+- author: MA Davenport
+  doi: 10.1109/JSTSP.2016.2539100
+  first-page: '608'
+  issue: '4'
+  journal-title: IEEE J. Selected Topics Signal Process.
+  unstructured: 'Davenport, M.A., Romberg, J.: An overview of low-rank matrix recovery
+    from incomplete observations. IEEE J. Selected Topics Signal Process. 10(4), 608–622
+    (2016)'
+  volume: '10'
+  year: '2016'
+- author: D Grigoriev
+  doi: 10.1007/s00037-005-0189-7
+  first-page: '20'
+  issue: '1'
+  journal-title: Comput. Complex.
+  unstructured: 'Grigoriev, D., Pasechnik, D.V.: Polynomial-time computing over quadratic
+    maps i: sampling in real algebraic sets. Comput. Complex. 14(1), 20–52 (2005)'
+  volume: '14'
+  year: '2005'
+- doi: 10.1007/3-540-48405-1_2
+  unstructured: 'Shamir, A., Kipnis, A.: Cryptanalysis of the HFE public key cryptosystem.
+    In: Advances in Cryptology, Proceedings of Crypto, vol. 99 (1999)'
+- author: L Berman
+  doi: 10.1137/0206023
+  first-page: '305'
+  issue: '2'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Berman, L., Hartmanis, J.: On isomorphisms and density of NP and
+    other complete sets. SIAM J. Comput. 6(2), 305–322 (1977)'
+  volume: '6'
+  year: '1977'
+doc_url: https://link.springer.com/article/10.1007/s10231-022-01267-x/fulltext.html
+doi: 10.1007/s10231-022-01267-x
+journal: Annali di Matematica Pura ed Applicata (1923 -)
+language: en
+month: 9
+publisher: Springer Science and Business Media LLC
+ref: OnTheEquivaleMenegh2022
+time-added: 2022-10-24-10:41:48
+title: On the equivalence of two post-quantum cryptographic families
+type: article
+url: http://dx.doi.org/10.1007/s10231-022-01267-x
+year: 2022
