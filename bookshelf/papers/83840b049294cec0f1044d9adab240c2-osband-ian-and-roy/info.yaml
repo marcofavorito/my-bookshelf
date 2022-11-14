@@ -1,0 +1,31 @@
+abstract: 'We propose randomized least-squares value iteration (RLSVI) -- a new reinforcement
+  learning algorithm designed to explore and generalize efficiently via linearly parameterized
+  value functions. We explain why versions of least-squares value iteration that use
+  Boltzmann or epsilon-greedy exploration can be highly inefficient, and we present
+  computational results that demonstrate dramatic efficiency gains enjoyed by RLSVI.
+  Further, we establish an upper bound on the expected regret of RLSVI that demonstrates
+  near-optimality in a tabula rasa learning context. More broadly, our results suggest
+  that randomized value functions offer a promising approach to tackling a critical
+  challenge in reinforcement learning: synthesizing efficient exploration and effective
+  generalization.'
+archiveprefix: arXiv
+author: Osband, Ian and Roy, Benjamin Van and Wen, Zheng
+author_list:
+- family: Osband
+  given: Ian
+- family: Roy
+  given: Benjamin Van
+- family: Wen
+  given: Zheng
+eprint: 1402.0635v3
+file: 1402.0635v3.pdf
+files:
+- osband-ian-and-roy-benjamin-van-and-wen-zhenggeneralization-and-exploration-via-randomized-value-functions2014.pdf
+month: Feb
+primaryclass: stat.ML
+ref: 1402.0635v3
+time-added: 2022-11-01-10:04:22
+title: Generalization and Exploration via Randomized Value Functions
+type: article
+url: http://arxiv.org/abs/1402.0635v3
+year: '2014'

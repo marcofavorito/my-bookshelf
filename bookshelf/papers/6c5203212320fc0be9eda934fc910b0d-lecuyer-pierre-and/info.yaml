@@ -1,0 +1,487 @@
+author: L’Ecuyer, Pierre and Munger, David and Oreshkin, Boris and Simard, Richard
+author_list:
+- affiliation: []
+  family: L’Ecuyer
+  given: Pierre
+- affiliation: []
+  family: Munger
+  given: David
+- affiliation: []
+  family: Oreshkin
+  given: Boris
+- affiliation: []
+  family: Simard
+  given: Richard
+citations:
+- article-title: Random number generators on vector supercomputers and other advanced
+    architecture
+  author: Anderson
+  doi: 10.1137/1032044
+  first-page: '221'
+  journal-title: SIAM Rev.
+  volume: '32'
+  year: '1990'
+- article-title: 'RNGSSELIB: Program library for random number generation: More generators,
+    parallel streams of random numbers, and Fortran compatibility'
+  author: Barash
+  doi: 10.1016/j.cpc.2013.04.007
+  first-page: '2367'
+  journal-title: Comput. Phys. Comm.
+  volume: '184'
+  year: '2013'
+- doi: 10.1016/j.cpc.2014.01.007
+  unstructured: 'L.Y. Barash, L.N. Shchur, PRAND: GPU accelerated parallel random
+    number generation library: Using most reliable algorithms and applying parallelism
+    of modern GPUs and CPUs, 2014.'
+- unstructured: B. Barney, Introduction to parallel computing, 2014. https://computing.llnl.gov/tutorials/parallel_comp/.
+- article-title: Parallelization techniques for random number generations
+  author: Bradley
+  first-page: '231'
+  series-title: GPU Computing Gems Emerald Edition
+  year: '2011'
+- article-title: Some long-period random number generators using shifts and xors
+  author: Brent
+  doi: 10.21914/anziamj.v48i0.40
+  first-page: C188
+  journal-title: ANZIAM J.
+  volume: '48'
+  year: '2007'
+- article-title: Splittable pseudorandom number generators using cryptographic hashing
+  author: Claessen
+  first-page: '47'
+  series-title: Proceedings of the 2013 ACM SIGPLAN symposium on Haskell
+  year: '2013'
+- article-title: Japara—a java parallel random number generator library for high-performance
+    computing
+  author: Coddington
+  series-title: Proceedings of the 18th International Parallel and Distributed Processing
+    Symposium
+  year: '2004'
+- article-title: Parallelization of random number generators and long-range correlations
+  author: De Matteis
+  doi: 10.1007/BF01397554
+  first-page: '595'
+  journal-title: Numer. Math.
+  volume: '53'
+  year: '1988'
+- article-title: Large-order multiple recursive generators with modulus 231−1
+  author: Deng
+  doi: 10.1287/ijoc.1110.0477
+  first-page: '636'
+  journal-title: INFORMS J. Comput.
+  volume: '24'
+  year: '2012'
+- author: Devroye
+  series-title: Non-Uniform Random Variate Generation
+  year: '1986'
+- article-title: Using linear congruential generators for parallel random number generation
+  author: Durst
+  first-page: '462'
+  series-title: Proceedings of the 1989 Winter Simulation Conference
+  year: '1989'
+- article-title: 'GASPRNG: GPU accelerated scalable parallel random number generator
+    library'
+  author: Gao
+  doi: 10.1016/j.cpc.2012.12.001
+  first-page: '1241'
+  journal-title: Comput. Phys. Comm.
+  volume: '184'
+  year: '2013'
+- article-title: 'Pseudo-random trees: Multiple independent sequence generators for
+    parallel and branching computations'
+  author: Halton
+  doi: 10.1016/0021-9991(89)90180-0
+  first-page: '1'
+  journal-title: J. Comput. Phys.
+  volume: '84'
+  year: '1989'
+- article-title: Efficient jump ahead for F2-linear random number generators
+  author: Haramoto
+  doi: 10.1287/ijoc.1070.0251
+  first-page: '385'
+  journal-title: INFORMS J. Comput.
+  volume: '20'
+  year: '2008'
+- article-title: Good random number generators are (not so) easy to find
+  author: Hellekalek
+  doi: 10.1016/S0378-4754(98)00078-0
+  first-page: '485'
+  journal-title: Math. Comput. Simulation
+  volume: '46'
+  year: '1998'
+- article-title: Empirical evidence concerning AES
+  author: Hellekalek
+  doi: 10.1145/945511.945515
+  first-page: '322'
+  journal-title: ACM Trans. Model. Comput. Simul.
+  volume: '13'
+  year: '2003'
+- article-title: Distribution of random streams for simulation practitioners
+  author: Hill
+  doi: 10.1002/cpe.2942
+  first-page: '1427'
+  journal-title: Concurrency Comput. Pract. Exp.
+  volume: '25'
+  year: '2013'
+- author: Hörmann
+  series-title: Automatic Nonuniform Random Variate Generation
+  year: '2004'
+- author: Howes
+  series-title: 'GP gems 3: Efficient Random Number Generation and Applications Using
+    CUDA'
+  year: '2007'
+- unstructured: Intel math kernel library reference manual, MKL 11.2, Intel Corporation,
+    2015. URL https://software.intel.com/en-us/mkl_11.2_ref_pdf, document Number 630813-065US.
+- article-title: Using RngStreams for parallel random number generation in C++ and
+    R
+  author: Karl
+  doi: 10.1007/s00180-014-0492-3
+  first-page: '1301'
+  journal-title: Comput. Statist.
+  volume: '29'
+  year: '2014'
+- author: Knuth
+  series-title: 'The Art of Computer Programming, Volume 2: Seminumerical Algorithms'
+  year: '1998'
+- author: Law
+  series-title: Simulation Modeling and Analysis
+  year: '2014'
+- article-title: Random numbers for simulation
+  author: L’Ecuyer
+  doi: 10.1145/84537.84555
+  first-page: '85'
+  journal-title: Commun. ACM
+  volume: '33'
+  year: '1990'
+- article-title: Uniform random number generation
+  author: L’Ecuyer
+  doi: 10.1007/BF02136827
+  first-page: '77'
+  journal-title: Ann. Oper. Res.
+  volume: '53'
+  year: '1994'
+- article-title: Combined multiple recursive random number generators
+  author: L’Ecuyer
+  doi: 10.1287/opre.44.5.816
+  first-page: '816'
+  journal-title: Oper. Res.
+  volume: '44'
+  year: '1996'
+- article-title: Maximally equidistributed combined Tausworthe generators
+  author: L’Ecuyer
+  doi: 10.1090/S0025-5718-96-00696-5
+  first-page: '203'
+  journal-title: Math. Comp.
+  volume: '65'
+  year: '1996'
+- article-title: Bad lattice structures for vectors of non-successive values produced
+    by some linear recurrences
+  author: L’Ecuyer
+  doi: 10.1287/ijoc.9.1.57
+  first-page: '57'
+  journal-title: INFORMS J. Comput.
+  volume: '9'
+  year: '1997'
+- article-title: Good parameters and implementations for combined multiple recursive
+    random number generators
+  author: L’Ecuyer
+  doi: 10.1287/opre.47.1.159
+  first-page: '159'
+  journal-title: Oper. Res.
+  volume: '47'
+  year: '1999'
+- article-title: Tables of maximally equidistributed combined LFSR generators
+  author: L’Ecuyer
+  doi: 10.1090/S0025-5718-99-01039-X
+  first-page: '261'
+  journal-title: Math. Comp.
+  volume: '68'
+  year: '1999'
+- unstructured: 'P. L’Ecuyer, Variance reduction’s greatest hits, in: Proceedings
+    of the 2007 European Simulation and Modeling Conference, EUROSIS, Ghent, Belgium,
+    pp. 5–12.'
+- unstructured: 'P. L’Ecuyer, SSJ: A Java Library for Stochastic Simulation, 2008.
+    Software user’s guide, available at http://www.iro.umontreal.ca/~lecuyer.'
+- article-title: Random number generation
+  author: L’Ecuyer
+  first-page: '35'
+  series-title: Handbook of Computational Statistics
+  year: '2012'
+- article-title: A random number generator based on the combination of four LCGs
+  author: L’Ecuyer
+  doi: 10.1016/S0378-4754(97)00052-9
+  first-page: '99'
+  journal-title: Math. Comput. Simulation
+  volume: '44'
+  year: '1997'
+- article-title: Variance reduction in the simulation of call centers
+  author: L’Ecuyer
+  first-page: '604'
+  series-title: Proceedings of the 2006 Winter Simulation Conference
+  year: '2006'
+- article-title: Implementing a random number package with splitting facilities
+  author: L’Ecuyer
+  doi: 10.1145/103147.103158
+  first-page: '98'
+  journal-title: ACM Trans. Math. Software
+  volume: '17'
+  year: '1991'
+- doi: 10.1145/318371.318401
+  unstructured: 'P. L’Ecuyer, N. Giroux, A process-oriented simulation package based
+    on Modula-2, in: 1987 Winter Simulation Proceedings, pp. 165–174.'
+- article-title: Combined generators with components from different families
+  author: L’Ecuyer
+  doi: 10.1016/S0378-4754(02)00234-3
+  first-page: '395'
+  journal-title: Math. Comput. Simulation
+  volume: '62'
+  year: '2003'
+- unstructured: 'P. L’Ecuyer, D. Munger, N. Kemerchou, clRNG: A library for uniform
+    random number generation in OpenCL, 2015.'
+- unstructured: 'P. L’Ecuyer, D. Munger, N. Kemerchou, clRNG: A random number API
+    with multiple streams for OpenCL, 2015. http://www.iro.umontreal.ca/~lecuyer/myftp/papers/clrng-api.pdf.'
+- article-title: F2-linear random number generators
+  author: L’Ecuyer
+  first-page: '169'
+  series-title: 'Advancing the Frontiers of Simulation: A Festschrift in Honor of
+    George Samuel Fishman'
+  year: '2009'
+- article-title: 'TestU01: A C library for empirical testing of random number generators'
+  author: L’Ecuyer
+  journal-title: ACM Trans. Math. Software
+  volume: '33'
+  year: '2007'
+- article-title: On the lattice structure of a special class of multiple recursive
+    random number generators
+  author: L’Ecuyer
+  doi: 10.1287/ijoc.2013.0576
+  first-page: '449'
+  journal-title: INFORMS J. Comput.
+  volume: '26'
+  year: '2014'
+- article-title: An object-oriented random-number package with many long streams and
+    substreams
+  author: L’Ecuyer
+  doi: 10.1287/opre.50.6.1073.358
+  first-page: '1073'
+  journal-title: Oper. Res.
+  volume: '50'
+  year: '2002'
+- article-title: Structural properties for two classes of combined random number generators
+  author: L’Ecuyer
+  doi: 10.1090/S0025-5718-1991-1094954-3
+  first-page: '735'
+  journal-title: Math. Comp.
+  volume: '57'
+  year: '1991'
+- article-title: Fast combined multiple recursive generators with multipliers of the
+    form a=±2q±2r
+  author: L’Ecuyer
+  first-page: '683'
+  series-title: Proceedings of the 2000 Winter Simulation Conference
+  year: '2000'
+- article-title: 'HASPRNG: Hardware accelerated scalable parallel random number generators'
+  author: Lee
+  doi: 10.1016/j.cpc.2009.07.002
+  first-page: '2574'
+  journal-title: Comput. Phys. Comm.
+  volume: '180'
+  year: '2009'
+- article-title: Deterministic parallel random-number generation for dynamic-multithreading
+    platforms
+  author: Leiserson
+  first-page: '193'
+  series-title: 17th ACM SIGPLAN symposium on Principles and Practice of Parallel
+    Programming
+  year: '2012'
+- article-title: Random number generators for massively parallel simulations on GPU
+  author: Manssen
+  doi: 10.1140/epjst/e2012-01637-8
+  first-page: '53'
+  journal-title: Eur. Phys. J. Spec. Top.
+  volume: '210'
+  year: '2012'
+- article-title: A current view of random number generators
+  author: Marsaglia
+  first-page: '3'
+  series-title: Computer Science and Statistics, Sixteenth Symposium on the Interface
+  year: '1985'
+- unstructured: 'G. Marsaglia, DIEHARD: A battery of tests of randomness, 1996. See
+    http://www.stat.fsu.edu/pub/diehard.'
+- article-title: 'Algorithm 806: SPRNG: A scalable library for pseudorandom number
+    generation'
+  author: Mascagni
+  doi: 10.1145/358407.358427
+  first-page: '436'
+  journal-title: ACM Trans. Math. Software
+  volume: '26'
+  year: '2000'
+- article-title: 'Mersenne twister: A 623-dimensionally equidistributed uniform pseudo-random
+    number generator'
+  author: Matsumoto
+  doi: 10.1145/272991.272995
+  first-page: '3'
+  journal-title: ACM Trans. Model. Comput. Simul.
+  volume: '8'
+  year: '1998'
+- article-title: Dynamic Creation of Pseudorandom Number Generators
+  author: Matsumoto
+  first-page: '56'
+  series-title: Monte Carlo and Quasi-Monte Carlo Methods 1998
+  year: '2000'
+- unstructured: 'S. McIntosh-Smith, The GPU computing revolution: From multi-core
+    CPUs to many-core graphics processors, 2011. URL http://www.lms.ac.uk/sites/default/files/files/reports/GPU-KT-report-screen.pdf.'
+- article-title: Efficient pseudo-random number generation for Monte-Carlo simulations
+    using graphic processors
+  author: Mohanty
+  doi: 10.1088/1742-6596/368/1/012024
+  journal-title: J. Phys. Conf. Ser.
+  volume: '368'
+  year: '2012'
+- article-title: High-performance pseudo-random number generation on graphics processing
+    units
+  author: Nandapalan
+  first-page: '609'
+  series-title: Parallel Processing and Applied Mathematics
+  volume: vol. 7203
+  year: '2012'
+- article-title: Fast and small nonlinear pseudorandom number generators for computer
+    simulation
+  author: Neves
+  first-page: '92'
+  series-title: Parallel Processing and Applied Mathematics
+  volume: vol. 7203
+  year: '2012'
+- author: Niederreiter
+  series-title: Random Number Generation and Quasi-Monte Carlo Methods
+  volume: vol. 63
+  year: '1992'
+- unstructured: 'NVIDIA, CURAND Library: Programming Guide, Version 7.0, NVIDIA, 2015.
+    URL http://docs.nvidia.com/cuda/curand.'
+- article-title: On the xorshift random number generators
+  author: Panneton
+  doi: 10.1145/1113316.1113319
+  first-page: '346'
+  journal-title: ACM Trans. Model. Comput. Simul.
+  volume: '15'
+  year: '2005'
+- article-title: Improved long-period generators based on linear recurrences modulo
+    2
+  author: Panneton
+  doi: 10.1145/1132973.1132974
+  first-page: '1'
+  journal-title: ACM Trans. Math. Software
+  volume: '32'
+  year: '2006'
+- author: Passerat-Palmbach
+  series-title: 'Contributions to Parallel Stochastic Simulation: Applications of
+    Good Software Engineering Practices to the Distribution of Pseudorandom Streams
+    in Hybrid Monte Carlo Simulations'
+  year: '2013'
+- article-title: Pseudo-random streams for distributed and parallel stochastic simulations
+    on GP-GPU
+  author: Passerat-Palmbach
+  doi: 10.1057/jos.2012.8
+  first-page: '141'
+  journal-title: J. Simul.
+  volume: '6'
+  year: '2012'
+- article-title: 'TaskLocalRandom: A statistically sound substitute to pseudorandom
+    number generation in parallel Java tasks frameworks'
+  author: Passerat-Palmbach
+  doi: 10.1002/cpe.3214
+  first-page: '3383'
+  issue: '13'
+  journal-title: Concurrency Comput. Pract. Exp.
+  volume: '27'
+  year: '2015'
+- doi: 10.1109/HPCSim.2012.6266971
+  unstructured: 'J. Passerat-Palmbach, C. Mazel, D.R.C. Hill, ThreadLocalMRG32k3a:
+    A statistically sound substitute to pseudorandom number generation in parallel
+    Java applications, in: International Conference on High Performance Computing
+    and Simulation, pp. 543–550.'
+- unstructured: D. Pellerin, E. Trexel, M. Xu, FPGA-based hardware acceleration of
+    C/C++ based applications, 2007. URL http://www.pldesignline.com/howto/201800344.
+- article-title: Pseudo-random number generation for brownian dynamics and dissipative
+    particle dynamics simulations on GPU devices
+  author: Phillips
+  doi: 10.1016/j.jcp.2011.05.021
+  first-page: '7191'
+  journal-title: J. Comput. Phys.
+  volume: '230'
+  year: '2011'
+- series-title: 'R: A Language and Environment for Statistical Computing, Reference
+    Index'
+  year: '2015'
+- article-title: 'SIMD-oriented fast Mersenne twister: A 128-bit pseudorandom number
+    generator'
+  author: Saito
+  first-page: '607'
+  series-title: Monte Carlo and Quasi-Monte Carlo Methods 2006
+  year: '2008'
+- unstructured: 'M. Saito, M. Matsumoto, A deviation of CURAND: Standard pseudorandom
+    number generator in CUDA for GPGPU, 2012. http://www.mcqmc2012.unsw.edu.au/slides/MCQMC2012_Matsumoto.pdf,
+    Presented at MCQMC’2012.'
+- article-title: Variants of Mersenne twister suitable for graphic processors
+  author: Saito
+  doi: 10.1145/2427023.2427029
+  first-page: '12:1'
+  journal-title: ACM Trans. Math. Software
+  volume: '39'
+  year: '2013'
+- article-title: 'Parallel random numbers: As easy as 1, 2, 3'
+  author: Salmon
+  first-page: '16:1'
+  series-title: Proceedings of the 2011 International Conference for High Performance
+    Computing, Networking, Storage and Analysis
+  year: '2011'
+- article-title: A comparison of CPUs, GPUs, FPGAs, and massively parallel processor
+    arrays for random number generation
+  author: Thomas
+  first-page: '63'
+  series-title: Proceedings of the ACM/SIGDA International Symposium on Field Programmable
+    Gate Arrays
+  year: '2009'
+- article-title: High quality uniform random number generation using LUT optimised
+    state-transition matrices
+  author: Thomas
+  doi: 10.1007/s11265-006-0014-9
+  first-page: '77'
+  journal-title: J. VLSI Signal Process. Syst.
+  volume: '47'
+  year: '2007'
+- article-title: The LUT-SR family of uniform random number generators for FPGA architectures
+  author: Thomas
+  doi: 10.1109/TVLSI.2012.2194171
+  first-page: '761'
+  journal-title: IEEE Trans. Very Large Scale Integr. (VLSI) Syst.
+  volume: '21'
+  year: '2013'
+- doi: 10.1145/1342250.1342263
+  unstructured: 'S. Tzeng, L.Y. Wei, Parallel white noise generation on a GPU via
+    cryptographic hash, in: Proceedings of the 2008 symposium on Interactive 3D graphics
+    and games, pp. 79–87.'
+- doi: 10.1109/AHS.2009.11
+  unstructured: 'T. Xiang, K. Benkrid, Mersenne twister random number generation on
+    FPGA, CPU and GPU, in: NASA/ESA Conference on Adaptive Hardware and Systems, AHS
+    2009, pp. 460–464.'
+- unstructured: 'F. Zafar, M. Olano, A. Curtis, GPU random numbers via the tiny encryption
+    algorithm, in: Proceedings of the Conference on High Performance Graphics, HPG’10,
+    pp. 133–141.'
+doc_url: http://api.elsevier.com/content/article/PII:S0378475416300829?httpAccept=text/xml
+doi: 10.1016/j.matcom.2016.05.005
+files:
+- lecuyer-pierre-and-munger-david-and-oreshkin-boris-and-simard-richardrandom-numbers-for-parallel-computers-requirements-and-methods-with-emphas.pdf
+journal: Mathematics and Computers in Simulation
+language: en
+month: 5
+pages: 3--17
+publisher: Elsevier BV
+ref: RandomNumbersLecuy2017
+time-added: 2022-10-31-15:29:35
+title: 'Random numbers for parallel computers: Requirements and methods, with emphasis
+  on GPUs'
+type: article
+url: http://dx.doi.org/10.1016/j.matcom.2016.05.005
+volume: '135'
+year: 2017

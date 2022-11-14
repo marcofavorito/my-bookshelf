@@ -1,0 +1,37 @@
+abstract: In this semi-tutorial paper, we first review the information-theoretic approach
+  to account for the computational costs incurred during the search for optimal actions
+  in a sequential decision-making problem. The traditional (MDP) framework ignores
+  computational limitations while searching for optimal policies, essentially assuming
+  that the acting agent is perfectly rational and aims for exact optimality. Using
+  the free-energy, a variational principle is introduced that accounts not only for
+  the value of a policy alone, but also considers the cost of finding this optimal
+  policy. The solution of the variational equations arising from this formulation
+  can be obtained using familiar Bellman-like value iterations from dynamic programming
+  (DP) and the Blahut-Arimoto (BA) algorithm from rate distortion theory. Finally,
+  we demonstrate the utility of the approach for generating hierarchies of state abstractions
+  that can be used to best exploit the available computational resources. A numerical
+  example showcases these concepts for a path-planning problem in a grid world environment.
+archiveprefix: arXiv
+author: Larsson, Daniel T. and Braun, Daniel and Tsiotras, Panagiotis
+author_list:
+- family: Larsson
+  given: Daniel T.
+- family: Braun
+  given: Daniel
+- family: Tsiotras
+  given: Panagiotis
+doi: 10.1109/CDC.2017.8263809
+eprint: 1710.07990v1
+file: 1710.07990v1.pdf
+files:
+- larsson-daniel-t.-and-braun-daniel-and-tsiotras-panagiotishierarchical-state-abstractions-for-decision-making-problems-with-computational-constra.pdf
+month: Oct
+note: 2017 IEEE Conference on Decision and Control
+primaryclass: cs.AI
+ref: 1710.07990v1
+time-added: 2022-11-09-18:25:16
+title: Hierarchical State Abstractions for Decision-Making Problems with   Computational
+  Constraints
+type: article
+url: http://arxiv.org/abs/1710.07990v1
+year: '2017'

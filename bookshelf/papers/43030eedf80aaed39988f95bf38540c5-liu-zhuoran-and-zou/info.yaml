@@ -1,0 +1,58 @@
+abstract: 'Building a scalable and real-time recommendation system is vital for many
+  businesses driven by time-sensitive customer feedback, such as short-videos ranking
+  or online ads. Despite the ubiquitous adoption of production-scale deep learning
+  frameworks like TensorFlow or PyTorch, these general-purpose frameworks fall short
+  of business demands in recommendation scenarios for various reasons: on one hand,
+  tweaking systems based on static parameters and dense computations for recommendation
+  with dynamic and sparse features is detrimental to model quality; on the other hand,
+  such frameworks are designed with batch-training stage and serving stage completely
+  separated, preventing the model from interacting with customer feedback in real-time.
+  These issues led us to reexamine traditional approaches and explore radically different
+  design choices. In this paper, we present Monolith, a system tailored for online
+  training. Our design has been driven by observations of our application workloads
+  and production environment that reflects a marked departure from other recommendations
+  systems. Our contributions are manifold: first, we crafted a collisionless embedding
+  table with optimizations such as expirable embeddings and frequency filtering to
+  reduce its memory footprint; second, we provide an production-ready online training
+  architecture with high fault-tolerance; finally, we proved that system reliability
+  could be traded-off for real-time learning. Monolith has successfully landed in
+  the BytePlus Recommend product.'
+archiveprefix: arXiv
+author: Liu, Zhuoran and Zou, Leqi and Zou, Xuan and Wang, Caihua and Zhang, Biao
+  and Tang, Da and Zhu, Bolin and Zhu, Yijie and Wu, Peng and Wang, Ke and Cheng,
+  Youlong
+author_list:
+- family: Liu
+  given: Zhuoran
+- family: Zou
+  given: Leqi
+- family: Zou
+  given: Xuan
+- family: Wang
+  given: Caihua
+- family: Zhang
+  given: Biao
+- family: Tang
+  given: Da
+- family: Zhu
+  given: Bolin
+- family: Zhu
+  given: Yijie
+- family: Wu
+  given: Peng
+- family: Wang
+  given: Ke
+- family: Cheng
+  given: Youlong
+eprint: 2209.07663v2
+file: 2209.07663v2.pdf
+files:
+- liu-zhuoran-and-zou-leqi-and-zou-xuan-and-wang-caihua-and-zhang-biao-and-tang-da-and-zhu-bolin-and-zhu-yijie-and-wu-peng-and-wang-ke-and-che.pdf
+month: Sep
+primaryclass: cs.IR
+ref: 2209.07663v2
+time-added: 2022-11-10-08:30:57
+title: 'Monolith: Real Time Recommendation System With Collisionless Embedding   Table'
+type: article
+url: http://arxiv.org/abs/2209.07663v2
+year: '2022'

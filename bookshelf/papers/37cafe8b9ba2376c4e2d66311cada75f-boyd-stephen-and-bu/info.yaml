@@ -1,0 +1,46 @@
+abstract: We consider a basic model of multi-period trading, which can be used to
+  evaluate the performance of a trading strategy. We describe a framework for single-period
+  optimization, where the trades in each period are found by solving a convex optimization
+  problem that trades off expected return, risk, transaction cost and holding cost
+  such as the borrowing cost for shorting assets. We then describe a multi-period
+  version of the trading method, where optimization is used to plan a sequence of
+  trades, with only the first one executed, using estimates of future quantities that
+  are unknown when the trades are chosen. The single-period method traces back to
+  Markowitz; the multi-period methods trace back to model predictive control. Our
+  contribution is to describe the single-period and multi-period methods in one simple
+  framework, giving a clear description of the development and the approximations
+  made. In this paper we do not address a critical component in a trading algorithm,
+  the predictions or forecasts of future quantities. The methods we describe in this
+  paper can be thought of as good ways to exploit predictions, no matter how they
+  are made. We have also developed a companion open-source software library that implements
+  many of the ideas and methods described in the paper.
+archiveprefix: arXiv
+author: Boyd, Stephen and Busseti, Enzo and Diamond, Steven and Kahn, Ronald N. and
+  Koh, Kwangmoo and Nystrup, Peter and Speth, Jan
+author_list:
+- family: Boyd
+  given: Stephen
+- family: Busseti
+  given: Enzo
+- family: Diamond
+  given: Steven
+- family: Kahn
+  given: Ronald N.
+- family: Koh
+  given: Kwangmoo
+- family: Nystrup
+  given: Peter
+- family: Speth
+  given: Jan
+eprint: 1705.00109v1
+file: 1705.00109v1.pdf
+files:
+- boyd-stephen-and-busseti-enzo-and-diamond-steven-and-kahn-ronald-n.-and-koh-kwangmoo-and-nystrup-peter-and-speth-janmulti-period-trading-via-co.pdf
+month: Apr
+primaryclass: q-fin.PM
+ref: 1705.00109v1
+time-added: 2022-11-06-18:14:46
+title: Multi-Period Trading via Convex Optimization
+type: article
+url: http://arxiv.org/abs/1705.00109v1
+year: '2017'
