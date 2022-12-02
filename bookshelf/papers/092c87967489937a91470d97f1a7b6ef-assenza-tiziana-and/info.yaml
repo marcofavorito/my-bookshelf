@@ -1,0 +1,162 @@
+abstract: "<jats:title>Abstract</jats:title>\n               <jats:p>In this paper\
+  \ the authors extend the macroeconomic agent-based model described in Delli Gatti,\
+  \ D., Desiderio, S., Gaffeo, E., Cirillo, P. and Gallegati, M. <jats:italic>(Macroeconomics\
+  \ from the bottom-up</jats:italic>, 2011) with the inclusion of a bank-bank network\
+  \ that mimics real-world dynamics of interbank markets. They also introduce a public\
+  \ sector and other modifications in order to carry out different policy experiments.\
+  \ More specifically, they test the implementation of a monetary policy by means\
+  \ of a standard Taylor rule, an unconventional monetary policy (i.e. helicopter\
+  \ drop) and a set of macroprudential regulations. The authors explore the properties\
+  \ of the model for such different scenarios. The results shed some light on the\
+  \ effectiveness of monetary and macroprudential policies in an economy with an interbank\
+  \ market during times of crises.</jats:p>"
+author: Assenza, Tiziana and Cardaci, Alberto and Gatti, Domenico Delli and Grazzini,
+  Jakob
+author_list:
+- affiliation:
+  - name: Complexity Lab in Economics (CLE) , Università Cattolica del Sacro Cuore
+      , Italy
+  family: Assenza
+  given: Tiziana
+- affiliation:
+  - name: Complexity Lab in Economics (CLE) , Università Cattolica del Sacro Cuore
+      , Italy
+  family: Cardaci
+  given: Alberto
+- affiliation:
+  - name: Complexity Lab in Economics (CLE) , Università Cattolica del Sacro Cuore
+      , Italy , and CESifo Group Munich , Germany
+  family: Gatti
+  given: Domenico Delli
+- affiliation:
+  - name: Complexity Lab in Economics (CLE) , Università Cattolica del Sacro Cuore
+      , Italy , and CESifo Group Munich , Germany
+  family: Grazzini
+  given: Jakob
+citations:
+- doi: 10.1093/rfs/hhm078
+  unstructured: '[1] Acharya, V. V. and Yorulmazer, T. (2008). Cash-in-the-market
+    pricing and optimal resolution of bank failures. The Review of Financial Studies,
+    21(6): 2705–2742. https://doi.org/10.1093/rfs/hhm07'
+- doi: 10.1257/aer.99.2.600
+  unstructured: '[2] Adrian, T. and Shin, H.S. (2009). Money, liquidity, and monetary
+    policy. American Economic Review, 99(2): 600–605. https://www.jstor.org/stable/25592465?seq=1#page_scan_tab_contents'
+- doi: 10.1016/j.jmoneco.2009.04.003
+  unstructured: '[3] Allen, F., Carletti, E. and Gale, D. (2009). Interbank market
+    liquidity and central bank intervention. Journal of Monetary Economics, 56(5):639–652.
+    https://doi.org/10.1016/j.jmoneco.2009.04.003'
+- doi: 10.1086/262109
+  unstructured: '[4] Allen, F. and Gale, D. (2000). Financial contagion. Journal of
+    Political Economy, 108(1): 1–33. https://www.journals.uchicago.edu/doi/10.1086/262109'
+- unstructured: '[5] Basel Committee on Banking Supervision (2011). Basel III: A global
+    regulatory framework for more resilient banks and banking systems. Bank for International
+    Settements. https://www.bis.org/publ/bcbs189.pdf'
+- doi: 10.1086/426038
+  unstructured: '[6] Christiano, L. J., Eichenbaum, M. and Evans, C. L. (2005). Nominal
+    Rigidities and the dynamic effects of a shock to monetary policy. Journal of Political
+    Economy, 113(1): 1–45. https://doi.org/10.1086/426038'
+- doi: 10.1007/s11403-014-0123-7
+  unstructured: '[7] Delli Gatti, D. and Desiderio, S. (2015). Monetary policy experiments
+    in an agent-based model with financial frictions. Journal of Economic Interaction
+    and Coordination, 10(2): 265–286. https://doi.org/10.1007/s11403-014-0123-7'
+- doi: 10.1007/978-88-470-1971-3
+  unstructured: '[8] Delli Gatti, D., Desiderio, S., Gaffeo, E., Cirillo, P. and Gallegati,
+    M. (2011). Macroeconomics from the bottom-up. Springer Science Business Media.'
+- doi: 10.1007/s11403-009-0054-x
+  unstructured: '[9] Delli Gatti, D., Gallegati, M., Greenwald, B. C., Russo, A. and
+    Stiglitz, J. E. (2009). Business fluctuations and bankruptcy avalanches in an
+    evolving network economy. Journal of Economic Interaction and Coordination, 4(2):
+    195–212. https://doi.org/10.1007/s11403-009-0054-x'
+- doi: 10.2139/ssrn.2837722
+  unstructured: '[10] Ferrari, M. (2016). Cascades along the business cycle. SSRN
+    Electronic Journal. http://dx.doi.org/10.2139/ssrn.2837722'
+- unstructured: '[11] Financial Stability Board (2011). Policy measures to address
+    systemically important financial institutions. Technical Report, Financial Stability
+    Board. http://www.fsb.org/2011/11/r_111104bb/'
+- doi: 10.1111/j.1538-4616.2008.00152.x
+  unstructured: '[12] Freixas, X. and Jorge, J. (2008). The role of interbank markets
+    in monetary policy: A model with rationing. Journal of Money, Credit and Banking,
+    40(6): 1151–1176. https://doi.org/10.1111/j.1538-4616.2008.00152.x'
+- doi: 10.1093/rfs/hhr018
+  unstructured: '[13] Freixas, X., Martin, A., and Skeie, D. (2011). Bank liquidity,
+    interbank markets, and monetary policy. Review of Financial Studies, 24(8): 2656–2692.
+    https://www.jstor.org/stable/20869320?seq=1#page_scan_tab_contents'
+- unstructured: '[14] Friedman, M. (1969). The optimum quantity of money and other
+    essays. Chicago: Aldine Publishing Company.'
+- doi: 10.1016/j.jedc.2014.07.002
+  unstructured: '[15] Gabbi, G., Iori, G., Jafarey, S. and Porter, J. (2015). Financial
+    regulations and bank credit to the real economy. Journal of Economic Dynamics
+    and Control, 50: 117–143. https://doi.org/10.1016/j.jedc.2014.07.002'
+- doi: 10.1016/j.jmoneco.2010.10.004
+  unstructured: '[16] Gertler, M. and Karadi, P. (2011). A model of unconventional
+    monetary policy. Journal of Monetary Economics, 58(1): 17–34. https://ideas.repec.org/a/eee/moneco/v58y2011i1p17-34.html'
+- doi: 10.1007/s11403-016-0174-z
+  unstructured: '[17] Gualdi, S., Tarzia, M., Zamponi, F. and Bouchaud, J. P. (2017).
+    Monetary policy and dark corners in a stylized agent-based model. Journal of Economic
+    Interaction and Coordination, 12(3): 507–537. https://doi.org/10.1007/s11403-016-0174-z'
+- doi: 10.1257/jep.25.1.3
+  unstructured: '[18] Hanson, S. G., Kashyap, A. K. and Stein, J. C. (2011). A macroprudential
+    approach to financial regulation. Journal of Economic Perspectives, 25(1): 3–28.
+    https://www.aeaweb.org/articles?id=10.1257/jep.25.1.3'
+- doi: 10.1016/j.jfineco.2015.07.002
+  unstructured: '[19] Heider, F., Hoerova, M. and Holthausen, C. (2015). Liquidity
+    hoarding and interbank market rates: The role of counterparty risk. Journal of
+    Financial Economics, 118(2): 336–354. https://doi.org/10.1016/j.jfineco.2015.07.002'
+- doi: 10.1515/snde-2014-0030
+  unstructured: '[20] Iori, G., Kapar, B., and Olmo, J. (2015a). Bank characteristics
+    and the interbank money market: A distributional approach. Studies in Nonlinear
+    Dynamics and Econometrics, 19(3): 249–283. https://www.researchgate.net/publication/277922535_Bank_characteristics_and_the_interbank_money_market_A_distributional_approach'
+- doi: 10.1016/j.jedc.2014.08.016
+  unstructured: '[21] Iori, G., Mantegna, R. N., Marotta, L., Micciche, S., Porter,
+    J. and Tumminello, M. (2015b). Networked relationships in the e-MID interbank
+    market: A trading model with memory. Journal of Economic Dynamics and Control,
+    50: 98–116. https://doi.org/10.1016/j.jedc.2014.08.016'
+- doi: 10.3386/w17934
+  unstructured: '[22] Kiyotaki, N. and Moore, J. (2012). Liquidity, business cycles,
+    and monetary policy. NBER Working Paper, No 17934. https://econpapers.repec.org/paper/nbrnberwo/17934.htm'
+- doi: 10.2139/ssrn.2540135
+  unstructured: '[23] Krause, M. U., Lubik, T., Krause, M. U., and Lubik, T. A. (2014).
+    Modeling labor markets in macroeconomics : Search and matching. Working paper.
+    Available at: https://www.richmondfed.org/publications/research/working_papers/2014/wp_14-19'
+- doi: 10.3386/w19777
+  unstructured: '[24] Michaillat, P. and Saez, E. (2014). An economical business-
+    cycle model. NBER Working Papers, No 19777. http://www.nber.org/papers/w19777'
+- doi: 10.1111/j.1468-0335.1958.tb00003.x
+  unstructured: '[25] Phillips, A. (1958). The Relation between unemployment and the
+    rate of change of money wage rates in the United Kingdom. Economica, 25(100):283–299.
+    https://www.jstor.org/stable/2550759?seq=1#page_scan_tab_contents'
+- unstructured: '[26] Shin, H. S. (2011). Macroprudential policies beyond Basel III.
+    In Shin, H. S. (2011) “Macroprudential regulation and policy”. Bank for International
+    Settlements, 60: 5–15. https://econpapers.repec.org/bookchap/bisbisbpc/60-02.htm'
+- doi: 10.1257/aer.97.3.586
+  unstructured: '[27] Smets, F. and Wouters, R. (2007). Shocks and frictions in US
+    business cycles: A Bayesian DSGE approach. American Economic Review, 97(3): 586–606.
+    https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586'
+- doi: 10.1016/0167-2231(93)90009-L
+  unstructured: '[28] Taylor, J. B. (1993). Discretion practice versus policy rules
+    in practice. Carnegie-Rochester Conference Series on Public Policy, 39:195–214.
+    https://doi.org/10.1016/0167-2231(93)90009-L'
+- doi: 10.1371/journal.pone.0052749
+  unstructured: '[29] Tedeschi, G., Mazloumian, A., Gallegati, M., and Helbing, D.
+    (2012). Bankruptcy cascades in interbank markets. PLoS ONE, 7(12). https://doi.org/10.1371/journal.pone.0052749'
+- doi: 10.1016/j.physa.2016.07.013
+  unstructured: '[30] Xu, T., He, J. and Li, S. (2016). A dynamic network model for
+    interbank market. Physica A: Statistical Mechanics and its Applications, 463:
+    131–138. https://doi.org/10.1016/j.physa.2016.07.013'
+doc_url: https://www.degruyter.com/document/doi/10.5018/economics-ejournal.ja.2018-47/pdf
+doi: 10.5018/economics-ejournal.ja.2018-47
+files:
+- assenza-tiziana-and-cardaci-alberto-and-gatti-domenico-delli-and-grazzini-jakobpolicy-experiments-in-an-agent-based-model-with-credit-networks2018.pdf
+- assenza-tiziana-and-cardaci-alberto-and-gatti-domenico-delli-and-grazzini-jakobpolicy-experiments-in-an-agent-based-model-with-credit-networks2018-a.pdf
+issue: '1'
+journal: Economics
+language: en
+month: 12
+publisher: Walter de Gruyter GmbH
+ref: PolicyExperimeAssenz2018
+time-added: 2022-11-18-14:14:58
+title: Policy experiments in an agent-based model with credit networks
+type: article
+url: http://dx.doi.org/10.5018/economics-ejournal.ja.2018-47
+volume: '12'
+year: 2018
