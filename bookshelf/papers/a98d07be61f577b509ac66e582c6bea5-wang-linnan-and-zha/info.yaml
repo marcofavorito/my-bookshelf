@@ -1,0 +1,45 @@
+abstract: Neural Architecture Search (NAS) has shown great success in automating the
+  design of neural networks, but the prohibitive amount of computations behind current
+  NAS methods requires further investigations in improving the sample efficiency and
+  the network evaluation cost to get better results in a shorter time. In this paper,
+  we present a novel scalable Monte Carlo Tree Search (MCTS) based NAS agent, named
+  AlphaX, to tackle these two aspects. AlphaX improves the search efficiency by adaptively
+  balancing the exploration and exploitation at the state level, and by a Meta-Deep
+  Neural Network (DNN) to predict network accuracies for biasing the search toward
+  a promising region. To amortize the network evaluation cost, AlphaX accelerates
+  MCTS rollouts with a distributed design and reduces the number of epochs in evaluating
+  a network by transfer learning guided with the tree structure in MCTS. In 12 GPU
+  days and 1000 samples, AlphaX found an architecture that reaches 97.84\% top-1 accuracy
+  on CIFAR-10, and 75.5\% top-1 accuracy on ImageNet, exceeding SOTA NAS methods in
+  both the accuracy and sampling efficiency. Particularly, we also evaluate AlphaX
+  on NASBench-101, a large scale NAS dataset; AlphaX is 3x and 2.8x more sample efficient
+  than Random Search and Regularized Evolution in finding the global optimum. Finally,
+  we show the searched architecture improves a variety of vision applications from
+  Neural Style Transfer, to Image Captioning and Object Detection.
+archiveprefix: arXiv
+author: Wang, Linnan and Zhao, Yiyang and Jinnai, Yuu and Tian, Yuandong and Fonseca,
+  Rodrigo
+author_list:
+- family: Wang
+  given: Linnan
+- family: Zhao
+  given: Yiyang
+- family: Jinnai
+  given: Yuu
+- family: Tian
+  given: Yuandong
+- family: Fonseca
+  given: Rodrigo
+eprint: 1903.11059v2
+file: 1903.11059v2.pdf
+files:
+- wang-linnan-and-zhao-yiyang-and-jinnai-yuu-and-tian-yuandong-and-fonseca-rodrigoalphax-exploring-neural-architectures-with-deep-neural-networks.pdf
+month: Mar
+primaryclass: cs.CV
+ref: 1903.11059v2
+time-added: 2022-12-06-11:58:10
+title: 'AlphaX: eXploring Neural Architectures with Deep Neural Networks and   Monte
+  Carlo Tree Search'
+type: article
+url: http://arxiv.org/abs/1903.11059v2
+year: '2019'

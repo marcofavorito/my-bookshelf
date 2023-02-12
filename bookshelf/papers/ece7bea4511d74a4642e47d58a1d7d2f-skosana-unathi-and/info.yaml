@@ -1,0 +1,257 @@
+abstract: "<jats:title>Abstract</jats:title><jats:p>We report a proof-of-concept demonstration\
+  \ of a quantum order-finding algorithm for factoring the integer 21. Our demonstration\
+  \ involves the use of a compiled version of the quantum phase estimation routine,\
+  \ and builds upon a previous demonstration. We go beyond this work by using a configuration\
+  \ of approximate Toffoli gates with residual phase shifts, which preserves the functional\
+  \ correctness and allows us to achieve a complete factoring of <jats:inline-formula><jats:alternatives><jats:tex-math>$$N=21$$</jats:tex-math><mml:math\
+  \ xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:mrow>\n\
+  \                    <mml:mi>N</mml:mi>\n                    <mml:mo>=</mml:mo>\n\
+  \                    <mml:mn>21</mml:mn>\n                  </mml:mrow>\n      \
+  \          </mml:math></jats:alternatives></jats:inline-formula>. We implemented\
+  \ the algorithm on IBM quantum processors using only five qubits and successfully\
+  \ verified the presence of entanglement between the control and work register qubits,\
+  \ which is a necessary condition for the algorithm’s speedup in general. The techniques\
+  \ we employ may be useful in carrying out Shor’s algorithm for larger integers,\
+  \ or other algorithms in systems with a limited number of noisy qubits.</jats:p>"
+author: Skosana, Unathi and Tame, Mark
+author_list:
+- affiliation: []
+  family: Skosana
+  given: Unathi
+- affiliation: []
+  family: Tame
+  given: Mark
+citations:
+- author: PW Shor
+  doi: 10.1137/S0097539795293172
+  first-page: '1484'
+  journal-title: SIAM J. Comput.
+  unstructured: Shor, P. W. Polynomial-time algorithms for prime factorization and
+    discrete logarithms on a quantum computer. SIAM J. Comput. 26, 1484–1509 (1997).
+  volume: '26'
+  year: '1997'
+- doi: 10.1017/CBO9780511976667
+  unstructured: 'Nielsen, M. A. & Chuang, I. L. Quantum Computation and Quantum Information:
+    10th Anniversary Edition, 10th edn (Cambridge University Press, 2011).'
+- unstructured: de Wolf, R. Quantum computing. in Lecture Notes (2019). arXiv:1907.09415.
+- doi: 10.1038/414883a
+  unstructured: Vandersypen, L. M. K. et al. Experimental realization of Shor’s quantum
+    factoring algorithm using nuclear magnetic resonance. Nature 414, 883–887 (2001).
+- author: X Peng
+  doi: 10.1103/PhysRevLett.101.220405
+  first-page: '220405'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Peng, X. et al. A quantum adiabatic algorithm for factorization and
+    its experimental implementation. Phys. Rev. Lett. 101, 220405 (2008).
+  volume: '101'
+  year: '2008'
+- author: G Vidal
+  doi: 10.1103/PhysRevLett.91.147902
+  first-page: '147902'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Vidal, G. Efficient classical simulation of slightly entangled quantum
+    computations. Phys. Rev. Lett. 91, 147902 (2003).
+  volume: '91'
+  year: '2003'
+- doi: 10.1103/PhysRevLett.99.250504
+  unstructured: Lu, C.-Y., Browne, D. E., Yang, T. & Pan, J.-W. Demonstration of a
+    compiled version of Shor’s quantum factoring algorithm using photonic qubits.
+    Phys. Rev. Lett. 99, 250504 (2007).
+- doi: 10.1103/PhysRevLett.99.250505
+  unstructured: Lanyon, B. P. et al. Experimental demonstration of a compiled version
+    of Shor’s algorithm with quantum entanglement. Phys. Rev. Lett. 99, 250505 (2007).
+- doi: 10.1126/science.1173731
+  unstructured: Politi, A., Matthews, J. C. F. & O’Brien, J. L. Shor’s quantum factoring
+    algorithm on a photonic chip. Science 325, 1221–1221 (2009).
+- author: E Lucero
+  doi: 10.1038/nphys2385
+  first-page: '719'
+  journal-title: Nat. Phys.
+  unstructured: Lucero, E. et al. Computing prime factors with a Josephson phase qubit
+    quantum processor. Nat. Phys. 8, 719–723 (2012).
+  volume: '8'
+  year: '2012'
+- doi: 10.1038/nphoton.2012.259
+  unstructured: Martín-López, E. et al. Experimental realization of Shor’s quantum
+    factoring algorithm using qubit recycling. Nat. Photon. 6, 773–776 (2012).
+- author: RB Griffiths
+  doi: 10.1103/PhysRevLett.76.3228
+  first-page: '3228'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Griffiths, R. B. & Niu, C.-S. Semiclassical Fourier transform for
+    quantum computation. Phys. Rev. Lett. 76, 3228–3231 (1996).
+  volume: '76'
+  year: '1996'
+- author: J Chiaverini
+  doi: 10.1126/science.1110335
+  first-page: '997'
+  journal-title: Science
+  unstructured: Chiaverini, J. et al. Implementation of the semiclassical quantum
+    Fourier transform in a scalable system. Science 308, 997–1000 (2005).
+  volume: '308'
+  year: '2005'
+- doi: 10.1103/PhysRevA.100.012305
+  unstructured: Amico, M., Saleem, Z. H. & Kumph, M. An experimental study of Shor’s
+    factoring algorithm on ibm q. Phys. Rev. A 100, 012305 (2019).
+- author: S Pal
+  doi: 10.1007/s12043-018-1684-0
+  first-page: '26'
+  journal-title: Pramana
+  unstructured: 'Pal, S., Moitra, S., Anjusha, V. S., Kumar, A. & Mahesh, T. S. Hybrid
+    scheme for factorisation: Factoring 551 using a 3-qubit NMR quantum adiabatic
+    processor. Pramana 92, 26 (2019).'
+  volume: '92'
+  year: '2019'
+- author: N Xu
+  doi: 10.1103/PhysRevLett.108.130501
+  first-page: '130501'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Xu, N. et al. Quantum factorization of 143 on a dipolar-coupling nuclear
+    magnetic resonance system. Phys. Rev. Lett. 108, 130501 (2012).
+  volume: '108'
+  year: '2012'
+- unstructured: Saxena, A., Shukla, A. & Pathak, A. (2020). arXiv:2009.05840.
+- author: S Parker
+  doi: 10.1103/PhysRevLett.85.3049
+  first-page: '3049'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Parker, S. & Plenio, M. B. Efficient factorization with a single pure
+    qubit and $${\rm log}N$$ mixed qubits. Phys. Rev. Lett. 85, 3049–3052 (2000).
+  volume: '85'
+  year: '2000'
+- doi: 10.26421/QIC3.2-8
+  unstructured: Beauregard, S. Circuit for Shor’s algorithm using 2n+3 qubits. Quantum
+    Info. Comput. 3, 175–185 (2003).
+- author: D Beckman
+  doi: 10.1103/PhysRevA.54.1034
+  first-page: '1034'
+  journal-title: Phys. Rev. A
+  unstructured: Beckman, D., Chari, A. N., Devabhaktuni, S. & Preskill, J. Efficient
+    networks for quantum factoring. Phys. Rev. A 54, 1034–1063 (1996).
+  volume: '54'
+  year: '1996'
+- unstructured: Margolus, N. Simple quantum gates. Unpublished manuscript (Circa 1994)
+    (1994).
+- author: G Song
+  first-page: '361'
+  journal-title: Quant. Inf. Comp.
+  unstructured: Song, G. & Klappenecker, A. Optimal realizations of simplified Toffoli
+    gates. Quant. Inf. Comp. 4, 361–372 (2004).
+  volume: '4'
+  year: '2004'
+- author: D Maslov
+  doi: 10.1103/PhysRevA.93.022311
+  first-page: '022311'
+  journal-title: Phys. Rev. A
+  unstructured: Maslov, D. Advantages of using relative-phase Toffoli gates with an
+    application to multiple control Toffoli optimization. Phys. Rev. A 93, 022311
+    (2016).
+  volume: '93'
+  year: '2016'
+- author: SL Braunstein
+  doi: 10.1103/PhysRevLett.83.1054
+  first-page: '1054'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Braunstein, S. L. et al. Separability of very noisy mixed states and
+    implications for NMR quantum computing. Phys. Rev. Lett. 83, 1054–1057 (1999).
+  volume: '83'
+  year: '1999'
+- author: R Jozsa
+  doi: 10.1098/rspa.2002.1097
+  first-page: '2011'
+  journal-title: Proc. R. Soc. A
+  unstructured: Jozsa, R. & Linden, N. On the role of entanglement in quantum-computational
+    speed-up. Proc. R. Soc. A 459, 2011–2032 (2003).
+  volume: '459'
+  year: '2003'
+- author: M Bourennane
+  doi: 10.1103/PhysRevLett.92.087902
+  first-page: 087902
+  journal-title: Phys. Rev. Lett.
+  unstructured: Bourennane, M. et al. Experimental detection of multipartite entanglement
+    using witness operators. Phys. Rev. Lett. 92, 087902 (2004).
+  volume: '92'
+  year: '2004'
+- author: G Tóth
+  doi: 10.1016/j.cpc.2008.03.007
+  first-page: '430'
+  journal-title: Comput. Phys. Commun.
+  unstructured: 'Tóth, G. Qubit4matlab v3.0: A program package for quantum information
+    science and quantum optics for matlab. Comput. Phys. Commun. 179, 430–437 (2008).'
+  volume: '179'
+  year: '2008'
+- author: X Ma
+  doi: 10.1103/PhysRevA.93.032140
+  first-page: '032140'
+  journal-title: Phys. Rev. A
+  unstructured: Ma, X. et al. Pure-state tomography with the expectation value of
+    Pauli operators. Phys. Rev. A 93, 032140 (2016).
+  volume: '93'
+  year: '2016'
+- author: D Gross
+  doi: 10.1103/PhysRevLett.105.150401
+  first-page: '150401'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Gross, D., Liu, Y.-K., Flammia, S. T., Becker, S. & Eisert, J. Quantum
+    state tomography via compressed sensing. Phys. Rev. Lett. 105, 150401 (2010).
+  volume: '105'
+  year: '2010'
+- author: H-Y Huang
+  doi: 10.1038/s41567-020-0932-7
+  first-page: '1050'
+  journal-title: Nat. Phys.
+  unstructured: Huang, H.-Y., Kueng, R. & Preskill, J. Predicting many properties
+    of a quantum system from very few measurements. Nat. Phys. 16, 1050–1057 (2020).
+  volume: '16'
+  year: '2020'
+- author: G Tóth
+  doi: 10.1103/PhysRevA.72.022340
+  first-page: '022340'
+  journal-title: Phys. Rev. A
+  unstructured: Tóth, G. & Gühne, O. Entanglement detection in the stabilizer formalism.
+    Phys. Rev. A 72, 022340 (2005).
+  volume: '72'
+  year: '2005'
+- author: F Baccari
+  first-page: '021042'
+  journal-title: Phys. Rev. X
+  unstructured: Baccari, F., Cavalcanti, D., Wittek, P. & Acín, A. Efficient device-independent
+    entanglement detection for multipartite systems. Phys. Rev. X 7, 021042 (2017).
+  volume: '7'
+  year: '2017'
+- author: L Knips
+  doi: 10.1103/PhysRevLett.117.210504
+  first-page: '210504'
+  journal-title: Phys. Rev. Lett.
+  unstructured: Knips, L., Schwemmer, C., Klein, N., Wieśniak, M. & Weinfurter, H.
+    Multipartite entanglement detection with minimal effort. Phys. Rev. Lett. 117,
+    210504 (2016).
+  volume: '117'
+  year: '2016'
+- doi: 10.1088/1367-2630/15/12/125020
+  unstructured: Banaszek, K., Cramer, M. & Gross, D. Focus on quantum tomography.
+    New J. Phys. 15, 125020 (2013).
+- author: A Barenco
+  doi: 10.1103/PhysRevA.54.139
+  first-page: '139'
+  journal-title: Phys. Rev. A
+  unstructured: Barenco, A., Ekert, A., Suominen, K.-A. & Törmä, P. Approximate quantum
+    Fourier transform and decoherence. Phys. Rev. A 54, 139–146 (1996).
+  volume: '54'
+  year: '1996'
+doc_url: https://www.nature.com/articles/s41598-021-95973-w
+doi: 10.1038/s41598-021-95973-w
+files:
+- skosana-unathi-and-tame-markdemonstration-of-shors-factoring-algorithm-for-n-21-on-ibm-quantum-processors2021.pdf
+issue: '1'
+journal: Scientific Reports
+language: en
+month: 8
+publisher: Springer Science and Business Media LLC
+ref: DemonstrationOSkosan2021
+time-added: 2023-02-06-10:52:39
+title: Demonstration of Shor’s factoring algorithm for N $$=$$ 21 on IBM quantum processors
+type: article
+url: http://dx.doi.org/10.1038/s41598-021-95973-w
+volume: '11'
+year: 2021

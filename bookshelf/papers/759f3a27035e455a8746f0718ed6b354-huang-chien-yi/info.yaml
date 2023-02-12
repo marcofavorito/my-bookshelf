@@ -1,0 +1,36 @@
+abstract: An automatic program that generates constant profit from the financial market
+  is lucrative for every market practitioner. Recent advance in deep reinforcement
+  learning provides a framework toward end-to-end training of such trading agent.
+  In this paper, we propose an Markov Decision Process (MDP) model suitable for the
+  financial trading task and solve it with the state-of-the-art deep recurrent Q-network
+  (DRQN) algorithm. We propose several modifications to the existing learning algorithm
+  to make it more suitable under the financial trading setting, namely 1. We employ
+  a substantially small replay memory (only a few hundreds in size) compared to ones
+  used in modern deep reinforcement learning algorithms (often millions in size.)
+  2. We develop an action augmentation technique to mitigate the need for random exploration
+  by providing extra feedback signals for all actions to the agent. This enables us
+  to use greedy policy over the course of learning and shows strong empirical performance
+  compared to more commonly used epsilon-greedy exploration. However, this technique
+  is specific to financial trading under a few market assumptions. 3. We sample a
+  longer sequence for recurrent neural network training. A side product of this mechanism
+  is that we can now train the agent for every T steps. This greatly reduces training
+  time since the overall computation is down by a factor of T. We combine all of the
+  above into a complete online learning algorithm and validate our approach on the
+  spot foreign exchange market.
+archiveprefix: arXiv
+author: Huang, Chien Yi
+author_list:
+- family: Huang
+  given: Chien Yi
+eprint: 1807.02787v1
+file: 1807.02787v1.pdf
+files:
+- huang-chien-yifinancial-trading-as-a-game-a-deep-reinforcement-learning-approach2018.pdf
+month: Jul
+primaryclass: q-fin.TR
+ref: 1807.02787v1
+time-added: 2023-01-05-16:56:14
+title: 'Financial Trading as a Game: A Deep Reinforcement Learning Approach'
+type: article
+url: http://arxiv.org/abs/1807.02787v1
+year: '2018'

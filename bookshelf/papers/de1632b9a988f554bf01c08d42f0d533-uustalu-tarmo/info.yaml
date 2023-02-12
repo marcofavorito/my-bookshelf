@@ -1,0 +1,34 @@
+abstract: Bove and Capretta's popular method for justifying function definitions by
+  general recursive equations is based on the observation that any structured general
+  recursion equation defines an inductive subset of the intended domain (the "domain
+  of definedness") for which the equation has a unique solution. To accept the definition,
+  it is hence enough to prove that this subset contains the whole intended domain.   This
+  approach works very well for "terminating" definitions. But it fails to account
+  for "productive" definitions, such as typical definitions of stream-valued functions.
+  We argue that such definitions can be treated in a similar spirit, proceeding from
+  a different unique solvability criterion. Any structured recursive equation defines
+  a coinductive relation between the intended domain and intended codomain (the "coinductive
+  graph"). This relation in turn determines a subset of the intended domain and a
+  quotient of the intended codomain with the property that the equation is uniquely
+  solved for the subset and quotient. The equation is therefore guaranteed to have
+  a unique solution for the intended domain and intended codomain whenever the subset
+  is the full set and the quotient is by equality.
+archiveprefix: arXiv
+author: Uustalu, Tarmo
+author_list:
+- family: Uustalu
+  given: Tarmo
+doi: 10.4204/EPTCS.77.8
+eprint: 1202.3502v1
+file: 1202.3502v1.pdf
+files:
+- uustalu-tarmostructured-general-corecursion-and-coinductive-graphs-extended-abstract-2012.pdf
+month: Feb
+note: EPTCS 77, 2012, pp. 55-61
+primaryclass: cs.LO
+ref: 1202.3502v1
+time-added: 2023-01-31-19:15:06
+title: Structured general corecursion and coinductive graphs [extended   abstract]
+type: article
+url: http://arxiv.org/abs/1202.3502v1
+year: '2012'

@@ -1,0 +1,42 @@
+abstract: When writing programs, people have the ability to tackle a new complex task
+  by decomposing it into smaller and more familiar subtasks. While it is difficult
+  to measure whether neural program synthesis methods have similar capabilities, what
+  we can measure is whether they compositionally generalize, that is, whether a model
+  that has been trained on the simpler subtasks is subsequently able to solve more
+  complex tasks. In this paper, we focus on measuring the ability of learned program
+  synthesizers to compositionally generalize. We first characterize several different
+  axes along which program synthesis methods would be desired to generalize, e.g.,
+  length generalization, or the ability to combine known subroutines in new ways that
+  do not occur in the training data. Based on this characterization, we introduce
+  a benchmark suite of tasks to assess these abilities based on two popular existing
+  datasets, SCAN and RobustFill. Finally, we make first attempts to improve the compositional
+  generalization ability of Transformer models along these axes through novel attention
+  mechanisms that draw inspiration from a human-like decomposition strategy. Empirically,
+  we find our modified Transformer models generally perform better than natural baselines,
+  but the tasks remain challenging.
+archiveprefix: arXiv
+author: Shi, Kensen and Hong, Joey and Zaheer, Manzil and Yin, Pengcheng and Sutton,
+  Charles
+author_list:
+- family: Shi
+  given: Kensen
+- family: Hong
+  given: Joey
+- family: Zaheer
+  given: Manzil
+- family: Yin
+  given: Pengcheng
+- family: Sutton
+  given: Charles
+eprint: 2204.03758v1
+file: 2204.03758v1.pdf
+files:
+- shi-kensen-and-hong-joey-and-zaheer-manzil-and-yin-pengcheng-and-sutton-charlescompositional-generalization-and-decomposition-in-neural-program.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2204.03758v1
+time-added: 2023-02-09-10:41:22
+title: Compositional Generalization and Decomposition in Neural Program   Synthesis
+type: article
+url: http://arxiv.org/abs/2204.03758v1
+year: '2022'

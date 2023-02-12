@@ -1,0 +1,39 @@
+abstract: Performance of machine learning algorithms depends critically on identifying
+  a good set of hyperparameters. While recent approaches use Bayesian optimization
+  to adaptively select configurations, we focus on speeding up random search through
+  adaptive resource allocation and early-stopping. We formulate hyperparameter optimization
+  as a pure-exploration non-stochastic infinite-armed bandit problem where a predefined
+  resource like iterations, data samples, or features is allocated to randomly sampled
+  configurations. We introduce a novel algorithm, Hyperband, for this framework and
+  analyze its theoretical properties, providing several desirable guarantees. Furthermore,
+  we compare Hyperband with popular Bayesian optimization methods on a suite of hyperparameter
+  optimization problems. We observe that Hyperband can provide over an order-of-magnitude
+  speedup over our competitor set on a variety of deep-learning and kernel-based learning
+  problems.
+archiveprefix: arXiv
+author: Li, Lisha and Jamieson, Kevin and DeSalvo, Giulia and Rostamizadeh, Afshin
+  and Talwalkar, Ameet
+author_list:
+- family: Li
+  given: Lisha
+- family: Jamieson
+  given: Kevin
+- family: DeSalvo
+  given: Giulia
+- family: Rostamizadeh
+  given: Afshin
+- family: Talwalkar
+  given: Ameet
+eprint: 1603.06560v4
+file: 1603.06560v4.pdf
+files:
+- li-lisha-and-jamieson-kevin-and-desalvo-giulia-and-rostamizadeh-afshin-and-talwalkar-ameethyperband-a-novel-bandit-based-approach-to-hyperparame.pdf
+month: Mar
+note: Journal of Machine Learning Research 18 (2018) 1-52
+primaryclass: cs.LG
+ref: 1603.06560v4
+time-added: 2022-12-06-14:29:31
+title: 'Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization'
+type: article
+url: http://arxiv.org/abs/1603.06560v4
+year: '2016'

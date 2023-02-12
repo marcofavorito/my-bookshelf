@@ -1,0 +1,34 @@
+abstract: 'Every program should always be accompanied by a specification that describes
+  important aspects of the code''s behavior, but writing good specifications is often
+  harder that writing the code itself. This paper addresses the problem of synthesizing
+  specifications automatically. Our method takes as input (i) a set of function definitions,
+  and (ii) a domain-specific language L in which the extracted properties are to be
+  expressed. It outputs a set of properties--expressed in L--that describe the behavior
+  of functions. Each of the produced property is a best L-property for signature:
+  there is no other L-property for signature that is strictly more precise. Furthermore,
+  the set is exhaustive: no more L-properties can be added to it to make the conjunction
+  more precise.   We implemented our method in a tool, spyro. When given the reference
+  implementation for a variety of SyGuS and Synquid synthesis benchmarks, spyro often
+  synthesized properties that that matched the original specification provided in
+  the synthesis benchmark.'
+archiveprefix: arXiv
+author: Park, Kanghee and D'Antoni, Loris and Reps, Thomas
+author_list:
+- family: Park
+  given: Kanghee
+- family: D'Antoni
+  given: Loris
+- family: Reps
+  given: Thomas
+eprint: 2301.11117v1
+file: 2301.11117v1.pdf
+files:
+- park-kanghee-and-d-antoni-loris-and-reps-thomassynthesizing-specifications2023.pdf
+month: Jan
+primaryclass: cs.PL
+ref: 2301.11117v1
+time-added: 2023-01-31-11:09:14
+title: Synthesizing Specifications
+type: article
+url: http://arxiv.org/abs/2301.11117v1
+year: '2023'
