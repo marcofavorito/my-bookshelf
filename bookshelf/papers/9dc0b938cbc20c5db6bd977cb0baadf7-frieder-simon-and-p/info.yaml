@@ -1,0 +1,54 @@
+abstract: 'We investigate the mathematical capabilities of ChatGPT by testing it on
+  publicly available datasets, as well as hand-crafted ones, and measuring its performance
+  against other models trained on a mathematical corpus, such as Minerva. We also
+  test whether ChatGPT can be a useful assistant to professional mathematicians by
+  emulating various use cases that come up in the daily professional activities of
+  mathematicians (question answering, theorem searching). In contrast to formal mathematics,
+  where large databases of formal proofs are available (e.g., the Lean Mathematical
+  Library), current datasets of natural-language mathematics, used to benchmark language
+  models, only cover elementary mathematics. We address this issue by introducing
+  a new dataset: GHOSTS. It is the first natural-language dataset made and curated
+  by working researchers in mathematics that (1) aims to cover graduate-level mathematics
+  and (2) provides a holistic overview of the mathematical capabilities of language
+  models. We benchmark ChatGPT on GHOSTS and evaluate performance against fine-grained
+  criteria. We make this new dataset publicly available to assist a community-driven
+  comparison of ChatGPT with (future) large language models in terms of advanced mathematical
+  comprehension. We conclude that contrary to many positive reports in the media (a
+  potential case of selection bias), ChatGPT''s mathematical abilities are significantly
+  below those of an average mathematics graduate student. Our results show that ChatGPT
+  often understands the question but fails to provide correct solutions. Hence, if
+  your goal is to use it to pass a university exam, you would be better off copying
+  from your average peer!'
+archiveprefix: arXiv
+author: Frieder, Simon and Pinchetti, Luca and Griffiths, Ryan-Rhys and Salvatori,
+  Tommaso and Lukasiewicz, Thomas and Petersen, Philipp Christian and Chevalier, Alexis
+  and Berner, Julius
+author_list:
+- family: Frieder
+  given: Simon
+- family: Pinchetti
+  given: Luca
+- family: Griffiths
+  given: Ryan-Rhys
+- family: Salvatori
+  given: Tommaso
+- family: Lukasiewicz
+  given: Thomas
+- family: Petersen
+  given: Philipp Christian
+- family: Chevalier
+  given: Alexis
+- family: Berner
+  given: Julius
+eprint: 2301.13867v1
+file: 2301.13867v1.pdf
+files:
+- frieder-simon-and-pinchetti-luca-and-griffiths-ryan-rhys-and-salvatori-tommaso-and-lukasiewicz-thomas-and-petersen-philipp-christian-and-chevali.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2301.13867v1
+time-added: 2023-02-08-22:05:16
+title: Mathematical Capabilities of ChatGPT
+type: article
+url: http://arxiv.org/abs/2301.13867v1
+year: '2023'

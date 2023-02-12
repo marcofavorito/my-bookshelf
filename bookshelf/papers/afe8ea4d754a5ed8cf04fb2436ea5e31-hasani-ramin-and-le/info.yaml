@@ -1,0 +1,437 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Continuous-time neural networks
+  are a class of machine learning systems that can tackle representation learning
+  on spatiotemporal decision-making tasks. These models are typically represented
+  by continuous differential equations. However, their expressive power when they
+  are deployed on computers is bottlenecked by numerical differential equation solvers.
+  This limitation has notably slowed down the scaling and understanding of numerous
+  natural physical phenomena such as the dynamics of nervous systems. Ideally, we
+  would circumvent this bottleneck by solving the given dynamical system in closed
+  form. This is known to be intractable in general. Here, we show that it is possible
+  to closely approximate the interaction between neurons and synapses—the building
+  blocks of natural and artificial neural networks—constructed by liquid time-constant
+  networks efficiently in closed form. To this end, we compute a tightly bounded approximation
+  of the solution of an integral appearing in liquid time-constant dynamics that has
+  had no known closed-form solution so far. This closed-form solution impacts the
+  design of continuous-time and continuous-depth neural models. For instance, since
+  time appears explicitly in closed form, the formulation relaxes the need for complex
+  numerical solvers. Consequently, we obtain models that are between one and five
+  orders of magnitude faster in training and inference compared with differential
+  equation-based counterparts. More importantly, in contrast to ordinary differential
+  equation-based continuous networks, closed-form networks can scale remarkably well
+  compared with other deep learning instances. Lastly, as these models are derived
+  from liquid networks, they show good performance in time-series modelling compared
+  with advanced recurrent neural network models.</jats:p>
+author: Hasani, Ramin and Lechner, Mathias and Amini, Alexander and Liebenwein, Lucas
+  and Ray, Aaron and Tschaikowski, Max and Teschl, Gerald and Rus, Daniela
+author_list:
+- affiliation: []
+  family: Hasani
+  given: Ramin
+- affiliation: []
+  family: Lechner
+  given: Mathias
+- affiliation: []
+  family: Amini
+  given: Alexander
+- affiliation: []
+  family: Liebenwein
+  given: Lucas
+- affiliation: []
+  family: Ray
+  given: Aaron
+- affiliation: []
+  family: Tschaikowski
+  given: Max
+- affiliation: []
+  family: Teschl
+  given: Gerald
+- affiliation: []
+  family: Rus
+  given: Daniela
+citations:
+- doi: 10.1609/aaai.v35i9.16936
+  unstructured: Hasani, R., Lechner, M., Amini, A., Rus, D. & Grosu, R. Liquid time-constant
+    networks. In Proc. of AAAI Conference on Artificial Intelligence 35(9), 7657–7666
+    (AAAI, 2021).
+- unstructured: Chen, T. Q., Rubanova, Y., Bettencourt, J. & Duvenaud, D. K. Neural
+    ordinary differential equations. In Proc. of Advances in Neural Information Processing
+    Systems (Eds. Bengio, S. et al.) 6571–6583 (NeurIPS, 2018).
+- unstructured: 'Grathwohl, W., Chen, R. T., Bettencourt, J., Sutskever, I. & Duvenaud,
+    D. Ffjord: free-form continuous dynamics for scalable reversible generative models.
+    In International Conference on Learning Representations (2018). https://openreview.net/forum?id=rJxgknCcK7'
+- unstructured: Dupont, E., Doucet, A. & Teh, Y. W. Augmented neural ODEs. In Proc.
+    of Advances in Neural Information Processing Systems (Eds. Wallach, H. et al.)
+    3134–3144 (NeurIPS, 2019).
+- doi: 10.1109/ICCV.2019.00464
+  unstructured: 'Yang, G. et al. Pointflow: 3D point cloud generation with continuous
+    normalizing flows. In Proc. of the IEEE/CVF International Conference on Computer
+    Vision 4541–4550 (IEEE, 2019).'
+- unstructured: 'Liebenwein, L., Hasani, R., Amini, A. & Daniela, R. Sparse flows:
+    pruning continuous-depth models. In Proc. of Advances in Neural Information Processing
+    Systems (Eds. Ranzato, M. et al.) 22628–22642 (NeurIPS, 2021).'
+- unstructured: Rubanova, Y., Chen, R. T. & Duvenaud, D. Latent Neural ODEs for irregularly-sampled
+    time series. In Proc. of Advances in Neural Information Processing Systems (Eds.
+    Wallach, H. et al.) 32 (NeurIPS, 2019).
+- unstructured: 'Gholami, A., Keutzer, K. & Biros, G. ANODE: unconditionally accurate
+    memory-efficient gradients for neural ODEs. In Proceedings of the 28th International
+    Joint Conference on Artificial Intelligence 730–736 (IJCAI, 2019).'
+- unstructured: Lechner, M. & Hasani, R. Learning long-term dependencies in irregularly-sampled
+    time series. Preprint at https://arxiv.org/abs/2006.04418 (2020).
+- author: PJ Prince
+  doi: 10.1016/0771-050X(81)90010-3
+  first-page: '67'
+  journal-title: J. Comput. Appl. Math.
+  unstructured: Prince, P. J. & Dormand, J. R. High order embedded Runge–Kutta formulae.
+    J. Comput. Appl. Math. 7, 67–75 (1981).
+  volume: '7'
+  year: '1981'
+- author: M Raissi
+  doi: 10.1016/j.jcp.2018.10.045
+  first-page: '686'
+  journal-title: J. Comput. Phys.
+  unstructured: 'Raissi, M., Perdikaris, P. & Karniadakis, G. E. Physics-informed
+    neural networks: a deep learning framework for solving forward and inverse problems
+    involving nonlinear partial differential equations. J. Comput. Phys. 378, 686–707
+    (2019).'
+  volume: '378'
+  year: '2019'
+- unstructured: Massaroli, S., Poli, M., Park, J., Yamashita, A. & Asma, H. Dissecting
+    neural ODEs. In Proc. of 33th Conference on Neural Information Processing Systems
+    (Eds. Larochelle, H. et al.) (NeurIPS, 2020).
+- author: S Bai
+  first-page: '690'
+  journal-title: Adv. Neural Inform. Process. Syst.
+  unstructured: Bai, S., Kolter, J. Z. & Koltun, V. Deep equilibrium models. Adv.
+    Neural Inform. Process. Syst. 32, 690–701 (2019).
+  volume: '32'
+  year: '2019'
+- unstructured: 'Finlay, C., Jacobsen, J.-H., Nurbekyan, L. & Oberman, A. M. How to
+    train your neural ODE: the world of Jacobian and kinetic regularization. In International
+    Conference on Machine Learning (Eds. Daumé III, H. & Singh, A.) 3154–3164 (PMLR,
+    2020).'
+- unstructured: Massaroli, S. et al. Stable Neural Flows. Preprint at https://arxiv.org/abs/2003.08063
+    (2020).
+- unstructured: 'Kidger, P., Chen, R. T. & Lyons, T. “Hey, that’s not an ODE”: Faster
+    ODE Adjoints via Seminorms. In Proceedings of the 38th International Conference
+    on Machine Learning (Eds. Meila, M. & Zhang, T.) 139 (PMLR, 2021).'
+- unstructured: 'Poli, M. et al. Hypersolvers: toward fast continuous-depth models.
+    In Proc. of Advances in Neural Information Processing Systems (Eds. Larochelle,
+    H.) 21105–21117 (NeurIPS, 2020).'
+- author: J Schumacher
+  doi: 10.1103/PhysRevE.85.056215
+  first-page: '056215'
+  journal-title: Phys. Rev. E
+  unstructured: Schumacher, J., Haslinger, R. & Pipa, G. Statistical modeling approach
+    for detecting generalized synchronization. Phys. Rev. E 85, 056215 (2012).
+  volume: '85'
+  year: '2012'
+- author: R Moran
+  doi: 10.3389/fncom.2013.00057
+  first-page: '57'
+  journal-title: Front. Comput. Neurosci.
+  unstructured: Moran, R., Pinotsis, D. A. & Friston, K. Neural masses and fields
+    in dynamic causal modeling. Front. Comput. Neurosci. 7, 57 (2013).
+  volume: '7'
+  year: '2013'
+- author: KJ Friston
+  doi: 10.1016/S1053-8119(03)00202-7
+  first-page: '1273'
+  journal-title: Neuroimage
+  unstructured: Friston, K. J., Harrison, L. & Penny, W. Dynamic causal modelling.
+    Neuroimage 19, 1273–1302 (2003).
+  volume: '19'
+  year: '2003'
+- author: L Perko
+  doi: 10.1007/978-1-4684-0392-3
+  unstructured: Perko, L. Differential Equations and Dynamical Systems (Springer-Verlag,
+    1991).
+  volume-title: Differential Equations and Dynamical Systems
+  year: '1991'
+- author: M Lechner
+  doi: 10.1038/s42256-020-00237-3
+  first-page: '642'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Lechner, M. et al. Neural circuit policies enabling auditable autonomy.
+    Nat. Mach. Intell. 2, 642–652 (2020).
+  volume: '2'
+  year: '2020'
+- unstructured: Hochreiter, S. Untersuchungen zu dynamischen neuronalen netzen. Diploma,
+    Technische Universität München 91 (1991).
+- unstructured: Vorbach, C., Hasani, R., Amini, A., Lechner, M. & Rus, D. Causal navigation
+    by continuous-time neural networks. In Proc. of Advances in Neural Information
+    Processing Systems (Eds. Ranzato, M. et al.) 12425–12440 (NeurIPS, 2021).
+- doi: 10.1109/IJCNN.2019.8851954
+  unstructured: Hasani, R. et al. Response characterization for auditing cell dynamics
+    in long short-term memory networks. In Proc. of 2019 International Joint Conference
+    on Neural Networks 1–8 (IEEE, 2019).
+- unstructured: Anguita, D., Ghio, A., Oneto, L., Parra Perez, X. & Reyes Ortiz, J.
+    L. A public domain dataset for human activity recognition using smartphones. In
+    Proc. of the 21st International European Symposium on Artificial Neural Networks,
+    Computational Intelligence and Machine Learning 437–442 (i6doc, 2013).
+- doi: 10.1109/IROS.2012.6386109
+  unstructured: 'Todorov, E., Erez, T. & Tassa, Y. MuJoCo: a physics engine for model-based
+    control. In Proc. of 2012 IEEE/RSJ International Conference on Intelligent Robots
+    and Systems 5026–5033 (IEEE, 2012).'
+- unstructured: 'Maas, A. et al. Learning word vectors for sentiment analysis. In
+    Proc. of the 49th Annual Meeting of the Association for Computational Linguistics:
+    Human Language Technologies 142–150 (ACM, 2011).'
+- author: L Lu
+  doi: 10.1038/s42256-021-00302-5
+  first-page: '218'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Lu, L., Jin, P., Pang, G., Zhang, Z. & Karniadakis, G. E. Learning
+    nonlinear operators via deeponet based on the universal approximation theorem
+    of operators. Nat. Mach. Intell. 3, 218–229 (2021).
+  volume: '3'
+  year: '2021'
+- author: GE Karniadakis
+  doi: 10.1038/s42254-021-00314-5
+  first-page: '422'
+  journal-title: Nat. Rev. Phys.
+  unstructured: Karniadakis, G. E. et al. Physics-informed machine learning. Nat.
+    Rev. Phys. 3, 422–440 (2021).
+  volume: '3'
+  year: '2021'
+- author: S Wang
+  doi: 10.1126/sciadv.abi8605
+  first-page: eabi8605
+  journal-title: Sci. Adv.
+  unstructured: Wang, S., Wang, H. & Perdikaris, P. Learning the solution operator
+    of parametric partial differential equations with physics-informed deeponets.
+    Sci. Adv. 7, eabi8605 (2021).
+  volume: '7'
+  year: '2021'
+- unstructured: Rezende, D. & Mohamed, S. Variational inference with normalizing flows.
+    In Proc. of International Conference on Machine Learning (Eds. Bach, F. & Blei,
+    D.) 1530–1538 (PMLR, 2015).
+- unstructured: Gu, A., Goel, K. & Re, C. Efficiently modeling long sequences with
+    structured state spaces. In Proc. of International Conference on Learning Representations
+    (2022). https://openreview.net/forum?id=uYLFoz1vlAC
+- unstructured: Hasani, R. et al. Liquid structural state-space models. Preprint at
+    https://arxiv.org/abs/2209.12951 (2022).
+- author: S Grunbacher
+  first-page: '11525'
+  journal-title: Proc. AAAI Conf. Artif. Intell.
+  unstructured: Grunbacher, S. et al. On the verification of neural ODEs with stochastic
+    guarantees. Proc. AAAI Conf. Artif. Intell. 35, 11525–11535 (2021).
+  volume: '35'
+  year: '2021'
+- unstructured: Vaswani, A. et al. Attention is all you need. In Proc. of Advances
+    in Neural Information Processing Systems (Eds. Guyon, I. et al.) 5998–6008 (NeurIPS,
+    2017).
+- doi: 10.1109/ICRA48506.2021.9561036
+  unstructured: Lechner, M., Hasani, R., Grosu, R., Rus, D. & Henzinger, T. A. Adversarial
+    training is not ready for robot learning. In 2021 IEEE International Conference
+    on Robotics and Automation (ICRA) 4140–4147 (IEEE, 2021).
+- doi: 10.1109/ICRA46639.2022.9811650
+  unstructured: Brunnbauer, A. et al. Latent imagination facilitates zero-shot transfer
+    in autonomous racing. In 2022 International Conference on Robotics and Automation
+    (ICRA) 7513–7520 (IEEE, 2021).
+- doi: 10.1109/PRIME.2016.7519486
+  unstructured: Hasani, R. M., Haerle, D. & Grosu, R. Efficient modeling of complex
+    analog integrated circuits using neural networks. In Proc. of 12th Conference
+    on Ph.D. Research in Microelectronics and Electronics 1–4 (IEEE, 2016).
+- author: G Wang
+  doi: 10.1016/j.asoc.2019.105683
+  first-page: '105683'
+  journal-title: Appl. Soft Comput.
+  unstructured: Wang, G., Ledwoch, A., Hasani, R. M., Grosu, R. & Brintrup, A. A generative
+    neural network model for the quality prediction of work in progress products.
+    Appl. Soft Comput. 85, 105683 (2019).
+  volume: '85'
+  year: '2019'
+- author: J DelPreto
+  doi: 10.1007/s10514-020-09916-x
+  first-page: '1303'
+  journal-title: Auton. Robots
+  unstructured: DelPreto, J. et al. Plug-and-play supervisory control using muscle
+    and brain signals for real-time gesture and error detection. Auton. Robots 44,
+    1303–1322 (2020).
+  volume: '44'
+  year: '2020'
+- unstructured: Hasani, R. Interpretable Recurrent Neural Networks in Continuous-Time
+    Control Environments. PhD dissertation, Technische Univ. Wien (2020).
+- unstructured: Rudin, W. Principles of Mathematical Analysis, 3rd edn. (McGraw-Hill,
+    1976).
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  unstructured: Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput.
+    9, 1735–1780 (1997).
+  volume: '9'
+  year: '1997'
+- unstructured: Chung, J., Gulcehre, C., Cho, K. & Bengio, Y. Empirical evaluation
+    of gated recurrent neural networks on sequence modeling. Preprint at https://arxiv.org/abs/1412.3555
+    (2014).
+- unstructured: Shukla, S. N. & Marlin, B. Interpolation–prediction networks for irregularly
+    sampled time series. In Proc. of International Conference on Learning Representations
+    (2018). https://openreview.net/forum?id=r1efr3C9Ym
+- unstructured: Horn, M., Moor, M., Bock, C., Rieck, B. & Borgwardt, K. Set functions
+    for time series. In Proc. of International Conference on Machine Learning (Eds.
+    Daumé III, H. & Singh, A.) 4353–4363 (PMLR, 2020).
+- author: K-i Funahashi
+  doi: 10.1016/S0893-6080(05)80125-X
+  first-page: '801'
+  journal-title: Neural Netw.
+  unstructured: Funahashi, K.-i & Nakamura, Y. Approximation of dynamical systems
+    by continuous time recurrent neural networks. Neural Netw. 6, 801–806 (1993).
+  volume: '6'
+  year: '1993'
+- unstructured: Mozer, M. C., Kazakov, D. & Lindsey, R. V. Discrete event, continuous
+    time RNNs. Preprint at https://arxiv.org/abs/1710.04110 (2017).
+- unstructured: 'Mei, H. & Eisner, J. The neural Hawkes process: a neurally self-modulating
+    multivariate point process. In Proc. of 31st International Conference on Neural
+    Information Processing Systems (Eds. Guyon, I. et al.) 6757–6767 (Curran Associates
+    Inc., 2017).'
+- author: Z Che
+  doi: 10.1038/s41598-018-24271-9
+  first-page: '1'
+  journal-title: Sci. Rep.
+  unstructured: Che, Z., Purushotham, S., Cho, K., Sontag, D. & Liu, Y. Recurrent
+    neural networks for multivariate time series with missing values. Sci. Rep. 8,
+    1–12 (2018).
+  volume: '8'
+  year: '2018'
+- unstructured: 'Neil, D., Pfeiffer, M. & Liu, S.-C. Phased LSTM: accelerating recurrent
+    network training for long or event-based sequences. In Proc. of 30th International
+    Conference on Neural Information Processing Systems (Eds. Lee, D. D. et al.) 3889–3897
+    (Curran Associates Inc., 2016).'
+- author: M Schuster
+  doi: 10.1109/78.650093
+  first-page: '2673'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: Schuster, M. & Paliwal, K. K. Bidirectional recurrent neural networks.
+    IEEE Trans. Signal Process. 45, 2673–2681 (1997).
+  volume: '45'
+  year: '1997'
+- unstructured: 'Voelker, A. R., Kajić, I. & Eliasmith, C. Legendre memory units:
+    continuous-time representation in recurrent neural networks. In Proceedings of
+    the 33rd International Conference on Neural Information Processing Systems (Eds.
+    Wallach, H. et al.) 15570–15579 (ACM, 2019).'
+- unstructured: 'Gu, A., Dao, T., Ermon, S., Rudra, A. & Ré, C. Hippo: recurrent memory
+    with optimal polynomial projections. In Proc. of Advances in Neural Information
+    Processing Systems (Eds. Larochelle, H. et al.) 1474–1487 (NeurIPS, 2020).'
+- unstructured: 'Lezcano-Casado, M. & Martınez-Rubio, D. Cheap orthogonal constraints
+    in neural networks: a simple parametrization of the orthogonal and unitary group.
+    In Proc. of International Conference on Machine Learning (Eds. Chaudhuri, K. &
+    Salakhutdinov, R.) 3794–3803 (PMLR, 2019).'
+- unstructured: 'Rusch, T. K. & Mishra, S. Coupled oscillatory recurrent neural network
+    (coRNN): an accurate and (gradient) stable architecture for learning long time
+    dependencies. In Proc. of International Conference on Learning Representations
+    (2021). https://openreview.net/forum?id=F3s69XzWOia'
+- unstructured: Erichson, N. B., Azencot, O., Queiruga, A., Hodgkinson, L. & Mahoney,
+    M. W. Lipschitz recurrent neural networks. In Proc. of International Conference
+    on Learning Representations (2021). https://openreview.net/forum?id=-N7PBXqOUJZ
+- unstructured: Brockman, G. et al. OpenAI gym. Preprint at https://arxiv.org/abs/1606.01540
+    (2016).
+- doi: 10.1109/ICRA.2019.8793840
+  unstructured: Lechner, M., Hasani, R., Zimmer, M., Henzinger, T. A. & Grosu, R.
+    Designing worm-inspired neural networks for interpretable robotic control. In
+    Proc. of International Conference on Robotics and Automation 87–94 (IEEE, 2019).
+- author: P Tylkin
+  doi: 10.1109/LRA.2022.3146555
+  first-page: '3265'
+  journal-title: IEEE Robot. Autom. Lett.
+  unstructured: Tylkin, P. et al. Interpretable autonomous flight via compact visualizable
+    neural circuit policies. IEEE Robot. Autom. Lett. 7, 3265–3272 (2022).
+  volume: '7'
+  year: '2022'
+- doi: 10.1109/ICRA46639.2022.9812276
+  unstructured: 'Amini, A. et al. Vista 2.0: An open, data-driven simulator for multimodal
+    sensing and policy learning for autonomous vehicles. In 2022 International Conference
+    on Robotics and Automation (ICRA) 2419–2426 (IEEE, 2022).'
+- doi: 10.1109/LRA.2020.2966414
+  unstructured: Amini, A. et al. Learning robust control policies for end-to-end autonomous
+    driving from data-driven simulation. IEEE Robot. Autom. Lett. 5, 1143–1150 (2020).
+- unstructured: Levine, S. & Koltun, V. Guided policy search. In Proc. of International
+    Conference on Machine Learning (Eds. Dasgupta, S. & McAllester, D.) 1–9 (PMLR,
+    2013).
+- doi: 10.1109/ICRA.2018.8461053
+  unstructured: 'Bojarski, M. et al. VisualBackProp: efficient visualization of CNNs
+    for autonomous driving. In Proc. of IEEE International Conference on Robotics
+    and Automation 1–8 (IEEE, 2018).'
+- author: H Zhang
+  doi: 10.1109/TNNLS.2014.2317880
+  first-page: '1229'
+  journal-title: IEEE Trans. Neural Netw. Learn. Syst
+  unstructured: Zhang, H., Wang, Z. & Liu, D. A comprehensive review of stability
+    analysis of continuous-time recurrent neural networks. IEEE Trans. Neural Netw.
+    Learn. Syst 25, 1229–1262 (2014).
+  volume: '25'
+  year: '2014'
+- author: E Weinan
+  doi: 10.1007/s40304-017-0103-z
+  first-page: '1'
+  journal-title: Commun. Math. Stat.
+  unstructured: Weinan, E. A proposal on machine learning via dynamical systems. Commun.
+    Math. Stat. 5, 1–11 (2017).
+  volume: '5'
+  year: '2017'
+- unstructured: 'Lu, Z., Pu, H., Wang, F., Hu, Z. & Wang, L. The expressive power
+    of neural networks: a view from the width. In Proc. of Advances in Neural Information
+    Processing Systems (Eds. Guyon, I. et al.) 30 (Curran Associates, Inc 2017).'
+- unstructured: Li, Q., Chen, L., Tai, C. et al. Maximum principle based algorithms
+    for deep learning. J. Mach. Learn. Res. 18, 5998–6026 (2018).
+- author: MA Cohen
+  doi: 10.1109/TSMC.1983.6313075
+  first-page: '815'
+  journal-title: IEEE Trans. Syst. Man Cybern.
+  unstructured: Cohen, M. A. & Grossberg, S. Absolute stability of global pattern
+    formation and parallel memory storage by competitive neural networks. IEEE Trans.
+    Syst. Man Cybern. 5, 815–826 (1983).
+  volume: '5'
+  year: '1983'
+- unstructured: Mathieu, E. & Nickel, M. Riemannian continuous normalizing flows.
+    In Proc. of Advances in Neural Information Processing Systems Vol. 33 (eds Larochelle
+    et al.) 2503–2515 (Curran Associates, Inc., 2020).
+- unstructured: Hodgkinson, L., van der Heide, C., Roosta, F. & Mahoney, M. W. Stochastic
+    normalizing flows. In Proc. of Advances in Neural Information Processing Systems
+    (Eds. Larochelle, H. et al.) 5933–5944 (NeurIPS, 2020).
+- unstructured: Haber, E., Lensink, K., Treister, E. & Ruthotto, L. IMEXnet a forward
+    stable deep neural network. In Proc. of International Conference on Machine Learning
+    (Eds. Chaudhuri, K. & Salakhutdinov, R.) 2525–2534 (PMLR, 2019).
+- unstructured: 'Chang, B., Chen, M., Haber, E. & Chi, E. H. AntisymmetricRNN: a dynamical
+    system view on recurrent neural networks. In International Conference on Learning
+    Representations (2018). https://openreview.net/forum?id=ryxepo0cFX'
+- doi: 10.1109/ICRA40945.2020.9196608
+  unstructured: Lechner, M., Hasani, R., Rus, D. & Grosu, R. Gershgorin loss stabilizes
+    the recurrent neural network compartment of an end-to-end robot learning scheme.
+    In Proc. of IEEE International Conference on Robotics and Automation 5446–5452
+    (IEEE, 2020).
+- author: P Gleeson
+  doi: 10.1098/rstb.2017.0379
+  first-page: '20170379'
+  journal-title: Philos.Trans. R. Soc. B
+  unstructured: 'Gleeson, P., Lung, D., Grosu, R., Hasani, R. & Larson, S. D. c302:
+    a multiscale framework for modelling the nervous system of Caenorhabditis elegans.
+    Philos.Trans. R. Soc. B 373, 20170379 (2018).'
+  volume: '373'
+  year: '2018'
+- unstructured: Li, X., Wong, T.-K. L., Chen, R. T. & Duvenaud, D. Scalable gradients
+    for stochastic differential equations. In Proc. of International Conference on
+    Artificial Intelligence and Statistics 3870–3882 (PMLR, 2020).
+- unstructured: Shukla, S. N. & Marlin, B. M. Multi-time attention networks for irregularly
+    sampled time series. In International Conference on Learning Representations (2020).
+    https://openreview.net/forum?id=4c0J6lwQ4_
+- doi: 10.1609/aaai.v35i16.17664
+  unstructured: 'Xiong, Y. et al. Nyströmformer: a Nyström-based algorithm for approximating
+    self-attention. In Proceedings of the AAAI Conference on Artificial Intelligence
+    Vol. 35, No. 16, pp. 14138–14148 (AAAI, 2021).'
+doc_url: https://www.nature.com/articles/s42256-022-00556-7
+doi: 10.1038/s42256-022-00556-7
+files:
+- hasani-ramin-and-lechner-mathias-and-amini-alexander-and-liebenwein-lucas-and-ray-aaron-and-tschaikowski-max-and-teschl-gerald-and-rus-daniela.pdf
+issue: '11'
+journal: Nature Machine Intelligence
+language: en
+month: 11
+pages: 992--1003
+publisher: Springer Science and Business Media LLC
+ref: ClosedFormConHasani2022
+time-added: 2023-02-08-20:29:45
+title: Closed-form continuous-time neural networks
+type: article
+url: http://dx.doi.org/10.1038/s42256-022-00556-7
+volume: '4'
+year: 2022

@@ -1,0 +1,40 @@
+abstract: 'We propose to study proof search from a coinductive point of view. In this
+  paper, we consider intuitionistic logic and a focused system based on Herbelin''s
+  LJT for the implicational fragment. We introduce a variant of lambda calculus with
+  potentially infinitely deep terms and a means of expressing alternatives for the
+  description of the "solution spaces" (called B\"ohm forests), which are a representation
+  of all (not necessarily well-founded but still locally well-formed) proofs of a
+  given formula (more generally: of a given sequent).   As main result we obtain,
+  for each given formula, the reduction of a coinductive definition of the solution
+  space to a effective coinductive description in a finitary term calculus with a
+  formal greatest fixed-point operator. This reduction works in a quite direct manner
+  for the case of Horn formulas. For the general case, the naive extension would not
+  even be true. We need to study "co-contraction" of contexts (contraction bottom-up)
+  for dealing with the varying contexts needed beyond the Horn fragment, and we point
+  out the appropriate finitary calculus, where fixed-point variables are typed with
+  sequents. Co-contraction enters the interpretation of the formal greatest fixed
+  points - curiously in the semantic interpretation of fixed-point variables and not
+  of the fixed-point operator.'
+archiveprefix: arXiv
+author: Santo, José Espírito and Matthes, Ralph and Pinto, Luís
+author_list:
+- family: Santo
+  given: José Espírito
+- family: Matthes
+  given: Ralph
+- family: Pinto
+  given: Luís
+doi: 10.4204/EPTCS.126.3
+eprint: 1309.0892v1
+file: 1309.0892v1.pdf
+files:
+- santo-jose-espirito-and-matthes-ralph-and-pinto-luisa-coinductive-approach-to-proof-search2013.pdf
+month: Sep
+note: EPTCS 126, 2013, pp. 28-43
+primaryclass: cs.LO
+ref: 1309.0892v1
+time-added: 2023-01-31-22:19:24
+title: A Coinductive Approach to Proof Search
+type: article
+url: http://arxiv.org/abs/1309.0892v1
+year: '2013'

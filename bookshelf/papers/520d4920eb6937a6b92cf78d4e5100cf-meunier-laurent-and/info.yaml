@@ -1,0 +1,50 @@
+abstract: Existing studies in black-box optimization for machine learning suffer from
+  low generalizability, caused by a typically selective choice of problem instances
+  used for training and testing different optimization algorithms. Among other issues,
+  this practice promotes overfitting and poor-performing user guidelines. To address
+  this shortcoming, we propose in this work a benchmark suite, OptimSuite, which covers
+  a broad range of black-box optimization problems, ranging from academic benchmarks
+  to real-world applications, from discrete over numerical to mixed-integer problems,
+  from small to very large-scale problems, from noisy over dynamic to static problems,
+  etc. We demonstrate the advantages of such a broad collection by deriving from it
+  Automated Black Box Optimizer (ABBO), a general-purpose algorithm selection wizard.
+  Using three different types of algorithm selection techniques, ABBO achieves competitive
+  performance on all benchmark suites. It significantly outperforms previous state
+  of the art on some of them, including YABBOB and LSGO. ABBO relies on many high-quality
+  base components. Its excellent performance is obtained without any task-specific
+  parametrization.   The OptimSuite benchmark collection, the ABBO wizard and its
+  base solvers have all been merged into the open-source Nevergrad platform, where
+  they are available for reproducible research.
+archiveprefix: arXiv
+author: Meunier, Laurent and Rakotoarison, Herilalaina and Wong, Pak Kan and Roziere,
+  Baptiste and Rapin, Jeremy and Teytaud, Olivier and Moreau, Antoine and Doerr, Carola
+author_list:
+- family: Meunier
+  given: Laurent
+- family: Rakotoarison
+  given: Herilalaina
+- family: Wong
+  given: Pak Kan
+- family: Roziere
+  given: Baptiste
+- family: Rapin
+  given: Jeremy
+- family: Teytaud
+  given: Olivier
+- family: Moreau
+  given: Antoine
+- family: Doerr
+  given: Carola
+eprint: 2010.04542v3
+file: 2010.04542v3.pdf
+files:
+- meunier-laurent-and-rakotoarison-herilalaina-and-wong-pak-kan-and-roziere-baptiste-and-rapin-jeremy-and-teytaud-olivier-and-moreau-antoine-and.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2010.04542v3
+time-added: 2023-01-19-14:22:13
+title: 'Black-Box Optimization Revisited: Improving Algorithm Selection Wizards   through
+  Massive Benchmarking'
+type: article
+url: http://arxiv.org/abs/2010.04542v3
+year: '2020'

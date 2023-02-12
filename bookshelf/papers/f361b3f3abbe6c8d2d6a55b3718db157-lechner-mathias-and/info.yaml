@@ -1,0 +1,425 @@
+author: Lechner, Mathias and Hasani, Ramin and Amini, Alexander and Henzinger, Thomas
+  A. and Rus, Daniela and Grosu, Radu
+author_list:
+- affiliation: []
+  family: Lechner
+  given: Mathias
+- affiliation: []
+  family: Hasani
+  given: Ramin
+- affiliation: []
+  family: Amini
+  given: Alexander
+- affiliation: []
+  family: Henzinger
+  given: Thomas A.
+- affiliation: []
+  family: Rus
+  given: Daniela
+- affiliation: []
+  family: Grosu
+  given: Radu
+citations:
+- unstructured: 'Lecun, Y., Cosatto, E., Ben, J., Muller, U. & Flepp, B. Dave: Autonomous
+    Off-road Vehicle Control Using End-to-end Learning Technical Report DARPA-IPTO
+    Final Report (Courant Institute/CBLL, 2004); https://cs.nyu.edu/~yann/research/dave/'
+- unstructured: Bojarski, M. et al. End to end learning for self-driving cars. Preprint
+    at http://arXiv.org/abs/1604.07316 (2016).
+- author: S Kato
+  doi: 10.1016/j.cell.2015.09.034
+  first-page: '656'
+  journal-title: Cell
+  unstructured: Kato, S. et al. Global brain dynamics embed the motor command sequence
+    of Caenorhabditis elegans. Cell 163, 656–669 (2015).
+  volume: '163'
+  year: '2015'
+- author: GJ Stephens
+  doi: 10.1371/journal.pcbi.1000028
+  first-page: e1000028
+  journal-title: PLoS Comput. Biol.
+  unstructured: Stephens, G. J., Johnson-Kerner, B., Bialek, W. & Ryu, W. S. Dimensionality
+    and dynamics in the behavior of C. elegans. PLoS Comput. Biol. 4, e1000028 (2008).
+  volume: '4'
+  year: '2008'
+- author: JM Gray
+  doi: 10.1073/pnas.0409009101
+  first-page: '3184'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Gray, J. M., Hill, J. J. & Bargmann, C. I. A circuit for navigation
+    in caenorhabditis elegans. Proc. Natl Acad. Sci. USA 102, 3184–3191 (2005).
+  volume: '102'
+  year: '2005'
+- author: G Yan
+  doi: 10.1038/nature24056
+  first-page: '519'
+  journal-title: Nature
+  unstructured: Yan, G. et al. Network control principles predict neuron function
+    in the Caenorhabditis elegans connectome. Nature 550, 519–523 (2017).
+  volume: '550'
+  year: '2017'
+- author: SJ Cook
+  doi: 10.1038/s41586-019-1352-7
+  first-page: '63'
+  journal-title: Nature
+  unstructured: Cook, S. J. et al. Whole-animal connectomes of both Caenorhabditis
+    elegans sexes. Nature 571, 63–71 (2019).
+  volume: '571'
+  year: '2019'
+- author: HS Kaplan
+  doi: 10.1016/j.neuron.2019.10.037
+  first-page: '562'
+  issue: '3'
+  journal-title: Neuron
+  unstructured: Kaplan, H. S., Thula, O. S., Khoss, N. & Zimmer, M. Nested neuronal
+    dynamics orchestrate a behavioral hierarchy across timescales. Neuron 105(3),
+    562–576 (2019).
+  volume: '105'
+  year: '2019'
+- author: Y LeCun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  journal-title: Nature
+  unstructured: LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444
+    (2015).
+  volume: '521'
+  year: '2015'
+- author: D Hassabis
+  doi: 10.1016/j.neuron.2017.06.011
+  first-page: '245'
+  journal-title: Neuron
+  unstructured: Hassabis, D., Kumaran, D., Summerfield, C. & Botvinick, M. Neuroscience-inspired
+    artificial intelligence. Neuron 95, 245–258 (2017).
+  volume: '95'
+  year: '2017'
+- author: C Rudin
+  doi: 10.1038/s42256-019-0048-x
+  first-page: '206'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Rudin, C. Stop explaining black box machine learning models for high
+    stakes decisions and use interpretable models instead. Nat. Mach. Intell. 1, 206–215
+    (2019).
+  volume: '1'
+  year: '2019'
+- author: V Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  journal-title: Nature
+  unstructured: Mnih, V. et al. Human-level control through deep reinforcement learning.
+    Nature 518, 529–533 (2015).
+  volume: '518'
+  year: '2015'
+- author: D Silver
+  doi: 10.1038/nature16961
+  first-page: '484'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of go with deep neural networks
+    and tree search. Nature 529, 484–489 (2016).
+  volume: '529'
+  year: '2016'
+- author: D Silver
+  doi: 10.1038/nature24270
+  first-page: '354'
+  journal-title: Nature
+  unstructured: Silver, D. et al. Mastering the game of go without human knowledge.
+    Nature 550, 354–359 (2017).
+  volume: '550'
+  year: '2017'
+- unstructured: Schrittwieser, J. et al. Mastering atari, go, chess and shogi by planning
+    with a learned model. Preprint at http://arXiv.org/abs/1911.08265 (2019).
+- author: O Vinyals
+  doi: 10.1038/s41586-019-1724-z
+  first-page: '350'
+  journal-title: Nature
+  unstructured: Vinyals, O. et al. Grandmaster level in StarCraft II using multi-agent
+    reinforcement learning. Nature 575, 350–354 (2019).
+  volume: '575'
+  year: '2019'
+- author: Y Bengio
+  doi: 10.1109/TPAMI.2013.50
+  first-page: '1798'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  unstructured: 'Bengio, Y., Courville, A. & Vincent, P. Representation learning:
+    a review and new perspectives. IEEE Trans. Pattern Anal. Mach. Intell. 35, 1798–1828
+    (2013).'
+  volume: '35'
+  year: '2013'
+- author: ZC Lipton
+  doi: 10.1145/3236386.3241340
+  first-page: '31'
+  journal-title: Queue
+  unstructured: Lipton, Z. C. The mythos of model interpretability. Queue 16, 31–57
+    (2018).
+  volume: '16'
+  year: '2018'
+- doi: 10.1109/ICRA40945.2020.9196608
+  unstructured: Lechner, M., Hasani, R., Rus, D. & Grosu, R. Gershgorin loss stabilizes
+    the recurrent neural network compartment of an end-to-end robot learning scheme.
+    In Proc. 2020 International Conference on Robotics and Automation (ICRA) 5446–5452
+    (2020).
+- doi: 10.1145/581339.581406
+  unstructured: 'Knight, J. C. Safety critical systems: challenges and directions.
+    In Proc. 24th International Conference on Software Engineering 547–550 (2002).'
+- doi: 10.1017/CBO9780511803161
+  unstructured: Pearl, J. Causality (Cambridge Univ. Press, 2009).
+- unstructured: 'Peters, J., Janzing, D. & Schölkopf, B. Elements of Causal Inference:
+    Foundations and Learning Algorithms (MIT Press, 2017).'
+- unstructured: 'Joseph, M., Kearns, M., Morgenstern, J. H. & Roth, A. Fairness in
+    learning: classic and contextual bandits. In Proc. Advances in Neural Information
+    Processing Systems (NeurIPS) 325–333 (2016).'
+- doi: 10.1137/1.9781611974348.17
+  unstructured: Fish, B., Kun, J. & Lelkes, Á. D. A confidence-based approach for
+    balancing fairness and accuracy. In Proc. SIAM International Conference on Data
+    Mining 144–152 (2016).
+- unstructured: Vaswani, A. et al. Attention is all you need. In Proc. Advances in
+    Neural Information Processing Systems (NeurIPS) 5998–6008 (2017).
+- doi: 10.1109/CVPR.2017.376
+  unstructured: Xu, H., Gao, Y., Yu, F. & Darrell, T. End-to-end learning of driving
+    models from large-scale video datasets. In Proc. IEEE Conference on Computer Vision
+    and Pattern Recognition 2174–2182 (2017).
+- doi: 10.1109/ICRA.2018.8461253
+  unstructured: Amini, A., Paull, L., Balch, T., Karaman, S. & Rus, D. Learning steering
+    bounds for parallel autonomous systems. In IEEE International Conference on Robotics
+    and Automation (ICRA) 1–8 (2018).
+- author: L Fridman
+  doi: 10.1109/ACCESS.2019.2926040
+  first-page: '102021'
+  journal-title: IEEE Access
+  unstructured: 'Fridman, L. et al. MIT advanced vehicle technology study: large-scale
+    naturalistic driving study of driver behavior and interaction with automation.
+    IEEE Access 7, 102021–102038 (2019).'
+  volume: '7'
+  year: '2019'
+- unstructured: LeCun, Y. et al. Handwritten digit recognition with a back-propagation
+    network. In Proc. Advances in Neural Information Processing Systems (NeurIPS)
+    396–404 (1990).
+- doi: 10.1109/ICRA.2019.8793579
+  unstructured: Amini, A., Rosman, G., Karaman, S. & Rus, D. Variational end-to-end
+    navigation and localization. In Proc. 2019 International Conference on Robotics
+    and Automation (ICRA) 8958–8964 (2019).
+- unstructured: Hochreiter, S. Untersuchungen zu dynamischen neuronalen netzen. Diploma,
+    Technische Universität München 91 (1991).
+- author: Y Bengio
+  doi: 10.1109/72.279181
+  first-page: '157'
+  journal-title: IEEE Trans. Neural Netw.
+  unstructured: Bengio, Y., Simard, P. & Frasconi, P. et al. Learning long-term dependencies
+    with gradient descent is difficult. IEEE Trans. Neural Netw. 5, 157–166 (1994).
+  volume: '5'
+  year: '1994'
+- author: DE Rumelhart
+  doi: 10.1038/323533a0
+  first-page: '533'
+  journal-title: Nature
+  unstructured: Rumelhart, D. E., Hinton, G. E. & Williams, R. J. Learning representations
+    by back-propagating errors. Nature 323, 533–536 (1986).
+  volume: '323'
+  year: '1986'
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  journal-title: Neural Comput.
+  unstructured: Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput.
+    9, 1735–1780 (1997).
+  volume: '9'
+  year: '1997'
+- author: B Reimer
+  doi: 10.1177/0018720812437274
+  first-page: '454'
+  journal-title: Hum. Factors
+  unstructured: Reimer, B., Mehler, B., Wang, Y. & Coughlin, J. F. A field study on
+    the impact of variations in short-term memory demands on drivers’ visual attention
+    and driving performance across three age groups. Hum. Factors 54, 454–468 (2012).
+  volume: '54'
+  year: '2012'
+- author: K-i Funahashi
+  doi: 10.1016/S0893-6080(05)80125-X
+  first-page: '801'
+  journal-title: Neural Netw.
+  unstructured: Funahashi, K.-i & Nakamura, Y. Approximation of dynamical systems
+    by continuous time recurrent neural networks. Neural Netw. 6, 801–806 (1993).
+  volume: '6'
+  year: '1993'
+- unstructured: Chen, T. Q., Rubanova, Y., Bettencourt, J. & Duvenaud, D. K. Neural
+    ordinary differential equations. In Proc. Advances in Neural Information Processing
+    Systems (NeurIPS) 6571–6583 (2018).
+- unstructured: Lechner, M. & Hasani, R. Learning long-term dependencies in irregularly-sampled
+    time series. Preprint at http://arXiv.org/abs/2006.04418 (2020).
+- author: GP Sarma
+  doi: 10.1098/rstb.2017.0382
+  first-page: '20170382'
+  journal-title: Phil. Trans. R. Soc. B
+  unstructured: 'Sarma, G. P. et al. Openworm: overview and recent advances in integrative
+    biological simulation of Caenorhabditis elegans. Phil. Trans. R. Soc. B 373, 20170382
+    (2018).'
+  volume: '373'
+  year: '2018'
+- author: P Gleeson
+  doi: 10.1098/rstb.2017.0379
+  first-page: '20170379'
+  journal-title: Phil. Trans. R. Soc. B.
+  unstructured: 'Gleeson, P., Lung, D., Grosu, R., Hasani, R. & Larson, S. D. c302:
+    a multiscale framework for modelling the nervous system of Caenorhabditis elegans.
+    Phil. Trans. R. Soc. B. 373, 20170379 (2018).'
+  volume: '373'
+  year: '2018'
+- unstructured: Hasani, R., Lechner, M., Amini, A., Rus, D. & Grosu, R. Liquid time-constant
+    networks. Preprint at http://arXiv.org/abs/2006.04439 (2020).
+- author: Y LeCun
+  doi: 10.1162/neco.1989.1.4.541
+  first-page: '541'
+  journal-title: Neural Comput.
+  unstructured: LeCun, Y. et al. Backpropagation applied to handwritten zip code recognition.
+    Neural Comput. 1, 541–551 (1989).
+  volume: '1'
+  year: '1989'
+- author: SR Wicks
+  doi: 10.1523/JNEUROSCI.16-12-04017.1996
+  first-page: '4017'
+  journal-title: J. Neurosci.
+  unstructured: 'Wicks, S. R., Roehrig, C. J. & Rankin, C. H. A dynamic network simulation
+    of the nematode tap withdrawal circuit: predictions concerning synaptic function
+    using behavioral criteria. J. Neurosci. 16, 4017–4031 (1996).'
+  volume: '16'
+  year: '1996'
+- doi: 10.1109/ICRA.2019.8793840
+  unstructured: Lechner, M., Hasani, R., Zimmer, M., Henzinger, T. A. & Grosu, R.
+    Designing worm-inspired neural networks for interpretable robotic control. In
+    International Conference on Robotics and Automation (ICRA) 87–94 (2019).
+- unstructured: 'Hasani, R., Lechner, M., Amini, A., Rus, D. & Grosu, R. The natural
+    lottery ticket winner: reinforcement learning with ordinary neural circuits. In
+    Proc. International Conference on Machine Learning (2020).'
+- author: Y Bengio
+  first-page: '1089'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Bengio, Y. & Grandvalet, Y. No unbiased estimator of the variance
+    of k-fold cross-validation. J. Mach. Learn. Res. 5, 1089–1105 (2004).
+  volume: '5'
+  year: '2004'
+- doi: 10.21105/joss.00786
+  unstructured: Molnar, C. Interpretable Machine Learning (Lulu.com, 2019).
+- unstructured: Hasani, R. Interpretable Recurrent Neural Networks in Continuous-time
+    Control Environments. PhD dissertation, Technische Universität Wien (2020).
+- unstructured: Erhan, D., Bengio, Y., Courville, A. & Vincent, P. Visualizing Higher-layer
+    Features of a Deep Network Technical Report 1341 (Univ. Montreal, 2009).
+- doi: 10.1007/978-3-319-10590-1_53
+  unstructured: Zeiler, M. D. & Fergus, R. Visualizing and understanding convolutional
+    networks. In European Conference on Computer Vision 818–833 (2014).
+- unstructured: Yosinski, J., Clune, J., Nguyen, A., Fuchs, T. & Lipson, H. Understanding
+    neural networks through deep visualization. Preprint at http://arXiv.org/abs/1506.06579
+    (2015).
+- unstructured: Karpathy, A., Johnson, J. & Fei-Fei, L. Visualizing and understanding
+    recurrent networks. Preprint at http://arXiv.org/abs/1506.02078 (2015).
+- author: H Strobelt
+  doi: 10.1109/TVCG.2017.2744158
+  first-page: '667'
+  journal-title: IEEE Trans. Vis. Comput Graph.
+  unstructured: 'Strobelt, H., Gehrmann, S., Pfister, H. & Rush, A. M. LSTMVis: a
+    tool for visual analysis of hidden state dynamics in recurrent neural networks.
+    IEEE Trans. Vis. Comput Graph. 24, 667–676 (2018).'
+  volume: '24'
+  year: '2018'
+- author: A Bilal
+  doi: 10.1109/TVCG.2017.2744683
+  first-page: '152'
+  journal-title: IEEE Trans. Vis. Comput. Graph.
+  unstructured: Bilal, A., Jourabloo, A., Ye, M., Liu, X. & Ren, L. Do convolutional
+    neural networks learn class hierarchy? IEEE Trans. Vis. Comput. Graph. 24, 152–162
+    (2018).
+  volume: '24'
+  year: '2018'
+- author: C Olah
+  doi: 10.23915/distill.00010
+  first-page: e10
+  journal-title: Distill
+  unstructured: Olah, C. et al. The building blocks of interpretability. Distill 3,
+    e10 (2018).
+  volume: '3'
+  year: '2018'
+- unstructured: 'Simonyan, K., Vedaldi, A. & Zisserman, A. Deep inside convolutional
+    networks: visualising image classification models and saliency maps. Preprint
+    at http://arXiv.org/abs/1312.6034 (2013).'
+- doi: 10.1109/ICCV.2017.371
+  unstructured: Fong, R. C. & Vedaldi, A. Interpretable explanations of black boxes
+    by meaningful perturbation. Proc. IEEE International Conference on Computer Vision
+    3449–3457 (IEEE, 2017).
+- unstructured: 'Kindermans, P.-J., Schütt, K. T., Alber, M., Müller, K.-R. & Dähne,
+    S. Learning how to explain neural networks: PatternNet and PatternAttribution.
+    Proc. International Conference on Learning Representations (ICLR) (2018).'
+- unstructured: Sundararajan, M., Taly, A. & Yan, Q. Axiomatic attribution for deep
+    networks. Proc. 34th International Conference on Machine Learning (ICML) (2017).
+- unstructured: Doshi-Velez, F. & Kim, B. Towards a rigorous science of interpretable
+    machine learning. Preprint at http://arXiv.org/abs/1702.08608 (2017).
+- unstructured: Trask, A. et al. Neural arithmetic logic units. In Proc. Advances
+    in Neural Information Processing Systems (NeurIPS) 8035–8044 (2018).
+- doi: 10.1109/ICRA.2018.8461053
+  unstructured: 'Bojarski, M. et al. Visualbackprop: efficient visualization of cnns
+    for autonomous driving. In IEEE International Conference on Robotics and Automation
+    (ICRA) 1–8 (2018).'
+- author: Lvd Maaten
+  first-page: '2579'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: Maaten, Lvd & Hinton, G. Visualizing data using t-sne. J. Mach. Learn.
+    Res. 9, 2579–2605 (2008).
+  volume: '9'
+  year: '2008'
+- unstructured: Tesla Autopilot (Tesla, 2020); https://www.tesla.com/autopilot
+- unstructured: Karpathy, A. PyTorch at Tesla. In PyTorch Devcon Conference 19 https://youtu.be/oBklltKXtDE
+    (2019).
+- unstructured: 'Press, W. H., Teukolsky, S. A., Vetterling, W. T. & Flannery, B.
+    P. Numerical Recipes: The Art of Scientific Computing 3rd edn (Cambridge Univ.
+    Press, 2007).'
+- doi: 10.1109/IVS.2017.7995835
+  unstructured: Naser, F. et al. A parallel autonomy research platform. In 2017 IEEE
+    Intelligent Vehicles Symposium (IV) 933–940 (IEEE, 2017).
+- author: A Amini
+  doi: 10.1109/LRA.2020.2966414
+  first-page: '1143'
+  journal-title: IEEE Robot. Autom. Lett.
+  unstructured: Amini, A. et al. Learning robust control policies for end-to-end autonomous
+    driving from data-driven simulation. IEEE Robot. Autom. Lett. 5, 1143–1150 (2020).
+  volume: '5'
+  year: '2020'
+- unstructured: 'Kingma, D. P. & Ba, J. Adam: a method for stochastic optimization.
+    In Proc. 3rd International Conference for Learning Representations (ICLR) (2015).'
+- author: Z Wang
+  doi: 10.1109/TIP.2003.819861
+  first-page: '600'
+  journal-title: IEEE Trans. Image Process.
+  unstructured: 'Wang, Z., Bovik, A. C., Sheikh, H. R. & Simoncelli, E. P. et al.
+    Image quality assessment: from error visibility to structural similarity. IEEE
+    Trans. Image Process. 13, 600–612 (2004).'
+  volume: '13'
+  year: '2004'
+- author: F Girosi
+  doi: 10.1162/neco.1995.7.2.219
+  first-page: '219'
+  journal-title: Neural Comput.
+  unstructured: Girosi, F., Jones, M. & Poggio, T. Regularization theory and neural
+    networks architectures. Neural Comput. 7, 219–269 (1995).
+  volume: '7'
+  year: '1995'
+- author: S Smale
+  doi: 10.1007/s00365-006-0659-y
+  first-page: '153'
+  journal-title: Constr. Approx.
+  unstructured: Smale, S. & Zhou, D.-X. Learning theory estimates via integral operators
+    and their approximations. Constr. Approx. 26, 153–172 (2007).
+  volume: '26'
+  year: '2007'
+doc_url: https://www.nature.com/articles/s42256-020-00237-3
+doi: 10.1038/s42256-020-00237-3
+files:
+- lechner-mathias-and-hasani-ramin-and-amini-alexander-and-henzinger-thomas-a.-and-rus-daniela-and-grosu-raduneural-circuit-policies-enabling-audi.pdf
+issue: '10'
+journal: Nature Machine Intelligence
+language: en
+month: 10
+pages: 642--652
+publisher: Springer Science and Business Media LLC
+ref: NeuralCircuitLechne2020
+time-added: 2023-02-08-20:28:14
+title: Neural circuit policies enabling auditable autonomy
+type: article
+url: http://dx.doi.org/10.1038/s42256-020-00237-3
+volume: '2'
+year: 2020
