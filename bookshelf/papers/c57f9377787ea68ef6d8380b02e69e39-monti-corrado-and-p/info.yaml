@@ -1,0 +1,43 @@
+abstract: 'Agent-Based Models (ABMs) are used in several fields to study the evolution
+  of complex systems from micro-level assumptions. However, ABMs typically can not
+  estimate agent-specific (or "micro") variables: this is a major limitation which
+  prevents ABMs from harnessing micro-level data availability and which greatly limits
+  their predictive power. In this paper, we propose a protocol to learn the latent
+  micro-variables of an ABM from data. The first step of our protocol is to reduce
+  an ABM to a probabilistic model, characterized by a computationally tractable likelihood.
+  This reduction follows two general design principles: balance of stochasticity and
+  data availability, and replacement of unobservable discrete choices with differentiable
+  approximations. Then, our protocol proceeds by maximizing the likelihood of the
+  latent variables via a gradient-based expectation maximization algorithm. We demonstrate
+  our protocol by applying it to an ABM of the housing market, in which agents with
+  different incomes bid higher prices to live in high-income neighborhoods. We demonstrate
+  that the obtained model allows accurate estimates of the latent variables, while
+  preserving the general behavior of the ABM. We also show that our estimates can
+  be used for out-of-sample forecasting. Our protocol can be seen as an alternative
+  to black-box data assimilation methods, that forces the modeler to lay bare the
+  assumptions of the model, to think about the inferential process, and to spot potential
+  identification problems.'
+archiveprefix: arXiv
+author: Monti, Corrado and Pangallo, Marco and Morales, Gianmarco De Francisci and
+  Bonchi, Francesco
+author_list:
+- family: Monti
+  given: Corrado
+- family: Pangallo
+  given: Marco
+- family: Morales
+  given: Gianmarco De Francisci
+- family: Bonchi
+  given: Francesco
+eprint: 2205.05052v2
+file: 2205.05052v2.pdf
+files:
+- monti-corrado-and-pangallo-marco-and-morales-gianmarco-de-francisci-and-bonchi-francescoon-learning-agent-based-models-from-data2022.pdf
+month: May
+primaryclass: physics.soc-ph
+ref: 2205.05052v2
+time-added: 2023-02-15-11:41:13
+title: On learning agent-based models from data
+type: article
+url: http://arxiv.org/abs/2205.05052v2
+year: '2022'

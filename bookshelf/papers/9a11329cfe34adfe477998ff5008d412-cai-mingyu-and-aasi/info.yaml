@@ -1,0 +1,44 @@
+abstract: 'Exploration is a fundamental challenge in Deep Reinforcement Learning (DRL)
+  based model-free navigation control since typical exploration techniques for target-driven
+  navigation tasks rely on noise or greedy policies, which are sensitive to the density
+  of rewards. In practice, robots are always deployed in complex cluttered environments,
+  containing dense obstacles and narrow passageways, raising natural spare rewards
+  that are hard to explore for training. Such a problem becomes even more serious
+  when pre-defined tasks are complex and have rich expressivity. In this paper, we
+  focus on these two aspects and present a deep policy gradient algorithm for a task-guided
+  robot with unknown dynamics deployed in a complex cluttered environment. Linear
+  Temporal Logic (LTL) is used to express rich robotic specifications. To overcome
+  the environmental challenge of exploration during training, we propose a novel path
+  planning-guided reward scheme that is dense over the state space, and crucially,
+  robust to the infeasibility of computed geometric paths due to the black-box dynamics.
+  The long or infinite horizons of general LTL specifications are often an issue for
+  DRL due to its myopic tendencies. To facilitate LTL satisfaction, our approach decomposes
+  the LTL mission into sub-tasks that are solved using distributed DRL, where the
+  sub-tasks can be trained in parallel, using Deep Policy Gradient algorithms. Our
+  framework is shown to significantly improve performance (effectiveness, efficiency)
+  and exploration of robots tasked with complex missions in large-scale complex environments.
+  The Video demonstration can be found on YouTube Channel: https://youtu.be/YQRQ2-yMtIk.'
+archiveprefix: arXiv
+author: Cai, Mingyu and Aasi, Erfan and Belta, Calin and Vasile, Cristian-Ioan
+author_list:
+- family: Cai
+  given: Mingyu
+- family: Aasi
+  given: Erfan
+- family: Belta
+  given: Calin
+- family: Vasile
+  given: Cristian-Ioan
+eprint: 2201.12231v4
+file: 2201.12231v4.pdf
+files:
+- cai-mingyu-and-aasi-erfan-and-belta-calin-and-vasile-cristian-ioanovercoming-exploration-deep-reinforcement-learning-in-complex-environments-fr.pdf
+month: Jan
+primaryclass: cs.RO
+ref: 2201.12231v4
+time-added: 2023-02-13-18:19:49
+title: 'Overcoming Exploration: Deep Reinforcement Learning in Complex   Environments
+  from Temporal Logic Specifications'
+type: article
+url: http://arxiv.org/abs/2201.12231v4
+year: '2022'

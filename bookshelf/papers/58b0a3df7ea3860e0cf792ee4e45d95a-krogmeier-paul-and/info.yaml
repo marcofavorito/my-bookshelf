@@ -1,0 +1,30 @@
+abstract: We study expression learning problems with syntactic restrictions and introduce
+  the class of \emph{finite-aspect checkable languages} to characterize symbolic languages
+  that admit decidable learning. The semantics of such languages can be defined using
+  a bounded amount of auxiliary information, which we call \emph{semantic aspects},
+  that is independent of expression size but depends on a fixed structure over which
+  evaluation occurs. We introduce a generic programming language for expressing model-checking
+  programs that work over expression syntax trees, and we give a meta-theorem that
+  connects such programs for finite-aspect checkable languages to finite tree automata,
+  which allows us to derive new decidable learning results and decision procedures
+  for several expression learning problems by writing model-checking programs in the
+  programming language.
+archiveprefix: arXiv
+author: Krogmeier, Paul and Madhusudan, P.
+author_list:
+- family: Krogmeier
+  given: Paul
+- family: Madhusudan
+  given: P.
+eprint: 2302.05741v1
+file: 2302.05741v1.pdf
+files:
+- krogmeier-paul-and-madhusudan-p.languages-with-decidable-learning-a-meta-theorem2023.pdf
+month: Feb
+primaryclass: cs.LO
+ref: 2302.05741v1
+time-added: 2023-02-16-17:15:27
+title: 'Languages With Decidable Learning: A Meta-Theorem'
+type: article
+url: http://arxiv.org/abs/2302.05741v1
+year: '2023'

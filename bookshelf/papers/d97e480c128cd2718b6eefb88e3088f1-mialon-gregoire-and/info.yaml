@@ -1,0 +1,58 @@
+abstract: This survey reviews works in which language models (LMs) are augmented with
+  reasoning skills and the ability to use tools. The former is defined as decomposing
+  a potentially complex task into simpler subtasks while the latter consists in calling
+  external modules such as a code interpreter. LMs can leverage these augmentations
+  separately or in combination via heuristics, or learn to do so from demonstrations.
+  While adhering to a standard missing tokens prediction objective, such augmented
+  LMs can use various, possibly non-parametric external modules to expand their context
+  processing ability, thus departing from the pure language modeling paradigm. We
+  therefore refer to them as Augmented Language Models (ALMs). The missing token objective
+  allows ALMs to learn to reason, use tools, and even act, while still performing
+  standard natural language tasks and even outperforming most regular LMs on several
+  benchmarks. In this work, after reviewing current advance in ALMs, we conclude that
+  this new research direction has the potential to address common limitations of traditional
+  LMs such as interpretability, consistency, and scalability issues.
+archiveprefix: arXiv
+author: Mialon, Grégoire and Dessì, Roberto and Lomeli, Maria and Nalmpantis, Christoforos
+  and Pasunuru, Ram and Raileanu, Roberta and Rozière, Baptiste and Schick, Timo and
+  Dwivedi-Yu, Jane and Celikyilmaz, Asli and Grave, Edouard and LeCun, Yann and Scialom,
+  Thomas
+author_list:
+- family: Mialon
+  given: Grégoire
+- family: Dessì
+  given: Roberto
+- family: Lomeli
+  given: Maria
+- family: Nalmpantis
+  given: Christoforos
+- family: Pasunuru
+  given: Ram
+- family: Raileanu
+  given: Roberta
+- family: Rozière
+  given: Baptiste
+- family: Schick
+  given: Timo
+- family: Dwivedi-Yu
+  given: Jane
+- family: Celikyilmaz
+  given: Asli
+- family: Grave
+  given: Edouard
+- family: LeCun
+  given: Yann
+- family: Scialom
+  given: Thomas
+eprint: 2302.07842v1
+file: 2302.07842v1.pdf
+files:
+- mialon-gregoire-and-dessi-roberto-and-lomeli-maria-and-nalmpantis-christoforos-and-pasunuru-ram-and-raileanu-roberta-and-roziere-baptiste-and-s.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 2302.07842v1
+time-added: 2023-02-18-14:57:14
+title: 'Augmented Language Models: a Survey'
+type: article
+url: http://arxiv.org/abs/2302.07842v1
+year: '2023'

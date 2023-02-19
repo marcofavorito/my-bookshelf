@@ -1,0 +1,2434 @@
+abstract: <jats:p>Climate change is one of the greatest challenges facing humanity,
+  and we, as machine learning (ML) experts, may wonder how we can help. Here we describe
+  how ML can be a powerful tool in reducing greenhouse gas emissions and helping society
+  adapt to a changing climate. From smart grids to disaster management, we identify
+  high impact problems where existing gaps can be filled by ML, in collaboration with
+  other fields. Our recommendations encompass exciting research questions as well
+  as promising business opportunities. We call on the ML community to join the global
+  effort against climate change.</jats:p>
+author: Rolnick, David and Donti, Priya L. and Kaack, Lynn H. and Kochanski, Kelly
+  and Lacoste, Alexandre and Sankaran, Kris and Ross, Andrew Slavin and Milojevic-Dupont,
+  Nikola and Jaques, Natasha and Waldman-Brown, Anna and Luccioni, Alexandra Sasha
+  and Maharaj, Tegan and Sherwin, Evan D. and Mukkavilli, S. Karthik and Kording,
+  Konrad P. and Gomes, Carla P. and Ng, Andrew Y. and Hassabis, Demis and Platt, John
+  C. and Creutzig, Felix and Chayes, Jennifer and Bengio, Yoshua
+author_list:
+- affiliation:
+  - name: McGill University and Mila - Quebec AI Institute
+  family: Rolnick
+  given: David
+- affiliation:
+  - name: Carnegie Mellon University
+  family: Donti
+  given: Priya L.
+- affiliation:
+  - name: Hertie School and ETH Zürich
+  family: Kaack
+  given: Lynn H.
+- affiliation:
+  - name: University of Colorado Boulder
+  family: Kochanski
+  given: Kelly
+- affiliation:
+  - name: Element AI/Service Now
+  family: Lacoste
+  given: Alexandre
+- affiliation:
+  - name: University of Wisconsin - Madison and Université de Montréal
+  family: Sankaran
+  given: Kris
+- affiliation:
+  - name: New York University and Harvard University
+  family: Ross
+  given: Andrew Slavin
+- affiliation:
+  - name: Mercator Research Institute on Global Commonsand Climate Change and Technische
+      Universität Berlin
+  family: Milojevic-Dupont
+  given: Nikola
+- affiliation:
+  - name: Google Brain and UC Berkeley
+  family: Jaques
+  given: Natasha
+- affiliation:
+  - name: Massachusetts Institute of Technology
+  family: Waldman-Brown
+  given: Anna
+- affiliation:
+  - name: Mila - Quebec AI Institute and Université de Montréal
+  family: Luccioni
+  given: Alexandra Sasha
+- affiliation:
+  - name: Mila - Quebec AI Institute and Polytechnique Montréal
+  family: Maharaj
+  given: Tegan
+- affiliation:
+  - name: Stanford University
+  family: Sherwin
+  given: Evan D.
+- affiliation:
+  - name: University of California and Lawrence Berkeley National Lab
+  family: Mukkavilli
+  given: S. Karthik
+- affiliation:
+  - name: University of Pennsylvania
+  family: Kording
+  given: Konrad P.
+- affiliation:
+  - name: Cornell University
+  family: Gomes
+  given: Carla P.
+- affiliation:
+  - name: Stanford University
+  family: Ng
+  given: Andrew Y.
+- affiliation:
+  - name: DeepMind
+  family: Hassabis
+  given: Demis
+- affiliation:
+  - name: Google AI
+  family: Platt
+  given: John C.
+- affiliation:
+  - name: Mercator Research Institute on Global Commonsand Climate Change and Technische
+      Universität Berlin
+  family: Creutzig
+  given: Felix
+- affiliation:
+  - name: University of California, Berkeley
+  family: Chayes
+  given: Jennifer
+- affiliation:
+  - name: Mila - Quebec AI Institute and Université de Montréal
+  family: Bengio
+  given: Yoshua
+citations:
+- doi: 10.1109/ECC.2016.7810598
+- doi: 10.1016/j.rser.2012.02.016
+- doi: 10.5555/3504035.3504980
+- doi: 10.1016/j.rser.2017.10.044
+- doi: 10.1016/j.enbuild.2017.07.077
+- doi: 10.1787/9789264118461-en
+- article-title: Climate adaptation, local institutions and rural livelihoods
+  author: Agrawal Arun
+  first-page: '350'
+  journal-title: 'Adapting to Climate Change: Thresholds, Values, Governance.'
+  unstructured: 'Arun Agrawal and Nicolas Perrin. 2009. Climate adaptation, local
+    institutions and rural livelihoods. In Adapting to Climate Change: Thresholds,
+    Values, Governance. Cambridge University Press, Cambridge. 350–367.'
+  year: '2009'
+- doi: 10.1109/MCOM.2016.7588227
+- doi: 10.1016/j.rser.2020.109792
+- doi: 10.1088/1748-9326/7/2/024004
+- article-title: Efficient multi-objective optimization through population-based parallel
+    surrogate search
+  author: Akhtar Taimoor
+  journal-title: arXiv preprint arXiv:1903.02167
+  unstructured: Taimoor Akhtar and Christine A. Shoemaker. 2019. Efficient multi-objective
+    optimization through population-based parallel surrogate search. arXiv preprint
+    arXiv:1903.02167 (2019).
+  year: '2019'
+- doi: 10.1109/INISTA.2017.8001123
+- doi: 10.1016/j.ecolecon.2018.03.031
+- doi: 10.1016/j.apenergy.2016.05.128
+- doi: 10.3390/en11030476
+- doi: 10.1016/j.jpubeco.2011.03.003
+- doi: 10.1257/aer.104.10.3003
+- article-title: 'Urban bus arrival time prediction: A review of computational models'
+  author: Altinkaya Mehmet
+  first-page: '164'
+  journal-title: International Journal of Recent Technology and Engineering
+  unstructured: 'Mehmet Altinkaya and Metin Zontul. 2013. Urban bus arrival time prediction:
+    A review of computational models. International Journal of Recent Technology and
+    Engineering 2, 4 (2013), 164–169.'
+  volume: '2'
+  year: '2013'
+- doi: 10.1016/j.procs.2017.09.045
+- doi: 10.1016/j.rser.2017.04.095
+- doi: 10.5555/3327757.3327922
+- doi: 10.1177/0973408212475199
+- doi: 10.1029/2018GL077049
+- doi: 10.23919/PSCC.2018.8442521
+- author: Anderson-Hall Kirstin
+  unstructured: 'Kirstin Anderson-Hall, Brandon Bordenkircher, Riley O’Neil, and Smith
+    C. Scott. 2019. Governing Micro-Mobility: A Nationwide Assessment of Electric
+    Scooter Regulations. Technical Report.'
+  volume-title: 'Governing Micro-Mobility: A Nationwide Assessment of Electric Scooter
+    Regulations'
+  year: '2019'
+- doi: 10.2469/faj.v72.n3.4
+- doi: 10.1016/j.apenergy.2016.06.097
+- doi: 10.1145/2818498.2818512
+- doi: 10.1073/pnas.0608163103
+- doi: 10.1016/j.rser.2020.109899
+- doi: 10.1190/tle37010058.1
+- author: Archer David
+  unstructured: 'David Archer and Stefan Rahmstorf. 2010. The Climate Crisis: An Introductory
+    Guide to Climate Change. Cambridge University Press.'
+  volume-title: 'The Climate Crisis: An Introductory Guide to Climate Change'
+  year: '2010'
+- doi: 10.1016/j.enpol.2012.08.062
+- doi: 10.1016/j.jclepro.2015.08.063
+- doi: 10.1088/0029-5515/50/4/043001
+- doi: 10.2307/2234208
+- unstructured: Solomon Assefa. 2018. Hello Tractor Pilot Agriculture Digital Wallet
+    based on AI and Blockchain. Retrieved from https://www.ibm.com/blogs/research/2018/12/hello-tractor/.
+- doi: 10.1016/j.energy.2018.07.149
+- doi: 10.3390/s19020309
+- doi: 10.1126/science.aal4321
+- article-title: Machine learning methods that economists should know about
+  author: Athey Susan
+  journal-title: Annual Review of Economics
+  unstructured: Susan Athey and Guido W. Imbens. 2019. Machine learning methods that
+    economists should know about. Annual Review of Economics 11, 1 (2019), 685–725.
+  volume: '11'
+  year: '2019'
+- doi: 10.1038/s41586-020-1994-5
+- unstructured: Rockwell Automation. 2014. AkzoNobel Powder Coatings saves over 15
+    000 euros per month thanks to advanced energy monitoring solution from Rockwell
+    Automation. Retrived from https://literature.rockwellautomation.com/idc/groups/literature/documents/ap/energy-ap009_-en-p.pdf.
+- doi: 10.1016/j.trd.2019.02.012
+- doi: 10.1146/annurev-environ-021913-153558
+- doi: 10.1080/15568318.2017.1346732
+- doi: 10.1021/acs.est.8b03834
+- doi: 10.1038/nclimate1354
+- doi: 10.1609/aimag.v39i1.2785
+- doi: 10.1038/d41586-018-02409-z
+  unstructured: Xuemei Bai Richard J. Dawson Diana Ürge-Vorsatz Gian C. Delgado Aliyu
+    Salisu Barau Shobhakar Dhakal David Dodman Lykke Leonardsen Valérie Masson-Delmotte
+    Debra C. Roberts and Seth Schultz. 2018. Six research priorities for cities and
+    climate change. Nature 555 7964 (2018) 23–25.
+- doi: 10.1109/SmartGridComm.2011.6102321
+- author: Baker Kyri
+  first-page: '1'
+  unstructured: Kyri Baker. 2019. Learning warm-start points for AC optimal power
+    flow. In 2019 IEEE 29th International Workshop on Machine Learning for Signal
+    Processing (MLSP’19). IEEE, 1–6.
+  volume-title: 2019 IEEE 29th International Workshop on Machine Learning for Signal
+    Processing (MLSP’19)
+  year: '2019'
+- doi: 10.1038/s41598-017-06645-7
+- doi: 10.1126/science.aao4408
+- doi: 10.1016/j.techfore.2016.07.002
+- doi: 10.1016/j.trc.2018.05.019
+- doi: 10.1109/ACC.2015.7171844
+- doi: 10.1038/s41598-021-87714-w
+- doi: 10.1145/3274895.3274927
+- doi: 10.1126/science.aax0848
+- doi: 10.1038/nclimate3255
+- doi: 10.1016/j.procir.2017.12.204
+- doi: 10.1145/2487166.2487175
+- doi: 10.1109/WACV45572.2020.9093570
+  unstructured: Sara Beery Yang Liu Dan Morris Jim Piavis Ashish Kapoor Markus Meister
+    and Pietro Perona. 2019. Synthetic examples improve generalization for rare classes.
+    In IEEE Winter Conference on Applications of Computer Vision (WACV’20) .
+- doi: 10.1038/s41558-019-0414-z
+- doi: 10.1007/s10584-018-2260-9
+- unstructured: Wanda Bell Lewis Ahron Kaufman William Joseph Krajewski John J. McGillicuddy
+    Paul Aloysius Scanlon Jr. Abhijit Dey Sharon Ameet Fanse Giridhar Holenarsipur
+    Nagaraj Shyamli Rai Sunitha Sundaramurthy Gurpreet Chahil Jeetendra Chandwani
+    Arham GuptaMangesh Ashok Karhadkar Vincent Francis La Padula Paul J. Murray Himanshu
+    Shailesh Shah and Rasika Vartak. 2016. Systems and methods for automated data
+    privacy compliance. US Patent No. 9 507 960.
+- unstructured: Asher Bender Brett Whelan and Salah Sukkarieh. 2019. Ladybird Cobbitty
+    2017 Brassica Dataset. The University of Sydney. https://doi.org/10.25910/5c941d0c8bccb
+- doi: 10.1145/3442188.3445922
+- doi: 10.1016/j.ejor.2020.07.063
+- doi: 10.1515/pjbr-2019-0004
+- doi: 10.1016/j.enpol.2004.08.035
+- doi: 10.1002/2017GL075122
+- doi: 10.1145/1791314.1791349
+- article-title: Online mixed-integer optimization in milliseconds
+  author: Bertsimas Dimitris
+  journal-title: Preprint arXiv:1907.02206
+  unstructured: Dimitris Bertsimas and Bartolomeo Stellato. 2019. Online mixed-integer
+    optimization in milliseconds. Preprint arXiv:1907.02206 (2019).
+  year: '2019'
+- article-title: Deep fault analysis and subset selection in solar power grids
+  author: Bhattacharya Biswarup
+  journal-title: Preprint arXiv:1711.02810
+  unstructured: Biswarup Bhattacharya and Abhishek Sinha. 2017. Deep fault analysis
+    and subset selection in solar power grids. Preprint arXiv:1711.02810 (2017).
+  year: '2017'
+- doi: 10.1016/j.compenvurbsys.2017.01.001
+- doi: 10.5555/1162264
+- doi: 10.1109/CVPR.2016.346
+- article-title: Blue River Technology
+  author: Technology Blue River
+  journal-title: Retrieved from https://bluerivertechnology.com/
+  unstructured: Blue River Technology. 2021. Blue River Technology. Retrieved from
+    https://bluerivertechnology.com/.
+  year: '2021'
+- article-title: Bluefield Technologies
+  author: Technologies Bluefield
+  journal-title: Retrieved from http://bluefield.co/
+  unstructured: Bluefield Technologies. 2021. Bluefield Technologies. Retrieved from
+    http://bluefield.co/.
+  year: '2021'
+- doi: 10.1080/02681102.2011.643209
+- doi: 10.1016/j.uclim.2018.01.008
+- doi: 10.1109/CDC.2018.8618658
+- doi: 10.1140/epjds/s13688-016-0075-3
+- doi: 10.1787/fmt-2015-5jrrz76d5td5
+- article-title: End to End Learning for Self-Driving Cars
+  author: Bojarski Mariusz
+  journal-title: arXiv preprint arXiv:1604.07316
+  unstructured: Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner,
+    Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai
+    Zhang, Xin Zhang, Jake Zhao, and Karol Zieba. 2016. End to End Learning for Self-Driving
+    Cars. arXiv preprint arXiv:1604.07316 (2016).
+  year: '2016'
+- doi: 10.5555/3216236.3216237
+- doi: 10.1007/s10994-013-5363-6
+- doi: 10.1287/mnsc.2013.1839
+- doi: 10.1145/1401890.1401993
+- doi: 10.1109/PACRIM.2017.8121895
+- doi: 10.1007/s10531-014-0810-7
+- doi: 10.1029/2018GL081108
+- author: Brown Austin
+  first-page: '137'
+  unstructured: Austin Brown, Jeffrey Gonder, and Brittany Repac. 2014. An Analysis
+    of Possible Energy Impacts of Automated Vehicles. Springer International Publishing,
+    Cham, 137–153.
+  volume-title: An Analysis of Possible Energy Impacts of Automated Vehicles
+  year: '2014'
+- author: Bruckner T.
+  unstructured: 'T. Bruckner, I. A. Bashmakov, Y. Mulugetta, H. Chum, A. de la Vega
+    Navarro, J. Edmonds, A. Faaij, B. Fungtammasan, A. Garg, E. Hertwich, D. Honnery,
+    D. Infield, M. Kainuma, S. Khennas, S. Kim, H. B. Nimir, K. Riahi, N. Strachan,
+    R. Wiser, and X. Zhang. 2014. Energy Systems, in IPCC, Working Group III Contribution
+    to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change,
+    Climate Change 2014: Mitigation of Climate Change, chapter 8. Geneva. O. Edenhofer,
+    R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I.
+    Baum, S. Brunner, P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von
+    Stechow, T. Zwickel, and J. C. Minx (Eds.). Cambridge University Press, Cambridge.'
+  volume-title: 'Energy Systems, in IPCC, Working Group III Contribution to the Fifth
+    Assessment Report of the Intergovernmental Panel on Climate Change, Climate Change
+    2014: Mitigation of Climate Change, chapter 8. Geneva. O. Edenhofer, R. Pichs-Madruga,
+    Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner,
+    P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel,
+    and J. C. Minx (Eds.)'
+  year: '2014'
+- author: Brunskill Emma
+  unstructured: 'Emma Brunskill and Neal Lesh. 2010. Routing for rural health: Optimizing
+    community health worker visit schedules. In 2010 AAAI Spring Symposium Series.'
+  volume-title: 2010 AAAI Spring Symposium Series
+  year: '2010'
+- doi: 10.1016/j.rser.2017.05.288
+- doi: 10.5555/2008780.2008798
+- doi: 10.2172/959402
+- doi: 10.1038/nature15725
+- doi: 10.3386/w23908
+- doi: 10.1115/1.4033427
+- doi: 10.1149/2.1051908jes
+- doi: 10.1038/s41586-018-0337-2
+- doi: 10.1016/j.artint.2014.08.005
+- doi: 10.1109/IJCNN.2018.8489130
+- doi: 10.1038/s41558-018-0175-0
+- article-title: Camus Energy
+  author: Energy Camus
+  journal-title: Retrieved from https://camus.energy/
+  unstructured: Camus Energy. 2019. Camus Energy. Retrieved from https://camus.energy/.
+  year: '2019'
+- doi: 10.1088/0029-5515/44/1/008
+- doi: 10.1038/s41560-018-0108-1
+- article-title: Carbon Engineering
+  author: Engineering Carbon
+  journal-title: Retrieved from https://carbonengineering.com/
+  unstructured: Carbon Engineering. 2021. Carbon Engineering. Retrieved from https://carbonengineering.com/.
+  year: '2021'
+- article-title: Carbon Mapper
+  author: Mapper Carbon
+  journal-title: Retrieved from https://carbonmapper.org/
+  unstructured: Carbon Mapper. 2021. Carbon Mapper. Retrieved from https://carbonmapper.org/.
+  year: '2021'
+- article-title: Carbon Tracker to Measure World’s Power Plant Emissions from Space
+    with Support from Google.org
+  author: Tracker Carbon
+  journal-title: Retrieved from https://www.carbontracker.org/carbon-tracker-to-measure-worlds-power-plant-emissions-from-space-with-support-from-google-org/
+  unstructured: Carbon Tracker. 2019. Carbon Tracker to Measure World’s Power Plant
+    Emissions from Space with Support from Google.org. Retrieved from https://www.carbontracker.org/carbon-tracker-to-measure-worlds-power-plant-emissions-from-space-with-support-from-google-org/.
+  year: '2019'
+- author: Carman J.
+  unstructured: J. Carman, T. Clune, F. Giraldo, M. Govett, B. Gross, A. Kamrathe,
+    T. Lee, D. McCarren, J. Michalakes, S. Sandgathe, and T. Whitcomb. 2017. Position
+    paper on high performance computing needs in Earth system prediction. National
+    Earth System Prediction Capability.Technical Report. Retrived from https://doi.org/10.7289/V5862DH3
+  volume-title: Position paper on high performance computing needs in Earth system
+    prediction. National Earth System Prediction Capability.
+  year: '2017'
+- doi: 10.1007/s10584-010-9964-9
+- doi: 10.1039/C7EW00322F
+- doi: 10.5555/3067045
+- doi: 10.1002/2015WR017609
+- doi: 10.3390/app8050749
+- article-title: Global Peatland Database
+  author: Centre Greifswald Mire
+  journal-title: Retrieved from https://greifswaldmoor.de/global-peatland-database-en.html
+  unstructured: Greifswald Mire Centre. 2021. Global Peatland Database. Retrieved
+    from https://greifswaldmoor.de/global-peatland-database-en.html.
+  year: '2021'
+- doi: 10.1016/j.ijpe.2010.10.025
+- doi: 10.1111/j.1365-3059.2010.02411.x
+- doi: 10.1007/978-3-319-93843-1_4
+- doi: 10.1016/j.apenergy.2018.05.044
+- doi: 10.3390/agronomy9030142
+- doi: 10.1016/j.scitotenv.2005.08.018
+- doi: 10.1609/aaai.v33i01.3301493
+- doi: 10.1109/TIE.2017.2764844
+- doi: 10.1136/oemed-2018-ISEEabstracts.14
+  unstructured: 'Jie Chen Kees de Hoogh Maciek Strak Jules Kerckhoffs Roel Vermeulen
+    Bert Brunekreef and Gerard Hoek. 2018. OP III–4 Exposure assessment models for
+    NO2 and PM2.5 in the elapse study: A comparison of supervised linear regression
+    and machine learning approaches. Occupational and Environmental Medicine 75 Suppl
+    1 (2018) A6.'
+- doi: 10.1016/j.tra.2016.08.020
+- author: Chen Tian Qi
+  first-page: '6571'
+  unstructured: Tian Qi Chen, Yulia Rubanova, Jesse Bettencourt, and David K. Duvenaud.
+    2018. Neural ordinary differential equations. In Advances in Neural Information
+    Processing Systems. 6571–6583.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2018'
+- doi: 10.1016/j.trc.2016.12.018
+- article-title: Mobility Data Specification
+  author: Angeles City of Los
+  journal-title: Retrieved from https://github.com/CityOfLosAngeles/mobility-data-specification.git
+  unstructured: City of Los Angeles. 2018. Mobility Data Specification. Retrieved
+    from https://github.com/CityOfLosAngeles/mobility-data-specification.git.
+  year: '2018'
+- article-title: Multi-armed bandits for intelligent tutoring systems
+  author: Clement Benjamin
+  first-page: '20'
+  issue: '2'
+  journal-title: Journal of Educational Data Mining
+  unstructured: Benjamin Clement, Didier Roy, Pierre-Yves Oudeyer, and Manuel Lopes.
+    2013. Multi-armed bandits for intelligent tutoring systems. Journal of Educational
+    Data Mining 7, 2 (2013), 20–48.
+  volume: '7'
+  year: '2013'
+- article-title: Climeworks
+  journal-title: Retrieved from https://www.climeworks.com/
+  unstructured: Climeworks. 2021. Climeworks. Retrieved from https://www.climeworks.com/.
+  year: '2021'
+- doi: 10.1016/j.rse.2013.03.008
+- unstructured: 'Brendan Coffey. 2019. Factory Records: GE Providing Procter & Gamble
+    Greater Access To The Cloud For Analyzing Manufacturing Data. Retrived from https://www.ge.com/reports/factory-records-ge-providing-procter-gamble-greater-access-cloud-analyzing-manufacturing-data/.'
+- article-title: 'S2S reboot: An argument for greater inclusion of machine learning
+    in subseasonal to seasonal forecasts'
+  author: Cohen Judah
+  journal-title: WIREs Climate Change
+  unstructured: 'Judah Cohen, Dim Coumou, Jessica Hwang, Lester Mackey, Paulo Orenstein,
+    Sonja Totz, and Eli Tziperman. 2018. S2S reboot: An argument for greater inclusion
+    of machine learning in subseasonal to seasonal forecasts. WIREs Climate Change
+    10, 2 (2018), e00567.'
+  volume: '10'
+  year: '2018'
+- doi: 10.1039/C8SC04228D
+- article-title: 'Energy Primer: A Handbook of Energy Market Basics'
+  author: Commission Federal Energy Regulatory
+  journal-title: Federal Energy Regulatory Commission, Washington, DC
+  unstructured: 'Federal Energy Regulatory Commission. 2015. Energy Primer: A Handbook
+    of Energy Market Basics. Federal Energy Regulatory Commission, Washington, DC.'
+  year: '2015'
+- doi: 10.1175/2007BAMS2432.1
+- article-title: Estimating the marginal carbon intensity of electricity with machine
+    learning
+  author: Corradi Olivier
+  journal-title: Retrieved from https://medium.com/electricitymap/using-machine-learning-to-estimate-the-hourly-marginal-carbon-intensity-of-electricity-49eade43b421
+  unstructured: Olivier Corradi. 2018. Estimating the marginal carbon intensity of
+    electricity with machine learning. Retrieved from https://medium.com/electricitymap/using-machine-learning-to-estimate-the-hourly-marginal-carbon-intensity-of-electricity-49eade43b421.
+  year: '2018'
+- doi: 10.1177/1527476418796632
+- article-title: 'Geoengineering: Research is Prudent, But No Substitute for Carbon
+    Pollution Cuts'
+  author: Council Natural Resources Defense
+  journal-title: Retrieved from https://www.nrdc.org/media/2015/150210
+  unstructured: 'Natural Resources Defense Council. 2015. Geoengineering: Research
+    is Prudent, But No Substitute for Carbon Pollution Cuts. Retrieved from https://www.nrdc.org/media/2015/150210.'
+  year: '2015'
+- doi: 10.1038/nphys3719
+- article-title: 12,000-mile trip to have seafood shelled
+  author: Cramb Auslan
+  journal-title: The Telegraph
+  unstructured: Auslan Cramb. 2006. 12,000-mile trip to have seafood shelled. The
+    Telegraph.
+  year: '2006'
+- author: Crane-Droesch A.
+  unstructured: A. Crane-Droesch, B. Kravitz, and J. T. Abatzoglou. 2018. Using deep
+    learning to model potential impacts of geoengineering via solar radiation management
+    on US agriculture. In AGU Fall Meeting Abstracts.
+  volume-title: AGU Fall Meeting Abstracts
+  year: '2018'
+- doi: 10.1111/gcbb.12235
+- doi: 10.1038/nclimate3169
+- doi: 10.1073/pnas.1315545112
+- doi: 10.1039/C8EE03682A
+- doi: 10.1017/sus.2019.11
+- doi: 10.1126/science.aac8033
+- doi: 10.1111/gcbb.12205
+- doi: 10.1016/j.trc.2017.11.021
+- doi: 10.1002/wcc.81
+- article-title: Short-term origin-destination based metro flow prediction with probabilistic
+    model selection approach
+  author: Dai Xiaoqing
+  first-page: '1'
+  journal-title: Journal of Advanced Transportation
+  unstructured: Xiaoqing Dai, Lijun Sun, and Yanyan Xu. 2018. Short-term origin-destination
+    based metro flow prediction with probabilistic model selection approach. Journal
+    of Advanced Transportation 2018, 2399 (2018), 1–15.
+  volume: '2018'
+  year: '2018'
+- doi: 10.1109/ICMLA.2019.00277
+- doi: 10.1177/0278364915587723
+- doi: 10.1016/j.rser.2017.08.017
+- doi: 10.1126/science.aas9793
+- doi: 10.1145/3210548
+- doi: 10.5555/3327757.3327820
+- doi: 10.1145/3396851.3397681
+- author: De La Maza Cristóbal
+  first-page: '25'
+  unstructured: Cristóbal De La Maza, Alex Davis, Cleotilde Gonzalez, and Inês Azevedo.
+    2018. A graph-based model to discover preference structure from choice data. In
+    40th Annual Meeting of the Cognitive Science Society (CogSci’18). 25–28.
+  volume-title: 40th Annual Meeting of the Cognitive Science Society (CogSci’18)
+  year: '2018'
+- author: Guzmán Cristóbal de la Maza
+  unstructured: Cristóbal de la Maza Guzmán. 2013. Willingness to pay to avoid environmental
+    impacts of electricity generation. Technical Report. Latin American and Caribbean
+    Environmental Economics Program.
+  volume-title: Willingness to pay to avoid environmental impacts of electricity generation
+  year: '2013'
+- doi: 10.1146/annurev-polisci-080812-191558
+- doi: 10.1016/j.ins.2016.08.045
+- article-title: Stratospheric aerosol injection as a deep reinforcement learning
+    problem
+  author: de Witt Christian Schroeder
+  journal-title: 'ICML 2019 Workshop on Climate Change: How Can AI Help?'
+  unstructured: 'Christian Schroeder de Witt and Thomas Hornigold. 2019. Stratospheric
+    aerosol injection as a deep reinforcement learning problem. In ICML 2019 Workshop
+    on Climate Change: How Can AI Help?'
+  year: '2019'
+- article-title: Estimating food consumption and poverty indices with mobile phone
+    data
+  author: Decuyper Adeline
+  journal-title: Preprint arXiv:1412.2595
+  unstructured: Adeline Decuyper, Alex Rutherford, Amit Wadhwa, Jean-Martin Bauer,
+    Gautier Krings, Thoralf Gutierrez, Vincent D. Blondel, and Miguel A. Luengo-Oroz.
+    2014. Estimating food consumption and poverty indices with mobile phone data.
+    Preprint arXiv:1412.2595 (2014).
+  year: '2014'
+- doi: 10.1126/science.1167311
+- doi: 10.1109/SASO.2008.64
+- doi: 10.1016/j.envint.2009.07.001
+- doi: 10.1006/jema.2001.0515
+- article-title: Dendra Systems
+  author: Systems Dendra
+  journal-title: Retrieved from https://dendra.io/
+  unstructured: Dendra Systems. 2021. Dendra Systems. Retrieved from https://dendra.io/.
+  year: '2021'
+- doi: 10.1109/JSTARS.2017.2694890
+- doi: 10.5555/3020488.3020498
+- doi: 10.1021/acs.est.5b06121
+- doi: 10.1289/isee.2017.2017-389
+- doi: 10.1038/s41467-018-05690-8
+- doi: 10.1007/s10584-017-1985-1
+- doi: 10.1016/j.ecolmodel.2013.05.009
+- doi: 10.5555/1661445.1661448
+- doi: 10.1038/nclimate2972
+- doi: 10.1109/MIC.2013.84
+- doi: 10.1073/pnas.1816020116
+- doi: 10.1016/B978-0-12-801575-9.00006-8
+  unstructured: Bistra Dilkina Jayant R. Kalagnanam and Elena Novakovskaia. 2015.
+    Method for designing the layout of turbines in a windfarm. US Patent No. 9 189
+    570.
+- doi: 10.1016/j.tra.2018.02.009
+- doi: 10.1007/978-3-540-24750-0_19
+- doi: 10.5555/3294996.3295054
+- doi: 10.1109/TSG.2019.2935711
+- doi: 10.1016/j.enbuild.2014.11.065
+- doi: 10.1001/jama.295.10.1127
+- doi: 10.1016/j.enbuild.2015.09.033
+- doi: 10.5555/3433701.3433784
+- article-title: Introducing machine learning for power system operation support
+  author: Donnot Benjamin
+  journal-title: Preprint arXiv:1709.09527
+  unstructured: Benjamin Donnot, Isabelle Guyon, Marc Schoenauer, Patrick Panciatici,
+    and Antoine Marot. 2017. Introducing machine learning for power system operation
+    support. Preprint arXiv:1709.09527 (2017).
+  year: '2017'
+- author: Donti Priya
+  first-page: '5484'
+  unstructured: Priya Donti, Brandon Amos, and J. Zico Kolter. 2017. Task-based end-to-end
+    model learning in stochastic optimization. In Advances in Neural Information Processing
+    Systems. 5484–5494.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1109/TSG.2019.2956906
+- article-title: From satellite imagery to disaster insights
+  author: Doshi Jigar
+  journal-title: Preprint arXiv:1812.07033
+  unstructured: Jigar Doshi, Saikat Basu, and Guan Pang. 2018. From satellite imagery
+    to disaster insights. Preprint arXiv:1812.07033 (2018).
+  year: '2018'
+- doi: 10.23919/ECC.2009.7074633
+- doi: 10.1016/j.apenergy.2018.02.156
+- article-title: Mapping Agricultural Supply Chains from Source to Shelf
+  journal-title: Retrieved from http://drivendata.co/case-studies/mapping-agricultural-supply-chains-from-source-to-shelf/
+  unstructured: DrivenData. 2019. Mapping Agricultural Supply Chains from Source to
+    Shelf. Retrieved from http://drivendata.co/case-studies/mapping-agricultural-supply-chains-from-source-to-shelf/.
+  year: '2019'
+- article-title: DroneSeed
+  journal-title: Retrieved from https://droneseed.com/
+  unstructured: DroneSeed. 2021. DroneSeed. Retrieved from https://droneseed.com/.
+  year: '2021'
+- doi: 10.18653/v1/P17-1123
+- doi: 10.2139/ssrn.3012602
+  unstructured: Victor Duarte. 2018. Machine Learning for Continuous-Time Economics.
+    (2018). Retrieved from https://doi.org/10.2139/ssrn.3012602
+- article-title: Renewable Energy Will Be Consistently Cheaper Than Fossil Fuels By
+    2020, Report Claims
+  author: Dudley Dominic
+  journal-title: Retrieved from https://www.forbes.com/sites/dominicdudley/2018/01/13/renewable-energy-cost-effective-fossil-fuels-2020/
+  unstructured: Dominic Dudley. 2018. Renewable Energy Will Be Consistently Cheaper
+    Than Fossil Fuels By 2020, Report Claims. Retrieved from https://www.forbes.com/sites/dominicdudley/2018/01/13/renewable-energy-cost-effective-fossil-fuels-2020/.
+  year: '2018'
+- doi: 10.1109/MRA.2011.2181683
+- doi: 10.1002/2016GL069258
+- doi: 10.1016/j.atmosenv.2018.05.047
+- article-title: A vision for the development of benchmarks to bridge geoscience and
+    data science
+  author: Ebert-Uphoff Imme
+  journal-title: 17th International Workshop on Climate Informatics
+  unstructured: Imme Ebert-Uphoff, David Thompson, Ibrahim Demir, Yulia Gel, Mary
+    Hill, Anuj Karpatne, Mariana Guereque, Vipin Kumar, Enrique Cabal-Cano, and Padhraic
+    Smyth. 2017. A vision for the development of benchmarks to bridge geoscience and
+    data science. In17th International Workshop on Climate Informatics.
+  year: '2017'
+- article-title: ecoRobotix
+  journal-title: Retrieved from https://www.ecorobotix.com/en/
+  unstructured: ecoRobotix. 2021. ecoRobotix. Retrieved from https://www.ecorobotix.com/en/.
+  year: '2021'
+- article-title: How machine learning contributes to smarter pipeline maintenance
+  author: Edward Tim
+  journal-title: Retrieved from https://www.oilandgaseng.com/articles/how-machine-learning-contributes-to-smarter-pipeline-
+    maintenance/
+  unstructured: Tim Edward and Rob Salkowitz. 2018. How machine learning contributes
+    to smarter pipeline maintenance. Retrieved from https://www.oilandgaseng.com/articles/how-machine-learning-contributes-to-smarter-pipeline-
+    maintenance/.
+  year: '2018'
+- article-title: History of climate modeling
+  author: Edwards P. N.
+  first-page: '128'
+  journal-title: 'Wiley Interdisciplinary Reviews: Climate Change'
+  unstructured: 'P. N. Edwards. 2010. History of climate modeling. Wiley Interdisciplinary
+    Reviews: Climate Change 2, 1 (2010), 128–139. Issue 1.'
+  volume: '2'
+  year: '2010'
+- unstructured: 'Karen Ehrhardt-Martinez Kat A. Donnelly and John A. Skip Laitner.
+    2010. Advanced metering initiatives and residential feedback programs: A meta-review
+    for household electricity-saving opportunities. American Council for an Energy-Efficient
+    Economy Washington DC.'
+- article-title: Machine learning can boost the value of wind energy
+  author: Elkin Carl
+  journal-title: Retrieved from https://deepmind.com/blog/machine-learning-can-boost-value-wind-energy/
+  unstructured: Carl Elkin and Sims Witherspoon. 2019. Machine learning can boost
+    the value of wind energy. Retrieved from https://deepmind.com/blog/machine-learning-can-boost-value-wind-energy/.
+  year: '2019'
+- author: Ellerman A. Denny
+  unstructured: 'A. Denny Ellerman, Frank J. Convery, and Christian De Perthuis. 2010.
+    Pricing Carbon: The European Union Emissions Trading Scheme. Cambridge University
+    Press.'
+  volume-title: 'Pricing Carbon: The European Union Emissions Trading Scheme'
+  year: '2010'
+- doi: 10.1149/2.0861802jes
+- author: Ellman Douglas Douglas Austin
+  unstructured: 'Douglas Douglas Austin Ellman. 2015. The reference electrification
+    model: A computer model for planning rural electricity access. Ph.D. Dissertation.
+    Massachusetts Institute of Technology.'
+  volume-title: 'The reference electrification model: A computer model for planning
+    rural electricity access'
+  year: '2015'
+- article-title: Smart “Predict, then Optimize”
+  author: Elmachtoub Adam N.
+  journal-title: Management Science
+  unstructured: Adam N. Elmachtoub and Paul Grigas. 2021. Smart “Predict, then Optimize”.
+    Management Science (2021).
+  year: '2021'
+- doi: 10.1093/rfs/hhz072
+- doi: 10.5555/1296126
+- doi: 10.1080/01441647.2018.1442887
+- doi: 10.1016/j.isprsjprs.2017.10.012
+- doi: 10.1109/EEM.2017.7981877
+- doi: 10.1016/j.rser.2012.03.048
+- unstructured: Richard Evans and Jim Gao. 2016. DeepMind AI reduces Google data centre
+    cooling bill by 40%. Retrieved from https://deepmind.com/blog/article/deepmind-ai-reduces-google-data-centre-cooling-bill-40.
+- doi: 10.1080/01944363.2016.1245112
+- doi: 10.1016/j.enpol.2013.04.039
+- doi: 10.5194/gmd-9-1937-2016
+- doi: 10.1089/big.2014.0026
+- doi: 10.1016/j.mio.2016.04.003
+- doi: 10.1016/j.apenergy.2016.02.041
+- doi: 10.1016/j.apenergy.2017.12.001
+- doi: 10.1109/SURV.2011.101911.00087
+- doi: 10.1088/0741-3335/54/2/025002
+- doi: 10.1088/0029-5515/51/8/083052
+- doi: 10.1111/gcb.13863
+- doi: 10.1017/CBO9781139177245
+- doi: 10.1146/annurev-environ-031913-100450
+- doi: 10.1126/science.aat1203
+- doi: 10.1609/aaai.v34i01.5403
+- author: Fischedick Manfred
+  unstructured: 'Manfred Fischedick, Joyashree Roy, Amr Abdel-Aziz, Adolf Acquaye,
+    Julian Allwood, Jean-Paul Ceron, Yong Geng, Haroon Kheshgi, Alessandro Lanza,
+    Daniel Perczyk, Lynn Price, Estela Santalla, Claudia Sheinbaum, and Kanako Tanaka.
+    2014. Industry. In Climate Change 2014: Mitigation of Climate Change. Contribution
+    of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+    on Climate Change, O. Edenhofer, R. Pichs-Madruga, Y. Sokona, E. Farahani, S.
+    Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann,
+    J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel, and J. C. Minx (Eds.).
+    Cambridge University Press.'
+  volume-title: 'Climate Change 2014: Mitigation of Climate Change. Contribution of
+    Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+    on Climate Change'
+  year: '2014'
+- doi: 10.1109/MIS.2016.76
+- author: Flannigan Mike
+  unstructured: Mike Flannigan, Chelene Krezek-Hanes, Mike Wotton, Mike Waddington,
+    Merritt Turetsky, and Brian Benscoter. 2012. Peatland Fires and Carbon Emissions
+    (Bulletin 50). Technical Report.
+  volume-title: Peatland Fires and Carbon Emissions (Bulletin 50)
+  year: '2012'
+- doi: 10.1109/IROS.2017.8202130
+- doi: 10.5194/acp-18-17529-2018
+- doi: 10.1038/s41467-019-09677-x
+- doi: 10.1016/j.agrformet.2018.09.021
+- article-title: Integrated Plasma Simulator (IPS) v2.1 documentation
+  author: Foley Samantha
+  journal-title: Retrieved from http://ipsframework.sourceforge.net/doc/html/
+  unstructured: Samantha Foley. 2011. Integrated Plasma Simulator (IPS) v2.1 documentation.
+    Retrieved from http://ipsframework.sourceforge.net/doc/html/.
+  year: '2011'
+- doi: 10.1073/pnas.1614023113
+- doi: 10.1145/2346496.2346499
+- author: Frias-Martinez Vanessa
+  unstructured: Vanessa Frias-Martinez, Victor Soto, Jesus Virseda, and Enrique Frias-Martinez.
+    2012. Computing cost-effective census maps from cell phone traces. In Workshop
+    on Pervasive Urban Applications.
+  volume-title: Workshop on Pervasive Urban Applications
+  year: '2012'
+- article-title: Automated identification of climate risk disclosures in annual corporate
+    reports
+  author: Friederich David
+  journal-title: arXiv preprint arXiv:2108.01415
+  unstructured: David Friederich, Lynn H. Kaack, Alexandra Luccioni, and Bjarne Steffen.
+    2021. Automated identification of climate risk disclosures in annual corporate
+    reports. arXiv preprint arXiv:2108.01415 (2021).
+  year: '2021'
+- doi: 10.1016/j.energy.2018.01.180
+- article-title: 'Intelligent packaging systems: Sensors and nanosensors to monitor
+    food quality and safety'
+  author: Fuertes Guillermo
+  journal-title: Journal of Sensors
+  unstructured: 'Guillermo Fuertes, Ismael Soto, Raúl Carrasco, Manuel Vargas, Jorge
+    Sabattin, and Carolina Lagos. 2016. Intelligent packaging systems: Sensors and
+    nanosensors to monitor food quality and safety. Journal of Sensors 2016, 2 (2016),
+    1–8.'
+  volume: '2016'
+  year: '2016'
+- doi: 10.1002/aenm.201300060
+- article-title: Our position on geoengineering
+  author: Fund Environmental Defense
+  journal-title: Retrieved from https://www.edf.org/climate/our-position-geoengineering
+  unstructured: Environmental Defense Fund. 2019. Our position on geoengineering.
+    Retrieved from https://www.edf.org/climate/our-position-geoengineering.
+  year: '2019'
+- doi: 10.1038/nclimate2392
+- doi: 10.1088/1748-9326/aabf9f
+- doi: 10.1371/journal.pone.0158949
+- doi: 10.1175/WAF-D-17-0010.1
+- doi: 10.1002/2014GL062231
+- article-title: GainForest
+  journal-title: Retrieved from https://www.gainforest.app/
+  unstructured: GainForest. 2021. GainForest. Retrieved from https://www.gainforest.app/.
+  year: '2021'
+- doi: 10.1002/wene.56
+- doi: 10.1007/978-3-319-89656-4_28
+- doi: 10.3389/fict.2018.00006
+- unstructured: Jim Gao. 2014. Machine learning applications for data center optimization.
+    Retrived from https://docs.google.com/a/google.com/viewer?url=www.google.com/about/datacenters/efficiency/internal/assets/machine-learning-applicationsfor-datacenter-optimization-finalv2.pdf.
+- doi: 10.1038/ncomms8958
+- doi: 10.1016/j.sbspro.2013.10.610
+- article-title: Accelerated discovery of sustainable building materials
+  author: Ge Xiou
+  journal-title: Preprint arXiv:1905.08222
+  unstructured: Xiou Ge, Richard T. Goodwin, Jeremy R. Gregory, Randolph E. Kirchain,
+    Joana Maria, and Lav R. Varshney. 2019. Accelerated discovery of sustainable building
+    materials. Preprint arXiv:1905.08222 (2019).
+  year: '2019'
+- doi: 10.1007/s10614-017-9740-2
+- doi: 10.3390/rs3071447
+- doi: 10.1016/j.simpat.2014.10.004
+- doi: 10.1029/2018GL078202
+- doi: 10.1126/science.1174082
+- doi: 10.1126/science.1174082
+- article-title: A new predictive model for more accurate electrical grid mapping
+  author: Gershenson Dimitry
+  journal-title: https://code.fb.com/connectivity/electrical-grid-mapping/
+  unstructured: Dimitry Gershenson, Brandon Rohrer, and Anna Lerner. 2019. A new predictive
+    model for more accurate electrical grid mapping. Retrived from https://code.fb.com/connectivity/electrical-grid-mapping/.
+  year: '2019'
+- article-title: 'Artificial intelligence in logistics: A collaborative report by
+    DHL and IBM on implications and use cases for the logistics industry'
+  author: Gesing Ben
+  journal-title: DHL Trend Research, Troisdorf
+  unstructured: 'Ben Gesing and D. Peterson, and S. Michelsen. 2018. Artificial intelligence
+    in logistics: A collaborative report by DHL and IBM on implications and use cases
+    for the logistics industry. DHL Trend Research, Troisdorf.'
+  year: '2018'
+- doi: 10.1080/23249935.2016.1273273
+- doi: 10.1109/MTITS.2017.8005582
+- doi: 10.1672/08-34.1
+- doi: 10.1016/j.eneco.2019.05.006
+- doi: 10.1007/978-3-319-66387-6_6
+- doi: 10.1016/B978-0-08-100504-0.00003-2
+- doi: 10.1080/09654313.2017.1294149
+- doi: 10.1145/3192335
+- doi: 10.1257/jep.32.4.53
+- doi: 10.1061/(ASCE)WR.1943-5452.0000570
+- author: Glaessgen Edward
+  first-page: '1818'
+  unstructured: Edward Glaessgen and David Stargel. 2012. The digital twin paradigm
+    for future NASA and US Air Force vehicles. In 53rd AIAA/ASME/ASCE/AHS/ASC Structures,
+    Structural Dynamics and Materials Conference 20th AIAA/ASME/AHS Adaptive Structures
+    Conference 14th AIAA. 1818.
+  volume-title: 53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials
+    Conference 20th AIAA/ASME/AHS Adaptive Structures Conference 14th AIAA
+  year: '2012'
+- doi: 10.1016/j.arcontrol.2019.09.008
+- doi: 10.1016/j.ifacol.2017.08.1217
+- article-title: Global Thermostat
+  author: Thermostat Global
+  journal-title: Retrieved from https://globalthermostat.com/
+  unstructured: Global Thermostat. 2021. Global Thermostat. Retrieved from https://globalthermostat.com/.
+  year: '2021'
+- article-title: Zara clothing company supply chain
+  author: Globe SCM
+  journal-title: SCM Globe
+  unstructured: SCM Globe. 2015. Zara clothing company supply chain. SCM Globe.
+  year: '2015'
+- doi: 10.1007/978-3-319-91800-6_2
+- doi: 10.1145/3339399
+- article-title: 'Computational sustainability: Computational methods for a sustainable
+    environment, economy, and society'
+  author: Gomes Carla P.
+  first-page: '5'
+  issue: '4'
+  journal-title: The Bridge
+  unstructured: 'Carla P. Gomes. 2009. Computational sustainability: Computational
+    methods for a sustainable environment, economy, and society. The Bridge 39, 4
+    (2009), 5–13.'
+  volume: '39'
+  year: '2009'
+- article-title: 'CRYSTAL: A multi-agent AI system for automated mapping of materials’
+    crystal structures'
+  author: Gomes Carla P.
+  first-page: '1'
+  journal-title: MRS Communications
+  unstructured: 'Carla P. Gomes, Junwen Bai, Yexiang Xue, Johan Björck, Brendan Rappazzo,
+    Sebastian Ament, Richard Bernstein, Shufeng Kong, Santosh K. Suram, R. Bruce van
+    Dover, and John M. Gregoire. 2019. CRYSTAL: A multi-agent AI system for automated
+    mapping of materials’ crystal structures. MRS Communications 9, 2 (2019), 1–9.'
+  year: '2019'
+- doi: 10.1021/acscentsci.7b00572
+- author: Goosse H.
+  unstructured: H. Goosse, P. Barriat, W. Lefebvre, M. Loutre, and V. Zunz. 2008–2010.
+    Introduction to Climate Dynamics and Climate Modeling. Cambridge University Press.
+  volume-title: Introduction to Climate Dynamics and Climate Modeling
+  year: '2008'
+- article-title: We Can Solve the Climate Crisis by Tracing Pollution Back to Its
+    Sources. A New Coalition Will Make It Possible.
+  author: Gore Al
+  journal-title: Retrieved from https://medium.com/@algore/we-can-solve-the-climate-crisis-by-tracing-pollution-back-to-its-sources-4f535f91a8dd
+  unstructured: Al Gore and Gavin McCormick. 2020. We Can Solve the Climate Crisis
+    by Tracing Pollution Back to Its Sources. A New Coalition Will Make It Possible.
+    Retrieved from https://medium.com/@algore/we-can-solve-the-climate-crisis-by-tracing-pollution-back-to-its-sources-4f535f91a8dd.
+  year: '2020'
+- doi: 10.1016/j.apenergy.2014.07.098
+- unstructured: 'Greenpeace. 2019. Oil in the Cloud: How Tech Companies are Helping
+    Big Oil Profit from Climate Destruction. Retrived from https://www.greenpeace.org/usa/reports/oil-in-the-cloud/.'
+- doi: 10.5555/3454287.3455665
+- unstructured: 'S. Griffith S. Calisch and L. Fraser. 2020. Rewiring America: A Field
+    Manual for the Climate Fight . Rewiring America.'
+- author: Griffiths G.
+  doi: 10.1109/UT.1998.670074
+  first-page: '121'
+  unstructured: G. Griffiths, N. W. Millard, S. D. McPhail, P. Stevenson, J. R. Perrett,
+    M. Peabody, A. T. Webb, and D. T. Meldrum. 1998. Towards environmental monitoring
+    with the Autosub autonomous underwater vehicle. In 1998 International Symposium
+    on Underwater Technology. IEEE, 121–125.
+  volume-title: 1998 International Symposium on Underwater Technology
+  year: '1998'
+- doi: 10.1093/pan/mps028
+- doi: 10.1029/2018JD029815
+- doi: 10.1039/C8MH00653A
+- article-title: 'The Forrester Wave: Big Data Streaming Analytics, Q1 2016'
+  author: Gualtieri Mike
+  journal-title: Forrester.com
+  unstructured: 'Mike Gualtieri, Noel Yuhanna, Holger Kisker, Rowan Curran, Brandon
+    Purcell, Sophia Christakis, Shreyas Warrier, and Matthew Izzi. 2016. The Forrester
+    Wave: Big Data Streaming Analytics, Q1 2016. Forrester.com'
+  year: '2016'
+- article-title: Machine Learning for AC Optimal Power Flow
+  author: Guha Neel
+  journal-title: Retrieved from http://www.neelguha.com/opf.pdf
+  unstructured: Neel Guha, Zhecheng Wang, Matt Wytock, and Arun Majumdar. 2019. Machine
+    Learning for AC Optimal Power Flow. Retrieved from http://www.neelguha.com/opf.pdf.
+  year: '2019'
+- doi: 10.1371/journal.pone.0239922
+  unstructured: Chathika Gunaratne Ivan Garibay and Nguyen Dang. 2020. Evolutionary
+    model discovery of causal factors behind the socio-agricultural behavior of the
+    ancestral Pueblo. PLoS One 15 12 (2020) e0239922.
+- article-title: The Power of Peer Pressure in Combatting Climate Change
+  author: Gunther Marc
+  journal-title: Retrieved from https://www.greenbiz.com/blog/2010/01/19/power-peer-pressure-combatting-climate-change
+  unstructured: Marc Gunther. 2010. The Power of Peer Pressure in Combatting Climate
+    Change. Retrieved from https://www.greenbiz.com/blog/2010/01/19/power-peer-pressure-combatting-climate-change.
+  year: '2010'
+- doi: 10.1145/3209811.3209859
+- author: Gupta Ritwik
+  first-page: '10'
+  unstructured: 'Ritwik Gupta, Bryce Goodman, Nirav Patel, Ricky Hosfelt, Sandra Sajeev,
+    Eric Heim, Jigar Doshi, Keane Lucas, Howie Choset, and Matthew Gaston. 2019. Creating
+    xBD: A dataset for assessing building damage from satellite imagery. In IEEE Conference
+    on Computer Vision and Pattern Recognition Workshops. 10–17.'
+  volume-title: IEEE Conference on Computer Vision and Pattern Recognition Workshops
+  year: '2019'
+- unstructured: Jenny Gustavsson Christel Cederberg Ulf Sonesson Robert Van Otterdijk
+    and Alexandre Meybeck. 2011. Global food losses and food waste. Food and Agriculture
+    Organization of the United Nations Rome.
+- doi: 10.1007/s10098-012-0556-4
+- doi: 10.1021/acsenergylett.7b01022
+- doi: 10.1109/MCOM.2018.1700304
+- doi: 10.1088/1748-9326/aae161
+- doi: 10.3390/rs11060617
+- doi: 10.1016/j.eswa.2017.01.057
+- article-title: Artificial intelligence for social good
+  author: Hager Gregory D.
+  journal-title: Preprint arXiv:1901.05406
+  unstructured: Gregory D. Hager, Ann Drobnis, Fei Fang, Rayid Ghani, Amy Greenwald,
+    Terah Lyons, David C. Parkes, Jason Schultz, Suchi Saria, Stephen F. Smith, and
+    Milind Tambe. 2019. Artificial intelligence for social good. Preprint arXiv:1901.05406
+    (2019).
+  year: '2019'
+- doi: 10.1016/j.puhe.2006.01.002
+- doi: 10.1016/j.apenergy.2012.02.032
+- article-title: Global urban typology discovery with a latent class choice model
+  author: Han Yafei
+  first-page: '5'
+  journal-title: Transportation Research Board 97th Annual Meeting.
+  unstructured: Yafei Han. 2018. Global urban typology discovery with a latent class
+    choice model. In Transportation Research Board 97th Annual Meeting.5.
+  year: '2018'
+- doi: 10.1073/pnas.1805770115
+- doi: 10.1038/nature12238
+- doi: 10.1126/science.1244693
+- doi: 10.1016/j.jpowsour.2004.09.020
+- doi: 10.1016/j.earscirev.2006.05.001
+- doi: 10.5555/3305381.3305527
+- doi: 10.1109/TPEC48276.2020.9042547
+- doi: 10.2507/IJSIMM14(1)9.292
+- author: Hawken Paul
+  unstructured: 'Paul Hawken. 2015. Drawdown: The Most Comprehensive Plan Ever Proposed
+    to Reverse Global Warming. Penguin Books.'
+  volume-title: 'Drawdown: The Most Comprehensive Plan Ever Proposed to Reverse Global
+    Warming'
+  year: '2015'
+- doi: 10.1111/j.1530-9290.2012.00532.x
+- article-title: Who profits from industry 4.0? Theory and evidence from the automotive
+    industry
+  author: Helper Susan
+  journal-title: NYU Stern School of Business
+  unstructured: Susan Helper, Raphael Martins, and Robert Seamans. 2019. Who profits
+    from industry 4.0? Theory and evidence from the automotive industry. NYU Stern
+    School of Business.
+  year: '2019'
+- doi: 10.5555/3504035.3504427
+- doi: 10.5555/2125164.2125194
+- doi: 10.1080/09332480.2019.1579578
+- doi: 10.1088/1748-9326/ab0fe3
+- doi: 10.1016/j.rse.2018.11.044
+- doi: 10.1016/j.apenergy.2015.04.051
+- doi: 10.1038/s41586-018-0277-x
+- doi: 10.1016/j.envsoft.2009.08.010
+- doi: 10.1126/science.aau8825
+- doi: 10.1021/es505027p
+- doi: 10.1016/j.rse.2014.08.012
+- doi: 10.1191/0309133304pp403ra
+- doi: 10.1098/rsta.2012.0137
+- doi: 10.1016/j.ijforecast.2015.11.011
+- doi: 10.1109/SmartGridComm.2016.7778742
+- doi: 10.1088/1748-9326/7/4/044009
+- doi: 10.1175/BAMS-D-15-00135.1
+- doi: 10.1071/WF12157
+- unstructured: Isabel Hovdahl. 2019. On the use of machine learning for causal inference
+    in climate economics. Working Papers No. 05/2019 Centre for Applied Macro- and
+    Petroleum economics (CAMP) BI Norwegian Business School.
+- doi: 10.1109/TSG.2013.2258181
+- doi: 10.1109/TTE.2015.2512237
+- doi: 10.1109/JSTARS.2021.3124519
+  unstructured: 'Bohao Huang Jichen Yang Artem Streltsov Kyle Bradbury Leslie M. Collins
+    and Jordan Malof. 2021. GridTracer: Automatic mapping of power grids using deep
+    learning and overhead imagery. In IEEE Journal of Selected Topics in Applied Earth
+    Observations and Remote Sensing . DOI:10.1109/JSTARS.2021.3124519'
+- doi: 10.1007/s10894-020-00258-1
+- author: Hut R. W.
+  first-page: '8963'
+  unstructured: 'R. W. Hut, N. C. van de Giesen, and J. S. Selker. 2012. The TAHMO
+    project: Designing an unconventional weather station. In EGU General Assembly
+    Conference Abstracts. Vol. 14. 8963.'
+  volume: '14'
+  volume-title: EGU General Assembly Conference Abstracts
+  year: '2012'
+- author: Huynh Duy
+  first-page: '101'
+  unstructured: 'Duy Huynh and Nathalie Neptune. 2018. Annotation automatique d’images:
+    Le cas de la déforestation. In Actes de la conférence Traitement Automatique de
+    la Langue Naturelle (TALN’18). 101.'
+  volume-title: Actes de la conférence Traitement Automatique de la Langue Naturelle
+    (TALN’18)
+  year: '2018'
+- doi: 10.1145/3292500.3330674
+- doi: 10.1016/j.tra.2017.11.009
+- doi: 10.1007/s10489-008-0115-1
+- article-title: The Water, Peace and Security Partnership
+  author: Education IHE Delft Institute for Water
+  journal-title: Retrieved from https:// www.un-ihe.org/water-peace-and-security-partnership
+  unstructured: IHE Delft Institute for Water Education. 2019. The Water, Peace and
+    Security Partnership. Retrieved from https:// www.un-ihe.org/water-peace-and-security-partnership.
+  year: '2019'
+- doi: 10.1038/s41893-018-0153-6
+- doi: 10.1145/2771588
+- article-title: Portal TerraBrasilis
+  author: Espaciais Instituto Nacional de Pesquisas
+  journal-title: Retrieved from http://terrabrasilis.dpi.inpe.br/en/home-page/
+  unstructured: Instituto Nacional de Pesquisas Espaciais. 2020. Portal TerraBrasilis.
+    Retrieved from http://terrabrasilis.dpi.inpe.br/en/home-page/.
+  year: '2020'
+- unstructured: 'IPCC. 2014. Climate Change 2014: Mitigation of Climate Change. Contribution
+    of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+    on Climate Change. O. Edenhofer, R. Pichs-Madruga, Y. Sokona, E. Farahani, S.
+    Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann,
+    J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel, J. C. Minx (Eds.). Intergovernmental
+    Panel on Climate Change.'
+  volume-title: 'Climate Change 2014: Mitigation of Climate Change. Contribution of
+    Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+    on Climate Change. O. Edenhofer, R. Pichs-Madruga, Y. Sokona, E. Farahani, S.
+    Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann,
+    J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel, J. C. Minx (Eds.)'
+  year: '2014'
+- unstructured: 'IPCC. 2014. Climate Change 2014: Synthesis Report. Contribution of
+    Working Groups I, II and III to the Fifth Assessment Report of the Intergovernmental
+    Panel on Climate Change. Core Writing Team, R. K. Pachauri and L. A. Meyer (Eds.).
+    Intergovernmental Panel on Climate Change.'
+  volume-title: 'Climate Change 2014: Synthesis Report. Contribution of Working Groups
+    I, II and III to the Fifth Assessment Report of the Intergovernmental Panel on
+    Climate Change. Core Writing Team, R. K. Pachauri and L. A. Meyer (Eds.)'
+  year: '2014'
+- unstructured: IPCC. 2018. Global warming of 1.5±C. An IPCC special report on the
+    impacts of global warming of 1.5±C above pre-industrial levels and related global
+    greenhouse gas emission pathways, in the context of strengthening the global response
+    to the threat of climate change, sustainable development, and efforts to eradicate
+    poverty. Intergovernmental Panel on Climate Change.
+  volume-title: Global warming of 1.5±C. An IPCC special report on the impacts of
+    global warming of 1.5±C above pre-industrial levels and related global greenhouse
+    gas emission pathways, in the context of strengthening the global response to
+    the threat of climate change, sustainable development, and efforts to eradicate
+    poverty. Intergovernmental Panel on Climate Change.
+  year: '2018'
+- doi: 10.1038/s42256-021-00374-3
+- doi: 10.1038/s41558-019-0398-8
+- doi: 10.1002/wcc.423
+- article-title: Climate change induced migrations from a cell phone perspective
+  author: Isaacman Sibren
+  first-page: '46'
+  journal-title: NetMob
+  unstructured: Sibren Isaacman, Vanessa Frias-Martinez, Lingzi Hong, and Enrique
+    Frias-Martinez. 2017. Climate change induced migrations from a cell phone perspective.
+    NetMob (2017), 46.
+  year: '2017'
+- doi: 10.1145/3209811.3209860
+- doi: 10.5194/acp-16-14371-2016
+- doi: 10.1016/j.tra.2017.09.027
+- doi: 10.1063/1.4812323
+- doi: 10.1145/2160601.2160616
+- article-title: Meta-optimization of optimal power flow
+  author: Jamei Mahdi
+  journal-title: 'ICML Workshop on Climate Change: How Can AI Help?'
+  unstructured: 'Mahdi Jamei, Letif Mones, Alex Robson, Lyndon White, James Requeima,
+    and Cozmin Ududec. 2019. Meta-optimization of optimal power flow. In ICML Workshop
+    on Climate Change: How Can AI Help?'
+  year: '2019'
+- doi: 10.1016/j.trc.2018.07.007
+- doi: 10.1016/j.neucom.2015.11.024
+- unstructured: Natasha Jaques Angeliki Lazaridou Edward Hughes Çaglar Gülçehre Pedro
+    A. Ortega D. J. Strouse Joel Z. Leibo and Nando de Freitas. In Freitas Proceedings
+    of the 36th International Conference on Machine Learning .
+- doi: 10.1016/j.envsoft.2018.06.011
+- doi: 10.1016/j.ymssp.2015.10.025
+- author: Jiang Huaiguang
+  first-page: '1'
+  unstructured: Huaiguang Jiang and Yingchen Zhang. 2016. Short-term distribution
+    system state forecast based on optimal synchrophasor sensor placement and extreme
+    learning machine. In 2016 IEEE Power and Energy Society General Meeting (PESGM’16).
+    IEEE, 1–5.
+  volume-title: 2016 IEEE Power and Energy Society General Meeting (PESGM’16)
+  year: '2016'
+- doi: 10.1109/ICMLA.2016.0176
+- author: Jiang Qiling
+  doi: 10.1109/ISBB.2015.7344954
+  first-page: '184'
+  unstructured: Qiling Jiang, Liujuan Cao, Ming Cheng, Cheng Wang, and Jonathan Li.
+    2015. Deep neural networks-based vehicle detection in satellite images. In 2015
+    International Symposium on Bioelectronics and Bioinformatics (ISBB’15). IEEE,
+    184–187.
+  volume-title: 2015 International Symposium on Bioelectronics and Bioinformatics
+    (ISBB’15)
+  year: '2015'
+- doi: 10.1145/2505821.2505828
+- doi: 10.3390/en11020412
+- doi: 10.1016/j.apenergy.2017.08.166
+- doi: 10.1038/srep33707
+- doi: 10.3102/0034654317740335
+- doi: 10.1029/2008JD011450
+- doi: 10.1111/risa.12601
+- doi: 10.1021/es4034364
+- doi: 10.1021/es102221h
+- author: Joosten Hans
+  unstructured: 'Hans Joosten, Marja-Liisa Tapio-Biström, and Susanna Tol. 2012. Peatlands:
+    Guidance for Climate Change Mitigation through Conservation, Rehabilitation and
+    Sustainable Use. Food and Agriculture Organization of the United Nations.'
+  volume-title: 'Peatlands: Guidance for Climate Change Mitigation through Conservation,
+    Rehabilitation and Sustainable Use'
+  year: '2012'
+- doi: 10.1038/d41586-017-08675-7
+- doi: 10.1016/j.ijforecast.2015.12.002
+- author: Kaack Lynn Helena
+  unstructured: Lynn Helena Kaack. 2019. Challenges and Prospects for Data-Driven
+    Climate Change Mitigation. Ph.D. Dissertation. Carnegie Mellon University, Pittsburgh,
+    PA.
+  volume-title: Challenges and Prospects for Data-Driven Climate Change Mitigation
+  year: '2019'
+- doi: 10.1073/pnas.1619938114
+- doi: 10.1145/3314344.3332480
+- unstructured: 'Lynn H. Kaack Priya L. Donti Emma Strubell and David Rolnick. 2020.
+    Artificial intelligence and climate change: Opportunities considerations and policy
+    levers to align AI with climate change goals. Retrived from https://eu.boell.org/en/2020/12/03/artificial-intelligence-and-climate-change.'
+- doi: 10.1088/1748-9326/aad56c
+- article-title: Autonomous electric vehicle sharing system design
+  author: Kang Namwoo
+  first-page: 011402–011402–1
+  issue: '1'
+  journal-title: Journal of Mechanical Design
+  unstructured: Namwoo Kang, Fred M. Feinberg, and Panos Y. Papalambros. 2016. Autonomous
+    electric vehicle sharing system design. Journal of Mechanical Design 139, 1 (2016),
+    011402–011402–10.
+  volume: '139'
+  year: '2016'
+- doi: 10.1016/j.segan.2017.11.001
+- doi: 10.1109/TSG.2019.2905348
+- doi: 10.1109/PTC.2019.8810586
+- doi: 10.1098/rsta.2020.0093
+- doi: 10.1038/s41586-019-1116-4
+- doi: 10.3390/cryst9010054
+- doi: 10.1175/BAMS-D-13-00255.1
+- doi: 10.1145/3126594.3126662
+- doi: 10.1016/j.energy.2017.12.019
+- article-title: 'The science and technology of solar geoengineering: A compact summary'
+  author: Keith David
+  journal-title: Workshop on Governance of the Deployment of Solar Geoengineering
+  unstructured: 'David Keith and Peter Irvine. 2018. The science and technology of
+    solar geoengineering: A compact summary. In Workshop on Governance of the Deployment
+    of Solar Geoengineering.'
+  year: '2018'
+- doi: 10.1146/annurev.energy.25.1.245
+- article-title: Toward a responsible solar geoengineering research program
+  author: Keith David W.
+  first-page: '71'
+  issue: '3'
+  journal-title: Issues in Science and Technology
+  unstructured: David W. Keith. 2017. Toward a responsible solar geoengineering research
+    program. Issues in Science and Technology 33, 3 (2017), 71–77.
+  volume: '33'
+  year: '2017'
+- doi: 10.1145/3208903.3208923
+- article-title: Integrated assessment models for climate change control
+  author: Kelly David L.
+  first-page: '171'
+  journal-title: International Yearbook of Environmental and Resource Economics 1999/2000
+  unstructured: David L. Kelly and Charles D. Kolstad. 1999. Integrated assessment
+    models for climate change control. In International Yearbook of Environmental
+    and Resource Economics 1999/2000. Edward Elgar, 171–197.
+  year: '1999'
+- doi: 10.1145/2821650.2821672
+- doi: 10.1002/ecs2.1434
+- doi: 10.1016/j.forpol.2014.09.005
+- article-title: 'Field-level crop type classification with k nearest neighbors: A
+    baseline for a new Kenya smallholder dataset'
+  author: Kerner Hannah
+  journal-title: ICLR Workshop on Tackling Climate Change with Machine Learning
+  unstructured: 'Hannah Kerner, Catherine Nakalembe, and Inbal Becker-Reshef. 2020.
+    Field-level crop type classification with k nearest neighbors: A baseline for
+    a new Kenya smallholder dataset. In ICLR Workshop on Tackling Climate Change with
+    Machine Learning.'
+  year: '2020'
+- article-title: Rapid response crop maps in data sparse regions
+  author: Kerner Hannah
+  journal-title: KDD Workshop on Humanitarian Mapping
+  unstructured: Hannah Kerner, Gabriel Tseng, Inbal Becker-Reshef, Catherine Nakalembe,
+    Brian Barker, Blake Munshell, Madhava Paliyam, and Mehdi Hosseini. 2020. Rapid
+    response crop maps in data sparse regions. In KDD Workshop on Humanitarian Mapping.
+  year: '2020'
+- author: Gibbons Kevin P.
+  unstructured: Kevin P. Gibbons. 2014. Hyperspectral Imaging What is it? How does
+    it work?Technical Report. Retrived from https://www.techbriefs.com/component/content/article/tb/features/application-briefs/19507.
+  volume-title: Hyperspectral Imaging What is it? How does it work?
+  year: '2014'
+- doi: 10.1016/j.rser.2015.10.117
+- doi: 10.1596/1813-9450-5057
+- author: Khandker Shahidur R.
+  unstructured: 'Shahidur R. Khandker, Douglas F. Barnes, and Hussain A. Samad. 2009.
+    Welfare Impacts of Rural Electrification: A Case Study from Bangladesh. The World
+    Bank.'
+  volume-title: 'Welfare Impacts of Rural Electrification: A Case Study from Bangladesh'
+  year: '2009'
+- doi: 10.1016/j.apenergy.2017.08.237
+- doi: 10.1158/1055-9965.EPI-13-0146
+- doi: 10.7717/peerj-cs.126
+- doi: 10.1016/j.ijrefrig.2012.06.007
+- doi: 10.1016/j.gloenvcha.2014.02.008
+- doi: 10.1002/0470020598
+- doi: 10.1371/journal.pone.0006392
+- doi: 10.1038/s41558-018-0201-2
+- doi: 10.1109/RICE.2018.8509050
+- doi: 10.1609/aimag.v34i3.2484
+- unstructured: Julian Kölbel Markus Leippold Jordy Rillaerts and Qian Wang. 2020.
+    Does the CDS market reflect regulatory climate risk disclosures? Working Paper
+    University of Zurich.
+- doi: 10.5555/2997189.2997318
+- doi: 10.5555/2900423.2900637
+- author: Kolter J. Zico
+  first-page: '1472'
+  unstructured: J. Zico Kolter and Tommi Jaakkola. 2012. Approximate inference in
+    additive factorial HMMs with application to energy disaggregation. In 15th International
+    Conference on Artificial Intelligence and Statistics. 1472–1482.
+  volume-title: 15th International Conference on Artificial Intelligence and Statistics
+  year: '2012'
+- article-title: Physics-Guided Data Science for Food Security and Climate
+  author: Konduri Venkata Shashank
+  journal-title: KDD Feed Workshop 2019
+  unstructured: Venkata Shashank Konduri, Jitendra Kumar, Forrest Hoffman, Udit Bhatia,
+    Tarik Gouthier, and Auroop Ganguly. 2019. Physics-Guided Data Science for Food
+    Security and Climate. In KDD Feed Workshop 2019. Retrived from https://drive.google.com/file/d/1dOGIjbgMGPTpnFIvimpOlPvz28BMw2_Q/view.
+  year: '2019'
+- doi: 10.1016/j.apenergy.2018.12.065
+- doi: 10.1016/j.apenergy.2017.04.005
+- doi: 10.1002/2017EF000663
+- doi: 10.3390/en13061372
+- doi: 10.1016/j.inffus.2017.02.004
+- doi: 10.1115/1.2847757
+- doi: 10.1093/acrefore/9780190625979.013.256
+  unstructured: 'Noemi Kreif and Karla DiazOrdaz. 2019. Machine learning in policy
+    evaluation: New tools for causal inference. In Oxford Research Encyclopedia of
+    Economics and Finance . OUP.'
+- author: Krile Robert
+  unstructured: Robert Krile, Fred Todt, and Jeremy Schroeder. 2016. Assessing Roadway
+    Traffic Count Duration and Frequency Impacts on Annual Average Daily Traffic Estimation.
+    Technical Report FHWA-PL-16-012. Federal Highway Administration, Washington, D.C.
+  volume-title: Assessing Roadway Traffic Count Duration and Frequency Impacts on
+    Annual Average Daily Traffic Estimation
+  year: '2016'
+- article-title: New elevation data triple estimates of global vulnerability to sea-level
+    rise and coastal flooding
+  author: Kulp Scott A.
+  first-page: '1'
+  issue: '1'
+  journal-title: Nature Communications
+  unstructured: Scott A. Kulp and Benjamin H. Strauss. 2019. New elevation data triple
+    estimates of global vulnerability to sea-level rise and coastal flooding. Nature
+    Communications 10, 1 (2019), 1–12.
+  volume: '10'
+  year: '2019'
+- doi: 10.1109/SC.2018.00054
+- doi: 10.1109/LGRS.2017.2681128
+- doi: 10.1016/j.scs.2017.08.009
+- article-title: Quantifying the carbon emissions of machine learning
+  author: Lacoste Alexandre
+  journal-title: Preprint arXiv:1910.09700
+  unstructured: Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, and Thomas
+    Dandres. 2019. Quantifying the carbon emissions of machine learning. Preprint
+    arXiv:1910.09700 (2019).
+  year: '2019'
+- doi: 10.1016/j.apenergy.2018.02.069
+- doi: 10.1243/09544097JRRT92
+- doi: 10.1016/j.ufug.2013.11.001
+- doi: 10.1175/2009WAF2222330.1
+- doi: 10.5555/3295222.3295387
+- article-title: Zero-shot learning of aerosol optical properties with graph neural
+    networks
+  author: Lamb Kara D.
+  journal-title: arXiv preprint arXiv:2107.10197
+  unstructured: Kara D. Lamb and Pierre Gentine. 2021. Zero-shot learning of aerosol
+    optical properties with graph neural networks. arXiv preprint arXiv:2107.10197
+    (2021).
+  year: '2021'
+- doi: 10.1038/s41558-019-0440-x
+- doi: 10.5555/1889788.1889832
+- author: Lary D. J.
+  unstructured: D. J. Lary. 2010. Artificial intelligence in geoscience and remote
+    sensing. In Aerospace Technologies Advancements. BoD–Books on Demand.
+  volume-title: Aerospace Technologies Advancements
+  year: '2010'
+- article-title: Machine learning in geosciences and remote sensing
+  author: Lary David J.
+  first-page: '3'
+  journal-title: Geoscience Frontiers
+  unstructured: David J. Lary, Amir H. Alavi, Amir H. Gandomi, and Annette L. Walker.
+    2015. Machine learning in geosciences and remote sensing. Geoscience Frontiers
+    7 (2015), 3–10.
+  year: '2015'
+- doi: 10.1007/978-3-319-65633-5_8
+- doi: 10.5555/2948890
+- doi: 10.1126/science.1248506
+- doi: 10.1109/TPWRS.2018.2800535
+- doi: 10.2514/6.2015-2272
+- doi: 10.5555/3306127.3331808
+- doi: 10.1016/j.apenergy.2020.115527
+- article-title: Making Concrete Change, Innovation in Low-carbon Cement and Concrete
+  author: Lehne Johanna
+  first-page: '1'
+  journal-title: 'Chatham House Report, Energy Enivronment and Resources Department:
+    London, UK'
+  unstructured: 'Johanna Lehne and Felix Preston. 2018. Making Concrete Change, Innovation
+    in Low-carbon Cement and Concrete. Chatham House Report, Energy Enivronment and
+    Resources Department: London, UK, 1–66.'
+  year: '2018'
+- doi: 10.1016/j.renene.2015.12.069
+- doi: 10.3390/rs11111378
+- doi: 10.1016/j.isprsjprs.2015.10.012
+- doi: 10.1109/JSTARS.2019.2896923
+- doi: 10.3390/s18082674
+- doi: 10.2172/1422303
+- author: Lian Jianming
+  unstructured: 'Jianming Lian, Wei Zhang, Y. Sun, Laurentiu D. Marinovici, Karanjit
+    Kalsi, and Steven E. Widergren. 2018. Transactive System: Part I: Theoretical
+    Underpinnings of Payoff Functions, Control Decisions, Information Privacy, and
+    Solution Concepts. Technical Report. Pacific Northwest National Lab, Richland,
+    WA.'
+  volume-title: 'Transactive System: Part I: Theoretical Underpinnings of Payoff Functions,
+    Control Decisions, Information Privacy, and Solution Concepts'
+  year: '2018'
+- article-title: Does geoengineering present a moral hazard
+  author: Lin Albert C.
+  first-page: '673'
+  journal-title: Ecology Law Quarterly
+  unstructured: Albert C. Lin. 2013. Does geoengineering present a moral hazard. Ecology
+    Law Quarterly 40, 3 (2013), 673.
+  volume: '40'
+  year: '2013'
+- article-title: Evaluation of machine learning algorithms for prediction of regions
+    of high Reynolds averaged Navier Stokes uncertainty
+  author: Ling J.
+  issue: 085103
+  journal-title: Physics of Fluids
+  unstructured: J. Ling and J. Templeton. 2015. Evaluation of machine learning algorithms
+    for prediction of regions of high Reynolds averaged Navier Stokes uncertainty.
+    Physics of Fluids 27, 085103 (2015).
+  volume: '27'
+  year: '2015'
+- doi: 10.14358/PERS.74.10.1201
+- article-title: Application of deep convolutional neural networks for detecting extreme
+    weather in climate datasets
+  author: Liu Yunjie
+  journal-title: International Conference on Advances in Big Data Analytics
+  unstructured: Yunjie Liu, Evan Racah, Prabhat, Joaquin Correa, Amir Khosrowshahi,
+    David Lavers, Kenneth Kunkel, Michael Wehner, and William Collins. 2016. Application
+    of deep convolutional neural networks for detecting extreme weather in climate
+    datasets. In International Conference on Advances in Big Data Analytics.
+  year: '2016'
+- doi: 10.1109/MNET.2019.1800254
+- doi: 10.1016/j.jmat.2017.08.002
+- article-title: Technical and economic aspects of load following with nuclear power
+    plants
+  author: Lokhov Alexey
+  journal-title: NEA, OECD, Paris, France
+  unstructured: Alexey Lokhov. 2011. Technical and economic aspects of load following
+    with nuclear power plants. NEA, OECD, Paris, France.
+  year: '2011'
+- article-title: Intelligent drone swarm for search and rescue operations at sea
+  author: Lomonaco Vincenzo
+  journal-title: Preprint arXiv:1811.05291
+  unstructured: Vincenzo Lomonaco, Angelo Trotta, Marta Ziosi, Juan De Dios Yáñez
+    Ávila, and Natalia Díaz-Rodríguez. 2018. Intelligent drone swarm for search and
+    rescue operations at sea. Preprint arXiv:1811.05291 (2018).
+  year: '2018'
+- doi: 10.1016/j.engappai.2020.103894
+- doi: 10.1098/rsif.2014.0924
+- doi: 10.1061/(ASCE)UP.1943-5444.0000469
+- doi: 10.1016/j.landurbplan.2014.07.005
+- doi: 10.5194/gmd-6-1157-2013
+- article-title: Analyzing sustainability reports using natural language processing
+  author: Luccioni Alexandra
+  journal-title: arXiv preprint arXiv:2011.08073
+  unstructured: Alexandra Luccioni, Emily Baylor, and Nicolas Duchene. 2020. Analyzing
+    sustainability reports using natural language processing. arXiv preprint arXiv:2011.08073
+    (2020).
+  year: '2020'
+- author: Lucon O.
+  unstructured: 'O. Lucon, D. Ürge Vorsatz, A. Zain Ahmed, P. Bertoldi, L. F. Cabeza,
+    N. Eyre, A. Gadgil, L. D. D. Harvey, Y. Jiang, S. Liphoto, S. Mirasgedis, S. Murakami,
+    J. Parikh, C. Pyke, and M. V. Vilariño. 2014. Buildings. In Climate Change 2014:
+    Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment
+    Report of the Intergovernmental Panel on Climate Change. Edenhofer, O., R. Pichs-Madruga,
+    Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner,
+    P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel,
+    and J. C. Minx (Eds.). Cambridge University Press, Cambridge, UK.'
+  volume-title: 'Climate Change 2014: Mitigation of Climate Change. Contribution of
+    Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+    on Climate Change. Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S.
+    Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann,
+    J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel, and J. C. Minx (Eds.).
+    Cambridge University Press, Cambridge, UK.'
+  year: '2014'
+- doi: 10.1016/j.jqsrt.2018.05.002
+- article-title: Machine learning-based estimation of forest carbon stocks to increase
+    transparency of forest preservation efforts
+  author: Lütjens Björn
+  journal-title: arXiv preprint arXiv:1912.07850
+  unstructured: Björn Lütjens, Lucas Liebenwein, and Katharina Kramer. 2019. Machine
+    learning-based estimation of forest carbon stocks to increase transparency of
+    forest preservation efforts. arXiv preprint arXiv:1912.07850 (2019).
+  year: '2019'
+- article-title: Computing robust strategies for managing invasive plants
+  author: Lydakis Andreas
+  journal-title: Retrieved from https://marek.petrik.us/pub/Lydakis2018.pdf
+  unstructured: Andreas Lydakis, Jenica M. Allen, Marek Petrik, and Tim Szewczyk.
+    2018. Computing robust strategies for managing invasive plants. Retrieved from
+    https://marek.petrik.us/pub/Lydakis2018.pdf.
+  year: '2018'
+- doi: 10.1145/3287098.3287100
+- doi: 10.1016/j.trc.2018.09.002
+- article-title: Monitoring of the Andean Amazon Project
+  journal-title: Retrieved from https://maaproject.org/about-maap/
+  unstructured: MAAP. 2020. Monitoring of the Andean Amazon Project. Retrieved from
+    https://maaproject.org/about-maap/.
+  year: '2020'
+- author: MacDicken K.
+  unstructured: 'K. MacDicken, Ö. Jonsson, L. Piña, S. Maulo, V. Contessa, Y. Adikari,
+    M. Garzuglia, E. Lindquist, G. Reams, and R. D’Annunzio. 2016. Global Forest Resources
+    Assessment 2015: How Are the World’s Forests Changing?FAO.'
+  volume-title: 'Global Forest Resources Assessment 2015: How Are the World’s Forests
+    Changing?'
+  year: '2016'
+- author: MacKay David
+  unstructured: David MacKay. 2008. Sustainable Energy-Without the Hot Air. UIT Cambridge.
+  volume-title: Sustainable Energy-Without the Hot Air
+  year: '2008'
+- doi: 10.1146/annurev-control-053018-023725
+- doi: 10.1002/2015GL065391
+- doi: 10.1007/978-3-030-01054-6_8
+  unstructured: Roberto Maestre Juan Ramón Duque Alberto Rubio and Juan Arévalo. 2018.
+    Reinforcement learning for fair dynamic pricing. In Intelligent Systems and Applications.
+    IntelliSys 2018. Advances in Intelligent Systems and Computing K. Arai S. Kapoor
+    R. Bhatia (Eds). vol. 868 Springer Cham 120–135.
+- doi: 10.1088/1748-9326/aa836d
+- article-title: 'Wind power forecasting: A systematic literature review'
+  author: Maldonado-Correa Jorge
+  first-page: '413'
+  journal-title: Wind Engineering
+  unstructured: 'Jorge Maldonado-Correa, J. C. Solano, and Marco Rojas-Moncayo. 2019.
+    Wind power forecasting: A systematic literature review. Wind Engineering 45, 2
+    (2019), 413–426.'
+  year: '2019'
+- unstructured: Kolya Malkin Caleb Robinson Le Hou Rachel Soobitsky Jacob Czawlytko
+    Dimitris Samaras Joel Saltz Lucas Joppa and Nebojsa Jojic. 2018. Label super-resolution
+    networks. In ICLR 2019 Conference .
+- doi: 10.1016/j.apenergy.2016.08.191
+- doi: 10.1007/s11116-016-9747-x
+- doi: 10.1145/3106426.3115589
+- doi: 10.2139/ssrn.3347466
+- doi: 10.1073/pnas.1703514114
+- unstructured: 'Antoine Marot Benjamin Donnot Gabriel Dulac-Arnold Adrian Kelly Aïdan
+    O’Sullivan Jan Viebahn Mariette Awad Isabelle Guyon Patrick Panciatici and Camilo
+    Romero. 2021. Learning to run a power network challenge: A retrospective analysis.
+    In Proceedings of the Machine Learning Research Competition and Demonstration
+    Track (NeurIPS’20) . 133: 112–132.'
+- doi: 10.1016/j.epsr.2020.106635
+- doi: 10.1038/nclimate3206
+- doi: 10.1111/jeea.12150
+  unstructured: David Martimort and Wilfried Sand-Zantman. 2016. A mechanism design
+    approach to climate agreements. Journal of the European Economic Association 14
+    3 (2016) 669–718
+- doi: 10.1016/j.solener.2016.01.049
+- article-title: 'PVNet: A LRCN architecture for spatio-temporal photovoltaic powerforecasting
+    from numerical weather prediction'
+  author: Mathe Johan
+  journal-title: Preprint arXiv:1902.01453
+  unstructured: 'Johan Mathe, Nina Miolane, Nicolas Sebastien, and Jeremie Lequeux.
+    2019. PVNet: A LRCN architecture for spatio-temporal photovoltaic powerforecasting
+    from numerical weather prediction. Preprint arXiv:1902.01453 (2019).'
+  year: '2019'
+- doi: 10.1016/j.dss.2013.08.013
+- doi: 10.1016/j.engappai.2010.11.004
+- doi: 10.1088/1748-9326/7/3/034019
+- doi: 10.1016/j.tplants.2014.10.008
+- doi: 10.1175/BAMS-D-16-0123.1
+- doi: 10.5555/2900728.2900777
+- doi: 10.1007/978-1-4614-8806-4_11
+- doi: 10.1080/00207543.2014.985449
+- unstructured: Sreejith Menon Tanya Berger-Wolf Emre Kiciman Lucas Joppa Charles
+    V. Stewart Jason Parham Jonathan Crall Jason Holmberg and Jonathan Van Oast. 2016.
+    Animal population estimation using Flickr images. In 2nd International Workshop
+    on the Social Web for Environmental and Ecological Monitoring.
+- article-title: MethaneSAT
+  journal-title: Retrieved from https://www.methanesat.org/
+  unstructured: MethaneSAT. 2021. MethaneSAT. Retrieved from https://www.methanesat.org/.
+  year: '2021'
+- article-title: Computer generated building footprints for the United States
+  journal-title: Retrieved from https://github.com/Microsoft/USBuildingFootprints
+  unstructured: Microsoft. 2018. Computer generated building footprints for the United
+    States. Retrieved from https://github.com/Microsoft/USBuildingFootprints.
+  year: '2018'
+- article-title: Machine learning for geographically differentiated climate change
+    mitigation in urban areas
+  author: Milojevic-Dupont Nikola
+  first-page: '102526'
+  journal-title: Sustainable Cities and Society
+  unstructured: Nikola Milojevic-Dupont and Felix Creutzig. 2020. Machine learning
+    for geographically differentiated climate change mitigation in urban areas. Sustainable
+    Cities and Society 64 (2020), 102526.
+  year: '2020'
+- doi: 10.1371/journal.pone.0242010
+- doi: 10.1016/j.geoderma.2017.10.018
+- doi: 10.1016/j.wasman.2007.10.003
+- doi: 10.1088/1748-9326/aabf9b
+- article-title: 'Learning for constrained optimization: Identifying optimal active
+    constraint sets'
+  author: Misra Sidhant
+  journal-title: arXiv preprint arXiv:1802.09639
+  unstructured: 'Sidhant Misra, Line Roald, and Yeesian Ng. 2018. Learning for constrained
+    optimization: Identifying optimal active constraint sets. arXiv preprint arXiv:1802.09639
+    (2018).'
+  year: '2018'
+- doi: 10.1029/2018WR023528
+- doi: 10.1109/TSG.2018.2834219
+- doi: 10.1016/j.enbuild.2016.01.030
+- doi: 10.1007/978-3-030-04191-5_23
+- author: Moehle Nicholas
+  doi: 10.1007/978-3-030-22788-3_4
+  first-page: '69'
+  unstructured: Nicholas Moehle, Enzo Busseti, Stephen Boyd, and Matt Wytock. 2019.
+    Dynamic energy management. In Large Scale Optimization in Supply Chains and Smart
+    Manufacturing. Springer, 69–126.
+  volume-title: Large Scale Optimization in Supply Chains and Smart Manufacturing
+  year: '2019'
+- doi: 10.1016/j.trd.2015.07.009
+- author: Monteleoni C.
+  first-page: '81'
+  unstructured: C. Monteleoni, G. A. Schmidt, F. Alexander, A. Niculescu-Mizil, K.
+    Steinhaeuser, M. Tippett, A. Banerjee, M. B. Blumenthal, A. R. Ganguly, J. E.
+    Smerdon, and M. Tedesco. 2013. Climate jnformatic. In Computational Intelligent
+    Data Analysis for Sustainable Development; Data Mining and Knowledge Discovery
+    Series. T. Yu, N. Chawla, and S. Simoff (Eds.). CRC Press, Taylor & Francis Group,
+    Chapter 4, 81–126.
+  volume-title: Computational Intelligent Data Analysis for Sustainable Development;
+    Data Mining and Knowledge Discovery Series
+  year: '2013'
+- doi: 10.1002/sam.10126
+- article-title: 'Fire: An agent and a consequence of land use change'
+  author: Montgomery Claire A.
+  first-page: '281'
+  journal-title: The Oxford Handbook of Land Economics
+  unstructured: 'Claire A. Montgomery. 2014. Fire: An agent and a consequence of land
+    use change. In The Oxford Handbook of Land Economics. OUP, 281.'
+  year: '2014'
+- doi: 10.1002/cssc.201500322
+- doi: 10.4271/2017-01-1276
+- doi: 10.1161/CIRCOUTCOMES.117.004233
+- doi: 10.1038/nclimate3322
+- doi: 10.1017/9781316882665
+- doi: 10.1007/s11625-017-0521-6
+- doi: 10.1016/j.egypro.2014.11.427
+- doi: 10.1016/j.enpol.2017.02.007
+- doi: 10.3390/en12071301
+- doi: 10.1111/itor.12337
+- doi: 10.1038/nature08823
+- article-title: The Supermarket of the Future Knows Exactly What You’re Eating
+  author: Mucci Alberto
+  journal-title: Retrieved from https://www.vice.com/en_us/article/4xbppn/the-supermarket-of-the-future-knows-exactly-what-youre-eating
+  unstructured: Alberto Mucci. 2016. The Supermarket of the Future Knows Exactly What
+    You’re Eating. Retrieved from https://www.vice.com/en_us/article/4xbppn/the-supermarket-of-the-future-knows-exactly-what-youre-eating.
+  year: '2016'
+- doi: 10.1109/MCOM.2018.1800371
+- doi: 10.1080/24751839.2019.1565653
+- author: Mukkavilli Surya Karthik
+  unstructured: 'Surya Karthik Mukkavilli. 2019. EnviroNet: ImageNet for environment.
+    In 18th Conference on Artificial and Computational Intelligence and its Applications
+    to the Environmental Sciences. American Meteorological Society.'
+  volume-title: 18th Conference on Artificial and Computational Intelligence and its
+    Applications to the Environmental Sciences
+  year: '2019'
+- doi: 10.1007/978-3-319-46487-9_48
+- doi: 10.1088/0029-5515/48/3/035010
+- author: Mwebaze Ernest
+  unstructured: Ernest Mwebaze, Washington Okori, and John Alexander Quinn. 2010.
+    Causal structure learning for famine prediction. In 2010 AAAI Spring Symposium
+    Series.
+  volume-title: 2010 AAAI Spring Symposium Series
+  year: '2010'
+- doi: 10.1016/j.jclepro.2019.05.005
+- doi: 10.1038/s41893-018-0101-5
+- author: Nam Daisik
+  first-page: '8'
+  unstructured: Daisik Nam, Hyunmyung Kim, Jaewoo Cho, and R. Jayakrishnan. 2017.
+    A model based on deep learning for predicting travel mode choice. In 96th Annual
+    Meeting of the Transportation Research Board, Washington, DC. 8–12.
+  volume-title: 96th Annual Meeting of the Transportation Research Board, Washington,
+    DC
+  year: '2017'
+- doi: 10.1109/TPWRS.2006.888977
+- article-title: The study of Earth as an integrated system
+  author: Science NASA
+  journal-title: Retrieved from https://climate.nasa.gov/nasa_science/science/
+  unstructured: NASA Science. 2019. The study of Earth as an integrated system. Retrieved
+    from https://climate.nasa.gov/nasa_science/science/.
+  year: '2019'
+- doi: 10.1109/ACCESS.2018.2792680
+- author: Medicine National Academies of Sciences, Engineering, and
+  unstructured: 'National Academies of Sciences, Engineering, and Medicine. 2019.
+    Negative Emissions Technologies and Reliable Sequestration: A Research Agenda.
+    The National Academies Press, Washington, DC.'
+  volume-title: 'Negative Emissions Technologies and Reliable Sequestration: A Research
+    Agenda'
+  year: '2019'
+- article-title: Carbon Intensity API
+  author: ESO National Grid
+  journal-title: Retrieved from https://carbonintensity.org.uk/
+  unstructured: National Grid ESO. 2019. Carbon Intensity API. Retrieved from https://carbonintensity.org.uk/.
+  year: '2019'
+- article-title: 'Insight: Nuclear Fusion'
+  author: Physics Nature
+  journal-title: Retrieved from https://www.nature.com/collections/bccqhmkbyw
+  unstructured: 'Nature Physics. 2016. Insight: Nuclear Fusion. Retrieved from https://www.nature.com/collections/bccqhmkbyw.'
+  year: '2016'
+- article-title: NCX
+  journal-title: Retrieved from https://www.ncx.com
+  unstructured: NCX. 2021. NCX. Retrieved from https://www.ncx.com.
+  year: '2021'
+- doi: 10.1016/j.cities.2013.12.010
+- doi: 10.1088/1748-9326/aabff4
+- doi: 10.1016/j.ijepes.2017.12.016
+- doi: 10.5555/1942947
+- doi: 10.1016/j.trc.2018.07.020
+- doi: 10.1016/j.energy.2015.12.018
+- doi: 10.1073/pnas.1719367115
+- doi: 10.1016/j.trc.2018.10.023
+- doi: 10.1088/1748-9326/aae2be
+- doi: 10.1371/journal.pone.0109583
+- doi: 10.1016/j.apenergy.2018.05.023
+- doi: 10.1007/s40593-014-0028-6
+- article-title: 'Andrew Ng: Artificial Intelligence is the New Electricity'
+  author: Business Stanford Graduate School of
+  journal-title: Retrieved from https://www.youtube.com/watch?v=21EiKfQYZXc
+  unstructured: 'Stanford Graduate School of Business. 2017. Andrew Ng: Artificial
+    Intelligence is the New Electricity. Retrieved from https://www.youtube.com/watch?v=21EiKfQYZXc.'
+  year: '2017'
+- article-title: UCS Position on Solar Geoengineering
+  author: Scientists Union of Concerned
+  journal-title: Retrieved from https://www.ucsusa.org/sites/default/files/attach/2019/gw-position-Solar-Geoengineering-022019.pdf
+  unstructured: Union of Concerned Scientists. 2019. UCS Position on Solar Geoengineering.
+    Retrieved from https://www.ucsusa.org/sites/default/files/attach/2019/gw-position-Solar-Geoengineering-022019.pdf.
+  year: '2019'
+- article-title: Energy Department Awards $5.5 Million to Apply Machine Learning to
+    Geothermal Exploration
+  author: Energy U.S. Office of Energy Efficiency & Renewable
+  journal-title: Retrieved from https://www.energy.gov/eere/articles/energy- department-awards-55-million-apply-machine-learning-geothermal-exploration
+  unstructured: U.S. Office of Energy Efficiency & Renewable Energy. 2019. Energy
+    Department Awards $5.5 Million to Apply Machine Learning to Geothermal Exploration.
+    Retrieved from https://www.energy.gov/eere/articles/energy- department-awards-55-million-apply-machine-learning-geothermal-exploration.
+  year: '2019'
+- doi: 10.1109/ICMLA.2016.0092
+  unstructured: Timothy Oladunni and Sharad Sharma. 2016. Hedonic housing theory–a
+    machine learning investigation. In 2016 15th IEEE International Conference on
+    Machine Learning and Applications.
+- doi: 10.1016/j.enpol.2019.03.043
+- author: Olteanu Alexandra
+  unstructured: 'Alexandra Olteanu, Carlos Castillo, Fernando Diaz, and Sarah Vieweg.
+    2014. CrisisLex: A lexicon for collecting and filtering microblogged communications
+    in crises. In 8th International AAAI Conference on Weblogs and Social Media.'
+  volume-title: 8th International AAAI Conference on Weblogs and Social Media
+  year: '2014'
+- doi: 10.1016/j.trpro.2015.09.037
+- article-title: 'Ubenwa: Cry-based diagnosis of birth asphyxia'
+  author: Onu Charles C.
+  journal-title: Preprint arXiv:1711.06405
+  unstructured: 'Charles C. Onu, Innocent Udeogu, Eyenimi Ndiomu, Urbain Kengni, Doina
+    Precup, Guilherme M. Sant’Anna, Edward Alikor, and Peace Opara. 2017. Ubenwa:
+    Cry-based diagnosis of birth asphyxia. Preprint arXiv:1711.06405 (2017).'
+  year: '2017'
+- article-title: Developing the World’s First Indicator of Forest Carbon Stocks &
+    Emissions
+  author: O’Shea Tara
+  journal-title: Retrieved from https://www.planet.com/pulse/developing-the-worlds-first-indicator-of-forest-carbon-stocks-emissions/
+  unstructured: Tara O’Shea. 2019. Developing the World’s First Indicator of Forest
+    Carbon Stocks & Emissions. Retrieved from https://www.planet.com/pulse/developing-the-worlds-first-indicator-of-forest-carbon-stocks-emissions/.
+  year: '2019'
+- doi: 10.1145/3219819.3219924
+- author: Otieno Fred
+  doi: 10.1109/PowerAfrica.2018.8521063
+  first-page: '457'
+  unstructured: Fred Otieno, Nathan Williams, and Patrick McSharry. 2018. Forecasting
+    energy demand for microgrids over multiple horizons. In 2018 IEEE PES/IAS PowerAfrica.
+    IEEE, 457–462.
+  volume-title: 2018 IEEE PES/IAS PowerAfrica
+  year: '2018'
+- doi: 10.1016/j.apenergy.2019.01.024
+- article-title: Pachama
+  journal-title: Retrieved from https://pachama.com/
+  unstructured: Pachama. 2021. Pachama. Retrieved from https://pachama.com/.
+  year: '2021'
+- author: Pachauri Rajendra K.
+  unstructured: Rajendra K. Pachauri. 2014. Climate Change 2014 Synthesis Report.
+    IPCC.
+  volume-title: Climate Change 2014 Synthesis Report
+  year: '2014'
+- doi: 10.1103/PhysRevLett.120.042003
+- doi: 10.1038/nature01131
+- doi: 10.1007/s10458-005-2631-2
+- article-title: A survey of optimal power flow methods.
+  author: Pandya K. S.
+  issue: '5'
+  journal-title: Journal of Theoretical & Applied Information Technology
+  unstructured: K. S. Pandya and S. K. Joshi. 2008. A survey of optimal power flow
+    methods. Journal of Theoretical & Applied Information Technology 4, 5 (2008),
+    450–458.
+  volume: '4'
+  year: '2008'
+- doi: 10.1109/MPE.2015.2397334
+- doi: 10.1016/j.apenergy.2018.03.079
+- doi: 10.1016/j.apenergy.2018.10.053
+- unstructured: 'Faizal Parish A. A. Sirin D. Charman Hans Joosten T. Yu Minaeva and
+    Marcel Silvius. 2008. Assessment on peatlands biodiversity and climate change:
+    Main report. Global Environment Centre Kuala Lumpur and Wetlands International
+    Wageningen.'
+- doi: 10.1016/j.eswa.2014.11.040
+- doi: 10.1016/j.buildenv.2018.10.028
+- doi: 10.1002/2017EF000735
+- doi: 10.1109/GHTC.2014.6970293
+- doi: 10.1109/ISGTEurope.2017.8260289
+- author: Patton C. V.
+  unstructured: C. V. Patton, D. S. Sawicki, and J. Clark. 2015. Basic Methods of
+    Policy Analysis and Planning. Taylor & Francis
+  volume-title: Basic Methods of Policy Analysis and Planning
+  year: '2015'
+- doi: 10.1145/3241036
+- article-title: 'Decarbonization of industrial sectors: The next frontier'
+  author: Pee A.
+  journal-title: Retrieved from https://www.mckinsey.com/industries/oil-and-gas/our-insights/decarbonization-of-industrial-sectors-the-next-frontier
+  unstructured: 'A. Pee, D. Pinner, O. Roelofsen, K. Somers, E. Speelman, and M. Witteveen.
+    2018. Decarbonization of industrial sectors: The next frontier. Retrieved from
+    https://www.mckinsey.com/industries/oil-and-gas/our-insights/decarbonization-of-industrial-sectors-the-next-frontier.'
+  year: '2018'
+- doi: 10.4324/9780203889046
+- article-title: Using reality mining to improve public health and medicine
+  author: Pentland Alex
+  first-page: '93'
+  journal-title: Studies in Health Technology and Informatics
+  unstructured: Alex Pentland, David Lazer, Devon Brewer, and Tracy Heibeck. 2009.
+    Using reality mining to improve public health and medicine. Studies in Health
+    Technology and Informatics 149 (2009), 93–102.
+  volume: '149'
+  year: '2009'
+- doi: 10.1007/978-3-319-13290-7_7
+- unstructured: Gregorij V. Pereverzev and P. N. Yushmanov. 2002. ASTRA. Automated
+    System for TRansport Analysis in a tokamak. Aspen Technology Inc. San Diego CA.
+- author: Perignon M. C.
+  unstructured: M. C. Perignon, P. Passalacqua, T. M. Jarriel, J. M. Adams, and I.
+    Overeem. 2018. Patterns of geomorphic processes across deltas using image analysis
+    and machine learning. In AGU Fall Meeting Abstracts.
+  volume-title: AGU Fall Meeting Abstracts
+  year: '2018'
+- author: Pertl Michael
+  first-page: '1'
+  unstructured: Michael Pertl, Kai Heussen, Oliver Gehrke, and Michel Rezkalla. 2016.
+    Voltage estimation in active distribution grids using neural networks. In 2016
+    IEEE Power and Energy Society General Meeting (PESGM’16). IEEE, 1–5.
+  volume-title: 2016 IEEE Power and Energy Society General Meeting (PESGM’16)
+  year: '2016'
+- doi: 10.2196/jmir.2102
+- doi: 10.1109/DSAA.2018.00066
+- article-title: 'Hedonic residential property price estimation using geospatial data:
+    A machine-learning approach'
+  author: Picchetti Paulo
+  journal-title: Instituto Brasileiro de Economia
+  unstructured: 'Paulo Picchetti. 2017. Hedonic residential property price estimation
+    using geospatial data: A machine-learning approach. Instituto Brasileiro de Economia.'
+  year: '2017'
+- doi: 10.1007/s40593-016-0099-7
+- doi: 10.1016/j.energy.2021.120725
+- author: Pizer William A.
+  first-page: '225'
+  unstructured: William A. Pizer. 2006. Choosing price or quantity controls for greenhouse
+    gases. In The RFF Reader in Environmental and Resource Policy. Wallace E. Oates
+    (Ed.). Resources for the Future, 225–234.
+  volume-title: The RFF Reader in Environmental and Resource Policy
+  year: '2006'
+- doi: 10.1016/j.eneco.2012.08.031
+- article-title: PlantSnap
+  journal-title: Retrieved from https://www.plantsnap.com/
+  unstructured: PlantSnap. 2021. PlantSnap. Retrieved from https://www.plantsnap.com/.
+  year: '2021'
+- doi: 10.1016/j.rser.2003.12.007
+- article-title: Food security and food production systems
+  author: Porter J. R.
+  first-page: '485'
+  journal-title: 'Climate Change 2014: Impacts, Adaptation, Vulnerability.'
+  unstructured: 'J. R. Porter, L. Xie, A. J. Challinor, K. Cochrane, M. M. Howden,
+    D. B. Lobell, and M. I. Travasso. 2014. Food security and food production systems.
+    In Climate Change 2014: Impacts, Adaptation, Vulnerability. IPCC, 485–533.'
+  year: '2014'
+- doi: 10.1007/s00382-007-0339-5
+- article-title: PowerTAC
+  journal-title: Retrieved from https://powertac.org/
+  unstructured: PowerTAC. 2019. PowerTAC. Retrieved from https://powertac.org/.
+  year: '2019'
+- article-title: 'Agriculture commodity arrival prediction using remote sensing data:
+    insights and beyond'
+  author: Prasad Gautam
+  journal-title: KDD Feed Workshop 2019
+  unstructured: 'Gautam Prasad, Upendra Reddy Vuyyuru, and Mithun Das Gupta. 2019.
+    Agriculture commodity arrival prediction using remote sensing data: insights and
+    beyond. In KDD Feed Workshop 2019.'
+  year: '2019'
+- doi: 10.1002/wcc.198
+- doi: 10.1145/2483852.2483870
+- doi: 10.1038/s41586-018-0417-3
+- article-title: Project Zamba Computer Vision for Wildlife Research & Conservation
+  author: Zamba Project
+  journal-title: Retrieved from https://zamba.drivendata.org/
+  unstructured: Project Zamba. 2019. Project Zamba Computer Vision for Wildlife Research
+    & Conservation. Retrieved from https://zamba.drivendata.org/.
+  year: '2019'
+- unstructured: 'UN Global Pulse. 2013. Landscaping Study: Digital Signals & Access
+    to Finance in Kenya. Retrived from https://www.unglobalpulse.org/projects/Kenyan-access-finance.'
+- article-title: Using mobile phone data and airtime credit purchases to estimate
+    food security
+  author: Pulse UN Global
+  journal-title: 'New York: UN World Food Programme (WFP), Université Catholique de
+    Louvain, Real Impact Analytics, Pulse Lab New York'
+  unstructured: 'UN Global Pulse. 2015. Using mobile phone data and airtime credit
+    purchases to estimate food security. New York: UN World Food Programme (WFP),
+    Université Catholique de Louvain, Real Impact Analytics, Pulse Lab New York.'
+  year: '2015'
+- unstructured: UN Global Pulse. 2017. Improving Professional Training in Indonesia
+    with Gaming Data. http://unglobalpulse.org/sites/default/files/ProjectBrief-ImprovingProfressionalTraininginIndonesiawithGamingData.pdf.
+- unstructured: 'UN Global Pulse. 2017. Social Media and Forced Displacement: Big
+    Data Analytics & Machine Learning. Retrived from https://www.unhcr.org/innovation/wp-content/uploads/2017/09/FINAL-White-Paper.pdf.'
+- doi: 10.1609/aimag.v35i3.2529
+- article-title: Automated blood smear analysis for mobile malaria diagnosis
+  author: Quinn John A.
+  first-page: '115'
+  journal-title: Mobile Point-of-Care Monitors and Diagnostic Device Design
+  unstructured: John A. Quinn, Alfred Andama, Ian Munabi, and Fred N. Kiwanuka. 2014.
+    Automated blood smear analysis for mobile malaria diagnosis. Mobile Point-of-Care
+    Monitors and Diagnostic Device Design 31 (2014), 115.
+  volume: '31'
+  year: '2014'
+- doi: 10.1098/rsta.2017.0363
+- doi: 10.1016/j.envsoft.2017.02.017
+- author: Racah Evan
+  first-page: '3402'
+  unstructured: 'Evan Racah, Christopher Beckham, Tegan Maharaj, Samira Ebrahimi Kahou,
+    Prabhat, and Chris Pal. 2017. ExtremeWeather: A large-scale climate dataset for
+    semi-supervised detection, localization, and understanding of extreme weather
+    events. In Advances in Neural Information Processing Systems. 3402–3413.'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1038/nature17439
+- doi: 10.1109/TPWRS.2004.825910
+- doi: 10.1016/j.renene.2015.11.080
+- doi: 10.1016/j.envsoft.2015.04.014
+- article-title: Rainforest Connection
+  author: Connection Rainforest
+  journal-title: Retrieved from https://rfcx.org
+  unstructured: Rainforest Connection. 2021. Rainforest Connection. Retrieved from
+    https://rfcx.org.
+  year: '2021'
+- doi: 10.1016/j.jcp.2017.11.039
+- article-title: 'Physics informed deep learning (Part I): Data-driven solutions of
+    nonlinear partial differential equations'
+  author: Raissi Maziar
+  journal-title: arXiv preprint arXiv:1711.10561
+  unstructured: 'Maziar Raissi, Paris Perdikaris, and George Em Karniadakis. 2017.
+    Physics informed deep learning (Part I): Data-driven solutions of nonlinear partial
+    differential equations. arXiv preprint arXiv:1711.10561 (2017).'
+  year: '2017'
+- unstructured: Eric Ralls. 2018. Systems and methods for electronically identifying
+    plant species. US Patent App. 15/973660.
+- doi: 10.1145/2133806.2133825
+- doi: 10.5555/2030470.2030472
+- doi: 10.1145/1989734.1989739
+- doi: 10.1088/1748-9326/aafa8f
+- doi: 10.1016/j.cor.2014.10.018
+- doi: 10.1016/j.gloenvcha.2016.09.006
+- doi: 10.1073/pnas.1817480116
+- doi: 10.1098/rsta.2008.0131
+- doi: 10.1109/TSMCA.2009.2025137
+- doi: 10.1073/pnas.1810286115
+- doi: 10.1007/978-3-319-92252-2
+- doi: 10.1109/JBHI.2016.2633287
+- doi: 10.1016/j.rser.2015.04.065
+- doi: 10.1016/j.envint.2003.11.005
+- doi: 10.1016/j.tre.2014.10.005
+- doi: 10.1038/s41586-019-0912-1
+- doi: 10.1016/j.buildenv.2015.12.001
+- doi: 10.1016/j.rser.2012.11.052
+- doi: 10.1109/JSYST.2018.2855689
+- doi: 10.1609/aimag.v39i1.2776
+- article-title: Restor
+  journal-title: Retrieved from https://restor.eco/
+  unstructured: Restor. 2021. Restor. Retrieved from https://restor.eco/.
+  year: '2021'
+- article-title: Drought forecasting based on machine learning of remote sensing and
+    long-range forecast data
+  author: Rhee J.
+  journal-title: APEC Climate Center, Republic of Korea
+  unstructured: J. Rhee, J. Im, and S. Park. 2016. Drought forecasting based on machine
+    learning of remote sensing and long-range forecast data. APEC Climate Center,
+    Republic of Korea.
+  year: '2016'
+- doi: 10.1109/TSUSC.2018.2886164
+- doi: 10.1109/tits.2014.2376873
+- doi: 10.1016/j.sbspro.2010.04.027
+- doi: 10.1016/j.compchemeng.2018.11.016
+- doi: 10.1146/annurev.environ.032108.105046
+- author: Robertson Joel
+  unstructured: Joel Robertson and Del J. DeHart. 2010. An agile and accessible adaptation
+    of Bayesian inference to medical diagnostics for rural health extension workers.
+    In 2010 AAAI Spring Symposium Series.
+  volume-title: 2010 AAAI Spring Symposium Series
+  year: '2010'
+- doi: 10.1016/j.apenergy.2017.09.060
+- doi: 10.1111/gcbb.12338
+- doi: 10.1007/s10584-013-0777-5
+- doi: 10.1016/j.apgeog.2011.10.005
+- doi: 10.1007/s40725-017-0052-5
+- doi: 10.1007/s40593-018-0170-7
+- author: Romero Cristóbal
+  unstructured: Cristóbal Romero, Sebastián Ventura, Pedro G. Espejo, and César Hervás.
+    2008. Data mining algorithms to classify students. In 1st International Conference
+    on Educational Data Mining.
+  volume-title: 1st International Conference on Educational Data Mining
+  year: '2008'
+- doi: 10.1093/wentk/9780190866112.001.0001
+- doi: 10.1093/aje/kws241
+- doi: 10.1073/pnas.1222463110
+- doi: 10.1016/j.agsy.2016.07.001
+- doi: 10.1016/0022-0531(74)90066-0
+- doi: 10.1016/j.ijggc.2015.05.018
+- doi: 10.1109/TPAMI.2011.108
+- doi: 10.1126/science.346.6213.1063
+- doi: 10.5555/3215359.3215367
+- doi: 10.1371/journal.pcbi.1002616
+- doi: 10.1080/03081060.2011.600092
+- article-title: 'Direct air capture of carbon dioxide: ICEF roadmap 2018'
+  author: Sandalow David
+  journal-title: Retrieved from https://www.icef-forum.org/pdf2018/roadmap/ICEF2018_Roadmap_Draft_for_Comment_20181012.pdf
+  unstructured: 'David Sandalow, Julio Friedmann, and Colin McCormick. 2018. Direct
+    air capture of carbon dioxide: ICEF roadmap 2018. Retrieved from https://www.icef-forum.org/pdf2018/roadmap/ICEF2018_Roadmap_Draft_for_Comment_20181012.pdf.
+    (2018).'
+  year: '2018'
+- unstructured: 'Tuomas Sandholm. 1980. Very-Large-Scale Generalized Combinatorial
+    Multi-Attribute Auctions: Lessons from Conducting $60 Billion of Sourcing. Carnegie
+    Mellon University.'
+- doi: 10.1561/9781680838015
+- doi: 10.7930/J0MG7MDX
+  unstructured: 'M. C. Sarofim Shubhayu Saha M. D. Hawkins D. M. Mills Jeremy J. Hess
+    Radley M. Horton Patrick L. Kinney Joel D. Schwartz and Alexis St Juliana. 2016.
+    The Impacts of Climate Change on Human Health in the United States: A Scientific
+    Assessment . U.S. Global Change Research Program Washington DC.'
+- doi: 10.3390/rs10081237
+- author: Schaeffer R.
+  unstructured: 'R. Schaeffer, R. Sims, J. Corfee-Morlot, F. Creutzig, X. Cruz-Nunez,
+    D. Dimitriu, and M. D’Agosto. 2014. Transport, in IPCC, Working Group III Contribution
+    to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change,
+    Climate Change 2014: Mitigation of Climate Change, Chapter 8. Geneva. O. Edenhofer,
+    R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I.
+    Baum, S. Brunner, P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von
+    Stechow, T. Zwickel, and J. C. Minx (Eds.). Cambridge University Press, Cambridge.'
+  volume-title: 'Transport, in IPCC, Working Group III Contribution to the Fifth Assessment
+    Report of the Intergovernmental Panel on Climate Change, Climate Change 2014:
+    Mitigation of Climate Change, Chapter 8. Geneva. O. Edenhofer, R. Pichs-Madruga,
+    Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner,
+    P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel,
+    and J. C. Minx (Eds.)'
+  year: '2014'
+- article-title: Costs of mitigating CO2 emissions from passenger aircraft
+  author: Schäfer Andreas W.
+  journal-title: Nature Climate Change
+  unstructured: Andreas W. Schäfer, Antony D. Evans, Tom G. Reynolds, and Lynnette
+    Dray. 2015. Costs of mitigating CO2 emissions from passenger aircraft. Nature
+    Climate Change 6 (2015), 412–417.
+  volume: '6'
+  year: '2015'
+- doi: 10.1016/j.jocs.2019.03.004
+- doi: 10.1098/rspb.2015.2431
+- article-title: Visualizing the Consequences of Climate Change Using Cycle-Consistent
+    Adversarial Networks
+  author: Schmidt Victor
+  journal-title: ICLR AI for Social Good Workshop
+  unstructured: Victor Schmidt, Alexandra Luccioni, S. Karthik Mukkavilli, Narmada
+    Balasooriya, Kris Sankaran, Jennifer Chayes, and Yoshua Bengio. 2019. Visualizing
+    the Consequences of Climate Change Using Cycle-Consistent Adversarial Networks.
+    In ICLR AI for Social Good Workshop.
+  year: '2019'
+- doi: 10.1002/2017GL076101
+- doi: 10.1007/s10584-005-3485-y
+- doi: 10.1097/01.ede.0000134875.15919.0f
+- doi: 10.1145/3381831
+- doi: 10.1109/59.193823
+- doi: 10.1016/j.addma.2017.11.009
+- article-title: Sense
+  journal-title: Retrieved from https://sense.com
+  unstructured: Sense. 2021. Sense. Retrieved from https://sense.com.
+  year: '2021'
+- article-title: Interactive online machine learning approach for activity-travel
+    survey
+  author: Seo Toru
+  journal-title: 'Transportation Research Part B: Methodological'
+  unstructured: 'Toru Seo, Takahiko Kusakabe, Hiroto Gotoh, and Yasuo Asakura. 2017.
+    Interactive online machine learning approach for activity-travel survey. Transportation
+    Research Part B: Methodological 123, (2017), 362–373.'
+  year: '2017'
+- doi: 10.1038/s41560-019-0356-8
+- doi: 10.1109/JPROC.2015.2494218
+- doi: 10.1029/2018WR022643
+  unstructured: Chaopeng Shen. 2018. A trans-disciplinary review of deep learning
+    research for water resources scientists. Water Resources Research 54 11 (2018)
+    8558–8593.
+- author: Shepherd John G.
+  unstructured: 'John G. Shepherd. 2009. Geoengineering the Climate: Science, Governance
+    and Uncertainty. Royal Society.'
+  volume-title: 'Geoengineering the Climate: Science, Governance and Uncertainty'
+  year: '2009'
+- doi: 10.1038/nature12829
+- article-title: Acoustic emission for in situ quality monitoring in additive manufacturing
+    using spectral convolutional neural networks
+  author: Shevchik S. A.
+  first-page: '383'
+  journal-title: Additive Manufacturing
+  unstructured: S. A. Shevchik, C. Kenel, C. Leinenbach, and K. Wasmer. 2018. Acoustic
+    emission for in situ quality monitoring in additive manufacturing using spectral
+    convolutional neural networks. Additive Manufacturing 4 (2018), 383–391.
+  volume: '4'
+  year: '2018'
+- doi: 10.1038/nclimate2841
+- doi: 10.1145/3209811.3209878
+- unstructured: 'Kyriacos Shiarlis, Joao Messias, Maarten van Someren, Shimon Whiteson,
+    Jaebok Kim, Jered Hendrik Vroon, Gwenn Englebienne, Khiet Phuong Truong, Noé Pérez-Higueras,
+    Ignacio Pérez-Hurtado, Rafael Ramon-Vigo, Fernando Caballero, Luis Merino, Jie
+    Shen, Stavros Petridis, Maja Pantic, Lasse Hedman, Marten Scherlund, Raphaël Koster,
+    and Hervé Michel. 2015. TERESA: A socially intelligent semi-autonomous telepresence
+    system. In Workshop on Machine Learning for Social Robotics.'
+  volume-title: Workshop on Machine Learning for Social Robotics
+  year: '2015'
+- doi: 10.1126/science.282.5389.728
+- doi: 10.1016/j.ejor.2010.11.018
+- author: Sias Glenn Gregory
+  unstructured: Glenn Gregory Sias. 2017. Characterization of the Life Cycle Environmental
+    Impacts and Benefits of Smart Electric Meters and Consequences of their Deployment
+    in California. Ph.D. Dissertation. UCLA.
+  volume-title: Characterization of the Life Cycle Environmental Impacts and Benefits
+    of Smart Electric Meters and Consequences of their Deployment in California
+  year: '2017'
+- doi: 10.1016/j.scs.2018.01.028
+- doi: 10.1038/nature16961
+- doi: 10.5555/2887007.2887108
+- article-title: Decentralized flood forecasting using deep neural networks
+  author: Sit Muhammed
+  journal-title: Preprint arXiv:1902.02308
+  unstructured: Muhammed Sit and Ibrahim Demir. 2019. Decentralized flood forecasting
+    using deep neural networks. Preprint arXiv:1902.02308 (2019).
+  year: '2019'
+- article-title: The race to code the curb
+  author: Small Andrew
+  journal-title: Citylab
+  unstructured: Andrew Small and Laura Bliss. 2019. The race to code the curb. Citylab.
+    Retrieved from https://www.citylab.com/transportation/2019/04/smart-cities-maps-curb-data-coord-sidewalk-tech-street-design/586177/.
+  year: '2019'
+- article-title: Small Robot Company
+  author: Company Small Robot
+  journal-title: Retrieved from https://www.smallrobotcompany.com/
+  unstructured: Small Robot Company. 2021. Small Robot Company. Retrieved from https://www.smallrobotcompany.com/.
+  year: '2021'
+- doi: 10.1002/2018EA000370
+- doi: 10.1016/j.egypro.2016.01.038
+- doi: 10.5555/2999325.2999464
+- doi: 10.1177/0954409716657849
+- doi: 10.1109/WACV.2017.41
+- doi: 10.1016/j.enpol.2008.12.003
+- article-title: SwRI Developing Methane Leak Detection System for DOE
+  author: Institute Southwest Research
+  journal-title: Retrieved from https://www.swri.org/press-release/swri-developing-methane-leak-detection-system-doe
+  unstructured: Southwest Research Institute. 2016. SwRI Developing Methane Leak Detection
+    System for DOE. Retrieved from https://www.swri.org/press-release/swri-developing-methane-leak-detection-system-doe.
+  year: '2016'
+- doi: 10.1109/TPWRD.2005.852370
+- doi: 10.1007/s13201-018-0821-8
+- doi: 10.1002/csr.175
+- article-title: Hydropower greenhouse gas emissions
+  author: Steinhurst William
+  first-page: '6'
+  journal-title: Conservation Law Foundation
+  unstructured: William Steinhurst, Patrick Knight, and Melissa Schultz. 2012. Hydropower
+    greenhouse gas emissions. Conservation Law Foundation 24 (2012), 6.
+  volume: '24'
+  year: '2012'
+- unstructured: 'William Steinhurst Patrick Knight and Melissa Schultz. 2012. Hydropower
+    Greenhouse Gas Emissions: State of the Research . Synapse Energy Economics Inc.
+    https://www.nrc.gov/docs/ML1209/ML12090A850.pdf.'
+- doi: 10.1257/aer.98.2.1
+- doi: 10.1038/s41893-018-0194-x
+- unstructured: High-Level Commission on Carbon Prices. 2017. Report of the high-level
+    commission on carbon prices. World Bank Publications.
+- doi: 10.1038/s41467-017-02411-5
+- doi: 10.1098/rsta.2014.0116
+- doi: 10.1016/j.enpol.2008.09.030
+- doi: 10.1016/j.rser.2012.09.040
+- doi: 10.1080/17450101.2014.902655
+- doi: 10.5194/acp-15-8631-2015
+- doi: 10.18653/v1/P19-1355
+- doi: 10.1016/j.cstp.2019.04.005
+- author: Sukkarieh Salah
+  unstructured: Salah Sukkarieh. 2017. Mobile on-farm digital technology for smallholder
+    farmers. 218–229. Technical Report.
+  volume-title: Mobile on-farm digital technology for smallholder farmers
+  year: '2017'
+- doi: 10.1016/j.biocon.2009.05.006
+- author: Sun Chong
+  first-page: '474'
+  unstructured: 'Chong Sun, Nader Azari, and Chintan Turakhia. 2020. Gallery: A Machine
+    Learning Model Management System at Uber. In 22nd International Conference on
+    Extending Database Technology (EDBT’20). 474–485.'
+  volume-title: 22nd International Conference on Extending Database Technology (EDBT’20)
+  year: '2020'
+- doi: 10.1016/j.apenergy.2018.09.118
+- doi: 10.1016/j.trc.2018.10.015
+- doi: 10.1039/C7EE03420B
+- doi: 10.1109/MPRV.2010.73
+- doi: 10.1021/acscombsci.6b00153
+- doi: 10.1080/09500693.2011.597453
+- doi: 10.1177/0361198119838982
+- doi: 10.1061/(ASCE)CP.1943-5487.0000752
+- doi: 10.1007/s00170-017-0233-1
+- doi: 10.1111/j.1467-9310.2010.00603.x
+- doi: 10.1016/j.energy.2018.03.018
+- author: Tavakoli R.
+  doi: 10.1109/ECCE.2017.8096493
+  first-page: '2602'
+  unstructured: R. Tavakoli and Z. Pantic. 2017. ANN-based algorithm for estimation
+    and compensation of lateral misalignment in dynamic wireless power transfer systems
+    for EV charging. In 2017 IEEE Energy Conversion Congress and Exposition (ECCE’17).
+    2602–2609.
+  volume-title: 2017 IEEE Energy Conversion Congress and Exposition (ECCE’17)
+  year: '2017'
+- doi: 10.1175/BAMS-D-11-00094.1
+- doi: 10.1098/rsta.2007.2076
+- doi: 10.1029/2008GL033423
+- author: Teter Jacob
+  unstructured: Jacob Teter, Pierpaolo Cazzola, and Timur Gül. 2017. The Future of
+    Trucks. International Energy Agency.
+  volume-title: The Future of Trucks
+  year: '2017'
+- article-title: Agriculture, forestry, and fishing, value added
+  author: Bank The World
+  journal-title: Retrieved from https://data.worldbank.org/indicator/NV.AGR.TOTL.CD
+  unstructured: The World Bank. 2017. Agriculture, forestry, and fishing, value added.
+    Retrieved from https://data.worldbank.org/indicator/NV.AGR.TOTL.CD.
+  year: '2017'
+- doi: 10.1145/3205289.3205321
+- doi: 10.5751/ES-10200-230241
+- article-title: Thorvald
+  journal-title: Retrieved from https://sagarobotics.com/
+  unstructured: Thorvald. 2021. Thorvald. Retrieved from https://sagarobotics.com/.
+  year: '2021'
+- article-title: electricityMap
+  journal-title: https://www.electricitymap.org
+  unstructured: Tomorrow. 2019. electricityMap. Retrived from https://www.electricitymap.org.
+  year: '2019'
+- article-title: Tomorrow
+  journal-title: Retrieved from https://www.tmrow.com/
+  unstructured: Tomorrow. 2019. Tomorrow. Retrieved from https://www.tmrow.com/.
+  year: '2019'
+- doi: 10.1029/2019MS002002
+- doi: 10.1021/es5052759
+- author: Topping N.
+  unstructured: N. Topping. 2019. Is your company ready for a zero-carbon future?
+    Retrived from https://hbr.org/2019/06/is-your-company-ready-for-a-zero-carbon-future.
+  volume-title: Is your company ready for a zero-carbon future?
+  year: '2019'
+- doi: 10.1016/J.ENG.2017.04.016
+- doi: 10.1177/0265813516659286
+- doi: 10.3141/2527-02
+- doi: 10.1007/s10462-018-9637-z
+- doi: 10.1080/13658816.2017.1356464
+- doi: 10.1016/j.pursup.2015.09.002
+- doi: 10.1038/s41524-019-0172-5
+- unstructured: 'UNESCO. 2015. Not Just Hot Air: Putting Climate Change Education
+    into Practice. United Nations Educational, Scientific and Cultural Organization.'
+  volume-title: 'Not Just Hot Air: Putting Climate Change Education into Practice'
+  year: '2015'
+- doi: 10.1016/j.cosust.2013.05.004
+- article-title: Fuel Cell Technologies Office Multi-Year Research, Development, and
+    Demonstration Plan
+  author: Energy U.S. Department of
+  journal-title: Retrieved from https://www.energy.gov/eere/fuelcells/downloads/fuel-cell-technologies-office-multi-year-research-development-and-22
+  unstructured: U.S. Department of Energy. 2012. Fuel Cell Technologies Office Multi-Year
+    Research, Development, and Demonstration Plan. Retrieved from https://www.energy.gov/eere/fuelcells/downloads/fuel-cell-technologies-office-multi-year-research-development-and-22.
+  year: '2012'
+- doi: 10.1109/SMARTCOMP.2016.7501696
+- author: van Gemert Jan C.
+  first-page: '255'
+  unstructured: Jan C. van Gemert, Camiel R. Verschoor, Pascal Mettes, Kitso Epema,
+    Lian Pin Koh, and Serge Wich. 2014. Nature conservation drones for automatic localization
+    and counting of animals. In European Conference on Computer Vision. Springer,
+    255–270.
+  volume-title: European Conference on Computer Vision
+  year: '2014'
+- doi: 10.1109/CVPR.2015.7298658
+- article-title: 'The devil is in the tails: Fine-grained classification in the wild'
+  author: Van Horn Grant
+  journal-title: Preprint arXiv:1709.01450
+  unstructured: 'Grant Van Horn and Pietro Perona. 2017. The devil is in the tails:
+    Fine-grained classification in the wild. Preprint arXiv:1709.01450 (2017).'
+  year: '2017'
+- doi: 10.1016/j.energy.2018.03.034
+- doi: 10.1016/S0378-1127(99)00271-6
+- doi: 10.1016/j.apenergy.2018.11.002
+- doi: 10.1016/j.fusengdes.2013.03.003
+- doi: 10.1177/0963662515613702
+- doi: 10.1016/j.techfore.2014.10.006
+- article-title: How artificial intelligence will affect the future of energy and
+    climate
+  author: Victor David G.
+  journal-title: Retrieved from https://www.brookings.edu/research/how-artificial-intelligence-will-affect-the-future-of-energy-and-climate/
+  unstructured: David G. Victor. 2019. How artificial intelligence will affect the
+    future of energy and climate. Retrieved from https://www.brookings.edu/research/how-artificial-intelligence-will-affect-the-future-of-energy-and-climate/.
+  year: '2019'
+- doi: 10.5888/pcd13.160099
+- doi: 10.1109/TGRS.2007.895830
+- doi: 10.1002/0470036427
+- doi: 10.1016/j.renene.2016.12.095
+- doi: 10.1016/j.jpowsour.2014.02.064
+- doi: 10.1016/j.tra.2015.12.001
+- doi: 10.1038/srep22482
+- doi: 10.17775/CSEEJPES.2015.00046
+- doi: 10.3390/s120100189
+- doi: 10.1145/3209811.3212707
+- author: Wang Hao
+  first-page: '1'
+  unstructured: Hao Wang and Baosen Zhang. 2018. Energy storage arbitrage in real-time
+    markets via reinforcement learning. In 2018 IEEE Power & Energy Society General
+    Meeting (PESGM’18). IEEE, 1–5.
+  volume-title: 2018 IEEE Power & Energy Society General Meeting (PESGM’18)
+  year: '2018'
+- doi: 10.1016/j.apenergy.2019.113998
+- doi: 10.1016/j.egypro.2019.02.011
+- doi: 10.1016/j.enpol.2016.04.044
+- doi: 10.1016/j.apenergy.2016.11.130
+- doi: 10.1038/npjcompumats.2016.28
+- doi: 10.1016/S0140-6736(16)32124-9
+- article-title: WattTime
+  journal-title: Retrieved from https://www.watttime.org/
+  unstructured: WattTime. 2021. WattTime. Retrieved from https://www.watttime.org/.
+  year: '2021'
+- doi: 10.1109/TIE.2015.2420792
+- doi: 10.1080/17583004.2018.1522095
+- author: Welling Max
+  unstructured: Max Welling. 2015. Are ML and statistics complementary? In IMS-ISBA
+    Meeting on Data Science in the Next 50 Years.
+  volume-title: IMS-ISBA Meeting on Data Science in the Next 50 Years
+  year: '2015'
+- doi: 10.1016/j.ijggc.2020.103223
+- doi: 10.1109/ITSC.2017.8317908
+- doi: 10.1016/j.ijforecast.2014.08.008
+- doi: 10.1098/rstb.2015.0178
+- doi: 10.1093/reep/rew018
+- unstructured: Ami Wiesel Avinatan Hassidim Gal Elidan Guy Shalev Mor Schlesinger
+    Oleg Zlydenko Ran El-Yaniv Sella Nevo Yossi Matias Yotam Gigi et al. 2018. Ml
+    for flood forecasting at scale. (2018).
+- doi: 10.1609/aaai.v33i01.33011658
+- article-title: 'Integrating physics-based modeling with machine learning: A survey'
+  author: Willard Jared
+  journal-title: arXiv preprint arXiv:2003.04919
+  unstructured: 'Jared Willard, Xiaowei Jia, Shaoming Xu, Michael Steinbach, and Vipin
+    Kumar. 2020. Integrating physics-based modeling with machine learning: A survey.
+    arXiv preprint arXiv:2003.04919 (2020).'
+  year: '2020'
+- unstructured: Sella Nevo Vova Anisimov Gal Elidan Ran El-Yaniv Pete Giencke Yotam
+    Gigi Avinatan Hassidim Zach Moshe Mor Schlesinger Guy Shalev Ajai Tirumali Ami
+    Wiesel Oleg Zlydenko and Yossi Matias. 2019. ML for flood forecasting at scale.
+    Preprint arXiv:1901.09583 .
+- author: Williamson K.
+  unstructured: 'K. Williamson, A. Satre-Meloy, K. Velasco, and K. Green. 2018. Climate
+    Change Needs Behavior Change: Making the Case for Behavioral Solutions to Reduce
+    Global Warming. Technical Report. Center for Behavior and the Environment. Retrived
+    from https://rare.org/wp-content/uploads/2019/02/2018-CCNBC-Report.pdf.'
+  volume-title: 'Climate Change Needs Behavior Change: Making the Case for Behavioral
+    Solutions to Reduce Global Warming'
+  year: '2018'
+- doi: 10.1088/0029-5515/45/5/004
+- article-title: Excess inventory wastes carbon and energy, not just money
+  author: Winston Andrew
+  journal-title: Harvard Business Review
+  unstructured: Andrew Winston. 2011. Excess inventory wastes carbon and energy, not
+    just money. Harvard Business Review.
+  year: '2011'
+- author: Wood Allen J.
+  unstructured: Allen J. Wood, Bruce F. Wollenberg, and Gerald B. Sheblé. 2013. Power
+    Generation, Operation, and Control. John Wiley & Sons.
+  volume-title: Power Generation, Operation, and Control
+  year: '2013'
+- unstructured: S. W. Wood and Annette Cowie. 2004. A review of greenhouse gas emission
+    factors for fertiliser production. Climate Technology Centre and Network.
+- doi: 10.1088/0029-5515/37/6/I02
+- article-title: 'Flow: Architecture and benchmarking for reinforcement learning in
+    traffic control'
+  author: Wu Cathy
+  journal-title: Preprint arXiv:1710.05465
+  unstructured: 'Cathy Wu, Aboudy Kreidieh, Kanaad Parvate, Eugene Vinitsky, and Alexandre
+    M. Bayen. 2017. Flow: Architecture and benchmarking for reinforcement learning
+    in traffic control. Preprint arXiv:1710.05465 (2017).'
+  year: '2017'
+- author: Wu Cathy
+  unstructured: Cathy Wu, Aboudy Kreidieh, Eugene Vinitsky, and Alexandre M. Bayen.
+    2017. Emergent behaviors in mixed-autonomy traffic. In 1st Annual Conference on
+    Robot Learning.
+  volume-title: 1st Annual Conference on Robot Learning
+  year: '2017'
+- doi: 10.1109/JSYST.2016.2550530
+- doi: 10.3390/app6060166
+- doi: 10.3390/en12112118
+- doi: 10.5555/3504035.3504139
+- doi: 10.5555/3042817.3043078
+- doi: 10.1287/ijoc.2020.0976
+- doi: 10.1103/PhysRevLett.120.145301
+- doi: 10.5555/2936924.2937038
+- doi: 10.1016/j.rser.2013.03.023
+- doi: 10.1097/00124784-200006060-00010
+- author: Ygge Fredrik
+  first-page: '363'
+  unstructured: 'Fredrik Ygge, J. M. Akkermans, Arne Andersson, Marko Krejic, and
+    Erik Boertjes. 1999. The HOMEBOTS system and field test: A multi-commodity market
+    for predictive power load management. In 4th International Conference on the Practical
+    Application of Intelligent Agents and Multi-Agent Technology, Vol. 1. 363–382.'
+  volume: '1'
+  volume-title: 4th International Conference on the Practical Application of Intelligent
+    Agents and Multi-Agent Technology
+  year: '1999'
+- doi: 10.1109/TITS.2017.2695438
+- doi: 10.1016/j.paerosci.2017.11.003
+- doi: 10.5555/3298023.3298229
+- article-title: Convolutional neural networks predict fish abundance from underlying
+    coral reef texture
+  author: Young Grace
+  journal-title: MarXiv. August
+  unstructured: Grace Young, Vassileios Balntas, and Victor Prisacariu. 2018. Convolutional
+    neural networks predict fish abundance from underlying coral reef texture. MarXiv.
+    August 31 (2018).
+  volume: '31'
+  year: '2018'
+- doi: 10.1016/j.joule.2018.11.021
+- doi: 10.1111/padr.12102
+- doi: 10.1049/iet-its.2014.0257
+- doi: 10.1109/SmartGridComm47815.2020.9303008
+- doi: 10.1016/j.cej.2008.07.025
+- doi: 10.1016/j.trd.2017.10.001
+- doi: 10.1007/s10462-017-9577-z
+- doi: 10.1007/s10458-016-9326-8
+- doi: 10.1061/(ASCE)CP.1943-5487.0000427
+- doi: 10.1016/j.drudis.2017.08.010
+- doi: 10.4018/jats.2012010102
+- doi: 10.1016/j.energy.2018.04.161
+- author: Zhang Xiao
+  first-page: '1'
+  unstructured: Xiao Zhang, Gabriela Hug, J. Zico Kolter, and Iiro Harjunkoski. 2016.
+    Model predictive control of industrial loads and energy storage for demand response.
+    In 2016 IEEE Power and Energy Society General Meeting (PESGM’16). IEEE, 1–5.
+  volume-title: 2016 IEEE Power and Energy Society General Meeting (PESGM’16)
+  year: '2016'
+- article-title: 'Deep reinforcement learning for power system applications: An overview'
+  author: Zhang Zidong
+  first-page: '213'
+  issue: '1'
+  journal-title: CSEE Journal of Power and Energy Systems
+  unstructured: 'Zidong Zhang, Dongxia Zhang, and Robert C. Qiu. 2019. Deep reinforcement
+    learning for power system applications: An overview. CSEE Journal of Power and
+    Energy Systems 6, 1 (2019), 213–225.'
+  volume: '6'
+  year: '2019'
+- doi: 10.1016/j.enbuild.2014.07.033
+- author: Zhao Jianing
+  doi: 10.1007/978-3-319-71273-4_17
+  first-page: '204'
+  unstructured: Jianing Zhao, Daniel M. Runfola, and Peter Kemper. 2017. Quantifying
+    heterogeneous causal treatment effects in world bank development finance projects.
+    In Machine Learning and Knowledge Discovery in Databases. Yasemin Altun, Kamalika
+    Das, Taneli Mielikäinen, Donato Malerba, Jerzy Stefanowski, Jesse Read, Marinka
+    Žitnik, Michelangelo Ceci, and Sašo Džeroski (Eds.). Springer International Publishing,
+    Cham, 204–215.
+  volume-title: Machine Learning and Knowledge Discovery in Databases
+  year: '2017'
+- doi: 10.2991/ijcis.11.1.94
+- doi: 10.1109/TBDATA.2015.2465959
+  unstructured: 'Yu Zheng. 2015. Methodologies for cross-domain data fusion: An overview.
+    IEEE Transactions on Big Data 1 1 (2015) 16–34.'
+- doi: 10.1145/2629592
+- doi: 10.3390/en11071907
+- doi: 10.1063/1.5033702
+- doi: 10.1007/978-3-319-57618-3_6
+- doi: 10.1016/j.apenergy.2017.01.076
+- doi: 10.1007/s10614-013-9417-4
+- doi: 10.1016/j.eneco.2017.12.030
+- doi: 10.1109/MGRS.2017.2762307
+- unstructured: arXiv preprint arXiv:2010.09435 2020 An introduction to electrocatalyst
+    design using machine learning for renewable energy storage
+- doi: 10.1073/pnas.1202473109
+- doi: 10.1016/j.enbuild.2018.08.010
+- doi: 10.1109/JIOT.2018.2868648
+- author: Zukhrufany Stiffi
+  unstructured: Stiffi Zukhrufany. 2018. The Utilization of Supervised Machine Learning
+    in Predicting Corrosion to Support Preventing Pipelines Leakage in Oil and Gas
+    Industry. Master’s thesis. University of Stavanger, Norway.
+  volume-title: The Utilization of Supervised Machine Learning in Predicting Corrosion
+    to Support Preventing Pipelines Leakage in Oil and Gas Industry
+  year: '2018'
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3485128
+doi: 10.1145/3485128
+files:
+- rolnick-david-and-donti-priya-l.-and-kaack-lynn-h.-and-kochanski-kelly-and-lacoste-alexandre-and-sankaran-kris-and-ross-andrew-slavin-and-miloj.pdf
+- rolnick-david-and-donti-priya-l.-and-kaack-lynn-h.-and-kochanski-kelly-and-lacoste-alexandre-and-sankaran-kris-and-ross-andrew-slavin-and-miloj-a.pdf
+issue: '2'
+journal: ACM Computing Surveys
+language: en
+month: 2
+pages: 1--96
+publisher: Association for Computing Machinery (ACM)
+ref: TacklingClimatRolnic2023
+time-added: 2023-02-17-14:29:56
+title: Tackling Climate Change with Machine Learning
+type: article
+url: http://dx.doi.org/10.1145/3485128
+volume: '55'
+year: 2023
