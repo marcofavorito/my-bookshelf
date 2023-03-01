@@ -1,0 +1,38 @@
+abstract: Calibrating agent-based models (ABMs) in economics and finance typically
+  involves a derivative-free search in a very large parameter space. In this work,
+  we benchmark a number of search methods in the calibration of a well-known macroeconomic
+  ABM on real data, and further assess the performance of "mixed strategies" made
+  by combining different methods. We find that methods based on random-forest surrogates
+  are particularly efficient, and that combining search methods generally increases
+  performance since the biases of any single method are mitigated. Moving from these
+  observations, we propose a reinforcement learning (RL) scheme to automatically select
+  and combine search methods on-the-fly during a calibration run. The RL agent keeps
+  exploiting a specific method only as long as this keeps performing well, but explores
+  new strategies when the specific method reaches a performance plateau. The resulting
+  RL search scheme outperforms any other method or method combination tested, and
+  does not rely on any prior information or trial and error procedure.
+archiveprefix: arXiv
+author: Glielmo, Aldo and Favorito, Marco and Chanda, Debmallya and Gatti, Domenico
+  Delli
+author_list:
+- family: Glielmo
+  given: Aldo
+- family: Favorito
+  given: Marco
+- family: Chanda
+  given: Debmallya
+- family: Gatti
+  given: Domenico Delli
+eprint: 2302.11835v1
+file: 2302.11835v1.pdf
+files:
+- glielmo-aldo-and-favorito-marco-and-chanda-debmallya-and-gatti-domenico-dellicombining-search-strategies-to-improve-performance-in-the-calibration.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2302.11835v1
+time-added: 2023-02-24-09:46:03
+title: Combining search strategies to improve performance in the calibration of   economic
+  ABMs
+type: article
+url: http://arxiv.org/abs/2302.11835v1
+year: '2023'

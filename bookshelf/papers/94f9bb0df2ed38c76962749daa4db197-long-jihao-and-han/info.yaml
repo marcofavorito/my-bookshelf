@@ -1,0 +1,38 @@
+abstract: Function approximation has been an indispensable component in modern reinforcement
+  learning algorithms designed to tackle problems with large state space in high dimensions.
+  This paper reviews the recent results on the error analysis of those reinforcement
+  learning algorithms in the settings of linear or nonlinear approximation, with an
+  emphasis on the approximation error and the estimation error/sample complexity.
+  We discuss different properties related to the approximation error and concrete
+  conditions on the transition probability and reward function under which these properties
+  hold true. The sample complexity in reinforcement learning is more complicated for
+  analysis compared to supervised learning, mainly due to the distribution mismatch
+  phenomenon. With assumptions on the linear structure of the problem, there are various
+  algorithms in the literature that can achieve polynomial sample complexity with
+  respect to the number of features, episode length, and accuracy, although the minimax
+  rate has not been achieved yet. These results rely on the $L^\infty$ and UCB estimation
+  of estimation error, which can handle the distribution mismatch phenomenon. The
+  problem and analysis become much more challenging in the setting of nonlinear function
+  approximation since both $L^\infty$ and UCB estimation are inadequate to help bound
+  the error with a good rate in high dimensions. We discuss different additional assumptions
+  needed to handle the distribution mismatch and derive meaningful results for nonlinear
+  RL problems.
+archiveprefix: arXiv
+author: Long, Jihao and Han, Jiequn
+author_list:
+- family: Long
+  given: Jihao
+- family: Han
+  given: Jiequn
+eprint: 2302.09703v1
+file: 2302.09703v1.pdf
+files:
+- long-jihao-and-han-jiequnreinforcement-learning-with-function-approximation-from-linear-to-nonlinear2023.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2302.09703v1
+time-added: 2023-02-23-14:14:00
+title: 'Reinforcement Learning with Function Approximation: From Linear to   Nonlinear'
+type: article
+url: http://arxiv.org/abs/2302.09703v1
+year: '2023'

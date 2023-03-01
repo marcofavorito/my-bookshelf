@@ -1,0 +1,41 @@
+abstract: Calibrating agent-based models (ABMs) to data is among the most fundamental
+  requirements to ensure the model fulfils its desired purpose. In recent years, simulation-based
+  inference methods have emerged as powerful tools for performing this task when the
+  model likelihood function is intractable, as is often the case for ABMs. In some
+  real-world use cases of ABMs, both the observed data and the ABM output consist
+  of the agents' states and their interactions over time. In such cases, there is
+  a tension between the desire to make full use of the rich information content of
+  such granular data on the one hand, and the need to reduce the dimensionality of
+  the data to prevent difficulties associated with high-dimensional learning tasks
+  on the other. A possible resolution is to construct lower-dimensional time-series
+  through the use of summary statistics describing the macrostate of the system at
+  each time point. However, a poor choice of summary statistics can result in an unacceptable
+  loss of information from the original dataset, dramatically reducing the quality
+  of the resulting calibration. In this work, we instead propose to learn parameter
+  posteriors associated with granular microdata directly using temporal graph neural
+  networks. We will demonstrate that such an approach offers highly compelling inductive
+  biases for Bayesian inference using the raw ABM microstates as output.
+archiveprefix: arXiv
+author: Dyer, Joel and Cannon, Patrick and Farmer, J. Doyne and Schmon, Sebastian
+  M.
+author_list:
+- family: Dyer
+  given: Joel
+- family: Cannon
+  given: Patrick
+- family: Farmer
+  given: J. Doyne
+- family: Schmon
+  given: Sebastian M.
+eprint: 2206.07570v1
+file: 2206.07570v1.pdf
+files:
+- dyer-joel-and-cannon-patrick-and-farmer-j.-doyne-and-schmon-sebastian-m.calibrating-agent-based-models-to-microdata-with-graph-neural-networks2022.pdf
+month: Jun
+primaryclass: cs.MA
+ref: 2206.07570v1
+time-added: 2023-02-22-15:52:24
+title: Calibrating Agent-based Models to Microdata with Graph Neural Networks
+type: article
+url: http://arxiv.org/abs/2206.07570v1
+year: '2022'

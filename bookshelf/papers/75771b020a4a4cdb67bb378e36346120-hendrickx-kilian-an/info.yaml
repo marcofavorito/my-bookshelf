@@ -1,0 +1,39 @@
+abstract: Machine learning models always make a prediction, even when it is likely
+  to be inaccurate. This behavior should be avoided in many decision support applications,
+  where mistakes can have severe consequences. Albeit already studied in 1970, machine
+  learning with a reject option recently gained interest. This machine learning subfield
+  enables machine learning models to abstain from making a prediction when likely
+  to make a mistake.   This survey aims to provide an overview on machine learning
+  with a reject option. We introduce the conditions leading to two types of rejection,
+  ambiguity and novelty rejection. Moreover, we define the existing architectures
+  for models with a reject option, describe the standard learning strategies to train
+  such models and relate traditional machine learning techniques to rejection. Additionally,
+  we review strategies to evaluate a model's predictive and rejective quality. Finally,
+  we provide examples of relevant application domains and show how machine learning
+  with rejection relates to other machine learning research areas.
+archiveprefix: arXiv
+author: Hendrickx, Kilian and Perini, Lorenzo and der Plas, Dries Van and Meert, Wannes
+  and Davis, Jesse
+author_list:
+- family: Hendrickx
+  given: Kilian
+- family: Perini
+  given: Lorenzo
+- family: der Plas
+  given: Dries Van
+- family: Meert
+  given: Wannes
+- family: Davis
+  given: Jesse
+eprint: 2107.11277v1
+file: 2107.11277v1.pdf
+files:
+- hendrickx-kilian-and-perini-lorenzo-and-der-plas-dries-van-and-meert-wannes-and-davis-jessemachine-learning-with-a-reject-option-a-survey2021.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 2107.11277v1
+time-added: 2023-02-25-00:13:09
+title: 'Machine Learning with a Reject Option: A survey'
+type: article
+url: http://arxiv.org/abs/2107.11277v1
+year: '2021'

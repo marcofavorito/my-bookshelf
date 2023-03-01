@@ -1,0 +1,27 @@
+abstract: Flame graphs are a popular way of representing profiling data. In this paper
+  we propose a possible mathematical definition of flame graphs. In doing so, we gain
+  some interesting algebraic properties almost for free, which in turn allow us to
+  define some operations that can allow to perform an in-depth performance regression
+  analysis. The typical documented use of a flame graph is via its graphical representation,
+  whereby one scans the picture for the largest plateaux. Whilst this method is effective
+  at finding the main sources of performance issues, it leaves quite a large amount
+  of data potentially unused. By combining a mathematical precise definition of flame
+  graphs with some statistical methods we show how to generalise this visual procedure
+  and make the best of the full set of collected profiling data.
+archiveprefix: arXiv
+author: Tornetta, Gabriele N.
+author_list:
+- family: Tornetta
+  given: Gabriele N.
+eprint: 2301.08941v2
+file: 2301.08941v2.pdf
+files:
+- tornetta-gabriele-n.on-the-algebraic-properties-of-flame-graphs2023.pdf
+month: Jan
+primaryclass: cs.SE
+ref: 2301.08941v2
+time-added: 2023-02-22-16:29:23
+title: On the Algebraic Properties of Flame Graphs
+type: article
+url: http://arxiv.org/abs/2301.08941v2
+year: '2023'

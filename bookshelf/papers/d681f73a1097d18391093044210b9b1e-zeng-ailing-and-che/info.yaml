@@ -1,0 +1,42 @@
+abstract: 'Recently, there has been a surge of Transformer-based solutions for the
+  long-term time series forecasting (LTSF) task. Despite the growing performance over
+  the past few years, we question the validity of this line of research in this work.
+  Specifically, Transformers is arguably the most successful solution to extract the
+  semantic correlations among the elements in a long sequence. However, in time series
+  modeling, we are to extract the temporal relations in an ordered set of continuous
+  points. While employing positional encoding and using tokens to embed sub-series
+  in Transformers facilitate preserving some ordering information, the nature of the
+  \emph{permutation-invariant} self-attention mechanism inevitably results in temporal
+  information loss. To validate our claim, we introduce a set of embarrassingly simple
+  one-layer linear models named LTSF-Linear for comparison. Experimental results on
+  nine real-life datasets show that LTSF-Linear surprisingly outperforms existing
+  sophisticated Transformer-based LTSF models in all cases, and often by a large margin.
+  Moreover, we conduct comprehensive empirical studies to explore the impacts of various
+  design elements of LTSF models on their temporal relation extraction capability.
+  We hope this surprising finding opens up new research directions for the LTSF task.
+  We also advocate revisiting the validity of Transformer-based solutions for other
+  time series analysis tasks (e.g., anomaly detection) in the future. Code is available
+  at: \url{https://github.com/cure-lab/LTSF-Linear}.'
+archiveprefix: arXiv
+author: Zeng, Ailing and Chen, Muxi and Zhang, Lei and Xu, Qiang
+author_list:
+- family: Zeng
+  given: Ailing
+- family: Chen
+  given: Muxi
+- family: Zhang
+  given: Lei
+- family: Xu
+  given: Qiang
+eprint: 2205.13504v3
+file: 2205.13504v3.pdf
+files:
+- zeng-ailing-and-chen-muxi-and-zhang-lei-and-xu-qiangare-transformers-effective-for-time-series-forecasting-2022.pdf
+month: May
+primaryclass: cs.AI
+ref: 2205.13504v3
+time-added: 2023-02-20-23:22:25
+title: Are Transformers Effective for Time Series Forecasting?
+type: article
+url: http://arxiv.org/abs/2205.13504v3
+year: '2022'

@@ -1,0 +1,36 @@
+abstract: Value iteration is a fundamental algorithm for solving Markov Decision Processes
+  (MDPs). It computes the maximal $n$-step payoff by iterating $n$ times a recurrence
+  equation which is naturally associated to the MDP. At the same time, value iteration
+  provides a policy for the MDP that is optimal on a given finite horizon $n$. In
+  this paper, we settle the computational complexity of value iteration. We show that,
+  given a horizon $n$ in binary and an MDP, computing an optimal policy is EXP-complete,
+  thus resolving an open problem that goes back to the seminal 1987 paper on the complexity
+  of MDPs by Papadimitriou and Tsitsiklis. As a stepping stone, we show that it is
+  EXP-complete to compute the $n$-fold iteration (with $n$ in binary) of a function
+  given by a straight-line program over the integers with $\max$ and $+$ as operators.
+archiveprefix: arXiv
+author: Balaji, Nikhil and Kiefer, Stefan and Novotný, Petr and Pérez, Guillermo A.
+  and Shirmohammadi, Mahsa
+author_list:
+- family: Balaji
+  given: Nikhil
+- family: Kiefer
+  given: Stefan
+- family: Novotný
+  given: Petr
+- family: Pérez
+  given: Guillermo A.
+- family: Shirmohammadi
+  given: Mahsa
+eprint: 1807.04920v3
+file: 1807.04920v3.pdf
+files:
+- balaji-nikhil-and-kiefer-stefan-and-novotny-petr-and-perez-guillermo-a.-and-shirmohammadi-mahsaon-the-complexity-of-value-iteration2018.pdf
+month: Jul
+primaryclass: cs.FL
+ref: 1807.04920v3
+time-added: 2023-02-21-12:21:00
+title: On the Complexity of Value Iteration
+type: article
+url: http://arxiv.org/abs/1807.04920v3
+year: '2018'

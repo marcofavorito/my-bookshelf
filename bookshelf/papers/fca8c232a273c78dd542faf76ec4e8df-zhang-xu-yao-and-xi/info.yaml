@@ -1,0 +1,1000 @@
+author: Zhang, Xu-Yao and Xie, Guo-Sen and Li, Xiuli and Mei, Tao and Liu, Cheng-Lin
+author_list:
+- affiliation:
+  - name: National Laboratory of Pattern Recognition, Institute of Automation, Chinese
+      Academy of Sciences, Beijing, China
+  family: Zhang
+  given: Xu-Yao
+- affiliation:
+  - name: School of Computer Science and Engineering, Nanjing University of Science
+      and Technology, Nanjing, China
+  family: Xie
+  given: Guo-Sen
+- affiliation:
+  - name: Deepwise Artificial Intelligence Lab, Beijing, China
+  family: Li
+  given: Xiuli
+- affiliation:
+  - name: School of Information Science and Technology, University of Science and
+      Technology of China, Hefei, China
+  family: Mei
+  given: Tao
+- affiliation:
+  - name: National Laboratory of Pattern Recognition, Institute of Automation, Chinese
+      Academy of Sciences, Beijing, China
+  family: Liu
+  given: Cheng-Lin
+citations:
+- article-title: Evaluation of neural network uncertainty estimation with application
+    to resource-constrained platforms
+  author: ding
+  journal-title: arXiv 1903 02050
+  year: '2019'
+- doi: 10.1109/CVPRW.2018.00282
+- doi: 10.1109/JPROC.2020.2989782
+- article-title: Stochastic activation pruning for robust adversarial defense
+  author: dhillon
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1145/3366423.3380154
+- doi: 10.1109/CVPR46437.2021.00222
+- doi: 10.1145/3340531.3411892
+- doi: 10.1109/CVPR.2019.00241
+- doi: 10.1145/1015330.1015335
+- doi: 10.1109/CVPRW50498.2020.00010
+- doi: 10.1109/TPAMI.2017.2774300
+- doi: 10.21437/Eurospeech.2001-496
+- article-title: Improving reconstruction autoencoder out-of-distribution detection
+    with Mahalanobis distance
+  author: denouden
+  journal-title: arXiv 1812 02765
+  year: '2018'
+- article-title: 'Not all failure modes are created equal: Training deep neural networks
+    for explicable (mis)classification'
+  author: olmo
+  journal-title: arXiv 2006 14841
+  year: '2020'
+- article-title: 'Adversarial examples: Opportunities and challenges'
+  author: zhang
+  first-page: '2578'
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  volume: '31'
+  year: '2020'
+- doi: 10.1109/CVPR46437.2021.00103
+- doi: 10.1109/CVPR.2019.00509
+- doi: 10.1109/TMI.2020.3040950
+- article-title: Reducing network agnostophobia
+  author: dhamija
+  first-page: '9175'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- article-title: DeepFake detection based on discrepancies between faces and their
+    context
+  author: nirkin
+  first-page: '6111'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  volume: '44'
+  year: '2022'
+- doi: 10.1109/TPAMI.2016.2613924
+- article-title: Learning confidence for out-of-distribution detection in neural networks
+  author: devries
+  journal-title: arXiv 1802 04865
+  year: '2018'
+- article-title: Measuring calibration in deep learning
+  author: nixon
+  first-page: '38'
+  journal-title: Proc CVPR Workshops
+  year: '2019'
+- article-title: 'Mix-n-match: Ensemble and compositional methods for uncertainty
+    calibration in deep learning'
+  author: zhang
+  first-page: '11117'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- doi: 10.1145/3439950
+- article-title: 'Deep k-nearest neighbors: Towards confident, interpretable and robust
+    deep learning'
+  author: papernot
+  journal-title: arXiv 1803 04765
+  year: '2018'
+- doi: 10.1109/CVPR42600.2020.00126
+- doi: 10.1145/3052973.3053009
+- doi: 10.1109/TASLP.2020.2983593
+- doi: 10.1109/PerCom45495.2020.9127389
+- doi: 10.2307/2987588
+- article-title: Learning self-consistency for deepfake detection
+  author: zhao
+  journal-title: arXiv 2012 09311
+  year: '2020'
+- doi: 10.1016/0893-6080(94)90065-5
+- doi: 10.1109/CVPR.2019.00301
+- doi: 10.1007/BF00994018
+- doi: 10.1109/CVPR.2019.01181
+- doi: 10.1109/CVPR42600.2020.00120
+- article-title: 'Uncertainty in neural networks: Approximately Bayesian ensembling'
+  author: pearce
+  first-page: '234'
+  journal-title: Proc Int Conf Artif Intell Statist
+  year: '2020'
+- article-title: Deep autoencoding Gaussian mixture model for unsupervised anomaly
+    detection
+  author: zong
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/MSEC.2021.3076443
+- doi: 10.1109/CVPR42600.2020.01183
+- doi: 10.1109/72.410358
+- doi: 10.1016/j.neunet.2019.01.012
+- doi: 10.1007/978-3-031-19806-9_30
+- article-title: Confidence estimation via auxiliary models
+  author: corbiere
+  first-page: '6043'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  volume: '44'
+  year: '2022'
+- doi: 10.1109/TIFS.2012.2189205
+- article-title: Deep leakage from gradients
+  author: zhu
+  first-page: '14774'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2019'
+- doi: 10.1007/978-3-319-46379-7_5
+- doi: 10.1109/EuroSP.2016.36
+- article-title: Accurate probability calibration for multiple classifiers
+  author: zhong
+  first-page: '1939'
+  journal-title: Proc Int Joint Conf Artif Intell
+  year: '2013'
+- doi: 10.1109/CVPR.2019.00489
+- doi: 10.1109/SP.2016.41
+- doi: 10.1145/3395046
+- doi: 10.1145/1143844.1143874
+- article-title: Classification confidence estimation with test-time data-augmentation
+  author: bahat
+  journal-title: arXiv 2006 16705
+  year: '2020'
+- article-title: Confidence from invariance to image transformations
+  author: bahat
+  journal-title: arXiv 1804 00657
+  year: '2018'
+- doi: 10.1609/aaai.v32i1.11672
+- doi: 10.1016/j.jacr.2019.12.009
+- article-title: Detecting adversarial examples and other misclassifications in neural
+    networks by introspection
+  author: aigrain
+  first-page: '1'
+  journal-title: Proc ICML Workshop Uncertainty Robustness Deep Learn
+  year: '2019'
+- article-title: 'NADS: Neural architecture distribution search for uncertainty awareness'
+  author: ardywibowo
+  first-page: '356'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- article-title: 'FOOD: Fast out-of-distribution detector'
+  author: amit
+  journal-title: arXiv 2008 06856
+  year: '2020'
+- doi: 10.1109/CVPR.2019.00068
+- article-title: Calibrating uncertainties in object localization task
+  author: phan
+  journal-title: arXiv 1811 11210
+  year: '2018'
+- doi: 10.1038/d41586-019-03013-5
+- article-title: Generative probabilistic novelty detection with adversarial autoencoders
+  author: pidhorskyi
+  first-page: '6823'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- article-title: Addressing failure prediction by learning model confidence
+  author: corbiere
+  first-page: '2898'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2019'
+- article-title: Regularizing neural networks by penalizing confident output distributions
+  author: pereyra
+  journal-title: arXiv 1701 06548
+  year: '2017'
+- doi: 10.1109/TEC.1957.5222035
+- doi: 10.14722/ndss.2018.23198
+- article-title: Novelty detection via blurring
+  author: choi
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2020'
+- doi: 10.1109/TIFS.2020.3045937
+- article-title: 'FakeCatcher: Detection of synthetic portrait videos using biological
+    signals'
+  author: ciftci
+  doi: 10.1109/TPAMI.2020.3009287
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  year: '2020'
+- doi: 10.1007/s11633-019-1211-x
+- doi: 10.1109/TIT.1970.1054406
+- article-title: Face transfer with generative adversarial network
+  author: xu
+  journal-title: arXiv 1710 06090
+  year: '2017'
+- doi: 10.1109/CVPR42600.2020.00078
+- doi: 10.1109/TMI.2020.3025308
+- article-title: A simple framework for contrastive learning of visual representations
+  author: chen
+  first-page: '1597'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- article-title: Distance-based learning from errors for confidence calibration
+  author: xing
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2020'
+- article-title: WAIC, but why? Generative ensembles for robust anomaly detection
+  author: choi
+  journal-title: arXiv 1810 01392
+  year: '2018'
+- article-title: Mitigating adversarial effects through randomization
+  author: xie
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- article-title: Confidence scoring using whitebox meta-models with linear classifier
+    probes
+  author: chen
+  first-page: '1467'
+  journal-title: Proc Int Conf Artif Intell Statist
+  year: '2019'
+- doi: 10.1109/CVPR.2019.00059
+- doi: 10.1016/j.patcog.2016.10.011
+- doi: 10.1007/978-1-4471-3675-0
+- doi: 10.1145/3426020.3426076
+- article-title: Convolutional prototype network for open set recognition
+  author: yang
+  first-page: '2358'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  volume: '44'
+  year: '2022'
+- article-title: 'ME-Net: Towards effective adversarial robustness with matrix estimation'
+  author: yang
+  first-page: '1'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2019'
+- doi: 10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2
+- doi: 10.1109/CVPR42600.2020.00066
+- doi: 10.1145/3366423.3380204
+- doi: 10.1109/ICCV.2019.00612
+- doi: 10.1109/SP.2017.49
+- doi: 10.1109/ICCV.2019.00961
+- doi: 10.1109/CVPRW50498.2020.00337
+- doi: 10.24963/ijcai.2017/469
+- doi: 10.1109/BTAS.2018.8698539
+- doi: 10.1109/TASL.2011.2141988
+- article-title: 'Artificial fingerprinting for generative models: Rooting deepfake
+    attribution in training data'
+  author: yu
+  journal-title: arXiv 2007 08457
+  year: '2020'
+- article-title: 'Decision-based adversarial attacks: Reliable attacks against black-box
+    machine learning models'
+  author: brendel
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/CVPR42600.2020.00874
+- doi: 10.1145/3269206.3269260
+- doi: 10.1109/CVPR.2019.00414
+- doi: 10.1109/TVCG.2020.2973258
+- doi: 10.1016/j.media.2020.101653
+- article-title: Obtaining calibrated probability estimates from decision trees and
+    Naive Bayesian classifiers
+  author: zadrozny
+  first-page: '609'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2001'
+- doi: 10.1145/3128572.3140448
+- doi: 10.1145/775107.775151
+- doi: 10.1145/1102351.1102430
+- doi: 10.1007/978-3-030-58580-8_7
+- doi: 10.1109/TPAMI.2020.2992393
+- article-title: Adversarial learning of deepfakes in accounting
+  author: schreyer
+  journal-title: arXiv 1910 03810
+  year: '2019'
+- doi: 10.1007/s10994-016-5610-8
+- doi: 10.1109/IJCNN52387.2021.9533442
+- article-title: To trust or not to trust a classifier
+  author: jiang
+  first-page: '5541'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2018'
+- doi: 10.1162/089976601750264965
+- doi: 10.1016/j.patcog.2019.106984
+- doi: 10.1136/amiajnl-2011-000291
+- article-title: Support vector method for novelty detection
+  author: scholkopf
+  first-page: '582'
+  journal-title: Proc Neural Inf Process Syst
+  year: '1999'
+- doi: 10.1016/j.learninstruc.2012.05.009
+- doi: 10.1109/CVPR.2019.00624
+- doi: 10.1109/TPAMI.2011.54
+- doi: 10.1109/ACCESS.2019.2905689
+- article-title: Transfer learning from speaker verification to multispeaker text-to-speech
+    synthesis
+  author: jia
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- doi: 10.1109/TPAMI.2012.256
+- doi: 10.1109/CVPR42600.2020.00071
+- doi: 10.1109/CVPRW53098.2021.00111
+- article-title: Input complexity and out-of-distribution detection with likelihood-based
+    generative models
+  author: serra
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2020'
+- doi: 10.1016/j.ins.2019.05.084
+- article-title: Auto-encoding variational Bayes
+  author: kingma
+  journal-title: arXiv 1312 6114
+  year: '2013'
+- article-title: A less biased evaluation of out-of-distribution sample detectors
+  author: shafaei
+  journal-title: Proc Brit Mach Vis Conf
+  year: '2019'
+- doi: 10.1016/j.learninstruc.2012.10.001
+- doi: 10.1109/CVPRW50498.2020.00336
+- article-title: 'SSD: A unified framework for self-supervised outlier detection'
+  author: sehwag
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2021'
+- doi: 10.1109/34.601248
+- doi: 10.1109/CVPR42600.2020.00472
+- doi: 10.1109/CVPR.2019.00924
+- article-title: Can you trust this prediction? Auditing pointwise reliability after
+    learning
+  author: schulam
+  first-page: '1022'
+  journal-title: Proc Int Conf Artif Intell Statist
+  year: '2019'
+- article-title: 'PRADA: Protecting against DNN model stealing attacks'
+  author: juuti
+  first-page: '512'
+  journal-title: Proc IEEE Symp Sec Priv
+  year: '2019'
+- article-title: 'From black-box to white-box: Examining confidence calibration under
+    different conditions'
+  author: schwaiger
+  journal-title: Proc AAAI Workshop SafeAI
+  year: '2021'
+- article-title: Countering adversarial images using input transformations
+  author: guo
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- article-title: On calibration of modern neural networks
+  author: guo
+  first-page: '1321'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2017'
+- doi: 10.21437/ICSLP.2002-291
+- article-title: Calibration of encoder decoder models for neural machine translation
+  author: kumar
+  journal-title: arXiv 1903 00802
+  year: '2019'
+- author: grant
+  journal-title: Think again The Power of Knowing what You don't Know - Viking Books
+  year: '2021'
+- article-title: 'Beyond temperature scaling: Obtaining well-calibrated multi-class
+    probabilities with Dirichlet calibration'
+  author: kull
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2019'
+- article-title: 'Fawkes: Protecting privacy against unauthorized deep learning models'
+  author: shan
+  first-page: '1589'
+  journal-title: Proc Usenix Secur Symp
+  year: '2020'
+- doi: 10.1109/TPAMI.2008.239
+- article-title: Verified uncertainty calibration
+  author: kumar
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2019'
+- doi: 10.18653/v1/D17-1314
+- doi: 10.1109/CVPRW50498.2020.00341
+- article-title: Being Bayesian, even just a bit, fixes overconfidence in ReLU networks
+  author: kristiadi
+  first-page: '5436'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- article-title: Poison frogs! Targeted clean-label poisoning attacks on neural networks
+  author: shafahi
+  first-page: '6106'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- article-title: Towards deep neural network architectures robust to adversarial examples
+  author: gu
+  journal-title: arXiv 1412 5068 [cs]
+  year: '2014'
+- article-title: 'Beta calibration: A well-founded and easily implemented improvement
+    on logistic calibration for binary classifiers'
+  author: kull
+  first-page: '623'
+  journal-title: Proc Int Conf Artif Intell Statist
+  year: '2017'
+- article-title: Out-of-distribution detection using multiple semantic label representations
+  author: shalev
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- article-title: Generative adversarial nets
+  author: goodfellow
+  first-page: '2672'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2014'
+- article-title: Probability calibration trees
+  author: leathart
+  first-page: '145'
+  journal-title: Proc Asian Conf Mach Learn
+  year: '2017'
+- article-title: 'Dropout: A simple way to prevent neural networks from overfitting'
+  author: srivastava
+  first-page: '1929'
+  journal-title: J Mach Learn Res
+  volume: '15'
+  year: '2014'
+- article-title: Adversarial and clean data are not twins
+  author: gong
+  journal-title: arXiv 1704 04960
+  year: '2017'
+- article-title: Deep learning
+  author: lecun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  journal-title: Nature
+  volume: '521'
+  year: '2015'
+- doi: 10.1109/5326.827457
+- article-title: 'DROCC: Deep robust one-class classification'
+  author: goyal
+  first-page: '3711'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- doi: 10.18653/v1/2020.acl-main.249
+- doi: 10.1109/TPAMI.2019.2909876
+- article-title: Explaining and harnessing adversarial examples
+  author: goodfellow
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2015'
+- article-title: Simple and scalable predictive uncertainty estimation using deep
+    ensembles
+  author: lakshminarayanan
+  first-page: '6402'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2017'
+- article-title: Building robust classifiers through generation of confident out of
+    distribution examples
+  author: sricharan
+  journal-title: Proc NeurIPS Workshop Bayesian Deep Learn
+  year: '2018'
+- article-title: Trainable calibration measures for neural networks from kernel mean
+    embeddings
+  author: kumar
+  first-page: '2805'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2018'
+- article-title: On calibration of scene-text recognition models
+  author: slossberg
+  journal-title: arXiv 2012 12643
+  year: '2020'
+- article-title: Adversarial examples in the physical world
+  author: kurakin
+  first-page: '1'
+  journal-title: Proc Workshop Track ICLR
+  year: '2017'
+- article-title: 'PixelDefend: Leveraging generative models to understand and defend
+    against adversarial examples'
+  author: song
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/34.598237
+- article-title: On deep neural network calibration by regularization and its impact
+    on refinement
+  author: singh
+  journal-title: arXiv 2106 09385
+  year: '2021'
+- article-title: Deep anomaly detection using geometric transformations
+  author: golan
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- article-title: Using pre-training can improve model robustness and uncertainty
+  author: hendrycks
+  first-page: '2712'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2019'
+- article-title: Intra order-preserving functions for calibration of multi-class neural
+    networks
+  author: rahimi
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2020'
+- doi: 10.2478/jagi-2014-0001
+- article-title: Deep anomaly detection with outlier exposure
+  author: hendrycks
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2019'
+- article-title: A baseline for detecting misclassified and out-of-distribution examples
+    in neural networks
+  author: hendrycks
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2017'
+- doi: 10.1109/TNNLS.2020.2991378
+- article-title: Early methods for detecting adversarial images
+  author: hendrycks
+  first-page: '1'
+  journal-title: Proc ICLR Workshop
+  year: '2017'
+- doi: 10.1109/CVPR.2019.00669
+- article-title: Bias-reduced uncertainty estimation for deep neural classifiers
+  author: geifman
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2019'
+- doi: 10.1109/TSSC.1970.300339
+- article-title: The case against accuracy estimation for comparing induction algorithms
+  author: provost
+  first-page: '445'
+  journal-title: Proc Int Conf Mach Learn
+  year: '1998'
+- article-title: 'SelectiveNet: A deep neural network with an integrated reject option'
+  author: geifman
+  first-page: '2151'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2019'
+- article-title: Scaling out-of-distribution detection for real-world settings
+  author: hendrycks
+  journal-title: arXiv 1911 11132
+  year: '2019'
+- doi: 10.1109/CVPR.2019.00491
+- doi: 10.1109/TPAMI.2020.2981604
+- doi: 10.1109/IVS.2018.8500495
+- doi: 10.1016/j.sigpro.2013.12.026
+- doi: 10.1109/TKDE.2020.2978199
+- doi: 10.1109/CVPR.2019.00013
+- article-title: Probabilistic outputs for support vector machines and comparisons
+    to regularized likelihood methods
+  author: platt
+  first-page: '61'
+  journal-title: Adv Large Margin Classifiers
+  volume: '10'
+  year: '1999'
+- article-title: 'Dropout as a Bayesian approximation: Representing model uncertainty
+    in deep learning'
+  author: gal
+  first-page: '1050'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2016'
+- article-title: 'AugMix: A simple data processing method to improve robustness and
+    uncertainty'
+  author: hendrycks
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2020'
+- article-title: Likelihood ratios for out-of-distribution detection
+  author: ren
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2019'
+- author: fukunaga
+  journal-title: Introduction to statistical pattern recognition
+  year: '1990'
+- doi: 10.1023/B:AIRE.0000045502.10941.a9
+- doi: 10.1016/j.jacr.2020.06.035
+- article-title: Selective classification for deep neural networks
+  author: geifman
+  first-page: '4878'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2017'
+- article-title: Harnessing model uncertainty for detecting adversarial examples
+  author: rawat
+  journal-title: Proc NIPS Workshop Bayesian Deep Learn
+  year: '2017'
+- doi: 10.5244/C.31.42
+- article-title: Using self-supervised learning can improve model robustness and uncertainty
+  author: hendrycks
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2019'
+- doi: 10.1109/CVPR.2017.587
+- article-title: Leveraging frequency analysis for deep fake image recognition
+  author: frank
+  first-page: '3247'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- doi: 10.18653/v1/2020.acl-main.188
+- article-title: On discriminative learning of prediction uncertainty
+  author: franc
+  first-page: '1963'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2019'
+- doi: 10.1609/aaai.v35i2.16254
+- doi: 10.1109/CVPR.2018.00356
+- article-title: Experiments with a new boosting algorithm
+  author: freund
+  first-page: '148'
+  journal-title: Proc Int Conf Mach Learn
+  year: '1996'
+- doi: 10.1109/WACV48630.2021.00339
+- doi: 10.1371/journal.pone.0118432
+- doi: 10.1109/CVPR.2018.00175
+- doi: 10.1109/CVPR42600.2020.01096
+- doi: 10.1109/TPAMI.2017.2707495
+- article-title: 'Neural architecture search: A survey'
+  author: elsken
+  first-page: '1'
+  journal-title: J Mach Learn Res
+  volume: '20'
+  year: '2019'
+- article-title: Feature space singularity for out-of-distribution detection
+  author: huang
+  journal-title: Proc AAAI Conf Artif Intell
+  year: '2021'
+- article-title: Deep one-class classification
+  author: ruff
+  first-page: '4393'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2018'
+- doi: 10.1109/MITP.2020.2977589
+- article-title: Significance of softmax-based features in comparison to distance
+    metric learning-based features
+  author: horiguchi
+  first-page: '1279'
+  journal-title: IEEE Trans Pattern Anal Mach Intell
+  volume: '42'
+  year: '2020'
+- article-title: 'Deep Bayesian bandits showdown: An empirical comparison of Bayesian
+    deep networks for Thompson sampling'
+  author: riquelme
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/CVPRW50498.2020.00162
+- article-title: Blocking transferability of adversarial examples in black-box learning
+    systems
+  author: hosseini
+  journal-title: arXiv 1703 04318
+  year: '2017'
+- article-title: Are out-of-distribution detection methods effective on large-scale
+    datasets?
+  author: roady
+  journal-title: arXiv 1910 14034
+  year: '2019'
+- doi: 10.1109/CVPR.2019.00897
+- doi: 10.1109/ICCVW.2019.00515
+- author: sayler
+  journal-title: Deep fakes and national security
+  year: '2020'
+- doi: 10.1109/TBIOM.2021.3086109
+- doi: 10.1109/TPAMI.2014.2321392
+- article-title: On the foundations of noise-free selective classification
+  author: el-yaniv
+  first-page: '1605'
+  journal-title: J Mach Learn Res
+  volume: '11'
+  year: '2010'
+- doi: 10.1109/ICCV.2019.00283
+- doi: 10.1109/ICASSP.2003.1198850
+- doi: 10.1016/0031-3203(93)90097-G
+- doi: 10.1109/CVPR42600.2020.00132
+- article-title: Detecting out-of-distribution examples with Gram matrices
+  author: sastry
+  first-page: '8491'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- article-title: 'Defense-GAN: Protecting classifiers against adversarial attacks
+    using generative models'
+  author: samangouei
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- article-title: Characterizing adversarial subspaces using local intrinsic dimensionality
+  author: ma
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- article-title: Safer classification by synthesis
+  author: wang
+  journal-title: arXiv 1711 08534
+  year: '2017'
+- article-title: A simple baseline for Bayesian uncertainty in deep learning
+  author: maddox
+  first-page: '13153'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2019'
+- doi: 10.1109/TPAMI.2019.2895794
+- article-title: Towards deep learning models resistant to adversarial attacks
+  author: madry
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/CVPR.2018.00928
+- article-title: Predicting accurate probabilities with a ranking loss
+  author: menon
+  first-page: '1'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2012'
+- article-title: Probability estimates for multi-class classification by pairwise
+    coupling
+  author: wu
+  first-page: '975'
+  journal-title: J Mach Learn Res
+  volume: '5'
+  year: '2004'
+- article-title: On detecting adversarial perturbations
+  author: metzen
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2017'
+- doi: 10.1109/ICCV.2015.177
+- doi: 10.1609/aaai.v29i1.9569
+- doi: 10.1109/JPROC.2010.2044470
+- doi: 10.1145/3133956.3134057
+- doi: 10.1109/TPAMI.2008.79
+- article-title: Metric learning for novelty and anomaly detection
+  author: masana
+  journal-title: Proc Brit Mach Vis Conf
+  year: '2018'
+- article-title: 'Adversarial examples in modern machine learning: A review'
+  author: wiyatno
+  journal-title: arXiv 1911 05268
+  year: '2019'
+- doi: 10.1007/978-3-030-58571-6_39
+- doi: 10.1016/S0893-6080(05)80023-1
+- doi: 10.1109/CVPR.2019.01022
+- article-title: Distance metric learning for large margin nearest neighbor classification
+  author: weinberger
+  first-page: '1'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2006'
+- article-title: Distance-based confidence score for neural network classifiers
+  author: mandelbaum
+  journal-title: arXiv 1709 09844
+  year: '2017'
+- article-title: Non-parametric calibration for classification
+  author: wenger
+  first-page: '178'
+  journal-title: Proc Int Conf Artif Intell Statist
+  year: '2020'
+- doi: 10.1145/3425780
+- doi: 10.1145/3394171.3413570
+- article-title: Confidence-aware learning for deep neural networks
+  author: moon
+  first-page: '7034'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2020'
+- doi: 10.1109/ICCV.2019.00348
+- doi: 10.1137/1.9781611974348.30
+- article-title: Calibrating deep neural networks using focal loss
+  author: mukhoti
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2020'
+- article-title: When does label smoothing help?
+  author: müller
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2019'
+- article-title: 'Unsupervised temperature scaling: An unsupervised post-processing
+    calibration method of deep networks'
+  author: mozafari
+  first-page: '1'
+  journal-title: Proc ICML Workshop Uncertainty Robustness Deep Learn
+  year: '2019'
+- article-title: 'Attended temperature scaling: A practical approach for calibrating
+    deep neural networks'
+  author: mozafari
+  journal-title: arXiv 1810 11586
+  year: '2018'
+- doi: 10.1109/CVPR.2017.17
+- doi: 10.1109/CVPR.2016.282
+- article-title: A simple unified framework for detecting out-of-distribution samples
+    and adversarial attacks
+  author: lee
+  first-page: '1'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2018'
+- doi: 10.1109/CVPR42600.2020.01349
+- doi: 10.1038/s41598-017-17876-z
+- doi: 10.1145/3394486.3403189
+- doi: 10.1109/TEVC.2019.2890858
+- article-title: Training confidence-calibrated classifiers for detecting out-of-distribution
+    samples
+  author: lee
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1007/s11263-019-01232-x
+- article-title: Enhancing the reliability of out-of-distribution image detection
+    in neural networks
+  author: liang
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- doi: 10.1109/ICASSP40776.2020.9053195
+- doi: 10.1109/CVPR.2018.00191
+- doi: 10.2172/1525811
+- article-title: 'Backdoor learning: A survey'
+  author: li
+  journal-title: arXiv 2007 08745
+  year: '2020'
+- article-title: Hyperparameter-free out-of-distribution detection using cosine similarity
+  author: techapanurak
+  first-page: '1'
+  journal-title: Proc Asian Conf Comput Vis
+  year: '2020'
+- article-title: 'Hiding faces in plain sight: Disrupting AI face synthesis with adversarial
+    perturbations'
+  author: li
+  journal-title: arXiv 1906 09288
+  year: '2019'
+- doi: 10.1038/s41467-020-19448-8
+- doi: 10.1109/CVPR42600.2020.00505
+- author: tax
+  journal-title: One-class classification Concept-learning in the absence of counter-examples
+  year: '2001'
+- doi: 10.1109/CVPR42600.2020.01323
+- doi: 10.1023/B:MACH.0000008084.60811.49
+- article-title: Intriguing properties of neural networks
+  author: szegedy
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2014'
+- doi: 10.1109/CVPR46437.2021.00573
+- article-title: 'CSI: Novelty detection via contrastive learning on distributionally
+    shifted instances'
+  author: tack
+  first-page: '11839'
+  journal-title: Proc Conf Neural Inf Process Syst
+  year: '2020'
+- doi: 10.1007/s10044-003-0199-5
+- doi: 10.1109/TPAMI.2018.2858826
+- doi: 10.1016/j.inffus.2020.06.014
+- doi: 10.1016/j.patcog.2004.05.013
+- article-title: 'Ensemble adversarial training: Attacks and defenses'
+  author: tramer
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2018'
+- article-title: Stealing machine learning models via prediction APIs
+  author: tramer
+  first-page: '601'
+  journal-title: Proc Usenix Secur Symp
+  year: '2016'
+- doi: 10.1109/ICCV.2017.56
+- doi: 10.1109/CVPR46437.2021.01468
+- doi: 10.1109/ICRA.2019.8793611
+- doi: 10.24963/ijcai.2020/476
+- doi: 10.1109/CVPR42600.2020.00808
+- article-title: Out-of-distribution detection in classifiers via generation
+  author: vernekar
+  journal-title: Proc NeurIPS Workshop Saf Robustness Decis Making
+  year: '2019'
+- doi: 10.1109/LRA.2020.2974682
+- doi: 10.1007/978-3-030-01237-3_34
+- article-title: Energy-based out-of-distribution detection
+  author: liu
+  first-page: '21464'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2020'
+- doi: 10.1109/72.788640
+- doi: 10.1109/CVPR.2019.00095
+- doi: 10.1109/JSTSP.2020.3002101
+- doi: 10.1109/CVPR.2019.00496
+- article-title: 'Bayesian layers: A module for neural network uncertainty'
+  author: tran
+  first-page: '14660'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2019'
+- doi: 10.1145/3219819.3220027
+- article-title: Failure prediction by confidence estimation of uncertainty-aware
+    Dirichlet networks
+  author: tsiligkaridis
+  first-page: '1'
+  journal-title: Proc ICML Workshop Uncertainty Robustness Deep Learn
+  year: '2020'
+- article-title: Classification with a reject option using a Hinge loss
+  author: bartlett
+  first-page: '1823'
+  journal-title: J Mach Learn Res
+  volume: '9'
+  year: '2008'
+- doi: 10.1109/34.709564
+- article-title: Classification-based anomaly detection for general data
+  author: bergman
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2020'
+- doi: 10.1109/CVPR.2016.173
+- doi: 10.1109/ICCV.2017.299
+- doi: 10.1007/978-3-030-01228-1_8
+- author: bishop
+  journal-title: Neural Networks for Pattern Recognition
+  year: '1995'
+- doi: 10.1049/ip-vis:19941330
+- article-title: Weight uncertainty in neural networks
+  author: blundell
+  first-page: '1613'
+  journal-title: Proc Int Conf Mach Learn
+  year: '2015'
+- doi: 10.3115/1220355.1220401
+- article-title: Protecting world leaders against deep fakes
+  author: agarwal
+  first-page: '38'
+  journal-title: Proc CVPR Workshops
+  year: '2019'
+- article-title: Detecting out-of-distribution inputs in deep neural networks using
+    an early-layer output
+  author: abdelzad
+  journal-title: arXiv 1910 10307
+  year: '2019'
+- article-title: Obtaining well calibrated probabilities using Bayesian binning
+  author: naeini
+  journal-title: Proc AAAI Conf Artif Intell
+  year: '2015'
+- article-title: Do deep generative models know what they don't know?
+  author: nalisnick
+  first-page: '1'
+  journal-title: Proc Int Conf Learn Represent
+  year: '2019'
+- doi: 10.1109/ICDM.2016.0047
+- article-title: On the calibration of multiclass classification with rejection
+  author: ni
+  first-page: '1'
+  journal-title: Proc Adv Neural Inf Process Syst
+  year: '2019'
+- article-title: 'Deep neural networks are easily fooled: High confidence predictions
+    for unrecognizable images'
+  author: nguyen
+  first-page: '427'
+  journal-title: Proc IEEE Conf Comput Vis Pattern Recognit (CVPR)
+  year: '2015'
+- article-title: 'Deep learning for deepfakes creation and detection: A survey'
+  author: nguyen
+  journal-title: arXiv 1909 11573
+  year: '2019'
+- doi: 10.1109/CVPRW53098.2021.00103
+- article-title: 'Relaxed softmax: Efficient confidence auto-calibration for safe
+    pedestrian detection'
+  author: neumann
+  first-page: '1'
+  journal-title: Proc NIPS Workshop Mach Learn Intell Transp Syst
+  year: '2018'
+- doi: 10.1109/CVPR42600.2020.00034
+- article-title: Open set learning with counterfactual images
+  author: neal
+  first-page: '613'
+  journal-title: Proc Eur Conf Comput Vis
+  year: '2018'
+doi: 10.1109/jproc.2023.3238024
+files:
+- zhang-xu-yao-and-xie-guo-sen-and-li-xiuli-and-mei-tao-and-liu-cheng-lina-survey-on-learning-to-reject2023.pdf
+issue: '2'
+journal: Proceedings of the IEEE
+month: 2
+pages: 185--215
+publisher: Institute of Electrical and Electronics Engineers (IEEE)
+ref: ASurveyOnLeaZhang2023
+time-added: 2023-02-25-00:13:17
+title: A Survey on Learning to Reject
+type: article
+url: http://dx.doi.org/10.1109/jproc.2023.3238024
+volume: '111'
+year: 2023

@@ -1,0 +1,80 @@
+abstract: The Pretrained Foundation Models (PFMs) are regarded as the foundation for
+  various downstream tasks with different data modalities. A pretrained foundation
+  model, such as BERT, GPT-3, MAE, DALLE-E, and ChatGPT, is trained on large-scale
+  data which provides a reasonable parameter initialization for a wide range of downstream
+  applications. The idea of pretraining behind PFMs plays an important role in the
+  application of large models. Different from previous methods that apply convolution
+  and recurrent modules for feature extractions, the generative pre-training (GPT)
+  method applies Transformer as the feature extractor and is trained on large datasets
+  with an autoregressive paradigm. Similarly, the BERT apples transformers to train
+  on large datasets as a contextual language model. Recently, the ChatGPT shows promising
+  success on large language models, which applies an autoregressive language model
+  with zero shot or few show prompting. With the extraordinary success of PFMs, AI
+  has made waves in a variety of fields over the past few years. Considerable methods,
+  datasets, and evaluation metrics have been proposed in the literature, the need
+  is raising for an updated survey. This study provides a comprehensive review of
+  recent research advancements, current and future challenges, and opportunities for
+  PFMs in text, image, graph, as well as other data modalities. We first review the
+  basic components and existing pretraining in natural language processing, computer
+  vision, and graph learning. We then discuss other advanced PFMs for other data modalities
+  and unified PFMs considering the data quality and quantity. Besides, we discuss
+  relevant research about the fundamentals of the PFM, including model efficiency
+  and compression, security, and privacy. Finally, we lay out key implications, future
+  research directions, challenges, and open problems.
+archiveprefix: arXiv
+author: Zhou, Ce and Li, Qian and Li, Chen and Yu, Jun and Liu, Yixin and Wang, Guangjing
+  and Zhang, Kai and Ji, Cheng and Yan, Qiben and He, Lifang and Peng, Hao and Li,
+  Jianxin and Wu, Jia and Liu, Ziwei and Xie, Pengtao and Xiong, Caiming and Pei,
+  Jian and Yu, Philip S. and Sun, Lichao
+author_list:
+- family: Zhou
+  given: Ce
+- family: Li
+  given: Qian
+- family: Li
+  given: Chen
+- family: Yu
+  given: Jun
+- family: Liu
+  given: Yixin
+- family: Wang
+  given: Guangjing
+- family: Zhang
+  given: Kai
+- family: Ji
+  given: Cheng
+- family: Yan
+  given: Qiben
+- family: He
+  given: Lifang
+- family: Peng
+  given: Hao
+- family: Li
+  given: Jianxin
+- family: Wu
+  given: Jia
+- family: Liu
+  given: Ziwei
+- family: Xie
+  given: Pengtao
+- family: Xiong
+  given: Caiming
+- family: Pei
+  given: Jian
+- family: Yu
+  given: Philip S.
+- family: Sun
+  given: Lichao
+eprint: 2302.09419v1
+file: 2302.09419v1.pdf
+files:
+- zhou-ce-and-li-qian-and-li-chen-and-yu-jun-and-liu-yixin-and-wang-guangjing-and-zhang-kai-and-ji-cheng-and-yan-qiben-and-he-lifang-and-peng.pdf
+month: Feb
+primaryclass: cs.AI
+ref: 2302.09419v1
+time-added: 2023-02-22-22:08:59
+title: 'A Comprehensive Survey on Pretrained Foundation Models: A History from   BERT
+  to ChatGPT'
+type: article
+url: http://arxiv.org/abs/2302.09419v1
+year: '2023'

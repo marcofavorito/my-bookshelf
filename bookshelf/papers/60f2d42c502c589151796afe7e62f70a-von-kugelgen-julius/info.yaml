@@ -1,0 +1,39 @@
+abstract: Counterfactual reasoning -- envisioning hypothetical scenarios, or possible
+  worlds, where some circumstances are different from what (f)actually occurred (counter-to-fact)
+  -- is ubiquitous in human cognition. Conventionally, counterfactually-altered circumstances
+  have been treated as "small miracles" that locally violate the laws of nature while
+  sharing the same initial conditions. In Pearl's structural causal model (SCM) framework
+  this is made mathematically rigorous via interventions that modify the causal laws
+  while the values of exogenous variables are shared. In recent years, however, this
+  purely interventionist account of counterfactuals has increasingly come under scrutiny
+  from both philosophers and psychologists. Instead, they suggest a backtracking account
+  of counterfactuals, according to which the causal laws remain unchanged in the counterfactual
+  world; differences to the factual world are instead "backtracked" to altered initial
+  conditions (exogenous variables). In the present work, we explore and formalise
+  this alternative mode of counterfactual reasoning within the SCM framework. Despite
+  ample evidence that humans backtrack, the present work constitutes, to the best
+  of our knowledge, the first general account and algorithmisation of backtracking
+  counterfactuals. We discuss our backtracking semantics in the context of related
+  literature and draw connections to recent developments in explainable artificial
+  intelligence (XAI).
+archiveprefix: arXiv
+author: von Kügelgen, Julius and Mohamed, Abdirisak and Beckers, Sander
+author_list:
+- family: von Kügelgen
+  given: Julius
+- family: Mohamed
+  given: Abdirisak
+- family: Beckers
+  given: Sander
+eprint: 2211.00472v2
+file: 2211.00472v2.pdf
+files:
+- von-kugelgen-julius-and-mohamed-abdirisak-and-beckers-sanderbacktracking-counterfactuals2022.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 2211.00472v2
+time-added: 2023-02-22-16:31:33
+title: Backtracking Counterfactuals
+type: article
+url: http://arxiv.org/abs/2211.00472v2
+year: '2022'

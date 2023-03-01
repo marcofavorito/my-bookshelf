@@ -1,0 +1,33 @@
+abstract: An agent's ability to reuse solutions to previously solved problems is critical
+  for learning new tasks efficiently. Recent research using composition of value functions
+  in reinforcement learning has shown that agents can utilize solutions of primitive
+  tasks to obtain solutions for exponentially many new tasks. However, previous work
+  has relied on restrictive assumptions on the dynamics, the method of composition,
+  and the structure of reward functions. Here we consider the case of general composition
+  functions without any restrictions on the structure of reward functions, applicable
+  to both deterministic and stochastic dynamics. For this general setup, we provide
+  bounds on the corresponding optimal value functions and characterize the value of
+  corresponding policies. The theoretical results derived lead to improvements in
+  training for both entropy-regularized and standard reinforcement learning, which
+  we validate with numerical simulations.
+archiveprefix: arXiv
+author: Adamczyk, Jacob and Tiomkin, Stas and Kulkarni, Rahul
+author_list:
+- family: Adamczyk
+  given: Jacob
+- family: Tiomkin
+  given: Stas
+- family: Kulkarni
+  given: Rahul
+eprint: 2302.09676v1
+file: 2302.09676v1.pdf
+files:
+- adamczyk-jacob-and-tiomkin-stas-and-kulkarni-rahulcompositionality-and-bounds-for-optimal-value-functions-in-reinforcement-learning2023.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2302.09676v1
+time-added: 2023-02-23-14:09:50
+title: Compositionality and Bounds for Optimal Value Functions in Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/2302.09676v1
+year: '2023'

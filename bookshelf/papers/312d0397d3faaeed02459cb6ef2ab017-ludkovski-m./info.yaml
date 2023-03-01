@@ -1,0 +1,36 @@
+abstract: <jats:p> We survey the active interface of statistical learning methods
+  and quantitative finance models. Our focus is on the use of statistical surrogates,
+  also known as functional approximators, for learning input–output relationships
+  relevant for financial tasks. Given the disparate terminology used among statisticians
+  and financial mathematicians, we begin by reviewing the main ingredients of surrogate
+  construction and the motivating financial tasks. We then summarize the major surrogate
+  types, including (deep) neural networks, Gaussian processes, gradient boosting machines,
+  smoothing splines, and Chebyshev polynomials. The second half of the article dives
+  deeper into the major applications of statistical learning in finance, covering
+  ( a) parametric option pricing, ( b) learning the implied/local volatility surface,
+  ( c) learning option sensitivities, ( d) American option pricing, and ( e) model
+  calibration. We also briefly detail statistical learning for stochastic control
+  and reinforcement learning, two areas of research exploding in popularity in quantitative
+  finance. </jats:p><jats:p> Expected final online publication date for the Annual
+  Review of Statistics and Its Application, Volume 10 is March 2023. Please see http://www.annualreviews.org/page/journal/pubdates
+  for revised estimates. </jats:p>
+author: Ludkovski, M.
+author_list:
+- affiliation:
+  - name: Department of Statistics and Applied Probability, University of California,
+      Santa Barbara, California, USA;
+  family: Ludkovski
+  given: M.
+doi: 10.1146/annurev-statistics-032921-042409
+issue: '1'
+journal: Annual Review of Statistics and Its Application
+language: en
+month: 3
+publisher: Annual Reviews
+ref: StatisticalMacLudkov2023
+time-added: 2023-02-23-14:09:56
+title: Statistical Machine Learning for Quantitative Finance
+type: article
+url: http://dx.doi.org/10.1146/annurev-statistics-032921-042409
+volume: '10'
+year: 2023

@@ -1,0 +1,43 @@
+abstract: Adversarial machine learning (AML) studies the adversarial phenomenon of
+  machine learning, which may make inconsistent or unexpected predictions with humans.
+  Some paradigms have been recently developed to explore this adversarial phenomenon
+  occurring at different stages of a machine learning system, such as training-time
+  adversarial attack (i.e., backdoor attack), deployment-time adversarial attack (i.e.,
+  weight attack), and inference-time adversarial attack (i.e., adversarial example).
+  However, although these paradigms share a common goal, their developments are almost
+  independent, and there is still no big picture of AML. In this work, we aim to provide
+  a unified perspective to the AML community to systematically review the overall
+  progress of this field. We firstly provide a general definition about AML, and then
+  propose a unified mathematical framework to covering existing attack paradigms.
+  According to the proposed unified framework, we can not only clearly figure out
+  the connections and differences among these paradigms, but also systematically categorize
+  and review existing works in each paradigm.
+archiveprefix: arXiv
+author: Wu, Baoyuan and Liu, Li and Zhu, Zihao and Liu, Qingshan and He, Zhaofeng
+  and Lyu, Siwei
+author_list:
+- family: Wu
+  given: Baoyuan
+- family: Liu
+  given: Li
+- family: Zhu
+  given: Zihao
+- family: Liu
+  given: Qingshan
+- family: He
+  given: Zhaofeng
+- family: Lyu
+  given: Siwei
+eprint: 2302.09457v1
+file: 2302.09457v1.pdf
+files:
+- wu-baoyuan-and-liu-li-and-zhu-zihao-and-liu-qingshan-and-he-zhaofeng-and-lyu-siweiadversarial-machine-learning-a-systematic-survey-of-backdoor.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2302.09457v1
+time-added: 2023-02-24-09:45:25
+title: 'Adversarial Machine Learning: A Systematic Survey of Backdoor Attack,   Weight
+  Attack and Adversarial Example'
+type: article
+url: http://arxiv.org/abs/2302.09457v1
+year: '2023'

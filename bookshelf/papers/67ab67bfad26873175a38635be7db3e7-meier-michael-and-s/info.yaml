@@ -1,0 +1,42 @@
+abstract: We study the termination problem of the chase algorithm, a central tool
+  in various database problems such as the constraint implication problem, Conjunctive
+  Query optimization, rewriting queries using views, data exchange, and data integration.
+  The basic idea of the chase is, given a database instance and a set of constraints
+  as input, to fix constraint violations in the database instance. It is well-known
+  that, for an arbitrary set of constraints, the chase does not necessarily terminate
+  (in general, it is even undecidable if it does or not). Addressing this issue, we
+  review the limitations of existing sufficient termination conditions for the chase
+  and develop new techniques that allow us to establish weaker sufficient conditions.
+  In particular, we introduce two novel termination conditions called safety and inductive
+  restriction, and use them to define the so-called T-hierarchy of termination conditions.
+  We then study the interrelations of our termination conditions with previous conditions
+  and the complexity of checking our conditions. This analysis leads to an algorithm
+  that checks membership in a level of the T-hierarchy and accounts for the complexity
+  of termination conditions. As another contribution, we study the problem of data-dependent
+  chase termination and present sufficient termination conditions w.r.t. fixed instances.
+  They might guarantee termination although the chase does not terminate in the general
+  case. As an application of our techniques beyond those already mentioned, we transfer
+  our results into the field of query answering over knowledge bases where the chase
+  on the underlying database may not terminate, making existing algorithms applicable
+  to broader classes of constraints.
+archiveprefix: arXiv
+author: Meier, Michael and Schmidt, Michael and Lausen, Georg
+author_list:
+- family: Meier
+  given: Michael
+- family: Schmidt
+  given: Michael
+- family: Lausen
+  given: Georg
+eprint: 0906.4228v2
+file: 0906.4228v2.pdf
+files:
+- meier-michael-and-schmidt-michael-and-lausen-georgon-chase-termination-beyond-stratification2009.pdf
+month: Jun
+primaryclass: cs.DB
+ref: 0906.4228v2
+time-added: 2023-02-21-11:36:33
+title: On Chase Termination Beyond Stratification
+type: article
+url: http://arxiv.org/abs/0906.4228v2
+year: '2009'

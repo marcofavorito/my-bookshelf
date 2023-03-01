@@ -1,0 +1,35 @@
+abstract: Can large language models be trained to produce philosophical texts that
+  are difficult to distinguish from texts produced by human philosophers? To address
+  this question, we fine-tuned OpenAI's GPT-3 with the works of philosopher Daniel
+  C. Dennett as additional training data. To explore the Dennett model, we asked the
+  real Dennett ten philosophical questions and then posed the same questions to the
+  language model, collecting four responses for each question without cherry-picking.
+  We recruited 425 participants to distinguish Dennett's answer from the four machine-generated
+  answers. Experts on Dennett's work (N = 25) succeeded 51% of the time, above the
+  chance rate of 20% but short of our hypothesized rate of 80% correct. For two of
+  the ten questions, the language model produced at least one answer that experts
+  selected more frequently than Dennett's own answer. Philosophy blog readers (N =
+  302) performed similarly to the experts, while ordinary research participants (N
+  = 98) were near chance distinguishing GPT-3's responses from those of an "actual
+  human philosopher".
+archiveprefix: arXiv
+author: Schwitzgebel, Eric and Schwitzgebel, David and Strasser, Anna
+author_list:
+- family: Schwitzgebel
+  given: Eric
+- family: Schwitzgebel
+  given: David
+- family: Strasser
+  given: Anna
+eprint: 2302.01339v1
+file: 2302.01339v1.pdf
+files:
+- schwitzgebel-eric-and-schwitzgebel-david-and-strasser-annacreating-a-large-language-model-of-a-philosopher2023.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 2302.01339v1
+time-added: 2023-02-20-15:31:56
+title: Creating a Large Language Model of a Philosopher
+type: article
+url: http://arxiv.org/abs/2302.01339v1
+year: '2023'

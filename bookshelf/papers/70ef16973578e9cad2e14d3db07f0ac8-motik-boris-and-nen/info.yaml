@@ -1,0 +1,524 @@
+author: Motik, Boris and Nenov, Yavor and Piro, Robert and Horrocks, Ian
+author_list:
+- affiliation: []
+  family: Motik
+  given: Boris
+- affiliation: []
+  family: Nenov
+  given: Yavor
+- affiliation: []
+  family: Piro
+  given: Robert
+- affiliation: []
+  family: Horrocks
+  given: Ian
+citations:
+- author: Abiteboul
+  series-title: Foundations of Databases
+  year: '1995'
+- author: Motik
+  series-title: 'OWL 2 Web Ontology Language: Profiles'
+  year: '2009'
+- article-title: Rule-based consistency checking of railway infrastructure designs
+  author: Luteberget
+  first-page: '491'
+  series-title: Proc. of the 12th Int. Conf. on Integrated Formal Methods
+  volume: vol. 9681
+  year: '2016'
+- article-title: Semantic technologies for data analysis in health care
+  author: Piro
+  first-page: '400'
+  series-title: Proc. of the 15th Int. Semantic Web Conf., Part II
+  volume: vol. 9982
+  year: '2016'
+- article-title: 'Datalog for enterprise software: from industrial applications to
+    research (invited talk)'
+  author: Aref
+  first-page: '1'
+  series-title: Technical Communications of the 26th Int. Conf. on Logic Programming
+  volume: vol. 7
+  year: '2010'
+- article-title: Declarative networking
+  author: Loo
+  doi: 10.1145/1592761.1592785
+  first-page: '87'
+  journal-title: Commun. ACM
+  volume: '52'
+  year: '2009'
+- article-title: Implementing an inference engine for RDFS/OWL constructs and user-defined
+    rules in oracle
+  author: Wu
+  first-page: '1239'
+  series-title: Proc. of the 24th Int. Conf. on Data Engineering
+  year: '2008'
+- series-title: Belief Revision
+  volume: vol. 29
+  year: '2003'
+- article-title: Incremental database rule processing in PARADISER
+  author: Dewan
+  doi: 10.1007/BF00962282
+  first-page: '177'
+  journal-title: J. Intell. Inf. Syst.
+  volume: '1'
+  year: '1992'
+- article-title: 'Incremental update of datalog materialisation: the backward/forward
+    algorithm'
+  author: Motik
+  first-page: '1560'
+  series-title: Proc. of the 29th AAAI Conf. on Artificial Intelligence
+  year: '2015'
+- article-title: Complexity and expressive power of logic programming
+  author: Dantsin
+  doi: 10.1145/502807.502810
+  first-page: '374'
+  journal-title: ACM Comput. Surv.
+  volume: '33'
+  year: '2001'
+- article-title: 'DynamiTE: parallel materialization of dynamic RDF data'
+  author: Urbani
+  first-page: '657'
+  series-title: Proc. of the 12th Int. Semantic Web Conf.
+  volume: vol. 8218
+  year: '2013'
+- article-title: 'Maintenance of materialized views: problems, techniques, and applications'
+  author: Gupta
+  first-page: '3'
+  journal-title: IEEE Data Eng. Bull.
+  volume: '18'
+  year: '1995'
+- article-title: View maintenance in relational and deductive databases by incremental
+    query evaluation
+  author: Vista
+  first-page: '70'
+  series-title: Proc. of the 1994 Conf. of the Centre for Advanced Studies on Collaborative
+    Research
+  year: '1994'
+- article-title: Efficiently updating materialized views
+  author: Blakeley
+  first-page: '61'
+  series-title: Proc. of the ACM SIGMOD Int. Conf. on Management of Data
+  year: '1986'
+- article-title: A performance analysis of view materialization strategies
+  author: Hanson
+  first-page: '440'
+  series-title: Proc. of the ACM SIGMOD Int. Conf. on Management of Data
+  year: '1987'
+- article-title: Deriving production rules for incremental view maintenance
+  author: Ceri
+  first-page: '577'
+  series-title: Proc. of the 17th Int. Conf. on Very Large Data Bases
+  year: '1991'
+- article-title: 'An incremental access method for viewcache: concept, algorithms,
+    and cost analysis'
+  author: Roussopoulos
+  doi: 10.1145/111197.111215
+  first-page: '535'
+  journal-title: ACM Trans. Database Syst.
+  volume: '16'
+  year: '1991'
+- article-title: Incremental recomputation of active relational expressions
+  author: Qian
+  doi: 10.1109/69.91063
+  first-page: '337'
+  journal-title: IEEE Trans. Knowl. Data Eng.
+  volume: '3'
+  year: '1991'
+- article-title: An improved algorithm for the incremental recomputation of active
+    relational expressions
+  author: Griffin
+  doi: 10.1109/69.599937
+  first-page: '508'
+  journal-title: IEEE Trans. Knowl. Data Eng.
+  volume: '9'
+  year: '1997'
+- article-title: Incremental maintenance of views with duplicates
+  author: Griffin
+  first-page: '328'
+  series-title: Proc. of the 1995 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1995'
+- article-title: Integration of incremental view maintenance into query optimizers
+  author: Vista
+  first-page: '374'
+  series-title: Proc. of the 6th International Conference on Extending Database Technology
+  volume: vol. 1377
+  year: '1998'
+- author: Vista
+  series-title: Optimizing Incremental View Maintenance Expressions in Relational
+    Databases
+  year: '1997'
+- article-title: 'An outline of BDGEN: a deductive DBMS'
+  author: Nicolas
+  first-page: '711'
+  series-title: Proc. of the IFIP 9th World Computer Congress
+  year: '1983'
+- article-title: Maintaining views incrementally
+  author: Gupta
+  first-page: '157'
+  series-title: Proc. of the ACM SIGMOD Int. Conf. on Management of Data
+  year: '1993'
+- article-title: Counting solutions to the view maintenance problem
+  author: Gupta
+  first-page: '185'
+  series-title: Proc. of the Workshop on Deductive Databases, in conjunction with
+    the Joint Int. Conf. and Symposium on Logic Programming
+  volume: vol. CITRI/TR-92-6
+  year: '1992'
+- article-title: Incremental evaluation of rules and its relationship to parallelism
+  author: Wolfson
+  first-page: '78'
+  series-title: Proc. of the 1991 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1991'
+- article-title: Incremental maintenance of externally materialized views
+  author: Staudt
+  first-page: '75'
+  series-title: Proc. of the 22nd Int. Conf. on Very Large Data Bases
+  year: '1996'
+- article-title: Reasoning as axioms change — incremental view maintenance reconsidered
+  author: Kotowski
+  first-page: '139'
+  series-title: Proc. of the 5th Int. Conf. on Web Reasoning and Rule Systems
+  volume: vol. 6902
+  year: '2011'
+- article-title: Efficient maintenance of materialized mediated views
+  author: Lu
+  first-page: '340'
+  series-title: Proc. of the 1995 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1995'
+- article-title: Maintenance of stratified databases viewed as a belief revision system
+  author: Apt
+  first-page: '136'
+  series-title: Proc. of the 6th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems
+  year: '1987'
+- article-title: Incremental reasoning on streams and rich background knowledge
+  author: Barbieri
+  first-page: '1'
+  series-title: Proc. of the 7th Extended Semantic Web Conference
+  volume: vol. 6088
+  year: '2010'
+- article-title: On the efficient computation of the difference between consecutive
+    database states
+  author: Küchenhoff
+  first-page: '478'
+  series-title: Proc. of the 2nd Int. Conf. on Deductive and Object-Oriented Databases
+  volume: vol. 566
+  year: '1991'
+- article-title: A method for change computation in deductive databases
+  author: Urpí
+  first-page: '225'
+  series-title: Proc. of the 18th Int. Conf. on Very Large Data Bases
+  year: '1992'
+- article-title: 'Maintenance of materialized views in a deductive database: an update
+    propagation approach'
+  author: Harrison
+  first-page: '56'
+  series-title: Proc. of the Workshop on Deductive Databases, held at Joint Int. Conf.
+    and Symposium on Logic Programming
+  volume: vol. CITRI/TR-92-65
+  year: '1992'
+- article-title: Incremental evaluation of datalog queries
+  author: Dong
+  first-page: '282'
+  series-title: Proc. of the 4th Int. Conf. on Database Theory
+  volume: vol. 646
+  year: '1992'
+- article-title: Nonrecursive incremental evaluation of datalog queries
+  author: Dong
+  doi: 10.1007/BF01530820
+  first-page: '187'
+  journal-title: Ann. Math. Artif. Intell.
+  volume: '14'
+  year: '1995'
+- article-title: Incremental and decremental evaluation of transitive closure by first-order
+    queries
+  author: Dong
+  doi: 10.1006/inco.1995.1102
+  first-page: '101'
+  journal-title: Inf. Comput.
+  volume: '120'
+  year: '1995'
+- article-title: Maintaining transitive closure in first order after node-set and
+    edge-set deletions
+  author: Dong
+  doi: 10.1016/S0020-0190(97)00066-5
+  first-page: '193'
+  journal-title: Inf. Process. Lett.
+  volume: '62'
+  year: '1997'
+- article-title: Maintaining constrained transitive closure by conjunctive queries
+  author: Dong
+  first-page: '35'
+  series-title: Proc. of the 5th Int. Conf. on Deductive and Object-Oriented Databases
+  volume: vol. 1341
+  year: '1997'
+- article-title: Incremental FO(+,<) maintenance of all-pairs shortest paths for undirected
+    graphs after insertions and deletions
+  author: Pang
+  first-page: '365'
+  series-title: Proc. of the 7th Int. Conf. on Database Theory
+  volume: vol. 1540
+  year: '1999'
+- article-title: Increment boundedness and nonrecursive incremental evaluation of
+    datalog queries
+  author: Dong
+  first-page: '397'
+  series-title: Proc. of the 5th Int. Conf. on Database Theory
+  volume: vol. 893
+  year: '1995'
+- article-title: Arity bounds in first-order incremental evaluation and definition
+    of polynomial time database queries
+  author: Dong
+  doi: 10.1006/jcss.1998.1565
+  first-page: '289'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '57'
+  year: '1998'
+- article-title: Deterministic FOIES are strictly weaker
+  author: Dong
+  doi: 10.1023/A:1018951521198
+  first-page: '127'
+  journal-title: Ann. Math. Artif. Intell.
+  volume: '19'
+  year: '1997'
+- article-title: On impossibility of decremental recomputation of recursive queries
+    in relational calculus and SQL
+  author: Dong
+  first-page: '7'
+  series-title: Proc. of the 5th Int. Workshop on Database Programming Languages DBPL-5
+  year: '1995'
+- article-title: Incremental recomputation of recursive queries with nested sets and
+    aggregate functions
+  author: Libkin
+  first-page: '222'
+  series-title: Proc. of the 6th Int. Workshop on Database Programming Languages
+  volume: vol. 1369
+  year: '1997'
+- article-title: Maintaining transitive closure of graphs in SQL
+  author: Dong
+  first-page: '46'
+  journal-title: Int. J. Inf. Technol.
+  volume: '5'
+  year: '1999'
+- article-title: 'Dyn-FO: a parallel, dynamic complexity class'
+  author: Patnaik
+  doi: 10.1006/jcss.1997.1520
+  first-page: '199'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '55'
+  year: '1997'
+- article-title: Reachability is in DynFO
+  author: Datta
+  first-page: '159'
+  series-title: Proc. of the 42nd International Colloquium on Automata, Languages,
+    and Programming
+  volume: vol. 9135
+  year: '2015'
+- article-title: Dynamic conjunctive queries
+  author: Zeume
+  doi: 10.1016/j.jcss.2017.03.014
+  first-page: '3'
+  journal-title: J. Comput. Syst. Sci.
+  volume: '88'
+  year: '2017'
+- article-title: 'Updating derived relations: detecting irrelevant and autonomously
+    computable updates'
+  author: Blakeley
+  doi: 10.1145/68012.68015
+  first-page: '369'
+  journal-title: ACM Trans. Database Syst.
+  volume: '14'
+  year: '1989'
+- article-title: Independence of logic database queries and updates
+  author: Elkan
+  first-page: '154'
+  series-title: Proc. of the 9th ACM SIGACT-SIGMOD-SIGART Symposium on Principles
+    of Database Systems
+  year: '1990'
+- article-title: Queries independent of updates
+  author: Levy
+  first-page: '171'
+  series-title: Proc. of the 19th Int. Conf. on Very Large Data Bases
+  year: '1993'
+- article-title: Data integration using self-maintainable views
+  author: Gupta
+  first-page: '140'
+  series-title: Proc. of the 5th Int. Conf. on Extending Database Technology
+  volume: vol. 1057
+  year: '1996'
+- article-title: Maintaining materialized views without accessing base data
+  author: Tompa
+  doi: 10.1016/0306-4379(88)90005-1
+  first-page: '393'
+  journal-title: Inf. Syst.
+  volume: '13'
+  year: '1988'
+- article-title: Updating distributed materialized views
+  author: Segev
+  doi: 10.1109/69.87958
+  first-page: '173'
+  journal-title: IEEE Trans. Knowl. Data Eng.
+  volume: '1'
+  year: '1989'
+- article-title: View maintenance in a warehousing environment
+  author: Zhuge
+  first-page: '316'
+  series-title: Proc. of the 1995 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1995'
+- article-title: Algorithms for deferred view maintenance
+  author: Colby
+  first-page: '469'
+  series-title: Proc. of the 1996 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1996'
+- article-title: A framework for implementing hypothetical queries
+  author: Griffin
+  first-page: '231'
+  series-title: Proc. of the 1997 ACM SIGMOD Int. Conf. on Management of Data
+  year: '1997'
+- article-title: A snapshot differential refresh algorithm
+  author: Lindsay
+  first-page: '53'
+  series-title: Proc. of the 1986 ACM SIGMOD International Conference on Management
+    of Data
+  year: '1986'
+- article-title: Extending logging for database snapshot refresh
+  author: Kähler
+  first-page: '389'
+  series-title: Proc. of 13th Int. Conf. on Very Large Data Bases
+  year: '1987'
+- article-title: An assumption-based TMS
+  author: de Kleer
+  doi: 10.1016/0004-3702(86)90080-9
+  first-page: '127'
+  journal-title: Artif. Intell.
+  volume: '28'
+  year: '1986'
+- article-title: A truth maintenance system
+  author: Doyle
+  doi: 10.1016/0004-3702(79)90008-0
+  first-page: '231'
+  journal-title: Artif. Intell.
+  volume: '12'
+  year: '1979'
+- article-title: 'Rete: a fast algorithm for the many pattern/many object pattern
+    match problem'
+  author: Forgy
+  doi: 10.1016/0004-3702(82)90020-0
+  first-page: '17'
+  journal-title: Artif. Intell.
+  volume: '19'
+  year: '1982'
+- author: Klyne
+- article-title: Modular stratification and magic sets for datalog programs with negation
+  author: Ross
+  doi: 10.1145/195613.195646
+  first-page: '1216'
+  journal-title: J. ACM
+  volume: '41'
+  year: '1994'
+- article-title: Term indexing
+  author: Ramakrishnan
+  first-page: '1853'
+  series-title: Handbook of Automated Reasoning, vol. II
+  year: '2001'
+- article-title: 'ChEMBL: a large-scale bioactivity database for drug discovery'
+  author: Gaulton
+  doi: 10.1093/nar/gkr777
+  first-page: '1100'
+  journal-title: Nucleic Acids Res.
+  volume: '40'
+  year: '2012'
+- article-title: DBpedia — a large-scale, multilingual knowledge base extracted from
+    Wikipedia
+  author: Lehmann
+  doi: 10.3233/SW-140134
+  first-page: '167'
+  journal-title: Semant. Web
+  volume: '6'
+  year: '2015'
+- article-title: The reactome pathway knowledgebase
+  author: Fabregat
+  doi: 10.1093/nar/gkv1351
+  first-page: '481'
+  journal-title: Nucleic Acids Res.
+  volume: '44'
+  year: '2016'
+- article-title: 'UniProt: a hub for protein information'
+  author: Consortium
+  doi: 10.1093/nar/gku989
+  first-page: '204'
+  journal-title: Nucleic Acids Res.
+  volume: '43'
+  year: '2015'
+- article-title: Towards a complete OWL ontology benchmark
+  author: Ma
+  first-page: '125'
+  series-title: Proc. of the 3rd European Semantic Web Conf.
+  volume: vol. 4011
+  year: '2006'
+- article-title: 'LUBM: a benchmark for OWL knowledge base systems'
+  author: Guo
+  doi: 10.1016/j.websem.2005.06.005
+  first-page: '158'
+  journal-title: J. Web Semant.
+  volume: '3'
+  year: '2005'
+- series-title: 'The Description Logic Handbook: Theory, Implementation and Applications'
+  year: '2007'
+- article-title: 'Description logic programs: combining logic programs with description
+    logic'
+  author: Grosof
+  first-page: '48'
+  series-title: Proc. of the 12th Int. World Wide Web Conference
+  year: '2003'
+- article-title: Datalog rewritability of Disjunctive Datalog programs and non-Horn
+    ontologies
+  author: Kaminski
+  doi: 10.1016/j.artint.2016.03.006
+  first-page: '90'
+  journal-title: Artif. Intell.
+  volume: '236'
+  year: '2016'
+- article-title: Reasoning in description logics by a reduction to disjunctive datalog
+  author: Hustadt
+  doi: 10.1007/s10817-007-9080-3
+  first-page: '351'
+  journal-title: J. Autom. Reason.
+  volume: '39'
+  year: '2007'
+- article-title: 'Making the most of your triple store: query answering in OWL 2 using
+    an RL reasoner'
+  author: Zhou
+  first-page: '1569'
+  series-title: Proc. of the 22nd Int. World Wide Web Conference
+  year: '2013'
+- article-title: Combining rewriting and incremental materialisation maintenance for
+    datalog programs with equality
+  author: Motik
+  first-page: '3127'
+  series-title: Proc. of the 24th Int. Joint Conf. on Artificial Intelligence
+  year: '2015'
+- author: Rice
+  series-title: Mathematical Statistics and Data Analysis
+  year: '2006'
+- article-title: Parallel materialisation of datalog programs in centralised, main-memory
+    RDF systems
+  author: Motik
+  first-page: '129'
+  series-title: Proc. of the 28th AAAI Conf. on Artificial Intelligence
+  year: '2014'
+doc_url: https://api.elsevier.com/content/article/PII:S0004370218307495?httpAccept=text/plain
+doi: 10.1016/j.artint.2018.12.004
+files:
+- motik-boris-and-nenov-yavor-and-piro-robert-and-horrocks-ianmaintenance-of-datalog-materialisations-revisited2019.pdf
+journal: Artificial Intelligence
+language: en
+month: 4
+pages: 76--136
+publisher: Elsevier BV
+ref: MaintenanceOfMotik2019
+time-added: 2023-02-21-11:39:27
+title: Maintenance of datalog materialisations revisited
+type: article
+url: http://dx.doi.org/10.1016/j.artint.2018.12.004
+volume: '269'
+year: 2019

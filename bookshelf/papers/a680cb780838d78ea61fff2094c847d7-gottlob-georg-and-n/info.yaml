@@ -1,0 +1,133 @@
+abstract: <jats:p>Data exchange deals with inserting data from one database into another
+  database having a different schema. Fagin et al. [2005] have shown that among the
+  universal solutions of a solvable data exchange problem, there exists—up to isomorphism—a
+  unique most compact one, “the core”, and have convincingly argued that this core
+  should be the database to be materialized. They stated as an important open problem
+  whether the core can be computed in polynomial time in the general setting where
+  the mapping between the source and target schemas is given by source-to-target constraints
+  that are arbitrary tuple generating dependencies (tgds) and target constraints consisting
+  of equality generating dependencies (egds) and a weakly acyclic set of tgds. In
+  this article, we solve this problem by developing new methods for efficiently computing
+  the core of a universal solution. This positive result shows that data exchange
+  based on cores is feasible and applicable in a very general setting. In addition
+  to our main result, we use the method of hypertree decompositions to derive new
+  algorithms and upper bounds for query containment checking and computing cores of
+  arbitrary database instances. We also show that computing the core of a data exchange
+  problem is fixed-parameter intractable with respect to a number of relevant parameters,
+  and that computing cores is NP-complete if the rule bodies of target tgds are augmented
+  by a special predicate that distinguishes a null value from a constant data value.</jats:p>
+author: Gottlob, Georg and Nash, Alan
+author_list:
+- affiliation:
+  - name: University of Oxford, Oxford, United Kingdom
+  family: Gottlob
+  given: Georg
+- affiliation:
+  - name: IBM Almaden Research Center, San Jose, California
+  family: Nash
+  given: Alan
+citations:
+- unstructured: Abiteboul S. Hull R. and Vianu V. 1995. Foundations of Databases.
+    Addison Wesley Reading MA.   Abiteboul S. Hull R. and Vianu V. 1995. Foundations
+    of Databases. Addison Wesley Reading MA.
+- doi: 10.1002/jgt.v47:4
+- doi: 10.1016/j.ejc.2007.04.013
+- doi: 10.1145/320083.320091
+- doi: 10.1145/320107.320112
+- doi: 10.1137/0208017
+- doi: 10.1145/1634.1636
+- doi: 10.1007/978-3-642-83952-8
+  unstructured: Ceri S. Gottlob G. and Tanca L. 1990. Logic Programming and Databases.
+    Springer-Verlag New York.   Ceri S. Gottlob G. and Tanca L. 1990. Logic Programming
+    and Databases. Springer-Verlag New York.
+- doi: 10.1145/800105.803397
+- doi: 10.1016/S0304-3975(99)00220-0
+- author: Deutsch A.
+  unstructured: Deutsch , A. , and Tannen , V . 2003. Reformulation of XML Queries
+    and constraints . In Proceedings of the International Conference on Database Theory
+    (ICDT). 225--241 . Deutsch, A., and Tannen, V. 2003. Reformulation of XML Queries
+    and constraints. In Proceedings of the International Conference on Database Theory
+    (ICDT). 225--241.
+  volume-title: Proceedings of the International Conference on Database Theory (ICDT).
+    225--241
+- unstructured: Downey R. Fellows M. and Tailor U. 1996. The parameterized complexity
+    of relational database queries and an improved characterization of W&lsqb;1&rsqb;.
+    In Combinatorics Complexity and Logic—Proceedings DMTCS'96 D. S. Bridges C. S.
+    Calude J. Gibbons S. Reeves and I. H. Witten Eds.  Downey R. Fellows M. and Tailor
+    U. 1996. The parameterized complexity of relational database queries and an improved
+    characterization of W&lsqb;1&rsqb;. In Combinatorics Complexity and Logic—Proceedings
+    DMTCS'96 D. S. Bridges C. S. Calude J. Gibbons S. Reeves and I. H. Witten Eds.
+- doi: 10.1007/978-1-4612-0515-9
+  unstructured: Downey R. G. and Fellows M. R. 1999. Parameterized Complexity. Springer-Verlag
+    New York.  Downey R. G. and Fellows M. R. 1999. Parameterized Complexity. Springer-Verlag
+    New York.
+- doi: 10.1145/322344.322347
+- unstructured: Fagin R. 2005. Extending the core greedy algorithm to allow target
+    TGDS with singleton left-hand sides. Unpublished manuscript.  Fagin R. 2005. Extending
+    the core greedy algorithm to allow target TGDS with singleton left-hand sides.
+    Unpublished manuscript.
+- doi: 10.1O16/j.tcs.2004.10.033
+- doi: 10.1145/773153.773163
+- doi: 10.1145/602220.602222
+- doi: 10.1145/1065167.1065187
+- doi: 10.1016/0004-3702(93)90069-N
+- doi: 10.1145/3149.214118
+- doi: 10.1016/S0004-3702(00)00078-3
+- doi: 10.1145/382780.382783
+- doi: 10.1006/jcss.2001.1809
+- doi: 10.1016/S0022-0000(03)00030-8
+- doi: 10.1145/1142351.1142358
+- doi: 10.1137/S0097539701396807
+- doi: 10.1145/637411.637428
+- doi: 10.1145/1055558.1055573
+- doi: 10.1016/0012-365X(92)90282-K
+- doi: 10.1006/jcss.2000.1713
+- doi: 10.1145/1065167.1065176
+- doi: 10.1145/212433.220198
+- author: Maier D.
+  unstructured: Maier , D. 1983. The Theory of Relational Databases . Computer Science
+    Press , Rockville, MD . Maier, D. 1983. The Theory of Relational Databases. Computer
+    Science Press, Rockville, MD.
+  volume-title: The Theory of Relational Databases
+- doi: 10.1145/320107.320115
+- unstructured: 'Moret B. M. E. and Shapiro H. D. 1991. Algorithms from P to NP (Vol.
+    1): Design and Efficiency. Benjamin-Cummings Publishing Co. Inc. Redwood City
+    CA.   Moret B. M. E. and Shapiro H. D. 1991. Algorithms from P to NP (Vol. 1):
+    Design and Efficiency. Benjamin-Cummings Publishing Co. Inc. Redwood City CA.'
+- doi: 10.1006/jcss.1999.1626
+- author: Pichler R.
+  unstructured: Pichler , R. , and Savenkov , V . 2008 . Implementing core computation
+    for data exchange. Tech. Rep. DBAI-TR-2008-01 , Institut für Informationssysteme,
+    Technische Universität Wien, A-1040 Vienna, Austria . Pichler, R., and Savenkov,
+    V. 2008. Implementing core computation for data exchange. Tech. Rep. DBAI-TR-2008-01,
+    Institut für Informationssysteme, Technische Universität Wien, A-1040 Vienna,
+    Austria.
+  volume-title: Tech. Rep. DBAI-TR-2008-01
+  year: '2008'
+- author: Qian X.
+  unstructured: Qian , X. 1996 . Query folding . In Proceedings of the IEEE International
+    Conference on Data Engineering (ICDE). IEEE Computer Society Press , Los Alamitos,
+    CA, 48--55. Qian, X. 1996. Query folding. In Proceedings of the IEEE International
+    Conference on Data Engineering (ICDE). IEEE Computer Society Press, Los Alamitos,
+    CA, 48--55.
+  volume-title: Proceedings of the IEEE International Conference on Data Engineering
+    (ICDE). IEEE Computer Society Press
+  year: '1996'
+- doi: 10.1016/0196-6774(86)90023-4
+- doi: 10.1145/1055558.1055587
+doi: 10.1145/1346330.1346334
+files:
+- gottlob-georg-and-nash-alanefficient-core-computation-in-data-exchange2008.pdf
+issue: '2'
+journal: Journal of the ACM
+language: en
+month: 5
+pages: 1--49
+publisher: Association for Computing Machinery (ACM)
+ref: EfficientCoreGottlo2008
+time-added: 2023-02-21-11:15:58
+title: Efficient core computation in data exchange
+type: article
+url: http://dx.doi.org/10.1145/1346330.1346334
+volume: '55'
+year: 2008

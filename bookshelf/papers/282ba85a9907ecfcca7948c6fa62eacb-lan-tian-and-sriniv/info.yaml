@@ -1,0 +1,45 @@
+abstract: Deep reinforcement learning (RL) is a powerful framework to train decision-making
+  models in complex environments. However, RL can be slow as it requires repeated
+  interaction with a simulation of the environment. In particular, there are key system
+  engineering bottlenecks when using RL in complex environments that feature multiple
+  agents with high-dimensional state, observation, or action spaces. We present WarpDrive,
+  a flexible, lightweight, and easy-to-use open-source RL framework that implements
+  end-to-end deep multi-agent RL on a single GPU (Graphics Processing Unit), built
+  on PyCUDA and PyTorch. Using the extreme parallelization capability of GPUs, WarpDrive
+  enables orders-of-magnitude faster RL compared to common implementations that blend
+  CPU simulations and GPU models. Our design runs simulations and the agents in each
+  simulation in parallel. It eliminates data copying between CPU and GPU. It also
+  uses a single simulation data store on the GPU that is safely updated in-place.
+  WarpDrive provides a lightweight Python interface and flexible environment wrappers
+  that are easy to use and extend. Together, this allows the user to easily run thousands
+  of concurrent multi-agent simulations and train on extremely large batches of experience.
+  Through extensive experiments, we verify that WarpDrive provides high-throughput
+  and scales almost linearly to many agents and parallel environments. For example,
+  WarpDrive yields 2.9 million environment steps/second with 2000 environments and
+  1000 agents (at least 100x higher throughput compared to a CPU implementation) in
+  a benchmark Tag simulation. As such, WarpDrive is a fast and extensible multi-agent
+  RL platform to significantly accelerate research and development.
+archiveprefix: arXiv
+author: Lan, Tian and Srinivasa, Sunil and Wang, Huan and Zheng, Stephan
+author_list:
+- family: Lan
+  given: Tian
+- family: Srinivasa
+  given: Sunil
+- family: Wang
+  given: Huan
+- family: Zheng
+  given: Stephan
+eprint: 2108.13976v3
+file: 2108.13976v3.pdf
+files:
+- lan-tian-and-srinivasa-sunil-and-wang-huan-and-zheng-stephanwarpdrive-extremely-fast-end-to-end-deep-multi-agent-reinforcement-learning-on-a-gp.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2108.13976v3
+time-added: 2023-02-23-12:20:10
+title: 'WarpDrive: Extremely Fast End-to-End Deep Multi-Agent Reinforcement   Learning
+  on a GPU'
+type: article
+url: http://arxiv.org/abs/2108.13976v3
+year: '2021'

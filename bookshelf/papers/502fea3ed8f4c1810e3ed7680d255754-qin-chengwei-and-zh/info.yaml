@@ -1,0 +1,42 @@
+abstract: Spurred by advancements in scale, large language models (LLMs) have demonstrated
+  the ability to perform a variety of natural language processing (NLP) tasks zero-shot
+  -- i.e., without adaptation on downstream data. Recently, the debut of ChatGPT has
+  drawn a great deal of attention from the natural language processing (NLP) community
+  due to the fact that it can generate high-quality responses to human input and self-correct
+  previous mistakes based on subsequent conversations. However, it is not yet known
+  whether ChatGPT can serve as a generalist model that can perform many NLP tasks
+  zero-shot. In this work, we empirically analyze the zero-shot learning ability of
+  ChatGPT by evaluating it on 20 popular NLP datasets covering 7 representative task
+  categories. With extensive empirical studies, we demonstrate both the effectiveness
+  and limitations of the current version of ChatGPT. We find that ChatGPT performs
+  well on many tasks favoring reasoning capabilities (e.g., arithmetic reasoning)
+  while it still faces challenges when solving specific tasks such as sequence tagging.
+  We additionally provide in-depth analysis through qualitative case studies.
+archiveprefix: arXiv
+author: Qin, Chengwei and Zhang, Aston and Zhang, Zhuosheng and Chen, Jiaao and Yasunaga,
+  Michihiro and Yang, Diyi
+author_list:
+- family: Qin
+  given: Chengwei
+- family: Zhang
+  given: Aston
+- family: Zhang
+  given: Zhuosheng
+- family: Chen
+  given: Jiaao
+- family: Yasunaga
+  given: Michihiro
+- family: Yang
+  given: Diyi
+eprint: 2302.06476v2
+file: 2302.06476v2.pdf
+files:
+- qin-chengwei-and-zhang-aston-and-zhang-zhuosheng-and-chen-jiaao-and-yasunaga-michihiro-and-yang-diyiis-chatgpt-a-general-purpose-natural-languag.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 2302.06476v2
+time-added: 2023-02-21-10:08:30
+title: Is ChatGPT a General-Purpose Natural Language Processing Task Solver?
+type: article
+url: http://arxiv.org/abs/2302.06476v2
+year: '2023'

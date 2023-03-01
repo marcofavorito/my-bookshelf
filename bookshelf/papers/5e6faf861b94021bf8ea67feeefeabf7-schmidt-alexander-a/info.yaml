@@ -1,0 +1,426 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Reinforcement learning is a promising
+  approach for manufacturing processes. Process knowledge can be gained automatically,
+  and autonomous tuning of control is possible. However, the use of reinforcement
+  learning in a production environment imposes specific requirements that must be
+  met for a successful application. This article defines those requirements and evaluates
+  three reinforcement learning methods to explore their applicability. The results
+  show that convolutional neural networks are computationally heavy and violate the
+  real-time execution requirements. A new architecture is presented and validated
+  that allows using GPU-based hardware acceleration while meeting the real-time execution
+  requirements.</jats:p>
+author: Schmidt, Alexander and Schellroth, Florian and Fischer, Marc and Allimant,
+  Lukas and Riedel, Oliver
+author_list:
+- affiliation: []
+  family: Schmidt
+  given: Alexander
+- affiliation: []
+  family: Schellroth
+  given: Florian
+- affiliation: []
+  family: Fischer
+  given: Marc
+- affiliation: []
+  family: Allimant
+  given: Lukas
+- affiliation: []
+  family: Riedel
+  given: Oliver
+citations:
+- doi: 10.4230/LIPIcs.ECRTS.2018.19
+  unstructured: 'Ali W, Yun H (2018) Protecting real-time gpu kernels on integrated
+    cpu-gpu soc platforms. In: 30th Euromicro conference on real-time systems, pp
+    19:1–19:22. https://doi.org/10.4230/LIPIcs.ECRTS.2018.19'
+- doi: 10.1145/3325413.3329793
+  unstructured: 'Almeida M, Laskaridis S, Leontiadis I, Venieris SI, Lane ND (2019)
+    Embench. In: The 3rd international workshop on deep learning for mobile systems
+    and applications, pp 1–6. https://doi.org/10.1145/3325413.3329793'
+- doi: 10.1109/RTSS.2017.00017
+  unstructured: 'Amert T, Otterness N, Yang M, Anderson JH, Smith FD (2017) Gpu scheduling
+    on the nvidia tx2: Hidden details revealed. In: IEEE real-time systems symposium,
+    pp 104–115. https://doi.org/10.1109/RTSS.2017.00017'
+- author: F Archetti
+  doi: 10.1007/978-3-030-24494-1
+  edition: '1'
+  series-title: Mathematics and statistics
+  unstructured: Archetti F, Candelieri A (2019) Bayesian optimization and data science,
+    1st edn. Mathematics and statistics. Springer eBooks, Springer, Cham
+  volume-title: Bayesian optimization and data science
+  year: '2019'
+- author: K Arulkumaran
+  doi: 10.1109/MSP.2017.2743240
+  first-page: '26'
+  issue: '6'
+  journal-title: IEEE Signal Process Mag
+  unstructured: 'Arulkumaran K, Deisenroth MP, Brundage M, Bharath AA (2017) Deep
+    reinforcement learning: a brief survey. IEEE Signal Process Mag 34(6):26–38. https://doi.org/10.1109/MSP.2017.2743240'
+  volume: '34'
+  year: '2017'
+- unstructured: Bamakhrama MA, Arrizabalaga A, Overman F, Smeets JP, van der Sommen
+    K, van der Vossen R, Wagensveld J (2019) Gpu acceleration of real-time control
+    loops. arXiv preprint arXiv:1902.08018
+- unstructured: Brochu E, Cora VM, De Freitas N (2010) A tutorial on bayesian optimization
+    of expensive cost functions, with application to active user modeling and hierarchical
+    reinforcement learning. arXiv preprint arXiv:1012.2599
+- author: R Calandra
+  doi: 10.1007/s10472-015-9463-9
+  first-page: '5'
+  issue: 1–2
+  journal-title: Ann Math Artif Intell
+  unstructured: Calandra R, Seyfarth A, Peters J, Deisenroth MP (2016) Bayesian optimization
+    for learning gaits under uncertainty. Ann Math Artif Intell 76(1–2):5–23. https://doi.org/10.1007/s10472-015-9463-9
+  volume: '76'
+  year: '2016'
+- doi: 10.1145/3139258.3139270
+  unstructured: 'Capodieci N, Cavicchioli R, Valente P, Bertogna M (2017) Sigamma:
+    Server based integrated gpu arbitration mechanism for memory accesses. In: 25th
+    international conference on real-time networks and systems, pp 48–57. https://doi.org/10.1145/3139258.3139270'
+- doi: 10.1109/SASP.2008.4570793
+  unstructured: 'Che S, Li J, Sheaffer JW, Skadron K, Lach J (2008) Accelerating compute-intensive
+    applications with gpus and fpgas. In: Symposium on application specific processors,
+    pp 101–107. https://doi.org/10.1109/SASP.2008.4570793'
+- author: G Chen
+  doi: 10.1145/3155284.3018748
+  first-page: '3'
+  issue: '8'
+  journal-title: ACM Sigplan Not
+  unstructured: 'Chen G, Zhao Y, Shen X, Zhou H (2017) Effisha: a software framework
+    for enabling efficient preemptive scheduling of gpu. ACM Sigplan Not 52(8):3–16.
+    https://doi.org/10.1145/3155284.3018748'
+  volume: '52'
+  year: '2017'
+- doi: 10.1109/CIVTS.2014.7009470
+  unstructured: 'Chen Z, Huang X, Ni Z, He H (2014) A gpu-based real-time traffic
+    sign detection and recognition system. In: IEEE symposium on computational intelligence
+    in vehicles and transportation systems, pp 1–5. https://doi.org/10.1109/CIVTS.2014.7009470'
+- author: N Dialami
+  doi: 10.1007/s11831-015-9163-y
+  first-page: '189'
+  issue: '1'
+  journal-title: Arch Comput Methods Eng
+  unstructured: Dialami N, Chiumenti M, Cervera M, Agelet de Saracibar C (2017) Challenges
+    in thermo-mechanical analysis of friction stir welding processes. Arch Comput
+    Methods Eng 24(1):189–225. https://doi.org/10.1007/s11831-015-9163-y
+  volume: '24'
+  year: '2017'
+- author: RO Duda
+  edition: '2'
+  series-title: A Wiley-interscience publication
+  unstructured: Duda RO, Hart PE, Stork DG (2001) Pattern classification, 2nd edn.
+    A Wiley-interscience publication. Wiley, New York
+  volume-title: Pattern classification
+  year: '2001'
+- doi: 10.1109/RTCSA.2011.46
+  unstructured: 'Elliott GA, Anderson JH (2011) Real-world constraints of gpus in
+    real-time systems. In: 17th International conference on embedded and real-time
+    computing systems and applications, pp 48–54. https://doi.org/10.1109/RTCSA.2011.46'
+- unstructured: Feller W (1971) An introduction to probability theory and its applications.,
+    2nd edn. An introduction to probability theory and its applications, Wiley, New
+    York
+- author: V François-Lavet
+  doi: 10.1561/2200000071
+  first-page: '219'
+  issue: 3–4
+  journal-title: Found Trends Mach Learn
+  unstructured: François-Lavet V, Henderson P, Islam R, Bellemare MG, Pineau J (2018)
+    An introduction to deep reinforcement learning. Found Trends Mach Learn 11(3–4):219–354.
+    https://doi.org/10.1561/2200000071
+  volume: '11'
+  year: '2018'
+- unstructured: Frazier PI (2018) A tutorial on bayesian optimization. arXiv preprint
+    arXiv:1807.02811
+- doi: 10.1109/ICIP.2017.8297110
+  unstructured: 'Golyanik V, Nasri M, Stricker D (2017) Towards scheduling hard real-time
+    image processing tasks on a single gpu. In: IEEE international conference on image
+    processing, pp 4382–4386. https://doi.org/10.1109/ICIP.2017.8297110'
+- doi: 10.1016/j.patcog.2017.10.013
+  unstructured: Gu J, Wang Z, Kuen J, Ma L, Shahroudy A, Shuai B, Liu T, Wang G, Cai
+    J, Chen T (2018) Recent advances in convolutional neural networks. Pattern Recognit
+    77(C):354–377
+- doi: 10.1109/InPar.2012.6339596
+  unstructured: 'Gupta K, Stuart JA, Owens JD (2012) A study of persistent threads
+    style gpu programming for gpgpu workloads. In: 2012 innovative parallel computing
+    (InPar), pp 1–14. https://doi.org/10.1109/InPar.2012.6339596'
+- author: C Hartmann
+  doi: 10.1016/j.sysarc.2018.10.005
+  first-page: '304'
+  journal-title: J Syst Archit
+  unstructured: Hartmann C, Margull U (2019) Gpuart - an application-based limited
+    preemptive gpu real-time scheduler for embedded systems. J Syst Archit 97:304–319.
+    https://doi.org/10.1016/j.sysarc.2018.10.005
+  volume: '97'
+  year: '2019'
+- doi: 10.1109/CVPR.2016.90
+  unstructured: 'He K, Zhang X, Ren S, Sun J (2015) Deep residual learning for image
+    recognition. In: IEEE conference on computer vision and pattern recognition, pp
+    770–778. https://doi.org/10.1109/CVPR.2016.90'
+- doi: 10.1109/ICAR.2013.6766473
+  unstructured: 'Hermann A, Klemm S, Xue Z, Roennau A, Dillmann R (2013) Gpu-based
+    real-time collision detection for motion execution in mobile manipulation planning.
+    In: 16th international conference on advanced robotics, pp 1–7. https://doi.org/10.1109/ICAR.2013.6766473'
+- unstructured: 'IEC (2003) Programmable controllers—part 1: general information.
+    Tech. Rep. IEC 61131-2003. International Electrotechnical Commission'
+- unstructured: 'IEC (2013) Programmable controllers - part 3: Programming languages.
+    Tech. Rep. IEC 61131-2013. International Electrotechnical Commission'
+- doi: 10.1109/IROS.2017.8202244
+  unstructured: 'Inoue T, de Magistris G, Munawar A, Yokoya T, Tachibana R (2017)
+    Deep reinforcement learning for high precision assembly tasks. In: IEEE/RSJ international
+    conference on intelligent robots and systems, pp 819–825. https://doi.org/10.1109/IROS.2017.8202244'
+- author: R Isermann
+  unstructured: 'Isermann R (2005) Mechatronic systems: fundamentals. Springer, London'
+  volume-title: 'Mechatronic systems: fundamentals'
+  year: '2005'
+- doi: 10.1109/M2VIP.2018.8600844
+  unstructured: 'Jaensch F, Csiszar A, Scheifele C, Verl A (2018) Digital twins of
+    manufacturing systems as a base for machine learning. In: 25th International conference
+    on mechatronics and machine vision in practice, pp 1–6. https://doi.org/10.1109/M2VIP.2018.8600844'
+- author: DR Jones
+  doi: 10.1023/A:1008306431147
+  first-page: '455'
+  issue: '4'
+  journal-title: J Glob Optim
+  unstructured: Jones DR, Schonlau M, Welch WJ (1998) Efficient global optimization
+    of expensive black-box functions. J Glob Optim 13(4):455–492. https://doi.org/10.1023/A:1008306431147
+  volume: '13'
+  year: '1998'
+- unstructured: 'Kato S, Lakshmanan K, Rajkumar R, Ishikawa Y (2011) Timegraph: Gpu
+    scheduling for real-time multi-tasking environments. In: Proceedings of the 2011
+    USENIX conference on USENIX annual technical conference, p 2'
+- author: H Kopetz
+  doi: 10.1007/978-1-4419-8237-7
+  unstructured: 'Kopetz H (2011) Real-time systems: design principles for distributed
+    embedded applications. Springer, Boston'
+  volume-title: 'Real-time systems: design principles for distributed embedded applications'
+  year: '2011'
+- author: S Lawrence
+  doi: 10.1109/72.554195
+  first-page: '98'
+  issue: '1'
+  journal-title: IEEE Trans Neural Netw
+  unstructured: 'Lawrence S, Giles CL, Chung Tsoi Ah, Back AD (1997) Face recognition:
+    a convolutional neural-network approach. IEEE Trans Neural Netw 8(1):98–113. https://doi.org/10.1109/72.554195'
+  volume: '8'
+  year: '1997'
+- doi: 10.7873/DATE.2014.233
+  unstructured: 'Lee H, Faruque MAA (2014) Gpu-evr: Run-time event based real-time
+    scheduling framework on gpgpu platform. In: Design, automation & test in Europe
+    conference & exhibition, pp 1–6. https://doi.org/10.7873/DATE.2014.233'
+- author: S Levine
+  doi: 10.5555/2946645.2946684
+  first-page: '1334'
+  issue: '1'
+  journal-title: J Mach Learn Res
+  unstructured: Levine S, Finn C, Darrell T, Abbeel P (2016) End-to-end training of
+    deep visuomotor policies. J Mach Learn Res 17(1):1334–1373. https://doi.org/10.5555/2946645.2946684
+  volume: '17'
+  year: '2016'
+- author: Y Liang
+  doi: 10.1109/TPDS.2014.2313342
+  first-page: '748'
+  issue: '3'
+  journal-title: IEEE Trans Parallel Distributed Syst
+  unstructured: Liang Y, Huynh HP, Rupnow K, Goh RSM, Chen D (2015) Efficient gpu
+    spatial-temporal multitasking. IEEE Trans Parallel Distributed Syst 26(3):748–760.
+    https://doi.org/10.1109/TPDS.2014.2313342
+  volume: '26'
+  year: '2015'
+- doi: 10.5555/1625275.1625428
+  unstructured: 'Lizotte DJ, Wang T, Bowling MH, Schuurmans D (2007) Automatic gait
+    optimization with gaussian process regression. In: 20th international joint conference
+    on Artifical intelligence, pp 944–949. https://doi.org/10.5555/1625275.1625428'
+- author: N Ma
+  doi: 10.1007/978-3-030-01264-9_8
+  first-page: '122'
+  journal-title: Comput Vis - ECCV
+  unstructured: 'Ma N, Zhang X, Zheng H, Sun J (2018) Shufflenet V2: practical guidelines
+    for efficient CNN architecture design. Comput Vis - ECCV 2018:122–138. https://doi.org/10.1007/978-3-030-01264-9_8'
+  volume: '2018'
+  year: '2018'
+- author: TJ Maceina
+  doi: 10.1109/TNS.2017.2691061
+  first-page: '1455'
+  issue: '6'
+  journal-title: IEEE Trans Nucl Sci
+  unstructured: Maceina TJ, Manduchi G (2017) Assessment of general purpose gpu systems
+    in real-time control. IEEE Trans Nucl Sci 64(6):1455–1460. https://doi.org/10.1109/TNS.2017.2691061
+  volume: '64'
+  year: '2017'
+- doi: 10.1007/978-1-4615-7892-5
+  unstructured: 'Matérn B (1986) Spatial variation: Zugl.: Stockholm, Univ., Diss,
+    Lecture notes in statistics, vol 36, 2nd edn. Springer, Berlin'
+- author: R Meyes
+  doi: 10.1016/j.procir.2017.03.095
+  first-page: '107'
+  journal-title: Procedia CIRP
+  unstructured: Meyes R, Tercan H, Roggendorf S, Thiele T, Büscher C, Obdenbusch M,
+    Brecher C, Jeschke S, Meisen T (2017) Motion planning for industrial robots using
+    reinforcement learning. Procedia CIRP 63:107–112. https://doi.org/10.1016/j.procir.2017.03.095
+  volume: '63'
+  year: '2017'
+- doi: 10.15607/RSS.2018.XIV.021
+  unstructured: 'Morrison D, Corke P, Leitner J (2018) Closing the loop for robotic
+    grasping: a real-time, generative grasp synthesis approach. arXiv preprint arXiv:1804.05172v2'
+- doi: 10.1109/RTAS.2017.3
+  unstructured: 'N Otterness, M Yang, S Rust, E Park, J H Anderson, F D Smith, A Berg,
+    S Wang (2017) An evaluation of the nvidia tx1 for supporting real-time computer-vision
+    workloads. In: IEEE real-time and embedded technology and applications symposium,
+    pp 353–364. https://doi.org/10.1109/RTAS.2017.3'
+- author: M Neumann-Brosig
+  doi: 10.1109/TCST.2018.2886159
+  first-page: '730'
+  issue: '3'
+  journal-title: IEEE Trans Control Syst Technol
+  unstructured: 'Neumann-Brosig M, Marco A, Schwarzmann D, Trimpe S (2020) Data-efficient
+    autotuning with bayesian optimization: an industrial control study. IEEE Trans
+    Control Syst Technol 28(3):730–740. https://doi.org/10.1109/TCST.2018.2886159'
+  volume: '28'
+  year: '2020'
+- unstructured: Ng AY (2003) Shaping and policy search in reinforcement learning.
+    PhD thesis, University of California, Berkeley
+- unstructured: 'Nguyen VD, Nguyen TT, Nguyen DD, Jeon JW (2011) Real-time vehicle
+    detection design and implementation on gpu. In: 11th international conference
+    on control, automation and systems, pp 1287–1292'
+- doi: 10.1109/IECON.2018.8591540
+  unstructured: 'Olmedo IS, Capodieci N, Cavicchioli R (2018) A perspective on safety
+    and real-time issues for gpu accelerated adas. In: 44th annual conference of the
+    IEEE industrial electronics society, pp 4071–4077. https://doi.org/10.1109/IECON.2018.8591540'
+- unstructured: 'Otterness N, Yang M, Amert T, Anderson J, Smith FD (2017) Inferring
+    the scheduling policies of an embedded cuda gpu. In: 13th workshop on operating
+    systems platforms for embedded real time systems applications'
+- author: YP Pane
+  doi: 10.1016/j.engappai.2018.11.006
+  first-page: '236'
+  journal-title: Eng Appl Artifi Intell
+  unstructured: Pane YP, Nageshrao SP, Kober J, Babuška R (2019) Reinforcement learning
+    based compensation methods for robot manipulators. Eng Appl Artifi Intell 78:236–247.
+    https://doi.org/10.1016/j.engappai.2018.11.006
+  volume: '78'
+  year: '2019'
+- author: G Pritschow
+  unstructured: Pritschow G (2006) Einführung in die Steuerungstechnik. Hanser, München
+  volume-title: Einführung in die Steuerungstechnik
+  year: '2006'
+- doi: 10.1109/CICT48419.2019.9066239
+  unstructured: 'Ramwala OA, Paunwala CN, Paunwala MC (2019) Optimizing driver assistance
+    systems for real-time performance on resource constrained gpus. In: IEEE Conference
+    on information and communication technology, pp 1–4. https://doi.org/10.1109/CICT48419.2019.9066239'
+- author: CE Rasmussen
+  unstructured: Rasmussen CE, Williams CKI (2006) Gaussian processes for machine learning.
+    Adaptive computation and machine learning. MIT Press, Cambridge
+  volume-title: Gaussian processes for machine learning. Adaptive computation and
+    machine learning
+  year: '2006'
+- doi: 10.1109/CVPR.2017.690
+  unstructured: 'Redmon J, Farhadi A (2016) YOLO9000: better, faster, stronger. In:
+    IEEE conference on computer vision and pattern recognition, pp 6517–6525. https://doi.org/10.1109/CVPR.2017.690'
+- author: F Rosenblatt
+  doi: 10.1037/h0042519
+  first-page: '386'
+  issue: '6'
+  journal-title: Psychol Rev
+  unstructured: 'Rosenblatt F (1958) The perceptron: a probabilistic model for information
+    storage and organization in the brain. Psychol Rev 65(6):386–408. https://doi.org/10.1037/h0042519'
+  volume: '65'
+  year: '1958'
+- doi: 10.1145/3378184.3378198
+  unstructured: 'Schmidt A, Schellroth F, Riedel O (2020) Control architecture for
+    embedding reinforcement learning frameworks on industrial control hardware. In:
+    3rd International conference on applications of intelligent systems, pp 1–6. https://doi.org/10.1145/3378184.3378198'
+- unstructured: Schnitzer S (2019) Real-time scheduling for 3d rendering on automotive
+    embedded systems. Dissertation, University of Stuttgart, Stuttgart
+- doi: 10.1109/INDIN.2017.8104770
+  unstructured: 'Schwung D, Csaplar F, Schwung A, Ding SX (2017) An application of
+    reinforcement learning algorithms to industrial multi-robot stations for cooperative
+    handling operation. In: IEEE 15th international conference on industrial informatics,
+    pp 194–199. https://doi.org/10.1109/INDIN.2017.8104770'
+- author: B Shahriari
+  doi: 10.1109/JPROC.2015.2494218
+  first-page: '148'
+  issue: '1'
+  journal-title: Proc IEEE
+  unstructured: 'Shahriari B, Swersky K, Wang Z, Adams RP, de Freitas N (2016) Taking
+    the human out of the loop: a review of bayesian optimization. Proc IEEE 104(1):148–175.
+    https://doi.org/10.1109/JPROC.2015.2494218'
+  volume: '104'
+  year: '2016'
+- doi: 10.5555/2999325.2999464
+  unstructured: 'Snoek J, Larochelle H, Adams RP (2012) Practical bayesian optimization
+    of machine learning algorithms. In: 25th International conference on neural information
+    processing systems, pp 2951–2959.https://doi.org/10.5555/2999325.2999464'
+- doi: 10.1109/CASE48305.2020.9216902
+  unstructured: Solowjow E, Ugalde I, Shahapurkar Y, Aparicio J, Mahler J, Satish
+    V, Goldberg K, Claussen H (2020) Industrial robot grasping with deep learning
+    using a programmable logic controller (plc). arXiv preprint arXiv:2004.10251v1
+- author: KO Stanley
+  doi: 10.1162/106365602320169811
+  first-page: '99'
+  issue: '2'
+  journal-title: Evolut Comput
+  unstructured: Stanley KO, Miikkulainen R (2002) Evolving neural networks through
+    augmenting topologies. Evolut Comput 10(2):99–127. https://doi.org/10.1162/106365602320169811
+  volume: '10'
+  year: '2002'
+- author: RS Sutton
+  unstructured: 'Sutton RS, Barto A (2018) Reinforcement learning: an introduction,
+    second, edition. Adaptive computation and machine learning. The MIT Press, Cambridge'
+  volume-title: 'Reinforcement learning: an introduction, second, edition. Adaptive
+    computation and machine learning'
+  year: '2018'
+- doi: 10.1109/ISORC.2018.00035
+  unstructured: 'Suzuki Y, Azumi T, Kato S, Nishio N (2018) Real-time ros extension
+    on transparent cpu/gpu coordination mechanism. In: IEEE international symposium
+    on real-time distributed computing, pp 184–192. https://doi.org/10.1109/ISORC.2018.00035'
+- unstructured: 'Tekin R, Zahaf HE, Lipari G (2019) Pruda: An api for time and space
+    predictible programming in nvdia gpus using cuda. In: Junior workshop: JRWRTC—real-time
+    net- works and systems 2019'
+- doi: 10.1109/IECON.2019.8926767
+  unstructured: 'Tsog N, Becker M, Bruhn F, Behnam M, Sjödin M (2019) Static allocation
+    of parallel tasks to improve schedulability in cpu-gpu heterogeneous real-time
+    systems. In: 45th Annual conference of the IEEE industrial electronics society,
+    pp 4516–4522. https://doi.org/10.1109/IECON.2019.8926767'
+- doi: 10.1109/MWSCAS.2013.6674861
+  unstructured: 'Venugopal V, Kannan S (2013) Accelerating real-time lidar data processing
+    using gpus. In: IEEE 56th international midwest symposium on circuits and systems,
+    pp 1168–1171. https://doi.org/10.1109/MWSCAS.2013.6674861'
+- unstructured: Watkins CJCH (1989) Learning from delayed rewards. Dissertation, University
+    of Cambridge
+- author: B Wu
+  doi: 10.1145/3093337.3037742
+  first-page: '483'
+  issue: '1'
+  journal-title: ACM Sigarch Comput Archit News
+  unstructured: 'Wu B, Liu X, Zhou X, Jiang C (2017) Flep: Enabling flexible and efficient
+    preemption on gpus. ACM Sigarch Comput Archit News 45(1):483–496. https://doi.org/10.1145/3093337.3037742'
+  volume: '45'
+  year: '2017'
+- doi: 10.4230/LIPIcs.ECRTS.2018.20
+  unstructured: 'Yang M, Otterness N, Amert T, Bakita J, Anderson JH, Smith FD (2018)
+    Avoiding pitfalls when using nvidia gpus for real-time tasks in autonomous systems.
+    In: 30th Euromicro conference on real-time systems, vol 106, pp 20:1–20:21. https://doi.org/10.4230/LIPIcs.ECRTS.2018.20'
+- author: Z Zhao
+  doi: 10.1109/TNNLS.2018.2876865
+  first-page: '3212'
+  issue: '11'
+  journal-title: IEEE Trans Neural Netw Learn Syst
+  unstructured: 'Zhao Z, Zheng P, Xu S, Wu X (2018) Object detection with deep learning:
+    a review. IEEE Trans Neural Netw Learn Syst 30(11):3212–3232. https://doi.org/10.1109/TNNLS.2018.2876865'
+  volume: '30'
+  year: '2018'
+doc_url: https://link.springer.com/article/10.1007/s00521-021-05848-4/fulltext.html
+doi: 10.1007/s00521-021-05848-4
+files:
+- schmidt-alexander-and-schellroth-florian-and-fischer-marc-and-allimant-lukas-and-riedel-oliverreinforcement-learning-methods-based-on-gpu-acceler.pdf
+issue: '18'
+journal: Neural Computing and Applications
+language: en
+month: 9
+pages: 12191--12207
+publisher: Springer Science and Business Media LLC
+ref: ReinforcementLSchmid2021
+time-added: 2023-02-23-12:21:47
+title: Reinforcement learning methods based on GPU accelerated industrial control
+  hardware
+type: article
+url: http://dx.doi.org/10.1007/s00521-021-05848-4
+volume: '33'
+year: 2021
