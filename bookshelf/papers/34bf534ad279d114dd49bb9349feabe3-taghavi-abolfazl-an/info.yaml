@@ -1,0 +1,206 @@
+abstract: <jats:p>Making proper decisions in today’s complex world is a challenging
+  task for decision makers. A promising approach that can support decision makers
+  to have a better understanding of complex systems is agent-based modeling (ABM).
+  ABM has been developing during the last few decades as a methodology with many different
+  applications and has enabled a better description of the dynamics of complex systems.
+  However, the prescriptive facet of these applications is rarely portrayed. Adding
+  a prescriptive decision-making (DM) aspect to ABM can support the decision makers
+  in making better or, in some cases, optimized decisions for the complex problems
+  as well as explaining the investigated phenomena. In this paper, first, the literature
+  of DM with ABM is inquired and classified based on the methods of integration. Performing
+  a scientometric analysis on the relevant literature lets us conclude that the number
+  of publications attempting to integrate DM and ABM has not grown during the last
+  two decades, while analysis of the current methodologies for integrating DM and
+  ABM indicates that they have serious drawbacks. In this regard, a novel nature-inspired
+  model articulation called optimal agent framework (OAF) has been proposed to ameliorate
+  the disadvantages and enhance the realization of proper decisions in ABM at a relatively
+  low computational cost. The framework is examined with the Bass diffusion model.
+  The results of the simulation for the customized model developed by OAF have verified
+  the feasibility of the framework. Moreover, sensitivity analyses on different agent
+  populations, network structures, and marketing strategies have depicted the great
+  potential of OAF to find the optimal strategies in various stochastic and unconventional
+  conditions which have not been addressed prior to the implementation of the framework.</jats:p>
+author: Taghavi, Abolfazl and Khaleghparast, Sharif and Eshghi, Kourosh
+author_list:
+- affiliation:
+  - name: Sharif University of Technology, Tehran, Iran
+  family: Taghavi
+  given: Abolfazl
+- affiliation:
+  - name: Sharif University of Technology, Tehran, Iran
+  family: Khaleghparast
+  given: Sharif
+- affiliation:
+  - name: Sharif University of Technology, Tehran, Iran
+  family: Eshghi
+  given: Kourosh
+citations:
+- author: J. D. Sterman
+  volume-title: 'Business Dynamics: Systems Thinking and Modeling for a Complex World'
+  year: '2000'
+- author: R. L. Rardin
+  edition: 2nd
+  volume-title: Optimization in Operations Research
+  year: '2017'
+- doi: 10.1016/j.envsoft.2013.02.011
+- doi: 10.1086/507856
+- doi: 10.1016/j.ins.2008.11.012
+- doi: 10.1126/science.284.5411.107
+- doi: 10.1109/TSMCA.2005.854231
+- author: T. F. Gonzalez
+  volume-title: 'Handbook of Approximation Algorithms and Metaheuristics: Methologies
+    and Traditional Applications'
+  year: '2018'
+- author: J. H. Holland
+  doi: 10.7551/mitpress/1090.001.0001
+  volume-title: Adaptation in Natural and Artificial Systems
+  year: '1992'
+- author: M. Dorigo
+  volume-title: Ant Colony Optimization
+  year: '2006'
+- article-title: Particle SWARM OPTIMIZATION
+  author: J. Kennedy
+  doi: 10.1109/ICNN.1995.488968
+  year: '1995'
+- article-title: An idea based on honey bee swarm for numerical optimization
+  author: D. Karaboga
+  year: '2005'
+- doi: 10.1287/mnsc.1070.0787
+- author: U. Wilensky
+  volume-title: 'An Introduction to Agent-Based Modeling: Modeling Natural, Social
+    and Engineered Complex Systems with NetLogo'
+  year: '2015'
+- doi: 10.1016/j.ecolmodel.2006.04.023
+- doi: 10.1016/j.ijresmar.2011.04.002
+- doi: 10.1002/cplx.6130010503
+- article-title: Tutorial on agent-based modelling and simulation
+  author: C. M. Macal
+  first-page: '73'
+- doi: 10.3389/fevo.2018.00237
+- doi: 10.1007/s10109-005-0148-5
+- doi: 10.3390/su12072904
+- author: J. Arlow
+  volume-title: 'UML 2 and the Unified Process: Practical Object-Oriented Analysis
+    and Design'
+  year: '2005'
+- doi: 10.1016/j.ejor.2005.02.009
+- doi: 10.1016/j.cosrev.2017.03.001
+- doi: 10.1186/2194-3206-1-3
+- author: U. Wilensky
+  volume-title: NetLogo-Center for Connected Learning and Computer-Based Modeling
+  year: '1999'
+- doi: 10.1145/1878537.1878539
+- author: G. N. Gilbert
+  doi: 10.4135/9781412983259
+  volume-title: Agent-based Models (Quantitative Applications in the Social Sciences)
+  year: '2008'
+- doi: 10.1007/978-3-319-66948-9_15
+- author: V. Grimm
+  doi: 10.1515/9781400850624
+  volume-title: Individual-based Modeling and Ecology
+  year: '2005'
+- author: M. J. North
+  doi: 10.1093/acprof:oso/9780195172119.001.0001
+  volume-title: 'Managing Business Complexity: Discovering Strategic Solutions with
+    Agent-Based Modeling and Simulation'
+  year: '2007'
+- doi: 10.1080/0022250X.1971.9989794
+- doi: 10.1016/j.pcorm.2019.100074
+- doi: 10.1016/j.simpat.2019.101935
+- doi: 10.1080/17477778.2020.1751570
+- doi: 10.1073/pnas.092080199
+- doi: 10.1016/s2212-5671(14)00353-0
+- doi: 10.1109/WSC.2008.4736399
+- doi: 10.1016/j.procir.2019.03.180
+- doi: 10.1016/j.ijpe.2008.02.019
+- doi: 10.1016/j.ijtst.2017.09.004
+- doi: 10.1016/s0167-9236(02)00019-2
+- doi: 10.1016/j.eswa.2011.12.015
+- doi: 10.1016/j.ejrs.2017.12.004
+- doi: 10.1016/j.envsoft.2003.11.012
+- article-title: Behavioral dynamics for pedestrians
+  author: M. Bierlaire
+  year: '2003'
+- doi: 10.1016/j.ssci.2018.11.028
+- doi: 10.1016/j.trf.2020.01.014
+- doi: 10.2307/2392088
+- doi: 10.1509/jmkg.73.2.1
+- author: P. Siarry
+  volume-title: Advances in Metaheuristics for Hard Optimization
+  year: '2010'
+- article-title: Is the juice worth the squeeze?
+  author: J. Dahlke
+  first-page: '13'
+  journal-title: Machine Learning In and for Agent-Based Modelling
+  volume: '113'
+  year: '2020'
+- author: R. S. Sutton
+  doi: 10.1109/TNN.1998.712192
+  volume-title: Introduction to Reinforcement Learning
+  year: '1998'
+- doi: 10.1016/j.engappai.2014.01.001
+- doi: 10.1016/j.simpat.2017.03.003
+- doi: 10.1145/1275808.1276386
+- doi: 10.1145/1618452.1618515
+- author: L. Ikemoto
+  doi: 10.1145/1187112.1187167
+  volume-title: Learning to Move Autonomously in a Hostile World
+  year: '2005'
+- doi: 10.1016/j.asoc.2020.106099
+- doi: 10.1016/j.dss.2019.113111
+- doi: 10.1016/j.resconrec.2019.104538
+- doi: 10.1371/journal.pone.0114135
+- doi: 10.1016/j.ress.2013.04.004
+- doi: 10.1016/j.envsoft.2014.01.003
+- doi: 10.1016/j.landusepol.2012.06.008
+- doi: 10.1016/j.envsoft.2012.08.006
+- doi: 10.1016/j.simpat.2019.102020
+- doi: 10.1016/j.matcom.2016.05.008
+- doi: 10.1016/j.apm.2019.02.003
+- doi: 10.1109/SIMS.2016.32
+- doi: 10.1016/j.asoc.2015.03.021
+- doi: 10.1080/01605682.2018.1447250
+- doi: 10.1016/j.compenvurbsys.2009.10.001
+- doi: 10.1016/j.seps.2016.04.003
+- doi: 10.1038/s41598-020-68447-8
+- doi: 10.5751/es-02388-130137
+- doi: 10.1016/j.ecolmodel.2016.07.017
+- doi: 10.1016/j.wasman.2016.10.048
+- doi: 10.1007/978-3-319-98443-8_31
+- doi: 10.1016/j.procs.2011.04.204
+- doi: 10.1186/s40294-016-0040-9
+- doi: 10.1109/ICOA.2019.8727705
+- doi: 10.1016/j.procs.2014.03.097
+- doi: 10.1007/978-3-030-14347-3_38
+- doi: 10.1061/JPEODX.0000097
+- doi: 10.1016/j.ocecoaman.2019.02.003
+- doi: 10.1007/s11069-014-1303-4
+- doi: 10.1007/s11192-019-03213-w
+- doi: 10.1080/02626667.2020.1750617
+- doi: 10.1016/j.ecolmodel.2010.08.019
+- doi: 10.18564/jasss.4259
+- article-title: A new product growth modelfor consumer durables
+  author: F. M. Bass
+  first-page: '15'
+  journal-title: Management Science
+  volume: '61'
+  year: '1969'
+- doi: 10.5194/nhess-20-2281-2020
+- doi: 10.1007/s10462-017-9577-z
+doc_url: http://downloads.hindawi.com/journals/complexity/2021/6642160.xml
+doi: 10.1155/2021/6642160
+files:
+- taghavi-abolfazl-and-khaleghparast-sharif-and-eshghi-kouroshoptimal-agent-framework-a-novel-cost-effective-model-articulation-to-fill-the-integra.pdf
+journal: Complexity
+language: en
+month: 9
+pages: 1--30
+publisher: Hindawi Limited
+ref: OptimalAgentFTaghav2021
+time-added: 2023-03-03-10:29:59
+title: 'Optimal Agent Framework: A Novel, Cost-Effective Model Articulation to Fill
+  the Integration Gap between Agent-Based Modeling and Decision-Making'
+type: article
+url: http://dx.doi.org/10.1155/2021/6642160
+volume: '2021'
+year: 2021

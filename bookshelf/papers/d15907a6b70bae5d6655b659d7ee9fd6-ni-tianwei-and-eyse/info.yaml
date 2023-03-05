@@ -1,0 +1,34 @@
+abstract: Many problems in RL, such as meta-RL, robust RL, generalization in RL, and
+  temporal credit assignment, can be cast as POMDPs. In theory, simply augmenting
+  model-free RL with memory-based architectures, such as recurrent neural networks,
+  provides a general approach to solving all types of POMDPs. However, prior work
+  has found that such recurrent model-free RL methods tend to perform worse than more
+  specialized algorithms that are designed for specific types of POMDPs. This paper
+  revisits this claim. We find that careful architecture and hyperparameter decisions
+  can often yield a recurrent model-free implementation that performs on par with
+  (and occasionally substantially better than) more sophisticated recent techniques.
+  We compare to 21 environments from 6 prior specialized methods and find that our
+  implementation achieves greater sample efficiency and asymptotic performance than
+  these methods on 18/21 environments. We also release a simple and efficient implementation
+  of recurrent model-free RL for future work to use as a baseline for POMDPs.
+archiveprefix: arXiv
+author: Ni, Tianwei and Eysenbach, Benjamin and Salakhutdinov, Ruslan
+author_list:
+- family: Ni
+  given: Tianwei
+- family: Eysenbach
+  given: Benjamin
+- family: Salakhutdinov
+  given: Ruslan
+eprint: 2110.05038v3
+file: 2110.05038v3.pdf
+files:
+- ni-tianwei-and-eysenbach-benjamin-and-salakhutdinov-ruslanrecurrent-model-free-rl-can-be-a-strong-baseline-for-many-pomdps2021.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2110.05038v3
+time-added: 2023-03-01-11:59:03
+title: Recurrent Model-Free RL Can Be a Strong Baseline for Many POMDPs
+type: article
+url: http://arxiv.org/abs/2110.05038v3
+year: '2021'
