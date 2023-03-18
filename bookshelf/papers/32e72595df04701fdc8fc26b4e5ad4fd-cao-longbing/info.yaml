@@ -1,0 +1,586 @@
+abstract: "<jats:p>\n            The 21st century has ushered in the age of big data\
+  \ and data economy, in which\n            <jats:italic>data DNA</jats:italic>\n\
+  \            , which carries important knowledge, insights, and potential, has become\
+  \ an intrinsic constituent of all data-based organisms. An appropriate understanding\
+  \ of data DNA and its organisms relies on the new field of\n            <jats:italic>data\
+  \ science</jats:italic>\n            and its keystone,\n            <jats:italic>analytics</jats:italic>\n\
+  \            . Although it is widely debated whether big data is only hype and buzz,\
+  \ and data science is still in a very early phase, significant challenges and opportunities\
+  \ are emerging or have been inspired by the research, innovation, business, profession,\
+  \ and education of data science. This article provides a comprehensive survey and\
+  \ tutorial of the fundamental aspects of data science: the evolution from data analysis\
+  \ to data science, the data science concepts, a big picture of the era of data science,\
+  \ the major challenges and directions in data innovation, the nature of data analytics,\
+  \ new industrialization and service opportunities in the data economy, the profession\
+  \ and competency of data education, and the future of data science. This article\
+  \ is the first in the field to draw a comprehensive big picture, in addition to\
+  \ offering rich observations, lessons, and thinking about data science and analytics.\n\
+  \          </jats:p>"
+author: Cao, Longbing
+author_list:
+- affiliation:
+  - name: University of Technology Sydney, New South Wales, Australia
+  family: Cao
+  given: Longbing
+citations:
+- author: ACEMS.
+  volume-title: The Australian Research Council
+- doi: 10.1287/isre.2014.0546
+- author: Xinhua News Agency
+  volume-title: The 13th Five-Year Plan for the National Economic and Social Development
+    of the People’s Republic of China.
+- unstructured: AGIMO. 2013. AGIMO Big Data Strategy - Issues Paper. Retrieved from
+    www.finance.gov.au/files/2013/03/Big-Data-Strategy-Issues-Paper1.pdf.  AGIMO.
+    2013. AGIMO Big Data Strategy - Issues Paper. Retrieved from www.finance.gov.au/files/2013/03/Big-Data-Strategy-Issues-Paper1.pdf.
+- doi: 10.1145/2538862.2538936
+- unstructured: ASA. 2015. ASA views on data science. Retrieved from http://magazine.amstat.org/?s&equals;data+science8x&equals;08y&equals;0.  ASA.
+    2015. ASA views on data science. Retrieved from http://magazine.amstat.org/?s&equals;data+science8x&equals;08y&equals;0.
+- unstructured: AU. 1990. Data-matching Program. Retrieved from http://www.comlaw.gov.au/Series/C2004A04095.  AU.
+    1990. Data-matching Program. Retrieved from http://www.comlaw.gov.au/Series/C2004A04095.
+- unstructured: AU. 2010. Declaration of Open Government. Retrieved from http://agimo.gov.au/2010/07/16/declaration-of-open-government/.  AU.
+    2010. Declaration of Open Government. Retrieved from http://agimo.gov.au/2010/07/16/declaration-of-open-government/.
+- unstructured: AU. 2013. Attorney-General’s Department. Retrieved from http://www.attorneygeneral.gov.au/Mediareleases/Pages/2013/Seconder/22May2013-AustraliajoinsOpenGovernmentPartnership.aspx.  AU.
+    2013. Attorney-General’s Department. Retrieved from http://www.attorneygeneral.gov.au/Mediareleases/Pages/2013/Seconder/22May2013-AustraliajoinsOpenGovernmentPartnership.aspx.
+- unstructured: AU. 2016. Australia Big Data. Retrieved from http://www.finance.gov.au/big-data/.  AU.
+    2016. Australia Big Data. Retrieved from http://www.finance.gov.au/big-data/.
+- doi: 10.1145/2664591.2664619
+- unstructured: John Bailer Roger Hoer David Madigan Jill Montaquila and Tommy Wright.
+    2012. Report of the ASA workgroup on master’s degrees. Retrieved from http://magazine.amstat.org/wp-content/uploads/2013an/masterworkgroup.pdf.  John
+    Bailer Roger Hoer David Madigan Jill Montaquila and Tommy Wright. 2012. Report
+    of the ASA workgroup on master’s degrees. Retrieved from http://magazine.amstat.org/wp-content/uploads/2013an/masterworkgroup.pdf.
+- doi: 10.1080/00031305.2015.1081105
+- unstructured: BDL. 2016a. Big Data Landscape. Retrieved from www.bigdatalandscape.com.  BDL.
+    2016a. Big Data Landscape. Retrieved from www.bigdatalandscape.com.
+- unstructured: BDL. 2016b. Big Data Landscape 2016 (Version 3.0). Retrieved from
+    http://mattturck.com/2016/02/01/big-data-landscape/.  BDL. 2016b. Big Data Landscape
+    2016 (Version 3.0). Retrieved from http://mattturck.com/2016/02/01/big-data-landscape/.
+- author: Mark
+  volume-title: Beyer and Douglas Laney
+  year: '2012'
+- author: Bhardwaj Anant
+  volume-title: 'Datahub: Collaborative data science 8 dataset version management
+    at scale. In CIDR.'
+  year: '2015'
+- unstructured: BigML. 2016. BigML. Retrieved from https://bigml.com/.  BigML. 2016.
+    BigML. Retrieved from https://bigml.com/.
+- unstructured: 'Kirk D. Borne Suzanne Jacoby Karen Carney Andy Connolly Timothy Eastman
+    M. Jordan Raddick J. A. Tyson and John Wallin. 2010. The revolution in astronomy
+    education: Data science for the masses. Retrieved from http://arxiv.org/pdf/0909.3895v1.pdf.  Kirk
+    D. Borne Suzanne Jacoby Karen Carney Andy Connolly Timothy Eastman M. Jordan Raddick
+    J. A. Tyson and John Wallin. 2010. The revolution in astronomy education: Data
+    science for the masses. Retrieved from http://arxiv.org/pdf/0909.3895v1.pdf.'
+- doi: 10.1109/DSAA.2015.7344825
+- doi: 10.1214/ss/1009213726
+- unstructured: 'Gavin Brown. 2009. Review of Education in Mathematics Data Science
+    and Quantitative Disciplines: Report to the Group of Eight Universities. Retrieved
+    from https://go8.edu.au/publication/go8-review-education-mathematics-data-scie
+    nce-and-quantitative-disciplines.  Gavin Brown. 2009. Review of Education in Mathematics
+    Data Science and Quantitative Disciplines: Report to the Group of Eight Universities.
+    Retrieved from https://go8.edu.au/publication/go8-review-education-mathematics-data-scie
+    nce-and-quantitative-disciplines.'
+- unstructured: 'Linda Burtch. 2014. The Burtch Works Study: Salaries of Data Scientists.
+    Retrieved from http://www.burtchworks.com/files/2014/07/Burtch-Works-Study_DS_final.pdf.  Linda
+    Burtch. 2014. The Burtch Works Study: Salaries of Data Scientists. Retrieved from
+    http://www.burtchworks.com/files/2014/07/Burtch-Works-Study_DS_final.pdf.'
+- doi: 10.1016/j.sbspro.2015.07.092
+- unstructured: CA. 2016. Canada Capitalizing on Big Data. http://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvell
+    es_recentes/big_data_consultation-donnees_massives_consultation-eng.aspx.  CA.
+    2016. Canada Capitalizing on Big Data. http://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvell
+    es_recentes/big_data_consultation-donnees_massives_consultation-eng.aspx.
+- doi: 10.1109/TKDE.2010.32
+- doi: 10.1016/j.ins.2010.03.025
+- unstructured: Longbing Cao. 2011. Strategic Recommendations on Advanced Data Industry
+    and Services for the Yanhuang Science and Technology Park.  Longbing Cao. 2011.
+    Strategic Recommendations on Advanced Data Industry and Services for the Yanhuang
+    Science and Technology Park.
+- doi: 10.1093/comjnl/bxt084
+- doi: 10.1016/j.ipm.2014.08.007
+- doi: 10.1007/978-1-4471-6551-4
+- doi: 10.1007/s41060-016-0006-1
+- author: Cao Longbing
+  volume-title: 'Data science: Challenges and directions'
+- author: Cao Longbing
+  volume-title: 'Data Science: Nature and Pitfalls.'
+  year: '2016'
+- author: Cao Longbing
+  volume-title: 'Data Science: Profession and Education.'
+  year: '2016'
+- author: Cao Longbing
+  volume-title: Understand Data Science (to be published)
+- author: Cao Longbing
+  volume-title: Open Complex Intelligent Systems
+- doi: 10.1109/TSMCA.2009.2022414
+- doi: 10.1007/978-1-4471-2969-1
+- doi: 10.1109/TKDE.2011.129
+- doi: 10.1007/978-1-4419-5737-5
+- unstructured: Capterra. 2016a. Top Project Management Tools. Retrieved from http://www.capterra.com/project-management-software/.  Capterra.
+    2016a. Top Project Management Tools. Retrieved from http://www.capterra.com/project-management-software/.
+- unstructured: Capterra. 2016b. Top Reporting Software Products. Retrieved from http://www.capterra.com/reporting-software/.  Capterra.
+    2016b. Top Reporting Software Products. Retrieved from http://www.capterra.com/reporting-software/.
+- unstructured: CBDIO. 2016. China Big Data Industrial Observation. Retrieved from
+    www.cbdio.com.  CBDIO. 2016. China Big Data Industrial Observation. Retrieved
+    from www.cbdio.com.
+- unstructured: CCF-BDTF. 2013. China Computer Federation Task Force on Big Data.
+    Retrieved from http://www.bigdataforum.org.cn/.  CCF-BDTF. 2013. China Computer
+    Federation Task Force on Big Data. Retrieved from http://www.bigdataforum.org.cn/.
+- doi: 10.1007/BF00141776
+- unstructured: Swami Chandrasekaran. 2013. Becoming a Data Scientist. Retrieved from
+    http://nirvacana.com/thoughts/becoming-a-data-scientist/.  Swami Chandrasekaran.
+    2013. Becoming a Data Scientist. Retrieved from http://nirvacana.com/thoughts/becoming-a-data-scientist/.
+- doi: 10.5555/2481674.2481683
+- unstructured: China Information Security. 2015. Big Data Strategies and Actions
+    in Major Countries. Retrieved from http://www.cac.gov.cn/2015-07/03/c_1115812491.htm.  China
+    Information Security. 2015. Big Data Strategies and Actions in Major Countries.
+    Retrieved from http://www.cac.gov.cn/2015-07/03/c_1115812491.htm.
+- doi: 10.1016/j.outlook.2013.12.006
+- unstructured: Classcentral. 2016. Data Science and Big Data—Free Online Courses.
+    Retrieved from https://www.class-central.com/subject/data-science.  Classcentral.
+    2016. Data Science and Big Data—Free Online Courses. Retrieved from https://www.class-central.com/subject/data-science.
+- author: Clay Kelly
+  volume-title: 'CES 2013: The Year of The Quantified Self?'
+  year: '2013'
+- doi: 10.1111/j.1751-5823.2001.tb00477.x
+- unstructured: CMIST. 2016. China Will Establish A Series of National Labs. Retrieved
+    from http://news.sciencenet.cn/htmlnews/2016/4/344404.shtm.  CMIST. 2016. China
+    Will Establish A Series of National Labs. Retrieved from http://news.sciencenet.cn/htmlnews/2016/4/344404.shtm.
+- unstructured: CNSF. 2015. National Science Foundation China. Retrieved from http://www.nsfc.gov.cn/.  CNSF.
+    2015. National Science Foundation China. Retrieved from http://www.nsfc.gov.cn/.
+- unstructured: European Commission. 2014. Commission urges governments to embrace
+    potential of big data. Retrieved from europa.eu/rapid/press-release_IP-14-769_en.htm.  European
+    Commission. 2014. Commission urges governments to embrace potential of big data.
+    Retrieved from europa.eu/rapid/press-release_IP-14-769_en.htm.
+- unstructured: Coursera. 2016. Coursera. Retrieved from www.coursera.org/data-science.  Coursera.
+    2016. Coursera. Retrieved from www.coursera.org/data-science.
+- doi: 10.1002/meet.2011.14504801036
+- unstructured: CSC. 2012. Big data universe beginning to explode. Retrieved from
+    http://www.csc.com/insights/flxwd/78931-big_data_growth_just_beginning_to_explode.  CSC.
+    2012. Big data universe beginning to explode. Retrieved from http://www.csc.com/insights/flxwd/78931-big_data_growth_just_beginning_to_explode.
+- unstructured: 'CSNSTC. 2009. Harnessing the Power of Digital Data for Science and
+    Society: Report of the Interagency Working Group on Digital Data to the Committee
+    on Science of the National Science and Technology Council. Retrieved from https://www.nitrd.gov/About/Harnessing_Power_Web.pdf.  CSNSTC.
+    2009. Harnessing the Power of Digital Data for Science and Society: Report of
+    the Interagency Working Group on Digital Data to the Committee on Science of the
+    National Science and Technology Council. Retrieved from https://www.nitrd.gov/About/Harnessing_Power_Web.pdf.'
+- unstructured: DABS. 2016. Data Analytics Book Series. Retrieved from http://www.springer.com/series/15063.  DABS.
+    2016. Data Analytics Book Series. Retrieved from http://www.springer.com/series/15063.
+- unstructured: DARPA. 2016. DARPA Xdata program. Retrieved from www.darpa.mil/program/xdata.  DARPA.
+    2016. DARPA Xdata program. Retrieved from www.darpa.mil/program/xdata.
+- unstructured: Data61. 2016. Data61. Retrieved from https://www.data61.csiro.au/.  Data61.
+    2016. Data61. Retrieved from https://www.data61.csiro.au/.
+- unstructured: DataRobot. 2016. DataRobot. Retrieved from https://www.datarobot.com/.  DataRobot.
+    2016. DataRobot. Retrieved from https://www.datarobot.com/.
+- unstructured: Datasciences.org. 2005. Homepage. Retrieved from www.datasciences.org.  Datasciences.org.
+    2005. Homepage. Retrieved from www.datasciences.org.
+- unstructured: 'Thomas H. Davenport and D. J. Patil. 2012. Data scientist: The sexiest
+    job of the 21st century. Harvard Business Review (2012) 70--76.  Thomas H. Davenport
+    and D. J. Patil. 2012. Data scientist: The sexiest job of the 21st century. Harvard
+    Business Review (2012) 70--76.'
+- unstructured: Jessica Davis. 2016. 10 Programming Languages And Tools Data Scientists
+    Used. Retrieved from http://www.informationweek.com/devops/programming-languages/10-programming-languages-and-tools-data-scientists-use-now/d/d-id/1326034.  Jessica
+    Davis. 2016. 10 Programming Languages And Tools Data Scientists Used. Retrieved
+    from http://www.informationweek.com/devops/programming-languages/10-programming-languages-and-tools-data-scientists-use-now/d/d-id/1326034.
+- unstructured: Devendra Desale. 2015. Top 30 Social Network Analysis and Visualization
+    Tools. Retrieved from http://www.kdnuggets.com/2015/06/top-30-social-network-analysis-visualization-tools.html.  Devendra
+    Desale. 2015. Top 30 Social Network Analysis and Visualization Tools. Retrieved
+    from http://www.kdnuggets.com/2015/06/top-30-social-network-analysis-visualization-tools.html.
+- doi: 10.1145/2500499
+- doi: 10.1016/j.cub.2015.05.019
+- doi: 10.1111/rssa.12132
+- unstructured: David Donoho. 2015. 50 years of Data Science. Retrieved from http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf.  David
+    Donoho. 2015. 50 years of Data Science. Retrieved from http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf.
+- doi: 10.1109/DSAA.2015.7344805
+- unstructured: DSA. 2016. Data Science Association. Retrieved from http://www.datascienceassn.org/.  DSA.
+    2016. Data Science Association. Retrieved from http://www.datascienceassn.org/.
+- author: DSAA.
+  volume-title: IEEE/ACM/ASA International Conference on Data Science and Advanced
+    Analytics.
+  year: '2014'
+- unstructured: DSC. 2016a. College 8 University Data Science Degrees. Retrieved from
+    http://datascience.community/colleges.  DSC. 2016a. College 8 University Data
+    Science Degrees. Retrieved from http://datascience.community/colleges.
+- unstructured: DSC. 2016b. The Data Science Community. Retrieved from http://datasciencebe.com/.  DSC.
+    2016b. The Data Science Community. Retrieved from http://datasciencebe.com/.
+- unstructured: DSCentral. 2016. Data Science Central. Retrieved from http://www.datasciencecentral.com/.  DSCentral.
+    2016. Data Science Central. Retrieved from http://www.datasciencecentral.com/.
+- unstructured: DSE. 2015. Data Science and Engineering. Retrieved from http://link.springer.com/journal/41019.  DSE.
+    2015. Data Science and Engineering. Retrieved from http://link.springer.com/journal/41019.
+- unstructured: DSJ. 2014. Data Science Journal.Retrieved from datascience.codata.org.  DSJ.
+    2014. Data Science Journal.Retrieved from datascience.codata.org.
+- unstructured: DSKD. 2007. Data Science and Knowledge Discovery Lab UTS. Retrieved
+    from http://www.uts.edu.au/research-and-teaching/our-research/quantum-computation-and-intelligent-systems/data-sciences-and.  DSKD.
+    2007. Data Science and Knowledge Discovery Lab UTS. Retrieved from http://www.uts.edu.au/research-and-teaching/our-research/quantum-computation-and-intelligent-systems/data-sciences-and.
+- author: Duncan David Ewing
+  volume-title: 'Experimental Man: What One Man’s Body Reveals about His Future, Your
+    Health, and Our Toxic World'
+  year: '2009'
+- unstructured: Edx. 2016. EDX Courses. Retrieved from https://www.edx.org/course?search_query&equals;data+science.  Edx.
+    2016. EDX Courses. Retrieved from https://www.edx.org/course?search_query&equals;data+science.
+- unstructured: 'EMC. 2011. Data science revealed: A data-driven glimpse into the
+    burgeoning new field. Retrieved from www.emc.com/collateral/about/news/emc-data-science-study-wp.pdf.  EMC.
+    2011. Data science revealed: A data-driven glimpse into the burgeoning new field.
+    Retrieved from www.emc.com/collateral/about/news/emc-data-science-study-wp.pdf.'
+- unstructured: EPJDS. 2012. EPJ Data Science. Retrieved from http://epjdatascience.springeropen.com/.  EPJDS.
+    2012. EPJ Data Science. Retrieved from http://epjdatascience.springeropen.com/.
+- unstructured: EU. 2014. EU Towards a Thriving Data-Driven Economy. Retrieved from
+    https://ec.europa.eu/digital-single-market/en/towards-thriving-data-driven-economy.  EU.
+    2014. EU Towards a Thriving Data-Driven Economy. Retrieved from https://ec.europa.eu/digital-single-market/en/towards-thriving-data-driven-economy.
+- unstructured: EU-DSA. 2016. The European Data Science Academy. Retrieved from edsa-project.eu.  EU-DSA.
+    2016. The European Data Science Academy. Retrieved from edsa-project.eu.
+- unstructured: EU-OD. 2016. The European Union Open Data Portal. Retrieved from https://open-data.europa.eu/.  EU-OD.
+    2016. The European Union Open Data Portal. Retrieved from https://open-data.europa.eu/.
+- unstructured: Facebook. 2016. Facebook Data. Retrieved from https://www.facebook.com/careers/teams/data/.  Facebook.
+    2016. Facebook Data. Retrieved from https://www.facebook.com/careers/teams/data/.
+- doi: 10.1089/big.2014.0026
+- doi: 10.1080/08900523.2014.863126
+- doi: 10.1089/omi.2011.0008
+- doi: 10.1089/big.2015.0049
+- article-title: From data mining to knowledge discovery in databases
+  author: Fayyad Usama
+  first-page: '37'
+  journal-title: AI Magazine
+  volume: '17'
+  year: '1996'
+- author: Finzer William
+  volume-title: The data science education dilemma. Technology Innovations in Statistics
+    Education 7, 2
+  year: '2013'
+- doi: 10.1109/CloudCom.2015.82
+- doi: 10.1089/big.2014.0011
+- unstructured: Molly Galetto. 2016. Top 50 Data Science Resources. Retrieved from
+    http://www.ngdata.com/top-data-science-resources/?.  Molly Galetto. 2016. Top
+    50 Data Science Resources. Retrieved from http://www.ngdata.com/top-data-science-resources/?.
+- unstructured: GEO. 2016. Gene Expression Omnibus. Retrieved from http://www.ncbi.nlm.nih.gov/geo/.  GEO.
+    2016. Gene Expression Omnibus. Retrieved from http://www.ncbi.nlm.nih.gov/geo/.
+- unstructured: 'Deepak Ghodke. 2015. Bye Bye 2015: What lies ahead for BI. Retrieved
+    from http://www.ciol.com/bye-bye-2015-what-lies-ahead-for-bi/.  Deepak Ghodke.
+    2015. Bye Bye 2015: What lies ahead for BI. Retrieved from http://www.ciol.com/bye-bye-2015-what-lies-ahead-for-bi/.'
+- unstructured: Github. 2016a. Data Science Colleges. Retrieved from https://github.com/ryanswanstrom/awesome-datascience-colleges.  Github.
+    2016a. Data Science Colleges. Retrieved from https://github.com/ryanswanstrom/awesome-datascience-colleges.
+- unstructured: Github. 2016b. List of Recommender Systems. Retrieved from https://github.com/grahamjenson/list_of_recommender_systems.  Github.
+    2016b. List of Recommender Systems. Retrieved from https://github.com/grahamjenson/list_of_recommender_systems.
+- doi: 10.1089/big.2013.0009
+- unstructured: Google. 2016a. Google Bigquery and Cloud Platform. Retrieved from
+    https://cloud.google.com/bigquery/.  Google. 2016a. Google Bigquery and Cloud
+    Platform. Retrieved from https://cloud.google.com/bigquery/.
+- unstructured: Google. 2016b. Google Cloud Prediction API. Retrieved from https://cloud.google.com/prediction/docs/.  Google.
+    2016b. Google Cloud Prediction API. Retrieved from https://cloud.google.com/prediction/docs/.
+- unstructured: Google. 2016c. Google Online Open Education. Retrieved from https://www.google.com/edu/openonline/.  Google.
+    2016c. Google Online Open Education. Retrieved from https://www.google.com/edu/openonline/.
+- volume-title: Google Trends. (2016). https://www.google.com.au/trends/explore#q&equals;datalyticsz&equals;Etc
+    Retrieved on 14 Novermber
+  year: '2016'
+- unstructured: Google. 2016e. Open Mobile Data. Retrieved from https://console.developers.google.com/storage/browser/openmobiledata_public/.  Google.
+    2016e. Open Mobile Data. Retrieved from https://console.developers.google.com/storage/browser/openmobiledata_public/.
+- unstructured: Beijing Municipal Government. 2016. Beijing Big Data and Cloud Computing
+    Development Action Plan. Retrieved from http://zhengwu.beijing.gov.cn/gh/dt/t1445533.htm.  Beijing
+    Municipal Government. 2016. Beijing Big Data and Cloud Computing Development Action
+    Plan. Retrieved from http://zhengwu.beijing.gov.cn/gh/dt/t1445533.htm.
+- unstructured: China Government. 2015. China Big Data. Retrieved from http://www.gov.cn/zhengce/content/2015-09/05/content_10137.htm.  China
+    Government. 2015. China Big Data. Retrieved from http://www.gov.cn/zhengce/content/2015-09/05/content_10137.htm.
+- doi: 10.1007/978-1-4614-3323-1_4
+- unstructured: Jim Gray. 2007. eScience—A Transformed Scientific Method. Retrieved
+    from http://research.microsoft.com/en-us/um/people/gray/talks/NRC-CSTB_eScience.ppt.  Jim
+    Gray. 2007. eScience—A Transformed Scientific Method. Retrieved from http://research.microsoft.com/en-us/um/people/gray/talks/NRC-CSTB_eScience.ppt.
+- unstructured: GTD. 2016. Global Terrorism Database. Retrieved from https://www.start.umd.edu/gtd/.  GTD.
+    2016. Global Terrorism Database. Retrieved from https://www.start.umd.edu/gtd/.
+- doi: 10.1016/j.actamat.2015.02.045
+- doi: 10.1007/s11222-015-9565-6
+- unstructured: Hardin. 2016. Github. Retrieved from hardin47.github.io/DataSciStatsMaterials/.  Hardin.
+    2016. Github. Retrieved from hardin47.github.io/DataSciStatsMaterials/.
+- doi: 10.1080/00031305.2015.1077729
+- unstructured: 'Harlan Harris Sean Murphy and Marck Vaisman. 2013. Analyzing the
+    Analyzers: An Introspective Survey of Data Scientists and Their Work. O’Reilly
+    Media.   Harlan Harris Sean Murphy and Marck Vaisman. 2013. Analyzing the Analyzers:
+    An Introspective Survey of Data Scientists and Their Work. O’Reilly Media.'
+- doi: 10.1016/j.ijpe.2014.04.018
+- unstructured: 'Tony Hey Stewart Tansley and Kristin Tolle (Eds.). 2009. The Fourth
+    Paradigm: Data-Intensive Scientific Discovery. Retrieved from http://research.microsoft.com/en-us/collaboration/fourthparadigm/.  Tony
+    Hey Stewart Tansley and Kristin Tolle (Eds.). 2009. The Fourth Paradigm: Data-Intensive
+    Scientific Discovery. Retrieved from http://research.microsoft.com/en-us/collaboration/fourthparadigm/.'
+- author: Hey Tony
+  volume-title: 'The Data Deluge: An e-Science Perspective'
+- unstructured: HLSG. 2010. Final report of the high level expert group on scientific
+    data. http://ec.europa.eu/information_society/newsroom/cf/document.cfm?action&equals;display8doc_id&equals;707.  HLSG.
+    2010. Final report of the high level expert group on scientific data. http://ec.europa.eu/information_society/newsroom/cf/document.cfm?action&equals;display8doc_id&equals;707.
+- unstructured: HLSG. 2014. An RDA Europe Report. Retrieved from http://www.e-nformation.ro/wp-content/uploads/2014/12/TheDataHarvestReport_-Final.pdf.  HLSG.
+    2014. An RDA Europe Report. Retrieved from http://www.e-nformation.ro/wp-content/uploads/2014/12/TheDataHarvestReport_-Final.pdf.
+- unstructured: Horizon. 2014. European Commission Horizon 2020 Big Data Private Public
+    Partnership. Retrieved from http://ec.europa.eu/programmes/horizon2020/en/h2020-section/information-and-communication-technologies.  Horizon.
+    2014. European Commission Horizon 2020 Big Data Private Public Partnership. Retrieved
+    from http://ec.europa.eu/programmes/horizon2020/en/h2020-section/information-and-communication-technologies.
+- doi: 10.5555/2823938
+- unstructured: IASC. 1977. International Association for Statistical Computing. (1977).
+    http://www.iasc-isi.org/.  IASC. 1977. International Association for Statistical
+    Computing. (1977). http://www.iasc-isi.org/.
+- unstructured: IBM. 2010. Capitalizing on Complexity. Retrieved from http://www-935.ibm.com/services/us/ceo/ceostudy2010/multimedia.html.  IBM.
+    2010. Capitalizing on Complexity. Retrieved from http://www-935.ibm.com/services/us/ceo/ceostudy2010/multimedia.html.
+- unstructured: IBM. 2016a. IBM Analytics and Big Data. Retrieved from http://www.ibm.com/analytics/us/en/orhttp://www-01.ibm.com/software/data/bigdata/.  IBM.
+    2016a. IBM Analytics and Big Data. Retrieved from http://www.ibm.com/analytics/us/en/orhttp://www-01.ibm.com/software/data/bigdata/.
+- unstructured: IBM. 2016b. What is a Data Scientist? Retrieved from http://www-01.ibm.com/software/data/infosphere/data-scientist/.  IBM.
+    2016b. What is a Data Scientist? Retrieved from http://www-01.ibm.com/software/data/infosphere/data-scientist/.
+- unstructured: IDA. 2014. International Institute of Data 8 Analytics. Retrieved
+    from www.datasciences.org.  IDA. 2014. International Institute of Data 8 Analytics.
+    Retrieved from www.datasciences.org.
+- unstructured: IEEEBD. 2014. IEEE Big Data Initiative. (2014). http://bigdata.ieee.org/.  IEEEBD.
+    2014. IEEE Big Data Initiative. (2014). http://bigdata.ieee.org/.
+- unstructured: IFSC-96. 1996. Data Science Classification and Related Methods. Retrieved
+    from http://d-nb.info/955715512/04.  IFSC-96. 1996. Data Science Classification
+    and Related Methods. Retrieved from http://d-nb.info/955715512/04.
+- unstructured: IJDS. 2016. International Journal of Data Science. (2016). http://www.inderscience.com/jhome.php?jcode&equals;ijds.  IJDS.
+    2016. International Journal of Data Science. (2016). http://www.inderscience.com/jhome.php?jcode&equals;ijds.
+- unstructured: IJRDS. 2017. International Journal of Research on Data Science. Retrieved
+    from http://www.sciencepublishinggroup.com/journal/index?journalid&equals;310.  IJRDS.
+    2017. International Journal of Research on Data Science. Retrieved from http://www.sciencepublishinggroup.com/journal/index?journalid&equals;310.
+- unstructured: INFORMS. 2014. Candidate Handbook. Retrieved from https://www.informs.org/Certification-Continuing-Ed/Analytics-Certificati
+    on/Candidate-Handbook.  INFORMS. 2014. Candidate Handbook. Retrieved from https://www.informs.org/Certification-Continuing-Ed/Analytics-Certificati
+    on/Candidate-Handbook.
+- unstructured: INFORMS. 2016. Institute for Operations Research and the Management
+    Sciences. Retrieved from https://www.informs.org/.  INFORMS. 2016. Institute for
+    Operations Research and the Management Sciences. Retrieved from https://www.informs.org/.
+- doi: 10.2481/dsj.7.54
+- doi: 10.1145/2611567
+- doi: 10.1016/j.bdr.2015.01.005
+- unstructured: JDS. 2002. Journal of Data Science. Retrieved from http://www.jds-online.com/.  JDS.
+    2002. Journal of Data Science. Retrieved from http://www.jds-online.com/.
+- unstructured: JDSA. 2015. International Journal of Data Science and Analytics (JDSA).
+    Retrieved from http://www.springer.com/41060.  JDSA. 2015. International Journal
+    of Data Science and Analytics (JDSA). Retrieved from http://www.springer.com/41060.
+- unstructured: JFDS. 2016. The Journal of Finance and Data Science. Retrieved from
+    http://www.keaipublishing.com/en/journals/the-journal-of-finance-and-data-science/.  JFDS.
+    2016. The Journal of Finance and Data Science. Retrieved from http://www.keaipublishing.com/en/journals/the-journal-of-finance-and-data-science/.
+- unstructured: Kaggle. 2016. Kaggle Competition Data. Retrieved from https://www.kaggle.com/competitions.  Kaggle.
+    2016. Kaggle Competition Data. Retrieved from https://www.kaggle.com/competitions.
+- doi: 10.1179/1743280414Y.0000000043
+- volume-title: IJCAI-89 Workshop on Knowledge Discovery in Databases.
+  year: '1989'
+- unstructured: KDnuggets. 2015. Visualization Software. Retrieved from http://www.kdnuggets.com/software/visualization.html.  KDnuggets.
+    2015. Visualization Software. Retrieved from http://www.kdnuggets.com/software/visualization.html.
+- unstructured: Kdnuggets. 2016. Kdnuggets. Retrieved from http://www.kdnuggets.com/.  Kdnuggets.
+    2016. Kdnuggets. Retrieved from http://www.kdnuggets.com/.
+- author: Kelly K
+  volume-title: Quantified Self Conference.
+  year: '2012'
+- doi: 10.1155/2014/712826
+- unstructured: John King and Roger Magoulas. 2015. 2015 Data Science Salary Survey.
+    Retrieved from http://duu86o6n09pv.cloudfront.net/reports/2015-data-science-salary-survey.pdf.  John
+    King and Roger Magoulas. 2015. 2015 Data Science Salary Survey. Retrieved from
+    http://duu86o6n09pv.cloudfront.net/reports/2015-data-science-salary-survey.pdf.
+- doi: 10.1145/545151.545177
+- unstructured: AMP Lab. 2016. MLBase. Retrieved from http://mlbase.org/.  AMP Lab.
+    2016. MLBase. Retrieved from http://mlbase.org/.
+- doi: 10.14778/2367502.2367572
+- author: Laney Douglas
+  volume-title: '3D Data Management: Controlling Data Volume, Velocity and Variety'
+- doi: 10.1126/science.1248506
+- unstructured: LDC. 2016. Linguistic Data Consortium. Retrieved from https://www.ldc.upenn.edu/about.  LDC.
+    2016. Linguistic Data Consortium. Retrieved from https://www.ldc.upenn.edu/about.
+- unstructured: LinkedIn. 2016. LinkedIn Jobs. Retrieved from https://www.linkedin.com/jobs/data-scientist-jobs.  LinkedIn.
+    2016. LinkedIn Jobs. Retrieved from https://www.linkedin.com/jobs/data-scientist-jobs.
+- author: Loukides Mike
+  volume-title: The Evolution of Data Products. O’Reilly
+- author: Loukides Mike
+  volume-title: What is Data Science? O’Reilly Media
+  year: '2010'
+- doi: 10.1109/CloudCom.2015.57
+- doi: 10.1145/2745390
+- volume-title: 'Big Data: The Next Frontier for Innovation, Competition, and Productivity'
+  year: '2011'
+- unstructured: 'Claire Cain Miller. 2013. Data science: The numbers of our lives.
+    New York Times Retrieved from http://www.nytimes.com/2013/04/14/education/edlife/universities-offer-courses-in-a-hot-new-field-data-science.html?pagewanted&equals;all8_r&equals;0.  Claire
+    Cain Miller. 2013. Data science: The numbers of our lives. New York Times Retrieved
+    from http://www.nytimes.com/2013/04/14/education/edlife/universities-offer-courses-in-a-hot-new-field-data-science.html?pagewanted&equals;all8_r&equals;0.'
+- author: Havart Arthur John
+  volume-title: Proceedings of IFIP Congress
+  year: '1968'
+- author: Murray-Rust Peter
+  volume-title: NSF/JISC 2007 Digital Repositories Workshop. http://www.sis.pitt.edu/repwkshop/papers/murray.pdf.
+  year: '2007'
+- author: Naur Peter
+  volume-title: Proceedings of IFIP Congress
+  year: '1968'
+- unstructured: Peter Naur. 1974. Concise Survey of Computer Methods. Studentlitteratur
+    Lund Sweden.  Peter Naur. 1974. Concise Survey of Computer Methods. Studentlitteratur
+    Lund Sweden.
+- author: NCSU.
+  volume-title: Institute for Advanced Analytics
+- author: NCSU.
+  volume-title: Master of Science in Analytics
+- article-title: 'Data-driven science: A new paradigm'
+  author: Nelson Michael L.
+  first-page: '6'
+  journal-title: EDUCAUSE Review
+  volume: '44'
+  year: '2009'
+- unstructured: NICTA. 2016. National ICT Australia. Retrieved from https://www.nicta.com.au/.  NICTA.
+    2016. National ICT Australia. Retrieved from https://www.nicta.com.au/.
+- author: NIST.
+  volume-title: NIST Text Retrieval Conference Data.
+  year: '2015'
+- author: NSB.
+  volume-title: 'Long-Lived Digital Data Collections: Enabling Research and Education
+    in the 21st Century.'
+- unstructured: NSF. 2007. US NSF07-28. Retrieved from http://www.nsf.gov/pubs/2007/nsf0728/nsf0728.pdf.  NSF.
+    2007. US NSF07-28. Retrieved from http://www.nsf.gov/pubs/2007/nsf0728/nsf0728.pdf.
+- unstructured: OECD. 2007. OECD Principles and Guidelines for Access to Research
+    Data from Public Funding. Retrieved from https://www.oecd.org/sti/sci-tech/38500813.pdf.  OECD.
+    2007. OECD Principles and Guidelines for Access to Research Data from Public Funding.
+    Retrieved from https://www.oecd.org/sti/sci-tech/38500813.pdf.
+- unstructured: OPENedX. 2016. OPENedX Online Education Platform. Retrieved from https://open.edx.org/.  OPENedX.
+    2016. OPENedX Online Education Platform. Retrieved from https://open.edx.org/.
+- unstructured: Tim O’Reilly. 2005. What is Web 2.0. Retrieved from http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page&equals;3.  Tim
+    O’Reilly. 2005. What is Web 2.0. Retrieved from http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page&equals;3.
+- unstructured: D. J. Patil. 2011. Building Data Science Teams. O’Reilly Media.  D.
+    J. Patil. 2011. Building Data Science Teams. O’Reilly Media.
+- doi: 10.1109/52.219617
+- unstructured: Gil Press. 2013. A Very Short History of Data Science. Retrieved from
+    http://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/61ae3ebb69fd.  Gil
+    Press. 2013. A Very Short History of Data Science. Retrieved from http://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/61ae3ebb69fd.
+- article-title: Revisiting issues on open complex giant systems
+  author: Qian Xuesen
+  first-page: '5'
+  journal-title: International Journal of Pattern Recognition and Artificial Intelligence
+  volume: '4'
+  year: '1991'
+- author: Qian Xuesen
+  volume-title: A new discipline of science—The study of open complex giant system
+    and its methodology. Chinese Journal of Systems Engineering 8 Electronics. 4,
+    2
+  year: '1993'
+- volume-title: https://rapidminer.com/
+  year: '2016'
+- author: Renae Samantha
+  volume-title: 'Data analytics: Crunching the future. Bloomberg Businessweek'
+  year: '2011'
+- unstructured: Solutions Review. 2016. Data Integration and Application Integration
+    Solutions Directory. Retrieved from http://solutionsreview.com/data-integration/data-integration-solutions-directory/.  Solutions
+    Review. 2016. Data Integration and Application Integration Solutions Directory.
+    Retrieved from http://solutionsreview.com/data-integration/data-integration-solutions-directory/.
+- author: Rudin C.
+  volume-title: 'Data: Leveraging Statistics with Computer Science to Transform Science
+    and Society.'
+  year: '2014'
+- article-title: Big Data Analytics
+  author: SAS.
+  first-page: '2012'
+  journal-title: An Assessment of Demand for Labour and Skills
+  year: '2013'
+- unstructured: SAS. 2016. SAS Retrieved from http://www.sas.com/en_us/insights.html.  SAS.
+    2016. SAS Retrieved from http://www.sas.com/en_us/insights.html.
+- doi: 10.1111/jbl.12082
+- unstructured: SIAM. 2016. SIAM career center. (2016). http://jobs.siam.org/home/.  SIAM.
+    2016. SIAM career center. (2016). http://jobs.siam.org/home/.
+- doi: 10.1109/IIAI-AAI.2015.177
+- unstructured: Silk. 2016. Data Science University Programs. Retrieved from http://data-science-university-programs.silk.co/.  Silk.
+    2016. Data Science University Programs. Retrieved from http://data-science-university-programs.silk.co/.
+- doi: 10.1002/biot.201100495
+- doi: 10.2481/dsj.5.163
+- unstructured: SSDS. 2015. Springer Series in the Data Sciences. Retrieved from http://www.springer.com/series/13852.  SSDS.
+    2015. Springer Series in the Data Sciences. Retrieved from http://www.springer.com/series/13852.
+- volume-title: Stanford Data Science Initiatives
+- doi: 10.5555/39590.39607
+- doi: 10.1145/2481528.2481537
+- doi: 10.1089/big.2012.0002
+- unstructured: Technavio. 2016. Top 10 Healthcare Data Analytics Companies. Retrieved
+    from http://www.technavio.com/blog/top-10-healthcare-data-analytics-companies.  Technavio.
+    2016. Top 10 Healthcare Data Analytics Companies. Retrieved from http://www.technavio.com/blog/top-10-healthcare-data-analytics-companies.
+- unstructured: TFDSAA. 2013. IEEE Task Force on Data Science and Advanced Analytics.
+    Retrieved from http://dsaatf.dsaa.co/.  TFDSAA. 2013. IEEE Task Force on Data
+    Science and Advanced Analytics. Retrieved from http://dsaatf.dsaa.co/.
+- unstructured: TOBD. 2015. IEEE Transactions on Big Data. Retrieved from https://www.computer.org/web/tbd.  TOBD.
+    2015. IEEE Transactions on Big Data. Retrieved from https://www.computer.org/web/tbd.
+- unstructured: Predictive Analytics Today. 2016. 29 Data Preparation Tools and Platforms.
+    Retrieved from http://www.predictiveanalyticstoday.com/data-preparation-tools-and-platforms/.  Predictive
+    Analytics Today. 2016. 29 Data Preparation Tools and Platforms. Retrieved from
+    http://www.predictiveanalyticstoday.com/data-preparation-tools-and-platforms/.
+- doi: 10.1214/aoms/1177704711
+- unstructured: John W. Tukey. 1977. Exploratory Data Analysis. Pearson.  John W.
+    Tukey. 1977. Exploratory Data Analysis. Pearson.
+- unstructured: Tutiempo. 2016. Global Climate Data. Retrieved from http://en.tutiempo.net/climate.  Tutiempo.
+    2016. Global Climate Data. Retrieved from http://en.tutiempo.net/climate.
+- unstructured: UCI. 2016. UCI Machine Learning Repository. Retrieved from archive.ics.uci.edu/ml/.  UCI.
+    2016. UCI Machine Learning Repository. Retrieved from archive.ics.uci.edu/ml/.
+- unstructured: Udacity. 2016. Udacity Courses. Retrieved from https://www.udacity.com/courses/data-science.  Udacity.
+    2016. Udacity Courses. Retrieved from https://www.udacity.com/courses/data-science.
+- unstructured: Udemy. 2016. Udemy Courses. Retrieved from https://www.udemy.com/courses/search/?ref&equals;home8src&equals;ukw8q&equals;data+science8lang&equals;en.  Udemy.
+    2016. Udemy Courses. Retrieved from https://www.udemy.com/courses/search/?ref&equals;home8src&equals;ukw8q&equals;data+science8lang&equals;en.
+- unstructured: UK. 2016. UK Big Data. Retrieved from http://www.rcuk.ac.uk/research/infrastructure/big-data/.  UK.
+    2016. UK Big Data. Retrieved from http://www.rcuk.ac.uk/research/infrastructure/big-data/.
+- unstructured: UK-HM. 2012. UK HM Government. Retrieved from http://data.gov.uk/sites/default/files/Open_data_White_Paper.pdf.  UK-HM.
+    2012. UK HM Government. Retrieved from http://data.gov.uk/sites/default/files/Open_data_White_Paper.pdf.
+- unstructured: UK-OD. 2016. UK Open Data. Retrieved from http://data.gov.uk/.  UK-OD.
+    2016. UK Open Data. Retrieved from http://data.gov.uk/.
+- volume-title: Michigan Institute For Data Science
+- unstructured: UN. 2010. United Nation Global Pulse Projects. Retrieved from http://www.unglobalpulse.org/.  UN.
+    2010. United Nation Global Pulse Projects. Retrieved from http://www.unglobalpulse.org/.
+- unstructured: US-OD. 2016. US Government Open Data. Retrieved from https://www.data.gov/.  US-OD.
+    2016. US Government Open Data. Retrieved from https://www.data.gov/.
+- unstructured: USD2D. 2016. US National Consortium for Data Science. Retrieved from
+    data2discovery.org.  USD2D. 2016. US National Consortium for Data Science. Retrieved
+    from data2discovery.org.
+- unstructured: USDSC. 2016. US Degree Programs in Analytics and Data Science. Retrieved
+    from http://analytics.ncsu.edu/?page_id&equals;4184.  USDSC. 2016. US Degree Programs
+    in Analytics and Data Science. Retrieved from http://analytics.ncsu.edu/?page_id&equals;4184.
+- unstructured: USNSF. 2012. US Big Data Research Initiative. Retrieved from http://www.nsf.gov/cise/news/bigdata.jsp.  USNSF.
+    2012. US Big Data Research Initiative. Retrieved from http://www.nsf.gov/cise/news/bigdata.jsp.
+- author: UTS.
+  volume-title: 'Master of Analytics (Research) and Doctor of Philosophy Thesis: Analytics'
+- author: UTSAAI.
+  volume-title: Advanced Analytics Institute
+- author: van Dyk David
+  volume-title: Duncan Temple Lang, and Hadley Wickham
+  year: '2015'
+- unstructured: Vast. 2016. Visual Analytics Community. Retrieved from http://vacommunity.org/HomePage.  Vast.
+    2016. Visual Analytics Community. Retrieved from http://vacommunity.org/HomePage.
+- unstructured: Dan Vesset Benjamin Woo Henry D. Morris Richard L. Villars Gard Little
+    Jean S. Bozman Lucinda Borovick Carl W. Olofson Susan Feldman Steve Conway Matthew
+    Eastwood and Natalya Yezhkova. 2012. Worldwide Big Data Technology and Services
+    2012-2015 Forecast. IDC.  Dan Vesset Benjamin Woo Henry D. Morris Richard L. Villars
+    Gard Little Jean S. Bozman Lucinda Borovick Carl W. Olofson Susan Feldman Steve
+    Conway Matthew Eastwood and Natalya Yezhkova. 2012. Worldwide Big Data Technology
+    and Services 2012-2015 Forecast. IDC.
+- author: Viseu Ana
+  volume-title: 'Wearable Augmentations: Imaginaries of the Informed Body'
+  year: '2010'
+- unstructured: Whitehouse. 2015. The White House Names Dr. D. J. Patil as the First
+    U.S. Chief Data Scientist. Retrieved from https://www.whitehouse.gov/blog/2015/02/18/white-house-names-dr-dj-patil-first-us-chief-data-scientist.  Whitehouse.
+    2015. The White House Names Dr. D. J. Patil as the First U.S. Chief Data Scientist.
+    Retrieved from https://www.whitehouse.gov/blog/2015/02/18/white-house-names-dr-dj-patil-first-us-chief-data-scientist.
+- unstructured: Wikipedia. 2016a. Comparison of Cluster Software. Retrieved from https://en.wikipedia.org/wiki/Comparison_of_cluster_software.  Wikipedia.
+    2016a. Comparison of Cluster Software. Retrieved from https://en.wikipedia.org/wiki/Comparison_of_cluster_software.
+- volume-title: https://en.wikipedia.org/wiki/Informatics
+  year: '2016'
+- unstructured: Wikipedia. 2016c. List of Reporting Software. Retrieved from https://en.wikipedia.org/wiki/List_of_reporting_software.  Wikipedia.
+    2016c. List of Reporting Software. Retrieved from https://en.wikipedia.org/wiki/List_of_reporting_software.
+- unstructured: WIRED. 2014. How Europe can Seize the Starring Role in Big Data. Retrieved
+    from www.wired.com/insights/2014/09/europe-big-data/.  WIRED. 2014. How Europe
+    can Seize the Starring Role in Big Data. Retrieved from www.wired.com/insights/2014/09/europe-big-data/.
+- unstructured: Gary Wolf. 2012. The data-driven life. New York Times. Retrieved from
+    www.nytimes.com/2010/05/02/magazine/02self-measurement-t.html.  Gary Wolf. 2012.
+    The data-driven life. New York Times. Retrieved from www.nytimes.com/2010/05/02/magazine/02self-measurement-t.html.
+- author: Jeff Wu.
+  volume-title: Statistics &equals
+- unstructured: Yahoo. 2016. Yahoo Finance. Retrieved from finance.yahoo.com.  Yahoo.
+    2016. Yahoo Finance. Retrieved from finance.yahoo.com.
+- unstructured: Nathan Yau. 2009. Rise of the Data Scientist. Retrieved from http://flowingdata.com/2009/06/04/rise-of-the-data-scientist/.  Nathan
+    Yau. 2009. Rise of the Data Scientist. Retrieved from http://flowingdata.com/2009/06/04/rise-of-the-data-scientist/.
+- unstructured: Chris Yiu. 2012. The Big Data Opportunity. Retrieved from http://www.policyexchange.org.uk/images/publications/thepportunity.pdf.  Chris
+    Yiu. 2012. The Big Data Opportunity. Retrieved from http://www.policyexchange.org.uk/images/publications/thepportunity.pdf.
+- author: Bin Yu.
+  volume-title: 'IMS presidential address: Let us own data science. IMS Bulletin Online'
+  year: '2014'
+doi: 10.1145/3076253
+files:
+- cao-longbingdata-science-a-comprehensive-overview2018.pdf
+issue: '3'
+journal: ACM Computing Surveys
+language: en
+month: 5
+pages: 1--42
+publisher: Association for Computing Machinery (ACM)
+ref: DataScienceCaoL2018
+time-added: 2023-03-05-22:33:47
+title: 'Data Science: A Comprehensive Overview'
+type: article
+url: http://dx.doi.org/10.1145/3076253
+volume: '50'
+year: 2018

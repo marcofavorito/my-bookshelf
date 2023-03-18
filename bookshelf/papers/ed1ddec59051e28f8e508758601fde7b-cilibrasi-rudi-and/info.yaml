@@ -1,0 +1,41 @@
+abstract: Words and phrases acquire meaning from the way they are used in society,
+  from their relative semantics to other words and phrases. For computers the equivalent
+  of `society' is `database,' and the equivalent of `use' is `way to search the database.'
+  We present a new theory of similarity between words and phrases based on information
+  distance and Kolmogorov complexity. To fix thoughts we use the world-wide-web as
+  database, and Google as search engine. The method is also applicable to other search
+  engines and databases. This theory is then applied to construct a method to automatically
+  extract similarity, the Google similarity distance, of words and phrases from the
+  world-wide-web using Google page counts. The world-wide-web is the largest database
+  on earth, and the context information entered by millions of independent users averages
+  out to provide automatic semantics of useful quality. We give applications in hierarchical
+  clustering, classification, and language translation. We give examples to distinguish
+  between colors and numbers, cluster names of paintings by 17th century Dutch masters
+  and names of books by English novelists, the ability to understand emergencies,
+  and primes, and we demonstrate the ability to do a simple automatic English-Spanish
+  translation. Finally, we use the WordNet database as an objective baseline against
+  which to judge the performance of our method. We conduct a massive randomized trial
+  in binary classification using support vector machines to learn categories based
+  on our Google distance, resulting in an a mean agreement of 87% with the expert
+  crafted WordNet categories.
+archiveprefix: arXiv
+author: Cilibrasi, Rudi and Vitanyi, Paul M. B.
+author_list:
+- family: Cilibrasi
+  given: Rudi
+- family: Vitanyi
+  given: Paul M. B.
+eprint: cs/0412098v3
+file: cs/0412098v3.pdf
+files:
+- cilibrasi-rudi-and-vitanyi-paul-m.-b.the-google-similarity-distance2004.pdf
+month: Dec
+note: R.L. Cilibrasi, P.M.B. Vitanyi, The Google Similarity Distance,   IEEE Trans.
+  Knowledge and Data Engineering, 19:3(2007), 370-383
+primaryclass: cs.CL
+ref: cs/0412098v3
+time-added: 2023-03-08-11:51:04
+title: The Google Similarity Distance
+type: article
+url: http://arxiv.org/abs/cs/0412098v3
+year: '2004'

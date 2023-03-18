@@ -1,0 +1,74 @@
+abstract: Multitask prompted finetuning (MTF) has been shown to help large language
+  models generalize to new tasks in a zero-shot setting, but so far explorations of
+  MTF have focused on English data and models. We apply MTF to the pretrained multilingual
+  BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0.
+  We find finetuning large multilingual language models on English tasks with English
+  prompts allows for task generalization to non-English languages that appear only
+  in the pretraining corpus. Finetuning on multilingual tasks with English prompts
+  further improves performance on English and non-English tasks leading to various
+  state-of-the-art zero-shot results. We also investigate finetuning on multilingual
+  tasks with prompts that have been machine-translated from English to match the language
+  of each dataset. We find training on these machine-translated prompts leads to better
+  performance on human-written prompts in the respective languages. Surprisingly,
+  we find models are capable of zero-shot generalization to tasks in languages they
+  have never intentionally seen. We conjecture that the models are learning higher-level
+  capabilities that are both task- and language-agnostic. In addition, we introduce
+  xP3, a composite of supervised datasets in 46 languages with English and machine-translated
+  prompts. Our code, datasets and models are publicly available at https://github.com/bigscience-workshop/xmtf.
+archiveprefix: arXiv
+author: Muennighoff, Niklas and Wang, Thomas and Sutawika, Lintang and Roberts, Adam
+  and Biderman, Stella and Scao, Teven Le and Bari, M Saiful and Shen, Sheng and Yong,
+  Zheng-Xin and Schoelkopf, Hailey and Tang, Xiangru and Radev, Dragomir and Aji,
+  Alham Fikri and Almubarak, Khalid and Albanie, Samuel and Alyafeai, Zaid and Webson,
+  Albert and Raff, Edward and Raffel, Colin
+author_list:
+- family: Muennighoff
+  given: Niklas
+- family: Wang
+  given: Thomas
+- family: Sutawika
+  given: Lintang
+- family: Roberts
+  given: Adam
+- family: Biderman
+  given: Stella
+- family: Scao
+  given: Teven Le
+- family: Bari
+  given: M Saiful
+- family: Shen
+  given: Sheng
+- family: Yong
+  given: Zheng-Xin
+- family: Schoelkopf
+  given: Hailey
+- family: Tang
+  given: Xiangru
+- family: Radev
+  given: Dragomir
+- family: Aji
+  given: Alham Fikri
+- family: Almubarak
+  given: Khalid
+- family: Albanie
+  given: Samuel
+- family: Alyafeai
+  given: Zaid
+- family: Webson
+  given: Albert
+- family: Raff
+  given: Edward
+- family: Raffel
+  given: Colin
+eprint: 2211.01786v1
+file: 2211.01786v1.pdf
+files:
+- muennighoff-niklas-and-wang-thomas-and-sutawika-lintang-and-roberts-adam-and-biderman-stella-and-scao-teven-le-and-bari-m-saiful-and-shen-shen.pdf
+month: Nov
+primaryclass: cs.CL
+ref: 2211.01786v1
+time-added: 2023-03-09-14:55:52
+title: Crosslingual Generalization through Multitask Finetuning
+type: article
+url: http://arxiv.org/abs/2211.01786v1
+year: '2022'

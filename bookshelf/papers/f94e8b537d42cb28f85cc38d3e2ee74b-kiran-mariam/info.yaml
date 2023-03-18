@@ -1,0 +1,35 @@
+abstract: Social scientists have used agent-based models to understand how individuals
+  interact and behave in various political, ecological and economic scenarios. Agent-based
+  models are ideal for understanding such models involving interacting individuals
+  producing emergent phenomenon. Sugarscape is one of the most famous examples of
+  a social agent-based model which has been used to show how societies grow in the
+  real world.   This paper builds on the Sugarscape model, using the Flexible Large
+  scale Agent-based modelling Environment (FLAME) to simulate three different scenarios
+  of the experiment, which are based on the Sugar and Citizen locations. FLAME is
+  an agent-based modelling framework which has previously been used to model biological
+  and economic models. The paper includes details on how the model was written and
+  the various parameters set for the simulation. The results of the model simulated
+  are processed for three scenarios and analysed to see what affect the initial starting
+  states of the agents had on the overall result obtained through the model and the
+  variance in simulation time of processing the model on multicore architectures.   The
+  experiments highlight that there are limitations of the FLAME framework and writing
+  simulation models in general which are highly dependent on initial starting states
+  of a model, also raising further potential work which can be built into the Sugarscape
+  model to study other interesting phenomenon in social and economic laws.
+archiveprefix: arXiv
+author: Kiran, Mariam
+author_list:
+- family: Kiran
+  given: Mariam
+eprint: 1408.3441v1
+file: 1408.3441v1.pdf
+files:
+- kiran-mariamusing-flame-toolkit-for-agent-based-simulation-case-study-sugarscape-model2014.pdf
+month: Aug
+primaryclass: cs.MA
+ref: 1408.3441v1
+time-added: 2023-03-08-16:29:08
+title: 'Using FLAME Toolkit for Agent-Based Simulation: Case Study Sugarscape   Model'
+type: article
+url: http://arxiv.org/abs/1408.3441v1
+year: '2014'

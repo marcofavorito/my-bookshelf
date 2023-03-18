@@ -1,0 +1,40 @@
+abstract: 'Modelling human function learning has been the subject of in-tense research
+  in cognitive sciences. The topic is relevant in black-box optimization where information
+  about the objective and/or constraints is not available and must be learned through
+  function evaluations. In this paper we focus on the relation between the behaviour
+  of humans searching for the maximum and the probabilistic model used in Bayesian
+  Optimization. As surrogate models of the unknown function both Gaussian Processes
+  and Random Forest have been considered: the Bayesian learning paradigm is central
+  in the development of active learning approaches balancing exploration/exploitation
+  in uncertain conditions towards effective generalization in large decision spaces.
+  In this paper we analyse experimentally how Bayesian Optimization compares to humans
+  searching for the maximum of an unknown 2D function. A set of controlled experiments
+  with 60 subjects, using both surrogate models, confirm that Bayesian Optimization
+  provides a general model to represent individual patterns of active learning in
+  humans'
+archiveprefix: arXiv
+author: Candelieri, Antonio and Perego, Riccardo and Giordani, Ilaria and Ponti, Andrea
+  and Archetti, Francesco
+author_list:
+- family: Candelieri
+  given: Antonio
+- family: Perego
+  given: Riccardo
+- family: Giordani
+  given: Ilaria
+- family: Ponti
+  given: Andrea
+- family: Archetti
+  given: Francesco
+eprint: 2003.04275v1
+file: 2003.04275v1.pdf
+files:
+- candelieri-antonio-and-perego-riccardo-and-giordani-ilaria-and-ponti-andrea-and-archetti-francescomodelling-human-active-search-in-optimizing-bla.pdf
+month: Mar
+primaryclass: cs.CY
+ref: 2003.04275v1
+time-added: 2023-03-07-16:18:19
+title: Modelling Human Active Search in Optimizing Black-box Functions
+type: article
+url: http://arxiv.org/abs/2003.04275v1
+year: '2020'
