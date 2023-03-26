@@ -1,0 +1,980 @@
+abstract: <jats:p>Sequential decision making, commonly formalized as optimization
+  of a Markov Decision Process, is a key challenge in artificial intelligence. Two
+  successful approaches to MDP optimization are<jats:italic>reinforcement learning</jats:italic>and<jats:italic>planning</jats:italic>,
+  which both largely have their own research communities. However, if both research
+  fields solve the same problem, then we might be able to disentangle the common factors
+  in their solution approaches. Therefore, this paper presents a unifying algorithmic
+  framework for reinforcement learning and planning (FRAP), which identifies underlying
+  dimensions on which MDP planning and learning algorithms have to decide. At the
+  end of the paper, we compare a variety of well-known planning, model-free and model-based
+  RL algorithms along these dimensions. Altogether, the framework may help provide
+  deeper insight in the algorithmic design space of planning and reinforcement learning.</jats:p>
+author: Moerland, Thomas M. and Broekens, Joost and Plaat, Aske and Jonker, Catholijn
+  M.
+author_list:
+- affiliation: []
+  family: Moerland
+  given: Thomas M.
+- affiliation: []
+  family: Broekens
+  given: Joost
+- affiliation: []
+  family: Plaat
+  given: Aske
+- affiliation: []
+  family: Jonker
+  given: Catholijn M.
+citations:
+- article-title: Surprise-based intrinsic motivation for deep reinforcement learning
+  author: Achiam
+  volume-title: arXiv preprint arXiv:1703.01732
+  year: '2017'
+- article-title: Solving the Rubik's cube with deep reinforcement learning and search
+  author: Agostinelli
+  doi: 10.1038/s42256-019-0070-z
+  first-page: '356'
+  journal-title: Nat. Mach. Intell
+  volume: '1'
+  year: '2019'
+- article-title: Binary decision diagrams
+  author: Akers
+  doi: 10.1109/TC.1978.1675141
+  first-page: '509'
+  journal-title: IEEE Trans. Comput
+  volume: '27'
+  year: '1978'
+- article-title: “Revisiting regression in planning,”
+  author: Alcázar
+  volume-title: Twenty-Third International Joint Conference on Artificial Intelligence
+  year: '2013'
+- author: Anderson
+  volume-title: 'Optimal Control: Linear Quadratic Methods'
+  year: '2007'
+- article-title: 'Deep reinforcement learning: a brief survey'
+  author: Arulkumaran
+  doi: 10.1109/MSP.2017.2743240
+  first-page: '26'
+  journal-title: IEEE Signal Process. Mag
+  volume: '34'
+  year: '2017'
+- article-title: “A reinforcement learning method based on adaptive simulated annealing,”
+  author: Atiya
+  doi: 10.1109/MWSCAS.2003.1562233
+  first-page: '121'
+  volume-title: 2003 46th Midwest Symposium on Circuits and Systems, Vol. 1
+  year: '2003'
+- article-title: Finite-time analysis of the multiarmed bandit problem
+  author: Auer
+  doi: 10.1023/A:1013689704352
+  first-page: '235'
+  journal-title: Mach Learn
+  volume: '47'
+  year: '2002'
+- article-title: Active learning of inverse models with intrinsically motivated goal
+    exploration in robots
+  author: Baranes
+  doi: 10.1016/j.robot.2012.05.008
+  first-page: '49'
+  journal-title: Rob. Auton. Syst
+  volume: '61'
+  year: '2013'
+- article-title: Learning to act using real-time dynamic programming
+  author: Barto
+  doi: 10.1016/0004-3702(94)00011-O
+  first-page: '81'
+  journal-title: Artif. Intell
+  volume: '72'
+  year: '1995'
+- article-title: Recent advances in hierarchical reinforcement learning
+  author: Barto
+  doi: 10.1023/A:1022140919877
+  first-page: '41'
+  journal-title: Discrete Event Dyn. Syst
+  volume: '13'
+  year: '2003'
+- article-title: Neuronlike adaptive elements that can solve difficult learning control
+    problems
+  author: Barto
+  doi: 10.1109/TSMC.1983.6313077
+  first-page: '834'
+  journal-title: IEEE Trans. Syst. Man Cybern
+  volume: '13'
+  year: '1983'
+- article-title: “Unifying count-based exploration and intrinsic motivation,”
+  author: Bellemare
+  first-page: '1471'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- article-title: “A distributional perspective on reinforcement learning,”
+  author: Bellemare
+  first-page: '449'
+  volume-title: International Conference on Machine Learning
+  year: '2017'
+- article-title: The theory of dynamic programming
+  author: Bellman
+  doi: 10.1090/S0002-9904-1954-09848-8
+  first-page: '503'
+  journal-title: Bull. New Ser. Am. Math. Soc
+  volume: '60'
+  year: '1954'
+- article-title: A Markovian decision process
+  author: Bellman
+  doi: 10.1512/iumj.1957.6.56038
+  first-page: '679'
+  journal-title: J. Math. Mech
+  volume: '6'
+  year: '1957'
+- article-title: Dynamic programming
+  author: Bellman
+  doi: 10.1126/science.153.3731.34
+  first-page: '34'
+  journal-title: Science
+  volume: '153'
+  year: '1966'
+- author: Bertsekas
+  volume-title: 'Dynamic Programming and Optimal Control: Volume I. Vol. 1'
+  year: '2012'
+- author: Bertsekas
+  volume-title: Dynamic Programming and Optimal Control 3rd Edition, Volume 2
+  year: '2011'
+- article-title: An analysis of stochastic shortest path problems
+  author: Bertsekas
+  doi: 10.1287/moor.16.3.580
+  first-page: '580'
+  journal-title: Math. Operat. Res
+  volume: '16'
+  year: '1991'
+- author: Bertsekas
+  volume-title: Neuro-Dynamic Programming, Vol. 5
+  year: '1996'
+- article-title: Model-free episodic control
+  author: Blundell
+  volume-title: arXiv preprint arXiv:1606.04460
+  year: '2016'
+- article-title: A multiple shooting algorithm for direct solution of optimal control
+    problems
+  author: Bock
+  doi: 10.1016/S1474-6670(17)61205-9
+  first-page: '1603'
+  journal-title: IFAC Proc
+  volume: '17'
+  year: '1984'
+- article-title: Planning as heuristic search
+  author: Bonet
+  doi: 10.1016/S0004-3702(01)00108-4
+  first-page: '5'
+  journal-title: Artif. Intell
+  volume: '129'
+  year: '2001'
+- article-title: “Faster heuristic search algorithms for planning with uncertainty
+    and full feedback,”
+  author: Bonet
+  first-page: '1233'
+  volume-title: IJCAI
+  year: ''
+- article-title: '“Labeled RTDP: improving the convergence of real-time dynamic programming,”'
+  author: Bonet
+  first-page: '12'
+  volume-title: ICAPS Vol. 3
+  year: ''
+- article-title: Planning as inference
+  author: Botvinick
+  doi: 10.1016/j.tics.2012.08.006
+  first-page: '485'
+  journal-title: Trends Cogn. Sci
+  volume: '16'
+  year: '2012'
+- article-title: Linear least-squares algorithms for temporal difference learning
+  author: Bradtke
+  doi: 10.1007/BF00114723
+  first-page: '33'
+  journal-title: Mach. Learn
+  volume: '22'
+  year: '1996'
+- article-title: R-MAX–A general polynomial time algorithm for near-optimal reinforcement
+    learning
+  author: Brafman
+  doi: 10.1162/153244303765208377
+  first-page: '213'
+  journal-title: J. Mach. Learn. Res
+  volume: '3'
+  year: '2003'
+- article-title: A survey of monte carlo tree search methods
+  author: Browne
+  doi: 10.1109/TCIAIG.2012.2186810
+  first-page: '1'
+  journal-title: IEEE Trans. Comput. Intell. AI Games
+  volume: '4'
+  year: '2012'
+- article-title: Symbolic boolean manipulation with ordered binary-decision diagrams
+  author: Bryant
+  doi: 10.1145/136035.136043
+  first-page: '293'
+  journal-title: ACM Comput. Surveys
+  volume: '24'
+  year: '1992'
+- article-title: “Sample-efficient reinforcement learning with stochastic ensemble
+    value expansion,”
+  author: Buckman
+  first-page: '8224'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2018'
+- article-title: A comprehensive survey of multiagent reinforcement learning. IEEE
+    Trans
+  author: Busoniu
+  doi: 10.1109/TSMCC.2007.913919
+  first-page: '156'
+  journal-title: Syst. Man Cybern. C
+  volume: '2'
+  year: '2008'
+- article-title: Deep blue
+  author: Campbell
+  doi: 10.1016/S0004-3702(01)00129-1
+  first-page: '57'
+  journal-title: Artif. Intell
+  volume: '134'
+  year: '2002'
+- article-title: “Boltzmann exploration done right,”
+  author: Cesa-Bianchi
+  volume-title: 31st Conference on Neural Information Processing Systems (NIPS 2017)
+  year: '2017'
+- article-title: “Intrinsically motivated reinforcement learning,”
+  author: Chentanez
+  first-page: '1281'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2005'
+- article-title: 'Intrinsically motivated goal-conditioned reinforcement learning:
+    a short survey'
+  author: Colas
+  volume-title: arXiv preprint arXiv:2012.09830
+  year: '2020'
+- article-title: Efficient model-based deep reinforcement learning with variational
+    state tabulation
+  author: Corneil
+  volume-title: arXiv preprint arXiv:1802.04325
+  year: '2018'
+- article-title: “Efficient selectivity and backup operators in Monte-Carlo tree search,”
+  author: Coulom
+  first-page: '72'
+  volume-title: International Conference on Computers and Games
+  year: '2006'
+- article-title: “Bayesian Q-learning,”
+  author: Dearden
+  first-page: '761'
+  volume-title: AAAI/IAAI
+  year: '1998'
+- article-title: '“PILCO: a model-based and data-efficient approach to policy search,”'
+  author: Deisenroth
+  first-page: '465'
+  volume-title: Proceedings of the 28th International Conference on Machine Learning
+    (ICML-11)
+  year: '2011'
+- article-title: A survey on policy search for robotics
+  author: Deisenroth
+  doi: 10.1561/2300000021
+  first-page: '1'
+  journal-title: Foundat. Trends® Rob
+  volume: '2'
+  year: '2013'
+- article-title: A note on two problems in connexion with graphs
+  author: Dijkstra
+  doi: 10.1007/BF01386390
+  first-page: '269'
+  journal-title: Numerische Math
+  volume: '1'
+  year: '1959'
+- article-title: First return, then explore
+  author: Ecoffet
+  doi: 10.1038/s41586-020-03157-9
+  first-page: '580'
+  journal-title: Nature
+  volume: '590'
+  year: '2021'
+- author: Edelkamp
+  volume-title: 'Heuristic Search: Theory and Applications'
+  year: '2011'
+- article-title: Forward-backward reinforcement learning
+  author: Edwards
+  volume-title: arXiv preprint arXiv:1803.10227
+  year: '2018'
+- article-title: “Value-gradient learning,”
+  author: Fairbank
+  first-page: '1'
+  volume-title: The 2012 International Joint Conference on Neural Networks (IJCNN)
+  year: '2012'
+- article-title: 'KBFS: K-best-first search'
+  author: Felner
+  doi: 10.1023/A:1024452529781
+  first-page: '19'
+  journal-title: Ann. Math. Artif. Intell
+  volume: '39'
+  year: '2003'
+- article-title: “Automatic goal generation for reinforcement learning agents,”
+  author: Florensa
+  first-page: '1514'
+  volume-title: International Conference on Machine Learning
+  year: '2018'
+- article-title: An introduction to deep reinforcement learning
+  author: François-Lavet
+  doi: 10.1561/9781680835397
+  first-page: '219'
+  journal-title: Foundat. Trends® Mach. Learn
+  volume: '11'
+  year: '2018'
+- article-title: A concise introduction to models and methods for automated planning
+  author: Geffner
+  doi: 10.2200/S00513ED1V01Y201306AIM022
+  first-page: '1'
+  journal-title: Synthesis Lectures Artif. Intell. Mach. Learn
+  volume: '8'
+  year: '2013'
+- article-title: '“Exploration exploitation in go: UCT for Monte-Carlo go,”'
+  author: Gelly
+  volume-title: 'NIPS: Neural Information Processing Systems Conference On-line trading
+    of Exploration and Exploitation Workshop'
+  year: '2006'
+- article-title: 'Reinforcement learning and episodic memory in humans and animals:
+    an integrative framework'
+  author: Gershman
+  doi: 10.1146/annurev-psych-122414-033625
+  first-page: '101'
+  journal-title: Annu. Rev. Psychol
+  volume: '68'
+  year: '2017'
+- author: Goodfellow
+  volume-title: Deep Learning
+  year: '2016'
+- article-title: Hybrid computing using a neural network with dynamic external memory
+  author: Graves
+  doi: 10.1038/nature20101
+  first-page: '471'
+  journal-title: Nature
+  volume: '538'
+  year: '2016'
+- article-title: “Efficient Bayes-adaptive reinforcement learning using sample-based
+    search,”
+  author: Guez
+  first-page: '1025'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2012'
+- article-title: Analogues of mental simulation and imagination in deep learning
+  author: Hamrick
+  doi: 10.1016/j.cobeha.2018.12.011
+  first-page: '8'
+  journal-title: Curr. Opin. Behav. Sci
+  volume: '29'
+  year: '2019'
+- article-title: “Combining q-learning and search with amortized value estimates,”
+  author: Hamrick
+  volume-title: International Conference on Learning Representations (ICLR)
+  year: ''
+- article-title: “On the role of planning in model-based deep reinforcement learning,”
+  author: Hamrick
+  volume-title: International Conference on Learning Representations
+  year: ''
+- article-title: 'LAO⋆: a heuristic search algorithm that finds solutions with loops'
+  author: Hansen
+  doi: 10.1016/S0004-3702(01)00106-0
+  first-page: '35'
+  journal-title: Artif. Intell
+  volume: '129'
+  year: '2001'
+- article-title: “Bootstrapping upper confidence bound,”
+  author: Hao
+  volume-title: 33rd Conference on Neural Information Processing Systems (NeurIPS
+    2019)
+  year: '2019'
+- article-title: A formal basis for the heuristic determination of minimum cost paths
+  author: Hart
+  doi: 10.1109/TSSC.1968.300136
+  first-page: '100'
+  journal-title: IEEE Trans. Syst. Sci. Cybern
+  volume: '4'
+  year: '1968'
+- article-title: “Limited discrepancy search,”
+  author: Harvey
+  first-page: '607'
+  volume-title: IJCAI
+  year: '1995'
+- article-title: “Learning continuous control policies by stochastic value gradients,”
+  author: Heess
+  first-page: '2944'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2015'
+- article-title: “Learning and using models,”
+  author: Hester
+  doi: 10.1007/978-3-642-27645-3_4
+  first-page: '111'
+  volume-title: Reinforcement Learning
+  year: '2012'
+- article-title: 'The FF planning system: fast plan generation through heuristic search'
+  author: Hoffmann
+  doi: 10.1613/jair.855
+  first-page: '253'
+  journal-title: J. Artif. Intell. Res
+  volume: '14'
+  year: '2001'
+- article-title: '“Vime: variational information maximizing exploration,”'
+  author: Houthooft
+  first-page: '1109'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- author: Howard
+  volume-title: Dynamic Programming and Markov Processes.
+  year: '1960'
+- article-title: 'Imitation learning: a survey of learning methods'
+  author: Hussein
+  doi: 10.1145/3054912
+  first-page: '1'
+  journal-title: ACM Comput. Surveys
+  volume: '50'
+  year: '2017'
+- author: Kaelbling
+  doi: 10.7551/mitpress/4168.001.0001
+  volume-title: Learning in Embedded Systems
+  year: '1993'
+- author: Kanal
+  volume-title: Search in Artificial Intelligence
+  year: '2012'
+- article-title: Optimal control as a graphical model inference problem
+  author: Kappen
+  doi: 10.1007/s10994-012-5278-7
+  first-page: '159'
+  journal-title: Mach. Learn
+  volume: '87'
+  year: '2012'
+- article-title: '“SatPlan: planning as satisfiability,”'
+  author: Kautz
+  first-page: '156'
+  volume-title: 5th International Planning Competition, Vol. 20
+  year: '2006'
+- author: Kautz
+  year: '1992'
+- article-title: A sparse sampling algorithm for near-optimal planning in large Markov
+    decision processes
+  author: Kearns
+  doi: 10.1023/A:1017932429737
+  first-page: '193'
+  journal-title: Mach. Learn
+  volume: '49'
+  year: '2002'
+- unstructured: KellerT.. Ph.D. thesisAnytime optimal MDP planning with trial-based
+    heuristic tree search2015
+- article-title: “Trial-based heuristic tree search for finite horizon MDPs,”
+  author: Keller
+  doi: 10.1609/icaps.v23i1.13557
+  volume-title: Twenty-Third International Conference on Automated Planning and Scheduling
+  year: '2013'
+- article-title: Bandit based monte-carlo planning
+  author: Kocsis
+  doi: 10.1007/11871842_29
+  first-page: '282'
+  journal-title: ECML
+  volume: '6'
+  year: '2006'
+- article-title: 'Planning with Markov decision processes: an AI perspective'
+  author: Kolobov
+  doi: 10.1007/978-3-031-01559-5
+  first-page: '1'
+  journal-title: Synthesis Lectures Artif. Intell. Mach. Learn
+  volume: '6'
+  year: '2012'
+- author: Konda
+  year: '1999'
+- article-title: 'Depth-first iterative-deepening: an optimal admissible tree search'
+  author: Korf
+  doi: 10.1016/0004-3702(85)90084-0
+  first-page: '97'
+  journal-title: Artif. Intell
+  volume: '27'
+  year: '1985'
+- article-title: Real-time heuristic search
+  author: Korf
+  doi: 10.1016/0004-3702(90)90054-4
+  first-page: '189'
+  journal-title: Artif. Intell
+  volume: '42'
+  year: '1990'
+- article-title: Linear-space best-first search
+  author: Korf
+  doi: 10.1016/0004-3702(93)90045-D
+  first-page: '41'
+  journal-title: Artif. Intell
+  volume: '62'
+  year: '1993'
+- article-title: '“Hierarchical deep reinforcement learning: integrating temporal
+    abstraction and intrinsic motivation,”'
+  author: Kulkarni
+  first-page: '3675'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- article-title: 'Rapidly-exploring random trees: A new tool for path planning'
+  author: Lavalle
+  volume-title: Computer Science Dept. Oct.
+  year: '1998'
+- author: LaValle
+  doi: 10.1017/CBO9780511546877
+  volume-title: Planning Algorithms
+  year: '2006'
+- article-title: “Learning neural network policies with guided policy search under
+    unknown dynamics,”
+  author: Levine
+  first-page: '1071'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2014'
+- article-title: “Guided policy search,”
+  author: Levine
+  first-page: '1'
+  volume-title: International Conference on Machine Learning
+  year: '2013'
+- author: Levine
+  doi: 10.1201/9781315218694
+  volume-title: The Control Handbook (Three Volume Set)
+  year: '2018'
+- author: Lewis
+  doi: 10.1002/9781118122631
+  volume-title: Optimal Control
+  year: '2012'
+- article-title: Continuous control with deep reinforcement learning
+  author: Lillicrap
+  volume-title: arXiv preprint arXiv:1509.02971
+  year: '2015'
+- article-title: '“Best-first width search: exploration and exploitation in classical
+    planning,”'
+  author: Lipovetzky
+  doi: 10.1609/aaai.v31i1.11027
+  volume-title: Thirty-First AAAI Conference on Artificial Intelligence
+  year: '2017'
+- article-title: “Exploration in model-based reinforcement learning by empirically
+    estimating learning progress,”
+  author: Lopes
+  first-page: '206'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2012'
+- article-title: “The cross entropy method for fast policy search,”
+  author: Mannor
+  first-page: '512'
+  volume-title: Proceedings of the 20th International Conference on Machine Learning
+    (ICML-03)
+  year: '2003'
+- article-title: Teacher-student curriculum learning
+  author: Matiisen
+  volume-title: arXiv preprint arXiv:1707.00183
+  year: '2017'
+- article-title: Receding horizon control of nonlinear systems
+  author: Mayne
+  doi: 10.1109/9.57020
+  first-page: '814'
+  journal-title: IEEE Trans. Automa.t Contr
+  volume: '35'
+  year: '1990'
+- article-title: Planning and acting
+  author: McDermott
+  doi: 10.1207/s15516709cog0202_1
+  first-page: '71'
+  journal-title: Cogn. Sci
+  volume: '2'
+  year: '1978'
+- article-title: '“Bounded real-time dynamic programming: RTDP with monotone upper
+    bounds and performance guarantees,”'
+  author: McMahan
+  doi: 10.1145/1102351.1102423
+  first-page: '569'
+  volume-title: Proceedings of the 22nd International Conference on Machine Learning
+  year: '2005'
+- article-title: Human-level control through deep reinforcement learning
+  author: Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  journal-title: Nature
+  volume: '518'
+  year: '2015'
+- article-title: “Efficient exploration with double uncertain value networks,”
+  author: Moerland
+  volume-title: Deep Reinforcement Learning Symposium, 31st Conference on Neural Information
+    Processing Systems (NIPS)
+  year: '2017'
+- article-title: “The potential of the return distribution for exploration in RL,”
+  author: Moerland
+  volume-title: Exploration in Reinforcement Learning Workshop, 35th International
+    Conference on Machine Learning (ICML)
+  year: '2018'
+- article-title: 'Model-based reinforcement learning: a survey'
+  author: Moerland
+  doi: 10.1561/9781638280576
+  volume-title: arXiv preprint arXiv:2006.16712
+  year: ''
+- article-title: 'Think too fast nor too slow: the computational trade-off between
+    planning and reinforcement learning'
+  author: Moerland
+  volume-title: arXiv preprint arXiv:2005.07404
+  year: ''
+- article-title: 'Prioritized sweeping: Reinforcement learning with less data and
+    less time'
+  author: Moore
+  doi: 10.1007/BF00993104
+  first-page: '103'
+  journal-title: Mach. Learn
+  volume: '13'
+  year: '1993'
+- article-title: The shortest path through a maze
+  author: Moore
+  first-page: '285'
+  journal-title: Proc. Int. Symp. Switch. Theory
+  volume: '1959'
+  year: '1959'
+- article-title: 'Model predictive control: past, present and future'
+  author: Morari
+  doi: 10.1016/S0098-1354(98)00301-9
+  first-page: '667'
+  journal-title: Comput. Chem. Eng
+  volume: '23'
+  year: '1999'
+- article-title: Evolutionary algorithms for reinforcement learning
+  author: Moriarty
+  doi: 10.1613/jair.613
+  first-page: '241'
+  journal-title: J. Artif. Intell. Res
+  volume: '11'
+  year: '1999'
+- article-title: “Safe and efficient off-policy reinforcement learning,”
+  author: Munos
+  first-page: '1054'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- author: Nilsson
+  volume-title: Problem-Solving Methods in Artificial Intelligence.
+  year: '1971'
+- author: Nilsson
+  doi: 10.1007/978-3-662-09438-9
+  volume-title: Principles of Artificial Intelligence
+  year: '1982'
+- article-title: “Deep exploration via bootstrapped DQN,”
+  author: Osband
+  first-page: '4026'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2016'
+- article-title: Intrinsic motivation systems for autonomous mental development
+  author: Oudeyer
+  doi: 10.1109/TEVC.2006.890271
+  first-page: '265'
+  journal-title: IEEE Trans. Evolut. Comput
+  volume: '11'
+  year: '2007'
+- article-title: “Curiosity-driven exploration by self-supervised prediction,”
+  author: Pathak
+  first-page: '16'
+  volume-title: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition Workshops
+  year: '2017'
+- author: Pearl
+  volume-title: 'Heuristics: Intelligent Search Strategies for Computer Problem Solving'
+  year: '1984'
+- article-title: Unsupervised learning of goal spaces for intrinsically motivated
+    goal exploration
+  author: Péré
+  volume-title: arXiv preprint arXiv:1803.00781
+  year: '2018'
+- article-title: “Relative entropy policy search,”
+  author: Peters
+  doi: 10.1609/aaai.v24i1.7727
+  volume-title: Twenty-Fourth AAAI Conference on Artificial Intelligence
+  year: '2010'
+- article-title: High-accuracy model-based reinforcement learning, a survey
+  author: Plaat
+  volume-title: arXiv preprint arXiv:2107.08241
+  year: '2021'
+- article-title: Heuristic search viewed as path finding in a graph
+  author: Pohl
+  doi: 10.1016/0004-3702(70)90007-X
+  first-page: '193'
+  journal-title: Artif. Intell
+  volume: '1'
+  year: '1970'
+- author: Powell
+  doi: 10.1002/9780470182963
+  volume-title: 'Approximate Dynamic Programming: Solving the curses of dimensionality,
+    Vol. 703'
+  year: '2007'
+- article-title: “Eligibility traces for off-policy policy evaluation,”
+  author: Precup
+  volume-title: Computer Science Department Faculty Publication Series
+  year: '2000'
+- article-title: “Neural episodic control,”
+  author: Pritzel
+  first-page: '2827'
+  volume-title: International Conference on Machine Learning
+  year: '2017'
+- author: Puterman
+  volume-title: 'Markov Decision Processes: Discrete Stochastic Dynamic Programming'
+  year: '2014'
+- article-title: Learning representations by back-propagating errors
+  author: Rumelhart
+  doi: 10.1038/323533a0
+  first-page: '533'
+  journal-title: Nature
+  volume: '323'
+  year: '1986'
+- author: Rummery
+  volume-title: On-line Q-Learning Using Connectionist Systems, Vol. 37
+  year: '1994'
+- article-title: Efficient Memory-bounded search methods
+  author: Russell
+  first-page: '1'
+  journal-title: ECAI
+  volume: '92'
+  year: '1992'
+- author: Russell
+  volume-title: 'Artificial Intelligence: A Modern Approach'
+  year: '2016'
+- article-title: Evolution strategies as a scalable alternative to reinforcement learning
+  author: Salimans
+  volume-title: arXiv preprint arXiv:1703.03864
+  year: '2017'
+- article-title: Some studies in machine learning using the game of checkers. II-Recent
+    progress
+  author: Samuel
+  doi: 10.1147/rd.116.0601
+  first-page: '601'
+  journal-title: IBM J. Res. Dev
+  volume: '11'
+  year: '1967'
+- article-title: “Bayesian real-time dynamic programming,”
+  author: Sanner
+  volume-title: Twenty-First International Joint Conference on Artificial Intelligence
+  year: '2009'
+- article-title: “Universal value function approximators,”
+  author: Schaul
+  first-page: '1312'
+  volume-title: International Conference on Machine Learning
+  year: '2015'
+- article-title: “A possibility for implementing curiosity and boredom in model-building
+    neural controllers,”
+  author: Schmidhuber
+  first-page: '222'
+  volume-title: 'Proceedings of the International Conference on Simulation of Adaptive
+    Behavior: From Animals to Animats'
+  year: '1991'
+- article-title: “Trust region policy optimization,”
+  author: Schulman
+  first-page: '1889'
+  volume-title: International Conference on Machine Learning
+  year: '2015'
+- article-title: “High-dimensional continuous control using generalized advantage
+    estimation,”
+  author: Schulman
+  volume-title: Proceedings of the International Conference on Learning Representations
+    (ICLR)
+  year: '2016'
+- article-title: Proximal policy optimization algorithms
+  author: Schulman
+  volume-title: arXiv preprint arXiv:1707.06347
+  year: '2017'
+- article-title: “Balancing exploration and exploitation in classical planning,”
+  author: Schulte
+  volume-title: International Symposium on Combinatorial Search, Vol. 5
+  year: '2014'
+- article-title: “Planning to explore via self-supervised world models,”
+  author: Sekar
+  first-page: '8583'
+  volume-title: International Conference on Machine Learning
+  year: '2020'
+- article-title: A general reinforcement learning algorithm that masters chess, shogi,
+    and Go through self-play
+  author: Silver
+  doi: 10.1126/science.aar6404
+  first-page: '1140'
+  journal-title: Science
+  volume: '362'
+  year: '2018'
+- article-title: “Deterministic policy gradient algorithms,”
+  author: Silver
+  first-page: '387'
+  volume-title: International Conference on Machine Learning
+  year: '2014'
+- article-title: Mastering the game of go without human knowledge
+  author: Silver
+  doi: 10.1038/nature24270
+  first-page: '354'
+  journal-title: Nature
+  volume: '550'
+  year: '2017'
+- article-title: 'Heuristic problem solving: The next advance in operations research'
+  author: Simon
+  doi: 10.1287/opre.6.1.1
+  first-page: '1'
+  journal-title: Oper. Res
+  volume: '6'
+  year: '1958'
+- article-title: Reinforcement learning with replacing eligibility traces
+  author: Singh
+  doi: 10.1007/BF00114726
+  first-page: '123'
+  journal-title: Mach. Learn
+  volume: '22'
+  year: '1996'
+- article-title: “Chess 4.5–the northwestern university chess program,”
+  author: Slate
+  doi: 10.1007/978-1-4612-5515-4_4
+  first-page: '82'
+  volume-title: Chess skill in Man and Machine
+  year: '1983'
+- article-title: Introduction to multi-armed bandits
+  author: Slivkins
+  doi: 10.1561/9781680836219
+  first-page: '1'
+  journal-title: Foundat. Trends® Mach. Learn
+  volume: '1'
+  year: '2019'
+- article-title: '“Focused real-time dynamic programming for MDPs: squeezing more
+    out of a heuristic,”'
+  author: Smith
+  first-page: '1227'
+  volume-title: AAAI
+  year: '2006'
+- article-title: Learning to predict by the methods of temporal differences
+  author: Sutton
+  doi: 10.1007/BF00115009
+  first-page: '9'
+  journal-title: Mach. Learn
+  volume: '3'
+  year: '1988'
+- article-title: “Integrated architectures for learning, planning, and reacting based
+    on approximating dynamic programming,”
+  author: Sutton
+  doi: 10.1016/B978-1-55860-141-3.50030-4
+  first-page: '216'
+  volume-title: Machine Learning Proceedings 1990
+  year: '1990'
+- article-title: '“Generalization in reinforcement learning: Successful examples using
+    sparse coarse coding,”'
+  author: Sutton
+  first-page: '1038'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '1996'
+- author: Sutton
+  volume-title: 'Reinforcement Learning: An Introduction'
+  year: '2018'
+- article-title: “Policy gradient methods for reinforcement learning with function
+    approximation,”
+  author: Sutton
+  first-page: '1057'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2000'
+- article-title: Depth-first search and linear graph algorithms
+  author: Tarjan
+  doi: 10.1137/0201010
+  first-page: '146'
+  journal-title: SIAM J. Comput
+  volume: '1'
+  year: '1972'
+- article-title: 'Transfer learning for reinforcement learning domains: a survey'
+  author: Taylor
+  doi: 10.1007/978-3-642-01882-4
+  first-page: '1633'
+  journal-title: J. Mach. Learn. Res
+  volume: '10'
+  year: '2009'
+- article-title: “On-line policy improvement using monte-carlo search,”
+  author: Tesauro
+  first-page: '1068'
+  volume-title: Advances in Neural Information Processing Systems 9
+  year: '1997'
+- article-title: On the likelihood that one unknown probability exceeds another in
+    view of the evidence of two samples
+  author: Thompson
+  doi: 10.1093/biomet/25.3-4.285
+  first-page: '285'
+  journal-title: Biometrika
+  volume: '25'
+  year: '1933'
+- article-title: “A generalized iterative LQG method for locally-optimal feedback
+    control of constrained nonlinear stochastic systems,”
+  author: Todorov
+  doi: 10.1109/ACC.2005.1469949
+  first-page: '300'
+  volume-title: Proceedings of the 2005, American Control Conference, 2005
+  year: '2005'
+- article-title: “Robot trajectory optimization using approximate inference,”
+  author: Toussaint
+  doi: 10.1145/1553374.1553508
+  first-page: '1049'
+  volume-title: Proceedings of the 26th Annual International Conference on Machine
+    Learning
+  year: '2009'
+- article-title: “A comparison of knowledge-based GBFS enhancements and knowledge-free
+    exploration,”
+  author: Valenzano
+  doi: 10.1609/icaps.v24i1.13681
+  volume-title: Twenty-Fourth International Conference on Automated Planning and Scheduling
+  year: '2014'
+- article-title: Deep reinforcement learning and the deadly triad
+  author: Van Hasselt
+  volume-title: arXiv preprint arXiv:1812.02648
+  year: '2018'
+- article-title: “Reinforcement learning in continuous action spaces,”
+  author: Van Hasselt
+  doi: 10.1109/ADPRL.2007.368199
+  first-page: '272'
+  volume-title: 2007 IEEE International Symposium on Approximate Dynamic Programming
+    and Reinforcement Learning
+  year: '2007'
+- article-title: “A theoretical and empirical analysis of expected sarsa,”
+  author: Van Seijen
+  doi: 10.1109/ADPRL.2009.4927542
+  first-page: '177'
+  volume-title: 2009 IEEE Symposium on Adaptive Dynamic Programming and Reinforcement
+    Learning
+  year: '2009'
+- article-title: Benchmarking model-based reinforcement learning
+  author: Wang
+  volume-title: CoRR, abs/1907.02057
+  year: '2019'
+- article-title: Q-learning
+  author: Watkins
+  doi: 10.1023/A:1022676722315
+  first-page: '279'
+  journal-title: Mach. Learn
+  volume: '8'
+  year: '1992'
+- article-title: Evolutionary function approximation for reinforcement learning
+  author: Whiteson
+  first-page: '877'
+  journal-title: J. Mach. Learn. Res
+  volume: '7'
+  year: '2006'
+- article-title: Reinforcement learning
+  author: Wiering
+  doi: 10.1007/978-3-642-27645-3
+  volume-title: Adaptat. Learn. Optim
+  year: '2012'
+- article-title: Simple statistical gradient-following algorithms for connectionist
+    reinforcement learning
+  author: Williams
+  doi: 10.1007/BF00992696
+  first-page: '229'
+  journal-title: Mach. Learn
+  volume: '8'
+  year: '1992'
+- article-title: “Scalable planning with tensorflow for hybrid nonlinear domains,”
+  author: Wu
+  volume-title: 31st Conference on Neural Information Processing Systems (NIPS 2017)
+  year: '2017'
+- article-title: '“FF-Replan: a baseline for probabilistic planning,”'
+  author: Yoon
+  first-page: '352'
+  volume-title: ICAPS Vol. 7
+  year: '2007'
+doi: 10.3389/frai.2022.908353
+files:
+- moerland-thomas-m.-and-broekens-joost-and-plaat-aske-and-jonker-catholijn-m.a-unifying-framework-for-reinforcement-learning-and-planning2022.pdf
+journal: Frontiers in Artificial Intelligence
+month: 7
+publisher: Frontiers Media SA
+ref: AUnifyingFramMoerla2022
+time-added: 2023-03-19-00:04:52
+title: A Unifying Framework for Reinforcement Learning and Planning
+type: article
+url: http://dx.doi.org/10.3389/frai.2022.908353
+volume: '5'
+year: 2022

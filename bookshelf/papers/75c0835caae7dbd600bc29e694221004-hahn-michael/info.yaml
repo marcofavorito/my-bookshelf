@@ -1,0 +1,333 @@
+abstract: <jats:p> Transformers are emerging as the new workhorse of NLP, showing
+  great success across tasks. Unlike LSTMs, transformers process input sequences entirely
+  through self-attention. Previous work has suggested that the computational capabilities
+  of self-attention to process hierarchical structures are limited. In this work,
+  we mathematically investigate the computational power of self-attention to model
+  formal languages. Across both soft and hard attention, we show strong theoretical
+  limitations of the computational abilities of self-attention, finding that it cannot
+  model periodic finite-state languages, nor hierarchical structure, unless the number
+  of layers or heads increases with input length. These limitations seem surprising
+  given the practical success of self-attention and the prominent role assigned to
+  hierarchical structure in linguistics, suggesting that natural language can be approximated
+  well with models that are too weak for the formal languages typically assumed in
+  theoretical linguistics. </jats:p>
+author: Hahn, Michael
+author_list:
+- affiliation:
+  - name: Stanford University.
+  family: Hahn
+  given: Michael
+citations:
+- author: Barrington David A. Mix
+  doi: 10.1016/0022-0000(92)90014-A
+  first-page: '478'
+  issue: '3'
+  journal-title: Journal of Computer and System Sciences
+  volume: '44'
+  year: '1992'
+- author: Bengio Yoshua
+  doi: 10.1109/72.279181
+  first-page: '157'
+  issue: '2'
+  journal-title: IEEE Transactions on Neural Networks
+  volume: '5'
+  year: '1994'
+- author: Bernardy Jean-Philippe
+  issue: '1'
+  journal-title: LiLT (Linguistic Issues in Language Technology)
+  volume: '16'
+  year: '2018'
+- author: Boppana Ravi B.
+  doi: 10.1016/S0020-0190(97)00131-2
+  first-page: '257'
+  issue: '5'
+  journal-title: Information Processing Letters
+  volume: '63'
+  year: '1997'
+- author: Bo Cartling
+  doi: 10.1016/j.neucom.2007.05.006
+  first-page: '1527'
+  issue: '7'
+  journal-title: Neurocomputing
+  volume: '71'
+  year: '2008'
+- author: Chen Mia Xu
+  doi: 10.18653/v1/P18-1008
+  first-page: '76'
+  volume-title: 'Proceedings of the 56th Annual Meeting of the Association for Computational
+    Linguistics (Volume 1: Long Papers)'
+  year: '2018'
+- author: Cheng Jianpeng
+  doi: 10.18653/v1/D16-1053
+  first-page: '551'
+  volume-title: Proceedings of the 2016 Conference on Empirical Methods in Natural
+    Language Processing
+  year: '2016'
+- author: Child Rewon
+  journal-title: 'arXiv preprint arXiv: 1904.10509v1'
+  year: '2019'
+- author: Chomsky Noam
+  doi: 10.1515/9783112316009
+  volume-title: Syntactic Structures
+  year: '1957'
+- author: Chomsky Noam
+  first-page: '118'
+  volume: '35'
+  volume-title: Studies in Logic and the Foundations of Mathematics
+  year: '1963'
+- author: Clark Kevin
+  volume-title: Proceedings of BlackboxNLP 2019
+  year: '2019'
+- author: Dai Zihang
+  first-page: '2978'
+  volume-title: 'Proceedings of the 57th Conference of the Association for Computational
+    Linguistics, ACL 2019, Florence, Italy, July 28-August 2, 2019, Volume 1: Long
+    Papers'
+  year: '2019'
+- author: Palma Giacomo De
+  journal-title: arXiv preprint arXiv:1812.10156v2
+  year: '2018'
+- author: Dehghani Mostafa
+  volume-title: International Conference on Learning Representations
+  year: '2019'
+- author: Devlin Jacob
+  first-page: '4171'
+  volume-title: 'Proceedings of the 2019 Conference of the North American Chapter
+    of the Association for Computational Linguistics: Human Language Technologies,
+    Volume 1 (Long and Short Papers)'
+  year: '2019'
+- author: Everaert Martin B. H.
+  doi: 10.1016/j.tics.2015.09.008
+  first-page: '729'
+  issue: '12'
+  journal-title: Trends in Cognitive Sciences
+  volume: '19'
+  year: '2015'
+- author: Furst Merrick
+  doi: 10.1007/BF01744431
+  first-page: '13'
+  issue: '1'
+  journal-title: Mathematical Systems Theory
+  volume: '17'
+  year: '1984'
+- author: Gers Felix A.
+  doi: 10.1109/72.963769
+  first-page: '1333'
+  issue: '6'
+  journal-title: IEEE Transactions on Neural Networks
+  volume: '12'
+  year: '2001'
+- author: Gibson Edward
+  doi: 10.1080/016909699386293
+  first-page: '225'
+  issue: '3'
+  journal-title: Language and Cognitive Processes
+  volume: '14'
+  year: '1999'
+- author: Gopalan Parikshit
+  doi: 10.1145/2840728.2840738
+  first-page: '59'
+  volume-title: Proceedings of the 2016 ACM Conference on Innovations in Theoretical
+    Computer Science
+  year: '2016'
+- author: Grüning André
+  doi: 10.1080/09540090500317291
+  first-page: '23'
+  issue: '1'
+  journal-title: Connection Science
+  volume: '18'
+  year: '2006'
+- author: Gulordava Kristina
+  first-page: '1195'
+  volume-title: 'Proceedings of the 2018 Conference of the North American Chapter
+    of the Association for Computational Linguistics: Human Language Technologies,
+    Volume 1 (Long Papers)'
+  year: '2018'
+- author: Hao Jie
+  first-page: '1198'
+  volume-title: 'Proceedings of the 2019 Conference of the North American Chapter
+    of the Association for Computational Linguistics: Human Language Technologies,
+    Volume 1 (Long and Short Papers)'
+  year: '2019'
+- author: Hastad Johan
+  doi: 10.1006/inco.1994.1008
+  first-page: '200'
+  issue: '2'
+  journal-title: Information and Computation
+  volume: '108'
+  year: '1994'
+- author: Hsieh Yu-Lun
+  doi: 10.18653/v1/P19-1147
+  first-page: '1520'
+  volume-title: Proceedings of the 57th Annual Meeting of the Association for Computational
+    Linguistics
+  year: '2019'
+- author: Kalinke Yvonne
+  first-page: '179'
+  volume-title: Australian Joint Conference on Artificial Intelligence
+  year: '1998'
+- author: Kirov Christo
+  doi: 10.1080/09540091.2011.641939
+  first-page: '1'
+  issue: '1'
+  journal-title: Connection Science
+  volume: '24'
+  year: '2012'
+- author: Korsky Samuel A.
+  journal-title: arXiv preprint arXiv:1906.06349v2
+  year: '2019'
+- author: Kuncoro Adhiguna
+  doi: 10.18653/v1/P18-1132
+  first-page: '1426'
+  volume-title: 'Proceedings of the 56th Annual Meeting of the Association for Computational
+    Linguistics (Volume 1: Long Papers)'
+  year: '2018'
+- author: Lewis Richard L.
+  doi: 10.1207/s15516709cog0000_25
+  first-page: '375'
+  issue: '3'
+  journal-title: Cognitive Science
+  volume: '29'
+  year: '2005'
+- author: Lin Yongjie
+  first-page: '241'
+  volume-title: 'Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting
+    Neural Networks for NLP'
+  year: '2019'
+- author: Lin Zhouhan
+  volume-title: International Conference on Learning Representations
+  year: '2017'
+- doi: 10.1162/tacl_a_00115
+- author: Marvin Rebecca
+  doi: 10.18653/v1/D18-1151
+  first-page: '1192'
+  volume-title: Proceedings of the 2018 Conference on Empirical Methods in Natural
+    Language Processing
+  year: '2018'
+- author: Thomas McCoy R.
+  journal-title: arXiv preprint arXiv:1911.02969v1
+  year: '2019'
+- author: McNaughton Robert
+  volume-title: Counter-Free Automata (MIT Research Monograph No. 65)
+  year: '1971'
+- author: Merrill William
+  first-page: '1'
+  volume-title: 'Proceedings of the Workshop on Deep Learning and Formal Languages:
+    Building Bridges'
+  year: '2019'
+- author: Miller George A.
+  first-page: '419'
+  volume-title: Handbook of Mathematical Psychology
+  year: '1963'
+- author: Miller John
+  volume-title: International Conference on Learning Representations
+  year: '2019'
+- author: Mitzenmacher Michael
+  edition: '2'
+  volume-title: Probability and Computing
+  year: '2017'
+- author: Parikh Ankur
+  doi: 10.18653/v1/D16-1244
+  first-page: '2249'
+  volume-title: Proceedings of the 2016 Conference on Empirical Methods in Natural
+    Language Processing
+  year: '2016'
+- author: Parker Dan
+  first-page: '121'
+  journal-title: Language Processing and Disorders
+  year: '2017'
+- author: Paulus Romain
+  volume-title: International Conference on Learning Representations
+  year: '2018'
+- author: Pérez Jorge
+  volume-title: International Conference on Learning Representations
+  year: '2019'
+- author: Sennhauser Luzi
+  doi: 10.18653/v1/W18-5414
+  first-page: '115'
+  volume-title: 'Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and
+    Interpreting Neural Networks for NLP'
+  year: '2018'
+- author: Shen Tao
+  volume-title: Thirty-Second AAAI Conference on Artificial Intelligence
+  year: '2018'
+- author: Shen Tao
+  first-page: '4345'
+  volume-title: IJCAI’18 Proceedings of the 27th International Joint Conference on
+    Artificial Intelligence
+  year: '2018'
+- author: Shieber Stuart M.
+  doi: 10.1007/978-94-009-2727-8_4
+  first-page: '79'
+  volume-title: Philosophy, Language, and Artificial Intelligence
+  year: '1985'
+- author: Siegelman Hava
+  doi: 10.1006/jcss.1995.1013
+  first-page: '132'
+  journal-title: Journal of Computer and System Sciences
+  volume: '50'
+  year: '1995'
+- author: Skachkova Natalia
+  doi: 10.18653/v1/W18-5425
+  first-page: '232'
+  volume-title: 'Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and
+    Interpreting Neural Networks for NLP'
+  year: '2018'
+- author: Suzgun Mirac
+  first-page: '277'
+  journal-title: Proceedings of the Society for Computation in Linguistics (SCiL)
+  year: '2019'
+- author: Tabor Whitney
+  doi: 10.1111/1468-0394.00126
+  first-page: '41'
+  issue: '1'
+  journal-title: Expert Systems
+  volume: '17'
+  year: '2000'
+- author: Tenney Ian
+  first-page: '4593'
+  volume-title: 'Proceedings of the 57th Conference of the Association for Computational
+    Linguistics, ACL 2019, Florence, Italy, July 28-August 2, 2019, Volume 1: Long
+    Papers'
+  year: '2019'
+- author: Ke Tran
+  doi: 10.18653/v1/D18-1503
+  first-page: '4731'
+  volume-title: Proceedings of the 2018 Conference on Empirical Methods in Natural
+    Language Processing
+  year: '2018'
+- author: Vaswani Ashish
+  first-page: '5998'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- author: Voita Elena
+  first-page: '5797'
+  volume-title: 'Proceedings of the 57th Conference of the Association for Computational
+    Linguistics, ACL 2019, Florence, Italy, July 28-August 2, 2019, Volume 1: Long
+    Papers'
+  year: '2019'
+- author: Weiss Gail
+  doi: 10.18653/v1/P18-2117
+  first-page: '740'
+  volume-title: 'Proceedings of the 56th Annual Meeting of the Association for Computational
+    Linguistics (Volume 2: Short Papers)'
+  year: '2018'
+- author: Yang Baosong
+  first-page: '3635'
+  volume-title: 'Proceedings of the 57th Conference of the Association for Computational
+    Linguistics, ACL 2019, Florence, Italy, July 28-August 2, 2019, Volume 1: Long
+    Papers'
+  year: '2019'
+doi: 10.1162/tacl_a_00306
+journal: Transactions of the Association for Computational Linguistics
+language: en
+month: 12
+pages: 156--171
+publisher: MIT Press - Journals
+ref: TheoreticalLimHahn2020
+time-added: 2023-03-24-09:37:00
+title: Theoretical Limitations of Self-Attention in Neural Sequence Models
+type: article
+url: http://dx.doi.org/10.1162/tacl_a_00306
+volume: '8'
+year: 2020

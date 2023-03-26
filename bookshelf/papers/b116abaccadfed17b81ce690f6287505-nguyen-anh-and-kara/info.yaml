@@ -1,0 +1,33 @@
+abstract: Most language models (LMs) are trained and applied in an autoregressive
+  left-to-right fashion, assuming that the next token only depends on the preceding
+  ones. However, this assumption ignores the potential benefits of using the full
+  sequence information during training, and the possibility of having context from
+  both sides during inference. In this paper, we propose a new pre-training paradigm
+  with techniques that jointly improve the training data efficiency and the capabilities
+  of the LMs in the infilling task. The first is a training objective that aligns
+  the predictions of a left-to-right LM with those of a right-to-left LM, trained
+  on the same data but in reverse order. The second is a bidirectional inference procedure
+  that enables both LMs to meet in the middle. We show the effectiveness of our pre-training
+  paradigm with extensive experiments on both programming and natural language models,
+  outperforming strong baselines.
+archiveprefix: arXiv
+author: Nguyen, Anh and Karampatziakis, Nikos and Chen, Weizhu
+author_list:
+- family: Nguyen
+  given: Anh
+- family: Karampatziakis
+  given: Nikos
+- family: Chen
+  given: Weizhu
+eprint: 2303.07295v1
+file: 2303.07295v1.pdf
+files:
+- nguyen-anh-and-karampatziakis-nikos-and-chen-weizhumeet-in-the-middle-a-new-pre-training-paradigm2023.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 2303.07295v1
+time-added: 2023-03-22-21:53:19
+title: 'Meet in the Middle: A New Pre-training Paradigm'
+type: article
+url: http://arxiv.org/abs/2303.07295v1
+year: '2023'

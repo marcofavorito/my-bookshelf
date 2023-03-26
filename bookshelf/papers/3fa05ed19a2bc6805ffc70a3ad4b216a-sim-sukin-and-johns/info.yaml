@@ -1,0 +1,44 @@
+abstract: Parameterized quantum circuits play an essential role in the performance
+  of many variational hybrid quantum-classical (HQC) algorithms. One challenge in
+  implementing such algorithms is to choose an effective circuit that well represents
+  the solution space while maintaining a low circuit depth and number of parameters.
+  To characterize and identify expressible, yet compact, parameterized circuits, we
+  propose several descriptors, including measures of expressibility and entangling
+  capability, that can be statistically estimated from classical simulations of parameterized
+  quantum circuits. We compute these descriptors for different circuit structures,
+  varying the qubit connectivity and selection of gates. From our simulations, we
+  identify circuit fragments that perform well with respect to the descriptors. In
+  particular, we quantify the substantial improvement in performance of two-qubit
+  gates in a ring or all-to-all connected arrangement compared to that of those on
+  a line. Furthermore, we quantify the improvement in expressibility and entangling
+  capability achieved by sequences of controlled X-rotation gates compared to sequences
+  of controlled Z-rotation gates. In addition, we investigate how expressibility "saturates"
+  with increased circuit depth, finding that the rate and saturated-value appear to
+  be distinguishing features of a parameterized quantum circuit template. While the
+  correlation between each descriptor and performance of an algorithm remains to be
+  investigated, methods and results from this study can be useful for both algorithm
+  development and design of experiments for general variational HQC algorithms.
+archiveprefix: arXiv
+author: Sim, Sukin and Johnson, Peter D. and Aspuru-Guzik, Alan
+author_list:
+- family: Sim
+  given: Sukin
+- family: Johnson
+  given: Peter D.
+- family: Aspuru-Guzik
+  given: Alan
+doi: 10.1002/qute.201900070
+eprint: 1905.10876v1
+file: 1905.10876v1.pdf
+files:
+- sim-sukin-and-johnson-peter-d.-and-aspuru-guzik-alanexpressibility-and-entangling-capability-of-parameterized-quantum-circuits-for-hybrid-quantum.pdf
+month: May
+note: Adv. Quantum Technol. 2 (2019) 1900070
+primaryclass: quant-ph
+ref: 1905.10876v1
+time-added: 2023-03-19-12:26:45
+title: Expressibility and entangling capability of parameterized quantum   circuits
+  for hybrid quantum-classical algorithms
+type: article
+url: http://arxiv.org/abs/1905.10876v1
+year: '2019'

@@ -1,0 +1,32 @@
+abstract: 'Alternatives to recurrent neural networks, in particular, architectures
+  based on attention or convolutions, have been gaining momentum for processing input
+  sequences. In spite of their relevance, the computational properties of these alternatives
+  have not yet been fully explored. We study the computational power of two of the
+  most paradigmatic architectures exemplifying these mechanisms: the Transformer (Vaswani
+  et al., 2017) and the Neural GPU (Kaiser & Sutskever, 2016). We show both models
+  to be Turing complete exclusively based on their capacity to compute and access
+  internal dense representations of the data. In particular, neither the Transformer
+  nor the Neural GPU requires access to an external memory to become Turing complete.
+  Our study also reveals some minimal sets of elements needed to obtain these completeness
+  results.'
+archiveprefix: arXiv
+author: Pérez, Jorge and Marinković, Javier and Barceló, Pablo
+author_list:
+- family: Pérez
+  given: Jorge
+- family: Marinković
+  given: Javier
+- family: Barceló
+  given: Pablo
+eprint: 1901.03429v1
+file: 1901.03429v1.pdf
+files:
+- perez-jorge-and-marinkovic-javier-and-barcelo-pabloon-the-turing-completeness-of-modern-neural-network-architectures2019.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 1901.03429v1
+time-added: 2023-03-24-09:39:04
+title: On the Turing Completeness of Modern Neural Network Architectures
+type: article
+url: http://arxiv.org/abs/1901.03429v1
+year: '2019'

@@ -1,0 +1,65 @@
+abstract: The scaling of large language models has greatly improved natural language
+  understanding, generation, and reasoning. In this work, we develop a system that
+  trained a trillion-parameter language model on a cluster of Ascend 910 AI processors
+  and MindSpore framework, and present the language model with 1.085T parameters named
+  PanGu-{\Sigma}. With parameter inherent from PanGu-{\alpha}, we extend the dense
+  Transformer model to sparse one with Random Routed Experts (RRE), and efficiently
+  train the model over 329B tokens by using Expert Computation and Storage Separation(ECSS).
+  This resulted in a 6.3x increase in training throughput through heterogeneous computing.
+  Our experimental findings show that PanGu-{\Sigma} provides state-of-the-art performance
+  in zero-shot learning of various Chinese NLP downstream tasks. Moreover, it demonstrates
+  strong abilities when fine-tuned in application data of open-domain dialogue, question
+  answering, machine translation and code generation.
+archiveprefix: arXiv
+author: Ren, Xiaozhe and Zhou, Pingyi and Meng, Xinfan and Huang, Xinjing and Wang,
+  Yadao and Wang, Weichao and Li, Pengfei and Zhang, Xiaoda and Podolskiy, Alexander
+  and Arshinov, Grigory and Bout, Andrey and Piontkovskaya, Irina and Wei, Jiansheng
+  and Jiang, Xin and Su, Teng and Liu, Qun and Yao, Jun
+author_list:
+- family: Ren
+  given: Xiaozhe
+- family: Zhou
+  given: Pingyi
+- family: Meng
+  given: Xinfan
+- family: Huang
+  given: Xinjing
+- family: Wang
+  given: Yadao
+- family: Wang
+  given: Weichao
+- family: Li
+  given: Pengfei
+- family: Zhang
+  given: Xiaoda
+- family: Podolskiy
+  given: Alexander
+- family: Arshinov
+  given: Grigory
+- family: Bout
+  given: Andrey
+- family: Piontkovskaya
+  given: Irina
+- family: Wei
+  given: Jiansheng
+- family: Jiang
+  given: Xin
+- family: Su
+  given: Teng
+- family: Liu
+  given: Qun
+- family: Yao
+  given: Jun
+eprint: 2303.10845v1
+file: 2303.10845v1.pdf
+files:
+- ren-xiaozhe-and-zhou-pingyi-and-meng-xinfan-and-huang-xinjing-and-wang-yadao-and-wang-weichao-and-li-pengfei-and-zhang-xiaoda-and-podolskiy-a.pdf
+month: Mar
+primaryclass: cs.CL
+ref: 2303.10845v1
+time-added: 2023-03-22-14:21:21
+title: 'PanGu-Σ: Towards Trillion Parameter Language Model with Sparse   Heterogeneous
+  Computing'
+type: article
+url: http://arxiv.org/abs/2303.10845v1
+year: '2023'

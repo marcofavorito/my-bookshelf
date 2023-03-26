@@ -1,0 +1,35 @@
+abstract: While AI algorithms have shown remarkable success in various fields, their
+  lack of transparency hinders their application to real-life tasks. Although explanations
+  targeted at non-experts are necessary for user trust and human-AI collaboration,
+  the majority of explanation methods for AI are focused on developers and expert
+  users. Counterfactual explanations are local explanations that offer users advice
+  on what can be changed in the input for the output of the black-box model to change.
+  Counterfactuals are user-friendly and provide actionable advice for achieving the
+  desired output from the AI system. While extensively researched in supervised learning,
+  there are few methods applying them to reinforcement learning (RL). In this work,
+  we explore the reasons for the underrepresentation of a powerful explanation method
+  in RL. We start by reviewing the current work in counterfactual explanations in
+  supervised learning. Additionally, we explore the differences between counterfactual
+  explanations in supervised learning and RL and identify the main challenges that
+  prevent adoption of methods from supervised in reinforcement learning. Finally,
+  we redefine counterfactuals for RL and propose research directions for implementing
+  counterfactuals in RL.
+archiveprefix: arXiv
+author: Gajcin, Jasmina and Dusparic, Ivana
+author_list:
+- family: Gajcin
+  given: Jasmina
+- family: Dusparic
+  given: Ivana
+eprint: 2210.11846v1
+file: 2210.11846v1.pdf
+files:
+- gajcin-jasmina-and-dusparic-ivanacounterfactual-explanations-for-reinforcement-learning2022.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 2210.11846v1
+time-added: 2023-03-19-16:30:22
+title: Counterfactual Explanations for Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2210.11846v1
+year: '2022'

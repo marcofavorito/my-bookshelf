@@ -1,0 +1,36 @@
+abstract: Transformers are being used extensively across several sequence modeling
+  tasks. Significant research effort has been devoted to experimentally probe the
+  inner workings of Transformers. However, our conceptual and theoretical understanding
+  of their power and inherent limitations is still nascent. In particular, the roles
+  of various components in Transformers such as positional encodings, attention heads,
+  residual connections, and feedforward networks, are not clear. In this paper, we
+  take a step towards answering these questions. We analyze the computational power
+  as captured by Turing-completeness. We first provide an alternate and simpler proof
+  to show that vanilla Transformers are Turing-complete and then we prove that Transformers
+  with only positional masking and without any positional encoding are also Turing-complete.
+  We further analyze the necessity of each component for the Turing-completeness of
+  the network; interestingly, we find that a particular type of residual connection
+  is necessary. We demonstrate the practical implications of our results via experiments
+  on machine translation and synthetic tasks.
+archiveprefix: arXiv
+author: Bhattamishra, Satwik and Patel, Arkil and Goyal, Navin
+author_list:
+- family: Bhattamishra
+  given: Satwik
+- family: Patel
+  given: Arkil
+- family: Goyal
+  given: Navin
+eprint: 2006.09286v3
+file: 2006.09286v3.pdf
+files:
+- bhattamishra-satwik-and-patel-arkil-and-goyal-navinon-the-computational-power-of-transformers-and-its-implications-in-sequence-modeling2020.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2006.09286v3
+time-added: 2023-03-24-09:33:47
+title: On the Computational Power of Transformers and its Implications in   Sequence
+  Modeling
+type: article
+url: http://arxiv.org/abs/2006.09286v3
+year: '2020'
