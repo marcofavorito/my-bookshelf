@@ -1,0 +1,311 @@
+abstract: <jats:p>Convolutional neural networks (CNNs) are one of the main types of
+  neural networks used for image recognition and classification. CNNs have several
+  uses, some of which are object recognition, image processing, computer vision, and
+  face recognition. Input for convolutional neural networks is provided through images.
+  Convolutional neural networks are used to automatically learn a hierarchy of features
+  that can then be utilized for classification, as opposed to manually creating features.
+  In achieving this, a hierarchy of feature maps is constructed by iteratively convolving
+  the input image with learned filters. Because of the hierarchical method, higher
+  layers can learn more intricate features that are also distortion and translation
+  invariant. The main goals of this study are to help academics understand where there
+  are research gaps and to talk in-depth about CNN’s building blocks, their roles,
+  and other vital issues.</jats:p>
+author: Taye, Mohammad Mustafa
+author_list:
+- affiliation:
+  - name: Data Science and Artificial Intelligence, Philadelphia University, Amman
+      19392, Jordan
+  family: Taye
+  given: Mohammad Mustafa
+citations:
+- article-title: 'Machine Learning: Algorithms, Real-World Applications, and Research
+    Directions'
+  author: Sarker
+  doi: 10.1007/s42979-021-00592-x
+  first-page: '1'
+  journal-title: SN Comput. Sci.
+  volume: '2'
+  year: '2021'
+- doi: 10.1007/978-1-4471-7452-3_2
+  unstructured: Du, K.-L., and Swamy, M.N.S. (2019). Fundamentals of Machine Learning.
+    Neural Netw. Stat. Learn., 21–63.
+- article-title: 'Object detection with deep learning: A review'
+  author: ZZhao
+  doi: 10.1109/TNNLS.2018.2876865
+  first-page: '3212'
+  journal-title: IEEE Trans. Neural Networks Learn. Syst.
+  volume: '30'
+  year: '2019'
+- doi: 10.1007/978-3-030-66519-7_1
+  unstructured: Indrakumari, R., Poongodi, T., and Singh, K. (2021). Introduction
+    to Deep Learning. EAI/Springer Innov. Commun. Comput., 1–22.
+- unstructured: '(2022, August 11). AI vs Machine Learning vs Deep Learning|Edureka.
+    Available online: https://www.edureka.co/blog/ai-vs-machine-learning-vs-deep-learning/.'
+- article-title: Low-complexity approximate convolutional neural networks
+  author: Cintra
+  doi: 10.1109/TNNLS.2018.2815435
+  first-page: '5981'
+  journal-title: IEEE Trans. Neural Netw. Learn. Syst.
+  volume: '29'
+  year: '2018'
+- article-title: Deep learning
+  author: Rusk
+  doi: 10.1038/nmeth.3707
+  first-page: '35'
+  journal-title: Nat. Methods
+  volume: '13'
+  year: '2017'
+- article-title: Review of deep learning algorithms and architectures
+  author: Shrestha
+  doi: 10.1109/ACCESS.2019.2912200
+  first-page: '53040'
+  journal-title: IEEE Access
+  volume: '7'
+  year: '2019'
+- article-title: 'Deep Learning on Graphs: A Survey'
+  author: Zhang
+  doi: 10.1109/TKDE.2020.2981333
+  first-page: '249'
+  journal-title: IEEE Trans. Knowl. Data Eng.
+  volume: '34'
+  year: '2022'
+- article-title: 'The Understanding of Deep Learning: A Comprehensive Review'
+  author: Mishra
+  doi: 10.1155/2021/5548884
+  first-page: '1'
+  journal-title: Math. Probl. Eng.
+  volume: '2021'
+  year: '2021'
+- article-title: Deep Learning Applications in Medical Image Analysis
+  author: Ker
+  doi: 10.1109/ACCESS.2017.2788044
+  first-page: '9375'
+  journal-title: IEEE Access
+  volume: '6'
+  year: '2017'
+- article-title: 'Convolutional neural network: A review of models, methodologies,
+    and applications to object detection'
+  author: Dhillon
+  doi: 10.1007/s13748-019-00203-0
+  first-page: '85'
+  journal-title: Prog. Artif. Intell.
+  volume: '9'
+  year: '2019'
+- unstructured: 'Li, Z., Liu, F., Yang, W., Peng, S., and Zhou, J. (2021). A Survey
+    of Convolutional Neural Networks: Analysis, Applications, and Prospects. IEEE
+    Trans. Neural Networks Learn. Syst., 1–21.'
+- article-title: A survey of the recent architectures of deep convolutional neural
+    networks
+  author: Khan
+  doi: 10.1007/s10462-020-09825-6
+  first-page: '5455'
+  journal-title: Artif. Intell. Rev.
+  volume: '53'
+  year: '2020'
+- unstructured: '(2022, August 08). Introduction to Convolutional Neural Networks
+    (CNNs)|The Most Popular Deep Learning architecture|by Louis Bouchard|What is Artificial
+    Intelligence|Medium. Available online: https://medium.com/what-is-artificial-intelligence/introduction-to-convolutional-neural-networks-cnns-the-most-popular-deep-learning-architecture-b938f62f133f.'
+- unstructured: 'Koushik, J. (2022, August 13). Understanding Convolutional Neural
+    Networks. Available online: http://arxiv.org/abs/1605.09081.'
+- unstructured: Bezdan, T., and Džakula, N.B. (2019). International Scientific Conference
+    on Information Technology and Data Related Research, Singidunum University.
+- doi: 10.1109/ICCVW.2019.00007
+  unstructured: Zhang, J., Huang, J., Chen, X., and Zhang, D. (2019, January 27–28).
+    How to fully exploit the abilities of aerial image detectors. Proceedings of the
+    IEEE International Conference on Computer Vision Workshops 2019, Seoul, Republic
+    of Korea.
+- unstructured: 'Rodriguez, R., Gonzalez, C.I., Martinez, G.E., and Melin, P. (2021).
+    Fuzzy Logic Hybrid Extensions of Neural and Optimization Algorithms: Theory and
+    Applications, Springer.'
+- article-title: 'A review on deep learning for recommender systems: Challenges and
+    remedies'
+  author: Batmaz
+  doi: 10.1007/s10462-018-9654-y
+  first-page: '137'
+  journal-title: Artif. Intell. Rev.
+  volume: '52'
+  year: '2019'
+- article-title: Understanding deep learning via back-tracking and deconvolution
+  author: Fang
+  doi: 10.1186/s40537-017-0101-8
+  first-page: '40'
+  journal-title: J. Big Data
+  volume: '4'
+  year: '2017'
+- article-title: 'Review of deep learning: Concepts, CNN architectures, challenges,
+    applications, future directions'
+  author: Alzubaidi
+  doi: 10.1186/s40537-021-00444-8
+  first-page: '83'
+  journal-title: J. Big Data
+  volume: '8'
+  year: '2021'
+- doi: 10.1007/978-1-4471-7452-3
+  unstructured: Du, K.L., and Swamy, M.N.S. (2019). Neural Networks and Statistical
+    Learning, Springer. [2nd ed.].
+- article-title: Recent advances in convolutional neural network acceleration
+  author: Zhang
+  doi: 10.1016/j.neucom.2018.09.038
+  first-page: '37'
+  journal-title: Neurocomputing
+  volume: '323'
+  year: '2019'
+- doi: 10.3390/electronics10202470
+  unstructured: 'Bhatt, D., Patel, C., Talsania, H., Patel, J., Vaghela, R., Pandya,
+    S., Modi, K., and Ghayvat, H. (2021). CNN variants for computer vision: History,
+    architecture, application, challenges and future scope. Electronics, 10.'
+- doi: 10.1007/978-3-030-66519-7
+  unstructured: 'Prakash, K.B., Kannan, R., Alexander, S.A., and Kanagachidambaresan,
+    G.R. (2021). Advanced Deep Learning for Engineers and Scientists: A Practical
+    Approach, Springer.'
+- doi: 10.1109/ICCV.2017.324
+  unstructured: Lin, T.-Y., Goyal, P., Girshick, R., He, K., and Dollár, P. (2017).
+    Focal loss for dense object detection. arXiv.
+- doi: 10.1109/CVPR.2018.00442
+  unstructured: Zhang, S., Wen, L., Bian, X., Lei, Z., and Li, S. (2018, January 18–23).
+    Single-shot refinement neural network for object detection. Proceedings of the
+    IEEE Conference on Computer Vision and Pattern Recognition 2018, Salt Lake City,
+    UT, USA.
+- doi: 10.1109/CVPR.2017.243
+  unstructured: Huang, G., Liu, Z., Van Der Maaten, L., and Weinberger, K.Q. (2017,
+    January 21–26). Densely connected convolutional network. Proceedings of the IEEE
+    Conference on Computer Vision and Pattern Recognition, Honolulu, HI, USA.
+- doi: 10.1109/ICCV.2017.446
+  unstructured: Hsieh, M.-R., Lin, Y.-L., and Hsu, W. (2017, January 22–29). Drone-based
+    object counting by spatially regularized regional proposal network. Proceedings
+    of the IEEE International Conference on Computer Vision (ICCV), Venice, Italy.
+- unstructured: Yang, F., Fan, H., Chu, P., Blasch, E., and Ling, H. (2019). Proceedings
+    of the IEEE International Conference on Computer Vision 2019, IEEE.
+- unstructured: Zhou, X., Wang, D., and Krähenbühl, P. (2019). Objects as points.
+    arXiv.
+- doi: 10.1109/TIP.2020.3002345
+  unstructured: 'Kong, T., Sun, F., Liu, H., Jiang, Y., and Shi, J. (2019). Foveabox:
+    Beyond anchor-based object detector. arXiv.'
+- doi: 10.1109/CVPR.2017.106
+  unstructured: Lin, T.-Y., Dollár, P., Girshick, R., He, K., Hariharan, B., and Belongie,
+    S. (2017, January 21–26). Feature Pyramid networks for object detection. Proceedings
+    of the IEEE Conference on Computer Vision and Pattern Recognition 2017, Honolulu,
+    HI, USA.
+- unstructured: Ghiasi, G., Lin, T.-Y., and Le, Q. Proceedings of the 32nd International
+    Conference on Neural Information Processing Systems, Curran Associates Inc.
+- unstructured: Müller, R., Kornblith, S., and Hinton, G. (2019). Advances in Neural
+    Information Processing Systems 2019, Neural Information Processing Systems Foundation,
+    Inc. (NeurIPS).
+- unstructured: Dollár, K., and Girshick, R. (2017, January 22–29). Mask R-CNN. Proceedings
+    of the IEEE International Conference on Computer Vision 2017, Venice, Italy.
+- doi: 10.1109/CVPR.2018.00644
+  unstructured: 'Cai, Z., and Vasconcelos, N. (2018, January 18–23). Cascade r-cnn:
+    Delving into high quality object detection. Proceedings of the IEEE Conference
+    on Computer Vision and Pattern Recognition 2018, Salt Lake City, UT, USA.'
+- unstructured: Duan, K., Bai, S., Xie, L., Qi, H., Huang, Q., and Tian, Q. (2019).
+    Proceedings of the IEEE International Conference on Computer Vision 2019, IEEE.
+- unstructured: 'Li, Z., Peng, C., Yu, G., Zhang, X., Deng, Y., and Sun, J. (2017).
+    Light-head r-cnn: In defense of twostage object detector. arXiv.'
+- doi: 10.1109/CVPR.2017.195
+  unstructured: 'Chollet, F. (2017, January 21–26). Xception: Deep Learning with Depthwise
+    Separable Convolutions. Proceedings of the 2017 IEEE Conference on Computer Vision
+    and Pattern Recognition (CVPR), Honolulu, HI, USA.'
+- doi: 10.1007/978-3-030-01264-9_45
+  unstructured: 'Law, H., and Deng, J. (2018, January 8–14). Cornernet: Detecting
+    objects as paired keypoints. Proceedings of the European Conference on Computer
+    Vision (ECCV) 2018, Munich, Germany.'
+- unstructured: 'Redmon, J., and Farhadi, A. (2018). Yolov3: An incremental improvement.
+    arXiv.'
+- article-title: 'CNN Architectures: Alex Net, Le Net, VGG, Google Net, Res Net'
+  author: Swapna
+  first-page: '953'
+  journal-title: Int. J. Recent Technol. Eng.
+  volume: '8'
+  year: '2020'
+- unstructured: 'Bochkovskiy, A., Wang, C.-Y., and Liao, H.-Y. (2020). YOLOv4: Optimal
+    speed and accuracy of object detection. arXiv.'
+- doi: 10.1109/CVPRW50498.2020.00203
+  unstructured: 'Wang, C.-Y., Liao, H.-Y., Yeh, I.-H., Wu, Y.-H., Chen, P.-Y., and
+    Hsieh, J.-W. (2019). CSPNet: A new backbone that can enhance learning capability
+    of CNN. arXiv.'
+- unstructured: Yun, S., Han, D., Oh, S., Chun, S., Choe, J., and Yoo, Y. (2019).
+    Proceedings of the IEEE International Conference on Computer Vision 2019, IEEE.
+- unstructured: 'Fu, C.-Y., Liu, W., Ranga, A., Tyagi, A., and Berg, A. (2017). DSSD:
+    Deconvolutional single shot detector. arXiv.'
+- unstructured: 'Law, H., Teng, Y., Russakovsky, O., and Deng, J. (2019). Cornernet-lite:
+    Efficient keypoint based object detection. arXiv.'
+- article-title: Semantic segmentation of aerial images with shuffling convolutional
+    neural networks
+  author: Chen
+  doi: 10.1109/LGRS.2017.2778181
+  first-page: '173'
+  journal-title: IEEE Geosci. Remote Sens. Lett.
+  volume: '15'
+  year: '2018'
+- unstructured: Pailla, D. (2019). Proceedings of the IEEE/CVF International Conference
+    on Computer Vision Workshops 2019, IEEE.
+- doi: 10.1109/ICIP.2017.8297076
+  unstructured: Terrail, J.D., and Jurie, F. (2017, January 17–20). On the use of
+    deep neural networks for the detection of small vehicles in ortho-images. Proceedings
+    of the 2017 IEEE International Conference on Image Processing (ICIP 2017), Beijing,
+    China.
+- doi: 10.1109/ICMLA.2018.00092
+  unstructured: Shen, J., and Shafiq, M.O. (2018, January 17–20). Deep Learning Convolutional
+    Neural Networks with Dropout—A Parallel Approach. Proceedings of the 17th IEEE
+    International Conference on Machine Learning and Applications, ICMLA 2018, Orlando,
+    FL, USA.
+- article-title: A review of object detection based on deep learning
+  author: Xiao
+  doi: 10.1007/s11042-020-08976-6
+  first-page: '23729'
+  journal-title: Multimed. Tools Appl.
+  volume: '79'
+  year: '2020'
+- article-title: Impact of activation functions and number of layers on detection
+    of exudates using circular Hough transform and convolutional neural networks
+  author: Adem
+  doi: 10.1016/j.eswa.2022.117583
+  first-page: '117583'
+  journal-title: Expert. Syst. Appl.
+  volume: '203'
+  year: '2022'
+- article-title: ImageNet classification with deep convolutional neural networks
+  author: Krizhevsky
+  doi: 10.1145/3065386
+  first-page: '84'
+  journal-title: Commun. ACM
+  volume: '60'
+  year: '2017'
+- unstructured: 'Nwankpa, C., Ijomah, W., Gachagan, A., and Marshall, S. (2018). Activation
+    Functions: Comparison of trends in Practice and Research for Deep Learning. arXiv.'
+- doi: 10.1109/IWQoS.2018.8624183
+  unstructured: Zhang, Z. (2018, January 4–6). Improved Adam Optimizer for Deep Neural
+    Networks. Proceedings of the 2018 IEEE/ACM 26th International Symposium on Quality
+    of Service (IWQoS), Banff, AB, Canada.
+- article-title: A GPU deep learning metaheuristic based model for time series forecasting
+  author: Coelho
+  doi: 10.1016/j.apenergy.2017.01.003
+  first-page: '412'
+  journal-title: Appl. Energy
+  volume: '201'
+  year: '2017'
+- article-title: 'Understanding edge computing: Engineering evolution with artificial
+    intelligence'
+  author: Huh
+  doi: 10.1109/ACCESS.2019.2945338
+  first-page: '164229'
+  journal-title: IEEE Access
+  volume: '7'
+  year: '2019'
+doi: 10.3390/computation11030052
+files:
+- taye-mohammad-mustafatheoretical-understanding-of-convolutional-neural-network-concepts-architectures-applications-future-directions2023.pdf
+issue: '3'
+journal: Computation
+language: en
+month: 3
+pages: '52'
+publisher: MDPI AG
+ref: TheoreticalUndTaye2023
+time-added: 2023-04-01-23:55:15
+title: 'Theoretical Understanding of Convolutional Neural Network: Concepts, Architectures,
+  Applications, Future Directions'
+type: article
+url: http://dx.doi.org/10.3390/computation11030052
+volume: '11'
+year: 2023

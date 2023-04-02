@@ -1,0 +1,307 @@
+abstract: '<jats:title>Abstract</jats:title><jats:p>Deep Learning (DL) has achieved
+  remarkable progress over the last decade on various tasks such as image recognition,
+  speech recognition, and natural language processing. In general, three main crucial
+  aspects fueled this progress: the increasing availability of large amount of digitized
+  data, the increasing availability of affordable parallel and powerful computing
+  resources (e.g., GPU) and the growing number of open source deep learning frameworks
+  that facilitate and ease the development process of deep learning architectures.
+  In practice, the increasing popularity of deep learning frameworks calls for benchmarking
+  studies that can effectively evaluate and understand the performance characteristics
+  of these systems. In this paper, we conduct an extensive experimental evaluation
+  and analysis of six popular deep learning frameworks, namely,<jats:italic>TensorFlow</jats:italic>,<jats:italic>MXNet</jats:italic>,<jats:italic>PyTorch</jats:italic>,<jats:italic>Theano</jats:italic>,<jats:italic>Chainer</jats:italic>,
+  and<jats:italic>Keras</jats:italic>, using three types of DL architectures Convolutional
+  Neural Networks (CNN), Faster Region-based Convolutional Neural Networks (Faster
+  R-CNN), and Long Short Term Memory (LSTM). Our experimental evaluation considers
+  different aspects for its comparison including accuracy, training time, convergence
+  and resource consumption patterns. Our experiments have been conducted on both CPU
+  and GPU environments using different datasets. We report and analyze the performance
+  characteristics of the studied frameworks. In addition, we report a set of insights
+  and important lessons that we have learned from conducting our experiments.</jats:p>'
+author: Elshawi, Radwa and Wahab, Abdul and Barnawi, Ahmed and Sakr, Sherif
+author_list:
+- affiliation: []
+  family: Elshawi
+  given: Radwa
+- affiliation: []
+  family: Wahab
+  given: Abdul
+- affiliation: []
+  family: Barnawi
+  given: Ahmed
+- affiliation: []
+  family: Sakr
+  given: Sherif
+citations:
+- author: M Abadi
+  first-page: '265'
+  journal-title: OSDI
+  unstructured: 'Abadi, M., et al.: Tensorflow: a system for large-scale machine learning.
+    OSDI 16, 265–283 (2016)'
+  volume: '16'
+  year: '2016'
+- author: A Abugabah
+  doi: 10.1007/s10586-020-03127-w
+  first-page: '1781'
+  issue: '3'
+  journal-title: Clust. Comput.
+  unstructured: 'Abugabah, A., AlZubi, A.A., Al-Obeidat, F.N., Alarifi, A., Alwadain,
+    A.: Data mining techniques for analyzing healthcare conditions of urban space-person
+    lung using meta-heuristic optimized neural networks. Clust. Comput. 23(3), 1781–1794
+    (2020)'
+  volume: '23'
+  year: '2020'
+- doi: 10.1145/3146347.3146356
+  unstructured: 'Awan, A.A., Subramoni, H., Panda, D.K.: An in-depth performance characterization
+    of CPU-and GPU-based DNN training on modern architectures. In: Proceedings of
+    the Machine Learning on HPC Environments, p. 8. ACM, (2017)'
+- unstructured: 'Bahrampour, S., Ramakrishnan, N., Schott, L., Shah, M.: Comparative
+    study of caffe, neon, theano, and torch for deep learning (2016)'
+- unstructured: 'Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow,
+    I., Bergeron, A., Bouchard, N., Warde-Farley, D., Bengio, Y.: Theano: new features
+    and speed improvements. arXiv preprint arXiv:1211.5590 (2012)'
+- author: Y Bengio
+  doi: 10.1561/2200000006
+  first-page: '1'
+  issue: '1'
+  journal-title: Found. Trends Mach. Learn.
+  unstructured: 'Bengio, Y., et al.: Learning deep architectures for AI. Found. Trends
+    Mach. Learn. 2(1), 1–127 (2009)'
+  volume: '2'
+  year: '2009'
+- doi: 10.25080/Majora-92bf1922-003
+  unstructured: 'Bergstra, J., et al.: Theano: A CPU and GPU math compiler in python.
+    In: Proc. 9th Python in Science Conf, vol. 1 (2010)'
+- unstructured: 'Chen, T., et al.: Mxnet: A flexible and efficient machine learning
+    library for heterogeneous distributed systems. arXiv preprint arXiv:1512.01274
+    (2015)'
+- unstructured: 'Chollet, F., et al.: Keras: The python deep learning library. Astrophysics
+    Source Code Library (2018)'
+- unstructured: 'Coleman, C., et al.: Dawnbench: an end-to-end deep learning benchmark
+    and competition. Training (2017)'
+- author: R Collobert
+  first-page: '2493'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Collobert, R., et al.: Natural language processing (almost) from
+    scratch. J. Mach. Learn. Res. 12, 2493–2537 (2011)'
+  volume: '12'
+  year: '2011'
+- unstructured: 'Collobert, R., Kavukcuoglu, K., Farabet, C.: Torch7: a matlab-like
+    environment for machine learning. In: BigLearn, NIPS workshop, number EPFL-CONF-192376
+    (2011)'
+- author: L Dagum
+  first-page: '46'
+  journal-title: Comput. Sci. Eng.
+  unstructured: 'Dagum, L., Menon, R.: Openmp: an industry-standard API for shared-memory
+    programming. Comput. Sci. Eng. 1, 46–55 (1998)'
+  volume: '1'
+  year: '1998'
+- author: M Everingham
+  doi: 10.1007/s11263-014-0733-5
+  first-page: '98'
+  issue: '1'
+  journal-title: Int. J. Comput. Vis.
+  unstructured: 'Everingham, M., Eslami, S.A., Van Gool, L., Williams, C.K., Winn,
+    J., Zisserman, A.: The pascal visual object classes challenge: a retrospective.
+    Int. J. Comput. Vis. 111(1), 98–136 (2015)'
+  volume: '111'
+  year: '2015'
+- author: X Geng
+  doi: 10.1007/s10586-019-03037-6
+  first-page: '2689'
+  issue: '4'
+  journal-title: Clust. Comput.
+  unstructured: 'Geng, X., Zhang, H., Zhao, Z., Ma, H.: Interference-aware parallelization
+    for deep learning workload in GPU cluster. Clust. Comput. 23(4), 2689–2702 (2020)'
+  volume: '23'
+  year: '2020'
+- author: J Hauke
+  doi: 10.2478/v10117-011-0021-1
+  first-page: '87'
+  issue: '2'
+  journal-title: Quaestiones Geographicae
+  unstructured: 'Hauke, J., Kossowski, T.: Comparison of values of pearson’s and spearman’s
+    correlation coefficients on the same sets of data. Quaestiones Geographicae 30(2),
+    87–93 (2011)'
+  volume: '30'
+  year: '2011'
+- doi: 10.1109/CVPR.2016.90
+  unstructured: 'He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image
+    recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition, pp. 770–778 (2016)'
+- author: MD Hill
+  doi: 10.1109/MC.2008.209
+  first-page: '33'
+  issue: '7'
+  journal-title: Computer
+  unstructured: 'Hill, M.D., Marty, M.R.: Amdahl’s law in the multicore era. Computer
+    41(7), 33–38 (2008)'
+  volume: '41'
+  year: '2008'
+- author: G Hinton
+  doi: 10.1109/MSP.2012.2205597
+  first-page: '82'
+  issue: '6'
+  journal-title: IEEE Signal Process. Mag.
+  unstructured: 'Hinton, G., et al.: Deep neural networks for acoustic modeling in
+    speech recognition: the shared views of four research groups. IEEE Signal Process.
+    Mag. 29(6), 82–97 (2012)'
+  volume: '29'
+  year: '2012'
+- unstructured: 'Huval, B., Wang, T., Tandon, S., Kiske, J., Song, W., Pazhayampallil,
+    J., Andriluka, M., Rajpurkar, P., Migimatsu, T., Cheng-Yue, R., et al.: An empirical
+    evaluation of deep learning on highway driving. arXiv preprint arXiv:1504.01716
+    (2015)'
+- unstructured: Intel caffe. (2017)
+- doi: 10.1145/2647868.2654889
+  unstructured: 'Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick,
+    R., Guadarrama, S., Darrell, T.: Caffe: convolutional architecture for fast feature
+    embedding. In: Proceedings of the 22nd ACM International Conference on Multimedia,
+    pp. 675–678. ACM (2014)'
+- author: Z Jiang
+  doi: 10.1007/s10586-019-02959-5
+  first-page: '1987'
+  issue: '3'
+  journal-title: Clust. Comput.
+  unstructured: 'Jiang, Z., Gao, S.: An intelligent recommendation approach for online
+    advertising based on hybrid deep neural network and parallel computing. Clust.
+    Comput. 23(3), 1987–2000 (2020)'
+  volume: '23'
+  year: '2020'
+- author: Y Kim
+  doi: 10.1007/s10586-019-02974-6
+  first-page: '2193'
+  issue: '3'
+  journal-title: Clust. Comput.
+  unstructured: 'Kim, Y., Lee, J., Kim, J.-S., Jei, H., Roh, H.: Comprehensive techniques
+    of multi-GPU memory optimization for deep learning acceleration. Clust. Comput.
+    23(3), 2193–2204 (2020)'
+  volume: '23'
+  year: '2020'
+- unstructured: 'Krizhevsky, A., Hinton, G.: Learning multiple layers of features
+    from tiny images. Technical report, Citeseer (2009)'
+- unstructured: 'Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification
+    with deep convolutional neural networks. In: Advances in Neural Information Processing
+    Systems, pp. 1097–1105 (2012)'
+- unstructured: 'Liu, J., Dutta, J., Li, N., Kurup, U., Shah, M.: Usability study
+    of distributed deep learning frameworks for convolutional neural networks (2018)'
+- unstructured: 'Maas, A.L., Daly, R.E., Pham, P.T., Huang, D., Ng, A.Y., Potts, C.:
+    Learning word vectors for sentiment analysis. In: Proceedings of the 49th Annual
+    Meeting of the Association for Computational Linguistics: Human Language Technologiesvol.
+    1, pp. 142–150. Association for Computational Linguistics (2011)'
+- unstructured: 'Mahmoud, N., Essam, Y., Shawi, R.E., Sakr, S.: DLBench: an experimental
+    evaluation of deep learning frameworks. In: 2019 IEEE International Congress on
+    Big Data, BigData Congress 2019, Milan, Italy, July 8–13, 2019, pp. 149–156 (2019)'
+- doi: 10.21236/ADA273556
+  unstructured: 'Marcus, M., Santorini, B., Marcinkiewicz, M.A.: Building a large
+    annotated corpus of english: the penn treebank (1993)'
+- unstructured: Mkl-dnn for scalable deep learning. (2017)
+- unstructured: 'N. Corporation. AI computing leadership from nvidia. In: https://www.nvidia.com/en-us/
+    (2018)'
+- unstructured: 'Netzer, Y., et al.: Reading digits in natural images with unsupervised
+    feature learning. In: NIPS Workshop on Deep Learning and Unsupervised Feature
+    Learning (2011)'
+- unstructured: 'Paszke, A., Gross, S., Chintala, S., Chanan, G.: Tensors and dynamic
+    neural networks in python with strong GPU acceleration (2017)'
+- unstructured: 'Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito,
+    Z., Lin, Z., Desmaison, A., Antiga, L., Lerer, A.: Automatic differentiation in
+    pytorch (2017)'
+- doi: 10.18653/v1/D16-1264
+  unstructured: 'Rajpurkar, P., Zhang, J., Lopyrev, K., Liang, P.: Squad: 100,000+
+    questions for machine comprehension of text. arXiv preprint arXiv:1606.05250 (2016)'
+- unstructured: 'Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: Towards real-time
+    object detection with region proposal networks. In: Advances in Neural Information
+    Processing Systems, pp. 91–99 (2015)'
+- doi: 10.21437/Interspeech.2014-80
+  unstructured: 'Sak, H., Senior, A., Beaufays, F.: Long short-term memory recurrent
+    neural network architectures for large scale acoustic modeling. In: Fifteenth
+    Annual Conference of the International Speech Communication Association (2014)'
+- doi: 10.1145/2939672.2945397
+  unstructured: 'Seide, F., Agarwal, A.: Cntk: Microsoft’s open-source deep-learning
+    toolkit. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+    Discovery and Data Mining, pp. 2135. ACM (2016)'
+- doi: 10.1109/ICDCS.2017.259
+  unstructured: 'Shams, S., Platania, R., Lee, K., Park, S.-J.: Evaluation of deep
+    learning frameworks over different HPC architectures. In: 2017 IEEE 37th International
+    Conference on Distributed Computing Systems (ICDCS), pp. 1389–1396. IEEE (2017)'
+- author: D Shen
+  doi: 10.1146/annurev-bioeng-071516-044442
+  first-page: '221'
+  journal-title: Annu. Rev. Biomed. Eng.
+  unstructured: 'Shen, D., Wu, G., Suk, H.-I.: Deep learning in medical image analysis.
+    Annu. Rev. Biomed. Eng. 19, 221–248 (2017)'
+  volume: '19'
+  year: '2017'
+- doi: 10.1109/CCBD.2016.029
+  unstructured: 'Shi, S., Wang, Q., Xu, P., Chu, X.: Benchmarking state-of-the-art
+    deep learning software tools. In: IEEE CCBD (2016)'
+- unstructured: 'Simonyan, K., Zisserman, A.: Very deep convolutional networks for
+    large-scale image recognition. arXiv preprint arXiv:1409.1556 (2014)'
+- unstructured: 'Team, H.: High performance deep learning project. Int. J. Comput.
+    Vis. (2017)'
+- unstructured: 'Tokui, S., Oono, K., Hido, S., Clayton, J.: Chainer: a next-generation
+    open source framework for deep learning. In: Proceedings of Workshop on Machine
+    Learning Systems (LearningSys) in The Twenty-ninth Annual Conference on Neural
+    Information Processing Systems (NIPS) (2015)'
+- unstructured: 'Tokui, S., Oono, K., Hido, S., Clayton, J.: Chainer: a next-generation
+    open source framework for deep learning. In: NIPS Workshops (2015)'
+- unstructured: 'T. report. Worldwide semiannual cognitive/artificial intelligence
+    systems spending guide. In: International Data Corporation (2017)'
+- author: JR Uijlings
+  doi: 10.1007/s11263-013-0620-5
+  first-page: '154'
+  issue: '2'
+  journal-title: Int. J. Comput. Vis.
+  unstructured: 'Uijlings, J.R., Van De Sande, K.E., Gevers, T., Smeulders, A.W.:
+    Selective search for object recognition. Int. J. Comput. Vis. 104(2), 154–171
+    (2013)'
+  volume: '104'
+  year: '2013'
+- author: Q Wang
+  doi: 10.1016/j.jvcir.2019.102663
+  first-page: '102663'
+  journal-title: J. Vis. Commun. Image Represent.
+  unstructured: 'Wang, Q., Guo, G.: Benchmarking deep learning techniques for face
+    recognition. J. Vis. Commun. Image Represent. 65, 102663 (2019)'
+  volume: '65'
+  year: '2019'
+- doi: 10.1002/9780471462422.eoct979
+  unstructured: 'Woolson, R.: Wilcoxon signed-rank test. Wiley encyclopedia of clinical
+    trials, pp. 1–3 (2007)'
+- unstructured: 'Wu, Y., Liu, L., Pu, C., Cao, W., Sahin, S., Wei, W., Zhang, Q.:
+    A comparative measurement study of deep learning as a service framework. IEEE
+    Trans. Serv. Comput. (2019)'
+- author: Z Xianyi
+  unstructured: 'Xianyi, Z., Qian, W., Saar, W.: Openblas: An Optimized Blas Library.
+    Agosto, Accedido (2016)'
+  volume-title: 'Openblas: An Optimized Blas Library'
+  year: '2016'
+- doi: 10.1007/s11227-020-03362-3
+  unstructured: 'Yang, C.-T., Liu, J.-C., Chan, Y.-W., Kristiani, E., Kuo, C.-F.:
+    Performance benchmarking of deep learning framework on intel xeon phi. J. Supercomput.
+    1–25 (2020)'
+- doi: 10.1109/IISWC.2018.8573476
+  unstructured: 'Zhu, H., Akrout, M., Zheng, B., Pelegris, A., Phanishayee, A., Schroeder,
+    B., Pekhimenko, G.: Tbd: Benchmarking and analyzing deep neural network training.
+    arXiv preprint arXiv:1803.06905 (2018)'
+- doi: 10.1007/978-3-319-69179-4_2
+  unstructured: 'Zou, S.-X., Chen, C.-Y., Wu, J.-L., Chou, C.-N., Tsao, C.-C., Tung,
+    K.-C., Lin, T.-W., Sung, C.-L., Chang, E.Y.: Distributed training large-scale
+    deep architectures. In: International Conference on Advanced Data Mining and Applications,
+    pp. 18–32. Springer (2017)'
+doc_url: https://link.springer.com/article/10.1007/s10586-021-03240-4/fulltext.html
+doi: 10.1007/s10586-021-03240-4
+files:
+- elshawi-radwa-and-wahab-abdul-and-barnawi-ahmed-and-sakr-sherifdlbench-a-comprehensive-experimental-evaluation-of-deep-learning-frameworks2021.pdf
+issue: '3'
+journal: Cluster Computing
+language: en
+month: 9
+pages: 2017--2038
+publisher: Springer Science and Business Media LLC
+ref: DlbenchACompElshaw2021
+time-added: 2023-04-01-20:51:34
+title: 'DLBench: a comprehensive experimental evaluation of deep learning frameworks'
+type: article
+url: http://dx.doi.org/10.1007/s10586-021-03240-4
+volume: '24'
+year: 2021

@@ -1,0 +1,36 @@
+abstract: The matrix-based Renyi's \alpha-entropy functional and its multivariate
+  extension were recently developed in terms of the normalized eigenspectrum of a
+  Hermitian matrix of the projected data in a reproducing kernel Hilbert space (RKHS).
+  However, the utility and possible applications of these new estimators are rather
+  new and mostly unknown to practitioners. In this paper, we first show that our estimators
+  enable straightforward measurement of information flow in realistic convolutional
+  neural networks (CNN) without any approximation. Then, we introduce the partial
+  information decomposition (PID) framework and develop three quantities to analyze
+  the synergy and redundancy in convolutional layer representations. Our results validate
+  two fundamental data processing inequalities and reveal some fundamental properties
+  concerning the training of CNN.
+archiveprefix: arXiv
+author: Yu, Shujian and Wickstrøm, Kristoffer and Jenssen, Robert and Principe, Jose
+  C.
+author_list:
+- family: Yu
+  given: Shujian
+- family: Wickstrøm
+  given: Kristoffer
+- family: Jenssen
+  given: Robert
+- family: Principe
+  given: Jose C.
+eprint: 1804.06537v5
+file: 1804.06537v5.pdf
+files:
+- yu-shujian-and-wickstrom-kristoffer-and-jenssen-robert-and-principe-jose-c.understanding-convolutional-neural-networks-with-information-theory-an.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 1804.06537v5
+time-added: 2023-04-01-23:26:58
+title: 'Understanding Convolutional Neural Networks with Information Theory: An   Initial
+  Exploration'
+type: article
+url: http://arxiv.org/abs/1804.06537v5
+year: '2018'

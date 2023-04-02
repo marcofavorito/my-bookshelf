@@ -1,0 +1,881 @@
+author: Jimenez-del-Toro, Oscar and Otálora, Sebastian and Andersson, Mats and Eurén,
+  Kristian and Hedlund, Martin and Rousson, Mikael and Müller, Henning and Atzori,
+  Manfredo
+author_list:
+- affiliation: []
+  family: Jimenez-del-Toro
+  given: Oscar
+- affiliation: []
+  family: Otálora
+  given: Sebastian
+- affiliation: []
+  family: Andersson
+  given: Mats
+- affiliation: []
+  family: Eurén
+  given: Kristian
+- affiliation: []
+  family: Hedlund
+  given: Martin
+- affiliation: []
+  family: Rousson
+  given: Mikael
+- affiliation: []
+  family: Müller
+  given: Henning
+- affiliation: []
+  family: Atzori
+  given: Manfredo
+citations:
+- article-title: 'Histopathological image analysis: a review'
+  author: Gurcan
+  doi: 10.1109/RBME.2009.2034865
+  first-page: '147'
+  journal-title: IEEE Rev. Biomed. Eng.
+  volume: '2'
+  year: '2009'
+- author: Rubin
+  series-title: 'Rubin''s Pathology: Clinicopathologic Foundations of Medicine'
+  year: '2008'
+- article-title: Deep learning as a tool for increased accuracy and efficiency of
+    histopathological diagnosis
+  author: Litjens
+  doi: 10.1038/srep26286
+  journal-title: Sci. Rep.
+  volume: '6'
+  year: '2016'
+- article-title: 'Histologic grading of prostate cancer: a perspective'
+  author: Gleason
+  doi: 10.1016/0046-8177(92)90108-F
+  first-page: '273'
+  issue: '3'
+  journal-title: Hum. Pathol.
+  volume: '23'
+  year: '1992'
+- article-title: 'Digital imaging in pathology: whole-slide imaging and beyond'
+  author: Ghaznavi
+  doi: 10.1146/annurev-pathol-011811-120902
+  first-page: '331'
+  journal-title: Annu. Rev. Pathol. Mech. Dis.
+  volume: '8'
+  year: '2013'
+- article-title: Evaluation of whole slide image immunohistochemistry interpretation
+    in challenging prostate needle biopsies
+  author: Fine
+  doi: 10.1016/j.humpath.2007.08.007
+  first-page: '564'
+  issue: '4'
+  journal-title: Hum. Pathol.
+  volume: '39'
+  year: '2008'
+- article-title: 'Mandatory second opinion in surgical pathology referral material:
+    clinical consequences of major disagreements'
+  author: Manion
+  doi: 10.1097/PAS.0b013e31815a04f5
+  first-page: '732'
+  issue: '5'
+  journal-title: Am. J. Surg. Pathol.
+  volume: '32'
+  year: '2008'
+- article-title: How trustworthy is a diagnosis in head and neck surgical pathology?
+    A consideration of diagnostic discrepancies (errors)
+  author: Woolgar
+  doi: 10.1007/s00405-011-1526-x
+  first-page: '643'
+  issue: '5'
+  journal-title: Eur. Arch. Oto-Rhino-Laryngol.
+  volume: '268'
+  year: '2011'
+- article-title: 'Use of whole slide imaging in surgical pathology quality assurance:
+    design and pilot validation studies'
+  author: Ho
+  doi: 10.1016/j.humpath.2005.11.005
+  first-page: '322'
+  issue: '3'
+  journal-title: Hum. Pathol.
+  volume: '37'
+  year: '2006'
+- article-title: 'Overview of telepathology, virtual microscopy, and whole slide imaging:
+    prospects for the future'
+  author: Weinstein
+  doi: 10.1016/j.humpath.2009.04.006
+  first-page: '1057'
+  issue: '8'
+  journal-title: Hum. Pathol.
+  volume: '40'
+  year: '2009'
+- article-title: Evaluation of 2 whole-slide imaging applications in dermatopathology
+  author: Velez
+  doi: 10.1016/j.humpath.2008.01.006
+  first-page: '1341'
+  issue: '9'
+  journal-title: Hum. Pathol.
+  volume: '39'
+  year: '2008'
+- article-title: Creation of a fully digital pathology slide archive by high-volume
+    tissue slide scanning
+  author: Huisman
+  doi: 10.1016/j.humpath.2009.08.026
+  first-page: '751'
+  issue: '5'
+  journal-title: Hum. Pathol.
+  volume: '41'
+  year: '2010'
+- article-title: 'Three-dimensional solid texture analysis and retrieval in biomedical
+    imaging: review and opportunities'
+  author: Depeursinge
+  doi: 10.1016/j.media.2013.10.005
+  first-page: '176'
+  issue: '1'
+  journal-title: Med. Image Anal.
+  volume: '18'
+  year: '2014'
+- article-title: Standardization of reagents and methods used in cytological and histological
+    practice with emphasis on dyes, stains and chromogenic reagents
+  author: Lyon
+  doi: 10.1007/BF00158587
+  first-page: '533'
+  issue: '7'
+  journal-title: Histochem. J.
+  volume: '26'
+  year: '1994'
+- article-title: A nonlinear mapping approach to stain normalization in digital histopathology
+    images using image-specific color deconvolution
+  author: Khan
+  doi: 10.1109/TBME.2014.2303294
+  first-page: '1729'
+  issue: '6'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '61'
+  year: '2014'
+- article-title: Colour normalisation in digital histopathology images
+  author: Magee
+  series-title: Proc Optical Tissue Image Analysis in Microscopy, Histopathology and
+    Endoscopy (MICCAI Workshop)
+  volume: vol. 100
+  year: '2009'
+- article-title: Blank-field correction for achieving a uniform white background in
+    brightfield digital photomicrographs
+  author: Marty
+  doi: 10.2144/000112488
+  first-page: '716'
+  issue: '6'
+  journal-title: BioTechniques
+  volume: '42'
+  year: '2007'
+- article-title: Correction of uneven illumination (vignetting) in digital microscopy
+    images
+  author: Leong
+  doi: 10.1136/jcp.56.8.619
+  first-page: '619'
+  issue: '8'
+  journal-title: J. Clin. Pathol.
+  volume: '56'
+  year: '2003'
+- article-title: Multi-image based method to correct vignetting effect in light microscopy
+    images
+  author: Piccinini
+  doi: 10.1111/j.1365-2818.2012.03645.x
+  first-page: '6'
+  issue: '1'
+  journal-title: J. Microsc.
+  volume: '248'
+  year: '2012'
+- article-title: Multi-modal imaging of histological tissue sections
+  author: Can
+  first-page: '288'
+  series-title: '2008 5th IEEE International Symposium on Biomedical Imaging: From
+    Nano to Macro'
+  year: '2008'
+- article-title: 'Computer-aided evaluation of neuroblastoma on whole-slide histology
+    images: classifying grade of neuroblastic differentiation'
+  author: Kong
+  doi: 10.1016/j.patcog.2008.10.035
+  first-page: '1080'
+  issue: '6'
+  journal-title: Pattern Recognit.
+  volume: '42'
+  year: '2009'
+- article-title: Protocol for the examination of specimens from patients with primary
+    carcinoma of the colon and rectum
+  author: Washington
+  doi: 10.5858/133.10.1539
+  first-page: '1539'
+  issue: '10'
+  journal-title: Arch. Pathol. Lab. Med.
+  volume: '133'
+  year: '2009'
+- article-title: 'Methods for nuclei detection, segmentation, and classification in
+    digital histopathology: a review—current status and future potential'
+  author: Irshad
+  doi: 10.1109/RBME.2013.2295804
+  first-page: '97'
+  journal-title: IEEE Rev. Biomed. Eng.
+  volume: '7'
+  year: '2014'
+- article-title: Nuclear pleomorphism scoring by selective cell nuclei detection
+  author: Dalle
+  series-title: WACV
+  year: '2009'
+- article-title: Combining intensity, edge and shape information for 2D and 3D segmentation
+    of cell nuclei in tissue sections
+  author: Wählby
+  doi: 10.1111/j.0022-2720.2004.01338.x
+  first-page: '67'
+  issue: '1'
+  journal-title: J. Microsc.
+  volume: '215'
+  year: '2004'
+- article-title: Segmenting clustered nuclei using h-minima transform-based marker
+    extraction and contour parameterization
+  author: Jung
+  doi: 10.1109/TBME.2010.2060336
+  first-page: '2600'
+  issue: '10'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '57'
+  year: '2010'
+- article-title: Grading nuclear pleomorphism on histological micrographs
+  author: Cosatto
+  first-page: '1'
+  series-title: 19th International Conference on Pattern Recognition, 2008. ICPR 2008
+  year: '2008'
+- article-title: Improved automatic detection and segmentation of cell nuclei in histopathology
+    images
+  author: Al-Kofahi
+  doi: 10.1109/TBME.2009.2035102
+  first-page: '841'
+  issue: '4'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '57'
+  year: '2010'
+- article-title: Marker-controlled watershed segmentation of nuclei in H&E stained
+    breast cancer biopsy images
+  author: Veta
+  first-page: '618'
+  series-title: '2011 IEEE International Symposium on Biomedical Imaging: from Nano
+    to Macro'
+  year: '2011'
+- article-title: Mitosis detection in breast cancer histological images with mathematical
+    morphology
+  author: Aptoula
+  first-page: '1'
+  series-title: Signal Processing and Communications Applications Conference (SIU),
+    2013 21st
+  year: '2013'
+- article-title: Mitosis detection in breast cancer histology images with deep neural
+    networks
+  author: Cireşan
+  first-page: '411'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2013'
+- article-title: Large-scale computations on histology images reveal grade-differentiating
+    parameters for breast cancer
+  author: Petushi
+  doi: 10.1186/1471-2342-6-14
+  first-page: '1'
+  issue: '1'
+  journal-title: BMC Med. Imaging
+  volume: '6'
+  year: '2006'
+- article-title: Automated mitosis detection in histopathology using morphological
+    and multi-channel statistics features
+  author: Irshad
+  doi: 10.4103/2153-3539.112695
+  first-page: '10'
+  issue: '1'
+  journal-title: J. Pathol. Inform.
+  volume: '4'
+  year: '2013'
+- article-title: Effective segmentation and classification for HCC biopsy images
+  author: Huang
+  doi: 10.1016/j.patcog.2009.10.014
+  first-page: '1550'
+  issue: '4'
+  journal-title: Pattern Recognit.
+  volume: '43'
+  year: '2010'
+- article-title: Graph-based tools for microscopic cellular image segmentation
+  author: Ta
+  doi: 10.1016/j.patcog.2008.10.029
+  first-page: '1113'
+  issue: '6'
+  journal-title: Pattern Recognit.
+  volume: '42'
+  year: '2009'
+- article-title: Efficient nucleus detector in histopathology images
+  author: Vink
+  doi: 10.1111/jmi.12001
+  first-page: '124'
+  issue: '2'
+  journal-title: J. Microsc.
+  volume: '249'
+  year: '2013'
+- article-title: Segmentation of intestinal gland images with iterative region growing
+  author: Wu
+  doi: 10.1111/j.1365-2818.2005.01531.x
+  first-page: '190'
+  issue: '3'
+  journal-title: J. Microsc.
+  volume: '220'
+  year: '2005'
+- article-title: Color graphs for automated cancer diagnosis and grading
+  author: Altunbay
+  doi: 10.1109/TBME.2009.2033804
+  first-page: '665'
+  issue: '3'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '57'
+  year: '2010'
+- article-title: A novel polar space random field model for the detection of glandular
+    structures
+  author: Fu
+  doi: 10.1109/TMI.2013.2296572
+  first-page: '764'
+  issue: '3'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '33'
+  year: '2014'
+- article-title: A stochastic polygons model for glandular structures in colon histology
+    images
+  author: Sirinukunwattana
+  doi: 10.1109/TMI.2015.2433900
+  first-page: '2366'
+  issue: '11'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '34'
+  year: '2015'
+- article-title: Gland segmentation and computerized Gleason grading of prostate histology
+    by integrating low-, high-level and domain specific information
+  author: Naik
+  first-page: '1'
+  series-title: MIAAB Workshop
+  year: '2007'
+- author: Boucheron
+  series-title: Object-and Spatial-Level Quantitative Analysis of Multispectral Histopathology
+    Images for Detection and Characterization of Cancer
+  year: '2008'
+- author: Demir
+  series-title: 'Automated Cancer Diagnosis Based on Histopathological Images: A Systematic
+    Survey'
+  year: '2005'
+- article-title: Automated malignancy detection in breast histopathological images
+  author: Chekkoury
+  first-page: '831515'
+  series-title: SPIE Medical Imaging
+  year: '2012'
+- article-title: Automated grading of prostate cancer using architectural and textural
+    image features
+  author: Doyle
+  first-page: '1284'
+  series-title: '2007 4th IEEE International Symposium on Biomedical Imaging: From
+    Nano to Macro'
+  year: '2007'
+- article-title: A boosting cascade for automated detection of prostate cancer from
+    digitized histology
+  author: Doyle
+  first-page: '504'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2006'
+- article-title: Detecting prostatic adenocarcinoma from digitized histology using
+    a multi-scale hierarchical classification approach
+  author: Doyle
+  first-page: '4759'
+  series-title: Engineering in Medicine and Biology Society, 2006. EMBS'06. 28th Annual
+    International Conference of the IEEE
+  year: '2006'
+- article-title: Automatic classification for pathological prostate images based on
+    fractal analysis
+  author: Huang
+  doi: 10.1109/TMI.2009.2012704
+  first-page: '1037'
+  issue: '7'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '28'
+  year: '2009'
+- article-title: Multiwavelet grading of pathological images of prostate
+  author: Jafari-Khouzani
+  doi: 10.1109/TBME.2003.812194
+  first-page: '697'
+  issue: '6'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '50'
+  year: '2003'
+- article-title: The use of morphological characteristics and texture analysis in
+    the identification of tissue composition in prostatic neoplasia
+  author: Diamond
+  doi: 10.1016/j.humpath.2004.05.010
+  first-page: '1121'
+  issue: '9'
+  journal-title: Hum. Pathol.
+  volume: '35'
+  year: '2004'
+- article-title: The Laplacian pyramid as a compact image code
+  author: Burt
+  doi: 10.1109/TCOM.1983.1095851
+  first-page: '532'
+  issue: '4'
+  journal-title: IEEE Trans. Commun.
+  volume: '31'
+  year: '1983'
+- article-title: Floating search methods in feature selection
+  author: Pudil
+  doi: 10.1016/0167-8655(94)90127-9
+  first-page: '1119'
+  issue: '11'
+  journal-title: Pattern Recognit. Lett.
+  volume: '15'
+  year: '1994'
+- article-title: A decision-theoretic generalization of on-line learning and an application
+    to boosting
+  author: Freund
+  first-page: '23'
+  series-title: European Conference on Computational Learning Theory
+  year: '1995'
+- article-title: 'Grafting: fast, incremental feature selection by gradient descent
+    in function space'
+  author: Perkins
+  first-page: '1333'
+  issue: Mar
+  journal-title: J. Mach. Learn. Res.
+  volume: '3'
+  year: '2003'
+- article-title: 'Invasive carcinomas and fibroadenomas of the breast: comparison
+    of microvessel distributions-implications for imaging modalities'
+  author: Weind
+  doi: 10.1148/radiology.208.2.9680579
+  first-page: '477'
+  issue: '2'
+  journal-title: Radiology
+  volume: '208'
+  year: '1998'
+- article-title: Bayesian belief networks in quantitative histopathology. Analytical
+    and quantitative cytology and histology/the International Academy of Cytology
+    [and] American Society of Cytology
+  author: Bartels
+  first-page: '459'
+  issue: '6'
+  journal-title: Anal. Quant. Cytol. Histol.
+  volume: '14'
+  year: '1992'
+- author: Jolliffe
+  series-title: Principal Component Analysis
+  year: '2002'
+- article-title: Ensemble based system for whole-slide prostate cancer probability
+    mapping using color texture features
+  author: DiFranco
+  doi: 10.1016/j.compmedimag.2010.12.005
+  first-page: '629'
+  issue: '7'
+  journal-title: Comput. Med. Imaging Graph.
+  volume: '35'
+  year: '2011'
+- article-title: Classification of mitotic figures with convolutional neural networks
+    and seeded blob features
+  author: Malon
+  doi: 10.4103/2153-3539.112694
+  first-page: '9'
+  issue: '1'
+  journal-title: J. Pathol. Inform.
+  volume: '4'
+  year: '2013'
+- article-title: SVM optimization for hyperspectral colon tissue cell classification
+  author: Rajpoot
+  first-page: '829'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2004'
+- article-title: Adaptive discriminant wavelet packet transform and local binary patterns
+    for meningioma subtype classification
+  author: Qureshi
+  first-page: '196'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2008'
+- article-title: 'Multiclassifier systems: back to the future'
+  author: Ghosh
+  first-page: '1'
+  series-title: International Workshop on Multiple Classifier Systems
+  year: '2002'
+- article-title: Fusion techniques for combining textual and visual information retrieval
+  author: Depeursinge
+  first-page: '95'
+  series-title: ImageCLEF
+  volume: vol. 32
+  year: '2010'
+- article-title: Evaluation of machine learning techniques for prostate cancer diagnosis
+    and Gleason grading
+  author: Alexandratou
+  first-page: '297'
+  issue: '3'
+  journal-title: Int. J. Comput. Intell. Bioinform. Syst. Biol.
+  volume: '1'
+  year: '2010'
+- article-title: Imagenet classification with deep convolutional neural networks
+  author: Krizhevsky
+  first-page: '1097'
+  series-title: Advances in Neural Information Processing Systems
+  year: '2012'
+- article-title: 'New types of deep neural network learning for speech recognition
+    and related applications: an overview'
+  author: Deng
+  first-page: '8599'
+  series-title: 2013 IEEE International Conference on Acoustics, Speech and Signal
+    Processing
+  year: '2013'
+- article-title: 'Domain adaptation for large-scale sentiment classification: a deep
+    learning approach'
+  author: Glorot
+  first-page: '513'
+  series-title: Proceedings of the 28th International Conference on Machine Learning
+    (ICML-11)
+  year: '2011'
+- article-title: Automating morphological profiling with generic deep convolutional
+    networks
+  author: Pawlowski
+  journal-title: bioRxiv
+  year: '2016'
+- article-title: 'Guest editorial deep learning in medical imaging: overview and future
+    promise of an exciting new technique'
+  author: Greenspan
+  doi: 10.1109/TMI.2016.2553401
+  first-page: '1153'
+  issue: '5'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '35'
+  year: '2016'
+- article-title: 'Deep learning for digital pathology image analysis: a comprehensive
+    tutorial with selected use cases'
+  author: Janowczyk
+  doi: 10.4103/2153-3539.186902
+  journal-title: J. Pathol. Inform.
+  volume: '7'
+  year: '2016'
+- article-title: Deep learning
+  author: LeCun
+  doi: 10.1038/nature14539
+  first-page: '436'
+  issue: '7553'
+  journal-title: Nature
+  volume: '521'
+  year: '2015'
+- author: Goodfellow
+  series-title: Deep Learning
+  year: '2016'
+- article-title: Gradient-based learning applied to document recognition
+  author: LeCun
+  doi: 10.1109/5.726791
+  first-page: '2278'
+  issue: '11'
+  journal-title: Proc. IEEE
+  volume: '86'
+  year: '1998'
+- author: Bengio
+- article-title: 'Deep learning in neural networks: an overview'
+  author: Schmidhuber
+  doi: 10.1016/j.neunet.2014.09.003
+  first-page: '85'
+  journal-title: Neural Netw.
+  volume: '61'
+  year: '2015'
+- article-title: Why does unsupervised pre-training help deep learning?
+  author: Erhan
+  first-page: '625'
+  issue: Feb
+  journal-title: J. Mach. Learn. Res.
+  volume: '11'
+  year: '2010'
+- article-title: 'Histopathology image representation for automatic analysis: a state-of-the-art
+    review'
+  author: Arevalo
+  doi: 10.18359/rmed.1184
+  first-page: '79'
+  issue: '2'
+  journal-title: Revista Med
+  volume: '22'
+  year: '2014'
+- article-title: Mitosis detection in breast cancer histological images an ICPR 2012
+    contest
+  author: Roux
+  doi: 10.4103/2153-3539.112693
+  first-page: '8'
+  issue: '1'
+  journal-title: J. Pathol. Inform.
+  volume: '4'
+  year: '2013'
+- article-title: A deep learning architecture for image representation, visual interpretability
+    and automated basal-cell carcinoma cancer detection
+  author: Cruz-Roa
+  first-page: '403'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2013'
+- article-title: Hybrid image representation learning model with invariant features
+    for basal cell carcinoma detection
+  author: Arevalo
+  first-page: 89220M
+  series-title: IX International Seminar on Medical Information Processing and Analysis
+  year: '2013'
+- article-title: Classification of tumor histopathology via sparse feature learning
+  author: Nayak
+  first-page: '410'
+  series-title: 2013 IEEE 10th International Symposium on Biomedical Imaging
+  year: '2013'
+- article-title: Deep learning of feature representation with multiple instance learning
+    for medical image analysis
+  author: Xu
+  first-page: '1626'
+  series-title: 2014 IEEE International Conference on Acoustics, Speech and Signal
+    Processing (ICASSP)
+  year: '2014'
+- author: Le Hou
+- article-title: Unsupervised feature learning for content-based histopathology image
+    retrieval
+  author: Vanegas
+  first-page: '1'
+  series-title: 2014 12th International Workshop on Content-Based Multimedia Indexing
+    (CBMI)
+  year: '2014'
+- article-title: Automatic detection of invasive ductal carcinoma in whole slide images
+    with convolutional neural networks
+  author: Cruz-Roa
+  first-page: '904103'
+  series-title: SPIE Medical Imaging
+  year: '2014'
+- article-title: An unsupervised feature learning framework for basal cell carcinoma
+    image analysis
+  author: Arevalo
+  doi: 10.1016/j.artmed.2015.04.004
+  first-page: '131'
+  issue: '2'
+  journal-title: Artif. Intell. Med.
+  volume: '64'
+  year: '2015'
+- article-title: Stacked predictive sparse decomposition for classification of histology
+    sections
+  author: Chang
+  doi: 10.1007/s11263-014-0790-9
+  first-page: '3'
+  issue: '1'
+  journal-title: Int. J. Comput. Vis.
+  volume: '113'
+  year: '2015'
+- article-title: Detection of high-grade atypia nuclei in breast cancer imaging
+  author: Noël
+  first-page: 94200R
+  series-title: SPIE Medical Imaging
+  year: '2015'
+- author: Jia
+- article-title: A comparative evaluation of supervised and unsupervised representation
+    learning approaches for anaplastic medulloblastoma differentiation
+  author: Cruz-Roa
+  first-page: 92870G
+  series-title: Tenth International Symposium on Medical Information Processing and
+    Analysis
+  year: '2015'
+- article-title: 'Combining unsupervised feature learning and Riesz wavelets for histopathology
+    image representation: application to identifying anaplastic medulloblastoma'
+  author: Otálora
+  first-page: '581'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2015'
+- article-title: Deep learning in label-free cell classification
+  author: Lifan Chen
+  journal-title: Sci. Rep.
+  volume: '6'
+  year: '2016'
+- article-title: Phenotypic characterization of breast invasive carcinoma via transferable
+    tissue morphometric patterns learned from glioblastoma multiforme
+  author: Han
+  first-page: '1025'
+  series-title: 13th International Symposium on Biomedical Imaging (ISBI)
+  year: '2016'
+- article-title: Automated tubule nuclei quantification and correlation with oncotype
+    DX risk categories in ER+ breast cancer whole slide images
+  author: Romo-Bucheli
+  doi: 10.1038/srep32706
+  journal-title: Sci. Rep.
+  volume: '6'
+  year: '2016'
+- article-title: Deep learning based automatic immune cell detection for immunohistochemistry
+    images
+  author: Chen
+  first-page: '17'
+  series-title: International Workshop on Machine Learning in Medical Imaging
+  year: '2014'
+- article-title: Assessment of algorithms for mitosis detection in breast cancer histopathology
+    images
+  author: Veta
+  doi: 10.1016/j.media.2014.11.010
+  first-page: '237'
+  issue: '1'
+  journal-title: Med. Image Anal.
+  volume: '20'
+  year: '2015'
+- author: Gutman
+- article-title: 'Histological grading and prognosis in breast cancer: a study of
+    1409 cases of which 359 have been followed for 15 years'
+  author: Bloom
+  doi: 10.1038/bjc.1957.43
+  first-page: '359'
+  issue: '3'
+  journal-title: Br. J. Cancer
+  volume: '11'
+  year: '1957'
+- article-title: 'Breast cancer histopathology image analysis: a review'
+  author: Veta
+  doi: 10.1109/TBME.2014.2303852
+  first-page: '1400'
+  issue: '5'
+  journal-title: IEEE Trans. Biomed. Eng.
+  volume: '61'
+  year: '2014'
+- article-title: Mitosis detection in breast cancer histology images via deep cascaded
+    networks
+  author: Chen
+  series-title: Thirtieth AAAI Conference on Artificial Intelligence
+  year: '2016'
+- author: Shah
+- article-title: 'Mitosis counting in breast cancer: object-level interobserver agreement
+    and comparison to an automatic method'
+  author: Veta
+  doi: 10.1371/journal.pone.0161286
+  issue: '8'
+  journal-title: PLoS ONE
+  volume: '11'
+  year: '2016'
+- article-title: A comparison of algorithms and humans for mitosis detection
+  author: Giusti
+  first-page: '1360'
+  series-title: 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI)
+  year: '2014'
+- article-title: A global covariance descriptor for nuclear atypia scoring in breast
+    histopathology images
+  author: Khan
+  doi: 10.1109/JBHI.2015.2447008
+  first-page: '1637'
+  issue: '5'
+  journal-title: IEEE J. Biomed. Health Inform.
+  volume: '19'
+  year: '2015'
+- article-title: Mitosis detection in breast cancer pathology images by combining
+    handcrafted and convolutional neural network features
+  author: Wang
+  doi: 10.1117/1.JMI.1.3.034003
+  issue: '3'
+  journal-title: J. Med. Imag.
+  volume: '1'
+  year: '2014'
+- article-title: Stacked sparse autoencoder (SSAE) for nuclei detection on breast
+    cancer histopathology images
+  author: Xu
+  doi: 10.1109/TMI.2015.2458702
+  first-page: '119'
+  issue: '1'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '35'
+  year: '2016'
+- article-title: Contemporary Gleason grading system
+  author: Trpkov
+  first-page: '13'
+  series-title: Genitourinary Pathology
+  year: '2015'
+- article-title: Convolutional neural networks for an automatic classification of
+    prostate tissue slides with high-grade Gleason score
+  author: Jimenez-del Toro
+  series-title: SPIE Medical Imaging
+  year: '2017'
+- author: Wang
+- article-title: Going deeper with convolutions
+  author: Szegedy
+  first-page: '1'
+  series-title: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition
+  year: '2015'
+- article-title: Fully convolutional networks for semantic segmentation
+  author: Long
+  first-page: '3431'
+  series-title: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition
+  year: '2015'
+- author: Kainz
+- author: Sirinukunwattana
+- author: Chen
+- author: Wang
+  first-page: '176'
+  series-title: A Deep Learning Approach for Semantic Segmentation in Histology Tissue
+    Images
+  year: '2016'
+- author: Flood
+  series-title: Deep Learning with a Dag Structure for Segmentation and Classification
+    of Prostate Cancer
+  year: '2016'
+- author: Gummeson
+  series-title: Prostate Cancer Classification Using Convolutional Neural Networks
+  year: '2016'
+- article-title: Locality sensitive deep learning for detection and classification
+    of nuclei in routine colon cancer histology images
+  author: Sirinukunwattana
+  doi: 10.1109/TMI.2016.2525803
+  first-page: '1196'
+  issue: '5'
+  journal-title: IEEE Trans. Med. Imaging
+  volume: '35'
+  year: '2016'
+- article-title: The importance of skip connections in biomedical image segmentation
+  author: Drozdzal
+  first-page: '179'
+  series-title: International Workshop on Large-Scale Annotation of Biomedical Data
+    and Expert Label Synthesis
+  year: '2016'
+- article-title: Cell segmentation proposal network for microscopy image analysis
+  author: Akram
+  first-page: '21'
+  series-title: International Workshop on Large-Scale Annotation of Biomedical Data
+    and Expert Label Synthesis
+  year: '2016'
+- author: Xu
+- article-title: Gland segmentation in colon histology images using hand-crafted features
+    and convolutional neural networks
+  author: Li
+  first-page: '1405'
+  series-title: 2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)
+  year: '2016'
+- article-title: Microscopy cell counting and detection with fully convolutional regression
+    networks
+  author: Xie
+  first-page: '1'
+  journal-title: Comput. Methods Biomech. Biomed. Eng. Imaging Vis.
+  year: '2016'
+- article-title: Feature augmented deep neural networks for segmentation of cells
+  author: Sadanandan
+  first-page: '231'
+  series-title: European Conference on Computer Vision
+  year: '2016'
+- article-title: Multi-loss convolutional networks for gland analysis in microscopy
+  author: BenTaieb
+  first-page: '642'
+  series-title: 2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)
+  year: '2016'
+- article-title: Topology aware fully convolutional networks for histology gland segmentation
+  author: BenTaieb
+  first-page: '460'
+  series-title: International Conference on Medical Image Computing and Computer-Assisted
+    Intervention
+  year: '2016'
+doc_url: https://api.elsevier.com/content/article/PII:B9780128121337000107?httpAccept=text/plain
+doi: 10.1016/b978-0-12-812133-7.00010-7
+files:
+- jimenez-del-toro-oscar-and-otalora-sebastian-and-andersson-mats-and-euren-kristian-and-hedlund-martin-and-rousson-mikael-and-muller-henning-and.pdf
+journal: Biomedical Texture Analysis
+pages: 281--314
+publisher: Elsevier
+ref: AnalysisOfHisJimene2017
+time-added: 2023-04-01-18:26:03
+title: Analysis of Histopathology Images
+type: inbook
+url: http://dx.doi.org/10.1016/b978-0-12-812133-7.00010-7
+year: 2017

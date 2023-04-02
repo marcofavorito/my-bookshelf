@@ -1,0 +1,63 @@
+abstract: 'We present Imagen, a text-to-image diffusion model with an unprecedented
+  degree of photorealism and a deep level of language understanding. Imagen builds
+  on the power of large transformer language models in understanding text and hinges
+  on the strength of diffusion models in high-fidelity image generation. Our key discovery
+  is that generic large language models (e.g. T5), pretrained on text-only corpora,
+  are surprisingly effective at encoding text for image synthesis: increasing the
+  size of the language model in Imagen boosts both sample fidelity and image-text
+  alignment much more than increasing the size of the image diffusion model. Imagen
+  achieves a new state-of-the-art FID score of 7.27 on the COCO dataset, without ever
+  training on COCO, and human raters find Imagen samples to be on par with the COCO
+  data itself in image-text alignment. To assess text-to-image models in greater depth,
+  we introduce DrawBench, a comprehensive and challenging benchmark for text-to-image
+  models. With DrawBench, we compare Imagen with recent methods including VQ-GAN+CLIP,
+  Latent Diffusion Models, and DALL-E 2, and find that human raters prefer Imagen
+  over other models in side-by-side comparisons, both in terms of sample quality and
+  image-text alignment. See https://imagen.research.google/ for an overview of the
+  results.'
+archiveprefix: arXiv
+author: Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang,
+  Jay and Denton, Emily and Ghasemipour, Seyed Kamyar Seyed and Ayan, Burcu Karagol
+  and Mahdavi, S. Sara and Lopes, Rapha Gontijo and Salimans, Tim and Ho, Jonathan
+  and Fleet, David J and Norouzi, Mohammad
+author_list:
+- family: Saharia
+  given: Chitwan
+- family: Chan
+  given: William
+- family: Saxena
+  given: Saurabh
+- family: Li
+  given: Lala
+- family: Whang
+  given: Jay
+- family: Denton
+  given: Emily
+- family: Ghasemipour
+  given: Seyed Kamyar Seyed
+- family: Ayan
+  given: Burcu Karagol
+- family: Mahdavi
+  given: S. Sara
+- family: Lopes
+  given: Rapha Gontijo
+- family: Salimans
+  given: Tim
+- family: Ho
+  given: Jonathan
+- family: Fleet
+  given: David J
+- family: Norouzi
+  given: Mohammad
+eprint: 2205.11487v1
+file: 2205.11487v1.pdf
+files:
+- saharia-chitwan-and-chan-william-and-saxena-saurabh-and-li-lala-and-whang-jay-and-denton-emily-and-ghasemipour-seyed-kamyar-seyed-and-ayan-bur.pdf
+month: May
+primaryclass: cs.CV
+ref: 2205.11487v1
+time-added: 2023-04-01-22:24:43
+title: Photorealistic Text-to-Image Diffusion Models with Deep Language   Understanding
+type: article
+url: http://arxiv.org/abs/2205.11487v1
+year: '2022'

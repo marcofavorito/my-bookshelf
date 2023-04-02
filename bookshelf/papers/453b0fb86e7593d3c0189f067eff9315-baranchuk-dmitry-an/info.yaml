@@ -1,0 +1,40 @@
+abstract: Denoising diffusion probabilistic models have recently received much research
+  attention since they outperform alternative approaches, such as GANs, and currently
+  provide state-of-the-art generative performance. The superior performance of diffusion
+  models has made them an appealing tool in several applications, including inpainting,
+  super-resolution, and semantic editing. In this paper, we demonstrate that diffusion
+  models can also serve as an instrument for semantic segmentation, especially in
+  the setup when labeled data is scarce. In particular, for several pretrained diffusion
+  models, we investigate the intermediate activations from the networks that perform
+  the Markov step of the reverse diffusion process. We show that these activations
+  effectively capture the semantic information from an input image and appear to be
+  excellent pixel-level representations for the segmentation problem. Based on these
+  observations, we describe a simple segmentation method, which can work even if only
+  a few training images are provided. Our approach significantly outperforms the existing
+  alternatives on several datasets for the same amount of human supervision.
+archiveprefix: arXiv
+author: Baranchuk, Dmitry and Rubachev, Ivan and Voynov, Andrey and Khrulkov, Valentin
+  and Babenko, Artem
+author_list:
+- family: Baranchuk
+  given: Dmitry
+- family: Rubachev
+  given: Ivan
+- family: Voynov
+  given: Andrey
+- family: Khrulkov
+  given: Valentin
+- family: Babenko
+  given: Artem
+eprint: 2112.03126v3
+file: 2112.03126v3.pdf
+files:
+- baranchuk-dmitry-and-rubachev-ivan-and-voynov-andrey-and-khrulkov-valentin-and-babenko-artemlabel-efficient-semantic-segmentation-with-diffusion.pdf
+month: Dec
+primaryclass: cs.CV
+ref: 2112.03126v3
+time-added: 2023-04-01-22:40:19
+title: Label-Efficient Semantic Segmentation with Diffusion Models
+type: article
+url: http://arxiv.org/abs/2112.03126v3
+year: '2021'

@@ -1,0 +1,41 @@
+abstract: Generative modeling has seen a rising interest in both classical and quantum
+  machine learning, and it represents a promising candidate to obtain a practical
+  quantum advantage in the near term. In this study, we build over a proposed framework
+  for evaluating the generalization performance of generative models, and we establish
+  the first quantitative comparative race towards practical quantum advantage (PQA)
+  between classical and quantum generative models, namely Quantum Circuit Born Machines
+  (QCBMs), Transformers (TFs), Recurrent Neural Networks (RNNs), Variational Autoencoders
+  (VAEs), and Wasserstein Generative Adversarial Networks (WGANs). After defining
+  four types of PQAs scenarios, we focus on what we refer to as potential PQA, aiming
+  to compare quantum models with the best-known classical algorithms for the task
+  at hand. We let the models race on a well-defined and application-relevant competition
+  setting, where we illustrate and demonstrate our framework on 20 variables (qubits)
+  generative modeling task. Our results suggest that QCBMs are more efficient in the
+  data-limited regime than the other state-of-the-art classical generative models.
+  Such a feature is highly desirable in a wide range of real-world applications where
+  the available data is scarce.
+archiveprefix: arXiv
+author: Hibat-Allah, Mohamed and Mauri, Marta and Carrasquilla, Juan and Perdomo-Ortiz,
+  Alejandro
+author_list:
+- family: Hibat-Allah
+  given: Mohamed
+- family: Mauri
+  given: Marta
+- family: Carrasquilla
+  given: Juan
+- family: Perdomo-Ortiz
+  given: Alejandro
+eprint: 2303.15626v1
+file: 2303.15626v1.pdf
+files:
+- hibat-allah-mohamed-and-mauri-marta-and-carrasquilla-juan-and-perdomo-ortiz-alejandroa-framework-for-demonstrating-practical-quantum-advantage-ra.pdf
+month: Mar
+primaryclass: quant-ph
+ref: 2303.15626v1
+time-added: 2023-03-30-08:20:11
+title: 'A Framework for Demonstrating Practical Quantum Advantage: Racing   Quantum
+  against Classical Generative Models'
+type: article
+url: http://arxiv.org/abs/2303.15626v1
+year: '2023'

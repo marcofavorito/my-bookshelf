@@ -1,0 +1,44 @@
+abstract: 'Diffusion models have recently been shown to generate high-quality synthetic
+  images, especially when paired with a guidance technique to trade off diversity
+  for fidelity. We explore diffusion models for the problem of text-conditional image
+  synthesis and compare two different guidance strategies: CLIP guidance and classifier-free
+  guidance. We find that the latter is preferred by human evaluators for both photorealism
+  and caption similarity, and often produces photorealistic samples. Samples from
+  a 3.5 billion parameter text-conditional diffusion model using classifier-free guidance
+  are favored by human evaluators to those from DALL-E, even when the latter uses
+  expensive CLIP reranking. Additionally, we find that our models can be fine-tuned
+  to perform image inpainting, enabling powerful text-driven image editing. We train
+  a smaller model on a filtered dataset and release the code and weights at https://github.com/openai/glide-text2im.'
+archiveprefix: arXiv
+author: Nichol, Alex and Dhariwal, Prafulla and Ramesh, Aditya and Shyam, Pranav and
+  Mishkin, Pamela and McGrew, Bob and Sutskever, Ilya and Chen, Mark
+author_list:
+- family: Nichol
+  given: Alex
+- family: Dhariwal
+  given: Prafulla
+- family: Ramesh
+  given: Aditya
+- family: Shyam
+  given: Pranav
+- family: Mishkin
+  given: Pamela
+- family: McGrew
+  given: Bob
+- family: Sutskever
+  given: Ilya
+- family: Chen
+  given: Mark
+eprint: 2112.10741v3
+file: 2112.10741v3.pdf
+files:
+- nichol-alex-and-dhariwal-prafulla-and-ramesh-aditya-and-shyam-pranav-and-mishkin-pamela-and-mcgrew-bob-and-sutskever-ilya-and-chen-markglide.pdf
+month: Dec
+primaryclass: cs.CV
+ref: 2112.10741v3
+time-added: 2023-04-01-21:28:23
+title: 'GLIDE: Towards Photorealistic Image Generation and Editing with   Text-Guided
+  Diffusion Models'
+type: article
+url: http://arxiv.org/abs/2112.10741v3
+year: '2021'

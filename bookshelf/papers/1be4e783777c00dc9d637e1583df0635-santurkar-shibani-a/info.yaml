@@ -1,0 +1,33 @@
+abstract: 'Batch Normalization (BatchNorm) is a widely adopted technique that enables
+  faster and more stable training of deep neural networks (DNNs). Despite its pervasiveness,
+  the exact reasons for BatchNorm''s effectiveness are still poorly understood. The
+  popular belief is that this effectiveness stems from controlling the change of the
+  layers'' input distributions during training to reduce the so-called "internal covariate
+  shift". In this work, we demonstrate that such distributional stability of layer
+  inputs has little to do with the success of BatchNorm. Instead, we uncover a more
+  fundamental impact of BatchNorm on the training process: it makes the optimization
+  landscape significantly smoother. This smoothness induces a more predictive and
+  stable behavior of the gradients, allowing for faster training.'
+archiveprefix: arXiv
+author: Santurkar, Shibani and Tsipras, Dimitris and Ilyas, Andrew and Madry, Aleksander
+author_list:
+- family: Santurkar
+  given: Shibani
+- family: Tsipras
+  given: Dimitris
+- family: Ilyas
+  given: Andrew
+- family: Madry
+  given: Aleksander
+eprint: 1805.11604v5
+file: 1805.11604v5.pdf
+files:
+- santurkar-shibani-and-tsipras-dimitris-and-ilyas-andrew-and-madry-aleksanderhow-does-batch-normalization-help-optimization-2018.pdf
+month: May
+primaryclass: stat.ML
+ref: 1805.11604v5
+time-added: 2023-04-02-10:16:06
+title: How Does Batch Normalization Help Optimization?
+type: article
+url: http://arxiv.org/abs/1805.11604v5
+year: '2018'

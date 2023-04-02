@@ -1,0 +1,30 @@
+abstract: Denoising diffusion probabilistic models (DDPM) are a class of generative
+  models which have recently been shown to produce excellent samples. We show that
+  with a few simple modifications, DDPMs can also achieve competitive log-likelihoods
+  while maintaining high sample quality. Additionally, we find that learning variances
+  of the reverse diffusion process allows sampling with an order of magnitude fewer
+  forward passes with a negligible difference in sample quality, which is important
+  for the practical deployment of these models. We additionally use precision and
+  recall to compare how well DDPMs and GANs cover the target distribution. Finally,
+  we show that the sample quality and likelihood of these models scale smoothly with
+  model capacity and training compute, making them easily scalable. We release our
+  code at https://github.com/openai/improved-diffusion
+archiveprefix: arXiv
+author: Nichol, Alex and Dhariwal, Prafulla
+author_list:
+- family: Nichol
+  given: Alex
+- family: Dhariwal
+  given: Prafulla
+eprint: 2102.09672v1
+file: 2102.09672v1.pdf
+files:
+- nichol-alex-and-dhariwal-prafullaimproved-denoising-diffusion-probabilistic-models2021.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2102.09672v1
+time-added: 2023-04-01-22:33:19
+title: Improved Denoising Diffusion Probabilistic Models
+type: article
+url: http://arxiv.org/abs/2102.09672v1
+year: '2021'
