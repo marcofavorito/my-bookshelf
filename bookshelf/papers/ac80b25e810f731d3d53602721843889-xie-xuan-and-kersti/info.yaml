@@ -1,0 +1,34 @@
+abstract: Formal verification has emerged as a powerful approach to ensure the safety
+  and reliability of deep neural networks. However, current verification tools are
+  limited to only a handful of properties that can be expressed as first-order constraints
+  over the inputs and output of a network. While adversarial robustness and fairness
+  fall under this category, many real-world properties (e.g., "an autonomous vehicle
+  has to stop in front of a stop sign") remain outside the scope of existing verification
+  technology. To mitigate this severe practical restriction, we introduce a novel
+  framework for verifying neural networks, named neuro-symbolic verification. The
+  key idea is to use neural networks as part of the otherwise logical specification,
+  enabling the verification of a wide variety of complex, real-world properties, including
+  the one above. Moreover, we demonstrate how neuro-symbolic verification can be implemented
+  on top of existing verification infrastructure for neural networks, making our framework
+  easily accessible to researchers and practitioners alike.
+archiveprefix: arXiv
+author: Xie, Xuan and Kersting, Kristian and Neider, Daniel
+author_list:
+- family: Xie
+  given: Xuan
+- family: Kersting
+  given: Kristian
+- family: Neider
+  given: Daniel
+eprint: 2203.00938v1
+file: 2203.00938v1.pdf
+files:
+- xie-xuan-and-kersting-kristian-and-neider-danielneuro-symbolic-verification-of-deep-neural-networks2022.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2203.00938v1
+time-added: 2023-03-11-09:35:21
+title: Neuro-Symbolic Verification of Deep Neural Networks
+type: article
+url: http://arxiv.org/abs/2203.00938v1
+year: '2022'

@@ -1,0 +1,40 @@
+abstract: 'In reinforcement learning, the classic objectives of maximizing discounted
+  and finite-horizon cumulative rewards are PAC-learnable: There are algorithms that
+  learn a near-optimal policy with high probability using a finite amount of samples
+  and computation. In recent years, researchers have introduced objectives and corresponding
+  reinforcement-learning algorithms beyond the classic cumulative rewards, such as
+  objectives specified as linear temporal logic formulas. However, questions about
+  the PAC-learnability of these new objectives have remained open.   This work demonstrates
+  the PAC-learnability of general reinforcement-learning objectives through sufficient
+  conditions for PAC-learnability in two analysis settings. In particular, for the
+  analysis that considers only sample complexity, we prove that if an objective given
+  as an oracle is uniformly continuous, then it is PAC-learnable. Further, for the
+  analysis that considers computational complexity, we prove that if an objective
+  is computable, then it is PAC-learnable. In other words, if a procedure computes
+  successive approximations of the objective''s value, then the objective is PAC-learnable.   We
+  give three applications of our condition on objectives from the literature with
+  previously unknown PAC-learnability and prove that these objectives are PAC-learnable.
+  Overall, our result helps verify existing objectives'' PAC-learnability. Also, as
+  some studied objectives that are not uniformly continuous have been shown to be
+  not PAC-learnable, our results could guide the design of new PAC-learnable objectives.'
+archiveprefix: arXiv
+author: Yang, Cambridge and Littman, Michael and Carbin, Michael
+author_list:
+- family: Yang
+  given: Cambridge
+- family: Littman
+  given: Michael
+- family: Carbin
+  given: Michael
+eprint: 2303.05518v1
+file: 2303.05518v1.pdf
+files:
+- yang-cambridge-and-littman-michael-and-carbin-michaelcomputably-continuous-reinforcement-learning-objectives-are-pac-learnable2023.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2303.05518v1
+time-added: 2023-03-16-14:38:13
+title: Computably Continuous Reinforcement-Learning Objectives are   PAC-learnable
+type: article
+url: http://arxiv.org/abs/2303.05518v1
+year: '2023'

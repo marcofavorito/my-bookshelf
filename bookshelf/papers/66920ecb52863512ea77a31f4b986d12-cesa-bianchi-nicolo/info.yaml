@@ -1,0 +1,40 @@
+abstract: 'Bilateral trade, a fundamental topic in economics, models the problem of
+  intermediating between two strategic agents, a seller and a buyer, willing to trade
+  a good for which they hold private valuations. In this paper, we cast the bilateral
+  trade problem in a regret minimization framework over $T$ rounds of seller/buyer
+  interactions, with no prior knowledge on their private valuations. Our main contribution
+  is a complete characterization of the regret regimes for fixed-price mechanisms
+  with different feedback models and private valuations, using as a benchmark the
+  best fixed-price in hindsight. More precisely, we prove the following tight bounds
+  on the regret:   - $\Theta(\sqrt{T})$ for full-feedback (i.e., direct revelation
+  mechanisms).   - $\Theta(T^{2/3})$ for realistic feedback (i.e., posted-price mechanisms)
+  and independent seller/buyer valuations with bounded densities.   - $\Theta(T)$
+  for realistic feedback and seller/buyer valuations with bounded densities.   - $\Theta(T)$
+  for realistic feedback and independent seller/buyer valuations.   - $\Theta(T)$
+  for the adversarial setting.'
+archiveprefix: arXiv
+author: Cesa-Bianchi, Nicolò and Cesari, Tommaso and Colomboni, Roberto and Fusco,
+  Federico and Leonardi, Stefano
+author_list:
+- family: Cesa-Bianchi
+  given: Nicolò
+- family: Cesari
+  given: Tommaso
+- family: Colomboni
+  given: Roberto
+- family: Fusco
+  given: Federico
+- family: Leonardi
+  given: Stefano
+eprint: 2109.12974v1
+file: 2109.12974v1.pdf
+files:
+- cesa-bianchi-nicolo-and-cesari-tommaso-and-colomboni-roberto-and-fusco-federico-and-leonardi-stefanobilateral-trade-a-regret-minimization-perspe.pdf
+month: Sep
+primaryclass: cs.GT
+ref: 2109.12974v1
+time-added: 2023-03-16-17:21:56
+title: 'Bilateral Trade: A Regret Minimization Perspective'
+type: article
+url: http://arxiv.org/abs/2109.12974v1
+year: '2021'
