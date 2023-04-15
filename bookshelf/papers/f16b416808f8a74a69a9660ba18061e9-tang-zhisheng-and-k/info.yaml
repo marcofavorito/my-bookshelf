@@ -1,0 +1,364 @@
+abstract: <jats:p>In recent years, transformer-based language representation models
+  (LRMs) have achieved state-of-the-art results on difficult natural language understanding
+  problems, such as question answering and text summarization. As these models are
+  integrated into real-world applications, evaluating their ability to make rational
+  decisions is an important research agenda, with practical ramifications. This article
+  investigates LRMs’ rational decision-making ability through a carefully designed
+  set of decision-making benchmarks and experiments. Inspired by classic work in cognitive
+  science, we model the decision-making problem as a bet. We then investigate an LRM’s
+  ability to choose outcomes that have optimal, or at minimum, positive expected gain.
+  Through a robust body of experiments on four established LRMs, we show that a model
+  is able to ‘think in bets’ if it is first fine-tuned on bet questions with an identical
+  structure. Modifying the bet question’s structure, while still retaining its fundamental
+  characteristics, decreases an LRM’s performance by more than 25%, on average, although
+  absolute performance remains well above random. LRMs are also found to be more rational
+  when selecting outcomes with non-negative expected gain, rather than optimal or
+  strictly positive expected gain. Our results suggest that LRMs could potentially
+  be applied to tasks that rely on cognitive decision-making skills, but that more
+  research is necessary before these models can robustly make rational decisions.</jats:p>
+author: Tang, Zhisheng and Kejriwal, Mayank
+author_list:
+- affiliation:
+  - name: Information Sciences Institute, USC Viterbi School of Engineering, 4676
+      Admiralty Way 1001, Marina Del Rey, CA 90292 USA
+  family: Tang
+  given: Zhisheng
+- affiliation:
+  - name: Information Sciences Institute, USC Viterbi School of Engineering, 4676
+      Admiralty Way 1001, Marina Del Rey, CA 90292 USA
+  family: Kejriwal
+  given: Mayank
+citations:
+- unstructured: 'Devlin J Chang MW Lee K Toutanova K. 2018 BERT: pre-training of deep
+    bidirectional transformers for language understanding. (https://arxiv.org/abs/1810.04805)'
+- article-title: Language models are unsupervised multitask learners
+  author: Radford A
+  first-page: '9'
+  journal-title: OpenAI blog
+  unstructured: Radford A, Wu J, Child R, Luan D, Amodei D, Sutskever I. 2019 Language
+    models are unsupervised multitask learners. OpenAI blog 1, 9.
+  volume: '1'
+  year: '2019'
+- article-title: Language models are few-shot learners
+  author: Brown T
+  first-page: '1877'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: Brown T et al. 2020 Language models are few-shot learners. Adv. Neural
+    Inf. Process. Syst. 33, 1877-1901.
+  volume: '33'
+  year: '2020'
+- doi: 10.1038/s41524-022-00784-w
+- doi: 10.26615/978-954-452-056-4_073
+  unstructured: Larionov D Shelmanov A Chistova E Smirnov I. 2019 Semantic role labeling
+    with pretrained language models for known and unknown predicates. In Proc. of
+    the Int. Conf. on Recent Advances in Natural Language Processing (RANLP 2019)
+    Varna Bulgaria September pp. 619–628. INCOMA Ltd.
+- unstructured: Aksenov D Moreno-Schneider J Bourgonje P Schwarzenberg R Hennig L
+    Rehm G. 2020 Abstractive text summarization based on language model conditioning
+    and locality modeling. (https://arxiv.org/abs/2003.13027)
+- unstructured: Lample G Conneau A. 2019 Cross-lingual language model pretraining.
+    (https://arxiv.org/abs/1901.07291)
+- doi: 10.18653/v1/2021.eacl-main.74
+  unstructured: Izacard G Grave E. 2020 Leveraging passage retrieval with generative
+    models for open domain question answering. (https://arxiv.org/abs/2007.01282)
+- unstructured: 'He P Liu X Gao J Chen W. 2020 DeBERTa: decoding-enhanced BERT with
+    disentangled attention. (https://arxiv.org/abs/2006.03654)'
+- doi: 10.18653/v1/2021.acl-long.202
+  unstructured: 'Li W Gao C Niu G Xiao X Liu H Liu J Wu H Wang H. 2020 UNIMO: towards
+    unified-modal understanding and generation via cross-modal contrastive learning.
+    (https://arxiv.org/abs/2012.15409)'
+- unstructured: 'Clark K Luong MT Le QV Manning CD. 2020 ELECTRA: pre-training text
+    encoders as discriminators rather than generators. (https://arxiv.org/abs/2003.10555)'
+- doi: 10.18653/v1/2020.findings-emnlp.171
+  unstructured: 'Khashabi D Min S Khot T Sabharwal A Tafjord O Clark P Hajishirzi
+    H. 2020 UNIFIEDQA: crossing format boundaries with a single QA system. (https://arxiv.org/abs/2005.00700)'
+- unstructured: Allen Institute for AI. Leaderboard. https://leaderboard.allenai.org/.
+- unstructured: 'Wang Z. 2022 Modern question answering datasets and benchmarks: a
+    survey. (https://arxiv.org/abs/2206.15030)'
+- unstructured: 'Lee JS Hsiang J. 2019 PatentBERT: patent classification with fine-tuning
+    a pre-trained BERT model. (https://arxiv.org/abs/1906.02124)'
+- unstructured: 'Sanh V Debut L Chaumond J Wolf T. 2019 DistilBERT a distilled version
+    of BERT: smaller faster cheaper and lighter. (https://arxiv.org/abs/1910.01108)'
+- doi: 10.1093/bioinformatics/btz682
+- unstructured: 'Adhikari A Ram A Tang R Lin J. 2019 DocBERT: BERT for document classification.
+    (https://arxiv.org/abs/1904.08398)'
+- doi: 10.1609/aaai.v34i03.5681
+  unstructured: 'Liu W Zhou P Zhao Z Wang Z Ju Q Deng H Wang P. 2020 K-BERT: enabling
+    language representation with knowledge graph. In Proc. of the AAAI Conf. on Artificial
+    Intelligence New York NY April vol. 34 pp. 2901–2908. AAAI Press.'
+- doi: 10.18653/v1/D19-1371
+  unstructured: 'Beltagy I Lo K Cohan A. 2019 SciBERT: a pretrained language model
+    for scientific text. (https://arxiv.org/abs/1903.10676)'
+- doi: 10.1109/ICCV.2019.00756
+  unstructured: 'Sun C Myers A Vondrick C Murphy K Schmid C. 2019 VideoBERT: a joint
+    model for video and language representation learning. In Proc. of the IEEE/CVF
+    Int. Conf. on Computer Vision Seoul Korea October pp. 7464–7473. IEEE.'
+- unstructured: 'Lu J Batra D Parikh D Lee S. 2019 VilBERT: pretraining task-agnostic
+    visiolinguistic representations for vision-and-language tasks. (https://arxiv.org/abs/1908.02265)'
+- doi: 10.1007/978-3-662-47238-5_1
+- article-title: Language and cognition
+  author: Harris CL
+  first-page: '1'
+  journal-title: Encycl. Cogn. Sci.
+  unstructured: Harris CL. 2006 Language and cognition. Encycl. Cogn. Sci. 22, 1-6.
+  volume: '22'
+  year: '2006'
+- doi: 10.18653/v1/D19-1534
+  unstructured: Wallace E Wang Y Li S Singh S Gardner M. 2019 Do NLP models know numbers?
+    Probing numeracy in embeddings. (https://arxiv.org/abs/1909.07940)
+- doi: 10.18653/v1/2020.repl4nlp-1.24
+  unstructured: Balasubramanian S Jain N Jindal G Awasthi A Sarawagi S. 2020 What’s
+    in a name? Are BERT named entity representations just as good for any other name?
+    (https://arxiv.org/abs/2007.06897)
+- doi: 10.1007/978-3-319-42007-3_22
+  unstructured: 'Dang TT Ho TB. 2016 Mixture of language models utilization in score-based
+    sentiment classification on clinical narratives. In Int. Conf. on Industrial Engineering
+    and Other Applications of Applied Intelligent Systems pp. 255–268. New York NY:
+    Springer.'
+- article-title: What is new in industry? [Industrial and governmental activities]
+  author: Bonissone PP
+  doi: 10.1109/MCI.2022.3180846
+  first-page: '5'
+  journal-title: IEEE Comput. Intell. Mag.
+  unstructured: Bonissone PP. 2022 What is new in industry? [Industrial and governmental
+    activities]. IEEE Comput. Intell. Mag. 17, 5-6.
+  volume: '17'
+  year: '2022'
+- doi: 10.1109/TII.2021.3097183
+- unstructured: 'Shoeybi M Patwary M Puri R LeGresley P Casper J Catanzaro B. 2019
+    Megatron-LM: training multi-billion parameter language models using model parallelism.
+    (https://arxiv.org/abs/1909.08053)'
+- unstructured: Wei J et al. 2022 Emergent abilities of large language models. (https://arxiv.org/abs/2206.07682)
+- unstructured: Kaplan J et al. 2020 Scaling laws for neural language models. (https://arxiv.org/abs/2001.08361)
+- doi: 10.18653/v1/2022.naacl-main.339
+  unstructured: 'Wang X Wang H Yang D. 2021 Measure and improve robustness in NLP
+    models: a survey. (https://arxiv.org/abs/2112.08313)'
+- doi: 10.1109/ACCESS.2022.3148413
+- doi: 10.18653/v1/2021.eacl-main.153
+  unstructured: 'Heinzerling B Inui K. 2020 Language models as knowledge bases: on
+    entity representations storage capacity and paraphrased queries. (https://arxiv.org/abs/2008.09036)'
+- doi: 10.1023/A:1009944326196
+- doi: 10.1007/978-94-009-5345-1_19
+- doi: 10.1111/jeea.12116
+- unstructured: Sonsino D Erev I Gilat S. 2002 On rationality learning and zero-sum
+    betting – an experimental study of the no-betting conjecture. See https://tzin.bgu.ac.il/~sonsinod/papers/ON%20RATIONALITY%20LEARNING.pdf.
+    (accessed 12 January 2017).
+- doi: 10.2307/1914185
+- doi: 10.1142/9789814417358_0006
+  unstructured: 'Kahneman D Tversky A. 2013 Prospect theory: an analysis of decision
+    under risk. In Handbook of the fundamentals of financial decision making: Part
+    I (eds LC MacLean WT Ziemba) pp. 99–127. Hackensack NJ: World Scientific.'
+- unstructured: 'Du M He F Zou N Tao D Hu X. 2022 Shortcut learning of large language
+    models in natural language understanding: a survey. (https://arxiv.org/abs/2208.11857)'
+- doi: 10.1007/978-3-030-91100-3_1
+  unstructured: 'Shen K Kejriwal M. 2021 On the generalization abilities of fine-tuned
+    commonsense language representation models. In Int. Conf. on Innovative Techniques
+    and Applications of Artificial Intelligence pp. 3–16. New York NY: Springer.'
+- doi: 10.1007/978-3-319-58347-1_2
+  unstructured: 'Tommasi T Patricia N Caputo B Tuytelaars T. 2017 A deeper look at
+    dataset bias. In Domain adaptation in computer vision applications pp. 37–55.
+    New York NY: Springer.'
+- doi: 10.18653/v1/W18-5446
+  unstructured: 'Wang A Singh A Michael J Hill F Levy O Bowman SR. 2018 GLUE: a multi-task
+    benchmark and analysis platform for natural language understanding. (https://arxiv.org/abs/1804.07461)'
+- doi: 10.18653/v1/D16-1264
+  unstructured: 'Rajpurkar P Zhang J Lopyrev K Liang P. 2016 SQuAD: 100 000+ questions
+    for machine comprehension of text. (https://arxiv.org/abs/1606.05250)'
+- doi: 10.18653/v1/P18-2124
+  unstructured: 'Rajpurkar P Jia R Liang P. 2018 Know what you don’t know: unanswerable
+    questions for SQuAD. (https://arxiv.org/abs/1806.03822)'
+- unstructured: 'Liu Y et al.2019 RoBERTa: a robustly optimized bert pretraining approach.
+    (https://arxiv.org/abs/1907.11692)'
+- doi: 10.18653/v1/N18-1101
+  unstructured: Williams A Nangia N Bowman SR. 2017 A broad-coverage challenge corpus
+    for sentence understanding through inference. (https://arxiv.org/abs/1704.05426)
+- doi: 10.18653/v1/D17-1082
+  unstructured: 'Lai G Xie Q Liu H Yang Y Hovy E. 2017 RACE: large-scale reading comprehension
+    dataset from examinations. (https://arxiv.org/abs/1704.04683)'
+- article-title: 'Big Bird: transformers for longer sequences'
+  author: Zaheer M
+  first-page: 17 283
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: 'Zaheer M et al. 2020 Big Bird: transformers for longer sequences.
+    Adv. Neural Inf. Process. Syst. 33, 17 283-17 297.'
+  volume: '33'
+  year: '2020'
+- unstructured: 'Thoppilan R et al. 2022 LaMDA: language models for dialog applications.
+    (https://arxiv.org/abs/2201.08239)'
+- unstructured: 'Chowdhery A et al. 2022 PaLM: scaling language modeling with pathways.
+    (https://arxiv.org/abs/2204.02311)'
+- unstructured: 'Nayak P. 2019 Understanding searches better than ever before. Available
+    from: https://blog.google/products/search/search-language-understanding-bert/.'
+- doi: 10.1162/tacl_a_00051
+- article-title: Distributed representations of words and phrases and their compositionality
+  author: Mikolov T
+  first-page: '3111'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: Mikolov T, Sutskever I, Chen K, Corrado GS, Dean J. 2013 Distributed
+    representations of words and phrases and their compositionality. Adv. Neural Inf.
+    Process. Syst. 26, 3111-3119.
+  volume: '26'
+  year: '2013'
+- doi: 10.1145/3397056.3397082
+  unstructured: Zhou Y. 2020 A review of text classification based on deep learning.
+    In Proc. of the 2020 3rd Int. Conf. on Geoinformatics and Data Analysis Marseille
+    France April pp. 132–136. ACM.
+- doi: 10.1007/978-981-15-9651-3_23
+  unstructured: 'Selva Birunda S Kanniga Devi R. 2021 A review on word embedding techniques
+    for text classification: innovative data communication technologies and application.
+    In Proc. of ICIDCA 2020 Coimbatore India February pp. 267–281. Singapore: Springer.'
+- doi: 10.1162/tacl_a_00349
+- doi: 10.24963/ijcai.2019/732
+  unstructured: 'Wu X Zhang T Zang L Han J Hu S. 2019 ‘Mask and Infill’: applying
+    masked language model to sentiment transfer. (https://arxiv.org/abs/1908.08039)'
+- doi: 10.18653/v1/N19-1112
+  unstructured: Liu NF Gardner M Belinkov Y Peters ME Smith NA. 2019 Linguistic knowledge
+    and transferability of contextual representations. (https://arxiv.org/abs/1903.08855)
+- unstructured: Warstadt A Bowman SR. 2020 Can neural networks acquire a structural
+    bias from raw linguistic data? (https://arxiv.org/abs/2007.06761)
+- doi: 10.18653/v1/2020.emnlp-main.574
+  unstructured: 'Kobayashi G Kuribayashi T Yokoi S Inui K. 2020 Attention module is
+    not only a weight: analyzing transformers with vector norms. (https://arxiv.org/abs/2004.10102)'
+- doi: 10.1162/tacl_a_00298
+- doi: 10.18653/v1/2020.acl-main.442
+  unstructured: 'Ribeiro MT Wu T Guestrin C Singh S. 2020 Beyond accuracy: behavioral
+    testing of NLP models with CheckList. (https://arxiv.org/abs/2005.04118)'
+- doi: 10.18653/v1/P19-1356
+  unstructured: Jawahar G Sagot B Seddah D. 2019 What does BERT learn about the structure
+    of language? In ACL 2019 57th Annual Meeting of the Association for Computational
+    Linguistics Florence Italy July . ACL.
+- doi: 10.18653/v1/2020.acl-main.383
+  unstructured: 'Wu Z Chen Y Kao B Liu Q. 2020 Perturbed masking: Parameter-free probing
+    for analyzing and interpreting BERT. (https://arxiv.org/abs/2004.14786)'
+- unstructured: Kejriwal M Shen K. 2020 Do fine-tuned commonsense language models
+    really generalize? (https://arxiv.org/abs/2011.09159)
+- unstructured: Shen K Kejriwal M. 2022 Understanding prior bias and choice paralysis
+    in transformer-based language representation models through four experimental
+    probes. (https://arxiv.org/abs/2210.01258)
+- doi: 10.1609/aaai.v36i11.21584
+  unstructured: Misra K. 2022 On semantic cognition inductive generalization and language
+    models. In Proc. of the AAAI Conf. on Artificial Intelligence Vancouver Canada
+    June vol. 36 pp. 12 894–12 895. AAAI Press.
+- unstructured: Li S Puig X Du Y Wang C Akyurek E Torralba A Andreas J Mordatch I.
+    2022 Pre-trained language models for interactive decision-making. (https://arxiv.org/abs/2202.01771)
+- unstructured: Misra K Ettinger A Rayz JT. 2021 Do language models learn typicality
+    judgments from text? (https://arxiv.org/abs/2105.02987)
+- article-title: Watching artificial intelligence through the lens of cognitive science
+    methodologies
+  author: Sawayama M
+  journal-title: HAL open sci.
+  unstructured: Sawayama M, Lemesle Y, Oudeyer PY. 2022 Watching artificial intelligence
+    through the lens of cognitive science methodologies. HAL open sci. See https://developmentalsystems.org/watch_ai_through_cogsci.
+  year: '2022'
+- doi: 10.3390/s20185276
+- doi: 10.1109/IJCNN48605.2020.9207684
+  unstructured: Crockett K O’Shea J Khan W. 2020 Automated deception detection of
+    males and females from non-verbal facial micro-gestures. In 2020 Int. Joint Conf.
+    on Neural Networks (IJCNN) Glasgow UK September pp. 1–7. IEEE.
+- doi: 10.18653/v1/2021.emnlp-main.42
+  unstructured: Ahn J Oh A. 2021 Mitigating language-dependent ethnic bias in BERT.
+    (https://arxiv.org/abs/2109.05704)
+- unstructured: 'Shi ZR Wang C Fang F. 2020 Artificial intelligence for social good:
+    a survey. (https://arxiv.org/abs/2001.01818)'
+- unstructured: 'Zhao Z Wallace E Feng S Klein D Singh S. 2021 Calibrate before use:
+    improving few-shot performance of language models. In Int. Conf. on Machine Learning
+    pp. 12 697–12 706. PMLR.'
+- unstructured: Vaswani A Shazeer N Parmar N Uszkoreit J Jones L Gomez AN Kaiser L
+    Polosukhin I. 2017 Attention is all you need. In Advances in neural information
+    processing systems 30 . See https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.
+- doi: 10.18653/v1/P17-1147
+  unstructured: 'Joshi M Choi E Weld DS Zettlemoyer L. 2017 TriviaQA: a large scale
+    distantly supervised challenge dataset for reading comprehension. (https://arxiv.org/abs/1705.03551)'
+- doi: 10.18653/v1/D18-1009
+  unstructured: 'Zellers R Bisk Y Schwartz R Choi Y. 2018 SWAG: a large-scale adversarial
+    dataset for grounded commonsense inference. (https://arxiv.org/abs/1808.05326)'
+- doi: 10.18653/v1/D18-1259
+  unstructured: 'Yang Z Qi P Zhang S Bengio Y Cohen WW Salakhutdinov R Manning CD.
+    2018 HotpotQA: A dataset for diverse explainable multi-hop question answering.
+    (https://arxiv.org/abs/1809.09600)'
+- unstructured: Tiedemann J. 2016 Finding alternative translations in a large corpus
+    of movie subtitle. In Proc. of the 10th Int. Conf. on Language Resources and Evaluation
+    (LREC’16) Portorož Slovenia May pp. 3518–3522. European Language Resources Association
+    (ELRA).
+- unstructured: Zafarani R Liu H. 2009 Social computing data repository at ASU. See
+    http://socialcomputing.asu.edu.
+- unstructured: Anastasiu C Behnke H Lück S Malesevic V Najmi A Poveda-Panter J. 2021
+    DeepTitle–leveraging BERT to generate search engine optimized headlines. (https://arxiv.org/abs/2107.10935)
+- unstructured: 'Lan Z Chen M Goodman S Gimpel K Sharma P Soricut R. 2019 AlBERT:
+    a lite BERT for self-supervised learning of language representations. (https://arxiv.org/abs/1909.11942)'
+- unstructured: Fan RE Lin CJ. 2007 A study on threshold selection for multi-label
+    classification.
+- doi: 10.18653/v1/N19-1117
+  unstructured: Liu A Du J Stoyanov V. 2019 Knowledge-augmented language model and
+    its application to unsupervised named-entity recognition. (https://arxiv.org/abs/1904.04458)
+- unstructured: 'Hugging Face Repository: bert-base-uncased. See https://huggingface.co/bert-base-uncased.'
+- unstructured: 'Hugging Face Repository: roberta-base. See https://huggingface.co/roberta-base.'
+- unstructured: 'Hugging Face Repository: deberta-base. See https://huggingface.co/microsoft/deberta-base.'
+- unstructured: 'Hugging Face Repository: bigbird-roberta-base. See https://huggingface.co/google/bigbird-roberta-base.'
+- unstructured: 'Tang Z Kejriwal M. 2022 Data for: can language representation models
+    think in bets? Dryad Dataset. (doi:10.5061/dryad.4mw6m90dt)'
+- doi: 10.1126/science.185.4157.1124
+- doi: 10.1609/aaai.v34i05.6311
+  unstructured: Jin D Jin Z Zhou JT Szolovits P. 2020 Is BERT really robust? A strong
+    baseline for natural language attack on text classification and entailment. In
+    Proc. of the AAAI Conf. on Artificial Intelligence New York NY April vol. 34 pp.
+    8018–8025. AAAI Press.
+- unstructured: Hendrycks D Burns C Kadavath S Arora A Basart S Tang E Song D Steinhardt
+    J. 2021 Measuring mathematical problem solving with the math dataset. (https://arxiv.org/abs/2103.03874)
+- doi: 10.18653/v1/2020.emnlp-main.557
+  unstructured: 'Lin BY Lee S Khanna R Ren X. 2020 Birds have four legs?! NumerSense:
+    probing numerical commonsense knowledge of pre-trained language models. (https://arxiv.org/abs/2005.00683)'
+- unstructured: The pre-trained FastText model. See https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip.
+- doi: 10.18653/v1/N18-1101
+  unstructured: 'Williams A Nangia N Bowman S. 2018 A broad-coverage challenge corpus
+    for sentence understanding through inference. In Proc. of the 2018 Conf. of the
+    North American Chapter of the Association for Computational Linguistics: Human
+    Language Technologies vol. 1 (Long Papers) pp. 1112–1122. Association for Computational
+    Linguistics.'
+- doi: 10.1109/TASLP.2022.3164218
+  unstructured: Wei J Wang X Schuurmans D Bosma M Chi E Le Q Zhou D. 2022 Chain of
+    thought prompting elicits reasoning in large language models. (https://arxiv.org/abs/2201.11903)
+- article-title: An experimental study measuring the generalization of fine-tuned
+    language representation models across commonsense reasoning benchmarks
+  author: Shen K
+  first-page: e13243
+  journal-title: Expert Syst.
+  unstructured: Shen K, Kejriwal M. 2023 An experimental study measuring the generalization
+    of fine-tuned language representation models across commonsense reasoning benchmarks.
+    Expert Syst. e13243. (doi:10.1111/exsy.13243)
+  year: '2023'
+- article-title: 'Mind the gap: assessing temporal generalization in neural language
+    models'
+  author: Lazaridou A
+  first-page: '29348'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  unstructured: 'Lazaridou A et al. 2021 Mind the gap: assessing temporal generalization
+    in neural language models. Adv. Neural Inf. Process. Syst. 34, 29348-29363.'
+  volume: '34'
+  year: '2021'
+- doi: 10.18653/v1/2022.acl-long.508
+  unstructured: Bahri D Mobahi H Tay Y. 2021 Sharpness-aware minimization improves
+    language model generalization. (https://arxiv.org/abs/2110.08529)
+- unstructured: 'Talmor A Herzig J Lourie N Berant J. 2018 CommonsenseQA: a question
+    answering challenge targeting commonsense knowledge. (https://arxiv.org/abs/1811.00937)'
+- doi: 10.18653/v1/D19-5409
+  unstructured: 'Gliwa B Mochol I Biesek M Wawer A. 2019 SAMSum corpus: a human-annotated
+    dialogue dataset for abstractive summarization. (https://arxiv.org/abs/1911.12237)'
+- doi: 10.1093/bioinformatics/btg1023
+- unstructured: Raffel C Shazeer N Roberts A Lee K Narang S Matena M Zhou Y Li W Liu
+    PJ. 2019 Exploring the limits of transfer learning with a unified text-to-text
+    transformer. (https://arxiv.org/abs/1910.10683)
+doc_url: https://royalsocietypublishing.org/doi/full-xml/10.1098/rsos.221585
+doi: 10.1098/rsos.221585
+issue: '3'
+journal: Royal Society Open Science
+language: en
+month: 3
+publisher: The Royal Society
+ref: CanLanguageReTang2023
+time-added: 2023-04-11-19:49:17
+title: Can language representation models think in bets?
+type: article
+url: http://dx.doi.org/10.1098/rsos.221585
+volume: '10'
+year: 2023
