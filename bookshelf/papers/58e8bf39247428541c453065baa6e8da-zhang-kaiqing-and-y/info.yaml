@@ -1,0 +1,1842 @@
+author: Zhang, Kaiqing and Yang, Zhuoran and Başar, Tamer
+author_list:
+- affiliation: []
+  family: Zhang
+  given: Kaiqing
+- affiliation: []
+  family: Yang
+  given: Zhuoran
+- affiliation: []
+  family: Başar
+  given: Tamer
+citations:
+- author: D Silver
+  doi: 10.1038/nature16961
+  first-page: '484'
+  issue: '7587'
+  journal-title: Nature
+  unstructured: 'Silver, D., Huang, A., Maddison, C.J., Guez, A., Sifre, L., Van Den
+    Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot,
+    M., et al.: Mastering the game of Go with deep neural networks and tree search.
+    Nature 529(7587), 484–489 (2016)'
+  volume: '529'
+  year: '2016'
+- author: D Silver
+  doi: 10.1038/nature24270
+  first-page: '354'
+  issue: '7676'
+  journal-title: Nature
+  unstructured: 'Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang,
+    A., Guez, A., Hubert, T., Baker, L., Lai, M., Bolton, A., et al.: Mastering the
+    game of Go without human knowledge. Nature 550(7676), 354 (2017)'
+  volume: '550'
+  year: '2017'
+- unstructured: 'OpenAI: Openai five. https://blog.openai.com/openai-five/ (2018)'
+- unstructured: 'Vinyals, O., Babuschkin, I., Chung, J., Mathieu, M., Jaderberg, M.,
+    Czarnecki, W.M., Dudzik, A., Huang, A., Georgiev, P., Powell, R., Ewalds, T.,
+    Horgan, D., Kroiss, M., Danihelka, I., Agapiou, J., Oh, J., Dalibard, V., Choi,
+    D., Sifre, L., Sulsky, Y., Vezhnevets, S., Molloy, J., Cai, T., Budden, D., Paine,
+    T., Gulcehre, C., Wang, Z., Pfaff, T., Pohlen, T., Wu, Y., Yogatama, D., Cohen,
+    J., McKinney, K., Smith, O., Schaul, T., Lillicrap, T., Apps, C., Kavukcuoglu,
+    K., Hassabis, D., Silver, D.: AlphaStar: mastering the real-time strategy game
+    starcraft II. https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/
+    (2019)'
+- author: J Kober
+  doi: 10.1177/0278364913495721
+  first-page: '1238'
+  issue: '11'
+  journal-title: Int. J. Robot. Res.
+  unstructured: 'Kober, J., Bagnell, J.A., Peters, J.: Reinforcement learning in robotics:
+    a survey. Int. J. Robot. Res. 32(11), 1238–1274 (2013)'
+  volume: '32'
+  year: '2013'
+- unstructured: 'Lillicrap, T.P., Hunt, J.J., Pritzel, A., Heess, N., Erez, T., Tassa,
+    Y., Silver, D., Wierstra, D.: Continuous control with deep reinforcement learning.
+    In: International Conference on Learning Representations (2016)'
+- doi: 10.24963/ijcai.2017/772
+  unstructured: 'Brown, N., Sandholm, T.: Libratus: the superhuman AI for no-limit
+    Poker. In: International Joint Conference on Artificial Intelligence, pp. 5226–5228
+    (2017)'
+- author: N Brown
+  doi: 10.1126/science.aay2400
+  first-page: '885'
+  journal-title: Science
+  unstructured: 'Brown, N., Sandholm, T.: Superhuman AI for multiplayer poker. Science
+    365, 885–890 (2019)'
+  volume: '365'
+  year: '2019'
+- unstructured: 'Shalev-Shwartz, S., Shammah, S., Shashua, A.: Safe, multi-agent,
+    reinforcement learning for autonomous driving (2016). arXiv preprint arXiv:1610.03295'
+- author: V Mnih
+  doi: 10.1038/nature14236
+  first-page: '529'
+  issue: '7540'
+  journal-title: Nature
+  unstructured: 'Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.A., Veness, J., Bellemare,
+    M.G., Graves, A., Riedmiller, M., Fidjeland, A.K., Ostrovski, G., et al.: Human-level
+    control through deep reinforcement learning. Nature 518(7540), 529–533 (2015)'
+  volume: '518'
+  year: '2015'
+- author: L Busoniu
+  doi: 10.1109/TSMCC.2007.913919
+  first-page: '156'
+  issue: '2'
+  journal-title: IEEE Trans. Syst. Man Cybern. Part C
+  unstructured: 'Busoniu, L., Babuska, R., De Schutter, B., et al.: A comprehensive
+    survey of multiagent reinforcement learning. IEEE Trans. Syst. Man Cybern. Part
+    C 38(2), 156–172 (2008)'
+  volume: '38'
+  year: '2008'
+- doi: 10.1016/S0968-090X(02)00030-X
+  unstructured: 'Adler, J.L., Blue, V.J.: A cooperative multi-agent transportation
+    management and route guidance system. Transp. Res. Part C: Emerg. Technol. 10(5),
+    433–454 (2002)'
+- doi: 10.1016/j.comnet.2015.12.017
+  unstructured: 'Wang, S., Wan, J., Zhang, D., Li, D., Zhang, C.: Towards smart factory
+    for industry 4.0: a self-organized multi-agent system with big data based feedback
+    and coordination. Comput. Netw. 101, 158–168 (2016)'
+- unstructured: 'Jangmin, O., Lee, J.W., Zhang, B.T.: Stock trading system using reinforcement
+    learning with cooperative agents. In: International Conference on Machine Learning,
+    pp. 451–458 (2002)'
+- doi: 10.1109/TSMCA.2007.904825
+  unstructured: 'Lee, J.W., Park, J., Jangmin, O., Lee, J., Hong, E.: A multiagent
+    approach to $$Q $$-learning for daily stock trading. IEEE Trans. Syst. Man Cybern.-Part
+    A: Syst. Hum. 37(6), 864–877 (2007)'
+- author: J Cortes
+  doi: 10.1109/TRA.2004.824698
+  first-page: '243'
+  issue: '2'
+  journal-title: IEEE Trans. Robot. Autom.
+  unstructured: 'Cortes, J., Martinez, S., Karatas, T., Bullo, F.: Coverage control
+    for mobile sensing networks. IEEE Trans. Robot. Autom. 20(2), 243–255 (2004)'
+  volume: '20'
+  year: '2004'
+- author: J Choi
+  doi: 10.1016/j.automatica.2009.09.025
+  first-page: '2802'
+  issue: '12'
+  journal-title: Automatica
+  unstructured: 'Choi, J., Oh, S., Horowitz, R.: Distributed learning and cooperative
+    control for multi-agent systems. Automatica 45(12), 2802–2814 (2009)'
+  volume: '45'
+  year: '2009'
+- author: C Castelfranchi
+  doi: 10.1016/S1389-0417(01)00013-4
+  first-page: '5'
+  issue: '1'
+  journal-title: Cogn. Syst. Res.
+  unstructured: 'Castelfranchi, C.: The theory of social functions: challenges for
+    computational social science and multi-agent learning. Cogn. Syst. Res. 2(1),
+    5–38 (2001)'
+  volume: '2'
+  year: '2001'
+- unstructured: 'Leibo, J.Z., Zambaldi, V., Lanctot, M., Marecki, J., Graepel, T.:
+    Multi-agent reinforcement learning in sequential social dilemmas. In: International
+    Conference on Autonomous Agents and Multi-Agent Systems, pp. 464–473 (2017)'
+- unstructured: 'Hernandez-Leal, P., Kartal, B., Taylor, M.E.: A survey and critique
+    of multiagent deep reinforcement learning (2018). arXiv preprint arXiv:1810.05587'
+- unstructured: 'Foerster, J., Assael, Y.M., de Freitas, N., Whiteson, S.: Learning
+    to communicate with deep multi-agent reinforcement learning. In: Advances in Neural
+    Information Processing Systems, pp. 2137–2145 (2016)'
+- author: S Zazo
+  doi: 10.1109/TSP.2016.2551693
+  first-page: '3806'
+  issue: '14'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: 'Zazo, S., Macua, S.V., Sánchez-Fernández, M., Zazo, J.: Dynamic potential
+    games with constraints: fundamentals and applications in communications. IEEE
+    Trans. Signal Process. 64(14), 3806–3821 (2016)'
+  volume: '64'
+  year: '2016'
+- unstructured: 'Zhang, K., Yang, Z., Liu, H., Zhang, T., Başar, T.: Fully decentralized
+    multi-agent reinforcement learning with networked agents. In: International Conference
+    on Machine Learning, pp. 5867–5876 (2018)'
+- unstructured: 'Subramanian, J., Mahajan, A.: Reinforcement learning in stationary
+    mean-field games. In: International Conference on Autonomous Agents and Multi-Agent
+    Systems, pp. 251–259 (2019)'
+- unstructured: 'Heinrich, J., Silver, D.: Deep reinforcement learning from self-play
+    in imperfect-information games (2016). arXiv preprint arXiv:1603.01121'
+- unstructured: 'Lowe, R., Wu, Y., Tamar, A., Harb, J., Abbeel, P., Mordatch, I.:
+    Multi-agent actor-critic for mixed cooperative-competitive environments. In: Advances
+    in Neural Information Processing Systems, pp. 6379–6390 (2017)'
+- doi: 10.1609/aaai.v32i1.11794
+  unstructured: 'Foerster, J., Farquhar, G., Afouras, T., Nardelli, N., Whiteson,
+    S.: Counterfactual multi-agent policy gradients (2017). arXiv preprint arXiv:1705.08926'
+- doi: 10.1007/978-3-319-71682-4_5
+  unstructured: 'Gupta, J.K., Egorov, M., Kochenderfer, M.: Cooperative multi-agent
+    control using deep reinforcement learning. In: International Conference on Autonomous
+    Agents and Multi-Agent Systems, pp. 66–83 (2017)'
+- unstructured: 'Omidshafiei, S., Pazis, J., Amato, C., How, J.P., Vian, J.: Deep
+    decentralized multi-task multi-agent reinforcement learning under partial observability.
+    In: International Conference on Machine Learning, pp. 2681–2690 (2017)'
+- doi: 10.1007/978-3-319-75931-9_5
+  unstructured: 'Kawamura, K., Mizukami, N., Tsuruoka, Y.: Neural fictitious self-play
+    in imperfect information games with many players. In: Workshop on Computer Games,
+    pp. 61–74 (2017)'
+- unstructured: 'Zhang, L., Wang, W., Li, S., Pan, G.: Monte Carlo neural fictitious
+    self-play: Approach to approximate Nash equilibrium of imperfect-information games
+    (2019). arXiv preprint arXiv:1903.09569'
+- unstructured: 'Mazumdar, E., Ratliff, L.J.: On the convergence of gradient-based
+    learning in continuous games (2018). arXiv preprint arXiv:1804.05464'
+- unstructured: 'Jin, C., Netrapalli, P., Jordan, M.I.: Minmax optimization: stable
+    limit points of gradient descent ascent are locally optimal (2019). arXiv preprint
+    arXiv:1902.00618'
+- unstructured: 'Zhang, K., Yang, Z., Başar, T.: Policy optimization provably converges
+    to Nash equilibria in zero-sum linear quadratic games. In: Advances in Neural
+    Information Processing Systems (2019)'
+- unstructured: 'Sidford, A., Wang, M., Yang, L.F., Ye, Y.: Solving discounted stochastic
+    two-player games with near-optimal time and sample complexity (2019). arXiv preprint
+    arXiv:1908.11071'
+- doi: 10.1007/978-3-319-28929-8_1
+  unstructured: 'Oliehoek, F.A., Amato, C.: A Concise Introduction to Decentralized
+    POMDPs, vol. 1. Springer, Berlin (2016)'
+- author: G Arslan
+  doi: 10.1109/TAC.2016.2598476
+  first-page: '1545'
+  issue: '4'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Arslan, G., Yüksel, S.: Decentralized Q-learning for stochastic teams
+    and games. IEEE Trans. Autom. Control 62(4), 1545–1558 (2017)'
+  volume: '62'
+  year: '2017'
+- unstructured: 'Yongacoglu, B., Arslan, G., Yüksel, S.: Learning team-optimality
+    for decentralized stochastic control and dynamic games (2019). arXiv preprint
+    arXiv:1903.05812'
+- doi: 10.23919/ACC.2019.8814803
+  unstructured: 'Zhang, K., Miehling, E., Başar, T.: Online planning for decentralized
+    stochastic control with partial history sharing. In: IEEE American Control Conference,
+    pp. 167–172 (2019)'
+- unstructured: 'Hernandez-Leal, P., Kaisers, M., Baarslag, T., de Cote, E.M.: A survey
+    of learning in multiagent environments: dealing with non-stationarity (2017).
+    arXiv preprint arXiv:1707.09183'
+- unstructured: 'Nguyen, T.T., Nguyen, N.D., Nahavandi, S.: Deep reinforcement learning
+    for multi-agent systems: a review of challenges, solutions and applications (2018).
+    arXiv preprint arXiv:1812.11794'
+- unstructured: 'Oroojlooy Jadid, A., Hajinezhad, D.: A review of cooperative multi-agent
+    deep reinforcement learning (2019). arXiv preprint arXiv:1908.03963'
+- doi: 10.1109/CDC.2018.8619581
+  unstructured: 'Zhang, K., Yang, Z., Başar, T.: Networked multi-agent reinforcement
+    learning in continuous spaces. In: IEEE Conference on Decision and Control, pp.
+    2771–2776 (2018)'
+- unstructured: 'Zhang, K., Yang, Z., Liu, H., Zhang, T., Başar, T.: Finite-sample
+    analyses for fully decentralized multi-agent reinforcement learning (2018). arXiv
+    preprint arXiv:1812.02783'
+- author: GE Monahan
+  doi: 10.1287/mnsc.28.1.1
+  first-page: '1'
+  issue: '1'
+  journal-title: Manag. Sci.
+  unstructured: 'Monahan, G.E.: State of the art-a survey of partially observable
+    Markov decision processes: theory, models, and algorithms. Manag. Sci. 28(1),
+    1–16 (1982)'
+  volume: '28'
+  year: '1982'
+- unstructured: 'Cassandra, A.R.: Exact and approximate algorithms for partially observable
+    Markov decision processes. Brown University (1998)'
+- author: DP Bertsekas
+  unstructured: 'Bertsekas, D.P.: Dynamic Programming and Optimal Control, vol. 1.
+    Athena Scientific, Belmont (2005)'
+  volume-title: Dynamic Programming and Optimal Control
+  year: '2005'
+- author: CJ Watkins
+  doi: 10.1007/BF00992698
+  first-page: '279'
+  issue: 3–4
+  journal-title: Mach. Learn.
+  unstructured: 'Watkins, C.J., Dayan, P.: Q-learning. Mach. Learn. 8(3–4), 279–292
+    (1992)'
+  volume: '8'
+  year: '1992'
+- author: C Szepesvári
+  doi: 10.1162/089976699300016070
+  first-page: '2017'
+  issue: '8'
+  journal-title: Neural Comput.
+  unstructured: 'Szepesvári, C., Littman, M.L.: A unified analysis of value-function-based
+    reinforcement-learning algorithms. Neural Comput. 11(8), 2017–2060 (1999)'
+  volume: '11'
+  year: '1999'
+- author: S Singh
+  doi: 10.1023/A:1007678930559
+  first-page: '287'
+  issue: '3'
+  journal-title: Mach. Learn.
+  unstructured: 'Singh, S., Jaakkola, T., Littman, M.L., Szepesvári, C.: Convergence
+    results for single-step on-policy reinforcement-learning algorithms. Mach. Learn.
+    38(3), 287–308 (2000)'
+  volume: '38'
+  year: '2000'
+- author: HS Chang
+  doi: 10.1287/opre.1040.0145
+  first-page: '126'
+  issue: '1'
+  journal-title: Oper. Res.
+  unstructured: 'Chang, H.S., Fu, M.C., Hu, J., Marcus, S.I.: An adaptive sampling
+    algorithm for solving Markov decision processes. Oper. Res. 53(1), 126–139 (2005)'
+  volume: '53'
+  year: '2005'
+- doi: 10.1007/11871842_29
+  unstructured: 'Kocsis, L., Szepesvári, C.: Bandit based Monte-Carlo planning. In:
+    European Conference on Machine Learning, pp. 282–293. Springer (2006)'
+- doi: 10.1007/978-3-540-75538-8_7
+  unstructured: 'Coulom, R.: Efficient selectivity and backup operators in Monte-Carlo
+    tree search. In: International Conference on Computers and Games, pp. 72–83 (2006)'
+- author: R Agrawal
+  doi: 10.2307/1427934
+  first-page: '1054'
+  issue: '4'
+  journal-title: Adv. Appl. Probab.
+  unstructured: 'Agrawal, R.: Sample mean based index policies by $$O(log n)$$ regret
+    for the multi-armed bandit problem. Adv. Appl. Probab. 27(4), 1054–1078 (1995)'
+  volume: '27'
+  year: '1995'
+- author: P Auer
+  doi: 10.1023/A:1013689704352
+  first-page: '235'
+  issue: 2–3
+  journal-title: Mach. Learn.
+  unstructured: 'Auer, P., Cesa-Bianchi, N., Fischer, P.: Finite-time analysis of
+    the multiarmed bandit problem. Mach. Learn. 47(2–3), 235–256 (2002)'
+  volume: '47'
+  year: '2002'
+- unstructured: 'Jiang, D., Ekwedike, E., Liu, H.: Feedback-based tree search for
+    reinforcement learning. In: International Conference on Machine Learning, pp.
+    2284–2293 (2018)'
+- unstructured: 'Shah, D., Xie, Q., Xu, Z.: On reinforcement learning using Monte-Carlo
+    tree search with supervised learning: non-asymptotic analysis (2019). arXiv preprint
+    arXiv:1902.05213'
+- author: G Tesauro
+  doi: 10.1145/203330.203343
+  first-page: '58'
+  issue: '3'
+  journal-title: Commun. ACM
+  unstructured: 'Tesauro, G.: Temporal difference learning and TD-Gammon. Commun.
+    ACM 38(3), 58–68 (1995)'
+  volume: '38'
+  year: '1995'
+- unstructured: 'Tsitsiklis, J.N., Van Roy, B.: Analysis of temporal-difference learning
+    with function approximation. In: Advances in Neural Information Processing Systems,
+    pp. 1075–1081 (1997)'
+- unstructured: 'Sutton, R.S., Barto, A.G.: Reinforcement Learning: An Introduction.
+    MIT Press, Cambridge (2018)'
+- unstructured: 'Sutton, R.S., Szepesvári, C., Maei, H.R.: A convergent $$O(n)$$ algorithm
+    for off-policy temporal-difference learning with linear function approximation.
+    In: Advances in Neural Information Processing Systems, vol. 21(21), pp. 1609–1616
+    (2008)'
+- doi: 10.1145/1553374.1553501
+  unstructured: 'Sutton, R.S., Maei, H.R., Precup, D., Bhatnagar, S., Silver, D.,
+    Szepesvári, C., Wiewiora, E.: Fast gradient-descent methods for temporal-difference
+    learning with linear function approximation. In: International Conference on Machine
+    Learning, pp. 993–1000 (2009)'
+- unstructured: 'Liu, B., Liu, J., Ghavamzadeh, M., Mahadevan, S., Petrik, M.: Finite-sample
+    analysis of proximal gradient TD algorithms. In: Conference on Uncertainty in
+    Artificial Intelligence, pp. 504–513 (2015)'
+- unstructured: 'Bhatnagar, S., Precup, D., Silver, D., Sutton, R.S., Maei, H.R.,
+    Szepesvári, C.: Convergent temporal-difference learning with arbitrary smooth
+    function approximation. In: Advances in Neural Information Processing Systems,
+    pp. 1204–1212 (2009)'
+- author: C Dann
+  first-page: '809'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Dann, C., Neumann, G., Peters, J., et al.: Policy evaluation with
+    temporal differences: a survey and comparison. J. Mach. Learn. Res. 15, 809–883
+    (2014)'
+  volume: '15'
+  year: '2014'
+- unstructured: 'Sutton, R.S., McAllester, D.A., Singh, S.P., Mansour, Y.: Policy
+    gradient methods for reinforcement learning with function approximation. In: Advances
+    in Neural Information Processing Systems, pp. 1057–1063 (2000)'
+- author: RJ Williams
+  doi: 10.1007/BF00992696
+  first-page: '229'
+  issue: 3–4
+  journal-title: Mach. Learn.
+  unstructured: 'Williams, R.J.: Simple statistical gradient-following algorithms
+    for connectionist reinforcement learning. Mach. Learn. 8(3–4), 229–256 (1992)'
+  volume: '8'
+  year: '1992'
+- author: J Baxter
+  doi: 10.1613/jair.806
+  first-page: '319'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Baxter, J., Bartlett, P.L.: Infinite-horizon policy-gradient estimation.
+    J. Artif. Intell. Res. 15, 319–350 (2001)'
+  volume: '15'
+  year: '2001'
+- unstructured: 'Konda, V.R., Tsitsiklis, J.N.: Actor-critic algorithms. In: Advances
+    in Neural Information Processing Systems, pp. 1008–1014 (2000)'
+- author: S Bhatnagar
+  doi: 10.1016/j.automatica.2009.07.008
+  first-page: '2471'
+  issue: '11'
+  journal-title: Automatica
+  unstructured: 'Bhatnagar, S., Sutton, R., Ghavamzadeh, M., Lee, M.: Natural actor-critic
+    algorithms. Automatica 45(11), 2471–2482 (2009)'
+  volume: '45'
+  year: '2009'
+- unstructured: 'Silver, D., Lever, G., Heess, N., Degris, T., Wierstra, D., Riedmiller,
+    M.: Deterministic policy gradient algorithms. In: International Conference on
+    Machine Learning, pp. 387–395 (2014)'
+- unstructured: 'Schulman, J., Wolski, F., Dhariwal, P., Radford, A., Klimov, O.:
+    Proximal policy optimization algorithms (2017). arXiv preprint arXiv:1707.06347'
+- unstructured: 'Schulman, J., Levine, S., Abbeel, P., Jordan, M., Moritz, P.: Trust
+    region policy optimization. In: International Conference on Machine Learning,
+    pp. 1889–1897 (2015)'
+- unstructured: 'Haarnoja, T., Zhou, A., Abbeel, P., Levine, S.: Soft actor-critic:
+    off-policy maximum entropy deep reinforcement learning with a stochastic actor
+    (2018). arXiv preprint arXiv:1801.01290'
+- doi: 10.1109/CDC.2018.8619440
+  unstructured: 'Yang, Z., Zhang, K., Hong, M., Başar, T.: A finite sample analysis
+    of the actor-critic algorithm. In: IEEE Conference on Decision and Control, pp.
+    2759–2764 (2018)'
+- doi: 10.1137/19M1288012
+  unstructured: 'Zhang, K., Koppel, A., Zhu, H., Başar, T.: Global convergence of
+    policy gradient methods to (almost) locally optimal policies (2019). arXiv preprint
+    arXiv:1906.08383'
+- unstructured: 'Agarwal, A., Kakade, S.M., Lee, J.D., Mahajan, G.: Optimality and
+    approximation with policy gradient methods in Markov decision processes (2019).
+    arXiv preprint arXiv:1908.00261'
+- unstructured: 'Liu, B., Cai, Q., Yang, Z., Wang, Z.: Neural proximal/trust region
+    policy optimization attains globally optimal policy (2019). arXiv preprint arXiv:1906.10306'
+- unstructured: 'Wang, L., Cai, Q., Yang, Z., Wang, Z.: Neural policy gradient methods:
+    global optimality and rates of convergence (2019). arXiv preprint arXiv:1909.01150'
+- unstructured: 'Chen, Y., Wang, M.: Stochastic primal-dual methods and sample complexity
+    of reinforcement learning (2016). arXiv preprint arXiv:1612.02516'
+- unstructured: 'Wang, M.: Primal-dual $$\pi $$ learning: sample complexity and sublinear
+    run time for ergodic Markov decision problems (2017). arXiv preprint arXiv:1710.06100'
+- author: LS Shapley
+  doi: 10.1073/pnas.39.10.1095
+  first-page: '1095'
+  issue: '10'
+  journal-title: Proc. Natl. Acad. Sci.
+  unstructured: 'Shapley, L.S.: Stochastic games. Proc. Natl. Acad. Sci. 39(10), 1095–1100
+    (1953)'
+  volume: '39'
+  year: '1953'
+- doi: 10.1016/B978-1-55860-335-6.50027-1
+  unstructured: 'Littman, M.L.: Markov games as a framework for multi-agent reinforcement
+    learning. In: International Conference on Machine Learning, pp. 157–163 (1994)'
+- doi: 10.1137/1.9781611971132
+  unstructured: 'Başar, T., Olsder, G.J.: Dynamic Noncooperative Game Theory, vol. 23.
+    SIAM, Philadelphia (1999)'
+- unstructured: 'Filar, J., Vrieze, K.: Competitive Markov Decision Processes. Springer
+    Science & Business Media, Berlin (2012)'
+- unstructured: 'Boutilier, C.: Planning, learning and coordination in multi-agent
+    decision processes. In: Conference on Theoretical Aspects of Rationality and Knowledge,
+    pp. 195–210 (1996)'
+- unstructured: 'Lauer, M., Riedmiller, M.: An algorithm for distributed reinforcement
+    learning in cooperative multi-agent systems. In: International Conference on Machine
+    Learning (2000)'
+- author: T Yoshikawa
+  doi: 10.1109/TAC.1978.1101791
+  first-page: '627'
+  issue: '4'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Yoshikawa, T.: Decomposition of dynamic team decision problems. IEEE
+    Trans. Autom. Control 23(4), 627–632 (1978)'
+  volume: '23'
+  year: '1978'
+- author: YC Ho
+  doi: 10.1109/PROC.1980.11718
+  first-page: '644'
+  issue: '6'
+  journal-title: Proc. IEEE
+  unstructured: 'Ho, Y.C.: Team decision theory and information structures. Proc.
+    IEEE 68(6), 644–654 (1980)'
+  volume: '68'
+  year: '1980'
+- unstructured: 'Wang, X., Sandholm, T.: Reinforcement learning to play an optimal
+    Nash equilibrium in team Markov games. In: Advances in Neural Information Processing
+    Systems, pp. 1603–1610 (2003)'
+- unstructured: 'Mahajan, A.: Sequential decomposition of sequential dynamic teams:
+    applications to real-time communication and networked control systems. Ph.D. thesis,
+    University of Michigan (2008)'
+- doi: 10.1007/978-3-319-01059-5
+  unstructured: 'González-Sánchez, D., Hernández-Lerma, O.: Discrete-Time Stochastic
+    Control and Dynamic Potential Games: The Euler-Equation Approach. Springer Science
+    & Business Media, Berlin (2013)'
+- unstructured: 'Valcarcel Macua, S., Zazo, J., Zazo, S.: Learning parametric closed-loop
+    policies for Markov potential games. In: International Conference on Learning
+    Representations (2018)'
+- author: S Kar
+  doi: 10.1109/TSP.2013.2241057
+  first-page: '1848'
+  issue: '7'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: 'Kar, S., Moura, J.M., Poor, H.V.: QD-learning: a collaborative distributed
+    strategy for multi-agent reinforcement learning through consensus + innovations.
+    IEEE Trans. Signal Process. 61(7), 1848–1862 (2013)'
+  volume: '61'
+  year: '2013'
+- unstructured: 'Doan, T., Maguluri, S., Romberg, J.: Finite-time analysis of distributed
+    TD (0) with linear function approximation on multi-agent reinforcement learning.
+    In: International Conference on Machine Learning, pp. 1626–1635 (2019)'
+- unstructured: 'Wai, H.T., Yang, Z., Wang, Z., Hong, M.: Multi-agent reinforcement
+    learning via double averaging primal-dual optimization. In: Advances in Neural
+    Information Processing Systems, pp. 9649–9660 (2018)'
+- unstructured: 'OpenAI: Openai dota 2 1v1 bot. https://openai.com/the-international/
+    (2017)'
+- author: D Jacobson
+  doi: 10.1109/TAC.1973.1100265
+  first-page: '124'
+  issue: '2'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Jacobson, D.: Optimal stochastic linear systems with exponential
+    performance criteria and their relation to deterministic differential games. IEEE
+    Trans. Autom. Control 18(2), 124–131 (1973)'
+  volume: '18'
+  year: '1973'
+- author: T Başar
+  unstructured: 'Başar, T., Bernhard, P.: H$$_\infty $$ Optimal Control and Related
+    Minimax Design Problems: A Dynamic Game Approach. Birkhäuser, Boston (1995)'
+  volume-title: 'H$$_\infty $$ Optimal Control and Related Minimax Design Problems:
+    A Dynamic Game Approach'
+  year: '1995'
+- unstructured: 'Zhang, K., Hu, B., Başar, T.: Policy optimization for $$\cal{H}_2$$
+    linear control with $$\cal{H}_{\infty }$$ robustness guarantee: implicit regularization
+    and global convergence (2019). arXiv preprint arXiv:1910.09496'
+- unstructured: 'Hu, J., Wellman, M.P.: Nash Q-learning for general-sum stochastic
+    games. J. Mach. Learn. Res. 4, 1039–1069 (2003)'
+- unstructured: 'Littman, M.L.: Friend-or-foe Q-learning in general-sum games. In:
+    International Conference on Machine Learning, pp. 322–328 (2001)'
+- unstructured: 'Lagoudakis, M.G., Parr, R.: Learning in zero-sum team Markov games
+    using factored value functions. In: Advances in Neural Information Processing
+    Systems, pp. 1659–1666 (2003)'
+- author: DS Bernstein
+  doi: 10.1287/moor.27.4.819.297
+  first-page: '819'
+  issue: '4'
+  journal-title: Math. Oper. Res.
+  unstructured: 'Bernstein, D.S., Givan, R., Immerman, N., Zilberstein, S.: The complexity
+    of decentralized control of Markov decision processes. Math. Oper. Res. 27(4),
+    819–840 (2002)'
+  volume: '27'
+  year: '2002'
+- unstructured: 'Osborne, M.J., Rubinstein, A.: A Course in Game Theory. MIT Press,
+    Cambridge (1994)'
+- doi: 10.1017/CBO9780511811654
+  unstructured: 'Shoham, Y., Leyton-Brown, K.: Multiagent Systems: Algorithmic, Game-Theoretic,
+    and Logical Foundations. Cambridge University Press, Cambridge (2008)'
+- author: D Koller
+  doi: 10.1016/0899-8256(92)90035-Q
+  first-page: '528'
+  issue: '4'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Koller, D., Megiddo, N.: The complexity of two-person zero-sum games
+    in extensive form. Games Econ. Behav. 4(4), 528–552 (1992)'
+  volume: '4'
+  year: '1992'
+- author: H Kuhn
+  first-page: '193'
+  journal-title: Contrib. Theory Games
+  unstructured: 'Kuhn, H.: Extensive games and the problem of information. Contrib.
+    Theory Games 2, 193–216 (1953)'
+  volume: '2'
+  year: '1953'
+- unstructured: 'Zinkevich, M., Johanson, M., Bowling, M., Piccione, C.: Regret minimization
+    in games with incomplete information. In: Advances in Neural Information Processing
+    Systems, pp. 1729–1736 (2008)'
+- unstructured: 'Heinrich, J., Lanctot, M., Silver, D.: Fictitious self-play in extensive-form
+    games. In: International Conference on Machine Learning, pp. 805–813 (2015)'
+- unstructured: 'Srinivasan, S., Lanctot, M., Zambaldi, V., Pérolat, J., Tuyls, K.,
+    Munos, R., Bowling, M.: Actor-critic policy optimization in partially observable
+    multiagent environments. In: Advances in Neural Information Processing Systems,
+    pp. 3422–3435 (2018)'
+- unstructured: 'Omidshafiei, S., Hennes, D., Morrill, D., Munos, R., Perolat, J.,
+    Lanctot, M., Gruslys, A., Lespiau, J.B., Tuyls, K.: Neural replicator dynamics
+    (2019). arXiv preprint arXiv:1906.00190'
+- doi: 10.1016/j.artint.2010.12.005
+  unstructured: 'Rubin, J., Watson, I.: Computer Poker: a review. Artif. Intell. 175(5–6),
+    958–987 (2011)'
+- unstructured: 'Lanctot, M., Lockhart, E., Lespiau, J.B., Zambaldi, V., Upadhyay,
+    S., Pérolat, J., Srinivasan, S., Timbers, F., Tuyls, K., Omidshafiei, S., et al.:
+    Openspiel: a framework for reinforcement learning in games (2019). arXiv preprint
+    arXiv:1908.09453'
+- unstructured: 'Claus, C., Boutilier, C.: The dynamics of reinforcement learning
+    in cooperative multiagent systems. In: AAAI Conference on Artificial Intelligence,
+    vol. 1998, pp. 746–752, 2p. (1998)'
+- unstructured: 'Bowling, M., Veloso, M.: Rational and convergent learning in stochastic
+    games. In: International Joint Conference on Artificial Intelligence, vol. 17,
+    pp. 1021–1026 (2001)'
+- unstructured: 'Kapetanakis, S., Kudenko, D.: Reinforcement learning of coordination
+    in cooperative multi-agent systems. In: AAAI Conference on Artificial Intelligence,
+    vol. 2002, pp. 326–331 (2002)'
+- author: V Conitzer
+  doi: 10.1007/s10994-006-0143-1
+  first-page: '23'
+  issue: 1–2
+  journal-title: Mach. Learn.
+  unstructured: 'Conitzer, V., Sandholm, T.: Awesome: a general multiagent learning
+    algorithm that converges in self-play and learns a best response against stationary
+    opponents. Mach. Learn. 67(1–2), 23–43 (2007)'
+  volume: '67'
+  year: '2007'
+- unstructured: 'Hansen, E.A., Bernstein, D.S., Zilberstein, S.: Dynamic programming
+    for partially observable stochastic games. In: AAAI Conference on Artificial Intelligence,
+    pp. 709–715 (2004)'
+- doi: 10.1109/CDC.2013.6760239
+  unstructured: 'Amato, C., Chowdhary, G., Geramifard, A., Üre, N.K., Kochenderfer,
+    M.J.: Decentralized control of partially observable Markov decision processes.
+    In: IEEE Conference on Decision and Control, pp. 2398–2405 (2013)'
+- doi: 10.1609/aaai.v29i1.9439
+  unstructured: 'Amato, C., Oliehoek, F.A.: Scalable planning and learning for multiagent
+    POMDPs. In: AAAI Conference on Artificial Intelligence (2015)'
+- unstructured: 'Shoham, Y., Powers, R., Grenager, T.: Multi-agent reinforcement learning:
+    a critical survey. Technical Report (2003)'
+- unstructured: 'Zinkevich, M., Greenwald, A., Littman, M.L.: Cyclic equilibria in
+    Markov games. In: Advances in Neural Information Processing Systems, pp. 1641–1648
+    (2006)'
+- author: M Bowling
+  doi: 10.1016/S0004-3702(02)00121-2
+  first-page: '215'
+  issue: '2'
+  journal-title: Artif. Intell.
+  unstructured: 'Bowling, M., Veloso, M.: Multiagent learning using a variable learning
+    rate. Artif. Intell. 136(2), 215–250 (2002)'
+  volume: '136'
+  year: '2002'
+- unstructured: 'Bowling, M.: Convergence and no-regret in multiagent learning. In:
+    Advances in Neural Information Processing Systems, pp. 209–216 (2005)'
+- doi: 10.1017/CBO9780511800481.006
+  unstructured: 'Blum, A., Mansour, Y.: Learning, regret minimization, and equilibria.
+    In: Algorithmic Game Theory, pp. 79–102 (2007)'
+- doi: 10.1007/978-3-662-04623-4_12
+  unstructured: 'Hart, S., Mas-Colell, A.: A reinforcement procedure leading to correlated
+    equilibrium. In: Economics Essays, pp. 181–200. Springer, Berlin (2001)'
+- doi: 10.1109/SMCIA.2008.5045926
+  unstructured: 'Kasai, T., Tenmoto, H., Kamiya, A.: Learning of communication codes
+    in multi-agent reinforcement learning problem. In: IEEE Conference on Soft Computing
+    in Industrial Applications, pp. 1–6 (2008)'
+- unstructured: 'Kim, D., Moon, S., Hostallero, D., Kang, W.J., Lee, T., Son, K.,
+    Yi, Y.: Learning to schedule communication in multi-agent reinforcement learning.
+    In: International Conference on Learning Representations (2019)'
+- unstructured: 'Chen, T., Zhang, K., Giannakis, G.B., Başar, T.: Communication-efficient
+    distributed reinforcement learning (2018). arXiv preprint arXiv:1812.03239'
+- doi: 10.1109/CDC40024.2019.9029257
+  unstructured: 'Lin, Y., Zhang, K., Yang, Z., Wang, Z., Başar, T., Sandhu, R., Liu,
+    J.: A communication-efficient multi-agent actor-critic algorithm for distributed
+    reinforcement learning. In: IEEE Conference on Decision and Control (2019)'
+- unstructured: 'Ren, J., Haupt, J.: A communication efficient hierarchical distributed
+    optimization algorithm for multi-agent reinforcement learning. In: Real-World
+    Sequential Decision Making Workshop at International Conference on Machine Learning
+    (2019)'
+- doi: 10.1609/aaai.v33i01.33016079
+  unstructured: 'Kim, W., Cho, M., Sung, Y.: Message-dropout: an efficient training
+    method for multi-agent deep reinforcement learning. In: AAAI Conference on Artificial
+    Intelligence (2019)'
+- unstructured: 'He, H., Boyd-Graber, J., Kwok, K., Daumé III, H.: Opponent modeling
+    in deep reinforcement learning. In: International Conference on Machine Learning,
+    pp. 1804–1813 (2016)'
+- unstructured: 'Grover, A., Al-Shedivat, M., Gupta, J., Burda, Y., Edwards, H.: Learning
+    policy representations in multiagent systems. In: International Conference on
+    Machine Learning, pp. 1802–1811 (2018)'
+- unstructured: 'Gao, C., Mueller, M., Hayward, R.: Adversarial policy gradient for
+    alternating Markov games. In: Workshop at International Conference on Learning
+    Representations (2018)'
+- doi: 10.1609/aaai.v33i01.33014213
+  unstructured: 'Li, S., Wu, Y., Cui, X., Dong, H., Fang, F., Russell, S.: Robust
+    multi-agent reinforcement learning via minimax deep deterministic policy gradient.
+    In: AAAI Conference on Artificial Intelligence (2019)'
+- unstructured: 'Zhang, X., Zhang, K., Miehling, E., Basar, T.: Non-cooperative inverse
+    reinforcement learning. In: Advances in Neural Information Processing Systems,
+    pp. 9482–9493 (2019)'
+- doi: 10.1016/B978-1-55860-307-3.50049-6
+  unstructured: 'Tan, M.: Multi-agent reinforcement learning: Independent vs. cooperative
+    agents. In: International Conference on Machine Learning, pp. 330–337 (1993)'
+- author: L Matignon
+  doi: 10.1017/S0269888912000057
+  first-page: '1'
+  issue: '1'
+  journal-title: Knowl. Eng. Rev.
+  unstructured: 'Matignon, L., Laurent, G.J., Le Fort-Piat, N.: Independent reinforcement
+    learners in cooperative Markov games: a survey regarding coordination problems.
+    Knowl. Eng. Rev. 27(1), 1–31 (2012)'
+  volume: '27'
+  year: '2012'
+- unstructured: 'Foerster, J., Nardelli, N., Farquhar, G., Torr, P., Kohli, P., Whiteson,
+    S., et al.: Stabilising experience replay for deep multi-agent reinforcement learning.
+    In: International Conference of Machine Learning, pp. 1146–1155 (2017)'
+- author: K Tuyls
+  first-page: '41'
+  issue: '3'
+  journal-title: AI Mag.
+  unstructured: 'Tuyls, K., Weiss, G.: Multiagent learning: basics, challenges, and
+    prospects. AI Mag. 33(3), 41 (2012)'
+  volume: '33'
+  year: '2012'
+- unstructured: 'Guestrin, C., Lagoudakis, M., Parr, R.: Coordinated reinforcement
+    learning. In: International Conference on Machine Learning, pp. 227–234 (2002)'
+- unstructured: 'Guestrin, C., Koller, D., Parr, R.: Multiagent planning with factored
+    MDPs. In: Advances in Neural Information Processing Systems, pp. 1523–1530 (2002)'
+- doi: 10.1145/1015330.1015410
+  unstructured: 'Kok, J.R., Vlassis, N.: Sparse cooperative Q-learning. In: International
+    Conference on Machine learning, pp. 61–69 (2004)'
+- unstructured: 'Sunehag, P., Lever, G., Gruslys, A., Czarnecki, W.M., Zambaldi, V.,
+    Jaderberg, M., Lanctot, M., Sonnerat, N., Leibo, J.Z., Tuyls, K., et al.: Value-decomposition
+    networks for cooperative multi-agent learning based on team reward. In: International
+    Conference on Autonomous Agents and Multi-Agent Systems, pp. 2085–2087 (2018)'
+- unstructured: 'Rashid, T., Samvelyan, M., De Witt, C.S., Farquhar, G., Foerster,
+    J., Whiteson, S.: QMIX: monotonic value function factorisation for deep multi-agent
+    reinforcement learning. In: International Conference on Machine Learning, pp.
+    681–689 (2018)'
+- doi: 10.1109/CDC40024.2019.9029635
+  unstructured: 'Qu, G., Li, N.: Exploiting fast decaying and locality in multi-agent
+    MDP with tree dependence structure. In: IEEE Conference on Decision and Control
+    (2019)'
+- author: A Mahajan
+  doi: 10.1109/TAC.2013.2251807
+  first-page: '2377'
+  issue: '9'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Mahajan, A.: Optimal decentralized control of coupled subsystems
+    with control sharing. IEEE Trans. Autom. Control 58(9), 2377–2382 (2013)'
+  volume: '58'
+  year: '2013'
+- unstructured: 'Oliehoek, F.A., Amato, C.: Dec-POMDPs as non-observable MDPs. IAS
+    Technical Report (IAS-UVA-14-01) (2014)'
+- doi: 10.1609/aaai.v32i1.11794
+  unstructured: 'Foerster, J.N., Farquhar, G., Afouras, T., Nardelli, N., Whiteson,
+    S.: Counterfactual multi-agent policy gradients. In: AAAI Conference on Artificial
+    Intelligence (2018)'
+- unstructured: 'Dibangoye, J., Buffet, O.: Learning to act in decentralized partially
+    observable MDPs. In: International Conference on Machine Learning, pp. 1233–1242
+    (2018)'
+- author: L Kraemer
+  doi: 10.1016/j.neucom.2016.01.031
+  first-page: '82'
+  journal-title: Neurocomputing
+  unstructured: 'Kraemer, L., Banerjee, B.: Multi-agent reinforcement learning as
+    a rehearsal for decentralized planning. Neurocomputing 190, 82–94 (2016)'
+  volume: '190'
+  year: '2016'
+- author: SV Macua
+  doi: 10.1109/TAC.2014.2368731
+  first-page: '1260'
+  issue: '5'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Macua, S.V., Chen, J., Zazo, S., Sayed, A.H.: Distributed policy
+    evaluation under multiple behavior strategies. IEEE Trans. Autom. Control 60(5),
+    1260–1274 (2015)'
+  volume: '60'
+  year: '2015'
+- unstructured: 'Macua, S.V., Tukiainen, A., Hernández, D.G.O., Baldazo, D., de Cote,
+    E.M., Zazo, S.: Diff-dac: Distributed actor-critic for average multitask deep
+    reinforcement learning (2017). arXiv preprint arXiv:1710.10363'
+- doi: 10.1109/CDC.2018.8619839
+  unstructured: 'Lee, D., Yoon, H., Hovakimyan, N.: Primal-dual algorithm for distributed
+    reinforcement learning: distributed GTD. In: IEEE Conference on Decision and Control,
+    pp. 1967–1972 (2018)'
+- unstructured: 'Doan, T.T., Maguluri, S.T., Romberg, J.: Finite-time performance
+    of distributed temporal difference learning with linear function approximation
+    (2019). arXiv preprint arXiv:1907.12530'
+- doi: 10.1016/j.ifacol.2020.12.2021
+  unstructured: 'Suttle, W., Yang, Z., Zhang, K., Wang, Z., Başar, T., Liu, J.: A
+    multi-agent off-policy actor-critic algorithm for distributed reinforcement learning
+    (2019). arXiv preprint arXiv:1903.06372'
+- author: ML Littman
+  doi: 10.1016/S1389-0417(01)00015-8
+  first-page: '55'
+  issue: '1'
+  journal-title: Cogn. Syst. Res.
+  unstructured: 'Littman, M.L.: Value-function reinforcement learning in Markov games.
+    Cogn. Syst. Res. 2(1), 55–66 (2001)'
+  volume: '2'
+  year: '2001'
+- doi: 10.2307/2951778
+  unstructured: 'Young, H.P.: The evolution of conventions. Econ.: J. Econ. Soc. 57–84
+    (1993)'
+- unstructured: 'Son, K., Kim, D., Kang, W.J., Hostallero, D.E., Yi, Y.: QTRAN: Learning
+    to factorize with transformation for cooperative multi-agent reinforcement learning.
+    In: International Conference on Machine Learning, pp. 5887–5896 (2019)'
+- unstructured: 'Perolat, J., Piot, B., Pietquin, O.: Actor-critic fictitious play
+    in simultaneous move multistage games. In: International Conference on Artificial
+    Intelligence and Statistics (2018)'
+- author: D Monderer
+  doi: 10.1006/game.1996.0044
+  first-page: '124'
+  issue: '1'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Monderer, D., Shapley, L.S.: Potential games. Games Econ. Behav.
+    14(1), 124–143 (1996)'
+  volume: '14'
+  year: '1996'
+- doi: 10.1007/978-3-319-44374-4
+  unstructured: 'Başar, T., Zaccour, G.: Handbook of Dynamic Game Theory. Springer,
+    Berlin (2018)'
+- unstructured: 'Huang, M., Caines, P.E., Malhamé, R.P.: Individual and mass behaviour
+    in large population stochastic wireless power control problems: centralized and
+    Nash equilibrium solutions. In: IEEE Conference on Decision and Control, pp. 98–103
+    (2003)'
+- author: M Huang
+  doi: 10.4310/CIS.2006.v6.n3.a5
+  first-page: '221'
+  issue: '3'
+  journal-title: Commun. Inf. Syst.
+  unstructured: 'Huang, M., Malhamé, R.P., Caines, P.E., et al.: Large population
+    stochastic dynamic games: closed-loop Mckean-Vlasov systems and the Nash certainty
+    equivalence principle. Commun. Inf. Syst. 6(3), 221–252 (2006)'
+  volume: '6'
+  year: '2006'
+- author: JM Lasry
+  doi: 10.1007/s11537-007-0657-8
+  first-page: '229'
+  issue: '1'
+  journal-title: Jpn. J. Math.
+  unstructured: 'Lasry, J.M., Lions, P.L.: Mean field games. Jpn. J. Math. 2(1), 229–260
+    (2007)'
+  volume: '2'
+  year: '2007'
+- doi: 10.1007/978-1-4614-8508-7
+  unstructured: 'Bensoussan, A., Frehse, J., Yam, P., et al.: Mean Field Games and
+    Mean Field Type Control Theory, vol. 101. Springer, Berlin (2013)'
+- author: H Tembine
+  doi: 10.1109/TAC.2013.2289711
+  first-page: '835'
+  issue: '4'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Tembine, H., Zhu, Q., Başar, T.: Risk-sensitive mean-field games.
+    IEEE Trans. Autom. Control 59(4), 835–850 (2013)'
+  volume: '59'
+  year: '2013'
+- doi: 10.1109/CDC.2014.7039639
+  unstructured: 'Arabneydi, J., Mahajan, A.: Team optimal control of coupled subsystems
+    with mean-field sharing. In: IEEE Conference on Decision and Control, pp. 1669–1674
+    (2014)'
+- unstructured: 'Arabneydi, J.: New concepts in team theory: Mean field teams and
+    reinforcement learning. Ph.D. thesis, McGill University (2017)'
+- unstructured: 'Yang, Y., Luo, R., Li, M., Zhou, M., Zhang, W., Wang, J.: Mean field
+    multi-agent reinforcement learning. In: International Conference on Machine Learning,
+    pp. 5571–5580 (2018)'
+- author: HS Witsenhausen
+  doi: 10.1109/PROC.1971.8488
+  first-page: '1557'
+  issue: '11'
+  journal-title: Proc. IEEE
+  unstructured: 'Witsenhausen, H.S.: Separation of estimation and control for discrete
+    time systems. Proc. IEEE 59(11), 1557–1566 (1971)'
+  volume: '59'
+  year: '1971'
+- doi: 10.1007/978-1-4614-7085-4
+  unstructured: 'Yüksel, S., Başar, T.: Stochastic Networked Control Systems: Stabilization
+    and Optimization Under Information Constraints. Springer Science & Business Media,
+    Berlin (2013)'
+- unstructured: 'Subramanian, J., Seraj, R., Mahajan, A.: Reinforcement learning for
+    mean-field teams. In: Workshop on Adaptive and Learning Agents at International
+    Conference on Autonomous Agents and Multi-Agent Systems (2018)'
+- unstructured: 'Arabneydi, J., Mahajan, A.: Linear quadratic mean field teams: optimal
+    and approximately optimal decentralized solutions (2016). arXiv preprint arXiv:1609.00056'
+- unstructured: 'Carmona, R., Laurière, M., Tan, Z.: Linear-quadratic mean-field reinforcement
+    learning: convergence of policy gradient methods (2019). arXiv preprint arXiv:1910.04295'
+- unstructured: 'Carmona, R., Laurière, M., Tan, Z.: Model-free mean-field reinforcement
+    learning: mean-field MDP and mean-field Q-learning (2019). arXiv preprint arXiv:1910.12802'
+- doi: 10.1145/984622.984626
+  unstructured: 'Rabbat, M., Nowak, R.: Distributed optimization in sensor networks.
+    In: International Symposium on Information Processing in Sensor Networks, pp.
+    20–27 (2004)'
+- author: E Dall’Anese
+  doi: 10.1109/TSG.2013.2248175
+  first-page: '1464'
+  issue: '3'
+  journal-title: IEEE Trans. Smart Grid
+  unstructured: 'Dall’Anese, E., Zhu, H., Giannakis, G.B.: Distributed optimal power
+    flow for smart microgrids. IEEE Trans. Smart Grid 4(3), 1464–1475 (2013)'
+  volume: '4'
+  year: '2013'
+- author: K Zhang
+  doi: 10.1109/JSTSP.2018.2837338
+  first-page: '673'
+  issue: '4'
+  journal-title: IEEE J. Sel. Top. Signal Process.
+  unstructured: 'Zhang, K., Shi, W., Zhu, H., Dall’Anese, E., Başar, T.: Dynamic power
+    distribution system management with a locally connected communication network.
+    IEEE J. Sel. Top. Signal Process. 12(4), 673–687 (2018)'
+  volume: '12'
+  year: '2018'
+- author: K Zhang
+  doi: 10.1016/j.trc.2018.05.011
+  first-page: '472'
+  journal-title: 'Transp. Res. Part C: Emerg. Technol.'
+  unstructured: 'Zhang, K., Lu, L., Lei, C., Zhu, H., Ouyang, Y.: Dynamic operations
+    and pricing of electric unmanned aerial vehicle systems and power networks. Transp.
+    Res. Part C: Emerg. Technol. 92, 472–485 (2018)'
+  volume: '92'
+  year: '2018'
+- doi: 10.1007/11008941_25
+  unstructured: 'Corke, P., Peterson, R., Rus, D.: Networked robots: flying robot
+    navigation using a sensor net. Robot. Res. 234–243 (2005)'
+- doi: 10.1016/j.automatica.2020.108857
+  unstructured: 'Zhang, K., Liu, Y., Liu, J., Liu, M., Başar, T.: Distributed learning
+    of average belief over networks using sequential observations. Automatica (2019)'
+- author: A Nedic
+  doi: 10.1109/TAC.2008.2009515
+  first-page: '48'
+  issue: '1'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Nedic, A., Ozdaglar, A.: Distributed subgradient methods for multi-agent
+    optimization. IEEE Trans. Autom. Control 54(1), 48–61 (2009)'
+  volume: '54'
+  year: '2009'
+- unstructured: 'Agarwal, A., Duchi, J.C.: Distributed delayed stochastic optimization.
+    In: Advances in Neural Information Processing Systems, pp. 873–881 (2011)'
+- author: D Jakovetic
+  doi: 10.1109/TSP.2011.2146776
+  first-page: '3889'
+  issue: '8'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: 'Jakovetic, D., Xavier, J., Moura, J.M.: Cooperative convex optimization
+    in networked systems: augmented Lagrangian algorithms with directed gossip communication.
+    IEEE Trans. Signal Process. 59(8), 3889–3902 (2011)'
+  volume: '59'
+  year: '2011'
+- author: SY Tu
+  doi: 10.1109/TSP.2012.2217338
+  first-page: '6217'
+  issue: '12'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: 'Tu, S.Y., Sayed, A.H.: Diffusion strategies outperform consensus
+    strategies for distributed estimation over adaptive networks. IEEE Trans. Signal
+    Process. 60(12), 6217–6234 (2012)'
+  volume: '60'
+  year: '2012'
+- doi: 10.1007/978-3-642-00644-9_33
+  unstructured: 'Varshavskaya, P., Kaelbling, L.P., Rus, D.: Efficient distributed
+    reinforcement learning through agreement. In: Distributed Autonomous Robotic Systems,
+    pp. 367–378 (2009)'
+- doi: 10.1609/aaai.v32i1.11607
+  unstructured: 'Ciosek, K., Whiteson, S.: Expected policy gradients for reinforcement
+    learning (2018). arXiv preprint arXiv:1801.03326'
+- author: RS Sutton
+  first-page: '2603'
+  issue: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Sutton, R.S., Mahmood, A.R., White, M.: An emphatic approach to the
+    problem of off-policy temporal-difference learning. J. Mach. Learn. Res. 17(1),
+    2603–2631 (2016)'
+  volume: '17'
+  year: '2016'
+- unstructured: 'Yu, H.: On convergence of emphatic temporal-difference learning.
+    In: Conference on Learning Theory, pp. 1724–1751 (2015)'
+- doi: 10.1109/CDC40024.2019.9029969
+  unstructured: 'Zhang, Y., Zavlanos, M.M.: Distributed off-policy actor-critic reinforcement
+    learning with policy consensus (2019). arXiv preprint arXiv:1903.09255'
+- author: P Pennesi
+  doi: 10.1109/TAC.2009.2037462
+  first-page: '492'
+  issue: '2'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Pennesi, P., Paschalidis, I.C.: A distributed actor-critic algorithm
+    and applications to mobile sensor network coordination problems. IEEE Trans. Autom.
+    Control 55(2), 492–497 (2010)'
+  volume: '55'
+  year: '2010'
+- doi: 10.1007/978-3-642-27645-3_2
+  unstructured: 'Lange, S., Gabel, T., Riedmiller, M.: Batch reinforcement learning.
+    In: Reinforcement Learning, pp. 45–73. Springer, Berlin (2012)'
+- doi: 10.1007/11564096_32
+  unstructured: 'Riedmiller, M.: Neural fitted Q iteration–first experiences with
+    a data efficient neural reinforcement learning method. In: European Conference
+    on Machine Learning, pp. 317–328 (2005)'
+- unstructured: 'Antos, A., Szepesvári, C., Munos, R.: Fitted Q-iteration in continuous
+    action-space MDPs. In: Advances in Neural Information Processing Systems, pp.
+    9–16 (2008)'
+- author: M Hong
+  doi: 10.1109/TSP.2017.2673815
+  first-page: '2933'
+  issue: '11'
+  journal-title: IEEE Trans. Signal Process.
+  unstructured: 'Hong, M., Chang, T.H.: Stochastic proximal gradient consensus over
+    random networks. IEEE Trans. Signal Process. 65(11), 2933–2948 (2017)'
+  volume: '65'
+  year: '2017'
+- author: A Nedic
+  doi: 10.1137/16M1084316
+  first-page: '2597'
+  issue: '4'
+  journal-title: SIAM J. Optim.
+  unstructured: 'Nedic, A., Olshevsky, A., Shi, W.: Achieving geometric convergence
+    for distributed optimization over time-varying graphs. SIAM J. Optim. 27(4), 2597–2633
+    (2017)'
+  volume: '27'
+  year: '2017'
+- author: R Munos
+  doi: 10.1137/040614384
+  first-page: '541'
+  issue: '2'
+  journal-title: SIAM J. Control Optim.
+  unstructured: 'Munos, R.: Performance bounds in $$\ell _p$$-norm for approximate
+    value iteration. SIAM J. Control Optim. 46(2), 541–561 (2007)'
+  volume: '46'
+  year: '2007'
+- author: R Munos
+  first-page: '815'
+  issue: May
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Munos, R., Szepesvári, C.: Finite-time bounds for fitted value iteration.
+    J. Mach. Learn. Res. 9(May), 815–857 (2008)'
+  volume: '9'
+  year: '2008'
+- author: A Antos
+  doi: 10.1007/s10994-007-5038-2
+  first-page: '89'
+  issue: '1'
+  journal-title: Mach. Learn.
+  unstructured: 'Antos, A., Szepesvári, C., Munos, R.: Learning near-optimal policies
+    with Bellman-residual minimization based fitted policy iteration and a single
+    sample path. Mach. Learn. 71(1), 89–129 (2008)'
+  volume: '71'
+  year: '2008'
+- unstructured: 'Farahmand, A.M., Szepesvári, C., Munos, R.: Error propagation for
+    approximate policy and value iteration. In: Advances in Neural Information Processing
+    Systems, pp. 568–576 (2010)'
+- unstructured: 'Cassano, L., Yuan, K., Sayed, A.H.: Multi-agent fully decentralized
+    off-policy learning with linear convergence rates (2018). arXiv preprint arXiv:1810.07792'
+- author: G Qu
+  doi: 10.1109/TCNS.2017.2698261
+  first-page: '1245'
+  issue: '3'
+  journal-title: IEEE Trans. Control Netw. Syst.
+  unstructured: 'Qu, G., Li, N.: Harnessing smoothness to accelerate distributed optimization.
+    IEEE Trans. Control Netw. Syst. 5(3), 1245–1260 (2017)'
+  volume: '5'
+  year: '2017'
+- author: M Schmidt
+  doi: 10.1007/s10107-016-1030-6
+  first-page: '83'
+  issue: 1–2
+  journal-title: Math. Program.
+  unstructured: 'Schmidt, M., Le Roux, N., Bach, F.: Minimizing finite sums with the
+    stochastic average gradient. Math. Program. 162(1–2), 83–112 (2017)'
+  volume: '162'
+  year: '2017'
+- doi: 10.1109/ICASSP.2018.8461739
+  unstructured: 'Ying, B., Yuan, K., Sayed, A.H.: Convergence of variance-reduced
+    learning under random reshuffling. In: IEEE International Conference on Acoustics,
+    Speech and Signal Processing, pp. 2286–2290 (2018)'
+- author: SP Singh
+  doi: 10.1007/BF00114726
+  first-page: '123'
+  issue: 1–3
+  journal-title: Mach. Learn.
+  unstructured: 'Singh, S.P., Sutton, R.S.: Reinforcement learning with replacing
+    eligibility traces. Mach. Learn. 22(1–3), 123–158 (1996)'
+  volume: '22'
+  year: '1996'
+- unstructured: 'Bhandari, J., Russo, D., Singal, R.: A finite time analysis of temporal
+    difference learning with linear function approximation. In: Conference On Learning
+    Theory, pp. 1691–1692 (2018)'
+- unstructured: 'Srikant, R., Ying, L.: Finite-time error bounds for linear stochastic
+    approximation and TD learning. In: Conference on Learning Theory, pp. 2803–2830
+    (2019)'
+- doi: 10.1109/ACC.2016.7524910
+  unstructured: 'Stanković, M.S., Stanković, S.S.: Multi-agent temporal-difference
+    learning with linear function approximation: weak convergence under time-varying
+    network topologies. In: IEEE American Control Conference, pp. 167–172 (2016)'
+- author: MS Stanković
+  doi: 10.1109/TAC.2016.2545098
+  first-page: '4069'
+  issue: '12'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Stanković, M.S., Ilić, N., Stanković, S.S.: Distributed stochastic
+    approximation: weak convergence and network design. IEEE Trans. Autom. Control
+    61(12), 4069–4074 (2016)'
+  volume: '61'
+  year: '2016'
+- author: H Zhang
+  doi: 10.1109/TIE.2016.2542134
+  first-page: '4091'
+  issue: '5'
+  journal-title: IEEE Trans. Ind. Electron.
+  unstructured: 'Zhang, H., Jiang, H., Luo, Y., Xiao, G.: Data-driven optimal consensus
+    control for discrete-time multi-agent systems with unknown dynamics using reinforcement
+    learning method. IEEE Trans. Ind. Electron. 64(5), 4091–4100 (2016)'
+  volume: '64'
+  year: '2016'
+- doi: 10.1109/IJCNN.2018.8489477
+  unstructured: 'Zhang, Q., Zhao, D., Lewis, F.L.: Model-free reinforcement learning
+    for fully cooperative multi-agent graphical games. In: International Joint Conference
+    on Neural Networks, pp. 1–6 (2018)'
+- author: DS Bernstein
+  doi: 10.1613/jair.2667
+  first-page: '89'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Bernstein, D.S., Amato, C., Hansen, E.A., Zilberstein, S.: Policy
+    iteration for decentralized control of Markov decision processes. J. Artif. Intell.
+    Res. 34, 89–132 (2009)'
+  volume: '34'
+  year: '2009'
+- author: C Amato
+  doi: 10.1007/s10458-009-9103-z
+  first-page: '293'
+  issue: '3'
+  journal-title: Auton. Agents Multi-Agent Syst.
+  unstructured: 'Amato, C., Bernstein, D.S., Zilberstein, S.: Optimizing fixed-size
+    stochastic controllers for POMDPs and decentralized POMDPs. Auton. Agents Multi-Agent
+    Syst. 21(3), 293–320 (2010)'
+  volume: '21'
+  year: '2010'
+- unstructured: 'Liu, M., Amato, C., Liao, X., Carin, L., How, J.P.: Stick-breaking
+    policy learning in Dec-POMDPs. In: International Joint Conference on Artificial
+    Intelligence (2015)'
+- author: JS Dibangoye
+  doi: 10.1613/jair.4623
+  first-page: '443'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Dibangoye, J.S., Amato, C., Buffet, O., Charpillet, F.: Optimally
+    solving Dec-POMDPs as continuous-state MDPs. J. Artif. Intell. Res. 55, 443–497
+    (2016)'
+  volume: '55'
+  year: '2016'
+- unstructured: 'Wu, F., Zilberstein, S., Chen, X.: Rollout sampling policy iteration
+    for decentralized POMDPs. In: Conference on Uncertainty in Artificial Intelligence
+    (2010)'
+- unstructured: 'Wu, F., Zilberstein, S., Jennings, N.R.: Monte-Carlo expectation
+    maximization for decentralized POMDPs. In: International Joint Conference on Artificial
+    Intelligence (2013)'
+- unstructured: 'Best, G., Cliff, O.M., Patten, T., Mettu, R.R., Fitch, R.: Dec-MCTS:
+    decentralized planning for multi-robot active perception. Int. J. Robot. Res.
+    1–22 (2018)'
+- unstructured: 'Amato, C., Zilberstein, S.: Achieving goals in decentralized POMDPs.
+    In: International Conference on Autonomous Agents and Multi-Agent Systems, pp.
+    593–600 (2009)'
+- unstructured: 'Banerjee, B., Lyle, J., Kraemer, L., Yellamraju, R.: Sample bounded
+    distributed reinforcement learning for decentralized POMDPs. In: AAAI Conference
+    on Artificial Intelligence (2012)'
+- author: A Nayyar
+  doi: 10.1109/TAC.2013.2239000
+  first-page: '1644'
+  issue: '7'
+  journal-title: IEEE Trans. Autom. Control
+  unstructured: 'Nayyar, A., Mahajan, A., Teneketzis, D.: Decentralized stochastic
+    control with partial history sharing: a common information approach. IEEE Trans.
+    Autom. Control 58(7), 1644–1658 (2013)'
+  volume: '58'
+  year: '2013'
+- doi: 10.1109/ACC.2015.7172192
+  unstructured: 'Arabneydi, J., Mahajan, A.: Reinforcement learning in decentralized
+    stochastic control systems with partial history sharing. In: IEEE American Control
+    Conference, pp. 5449–5456 (2015)'
+- doi: 10.1016/S0167-5060(08)70637-X
+  unstructured: 'Papadimitriou, C.H.: On inefficient proofs of existence and complexity
+    classes. In: Annals of Discrete Mathematics, vol. 51, pp. 245–250. Elsevier (1992)'
+- author: C Daskalakis
+  doi: 10.1137/070699652
+  first-page: '195'
+  issue: '1'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Daskalakis, C., Goldberg, P.W., Papadimitriou, C.H.: The complexity
+    of computing a Nash equilibrium. SIAM J. Comput. 39(1), 195–259 (2009)'
+  volume: '39'
+  year: '2009'
+- doi: 10.1515/9781400829460
+  unstructured: 'Von Neumann, J., Morgenstern, O., Kuhn, H.W.: Theory of Games and
+    Economic Behavior (commemorative edition). Princeton University Press, Princeton
+    (2007)'
+- doi: 10.1007/978-3-540-70529-1_419
+  unstructured: 'Vanderbei, R.J., et al.: Linear Programming. Springer, Berlin (2015)'
+- author: AJ Hoffman
+  doi: 10.1287/mnsc.12.5.359
+  first-page: '359'
+  issue: '5'
+  journal-title: Manag. Sci.
+  unstructured: 'Hoffman, A.J., Karp, R.M.: On nonterminating stochastic games. Manag.
+    Sci. 12(5), 359–370 (1966)'
+  volume: '12'
+  year: '1966'
+- author: J Van Der Wal
+  doi: 10.1007/BF00933260
+  first-page: '125'
+  issue: '1'
+  journal-title: J. Optim. Theory Appl.
+  unstructured: 'Van Der Wal, J.: Discounted Markov games: generalized policy iteration
+    method. J. Optim. Theory Appl. 25(1), 125–138 (1978)'
+  volume: '25'
+  year: '1978'
+- author: SS Rao
+  doi: 10.1007/BF00935562
+  first-page: '627'
+  issue: '6'
+  journal-title: J. Optim. Theory Appl.
+  unstructured: 'Rao, S.S., Chandrasekaran, R., Nair, K.: Algorithms for discounted
+    stochastic games. J. Optim. Theory Appl. 11(6), 627–637 (1973)'
+  volume: '11'
+  year: '1973'
+- unstructured: 'Patek, S.D.: Stochastic and shortest path games: theory and algorithms.
+    Ph.D. thesis, Massachusetts Institute of Technology (1997)'
+- author: TD Hansen
+  doi: 10.1145/2432622.2432623
+  first-page: '1'
+  issue: '1'
+  journal-title: J. ACM
+  unstructured: 'Hansen, T.D., Miltersen, P.B., Zwick, U.: Strategy iteration is strongly
+    polynomial for 2-player turn-based stochastic games with a constant discount factor.
+    J. ACM 60(1), 1 (2013)'
+  volume: '60'
+  year: '2013'
+- unstructured: 'Lagoudakis, M.G., Parr, R.: Value function approximation in zero-sum
+    Markov games. In: Conference on Uncertainty in Artificial Intelligence, pp. 283–292
+    (2002)'
+- unstructured: 'Zou, S., Xu, T., Liang, Y.: Finite-sample analysis for SARSA with
+    linear function approximation (2019). arXiv preprint arXiv:1902.02234'
+- unstructured: 'Sutton, R.S., Barto, A.G.: A temporal-difference model of classical
+    conditioning. In: Proceedings of the Annual Conference of the Cognitive Science
+    Society, pp. 355–378 (1987)'
+- author: A Al-Tamimi
+  doi: 10.1109/TSMCB.2006.880135
+  first-page: '240'
+  issue: '1'
+  journal-title: IEEE Trans. Syst. Man Cybern. Part B
+  unstructured: 'Al-Tamimi, A., Abu-Khalaf, M., Lewis, F.L.: Adaptive critic designs
+    for discrete-time zero-sum games with application to $$\cal{H}_\infty $$ control.
+    IEEE Trans. Syst. Man Cybern. Part B 37(1), 240–247 (2007)'
+  volume: '37'
+  year: '2007'
+- author: A Al-Tamimi
+  doi: 10.1016/j.automatica.2006.09.019
+  first-page: '473'
+  issue: '3'
+  journal-title: Automatica
+  unstructured: 'Al-Tamimi, A., Lewis, F.L., Abu-Khalaf, M.: Model-free Q-learning
+    designs for linear discrete-time zero-sum games with application to $$\cal{H}_\infty
+    $$ control. Automatica 43(3), 473–481 (2007)'
+  volume: '43'
+  year: '2007'
+- unstructured: 'Farahmand, A.M., Ghavamzadeh, M., Szepesvári, C., Mannor, S.: Regularized
+    policy iteration with nonparametric function spaces. J. Mach. Learn. Res. 17(1),
+    4809–4874 (2016)'
+- unstructured: 'Yang, Z., Xie, Y., Wang, Z.: A theoretical analysis of deep Q-learning
+    (2019). arXiv preprint arXiv:1901.00137'
+- unstructured: 'Jia, Z., Yang, L.F., Wang, M.: Feature-based Q-learning for two-player
+    stochastic games (2019). arXiv preprint arXiv:1906.00423'
+- unstructured: 'Sidford, A., Wang, M., Wu, X., Yang, L., Ye, Y.: Near-optimal time
+    and sample complexities for solving Markov decision processes with a generative
+    model. In: Advances in Neural Information Processing Systems, pp. 5186–5196 (2018)'
+- unstructured: 'Wei, C.Y., Hong, Y.T., Lu, C.J.: Online reinforcement learning in
+    stochastic games. In: Advances in Neural Information Processing Systems, pp. 4987–4997
+    (2017)'
+- unstructured: 'Auer, P., Ortner, R.: Logarithmic online regret bounds for undiscounted
+    reinforcement learning. In: Advances in Neural Information Processing Systems,
+    pp. 49–56 (2007)'
+- unstructured: 'Jaksch, T., Ortner, R., Auer, P.: Near-optimal regret bounds for
+    reinforcement learning. J. Mach. Learn. Res. 11, 1563–1600 (2010)'
+- author: D Koller
+  first-page: '759'
+  journal-title: Computing
+  unstructured: 'Koller, D., Megiddo, N., von Stengel, B.: Fast algorithms for finding
+    randomized strategies in game trees. Computing 750, 759 (1994)'
+  volume: '750'
+  year: '1994'
+- author: B Von Stengel
+  doi: 10.1006/game.1996.0050
+  first-page: '220'
+  issue: '2'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Von Stengel, B.: Efficient computation of behavior strategies. Games
+    Econ. Behav. 14(2), 220–246 (1996)'
+  volume: '14'
+  year: '1996'
+- author: D Koller
+  doi: 10.1006/game.1996.0051
+  first-page: '247'
+  issue: '2'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Koller, D., Megiddo, N., Von Stengel, B.: Efficient computation of
+    equilibria for extensive two-person games. Games Econ. Behav. 14(2), 247–259 (1996)'
+  volume: '14'
+  year: '1996'
+- author: B Von Stengel
+  doi: 10.1016/S1574-0005(02)03008-4
+  first-page: '1723'
+  journal-title: Handbook of Game Theory with Economic Applications
+  unstructured: 'Von Stengel, B.: Computing equilibria for two-person games. Handbook
+    of Game Theory with Economic Applications 3, 1723–1759 (2002)'
+  volume: '3'
+  year: '2002'
+- unstructured: 'Parr, R., Russell, S.: Approximating optimal policies for partially
+    observable stochastic domains. In: International Joint Conference on Artificial
+    Intelligence, pp. 1088–1094 (1995)'
+- unstructured: 'Rodriguez, A.C., Parr, R., Koller, D.: Reinforcement learning using
+    approximate belief states. In: Advances in Neural Information Processing Systems,
+    pp. 1036–1042 (2000)'
+- author: M Hauskrecht
+  doi: 10.1613/jair.678
+  first-page: '33'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Hauskrecht, M.: Value-function approximations for partially observable
+    Markov decision processes. J. Artif. Intell. Res. 13, 33–94 (2000)'
+  volume: '13'
+  year: '2000'
+- unstructured: 'Buter, B.J.: Dynamic programming for extensive form games with imperfect
+    information. Ph.D. thesis, Universiteit van Amsterdam (2012)'
+- author: PI Cowling
+  doi: 10.1109/TCIAIG.2012.2200894
+  first-page: '120'
+  issue: '2'
+  journal-title: IEEE Trans. Comput. Intell. AI Games
+  unstructured: 'Cowling, P.I., Powley, E.J., Whitehouse, D.: Information set Monte
+    Carlo tree search. IEEE Trans. Comput. Intell. AI Games 4(2), 120–143 (2012)'
+  volume: '4'
+  year: '2012'
+- author: K Teraoka
+  doi: 10.1587/transinf.E97.D.392
+  first-page: '392'
+  issue: '3'
+  journal-title: IEICE Trans. Inf. Syst.
+  unstructured: 'Teraoka, K., Hatano, K., Takimoto, E.: Efficient sampling method
+    for Monte Carlo tree search problem. IEICE Trans. Inf. Syst. 97(3), 392–398 (2014)'
+  volume: '97'
+  year: '2014'
+- unstructured: 'Whitehouse, D.: Monte Carlo tree search for games with hidden information
+    and uncertainty. Ph.D. thesis, University of York (2014)'
+- unstructured: 'Kaufmann, E., Koolen, W.M.: Monte-Carlo tree search by best arm identification.
+    In: Advances in Neural Information Processing Systems, pp. 4897–4906 (2017)'
+- author: J Hannan
+  first-page: '97'
+  journal-title: Contrib. Theory Games
+  unstructured: 'Hannan, J.: Approximation to Bayes risk in repeated play. Contrib.
+    Theory Games 3, 97–139 (1957)'
+  volume: '3'
+  year: '1957'
+- author: GW Brown
+  first-page: '374'
+  issue: '1'
+  journal-title: Act. Anal. Prod. Allo.
+  unstructured: 'Brown, G.W.: Iterative solution of games by fictitious play. Act.
+    Anal. Prod. Allo. 13(1), 374–376 (1951)'
+  volume: '13'
+  year: '1951'
+- doi: 10.2307/1969530
+  unstructured: 'Robinson, J.: An iterative method of solving a game. Ann. Math. 296–301
+    (1951)'
+- author: M Benaïm
+  doi: 10.1137/S0363012904439301
+  first-page: '328'
+  issue: '1'
+  journal-title: SIAM J. Control Optim.
+  unstructured: 'Benaïm, M., Hofbauer, J., Sorin, S.: Stochastic approximations and
+    differential inclusions. SIAM J. Control Optim. 44(1), 328–348 (2005)'
+  volume: '44'
+  year: '2005'
+- author: S Hart
+  doi: 10.1006/jeth.2000.2746
+  first-page: '26'
+  issue: '1'
+  journal-title: J. Econ. Theory
+  unstructured: 'Hart, S., Mas-Colell, A.: A general class of adaptive strategies.
+    J. Econ. Theory 98(1), 26–54 (2001)'
+  volume: '98'
+  year: '2001'
+- author: D Monderer
+  doi: 10.1006/jeth.1996.2245
+  first-page: '438'
+  issue: '2'
+  journal-title: J. Econ. Theory
+  unstructured: 'Monderer, D., Samet, D., Sela, A.: Belief affirming in learning processes.
+    J. Econ. Theory 73(2), 438–452 (1997)'
+  volume: '73'
+  year: '1997'
+- author: Y Viossat
+  doi: 10.1016/j.jet.2012.07.003
+  first-page: '825'
+  issue: '2'
+  journal-title: J. Econ. Theory
+  unstructured: 'Viossat, Y., Zapechelnyuk, A.: No-regret dynamics and fictitious
+    play. J. Econ. Theory 148(2), 825–842 (2013)'
+  volume: '148'
+  year: '2013'
+- author: HJ Kushner
+  unstructured: 'Kushner, H.J., Yin, G.G.: Stochastic Approximation and Recursive
+    Algorithms and Applications. Springer, New York (2003)'
+  volume-title: Stochastic Approximation and Recursive Algorithms and Applications
+  year: '2003'
+- author: D Fudenberg
+  doi: 10.1016/0165-1889(94)00819-4
+  first-page: '1065'
+  issue: 5–7
+  journal-title: J. Econ. Dyn. Control
+  unstructured: 'Fudenberg, D., Levine, D.K.: Consistency and cautious fictitious
+    play. J. Econ. Dyn. Control 19(5–7), 1065–1089 (1995)'
+  volume: '19'
+  year: '1995'
+- author: J Hofbauer
+  doi: 10.1111/1468-0262.00376
+  first-page: '2265'
+  issue: '6'
+  journal-title: Econometrica
+  unstructured: 'Hofbauer, J., Sandholm, W.H.: On the global convergence of stochastic
+    fictitious play. Econometrica 70(6), 2265–2294 (2002)'
+  volume: '70'
+  year: '2002'
+- author: DS Leslie
+  doi: 10.1016/j.geb.2005.08.005
+  first-page: '285'
+  issue: '2'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Leslie, D.S., Collins, E.J.: Generalised weakened fictitious play.
+    Games Econ. Behav. 56(2), 285–298 (2006)'
+  volume: '56'
+  year: '2006'
+- author: M Benaïm
+  doi: 10.1287/moor.1120.0568
+  first-page: '437'
+  issue: '3'
+  journal-title: Math. Oper. Res.
+  unstructured: 'Benaïm, M., Faure, M.: Consistency of vanishingly smooth fictitious
+    play. Math. Oper. Res. 38(3), 437–450 (2013)'
+  volume: '38'
+  year: '2013'
+- author: Z Li
+  doi: 10.1016/j.geb.2018.01.005
+  first-page: '401'
+  journal-title: Games Econ. Behav.
+  unstructured: 'Li, Z., Tewari, A.: Sampled fictitious play is Hannan consistent.
+    Games Econ. Behav. 109, 401–412 (2018)'
+  volume: '109'
+  year: '2018'
+- unstructured: 'Ernst, D., Geurts, P., Wehenkel, L.: Tree-based batch mode reinforcement
+    learning. J. Mach. Learn. Res. 6(Apr), 503–556 (2005)'
+- unstructured: 'Heinrich, J., Silver, D.: Self-play Monte-Carlo tree search in computer
+    Poker. In: Workshops at AAAI Conference on Artificial Intelligence (2014)'
+- author: CB Browne
+  doi: 10.1109/TCIAIG.2012.2186810
+  first-page: '1'
+  issue: '1'
+  journal-title: IEEE Trans. Comput. Intell. AI Games
+  unstructured: 'Browne, C.B., Powley, E., Whitehouse, D., Lucas, S.M., Cowling, P.I.,
+    Rohlfshagen, P., Tavener, S., Perez, D., Samothrakis, S., Colton, S.: A survey
+    of Monte Carlo tree search methods. IEEE Trans. Comput. Intell. AI Games 4(1),
+    1–43 (2012)'
+  volume: '4'
+  year: '2012'
+- unstructured: 'Borkar, V.S.: Stochastic Approximation: A Dynamical Systems Viewpoint.
+    Cambridge University Press, Cambridge (2008)'
+- doi: 10.1017/CBO9780511546921
+  unstructured: 'Cesa-Bianchi, N., Lugosi, G.: Prediction, Learning, and Games. Cambridge
+    University Press, Cambridge (2006)'
+- author: P Auer
+  doi: 10.1137/S0097539701398375
+  first-page: '48'
+  issue: '1'
+  journal-title: SIAM J. Comput.
+  unstructured: 'Auer, P., Cesa-Bianchi, N., Freund, Y., Schapire, R.E.: The nonstochastic
+    multiarmed bandit problem. SIAM J. Comput. 32(1), 48–77 (2002)'
+  volume: '32'
+  year: '2002'
+- doi: 10.1016/B978-1-55860-146-8.50032-1
+  unstructured: 'Vovk, V.G.: Aggregating strategies. In: Proceedings of Computational
+    Learning Theory (1990)'
+- author: N Littlestone
+  doi: 10.1006/inco.1994.1009
+  first-page: '212'
+  issue: '2'
+  journal-title: Inf. Comput.
+  unstructured: 'Littlestone, N., Warmuth, M.K.: The weighted majority algorithm.
+    Inf. Comput. 108(2), 212–261 (1994)'
+  volume: '108'
+  year: '1994'
+- author: Y Freund
+  doi: 10.1006/game.1999.0738
+  first-page: '79'
+  issue: 1–2
+  journal-title: Games Econ. Behav.
+  unstructured: 'Freund, Y., Schapire, R.E.: Adaptive game playing using multiplicative
+    weights. Games Econ. Behav. 29(1–2), 79–103 (1999)'
+  volume: '29'
+  year: '1999'
+- author: S Hart
+  doi: 10.1111/1468-0262.00153
+  first-page: '1127'
+  issue: '5'
+  journal-title: Econometrica
+  unstructured: 'Hart, S., Mas-Colell, A.: A simple adaptive procedure leading to
+    correlated equilibrium. Econometrica 68(5), 1127–1150 (2000)'
+  volume: '68'
+  year: '2000'
+- unstructured: 'Lanctot, M., Waugh, K., Zinkevich, M., Bowling, M.: Monte Carlo sampling
+    for regret minimization in extensive games. In: Advances in Neural Information
+    Processing Systems, pp. 1078–1086 (2009)'
+- unstructured: 'Burch, N., Lanctot, M., Szafron, D., Gibson, R.G.: Efficient Monte
+    Carlo counterfactual regret minimization in games with many player actions. In:
+    Advances in Neural Information Processing Systems, pp. 1880–1888 (2012)'
+- unstructured: 'Gibson, R., Lanctot, M., Burch, N., Szafron, D., Bowling, M.: Generalized
+    sampling and variance in counterfactual regret minimization. In: AAAI Conference
+    on Artificial Intelligence (2012)'
+- unstructured: 'Johanson, M., Bard, N., Lanctot, M., Gibson, R., Bowling, M.: Efficient
+    Nash equilibrium approximation through Monte Carlo counterfactual regret minimization.
+    In: International Conference on Autonomous Agents and Multi-Agent Systems, pp.
+    837–846 (2012)'
+- unstructured: 'Lisỳ, V., Lanctot, M., Bowling, M.: Online Monte Carlo counterfactual
+    regret minimization for search in imperfect information games. In: International
+    Conference on Autonomous Agents and Multi-Agent Systems, pp. 27–36 (2015)'
+- doi: 10.1609/aaai.v33i01.33012157
+  unstructured: 'Schmid, M., Burch, N., Lanctot, M., Moravcik, M., Kadlec, R., Bowling,
+    M.: Variance reduction in Monte Carlo counterfactual regret minimization (VR-MCCFR)
+    for extensive form games using baselines. In: AAAI Conference on Artificial Intelligence,
+    vol. 33, pp. 2157–2164 (2019)'
+- doi: 10.1609/aaai.v29i1.9445
+  unstructured: 'Waugh, K., Morrill, D., Bagnell, J.A., Bowling, M.: Solving games
+    with functional regret estimation. In: AAAI Conference on Artificial Intelligence
+    (2015)'
+- unstructured: 'Morrill, D.: Using regret estimation to solve games compactly. Ph.D.
+    thesis, University of Alberta (2016)'
+- unstructured: 'Brown, N., Lerer, A., Gross, S., Sandholm, T.: Deep counterfactual
+    regret minimization. In: International Conference on Machine Learning, pp. 793–802
+    (2019)'
+- unstructured: 'Brown, N., Sandholm, T.: Regret-based pruning in extensive-form games.
+    In: Advances in Neural Information Processing Systems, pp. 1972–1980 (2015)'
+- doi: 10.1609/aaai.v31i1.10603
+  unstructured: 'Brown, N., Kroer, C., Sandholm, T.: Dynamic thresholding and pruning
+    for regret minimization. In: AAAI Conference on Artificial Intelligence (2017)'
+- unstructured: 'Brown, N., Sandholm, T.: Reduced space and faster convergence in
+    imperfect-information games via pruning. In: International Conference on Machine
+    Learning, pp. 596–604 (2017)'
+- unstructured: 'Tammelin, O.: Solving large imperfect information games using CFR+
+    (2014). arXiv preprint arXiv:1407.5042'
+- unstructured: 'Tammelin, O., Burch, N., Johanson, M., Bowling, M.: Solving heads-up
+    limit Texas Hold’em. In: International Joint Conference on Artificial Intelligence
+    (2015)'
+- author: N Burch
+  doi: 10.1613/jair.1.11370
+  first-page: '429'
+  journal-title: J. Artif. Intell. Res.
+  unstructured: 'Burch, N., Moravcik, M., Schmid, M.: Revisiting CFR+ and alternating
+    updates. J. Artif. Intell. Res. 64, 429–443 (2019)'
+  volume: '64'
+  year: '2019'
+- unstructured: 'Zhou, Y., Ren, T., Li, J., Yan, D., Zhu, J.: Lazy-CFR: a fast regret
+    minimization algorithm for extensive games with imperfect information (2018).
+    arXiv preprint arXiv:1810.04433'
+- unstructured: 'Zinkevich, M.: Online convex programming and generalized infinitesimal
+    gradient ascent. In: International Conference on Machine Learning, pp. 928–936
+    (2003)'
+- doi: 10.24963/ijcai.2019/66
+  unstructured: 'Lockhart, E., Lanctot, M., Pérolat, J., Lespiau, J.B., Morrill, D.,
+    Timbers, F., Tuyls, K.: Computing approximate equilibria in sequential adversarial
+    games by exploitability descent (2019). arXiv preprint arXiv:1903.05614'
+- doi: 10.1609/aaai.v26i1.8269
+  unstructured: 'Johanson, M., Bard, N., Burch, N., Bowling, M.: Finding optimal abstract
+    strategies in extensive-form games. In: AAAI Conference on Artificial Intelligence,
+    pp. 1371–1379 (2012)'
+- unstructured: 'Schaeffer, M.S., Sturtevant, N., Schaeffer, J.: Comparing UCT versus
+    CFR in simultaneous games (2009)'
+- doi: 10.1007/978-3-319-05428-5_3
+  unstructured: 'Lanctot, M., Lisỳ, V., Winands, M.H.: Monte Carlo tree search in
+    simultaneous move games with applications to Goofspiel. In: Workshop on Computer
+    Games, pp. 28–43 (2013)'
+- unstructured: 'Lisỳ, V., Kovarik, V., Lanctot, M., Bošanskỳ, B.: Convergence of
+    Monte Carlo tree search in simultaneous move games. In: Advances in Neural Information
+    Processing Systems, pp. 2112–2120 (2013)'
+- doi: 10.1109/CIG.2014.6932889
+  unstructured: 'Tak, M.J., Lanctot, M., Winands, M.H.: Monte Carlo tree search variants
+    for simultaneous move games. In: IEEE Conference on Computational Intelligence
+    and Games, pp. 1–8 (2014)'
+- doi: 10.1007/s10994-019-05832-z
+  unstructured: 'Kovařík, V., Lisỳ, V.: Analysis of Hannan consistent selection for
+    Monte Carlo tree search in simultaneous move games (2018). arXiv preprint arXiv:1804.09045'
+- unstructured: 'Mazumdar, E.V., Jordan, M.I., Sastry, S.S.: On finding local Nash
+    equilibria (and only local Nash equilibria) in zero-sum games (2019). arXiv preprint
+    arXiv:1901.00838'
+- unstructured: 'Bu, J., Ratliff, L.J., Mesbahi, M.: Global convergence of policy
+    gradient for sequential zero-sum linear quadratic dynamic games (2019). arXiv
+    preprint arXiv:1911.04672'
+- unstructured: 'Mescheder, L., Nowozin, S., Geiger, A.: The numerics of GANs. In:
+    Advances in Neural Information Processing Systems, pp. 1825–1835 (2017)'
+- unstructured: 'Adolphs, L., Daneshmand, H., Lucchi, A., Hofmann, T.: Local saddle
+    point optimization: a curvature exploitation approach (2018). arXiv preprint arXiv:1805.05751'
+- unstructured: 'Daskalakis, C., Panageas, I.: The limit points of (optimistic) gradient
+    descent in min-max optimization. In: Advances in Neural Information Processing
+    Systems, pp. 9236–9246 (2018)'
+- unstructured: 'Mertikopoulos, P., Zenati, H., Lecouat, B., Foo, C.S., Chandrasekhar,
+    V., Piliouras, G.: Optimistic mirror descent in saddle-point problems: going the
+    extra (gradient) mile. In: International Conference on Learning Representations
+    (2019)'
+- unstructured: 'Fiez, T., Chasnov, B., Ratliff, L.J.: Convergence of learning dynamics
+    in Stackelberg games (2019). arXiv preprint arXiv:1906.01217'
+- unstructured: 'Balduzzi, D., Racaniere, S., Martens, J., Foerster, J., Tuyls, K.,
+    Graepel, T.: The mechanics of n-player differentiable games. In: International
+    Conference on Machine Learning, pp. 363–372 (2018)'
+- unstructured: 'Sanjabi, M., Razaviyayn, M., Lee, J.D.: Solving non-convex non-concave
+    min-max games under Polyak-Łojasiewicz condition (2018). arXiv preprint arXiv:1812.02878'
+- unstructured: 'Nouiehed, M., Sanjabi, M., Lee, J.D., Razaviyayn, M.: Solving a class
+    of non-convex min-max games using iterative first order methods (2019). arXiv
+    preprint arXiv:1902.08297'
+- unstructured: 'Mazumdar, E., Ratliff, L.J., Jordan, M.I., Sastry, S.S.: Policy-gradient
+    algorithms have no guarantees of convergence in continuous action and state multi-agent
+    settings (2019). arXiv preprint arXiv:1907.03712'
+- author: X Chen
+  doi: 10.1145/1516512.1516516
+  first-page: '14'
+  issue: '3'
+  journal-title: J. ACM
+  unstructured: 'Chen, X., Deng, X., Teng, S.H.: Settling the complexity of computing
+    two-player Nash equilibria. J. ACM 56(3), 14 (2009)'
+  volume: '56'
+  year: '2009'
+- unstructured: 'Greenwald, A., Hall, K., Serrano, R.: Correlated Q-learning. In:
+    International Conference on Machine Learning, pp. 242–249 (2003)'
+- author: RJ Aumann
+  doi: 10.1016/0304-4068(74)90037-8
+  first-page: '67'
+  issue: '1'
+  journal-title: J. Math. Econ.
+  unstructured: 'Aumann, R.J.: Subjectivity and correlation in randomized strategies.
+    J. Math. Econ. 1(1), 67–96 (1974)'
+  volume: '1'
+  year: '1974'
+- unstructured: 'Perolat, J., Strub, F., Piot, B., Pietquin, O.: Learning Nash equilibrium
+    for general-sum Markov games from batch data. In: International Conference on
+    Artificial Intelligence and Statistics, pp. 232–241 (2017)'
+- unstructured: 'Maillard, O.A., Munos, R., Lazaric, A., Ghavamzadeh, M.: Finite-sample
+    analysis of Bellman residual minimization. In: Asian Conference on Machine Learning,
+    pp. 299–314 (2010)'
+- author: A Letcher
+  first-page: '1'
+  issue: '84'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'Letcher, A., Balduzzi, D., Racanière, S., Martens, J., Foerster,
+    J.N., Tuyls, K., Graepel, T.: Differentiable game mechanics. J. Mach. Learn. Res.
+    20(84), 1–40 (2019)'
+  volume: '20'
+  year: '2019'
+- unstructured: 'Chasnov, B., Ratliff, L.J., Mazumdar, E., Burden, S.A.: Convergence
+    analysis of gradient-based learning with non-uniform learning rates in non-cooperative
+    multi-agent settings (2019). arXiv preprint arXiv:1906.00731'
+- author: S Hart
+  doi: 10.1257/000282803322655581
+  first-page: '1830'
+  issue: '5'
+  journal-title: Am. Econ. Rev.
+  unstructured: 'Hart, S., Mas-Colell, A.: Uncoupled dynamics do not lead to Nash
+    equilibrium. Am. Econ. Rev. 93(5), 1830–1836 (2003)'
+  volume: '93'
+  year: '2003'
+- author: N Saldi
+  doi: 10.1137/17M1112583
+  first-page: '4256'
+  issue: '6'
+  journal-title: SIAM J. Control Optim.
+  unstructured: 'Saldi, N., Başar, T., Raginsky, M.: Markov-Nash equilibria in mean-field
+    games with discounted cost. SIAM J. Control Optim. 56(6), 4256–4287 (2018)'
+  volume: '56'
+  year: '2018'
+- doi: 10.1287/moor.2018.0957
+  unstructured: 'Saldi, N., Başar, T., Raginsky, M.: Approximate Nash equilibria in
+    partially observed stochastic games with mean-field interactions. Math. Oper.
+    Res. (2019)'
+- unstructured: 'Saldi, N.: Discrete-time average-cost mean-field games on Polish
+    spaces (2019). arXiv preprint arXiv:1908.08793'
+- doi: 10.1109/CDC40024.2019.9029343
+  unstructured: 'Saldi, N., Başar, T., Raginsky, M.: Discrete-time risk-sensitive
+    mean-field games (2018). arXiv preprint arXiv:1808.03929'
+- unstructured: 'Guo, X., Hu, A., Xu, R., Zhang, J.: Learning mean-field games (2019).
+    arXiv preprint arXiv:1901.09585'
+- unstructured: 'Fu, Z., Yang, Z., Chen, Y., Wang, Z.: Actor-critic provably finds
+    Nash equilibria of linear-quadratic mean-field games (2019). arXiv preprint arXiv:1910.07498'
+- doi: 10.1016/j.matpur.2019.02.006
+  unstructured: 'Hadikhanloo, S., Silva, F.J.: Finite mean field games: fictitious
+    play and convergence to a first order continuous mean field game. J. Math. Pures
+    Appl. (2019)'
+- unstructured: 'Elie, R., Pérolat, J., Laurière, M., Geist, M., Pietquin, O.: Approximate
+    fictitious play for mean field games (2019). arXiv preprint arXiv:1907.02633'
+- doi: 10.1016/j.sysconle.2020.104744
+  unstructured: 'Anahtarci, B., Kariksiz, C.D., Saldi, N.: Value iteration algorithm
+    for mean-field games (2019). arXiv preprint arXiv:1909.01758'
+- unstructured: 'Zaman, M.A.u., Zhang, K., Miehling, E., Başar, T.: Approximate equilibrium
+    computation for discrete-time linear-quadratic mean-field games. Submitted to
+    IEEE American Control Conference (2020)'
+- doi: 10.24963/ijcai.2018/78
+  unstructured: 'Yang, B., Liu, M.: Keeping in touch with collaborative UAVs: a deep
+    reinforcement learning approach. In: International Joint Conference on Artificial
+    Intelligence, pp. 562–568 (2018)'
+- unstructured: 'Pham, H.X., La, H.M., Feil-Seifer, D., Nefian, A.: Cooperative and
+    distributed reinforcement learning of drones for field coverage (2018). arXiv
+    preprint arXiv:1803.07250'
+- doi: 10.1007/978-3-030-01057-7_85
+  unstructured: 'Tožička, J., Szulyovszky, B., de Chambrier, G., Sarwal, V., Wani,
+    U., Gribulis, M.: Application of deep reinforcement learning to UAV fleet control.
+    In: SAI Intelligent Systems Conference, pp. 1169–1177 (2018)'
+- doi: 10.1109/CCNC.2019.8651796
+  unstructured: 'Shamsoshoara, A., Khaledi, M., Afghah, F., Razi, A., Ashdown, J.:
+    Distributed cooperative spectrum sharing in UAV networks using multi-agent reinforcement
+    learning. In: IEEE Annual Consumer Communications & Networking Conference, pp.
+    1–6 (2019)'
+- doi: 10.1109/ICCW.2019.8756984
+  unstructured: 'Cui, J., Liu, Y., Nallanathan, A.: The application of multi-agent
+    reinforcement learning in UAV networks. In: IEEE International Conference on Communications
+    Workshops, pp. 1–6 (2019)'
+- doi: 10.1109/ACCESS.2019.2943253
+  unstructured: 'Qie, H., Shi, D., Shen, T., Xu, X., Li, Y., Wang, L.: Joint optimization
+    of multi-UAV target assignment and path planning based on multi-agent reinforcement
+    learning. IEEE Access (2019)'
+- author: S Hochreiter
+  doi: 10.1162/neco.1997.9.8.1735
+  first-page: '1735'
+  issue: '8'
+  journal-title: Neural Comput.
+  unstructured: 'Hochreiter, S., Schmidhuber, J.: Long short-term memory. Neural Comput.
+    9(8), 1735–1780 (1997)'
+  volume: '9'
+  year: '1997'
+- unstructured: 'Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez,
+    A.N., Kaiser, Ł., Polosukhin, I.: Attention is all you need. In: Advances in neural
+    information processing systems, pp. 5998–6008 (2017)'
+- unstructured: 'Hausknecht, M., Stone, P.: Deep recurrent Q-learning for partially
+    observable MDPs. In: 2015 AAAI Fall Symposium Series (2015)'
+- unstructured: 'Jorge, E., Kågebäck, M., Johansson, F.D., Gustavsson, E.: Learning
+    to play guess who? and inventing a grounded language as a consequence (2016).
+    arXiv preprint arXiv:1611.03218'
+- unstructured: 'Sukhbaatar, S., Fergus, R., et al.: Learning multiagent communication
+    with backpropagation. In: Advances in Neural Information Processing Systems, pp.
+    2244–2252 (2016)'
+- unstructured: 'Havrylov, S., Titov, I.: Emergence of language with multi-agent games:
+    learning to communicate with sequences of symbols. In: Advances in Neural Information
+    Processing Systems, pp. 2149–2159 (2017)'
+- doi: 10.1109/ICCV.2017.321
+  unstructured: 'Das, A., Kottur, S., Moura, J.M., Lee, S., Batra, D.: Learning cooperative
+    visual dialog agents with deep reinforcement learning. In: Proceedings of the
+    IEEE International Conference on Computer Vision, pp. 2951–2960 (2017)'
+- unstructured: 'Peng, P., Wen, Y., Yang, Y., Yuan, Q., Tang, Z., Long, H., Wang,
+    J.: Multiagent bidirectionally-coordinated nets: emergence of human-level coordination
+    in learning to play starcraft combat games (2017). arXiv preprint arXiv:1703.10069'
+- doi: 10.1609/aaai.v32i1.11492
+  unstructured: 'Mordatch, I., Abbeel, P.: Emergence of grounded compositional language
+    in multi-agent populations. In: AAAI Conference on Artificial Intelligence (2018)'
+- unstructured: 'Jiang, J., Lu, Z.: Learning attentional communication for multi-agent
+    cooperation. In: Advances in Neural Information Processing Systems, pp. 7254–7264
+    (2018)'
+- unstructured: 'Jiang, J., Dun, C., Lu, Z.: Graph convolutional reinforcement learning
+    for multi-agent cooperation. 2(3) (2018). arXiv preprint arXiv:1810.09202'
+- doi: 10.18653/v1/N18-1150
+  unstructured: 'Celikyilmaz, A., Bosselut, A., He, X., Choi, Y.: Deep communicating
+    agents for abstractive summarization (2018). arXiv preprint arXiv:1803.10357'
+- unstructured: 'Das, A., Gervet, T., Romoff, J., Batra, D., Parikh, D., Rabbat, M.,
+    Pineau, J.: TarMAC: targeted multi-agent communication (2018). arXiv preprint
+    arXiv:1810.11187'
+- unstructured: 'Lazaridou, A., Hermann, K.M., Tuyls, K., Clark, S.: Emergence of
+    linguistic communication from referential games with symbolic and pixel input
+    (2018). arXiv preprint arXiv:1804.03984'
+- unstructured: 'Cogswell, M., Lu, J., Lee, S., Parikh, D., Batra, D.: Emergence of
+    compositional language with deep generational transmission (2019). arXiv preprint
+    arXiv:1904.09067'
+- unstructured: 'Allis, L.: Searching for solutions in games and artificial intelligence.
+    Ph.D. thesis, Maastricht University (1994)'
+- unstructured: 'Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification
+    with deep convolutional neural networks. In: Advances in Neural Information Processing
+    Systems, pp. 1097–1105 (2012)'
+- author: D Silver
+  doi: 10.1126/science.aar6404
+  first-page: '1140'
+  issue: '6419'
+  journal-title: Science
+  unstructured: 'Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M.,
+    Guez, A., Lanctot, M., Sifre, L., Kumaran, D., Graepel, T., Lillicrap, T., Simonyan,
+    K., Hassabis, D.: A general reinforcement learning algorithm that masters chess,
+    shogi, and Go through self-play. Science 362(6419), 1140–1144 (2018)'
+  volume: '362'
+  year: '2018'
+- doi: 10.1016/S0004-3702(01)00130-8
+  unstructured: 'Billings, D., Davidson, A., Schaeffer, J., Szafron, D.: The challenge
+    of Poker. Artif. Intell. 134(1–2), 201–240 (2002)'
+- doi: 10.1515/9781400881727-010
+  unstructured: 'Kuhn, H.W.: A simplified two-person Poker. Contrib. Theory Games
+    1, 97–103 (1950)'
+- unstructured: 'Southey, F., Bowling, M., Larson, B., Piccione, C., Burch, N., Billings,
+    D., Rayner, C.: Bayes’ bluff: opponent modelling in Poker. In: Proceedings of
+    the 21st Conference on Uncertainty in Artificial Intelligence, pp. 550–558. AUAI
+    Press (2005)'
+- doi: 10.1126/science.1259433
+  unstructured: 'Bowling, M., Burch, N., Johanson, M., Tammelin, O.: Heads-up limit
+    hold’em Poker is solved. Science 347(6218), 145–149 (2015)'
+- unstructured: 'Heinrich, J., Silver, D.: Smooth UCT search in computer Poker. In:
+    24th International Joint Conference on Artificial Intelligence (2015)'
+- doi: 10.1126/science.aam6960
+  unstructured: 'Moravčík, M., Schmid, M., Burch, N., Lisỳ, V., Morrill, D., Bard,
+    N., Davis, T., Waugh, K., Johanson, M., Bowling, M.: Deepstack: expert-level artificial
+    intelligence in heads-up no-limit Poker. Science 356(6337), 508–513 (2017)'
+- doi: 10.1126/science.aao1733
+  unstructured: 'Brown, N., Sandholm, T.: Superhuman AI for heads-up no-limit Poker:
+    Libratus beats top professionals. Science 359(6374), 418–424 (2018)'
+- doi: 10.1609/aaai.v28i1.8810
+  unstructured: 'Burch, N., Johanson, M., Bowling, M.: Solving imperfect information
+    games using decomposition. In: 28th AAAI Conference on Artificial Intelligence
+    (2014)'
+- doi: 10.1609/aaai.v30i1.10033
+  unstructured: 'Moravcik, M., Schmid, M., Ha, K., Hladik, M., Gaukrodger, S.J.: Refining
+    subgames in large imperfect information games. In: 30th AAAI Conference on Artificial
+    Intelligence (2016)'
+- unstructured: 'Brown, N., Sandholm, T.: Safe and nested subgame solving for imperfect-information
+    games. In: Advances in Neural Information Processing Systems, pp. 689–699 (2017)'
+- unstructured: 'Vinyals, O., Ewalds, T., Bartunov, S., Georgiev, P., Vezhnevets,
+    A.S., Yeo, M., Makhzani, A., Küttler, H., Agapiou, J., Schrittwieser, J., et al.:
+    Starcraft II: a new challenge for reinforcement learning (2017). arXiv preprint
+    arXiv:1708.04782'
+- unstructured: 'Vinyals, O., Babuschkin, I., Czarnecki, W.M., Mathieu, M., Dudzik,
+    A., Chung, J., Choi, D.H., Powell, R., Ewalds, T., Georgiev, P., et al.: Grandmaster
+    level in Starcraft II using multi-agent reinforcement learning. Nature 1–5 (2019)'
+- unstructured: 'Mnih, V., Badia, A.P., Mirza, M., Graves, A., Lillicrap, T., Harley,
+    T., Silver, D., Kavukcuoglu, K.: Asynchronous methods for deep reinforcement learning.
+    In: International Conference on Machine Learning, pp. 1928–1937 (2016)'
+- unstructured: 'Lerer, A., Peysakhovich, A.: Maintaining cooperation in complex social
+    dilemmas using deep reinforcement learning (2017). arXiv preprint arXiv:1707.01068'
+- unstructured: 'Hughes, E., Leibo, J.Z., Phillips, M., Tuyls, K., Dueñez-Guzman,
+    E., Castañeda, A.G., Dunning, I., Zhu, T., McKee, K., Koster, R., et al.: Inequity
+    aversion improves cooperation in intertemporal social dilemmas. In: Advances in
+    Neural Information Processing Systems, pp. 3326–3336 (2018)'
+- unstructured: 'Cai, Q., Yang, Z., Lee, J.D., Wang, Z.: Neural temporal-difference
+    learning converges to global optima (2019). arXiv preprint arXiv:1905.10027'
+- unstructured: 'Arora, S., Cohen, N., Hazan, E.: On the optimization of deep networks:
+    implicit acceleration by overparameterization (2018). arXiv preprint arXiv:1802.06509'
+- unstructured: 'Li, Y., Liang, Y.: Learning overparameterized neural networks via
+    stochastic gradient descent on structured data. In: Advances in Neural Information
+    Processing Systems, pp. 8157–8166 (2018)'
+- author: RI Brafman
+  doi: 10.1016/S0004-3702(00)00039-4
+  first-page: '31'
+  issue: 1–2
+  journal-title: Artif. Intell.
+  unstructured: 'Brafman, R.I., Tennenholtz, M.: A near-optimal polynomial time algorithm
+    for learning in certain classes of stochastic games. Artif. Intell. 121(1–2),
+    31–47 (2000)'
+  volume: '121'
+  year: '2000'
+- unstructured: 'Brafman, R.I., Tennenholtz, M.: R-max-a general polynomial time algorithm
+    for near-optimal reinforcement learning. J. Mach. Learn. Res. 3, 213–231 (2002)'
+- unstructured: 'Tu, S., Recht, B.: The gap between model-based and model-free methods
+    on the linear quadratic regulator: an asymptotic viewpoint (2018). arXiv preprint
+    arXiv:1812.03565'
+- unstructured: 'Sun, W., Jiang, N., Krishnamurthy, A., Agarwal, A., Langford, J.:
+    Model-based RL in contextual decision processes: PAC bounds and exponential improvements
+    over model-free approaches. In: Conference on Learning Theory, pp. 2898–2933 (2019)'
+- unstructured: 'Lin, Q., Liu, M., Rafique, H., Yang, T.: Solving weakly-convex-weakly-concave
+    saddle-point problems as weakly-monotone variational inequality (2018). arXiv
+    preprint arXiv:1810.10207'
+- author: J García
+  first-page: '1437'
+  issue: '1'
+  journal-title: J. Mach. Learn. Res.
+  unstructured: 'García, J., Fernández, F.: A comprehensive survey on safe reinforcement
+    learning. J. Mach. Learn. Res. 16(1), 1437–1480 (2015)'
+  volume: '16'
+  year: '2015'
+- doi: 10.1145/3154503
+  unstructured: 'Chen, Y., Su, L., Xu, J.: Distributed statistical machine learning
+    in adversarial settings: Byzantine gradient descent. Proc. ACM Meas. Anal. Comput.
+    Syst. 1(2), 44 (2017)'
+- unstructured: 'Yin, D., Chen, Y., Ramchandran, K., Bartlett, P.: Byzantine-robust
+    distributed learning: towards optimal statistical rates (2018). arXiv preprint
+    arXiv:1803.01498'
+doi: 10.1007/978-3-030-60990-0_12
+files:
+- zhang-kaiqing-and-yang-zhuoran-and-basar-tamermulti-agent-reinforcement-learning-a-selective-overview-of-theories-and-algorithms2021.pdf
+isbn:
+- '9783030609894'
+- '9783030609900'
+journal: Handbook of Reinforcement Learning and Control
+month: 6
+pages: 321--384
+publisher: Springer International Publishing
+ref: MultiAgentReiZhang2021
+time-added: 2023-04-05-18:39:18
+title: 'Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms'
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-030-60990-0_12
+year: 2021

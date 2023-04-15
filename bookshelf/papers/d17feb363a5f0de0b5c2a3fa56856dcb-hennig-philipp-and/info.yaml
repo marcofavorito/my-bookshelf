@@ -1,0 +1,40 @@
+abstract: 'We deliver a call to arms for probabilistic numerical methods: algorithms
+  for numerical tasks, including linear algebra, integration, optimization and solving
+  differential equations, that return uncertainties in their calculations. Such uncertainties,
+  arising from the loss of precision induced by numerical calculation with limited
+  time or hardware, are important for much contemporary science and industry. Within
+  applications such as climate science and astrophysics, the need to make decisions
+  on the basis of computations with large and complex data has led to a renewed focus
+  on the management of numerical uncertainty. We describe how several seminal classic
+  numerical methods can be interpreted naturally as probabilistic inference. We then
+  show that the probabilistic view suggests new algorithms that can flexibly be adapted
+  to suit application specifics, while delivering improved empirical performance.
+  We provide concrete illustrations of the benefits of probabilistic numeric algorithms
+  on real scientific problems from astrometry and astronomical imaging, while highlighting
+  open problems with these new algorithms. Finally, we describe how probabilistic
+  numerical methods provide a coherent framework for identifying the uncertainty in
+  calculations performed with a combination of numerical algorithms (e.g. both numerical
+  optimisers and differential equation solvers), potentially allowing the diagnosis
+  (and control) of error sources in computations.'
+archiveprefix: arXiv
+author: Hennig, Philipp and Osborne, Michael A and Girolami, Mark
+author_list:
+- family: Hennig
+  given: Philipp
+- family: Osborne
+  given: Michael A
+- family: Girolami
+  given: Mark
+doi: 10.1098/rspa.2015.0142
+eprint: 1506.01326v1
+file: 1506.01326v1.pdf
+files:
+- hennig-philipp-and-osborne-michael-a-and-girolami-markprobabilistic-numerics-and-uncertainty-in-computations2015.pdf
+month: Jun
+primaryclass: math.NA
+ref: 1506.01326v1
+time-added: 2023-04-02-17:32:34
+title: Probabilistic Numerics and Uncertainty in Computations
+type: article
+url: http://arxiv.org/abs/1506.01326v1
+year: '2015'

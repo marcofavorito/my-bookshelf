@@ -1,0 +1,35 @@
+abstract: We propose the $\textit{Quantization Model}$ of neural scaling laws, explaining
+  both the observed power law dropoff of loss with model and data size, and also the
+  sudden emergence of new capabilities with scale. We derive this model from what
+  we call the $\textit{Quantization Hypothesis}$, where learned network capabilities
+  are quantized into discrete chunks ($\textit{quanta}$). We show that when quanta
+  are learned in order of decreasing use frequency, then a power law in use frequencies
+  explains observed power law scaling of loss. We validate this prediction on toy
+  datasets, then study how scaling curves decompose for large language models. Using
+  language model internals, we auto-discover diverse model capabilities (quanta) and
+  find tentative evidence that the distribution over corresponding subproblems in
+  the prediction of natural text is compatible with the power law predicted from the
+  neural scaling exponent as predicted from our theory.
+archiveprefix: arXiv
+author: Michaud, Eric J. and Liu, Ziming and Girit, Uzay and Tegmark, Max
+author_list:
+- family: Michaud
+  given: Eric J.
+- family: Liu
+  given: Ziming
+- family: Girit
+  given: Uzay
+- family: Tegmark
+  given: Max
+eprint: 2303.13506v1
+file: 2303.13506v1.pdf
+files:
+- michaud-eric-j.-and-liu-ziming-and-girit-uzay-and-tegmark-maxthe-quantization-model-of-neural-scaling2023.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 2303.13506v1
+time-added: 2023-04-04-18:18:16
+title: The Quantization Model of Neural Scaling
+type: article
+url: http://arxiv.org/abs/2303.13506v1
+year: '2023'

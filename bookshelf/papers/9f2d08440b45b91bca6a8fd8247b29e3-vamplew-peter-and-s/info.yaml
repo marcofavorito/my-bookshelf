@@ -1,0 +1,545 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>The recent paper “Reward is Enough”
+  by Silver, Singh, Precup and Sutton posits that the concept of reward maximisation
+  is sufficient to underpin all intelligence, both natural and artificial, and provides
+  a suitable basis for the creation of artificial general intelligence. We contest
+  the underlying assumption of Silver et al. that such reward can be scalar-valued.
+  In this paper we explain why scalar rewards are insufficient to account for some
+  aspects of both biological and computational intelligence, and argue in favour of
+  explicitly multi-objective models of reward maximisation. Furthermore, we contend
+  that even if scalar reward functions can trigger intelligent behaviour in specific
+  cases, this type of reward is insufficient for the development of human-aligned
+  artificial general intelligence due to unacceptable risks of unsafe or unethical
+  behaviour.</jats:p>
+author: Vamplew, Peter and Smith, Benjamin J. and Källström, Johan and Ramos, Gabriel
+  and Rădulescu, Roxana and Roijers, Diederik M. and Hayes, Conor F. and Heintz, Fredrik
+  and Mannion, Patrick and Libin, Pieter J. K. and Dazeley, Richard and Foale, Cameron
+author_list:
+- affiliation: []
+  family: Vamplew
+  given: Peter
+- affiliation: []
+  family: Smith
+  given: Benjamin J.
+- affiliation: []
+  family: Källström
+  given: Johan
+- affiliation: []
+  family: Ramos
+  given: Gabriel
+- affiliation: []
+  family: Rădulescu
+  given: Roxana
+- affiliation: []
+  family: Roijers
+  given: Diederik M.
+- affiliation: []
+  family: Hayes
+  given: Conor F.
+- affiliation: []
+  family: Heintz
+  given: Fredrik
+- affiliation: []
+  family: Mannion
+  given: Patrick
+- affiliation: []
+  family: Libin
+  given: Pieter J. K.
+- affiliation: []
+  family: Dazeley
+  given: Richard
+- affiliation: []
+  family: Foale
+  given: Cameron
+citations:
+- unstructured: Abdolmaleki, A., Huang, S., Hasenclever, L., Neunert, M., Song, F.,
+    Zambelli, M., Martins, M., Heess, N., Hadsell, R., & Riedmiller, M. (2020). A
+    distributional view on multi-objective policy optimization. In International Conference
+    on Machine Learning (pp. 11–22). PMLR.
+- unstructured: Abdolmaleki, A., Huang, S. H., Vezzani, G., Shahriari, B., Springenberg,
+    J. T., Mishra, S., TB, D., Byravan, A., Bousmalis, K., Gyorgy, A., et al. (2021).
+    On multi-objective policy optimization as a tool for reinforcement learning. arXiv
+    preprint arXiv:2106.08199.
+- unstructured: Abels, A., Roijers, D., Lenaerts, T., Nowé, A., & Steckelmacher, D.
+    (2019). Dynamic weights in multi-objective deep reinforcement learning. In International
+    Conference on Machine Learning (pp. 11–20). PMLR.
+- unstructured: Alegre, L. N., Bazzan, A. L., & da Silva, B. C. (2022). Optimistic
+    linear support and successor features as a basis for optimal policy transfer.
+    arXiv preprint arXiv:2206.11326.
+- author: GE Alexander
+  doi: 10.1146/annurev.ne.09.030186.002041
+  first-page: '357'
+  issue: '1'
+  journal-title: Annual Review of Neuroscience
+  unstructured: Alexander, G. E., DeLong, M. R., & Strick, P. L. (1986). Parallel
+    organization of functionally segregated circuits linking basal ganglia and cortex.
+    Annual Review of Neuroscience, 9(1), 357–381.
+  volume: '9'
+  year: '1986'
+- author: M Alfonseca
+  doi: 10.1613/jair.1.12202
+  first-page: '65'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: 'Alfonseca, M., Cebrian, M., Anta, A. F., Coviello, L., Abeliuk, A.,
+    & Rahwan, I. (2021). Superintelligence cannot be contained: Lessons from computability
+    theory. Journal of Artificial Intelligence Research, 70, 65–76.'
+  volume: '70'
+  year: '2021'
+- unstructured: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J.,
+    & Mané, D. (2016). Concrete problems in ai safety. arXiv preprint arXiv:1606.06565.
+    https://arxiv.org/pdf/1606.06565.pdf.
+- unstructured: Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt,
+    H. P., & Silver, D. (2017). Successor features for transfer in reinforcement learning.
+    In Advances in neural information processing systems (pp. 4055–4065).
+- doi: 10.1007/978-3-642-32375-1_2
+  unstructured: Barto, A. G. (2013). Intrinsic motivation and reinforcement learning.
+    In Intrinsically motivated learning in natural and artificial systems (pp. 17–47).
+    Springer.
+- unstructured: Bostrom, N. (2003). Ethical issues in advanced artificial intelligence.
+    Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial
+    Intelligence, pp. 12–17.
+- unstructured: 'Bostrom, N. (2014). Superintelligence: Paths, dangers, strategies.'
+- author: D Bourget
+  doi: 10.1007/s11098-013-0259-7
+  first-page: '465'
+  issue: '3'
+  journal-title: Philosophical Studies
+  unstructured: Bourget, D., & Chalmers, D. J. (2014). What do philosophers believe?
+    Philosophical Studies, 170(3), 465–500.
+  volume: '170'
+  year: '2014'
+- author: T Brys
+  doi: 10.1016/j.neucom.2017.02.096
+  first-page: '48'
+  journal-title: Neurocomputing
+  unstructured: Brys, T., Harutyunyan, A., Vrancx, P., Nowé, A., & Taylor, M. E. (2017).
+    Multi-objectivization and ensembles of shapings in reinforcement learning. Neurocomputing,
+    263, 48–59.
+  volume: '263'
+  year: '2017'
+- doi: 10.1109/ICMLA.2013.52
+  unstructured: Brys, T., Van Moffaert, K., Van Vaerenbergh, K., & Nowé, A. (2013).
+    On the behaviour of scalarization methods for the engagement of a wet clutch.
+    In 2013 12th International Conference on Machine Learning and Applications (Vol. 1,
+    pp. 258–263). IEEE.
+- unstructured: Byrnes, S. (2021). Big picture of phasic dopamine. Alignment Forum.
+    https://www.alignmentforum.org/posts/jrewt3rLFiKWrKuyZ/big-picture-of-phasic-dopamine.
+- author: AW Cappelen
+  doi: 10.1073/pnas.1414602111
+  first-page: '15368'
+  issue: '43'
+  journal-title: Proceedings of the National Academy of Sciences
+  unstructured: 'Cappelen, A. W., Eichele, T., Hugdahl, K., Specht, K., Sørensen,
+    E. Ø., & Tungodden, B. (2014). Equity theory and fair inequality: A neuroeconomic
+    study. Proceedings of the National Academy of Sciences, 111(43), 15368–15372.
+    https://doi.org/10.1073/pnas.1414602111.'
+  volume: '111'
+  year: '2014'
+- doi: 10.7208/chicago/9780226218526.001.0001
+  unstructured: 'Cheney, D. L., & Seyfarth, R. M. (1990). How Monkeys See The World:
+    Inside the mind of another species. University of Chicago Press.'
+- unstructured: 'Clemen, R. T. (1996). Making hard decisions: an introduction to decision
+    analysis. Brooks/Cole Publishing Company.'
+- doi: 10.1142/5712
+  unstructured: Coello, C. A. C., & Lamont, G. B. (2004). Applications of multi-objective
+    evolutionary algorithms (Vol. 1). World Scientific.
+- unstructured: Coello, C. A. C., Lamont, G. B., Van Veldhuizen, D. A., et al. (2007).
+    Evolutionary algorithms for solving multi-objective problems (Vol. 5). Springer.
+- author: D Coyle
+  doi: 10.1126/science.aba9647
+  first-page: '1433'
+  issue: '6498'
+  journal-title: Science
+  unstructured: Coyle, D., & Weller, A. (2020). “Explaining’’ machine learning reveals
+    policy challenges. Science, 368(6498), 1433–1434.
+  volume: '368'
+  year: '2020'
+- doi: 10.1007/978-3-030-35288-2_6
+  unstructured: Cruz, F., Dazeley, R., & Vamplew, P. (2019). Memory-based explainable
+    reinforcement learning. In Australasian joint conference on artificial intelligence
+    (pp. 66–77). Springer.
+- unstructured: 'Das, A., Gervet, T., Romoff, J., Batra, D., Parikh, D., Rabbat, M.,
+    & Pineau, J. (2019). Tarmac: Targeted multi-agent communication. In: International
+    Conference on machine learning (pp. 1538–1546). PMLR.'
+- author: I Das
+  doi: 10.1007/BF01197559
+  first-page: '63'
+  issue: '1'
+  journal-title: Structural optimization
+  unstructured: Das, I., & Dennis, J. E. (1997). A closer look at drawbacks of minimizing
+    weighted sums of objectives for pareto set generation in multicriteria optimization
+    problems. Structural optimization, 14(1), 63–69.
+  volume: '14'
+  year: '1997'
+- unstructured: 'Dazeley, R., Vamplew, P., & Cruz, F. (2021). Explainable reinforcement
+    learning for broad-xai: a conceptual framework and survey. arXiv preprint arXiv:2108.09003.'
+- author: R Dazeley
+  doi: 10.1016/j.artint.2021.103525
+  first-page: '103525'
+  journal-title: Artificial Intelligence
+  unstructured: Dazeley, R., Vamplew, P., Foale, C., Young, C., Aryal, S., & Cruz,
+    F. (2021). Levels of explainable artificial intelligence for human-aligned conversational
+    explanations. Artificial Intelligence, 299, 103525.
+  volume: '299'
+  year: '2021'
+- doi: 10.1007/978-1-4614-6940-7_15
+  unstructured: Deb, K. (2014). Multi-objective optimization. In Search methodologies
+    (pp. 403–449). Springer.
+- doi: 10.1007/978-3-642-48773-6_3
+  unstructured: Debreu, G. (1997) On the preferences characterization of additively
+    separable utility. In Constructing Scalar-Valued Objective Functions (pp. 25–38).
+    Springer.
+- doi: 10.1016/B978-008045046-9.00855-X
+  unstructured: 'Delgado, M., & Rigney, A. (2009). Reward systems: Human. Encyclopedia
+    of Neuroscience, 8, 345–352.'
+- author: DC Dennett
+  doi: 10.1017/S0140525X00016393
+  first-page: '343'
+  issue: '3'
+  journal-title: Behavioral and Brain Sciences
+  unstructured: 'Dennett, D. C. (1983). Intentional systems in cognitive ethology:
+    The “panglossian paradigm’’ defended. Behavioral and Brain Sciences, 6(3), 343–355.'
+  volume: '6'
+  year: '1983'
+- unstructured: Dewey, D. (2014). Reinforcement learning and the reward engineering
+    principle. In 2014 AAAI Spring Symposium Series.
+- author: S Elfwing
+  doi: 10.1177/1059712308092835
+  first-page: '400'
+  issue: '6'
+  journal-title: Adaptive Behavior
+  unstructured: Elfwing, S., Uchibe, E., Doya, K., & Christensen, H. I. (2008). Co-evolution
+    of shaping rewards and meta-parameters in reinforcement learning. Adaptive Behavior,
+    16(6), 400–412.
+  volume: '16'
+  year: '2008'
+- doi: 10.24963/ijcai.2018/768
+  unstructured: Everitt, T., Lea, G., & Hutter, M. (2018). AGI safety literature review.
+    arXiv preprint arXiv:1805.01109.
+- author: DS Fleischman
+  doi: 10.3402/snp.v6.32130
+  first-page: '32130'
+  issue: '1'
+  journal-title: Socioaffective neuroscience and psychology
+  unstructured: Fleischman, D. S. (2016). An evolutionary behaviorist perspective
+    on orgasm. Socioaffective neuroscience and psychology, 6(1), 32130.
+  volume: '6'
+  year: '2016'
+- doi: 10.1007/BF00484902
+  unstructured: Frankfurt, H. (1982). The importance of what we care about. Synthese,
+    pp. 257–272.
+- doi: 10.1016/B978-0-12-407236-7.00002-4
+  unstructured: 'Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S.
+    P., & Ditto, P. H. (2013). Moral foundations theory: The pragmatic validity of
+    moral pluralism. In Advances in experimental social psychology (Vol. 47, pp. 55–130).
+    Elsevier.'
+- unstructured: 'Griffin, D. R. (1976). The Question Of Animal Awareness: Evolutionary
+    Continuity Of Mental Experience. Rockefeller University Press.'
+- author: J Haidt
+  doi: 10.1037/0033-295X.108.4.814
+  first-page: '814'
+  issue: '4'
+  journal-title: Psychological Review
+  unstructured: 'Haidt, J. (2001). The emotional dog and its rational tail: A social
+    intuitionist approach to moral judgment. Psychological Review, 108(4), 814.'
+  volume: '108'
+  year: '2001'
+- unstructured: 'Harari, Y. N. (2014). Sapiens: A brief history of humankind. Random
+    House.'
+- unstructured: 'Havrylov, S., & Titov, I. (2017). Emergence of language with multi-agent
+    games: Learning to communicate with sequences of symbols. In 31st Conference on
+    Neural Information Processing Systems.'
+- doi: 10.1007/s10458-022-09552-y
+  unstructured: 'Hayes, C.F., Rădulescu, R., Bargiacchi, E., Källström, J., Macfarlane,
+    M., Reymond, M., Verstraeten, T., Zintgraf, L.M., Dazeley, R., Heintz, F., Howley,
+    E., Irissappane, A.A., Mannion, P., Nowé, A., Ramos, G., Restelli, M., Vamplew,
+    P., Roijers, D.M.: A practical guide to multi-objective reinforcement learning
+    and planning. Autonomous Agents and Multi-Agent Systems 36 (2022)'
+- doi: 10.2307/j.ctvc77f0d
+  unstructured: Henrich, J. (2015). The secret of our success. Princeton University
+    Press.
+- author: B Hibbard
+  first-page: '473'
+  journal-title: Frontiers in Artificial Intelligence and Applications
+  unstructured: Hibbard, B. (2008). Open source AI. Frontiers in Artificial Intelligence
+    and Applications, 171, 473.
+  volume: '171'
+  year: '2008'
+- doi: 10.1007/978-3-319-67504-6_14
+  unstructured: Igarashi, A., & Roijers, D. M. (2017). Multi-criteria coalition formation
+    games. In International Conference on Algorithmic DecisionTheory (pp. 197–213).
+    Springer.
+- author: S Ikemoto
+  doi: 10.1016/S0165-0173(99)00023-5
+  first-page: '6'
+  issue: '1'
+  journal-title: Brain Research Reviews
+  unstructured: 'Ikemoto, S., & Panksepp, J. (1999). The role of nucleus accumbens
+    dopamine in motivated behavior: a unifying interpretation with special reference
+    to reward-seeking. Brain Research Reviews, 31(1), 6–41.'
+  volume: '31'
+  year: '1999'
+- author: TG Karimpanal
+  doi: 10.1016/j.neucom.2017.04.074
+  first-page: '39'
+  journal-title: Neurocomputing
+  unstructured: Karimpanal, T. G., & Wilhelm, E. (2017). Identification and off-policy
+    learning of multiple objectives using adaptive clustering. Neurocomputing, 263,
+    39–47.
+  volume: '263'
+  year: '2017'
+- unstructured: Kilcher, Y. (2021). Reward is enough (machine learning research paper
+    explained). https://www.youtube.com/watch?v=dmH1ZpcROMk &t=24s.
+- unstructured: Krakovna, V., Orseau, L., Ngo, R., Martic, M., & Legg, S. (2020).
+    Avoiding side effects by considering future tasks. arXiv preprint arXiv:2010.07877.
+- unstructured: Kurniawan, B. (2021). Single- and multiobjective reinforcement learning
+    in dynamic adversarial games. Ph.D. thesis, Federation University Australia.
+- unstructured: Leike, J., Martic, M., Krakovna, V., Ortega, P.A., Everitt, T., Lefrancq,
+    A., Orseau, L., & Legg, S. (2017). AI safety gridworlds. arXiv preprint arXiv:1711.09883.
+- author: DJ Levy
+  doi: 10.1016/j.conb.2012.06.001
+  first-page: '1027'
+  issue: '6'
+  journal-title: Current Opinion in Neurobiology
+  unstructured: 'Levy, D. J., & Glimcher, P. W. (2012). The root of all value: A neural
+    common currency for choice. Current Opinion in Neurobiology, 22(6), 1027–1038.'
+  volume: '22'
+  year: '2012'
+- author: TM Love
+  doi: 10.1016/j.pbb.2013.06.011
+  first-page: '49'
+  journal-title: Pharmacology, Biochemistry and Behavior
+  unstructured: Love, T. M. (2014). Oxytocin, motivation and the role of dopamine.
+    Pharmacology, Biochemistry and Behavior, 119, 49–60.
+  volume: '119'
+  year: '2014'
+- author: M Macedo-Lima
+  doi: 10.1093/icb/icab019
+  first-page: '316'
+  issue: '1'
+  journal-title: Integrative and Comparative Biology
+  unstructured: Macedo-Lima, M., & Remage-Healey, L. (2021). Dopamine modulation of
+    motor and sensory cortical plasticity among vertebrates. Integrative and Comparative
+    Biology, 61(1), 316–336.
+  volume: '61'
+  year: '2021'
+- author: JA Mollick
+  doi: 10.1037/rev0000199
+  first-page: '972'
+  issue: '6'
+  journal-title: Psychological Review
+  unstructured: Mollick, J. A., Hazy, T. E., Krueger, K. A., Nair, A., Mackie, P.,
+    Herd, S. A., & O’Reilly, R. C. (2020). A systems-neuroscience model of phasic
+    dopamine. Psychological Review, 127(6), 972.
+  volume: '127'
+  year: '2020'
+- author: Y Oka
+  doi: 10.1038/nature11905
+  first-page: '472'
+  issue: '7438'
+  journal-title: Nature
+  unstructured: Oka, Y., Butnaru, M., von Buchholtz, L., Ryba, N. J., & Zuker, C.
+    S. (2013). High salt recruits aversive taste pathways. Nature, 494(7438), 472–475.
+  volume: '494'
+  year: '2013'
+- unstructured: Omohundro, S. M. (2008). The basic AI drives. In AGI (Vol. 171, pp.
+    483–492).
+- author: PY Oudeyer
+  first-page: '6'
+  journal-title: Frontiers in Neurorobotics
+  unstructured: Oudeyer, P. Y., & Kaplan, F. (2009). What is intrinsic motivation?
+    A typology of computational approaches. Frontiers in Neurorobotics, 1, 6.
+  volume: '1'
+  year: '2009'
+- unstructured: Ouellette, S. (2021). Reward is enough – but not efficient. https://www.linkedin.com/pulse/reward-enough-efficient-simon-ouellette/.
+- author: A Perret
+  doi: 10.1007/s10071-015-0834-8
+  first-page: '657'
+  issue: '3'
+  journal-title: Animal Cognition
+  unstructured: Perret, A., Henry, L., Coulon, M., Caudal, J. P., Richard, J. P.,
+    Cousillas, H., et al. (2015). Social visual contact, a primary “drive’’ for social
+    animals? Animal Cognition, 18(3), 657–666.
+  volume: '18'
+  year: '2015'
+- author: R Rădulescu
+  doi: 10.1007/s10458-019-09433-x
+  first-page: '1'
+  issue: '1'
+  journal-title: Autonomous Agents and Multi-Agent Systems
+  unstructured: 'Rădulescu, R., Mannion, P., Roijers, D. M., & Nowé, A. (2020). Multi-objective
+    multi-agent decision making: A utility-based analysis and survey. Autonomous Agents
+    and Multi-Agent Systems, 34(1), 1–52.'
+  volume: '34'
+  year: '2020'
+- doi: 10.1017/S0269888920000351
+  unstructured: Rădulescu, R., Mannion, P., Zhang, Y., Roijers, D. M., & Nowé, A.
+    (2020). A utility-based analysis of equilibria in multi-objective normal-form
+    games. The Knowledge Engineering Review,35.
+- author: DM Roijers
+  doi: 10.1613/jair.3987
+  first-page: '67'
+  journal-title: Journal of Artificial Intelligence Research
+  unstructured: Roijers, D. M., Vamplew, P., Whiteson, S., & Dazeley, R. (2013). A
+    survey of multi-objective sequential decision-making. Journal of Artificial Intelligence
+    Research, 48, 67–113.
+  volume: '48'
+  year: '2013'
+- author: DM Roijers
+  doi: 10.1007/978-3-031-01576-2
+  first-page: '1'
+  issue: '1'
+  journal-title: Synthesis lectures on artificial intelligence and machine learning
+  unstructured: Roijers, D. M., & Whiteson, S. (2017). Multi-objective decision making.
+    Synthesis lectures on artificial intelligence and machine learning, 11(1), 1–129.
+  volume: '11'
+  year: '2017'
+- unstructured: 'Roitblat, H. (2021). Building artificial intelligence: Reward is
+    not enough. https://bdtechtalks.com/2021/07/07/ai-reward-is-not-enough-herbert-roitblat/.'
+- author: S Rudorf
+  doi: 10.1523/JNEUROSCI.3192-14.2014
+  first-page: '15988'
+  issue: '48'
+  journal-title: Journal of Neuroscience
+  unstructured: Rudorf, S., & Hare, T. A. (2014). Interactions between dorsolateral
+    and ventromedial prefrontal cortex underlie context-dependent stimulus valuation
+    in goal-directed choice. Journal of Neuroscience, 34(48), 15988–15996.
+  volume: '34'
+  year: '2014'
+- unstructured: Schaul, T., Horgan, D., Gregor, K., & Silver, D. (2015). Universal
+    value function approximators. In International conference on machine learning
+    (pp. 1312–1320).
+- author: W Schultz
+  doi: 10.1126/science.275.5306.1593
+  first-page: '1593'
+  issue: '5306'
+  journal-title: Science
+  unstructured: Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate
+    of prediction and reward. Science, 275(5306), 1593–1599.
+  volume: '275'
+  year: '1997'
+- author: SH Schwartz
+  doi: 10.1016/S0092-6566(03)00069-2
+  first-page: '230'
+  issue: '3'
+  journal-title: Journal of Research in Personality
+  unstructured: Schwartz, S. H., & Boehnke, K. (2004). Evaluating the structure of
+    human values with confirmatory factor analysis. Journal of Research in Personality,
+    38(3), 230–255. https://doi.org/10.1016/S0092-6566(03)00069-2.
+  volume: '38'
+  year: '2004'
+- unstructured: Shead, S. (2021). Computer scientists are questioning whether Alphabet’s
+    DeepMind will ever make A.I. more human-like. https://www.cnbc.com/2021/06/18/computer-scientists-ask-if-deepmind-can-ever-make-ai-human-like.html.
+- doi: 10.1016/j.artint.2021.103535
+  unstructured: Silver, D., Singh, S., Precup, D., & Sutton, R. S. (2021). Reward
+    is enough. Artificial Intelligence, pp. 103535.
+- author: S Singh
+  doi: 10.1109/TAMD.2010.2051031
+  first-page: '70'
+  issue: '2'
+  journal-title: IEEE Transactions on Autonomous Mental Development
+  unstructured: 'Singh, S., Lewis, R. L., Barto, A. G., & Sorg, J. (2010). Intrinsically
+    motivated reinforcement learning: An evolutionary perspective. IEEE Transactions
+    on Autonomous Mental Development, 2(2), 70–82.'
+  volume: '2'
+  year: '2010'
+- unstructured: Smith, B. J., & Read, S. J. (forthcoming). Modeling incentive salience
+    in pavlovian learning more parsimoniously using a multiple attribute model. Cognitive
+    Affective Behavioral Neuroscience.
+- unstructured: 'Taylor, J. (2016). Quantilizers: A safer alternative to maximizers
+    for limited optimization. In: AAAI Workshop: AI, Ethics, and Society.'
+- author: JM Thomas
+  doi: 10.3945/ajcn.114.097543
+  first-page: '697'
+  issue: '4'
+  journal-title: The American Journal of Clinical Nutrition
+  unstructured: 'Thomas, J. M., Higgs, S., Dourish, C. T., Hansen, P. C., Harmer,
+    C. J., & McCabe, C. (2015). Satiation attenuates bold activity in brain regions
+    involved in reward and increases activity in dorsolateral prefrontal cortex: an
+    fmri study in healthy volunteers. The American Journal of Clinical Nutrition,
+    101(4), 697–704.'
+  volume: '101'
+  year: '2015'
+- doi: 10.1007/978-1-4757-3157-6_2
+  unstructured: 'Triantaphyllou, E. (2000). Multi-criteria decision making methods.
+    In Multi-criteria decision making methods: A comparative study (pp. 5–21). Springer.'
+- author: E Uchibe
+  doi: 10.1016/j.neunet.2008.09.013
+  first-page: '1447'
+  issue: '10'
+  journal-title: Neural Networks
+  unstructured: Uchibe, E., & Doya, K. (2008). Finding intrinsic rewards by embodied
+    evolution and constrained reinforcement learning. Neural Networks, 21(10), 1447–1455.
+  volume: '21'
+  year: '2008'
+- author: P Vamplew
+  doi: 10.1007/s10676-017-9440-6
+  first-page: '27'
+  issue: '1'
+  journal-title: Ethics and Information Technology
+  unstructured: Vamplew, P., Dazeley, R., Foale, C., Firmin, S., & Mummery, J. (2018).
+    Human-aligned artificial intelligence is a multiobjective problem. Ethics and
+    Information Technology, 20(1), 27–40.
+  volume: '20'
+  year: '2018'
+- author: P Vamplew
+  doi: 10.1016/j.neucom.2016.08.152
+  first-page: '26'
+  journal-title: Neurocomputing
+  unstructured: Vamplew, P., Issabekov, R., Dazeley, R., Foale, C., Berry, A., Moore,
+    T., & Creighton, D. (2017). Steering approaches to pareto-optimal multiobjective
+    reinforcement learning. Neurocomputing, 263, 26–38.
+  volume: '263'
+  year: '2017'
+- doi: 10.1007/978-3-540-89378-3_37
+  unstructured: Vamplew, P., Yearwood, J., Dazeley, R., & Berry, A. (2008). On the
+    limitations of scalarisation for multi-objective reinforcement learning of pareto
+    fronts. In Australasian joint conference on artificial intelligence (pp. 372–378).
+    Springer.
+- author: M Velasquez
+  first-page: '56'
+  issue: '2'
+  journal-title: International Journal of Operations Research
+  unstructured: Velasquez, M., & Hester, P. T. (2013). An analysis of multi-criteria
+    decision making methods. International Journal of Operations Research, 10(2),
+    56–66.
+  volume: '10'
+  year: '2013'
+- author: J Weng
+  doi: 10.1016/j.neunet.2012.11.008
+  first-page: '225'
+  journal-title: Neural Networks
+  unstructured: 'Weng, J., Paslaski, S., Daly, J., VanDam, C., & Brown, J. (2013).
+    Modulation for emergent networks: Serotonin and dopamine. Neural Networks, 41,
+    225–239.'
+  volume: '41'
+  year: '2013'
+- author: G Wolf
+  doi: 10.1037/0735-7044.98.4.661
+  first-page: '661'
+  issue: '4'
+  journal-title: Behavioral Neuroscience
+  unstructured: Wolf, G., Schulkin, J., & Simson, P. E. (1984). Multiple factors in
+    the satiation of salt appetite. Behavioral Neuroscience, 98(4), 661.
+  volume: '98'
+  year: '1984'
+- doi: 10.1145/3377930.3390220
+  unstructured: Yates, C., Christopher, R., & Tumer, K. (2020). Multi-fitness learning
+    for behavior-driven cooperation. In Proceedings of the 2020 Genetic and Evolutionary
+    Computation Conference (pp. 453–461).
+doc_url: https://link.springer.com/article/10.1007/s10458-022-09575-5/fulltext.html
+doi: 10.1007/s10458-022-09575-5
+files:
+- vamplew-peter-and-smith-benjamin-j.-and-kallstrom-johan-and-ramos-gabriel-and-radulescu-roxana-and-roijers-diederik-m.-and-hayes-conor-f.-and-h.pdf
+issue: '2'
+journal: Autonomous Agents and Multi-Agent Systems
+language: en
+month: 10
+publisher: Springer Science and Business Media LLC
+ref: ScalarRewardIVample2022
+time-added: 2023-04-03-19:48:55
+title: 'Scalar reward is not enough: a response to Silver, Singh, Precup and Sutton
+  (2021)'
+type: article
+url: http://dx.doi.org/10.1007/s10458-022-09575-5
+volume: '36'
+year: 2022

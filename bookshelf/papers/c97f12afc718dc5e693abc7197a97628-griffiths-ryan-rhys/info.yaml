@@ -1,0 +1,41 @@
+abstract: In many areas of the observational and experimental sciences data is scarce.
+  Data observation in high-energy astrophysics is disrupted by celestial occlusions
+  and limited telescope time while data derived from laboratory experiments in synthetic
+  chemistry and materials science is time and cost-intensive to collect. On the other
+  hand, knowledge about the data-generation mechanism is often available in the sciences,
+  such as the measurement error of a piece of laboratory apparatus. Both characteristics,
+  small data and knowledge of the underlying physics, make Gaussian processes (GPs)
+  ideal candidates for fitting such datasets. GPs can make predictions with consideration
+  of uncertainty, for example in the virtual screening of molecules and materials,
+  and can also make inferences about incomplete data such as the latent emission signature
+  from a black hole accretion disc. Furthermore, GPs are currently the workhorse model
+  for Bayesian optimisation, a methodology foreseen to be a guide for laboratory experiments
+  in scientific discovery campaigns. The first contribution of this thesis is to use
+  GP modelling to reason about the latent emission signature from the Seyfert galaxy
+  Markarian 335, and by extension, to reason about the applicability of various theoretical
+  models of black hole accretion discs. The second contribution is to extend the GP
+  framework to molecular and chemical reaction representations and to provide an open-source
+  software library to enable the framework to be used by scientists. The third contribution
+  is to leverage GPs to discover novel and performant photoswitch molecules. The fourth
+  contribution is to introduce a Bayesian optimisation scheme capable of modelling
+  aleatoric uncertainty to facilitate the identification of material compositions
+  that possess intrinsic robustness to large scale fabrication processes.
+archiveprefix: arXiv
+author: Griffiths, Ryan-Rhys
+author_list:
+- family: Griffiths
+  given: Ryan-Rhys
+doi: 10.17863/CAM.93643
+eprint: 2303.14291v1
+file: 2303.14291v1.pdf
+files:
+- griffiths-ryan-rhysapplications-of-gaussian-processes-at-extreme-lengthscales-from-molecules-to-black-holes2023.pdf
+month: Mar
+primaryclass: stat.ML
+ref: 2303.14291v1
+time-added: 2023-04-05-11:38:16
+title: 'Applications of Gaussian Processes at Extreme Lengthscales: From   Molecules
+  to Black Holes'
+type: article
+url: http://arxiv.org/abs/2303.14291v1
+year: '2023'

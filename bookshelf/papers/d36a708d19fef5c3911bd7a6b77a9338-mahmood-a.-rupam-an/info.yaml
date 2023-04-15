@@ -1,0 +1,32 @@
+abstract: Emphatic algorithms are temporal-difference learning algorithms that change
+  their effective state distribution by selectively emphasizing and de-emphasizing
+  their updates on different time steps. Recent works by Sutton, Mahmood and White
+  (2015), and Yu (2015) show that by varying the emphasis in a particular way, these
+  algorithms become stable and convergent under off-policy training with linear function
+  approximation. This paper serves as a unified summary of the available results from
+  both works. In addition, we demonstrate the empirical benefits from the flexibility
+  of emphatic algorithms, including state-dependent discounting, state-dependent bootstrapping,
+  and the user-specified allocation of function approximation resources.
+archiveprefix: arXiv
+author: Mahmood, A. Rupam and Yu, Huizhen and White, Martha and Sutton, Richard S.
+author_list:
+- family: Mahmood
+  given: A. Rupam
+- family: Yu
+  given: Huizhen
+- family: White
+  given: Martha
+- family: Sutton
+  given: Richard S.
+eprint: 1507.01569v1
+file: 1507.01569v1.pdf
+files:
+- mahmood-a.-rupam-and-yu-huizhen-and-white-martha-and-sutton-richard-s.emphatic-temporal-difference-learning2015.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 1507.01569v1
+time-added: 2023-04-05-18:23:26
+title: Emphatic Temporal-Difference Learning
+type: article
+url: http://arxiv.org/abs/1507.01569v1
+year: '2015'

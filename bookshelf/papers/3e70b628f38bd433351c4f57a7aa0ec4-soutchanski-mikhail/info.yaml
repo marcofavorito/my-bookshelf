@@ -1,0 +1,29 @@
+abstract: Planning as theorem proving in situation calculus was abandoned 50 years
+  ago as an impossible project. But we have developed a Theorem Proving Lifted Heuristic
+  (TPLH) planner that searches for a plan in a tree of situations using the A* search
+  algorithm. It is controlled by a delete relaxation-based domain independent heuristic.
+  We compare TPLH with Fast Downward (FD) and Best First Width Search (BFWS) planners
+  over several standard benchmarks. Since our implementation of the heuristic function
+  is not optimized, TPLH is slower than FD and BFWS. But it computes shorter plans,
+  and it explores fewer states. We discuss previous research on planning within KR\&R
+  and identify related directions. Thus, we show that deductive lifted heuristic planning
+  in situation calculus is actually doable.
+archiveprefix: arXiv
+author: Soutchanski, Mikhail and Young, Ryan
+author_list:
+- family: Soutchanski
+  given: Mikhail
+- family: Young
+  given: Ryan
+eprint: 2303.13638v2
+file: 2303.13638v2.pdf
+files:
+- soutchanski-mikhail-and-young-ryanplanning-as-theorem-proving-with-heuristics2023.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2303.13638v2
+time-added: 2023-04-04-11:36:57
+title: Planning as Theorem Proving with Heuristics
+type: article
+url: http://arxiv.org/abs/2303.13638v2
+year: '2023'

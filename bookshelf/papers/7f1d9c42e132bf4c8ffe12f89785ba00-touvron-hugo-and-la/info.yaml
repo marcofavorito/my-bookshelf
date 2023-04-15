@@ -1,0 +1,53 @@
+abstract: We introduce LLaMA, a collection of foundation language models ranging from
+  7B to 65B parameters. We train our models on trillions of tokens, and show that
+  it is possible to train state-of-the-art models using publicly available datasets
+  exclusively, without resorting to proprietary and inaccessible datasets. In particular,
+  LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive
+  with the best models, Chinchilla-70B and PaLM-540B. We release all our models to
+  the research community.
+archiveprefix: arXiv
+author: Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier
+  and Lachaux, Marie-Anne and Lacroix, Timothée and Rozière, Baptiste and Goyal, Naman
+  and Hambro, Eric and Azhar, Faisal and Rodriguez, Aurelien and Joulin, Armand and
+  Grave, Edouard and Lample, Guillaume
+author_list:
+- family: Touvron
+  given: Hugo
+- family: Lavril
+  given: Thibaut
+- family: Izacard
+  given: Gautier
+- family: Martinet
+  given: Xavier
+- family: Lachaux
+  given: Marie-Anne
+- family: Lacroix
+  given: Timothée
+- family: Rozière
+  given: Baptiste
+- family: Goyal
+  given: Naman
+- family: Hambro
+  given: Eric
+- family: Azhar
+  given: Faisal
+- family: Rodriguez
+  given: Aurelien
+- family: Joulin
+  given: Armand
+- family: Grave
+  given: Edouard
+- family: Lample
+  given: Guillaume
+eprint: 2302.13971v1
+file: 2302.13971v1.pdf
+files:
+- touvron-hugo-and-lavril-thibaut-and-izacard-gautier-and-martinet-xavier-and-lachaux-marie-anne-and-lacroix-timothee-and-roziere-baptiste-and-go.pdf
+month: Feb
+primaryclass: cs.CL
+ref: 2302.13971v1
+time-added: 2023-04-04-11:57:48
+title: 'LLaMA: Open and Efficient Foundation Language Models'
+type: article
+url: http://arxiv.org/abs/2302.13971v1
+year: '2023'

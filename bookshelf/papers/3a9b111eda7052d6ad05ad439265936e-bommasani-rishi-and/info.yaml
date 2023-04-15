@@ -1,0 +1,288 @@
+abstract: AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E,
+  GPT-3) that are trained on broad data at scale and are adaptable to a wide range
+  of downstream tasks. We call these models foundation models to underscore their
+  critically central yet incomplete character. This report provides a thorough account
+  of the opportunities and risks of foundation models, ranging from their capabilities
+  (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g.,
+  model architectures, training procedures, data, systems, security, evaluation, theory)
+  to their applications (e.g., law, healthcare, education) and societal impact (e.g.,
+  inequity, misuse, economic and environmental impact, legal and ethical considerations).
+  Though foundation models are based on standard deep learning and transfer learning,
+  their scale results in new emergent capabilities,and their effectiveness across
+  so many tasks incentivizes homogenization. Homogenization provides powerful leverage
+  but demands caution, as the defects of the foundation model are inherited by all
+  the adapted models downstream. Despite the impending widespread deployment of foundation
+  models, we currently lack a clear understanding of how they work, when they fail,
+  and what they are even capable of due to their emergent properties. To tackle these
+  questions, we believe much of the critical research on foundation models will require
+  deep interdisciplinary collaboration commensurate with their fundamentally sociotechnical
+  nature.
+archiveprefix: arXiv
+author: Bommasani, Rishi and Hudson, Drew A. and Adeli, Ehsan and Altman, Russ and
+  Arora, Simran and von Arx, Sydney and Bernstein, Michael S. and Bohg, Jeannette
+  and Bosselut, Antoine and Brunskill, Emma and Brynjolfsson, Erik and Buch, Shyamal
+  and Card, Dallas and Castellon, Rodrigo and Chatterji, Niladri and Chen, Annie and
+  Creel, Kathleen and Davis, Jared Quincy and Demszky, Dora and Donahue, Chris and
+  Doumbouya, Moussa and Durmus, Esin and Ermon, Stefano and Etchemendy, John and Ethayarajh,
+  Kawin and Fei-Fei, Li and Finn, Chelsea and Gale, Trevor and Gillespie, Lauren and
+  Goel, Karan and Goodman, Noah and Grossman, Shelby and Guha, Neel and Hashimoto,
+  Tatsunori and Henderson, Peter and Hewitt, John and Ho, Daniel E. and Hong, Jenny
+  and Hsu, Kyle and Huang, Jing and Icard, Thomas and Jain, Saahil and Jurafsky, Dan
+  and Kalluri, Pratyusha and Karamcheti, Siddharth and Keeling, Geoff and Khani, Fereshte
+  and Khattab, Omar and Koh, Pang Wei and Krass, Mark and Krishna, Ranjay and Kuditipudi,
+  Rohith and Kumar, Ananya and Ladhak, Faisal and Lee, Mina and Lee, Tony and Leskovec,
+  Jure and Levent, Isabelle and Li, Xiang Lisa and Li, Xuechen and Ma, Tengyu and
+  Malik, Ali and Manning, Christopher D. and Mirchandani, Suvir and Mitchell, Eric
+  and Munyikwa, Zanele and Nair, Suraj and Narayan, Avanika and Narayanan, Deepak
+  and Newman, Ben and Nie, Allen and Niebles, Juan Carlos and Nilforoshan, Hamed and
+  Nyarko, Julian and Ogut, Giray and Orr, Laurel and Papadimitriou, Isabel and Park,
+  Joon Sung and Piech, Chris and Portelance, Eva and Potts, Christopher and Raghunathan,
+  Aditi and Reich, Rob and Ren, Hongyu and Rong, Frieda and Roohani, Yusuf and Ruiz,
+  Camilo and Ryan, Jack and Ré, Christopher and Sadigh, Dorsa and Sagawa, Shiori and
+  Santhanam, Keshav and Shih, Andy and Srinivasan, Krishnan and Tamkin, Alex and Taori,
+  Rohan and Thomas, Armin W. and Tramèr, Florian and Wang, Rose E. and Wang, William
+  and Wu, Bohan and Wu, Jiajun and Wu, Yuhuai and Xie, Sang Michael and Yasunaga,
+  Michihiro and You, Jiaxuan and Zaharia, Matei and Zhang, Michael and Zhang, Tianyi
+  and Zhang, Xikun and Zhang, Yuhui and Zheng, Lucia and Zhou, Kaitlyn and Liang,
+  Percy
+author_list:
+- family: Bommasani
+  given: Rishi
+- family: Hudson
+  given: Drew A.
+- family: Adeli
+  given: Ehsan
+- family: Altman
+  given: Russ
+- family: Arora
+  given: Simran
+- family: von Arx
+  given: Sydney
+- family: Bernstein
+  given: Michael S.
+- family: Bohg
+  given: Jeannette
+- family: Bosselut
+  given: Antoine
+- family: Brunskill
+  given: Emma
+- family: Brynjolfsson
+  given: Erik
+- family: Buch
+  given: Shyamal
+- family: Card
+  given: Dallas
+- family: Castellon
+  given: Rodrigo
+- family: Chatterji
+  given: Niladri
+- family: Chen
+  given: Annie
+- family: Creel
+  given: Kathleen
+- family: Davis
+  given: Jared Quincy
+- family: Demszky
+  given: Dora
+- family: Donahue
+  given: Chris
+- family: Doumbouya
+  given: Moussa
+- family: Durmus
+  given: Esin
+- family: Ermon
+  given: Stefano
+- family: Etchemendy
+  given: John
+- family: Ethayarajh
+  given: Kawin
+- family: Fei-Fei
+  given: Li
+- family: Finn
+  given: Chelsea
+- family: Gale
+  given: Trevor
+- family: Gillespie
+  given: Lauren
+- family: Goel
+  given: Karan
+- family: Goodman
+  given: Noah
+- family: Grossman
+  given: Shelby
+- family: Guha
+  given: Neel
+- family: Hashimoto
+  given: Tatsunori
+- family: Henderson
+  given: Peter
+- family: Hewitt
+  given: John
+- family: Ho
+  given: Daniel E.
+- family: Hong
+  given: Jenny
+- family: Hsu
+  given: Kyle
+- family: Huang
+  given: Jing
+- family: Icard
+  given: Thomas
+- family: Jain
+  given: Saahil
+- family: Jurafsky
+  given: Dan
+- family: Kalluri
+  given: Pratyusha
+- family: Karamcheti
+  given: Siddharth
+- family: Keeling
+  given: Geoff
+- family: Khani
+  given: Fereshte
+- family: Khattab
+  given: Omar
+- family: Koh
+  given: Pang Wei
+- family: Krass
+  given: Mark
+- family: Krishna
+  given: Ranjay
+- family: Kuditipudi
+  given: Rohith
+- family: Kumar
+  given: Ananya
+- family: Ladhak
+  given: Faisal
+- family: Lee
+  given: Mina
+- family: Lee
+  given: Tony
+- family: Leskovec
+  given: Jure
+- family: Levent
+  given: Isabelle
+- family: Li
+  given: Xiang Lisa
+- family: Li
+  given: Xuechen
+- family: Ma
+  given: Tengyu
+- family: Malik
+  given: Ali
+- family: Manning
+  given: Christopher D.
+- family: Mirchandani
+  given: Suvir
+- family: Mitchell
+  given: Eric
+- family: Munyikwa
+  given: Zanele
+- family: Nair
+  given: Suraj
+- family: Narayan
+  given: Avanika
+- family: Narayanan
+  given: Deepak
+- family: Newman
+  given: Ben
+- family: Nie
+  given: Allen
+- family: Niebles
+  given: Juan Carlos
+- family: Nilforoshan
+  given: Hamed
+- family: Nyarko
+  given: Julian
+- family: Ogut
+  given: Giray
+- family: Orr
+  given: Laurel
+- family: Papadimitriou
+  given: Isabel
+- family: Park
+  given: Joon Sung
+- family: Piech
+  given: Chris
+- family: Portelance
+  given: Eva
+- family: Potts
+  given: Christopher
+- family: Raghunathan
+  given: Aditi
+- family: Reich
+  given: Rob
+- family: Ren
+  given: Hongyu
+- family: Rong
+  given: Frieda
+- family: Roohani
+  given: Yusuf
+- family: Ruiz
+  given: Camilo
+- family: Ryan
+  given: Jack
+- family: Ré
+  given: Christopher
+- family: Sadigh
+  given: Dorsa
+- family: Sagawa
+  given: Shiori
+- family: Santhanam
+  given: Keshav
+- family: Shih
+  given: Andy
+- family: Srinivasan
+  given: Krishnan
+- family: Tamkin
+  given: Alex
+- family: Taori
+  given: Rohan
+- family: Thomas
+  given: Armin W.
+- family: Tramèr
+  given: Florian
+- family: Wang
+  given: Rose E.
+- family: Wang
+  given: William
+- family: Wu
+  given: Bohan
+- family: Wu
+  given: Jiajun
+- family: Wu
+  given: Yuhuai
+- family: Xie
+  given: Sang Michael
+- family: Yasunaga
+  given: Michihiro
+- family: You
+  given: Jiaxuan
+- family: Zaharia
+  given: Matei
+- family: Zhang
+  given: Michael
+- family: Zhang
+  given: Tianyi
+- family: Zhang
+  given: Xikun
+- family: Zhang
+  given: Yuhui
+- family: Zheng
+  given: Lucia
+- family: Zhou
+  given: Kaitlyn
+- family: Liang
+  given: Percy
+eprint: 2108.07258v3
+file: 2108.07258v3.pdf
+files:
+- bommasani-rishi-and-hudson-drew-a.-and-adeli-ehsan-and-altman-russ-and-arora-simran-and-von-arx-sydney-and-bernstein-michael-s.-and-bohg-jeann.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2108.07258v3
+time-added: 2023-04-04-12:03:56
+title: On the Opportunities and Risks of Foundation Models
+type: article
+url: http://arxiv.org/abs/2108.07258v3
+year: '2021'

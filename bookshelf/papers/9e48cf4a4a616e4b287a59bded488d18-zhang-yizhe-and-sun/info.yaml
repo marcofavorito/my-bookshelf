@@ -1,0 +1,45 @@
+abstract: We present a large, tunable neural conversational response generation model,
+  DialoGPT (dialogue generative pre-trained transformer). Trained on 147M conversation-like
+  exchanges extracted from Reddit comment chains over a period spanning from 2005
+  through 2017, DialoGPT extends the Hugging Face PyTorch transformer to attain a
+  performance close to human both in terms of automatic and human evaluation in single-turn
+  dialogue settings. We show that conversational systems that leverage DialoGPT generate
+  more relevant, contentful and context-consistent responses than strong baseline
+  systems. The pre-trained model and training pipeline are publicly released to facilitate
+  research into neural response generation and the development of more intelligent
+  open-domain dialogue systems.
+archiveprefix: arXiv
+author: Zhang, Yizhe and Sun, Siqi and Galley, Michel and Chen, Yen-Chun and Brockett,
+  Chris and Gao, Xiang and Gao, Jianfeng and Liu, Jingjing and Dolan, Bill
+author_list:
+- family: Zhang
+  given: Yizhe
+- family: Sun
+  given: Siqi
+- family: Galley
+  given: Michel
+- family: Chen
+  given: Yen-Chun
+- family: Brockett
+  given: Chris
+- family: Gao
+  given: Xiang
+- family: Gao
+  given: Jianfeng
+- family: Liu
+  given: Jingjing
+- family: Dolan
+  given: Bill
+eprint: 1911.00536v3
+file: 1911.00536v3.pdf
+files:
+- zhang-yizhe-and-sun-siqi-and-galley-michel-and-chen-yen-chun-and-brockett-chris-and-gao-xiang-and-gao-jianfeng-and-liu-jingjing-and-dolan-bil.pdf
+month: Nov
+primaryclass: cs.CL
+ref: 1911.00536v3
+time-added: 2023-04-05-10:16:11
+title: 'DialoGPT: Large-Scale Generative Pre-training for Conversational   Response
+  Generation'
+type: article
+url: http://arxiv.org/abs/1911.00536v3
+year: '2019'

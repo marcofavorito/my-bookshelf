@@ -1,0 +1,36 @@
+abstract: During the first part of life, the brain develops while it learns through
+  a process called synaptogenesis. The neurons, growing and interacting with each
+  other, create synapses. However, eventually the brain prunes those synapses. While
+  previous work focused on learning and pruning independently, in this work we propose
+  a biologically plausible model that, thanks to a combination of Hebbian learning
+  and pruning, aims to simulate the synaptogenesis process. In this way, while learning
+  how to solve the task, the agent translates its experience into a particular network
+  structure. Namely, the network structure builds itself during the execution of the
+  task. We call this approach Self-building Neural Network (SBNN). We compare our
+  proposed SBNN with traditional neural networks (NNs) over three classical control
+  tasks from OpenAI. The results show that our model performs generally better than
+  traditional NNs. Moreover, we observe that the performance decay while increasing
+  the pruning rate is smaller in our model than with NNs. Finally, we perform a validation
+  test, testing the models over tasks unseen during the learning phase. In this case,
+  the results show that SBNNs can adapt to new tasks better than the traditional NNs,
+  especially when over $80\%$ of the weights are pruned.
+archiveprefix: arXiv
+author: Ferigo, Andrea and Iacca, Giovanni
+author_list:
+- family: Ferigo
+  given: Andrea
+- family: Iacca
+  given: Giovanni
+doi: 10.1145/3583133.3590531
+eprint: 2304.01086v1
+file: 2304.01086v1.pdf
+files:
+- ferigo-andrea-and-iacca-giovanniself-building-neural-networks2023.pdf
+month: Apr
+primaryclass: cs.NE
+ref: 2304.01086v1
+time-added: 2023-04-04-21:53:50
+title: Self-building Neural Networks
+type: article
+url: http://arxiv.org/abs/2304.01086v1
+year: '2023'
