@@ -1,0 +1,36 @@
+abstract: Regret minimization is a key component of many algorithms for finding Nash
+  equilibria in imperfect-information games. To scale to games that cannot fit in
+  memory, we can use search with value functions. However, calling the value functions
+  repeatedly in search can be expensive. Therefore, it is desirable to minimize regret
+  in the search tree as fast as possible. We propose to accelerate the regret minimization
+  by introducing a general ``learning not to regret'' framework, where we meta-learn
+  the regret minimizer. The resulting algorithm is guaranteed to minimize regret in
+  arbitrary settings and is (meta)-learned to converge fast on a selected distribution
+  of games. Our experiments show that meta-learned algorithms converge substantially
+  faster than prior regret minimization algorithms.
+archiveprefix: arXiv
+author: Sychrovsky, David and Sustr, Michal and Davoodi, Elnaz and Lanctot, Marc and
+  Schmid, Martin
+author_list:
+- family: Sychrovsky
+  given: David
+- family: Sustr
+  given: Michal
+- family: Davoodi
+  given: Elnaz
+- family: Lanctot
+  given: Marc
+- family: Schmid
+  given: Martin
+eprint: 2303.01074v1
+file: 2303.01074v1.pdf
+files:
+- sychrovsky-david-and-sustr-michal-and-davoodi-elnaz-and-lanctot-marc-and-schmid-martinlearning-not-to-regret2023.pdf
+month: Mar
+primaryclass: cs.GT
+ref: 2303.01074v1
+time-added: 2023-04-21-18:51:28
+title: Learning not to Regret
+type: article
+url: http://arxiv.org/abs/2303.01074v1
+year: '2023'

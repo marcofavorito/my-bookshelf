@@ -1,0 +1,29 @@
+abstract: Sample compression schemes were defined by Littlestone and Warmuth (1986)
+  as an abstraction of the structure underlying many learning algorithms. Roughly
+  speaking, a sample compression scheme of size $k$ means that given an arbitrary
+  list of labeled examples, one can retain only $k$ of them in a way that allows to
+  recover the labels of all other examples in the list. They showed that compression
+  implies PAC learnability for binary-labeled classes, and asked whether the other
+  direction holds. We answer their question and show that every concept class $C$
+  with VC dimension $d$ has a sample compression scheme of size exponential in $d$.
+  The proof uses an approximate minimax phenomenon for binary matrices of low VC dimension,
+  which may be of interest in the context of game theory.
+archiveprefix: arXiv
+author: Moran, Shay and Yehudayoff, Amir
+author_list:
+- family: Moran
+  given: Shay
+- family: Yehudayoff
+  given: Amir
+eprint: 1503.06960v2
+file: 1503.06960v2.pdf
+files:
+- moran-shay-and-yehudayoff-amirsample-compression-schemes-for-vc-classes2015.pdf
+month: Mar
+primaryclass: cs.LG
+ref: 1503.06960v2
+time-added: 2023-04-18-13:45:32
+title: Sample compression schemes for VC classes
+type: article
+url: http://arxiv.org/abs/1503.06960v2
+year: '2015'
