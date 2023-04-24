@@ -1,0 +1,46 @@
+abstract: Foundation models pretrained on diverse data at scale have demonstrated
+  extraordinary capabilities in a wide range of vision and language tasks. When such
+  models are deployed in real world environments, they inevitably interface with other
+  entities and agents. For example, language models are often used to interact with
+  human beings through dialogue, and visual perception models are used to autonomously
+  navigate neighborhood streets. In response to these developments, new paradigms
+  are emerging for training foundation models to interact with other agents and perform
+  long-term reasoning. These paradigms leverage the existence of ever-larger datasets
+  curated for multimodal, multitask, and generalist interaction. Research at the intersection
+  of foundation models and decision making holds tremendous promise for creating powerful
+  new systems that can interact effectively across a diverse range of applications
+  such as dialogue, autonomous driving, healthcare, education, and robotics. In this
+  manuscript, we examine the scope of foundation models for decision making, and provide
+  conceptual tools and technical background for understanding the problem space and
+  exploring new research directions. We review recent approaches that ground foundation
+  models in practical decision making applications through a variety of methods such
+  as prompting, conditional generative modeling, planning, optimal control, and reinforcement
+  learning, and discuss common challenges and open problems in the field.
+archiveprefix: arXiv
+author: Yang, Sherry and Nachum, Ofir and Du, Yilun and Wei, Jason and Abbeel, Pieter
+  and Schuurmans, Dale
+author_list:
+- family: Yang
+  given: Sherry
+- family: Nachum
+  given: Ofir
+- family: Du
+  given: Yilun
+- family: Wei
+  given: Jason
+- family: Abbeel
+  given: Pieter
+- family: Schuurmans
+  given: Dale
+eprint: 2303.04129v1
+file: 2303.04129v1.pdf
+files:
+- yang-sherry-and-nachum-ofir-and-du-yilun-and-wei-jason-and-abbeel-pieter-and-schuurmans-dalefoundation-models-for-decision-making-problems-met.pdf
+month: Mar
+primaryclass: cs.AI
+ref: 2303.04129v1
+time-added: 2023-04-24-19:57:14
+title: 'Foundation Models for Decision Making: Problems, Methods, and   Opportunities'
+type: article
+url: http://arxiv.org/abs/2303.04129v1
+year: '2023'

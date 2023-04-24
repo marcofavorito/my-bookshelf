@@ -1,0 +1,106 @@
+abstract: We present Sparrow, an information-seeking dialogue agent trained to be
+  more helpful, correct, and harmless compared to prompted language model baselines.
+  We use reinforcement learning from human feedback to train our models with two new
+  additions to help human raters judge agent behaviour. First, to make our agent more
+  helpful and harmless, we break down the requirements for good dialogue into natural
+  language rules the agent should follow, and ask raters about each rule separately.
+  We demonstrate that this breakdown enables us to collect more targeted human judgements
+  of agent behaviour and allows for more efficient rule-conditional reward models.
+  Second, our agent provides evidence from sources supporting factual claims when
+  collecting preference judgements over model statements. For factual questions, evidence
+  provided by Sparrow supports the sampled response 78% of the time. Sparrow is preferred
+  more often than baselines while being more resilient to adversarial probing by humans,
+  violating our rules only 8% of the time when probed. Finally, we conduct extensive
+  analyses showing that though our model learns to follow our rules it can exhibit
+  distributional biases.
+archiveprefix: arXiv
+author: Glaese, Amelia and McAleese, Nat and Trębacz, Maja and Aslanides, John and
+  Firoiu, Vlad and Ewalds, Timo and Rauh, Maribeth and Weidinger, Laura and Chadwick,
+  Martin and Thacker, Phoebe and Campbell-Gillingham, Lucy and Uesato, Jonathan and
+  Huang, Po-Sen and Comanescu, Ramona and Yang, Fan and See, Abigail and Dathathri,
+  Sumanth and Greig, Rory and Chen, Charlie and Fritz, Doug and Elias, Jaume Sanchez
+  and Green, Richard and Mokrá, Soňa and Fernando, Nicholas and Wu, Boxi and Foley,
+  Rachel and Young, Susannah and Gabriel, Iason and Isaac, William and Mellor, John
+  and Hassabis, Demis and Kavukcuoglu, Koray and Hendricks, Lisa Anne and Irving,
+  Geoffrey
+author_list:
+- family: Glaese
+  given: Amelia
+- family: McAleese
+  given: Nat
+- family: Trębacz
+  given: Maja
+- family: Aslanides
+  given: John
+- family: Firoiu
+  given: Vlad
+- family: Ewalds
+  given: Timo
+- family: Rauh
+  given: Maribeth
+- family: Weidinger
+  given: Laura
+- family: Chadwick
+  given: Martin
+- family: Thacker
+  given: Phoebe
+- family: Campbell-Gillingham
+  given: Lucy
+- family: Uesato
+  given: Jonathan
+- family: Huang
+  given: Po-Sen
+- family: Comanescu
+  given: Ramona
+- family: Yang
+  given: Fan
+- family: See
+  given: Abigail
+- family: Dathathri
+  given: Sumanth
+- family: Greig
+  given: Rory
+- family: Chen
+  given: Charlie
+- family: Fritz
+  given: Doug
+- family: Elias
+  given: Jaume Sanchez
+- family: Green
+  given: Richard
+- family: Mokrá
+  given: Soňa
+- family: Fernando
+  given: Nicholas
+- family: Wu
+  given: Boxi
+- family: Foley
+  given: Rachel
+- family: Young
+  given: Susannah
+- family: Gabriel
+  given: Iason
+- family: Isaac
+  given: William
+- family: Mellor
+  given: John
+- family: Hassabis
+  given: Demis
+- family: Kavukcuoglu
+  given: Koray
+- family: Hendricks
+  given: Lisa Anne
+- family: Irving
+  given: Geoffrey
+eprint: 2209.14375v1
+file: 2209.14375v1.pdf
+files:
+- glaese-amelia-and-mcaleese-nat-and-trebacz-maja-and-aslanides-john-and-firoiu-vlad-and-ewalds-timo-and-rauh-maribeth-and-weidinger-laura-and-c.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2209.14375v1
+time-added: 2023-04-24-19:23:37
+title: Improving alignment of dialogue agents via targeted human judgements
+type: article
+url: http://arxiv.org/abs/2209.14375v1
+year: '2022'

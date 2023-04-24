@@ -1,0 +1,40 @@
+abstract: 'The spectral gap - the energy difference between the ground state and first
+  excited state - is central to quantum many-body physics. Many challenging open problems,
+  such as the Haldane conjecture, existence of gapped topological spin liquid phases,
+  or the Yang-Mills gap conjecture, concern spectral gaps. These and other problems
+  are particular cases of the general spectral gap problem: given a quantum many-body
+  Hamiltonian, is it gapped or gapless? Here we prove that this is an undecidable
+  problem. We construct families of quantum spin systems on a 2D lattice with translationally-invariant,
+  nearest-neighbour interactions for which the spectral gap problem is undecidable.
+  This result extends to undecidability of other low energy properties, such as existence
+  of algebraically decaying ground-state correlations. The proof combines Hamiltonian
+  complexity techniques with aperiodic tilings, to construct a Hamiltonian whose ground
+  state encodes the evolution of a quantum phase-estimation algorithm followed by
+  a universal Turing Machine. The spectral gap depends on the outcome of the corresponding
+  Halting Problem. Our result implies that there exists no algorithm to determine
+  whether an arbitrary model is gapped or gapless. It also implies that there exist
+  models for which the presence or absence of a spectral gap is independent of the
+  axioms of mathematics.'
+archiveprefix: arXiv
+author: Cubitt, Toby and Perez-Garcia, David and Wolf, Michael M.
+author_list:
+- family: Cubitt
+  given: Toby
+- family: Perez-Garcia
+  given: David
+- family: Wolf
+  given: Michael M.
+doi: 10.1038/nature16059
+eprint: 1502.04135v3
+file: 1502.04135v3.pdf
+files:
+- cubitt-toby-and-perez-garcia-david-and-wolf-michael-m.undecidability-of-the-spectral-gap-short-version-2015.pdf
+month: Feb
+note: Nature 528, 207-211 (2015)
+primaryclass: quant-ph
+ref: 1502.04135v3
+time-added: 2023-04-24-15:27:05
+title: Undecidability of the Spectral Gap (short version)
+type: article
+url: http://arxiv.org/abs/1502.04135v3
+year: '2015'
