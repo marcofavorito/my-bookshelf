@@ -1,0 +1,39 @@
+abstract: Procedural Content Generation (PCG) refers to the practice, in videogames
+  and other games, of generating content such as levels, quests, or characters algorithmically.
+  Motivated by the need to make games replayable, as well as to reduce authoring burden,
+  limit storage space requirements, and enable particular aesthetics, a large number
+  of PCG methods have been devised by game developers. Additionally, researchers have
+  explored adapting methods from machine learning, optimization, and constraint solving
+  to PCG problems. Games have been widely used in AI research since the inception
+  of the field, and in recent years have been used to develop and benchmark new machine
+  learning algorithms. Through this practice, it has become more apparent that these
+  algorithms are susceptible to overfitting. Often, an algorithm will not learn a
+  general policy, but instead a policy that will only work for a particular version
+  of a particular task with particular initial parameters. In response, researchers
+  have begun exploring randomization of problem parameters to counteract such overfitting
+  and to allow trained policies to more easily transfer from one environment to another,
+  such as from a simulated robot to a robot in the real world. Here we review the
+  large amount of existing work on PCG, which we believe has an important role to
+  play in increasing the generality of machine learning methods. The main goal here
+  is to present RL/AI with new tools from the PCG toolbox, and its secondary goal
+  is to explain to game developers and researchers a way in which their work is relevant
+  to AI research.
+archiveprefix: arXiv
+author: Risi, Sebastian and Togelius, Julian
+author_list:
+- family: Risi
+  given: Sebastian
+- family: Togelius
+  given: Julian
+eprint: 1911.13071v2
+file: 1911.13071v2.pdf
+files:
+- risi-sebastian-and-togelius-julianincreasing-generality-in-machine-learning-through-procedural-content-generation2019.pdf
+month: Nov
+primaryclass: cs.AI
+ref: 1911.13071v2
+time-added: 2023-05-04-18:37:50
+title: Increasing Generality in Machine Learning through Procedural Content   Generation
+type: article
+url: http://arxiv.org/abs/1911.13071v2
+year: '2019'

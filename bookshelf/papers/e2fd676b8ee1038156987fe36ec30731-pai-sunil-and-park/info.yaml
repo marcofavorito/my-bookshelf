@@ -1,0 +1,270 @@
+abstract: <jats:p>As blockchain technology and cryptocurrency become increasingly
+  mainstream, photonic computing has emerged as an efficient hardware platform that
+  reduces ever-increasing energy costs required to verify transactions in decentralized
+  cryptonetworks. To reduce sensitivity of these verifications to photonic hardware
+  error, we propose and experimentally demonstrate a cryptographic scheme, LightHash,
+  that implements robust, low-bit precision matrix multiplication in programmable
+  silicon photonic networks. We demonstrate an error mitigation scheme to reduce error
+  by averaging computation across circuits, and simulate energy-efficiency-error trade-offs
+  for large circuit sizes. We conclude that our error-resistant and efficient hardware
+  solution can potentially generate a new market for decentralized photonic blockchain.</jats:p>
+author: Pai, Sunil and Park, Taewon and Ball, Marshall and Penkovsky, Bogdan and Dubrovsky,
+  Michael and Abebe, Nathnael and Milanizadeh, Maziyar and Morichetti, Francesco and
+  Melloni, Andrea and Fan, Shanhui and Solgaard, Olav and Miller, David A. B.
+author_list:
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  - name: PsiQuantum
+  family: Pai
+  given: Sunil
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  family: Park
+  given: Taewon
+- affiliation:
+  - name: New York University
+  - name: PoWx
+  family: Ball
+  given: Marshall
+- affiliation:
+  - name: PoWx
+  family: Penkovsky
+  given: Bogdan
+- affiliation:
+  - name: PoWx
+  family: Dubrovsky
+  given: Michael
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  - name: Google
+  family: Abebe
+  given: Nathnael
+- affiliation:
+  - name: Politecnico di Milano
+  family: Milanizadeh
+  given: Maziyar
+- affiliation:
+  - name: Politecnico di Milano
+  family: Morichetti
+  given: Francesco
+- affiliation:
+  - name: Politecnico di Milano
+  family: Melloni
+  given: Andrea
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  family: Fan
+  given: Shanhui
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  family: Solgaard
+  given: Olav
+- affiliation:
+  - id:
+    - asserted-by: publisher
+      id: https://ror.org/00f54p054
+      id-type: ROR
+  family: Miller
+  given: David A. B.
+citations:
+- author: Miller
+  doi: 10.1364/PRJ.1.000001
+  first-page: '1'
+  journal-title: Photon. Res.
+  volume: '1'
+  year: '2013'
+- author: Bogaerts
+  doi: 10.1038/s41586-020-2764-0
+  first-page: '207'
+  journal-title: Nature
+  volume: '586'
+  year: '2020'
+- author: Arrazola
+  doi: 10.1088/2058-9565/aaf59e
+  first-page: '024004'
+  journal-title: Quantum Sci. Technol.
+  volume: '4'
+  year: '2019'
+- author: Carolan
+  doi: 10.1126/science.aab3642
+  first-page: '711'
+  journal-title: Science
+  volume: '349'
+  year: '2015'
+- author: Annoni
+  doi: 10.1038/lsa.2017.110
+  first-page: e17110
+  journal-title: Light Sci. Appl.
+  volume: '6'
+  year: '2017'
+- author: Shen
+  doi: 10.1038/nphoton.2017.93
+  first-page: '441'
+  journal-title: Nat. Photonics
+  volume: '11'
+  year: '2017'
+- author: Murmann
+  doi: 10.1109/TVLSI.2020.3020286
+  first-page: '3'
+  journal-title: IEEE Trans. Very Large Scale Integr. Syst.
+  volume: '29'
+  year: '2021'
+- article-title: Towards optical proof of work
+  author: Dubrovsky
+  volume-title: Cryptoeconomic Systems
+  year: '2020'
+- article-title: 'PHANTOM GHOSTDAG: A scalable generalization of Nakamoto consensus:
+    September 2, 2021'
+  author: Sompolinsky
+  first-page: '57'
+  volume-title: Proceedings of the 2021 3rd ACM Conference on Advances in Financial
+    Technologies
+  year: '2021'
+- author: Abou Jaoude
+  doi: 10.1109/ACCESS.2019.2902501
+  first-page: '45360'
+  journal-title: IEEE Access
+  volume: '7'
+  year: '2019'
+- article-title: An analysis of energy consumption and carbon footprints of cryptocurrencies
+    and possible solutions
+  author: Kohli
+  volume-title: Digital Communications and Networks
+  year: '2022'
+- author: Shu
+  doi: 10.3390/stats4040056
+  first-page: '950'
+  journal-title: Stats
+  volume: '4'
+  year: '2021'
+- article-title: 'Ouroboros: a provably secure proof-of-stake blockchain protocol'
+  author: Kiayias
+  doi: 10.1007/978-3-319-63688-7_12
+  first-page: '357'
+  volume: '10401'
+  volume-title: Advances in Cryptology – CRYPTO 2017. Lecture Notes in Computer Science
+  year: '2017'
+- author: Nahmias
+  doi: 10.1109/JSTQE.2019.2941485
+  first-page: '7701518'
+  journal-title: IEEE J. Sel. Top. Quantum Electron.
+  volume: '26'
+  year: '2020'
+- author: Hamerly
+  doi: 10.1103/PhysRevX.9.021032
+  first-page: '021032'
+  journal-title: Phys. Rev. X
+  volume: '9'
+  year: '2019'
+- author: Reck
+  doi: 10.1103/PhysRevLett.73.58
+  first-page: '58'
+  journal-title: Phys. Rev. Lett.
+  volume: '73'
+  year: '1994'
+- author: Clements
+  doi: 10.1364/OPTICA.3.001460
+  first-page: '1460'
+  journal-title: Optica
+  volume: '3'
+  year: '2016'
+- article-title: A low-noise self-calibrating dynamic comparator for high-speed ADCs
+  author: Miyahara
+  doi: 10.1109/ASSCC.2008.4708780
+  first-page: '269'
+  volume-title: Proceedings of 2008 IEEE Asian Solid-State Circuits Conference, A-SSCC
+  year: '2008'
+- author: Hamerly
+  doi: 10.1103/PhysRevApplied.18.024019
+  first-page: 024019
+  journal-title: Phys. Rev. Appl.
+  volume: '18'
+  year: '2022'
+- author: Bandyopadhyay
+  doi: 10.48550/arXiv.2208.01623
+  year: '2022'
+- author: Bandyopadhyay
+  doi: 10.1364/OPTICA.424052
+  first-page: '1247'
+  journal-title: Optica
+  volume: '8'
+  year: '2021'
+- author: Kumar
+  doi: 10.48550/arXiv.2103.03183
+  year: '2021'
+- author: Perin
+  doi: 10.1109/JLT.2016.2620139
+  first-page: '5542'
+  journal-title: J. Lightwave Technol.
+  volume: '34'
+  year: '2016'
+- article-title: 'WrapNet: neural net inference with ultra-low-resolution arithmetic'
+  author: Ni
+  volume-title: International Conference on Learning Representations
+  year: '2020'
+- author: Pai
+  doi: 10.48550/arXiv.2205.08501
+  year: '2022'
+- article-title: Rapid adiabatic 3  dB coupler with 50 ± 1% splitting over 200  nm
+    including S, C and L bands in 45  nm CMOS platform
+  author: Fargas Cabanillas
+  first-page: FTu6B.2
+  volume-title: Frontiers in Optics + Laser Science
+  year: '2021'
+- author: Pai
+  doi: 10.1103/PhysRevApplied.11.064044
+  first-page: '064044'
+  journal-title: Phys. Rev. Appl.
+  volume: '11'
+  year: '2019'
+- author: Feldmann
+  doi: 10.1038/s41586-020-03070-1
+  first-page: '52'
+  journal-title: Nature
+  volume: '589'
+  year: '2021'
+- article-title: Modeling energy aspects of ASIC hardware for pow applications
+  author: Bijelić
+  first-page: '60'
+  volume-title: 45th Jubilee International Convention on Information, Communication
+    and Electronic Technology (MIPRO)
+  year: '2022'
+- author: Pai
+  doi: 10.5281/zenodo.6557372
+  year: '2022'
+- unstructured: 'Pai S. Sun Z. Park T. , “ Phox: base repository for simulation and
+    control of photonic devices ,” Github ( 2022 ), https://github.com/solgaardlab/phox/
+    .'
+- unstructured: 'Pai S. , “ Simphox: Another inverse design library ,” Github ( 2022
+    ), https://github.com/fancompute/simphox .'
+doc_url: https://opg.optica.org/viewmedia.cfm?URI=optica-10-5-552&seq=0
+doi: 10.1364/optica.476173
+issue: '5'
+journal: Optica
+language: en
+month: 5
+pages: '552'
+publisher: Optica Publishing Group
+ref: ExperimentalEvPaiS2023
+time-added: 2023-05-05-21:22:09
+title: Experimental evaluation of digitally verifiable photonic computing for blockchain
+  and cryptocurrency
+type: article
+url: http://dx.doi.org/10.1364/optica.476173
+volume: '10'
+year: 2023

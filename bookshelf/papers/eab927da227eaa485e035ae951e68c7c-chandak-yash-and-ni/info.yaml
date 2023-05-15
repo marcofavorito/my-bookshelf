@@ -1,0 +1,41 @@
+abstract: When faced with sequential decision-making problems, it is often useful
+  to be able to predict what would happen if decisions were made using a new policy.
+  Those predictions must often be based on data collected under some previously used
+  decision-making rule. Many previous methods enable such off-policy (or counterfactual)
+  estimation of the expected value of a performance measure called the return. In
+  this paper, we take the first steps towards a universal off-policy estimator (UnO)
+  -- one that provides off-policy estimates and high-confidence bounds for any parameter
+  of the return distribution. We use UnO for estimating and simultaneously bounding
+  the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire
+  cumulative distribution of returns. Finally, we also discuss Uno's applicability
+  in various settings, including fully observable, partially observable (i.e., with
+  unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary,
+  and discrete distribution shifts.
+archiveprefix: arXiv
+author: Chandak, Yash and Niekum, Scott and da Silva, Bruno Castro and Learned-Miller,
+  Erik and Brunskill, Emma and Thomas, Philip S.
+author_list:
+- family: Chandak
+  given: Yash
+- family: Niekum
+  given: Scott
+- family: da Silva
+  given: Bruno Castro
+- family: Learned-Miller
+  given: Erik
+- family: Brunskill
+  given: Emma
+- family: Thomas
+  given: Philip S.
+eprint: 2104.12820v2
+file: 2104.12820v2.pdf
+files:
+- chandak-yash-and-niekum-scott-and-da-silva-bruno-castro-and-learned-miller-erik-and-brunskill-emma-and-thomas-philip-s.universal-off-policy-eval.pdf
+month: Apr
+primaryclass: cs.LG
+ref: 2104.12820v2
+time-added: 2023-05-02-16:59:04
+title: Universal Off-Policy Evaluation
+type: article
+url: http://arxiv.org/abs/2104.12820v2
+year: '2021'

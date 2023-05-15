@@ -1,0 +1,45 @@
+abstract: The backpropagation of error algorithm used to train deep neural networks
+  has been fundamental to the successes of deep learning. However, it requires sequential
+  backward updates and non-local computations, which make it challenging to parallelize
+  at scale and is unlike how learning works in the brain. Neuroscience-inspired learning
+  algorithms, however, such as \emph{predictive coding}, which utilize local learning,
+  have the potential to overcome these limitations and advance beyond current deep
+  learning technologies. While predictive coding originated in theoretical neuroscience
+  as a model of information processing in the cortex, recent work has developed the
+  idea into a general-purpose algorithm able to train neural networks using only local
+  computations. In this survey, we review works that have contributed to this perspective
+  and demonstrate the close theoretical connections between predictive coding and
+  backpropagation, as well as works that highlight the multiple advantages of using
+  predictive coding models over backpropagation-trained neural networks. Specifically,
+  we show the substantially greater flexibility of predictive coding networks against
+  equivalent deep neural networks, which can function as classifiers, generators,
+  and associative memories simultaneously, and can be defined on arbitrary graph topologies.
+  Finally, we review direct benchmarks of predictive coding networks on machine learning
+  classification tasks, as well as its close connections to control theory and applications
+  in robotics.
+archiveprefix: arXiv
+author: Millidge, Beren and Salvatori, Tommaso and Song, Yuhang and Bogacz, Rafal
+  and Lukasiewicz, Thomas
+author_list:
+- family: Millidge
+  given: Beren
+- family: Salvatori
+  given: Tommaso
+- family: Song
+  given: Yuhang
+- family: Bogacz
+  given: Rafal
+- family: Lukasiewicz
+  given: Thomas
+eprint: 2202.09467v1
+file: 2202.09467v1.pdf
+files:
+- millidge-beren-and-salvatori-tommaso-and-song-yuhang-and-bogacz-rafal-and-lukasiewicz-thomaspredictive-coding-towards-a-future-of-deep-learning.pdf
+month: Feb
+primaryclass: cs.NE
+ref: 2202.09467v1
+time-added: 2023-05-04-11:27:29
+title: 'Predictive Coding: Towards a Future of Deep Learning beyond   Backpropagation?'
+type: article
+url: http://arxiv.org/abs/2202.09467v1
+year: '2022'

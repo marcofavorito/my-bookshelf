@@ -1,0 +1,69 @@
+abstract: Topological deep learning is a rapidly growing field that pertains to the
+  development of deep learning models for data supported on topological domains such
+  as simplicial complexes, cell complexes, and hypergraphs, which generalize many
+  domains encountered in scientific computations. In this paper, we present a unifying
+  deep learning framework built upon a richer data structure that includes widely
+  adopted topological domains.   Specifically, we first introduce combinatorial complexes,
+  a novel type of topological domain. Combinatorial complexes can be seen as generalizations
+  of graphs that maintain certain desirable properties. Similar to hypergraphs, combinatorial
+  complexes impose no constraints on the set of relations. In addition, combinatorial
+  complexes permit the construction of hierarchical higher-order relations, analogous
+  to those found in simplicial and cell complexes. Thus, combinatorial complexes generalize
+  and combine useful traits of both hypergraphs and cell complexes, which have emerged
+  as two promising abstractions that facilitate the generalization of graph neural
+  networks to topological spaces.   Second, building upon combinatorial complexes
+  and their rich combinatorial and algebraic structure, we develop a general class
+  of message-passing combinatorial complex neural networks (CCNNs), focusing primarily
+  on attention-based CCNNs. We characterize permutation and orientation equivariances
+  of CCNNs, and discuss pooling and unpooling operations within CCNNs in detail.   Third,
+  we evaluate the performance of CCNNs on tasks related to mesh shape analysis and
+  graph learning. Our experiments demonstrate that CCNNs have competitive performance
+  as compared to state-of-the-art deep learning models specifically tailored to the
+  same tasks. Our findings demonstrate the advantages of incorporating higher-order
+  relations into deep learning models in different applications.
+archiveprefix: arXiv
+author: Hajij, Mustafa and Zamzmi, Ghada and Papamarkou, Theodore and Miolane, Nina
+  and Guzmán-Sáenz, Aldo and Ramamurthy, Karthikeyan Natesan and Birdal, Tolga and
+  Dey, Tamal K. and Mukherjee, Soham and Samaga, Shreyas N. and Livesay, Neal and
+  Walters, Robin and Rosen, Paul and Schaub, Michael T.
+author_list:
+- family: Hajij
+  given: Mustafa
+- family: Zamzmi
+  given: Ghada
+- family: Papamarkou
+  given: Theodore
+- family: Miolane
+  given: Nina
+- family: Guzmán-Sáenz
+  given: Aldo
+- family: Ramamurthy
+  given: Karthikeyan Natesan
+- family: Birdal
+  given: Tolga
+- family: Dey
+  given: Tamal K.
+- family: Mukherjee
+  given: Soham
+- family: Samaga
+  given: Shreyas N.
+- family: Livesay
+  given: Neal
+- family: Walters
+  given: Robin
+- family: Rosen
+  given: Paul
+- family: Schaub
+  given: Michael T.
+eprint: 2206.00606v2
+file: 2206.00606v2.pdf
+files:
+- hajij-mustafa-and-zamzmi-ghada-and-papamarkou-theodore-and-miolane-nina-and-guzman-saenz-aldo-and-ramamurthy-karthikeyan-natesan-and-birdal-tol.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2206.00606v2
+time-added: 2023-04-26-10:35:45
+title: 'Topological Deep Learning: Going Beyond Graph Data'
+type: article
+url: http://arxiv.org/abs/2206.00606v2
+year: '2022'
