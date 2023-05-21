@@ -1,0 +1,41 @@
+abstract: 'Reinforcement learning (RL) has recently achieved tremendous successes
+  in many artificial intelligence applications. Many of the forefront applications
+  of RL involve multiple agents, e.g., playing chess and Go games, autonomous driving,
+  and robotics. Unfortunately, the framework upon which classical RL builds is inappropriate
+  for multi-agent learning, as it assumes an agent''s environment is stationary and
+  does not take into account the adaptivity of other agents. In this review paper,
+  we present the model of stochastic games for multi-agent learning in dynamic environments.
+  We focus on the development of simple and independent learning dynamics for stochastic
+  games: each agent is myopic and chooses best-response type actions to other agents''
+  strategy without any coordination with her opponent. There has been limited progress
+  on developing convergent best-response type independent learning dynamics for stochastic
+  games. We present our recently proposed simple and independent learning dynamics
+  that guarantee convergence in zero-sum stochastic games, together with a review
+  of other contemporaneous algorithms for dynamic multi-agent learning in this setting.
+  Along the way, we also reexamine some classical results from both the game theory
+  and RL literature, to situate both the conceptual contributions of our independent
+  learning dynamics, and the mathematical novelties of our analysis. We hope this
+  review paper serves as an impetus for the resurgence of studying independent and
+  natural learning dynamics in game theory, for the more challenging settings with
+  a dynamic environment.'
+archiveprefix: arXiv
+author: Ozdaglar, Asuman and Sayin, Muhammed O. and Zhang, Kaiqing
+author_list:
+- family: Ozdaglar
+  given: Asuman
+- family: Sayin
+  given: Muhammed O.
+- family: Zhang
+  given: Kaiqing
+eprint: 2111.11743v1
+file: 2111.11743v1.pdf
+files:
+- ozdaglar-asuman-and-sayin-muhammed-o.-and-zhang-kaiqingindependent-learning-in-stochastic-games2021.pdf
+month: Nov
+primaryclass: cs.GT
+ref: 2111.11743v1
+time-added: 2023-05-18-14:38:14
+title: Independent Learning in Stochastic Games
+type: article
+url: http://arxiv.org/abs/2111.11743v1
+year: '2021'

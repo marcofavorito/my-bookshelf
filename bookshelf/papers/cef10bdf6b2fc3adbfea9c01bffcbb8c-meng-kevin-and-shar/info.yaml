@@ -1,0 +1,33 @@
+abstract: Recent work has shown exciting promise in updating large language models
+  with new memories, so as to replace obsolete information or add specialized knowledge.
+  However, this line of work is predominantly limited to updating single associations.
+  We develop MEMIT, a method for directly updating a language model with many memories,
+  demonstrating experimentally that it can scale up to thousands of associations for
+  GPT-J (6B) and GPT-NeoX (20B), exceeding prior work by orders of magnitude. Our
+  code and data are at https://memit.baulab.info.
+archiveprefix: arXiv
+author: Meng, Kevin and Sharma, Arnab Sen and Andonian, Alex and Belinkov, Yonatan
+  and Bau, David
+author_list:
+- family: Meng
+  given: Kevin
+- family: Sharma
+  given: Arnab Sen
+- family: Andonian
+  given: Alex
+- family: Belinkov
+  given: Yonatan
+- family: Bau
+  given: David
+eprint: 2210.07229v1
+file: 2210.07229v1.pdf
+files:
+- meng-kevin-and-sharma-arnab-sen-and-andonian-alex-and-belinkov-yonatan-and-bau-davidmass-editing-memory-in-a-transformer2022.pdf
+month: Oct
+primaryclass: cs.CL
+ref: 2210.07229v1
+time-added: 2023-05-17-16:11:41
+title: Mass-Editing Memory in a Transformer
+type: article
+url: http://arxiv.org/abs/2210.07229v1
+year: '2022'

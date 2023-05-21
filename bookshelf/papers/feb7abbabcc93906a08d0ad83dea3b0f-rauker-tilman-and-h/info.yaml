@@ -1,0 +1,45 @@
+abstract: The last decade of machine learning has seen drastic increases in scale
+  and capabilities. Deep neural networks (DNNs) are increasingly being deployed in
+  the real world. However, they are difficult to analyze, raising concerns about using
+  them without a rigorous understanding of how they function. Effective tools for
+  interpreting them will be important for building more trustworthy AI by helping
+  to identify problems, fix bugs, and improve basic understanding. In particular,
+  "inner" interpretability techniques, which focus on explaining the internal components
+  of DNNs, are well-suited for developing a mechanistic understanding, guiding manual
+  modifications, and reverse engineering solutions.   Much recent work has focused
+  on DNN interpretability, and rapid progress has thus far made a thorough systematization
+  of methods difficult. In this survey, we review over 300 works with a focus on inner
+  interpretability tools. We introduce a taxonomy that classifies methods by what
+  part of the network they help to explain (weights, neurons, subnetworks, or latent
+  representations) and whether they are implemented during (intrinsic) or after (post
+  hoc) training. To our knowledge, we are also the first to survey a number of connections
+  between interpretability research and work in adversarial robustness, continual
+  learning, modularity, network compression, and studying the human visual system.
+  We discuss key challenges and argue that the status quo in interpretability research
+  is largely unproductive. Finally, we highlight the importance of future work that
+  emphasizes diagnostics, debugging, adversaries, and benchmarking in order to make
+  interpretability tools more useful to engineers in practical applications.
+archiveprefix: arXiv
+author: Räuker, Tilman and Ho, Anson and Casper, Stephen and Hadfield-Menell, Dylan
+author_list:
+- family: Räuker
+  given: Tilman
+- family: Ho
+  given: Anson
+- family: Casper
+  given: Stephen
+- family: Hadfield-Menell
+  given: Dylan
+eprint: 2207.13243v5
+file: 2207.13243v5.pdf
+files:
+- rauker-tilman-and-ho-anson-and-casper-stephen-and-hadfield-menell-dylantoward-transparent-ai-a-survey-on-interpreting-the-inner-structures-of-d.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 2207.13243v5
+time-added: 2023-05-17-16:33:04
+title: 'Toward Transparent AI: A Survey on Interpreting the Inner Structures of   Deep
+  Neural Networks'
+type: article
+url: http://arxiv.org/abs/2207.13243v5
+year: '2022'
