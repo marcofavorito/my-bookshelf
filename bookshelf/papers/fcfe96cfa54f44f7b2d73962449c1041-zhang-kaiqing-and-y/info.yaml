@@ -1,0 +1,44 @@
+abstract: Recent years have witnessed significant advances in reinforcement learning
+  (RL), which has registered great success in solving various sequential decision-making
+  problems in machine learning. Most of the successful RL applications, e.g., the
+  games of Go and Poker, robotics, and autonomous driving, involve the participation
+  of more than one single agent, which naturally fall into the realm of multi-agent
+  RL (MARL), a domain with a relatively long history, and has recently re-emerged
+  due to advances in single-agent RL techniques. Though empirically successful, theoretical
+  foundations for MARL are relatively lacking in the literature. In this chapter,
+  we provide a selective overview of MARL, with focus on algorithms backed by theoretical
+  analysis. More specifically, we review the theoretical results of MARL algorithms
+  mainly within two representative frameworks, Markov/stochastic games and extensive-form
+  games, in accordance with the types of tasks they address, i.e., fully cooperative,
+  fully competitive, and a mix of the two. We also introduce several significant but
+  challenging applications of these algorithms. Orthogonal to the existing reviews
+  on MARL, we highlight several new angles and taxonomies of MARL theory, including
+  learning in extensive-form games, decentralized MARL with networked agents, MARL
+  in the mean-field regime, (non-)convergence of policy-based methods for learning
+  in games, etc. Some of the new angles extrapolate from our own research endeavors
+  and interests. Our overall goal with this chapter is, beyond providing an assessment
+  of the current state of the field on the mark, to identify fruitful future research
+  directions on theoretical studies of MARL. We expect this chapter to serve as continuing
+  stimulus for researchers interested in working on this exciting while challenging
+  topic.
+archiveprefix: arXiv
+author: Zhang, Kaiqing and Yang, Zhuoran and Başar, Tamer
+author_list:
+- family: Zhang
+  given: Kaiqing
+- family: Yang
+  given: Zhuoran
+- family: Başar
+  given: Tamer
+eprint: 1911.10635v2
+file: 1911.10635v2.pdf
+files:
+- zhang-kaiqing-and-yang-zhuoran-and-basar-tamermulti-agent-reinforcement-learning-a-selective-overview-of-theories-and-algorithms2019.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 1911.10635v2
+time-added: 2023-07-18-11:31:09
+title: 'Multi-Agent Reinforcement Learning: A Selective Overview of Theories and   Algorithms'
+type: article
+url: http://arxiv.org/abs/1911.10635v2
+year: '2019'

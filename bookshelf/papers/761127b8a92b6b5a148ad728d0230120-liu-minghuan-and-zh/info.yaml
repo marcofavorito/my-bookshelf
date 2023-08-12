@@ -1,0 +1,30 @@
+abstract: Goal-conditioned reinforcement learning (GCRL), related to a set of complex
+  RL problems, trains an agent to achieve different goals under particular scenarios.
+  Compared to the standard RL solutions that learn a policy solely depending on the
+  states or observations, GCRL additionally requires the agent to make decisions according
+  to different goals. In this survey, we provide a comprehensive overview of the challenges
+  and algorithms for GCRL. Firstly, we answer what the basic problems are studied
+  in this field. Then, we explain how goals are represented and present how existing
+  solutions are designed from different points of view. Finally, we make the conclusion
+  and discuss potential future prospects that recent researches focus on.
+archiveprefix: arXiv
+author: Liu, Minghuan and Zhu, Menghui and Zhang, Weinan
+author_list:
+- family: Liu
+  given: Minghuan
+- family: Zhu
+  given: Menghui
+- family: Zhang
+  given: Weinan
+eprint: 2201.08299v3
+file: 2201.08299v3.pdf
+files:
+- liu-minghuan-and-zhu-menghui-and-zhang-weinangoal-conditioned-reinforcement-learning-problems-and-solutions2022.pdf
+month: Jan
+primaryclass: cs.AI
+ref: 2201.08299v3
+time-added: 2023-07-28-15:53:42
+title: 'Goal-Conditioned Reinforcement Learning: Problems and Solutions'
+type: article
+url: http://arxiv.org/abs/2201.08299v3
+year: '2022'

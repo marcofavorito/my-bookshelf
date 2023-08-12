@@ -1,0 +1,27 @@
+abstract: Evolutionary symbolic regression (SR) fits a symbolic equation to data,
+  which gives a concise interpretable model. We explore using SR as a method to propose
+  which data to gather in an active learning setting with physical constraints. SR
+  with active learning proposes which experiments to do next. Active learning is done
+  with query by committee, where the Pareto frontier of equations is the committee.
+  The physical constraints improve proposed equations in very low data settings. These
+  approaches reduce the data required for SR and achieves state of the art results
+  in data required to rediscover known equations.
+archiveprefix: arXiv
+author: Medina, Jorge and White, Andrew D.
+author_list:
+- family: Medina
+  given: Jorge
+- family: White
+  given: Andrew D.
+eprint: 2305.10379v2
+file: 2305.10379v2.pdf
+files:
+- medina-jorge-and-white-andrew-d.active-learning-in-symbolic-regression-with-physical-constraints2023.pdf
+month: May
+primaryclass: cs.LG
+ref: 2305.10379v2
+time-added: 2023-05-27-21:58:03
+title: Active Learning in Symbolic Regression with Physical Constraints
+type: article
+url: http://arxiv.org/abs/2305.10379v2
+year: '2023'

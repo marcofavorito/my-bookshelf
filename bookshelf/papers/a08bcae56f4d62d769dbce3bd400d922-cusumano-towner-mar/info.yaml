@@ -1,0 +1,520 @@
+author: Cusumano-Towner, Marco F. and Saad, Feras A. and Lew, Alexander K. and Mansinghka,
+  Vikash K.
+author_list:
+- affiliation:
+  - name: Massachusetts Institute of Technology, USA
+  family: Cusumano-Towner
+  given: Marco F.
+- affiliation:
+  - name: Massachusetts Institute of Technology, USA
+  family: Saad
+  given: Feras A.
+- affiliation:
+  - name: Massachusetts Institute of Technology, USA
+  family: Lew
+  given: Alexander K.
+- affiliation:
+  - name: Massachusetts Institute of Technology, USA
+  family: Mansinghka
+  given: Vikash K.
+booktitle: 'PLDI ''19: 40th ACM SIGPLAN Conference on Programming Language Design
+  and Implementation'
+citations:
+- author: Abadi Martín
+  first-page: '265'
+  unstructured: 'Martín Abadi , Paul Barham , Jianmin Chen , Zhifeng Chen , Andy Davis
+    , Jeffrey Dean , Matthieu Devin , Sanjay Ghemawat , Geoffrey Irving , Michael
+    Isard , Manjunath Kudlur , Josh Levenberg , Rajat Monga , Sherry Moore , Derek
+    G. Murray , Benoit Steiner , Paul Tucker , Vijay Vasudevan , Pete Warden , Martin
+    Wicke , Yuan Yu , and Xiaoqiang Zheng . 2016 . TensorFlow: A System for Large-Scale
+    Machine Learning . In Proceedings of the 12th USENIX Symposium on Operating Systems
+    Design and Implementation (OSDI 2016). USENIX Association , 265 - 283 . Martín
+    Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu
+    Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, Manjunath Kudlur, Josh
+    Levenberg, Rajat Monga, Sherry Moore, Derek G. Murray, Benoit Steiner, Paul Tucker,
+    Vijay Vasudevan, Pete Warden, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. 2016.
+    TensorFlow: A System for Large-Scale Machine Learning. In Proceedings of the 12th
+    USENIX Symposium on Operating Systems Design and Implementation (OSDI 2016). USENIX
+    Association, 265-283.'
+  volume-title: Proceedings of the 12th USENIX Symposium on Operating Systems Design
+    and Implementation (OSDI
+  year: '2016'
+- author: Adams Ryan
+  first-page: '1'
+  unstructured: Ryan Adams , Hanna Wallach , and Zoubin Ghahramani . 2010 . Learning
+    the structure of deep sparse graphical models . In Proceedings of the 13th International
+    Conference on Artificial Intelligence and Statistics (AISTATS 2010). PMLR, 1 -
+    8 . Ryan Adams, Hanna Wallach, and Zoubin Ghahramani. 2010. Learning the structure
+    of deep sparse graphical models. In Proceedings of the 13th International Conference
+    on Artificial Intelligence and Statistics (AISTATS 2010). PMLR, 1-8.
+  volume-title: Proceedings of the 13th International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2010'
+- unstructured: Eric Atkinson Cambridge Yang and Michael Carbin. 2018. Verifying handcoded
+    probabilistic inference procedures. (2018). arXiv:1805.01863  Eric Atkinson Cambridge
+    Yang and Michael Carbin. 2018. Verifying handcoded probabilistic inference procedures.
+    (2018). arXiv:1805.01863
+- doi: 10.1137/141000671
+- author: Bingham Eli
+  unstructured: 'Eli Bingham , Jonathan P. Chen , Martin Jankowiak , Fritz Obermeyer
+    , Neeraj Pradhan , Theofanis Karaletsos , Rohit Singh , Paul Szerlip , Paul Horsfall
+    , and Noah D . Goodman . 2018 . Pyro : Deep universal probabilistic programming.
+    (2018). arXiv:1810.09538 Eli Bingham, Jonathan P. Chen, Martin Jankowiak, Fritz
+    Obermeyer, Neeraj Pradhan, Theofanis Karaletsos, Rohit Singh, Paul Szerlip, Paul
+    Horsfall, and Noah D. Goodman. 2018. Pyro: Deep universal probabilistic programming.
+    (2018). arXiv:1810.09538'
+  volume-title: Goodman
+  year: '2018'
+- doi: 10.1080/01621459.2017.1285773
+- article-title: Latent Dirichlet allocation
+  author: Blei David M.
+  journal-title: Journal of Machine Learning Research 3
+  unstructured: David M. Blei , Andrew Y. Ng , and Michael I. Jordan . 2003 . Latent
+    Dirichlet allocation . Journal of Machine Learning Research 3 ( Jan. 2003), 993-1022.
+    David M. Blei, Andrew Y. Ng, and Michael I. Jordan. 2003. Latent Dirichlet allocation.
+    Journal of Machine Learning Research 3 (Jan. 2003), 993-1022.
+  year: '2003'
+- doi: 10.18637/jss.v076.i01
+- doi: 10.1016/j.tics.2006.05.007
+- doi: 10.1145/3192366.3192399
+- article-title: 'AIDE: An algorithm for measuring the accuracy of probabilistic inference
+    algorithms. In Advances in Neural Information Processing Systems 30 (NIPS 2017).
+    Curran Associates'
+  author: Cusumano-Towner Marco
+  first-page: '3000'
+  journal-title: Inc.
+  unstructured: 'Marco Cusumano-Towner and Vikash K. Mansinghka . 2017 . AIDE: An
+    algorithm for measuring the accuracy of probabilistic inference algorithms. In
+    Advances in Neural Information Processing Systems 30 (NIPS 2017). Curran Associates
+    , Inc. , 3000 - 3010 . Marco Cusumano-Towner and Vikash K. Mansinghka. 2017. AIDE:
+    An algorithm for measuring the accuracy of probabilistic inference algorithms.
+    In Advances in Neural Information Processing Systems 30 (NIPS 2017). Curran Associates,
+    Inc., 3000-3010.'
+  year: '2017'
+- author: Cusumano-Towner Marco
+  unstructured: Marco Cusumano-Towner , Alexey Radul , David Wingate , and Vikash
+    K . Mansinghka . 2017 . Probabilistic programs for inferring the goals of autonomous
+    agents. (2017). arXiv:1704.04977 Marco Cusumano-Towner, Alexey Radul, David Wingate,
+    and Vikash K. Mansinghka. 2017. Probabilistic programs for inferring the goals
+    of autonomous agents. (2017). arXiv:1704.04977
+  volume-title: Mansinghka
+  year: '2017'
+- doi: 10.1109/CVPR.2008.4587752
+- author: Pero Luca Del
+  first-page: '2719'
+  unstructured: Luca Del Pero , Joshua Bowdish , Daniel Fried , Bonnie Kermgard ,
+    Emily Hartley , and Kobus Barnard . 2012 . Bayesian geometric modeling of indoor
+    scenes . In Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition (CVPR 2012). IEEE, 2719 - 2726 . Luca Del Pero, Joshua Bowdish, Daniel
+    Fried, Bonnie Kermgard, Emily Hartley, and Kobus Barnard. 2012. Bayesian geometric
+    modeling of indoor scenes. In Proceedings of the IEEE Conference on Computer Vision
+    and Pattern Recognition (CVPR 2012). IEEE, 2719-2726.
+  volume-title: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition (CVPR
+  year: '2012'
+- author: Doucet Arnaud
+  unstructured: Arnaud Doucet , Nando De Freitas, and Neil Gordon . 2001 . An introduction
+    to sequential Monte Carlo methods. In Sequential Monte Carlo Methods in Practice,
+    Arnaud Doucet, Nando de Freitas, and Neil Gordon (Eds.). Springer , 3-14. Arnaud
+    Doucet, Nando De Freitas, and Neil Gordon. 2001. An introduction to sequential
+    Monte Carlo methods. In Sequential Monte Carlo Methods in Practice, Arnaud Doucet,
+    Nando de Freitas, and Neil Gordon (Eds.). Springer, 3-14.
+  volume-title: Nando De Freitas, and Neil Gordon
+  year: '2001'
+- doi: 10.1016/0370-2693(87)91197-X
+- author: Duvenaud David
+  first-page: '1166'
+  unstructured: David Duvenaud , James Robert Lloyd , Roger Grosse , Joshua B. Tenenbaum
+    , and Zoubin Ghahramani . 2013 . Structure discovery in nonparametric regression
+    through compositional kernel search . In Proceedings of the 30th International
+    Conference on Machine Learning (ICML 2010). PMLR, 1166 - 1174 . David Duvenaud,
+    James Robert Lloyd, Roger Grosse, Joshua B. Tenenbaum, and Zoubin Ghahramani.
+    2013. Structure discovery in nonparametric regression through compositional kernel
+    search. In Proceedings of the 30th International Conference on Machine Learning
+    (ICML 2010). PMLR, 1166-1174.
+  volume-title: Proceedings of the 30th International Conference on Machine Learning
+    (ICML
+  year: '2013'
+- author: Ge Hong
+  first-page: '1682'
+  unstructured: 'Hong Ge , Kai Xu , and Zoubin Ghahramani . 2018 . Turing: A language
+    for flexible probabilistic inference . In Proceedings of the 21st International
+    Conference on Artificial Intelligence and Statistics (AISTATS 2018). PMLR, 1682
+    - 1690 . Hong Ge, Kai Xu, and Zoubin Ghahramani. 2018. Turing: A language for
+    flexible probabilistic inference. In Proceedings of the 21st International Conference
+    on Artificial Intelligence and Statistics (AISTATS 2018). PMLR, 1682-1690.'
+  volume-title: Proceedings of the 21st International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2018'
+- doi: 10.1080/01621459.1990.10476213
+- author: Gelman Andrew
+  unstructured: Andrew Gelman , Hal S. Stern , John B. Carlin , David B. Dunson ,
+    Aki Vehtari , and Donald B . Rubin . 2013 . Bayesian Data Analysis. CRC Press
+    . Andrew Gelman, Hal S. Stern, John B. Carlin, David B. Dunson, Aki Vehtari, and
+    Donald B. Rubin. 2013. Bayesian Data Analysis. CRC Press.
+  volume-title: Rubin
+  year: '2013'
+- author: Geman Stuart
+  unstructured: 'Stuart Geman and Donald Geman . 1987. Stochastic relaxation , Gibbs
+    distributions, and the Bayesian restoration of images. In Readings in Computer
+    Vision: Issues, Problem, Principles, and Paradigms, Martin A . Fischler and Oscar
+    Fischler (Eds.). Morgan Kaufmann Publishers Inc ., 564-584. Stuart Geman and Donald
+    Geman. 1987. Stochastic relaxation, Gibbs distributions, and the Bayesian restoration
+    of images. In Readings in Computer Vision: Issues, Problem, Principles, and Paradigms,
+    Martin A. Fischler and Oscar Fischler (Eds.). Morgan Kaufmann Publishers Inc.,
+    564-584.'
+  volume-title: 'Gibbs distributions, and the Bayesian restoration of images. In Readings
+    in Computer Vision: Issues, Problem, Principles, and Paradigms, Martin A'
+- author: Goodman Noah
+  first-page: '220'
+  unstructured: 'Noah Goodman , Vikash Mansinghka , Daniel M. Roy , Keith Bonawitz
+    , and Joshua B. Tenenbaum . 2008. Church: a language for generative models . In
+    Proceedings of the 24th Annual Conference on Uncertainty in Artificial Intelligence
+    (UAI 2008 ). AUAI Press , 220 - 229 . Noah Goodman, Vikash Mansinghka, Daniel
+    M. Roy, Keith Bonawitz, and Joshua B. Tenenbaum. 2008. Church: a language for
+    generative models. In Proceedings of the 24th Annual Conference on Uncertainty
+    in Artificial Intelligence (UAI 2008). AUAI Press, 220-229.'
+  volume-title: Proceedings of the 24th Annual Conference on Uncertainty in Artificial
+    Intelligence (UAI
+  year: '2008'
+- author: Noah
+  unstructured: 'Noah D. Goodman and Andreas Stuhlmüller . 2014 . The Design and Implementation
+    of Probabilistic Programming Languages. http://dippl.org. Accessed : 2018-11-8.
+    Noah D. Goodman and Andreas Stuhlmüller. 2014. The Design and Implementation of
+    Probabilistic Programming Languages. http://dippl.org. Accessed: 2018-11-8.'
+  volume-title: Goodman and Andreas Stuhlmüller
+  year: '2014'
+- doi: 10.1093/biomet/82.4.711
+- author: Grosse Roger B.
+  first-page: '306'
+  unstructured: Roger B. Grosse , Ruslan Salakhutdinov , William T. Freeman , and
+    Joshua B. Tenenbaum . 2012. Exploiting compositionality to explore a large space
+    of model structures . In Proceedings of the 28th Conference on Uncertainty in
+    Artificial Intelligence (UAI 2012 ). AUAI Press , 306 - 315 . Roger B. Grosse,
+    Ruslan Salakhutdinov, William T. Freeman, and Joshua B. Tenenbaum. 2012. Exploiting
+    compositionality to explore a large space of model structures. In Proceedings
+    of the 28th Conference on Uncertainty in Artificial Intelligence (UAI 2012). AUAI
+    Press, 306-315.
+  volume-title: Proceedings of the 28th Conference on Uncertainty in Artificial Intelligence
+    (UAI
+  year: '2012'
+- doi: 10.1093/biomet/57.1.97
+- doi: 10.1162/neco.2006.18.7.1527
+- doi: 10.1109/IROS.2016.7759242
+- doi: 10.1145/3062341.3062375
+- author: Jampani Varun
+  unstructured: Varun Jampani , Sebastian Nowozin , Matthew Loper , and Peter V .
+    Gehler . 2015 . The informed sampler. Computing Vision and Image Understanding
+    136, C ( 2015), 32-44. Varun Jampani, Sebastian Nowozin, Matthew Loper, and Peter
+    V. Gehler. 2015. The informed sampler. Computing Vision and Image Understanding
+    136, C (2015), 32-44.
+  volume-title: Gehler
+  year: '2015'
+- doi: 10.1109/JPROC.2003.823141
+- doi: 10.1115/1.3662552
+- doi: 10.1093/nar/gkg614
+- author: Koller Daphne
+  unstructured: 'Daphne Koller , Nir Friedman , and Francis Bach . 2009. Probabilistic
+    Graphical Models: Principles and Techniques . MIT Press . Daphne Koller, Nir Friedman,
+    and Francis Bach. 2009. Probabilistic Graphical Models: Principles and Techniques.
+    MIT Press.'
+  volume-title: 'Probabilistic Graphical Models: Principles and Techniques'
+- doi: 10.1109/CVPR.2015.7299068
+- author: Lafferty John D.
+  first-page: '282'
+  unstructured: 'John D. Lafferty , Andrew McCallum , and Fernando C. N. Pereira .
+    2001. Conditional random fields: Probabilistic models for segmenting and labeling
+    sequence data . In Proceedings of the 18th International Conference on Machine
+    Learning (ICML 2001 ). Morgan Kaufmann Publishers Inc. , 282 - 289 . John D. Lafferty,
+    Andrew McCallum, and Fernando C. N. Pereira. 2001. Conditional random fields:
+    Probabilistic models for segmenting and labeling sequence data. In Proceedings
+    of the 18th International Conference on Machine Learning (ICML 2001). Morgan Kaufmann
+    Publishers Inc., 282-289.'
+  volume-title: Proceedings of the 18th International Conference on Machine Learning
+    (ICML
+  year: '2001'
+- article-title: 'CrossCat: A fully Bayesian nonparametric method for analyzing heterogeneous,
+    high dimensional data'
+  author: Mansinghka Vikash
+  first-page: '1'
+  journal-title: Journal of Machine Learning Research
+  unstructured: 'Vikash Mansinghka , Patrick Shafto , Eric Jonas , Cap Petschulat
+    , Max Gasner , and Joshua B. Tenenbaum . 2016 . CrossCat: A fully Bayesian nonparametric
+    method for analyzing heterogeneous, high dimensional data . Journal of Machine
+    Learning Research 17 , 138 (2016), 1 - 49 . Vikash Mansinghka, Patrick Shafto,
+    Eric Jonas, Cap Petschulat, Max Gasner, and Joshua B. Tenenbaum. 2016. CrossCat:
+    A fully Bayesian nonparametric method for analyzing heterogeneous, high dimensional
+    data. Journal of Machine Learning Research 17, 138 (2016), 1-49.'
+  volume: '17'
+  year: '2016'
+- article-title: Approximate Bayesian image interpretation using generative probabilistic
+    graphics programs. In Advances in Neural Information Processing Systems 26. Curran
+    Associates
+  author: Mansinghka Vikash K.
+  first-page: '1520'
+  journal-title: Inc.
+  unstructured: Vikash K. Mansinghka , Tejas D. Kulkarni , Yura N. Perov , and Joshua
+    B. Tenenbaum . 2013 . Approximate Bayesian image interpretation using generative
+    probabilistic graphics programs. In Advances in Neural Information Processing
+    Systems 26. Curran Associates , Inc. , 1520 - 1528 . Vikash K. Mansinghka, Tejas
+    D. Kulkarni, Yura N. Perov, and Joshua B. Tenenbaum. 2013. Approximate Bayesian
+    image interpretation using generative probabilistic graphics programs. In Advances
+    in Neural Information Processing Systems 26. Curran Associates, Inc., 1520-1528.
+  year: '2013'
+- doi: 10.1145/3192366.3192409
+- article-title: 'FACTORIE: Probabilistic programming via imperatively defined factor
+    graphs. In Advances in Neural Information Processing Systems 22 (NIPS 2009)'
+  author: McCallum Andrew
+  first-page: '1249'
+  journal-title: Curran Associates
+  unstructured: 'Andrew McCallum , Karl Schultz , and Sameer Singh . 2009 . FACTORIE:
+    Probabilistic programming via imperatively defined factor graphs. In Advances
+    in Neural Information Processing Systems 22 (NIPS 2009) . Curran Associates ,
+    1249 - 1257 . Andrew McCallum, Karl Schultz, and Sameer Singh. 2009. FACTORIE:
+    Probabilistic programming via imperatively defined factor graphs. In Advances
+    in Neural Information Processing Systems 22 (NIPS 2009). Curran Associates, 1249-1257.'
+  year: '2009'
+- author: Milch Brian
+  first-page: '1352'
+  unstructured: 'Brian Milch , Bhaskara Marthi , Stuart Russell , David Sontag , Daniel
+    L. Ong , and Andrey Kolobov . 2005 . BLOG: Probabilistic models with unknown objects
+    . In Proceedings of the Nineteenth International Joint Conference on Artificial
+    Intelligence (IJCAI 2005). Morgan Kaufmann Publishers Inc. , 1352 - 1359 . Brian
+    Milch, Bhaskara Marthi, Stuart Russell, David Sontag, Daniel L. Ong, and Andrey
+    Kolobov. 2005. BLOG: Probabilistic models with unknown objects. In Proceedings
+    of the Nineteenth International Joint Conference on Artificial Intelligence (IJCAI
+    2005). Morgan Kaufmann Publishers Inc., 1352-1359.'
+  volume-title: Proceedings of the Nineteenth International Joint Conference on Artificial
+    Intelligence (IJCAI
+  year: '2005'
+- author: Montemerlo Michael
+  first-page: '1151'
+  unstructured: 'Michael Montemerlo , Sebastian Thrun , Daphne Roller , and Ben Wegbreit
+    . 2003 . FastSLAM 2.0: An improved particle filtering algorithm for simultaneous
+    localization and mapping that provably converges . In Proceedings of the 18th
+    International Joint Conference on Artificial Intelligence (IJCAI 2003). Morgan
+    Kaufmann Publishers Inc. , 1151 - 1156 . Michael Montemerlo, Sebastian Thrun,
+    Daphne Roller, and Ben Wegbreit. 2003. FastSLAM 2.0: An improved particle filtering
+    algorithm for simultaneous localization and mapping that provably converges. In
+    Proceedings of the 18th International Joint Conference on Artificial Intelligence
+    (IJCAI 2003). Morgan Kaufmann Publishers Inc., 1151-1156.'
+  volume-title: Proceedings of the 18th International Joint Conference on Artificial
+    Intelligence (IJCAI
+  year: '2003'
+- author: Murphy Kevin P.
+  unstructured: 'Kevin P. Murphy . 2012 . Machine Learning: A Probabilistic Perspective
+    . MIT Press . Kevin P. Murphy. 2012. Machine Learning: A Probabilistic Perspective.
+    MIT Press.'
+  volume-title: 'Machine Learning: A Probabilistic Perspective'
+  year: '2012'
+- unstructured: Lawrence M Murray Daniel Lundén Jan Kudlicka David Broman and Thomas
+    B Schön. 2018. Delayed sampling and automatic Rao-Blackwellization of probabilistic
+    programs. (2018) 1037-1046.  Lawrence M Murray Daniel Lundén Jan Kudlicka David
+    Broman and Thomas B Schön. 2018. Delayed sampling and automatic Rao-Blackwellization
+    of probabilistic programs. (2018) 1037-1046.
+- doi: 10.1007/978-3-319-29604-3_5
+- article-title: Markov chain sampling methods for Dirichlet process mixture models
+  author: Neal Radford M.
+  first-page: '249'
+  journal-title: Journal of Computational and Graphical Statistics
+  unstructured: Radford M. Neal . 2000 . Markov chain sampling methods for Dirichlet
+    process mixture models . Journal of Computational and Graphical Statistics 9 ,
+    2 (2000), 249 - 265 . Radford M. Neal. 2000. Markov chain sampling methods for
+    Dirichlet process mixture models. Journal of Computational and Graphical Statistics
+    9, 2 (2000), 249-265.
+  volume: '9'
+  year: '2000'
+- author: Pfeffer Avi
+  first-page: '733'
+  unstructured: 'Avi Pfeffer . 2001 . IBAL: A probabilistic rational programming language
+    . In Proceedings of the Seventeenth International Joint Conference on Artificial
+    Intelligence (IJCAI 2001), Vol. 1 . Morgan Kaufmann Publishers Inc. , 733 - 740
+    . Avi Pfeffer. 2001. IBAL: A probabilistic rational programming language. In Proceedings
+    of the Seventeenth International Joint Conference on Artificial Intelligence (IJCAI
+    2001), Vol. 1. Morgan Kaufmann Publishers Inc., 733-740.'
+  volume: '1'
+  volume-title: Proceedings of the Seventeenth International Joint Conference on Artificial
+    Intelligence (IJCAI
+  year: '2001'
+- author: Pfeffer Avi
+  unstructured: Avi Pfeffer . 2016. Practical Probabilistic Programming (1 ed.) .
+    Manning Publications Co. Avi Pfeffer. 2016. Practical Probabilistic Programming
+    (1 ed.). Manning Publications Co.
+  volume-title: Practical Probabilistic Programming (1 ed.)
+- author: Ranganath Rajesh
+  first-page: '814'
+  unstructured: Rajesh Ranganath , Sean Gerrish , and David Blei . 2014 . Black box
+    variational inference . In Proceedings of the 17th International Conference on
+    Artificial Intelligence and Statistics (AISTATS 2014). PMLR, 814 - 822 . Rajesh
+    Ranganath, Sean Gerrish, and David Blei. 2014. Black box variational inference.
+    In Proceedings of the 17th International Conference on Artificial Intelligence
+    and Statistics (AISTATS 2014). PMLR, 814-822.
+  volume-title: Proceedings of the 17th International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2014'
+- author: Ritchie Daniel
+  first-page: '28'
+  unstructured: 'Daniel Ritchie , Andreas Stuhlmüller , and Noah Goodman . 2016 .
+    C3: Lightweight incrementalized MCMC for probabilistic programs using continuations
+    and callsite caching . In Proceedings of the 19th International Conference on
+    Artificial Intelligence and Statistics (AISTATS 2016). PMLR, 28 - 37 . Daniel
+    Ritchie, Andreas Stuhlmüller, and Noah Goodman. 2016. C3: Lightweight incrementalized
+    MCMC for probabilistic programs using continuations and callsite caching. In Proceedings
+    of the 19th International Conference on Artificial Intelligence and Statistics
+    (AISTATS 2016). PMLR, 28-37.'
+  volume-title: Proceedings of the 19th International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2016'
+- doi: 10.2307/3318418
+- author: Stuart
+  unstructured: 'Stuart J. Russell and Peter Norvig . 2009 . Artificial Intelligence
+    : A Modern Approach. Pearson . Stuart J. Russell and Peter Norvig. 2009. Artificial
+    Intelligence: A Modern Approach. Pearson.'
+  volume-title: Russell and Peter Norvig
+  year: '2009'
+- author: Saad Feras A.
+  unstructured: Feras A. Saad , Marco Cusumano-Towner , Ulrich Schaechtle , Martin
+    C. Rinard , and Vikash K. Mansinghka . 2019. Bayesian synthesis of probabilistic
+    programs for automatic data modeling . Proceedings of the ACM on Programming Languages
+    3, POPL, Article 37 ( 2019 ), 29 pages. Feras A. Saad, Marco Cusumano-Towner,
+    Ulrich Schaechtle, Martin C. Rinard, and Vikash K. Mansinghka. 2019. Bayesian
+    synthesis of probabilistic programs for automatic data modeling. Proceedings of
+    the ACM on Programming Languages 3, POPL, Article 37 (2019), 29 pages.
+  volume-title: Proceedings of the ACM on Programming Languages 3, POPL, Article 37
+  year: '2019'
+- author: Salimans Tim
+  first-page: '1218'
+  unstructured: 'Tim Salimans , Diederik P Kingma , and Max Welling . 2015 . Markov
+    chain Monte Carlo and variational inference: Bridging the gap . In Proceedings
+    of the 32nd International Conference on Machine Learning (ICML 2015). PMLR, 1218
+    - 1226 . Tim Salimans, Diederik P Kingma, and Max Welling. 2015. Markov chain
+    Monte Carlo and variational inference: Bridging the gap. In Proceedings of the
+    32nd International Conference on Machine Learning (ICML 2015). PMLR, 1218-1226.'
+  volume-title: Proceedings of the 32nd International Conference on Machine Learning
+    (ICML
+  year: '2015'
+- doi: 10.7717/peerj-cs.55
+- author: Schaechtle Ulrich
+  unstructured: Ulrich Schaechtle , Feras Saad , Alexey Radul , and Vikash K . Mansinghka
+    . 2016 . Time Series Structure Discovery via Probabilistic Program Synthesis .
+    (2016). arXiv:1611.07051 Ulrich Schaechtle, Feras Saad, Alexey Radul, and Vikash
+    K. Mansinghka. 2016. Time Series Structure Discovery via Probabilistic Program
+    Synthesis. (2016). arXiv:1611.07051
+  volume-title: Mansinghka
+  year: '2016'
+- article-title: Combined discriminative and generative articulated pose and non-rigid
+    shape estimation. In Advances in Neural Information Processing Systems 20. Curran
+    Associates
+  author: Sigal Leonid
+  first-page: '1337'
+  journal-title: Inc.
+  unstructured: Leonid Sigal , Alexandru Balan , and Michael J. Black . 2008 . Combined
+    discriminative and generative articulated pose and non-rigid shape estimation.
+    In Advances in Neural Information Processing Systems 20. Curran Associates , Inc.
+    , 1337 - 1344 . Leonid Sigal, Alexandru Balan, and Michael J. Black. 2008. Combined
+    discriminative and generative articulated pose and non-rigid shape estimation.
+    In Advances in Neural Information Processing Systems 20. Curran Associates, Inc.,
+    1337-1344.
+  year: '2008'
+- article-title: Learning stochastic inverses. In Advances in Neural Information Processing
+    Systems 26 (NIPS 2013)
+  author: Stuhlmüller Andreas
+  first-page: '3048'
+  journal-title: Curran Associates
+  unstructured: Andreas Stuhlmüller , Jacob Taylor , and Noah Goodman . 2013 . Learning
+    stochastic inverses. In Advances in Neural Information Processing Systems 26 (NIPS
+    2013) . Curran Associates , 3048 - 3056 . Andreas Stuhlmüller, Jacob Taylor, and
+    Noah Goodman. 2013. Learning stochastic inverses. In Advances in Neural Information
+    Processing Systems 26 (NIPS 2013). Curran Associates, 3048-3056.
+  year: '2013'
+- unstructured: Sebastian Thrun Wolfram Burgard and Dieter Fox. 2005. Probabilistic
+    Robotics. MIT Press.  Sebastian Thrun Wolfram Burgard and Dieter Fox. 2005. Probabilistic
+    Robotics . MIT Press.
+- author: Tran Dustin
+  unstructured: Dustin Tran , Matthew D. Hoffman , Rif A. Saurous , Eugene Brevdo
+    , Kevin Murphy , and David M. Blei . 2017. Deep probabilistic programming . In
+    International Conference on Learning Representations (ICLR). Dustin Tran, Matthew
+    D. Hoffman, Rif A. Saurous, Eugene Brevdo, Kevin Murphy, and David M. Blei. 2017.
+    Deep probabilistic programming. In International Conference on Learning Representations
+    (ICLR).
+  volume-title: International Conference on Learning Representations (ICLR).
+- author: Tristan Jean-Baptiste
+  unstructured: 'Jean-Baptiste Tristan , Daniel Huang , Joseph Tassarotti , Adam C.
+    Pocock , Stephen Green , and Guy L . Steele . 2014 . Augur : Data-parallel probabilistic
+    modeling. In Advances in Neural Information Processing Systems 27 (NIPS 2014).
+    2600-2608. Jean-Baptiste Tristan, Daniel Huang, Joseph Tassarotti, Adam C. Pocock,
+    Stephen Green, and Guy L. Steele. 2014. Augur: Data-parallel probabilistic modeling.
+    In Advances in Neural Information Processing Systems 27 (NIPS 2014). 2600-2608.'
+  volume-title: Steele
+  year: '2014'
+- unstructured: Jan-Willem van de Meent Brooks Paige Hongseok Yang and Frank Wood.
+    2018. An introduction to probabilistic programming. (2018). arXiv:1809.10756  Jan-Willem
+    van de Meent Brooks Paige Hongseok Yang and Frank Wood. 2018. An introduction
+    to probabilistic programming. (2018). arXiv:1809.10756
+- doi: 10.1561/2200000001
+- doi: 10.1515/sagmb-2013-0010
+- author: Wingate David
+  first-page: '770'
+  unstructured: David Wingate , Andreas Stuhlmüller , and Noah Goodman . 2011 . Light-weight
+    implementations of probabilistic programming languages via transformational compilation
+    . In Proceedings of the 14TH International Conference on Artificial Intelligence
+    and Statistics (AISTATS 2011). PMLR, 770 - 778 . David Wingate, Andreas Stuhlmüller,
+    and Noah Goodman. 2011. Light-weight implementations of probabilistic programming
+    languages via transformational compilation. In Proceedings of the 14TH International
+    Conference on Artificial Intelligence and Statistics (AISTATS 2011). PMLR, 770-778.
+  volume-title: Proceedings of the 14TH International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2011'
+- author: Wood Frank
+  first-page: '536'
+  unstructured: Frank Wood , Thomas L. Griffiths , and Zoubin Ghahramani . 2006 .
+    A non-parametric Bayesian method for inferring hidden causes . In Proceedings
+    of the 22nd Conference on Uncertainty in Artificial Intelligence (UAI 2006). AUAI
+    Press , 536 - 543 . Frank Wood, Thomas L. Griffiths, and Zoubin Ghahramani. 2006.
+    A non-parametric Bayesian method for inferring hidden causes. In Proceedings of
+    the 22nd Conference on Uncertainty in Artificial Intelligence (UAI 2006). AUAI
+    Press, 536-543.
+  volume-title: Proceedings of the 22nd Conference on Uncertainty in Artificial Intelligence
+    (UAI
+  year: '2006'
+- author: Wood Frank
+  first-page: '1024'
+  unstructured: Frank Wood , Jan Willem Meent , and Vikash Mansinghka . 2014 . A new
+    approach to probabilistic programming inference . In Proceedings of the 17th International
+    Conference on Artificial Intelligence and Statistics (AISTATS 2014). PMLR, 1024
+    - 1032 . Frank Wood, Jan Willem Meent, and Vikash Mansinghka. 2014. A new approach
+    to probabilistic programming inference. In Proceedings of the 17th International
+    Conference on Artificial Intelligence and Statistics (AISTATS 2014). PMLR, 1024-1032.
+  volume-title: Proceedings of the 17th International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2014'
+- author: Yang Lingfeng
+  first-page: '1068'
+  unstructured: Lingfeng Yang , Patrick Hanrahan , and Noah Goodman . 2014 . Generating
+    efficient MCMC kernels from probabilistic programs . In Proceedings of the 17th
+    International Conference on Artificial Intelligence and Statistics (AISTATS 2014).
+    PMLR, 1068 - 1076 . Lingfeng Yang, Patrick Hanrahan, and Noah Goodman. 2014. Generating
+    efficient MCMC kernels from probabilistic programs. In Proceedings of the 17th
+    International Conference on Artificial Intelligence and Statistics (AISTATS 2014).
+    PMLR, 1068-1076.
+  volume-title: Proceedings of the 17th International Conference on Artificial Intelligence
+    and Statistics (AISTATS
+  year: '2014'
+- doi: 10.1109/ICCV.2011.6126310
+doc_url: https://dl.acm.org/doi/pdf/10.1145/3314221.3314642
+doi: 10.1145/3314221.3314642
+files:
+- cusumano-towner-marco-f.-and-saad-feras-a.-and-lew-alexander-k.-and-mansinghka-vikash-k.gen-a-general-purpose-probabilistic-programming-system-wi.pdf
+- cusumano-towner-marco-f.-and-saad-feras-a.-and-lew-alexander-k.-and-mansinghka-vikash-k.gen-a-general-purpose-probabilistic-programming-system-wi-a.pdf
+journal: Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design
+  and Implementation
+month: 6
+publisher: ACM
+ref: GenAGeneralCusuma2019
+time-added: 2023-06-12-15:53:11
+title: 'Gen: a general-purpose probabilistic programming system with programmable
+  inference'
+type: inproceedings
+url: http://dx.doi.org/10.1145/3314221.3314642
+venue: Phoenix AZ USA
+year: 2019

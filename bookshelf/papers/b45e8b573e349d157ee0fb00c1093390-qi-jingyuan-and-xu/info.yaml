@@ -1,0 +1,48 @@
+abstract: Chain-of-Thought prompting (CoT) enables large-scale language models to
+  solve complex reasoning problems by decomposing the problem and tackling it step-by-step.
+  However, Chain-of-Thought is a greedy thinking process that requires the language
+  model to come up with a starting point and generate the next step solely based on
+  previous steps. This thinking process is different from how humans approach a complex
+  problem e.g., we proactively raise sub-problems related to the original problem
+  and recursively answer them. In this work, we propose Socratic Questioning, a divide-and-conquer
+  fashion algorithm that simulates the self-questioning and recursive thinking process.
+  Socratic Questioning is driven by a Self-Questioning module that employs a large-scale
+  language model to propose sub-problems related to the original problem as intermediate
+  steps and Socratic Questioning recursively backtracks and answers the sub-problems
+  until reaches the original problem. We apply our proposed algorithm to the visual
+  question-answering task as a case study and by evaluating it on three public benchmark
+  datasets, we observe a significant performance improvement over all baselines on
+  (almost) all datasets. In addition, the qualitative analysis clearly demonstrates
+  the intermediate thinking steps elicited by Socratic Questioning are similar to
+  the human's recursively thinking process of a complex reasoning problem.
+archiveprefix: arXiv
+author: Qi, Jingyuan and Xu, Zhiyang and Shen, Ying and Liu, Minqian and Jin, Di and
+  Wang, Qifan and Huang, Lifu
+author_list:
+- family: Qi
+  given: Jingyuan
+- family: Xu
+  given: Zhiyang
+- family: Shen
+  given: Ying
+- family: Liu
+  given: Minqian
+- family: Jin
+  given: Di
+- family: Wang
+  given: Qifan
+- family: Huang
+  given: Lifu
+eprint: 2305.14999v1
+file: 2305.14999v1.pdf
+files:
+- qi-jingyuan-and-xu-zhiyang-and-shen-ying-and-liu-minqian-and-jin-di-and-wang-qifan-and-huang-lifuthe-art-of-socratic-questioning-zero-shot-mul.pdf
+month: May
+primaryclass: cs.CL
+ref: 2305.14999v1
+time-added: 2023-06-13-22:17:28
+title: 'The Art of SOCRATIC QUESTIONING: Zero-shot Multimodal Reasoning with   Recursive
+  Thinking and Self-Questioning'
+type: article
+url: http://arxiv.org/abs/2305.14999v1
+year: '2023'
