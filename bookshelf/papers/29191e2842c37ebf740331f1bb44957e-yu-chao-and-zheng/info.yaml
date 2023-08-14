@@ -1,0 +1,40 @@
+abstract: Reinforcement Learning(RL) has achieved tremendous development in recent
+  years, but still faces significant obstacles in addressing complex real-life problems
+  due to the issues of poor system generalization, low sample efficiency as well as
+  safety and interpretability concerns. The core reason underlying such dilemmas can
+  be attributed to the fact that most of the work has focused on the computational
+  aspect of value functions or policies using a representational model to describe
+  atomic components of rewards, states and actions etc, thus neglecting the rich high-level
+  declarative domain knowledge of facts, relations and rules that can be either provided
+  a priori or acquired through reasoning over time. Recently, there has been a rapidly
+  growing interest in the use of Knowledge Representation and Reasoning(KRR) methods,
+  usually using logical languages, to enable more abstract representation and efficient
+  learning in RL. In this survey, we provide a preliminary overview on these endeavors
+  that leverage the strengths of KRR to help solving various problems in RL, and discuss
+  the challenging open problems and possible directions for future work in this area.
+archiveprefix: arXiv
+author: Yu, Chao and Zheng, Xuejing and Zhuo, Hankz Hankui and Wan, Hai and Luo, Weilin
+author_list:
+- family: Yu
+  given: Chao
+- family: Zheng
+  given: Xuejing
+- family: Zhuo
+  given: Hankz Hankui
+- family: Wan
+  given: Hai
+- family: Luo
+  given: Weilin
+eprint: 2304.12090v1
+file: 2304.12090v1.pdf
+files:
+- yu-chao-and-zheng-xuejing-and-zhuo-hankz-hankui-and-wan-hai-and-luo-weilinreinforcement-learning-with-knowledge-representation-and-reasoning-a.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 2304.12090v1
+time-added: 2023-04-27-11:24:59
+title: 'Reinforcement Learning with Knowledge Representation and Reasoning: A   Brief
+  Survey'
+type: article
+url: http://arxiv.org/abs/2304.12090v1
+year: '2023'

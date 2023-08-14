@@ -1,0 +1,38 @@
+abstract: The field of Sequential Decision Making (SDM) provides tools for solving
+  Sequential Decision Processes (SDPs), where an agent must make a series of decisions
+  in order to complete a task or achieve a goal. Historically, two competing SDM paradigms
+  have view for supremacy. Automated Planning (AP) proposes to solve SDPs by performing
+  a reasoning process over a model of the world, often represented symbolically. Conversely,
+  Reinforcement Learning (RL) proposes to learn the solution of the SDP from data,
+  without a world model, and represent the learned knowledge subsymbolically. In the
+  spirit of reconciliation, we provide a review of symbolic, subsymbolic and hybrid
+  methods for SDM. We cover both methods for solving SDPs (e.g., AP, RL and techniques
+  that learn to plan) and for learning aspects of their structure (e.g., world models,
+  state invariants and landmarks). To the best of our knowledge, no other review in
+  the field provides the same scope. As an additional contribution, we discuss what
+  properties an ideal method for SDM should exhibit and argue that neurosymbolic AI
+  is the current approach which most closely resembles this ideal method. Finally,
+  we outline several proposals to advance the field of SDM via the integration of
+  symbolic and subsymbolic AI.
+archiveprefix: arXiv
+author: Núñez-Molina, Carlos and Mesejo, Pablo and Fernández-Olivares, Juan
+author_list:
+- family: Núñez-Molina
+  given: Carlos
+- family: Mesejo
+  given: Pablo
+- family: Fernández-Olivares
+  given: Juan
+eprint: 2304.10590v1
+file: 2304.10590v1.pdf
+files:
+- nunez-molina-carlos-and-mesejo-pablo-and-fernandez-olivares-juana-review-of-symbolic-subsymbolic-and-hybrid-methods-for-sequential-decision-maki.pdf
+month: Apr
+primaryclass: cs.AI
+ref: 2304.10590v1
+time-added: 2023-04-27-11:24:02
+title: A Review of Symbolic, Subsymbolic and Hybrid Methods for Sequential   Decision
+  Making
+type: article
+url: http://arxiv.org/abs/2304.10590v1
+year: '2023'
