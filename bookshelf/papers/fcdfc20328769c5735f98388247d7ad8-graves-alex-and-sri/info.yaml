@@ -1,0 +1,40 @@
+abstract: This paper introduces Bayesian Flow Networks (BFNs), a new class of generative
+  model in which the parameters of a set of independent distributions are modified
+  with Bayesian inference in the light of noisy data samples, then passed as input
+  to a neural network that outputs a second, interdependent distribution. Starting
+  from a simple prior and iteratively updating the two distributions yields a generative
+  procedure similar to the reverse process of diffusion models; however it is conceptually
+  simpler in that no forward process is required. Discrete and continuous-time loss
+  functions are derived for continuous, discretised and discrete data, along with
+  sample generation procedures. Notably, the network inputs for discrete data lie
+  on the probability simplex, and are therefore natively differentiable, paving the
+  way for gradient-based sample guidance and few-step generation in discrete domains
+  such as language modelling. The loss function directly optimises data compression
+  and places no restrictions on the network architecture. In our experiments BFNs
+  achieve competitive log-likelihoods for image modelling on dynamically binarized
+  MNIST and CIFAR-10, and outperform all known discrete diffusion models on the text8
+  character-level language modelling task.
+archiveprefix: arXiv
+author: Graves, Alex and Srivastava, Rupesh Kumar and Atkinson, Timothy and Gomez,
+  Faustino
+author_list:
+- family: Graves
+  given: Alex
+- family: Srivastava
+  given: Rupesh Kumar
+- family: Atkinson
+  given: Timothy
+- family: Gomez
+  given: Faustino
+eprint: 2308.07037v1
+file: 2308.07037v1.pdf
+files:
+- graves-alex-and-srivastava-rupesh-kumar-and-atkinson-timothy-and-gomez-faustinobayesian-flow-networks2023.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2308.07037v1
+time-added: 2023-08-18-16:21:00
+title: Bayesian Flow Networks
+type: article
+url: http://arxiv.org/abs/2308.07037v1
+year: '2023'

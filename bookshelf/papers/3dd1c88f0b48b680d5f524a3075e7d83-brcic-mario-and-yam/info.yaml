@@ -1,0 +1,39 @@
+abstract: 'An impossibility theorem demonstrates that a particular problem or set
+  of problems cannot be solved as described in the claim. Such theorems put limits
+  on what is possible to do concerning artificial intelligence, especially the super-intelligent
+  one. As such, these results serve as guidelines, reminders, and warnings to AI safety,
+  AI policy, and governance researchers. These might enable solutions to some long-standing
+  questions in the form of formalizing theories in the framework of constraint satisfaction
+  without committing to one option. We strongly believe this to be the most prudent
+  approach to long-term AI safety initiatives. In this paper, we have categorized
+  impossibility theorems applicable to AI into five mechanism-based categories: deduction,
+  indistinguishability, induction, tradeoffs, and intractability. We found that certain
+  theorems are too specific or have implicit assumptions that limit application. Also,
+  we added new results (theorems) such as the unfairness of explainability, the first
+  explainability-related result in the induction category. The remaining results deal
+  with misalignment between the clones and put a limit to the self-awareness of agents.
+  We concluded that deductive impossibilities deny 100%-guarantees for security. In
+  the end, we give some ideas that hold potential in explainability, controllability,
+  value alignment, ethics, and group decision-making. They can be deepened by further
+  investigation.'
+archiveprefix: arXiv
+author: Brcic, Mario and Yampolskiy, Roman V.
+author_list:
+- family: Brcic
+  given: Mario
+- family: Yampolskiy
+  given: Roman V.
+doi: 10.1145/3603371
+eprint: 2109.00484v2
+file: 2109.00484v2.pdf
+files:
+- brcic-mario-and-yampolskiy-roman-v.impossibility-results-in-ai-a-survey2021.pdf
+month: Sep
+note: ACM Computing Surveys, 2023
+primaryclass: cs.AI
+ref: 2109.00484v2
+time-added: 2023-08-17-21:47:26
+title: 'Impossibility Results in AI: A Survey'
+type: article
+url: http://arxiv.org/abs/2109.00484v2
+year: '2021'
