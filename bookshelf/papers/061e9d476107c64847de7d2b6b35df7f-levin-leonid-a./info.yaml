@@ -1,0 +1,29 @@
+abstract: Goedel Incompleteness Theorem leaves open a way around it, vaguely perceived
+  for a long time but not clearly identified. (Thus, Goedel believed informal arguments
+  can answer any math question.) Closing this loophole does not seem obvious and involves
+  Kolmogorov complexity. (This is unrelated to, well studied before, complexity quantifications
+  of the usual Goedel effects.) I consider extensions U of the universal partial recursive
+  predicate (or, say, Peano Arithmetic). I prove that any U either leaves an n-bit
+  input (statement) unresolved or contains nearly all information about the n-bit
+  prefix of any r.e. real r (which is n bits for some r). I argue that creating significant
+  information about a SPECIFIC math sequence is impossible regardless of the methods
+  used. Similar problems and answers apply to other unsolvability results for tasks
+  allowing multiple solutions, e.g. non-recursive tilings.
+archiveprefix: arXiv
+author: Levin, Leonid A.
+author_list:
+- family: Levin
+  given: Leonid A.
+eprint: cs/0203029v21
+file: cs/0203029v21.pdf
+files:
+- levin-leonid-a.forbidden-information2002.pdf
+month: Mar
+note: JACM, 60(2), 2013
+primaryclass: cs.CC
+ref: cs/0203029v21
+time-added: 2023-09-05-12:26:48
+title: Forbidden Information
+type: article
+url: http://arxiv.org/abs/cs/0203029v21
+year: '2002'

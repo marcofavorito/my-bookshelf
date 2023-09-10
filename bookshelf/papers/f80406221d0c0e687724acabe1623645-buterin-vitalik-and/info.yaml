@@ -1,0 +1,39 @@
+abstract: In this paper we study Privacy Pools, a novel smart contract-based privacy-enhancing
+  protocol. We discuss the pros and cons of this protocol, and show how it could be
+  employed to create a separating equilibrium between honest and dishonest users.
+  The core idea of the proposal is to allow users to publish a zero-knowledge proof,
+  demonstrating that their funds (do not) originate from known (un-)lawful sources,
+  without publicly revealing their entire transaction graph. This is achieved by proving
+  membership in custom association sets that satisfy certain properties, required
+  by regulation or social consensus. The proposal may be a first step towards a future
+  where people could prove regulatory compliance without having to reveal their entire
+  transaction history.
+address: Rochester, NY
+author: Buterin, Vitalik and Illum, Jacob and Nadler, Matthias and Schär, Fabian and
+  Soleimani, Ameen
+author_list:
+- family: Buterin
+  given: Vitalik
+- family: Illum
+  given: Jacob
+- family: Nadler
+  given: Matthias
+- family: Schär
+  given: Fabian
+- family: Soleimani
+  given: Ameen
+doi: 10.2139/ssrn.4563364
+files:
+- buterin-vitalik-and-illum-jacob-and-nadler-matthias-and-schar-fabian-and-soleimani-ameenblockchain-privacy-and-regulatory-compliance-towa.pdf
+keywords: Blockchain, Privacy, Regulation, Smart Contracts, Zero-Knowledge Proofs
+language: en
+month: September
+ref: buterin_blockchain_2023
+shorttitle: Blockchain {Privacy} and {Regulatory} {Compliance}
+time-added: 2023-09-09-17:56:04
+title: 'Blockchain {Privacy} and {Regulatory} {Compliance}: {Towards} a {Practical}
+  {Equilibrium}'
+type: '{SSRN} {Scholarly} {Paper}'
+url: https://papers.ssrn.com/abstract=4563364
+urldate: '2023-09-09'
+year: '2023'

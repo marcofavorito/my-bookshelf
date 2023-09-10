@@ -1,0 +1,614 @@
+author: Nicol, David and Fujimoto, Richard
+author_list:
+- affiliation: []
+  family: Nicol
+  given: David
+- affiliation: []
+  family: Fujimoto
+  given: Richard
+citations:
+- doi: 10.1145/133057.133109
+  unstructured: I.F. Akyildiz, L. Chen, S.R. Das, R.M. Fujimoto and R. Serfozo, Performance
+    analysis of Time Warp with limited memory,Proc. 1992 ACM SIGMETRICS Conf. on Measuring
+    and Modeling Computer Systems, Vol. 20 (1992).
+- author: H. Ammar
+  first-page: '11'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: H. Ammar and S. Deng, Time Warp simulation using time scale decomposition,
+    in:Advances in Parallel and Distributed Simulation, Vol. 23, SCS Simulation Series
+    (1991) pp. 11–24.
+  volume: '23'
+  year: '1991'
+- author: R. Ayani
+  first-page: '113'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: R. Ayani, A parallel simulation scheme based on the distance between
+    objects,Proc. SCS Multiconf. on Distributed Simulation, Vol. 21 (1989) pp. 113–118.
+  volume: '21'
+  year: '1989'
+- author: R. Baccelli
+  doi: 10.1145/151527.151545
+  first-page: '20'
+  journal-title: ACM TOMACS
+  unstructured: R. Baccelli and M. Canales, Parallel simulation of stochastic Petri
+    nets using recurrence equations, ACM TOMACS 3(1993)20–41.
+  volume: '3'
+  year: '1993'
+- author: D. Ball
+  first-page: '174'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: D. Ball and S. Hoyt, The adaptive Time-Warp concurrency control algorithm,Proc.
+    SCS Multiconf. on Distributed Simulation, Vol. 20 (1990) pp. 174–177.
+  volume: '20'
+  year: '1990'
+- author: S. Bellenot
+  first-page: '122'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: S. Bellenot, Global virtual time algorithms,Proc. SCS Multiconf. on
+    Distributed Simulation, Vol. 22 (1990) pp. 122–127.
+  volume: '22'
+  year: '1990'
+- author: S. Bellenot
+  first-page: '53'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: S. Bellenot, State skipping performance with the Time Warp operating
+    system, in:6th Workshop on Parallel and Distributed Simulation, Vol. 24, SCS Simulation
+    Series (1992) pp. 53–64.
+  volume: '24'
+  year: '1992'
+- author: B. Berkman
+  first-page: '133'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: B. Berkman and R. Ayani, Parallel simulation of multistage interconnection
+    networks on an SIMD computer, in:Advances in Parallel and Distributed Simulation,
+    Vol. 23, SCS Simulation Series (1991) pp. 133–140.
+  volume: '23'
+  year: '1991'
+- author: J.V. Briner
+  unstructured: J.V. Briner, Parallel mixed-level simulation of digital circuits using
+    virtual time, Ph.D. Thesis, Duke University, Durham, NC (1990).
+  volume-title: Parallel mixed-level simulation of digital circuits using virtual
+    time
+  year: '1990'
+- unstructured: R.E. Bryant, Simulation of packet communication architecture computer
+    systems, MIT-LCS-TR-188, Massachusetts Institute of Technology (1977).
+- author: C.A. Buzzell
+  first-page: '153'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: C.A. Buzzell, M.J. Robb and R.M. Fujimoto, Modular VME rollback hardware
+    for Time Warp,Proc. SCS Multiconf. on Distributed Simulation, Vol. 22 (1990) pp.
+    153–156.
+  volume: '22'
+  year: '1990'
+- author: W. Cai
+  first-page: '3'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: W. Cai and S.J. Turner, An algorithm for distributed discrete-event
+    simulation — the “carrier null message” approach,Proc. SCS Multiconf. on Distributed
+    Simulation, Vol. 22 (1990) pp. 3–8.
+  volume: '22'
+  year: '1990'
+- author: K.M. Chandy
+  doi: 10.1109/C-M.1975.218955
+  first-page: '40'
+  journal-title: IEEE Comp.
+  unstructured: K.M. Chandy, A survey of analytic models of rollback and recovery
+    strategies, IEEE Comp. 8(1975)40–47.
+  volume: '8'
+  year: '1975'
+- author: K.M. Chandy
+  first-page: '93'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: K.M. Chandy and R. Sherman, The conditional event approach to distributed
+    simulation,Proc. SCS Multiconf. on Distributed Simulation, Vol. 21 (1989) pp.
+    93–99.
+  volume: '21'
+  year: '1989'
+- author: K.M. Chandy
+  first-page: '53'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: K.M. Chandy and R. Sherman, Space, time, and simulation,Proc. SCS
+    Multiconf. on Distributed Simulation, Vol. 21 (1989) pp. 53–57.
+  volume: '21'
+  year: '1989'
+- author: K.M. Chandy
+  doi: 10.1109/TSE.1979.230182
+  first-page: '440'
+  journal-title: IEEE Trans. Software Eng.
+  unstructured: 'K.M. Chandy and J. Misra, Distributed simulation: A case study in
+    design and verification of distributed programs, IEEE Trans. Software Eng. SE-5(1979)440–452.'
+  volume: '5'
+  year: '1979'
+- author: A.I. Concepcion
+  doi: 10.1109/12.16512
+  first-page: '311'
+  journal-title: IEEE Trans. Comp.
+  unstructured: A.I. Concepcion, A hierarchical computer architecture for distributed
+    simulation, IEEE Trans. Comp. C-38(1989)311–319.
+  volume: '38'
+  year: '1989'
+- author: S.R. Das
+  series-title: Technical Report
+  unstructured: S.R. Das and R.M. Fujimoto, A performance study of the cancelback
+    protocol for Time Warp, Technical Report GIT-CC-92/50, College of Computing, Georgia
+    Institute of Technology, Atlanta, GA (1992).
+  volume-title: A performance study of the cancelback protocol for Time Warp
+  year: '1992'
+- author: M. Davoren
+  first-page: '179'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: M. Davoren, A structural mapping for parallel difital logic simulation,
+    in:Proc. SCS Multiconf. on Distributed Simulation, Vol. 21, SCS Simulation Series
+    (1989) pp. 179–182.
+  volume: '21'
+  year: '1989'
+- author: E. DeBenedictis
+  doi: 10.1109/2.86834
+  first-page: '21'
+  issue: '6'
+  journal-title: Computer
+  unstructured: E. DeBenedictis, S. Ghosh and M.-L. Yu, A novel algorithm for discrete-event
+    simulation, Computer 24(6)(1991)21–33.
+  volume: '24'
+  year: '1991'
+- unstructured: P.M. Dickens, Performance analysis of parallel simulations, Ph.D.
+    Thesis, University of Virginia (1992).
+- author: S. Eick
+  first-page: '151'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: S. Eick, A. Greenberg, B. Lubachevsky and A. Weiss, Synchronous relaxation
+    for parallel simulations with applications to circuit-switched networks, in:Advances
+    in Parallel and Distributed Simulation, Vol. 23, SCS Simulation Series (1991)
+    pp. 151–162.
+  volume: '23'
+  year: '1991'
+- author: R. Felderman
+  first-page: '131'
+  journal-title: Distributed Simulation
+  unstructured: R. Felderman and L. Kleinrock, An upper bound on the improvement of
+    asynchronous versus synchronous distributed processing, in:Distributed Simulation,
+    Vol. 22, SCS Simulation Series (1990) pp. 131–136.
+  volume: '22'
+  year: '1990'
+- doi: 10.1145/130611.130615
+  unstructured: R. Felderman and L. Kleinrock, Bounds and approximations for self-initiating
+    distributed simulation without lookahead, ACM Trans. Modeling Comp. Simul. 1(1991).
+- author: R. Felderman
+  first-page: '3'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: 'R. Felderman and L. Kleinrock, Two processor Time Warp analysis:
+    Some results on a unifying approach, in:Advances in Parallel and Distributed Simulation,
+    Vol. 23, SCS Simulation Series (1991) pp. 3–10.'
+  volume: '23'
+  year: '1991'
+- unstructured: M.A. Franklin, D.F. Wann and K.F. Wong, Parallel machines and algorithms
+    for discrete-event simulation,Proc. 1984 Int. Conf. on Parallel Processing (1984)
+    pp. 449–458.
+- author: R.M. Fujimoto
+  first-page: '211'
+  journal-title: Trans. Soc. Comp. Simul.
+  unstructured: R.M. Fujimoto, Time Warp on a shared memory multiprocessor, Trans.
+    Soc. Comp. Simul. 6(1989)211–239.
+  volume: '6'
+  year: '1989'
+- doi: 10.1145/72935.72957
+  unstructured: R.M. Fujimoto, The virtual time machine,Int. Symp. on Parallel Algorithms
+    and Architectures (1989) pp. 199–208.
+- author: R.M. Fujimoto
+  doi: 10.1145/84537.84545
+  first-page: '30'
+  journal-title: Commun. ACM
+  unstructured: R.M. Fujimoto, Parallel discrete event simulation, Commun. ACM 33(1990)30–53.
+  volume: '33'
+  year: '1990'
+- author: R.M. Fujimoto
+  doi: 10.1109/12.123382
+  first-page: '68'
+  journal-title: IEEE Trans. Comp.
+  unstructured: 'R.M. Fujimoto, J. Tsai and G. Gopalakrishnan, Design and evaluation
+    of the rollback chip: Special purpose hardware for Time Warp, IEEE Trans. Comp.
+    C-41(1992)68–82.'
+  volume: '41'
+  year: '1992'
+- author: A. Gafni
+  first-page: '61'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: A. Gafni, Rollback mechanisms for optimistic distributed simulation
+    systems,Proc. SCS Multiconf. on Distributed Simulation, Vol. 19 (1988) pp. 61–67.
+  volume: '19'
+  year: '1988'
+- unstructured: B. Gaujal, A. Greenberg and D. Nicol, A sweep algorithm for massively
+    parallel simulation of circuit-switched networks, ICASE Technical Report ICASE-92-30
+    (1992), to appear in J. Parallel Distr. Comp.
+- author: E. Gelenbe
+  doi: 10.1145/322123.322131
+  first-page: '259'
+  journal-title: J. ACM
+  unstructured: E. Gelenbe, On the optimum checkpoint interval, J. ACM 26(1979)259–270.
+  volume: '26'
+  year: '1979'
+- author: P.I. Georgiadis
+  first-page: '263'
+  journal-title: Proc. 8th Annual Symp. on Computer Architecture
+  unstructured: P.I. Georgiadis, M.P. Papazoglou and D.G. Maritsas, Towards a parallel
+    simula machine,Proc. 8th Annual Symp. on Computer Architecture, Vol. 9 (1982)
+    pp. 263–278.
+  volume: '9'
+  year: '1982'
+- author: K. Ghosh
+  first-page: '201'
+  journal-title: Proc. 1991 Int. Conf. on Parallel Processing
+  unstructured: K. Ghosh and R.M. Fujimoto, Parallel discrete event simulation using
+    space-time memory,Proc. 1991 Int. Conf. on Parallel Processing, Vol. 3 (1991)
+    pp. 201–208.
+  volume: '3'
+  year: '1991'
+- unstructured: D.W. Glazer, Load balancing parallel discrete-event simulation, Ph.D.
+    Thesis, McGill University (1992).
+- author: A. Goldberg
+  first-page: '107'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: A. Goldberg, Virtual time synchronization of replicated processes,
+    in:6th Workshop on Parallel and Distributed Simulation, Vol. 24, SCS Simulation
+    Series (1992) pp. 107–116.
+  volume: '24'
+  year: '1992'
+- unstructured: 'G. Gopalakrishnan and R.M. Fujimoto, Design and verification of the
+    rollback chip using HOP: A case study of formal methods applied to hardware design,
+    Technical Report UUCS-91-015, Department of Computer Science, University of Utah
+    (1991).'
+- author: A.G. Greenberg
+  doi: 10.1145/128738.128739
+  first-page: '201'
+  journal-title: ACM Trans. Comp. Syst.
+  unstructured: A.G. Greenberg, B.D. Lubachevsky and I. Mitrani, Algorithms for unboundedly
+    parallel simulations, ACM Trans. Comp. Syst. 9(1991)201–221.
+  volume: '9'
+  year: '1991'
+- author: A. Gupta
+  doi: 10.1109/32.99190
+  first-page: '1013'
+  journal-title: IEEE Trans. Software Eng.
+  unstructured: A. Gupta, I.F. Akyildiz and R.M. Fujimoto, Performance analysis of
+    Time Warp with multiple homogeneous processors, IEEE Trans. Software Eng. SE-17(1991)1013–1027.
+  volume: '17'
+  year: '1991'
+- unstructured: P. Heidelberger and D. Nicol, Conservative parallel simulation of
+    continuous time Markov chains using uniformization, IBM Technical Report RC-16780,
+    IBM Research Division (1991), to appear in IEEE Trans. Parallel Distr. Syst.
+- unstructured: P. Heidelberger and H. Stone, Parallel trace-driven cache simulation
+    by time partitioning, IBM Technical Report RC-15500, IBM Research Division (1990).
+- author: D.R. Jefferson
+  doi: 10.1145/3916.3988
+  first-page: '404'
+  journal-title: ACM Trans. Progr. Languages Syst.
+  unstructured: D.R. Jefferson, Virtual time, ACM Trans. Progr. Languages Syst. 7(1985)404–425.
+  volume: '7'
+  year: '1985'
+- unstructured: 'D.R. Jefferson, Virtual time II: Storage management in distributed
+    simulation,Proc. 9th Annual ACM Symp. on Principles of Distributed Computing (1990)
+    pp. 75–89.'
+- author: D.S. Johnson
+  doi: 10.1287/opre.37.6.865
+  first-page: '865'
+  journal-title: Oper. Res.
+  unstructured: 'D.S. Johnson, C.R. Aragon, L.A. McGeoch and C. Shevon, Optimization
+    by simulated annealing: An experimental evaluation: Part I, graph partitioning,
+    Oper. Res. 37(1989)865–892.'
+  volume: '37'
+  year: '1989'
+- author: S.A. Kravitz
+  first-page: '136'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: S.A. Kravitz and B.D. Ackland, Static vs. dynamic partitioning of
+    circuits for a MOS timing simulator on a message-based multiprocessor, in:Proc.
+    SCS Multiconf. on Distributed Simulation, Vol. 19, SCS Simulation Series (1988)
+    pp. 136–140.
+  volume: '19'
+  year: '1988'
+- doi: 10.1109/WSC.1990.129555
+  unstructured: D. Kumar and S. Harous, An approach towards distributed simulation
+    of timed Petri nets, in:Proc. 1990 Winter Simulation Conf., New Orleans, LA (1990)
+    pp. 428–435.
+- author: F. Lin
+  doi: 10.1109/TSE.1987.232563
+  first-page: '32'
+  journal-title: IEEE Trans. Software Eng.
+  unstructured: F. Lin and R.M. Keller, The gradient model oad balancing method, IEEE
+    Trans. Software Eng. SE-11(1987)32–38.
+  volume: '11'
+  year: '1987'
+- unstructured: Y.-B. Lin, Memory management algorithms for optimistic parallel simulation,
+    in:6th Workshop on Parallel and Distributed Simulation, Vol. 24, SCS Simulation
+    Series (1992).
+- author: Y.-B. Lin
+  first-page: '29'
+  journal-title: Distributed Simulation
+  unstructured: Y.-B. Lin and E.D. Lazowska, Optimality considerations of “Time Warp”
+    parallel simulation, in:Distributed Simulation, Vol. 22, SCS Simulation Series
+    (1990) pp. 29–34.
+  volume: '22'
+  year: '1990'
+- author: Y.-B. Lin
+  series-title: Technical Report
+  unstructured: Y.-B. Lin and E.D. Lazowska, Determining the global virtual time in
+    a distributed simulation, Technical Report 90-01-02, Department of Computer Science,
+    University of Washington, Seattle, WA (1989).
+  volume-title: Determining the global virtual time in a distributed simulation
+  year: '1989'
+- author: Y.-B. Lin
+  series-title: Technical Report
+  unstructured: Y.-B. Lin and E.D. Lazowska, Reducing the state saving overhead for
+    Time Warp parallel simulation, Technical Report 90-02-03, Department of Computer
+    Science, University of Washington, Seattle, WA (1990).
+  volume-title: Reducing the state saving overhead for Time Warp parallel simulation
+  year: '1990'
+- author: Y.-B. Lin
+  doi: 10.1145/102810.214307
+  first-page: '73'
+  journal-title: ACM Trans. Mod. Comp. Simul.
+  unstructured: Y.-B. Lin and E.D. Lazowska, A time-division algorithm for parallel
+    simulation, ACM Trans. Mod. Comp. Simul. 1(1991)73–83.
+  volume: '1'
+  year: '1991'
+- author: Y.-B. Lin
+  first-page: '144'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: Y.-B. Lin, E.D. Lazowska and J.-L. Baer, Conservative parallel simulation
+    for systems with no lookahead prediction,Proc. SCS Multiconf. on Distributed Simulation,
+    Vol. 22 (1990) pp. 144–149.
+  volume: '22'
+  year: '1990'
+- author: Y.-B. Lin
+  doi: 10.1145/102810.102813
+  first-page: '51'
+  journal-title: ACM Trans. Mod. Comp. Simul.
+  unstructured: Y.-B. Lin and E.D. Lazowska, A study of Time Warp mechanisms, ACM
+    Trans. Mod. Comp. Simul. 1(1991)51–72.
+  volume: '1'
+  year: '1991'
+- author: Y.-B. Lin
+  doi: 10.1145/102810.214307
+  first-page: '73'
+  journal-title: ACM Trans. Mod. Comp. Simul.
+  unstructured: Y.-B. Lin and E.D. Lazowska, A time-division algorithm for parallel
+    simulation, ACM Trans. Mod. Comp. Simul. 1(1991)73–83.
+  volume: '1'
+  year: '1991'
+- author: R. Lipton
+  first-page: '137'
+  journal-title: Distributed Simulation
+  unstructured: 'R. Lipton and D. Mizell, Time Warp vs. Chandy-Misra: A worst-case
+    comparison, in:Distributed Simulation, Vol. 22, SCS Simulation Series (1990) pp.
+    137–143.'
+  volume: '22'
+  year: '1990'
+- author: B. Lubachevsky
+  doi: 10.1145/116890.116912
+  first-page: '154'
+  journal-title: ACM Trans. Mod. Comp. Simul.
+  unstructured: B. Lubachevsky, A. Weiss and A. Shwartz, An analysis of rollback-based
+    simulation, ACM Trans. Mod. Comp. Simul. 1(1991)154–192.
+  volume: '1'
+  year: '1991'
+- author: B.D. Lubachevsky
+  first-page: '100'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: B.D. Lubachevsky, Scalability of the bounded lag distributed discrete
+    event simulation,Proc. SCS Multiconf. on Distributed Simulation, Vol. 21 (1989)
+    pp. 100–107.
+  volume: '21'
+  year: '1989'
+- unstructured: B.D. Lubachevsky, A. Shwartz and A. Weiss, Rollback sometimes works
+    ... if filtered,1989 Winter Simulation Conf. Proc. (1989) pp. 630–639.
+- author: V. Madissetti
+  first-page: '65'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: V. Madissetti, D. Hardaker and R. Fujimoto, The mimdix operating system
+    for parallel simulation, in:6th Workshop on Parallel and Distributed Simulation,
+    Vol. 24, SCS Simulation Series (1992) pp. 65–74.
+  volume: '24'
+  year: '1992'
+- doi: 10.1145/318123.318205
+  unstructured: 'V. Madisetti, J. Walrand and D. Messerschmitt, Wolf: A rollback algorithm
+    for optimistic distributed simulation systems,1988 Winter Simulation Conf. Proc.
+    (1988) pp. 296–305.'
+- author: J. Briner Jr.
+  first-page: '71'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: J. Briner, Jr., Fast parallel simulation of digital systems, in:Advances
+    in Parallel and Distributed Simulation, Vol. 23, SCS Simulation Series (1991)
+    pp. 71–77.
+  volume: '23'
+  year: '1991'
+- author: P. Reynolds Jr.
+  first-page: '167'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: P. Reynolds, Jr., An efficient framework for parallel simulations,
+    in:Advances in Parallel and Distributed Simulation, Vol. 23, SCS Simulation Series
+    (1991) pp. 167–174.
+  volume: '23'
+  year: '1991'
+- author: J. Misra
+  doi: 10.1145/6462.6485
+  first-page: '39'
+  journal-title: ACM Comp. Surveys
+  unstructured: J. Misra, Distributed discrete-event simulation, ACM Comp. Surveys
+    18(1986)39–65.
+  volume: '18'
+  year: '1986'
+- author: B. Nandy
+  first-page: '139'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: B. Nandy and W. Loucks, An algorithm for partitioning and mapping
+    conservative parallel simulation onto multicomputers, in:6th Workshop on Parallel
+    and Distributed Simulation, Vol. 24, SCS Simulation Series (1992) pp. 139–146.
+  volume: '24'
+  year: '1992'
+- doi: 10.1109/TSE.1985.231863
+  unstructured: L.M. Ni, C.W. Zu and T.B. Gendreau, A distributed drafting algorithm
+    for load balancing, IEEE Trans. Software Eng. SE-9(1985).
+- unstructured: D. Nicol, Optimistic barrier synchronization, ICASE Technical Report
+    91–34 (1992).
+- author: D. Nicol
+  first-page: '3'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: D. Nicol, A. Greenberg, B. Lubachevsky and S. Roy, Massively parallel
+    algorithms for trace-driven cache simulation, in:6th Workshop on Parallel and
+    Distributed Simulation, Vol. 24, SCS Simulation Series (1992) pp. 3–11.
+  volume: '24'
+  year: '1992'
+- author: D. Nicol
+  doi: 10.1006/jpdc.1993.1073
+  first-page: '395'
+  journal-title: J. Parallel Distr. Comp.
+  unstructured: D. Nicol and P. Heidelberger, Optimistic parallel simulation of continuous
+    time Markov chains using uniformization, J. Parallel Distr. Comp. 18(1993)395–410.
+  volume: '18'
+  year: '1993'
+- doi: 10.1145/166955.167000
+  unstructured: D. Nicol and P. Heidelberger, Parallel simulation of Markovian queueing
+    networks using adaptive uniformization, in:Proc. 1993 SIGMETRICS Conf, Santa Clara,
+    CA (1993) pp. 135–145.
+- doi: 10.1109/WSC.1991.185661
+  unstructured: D. Nicol and S. Roy, Parallel simulation of timed Petri nets, in:Proc.
+    1991 Winter Simulation Conf., Phoenix, AZ (1991) pp. 574–583.
+- author: D.M. Nicol
+  doi: 10.1145/102810.102812
+  first-page: '24'
+  journal-title: ACM Trans. Mod. Comp. Simul.
+  unstructured: D.M. Nicol, Performance bounds on parallel self-initiating discrete-event
+    simulations, ACM Trans. Mod. Comp. Simul. 1(1991)24–50.
+  volume: '1'
+  year: '1991'
+- unstructured: D.M. Nicol, The automated partitioning of simulations for parallel
+    execution, Ph.D. Thesis, University of Virginia (1985).
+- author: D.M. Nicol
+  doi: 10.1145/151261.151266
+  first-page: '304'
+  journal-title: J. ACM
+  unstructured: D.M. Nicol, The cost of conservative synchronization in parallel discrete-event
+    simulations, J. ACM 40(1993)304–333.
+  volume: '40'
+  year: '1993'
+- author: D.M. Nicol
+  first-page: '53'
+  journal-title: Distributed Simulation 85
+  unstructured: D.M. Nicol and P.F. Reynolds, Jr., A statistical approach to dynamic
+    partitioning, in:Distributed Simulation 85, Vol. 15, SCS Simulation Series (1985)
+    pp. 53–56.
+  volume: '15'
+  year: '1985'
+- author: D.M. Nicol
+  doi: 10.1109/12.45206
+  first-page: '206'
+  journal-title: IEEE Trans. Comp.
+  unstructured: D.M. Nicol and P.F. Reynolds, Jr., Optimal dynamic remapping of data
+    parallel computations, IEEE Trans. Comp. C-39(1990)206–219.
+  volume: '39'
+  year: '1990'
+- author: C. Pancerella
+  first-page: '22'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: C. Pancerella, Improving the efficiency of a framework for parallel
+    simulations, in:6th Workshop on Parallel and Distributed Simulation, Vol. 24,
+    SCS Simulation Series (1992) pp. 22–32.
+  volume: '24'
+  year: '1992'
+- author: B. Preiss
+  first-page: '33'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: B. Preiss, W. Loucks, I. MacIntyre and J. Field, Null message cancellation
+    in conservative distributed simulation, in:Advances in Parallel and Distributed
+    Simulation, Vol. 23, SCS Simulation Series (1991) pp. 33–38.
+  volume: '23'
+  year: '1991'
+- author: B. Preiss
+  first-page: '33'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: B. Preiss, I. MacIntyre and W. Loucks, On the trade-off between time
+    and space in optimistic parallel discrete-event simulation, in:6th Workshop on
+    Parallel and Distributed Simulation, Vol. 24, SCS Simulation Series (1992) pp.
+    33–42.
+  volume: '24'
+  year: '1992'
+- author: B.R. Preiss
+  first-page: '139'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: B.R. Preiss, The Yaddes distributed discrete event simulation specification
+    language and execution environments,Proc. SCS Multiconf. on Distributed Simulation,
+    Vol. 21 (1989) pp. 139–144.
+  volume: '21'
+  year: '1989'
+- author: P.L. Reiher
+  first-page: '91'
+  journal-title: Trans. Soc. Comp. Simul.
+  unstructured: P.L. Reiher and D. Jefferson, Dynamic load management in the Time
+    Warp Operating System, Trans. Soc. Comp. Simul. 7(1990)91–120.
+  volume: '7'
+  year: '1990'
+- author: H.R. Ross
+  unstructured: H.R. Ross,Stochastic Processes (Wiley, New York, 1983).
+  volume-title: Stochastic Processes
+  year: '1983'
+- author: B. Samadi
+  unstructured: B. Samadi, Distributed simulation, algorithms and performance analysis,
+    Ph.D. Thesis, University of California, Los Angeles (1985).
+  volume-title: Distributed simulation, algorithms and performance analysis
+  year: '1985'
+- author: L.M. Sokol
+  first-page: '34'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: 'L.M. Sokol, D.P. Briscoe and A.P. Wieland, MTW: a strategy for scheduling
+    discrete simulation events for concurrent execution,Proc. SCS Multiconf. on Distributed
+    Simulation, Vol. 19 (1988) pp. 34–42.'
+  volume: '19'
+  year: '1988'
+- doi: 10.1145/130611.130613
+  unstructured: L. Soule and A. Gupta, An evaluation of the Chandy-Misra-Byrant algorithm
+    for digital logic simulation, ACM Trans. Mod. Comp. Simul. 1 (1991).
+- author: J. Steinman
+  first-page: '95'
+  journal-title: Advances in Parallel and Distributed Simulation
+  unstructured: 'J. Steinman, Speedes: synchronous parallel environment for emulation
+    and discrete event simulation, in:Advances in Parallel and Distributed Simulation,
+    Vol. 23, SCS Simulation Series (1991) pp. 95–103.'
+  volume: '23'
+  year: '1991'
+- author: W.K. Su
+  first-page: '38'
+  journal-title: Proc. SCS Multiconf. on Distributed Simulation
+  unstructured: W.K. Su and C.L. Seitz, Variants of the Chandy-Misra-Bryant distributed
+    discrete-event simulation algorithm,Proc. SCS Multiconf. on Distributed Simulation,
+    Vol. 21 (1989) pp. 38–43.
+  volume: '21'
+  year: '1989'
+- doi: 10.1109/WSC.1991.185660
+  unstructured: 'G. Thomas and J. Zahorjan, Parallel simulation of performance Petra
+    nets: Extending the domain of parallel simulation, in:Proc. 1991 Winter Simulation
+    Conf., Phoenix, AZ (1991) pp. 564–573.'
+- author: S. Turner
+  first-page: '117'
+  journal-title: 6th Workshop on Parallel and Distributed Simulation
+  unstructured: S. Turner and M. Xu, Performance evaluation of the bounded Time Warp
+    algorithm, in:6th Workshop on Parallel and Distributed Simulation, Vol. 24, SCS
+    Simulation Series (1992) pp. 117–128.
+  volume: '24'
+  year: '1992'
+doc_url: http://link.springer.com/article/10.1007/BF02136831/fulltext.html
+doi: 10.1007/bf02136831
+files:
+- nicol-david-and-fujimoto-richardparallel-simulation-today1994.pdf
+issue: '1'
+journal: Annals of Operations Research
+language: en
+month: 12
+pages: 249--285
+publisher: Springer Science and Business Media LLC
+ref: ParallelSimulaNicol1994
+time-added: 2023-09-07-16:53:00
+title: Parallel simulation today
+type: article
+url: http://dx.doi.org/10.1007/bf02136831
+volume: '53'
+year: 1994

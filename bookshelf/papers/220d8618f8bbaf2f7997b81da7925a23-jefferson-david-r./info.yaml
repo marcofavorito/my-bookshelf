@@ -1,0 +1,162 @@
+abstract: "<jats:p>\n            <jats:italic>Virtual time</jats:italic>\n       \
+  \     is a new paradigm for organizing and synchronizing distributed systems which\
+  \ can be applied to such problems as distributed discrete event simulation and distributed\
+  \ database concurrency control. Virtual time provides a flexible abstraction of\
+  \ real time in much the same way that virtual memory provides an abstraction of\
+  \ real memory. It is implemented using the Time Warp mechanism, a synchronization\
+  \ protocol distinguished by its reliance on lookahead-rollback, and by its implementation\
+  \ of rollback via antimessages.\n          </jats:p>"
+author: Jefferson, David R.
+author_list:
+- affiliation:
+  - name: Univ. of Southern California, Los Angeles
+  family: Jefferson
+  given: David R.
+citations:
+- doi: 10.1145/356842.356846
+- author: BERNSTEIN P. A.
+  unstructured: BERNSTEIN , P. A. , AND GOODMAN , N. A sophisticate's introduction
+    to distributed database concurrency control . In Proceedings of the 8th International
+    Conference on Very Large Databases (Sept. 1982 ). BERNSTEIN, P. A., AND GOODMAN,
+    N. A sophisticate's introduction to distributed database concurrency control.
+    In Proceedings of the 8th International Conference on Very Large Databases (Sept.
+    1982).
+  volume-title: Proceedings of the 8th International Conference on Very Large Databases
+    (Sept.
+  year: '1982'
+- author: BERRY O.
+  unstructured: BERRY , O. , AND JEFFERSON , D.R. Critical path analysis of distributed
+    simulation. In 1985 Society for Computer Simulation Multiconference (San Diego
+    , Calif. , Jan. 1985 ). BERRY, O., AND JEFFERSON, D.R. Critical path analysis
+    of distributed simulation. In 1985 Society for Computer Simulation Multiconference
+    (San Diego, Calif., Jan. 1985).
+  volume-title: Calif.
+  year: '1985'
+- author: CALTECH
+  unstructured: CALTECH . ,4nnual Report 1983 -1984 and Recent Documentation. Caltech
+    Concurrent Computation Project, Jet Propulsion Laboratory, Pasadena , Calif. ,
+    Aug. 30, 1984. CALTECH. ,4nnual Report 1983-1984 and Recent Documentation. Caltech
+    Concurrent Computation Project, Jet Propulsion Laboratory, Pasadena, Calif., Aug.
+    30, 1984.
+  volume-title: Calif.
+  year: '1983'
+- doi: 10.1145/214451.214456
+- doi: 10.1145/358598.358613
+- doi: 10.1109/TSE.1979.230182
+- doi: 10.1016/0020-0190(80)90021-6
+- doi: 10.1063/1.2916241
+- doi: 10.1145/357084.357087
+- author: JE RSON
+  unstructured: 'JE ffE RSON , D. R., AND SOWIZRAL , H.A. Fast concurrent simulation
+    using the Time Warp mechanism, part I: Local control. Rand Note N-1906AF, the
+    Rand Corp .; Santa Monica , Calif ., Dec. 1982 . JEffERSON, D. R., AND SOWIZRAL,
+    H.A. Fast concurrent simulation using the Time Warp mechanism, part I: Local control.
+    Rand Note N-1906AF, the Rand Corp.; Santa Monica, Calif., Dec. 1982.'
+  volume-title: 'Fast concurrent simulation using the Time Warp mechanism, part I:
+    Local control. Rand Note N-1906AF, the Rand Corp'
+  year: '1982'
+- author: JEFFERSON D. R.
+  unstructured: JEFFERSON , D. R. , AND SOWIZRAL , $. A. Fast concurrent simulation
+    using the Time Warp mechanism . In Proceedings of the SCS Distributed Simulation
+    Conference ( San Diego, Calif. , Jan. 1985 ). JEFFERSON, D. R., AND SOWIZRAL,
+    $. A. Fast concurrent simulation using the Time Warp mechanism. In Proceedings
+    of the SCS Distributed Simulation Conference (San Diego, Calif., Jan. 1985).
+  volume-title: Proceedings of the SCS Distributed Simulation Conference
+  year: '1985'
+- author: JEF S0N
+  unstructured: JEF rER S0N , D. R., ET AL . Implementation of Time Warp on the Caltech
+    Hypercube. In 1985 Society for ComPuter Simulation Multiconference (San Diego
+    , Calif. , Jan. 1985 ). JEFrERS0N, D. R., ET AL. Implementation of Time Warp on
+    the Caltech Hypercube. In 1985 Society for ComPuter Simulation Multiconference
+    (San Diego, Calif., Jan. 1985).
+  volume-title: Calif.
+  year: '1985'
+- doi: 10.1145/800222.806751
+- doi: 10.1145/359545.359563
+- author: LAVENBERG S.
+  unstructured: LAVENBERG , S. , MUNTZ , R. , AND SAMADI , B. Performance analysis
+    of a rollback method for distributed simulation. Dept. of Computer Science , U.C.L.A.
+    , 1982 . LAVENBERG, S., MUNTZ, R., AND SAMADI, B. Performance analysis of a rollback
+    method for distributed simulation. Dept. of Computer Science, U.C.L.A., 1982.
+  volume-title: U.C.L.A.
+  year: '1982'
+- doi: 10.1145/360248.360253
+- doi: 10.1145/588111.588125
+- author: PEACOCK J. K.
+  first-page: '399'
+  unstructured: PEACOCK , J. K. , WONG ; Z. W. , AND MANNING , E. G. A distributed
+    approach to queueing network simulation . In 1979 Winter Simulation Conference,
+    IEEE , New York , 1979 , 399 - 406 . PEACOCK, J. K., WONG; Z. W., AND MANNING,
+    E. G. A distributed approach to queueing network simulation. In 1979 Winter Simulation
+    Conference, IEEE, New York, 1979, 399-406.
+  volume-title: 1979 Winter Simulation Conference, IEEE
+  year: '1979'
+- author: PEACOCK J. K.
+  first-page: '3'
+  journal-title: Comput. Networks
+  unstructured: PEACOCK , J. K. , MANNING , E. G. , AND WONG , J.W. Synchronization
+    of distributed simulation using broadcast algorithms. Comput. Networks 4 , I (Feb.
+    1980), 3 - 10 . PEACOCK, J. K., MANNING, E. G., AND WONG, J.W. Synchronization
+    of distributed simulation using broadcast algorithms. Comput. Networks 4, I (Feb.
+    1980), 3-10.
+  volume: '4'
+- author: PEACOCK J. K.
+  first-page: '44'
+  journal-title: Comput. Networks
+  unstructured: PEACOCK , J. K. , WONG , J. W. , AND MANNING , E.G. Distributed simulation
+    using a network of processors. Comput. Networks 3 , I (Feb. 1979), 44 - 56 . PEACOCK,
+    J. K., WONG, J. W., AND MANNING, E.G. Distributed simulation using a network of
+    processors. Comput. Networks 3, I (Feb. 1979), 44-56.
+  volume: '3'
+- doi: 10.1145/357353.357355
+- doi: 10.1109/TSE.1980.230469
+- doi: 10.1145/357162.357163
+- doi: 10.1145/357114.357116
+- author: SOW ZRAL
+  unstructured: SOW l ZRAL , H. A. The Time Warp simulation system and its performance.
+    In 1985 Society for Computer Simulation Multiconference (San Diego , Calif. ,
+    Jan. 1985 ). SOWlZRAL, H.A. The Time Warp simulation system and its performance.
+    In 1985 Society for Computer Simulation Multiconference (San Diego, Calif., Jan.
+    1985).
+  volume-title: Calif.
+  year: '1985'
+- author: SWAN
+  unstructured: SWAN , a., FULLER , S. , AND S1EWI OREK , D. CM *--A modular multimicrocomputer.
+    In Proceedings of the 1977 National Computer Con{erence (Apr. 1981 ), AFIPS Press,
+    Baltimore, Md., 198- 206. SWAN, a., FULLER, S., AND S1EWIOREK, D. CM*--A modular
+    multimicrocomputer. In Proceedings of the 1977 National Computer Con{erence (Apr.
+    1981), AFIPS Press, Baltimore, Md., 198- 206.
+  volume-title: Proceedings of the 1977 National Computer Con{erence (Apr.
+  year: '1981'
+- author: WULF W. A.
+  unstructured: 'WULF , W. A. , LEV l N, R ., ^ NO H^RB ISON , S. P. Hydra/ C. mmp:
+    An Experimental Computer System . McGraw-Hill , New York , 1981 . WULF, W. A.,
+    LEVlN, R., ^NO H^RBISON, S. P. Hydra/C. mmp: An Experimental Computer System.
+    McGraw-Hill, New York, 1981.'
+  volume-title: 'mmp: An Experimental Computer System'
+  year: '1981'
+- author: WYATT D.
+  unstructured: WYATT , D. , SHEPPARD , S. , AND YOUNG , R. An experiment in microprocessor-based
+    distributed digital simulation . In Proceedings of the 1983 Winter Simulation
+    Conference (Arlington, Va. , Dec. 1983 ), S. Roberts, J. Banks, and B. Schmeiser,
+    Eds. WYATT, D., SHEPPARD, S., AND YOUNG, R. An experiment in microprocessor-based
+    distributed digital simulation. In Proceedings of the 1983 Winter Simulation Conference
+    (Arlington, Va., Dec. 1983), S. Roberts, J. Banks, and B. Schmeiser, Eds.
+  volume-title: Proceedings of the 1983 Winter Simulation Conference (Arlington, Va.
+  year: '1983'
+doi: 10.1145/3916.3988
+files:
+- jefferson-david-r.virtual-time1985.pdf
+issue: '3'
+journal: ACM Transactions on Programming Languages and Systems
+language: en
+month: 7
+pages: 404--425
+publisher: Association for Computing Machinery (ACM)
+ref: VirtualTimeJeffer1985
+time-added: 2023-09-05-18:36:27
+title: Virtual time
+type: article
+url: http://dx.doi.org/10.1145/3916.3988
+volume: '7'
+year: 1985

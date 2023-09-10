@@ -1,0 +1,422 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Church's Thesis asserts that the
+  only numeric functions that can be calculated by effective means are the recursive
+  ones, which are the same, extensionally, as the Turing-computable numeric functions.
+  The Abstract State Machine Theorem states that every classical algorithm is behaviorally
+  equivalent to an abstract state machine. This theorem presupposes three natural
+  postulates about algorithmic computation. Here, we show that augmenting those postulates
+  with an additional requirement regarding basic operations gives a natural axiomatization
+  of computability and a proof of Church's Thesis, as Gödel and others suggested may
+  be possible. In a similar way, but with a different set of basic operations, one
+  can prove Turing's Thesis, characterizing the effective string functions, and—in
+  particular—the effectively-computable functions on string representations of numbers.</jats:p>
+author: Dershowitz, Nachum and Gurevich, Yuri
+author_list:
+- affiliation: []
+  family: Dershowitz
+  given: Nachum
+- affiliation: []
+  family: Gurevich
+  given: Yuri
+citations:
+- doi: 10.1145/1131313.1131320
+- author: Soare
+  first-page: '284'
+  journal-title: Computability and recursion
+  volume: '2'
+  year: '1996'
+- doi: 10.1007/978-3-540-78127-1_12
+- author: Davis
+  volume-title: 'Computability, complexity, and languages: Fundamentals of theoretical
+    computer science'
+  year: '1994'
+- author: Hilbert
+  volume-title: Grundzüge der theoretischen Logik
+  year: '1928'
+- author: Mendelson
+  doi: 10.1515/9783110325461.304
+  first-page: '304'
+  volume-title: Church's thesis after 70 years
+  year: '2006'
+- article-title: The origins and the development of the ASM method for high level
+    system design and analysis
+  author: Börger
+  first-page: '2'
+  journal-title: Journal ofUniversal Computer Science
+  volume: '8'
+  year: '2002'
+- doi: 10.1016/0304-3975(87)90123-X
+- article-title: O ponyatii algoritma [On the concept of algorithm]
+  author: Kolmogorov
+  first-page: '175'
+  journal-title: Uspekhi Matematicheskikh Nauk [Russian Mathematical Surveys]
+  volume: '8'
+  year: '1953'
+- author: Gandy
+  first-page: '55'
+  volume-title: 'The universal Turing machine: A half-century survey'
+  year: '1988'
+- doi: 10.2307/2269031
+- doi: 10.1093/jigpal/jzl003
+- author: Kangshen
+  volume-title: 'The nine chapters on the mathematical art: Companion and commentary'
+  year: '1999'
+- article-title: Review of Emil Post, Finite combinatory processes, Formulation I
+  author: Church
+  doi: 10.2307/2269031
+  first-page: '103'
+  journal-title: The Journal of Symbolic Logic
+  volume: '1'
+  year: '1936'
+- author: Buss
+  first-page: '169'
+  journal-title: The prospects for mathematical logic in the twenty-first century
+  volume: '7'
+  year: '2001'
+- doi: 10.1023/A:1015694932257
+- author: Odifreddi
+  volume: '125'
+  volume-title: 'Classical recursion theory: The theory of functions and sets of natural
+    numbers'
+  year: '1992'
+- doi: 10.1109/MAHC.1981.10004
+- doi: 10.2307/2269326
+- author: Davis
+  volume-title: 'The undecidable: Basic papers on undecidable propositions, unsolvable
+    problems and computable functions'
+  year: '1965'
+- doi: 10.1145/937555.937561
+- author: Krlpke
+  first-page: '177'
+  volume-title: Proceedings of the 15th annual IEEE symposium on Logic in Computer
+    Science
+  year: '2000'
+- doi: 10.2307/2371045
+- author: Kreisel
+  first-page: '201'
+  volume-title: 'Bertrand Russell: Philosopher of the century'
+  year: '1967'
+- author: Barendregt
+  first-page: '181'
+  journal-title: The impact of the lambda calculus in logic and computer science
+  volume: '3'
+  year: '1997'
+- doi: 10.2307/2270580
+- doi: 10.1145/359863.359885
+- author: Boker
+  first-page: '15'
+  volume: '135'
+  volume-title: 'New developments in computational models: Proceedings of the first
+    international workshop on Developments in Computational Models (DCM 2005) (Lisbon,
+    Portugal, July 2005)'
+  year: '2006'
+- doi: 10.1007/BF01857727
+- article-title: Ordinary interactive small-step algorithms
+  author: Blass
+  journal-title: II, ACM Transactions on Computational Logic
+  volume: '8'
+  year: '2007'
+- article-title: On Gurevich's theorem on sequential algorithms
+  author: Relsig
+  doi: 10.1007/s00236-002-0106-3
+  first-page: '273'
+  journal-title: Acta Informatica
+  volume: '39'
+  year: '2003'
+- author: Sieg
+  first-page: '98'
+  volume: '6'
+  volume-title: 'Gödel96: Logical Foundations of Mathematics, Computer Science, and
+    Physics'
+  year: '1996'
+- volume-title: ATIS Telecom Glossary 2000
+  year: '2001'
+- author: Sleg
+  first-page: '154'
+  journal-title: 'Step by recursive step: Church''s analysis of effective computability'
+  volume: '3'
+  year: '1997'
+- author: Blass
+  doi: 10.1515/9783110325461.24
+  first-page: '24'
+  volume-title: Church's Thesis after 70 years
+  year: '2006'
+- doi: 10.2168/LMCS-3(4:3)2007
+- doi: 10.2307/2026831
+- author: Kalmár
+  first-page: '201'
+  volume-title: Constructivity in mathematics
+  year: '1959'
+- doi: 10.1137/0209036
+- author: Blass
+  first-page: '96'
+  volume-title: Bulletin of the European Association for Theoretical Computer Science
+  year: '2002'
+- doi: 10.1007/BF00485427
+- author: Friedman
+  volume-title: FOM-Foundations of Mathematics mailing list
+  year: '2000'
+- author: Kleene
+  volume-title: Mathematical logic
+  year: '1967'
+- author: Minsky
+  volume-title: 'Computation: Finite and infinite machines'
+  year: '1967'
+- doi: 10.2307/2371809
+- author: Copeland
+  volume-title: Stanford encyclopedia of philosophy
+  year: '1996'
+- author: Knuth
+  volume: '1'
+  volume-title: The art of computer programming
+  year: '1997'
+- author: Blass
+  volume-title: When are two algorithms the same?
+  year: '2008'
+- author: Gurevich
+  first-page: '334'
+  volume: '702'
+  volume-title: Proceedings of the sixth workshop on Computer Science Logic (CSL '92)
+  year: '1993'
+- article-title: Solvable and unsolvable problems
+  author: Tarski
+  first-page: '7'
+  journal-title: Science News
+  volume: '31'
+  year: '1954'
+- doi: 10.2168/LMCS-3(4:4)2007
+- article-title: Computing machinery and intelligence
+  author: Tarski
+  first-page: '433'
+  journal-title: Mind
+  volume: '59'
+  year: '1950'
+- author: Kleene
+  first-page: '17'
+  volume-title: 'The universal Turing machine: A half-century survey'
+  year: '1988'
+- doi: 10.1016/S0019-9958(82)91226-8
+- author: Sleg
+  first-page: '71'
+  volume-title: Mathematics and mind
+  year: '1994'
+- author: Glausch
+  volume-title: Proceedings of the Dagstuhl seminar on rigorous methods for software
+    construction and analysis
+  year: '2006'
+- article-title: Der Wahrheitsbegriff in den formalisierten Sprachen
+  author: Tarski
+  first-page: '261'
+  journal-title: Studia Philosophica
+  volume: '1'
+  year: '1936'
+- doi: 10.1090/S0002-9947-1943-0007371-8
+- doi: 10.1305/ndjfl/1093637645
+- author: Gödel
+  first-page: '164'
+  volume: III
+  volume-title: 'Kurt Gödel: Collected works'
+  year: '1995'
+- article-title: Ob odnom klasse mashin Tjuringa (mashiny Minskogo)[Onaclass of Turing
+    machines (Minsky machines)]
+  author: Barzdin
+  first-page: '42'
+  journal-title: Algebra i Logika [Algebra and Logic]
+  volume: '1'
+  year: '1963'
+- author: Hilbert
+  volume-title: 'Mathematische Probleme: Vortrag, gehalten auf dem internationalen
+    Mathematiker-Kongreß zu Paris'
+  year: '1900'
+- doi: 10.1093/philmat/8.3.244
+- doi: 10.2307/2270581
+- doi: 10.1098/rsta.1956.0003
+- author: Gödel
+  first-page: '41'
+  volume-title: On undecidable propositions of formal mathematical systems
+  year: '1934'
+- doi: 10.1016/j.apal.2007.11.011
+- author: Krlpke
+  volume-title: Elementary recursion theory and its applications to formal systems
+  year: '1996'
+- author: Kreisel
+  first-page: '95'
+  volume-title: Lectures in modern mathematics III
+  year: '1965'
+- author: Shoenfield
+  doi: 10.1007/978-3-662-22378-9
+  volume: '1'
+  volume-title: Recursion theory, Lecture Notes in Logic
+  year: '1993'
+- author: Wang
+  volume-title: From mathematics to philosophy
+  year: '1974'
+- article-title: Gödel on computability
+  author: Sleg
+  first-page: '189'
+  journal-title: Philosophia Mathematica
+  volume: '14'
+  year: '2007'
+- author: Markov
+  volume: '42'
+  volume-title: Works of the Mathematics Institute Im. V. A. Steklov
+  year: '1954'
+- article-title: Enumerable sets are Diophantine
+  author: Matijasevic̆
+  first-page: '279'
+  journal-title: Doklady Akademiia Nauk SSSR
+  volume: '191'
+  year: '1970'
+- article-title: Notions sur la machine analytique de M Charles Babbage
+  author: Menabrea
+  first-page: '352'
+  journal-title: Bibliothèque Universelle de Geneve n.s.
+  volume: '41'
+  year: '1842'
+- doi: 10.1007/BF01457985
+- doi: 10.1145/343369.343384
+- doi: 10.1007/978-3-642-56478-9_17
+- doi: 10.1305/ndjfl/1179323267
+- doi: 10.1093/philmat/6.3.302
+- article-title: Review of Alan M. Turing, On computable numbers, with an application
+    to the Entscheidungsproblem
+  author: Church
+  first-page: '230'
+  journal-title: Proceedings of the London Mathematical Society
+  volume: '2'
+  year: '1936'
+- author: Gurevich
+  volume-title: Specification and validation methods
+  year: '1995'
+- author: Schroeppel
+  volume-title: A two counter machine cannot calculate 2N
+  year: '1972'
+- doi: 10.2307/2271367
+- article-title: Ordinary interactive small-step algorithms
+  author: Blass
+  journal-title: III, ACM Transactions on Computational Logic
+  volume: '8'
+  year: '2007'
+- article-title: Computable algebra, general theory and the theory of computable fields
+  author: Rabin
+  first-page: '341'
+  journal-title: Transactions of the American Mathematical Society
+  volume: '95'
+  year: '1960'
+- doi: 10.1016/S0049-237X(08)71257-6
+- author: Kleene
+  volume-title: Introduction to metamathematics
+  year: '1952'
+- doi: 10.1007/978-3-540-78127-1_11
+- article-title: K opredeleniu algoritma
+  author: Kolmogorov
+  first-page: '3'
+  journal-title: Uspekhi Matematicheskikh Nauk [Russian Mathematical Surveys]
+  volume: '13'
+  year: '1958'
+- author: Sleg
+  first-page: '390'
+  volume: '15'
+  volume-title: 'Reflections on the foundations of mathematics: Essays in honor of
+    Solomon Feferman'
+  year: '2002'
+- author: Sleg
+  volume-title: Handbook of the philosophy of mathematics
+- doi: 10.1007/BF00293427
+- author: Sleg
+  first-page: '247'
+  volume-title: In the scope of logic, methodology and philosophy ofscience, vol.
+    1, Proceedings of the eleventh international congress of Logic, Methodology and
+    Philosophy of Science, Cracow, Poland
+  year: '1999'
+- author: Shoenfield
+  volume-title: Mathematical logic
+  year: '1967'
+- author: Soare
+  first-page: '705'
+  volume: '4497'
+  volume-title: Proceedings of the third conference on Computability in Europe (CiE
+    2007) Siena, Italy
+  year: '2007'
+- author: Post
+  first-page: '375'
+  volume-title: 'Solvability, provability, definability: The collected works of Emil
+    L. Post'
+  year: '1941'
+- author: Rogers
+  volume-title: Theory of recursive functions and effective computability
+  year: '1967'
+- article-title: Computability and λ-definability
+  author: Tarski
+  doi: 10.2307/2268280
+  first-page: '153'
+  journal-title: The Journal of Symbolic Logic
+  volume: '2'
+  year: '1937'
+- doi: 10.2307/2269059
+- article-title: Konstruktivnyye algyebry
+  author: Mal'cev
+  first-page: '3'
+  journal-title: Uspekhi Matematicheskikh Nauk
+  volume: '16'
+  year: '1961'
+- author: Sleg
+  first-page: '1'
+  journal-title: 'Hilbert''sprograms: 1917–1922'
+  volume: '5'
+  year: '1999'
+- doi: 10.1007/978-94-015-8232-2
+- author: Sleg
+  first-page: '139'
+  volume-title: 'New computational paradigms: Changing conceptions of what is computable'
+  year: '2008'
+- article-title: On computable numbers, with an application to the Entscheidungsproblem
+  author: Turing
+  first-page: '230'
+  journal-title: Proceedings of the London Mathematical Society
+  volume: '42'
+  year: '1936'
+- doi: 10.1109/MAHC.1984.10040
+- doi: 10.1305/ndjfl/1093883561
+- doi: 10.5840/monist19998213
+- article-title: Understanding Church's thesis, again
+  author: Shapiro
+  first-page: '59'
+  journal-title: Acta Analytica
+  volume: '11'
+  year: '1995'
+- article-title: Algorithm and program; information and data
+  author: Knuth
+  first-page: '654'
+  journal-title: Communications of the ACM
+  volume: '9'
+  year: '1966'
+- doi: 10.1007/978-3-642-59495-3
+- article-title: Review of Judson C. Webb
+  author: Lucas
+  first-page: '441'
+  journal-title: 'Mechanism, mentalism and metamathematics: An essay on finitism (D.
+    Reidel, Dordrecht, 1980), The British Journal for the Philosophy of Science'
+  volume: '33'
+  year: '1982'
+- author: Zach
+  first-page: '331'
+  journal-title: 'Completeness before Post: Bernays, Hilbert, and the development
+    of propositional logic'
+  volume: '5'
+  year: '1999'
+doi: 10.2178/bsl/1231081370
+files:
+- dershowitz-nachum-and-gurevich-yuria-natural-axiomatization-of-computability-and-proof-of-church-s-thesis2008.pdf
+issue: '3'
+journal: Bulletin of Symbolic Logic
+language: en
+month: 9
+pages: 299--350
+publisher: Cambridge University Press (CUP)
+ref: ANaturalAxiomDersho2008
+time-added: 2023-09-05-12:35:12
+title: A Natural Axiomatization of Computability and Proof of Church's Thesis
+type: article
+url: http://dx.doi.org/10.2178/bsl/1231081370
+volume: '14'
+year: 2008

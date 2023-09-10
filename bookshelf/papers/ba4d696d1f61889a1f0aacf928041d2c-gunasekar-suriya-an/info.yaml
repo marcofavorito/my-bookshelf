@@ -1,0 +1,66 @@
+abstract: 'We introduce phi-1, a new large language model for code, with significantly
+  smaller size than competing models: phi-1 is a Transformer-based model with 1.3B
+  parameters, trained for 4 days on 8 A100s, using a selection of ``textbook quality"
+  data from the web (6B tokens) and synthetically generated textbooks and exercises
+  with GPT-3.5 (1B tokens). Despite this small scale, phi-1 attains pass@1 accuracy
+  50.6% on HumanEval and 55.5% on MBPP. It also displays surprising emergent properties
+  compared to phi-1-base, our model before our finetuning stage on a dataset of coding
+  exercises, and phi-1-small, a smaller model with 350M parameters trained with the
+  same pipeline as phi-1 that still achieves 45% on HumanEval.'
+archiveprefix: arXiv
+author: Gunasekar, Suriya and Zhang, Yi and Aneja, Jyoti and Mendes, Caio César Teodoro
+  and Giorno, Allie Del and Gopi, Sivakanth and Javaheripi, Mojan and Kauffmann, Piero
+  and de Rosa, Gustavo and Saarikivi, Olli and Salim, Adil and Shah, Shital and Behl,
+  Harkirat Singh and Wang, Xin and Bubeck, Sébastien and Eldan, Ronen and Kalai, Adam
+  Tauman and Lee, Yin Tat and Li, Yuanzhi
+author_list:
+- family: Gunasekar
+  given: Suriya
+- family: Zhang
+  given: Yi
+- family: Aneja
+  given: Jyoti
+- family: Mendes
+  given: Caio César Teodoro
+- family: Giorno
+  given: Allie Del
+- family: Gopi
+  given: Sivakanth
+- family: Javaheripi
+  given: Mojan
+- family: Kauffmann
+  given: Piero
+- family: de Rosa
+  given: Gustavo
+- family: Saarikivi
+  given: Olli
+- family: Salim
+  given: Adil
+- family: Shah
+  given: Shital
+- family: Behl
+  given: Harkirat Singh
+- family: Wang
+  given: Xin
+- family: Bubeck
+  given: Sébastien
+- family: Eldan
+  given: Ronen
+- family: Kalai
+  given: Adam Tauman
+- family: Lee
+  given: Yin Tat
+- family: Li
+  given: Yuanzhi
+eprint: 2306.11644v1
+file: 2306.11644v1.pdf
+files:
+- gunasekar-suriya-and-zhang-yi-and-aneja-jyoti-and-mendes-caio-cesar-teodoro-and-giorno-allie-del-and-gopi-sivakanth-and-javaheripi-mojan-and-ka.pdf
+month: Jun
+primaryclass: cs.CL
+ref: 2306.11644v1
+time-added: 2023-09-06-09:47:23
+title: Textbooks Are All You Need
+type: article
+url: http://arxiv.org/abs/2306.11644v1
+year: '2023'

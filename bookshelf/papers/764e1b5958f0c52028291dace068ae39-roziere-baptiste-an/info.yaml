@@ -1,0 +1,84 @@
+abstract: 'We release Code Llama, a family of large language models for code based
+  on Llama 2 providing state-of-the-art performance among open models, infilling capabilities,
+  support for large input contexts, and zero-shot instruction following ability for
+  programming tasks. We provide multiple flavors to cover a wide range of applications:
+  foundation models (Code Llama), Python specializations (Code Llama - Python), and
+  instruction-following models (Code Llama - Instruct) with 7B, 13B and 34B parameters
+  each. All models are trained on sequences of 16k tokens and show improvements on
+  inputs with up to 100k tokens. 7B and 13B Code Llama and Code Llama - Instruct variants
+  support infilling based on surrounding content. Code Llama reaches state-of-the-art
+  performance among open models on several code benchmarks, with scores of up to 53%
+  and 55% on HumanEval and MBPP, respectively. Notably, Code Llama - Python 7B outperforms
+  Llama 2 70B on HumanEval and MBPP, and all our models outperform every other publicly
+  available model on MultiPL-E. We release Code Llama under a permissive license that
+  allows for both research and commercial use.'
+archiveprefix: arXiv
+author: Rozière, Baptiste and Gehring, Jonas and Gloeckle, Fabian and Sootla, Sten
+  and Gat, Itai and Tan, Xiaoqing Ellen and Adi, Yossi and Liu, Jingyu and Remez,
+  Tal and Rapin, Jérémy and Kozhevnikov, Artyom and Evtimov, Ivan and Bitton, Joanna
+  and Bhatt, Manish and Ferrer, Cristian Canton and Grattafiori, Aaron and Xiong,
+  Wenhan and Défossez, Alexandre and Copet, Jade and Azhar, Faisal and Touvron, Hugo
+  and Martin, Louis and Usunier, Nicolas and Scialom, Thomas and Synnaeve, Gabriel
+author_list:
+- family: Rozière
+  given: Baptiste
+- family: Gehring
+  given: Jonas
+- family: Gloeckle
+  given: Fabian
+- family: Sootla
+  given: Sten
+- family: Gat
+  given: Itai
+- family: Tan
+  given: Xiaoqing Ellen
+- family: Adi
+  given: Yossi
+- family: Liu
+  given: Jingyu
+- family: Remez
+  given: Tal
+- family: Rapin
+  given: Jérémy
+- family: Kozhevnikov
+  given: Artyom
+- family: Evtimov
+  given: Ivan
+- family: Bitton
+  given: Joanna
+- family: Bhatt
+  given: Manish
+- family: Ferrer
+  given: Cristian Canton
+- family: Grattafiori
+  given: Aaron
+- family: Xiong
+  given: Wenhan
+- family: Défossez
+  given: Alexandre
+- family: Copet
+  given: Jade
+- family: Azhar
+  given: Faisal
+- family: Touvron
+  given: Hugo
+- family: Martin
+  given: Louis
+- family: Usunier
+  given: Nicolas
+- family: Scialom
+  given: Thomas
+- family: Synnaeve
+  given: Gabriel
+eprint: 2308.12950v2
+file: 2308.12950v2.pdf
+files:
+- roziere-baptiste-and-gehring-jonas-and-gloeckle-fabian-and-sootla-sten-and-gat-itai-and-tan-xiaoqing-ellen-and-adi-yossi-and-liu-jingyu-and-re.pdf
+month: Aug
+primaryclass: cs.CL
+ref: 2308.12950v2
+time-added: 2023-09-07-16:39:34
+title: 'Code Llama: Open Foundation Models for Code'
+type: article
+url: http://arxiv.org/abs/2308.12950v2
+year: '2023'
