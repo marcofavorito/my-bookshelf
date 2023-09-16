@@ -1,0 +1,45 @@
+abstract: The inclusion of physical information in machine learning frameworks has
+  revolutionized many application areas. This involves enhancing the learning process
+  by incorporating physical constraints and adhering to physical laws. In this work
+  we explore their utility for reinforcement learning applications. We present a thorough
+  review of the literature on incorporating physics information, as known as physics
+  priors, in reinforcement learning approaches, commonly referred to as physics-informed
+  reinforcement learning (PIRL). We introduce a novel taxonomy with the reinforcement
+  learning pipeline as the backbone to classify existing works, compare and contrast
+  them, and derive crucial insights. Existing works are analyzed with regard to the
+  representation/ form of the governing physics modeled for integration, their specific
+  contribution to the typical reinforcement learning architecture, and their connection
+  to the underlying reinforcement learning pipeline stages. We also identify core
+  learning architectures and physics incorporation biases (i.e., observational, inductive
+  and learning) of existing PIRL approaches and use them to further categorize the
+  works for better understanding and adaptation. By providing a comprehensive perspective
+  on the implementation of the physics-informed capability, the taxonomy presents
+  a cohesive approach to PIRL. It identifies the areas where this approach has been
+  applied, as well as the gaps and opportunities that exist. Additionally, the taxonomy
+  sheds light on unresolved issues and challenges, which can guide future research.
+  This nascent field holds great potential for enhancing reinforcement learning algorithms
+  by increasing their physical plausibility, precision, data efficiency, and applicability
+  in real-world scenarios.
+archiveprefix: arXiv
+author: Banerjee, Chayan and Nguyen, Kien and Fookes, Clinton and Raissi, Maziar
+author_list:
+- family: Banerjee
+  given: Chayan
+- family: Nguyen
+  given: Kien
+- family: Fookes
+  given: Clinton
+- family: Raissi
+  given: Maziar
+eprint: 2309.01909v1
+file: 2309.01909v1.pdf
+files:
+- banerjee-chayan-and-nguyen-kien-and-fookes-clinton-and-raissi-maziara-survey-on-physics-informed-reinforcement-learning-review-and-open-problem.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2309.01909v1
+time-added: 2023-09-12-15:27:56
+title: 'A Survey on Physics Informed Reinforcement Learning: Review and Open   Problems'
+type: article
+url: http://arxiv.org/abs/2309.01909v1
+year: '2023'

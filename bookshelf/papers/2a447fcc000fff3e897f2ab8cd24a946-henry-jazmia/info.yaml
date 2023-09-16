@@ -1,0 +1,36 @@
+abstract: This chapter is written with the Data Scientist or MLOps professional in
+  mind but can be used as a resource for policy makers, reformists, AI Ethicists,
+  sociologists, and others interested in finding methods that help reduce bias in
+  algorithms. I will take a deployment centered approach with the assumption that
+  the professionals reading this work have already read the amazing work on the implications
+  of algorithms on historically marginalized groups by Gebru, Buolamwini, Benjamin
+  and Shane to name a few. If you have not read those works, I refer you to the "Important
+  Reading for Ethical Model Building" list at the end of this paper as it will help
+  give you a framework on how to think about Machine Learning models more holistically
+  taking into account their effect on marginalized people. In the Introduction to
+  this chapter, I root the significance of their work in real world examples of what
+  happens when models are deployed without transparent data collected for the training
+  process and are deployed without the practitioners paying special attention to what
+  happens to models that adapt to exploit gaps between their training environment
+  and the real world. The rest of this chapter builds on the work of the aforementioned
+  researchers and discusses the reality of models performing post production and details
+  ways ML practitioners can identify bias using tools during the MLOps lifecycle to
+  mitigate bias that may be introduced to models in the real world.
+archiveprefix: arXiv
+author: Henry, Jazmia
+author_list:
+- family: Henry
+  given: Jazmia
+eprint: 2301.05775v1
+file: 2301.05775v1.pdf
+files:
+- henry-jazmiamlops-a-primer-for-policymakers-on-a-new-frontier-in-machine-learning2023.pdf
+month: Jan
+note: Centre for International Governance Innovation, 2022
+primaryclass: cs.LG
+ref: 2301.05775v1
+time-added: 2023-09-11-16:38:22
+title: 'MLOps: A Primer for Policymakers on a New Frontier in Machine Learning'
+type: article
+url: http://arxiv.org/abs/2301.05775v1
+year: '2023'
