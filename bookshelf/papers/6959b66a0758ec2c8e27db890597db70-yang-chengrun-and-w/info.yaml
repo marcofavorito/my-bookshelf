@@ -1,0 +1,42 @@
+abstract: Optimization is ubiquitous. While derivative-based algorithms have been
+  powerful tools for various problems, the absence of gradient imposes challenges
+  on many real-world applications. In this work, we propose Optimization by PROmpting
+  (OPRO), a simple and effective approach to leverage large language models (LLMs)
+  as optimizers, where the optimization task is described in natural language. In
+  each optimization step, the LLM generates new solutions from the prompt that contains
+  previously generated solutions with their values, then the new solutions are evaluated
+  and added to the prompt for the next optimization step. We first showcase OPRO on
+  linear regression and traveling salesman problems, then move on to prompt optimization
+  where the goal is to find instructions that maximize the task accuracy. With a variety
+  of LLMs, we demonstrate that the best prompts optimized by OPRO outperform human-designed
+  prompts by up to 8% on GSM8K, and by up to 50% on Big-Bench Hard tasks.
+archiveprefix: arXiv
+author: Yang, Chengrun and Wang, Xuezhi and Lu, Yifeng and Liu, Hanxiao and Le, Quoc
+  V. and Zhou, Denny and Chen, Xinyun
+author_list:
+- family: Yang
+  given: Chengrun
+- family: Wang
+  given: Xuezhi
+- family: Lu
+  given: Yifeng
+- family: Liu
+  given: Hanxiao
+- family: Le
+  given: Quoc V.
+- family: Zhou
+  given: Denny
+- family: Chen
+  given: Xinyun
+eprint: 2309.03409v1
+file: 2309.03409v1.pdf
+files:
+- yang-chengrun-and-wang-xuezhi-and-lu-yifeng-and-liu-hanxiao-and-le-quoc-v.-and-zhou-denny-and-chen-xinyunlarge-language-models-as-optimizers202.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2309.03409v1
+time-added: 2023-09-18-09:05:38
+title: Large Language Models as Optimizers
+type: article
+url: http://arxiv.org/abs/2309.03409v1
+year: '2023'

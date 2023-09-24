@@ -1,0 +1,34 @@
+abstract: We present an approach to modeling an image-space prior on scene dynamics.
+  Our prior is learned from a collection of motion trajectories extracted from real
+  video sequences containing natural, oscillating motion such as trees, flowers, candles,
+  and clothes blowing in the wind. Given a single image, our trained model uses a
+  frequency-coordinated diffusion sampling process to predict a per-pixel long-term
+  motion representation in the Fourier domain, which we call a neural stochastic motion
+  texture. This representation can be converted into dense motion trajectories that
+  span an entire video. Along with an image-based rendering module, these trajectories
+  can be used for a number of downstream applications, such as turning still images
+  into seamlessly looping dynamic videos, or allowing users to realistically interact
+  with objects in real pictures.
+archiveprefix: arXiv
+author: Li, Zhengqi and Tucker, Richard and Snavely, Noah and Holynski, Aleksander
+author_list:
+- family: Li
+  given: Zhengqi
+- family: Tucker
+  given: Richard
+- family: Snavely
+  given: Noah
+- family: Holynski
+  given: Aleksander
+eprint: 2309.07906v1
+file: 2309.07906v1.pdf
+files:
+- li-zhengqi-and-tucker-richard-and-snavely-noah-and-holynski-aleksandergenerative-image-dynamics2023.pdf
+month: Sep
+primaryclass: cs.CV
+ref: 2309.07906v1
+time-added: 2023-09-21-10:22:52
+title: Generative Image Dynamics
+type: article
+url: http://arxiv.org/abs/2309.07906v1
+year: '2023'

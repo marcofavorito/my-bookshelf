@@ -1,0 +1,35 @@
+abstract: The growing size of data center and HPC networks pose unprecedented requirements
+  on the scalability of simulation infrastructure. The ability to simulate such large-scale
+  interconnects on a simple PC would facilitate research efforts. Unfortunately, as
+  we first show in this work, existing shared-memory packet-level simulators do not
+  scale to the sizes of the largest networks considered today. We then illustrate
+  a feasibility analysis and a set of enhancements that enable a simple packet-level
+  htsim simulator to scale to the unprecedented simulation sizes on a single PC. Our
+  code is available online and can be used to design novel schemes in the coming era
+  of omnipresent data centers and HPC clusters.
+archiveprefix: arXiv
+author: Besta, Maciej and Schneider, Marcel and Girolamo, Salvatore Di and Singla,
+  Ankit and Hoefler, Torsten
+author_list:
+- family: Besta
+  given: Maciej
+- family: Schneider
+  given: Marcel
+- family: Girolamo
+  given: Salvatore Di
+- family: Singla
+  given: Ankit
+- family: Hoefler
+  given: Torsten
+eprint: 2105.12663v1
+file: 2105.12663v1.pdf
+files:
+- besta-maciej-and-schneider-marcel-and-girolamo-salvatore-di-and-singla-ankit-and-hoefler-torstentowards-million-server-network-simulations-on-jus.pdf
+month: May
+primaryclass: cs.NI
+ref: 2105.12663v1
+time-added: 2023-09-19-11:39:50
+title: Towards Million-Server Network Simulations on Just a Laptop
+type: article
+url: http://arxiv.org/abs/2105.12663v1
+year: '2021'

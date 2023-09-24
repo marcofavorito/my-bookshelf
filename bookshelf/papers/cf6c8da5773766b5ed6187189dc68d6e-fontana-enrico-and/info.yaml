@@ -1,0 +1,46 @@
+abstract: Using tools from the representation theory of compact Lie groups, we formulate
+  a theory of Barren Plateaus (BPs) for parameterized quantum circuits whose observables
+  lie in their dynamical Lie algebra (DLA), a setting that we term Lie algebra Supported
+  Ansatz (LASA). A large variety of commonly used ans\"atze such as the Hamiltonian
+  Variational Ansatz, Quantum Alternating Operator Ansatz, and many equivariant quantum
+  neural networks are LASAs. In particular, our theory provides for the first time
+  the ability to compute the variance of the gradient of the cost function for a non-trivial,
+  subspace uncontrollable family of quantum circuits, the quantum compound ans\"atze.
+  We rigorously prove that the variance of the gradient of the cost function, under
+  Haar initialization, scales inversely with the dimension of the DLA, which agrees
+  with existing numerical observations. Lastly, we include potential extensions for
+  handling cases when the observable lies outside of the DLA and the implications
+  of our results.
+archiveprefix: arXiv
+author: Fontana, Enrico and Herman, Dylan and Chakrabarti, Shouvanik and Kumar, Niraj
+  and Yalovetzky, Romina and Heredge, Jamie and Sureshbabu, Shree Hari and Pistoia,
+  Marco
+author_list:
+- family: Fontana
+  given: Enrico
+- family: Herman
+  given: Dylan
+- family: Chakrabarti
+  given: Shouvanik
+- family: Kumar
+  given: Niraj
+- family: Yalovetzky
+  given: Romina
+- family: Heredge
+  given: Jamie
+- family: Sureshbabu
+  given: Shree Hari
+- family: Pistoia
+  given: Marco
+eprint: 2309.07902v2
+file: 2309.07902v2.pdf
+files:
+- fontana-enrico-and-herman-dylan-and-chakrabarti-shouvanik-and-kumar-niraj-and-yalovetzky-romina-and-heredge-jamie-and-sureshbabu-shree-hari-and.pdf
+month: Sep
+primaryclass: quant-ph
+ref: 2309.07902v2
+time-added: 2023-09-21-19:25:48
+title: 'The Adjoint Is All You Need: Characterizing Barren Plateaus in Quantum   Ansätze'
+type: article
+url: http://arxiv.org/abs/2309.07902v2
+year: '2023'
