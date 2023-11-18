@@ -1,0 +1,51 @@
+abstract: To solve a task with reinforcement learning (RL), it is necessary to formally
+  specify the goal of that task. Although most RL algorithms require that the goal
+  is formalised as a Markovian reward function, alternatives have been developed (such
+  as Linear Temporal Logic and Multi-Objective Reinforcement Learning). Moreover,
+  it is well known that some of these formalisms are able to express certain tasks
+  that other formalisms cannot express. However, there has not yet been any thorough
+  analysis of how these formalisms relate to each other in terms of expressivity.
+  In this work, we fill this gap in the existing literature by providing a comprehensive
+  comparison of the expressivities of 17 objective-specification formalisms in RL.
+  We place these formalisms in a preorder based on their expressive power, and present
+  this preorder as a Hasse diagram. We find a variety of limitations for the different
+  formalisms, and that no formalism is both dominantly expressive and straightforward
+  to optimise with current techniques. For example, we prove that each of Regularised
+  RL, Outer Nonlinear Markov Rewards, Reward Machines, Linear Temporal Logic, and
+  Limit Average Rewards can express an objective that the others cannot. Our findings
+  have implications for both policy optimisation and reward learning. Firstly, we
+  identify expressivity limitations which are important to consider when specifying
+  objectives in practice. Secondly, our results highlight the need for future research
+  which adapts reward learning to work with a variety of formalisms, since many existing
+  reward learning methods implicitly assume that desired objectives can be expressed
+  with Markovian rewards. Our work contributes towards a more cohesive understanding
+  of the costs and benefits of different RL objective-specification formalisms.
+archiveprefix: arXiv
+author: Subramani, Rohan and Williams, Marcus and Heitmann, Max and Holm, Halfdan
+  and Griffin, Charlie and Skalse, Joar
+author_list:
+- family: Subramani
+  given: Rohan
+- family: Williams
+  given: Marcus
+- family: Heitmann
+  given: Max
+- family: Holm
+  given: Halfdan
+- family: Griffin
+  given: Charlie
+- family: Skalse
+  given: Joar
+eprint: 2310.11840v1
+file: 2310.11840v1.pdf
+files:
+- subramani-rohan-and-williams-marcus-and-heitmann-max-and-holm-halfdan-and-griffin-charlie-and-skalse-joaron-the-expressivity-of-objective-specif.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2310.11840v1
+time-added: 2023-11-12-22:49:44
+title: On The Expressivity of Objective-Specification Formalisms in   Reinforcement
+  Learning
+type: article
+url: http://arxiv.org/abs/2310.11840v1
+year: '2023'

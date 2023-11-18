@@ -1,0 +1,56 @@
+abstract: 'We investigate the mathematical capabilities of two iterations of ChatGPT
+  (released 9-January-2023 and 30-January-2023) and of GPT-4 by testing them on publicly
+  available datasets, as well as hand-crafted ones, using a novel methodology. In
+  contrast to formal mathematics, where large databases of formal proofs are available
+  (e.g., the Lean Mathematical Library), current datasets of natural-language mathematics,
+  used to benchmark language models, either cover only elementary mathematics or are
+  very small. We address this by publicly releasing two new datasets: GHOSTS and miniGHOSTS.
+  These are the first natural-language datasets curated by working researchers in
+  mathematics that (1) aim to cover graduate-level mathematics, (2) provide a holistic
+  overview of the mathematical capabilities of language models, and (3) distinguish
+  multiple dimensions of mathematical reasoning. These datasets also test whether
+  ChatGPT and GPT-4 can be helpful assistants to professional mathematicians by emulating
+  use cases that arise in the daily professional activities of mathematicians. We
+  benchmark the models on a range of fine-grained performance metrics. For advanced
+  mathematics, this is the most detailed evaluation effort to date. We find that ChatGPT
+  can be used most successfully as a mathematical assistant for querying facts, acting
+  as a mathematical search engine and knowledge base interface. GPT-4 can additionally
+  be used for undergraduate-level mathematics but fails on graduate-level difficulty.
+  Contrary to many positive reports in the media about GPT-4 and ChatGPT''s exam-solving
+  abilities (a potential case of selection bias), their overall mathematical performance
+  is well below the level of a graduate student. Hence, if your goal is to use ChatGPT
+  to pass a graduate-level math exam, you would be better off copying from your average
+  peer!'
+archiveprefix: arXiv
+author: Frieder, Simon and Pinchetti, Luca and Chevalier, Alexis and Griffiths, Ryan-Rhys
+  and Salvatori, Tommaso and Lukasiewicz, Thomas and Petersen, Philipp Christian and
+  Berner, Julius
+author_list:
+- family: Frieder
+  given: Simon
+- family: Pinchetti
+  given: Luca
+- family: Chevalier
+  given: Alexis
+- family: Griffiths
+  given: Ryan-Rhys
+- family: Salvatori
+  given: Tommaso
+- family: Lukasiewicz
+  given: Thomas
+- family: Petersen
+  given: Philipp Christian
+- family: Berner
+  given: Julius
+eprint: 2301.13867v2
+file: 2301.13867v2.pdf
+files:
+- frieder-simon-and-pinchetti-luca-and-chevalier-alexis-and-griffiths-ryan-rhys-and-salvatori-tommaso-and-lukasiewicz-thomas-and-petersen-philipp.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2301.13867v2
+time-added: 2023-10-24-12:34:25
+title: Mathematical Capabilities of ChatGPT
+type: article
+url: http://arxiv.org/abs/2301.13867v2
+year: '2023'

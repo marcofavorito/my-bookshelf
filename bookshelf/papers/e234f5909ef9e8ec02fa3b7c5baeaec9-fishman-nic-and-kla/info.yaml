@@ -1,0 +1,42 @@
+abstract: Denoising diffusion models have recently emerged as the predominant paradigm
+  for generative modelling on image domains. In addition, their extension to Riemannian
+  manifolds has facilitated a range of applications across the natural sciences. While
+  many of these problems stand to benefit from the ability to specify arbitrary, domain-informed
+  constraints, this setting is not covered by the existing (Riemannian) diffusion
+  model methodology. Recent work has attempted to address this issue by constructing
+  novel noising processes based on the reflected Brownian motion and logarithmic barrier
+  methods. However, the associated samplers are either computationally burdensome
+  or only apply to convex subsets of Euclidean space. In this paper, we introduce
+  an alternative, simple noising scheme based on Metropolis sampling that affords
+  substantial gains in computational efficiency and empirical performance compared
+  to the earlier samplers. Of independent interest, we prove that this new process
+  corresponds to a valid discretisation of the reflected Brownian motion. We demonstrate
+  the scalability and flexibility of our approach on a range of problem settings with
+  convex and non-convex constraints, including applications from geospatial modelling,
+  robotics and protein design.
+archiveprefix: arXiv
+author: Fishman, Nic and Klarner, Leo and Mathieu, Emile and Hutchinson, Michael and
+  de Bortoli, Valentin
+author_list:
+- family: Fishman
+  given: Nic
+- family: Klarner
+  given: Leo
+- family: Mathieu
+  given: Emile
+- family: Hutchinson
+  given: Michael
+- family: de Bortoli
+  given: Valentin
+eprint: 2307.05439v2
+file: 2307.05439v2.pdf
+files:
+- fishman-nic-and-klarner-leo-and-mathieu-emile-and-hutchinson-michael-and-de-bortoli-valentinmetropolis-sampling-for-constrained-diffusion-models2.pdf
+month: Jul
+primaryclass: cs.LG
+ref: 2307.05439v2
+time-added: 2023-11-15-14:05:02
+title: Metropolis Sampling for Constrained Diffusion Models
+type: article
+url: http://arxiv.org/abs/2307.05439v2
+year: '2023'

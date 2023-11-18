@@ -1,0 +1,36 @@
+abstract: Nearly all real world tasks are inherently partially observable, necessitating
+  the use of memory in Reinforcement Learning (RL). Most model-free approaches summarize
+  the trajectory into a latent Markov state using memory models borrowed from Supervised
+  Learning (SL), even though RL tends to exhibit different training and efficiency
+  characteristics. Addressing this discrepancy, we introduce Fast and Forgetful Memory,
+  an algorithm-agnostic memory model designed specifically for RL. Our approach constrains
+  the model search space via strong structural priors inspired by computational psychology.
+  It is a drop-in replacement for recurrent neural networks (RNNs) in recurrent RL
+  algorithms, achieving greater reward than RNNs across various recurrent benchmarks
+  and algorithms without changing any hyperparameters. Moreover, Fast and Forgetful
+  Memory exhibits training speeds two orders of magnitude faster than RNNs, attributed
+  to its logarithmic time and linear space complexity. Our implementation is available
+  at https://github.com/proroklab/ffm.
+archiveprefix: arXiv
+author: Morad, Steven and Kortvelesy, Ryan and Liwicki, Stephan and Prorok, Amanda
+author_list:
+- family: Morad
+  given: Steven
+- family: Kortvelesy
+  given: Ryan
+- family: Liwicki
+  given: Stephan
+- family: Prorok
+  given: Amanda
+eprint: 2310.04128v1
+file: 2310.04128v1.pdf
+files:
+- morad-steven-and-kortvelesy-ryan-and-liwicki-stephan-and-prorok-amandareinforcement-learning-with-fast-and-forgetful-memory2023.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2310.04128v1
+time-added: 2023-10-17-11:15:47
+title: Reinforcement Learning with Fast and Forgetful Memory
+type: article
+url: http://arxiv.org/abs/2310.04128v1
+year: '2023'

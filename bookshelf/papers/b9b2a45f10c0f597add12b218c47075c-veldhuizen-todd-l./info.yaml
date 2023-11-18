@@ -1,0 +1,35 @@
+abstract: Recent years have seen exciting developments in join algorithms. In 2008,
+  Atserias, Grohe and Marx (henceforth AGM) proved a tight bound on the maximum result
+  size of a full conjunctive query, given constraints on the input relation sizes.
+  In 2012, Ngo, Porat, R{\'e} and Rudra (henceforth NPRR) devised a join algorithm
+  with worst-case running time proportional to the AGM bound. Our commercial Datalog
+  system LogicBlox employs a novel join algorithm, \emph{leapfrog triejoin}, which
+  compared conspicuously well to the NPRR algorithm in preliminary benchmarks. This
+  spurred us to analyze the complexity of leapfrog triejoin. In this paper we establish
+  that leapfrog triejoin is also worst-case optimal, up to a log factor, in the sense
+  of NPRR. We improve on the results of NPRR by proving that leapfrog triejoin achieves
+  worst-case optimality for finer-grained classes of database instances, such as those
+  defined by constraints on projection cardinalities. We show that NPRR is \emph{not}
+  worst-case optimal for such classes, giving a counterexample where leapfrog triejoin
+  runs in $O(n \log n)$ time, compared to $\Theta(n^{1.375})$ time for NPRR. On a
+  practical note, leapfrog triejoin can be implemented using conventional data structures
+  such as B-trees, and extends naturally to $\exists_1$ queries. We believe our algorithm
+  offers a useful addition to the existing toolbox of join algorithms, being easy
+  to absorb, simple to implement, and having a concise optimality proof.
+archiveprefix: arXiv
+author: Veldhuizen, Todd L.
+author_list:
+- family: Veldhuizen
+  given: Todd L.
+eprint: 1210.0481v5
+file: 1210.0481v5.pdf
+files:
+- veldhuizen-todd-l.leapfrog-triejoin-a-worst-case-optimal-join-algorithm2012.pdf
+month: Oct
+primaryclass: cs.DB
+ref: 1210.0481v5
+time-added: 2023-10-03-17:08:47
+title: 'Leapfrog Triejoin: a worst-case optimal join algorithm'
+type: article
+url: http://arxiv.org/abs/1210.0481v5
+year: '2012'

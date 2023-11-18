@@ -1,0 +1,56 @@
+abstract: In many text-generation problems, users may prefer not only a single response,
+  but a diverse range of high-quality outputs from which to choose. Quality-diversity
+  (QD) search algorithms aim at such outcomes, by continually improving and diversifying
+  a population of candidates. However, the applicability of QD to qualitative domains,
+  like creative writing, has been limited by the difficulty of algorithmically specifying
+  measures of quality and diversity. Interestingly, recent developments in language
+  models (LMs) have enabled guiding search through AI feedback, wherein LMs are prompted
+  in natural language to evaluate qualitative aspects of text. Leveraging this development,
+  we introduce Quality-Diversity through AI Feedback (QDAIF), wherein an evolutionary
+  algorithm applies LMs to both generate variation and evaluate the quality and diversity
+  of candidate text. When assessed on creative writing domains, QDAIF covers more
+  of a specified search space with high-quality samples than do non-QD controls. Further,
+  human evaluation of QDAIF-generated creative texts validates reasonable agreement
+  between AI and human evaluation. Our results thus highlight the potential of AI
+  feedback to guide open-ended search for creative and original solutions, providing
+  a recipe that seemingly generalizes to many domains and modalities. In this way,
+  QDAIF is a step towards AI systems that can independently search, diversify, evaluate,
+  and improve, which are among the core skills underlying human society's capacity
+  for innovation.
+archiveprefix: arXiv
+author: Bradley, Herbie and Dai, Andrew and Teufel, Hannah and Zhang, Jenny and Oostermeijer,
+  Koen and Bellagente, Marco and Clune, Jeff and Stanley, Kenneth and Schott, Grégory
+  and Lehman, Joel
+author_list:
+- family: Bradley
+  given: Herbie
+- family: Dai
+  given: Andrew
+- family: Teufel
+  given: Hannah
+- family: Zhang
+  given: Jenny
+- family: Oostermeijer
+  given: Koen
+- family: Bellagente
+  given: Marco
+- family: Clune
+  given: Jeff
+- family: Stanley
+  given: Kenneth
+- family: Schott
+  given: Grégory
+- family: Lehman
+  given: Joel
+eprint: 2310.13032v1
+file: 2310.13032v1.pdf
+files:
+- bradley-herbie-and-dai-andrew-and-teufel-hannah-and-zhang-jenny-and-oostermeijer-koen-and-bellagente-marco-and-clune-jeff-and-stanley-kenneth.pdf
+month: Oct
+primaryclass: cs.CL
+ref: 2310.13032v1
+time-added: 2023-10-25-10:00:26
+title: Quality-Diversity through AI Feedback
+type: article
+url: http://arxiv.org/abs/2310.13032v1
+year: '2023'

@@ -1,0 +1,44 @@
+abstract: Data poisoning attacks manipulate training data to introduce unexpected
+  behaviors into machine learning models at training time. For text-to-image generative
+  models with massive training datasets, current understanding of poisoning attacks
+  suggests that a successful attack would require injecting millions of poison samples
+  into their training pipeline. In this paper, we show that poisoning attacks can
+  be successful on generative models. We observe that training data per concept can
+  be quite limited in these models, making them vulnerable to prompt-specific poisoning
+  attacks, which target a model's ability to respond to individual prompts.   We introduce
+  Nightshade, an optimized prompt-specific poisoning attack where poison samples look
+  visually identical to benign images with matching text prompts. Nightshade poison
+  samples are also optimized for potency and can corrupt an Stable Diffusion SDXL
+  prompt in <100 poison samples. Nightshade poison effects "bleed through" to related
+  concepts, and multiple attacks can composed together in a single prompt. Surprisingly,
+  we show that a moderate number of Nightshade attacks can destabilize general features
+  in a text-to-image generative model, effectively disabling its ability to generate
+  meaningful images. Finally, we propose the use of Nightshade` and similar tools
+  as a last defense for content creators against web scrapers that ignore opt-out/do-not-crawl
+  directives, and discuss possible implications for model trainers and content creators.
+archiveprefix: arXiv
+author: Shan, Shawn and Ding, Wenxin and Passananti, Josephine and Zheng, Haitao and
+  Zhao, Ben Y.
+author_list:
+- family: Shan
+  given: Shawn
+- family: Ding
+  given: Wenxin
+- family: Passananti
+  given: Josephine
+- family: Zheng
+  given: Haitao
+- family: Zhao
+  given: Ben Y.
+eprint: 2310.13828v1
+file: 2310.13828v1.pdf
+files:
+- shan-shawn-and-ding-wenxin-and-passananti-josephine-and-zheng-haitao-and-zhao-ben-y.prompt-specific-poisoning-attacks-on-text-to-image-generative.pdf
+month: Oct
+primaryclass: cs.CR
+ref: 2310.13828v1
+time-added: 2023-10-25-17:33:18
+title: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models
+type: article
+url: http://arxiv.org/abs/2310.13828v1
+year: '2023'

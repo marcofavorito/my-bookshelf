@@ -1,0 +1,38 @@
+abstract: Neuro-Symbolic (NeSy) integration combines symbolic reasoning with Neural
+  Networks (NNs) for tasks requiring perception and reasoning. Most NeSy systems rely
+  on continuous relaxation of logical knowledge, and no discrete decisions are made
+  within the model pipeline. Furthermore, these methods assume that the symbolic rules
+  are given. In this paper, we propose Deep Symbolic Learning (DSL), a NeSy system
+  that learns NeSy-functions, i.e., the composition of a (set of) perception functions
+  which map continuous data to discrete symbols, and a symbolic function over the
+  set of symbols. DSL learns simultaneously the perception and symbolic functions
+  while being trained only on their composition (NeSy-function). The key novelty of
+  DSL is that it can create internal (interpretable) symbolic representations and
+  map them to perception inputs within a differentiable NN learning pipeline. The
+  created symbols are automatically selected to generate symbolic functions that best
+  explain the data. We provide experimental analysis to substantiate the efficacy
+  of DSL in simultaneously learning perception and symbolic functions.
+archiveprefix: arXiv
+author: Daniele, Alessandro and Campari, Tommaso and Malhotra, Sagar and Serafini,
+  Luciano
+author_list:
+- family: Daniele
+  given: Alessandro
+- family: Campari
+  given: Tommaso
+- family: Malhotra
+  given: Sagar
+- family: Serafini
+  given: Luciano
+eprint: 2208.11561v2
+file: 2208.11561v2.pdf
+files:
+- daniele-alessandro-and-campari-tommaso-and-malhotra-sagar-and-serafini-lucianodeep-symbolic-learning-discovering-symbols-and-rules-from-perceptio.pdf
+month: Aug
+primaryclass: cs.LG
+ref: 2208.11561v2
+time-added: 2023-11-10-10:02:07
+title: 'Deep Symbolic Learning: Discovering Symbols and Rules from Perceptions'
+type: article
+url: http://arxiv.org/abs/2208.11561v2
+year: '2022'

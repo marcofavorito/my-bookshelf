@@ -1,0 +1,40 @@
+abstract: The bin packing is a well-known NP-Hard problem in the domain of artificial
+  intelligence, posing significant challenges in finding efficient solutions. Conversely,
+  recent advancements in quantum technologies have shown promising potential for achieving
+  substantial computational speedup, particularly in certain problem classes, such
+  as combinatorial optimization. In this study, we introduce QAL-BP, a novel Quadratic
+  Unconstrained Binary Optimization (QUBO) formulation designed specifically for bin
+  packing and suitable for quantum computation. QAL-BP utilizes the augmented Lagrangian
+  method to incorporate the bin packing constraints into the objective function while
+  also facilitating an analytical estimation of heuristic, but empirically robust,
+  penalty multipliers. This approach leads to a more versatile and generalizable model
+  that eliminates the need for empirically calculating instance-dependent Lagrangian
+  coefficients, a requirement commonly encountered in alternative QUBO formulations
+  for similar problems. To assess the effectiveness of our proposed approach, we conduct
+  experiments on a set of bin-packing instances using a real Quantum Annealing device.
+  Additionally, we compare the results with those obtained from two different classical
+  solvers, namely simulated annealing and Gurobi. The experimental findings not only
+  confirm the correctness of the proposed formulation but also demonstrate the potential
+  of quantum computation in effectively solving the bin-packing problem, particularly
+  as more reliable quantum technology becomes available.
+archiveprefix: arXiv
+author: Cellini, Lorenzo and Macaluso, Antonio and Lombardi, Michele
+author_list:
+- family: Cellini
+  given: Lorenzo
+- family: Macaluso
+  given: Antonio
+- family: Lombardi
+  given: Michele
+eprint: 2309.12678v1
+file: 2309.12678v1.pdf
+files:
+- cellini-lorenzo-and-macaluso-antonio-and-lombardi-micheleqal-bp-an-augmented-lagrangian-quantum-approach-for-bin-packing-problem2023.pdf
+month: Sep
+primaryclass: quant-ph
+ref: 2309.12678v1
+time-added: 2023-09-28-22:02:14
+title: 'QAL-BP: An Augmented Lagrangian Quantum Approach for Bin Packing Problem'
+type: article
+url: http://arxiv.org/abs/2309.12678v1
+year: '2023'

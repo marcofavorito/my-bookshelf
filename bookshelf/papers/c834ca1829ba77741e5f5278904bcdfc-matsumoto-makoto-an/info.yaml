@@ -1,0 +1,64 @@
+abstract: <jats:p>We demonstrate that a majority of modern random number generators,
+  such as the newest version of rand.c, ranlux, and combined multiple recursive generators,
+  have some manifest correlations in their outputs if the initial state is filled
+  up using another linear recurrence with similar modulus. Among 58 available generators
+  in the GNU scientific library, 40 show such defects. This is not because of the
+  recursion, but because of carelessly chosen initialization schemes in the implementations.
+  A good initialization scheme eliminates this phenomenon.</jats:p>
+author: Matsumoto, Makoto and Wada, Isaku and Kuramoto, Ai and Ashihara, Hyo
+author_list:
+- affiliation:
+  - name: Hiroshima University, Hiroshima, Japan
+  family: Matsumoto
+  given: Makoto
+- affiliation:
+  - name: Tempstaff Technologies
+  family: Wada
+  given: Isaku
+- affiliation:
+  - name: Kumamoto University, Kumamoto, Japan
+  family: Kuramoto
+  given: Ai
+- affiliation:
+  - name: Kumamoto University, Kumamoto, Japan
+  family: Ashihara
+  given: Hyo
+citations:
+- doi: 10.1007/BF00630563
+- unstructured: GNU. 2004. GNU scientific library version 1.6. http://www.gnu.org/software/gsl/.  GNU.
+    2004. GNU scientific library version 1.6. http://www.gnu.org/software/gsl/.
+- doi: 10.1016/0010-4655(94)90233-X
+- unstructured: Knuth D. E. 1997. The Art of Computer Programming vol. 2. Seminumerical
+    Algorithms 3rd ed. Addison-Wesley Reading MA.   Knuth D. E. 1997. The Art of Computer
+    Programming vol. 2. Seminumerical Algorithms 3rd ed. Addison-Wesley Reading MA.
+- doi: 10.1287/opre.44.5.816
+- doi: 10.1145/167293.167354
+- doi: 10.1145/169702.169698
+- doi: 10.1287/opre.50.6.1073.358
+- doi: 10.1016/S0378-4754(97)00052-9
+- doi: 10.1016/0010-4655(94)90232-1
+- doi: 10.1016/j.parco.2004.06.001
+- doi: 10.1145/358407.358427
+- doi: 10.5555/188307.188366
+- doi: 10.1145/272991.272995
+- doi: 10.1016/S0378-4754(02)00227-6
+- doi: 10.1007/978-3-642-59657-5_3
+  unstructured: Matsumoto M. and Nishimura T. 2000. The dynamic creation of pseudorandom
+    number generators. In Monte Carlo and Quasi-Monte Carlo Methods. Springer 56--69.  Matsumoto
+    M. and Nishimura T. 2000. The dynamic creation of pseudorandom number generators.
+    In Monte Carlo and Quasi-Monte Carlo Methods. Springer 56--69.
+- doi: 10.1145/159737.159749
+doi: 10.1145/1276927.1276928
+issue: '4'
+journal: ACM Transactions on Modeling and Computer Simulation
+language: en
+month: 9
+pages: '15'
+publisher: Association for Computing Machinery (ACM)
+ref: CommonDefectsMatsum2007
+time-added: 2023-10-31-14:52:47
+title: Common defects in initialization of pseudorandom number generators
+type: article
+url: http://dx.doi.org/10.1145/1276927.1276928
+volume: '17'
+year: 2007

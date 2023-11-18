@@ -1,0 +1,358 @@
+abstract: "<jats:title>Abstract</jats:title>\n               <jats:p>I examine the\
+  \ classical idea of ‘algorithm’ as a sequential, step-by-step, deterministic procedure\
+  \ (i.e., the idea of ‘algorithm’ that was already in use by the 1930s), with respect\
+  \ to three themes, its relation to the notion of an ‘effective procedure’, its different\
+  \ roles and uses in logic, computer science, and mathematics (focused on numerical\
+  \ analysis), and its different formal definitions proposed by practitioners in these\
+  \ areas. I argue that ‘algorithm’ has been conceptualized and used in contrasting\
+  \ ways in the above areas, and discuss challenges and prospects for adopting a final\
+  \ foundational theory of (classical) ‘algorithms’.</jats:p>"
+author: Papayannopoulos, Philippos
+author_list:
+- affiliation:
+  - name: IHPST (UMR 8590), CNRS and Université Paris 1 Panthéon-Sorbonne , 75006
+      Paris, France
+  family: Papayannopoulos
+  given: Philippos
+citations:
+- article-title: '‘Computing over the reals: Where Turing meets Newton’'
+  author: Blum
+  first-page: '1024'
+  journal-title: Notices of the AMS
+  volume: '51'
+  year: '2004'
+- author: Blum
+  volume-title: Complexity and Real Computation
+  year: '1997'
+- author: Boker
+  doi: 10.1007/978-3-642-15025-8_7
+  first-page: '135'
+  volume-title: 'Fields of Logic and Computation: Essays Dedicated to Yuri Gurevich
+    on the Occasion of His 70th Birthday'
+  year: '2010'
+- author: Brattka
+  doi: 10.1007/978-3-030-59234-9
+  volume-title: Handbook of Computability and Complexity in Analysis
+  year: '2021'
+- author: Brattka
+  doi: 10.1007/978-0-387-68546-5_18
+  first-page: '425'
+  volume-title: 'New Computational Paradigms: Changing Conceptions of What is Computable'
+  year: '2008'
+- article-title: ‘The dependence of computability on numerical notations’
+  author: Brauer
+  doi: 10.1007/s11229-020-02732-x
+  first-page: '10485'
+  journal-title: Synthese
+  volume: '198'
+  year: '2021'
+- author: Braverman
+  first-page: '155'
+  year: '2005'
+- article-title: '‘Computing over the reals: Foundations for scientific computing’'
+  author: Braverman
+  first-page: '318'
+  journal-title: Notices of the AMS
+  volume: '53'
+  year: '2006'
+- author: Carnap
+  edition: 2nd ed.
+  volume-title: Logical Foundations of Probability
+  year: '1962'
+- author: Chabert
+  doi: 10.1007/978-3-642-18192-4
+  volume-title: 'A History of Algorithms: From the Pebble to the Microchip'
+  year: '1999'
+- article-title: ‘Deviant encodings and Turing’s analysis of computability’,
+  author: Copeland
+  doi: 10.1016/j.shpsa.2010.07.010
+  first-page: '247'
+  journal-title: Studies in History and Philosophy of Science. Part A
+  volume: '1'
+  year: '2010'
+- article-title: '‘The Church–Turing Thesis: Logical limit or breachable barrier?’'
+  author: Copeland
+  doi: 10.1145/3198448
+  first-page: '66'
+  journal-title: Communications of the ACM
+  volume: '62'
+  year: '2019'
+- author: Corless
+  doi: 10.1007/978-1-4614-8453-0
+  volume-title: 'A Graduate Introduction to Numerical Methods: From the Viewpoint
+    of Backward Error Analysis'
+  year: '2013'
+- author: Cucker
+  doi: 10.1007/3-540-48523-6_5
+  first-page: '55'
+  volume-title: Automata, Languages and Programming
+  year: '1999'
+- author: Dean
+  doi: 10.1093/acprof:oso/9780198759591.003.0002
+  first-page: '19'
+  volume-title: 'Gödel’s Disjunction: The Scope and Limits of Mathematical Knowledge'
+  year: '2016'
+- author: Dean
+  doi: 10.1007/978-3-319-40189-8_8
+  first-page: '78'
+  volume-title: 'Pursuit of the Universal: Proceedings of the 12th Conference on Computability
+    in Europe, CiE 2016'
+  year: '2016'
+- author: Gauss
+  volume-title: 'Theory of the Motion of the Heavenly Bodies Moving about the Sun
+    in Conic Sections: A Translation of Gauss’s ‘Theoria Motus’, With an Appendix'
+  year: '1857'
+- author: Goldreich
+  doi: 10.1017/CBO9780511804106
+  volume-title: 'Computational Complexity: A Conceptual Perspective'
+  year: '2008'
+- author: Goldstine
+  volume-title: Studies in the History of Mathematics and Physical Sciences
+  year: '1977'
+- article-title: ‘Sequential abstract-state machines capture sequential algorithms’
+  author: Gurevich
+  doi: 10.1145/343369.343384
+  first-page: '77'
+  journal-title: ACM Transactions on Computational Logic (TOCL
+  volume: '1'
+  year: '2000'
+- article-title: ‘Semantics-to-syntax analyses of algorithms’
+  author: Gurevich
+  first-page: '187'
+  year: '2015'
+- article-title: Unconstrained Church–Turing thesis cannot possibly be true
+  author: Gurevich
+  first-page: '46'
+  journal-title: The Bulletin of European Association for Theoretical Computer Science
+  volume: '127'
+  year: '2019'
+- author: Hermes
+  doi: 10.1007/978-3-642-46178-1
+  edition: 2nd. ed
+  volume-title: 'Enumerability, Decidability, Computability: An Introduction to the
+    Theory of Recursive Functions'
+  year: '1969'
+- article-title: ‘A real number structure that is effectively categorical’
+  author: Hertling
+  doi: 10.1002/malq.19990450202
+  first-page: '147'
+  journal-title: Mathematical Logic Quarterly
+  volume: '45'
+  year: '1999'
+- author: Higham
+  doi: 10.1137/1.9780898718027
+  edition: 2nd ed.
+  volume-title: Accuracy and Stability of Numerical Algorithms
+  year: '2002'
+- article-title: ‘Über das unendliche’
+  author: Hilbert
+  doi: 10.1007/BF01206605
+  first-page: '161'
+  journal-title: Mathematische Annalen
+  volume: '95'
+  year: '1926'
+- author: Kapantaïs
+  doi: 10.1007/978-3-319-23291-1_4
+  first-page: '45'
+  volume-title: 'Computing and Philosophy: Selected Papers from IACAP 2014'
+  year: '2016'
+- article-title: ‘A counterexample to the Church–Turing Thesis as standardly interpreted’
+  author: Kapantaïs
+  first-page: '24'
+  journal-title: 'American Philosophical Association Newsletter: Philosophy and Computers'
+  volume: '18'
+  year: '2018'
+- author: Knuth
+  edition: 3rd ed
+  volume-title: 'The Art of Computer Programming: The Fundamental Algorithms'
+  year: '1997'
+- article-title: ‘On the definition of an algorithm’
+  author: Kolmogorov
+  first-page: '217'
+  journal-title: American Mathematical Society Translations
+  volume: '29'
+  year: '1963'
+- author: Lakatos
+  doi: 10.1017/CBO9781139171472
+  volume-title: 'Proofs and Refutations: The Logic of Mathematical Discovery'
+  year: '1976'
+- author: Lewis
+  edition: 2nd ed
+  volume-title: Elements of the Theory of Computation
+  year: '1998'
+- author: Makovec
+  doi: 10.1007/978-3-030-25008-9
+  volume-title: 'Friedrich Waismann: The Open Texture of Analytic Philosophy'
+  year: '2019'
+- author: Malc’ev
+  volume-title: Algorithms and Recursive Functions
+  year: '1970'
+- author: Markov
+  first-page: '1'
+  volume-title: Nine Papers on Foundations, Algebra, Topology, Functions of a Complex
+    Variable
+  year: '1960'
+- author: Markov
+  first-page: '1954'
+  volume-title: Theory of Algorithms
+  year: '1962'
+- author: Moschovakis
+  first-page: '71'
+  volume-title: Truth in Mathematics
+  year: '1998'
+- author: Moschovakis
+  first-page: '929'
+  volume-title: Mathematics Unlimited — 2001 and Beyond
+  year: '2001'
+- article-title: '‘Unrealistic models for realistic computations: How idealisations
+    help represent mathematical structures and found scientific computing’'
+  author: Papayannopoulos
+  doi: 10.1007/s11229-020-02654-8
+  first-page: '249'
+  journal-title: Synthese
+  volume: '199'
+  year: '2021'
+- article-title: '‘How to make a meaningful comparison of models: The Church–Turing
+    thesis over the reals’'
+  author: Pégny
+  doi: 10.1007/s11023-016-9407-0
+  first-page: '359'
+  journal-title: Minds and Machines
+  volume: '26'
+  year: '2016'
+- author: Quinon
+  doi: 10.1007/978-3-319-94418-0_34
+  first-page: '338'
+  volume-title: Sailing Routes in the World of Computation
+  year: '2018'
+- article-title: ‘Church’s thesis and the conceptual analysis of computability’
+  author: Rescorla
+  doi: 10.1305/ndjfl/1179323267
+  first-page: '253'
+  journal-title: Notre Dame Journal of Formal Logic
+  volume: '48'
+  year: '2007'
+- author: Rogers
+  volume-title: Theory of Recursive Functions and Effective Computability
+  year: '1987'
+- author: Shagrir
+  doi: 10.1093/oso/9780197552384.001.0001
+  volume-title: The Nature of Physical Computation
+  year: '2022'
+- article-title: ‘Acceptable notation’
+  author: Shapiro
+  doi: 10.1305/ndjfl/1093883561
+  first-page: '14'
+  journal-title: Notre Dame Journal of Formal Logic
+  volume: '23'
+  year: '1982'
+- author: Shapiro
+  doi: 10.1515/9783110325461.420
+  first-page: '420'
+  volume-title: Church’s Thesis After 70 Years
+  year: '2006'
+- author: Shapiro
+  doi: 10.7551/mitpress/8009.003.0008
+  first-page: '153'
+  volume-title: 'Computability: Turing, Gödel, Church, and Beyond'
+  year: '2013'
+- article-title: ‘Proving things about the informal’
+  author: Shapiro
+  first-page: '283'
+  year: '2015'
+- article-title: '‘Computing with numbers and other non-syntactic things: De re knowledge
+    of abstract objects’'
+  author: Shapiro
+  doi: 10.1093/philmat/nkx009
+  first-page: '268'
+  issue: '3'
+  journal-title: Philosophia Mathematica
+  volume: '25'
+  year: '2017'
+- article-title: ‘Computability, notation, and de re knowledge of numbers’
+  author: Shapiro
+  doi: 10.3390/philosophies7010020
+  first-page: '20'
+  issue: '1'
+  journal-title: Philosophies
+  volume: '7'
+  year: '2022'
+- author: Sipser
+  edition: 3rd ed
+  volume-title: Introduction to the Theory of Computation
+  year: '2013'
+- article-title: ‘Some remarks on the foundations of numerical analysis’
+  author: Smale
+  doi: 10.1137/1032043
+  first-page: '211'
+  journal-title: SIAM Rev.
+  volume: '32'
+  year: '1990'
+- author: Smith
+  doi: 10.1017/CBO9780511554544
+  volume-title: Explaining Chaos
+  year: '1998'
+- author: Smith
+  doi: 10.1017/CBO9781139149105
+  edition: 2nd ed
+  volume-title: An Introduction to Gödel’s Theorems
+  year: '2013'
+- author: Sommaruga
+  doi: 10.1007/978-3-319-22156-4
+  volume-title: 'Turing’s Revolution: The Impact of His Ideas about Computability'
+  year: '2015'
+- article-title: ‘On computable numbers, with an application to the Entscheidungsproblem’
+  author: Turing
+  first-page: '230'
+  journal-title: Proceedings of the London Mathematical Society
+  volume: '42'
+  year: '1936'
+- article-title: ‘Rounding-off errors in matrix processes’
+  author: Turing
+  doi: 10.1093/qjmam/1.1.287
+  first-page: '287'
+  journal-title: The Quarterly Journal of Mechanics and Applied Mathematics
+  volume: '1'
+  year: '1948'
+- author: Uspensky
+  volume-title: Mathematics and its Applications
+  year: '1993'
+- author: van Emde Boas
+  first-page: '1'
+  volume-title: 'Handbook of Theoretical Computer Science (Vol. A): Algorithms and
+    Complexity'
+  year: '1990'
+- article-title: ‘Numerical inverting of matrices of high order’
+  author: von Neumann
+  doi: 10.1090/S0002-9904-1947-08909-6
+  first-page: '1021'
+  journal-title: Bull. Amer. Math. Soc.
+  volume: '53'
+  year: '1947'
+- author: Waismann
+  first-page: '101'
+  volume-title: Aristotelian Society Supplementary
+  year: '1945'
+- author: Wang
+  doi: 10.7551/mitpress/4321.001.0001
+  volume-title: 'A Logical Journey: From Gödel to Philosophy'
+  year: '1997'
+- author: Weihrauch
+  doi: 10.1007/978-3-642-56999-9
+  volume-title: 'Computable Analysis: An Introduction'
+  year: '2000'
+doc_url: https://academic.oup.com/philmat/article-pdf/31/3/291/52147216/nkad011.pdf
+doi: 10.1093/philmat/nkad011
+issue: '3'
+journal: Philosophia Mathematica
+language: en
+month: 10
+pages: 291--329
+publisher: Oxford University Press (OUP)
+ref: OnAlgorithmsPapaya2023
+time-added: 2023-11-16-21:02:16
+title: On Algorithms, Effective Procedures, and Their Definitions
+type: article
+url: http://dx.doi.org/10.1093/philmat/nkad011
+volume: '31'
+year: 2023

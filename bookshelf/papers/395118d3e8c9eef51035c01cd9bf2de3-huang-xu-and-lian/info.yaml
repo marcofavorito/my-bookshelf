@@ -1,0 +1,49 @@
+abstract: Recommender models excel at providing domain-specific item recommendations
+  by leveraging extensive user behavior data. Despite their ability to act as lightweight
+  domain experts, they struggle to perform versatile tasks such as providing explanations
+  and engaging in conversations. On the other hand, large language models (LLMs) represent
+  a significant step towards artificial general intelligence, showcasing remarkable
+  capabilities in instruction comprehension, commonsense reasoning, and human interaction.
+  However, LLMs lack the knowledge of domain-specific item catalogs and behavioral
+  patterns, particularly in areas that diverge from general world knowledge, such
+  as online e-commerce. Finetuning LLMs for each domain is neither economic nor efficient.   In
+  this paper, we bridge the gap between recommender models and LLMs, combining their
+  respective strengths to create a versatile and interactive recommender system. We
+  introduce an efficient framework called InteRecAgent, which employs LLMs as the
+  brain and recommender models as tools. We first outline a minimal set of essential
+  tools required to transform LLMs into InteRecAgent. We then propose an efficient
+  workflow within InteRecAgent for task execution, incorporating key components such
+  as a memory bus, dynamic demonstration-augmented task planning, and reflection.
+  InteRecAgent enables traditional recommender systems, such as those ID-based matrix
+  factorization models, to become interactive systems with a natural language interface
+  through the integration of LLMs. Experimental results on several public datasets
+  show that InteRecAgent achieves satisfying performance as a conversational recommender
+  system, outperforming general-purpose LLMs.
+archiveprefix: arXiv
+author: Huang, Xu and Lian, Jianxun and Lei, Yuxuan and Yao, Jing and Lian, Defu and
+  Xie, Xing
+author_list:
+- family: Huang
+  given: Xu
+- family: Lian
+  given: Jianxun
+- family: Lei
+  given: Yuxuan
+- family: Yao
+  given: Jing
+- family: Lian
+  given: Defu
+- family: Xie
+  given: Xing
+eprint: 2308.16505v2
+file: 2308.16505v2.pdf
+files:
+- huang-xu-and-lian-jianxun-and-lei-yuxuan-and-yao-jing-and-lian-defu-and-xie-xingrecommender-ai-agent-integrating-large-language-models-for-inte.pdf
+month: Aug
+primaryclass: cs.IR
+ref: 2308.16505v2
+time-added: 2023-09-29-21:06:53
+title: 'Recommender AI Agent: Integrating Large Language Models for Interactive   Recommendations'
+type: article
+url: http://arxiv.org/abs/2308.16505v2
+year: '2023'

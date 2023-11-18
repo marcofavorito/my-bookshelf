@@ -1,0 +1,38 @@
+abstract: 'Modern blockchain systems support creation of smart contracts -- stateful
+  programs hosted and executed on a blockchain. Smart contracts hold and transfer
+  significant amounts of digital currency which makes them an attractive target for
+  security attacks. It has been shown that many contracts deployed to public ledgers
+  contain security vulnerabilities. Moreover, the design of blockchain systems does
+  not allow the code of the smart contract to be changed after it has been deployed
+  to the system. Therefore, it is important to guarantee the correctness of smart
+  contracts prior to their deployment.   Formal verification is widely used to check
+  smart contracts for correctness with respect to given specification. In this work
+  we consider program synthesis techniques in which the specification is used to generate
+  correct-by-construction programs. We focus on one of the special cases of program
+  synthesis where programs are modeled with finite state machines (FSMs). We show
+  how FSM synthesis can be applied to the problem of automatic smart contract generation.
+  Several case studies of smart contracts are outlined: crowdfunding platform, blinded
+  auction and a license contract. For each case study we specify the corresponding
+  smart contract with a set of formulas in linear temporal logic (LTL) and use this
+  specification together with test scenarios to synthesize a FSM model for that contract.
+  These models are later used to generate executable Solidity code which can be directly
+  used in a blockchain system.'
+archiveprefix: arXiv
+author: Suvorov, Dmitrii and Ulyantsev, Vladimir
+author_list:
+- family: Suvorov
+  given: Dmitrii
+- family: Ulyantsev
+  given: Vladimir
+eprint: 1906.02906v1
+file: 1906.02906v1.pdf
+files:
+- suvorov-dmitrii-and-ulyantsev-vladimirsmart-contract-design-meets-state-machine-synthesis-case-studies2019.pdf
+month: Jun
+primaryclass: cs.SE
+ref: 1906.02906v1
+time-added: 2023-09-27-15:05:10
+title: 'Smart Contract Design Meets State Machine Synthesis: Case Studies'
+type: article
+url: http://arxiv.org/abs/1906.02906v1
+year: '2019'

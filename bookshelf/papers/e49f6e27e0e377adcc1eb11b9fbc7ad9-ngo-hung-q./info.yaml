@@ -1,0 +1,31 @@
+abstract: 'Worst-case optimal join algorithms are the class of join algorithms whose
+  runtime match the worst-case output size of a given join query. While the first
+  provably worst-case optimal join algorithm was discovered relatively recently, the
+  techniques and results surrounding these algorithms grow out of decades of research
+  from a wide range of areas, intimately connecting graph theory, algorithms, information
+  theory, constraint satisfaction, database theory, and geometric inequalities. These
+  ideas are not just paperware: in addition to academic project implementations, two
+  variations of such algorithms are the work-horse join algorithms of commercial database
+  and data analytics engines.   This paper aims to be a brief introduction to the
+  design and analysis of worst-case optimal join algorithms. We discuss the key techniques
+  for proving runtime and output size bounds. We particularly focus on the fascinating
+  connection between join algorithms and information theoretic inequalities, and the
+  idea of how one can turn a proof into an algorithm. Finally, we conclude with a
+  representative list of fundamental open problems in this area.'
+archiveprefix: arXiv
+author: Ngo, Hung Q.
+author_list:
+- family: Ngo
+  given: Hung Q.
+eprint: 1803.09930v3
+file: 1803.09930v3.pdf
+files:
+- ngo-hung-q.worst-case-optimal-join-algorithms-techniques-results-and-open-problems2018.pdf
+month: Mar
+primaryclass: cs.DB
+ref: 1803.09930v3
+time-added: 2023-10-03-17:09:54
+title: 'Worst-Case Optimal Join Algorithms: Techniques, Results, and Open   Problems'
+type: article
+url: http://arxiv.org/abs/1803.09930v3
+year: '2018'

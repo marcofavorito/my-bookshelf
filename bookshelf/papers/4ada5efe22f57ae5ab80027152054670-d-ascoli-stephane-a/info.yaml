@@ -1,0 +1,34 @@
+abstract: In this work, we introduce Boolformer, the first Transformer architecture
+  trained to perform end-to-end symbolic regression of Boolean functions. First, we
+  show that it can predict compact formulas for complex functions which were not seen
+  during training, when provided a clean truth table. Then, we demonstrate its ability
+  to find approximate expressions when provided incomplete and noisy observations.
+  We evaluate the Boolformer on a broad set of real-world binary classification datasets,
+  demonstrating its potential as an interpretable alternative to classic machine learning
+  methods. Finally, we apply it to the widespread task of modelling the dynamics of
+  gene regulatory networks. Using a recent benchmark, we show that Boolformer is competitive
+  with state-of-the art genetic algorithms with a speedup of several orders of magnitude.
+  Our code and models are available publicly.
+archiveprefix: arXiv
+author: d'Ascoli, Stéphane and Bengio, Samy and Susskind, Josh and Abbé, Emmanuel
+author_list:
+- family: d'Ascoli
+  given: Stéphane
+- family: Bengio
+  given: Samy
+- family: Susskind
+  given: Josh
+- family: Abbé
+  given: Emmanuel
+eprint: 2309.12207v1
+file: 2309.12207v1.pdf
+files:
+- d-ascoli-stephane-and-bengio-samy-and-susskind-josh-and-abbe-emmanuelboolformer-symbolic-regression-of-logic-functions-with-transformers2023.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2309.12207v1
+time-added: 2023-09-26-16:41:26
+title: 'Boolformer: Symbolic Regression of Logic Functions with Transformers'
+type: article
+url: http://arxiv.org/abs/2309.12207v1
+year: '2023'

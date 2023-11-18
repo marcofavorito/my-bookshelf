@@ -1,0 +1,37 @@
+abstract: One of the key challenges in applying reinforcement learning to complex
+  robotic control tasks is the need to gather large amounts of experience in order
+  to find an effective policy for the task at hand. Model-based reinforcement learning
+  can achieve good sample efficiency, but requires the ability to learn a model of
+  the dynamics that is good enough to learn an effective policy. In this work, we
+  develop a model-based reinforcement learning algorithm that combines prior knowledge
+  from previous tasks with online adaptation of the dynamics model. These two ingredients
+  enable highly sample-efficient learning even in regimes where estimating the true
+  dynamics is very difficult, since the online model adaptation allows the method
+  to locally compensate for unmodeled variation in the dynamics. We encode the prior
+  experience into a neural network dynamics model, adapt it online by progressively
+  refitting a local linear model of the dynamics, and use model predictive control
+  to plan under these dynamics. Our experimental results show that this approach can
+  be used to solve a variety of complex robotic manipulation tasks in just a single
+  attempt, using prior data from other manipulation behaviors.
+archiveprefix: arXiv
+author: Fu, Justin and Levine, Sergey and Abbeel, Pieter
+author_list:
+- family: Fu
+  given: Justin
+- family: Levine
+  given: Sergey
+- family: Abbeel
+  given: Pieter
+eprint: 1509.06841v3
+file: 1509.06841v3.pdf
+files:
+- fu-justin-and-levine-sergey-and-abbeel-pieterone-shot-learning-of-manipulation-skills-with-online-dynamics-adaptation-and-neural-network-priors20.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 1509.06841v3
+time-added: 2023-10-24-10:20:18
+title: One-Shot Learning of Manipulation Skills with Online Dynamics Adaptation   and
+  Neural Network Priors
+type: article
+url: http://arxiv.org/abs/1509.06841v3
+year: '2015'

@@ -1,0 +1,55 @@
+abstract: We introduce Meta-F*, a tactics and metaprogramming framework for the F*
+  program verifier. The main novelty of Meta-F* is allowing the use of tactics and
+  metaprogramming to discharge assertions not solvable by SMT, or to just simplify
+  them into well-behaved SMT fragments. Plus, Meta-F* can be used to generate verified
+  code automatically.   Meta-F* is implemented as an F* effect, which, given the powerful
+  effect system of F*, heavily increases code reuse and even enables the lightweight
+  verification of metaprograms. Metaprograms can be either interpreted, or compiled
+  to efficient native code that can be dynamically loaded into the F* type-checker
+  and can interoperate with interpreted code. Evaluation on realistic case studies
+  shows that Meta-F* provides substantial gains in proof development, efficiency,
+  and robustness.
+archiveprefix: arXiv
+author: Martínez, Guido and Ahman, Danel and Dumitrescu, Victor and Giannarakis, Nick
+  and Hawblitzel, Chris and Hritcu, Catalin and Narasimhamurthy, Monal and Paraskevopoulou,
+  Zoe and Pit-Claudel, Clément and Protzenko, Jonathan and Ramananandro, Tahina and
+  Rastogi, Aseem and Swamy, Nikhil
+author_list:
+- family: Martínez
+  given: Guido
+- family: Ahman
+  given: Danel
+- family: Dumitrescu
+  given: Victor
+- family: Giannarakis
+  given: Nick
+- family: Hawblitzel
+  given: Chris
+- family: Hritcu
+  given: Catalin
+- family: Narasimhamurthy
+  given: Monal
+- family: Paraskevopoulou
+  given: Zoe
+- family: Pit-Claudel
+  given: Clément
+- family: Protzenko
+  given: Jonathan
+- family: Ramananandro
+  given: Tahina
+- family: Rastogi
+  given: Aseem
+- family: Swamy
+  given: Nikhil
+eprint: 1803.06547v4
+file: 1803.06547v4.pdf
+files:
+- martinez-guido-and-ahman-danel-and-dumitrescu-victor-and-giannarakis-nick-and-hawblitzel-chris-and-hritcu-catalin-and-narasimhamurthy-monal-and.pdf
+month: Mar
+primaryclass: cs.PL
+ref: 1803.06547v4
+time-added: 2023-10-17-11:31:11
+title: 'Meta-F*: Proof Automation with SMT, Tactics, and Metaprograms'
+type: article
+url: http://arxiv.org/abs/1803.06547v4
+year: '2018'

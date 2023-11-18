@@ -1,0 +1,35 @@
+abstract: These notes present the essentials of first- and second-order monadic logics
+  on strings with introductory purposes. We discuss Monadic First-Order logic and
+  show that it is strictly less expressive than Finite-State Automata, in that it
+  only captures a strict subset of Regular Languages -- the non-counting ones. We
+  then introduce Monadic Second-Order logic; such a logic is, syntactically, a superset
+  of Monadic First-Order logic and captures Regular Languages exactly. We also show
+  how to transform an automaton into a corresponding formula and vice versa. Finally,
+  we discuss the use of logical characterizations of classes of languages as the basis
+  for automatic verification techniques.
+archiveprefix: arXiv
+author: Mandrioli, Dino and Martinenghi, Davide and Morzenti, Angelo and Pradella,
+  Matteo and Rossi, Matteo
+author_list:
+- family: Mandrioli
+  given: Dino
+- family: Martinenghi
+  given: Davide
+- family: Morzenti
+  given: Angelo
+- family: Pradella
+  given: Matteo
+- family: Rossi
+  given: Matteo
+eprint: 2301.10519v1
+file: 2301.10519v1.pdf
+files:
+- mandrioli-dino-and-martinenghi-davide-and-morzenti-angelo-and-pradella-matteo-and-rossi-matteolecture-notes-on-monadic-first-and-second-order-lo.pdf
+month: Jan
+primaryclass: cs.LO
+ref: 2301.10519v1
+time-added: 2023-09-27-14:59:15
+title: Lecture Notes on Monadic First- and Second-Order Logic on Strings
+type: article
+url: http://arxiv.org/abs/2301.10519v1
+year: '2023'

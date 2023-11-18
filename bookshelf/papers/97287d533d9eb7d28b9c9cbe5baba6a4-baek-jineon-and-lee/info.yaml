@@ -1,0 +1,35 @@
+abstract: Conway and Soifer showed that an equilateral triangle $T$ of side $n + \varepsilon$
+  with sufficiently small $\varepsilon > 0$ can be covered by $n^2 + 2$ unit equilateral
+  triangles. They conjectured that it is impossible to cover $T$ with $n^2 + 1$ unit
+  equilateral triangles no matter how small $\varepsilon$ is.   We show that if we
+  require all sides of the unit equilateral triangles to be parallel to the sides
+  of $T$ (e.g. $\bigtriangleup$ and $\bigtriangledown$), then it is impossible to
+  cover $T$ of side $n + \varepsilon$ with $n^2 + 1$ unit equilateral triangles for
+  any $\varepsilon > 0$. As the coverings of $T$ by Conway and Soifer only involve
+  triangles with sides parallel to $T$, our result determines the exact minimum number
+  $n^2+2$ of unit equilateral triangles with all sides parallel to $T$ that cover
+  $T$. We also determine the largest value $\varepsilon = 1/(n + 1)$ (resp. $\varepsilon
+  = 1 / n$) of $\varepsilon$ such that the equilateral triangle $T$ of side $n + \varepsilon$
+  can be covered by $n^2+2$ (resp. $n^2 + 3$) unit equilateral triangles with sides
+  parallel to $T$, where the first case is achieved by the construction of Conway
+  and Soifer.
+archiveprefix: arXiv
+author: Baek, Jineon and Lee, Seewoo
+author_list:
+- family: Baek
+  given: Jineon
+- family: Lee
+  given: Seewoo
+eprint: 2306.09533v2
+file: 2306.09533v2.pdf
+files:
+- baek-jineon-and-lee-seewoo-n-2-1-unit-equilateral-triangles-cannot-cover-an-equilateral-triangle-of-side-n-if-all-triangles-have-parallel-s.pdf
+month: Jun
+primaryclass: math.CO
+ref: 2306.09533v2
+time-added: 2023-09-24-22:12:57
+title: $n^2 + 1$ unit equilateral triangles cannot cover an equilateral   triangle
+  of side $> n$ if all triangles have parallel sides
+type: article
+url: http://arxiv.org/abs/2306.09533v2
+year: '2023'

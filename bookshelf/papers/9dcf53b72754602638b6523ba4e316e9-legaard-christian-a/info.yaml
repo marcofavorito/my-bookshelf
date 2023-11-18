@@ -1,0 +1,578 @@
+abstract: <jats:p>Dynamical systems see widespread use in natural sciences like physics,
+  biology, and chemistry, as well as engineering disciplines such as circuit analysis,
+  computational fluid dynamics, and control. For simple systems, the differential
+  equations governing the dynamics can be derived by applying fundamental physical
+  laws. However, for more complex systems, this approach becomes exceedingly difficult.
+  Data-driven modeling is an alternative paradigm that seeks to learn an approximation
+  of the dynamics of a system using observations of the true system. In recent years,
+  there has been an increased interest in applying data-driven modeling techniques
+  to solve a wide range of problems in physics and engineering. This article provides
+  a survey of the different ways to construct models of dynamical systems using neural
+  networks. In addition to the basic overview, we review the related literature and
+  outline the most significant challenges from numerical simulations that this modeling
+  paradigm must overcome. Based on the reviewed literature and identified challenges,
+  we provide a discussion on promising research areas.</jats:p>
+author: Legaard, Christian and Schranz, Thomas and Schweiger, Gerald and Drgoňa, Ján
+  and Falay, Basak and Gomes, Cláudio and Iosifidis, Alexandros and Abkar, Mahdi and
+  Larsen, Peter
+author_list:
+- affiliation:
+  - name: Aarhus University, Aarhus, Denmark
+  family: Legaard
+  given: Christian
+- affiliation:
+  - name: TU Graz, Graz, Austria
+  family: Schranz
+  given: Thomas
+- affiliation:
+  - name: TU Graz, Graz, Austria
+  family: Schweiger
+  given: Gerald
+- affiliation:
+  - name: Pacific Northwest National Laboratory, Richland, WA
+  family: Drgoňa
+  given: Ján
+- affiliation:
+  - name: AEE–Institute for Sustainable Technologies, Gleisdorf, Austria
+  family: Falay
+  given: Basak
+- affiliation:
+  - name: Aarhus University, Aarhus, Denmark
+  family: Gomes
+  given: Cláudio
+- affiliation:
+  - name: Aarhus University, Aarhus, Denmark
+  family: Iosifidis
+  given: Alexandros
+- affiliation:
+  - name: Aarhus University, Aarhus, Denmark
+  family: Abkar
+  given: Mahdi
+- affiliation:
+  - name: Aarhus University, Aarhus, Denmark
+  family: Larsen
+  given: Peter
+citations:
+- author: Abadi Martín
+  unstructured: 'Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng
+    Chen, Craig Citro, Greg S. Corrado, et al. 2016. TensorFlow: Large-scale machine
+    learning on heterogeneous distributed systems. arxiv:1603.04467 (2016).'
+  volume-title: 'TensorFlow: Large-scale machine learning on heterogeneous distributed
+    systems'
+  year: '2016'
+- author: Awiszus Maren
+  first-page: '2180'
+  unstructured: Maren Awiszus and Bodo Rosenhahn. 2018. Markov chain neural networks.
+    In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+    Workshops. 2180–2187.
+  volume-title: Proceedings of the IEEE Conference on Computer Vision and Pattern
+    Recognition Workshops
+  year: '2018'
+- article-title: Relational inductive biases, deep learning, and graph networks
+  author: Battaglia Peter W.
+  journal-title: CoRR
+  unstructured: Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez,
+    Vinícius Flores Zambaldi, Mateusz Malinowski, et al. 2018. Relational inductive
+    biases, deep learning, and graph networks. CoRR abs/1806.01261 (2018).
+  volume: '1806'
+  year: '2018'
+- article-title: Interaction networks for learning about objects, relations and physics
+  author: Battaglia Peter W.
+  journal-title: CoRR
+  unstructured: Peter W. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Jimenez Rezende,
+    and Koray Kavukcuoglu. 2016. Interaction networks for learning about objects,
+    relations and physics. CoRR abs/1612.00222 (2016).
+  volume: '1612'
+  year: '2016'
+- unstructured: 'Atilim Gunes Baydin Barak A. Pearlmutter Alexey Andreyevich Radul
+    and Jeffrey Mark Siskind. 2018. Automatic differentiation in machine learning:
+    A survey. arxiv:1502.05767 [cs stat] (Feb.2018).'
+- doi: 10.1002/qua.24890
+- author: Behrmann Jens
+  first-page: '573'
+  series-title: Proceedings of the 36th International Conference on Machine Learning.
+  unstructured: Jens Behrmann, Will Grathwohl, Ricky T. Q. Chen, David Duvenaud, and
+    Joern-Henrik Jacobsen. 2019. Invertible residual networks. In Proceedings of the
+    36th International Conference on Machine Learning.Proceedings of Machine Learning
+    Research, Vol. 97, Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.). PMLR, 573–582.
+  volume: '97'
+  year: '2019'
+- doi: 10.5555/3322706.3322734
+- author: Bishop Christopher
+  unstructured: Christopher Bishop. 2006. Pattern Recognition and Machine Learning.
+    Springer-Verlag, New York, NY.
+  volume-title: Pattern Recognition and Machine Learning
+  year: '2006'
+- article-title: 'Geometric deep learning: Grids, groups, graphs, geodesics, and gauges'
+  author: Bronstein Michael M.
+  journal-title: CoRR
+  unstructured: 'Michael M. Bronstein, Joan Bruna, Taco Cohen, and Petar Velickovic.
+    2021. Geometric deep learning: Grids, groups, graphs, geodesics, and gauges. CoRR
+    abs/2104.13478 (2021).'
+  volume: '2104'
+  year: '2021'
+- doi: 10.1146/annurev-fluid-010719-060214
+- doi: 10.1038/s41586-018-0337-2
+- doi: 10.5555/532288
+- doi: 10.5555/1121743
+- unstructured: Bo Chang Lili Meng Eldad Haber Frederick Tung and David Begert. 2018.
+    Multi-level residual networks from dynamical systems view. arxiv:1710.10348 [cs
+    stat] (Feb.2018).
+- article-title: A compositional object-based approach to learning physical dynamics
+  author: Chang Michael B.
+  journal-title: CoRR
+  unstructured: Michael B. Chang, Tomer Ullman, Antonio Torralba, and Joshua B. Tenenbaum.
+    2016. A compositional object-based approach to learning physical dynamics. CoRR
+    abs/1612.00341 (2016).
+  volume: '1612'
+  year: '2016'
+- author: Che Zhengping
+  first-page: '784'
+  series-title: Proceedings of the 35th International Conference on Machine Learning.
+  unstructured: Zhengping Che, Sanjay Purushotham, Guangyu Li, Bo Jiang, and Yan Liu.
+    2018. Hierarchical deep generative models for multi-rate multivariate time series.
+    In Proceedings of the 35th International Conference on Machine Learning.Proceedings
+    of Machine Learning Research, Vol. 80, Jennifer Dy and Andreas Krause (Eds.).
+    PMLR, 784–793.
+  volume: '80'
+  year: '2018'
+- unstructured: Ricky T. Q. Chen Yulia Rubanova Jesse Bettencourt and David Duvenaud.
+    2019. Neural ordinary differential equations. arxiv:1806.07366 [cs stat] (Dec.2019).
+- doi: 10.1098/rsif.2017.0387
+- author: Chung Junyoung
+  unstructured: Junyoung Chung, Kyle Kastner, Laurent Dinh, Kratarth Goel, Aaron C.
+    Courville, and Yoshua Bengio. 2015. A recurrent latent variable model for sequential
+    data. In Advances in Neural Information Processing Systems, C. Cortes, N. Lawrence,
+    D. Lee, M. Sugiyama, and R. Garnett (Eds.), Vol. 28. Curran Associates.
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2015'
+- unstructured: Miles Cranmer Sam Greydanus Stephan Hoyer Peter Battaglia David Spergel
+    and Shirley Ho. 2020. Lagrangian neural networks. arxiv:2003.04630 [physics stat]
+    (July2020).
+- unstructured: Raj Dandekar Karen Chung Vaibhav Dixit Mohamed Tarek Aslan Garcia-Valadez
+    Krishna Vishal Vemula and Chris Rackauckas. 2021. Bayesian neural ordinary differential
+    equations. arxiv:2012.07244 [cs] (March2021).
+- doi: 10.1016/S0959-1524(01)00023-3
+- article-title: TensorFlow distributions
+  author: Dillon Joshua V.
+  journal-title: CoRR
+  unstructured: Joshua V. Dillon, Ian Langmore, Dustin Tran, Eugene Brevdo, Srinivas
+    Vasudevan, Dave Moore, Brian Patton, Alex Alemi, Matthew D. Hoffman, and Rif A.
+    Saurous. 2017. TensorFlow distributions. CoRR abs/1711.10604 (2017).
+  volume: '1711'
+  year: '2017'
+- doi: 10.1016/j.arcontrol.2020.09.001
+- unstructured: Jan Drgona Aaron R. Tuor Vikas Chandan and Draguna L. Vrabie. 2020.
+    Physics-constrained deep learning of multi-zone building thermal dynamics. arxiv:2011.05987
+    [cs.LG] (2020).
+- unstructured: Emilien Dupont Arnaud Doucet and Yee Whye Teh. 2019. Augmented neural
+    ODEs. arxiv:1904.01681 [stat.ML] (2019).
+- unstructured: 'Chris Finlay Jörn-Henrik Jacobsen Levon Nurbekyan and Adam M. Oberman.
+    2020. How to train your neural ODE: The world of Jacobian and kinetic regularization.
+    arxiv:2002.02798 [stat.ML] (2020).'
+- article-title: Simplifying Hamiltonian and Lagrangian neural networks via explicit
+    constraints
+  author: Finzi Marc
+  journal-title: CoRR
+  unstructured: Marc Finzi, Ke Alexander Wang, and Andrew Gordon Wilson. 2020. Simplifying
+    Hamiltonian and Lagrangian neural networks via explicit constraints. CoRR abs/2010.13581
+    (2020).
+  volume: '2010'
+  year: '2020'
+- unstructured: 'Marco Forgione and Dario Piga. 2020. dynoNet: A neural network architecture
+    for learning dynamical systems. arxiv:2006.02250 [cs.LG] (2020).'
+- doi: 10.1016/j.paerosci.2008.11.001
+- unstructured: Marco Fraccaro Søren Kaae Sønderby Ulrich Paquet and Ole Winther.
+    2016. Sequential neural models with stochastic layers. arXiv preprint arxiv:1605.07571
+    (2016).
+- doi: 10.4271/2006-01-1217
+- doi: 10.1021/acs.jcim.0c00451
+- doi: 10.1016/0005-1098(89)90002-2
+- doi: 10.1145/356068.356071
+- unstructured: Daniel Gedon Niklas Wahlström Thomas B. Schön and Lennart Ljung. 2020.
+    Deep state space models for nonlinear system identification. arxiv:2003.14162
+    [eess.SY] (2020).
+- article-title: Robust classification using hidden Markov models and mixtures of
+    normalizing flows
+  author: Ghosh Anubhab
+  journal-title: CoRR
+  unstructured: Anubhab Ghosh, Antoine Honoré, Dong Liu, Gustav Eje Henter, and Saikat
+    Chatterjee. 2021. Robust classification using hidden Markov models and mixtures
+    of normalizing flows. CoRR abs/2102.07284 (2021).
+  volume: '2102'
+  year: '2021'
+- article-title: Neural message passing for quantum chemistry
+  author: Gilmer Justin
+  journal-title: CoRR
+  unstructured: Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals,
+    and George E. Dahl. 2017. Neural message passing for quantum chemistry. CoRR abs/1704.01212
+    (2017).
+  volume: '1704'
+  year: '2017'
+- doi: 10.5555/3086952
+- author: Greydanus Samuel
+  first-page: '15379'
+  unstructured: Samuel Greydanus, Misko Dzamba, and Jason Yosinski. 2019. Hamiltonian
+    neural networks. In Advances in Neural Information Processing Systems 32, H. Wallach,
+    H. Larochelle, A. Beygelzimer, F. F. d’Alché-Buc, E. Fox, and R. Garnett (Eds.).
+    Curran Associates, 15379–15389.
+  volume-title: Advances in Neural Information Processing Systems 32
+  year: '2019'
+- unstructured: Batuhan Güler Alexis Laignelet and Panos Parpas. 2019. Towards robust
+    and stable deep learning algorithms for forward backward stochastic differential
+    equations. arxiv:1910.11623 [stat.ML] (2019).
+- article-title: Learning latent dynamics for planning from pixels
+  author: Hafner Danijar
+  journal-title: CoRR
+  unstructured: Danijar Hafner, Timothy P. Lillicrap, Ian Fischer, Ruben Villegas,
+    David Ha, Honglak Lee, and James Davidson. 2018. Learning latent dynamics for
+    planning from pixels. CoRR abs/1811.04551 (2018).
+  volume: '1811'
+  year: '2018'
+- author: Hairer Ernst
+  doi: 10.1007/978-3-642-05221-7
+  unstructured: 'Ernst Hairer and Gerhard Wanner. 1996. Solving Ordinary Differential
+    Equations II: Stiff and Differential-Algebraic Problems. Number 14. Springer-Verlag,
+    Berlin, Germany.'
+  volume-title: 'Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic
+    Problems'
+  year: '1996'
+- unstructured: Kaiming He Xiangyu Zhang Shaoqing Ren and Jian Sun. 2015. Deep residual
+    learning for image recognition. arxiv:1512.03385 [cs] (Dec.2015).
+- unstructured: Pashupati Hegde Markus Heinonen Harri Lähdesmäki and Samuel Kaski.
+    2018. Deep learning with differential Gaussian process flows. arxiv:1810.04066
+    [cs stat] (Oct.2018).
+- doi: 10.1109/ICSMC.2008.4811555
+- article-title: Neural jump stochastic differential equations
+  author: Jia Junteng
+  journal-title: CoRR
+  unstructured: Junteng Jia and Austin R. Benson. 2019. Neural jump stochastic differential
+    equations. CoRR abs/1905.10403 (2019).
+  volume: '1905'
+  year: '2019'
+- doi: 10.1109/SC41405.2020.00009
+  unstructured: Weile Jia Han Wang Mohan Chen Denghui Lu Lin Lin Roberto Car Weinan
+    E and Linfeng Zhang. 2020. Pushing the limit of molecular dynamics with ab initio
+    accuracy to 100 million atoms with machine learning. arxiv:2005.00223 [physics.comp-ph]
+    (2020).
+- doi: 10.1080/0144235X.2016.1200347
+- doi: 10.1007/s10009-013-0289-7
+- article-title: 'Symplectic networks: Intrinsic structure-preserving networks for
+    identifying Hamiltonian systems'
+  author: Jin Pengzhan
+  journal-title: CoRR
+  unstructured: 'Pengzhan Jin, Aiqing Zhu, George Em Karniadakis, and Yifa Tang. 2020.
+    Symplectic networks: Intrinsic structure-preserving networks for identifying Hamiltonian
+    systems. CoRR abs/2001.03750 (2020).'
+  volume: '2001'
+  year: '2020'
+- unstructured: Laurent Valentin Jospin Wray Buntine Farid Boussaid Hamid Laga and
+    Mohammed Bennamoun. 2020. Hands-on Bayesian neural networks—A tutorial for deep
+    learning users. arxiv:2007.06823 [cs stat] (July2020).
+- doi: 10.1109/TKDE.2017.2720168
+- unstructured: Jacob Kelly Jesse Bettencourt Matthew James Johnson and David Duvenaud.
+    2020. Learning differential equations that are easy to solve. arxiv:2007.04504
+    [cs.LG] (2020).
+- doi: 10.1016/j.ymssp.2005.04.008
+- unstructured: 'Patrick Kidger Ricky T. Q. Chen and Terry Lyons. 2020. “Hey that’s
+    not an ODE”: Faster ODE adjoints with 12 lines of code. arxiv:2009.09457 [cs math]
+    (Sept.2020).'
+- unstructured: Thomas Kipf Ethan Fetaya Kuan-Chieh Wang Max Welling and Richard Zemel.
+    2018. Neural relational inference for interacting systems. arxiv:1802.04687 [stat.ML]
+    (2018).
+- doi: 10.1007/978-3-662-12616-5
+- article-title: 'Quantized-state systems: A DEVS approach for continuous system simulation'
+  author: Kofman Ernesto
+  first-page: '123'
+  issue: '3'
+  journal-title: Transactions of the Society for Modeling and Simulation International
+  unstructured: 'Ernesto Kofman and Sergio Junco. 2001. Quantized-state systems: A
+    DEVS approach for continuous system simulation. Transactions of the Society for
+    Modeling and Simulation International 18, 3 (2001), 123–132.'
+  volume: '18'
+  year: '2001'
+- doi: 10.1007/978-3-030-38926-0_2
+- author: Krishnan R.
+  unstructured: R. Krishnan, U. Shalit, and D. Sontag. 2017. Structured inference
+    networks for nonlinear state space models. In Proceedings of the 31st AAAI Conference
+    on Artificial Intelligence (AAAI’17). 2101–2109.
+  volume-title: Proceedings of the 31st AAAI Conference on Artificial Intelligence
+    (AAAI’17)
+  year: '2017'
+- unstructured: Rahul G. Krishnan Uri Shalit and David Sontag. 2015. Deep Kalman filters.
+    arxiv:1511.05121 [stat.ML] (2015).
+- unstructured: Rahul G. Krishnan Uri Shalit and David Sontag. 2016. Structured inference
+    networks for nonlinear state space models. arxiv:1609.09869 [stat.ML] (2016).
+- unstructured: Rahul G. Krishnan Uri Shalit and David Sontag. 2016. Structured inference
+    networks for nonlinear state space models. arxiv:1609.09869 [cs stat] (Dec.2016).
+- doi: 10.1016/j.asoc.2014.08.034
+- doi: 10.1098/rspa.2021.0162
+- author: Lenz I.
+  unstructured: 'I. Lenz, Ross A. Knepper, and A. Saxena. 2015. DeepMPC: Learning
+    deep latent features for model predictive control. In Proceedings of the Conference
+    on Robotics: Science and Systems.'
+  volume-title: 'Proceedings of the Conference on Robotics: Science and Systems'
+  year: '2015'
+- doi: 10.5555/1355322
+- unstructured: Xuechen Li Ting-Kam Leonard Wong Ricky T. Q. Chen and David Duvenaud.
+    2020. Scalable gradients for stochastic differential equations. arxiv:2001.01328
+    [cs.LG] (2020).
+- article-title: Learning particle dynamics for manipulating rigid bodies, deformable
+    objects, and fluids
+  author: Li Yunzhu
+  journal-title: CoRR
+  unstructured: Yunzhu Li, Jiajun Wu, Russ Tedrake, Joshua B. Tenenbaum, and Antonio
+    Torralba. 2018. Learning particle dynamics for manipulating rigid bodies, deformable
+    objects, and fluids. CoRR abs/1810.01566 (2018).
+  volume: '1810'
+  year: '2018'
+- article-title: Propagation networks for model-based control under partial observation
+  author: Li Yunzhu
+  journal-title: CoRR
+  unstructured: Yunzhu Li, Jiajun Wu, Jun-Yan Zhu, Joshua B. Tenenbaum, Antonio Torralba,
+    and Russ Tedrake. 2018. Propagation networks for model-based control under partial
+    observation. CoRR abs/1809.11169 (2018).
+  volume: '1809'
+  year: '2018'
+- unstructured: Dong Liu Antoine Honoré Saikat Chatterjee and Lars K. Rasmussen. 2019.
+    Powering hidden Markov model by neural network based generative models. arXiv
+    preprint arxiv:1910.05744 (2019).
+- unstructured: 'Xuanqing Liu Tesi Xiao Si Si Qin Cao Sanjiv Kumar and Cho-Jui Hsieh.
+    2019. Neural SDE: Stabilizing neural ODE networks with stochastic noise. arxiv:1906.02355
+    [cs.LG] (2019).'
+- unstructured: 'Xuanqing Liu Tesi Xiao Si Si Qin Cao Sanjiv Kumar and Cho-Jui Hsieh.
+    2019. Neural SDE: Stabilizing neural ODE networks with stochastic noise. arxiv:1906.02355
+    [cs stat] (June2019).'
+- doi: 10.3182/20060329-3-AU-2901.00009
+- unstructured: 'Michael Lutter Christian Ritter and Jan Peters. 2019. Deep Lagrangian
+    networks: Using physics as model prior for deep learning. arxiv:1907.04490 [cs
+    eess stat] (July2019).'
+- doi: 10.1017/S096249290100006X
+- unstructured: Stefano Massaroli Michael Poli Michelangelo Bin Jinkyoo Park Atsushi
+    Yamashita and Hajime Asama. 2020. Stable neural flows. arxiv:2003.08063 [cs.LG]
+    (2020).
+- unstructured: Stefano Massaroli Michael Poli Jinkyoo Park Atsushi Yamashita and
+    Hajime Asama. 2021. Dissecting neural ODEs. arxiv:2002.08071 [cs.LG] (2021).
+- doi: 10.1109/CDC.2018.8619475
+- doi: 10.1016/j.sysarc.2019.101635
+- author: Montanez George
+  unstructured: 'George Montanez, Saeed Amizadeh, and Nikolay Laptev. 2015. Inertial
+    hidden Markov models: Modeling change in multivariate time series. In Proceedings
+    of the AAAI Conference on Artificial Intelligence, Vol. 29.'
+  volume: '29'
+  volume-title: Proceedings of the AAAI Conference on Artificial Intelligence
+  year: '2015'
+- doi: 10.5555/3374138.3374170
+- author: Murphy Kevin P.
+  unstructured: 'Kevin P. Murphy. 2012. Machine Learning: A Probabilistic Perspective.
+    MIT Press, Cambridge, MA.'
+  volume-title: 'Machine Learning: A Probabilistic Perspective'
+  year: '2012'
+- doi: 10.1007/s00521-017-3028-2
+- doi: 10.1007/978-3-662-04323-3
+- unstructured: Alexander Norcliffe Cristian Bodnar Ben Day Nikola Simidjievski and
+    Pietro Liò. 2020. On second order behaviour in augmented neural ODEs. arxiv:2006.07220
+    [cs.LG] (2020).
+- unstructured: 'Viktor Oganesyan Alexandra Volokhova and Dmitry Vetrov. 2020. Stochasticity
+    in neural ODEs: An empirical study. arxiv:2002.09779 [cs stat] (June2020).'
+- unstructured: Olalekan Ogunmolu Xuejun Gu Steve Jiang and Nicholas Gans. 2016. Nonlinear
+    systems identification using deep dynamic neural networks. arxiv:1610.01439 [cs]
+    (Oct.2016).
+- article-title: Nonlinear systems identification using deep dynamic neural networks
+  author: Ogunmolu Olalekan P.
+  journal-title: CoRR
+  unstructured: Olalekan P. Ogunmolu, Xuejun Gu, Steve B. Jiang, and Nicholas R. Gans.
+    2016. Nonlinear systems identification using deep dynamic neural networks. CoRR
+    abs/1610.01439 (2016).
+  volume: '1610'
+  year: '2016'
+- unstructured: Katharina Ott Prateek Katiyar Philipp Hennig and Michael Tiemann.
+    2020. When are neural ODE solutions proper ODEs?arxiv:2007.15386 [cs stat] (July2020).
+- author: Paszke Adam
+  first-page: '8026'
+  unstructured: 'Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury,
+    Gregory Chanan, Trevor Killeen, et al. 2019. PyTorch: An imperative style, high-performance
+    deep learning library. In Advances in Neural Information Processing Systems 32,
+    H. Wallach, H. Larochelle, A. Beygelzimer, F. d’Alché-Buc, E. Fox, and R. Garnett
+    (Eds.). Curran Associates, 8026–8037.'
+  volume-title: Advances in Neural Information Processing Systems 32
+  year: '2019'
+- doi: 10.1007/978-3-642-38789-0_11
+- doi: 10.1007/s11023-019-09512-8
+- unstructured: Michael Poli Stefano Massaroli Junyoung Park Atsushi Yamashita Hajime
+    Asama and Jinkyoo Park. 2020. Graph neural ordinary differential equations. arxiv:1911.07532
+    [cs.LG] (2020).
+- doi: 10.1016/j.jcp.2019.06.042
+- author: Qu Meng
+  first-page: '5241'
+  unstructured: 'Meng Qu, Yoshua Bengio, and Jian Tang. 2019. GMNN: Graph Markov neural
+    networks. In Proceedings of the International Conference on Machine Learning.
+    5241–5250.'
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2019'
+- unstructured: 'Alessio Quaglino Marco Gallieri Jonathan Masci and Jan Koutník. 2020.
+    SNODE: Spectral discretization of neural ODEs for system identification. arxiv:1906.07038
+    [cs.NE] (2020).'
+- doi: 10.1109/ACCESS.2020.2987324
+- doi: 10.1016/j.jcp.2018.10.045
+- unstructured: Maziar Raissi Paris Perdikaris and George Em Karniadakis. 2018. Multistep
+    neural networks for data-driven discovery of nonlinear dynamical systems. arxiv:1801.01236
+    [nlin physics:physics stat] (Jan.2018).
+- doi: 10.1126/science.aaw4741
+- author: Rangapuram Syama S.
+  first-page: '7785'
+  unstructured: Syama S. Rangapuram, Matthias W. Seeger, Jan Gasthaus, Lorenzo Stella,
+    Yuyang Wang, and Tim Januschowski. 2018. Deep state space models for time series
+    forecasting. In Advances in Neural Information Processing Systems 31, S. Bengio,
+    H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett (Eds.).
+    Curran Associates, 7785–7794.
+  volume-title: Advances in Neural Information Processing Systems 31
+  year: '2018'
+- doi: 10.1029/2011WR011527
+- unstructured: Danilo Jimenez Rezende and Shakir Mohamed. 2016. Variational inference
+    with normalizing flows. arxiv:1505.05770 [stat.ML] (2016).
+- author: Rezende Danilo Jimenez
+  first-page: '1278'
+  unstructured: Danilo Jimenez Rezende, Shakir Mohamed, and Daan Wierstra. 2014. Stochastic
+    backpropagation and approximate inference in deep generative models. In Proceedings
+    of the International Conference on Machine Learning. 1278–1286.
+  volume-title: Proceedings of the International Conference on Machine Learning
+  year: '2014'
+- unstructured: David Rolnick Priya L. Donti Lynn H. Kaack Kelly Kochanski Alexandre
+    Lacoste Kris Sankaran Andrew Slavin Ross et al. 2019. Tackling climate change
+    with machine learning. arxiv:1906.05433 [cs stat] (Nov.2019).
+- article-title: Temporal graph networks for deep learning on dynamic graphs
+  author: Rossi Emanuele
+  journal-title: CoRR
+  unstructured: Emanuele Rossi, Ben Chamberlain, Fabrizio Frasca, Davide Eynard, Federico
+    Monti, and Michael M. Bronstein. 2020. Temporal graph networks for deep learning
+    on dynamic graphs. CoRR abs/2006.10637 (2020).
+  volume: '2006'
+  year: '2020'
+- unstructured: Lars Ruthotto and Eldad Haber. 2018. Deep neural networks motivated
+    by partial differential equations. arxiv:1804.04272 [cs math stat] (Dec.2018).
+- doi: 10.1007/s10851-019-00903-1
+- article-title: Hamiltonian graph networks with ODE integrators
+  author: Sanchez-Gonzalez Alvaro
+  journal-title: CoRR
+  unstructured: Alvaro Sanchez-Gonzalez, Victor Bapst, Kyle Cranmer, and Peter W.
+    Battaglia. 2019. Hamiltonian graph networks with ODE integrators. CoRR abs/1909.12790
+    (2019).
+  volume: '1909'
+  year: '2019'
+- article-title: Learning to simulate complex physics with graph networks
+  author: Sanchez-Gonzalez Alvaro
+  journal-title: CoRR
+  unstructured: Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying,
+    Jure Leskovec, and Peter W. Battaglia. 2020. Learning to simulate complex physics
+    with graph networks. CoRR abs/2002.09405 (2020).
+  volume: '2002'
+  year: '2020'
+- article-title: Graph networks as learnable physics engines for inference and control
+  author: Sanchez-Gonzalez Alvaro
+  journal-title: CoRR
+  unstructured: Alvaro Sanchez-Gonzalez, Nicolas Heess, Jost Tobias Springenberg,
+    Josh Merel, Martin A. Riedmiller, Raia Hadsell, and Peter W. Battaglia. 2018.
+    Graph networks as learnable physics engines for inference and control. CoRR abs/1806.01242
+    (2018).
+  volume: '1806'
+  year: '2018'
+- doi: 10.1109/TNN.2008.2005605
+- article-title: 'Nonlinear system identification: A user-oriented roadmap'
+  author: Schoukens Johan
+  journal-title: CoRR
+  unstructured: 'Johan Schoukens and Lennart Ljung. 2019. Nonlinear system identification:
+    A user-oriented roadmap. CoRR abs/1902.00683 (2019).'
+  volume: '1902'
+  year: '2019'
+- doi: 10.1016/j.ifacol.2017.08.071
+- doi: 10.4028/www.scientific.net/SSP.166-167.1
+- unstructured: 'Kristof T. Schütt Pieter-Jan Kindermans Huziel E. Sauceda Stefan
+    Chmiela Alexandre Tkatchenko and Klaus-Robert Müller. 2017. SchNet: A continuous-filter
+    convolutional neural network for modeling quantum interactions. arxiv:1706.08566
+    [stat.ML] (2017).'
+- unstructured: Elliott Skomski Jan Drgona and Aaron Tuor. 2020. Physics-informed
+    neural state space models via learning and evolution. arxiv:2011.13497 [cs.NE]
+    (2020).
+- doi: 10.23919/ACC50511.2021.9482930
+  unstructured: Elliott Skomski Soumya Vasisht Colby Wight Aaron Tuor Jan Drgona and
+    Draguna Vrabie. 2021. Constrained block nonlinear neural dynamical models. arxiv:2101.01864
+    [math.DS] (2021).
+- doi: 10.3182/20080706-5-KR-1001.01934
+- doi: 10.1016/j.neuroimage.2016.01.005
+- unstructured: Peter Toth Danilo Jimenez Rezende Andrew Jaegle Sébastien Racanière
+    Aleksandar Botev and Irina Higgins. 2020. Hamiltonian generative networks. arxiv:1909.13789
+    [cs stat] (Feb.2020).
+- doi: 10.1063/1.5017898
+- doi: 10.1021/acs.jctc.9b00181
+- doi: 10.1115/DETC2010-28813
+- unstructured: Laura von Rueden Sebastian Mayer Katharina Beckh Bogdan Georgiev Sven
+    Giesselbach Raoul Heese Birgit Kirsch et al. 2020. Informed machine learning—A
+    taxonomy and survey of integrating knowledge into learning systems. arxiv:1903.12394
+    [cs stat] (Feb.2020).
+- doi: 10.1007/978-3-030-44584-3_43
+- doi: 10.1021/acscentsci.8b00913
+- unstructured: Sifan Wang Yujun Teng and Paris Perdikaris. 2020. Understanding and
+    mitigating gradient pathologies in physics-informed neural networks. arxiv:2001.04536
+    [cs math stat] (Jan.2020).
+- unstructured: 'Sifan Wang Xinling Yu and Paris Perdikaris. 2020. When and why PINNs
+    fail to train: A neural tangent kernel perspective. arxiv:2007.14527 [cs math
+    stat] (July2020).'
+- unstructured: 'G. Wanner and E. Hairer. 1991. Solving Ordinary Differential Equations
+    I: Nonstiff Problems Vol. 1. Springer-Verlag.'
+- author: Watters Nicholas
+  unstructured: 'Nicholas Watters, Daniel Zoran, Theophane Weber, Peter Battaglia,
+    Razvan Pascanu, and Andrea Tacchetti. 2017. Visual interaction networks: Learning
+    a physics simulator from video. In Advances in Neural Information Processing Systems,
+    I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and
+    R. Garnett (Eds.), Vol. 30. Curran Associates, 4542–4550.'
+  volume-title: Advances in Neural Information Processing Systems
+  year: '2017'
+- doi: 10.1016/j.enbuild.2019.05.057
+- unstructured: Hao Wu Andreas Mardt Luca Pasquali and Frank Noe. 2018. Deep generative
+    Markov state models. arXiv preprint arxiv:1805.07601 (2018).
+- article-title: A comprehensive survey on graph neural networks
+  author: Wu Zonghan
+  journal-title: CoRR
+  unstructured: Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang,
+    and Philip S. Yu. 2019. A comprehensive survey on graph neural networks. CoRR
+    abs/1901.00596 (2019).
+  volume: '1901'
+  year: '2019'
+- unstructured: Winnie Xu Ricky T. Q. Chen Xuechen Li and David Duvenaud. 2021. Infinitely
+    deep Bayesian neural networks with stochastic differential equations. arxiv:2102.06559
+    [cs stat] (Aug.2021).
+- doi: 10.1103/PhysRevLett.120.143001
+- unstructured: Linfeng Zhang Jiequn Han Han Wang Wissam A. Saidi Roberto Car and
+    Weinan E. 2018. End-to-end symmetry preserving inter-atomic potential energy model
+    for finite and extended systems. arxiv:1805.09003 [physics.comp-ph] (2018).
+- article-title: 'Deep learning on graphs: A survey'
+  author: Zhang Ziwei
+  journal-title: CoRR
+  unstructured: 'Ziwei Zhang, Peng Cui, and Wenwu Zhu. 2018. Deep learning on graphs:
+    A survey. CoRR abs/1812.04202 (2018).'
+  volume: '1812'
+  year: '2018'
+- article-title: 'Symplectic ODE-Net: Learning Hamiltonian dynamics with control'
+  author: Zhong Yaofeng Desmond
+  journal-title: CoRR
+  unstructured: 'Yaofeng Desmond Zhong, Biswadip Dey, and Amit Chakraborty. 2019.
+    Symplectic ODE-Net: Learning Hamiltonian dynamics with control. CoRR abs/1909.12077
+    (2019).'
+  volume: '1909'
+  year: '2019'
+- doi: 10.1016/j.aiopen.2021.01.001
+doi: 10.1145/3567591
+issue: '11'
+journal: ACM Computing Surveys
+language: en
+month: 11
+pages: 1--34
+publisher: Association for Computing Machinery (ACM)
+ref: ConstructingNeLegaar2023
+time-added: 2023-09-26-11:32:18
+title: Constructing Neural Network Based Models for Simulating Dynamical Systems
+type: article
+url: http://dx.doi.org/10.1145/3567591
+volume: '55'
+year: 2023

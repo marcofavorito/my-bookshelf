@@ -1,0 +1,45 @@
+abstract: The selfdestruct function is provided by Ethereum smart contracts to destroy
+  a contract on the blockchain system. However, it is a double-edged sword for developers.
+  On the one hand, using selfdestruct function enables developers to remove smart
+  contracts (SC) from Ethereum and transfers Ethers when emergency situations happen,
+  e.g. being attacked. On the other hand, this function can increase the complexity
+  for the development and open an attack vector for attackers. To better understand
+  the reasons why SC developers include or exclude the selfdestruct function in their
+  contracts, we conducted an online survey to collect feedback from them and summarize
+  the key reasons. Their feedback shows that 66.67% of the developers will deploy
+  an updated contract to the Ethereum after destructing the old contract. According
+  to this information, we propose a method to find the self-destructed contracts (also
+  called predecessor contracts) and their updated version (successor contracts) by
+  computing the code similarity. By analyzing the difference between the predecessor
+  contracts and their successor contracts, we found five reasons that led to the death
+  of the contracts; two of them (i.e., Unmatched ERC20 Token and Limits of Permission)
+  might affect the life span of contracts. We developed a tool named LifeScope to
+  detect these problems. LifeScope reports 0 false positives or negatives in detecting
+  Unmatched ERC20 Token. In terms of Limits of Permission, LifeScope achieves 77.89%
+  of F-measure and 0.8673 of AUC in average. According to the feedback of developers
+  who exclude selfdestruct functions, we propose suggestions to help developers use
+  selfdestruct functions in Ethereum smart contracts better.
+archiveprefix: arXiv
+author: Chen, Jiachi and Xia, Xin and Lo, David and Grundy, John
+author_list:
+- family: Chen
+  given: Jiachi
+- family: Xia
+  given: Xin
+- family: Lo
+  given: David
+- family: Grundy
+  given: John
+eprint: 2005.07908v3
+file: 2005.07908v3.pdf
+files:
+- chen-jiachi-and-xia-xin-and-lo-david-and-grundy-johnwhy-do-smart-contracts-self-destruct-investigating-the-selfdestruct-function-on-ethereum202.pdf
+month: May
+primaryclass: cs.SE
+ref: 2005.07908v3
+time-added: 2023-10-17-10:34:09
+title: Why Do Smart Contracts Self-Destruct? Investigating the Selfdestruct   Function
+  on Ethereum
+type: article
+url: http://arxiv.org/abs/2005.07908v3
+year: '2020'

@@ -1,0 +1,27 @@
+abstract: We introduce MADGRAD, a novel optimization method in the family of AdaGrad
+  adaptive gradient methods. MADGRAD shows excellent performance on deep learning
+  optimization problems from multiple fields, including classification and image-to-image
+  tasks in vision, and recurrent and bidirectionally-masked models in natural language
+  processing. For each of these tasks, MADGRAD matches or outperforms both SGD and
+  ADAM in test set performance, even on problems for which adaptive methods normally
+  perform poorly.
+archiveprefix: arXiv
+author: Defazio, Aaron and Jelassi, Samy
+author_list:
+- family: Defazio
+  given: Aaron
+- family: Jelassi
+  given: Samy
+eprint: 2101.11075v3
+file: 2101.11075v3.pdf
+files:
+- defazio-aaron-and-jelassi-samyadaptivity-without-compromise-a-momentumized-adaptive-dual-averaged-gradient-method-for-stochastic-optimization20.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2101.11075v3
+time-added: 2023-11-09-09:58:53
+title: 'Adaptivity without Compromise: A Momentumized, Adaptive, Dual Averaged   Gradient
+  Method for Stochastic Optimization'
+type: article
+url: http://arxiv.org/abs/2101.11075v3
+year: '2021'

@@ -1,0 +1,36 @@
+abstract: 'Large Language Models (LLMs) have recently shown promise as high-level
+  planners for robots when given access to a selection of low-level skills. However,
+  it is often assumed that LLMs do not possess sufficient knowledge to be used for
+  the low-level trajectories themselves. In this work, we address this assumption
+  thoroughly, and investigate if an LLM (GPT-4) can directly predict a dense sequence
+  of end-effector poses for manipulation skills, when given access to only object
+  detection and segmentation vision models. We study how well a single task-agnostic
+  prompt, without any in-context examples, motion primitives, or external trajectory
+  optimisers, can perform across 26 real-world language-based tasks, such as "open
+  the bottle cap" and "wipe the plate with the sponge", and we investigate which design
+  choices in this prompt are the most effective. Our conclusions raise the assumed
+  limit of LLMs for robotics, and we reveal for the first time that LLMs do indeed
+  possess an understanding of low-level robot control sufficient for a range of common
+  tasks, and that they can additionally detect failures and then re-plan trajectories
+  accordingly. Videos, code, and prompts are available at: https://www.robot-learning.uk/language-models-trajectory-generators.'
+archiveprefix: arXiv
+author: Kwon, Teyun and Palo, Norman Di and Johns, Edward
+author_list:
+- family: Kwon
+  given: Teyun
+- family: Palo
+  given: Norman Di
+- family: Johns
+  given: Edward
+eprint: 2310.11604v1
+file: 2310.11604v1.pdf
+files:
+- kwon-teyun-and-palo-norman-di-and-johns-edwardlanguage-models-as-zero-shot-trajectory-generators2023.pdf
+month: Oct
+primaryclass: cs.RO
+ref: 2310.11604v1
+time-added: 2023-10-24-15:48:17
+title: Language Models as Zero-Shot Trajectory Generators
+type: article
+url: http://arxiv.org/abs/2310.11604v1
+year: '2023'

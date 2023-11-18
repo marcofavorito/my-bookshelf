@@ -1,0 +1,38 @@
+abstract: Reinforcement learning has a rich history in neuroscience, from early work
+  on dopamine as a reward prediction error signal for temporal difference learning
+  (Schultz et al., 1997) to recent work suggesting that dopamine could implement a
+  form of 'distributional reinforcement learning' popularized in deep learning (Dabney
+  et al., 2020). Throughout this literature, there has been a tight link between theoretical
+  advances in reinforcement learning and neuroscientific experiments and findings.
+  As a result, the theories describing our experimental data have become increasingly
+  complex and difficult to navigate. In this review, we cover the basic theory underlying
+  classical work in reinforcement learning and build up to an introductory overview
+  of methods used in modern deep reinforcement learning that have found applications
+  in systems neuroscience. We start with an overview of the reinforcement learning
+  problem and classical temporal difference algorithms, followed by a discussion of
+  'model-free' and 'model-based' reinforcement learning together with methods such
+  as DYNA and successor representations that fall in between these two categories.
+  Throughout these sections, we highlight the close parallels between the machine
+  learning methods and related work in both experimental and theoretical neuroscience.
+  We then provide an introduction to deep reinforcement learning with examples of
+  how these methods have been used to model different learning phenomena in the systems
+  neuroscience literature, such as meta-reinforcement learning (Wang et al., 2018)
+  and distributional reinforcement learning (Dabney et al., 2020). Code that implements
+  the methods discussed in this work and generates the figures is also provided.
+archiveprefix: arXiv
+author: Jensen, Kristopher T.
+author_list:
+- family: Jensen
+  given: Kristopher T.
+eprint: 2311.07315v1
+file: 2311.07315v1.pdf
+files:
+- jensen-kristopher-t.an-introduction-to-reinforcement-learning-for-neuroscience2023.pdf
+month: Nov
+primaryclass: q-bio.NC
+ref: 2311.07315v1
+time-added: 2023-11-16-15:52:32
+title: An introduction to reinforcement learning for neuroscience
+type: article
+url: http://arxiv.org/abs/2311.07315v1
+year: '2023'

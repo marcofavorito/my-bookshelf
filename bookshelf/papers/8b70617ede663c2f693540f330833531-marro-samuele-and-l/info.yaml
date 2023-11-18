@@ -1,0 +1,32 @@
+abstract: 'In the context of adversarial robustness, we make three strongly related
+  contributions. First, we prove that while attacking ReLU classifiers is $\mathit{NP}$-hard,
+  ensuring their robustness at training time is $\Sigma^2_P$-hard (even on a single
+  example). This asymmetry provides a rationale for the fact that robust classifications
+  approaches are frequently fooled in the literature. Second, we show that inference-time
+  robustness certificates are not affected by this asymmetry, by introducing a proof-of-concept
+  approach named Counter-Attack (CA). Indeed, CA displays a reversed asymmetry: running
+  the defense is $\mathit{NP}$-hard, while attacking it is $\Sigma_2^P$-hard. Finally,
+  motivated by our previous result, we argue that adversarial attacks can be used
+  in the context of robustness certification, and provide an empirical evaluation
+  of their effectiveness. As a byproduct of this process, we also release UG100, a
+  benchmark dataset for adversarial attacks.'
+archiveprefix: arXiv
+author: Marro, Samuele and Lombardi, Michele
+author_list:
+- family: Marro
+  given: Samuele
+- family: Lombardi
+  given: Michele
+eprint: 2306.14326v1
+file: 2306.14326v1.pdf
+files:
+- marro-samuele-and-lombardi-michelecomputational-asymmetries-in-robust-classification2023.pdf
+month: Jun
+note: 40th International Conference on Machine Learning (ICML 2023)
+primaryclass: cs.LG
+ref: 2306.14326v1
+time-added: 2023-11-08-22:53:06
+title: Computational Asymmetries in Robust Classification
+type: article
+url: http://arxiv.org/abs/2306.14326v1
+year: '2023'

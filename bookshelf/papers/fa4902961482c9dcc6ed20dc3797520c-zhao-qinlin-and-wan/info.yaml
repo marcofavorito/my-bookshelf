@@ -1,0 +1,46 @@
+abstract: Large language models (LLMs) have been widely used as agents to complete
+  different tasks, such as personal assistance or event planning. While most work
+  has focused on cooperation and collaboration between agents, little work explores
+  competition, another important mechanism that fosters the development of society
+  and economy. In this paper, we seek to examine the competition behaviors in LLM-based
+  agents. We first propose a general framework to study the competition between agents.
+  Then, we implement a practical competitive environment using GPT-4 to simulate a
+  virtual town with two types of agents, including restaurant agents and customer
+  agents. Specifically, restaurant agents compete with each other to attract more
+  customers, where the competition fosters them to transform, such as cultivating
+  new operating strategies. The results of our experiments reveal several interesting
+  findings ranging from social learning to Matthew Effect, which aligns well with
+  existing sociological and economic theories. We believe that competition between
+  agents deserves further investigation to help us understand society better. The
+  code will be released soon.
+archiveprefix: arXiv
+author: Zhao, Qinlin and Wang, Jindong and Zhang, Yixuan and Jin, Yiqiao and Zhu,
+  Kaijie and Chen, Hao and Xie, Xing
+author_list:
+- family: Zhao
+  given: Qinlin
+- family: Wang
+  given: Jindong
+- family: Zhang
+  given: Yixuan
+- family: Jin
+  given: Yiqiao
+- family: Zhu
+  given: Kaijie
+- family: Chen
+  given: Hao
+- family: Xie
+  given: Xing
+eprint: 2310.17512v1
+file: 2310.17512v1.pdf
+files:
+- zhao-qinlin-and-wang-jindong-and-zhang-yixuan-and-jin-yiqiao-and-zhu-kaijie-and-chen-hao-and-xie-xingcompeteai-understanding-the-competition-b.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 2310.17512v1
+time-added: 2023-10-31-09:37:27
+title: 'CompeteAI: Understanding the Competition Behaviors in Large Language   Model-based
+  Agents'
+type: article
+url: http://arxiv.org/abs/2310.17512v1
+year: '2023'

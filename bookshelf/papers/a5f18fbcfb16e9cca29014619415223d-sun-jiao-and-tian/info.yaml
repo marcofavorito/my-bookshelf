@@ -1,0 +1,43 @@
+abstract: While recent studies have looked into the abilities of large language models
+  in various benchmark tasks, including question generation, reading comprehension,
+  multilingual and etc, there have been few studies looking into the controllability
+  of large language models on generation tasks. We present an extensive analysis of
+  various benchmarks including a sentence planning benchmark with different granularities.
+  After comparing large language models against state-of-the-start finetuned smaller
+  models, we present a spectrum showing large language models falling behind, are
+  comparable, or exceed the ability of smaller models. We conclude that **large language
+  models struggle at meeting fine-grained hard constraints**.
+archiveprefix: arXiv
+author: Sun, Jiao and Tian, Yufei and Zhou, Wangchunshu and Xu, Nan and Hu, Qian and
+  Gupta, Rahul and Wieting, John Frederick and Peng, Nanyun and Ma, Xuezhe
+author_list:
+- family: Sun
+  given: Jiao
+- family: Tian
+  given: Yufei
+- family: Zhou
+  given: Wangchunshu
+- family: Xu
+  given: Nan
+- family: Hu
+  given: Qian
+- family: Gupta
+  given: Rahul
+- family: Wieting
+  given: John Frederick
+- family: Peng
+  given: Nanyun
+- family: Ma
+  given: Xuezhe
+eprint: 2310.14542v1
+file: 2310.14542v1.pdf
+files:
+- sun-jiao-and-tian-yufei-and-zhou-wangchunshu-and-xu-nan-and-hu-qian-and-gupta-rahul-and-wieting-john-frederick-and-peng-nanyun-and-ma-xuezhee.pdf
+month: Oct
+primaryclass: cs.CL
+ref: 2310.14542v1
+time-added: 2023-11-15-12:26:05
+title: Evaluating Large Language Models on Controlled Generation Tasks
+type: article
+url: http://arxiv.org/abs/2310.14542v1
+year: '2023'
