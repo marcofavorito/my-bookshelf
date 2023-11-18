@@ -1,0 +1,38 @@
+abstract: Discovering causal structure among a set of variables is a fundamental problem
+  in many empirical sciences. Traditional score-based casual discovery methods rely
+  on various local heuristics to search for a Directed Acyclic Graph (DAG) according
+  to a predefined score function. While these methods, e.g., greedy equivalence search,
+  may have attractive results with infinite samples and certain model assumptions,
+  they are usually less satisfactory in practice due to finite data and possible violation
+  of assumptions. Motivated by recent advances in neural combinatorial optimization,
+  we propose to use Reinforcement Learning (RL) to search for the DAG with the best
+  scoring. Our encoder-decoder model takes observable data as input and generates
+  graph adjacency matrices that are used to compute rewards. The reward incorporates
+  both the predefined score function and two penalty terms for enforcing acyclicity.
+  In contrast with typical RL applications where the goal is to learn a policy, we
+  use RL as a search strategy and our final output would be the graph, among all graphs
+  generated during training, that achieves the best reward. We conduct experiments
+  on both synthetic and real datasets, and show that the proposed approach not only
+  has an improved search ability but also allows a flexible score function under the
+  acyclicity constraint.
+archiveprefix: arXiv
+author: Zhu, Shengyu and Ng, Ignavier and Chen, Zhitang
+author_list:
+- family: Zhu
+  given: Shengyu
+- family: Ng
+  given: Ignavier
+- family: Chen
+  given: Zhitang
+eprint: 1906.04477v4
+file: 1906.04477v4.pdf
+files:
+- zhu-shengyu-and-ng-ignavier-and-chen-zhitangcausal-discovery-with-reinforcement-learning2019.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 1906.04477v4
+time-added: 2023-10-12-12:47:47
+title: Causal Discovery with Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/1906.04477v4
+year: '2019'

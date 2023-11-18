@@ -1,0 +1,49 @@
+abstract: Battery life prediction holds significant practical value for battery research
+  and development. Currently, many data-driven models rely on early electrical signals
+  from specific target batteries to predict their lifespan. A common shortfall is
+  that most existing methods are developed based on specific aging conditions, which
+  not only limits their model's capability but also diminishes their effectiveness
+  in predicting degradation under varied conditions. As a result, these models often
+  miss out on fully benefiting from the rich historical data available under other
+  conditions. Here, to address above, we introduce an approach that explicitly captures
+  differences between electrical signals of a target battery and a reference battery,
+  irrespective of their materials and aging conditions, to forecast the target battery
+  life. Through this inter-cell difference, we not only enhance the feature space
+  but also pave the way for a universal battery life prediction framework. Remarkably,
+  our model that combines the inter- and intra-cell differences shines across diverse
+  conditions, standing out in its efficiency and accuracy using all accessible datasets.
+  An essential application of our approach is its capability to leverage data from
+  older batteries effectively, enabling newer batteries to capitalize on insights
+  gained from past batteries. This work not only enriches the battery data utilization
+  strategy but also sets the stage for smarter battery management system in the future.
+archiveprefix: arXiv
+author: Zhang, Han and Li, Yuqi and Zheng, Shun and Lu, Ziheng and Gui, Xiaofan and
+  Xu, Wei and Bian, Jiang
+author_list:
+- family: Zhang
+  given: Han
+- family: Li
+  given: Yuqi
+- family: Zheng
+  given: Shun
+- family: Lu
+  given: Ziheng
+- family: Gui
+  given: Xiaofan
+- family: Xu
+  given: Wei
+- family: Bian
+  given: Jiang
+eprint: 2310.05052v1
+file: 2310.05052v1.pdf
+files:
+- zhang-han-and-li-yuqi-and-zheng-shun-and-lu-ziheng-and-gui-xiaofan-and-xu-wei-and-bian-jiangharnessing-intra-and-inter-cell-differences-a-com.pdf
+month: Oct
+primaryclass: eess.SP
+ref: 2310.05052v1
+time-added: 2023-10-11-09:13:42
+title: 'Harnessing Intra- and Inter-Cell Differences: A Comprehensive Approach   to
+  Precise Battery Lifespan Estimations across Conditions'
+type: article
+url: http://arxiv.org/abs/2310.05052v1
+year: '2023'

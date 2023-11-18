@@ -1,0 +1,33 @@
+abstract: DatalogMTL is an extension of Datalog with metric temporal operators that
+  has found applications in temporal ontology-based data access and query answering,
+  as well as in stream reasoning. Practical algorithms for DatalogMTL are reliant
+  on materialisation-based reasoning, where temporal facts are derived in a forward
+  chaining manner in successive rounds of rule applications. Current materialisation-based
+  procedures are, however, based on a naive evaluation strategy, where the main source
+  of inefficiency stems from redundant computations.   In this paper, we propose a
+  materialisation-based procedure which, analogously to the classical seminaive algorithm
+  in Datalog, aims at minimising redundant computation by ensuring that each temporal
+  rule instance is considered at most once during the execution of the algorithm.
+  Our experiments show that our optimised seminaive strategy for DatalogMTL is able
+  to significantly reduce materialisation times.
+archiveprefix: arXiv
+author: Wang, Dingmin and Wałęga, Przemysław Andrzej and Grau, Bernardo Cuenca
+author_list:
+- family: Wang
+  given: Dingmin
+- family: Wałęga
+  given: Przemysław Andrzej
+- family: Grau
+  given: Bernardo Cuenca
+eprint: 2208.07100v2
+file: 2208.07100v2.pdf
+files:
+- wang-dingmin-and-walega-przemyslaw-andrzej-and-grau-bernardo-cuencaseminaive-materialisation-in-datalogmtl2022.pdf
+month: Aug
+primaryclass: cs.DB
+ref: 2208.07100v2
+time-added: 2023-09-25-16:21:30
+title: Seminaive Materialisation in DatalogMTL
+type: article
+url: http://arxiv.org/abs/2208.07100v2
+year: '2022'

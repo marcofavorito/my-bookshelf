@@ -1,0 +1,81 @@
+abstract: Benchmarks play an important role in the development of machine learning
+  algorithms. For example, research in reinforcement learning (RL) has been heavily
+  influenced by available environments and benchmarks. However, RL environments are
+  traditionally run on the CPU, limiting their scalability with typical academic compute.
+  Recent advancements in JAX have enabled the wider use of hardware acceleration to
+  overcome these computational hurdles, enabling massively parallel RL training pipelines
+  and environments. This is particularly useful for multi-agent reinforcement learning
+  (MARL) research. First of all, multiple agents must be considered at each environment
+  step, adding computational burden, and secondly, the sample complexity is increased
+  due to non-stationarity, decentralised partial observability, or other MARL challenges.
+  In this paper, we present JaxMARL, the first open-source code base that combines
+  ease-of-use with GPU enabled efficiency, and supports a large number of commonly
+  used MARL environments as well as popular baseline algorithms. When considering
+  wall clock time, our experiments show that per-run our JAX-based training pipeline
+  is up to 12500x faster than existing approaches. This enables efficient and thorough
+  evaluations, with the potential to alleviate the evaluation crisis of the field.
+  We also introduce and benchmark SMAX, a vectorised, simplified version of the popular
+  StarCraft Multi-Agent Challenge, which removes the need to run the StarCraft II
+  game engine. This not only enables GPU acceleration, but also provides a more flexible
+  MARL environment, unlocking the potential for self-play, meta-learning, and other
+  future applications in MARL. We provide code at https://github.com/flairox/jaxmarl.
+archiveprefix: arXiv
+author: Rutherford, Alexander and Ellis, Benjamin and Gallici, Matteo and Cook, Jonathan
+  and Lupu, Andrei and Ingvarsson, Gardar and Willi, Timon and Khan, Akbir and de
+  Witt, Christian Schroeder and Souly, Alexandra and Bandyopadhyay, Saptarashmi and
+  Samvelyan, Mikayel and Jiang, Minqi and Lange, Robert Tjarko and Whiteson, Shimon
+  and Lacerda, Bruno and Hawes, Nick and Rocktaschel, Tim and Lu, Chris and Foerster,
+  Jakob Nicolaus
+author_list:
+- family: Rutherford
+  given: Alexander
+- family: Ellis
+  given: Benjamin
+- family: Gallici
+  given: Matteo
+- family: Cook
+  given: Jonathan
+- family: Lupu
+  given: Andrei
+- family: Ingvarsson
+  given: Gardar
+- family: Willi
+  given: Timon
+- family: Khan
+  given: Akbir
+- family: de Witt
+  given: Christian Schroeder
+- family: Souly
+  given: Alexandra
+- family: Bandyopadhyay
+  given: Saptarashmi
+- family: Samvelyan
+  given: Mikayel
+- family: Jiang
+  given: Minqi
+- family: Lange
+  given: Robert Tjarko
+- family: Whiteson
+  given: Shimon
+- family: Lacerda
+  given: Bruno
+- family: Hawes
+  given: Nick
+- family: Rocktaschel
+  given: Tim
+- family: Lu
+  given: Chris
+- family: Foerster
+  given: Jakob Nicolaus
+eprint: 2311.10090v1
+file: 2311.10090v1.pdf
+files:
+- rutherford-alexander-and-ellis-benjamin-and-gallici-matteo-and-cook-jonathan-and-lupu-andrei-and-ingvarsson-gardar-and-willi-timon-and-khan-ak.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2311.10090v1
+time-added: 2023-11-17-19:35:03
+title: 'JaxMARL: Multi-Agent RL Environments in JAX'
+type: article
+url: http://arxiv.org/abs/2311.10090v1
+year: '2023'

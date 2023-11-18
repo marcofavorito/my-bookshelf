@@ -1,0 +1,31 @@
+abstract: This work considers a rather general and broad class of Markov chains, Ito
+  chains that look like Euler-Maryama discretization of some Stochastic Differential
+  Equation. The chain we study is a unified framework for theoretical analysis. It
+  comes with almost arbitrary isotropic and state-dependent noise instead of normal
+  and state-independent one, as in most related papers. Moreover, our chain's drift
+  and diffusion coefficient can be inexact to cover a wide range of applications such
+  as Stochastic Gradient Langevin Dynamics, sampling, Stochastic Gradient Descent,
+  or Stochastic Gradient Boosting. We prove an upper bound for $W_{2}$-distance between
+  laws of the Ito chain and the corresponding Stochastic Differential Equation. These
+  results improve or cover most of the known estimates. Moreover, for some particular
+  cases, our analysis is the first.
+archiveprefix: arXiv
+author: Ustimenko, Aleksei and Beznosikov, Aleksandr
+author_list:
+- family: Ustimenko
+  given: Aleksei
+- family: Beznosikov
+  given: Aleksandr
+eprint: 2310.06081v1
+file: 2310.06081v1.pdf
+files:
+- ustimenko-aleksei-and-beznosikov-aleksandrito-diffusion-approximation-of-universal-ito-chains-for-sampling-optimization-and-boosting2023.pdf
+month: Oct
+primaryclass: math.OC
+ref: 2310.06081v1
+time-added: 2023-10-11-14:38:48
+title: Ito Diffusion Approximation of Universal Ito Chains for Sampling,   Optimization
+  and Boosting
+type: article
+url: http://arxiv.org/abs/2310.06081v1
+year: '2023'

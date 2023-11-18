@@ -1,0 +1,37 @@
+abstract: This paper introduces a novel deep-learning-based approach for numerical
+  simulation of a time-evolving Schr\"odinger equation inspired by stochastic mechanics
+  and generative diffusion models. Unlike existing approaches, which exhibit computational
+  complexity that scales exponentially in the problem dimension, our method allows
+  us to adapt to the latent low-dimensional structure of the wave function by sampling
+  from the Markovian diffusion. Depending on the latent dimension, our method may
+  have far lower computational complexity in higher dimensions. Moreover, we propose
+  novel equations for stochastic quantum mechanics, resulting in linear computational
+  complexity with respect to the number of dimensions. Numerical simulations verify
+  our theoretical findings and show a significant advantage of our method compared
+  to other deep-learning-based approaches used for quantum mechanics.
+archiveprefix: arXiv
+author: Orlova, Elena and Ustimenko, Aleksei and Jiang, Ruoxi and Lu, Peter Y. and
+  Willett, Rebecca
+author_list:
+- family: Orlova
+  given: Elena
+- family: Ustimenko
+  given: Aleksei
+- family: Jiang
+  given: Ruoxi
+- family: Lu
+  given: Peter Y.
+- family: Willett
+  given: Rebecca
+eprint: 2305.19685v2
+file: 2305.19685v2.pdf
+files:
+- orlova-elena-and-ustimenko-aleksei-and-jiang-ruoxi-and-lu-peter-y.-and-willett-rebeccadeep-stochastic-mechanics2023.pdf
+month: May
+primaryclass: cs.LG
+ref: 2305.19685v2
+time-added: 2023-10-11-14:40:05
+title: Deep Stochastic Mechanics
+type: article
+url: http://arxiv.org/abs/2305.19685v2
+year: '2023'

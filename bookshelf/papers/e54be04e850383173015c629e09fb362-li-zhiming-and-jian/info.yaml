@@ -1,0 +1,48 @@
+abstract: Deep reinforcement learning (DRL) has revolutionized quantitative finance
+  by achieving excellent performance without significant manual effort. Whereas we
+  observe that the DRL models behave unstably in a dynamic stock market due to the
+  low signal-to-noise ratio nature of the financial data. In this paper, we propose
+  a novel logic-guided trading framework, termed as SYENS (Program Synthesis-based
+  Ensemble Strategy). Different from the previous state-of-the-art ensemble reinforcement
+  learning strategy which arbitrarily selects the best-performing agent for testing
+  based on a single measurement, our framework proposes regularizing the model's behavior
+  in a hierarchical manner using the program synthesis by sketching paradigm. First,
+  we propose a high-level, domain-specific language (DSL) that is used for the depiction
+  of the market environment and action. Then based on the DSL, a novel program sketch
+  is introduced, which embeds human expert knowledge in a logical manner. Finally,
+  based on the program sketch, we adopt the program synthesis by sketching a paradigm
+  and synthesizing a logical, hierarchical trading strategy. We evaluate SYENS on
+  the 30 Dow Jones stocks under the cash trading and the margin trading settings.
+  Experimental results demonstrate that our proposed framework can significantly outperform
+  the baselines with much higher cumulative return and lower maximum drawdown under
+  both settings.
+archiveprefix: arXiv
+author: Li, Zhiming and Jiang, Junzhe and Cao, Yushi and Cui, Aixin and Wu, Bozhi
+  and Li, Bo and Liu, Yang
+author_list:
+- family: Li
+  given: Zhiming
+- family: Jiang
+  given: Junzhe
+- family: Cao
+  given: Yushi
+- family: Cui
+  given: Aixin
+- family: Wu
+  given: Bozhi
+- family: Li
+  given: Bo
+- family: Liu
+  given: Yang
+eprint: 2310.05551v1
+file: 2310.05551v1.pdf
+files:
+- li-zhiming-and-jiang-junzhe-and-cao-yushi-and-cui-aixin-and-wu-bozhi-and-li-bo-and-liu-yanglogic-guided-deep-reinforcement-learning-for-stock-t.pdf
+month: Oct
+primaryclass: cs.CE
+ref: 2310.05551v1
+time-added: 2023-10-12-11:40:45
+title: Logic-guided Deep Reinforcement Learning for Stock Trading
+type: article
+url: http://arxiv.org/abs/2310.05551v1
+year: '2023'

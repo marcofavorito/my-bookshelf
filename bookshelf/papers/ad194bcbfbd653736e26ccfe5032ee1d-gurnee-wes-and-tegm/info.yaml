@@ -1,0 +1,32 @@
+abstract: The capabilities of large language models (LLMs) have sparked debate over
+  whether such systems just learn an enormous collection of superficial statistics
+  or a coherent model of the data generating process -- a world model. We find evidence
+  for the latter by analyzing the learned representations of three spatial datasets
+  (world, US, NYC places) and three temporal datasets (historical figures, artworks,
+  news headlines) in the Llama-2 family of models. We discover that LLMs learn linear
+  representations of space and time across multiple scales. These representations
+  are robust to prompting variations and unified across different entity types (e.g.
+  cities and landmarks). In addition, we identify individual ``space neurons'' and
+  ``time neurons'' that reliably encode spatial and temporal coordinates. Our analysis
+  demonstrates that modern LLMs acquire structured knowledge about fundamental dimensions
+  such as space and time, supporting the view that they learn not merely superficial
+  statistics, but literal world models.
+archiveprefix: arXiv
+author: Gurnee, Wes and Tegmark, Max
+author_list:
+- family: Gurnee
+  given: Wes
+- family: Tegmark
+  given: Max
+eprint: 2310.02207v1
+file: 2310.02207v1.pdf
+files:
+- gurnee-wes-and-tegmark-maxlanguage-models-represent-space-and-time2023.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2310.02207v1
+time-added: 2023-10-07-19:27:08
+title: Language Models Represent Space and Time
+type: article
+url: http://arxiv.org/abs/2310.02207v1
+year: '2023'

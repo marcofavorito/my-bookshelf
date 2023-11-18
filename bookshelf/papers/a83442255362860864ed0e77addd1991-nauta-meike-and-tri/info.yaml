@@ -1,0 +1,970 @@
+abstract: <jats:p>The rising popularity of explainable artificial intelligence (XAI)
+  to understand high-performing black boxes raised the question of how to evaluate
+  explanations of machine learning (ML) models. While interpretability and explainability
+  are often presented as a subjectively validated binary property, we consider it
+  a multi-faceted concept. We identify 12 conceptual properties, such as Compactness
+  and Correctness, that should be evaluated for comprehensively assessing the quality
+  of an explanation. Our so-called Co-12 properties serve as categorization scheme
+  for systematically reviewing the evaluation practices of more than 300 papers published
+  in the past 7 years at major AI and ML conferences that introduce an XAI method.
+  We find that one in three papers evaluate exclusively with anecdotal evidence, and
+  one in five papers evaluate with users. This survey also contributes to the call
+  for objective, quantifiable evaluation methods by presenting an extensive overview
+  of quantitative XAI evaluation methods. Our systematic collection of evaluation
+  methods provides researchers and practitioners with concrete tools to thoroughly
+  validate, benchmark, and compare new and existing XAI methods. The Co-12 categorization
+  scheme and our identified evaluation methods open up opportunities to include quantitative
+  metrics as optimization criteria during model training to optimize for accuracy
+  and interpretability simultaneously.</jats:p>
+author: Nauta, Meike and Trienes, Jan and Pathak, Shreyasi and Nguyen, Elisa and Peters,
+  Michelle and Schmitt, Yasmin and Schlötterer, Jörg and van Keulen, Maurice and Seifert,
+  Christin
+author_list:
+- affiliation:
+  - name: University of Twente, the Netherlands and University of Duisburg-Essen,
+      Germany
+  family: Nauta
+  given: Meike
+- affiliation:
+  - name: University of Duisburg-Essen, Germany
+  family: Trienes
+  given: Jan
+- affiliation:
+  - name: University of Twente, the Netherlands and University of Duisburg-Essen,
+      Germany
+  family: Pathak
+  given: Shreyasi
+- affiliation:
+  - name: University of Twente, the Netherlands
+  family: Nguyen
+  given: Elisa
+- affiliation:
+  - name: University of Twente, the Netherlands
+  family: Peters
+  given: Michelle
+- affiliation:
+  - name: University of Duisburg-Essen, Germany
+  family: Schmitt
+  given: Yasmin
+- affiliation:
+  - name: University of Duisburg-Essen, Germany
+  family: Schlötterer
+  given: Jörg
+- affiliation:
+  - name: University of Twente, the Netherlands
+  family: van Keulen
+  given: Maurice
+- affiliation:
+  - name: University of Duisburg-Essen, Germany
+  family: Seifert
+  given: Christin
+citations:
+- doi: 10.1109/ACCESS.2018.2870052
+- author: Adebayo Julius
+  unstructured: Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz
+    Hardt, and Been Kim. 2018. Sanity checks for saliency maps. In Proceedings of
+    the NeurIPS, Vol. 31. Curran Associates. Retrieved from https://proceedings.neurips.cc/paper/2018/file/294a8ed24b1ad22ec2e7efea049b8737-Paper.pdf.
+  volume: '31'
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Adebayo Julius
+  unstructured: Julius Adebayo, Michael Muelly, Ilaria Liccardi, and Been Kim. 2020.
+    Debugging tests for model explanations. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Adel Tameem
+  unstructured: Tameem Adel, Zoubin Ghahramani, and Adrian Weller. 2018. Discovering
+    interpretable representations for both deep generative and discriminative models.
+    In Proceedings of the ICML, Vol. 80. PMLR.
+  volume: '80'
+  volume-title: Proceedings of the ICML
+  year: '2018'
+- doi: 10.1007/s10115-017-1116-3
+- doi: 10.1109/MC.2020.2996587
+- doi: 10.24963/ijcai.2020/63
+- author: Alvarez-Melis David
+  unstructured: David Alvarez-Melis and Tommi S. Jaakkola. 2018. Towards robust interpretability
+    with self-explaining neural networks. In Proceedings of the NeurIPS. Retrieved
+    from https://proceedings.neurips.cc/paper/2018/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Ancona Marco
+  unstructured: Marco Ancona, Cengiz Öztireli, and Markus H. Gross. 2019. Explaining
+    deep neural networks with a polynomial time algorithm for shapley value approximation.
+    In Proceedings of the ICML, Vol. 97. PMLR.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- author: Ancona Marco
+  unstructured: Marco Ancona, Cengiz Öztireli, Enea Ceolini, and Markus Gross. 2017.
+    A unified view of gradient-based attribution methods for Deep Neural Networks.
+    In Proceedings of the NIPS Workshop on Interpreting, Explaining and Visualizing
+    Deep Learning.
+  volume-title: Proceedings of the NIPS Workshop on Interpreting, Explaining and Visualizing
+    Deep Learning
+  year: '2017'
+- author: Anders Christopher J.
+  unstructured: Christopher J. Anders, Plamen Pasliev, Ann-Kathrin Dombrowski, Klaus-Robert
+    Müller, and Pan Kessel. 2020. Fairwashing explanations with off-manifold detergent.
+    In Proceedings of the ICML, Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1016/0950-7051(96)81920-4
+- doi: 10.1609/aaai.v33i01.33014561
+- unstructured: 'Vijay Arya Rachel K. E. Bellamy Pin-Yu Chen Amit Dhurandhar Michael
+    Hind Samuel C. Hoffman Stephanie Houde Q Vera Liao Ronny Luss Aleksandra Mojsilović
+    et al. 2019. One explanation does not fit all: A toolkit and taxonomy of ai explainability
+    techniques. Retrieved from https://arXiv:1909.03012.'
+- doi: 10.18653/v1/2020.emnlp-main.263
+- doi: 10.18653/v1/2020.acl-main.656
+- doi: 10.24963/ijcai.2020/608
+- doi: 10.1371/journal.pone.0130140
+- doi: 10.1016/j.inffus.2019.12.012
+- author: Bass Cher
+  unstructured: 'Cher Bass, Mariana da Silva, Carole H. Sudre, Petru-Daniel Tudosiu,
+    Stephen M. Smith, and Emma C. Robinson. 2020. ICAM: Interpretable classification
+    via disentangled representations and feature attribution mapping. In Proceedings
+    of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/56f9f88906aebf4ad985aaec7fa01313-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.18653/v1/p19-1284
+- doi: 10.1109/CVPR.2017.354
+- doi: 10.1016/j.procs.2021.08.025
+- doi: 10.24963/ijcai.2020/273
+- doi: 10.24963/ijcai.2020/417
+- author: Biran Or
+  unstructured: 'Or Biran and Courtenay Cotton. 2017. Explanation and justification
+    in machine learning: A survey. In Proceedings of the IJCAI Workshop on XAI.'
+  volume-title: Proceedings of the IJCAI Workshop on XAI
+  year: '2017'
+- author: Boopathy Akhilan
+  unstructured: Akhilan Boopathy, Sijia Liu, Gaoyuan Zhang, Cynthia Liu, Pin-Yu Chen,
+    Shiyu Chang, and Luca Daniel. 2020. Proper network interpretability helps adversarial
+    robustness in classification. In Proceedings of the ICML, Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.24963/ijcai.2019/804
+- article-title: A survey on the explainability of supervised machine learning
+  author: Burkart Nadia
+  journal-title: J. Artific. Intell. Res.
+  unstructured: Nadia Burkart and Marco F. Huber. 2021. A survey on the explainability
+    of supervised machine learning. J. Artific. Intell. Res. 70 (2021).
+  volume: '70'
+  year: '2021'
+- author: Camburu Oana-Maria
+  unstructured: 'Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, and Phil
+    Blunsom. 2018. e-SNLI: Natural language inference with natural language explanations.
+    In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- doi: 10.18653/v1/2020.acl-main.382
+- doi: 10.3390/electronics8080832
+- author: Chalasani Prasad
+  unstructured: Prasad Chalasani, Jiefeng Chen, Amrita Roy Chowdhury, Xi Wu, and Somesh
+    Jha. 2020. Concise explanations of neural networks using adversarial training.
+    In Proceedings of the ICML, Vol. 119. PMLR. http://proceedings.mlr.press/v119/chalasani20a.html.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- author: Chang Chun-Hao
+  unstructured: Chun-Hao Chang, Elliot Creager, Anna Goldenberg, and David Duvenaud.
+    2019. Explaining image classifiers by counterfactual generation. In Proceedings
+    of the ICLR. OpenReview.net. Retrieved from https://openreview.net/forum?id=B1MXz20cYQ.
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- author: Chen Chaofan
+  unstructured: 'Chaofan Chen, Oscar Li, Daniel Tao, Alina Barnett, Cynthia Rudin,
+    and Jonathan Su. 2019. This looks like that: Deep learning for interpretable image
+    recognition. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/ICDM.2019.00111
+- doi: 10.1145/3178876.3186070
+- doi: 10.18653/v1/2020.acl-main.494
+- doi: 10.1609/aaai.v34i04.5749
+- author: Chen Jianbo
+  unstructured: 'Jianbo Chen, Le Song, Martin J. Wainwright, and Michael I. Jordan.
+    2018. Learning to explain: An information-theoretic perspective on model interpretation.
+    In Proceedings of the ICML, Vol. 80. PMLR.'
+  volume: '80'
+  volume-title: Proceedings of the ICML
+  year: '2018'
+- author: Chen Jianbo
+  unstructured: 'Jianbo Chen, Le Song, Martin J. Wainwright, and Michael I. Jordan.
+    2019. L-shapley and C-shapley: Efficient model interpretation for structured data.
+    In Proceedings of the ICLR. OpenReview.net. Retrieved from https://openreview.net/forum?id=S1E3Ko09F7.'
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- doi: 10.1109/ICCV.2019.00928
+- doi: 10.1145/3397271.3401042
+- doi: 10.1145/3511299
+- doi: 10.1145/3331184.3331254
+- author: Chen Xi
+  unstructured: 'Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever,
+    and Pieter Abbeel. 2016. InfoGAN: Interpretable representation learning by information
+    maximizing generative adversarial nets. In Proceedings of the NeurIPS. Retrieved
+    from https://proceedings.neurips.cc/paper/2016/hash/7c9d0b1f96aebd7b5eca8c3edaa19ebb-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2016'
+- doi: 10.24963/ijcai.2020/414
+- doi: 10.24963/ijcai.2019/296
+- doi: 10.1145/3292500.3330857
+- doi: 10.1109/CVPR42600.2020.01294
+- author: Chromik Michael
+  unstructured: Michael Chromik and Martin Schuessler. 2020. A taxonomy for human
+    subject evaluation of black-box explanations in XAI. In Proceedings of the ExSS-ATEC’20.
+  volume-title: Proceedings of the ExSS-ATEC’20
+  year: '2020'
+- doi: 10.1145/3219819.3220063
+- doi: 10.1109/CVPR.2018.00108
+- author: Crabbé Jonathan
+  unstructured: 'Jonathan Crabbé, Yao Zhang, William R. Zame, and Mihaela van der
+    Schaar. 2020. Learning outside the Black-Box: The pursuit of interpretable models.
+    In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/ce758408f6ef98d7c7a7b786eca7b3a8-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Craven Mark W.
+  unstructured: Mark W. Craven and Jude W. Shavlik. 1995. Extracting tree-structured
+    representations of trained networks. In Proceedings of the NIPS. MIT Press. Retrieved
+    from http://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.
+  volume-title: Proceedings of the NIPS
+  year: '1995'
+- article-title: An integrative 3C evaluation framework for Explainable Artificial
+    Intelligence
+  author: Cui Xiaocong
+  journal-title: Proceedings of the AMCIS
+  unstructured: Xiaocong Cui, Jung Min Lee, and J. Po-An Hsieh. 2019. An integrative
+    3C evaluation framework for Explainable Artificial Intelligence. In Proceedings
+    of the AMCIS. Retrieved from https://aisel.aisnet.org/amcis2019/ai_semantic_for_intelligent_info_systems/ai_semantic_for_intelligent_info_systems/10.
+  year: '2019'
+- doi: 10.1609/aaai.v34i04.5780
+- unstructured: 'Arun Das and Paul Rad. 2020. Opportunities and challenges in explainable
+    artificial intelligence (xai): A survey. Retrieved from https://arXiv:2006.11371.'
+- author: Dhurandhar Amit
+  unstructured: 'Amit Dhurandhar, Pin-Yu Chen, Ronny Luss, Chun-Chen Tu, Pai-Shun
+    Ting, Karthikeyan Shanmugam, and Payel Das. 2018. Explanations based on the missing:
+    Towards contrastive explanations with pertinent negatives. In Proceedings of the
+    NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Dombrowski Ann-Kathrin
+  unstructured: Ann-Kathrin Dombrowski, Maximilian Alber, Christopher J. Anders, Marcel
+    Ackermann, Klaus-Robert Müller, and Pan Kessel. 2019. Explanations can be manipulated
+    and geometry is to blame. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/CVPR.2017.110
+- doi: 10.1007/978-3-319-98131-4_1
+- doi: 10.1145/3219819.3220099
+- doi: 10.1145/3411763.3441342
+- doi: 10.1109/CVPR42600.2020.00924
+- author: Etmann Christian
+  unstructured: Christian Etmann, Sebastian Lunz, Peter Maass, and Carola Schönlieb.
+    2019. On the connection between adversarial robustness and saliency map interpretability.
+    In Proceedings of the ICML, Vol. 97. PMLR. Retrieved from http://proceedings.mlr.press/v97/etmann19a.html.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- doi: 10.1162/tacl_a_00373
+- doi: 10.1145/3331184.3331312
+- doi: 10.1109/CVPR.2018.00910
+- doi: 10.1109/ICCV.2017.371
+- author: Fortuin Vincent
+  unstructured: 'Vincent Fortuin, Matthias Hüser, Francesco Locatello, Heiko Strathmann,
+    and Gunnar Rätsch. 2019. SOM-VAE: Interpretable discrete representation learning
+    on time series. In Proceedings of the ICLR.'
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- doi: 10.1214/aos/1013203451
+- author: Frye Christopher
+  unstructured: 'Christopher Frye, Colin Rowat, and Ilya Feige. 2020. Asymmetric shapley
+    values: Incorporating causal knowledge into model-agnostic explainability. In
+    Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1145/3397271.3401051
+- doi: 10.24963/ijcai.2019/325
+- doi: 10.3115/v1/p14-1046
+- doi: 10.1145/2623330.2623694
+- doi: 10.1609/aaai.v33i01.33013681
+- author: Ghorbani Amirata
+  unstructured: Amirata Ghorbani, James Wexler, James Y. Zou, and Been Kim. 2019.
+    Towards automatic concept-based explanations. In Proceedings of the NeurIPS. Retrieved
+    from https://proceedings.neurips.cc/paper/2019/hash/77d2afcb31f6493e350fca61764efb9a-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/DSAA.2018.00018
+- doi: 10.1080/10618600.2014.907095
+- doi: 10.18653/v1/2020.acl-main.51
+- author: Goyal Yash
+  unstructured: Yash Goyal, Ziyan Wu, Jan Ernst, Dhruv Batra, Devi Parikh, and Stefan
+    Lee. 2019. Counterfactual visual explanations. In Proceedings of the ICML, Vol.
+    97. PMLR. Retrieved from http://proceedings.mlr.press/v97/goyal19a.html.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- doi: 10.1145/1357054.1357074
+- doi: 10.1016/j.artint.2020.103428
+- doi: 10.1145/3236009
+- author: Guo Tian
+  unstructured: Tian Guo, Tao Lin, and Nino Antulov-Fantulin. 2019. Exploring interpretable
+    LSTM neural networks over multi-variable data. In Proceedings of the ICML, Vol.
+    97. PMLR.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- author: Guo Wenbo
+  unstructured: Wenbo Guo, Sui Huang, Yunzhe Tao, Xinyu Xing, and Lin Lin. 2018. Explaining
+    deep learning models - a bayesian non-parametric approach. In Proceedings of the
+    NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- doi: 10.1145/3394486.3403221
+- doi: 10.18653/v1/2020.acl-main.492
+- doi: 10.1145/3173574.3174023
+- doi: 10.1609/aaai.v34i04.5827
+- doi: 10.18653/v1/2020.acl-main.491
+- author: Hase Peter
+  unstructured: Peter Hase, Harry Xie, and Mohit Bansal. 2021. The out-of-distribution
+    problem in explainability and search methods for feature importance explanations.
+    In Proceedings of the NeurIPS, Vol. 34. Curran Associates, Inc.
+  volume: '34'
+  volume-title: Proceedings of the NeurIPS
+  year: '2021'
+- author: Heo Juyeon
+  unstructured: Juyeon Heo, Sunghwan Joo, and Taesup Moon. 2019. Fooling neural network
+    interpretations via adversarial model manipulation. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- author: Heo Jay
+  unstructured: Jay Heo, Haebeom Lee, Saehoon Kim, Juho Lee, Kwang Joon Kim, Eunho
+    Yang, and Sung Ju Hwang. 2018. Uncertainty-aware attention for reliable interpretation
+    and prediction. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2018/hash/285e19f20beded7d215102b49d5c09a0-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- unstructured: Bernease Herman. 2017. The promise and peril of human evaluation for
+    model interpretability. Retrieved from https://arXiv:1711.07414.
+- author: Heskes Tom
+  unstructured: 'Tom Heskes, Evi Sijben, Ioan Gabriel Bucur, and Tom Claassen. 2020.
+    Causal shapley values: Exploiting causal knowledge to explain individual predictions
+    of complex models. In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Heusel Martin
+  unstructured: Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler,
+    and Sepp Hochreiter. 2017. GANs trained by a two time-scale update rule converge
+    to a local nash equilibrium. In Proceedings of the NeurIPS, Vol. 30. Curran Associates,
+    Inc.
+  volume: '30'
+  volume-title: Proceedings of the NeurIPS
+  year: '2017'
+- unstructured: 'Robert R. Hoffman Shane T. Mueller Gary Klein and Jordan Litman.
+    2019. Metrics for explainable AI: Challenges and prospects. Retrieved from https://arXiv:1812.04608.'
+- unstructured: 'Milo Honegger. 2018. Shedding light on black box machine learning
+    algorithms: Development of an axiomatic framework to assess the quality of methods
+    that explain individual predictions. Retrieved from https://arXiv:1808.05054.'
+- author: Hooker Sara
+  unstructured: Sara Hooker, Dumitru Erhan, Pieter-Jan Kindermans, and Been Kim. 2019.
+    A benchmark for interpretability methods in deep neural networks. In Proceedings
+    of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/TNNLS.2020.2967051
+- author: Hoyer Lukas
+  unstructured: Lukas Hoyer, Mauricio Munoz, Prateek Katiyar, Anna Khoreva, and Volker
+    Fischer. 2019. Grid saliency for context explanations of semantic segmentation.
+    In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- author: Hsu Wei-Ning
+  unstructured: Wei-Ning Hsu, Yu Zhang, and James R. Glass. 2017. Unsupervised learning
+    of disentangled and interpretable representations from sequential data. In Proceedings
+    of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2017'
+- doi: 10.1609/aaai.v34i04.5837
+- doi: 10.1109/CVPR42600.2020.00869
+- doi: 10.1016/j.dss.2010.12.003
+- doi: 10.1609/aaai.v33i01.33011511
+- author: Ismail Aya Abdelsalam
+  unstructured: Aya Abdelsalam Ismail, Mohamed K. Gunady, Héctor Corrada Bravo, and
+    Soheil Feizi. 2020. Benchmarking deep learning interpretability in time series
+    predictions. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/47a3893cc405396a5c30d91320572d6d-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.18653/v1/2020.acl-main.386
+- doi: 10.1109/CVPR42600.2020.00881
+- doi: 10.1109/ICDM.2018.00135
+- doi: 10.1145/3292500.3330930
+- doi: 10.18653/v1/p19-1261
+- author: Jin Wengong
+  unstructured: Wengong Jin, Regina Barzilay, and Tommi S. Jaakkola. 2020. Multi-objective
+    molecule generation using interpretable substructures. In Proceedings of the ICML,
+    Vol. 119. PMLR. Retrieved from http://proceedings.mlr.press/v119/jin20b.html.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- author: Jin Xisen
+  unstructured: 'Xisen Jin, Zhongyu Wei, Junyi Du, Xiangyang Xue, and Xiang Ren. 2020.
+    Towards hierarchical importance attribution: Explaining compositional semantics
+    for neural sequence models. In Proceedings of the ICLR. OpenReview.net. Retrieved
+    from https://openreview.net/forum?id=BkxRRkSKwr.'
+  volume-title: Proceedings of the ICLR
+  year: '2020'
+- author: Josephson John R.
+  unstructured: 'John R. Josephson and Susan G. Josephson. 1996. Abductive Inference:
+    Computation, Philosophy, Technology. Cambridge University Press.'
+  volume-title: 'Abductive Inference: Computation, Philosophy, Technology'
+  year: '1996'
+- doi: 10.1109/ACCESS.2021.3070212
+- doi: 10.24963/ijcai.2020/395
+- doi: 10.1109/CVPR.2019.00880
+- doi: 10.1109/CVPR.2019.00879
+- doi: 10.1109/ICDM.2018.00036
+- author: Kim Been
+  unstructured: Been Kim, Oluwasanmi Koyejo, and Rajiv Khanna. 2016. Examples are
+    not enough, learn to criticize! Criticism for interpretability. In Proceedings
+    of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2016'
+- author: Kim Been
+  unstructured: 'Been Kim, Martin Wattenberg, Justin Gilmer, Carrie J. Cai, James
+    Wexler, Fernanda B. Viégas, and Rory Sayres. 2018. Interpretability beyond feature
+    attribution: Quantitative testing with concept activation vectors (TCAV). In Proceedings
+    of the ICML, Vol. 80. PMLR.'
+  volume: '80'
+  volume-title: Proceedings of the ICML
+  year: '2018'
+- doi: 10.1109/CVPR42600.2020.01114
+- author: Kim Hyunjik
+  unstructured: Hyunjik Kim and Andriy Mnih. 2018. Disentangling by factorising. In
+    Proceedings of the ICML, Vol. 80. PMLR.
+  volume: '80'
+  volume-title: Proceedings of the ICML
+  year: '2018'
+- author: Kim Wonjae
+  unstructured: 'Wonjae Kim and Yoonho Lee. 2019. Learning dynamics of attention:
+    Human prior for interpretable machine reasoning. In Proceedings of the NeurIPS.
+    Retrieved from https://proceedings.neurips.cc/paper/2019/hash/ae3539867aaeec609a4260c6feb725f4-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- author: Kindermans Pieter-Jan
+  unstructured: 'Pieter-Jan Kindermans, Kristof T. Schütt, Maximilian Alber, Klaus-Robert
+    Müller, Dumitru Erhan, Been Kim, and Sven Dähne. 2018. Learning how to explain
+    neural networks: PatternNet and pattern attribution. In Proceedings of the ICLR.'
+  volume-title: Proceedings of the ICLR
+  year: '2018'
+- doi: 10.1145/2678025.2701399
+- doi: 10.1109/VLHCC.2013.6645235
+- doi: 10.18653/v1/2020.acl-main.771
+- doi: 10.24963/ijcai.2018/46
+- unstructured: Isaac Lage Emily Chen Jeffrey He Menaka Narayanan Been Kim Sam Gershman
+    and Finale Doshi-Velez. 2019. An evaluation of the human-interpretability of explanation.
+    Retrieved from https://arXiv:1902.00006.
+- author: Lage Isaac
+  unstructured: Isaac Lage, Andrew Slavin Ross, Samuel J. Gershman, Been Kim, and
+    Finale Doshi-Velez. 2018. Human-in-the-loop interpretability prior. In Proceedings
+    of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Lakkaraju Himabindu
+  unstructured: Himabindu Lakkaraju, Nino Arsov, and Osbert Bastani. 2020. Robust
+    and stable black box explanations. In Proceedings of the ICML, Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1145/2939672.2939874
+- author: Lakkaraju Himabindu
+  unstructured: 'Himabindu Lakkaraju and Jure Leskovec. 2016. Confusions over time:
+    An interpretable bayesian model to characterize trends in decision making. In
+    Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2016'
+- doi: 10.1609/aaai.v33i01.33014139
+- doi: 10.24963/ijcai.2019/388
+- doi: 10.24963/ijcai.2020/336
+- doi: 10.1145/3394486.3403066
+- unstructured: Matthew L. Leavitt and Ari Morcos. 2020. Towards falsifiable interpretability
+    research. Retrieved from https://arXiv:2010.12016.
+- doi: 10.18653/v1/2020.acl-main.35
+- doi: 10.1145/3394486.3403071
+- author: Lin Chin-Yew
+  unstructured: 'Chin-Yew Lin. 2004. ROUGE: A package for automatic evaluation of
+    summaries. In Proceedings of the Text Summarization Branches Out. ACL.'
+  volume-title: Proceedings of the Text Summarization Branches Out
+  year: '2004'
+- doi: 10.1145/3236386.3241340
+- doi: 10.1109/ICDM50108.2020.00046
+- doi: 10.18653/v1/p19-1560
+- doi: 10.1145/3219819.3220001
+- doi: 10.24963/ijcai.2018/341
+- doi: 10.1145/3219819.3220027
+- doi: 10.1109/CVPR42600.2020.00867
+- author: Liu Yang
+  unstructured: Yang Liu, Sujay Khandagale, Colin White, and Willie Neiswanger. 2021.
+    Synthetic benchmarks for scientific research in explainable machine learning.
+    In Proceedings of the NeurIPS Datasets and Benchmarks Track.
+  volume-title: Proceedings of the NeurIPS Datasets and Benchmarks Track
+  year: '2021'
+- author: Lundberg Scott M.
+  unstructured: Scott M. Lundberg and Su-In Lee. 2017. A unified approach to interpreting
+    model predictions. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2017'
+- author: Luo Dongsheng
+  unstructured: Dongsheng Luo, Wei Cheng, Dongkuan Xu, Wenchao Yu, Bo Zong, Haifeng
+    Chen, and Xiang Zhang. 2020. Parameterized explainer for graph neural network.
+    In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/e37b08dd3015330dcbb5d6663667b8b8-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.24963/ijcai.2018/590
+- author: M. José Oramas
+  unstructured: 'José Oramas M., Kaili Wang, and Tinne Tuytelaars. 2019. Visual explanation
+    by interpretation: Improving visual feedback capabilities of deep neural networks.
+    In Proceedings of the ICLR. OpenReview.net. Retrieved from https://openreview.net/forum?id=H1ziPjC5Fm.'
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- doi: 10.1016/j.jbi.2020.103655
+- author: Marques-Silva João
+  unstructured: João Marques-Silva, Thomas Gerspacher, Martin C. Cooper, Alexey Ignatiev,
+    and Nina Narodytska. 2020. Explaining naive bayes and other linear classifiers
+    with polynomial time and delay. In Proceedings of the NeurIPS. Retrieved from
+    https://proceedings.neurips.cc/paper/2020/hash/eccd2a86bae4728b38627162ba297828-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1109/CVPR.2018.00519
+- doi: 10.1109/ICCV.2019.00485
+- doi: 10.1016/j.artint.2018.07.007
+- author: Miller Tim
+  unstructured: 'Tim Miller, Piers Howe, and Liz Sonenberg. 2017. Explainable AI:
+    Beware of inmates running the asylum or: How I learnt to stop worrying and love
+    the social and behavioural sciences. In Proceedings of the IJCAI Workshop on Explainable
+    Artificial Intelligence.'
+  volume-title: Proceedings of the IJCAI Workshop on Explainable Artificial Intelligence
+  year: '2017'
+- doi: 10.18653/v1/2020.acl-main.387
+- doi: 10.1145/3387166
+- author: Molnar Christoph
+  unstructured: Christoph Molnar. 2020. Interpretable Machine Learning. Retrieved
+    from https://christophm.github.io/interpretable-ml-book/.
+  volume-title: Interpretable Machine Learning
+  year: '2020'
+- doi: 10.1007/978-3-030-28954-6_13
+- doi: 10.1016/j.dsp.2017.10.011
+- doi: 10.18653/v1/p19-1081
+- author: Mu Jesse
+  unstructured: Jesse Mu and Jacob Andreas. 2020. Compositional explanations of neurons.
+    In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/c74956ffb38ba48ed6ce977af6727275-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1073/pnas.1900654116
+- doi: 10.1609/aaai.v34i03.5632
+- doi: 10.1109/CVPR46437.2021.01469
+- author: Nguyen Anh
+  unstructured: Anh Nguyen, Alexey Dosovitskiy, Jason Yosinski, Thomas Brox, and Jeff
+    Clune. 2016. Synthesizing the preferred inputs for neurons in neural networks
+    via deep generator networks. In Proceedings of the NeurIPS, Vol. 29. Curran Associates,
+    Inc. Retrieved from https://proceedings.neurips.cc/paper/2016/file/5d79099fcdf499f12b79770834c0164a-Paper.pdf.
+  volume: '29'
+  volume-title: Proceedings of the NeurIPS
+  year: '2016'
+- author: Nie Weili
+  unstructured: Weili Nie, Yang Zhang, and Ankit Patel. 2018. A theoretical explanation
+    for perplexing behaviors of backpropagation-based visualizations. In Proceedings
+    of the ICML, Vol. 80. PMLR. Retrieved from http://proceedings.mlr.press/v80/nie18a.html.
+  volume: '80'
+  volume-title: Proceedings of the ICML
+  year: '2018'
+- article-title: A systematic review and taxonomy of explanations in decision support
+    and recommender systems
+  author: Nunes Ingrid
+  issue: '3'
+  journal-title: User Model. User-Adapt. Interact.
+  unstructured: Ingrid Nunes and Dietmar Jannach. 2017. A systematic review and taxonomy
+    of explanations in decision support and recommender systems. User Model. User-Adapt.
+    Interact. 27, 3 (2017).
+  volume: '27'
+  year: '2017'
+- doi: 10.23915/distill.00007
+- author: O’Shaughnessy Matthew R.
+  unstructured: Matthew R. O’Shaughnessy, Gregory Canal, Marissa Connor, Christopher
+    Rozell, and Mark A. Davenport. 2020. Generative causal explanations of black-box
+    classifiers. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/3a93a609b97ec0ab0ff5539eb79ef33a-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.24963/ijcai.2020/373
+- doi: 10.1145/3394486.3403186
+- doi: 10.3115/1073083.1073135
+- doi: 10.1109/CVPR.2018.00915
+- author: Park Jung Yeon
+  unstructured: Jung Yeon Park, Kenneth Theo Carr, Stephan Zheng, Yisong Yue, and
+    Rose Yu. 2020. Multiresolution tensor learning for efficient and interpretable
+    spatial analysis. In Proceedings of the ICML, Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1609/aaai.v34i07.6858
+- doi: 10.1109/ICCV.2019.00754
+- doi: 10.1145/3366423.3380087
+- doi: 10.1145/3219819.3220072
+- author: Pedapati Tejaswini
+  unstructured: Tejaswini Pedapati, Avinash Balakrishnan, Karthikeyan Shanmugam, and
+    Amit Dhurandhar. 2020. Learning global transparent models consistent with local
+    contrastive explanations. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/24aef8cb3281a2422a59b51659f1ad2e-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Petsiuk Vitali
+  unstructured: 'Vitali Petsiuk, Abir Das, and Kate Saenko. 2018. RISE: Randomized
+    input sampling for explanation of black-box models. In Proceedings of the BMVC.'
+  volume-title: Proceedings of the BMVC
+  year: '2018'
+- author: Plumb Gregory
+  unstructured: Gregory Plumb, Maruan Al-Shedivat, Ángel Alexander Cabrera, Adam Perer,
+    Eric P. Xing, and Ameet Talwalkar. 2020. Regularizing black-box models for improved
+    interpretability. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/770f8e448d07586afbf77bb59f698587-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Plumb Gregory
+  unstructured: Gregory Plumb, Denali Molitor, and Ameet S. Talwalkar. 2018. Model
+    agnostic supervised local explanations. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Plumb Gregory
+  unstructured: Gregory Plumb, Jonathan Terhorst, Sriram Sankararaman, and Ameet Talwalkar.
+    2020. Explaining groups of points in low-dimensional representations. In Proceedings
+    of the ICML, Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1609/aaai.v33i01.33014723
+- doi: 10.1109/CVPR.2019.01103
+- doi: 10.18653/v1/P18-1032
+- doi: 10.18653/v1/2020.acl-main.432
+- author: Puri Nikaash
+  unstructured: 'Nikaash Puri, Sukriti Verma, Piyush Gupta, Dhruv Kayastha, Shripad
+    Deshmukh, Balaji Krishnamurthy, and Sameer Singh. 2020. Explain your move: Understanding
+    agent actions using specific and relevant feature attribution. In Proceedings
+    of the ICLR.'
+  volume-title: Proceedings of the ICLR
+  year: '2020'
+- doi: 10.1016/j.artint.2020.103435
+- author: Raghu Maithra
+  unstructured: 'Maithra Raghu, Justin Gilmer, Jason Yosinski, and Jascha Sohl-Dickstein.
+    2017. SVCCA: Singular vector canonical correlation analysis for deep learning
+    dynamics and interpretability. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2017/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2017'
+- doi: 10.18653/v1/p19-1487
+- author: Ramamurthy Karthikeyan Natesan
+  unstructured: Karthikeyan Natesan Ramamurthy, Bhanukiran Vinzamuri, Yunfeng Zhang,
+    and Amit Dhurandhar. 2020. Model agnostic multilevel explanations. In Proceedings
+    of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/426f990b332ef8193a61cc90516c1245-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Rawal Kaivalya
+  unstructured: 'Kaivalya Rawal and Himabindu Lakkaraju. 2020. Beyond individualized
+    recourse: Interpretable and interactive summaries of actionable recourses. In
+    Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/8ee7730e97c67473a424ccfeff49ab20-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1145/2939672.2939778
+- doi: 10.1609/aaai.v32i1.11491
+- author: Rieger Laura
+  unstructured: 'Laura Rieger, Chandan Singh, W. James Murdoch, and Bin Yu. 2020.
+    Interpretations are useful: Penalizing explanations to align neural networks with
+    prior knowledge. In Proceedings of the ICML, Vol. 119. PMLR.'
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1007/978-3-319-90403-0_9
+- author: Rong Yao
+  unstructured: Yao Rong, Tobias Leemann, Vadim Borisov, Gjergji Kasneci, and Enkelejda
+    Kasneci. 2022. A consistent and efficient evaluation strategy for attribution
+    methods. In Proceedings of the ICML, Vol. 162. PMLR.
+  volume: '162'
+  volume-title: Proceedings of the ICML
+  year: '2022'
+- doi: 10.24963/ijcai.2020/278
+- doi: 10.1109/ACCESS.2020.2976199
+- doi: 10.24963/ijcai.2017/371
+- article-title: Stop explaining black box machine learning models for high stakes
+    decisions and use interpretable models instead
+  author: Rudin Cynthia
+  issue: '5'
+  journal-title: Nature Mach. Intell.
+  unstructured: Cynthia Rudin. 2019. Stop explaining black box machine learning models
+    for high stakes decisions and use interpretable models instead. Nature Mach. Intell.
+    1, 5 (2019).
+  volume: '1'
+  year: '2019'
+- doi: 10.1609/aaai.v32i1.11647
+- doi: 10.1109/TNNLS.2016.2599820
+- author: Sanchez-Lengeling Benjamin
+  unstructured: Benjamin Sanchez-Lengeling, Jennifer Wei, Brian Lee, Emily Reif, Peter
+    Wang, Wesley Qian, Kevin McCloskey, Lucy Colwell, and Alexander Wiltschko. 2020.
+    Evaluating attribution for graph neural networks. In Proceedings of the NeurIPS,
+    Vol. 33. Curran Associates.
+  volume: '33'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- author: Schwab Patrick
+  unstructured: 'Patrick Schwab and Walter Karlen. 2019. CXPlain: Causal explanations
+    for model interpretation under uncertainty. In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/CogMI48466.2019.00033
+- doi: 10.1109/ICCV.2017.74
+- doi: 10.1109/ICCV.2019.00268
+- article-title: The internet is enabling a new kind of poorly paid hell
+  author: Semuels Alana
+  journal-title: Atlantic
+  unstructured: Alana Semuels. 2018. The internet is enabling a new kind of poorly
+    paid hell. Atlantic. https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/.
+  year: '2018'
+- doi: 10.18653/v1/p19-1282
+- doi: 10.18653/v1/2020.acl-main.579
+- doi: 10.1609/aaai.v33i01.33013052
+- doi: 10.1109/CVPR42600.2020.00926
+- author: Shi Wenxian
+  unstructured: Wenxian Shi, Hao Zhou, Ning Miao, and Lei Li. 2020. Dispersed exponential
+    family mixture VAEs for interpretable text generation. In Proceedings of the ICML,
+    Vol. 119. PMLR.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- author: Shrikumar Avanti
+  unstructured: Avanti Shrikumar, Peyton Greenside, and Anshul Kundaje. 2017. Learning
+    important features through propagating activation differences. In Proceedings
+    of the ICML, Vol. 70. PMLR.
+  volume: '70'
+  volume-title: Proceedings of the ICML
+  year: '2017'
+- doi: 10.1145/3292500.3330935
+- doi: 10.1609/aaai.v33i01.33017023
+- doi: 10.1007/978-3-030-02628-8_15
+- author: Singh Chandan
+  unstructured: Chandan Singh, W. James Murdoch, and Bin Yu. 2019. Hierarchical interpretations
+    for neural network predictions. In Proceedings of the ICLR.
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- author: Singla Sumedha
+  unstructured: Sumedha Singla, Brian Pollack, Junxiang Chen, and Kayhan Batmanghelich.
+    2020. Explanation by progressive exaggeration. In Proceedings of the ICLR. OpenReview.net.
+    Retrieved from https://openreview.net/forum?id=H1xFWgrFPS.
+  volume-title: Proceedings of the ICLR
+  year: '2020'
+- author: Sixt Leon
+  unstructured: 'Leon Sixt, Maximilian Granz, and Tim Landgraf. 2020. When explanations
+    lie: Why many modified BP attributions fail. In Proceedings of the ICML, Vol.
+    119. PMLR. http://proceedings.mlr.press/v119/sixt20a.html.'
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1145/3351095.3372870
+- doi: 10.24963/ijcai.2020/670
+- doi: 10.1109/ACCESS.2021.3051315
+- doi: 10.18653/v1/2020.acl-main.495
+- doi: 10.1109/ICCV.2019.00211
+- doi: 10.1145/3366423.3380164
+- doi: 10.1109/ICCV.2019.00504
+- author: Sundararajan Mukund
+  unstructured: Mukund Sundararajan and Amir Najmi. 2020. The many shapley values
+    for model explanation. In Proceedings of the ICML, Vol. 119. PMLR. Retrieved from
+    http://proceedings.mlr.press/v119/sundararajan20b.html.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- doi: 10.1007/978-3-642-77927-5_24
+- doi: 10.18653/v1/p19-1488
+- doi: 10.1145/3331184.3331244
+- doi: 10.1145/3292500.3330889
+- doi: 10.1007/978-1-4899-7637-6_10
+- doi: 10.1145/3097983.3098039
+- doi: 10.1609/aaai.v33i01.33012514
+- author: Tsang Michael
+  unstructured: 'Michael Tsang, Dehua Cheng, Hanpeng Liu, Xue Feng, Eric Zhou, and
+    Yan Liu. 2020. Feature interaction interpretability: A case for explaining ad-recommendation
+    systems via neural interaction detection. In Proceedings of the ICLR. OpenReview.net.
+    Retrieved from https://openreview.net/forum?id=BkgnhTEtDS.'
+  volume-title: Proceedings of the ICLR
+  year: '2020'
+- author: Tsang Michael
+  unstructured: 'Michael Tsang, Hanpeng Liu, Sanjay Purushotham, Pavankumar Murali,
+    and Yan Liu. 2018. Neural interaction transparency (NIT): Disentangling learned
+    interactions for improved interpretability. In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Tsang Michael
+  unstructured: Michael Tsang, Sirisha Rambhatla, and Yan Liu. 2020. How does this
+    interaction affect me? Interpretable attribution for feature interactions. In
+    Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/443dec3062d0286986e21dc0631734c9-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1101/2020.06.11.147272
+- doi: 10.1609/aaai.v34i05.6441
+- doi: 10.1145/3097983.3098161
+- article-title: Visualizing data using t-SNE
+  author: Maaten Laurens van der
+  issue: '86'
+  journal-title: JMLR
+  unstructured: Laurens van der Maaten and Geoffrey Hinton. 2008. Visualizing data
+    using t-SNE. JMLR 9, 86 (2008). Retrieved from http://jmlr.org/papers/v9/vandermaaten08a.html.
+  volume: '9'
+  year: '2008'
+- author: Lent Michael Van
+  unstructured: Michael Van Lent, William Fisher, and Michael Mancuso. 2004. An explainable
+    artificial intelligence system for small-unit tactical behavior. In Proceedings
+    of the National Conference on Artificial Intelligence.
+  volume-title: Proceedings of the National Conference on Artificial Intelligence
+  year: '2004'
+- author: Vedantam Ramakrishna
+  unstructured: Ramakrishna Vedantam, Karan Desai, Stefan Lee, Marcus Rohrbach, Dhruv
+    Batra, and Devi Parikh. 2019. Probabilistic neural symbolic models for interpretable
+    visual question answering. In Proceedings of the ICML, Vol. 97. PMLR.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- doi: 10.1145/3331184.3331377
+- doi: 10.1016/j.inffus.2021.05.009
+- author: Voynov Andrey
+  unstructured: Andrey Voynov and Artem Babenko. 2020. Unsupervised discovery of interpretable
+    directions in the GAN latent space. In Proceedings of the ICML, Vol. 119. PMLR.
+    Retrieved from http://proceedings.mlr.press/v119/voynov20a.html.
+  volume: '119'
+  volume-title: Proceedings of the ICML
+  year: '2020'
+- author: Vu Minh N.
+  unstructured: 'Minh N. Vu and My T. Thai. 2020. PGM-explainer: Probabilistic graphical
+    model explanations for graph neural networks. In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1109/CVPR.2019.00931
+- author: Wang Pei
+  unstructured: 'Pei Wang and Nuno Vasconcelos. 2019. Deliberative explanations: Visualizing
+    network insecurities. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2019/hash/68053af2923e00204c3ca7c6a3150cf7-Abstract.html.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/CVPR42600.2020.00900
+- author: Wang Shengjie
+  unstructured: 'Shengjie Wang, Tianyi Zhou, and Jeff A. Bilmes. 2019. Bias also matters:
+    Bias attribution for deep neural network explanation. In Proceedings of the ICML,
+    Vol. 97. PMLR.'
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- author: Wang Tong
+  unstructured: Tong Wang. 2018. Multi-value rule sets for interpretable classification
+    with feature-efficient representations. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- author: Wang Tong
+  unstructured: Tong Wang. 2019. Gaining free or low-cost interpretability with interpretable
+    partial substitute. In Proceedings of the ICML, Vol. 97. PMLR. Retrieved from
+    http://proceedings.mlr.press/v97/wang19a.html.
+  volume: '97'
+  volume-title: Proceedings of the ICML
+  year: '2019'
+- doi: 10.1609/aaai.v34i08.7055
+- doi: 10.1109/ICDM.2018.00074
+- doi: 10.1145/3178876.3186066
+- doi: 10.1609/aaai.v33i01.33015329
+- doi: 10.1109/CVPR.2018.00928
+- doi: 10.1609/aaai.v33i01.33012539
+- author: Wilson Andrew G.
+  unstructured: Andrew G. Wilson, Christoph Dann, Chris Lucas, and Eric P. Xing. 2015.
+    The human kernel. In Proceedings of the NeurIPS, Vol. 28. Curran Associates, Inc.
+    Retrieved from https://proceedings.neurips.cc/paper/2015/file/4462bf0ddbe0d0da40e1e828ebebeb11-Paper.pdf.
+  volume: '28'
+  volume-title: Proceedings of the NeurIPS
+  year: '2015'
+- doi: 10.1109/ICCV.2017.611
+- doi: 10.1145/3178876.3185995
+- doi: 10.1609/aaai.v32i1.11501
+- doi: 10.1609/aaai.v34i04.6112
+- doi: 10.1109/CVPR42600.2020.00868
+- doi: 10.18653/v1/2020.acl-main.383
+- unstructured: 'Ning Xie Gabrielle Ras Marcel van Gerven and Derek Doran. 2020. Explainable
+    deep learning: A field guide for the uninitiated. Retrieved from https://arXiv:2004.14545.'
+- doi: 10.1109/CVPR42600.2020.00954
+- unstructured: Fan Yang Mengnan Du and Xia Hu. 2019. Evaluating explanation without
+    ground truth in interpretable machine learning. Retrieved from https://arXiv:1907.06831.
+- doi: 10.1109/ICDM.2018.00082
+- author: Yeh Chih-Kuan
+  unstructured: Chih-Kuan Yeh, Cheng-Yu Hsieh, Arun Sai Suggala, David I. Inouye,
+    and Pradeep Ravikumar. 2019. On the (in)fidelity and sensitivity of explanations.
+    In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- author: Yeh Chih-Kuan
+  unstructured: Chih-Kuan Yeh, Been Kim, Sercan Ömer Arik, Chun-Liang Li, Tomas Pfister,
+    and Pradeep Ravikumar. 2020. On completeness-aware concept-based explanations
+    in deep neural networks. In Proceedings of the NeurIPS. Retrieved from https://proceedings.neurips.cc/paper/2020/hash/ecb287ff763c169694f682af52c1f309-Abstract.html.
+  volume-title: Proceedings of the NeurIPS
+  year: '2020'
+- doi: 10.1109/ICCV.2019.00944
+- author: Ying Zhitao
+  unstructured: 'Zhitao Ying, Dylan Bourgeois, Jiaxuan You, Marinka Zitnik, and Jure
+    Leskovec. 2019. GNNExplainer: Generating explanations for graph neural networks.
+    In Proceedings of the NeurIPS.'
+  volume-title: Proceedings of the NeurIPS
+  year: '2019'
+- doi: 10.1109/ICDM.2019.00187
+- author: Yu Haizi
+  unstructured: 'Haizi Yu and Lav R. Varshney. 2017. Towards deep interpretability
+    (MUS-ROVER II): Learning hierarchical representations of tonal music. In Proceedings
+    of the ICLR. OpenReview.net. Retrieved from https://openreview.net/forum?id=ryhqQFKgl.'
+  volume-title: Proceedings of the ICLR
+  year: '2017'
+- doi: 10.1609/aaai.v33i01.33015717
+- doi: 10.1145/3394486.3403085
+- doi: 10.3758/s13423-017-1258-z
+- doi: 10.1109/CVPR.2019.00886
+- doi: 10.1145/3446776
+- unstructured: Hao Zhang Jiayi Chen Haotian Xue and Quanshi Zhang. 2019. Towards
+    a unified evaluation of explanation methods without ground truth. Retrieved from
+    https://arXiv:1911.09017.
+- doi: 10.1609/aaai.v32i1.11819
+- doi: 10.1609/aaai.v31i1.10924
+- doi: 10.1109/CVPR.2018.00920
+- doi: 10.1109/CVPR.2019.00642
+- doi: 10.1631/FITEE.1700808
+- author: Zhang Xin
+  unstructured: Xin Zhang, Armando Solar-Lezama, and Rishabh Singh. 2018. Interpreting
+    neural network judgments via minimal, stable, and symbolic corrections. In Proceedings
+    of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2018'
+- doi: 10.24963/ijcai.2019/838
+- doi: 10.18653/v1/P18-1101
+- author: Zhao Yuan
+  unstructured: Yuan Zhao and Il Memming Park. 2016. Interpretable nonlinear dynamic
+    modeling of neural trajectories. In Proceedings of the NeurIPS.
+  volume-title: Proceedings of the NeurIPS
+  year: '2016'
+- author: Zheng Charles Y.
+  unstructured: Charles Y. Zheng, Francisco Pereira, Chris I. Baker, and Martin N.
+    Hebart. 2019. Revealing interpretable object representations from human behavior.
+    In Proceedings of the ICLR. OpenReview.net. Retrieved from https://openreview.net/forum?id=ryxSrhC9KX.
+  volume-title: Proceedings of the ICLR
+  year: '2019'
+- doi: 10.3390/electronics10050593
+- doi: 10.1109/ICDM.2019.00202
+doi: 10.1145/3583558
+files:
+- nauta-meike-and-trienes-jan-and-pathak-shreyasi-and-nguyen-elisa-and-peters-michelle-and-schmitt-yasmin-and-schlotterer-jorg-and-van-keulen-ma.pdf
+issue: 13s
+journal: ACM Computing Surveys
+language: en
+month: 12
+pages: 1--42
+publisher: Association for Computing Machinery (ACM)
+ref: FromAnecdotalNauta2023
+time-added: 2023-10-10-15:15:56
+title: 'From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review
+  on Evaluating Explainable AI'
+type: article
+url: http://dx.doi.org/10.1145/3583558
+volume: '55'
+year: 2023

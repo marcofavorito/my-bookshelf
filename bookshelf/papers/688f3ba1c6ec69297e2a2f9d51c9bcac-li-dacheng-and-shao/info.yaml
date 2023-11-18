@@ -1,0 +1,51 @@
+abstract: Increasing the context length of large language models (LLMs) unlocks fundamentally
+  new capabilities, but also significantly increases the memory footprints of training.
+  Previous model-parallel systems such as Megatron-LM partition and compute different
+  attention heads in parallel, resulting in large communication volumes, so they cannot
+  scale beyond the number of attention heads, thereby hindering its adoption. In this
+  paper, we introduce a new approach, LightSeq, for long-context LLMs training. LightSeq
+  has many notable advantages. First, LightSeq partitions over the sequence dimension,
+  hence is agnostic to model architectures and readily applicable for models with
+  varying numbers of attention heads, such as Multi-Head, Multi-Query and Grouped-Query
+  attention. Second, LightSeq not only requires up to 4.7x less communication than
+  Megatron-LM on popular LLMs but also overlaps the communication with computation.
+  To further reduce the training time, LightSeq features a novel gradient checkpointing
+  scheme to bypass an forward computation for memory-efficient attention. We evaluate
+  LightSeq on Llama-7B and its variants with sequence lengths from 32K to 512K. Through
+  comprehensive experiments on single and cross-node training, we show that LightSeq
+  achieves up to 1.24-2.01x end-to-end speedup, and a 2-8x longer sequence length
+  on models with fewer heads, compared to Megatron-LM. Codes will be available at
+  https://github.com/RulinShao/LightSeq.
+archiveprefix: arXiv
+author: Li, Dacheng and Shao, Rulin and Xie, Anze and Xing, Eric P. and Gonzalez,
+  Joseph E. and Stoica, Ion and Ma, Xuezhe and Zhang, Hao
+author_list:
+- family: Li
+  given: Dacheng
+- family: Shao
+  given: Rulin
+- family: Xie
+  given: Anze
+- family: Xing
+  given: Eric P.
+- family: Gonzalez
+  given: Joseph E.
+- family: Stoica
+  given: Ion
+- family: Ma
+  given: Xuezhe
+- family: Zhang
+  given: Hao
+eprint: 2310.03294v1
+file: 2310.03294v1.pdf
+files:
+- li-dacheng-and-shao-rulin-and-xie-anze-and-xing-eric-p.-and-gonzalez-joseph-e.-and-stoica-ion-and-ma-xuezhe-and-zhang-haolightseq-sequence-le.pdf
+month: Oct
+primaryclass: cs.LG
+ref: 2310.03294v1
+time-added: 2023-10-12-10:51:48
+title: 'LightSeq: Sequence Level Parallelism for Distributed Training of Long   Context
+  Transformers'
+type: article
+url: http://arxiv.org/abs/2310.03294v1
+year: '2023'
