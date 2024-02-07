@@ -1,0 +1,745 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Proteins are essential to life,
+  and understanding their structure can facilitate a mechanistic understanding of
+  their function. Through an enormous experimental effort<jats:sup>1–4</jats:sup>,
+  the structures of around 100,000 unique proteins have been determined<jats:sup>5</jats:sup>,
+  but this represents a small fraction of the billions of known protein sequences<jats:sup>6,7</jats:sup>.
+  Structural coverage is bottlenecked by the months to years of painstaking effort
+  required to determine a single protein structure. Accurate computational approaches
+  are needed to address this gap and to enable large-scale structural bioinformatics.
+  Predicting the three-dimensional structure that a protein will adopt based solely
+  on its amino acid sequence—the structure prediction component of the ‘protein folding
+  problem’<jats:sup>8</jats:sup>—has been an important open research problem for more
+  than 50 years<jats:sup>9</jats:sup>. Despite recent progress<jats:sup>10–14</jats:sup>,
+  existing methods fall far short of atomic accuracy, especially when no homologous
+  structure is available. Here we provide the first computational method that can
+  regularly predict protein structures with atomic accuracy even in cases in which
+  no similar structure is known. We validated an entirely redesigned version of our
+  neural network-based model, AlphaFold, in the challenging 14th Critical Assessment
+  of protein Structure Prediction (CASP14)<jats:sup>15</jats:sup>, demonstrating accuracy
+  competitive with experimental structures in a majority of cases and greatly outperforming
+  other methods. Underpinning the latest version of AlphaFold is a novel machine learning
+  approach that incorporates physical and biological knowledge about protein structure,
+  leveraging multi-sequence alignments, into the design of the deep learning algorithm.</jats:p>
+author: Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and
+  Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates,
+  Russ and Žídek, Augustin and Potapenko, Anna and Bridgland, Alex and Meyer, Clemens
+  and Kohl, Simon A. A. and Ballard, Andrew J. and Cowie, Andrew and Romera-Paredes,
+  Bernardino and Nikolov, Stanislav and Jain, Rishub and Adler, Jonas and Back, Trevor
+  and Petersen, Stig and Reiman, David and Clancy, Ellen and Zielinski, Michal and
+  Steinegger, Martin and Pacholska, Michalina and Berghammer, Tamas and Bodenstein,
+  Sebastian and Silver, David and Vinyals, Oriol and Senior, Andrew W. and Kavukcuoglu,
+  Koray and Kohli, Pushmeet and Hassabis, Demis
+author_list:
+- affiliation: []
+  family: Jumper
+  given: John
+- affiliation: []
+  family: Evans
+  given: Richard
+- affiliation: []
+  family: Pritzel
+  given: Alexander
+- affiliation: []
+  family: Green
+  given: Tim
+- affiliation: []
+  family: Figurnov
+  given: Michael
+- affiliation: []
+  family: Ronneberger
+  given: Olaf
+- affiliation: []
+  family: Tunyasuvunakool
+  given: Kathryn
+- affiliation: []
+  family: Bates
+  given: Russ
+- affiliation: []
+  family: Žídek
+  given: Augustin
+- affiliation: []
+  family: Potapenko
+  given: Anna
+- affiliation: []
+  family: Bridgland
+  given: Alex
+- affiliation: []
+  family: Meyer
+  given: Clemens
+- affiliation: []
+  family: Kohl
+  given: Simon A. A.
+- affiliation: []
+  family: Ballard
+  given: Andrew J.
+- affiliation: []
+  family: Cowie
+  given: Andrew
+- affiliation: []
+  family: Romera-Paredes
+  given: Bernardino
+- affiliation: []
+  family: Nikolov
+  given: Stanislav
+- affiliation: []
+  family: Jain
+  given: Rishub
+- affiliation: []
+  family: Adler
+  given: Jonas
+- affiliation: []
+  family: Back
+  given: Trevor
+- affiliation: []
+  family: Petersen
+  given: Stig
+- affiliation: []
+  family: Reiman
+  given: David
+- affiliation: []
+  family: Clancy
+  given: Ellen
+- affiliation: []
+  family: Zielinski
+  given: Michal
+- affiliation: []
+  family: Steinegger
+  given: Martin
+- affiliation: []
+  family: Pacholska
+  given: Michalina
+- affiliation: []
+  family: Berghammer
+  given: Tamas
+- affiliation: []
+  family: Bodenstein
+  given: Sebastian
+- affiliation: []
+  family: Silver
+  given: David
+- affiliation: []
+  family: Vinyals
+  given: Oriol
+- affiliation: []
+  family: Senior
+  given: Andrew W.
+- affiliation: []
+  family: Kavukcuoglu
+  given: Koray
+- affiliation: []
+  family: Kohli
+  given: Pushmeet
+- affiliation: []
+  family: Hassabis
+  given: Demis
+citations:
+- author: MC Thompson
+  doi: 10.12688/f1000research.25097.1
+  first-page: '667'
+  journal-title: F1000Res.
+  unstructured: Thompson, M. C., Yeates, T. O. & Rodriguez, J. A. Advances in methods
+    for atomic resolution macromolecular structure determination. F1000Res. 9, 667
+    (2020).
+  volume: '9'
+  year: '2020'
+- author: X-C Bai
+  doi: 10.1016/j.tibs.2014.10.005
+  first-page: '49'
+  journal-title: Trends Biochem. Sci.
+  unstructured: Bai, X.-C., McMullan, G. & Scheres, S. H. W. How cryo-EM is revolutionizing
+    structural biology. Trends Biochem. Sci. 40, 49–57 (2015).
+  volume: '40'
+  year: '2015'
+- author: M Jaskolski
+  doi: 10.1111/febs.12796
+  first-page: '3985'
+  journal-title: FEBS J.
+  unstructured: Jaskolski, M., Dauter, Z. & Wlodawer, A. A brief history of macromolecular
+    crystallography, illustrated by a family tree and its Nobel fruits. FEBS J. 281,
+    3985–4009 (2014).
+  volume: '281'
+  year: '2014'
+- author: K Wüthrich
+  doi: 10.1038/nsb1101-923
+  first-page: '923'
+  journal-title: Nat. Struct. Biol.
+  unstructured: Wüthrich, K. The way to NMR structures of proteins. Nat. Struct. Biol.
+    8, 923–925 (2001).
+  volume: '8'
+  year: '2001'
+- author: wwPDB Consortium
+  doi: 10.1093/nar/gky949
+  first-page: D520
+  journal-title: Nucleic Acids Res.
+  unstructured: 'wwPDB Consortium. Protein Data Bank: the single global archive for
+    3D macromolecular structure data. Nucleic Acids Res. 47, D520–D528 (2018).'
+  volume: '47'
+  year: '2018'
+- author: AL Mitchell
+  first-page: D570
+  journal-title: Nucleic Acids Res.
+  unstructured: 'Mitchell, A. L. et al. MGnify: the microbiome analysis resource in
+    2020. Nucleic Acids Res. 48, D570–D578 (2020).'
+  volume: '48'
+  year: '2020'
+- author: M Steinegger
+  doi: 10.1038/s41592-019-0437-4
+  first-page: '603'
+  journal-title: Nat. Methods
+  unstructured: Steinegger, M., Mirdita, M. & Söding, J. Protein-level assembly increases
+    protein sequence recovery from metagenomic samples manyfold. Nat. Methods 16,
+    603–606 (2019).
+  volume: '16'
+  year: '2019'
+- author: KA Dill
+  doi: 10.1146/annurev.biophys.37.092707.153558
+  first-page: '289'
+  journal-title: Annu. Rev. Biophys.
+  unstructured: Dill, K. A., Ozkan, S. B., Shell, M. S. & Weikl, T. R. The protein
+    folding problem. Annu. Rev. Biophys. 37, 289–316 (2008).
+  volume: '37'
+  year: '2008'
+- author: CB Anfinsen
+  doi: 10.1126/science.181.4096.223
+  first-page: '223'
+  journal-title: Science
+  unstructured: Anfinsen, C. B. Principles that govern the folding of protein chains.
+    Science 181, 223–230 (1973).
+  volume: '181'
+  year: '1973'
+- author: AW Senior
+  doi: 10.1038/s41586-019-1923-7
+  first-page: '706'
+  journal-title: Nature
+  unstructured: Senior, A. W. et al. Improved protein structure prediction using potentials
+    from deep learning. Nature 577, 706–710 (2020).
+  volume: '577'
+  year: '2020'
+- author: S Wang
+  doi: 10.1371/journal.pcbi.1005324
+  first-page: e1005324
+  journal-title: PLOS Comput. Biol.
+  unstructured: Wang, S., Sun, S., Li, Z., Zhang, R. & Xu, J. Accurate de novo prediction
+    of protein contact map by ultra-deep learning model. PLOS Comput. Biol. 13, e1005324
+    (2017).
+  volume: '13'
+  year: '2017'
+- author: W Zheng
+  doi: 10.1002/prot.25792
+  first-page: '1149'
+  journal-title: Proteins
+  unstructured: Zheng, W. et al. Deep-learning contact-map guided protein structure
+    prediction in CASP13. Proteins 87, 1149–1164 (2019).
+  volume: '87'
+  year: '2019'
+- author: LA Abriata
+  doi: 10.1002/prot.25787
+  first-page: '1100'
+  journal-title: Proteins
+  unstructured: Abriata, L. A., Tamò, G. E. & Dal Peraro, M. A further leap of improvement
+    in tertiary structure prediction in CASP13 prompts new routes for future assessments.
+    Proteins 87, 1100–1112 (2019).
+  volume: '87'
+  year: '2019'
+- author: R Pearce
+  doi: 10.1016/j.sbi.2021.01.007
+  first-page: '194'
+  journal-title: Curr. Opin. Struct. Biol.
+  unstructured: Pearce, R. & Zhang, Y. Deep learning techniques have significantly
+    impacted protein structure prediction and protein design. Curr. Opin. Struct.
+    Biol. 68, 194–207 (2021).
+  volume: '68'
+  year: '2021'
+- unstructured: Moult, J., Fidelis, K., Kryshtafovych, A., Schwede, T. & Topf, M.
+    Critical assessment of techniques for protein structure prediction, fourteenth
+    round. CASP 14 Abstract Book https://www.predictioncenter.org/casp14/doc/CASP14_Abstracts.pdf
+    (2020).
+- author: E Brini
+  doi: 10.1126/science.aaz3041
+  first-page: eaaz3041
+  journal-title: Science
+  unstructured: Brini, E., Simmerling, C. & Dill, K. Protein storytelling through
+    physics. Science 370, eaaz3041 (2020).
+  volume: '370'
+  year: '2020'
+- author: MJ Sippl
+  doi: 10.1016/S0022-2836(05)80269-4
+  first-page: '859'
+  journal-title: J. Mol. Biol.
+  unstructured: Sippl, M. J. Calculation of conformational ensembles from potentials
+    of mean force. An approach to the knowledge-based prediction of local structures
+    in globular proteins. J. Mol. Biol. 213, 859–883 (1990).
+  volume: '213'
+  year: '1990'
+- author: A Šali
+  doi: 10.1006/jmbi.1993.1626
+  first-page: '779'
+  journal-title: J. Mol. Biol.
+  unstructured: Šali, A. & Blundell, T. L. Comparative protein modelling by satisfaction
+    of spatial restraints. J. Mol. Biol. 234, 779–815 (1993).
+  volume: '234'
+  year: '1993'
+- author: A Roy
+  doi: 10.1038/nprot.2010.5
+  first-page: '725'
+  journal-title: Nat. Protocols
+  unstructured: 'Roy, A., Kucukural, A. & Zhang, Y. I-TASSER: a unified platform for
+    automated protein structure and function prediction. Nat. Protocols 5, 725–738
+    (2010).'
+  volume: '5'
+  year: '2010'
+- author: D Altschuh
+  doi: 10.1016/0022-2836(87)90352-4
+  first-page: '693'
+  journal-title: J. Mol. Biol.
+  unstructured: Altschuh, D., Lesk, A. M., Bloomer, A. C. & Klug, A. Correlation of
+    co-ordinated amino acid substitutions with function in viruses related to tobacco
+    mosaic virus. J. Mol. Biol. 193, 693–707 (1987).
+  volume: '193'
+  year: '1987'
+- author: IN Shindyalov
+  doi: 10.1093/protein/7.3.349
+  first-page: '349'
+  journal-title: Protein Eng.
+  unstructured: Shindyalov, I. N., Kolchanov, N. A. & Sander, C. Can three-dimensional
+    contacts in protein structures be predicted by analysis of correlated mutations?
+    Protein Eng. 7, 349–358 (1994).
+  volume: '7'
+  year: '1994'
+- author: M Weigt
+  doi: 10.1073/pnas.0805923106
+  first-page: '67'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Weigt, M., White, R. A., Szurmant, H., Hoch, J. A. & Hwa, T. Identification
+    of direct residue contacts in protein–protein interaction by message passing.
+    Proc. Natl Acad. Sci. USA 106, 67–72 (2009).
+  volume: '106'
+  year: '2009'
+- author: DS Marks
+  doi: 10.1371/journal.pone.0028766
+  first-page: e28766
+  journal-title: PLoS ONE
+  unstructured: Marks, D. S. et al. Protein 3D structure computed from evolutionary
+    sequence variation. PLoS ONE 6, e28766 (2011).
+  volume: '6'
+  year: '2011'
+- author: DT Jones
+  doi: 10.1093/bioinformatics/btr638
+  first-page: '184'
+  journal-title: Bioinformatics
+  unstructured: 'Jones, D. T., Buchan, D. W. A., Cozzetto, D. & Pontil, M. PSICOV:
+    precise structural contact prediction using sparse inverse covariance estimation
+    on large multiple sequence alignments. Bioinformatics 28, 184–190 (2012).'
+  volume: '28'
+  year: '2012'
+- author: J Moult
+  doi: 10.1002/prot.340230303
+  first-page: ii
+  journal-title: Proteins
+  unstructured: Moult, J., Pedersen, J. T., Judson, R. & Fidelis, K. A large-scale
+    experiment to assess protein structure prediction methods. Proteins 23, ii–iv
+    (1995).
+  volume: '23'
+  year: '1995'
+- author: A Kryshtafovych
+  doi: 10.1002/prot.25823
+  first-page: '1011'
+  journal-title: Proteins
+  unstructured: Kryshtafovych, A., Schwede, T., Topf, M., Fidelis, K. & Moult, J.
+    Critical assessment of methods of protein structure prediction (CASP)-round XIII.
+    Proteins 87, 1011–1020 (2019).
+  volume: '87'
+  year: '2019'
+- author: Y Zhang
+  doi: 10.1002/prot.20264
+  first-page: '702'
+  journal-title: Proteins
+  unstructured: Zhang, Y. & Skolnick, J. Scoring function for automated assessment
+    of protein structure template quality. Proteins 57, 702–710 (2004).
+  volume: '57'
+  year: '2004'
+- author: Z Tu
+  doi: 10.1109/TPAMI.2009.186
+  first-page: '1744'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  unstructured: Tu, Z. & Bai, X. Auto-context and its application to high-level vision
+    tasks and 3D brain image segmentation. IEEE Trans. Pattern Anal. Mach. Intell.
+    32, 1744–1757 (2010).
+  volume: '32'
+  year: '2010'
+- doi: 10.1109/CVPR.2016.512
+  unstructured: Carreira, J., Agrawal, P., Fragkiadaki, K. & Malik, J. Human pose
+    estimation with iterative error feedback. In Proc. IEEE Conference on Computer
+    Vision and Pattern Recognition 4733–4742 (2016).
+- author: C Mirabello
+  doi: 10.1371/journal.pone.0220182
+  first-page: e0220182
+  journal-title: PLoS ONE
+  unstructured: 'Mirabello, C. & Wallner, B. rawMSA: end-to-end deep learning using
+    raw multiple sequence alignments. PLoS ONE 14, e0220182 (2019).'
+  volume: '14'
+  year: '2019'
+- doi: 10.1109/ICCV.2019.00069
+  unstructured: 'Huang, Z. et al. CCNet: criss-cross attention for semantic segmentation.
+    In Proc. IEEE/CVF International Conference on Computer Vision 603–612 (2019).'
+- author: V Hornak
+  doi: 10.1002/prot.21123
+  first-page: '712'
+  journal-title: Proteins
+  unstructured: Hornak, V. et al. Comparison of multiple Amber force fields and development
+    of improved protein backbone parameters. Proteins 65, 712–725 (2006).
+  volume: '65'
+  year: '2006'
+- author: A Zemla
+  doi: 10.1093/nar/gkg571
+  first-page: '3370'
+  journal-title: Nucleic Acids Res.
+  unstructured: 'Zemla, A. LGA: a method for finding 3D similarities in protein structures.
+    Nucleic Acids Res. 31, 3370–3374 (2003).'
+  volume: '31'
+  year: '2003'
+- author: V Mariani
+  doi: 10.1093/bioinformatics/btt473
+  first-page: '2722'
+  journal-title: Bioinformatics
+  unstructured: 'Mariani, V., Biasini, M., Barbato, A. & Schwede, T. lDDT: a local
+    superposition-free score for comparing protein structures and models using distance
+    difference tests. Bioinformatics 29, 2722–2728 (2013).'
+  volume: '29'
+  year: '2013'
+- doi: 10.1109/CVPR42600.2020.01070
+  unstructured: Xie, Q., Luong, M.-T., Hovy, E. & Le, Q. V. Self-training with noisy
+    student improves imagenet classification. In Proc. IEEE/CVF Conference on Computer
+    Vision and Pattern Recognition 10687–10698 (2020).
+- author: M Mirdita
+  doi: 10.1093/nar/gkw1081
+  first-page: D170
+  journal-title: Nucleic Acids Res.
+  unstructured: Mirdita, M. et al. Uniclust databases of clustered and deeply annotated
+    protein sequences and alignments. Nucleic Acids Res. 45, D170–D176 (2017).
+  volume: '45'
+  year: '2017'
+- unstructured: 'Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. BERT: pre-training
+    of deep bidirectional transformers for language understanding. In Proc. 2019 Conference
+    of the North American Chapter of the Association for Computational Linguistics:
+    Human Language Technologies 1, 4171–4186 (2019).'
+- unstructured: Rao, R. et al. MSA transformer. In Proc. 38th International Conference
+    on Machine Learning PMLR 139, 8844–8856 (2021).
+- doi: 10.1038/s41586-021-03828-1
+  unstructured: Tunyasuvunakool, K. et al. Highly accurate protein structure prediction
+    for the human proteome. Nature https://doi.org/10.1038/s41586-021-03828-1 (2021).
+- author: B Kuhlman
+  doi: 10.1038/s41580-019-0163-x
+  first-page: '681'
+  journal-title: Nat. Rev. Mol. Cell Biol.
+  unstructured: Kuhlman, B. & Bradley, P. Advances in protein structure prediction
+    and design. Nat. Rev. Mol. Cell Biol. 20, 681–697 (2019).
+  volume: '20'
+  year: '2019'
+- author: DS Marks
+  doi: 10.1038/nbt.2419
+  first-page: '1072'
+  journal-title: Nat. Biotechnol.
+  unstructured: Marks, D. S., Hopf, T. A. & Sander, C. Protein structure prediction
+    from sequence variation. Nat. Biotechnol. 30, 1072–1080 (2012).
+  volume: '30'
+  year: '2012'
+- author: N Qian
+  doi: 10.1016/0022-2836(88)90564-5
+  first-page: '865'
+  journal-title: J. Mol. Biol.
+  unstructured: Qian, N. & Sejnowski, T. J. Predicting the secondary structure of
+    globular proteins using neural network models. J. Mol. Biol. 202, 865–884 (1988).
+  volume: '202'
+  year: '1988'
+- author: P Fariselli
+  doi: 10.1093/protein/14.11.835
+  first-page: '835'
+  journal-title: Protein Eng.
+  unstructured: Fariselli, P., Olmea, O., Valencia, A. & Casadio, R. Prediction of
+    contact maps with neural networks and correlated mutations. Protein Eng. 14, 835–843
+    (2001).
+  volume: '14'
+  year: '2001'
+- author: J Yang
+  doi: 10.1073/pnas.1914677117
+  first-page: '1496'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Yang, J. et al. Improved protein structure prediction using predicted
+    interresidue orientations. Proc. Natl Acad. Sci. USA 117, 1496–1503 (2020).
+  volume: '117'
+  year: '2020'
+- author: Y Li
+  doi: 10.1371/journal.pcbi.1008865
+  first-page: e1008865
+  journal-title: PLOS Comput. Biol.
+  unstructured: Li, Y. et al. Deducing high-accuracy protein contact-maps from a triplet
+    of coevolutionary matrices through deep residual convolutional networks. PLOS
+    Comput. Biol. 17, e1008865 (2021).
+  volume: '17'
+  year: '2021'
+- doi: 10.1109/CVPR.2016.90
+  unstructured: He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image
+    recognition. In Proc. IEEE Conference on Computer Vision and Pattern Recognition
+    770–778 (2016).
+- author: M AlQuraishi
+  doi: 10.1016/j.cels.2019.03.006
+  first-page: '292'
+  journal-title: Cell Syst.
+  unstructured: AlQuraishi, M. End-to-end differentiable learning of protein structure.
+    Cell Syst. 8, 292–301 (2019).
+  volume: '8'
+  year: '2019'
+- author: AW Senior
+  doi: 10.1002/prot.25834
+  first-page: '1141'
+  journal-title: Proteins
+  unstructured: Senior, A. W. et al. Protein structure prediction using multiple deep
+    neural networks in the 13th Critical Assessment of Protein Structure Prediction
+    (CASP13). Proteins 87, 1141–1148 (2019).
+  volume: '87'
+  year: '2019'
+- unstructured: Ingraham, J., Riesselman, A. J., Sander, C. & Marks, D. S. Learning
+    protein structure with a differentiable simulator. in Proc. International Conference
+    on Learning Representations (2019).
+- unstructured: Li, J. Universal transforming geometric network. Preprint at https://arxiv.org/abs/1908.00723
+    (2019).
+- author: J Xu
+  doi: 10.1038/s42256-021-00348-5
+  first-page: '601'
+  journal-title: Nat. Mach. Intell.
+  unstructured: Xu, J., McPartlon, M. & Li, J. Improved protein structure prediction
+    by deep learning irrespective of co-evolution information. Nat. Mach. Intell.
+    3, 601–609 (2021).
+  volume: '3'
+  year: '2021'
+- unstructured: Vaswani, A. et al. Attention is all you need. In Advances in Neural
+    Information Processing Systems 5998–6008 (2017).
+- doi: 10.1007/978-3-030-58548-8_7
+  unstructured: 'Wang, H. et al. Axial-deeplab: stand-alone axial-attention for panoptic
+    segmentation. in European Conference on Computer Vision 108–126 (Springer, 2020).'
+- author: EC Alley
+  doi: 10.1038/s41592-019-0598-1
+  first-page: '1315'
+  journal-title: Nat. Methods
+  unstructured: Alley, E. C., Khimulya, G., Biswas, S., AlQuraishi, M. & Church, G.
+    M. Unified rational protein engineering with sequence-based deep representation
+    learning. Nat. Methods 16, 1315–1322 (2019).
+  volume: '16'
+  year: '2019'
+- author: M Heinzinger
+  doi: 10.1186/s12859-019-3220-8
+  journal-title: BMC Bioinformatics
+  unstructured: Heinzinger, M. et al. Modeling aspects of the language of life through
+    transfer-learning protein sequences. BMC Bioinformatics 20, 723 (2019).
+  volume: '20'
+  year: '2019'
+- author: A Rives
+  doi: 10.1073/pnas.2016239118
+  first-page: e2016239118
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Rives, A. et al. Biological structure and function emerge from scaling
+    unsupervised learning to 250 million protein sequences. Proc. Natl Acad. Sci.
+    USA 118, e2016239118 (2021).
+  volume: '118'
+  year: '2021'
+- author: J Pereira
+  doi: 10.1002/prot.26171
+  journal-title: Proteins
+  unstructured: Pereira, J. et al. High-accuracy protein structure prediction in CASP14.
+    Proteins https://doi.org/10.1002/prot.26171 (2021).
+  year: '2021'
+- doi: 10.1101/2021.05.10.443524
+  unstructured: Gupta, M. et al. CryoEM and AI reveal a structure of SARS-CoV-2 Nsp2,
+    a multifunctional protein involved in key host processes. Preprint at https://doi.org/10.1101/2021.05.10.443524
+    (2021).
+- unstructured: Ingraham, J., Garg, V. K., Barzilay, R. & Jaakkola, T. Generative
+    models for graph-based protein design. in Proc. 33rd Conference on Neural Information
+    Processing Systems (2019).
+- author: LS Johnson
+  doi: 10.1186/1471-2105-11-431
+  journal-title: BMC Bioinformatics
+  unstructured: Johnson, L. S., Eddy, S. R. & Portugaly, E. Hidden Markov model speed
+    heuristic and iterative HMM search procedure. BMC Bioinformatics 11, 431 (2010).
+  volume: '11'
+  year: '2010'
+- author: M Remmert
+  doi: 10.1038/nmeth.1818
+  first-page: '173'
+  journal-title: Nat. Methods
+  unstructured: 'Remmert, M., Biegert, A., Hauser, A. & Söding, J. HHblits: lightning-fast
+    iterative protein sequence searching by HMM-HMM alignment. Nat. Methods 9, 173–175
+    (2012).'
+  volume: '9'
+  year: '2012'
+- author: The UniProt Consortium
+  doi: 10.1093/nar/gkaa1100
+  first-page: D480
+  journal-title: Nucleic Acids Res.
+  unstructured: 'The UniProt Consortium. UniProt: the universal protein knowledgebase
+    in 2021. Nucleic Acids Res. 49, D480–D489 (2020).'
+  volume: '49'
+  year: '2020'
+- author: M Steinegger
+  doi: 10.1038/s41467-018-04964-5
+  journal-title: Nat. Commun.
+  unstructured: Steinegger, M. & Söding, J. Clustering huge protein sequence sets
+    in linear time. Nat. Commun. 9, 2542 (2018).
+  volume: '9'
+  year: '2018'
+- author: M Steinegger
+  doi: 10.1038/nbt.3988
+  first-page: '1026'
+  journal-title: Nat. Biotechnol.
+  unstructured: Steinegger, M. & Söding, J. MMseqs2 enables sensitive protein sequence
+    searching for the analysis of massive data sets. Nat. Biotechnol. 35, 1026–1028
+    (2017).
+  volume: '35'
+  year: '2017'
+- author: S Deorowicz
+  doi: 10.1038/srep33964
+  journal-title: Sci. Rep.
+  unstructured: 'Deorowicz, S., Debudaj-Grabysz, A. & Gudyś, A. FAMSA: fast and accurate
+    multiple sequence alignment of huge protein families. Sci. Rep. 6, 33964 (2016).'
+  volume: '6'
+  year: '2016'
+- author: M Steinegger
+  doi: 10.1186/s12859-019-3019-7
+  journal-title: BMC Bioinformatics
+  unstructured: Steinegger, M. et al. HH-suite3 for fast remote homology detection
+    and deep protein annotation. BMC Bioinformatics 20, 473 (2019).
+  volume: '20'
+  year: '2019'
+- author: BE Suzek
+  doi: 10.1093/bioinformatics/btu739
+  first-page: '926'
+  journal-title: Bioinformatics
+  unstructured: 'Suzek, B. E., Wang, Y., Huang, H., McGarvey, P. B. & Wu, C. H. UniRef
+    clusters: a comprehensive and scalable alternative for improving sequence similarity
+    searches. Bioinformatics 31, 926–932 (2015).'
+  volume: '31'
+  year: '2015'
+- author: SR Eddy
+  doi: 10.1371/journal.pcbi.1002195
+  first-page: e1002195
+  journal-title: PLOS Comput. Biol.
+  unstructured: Eddy, S. R. Accelerated profile HMM searches. PLOS Comput. Biol. 7,
+    e1002195 (2011).
+  volume: '7'
+  year: '2011'
+- author: P Eastman
+  doi: 10.1371/journal.pcbi.1005659
+  first-page: e1005659
+  journal-title: PLOS Comput. Biol.
+  unstructured: 'Eastman, P. et al. OpenMM 7: rapid development of high performance
+    algorithms for molecular dynamics. PLOS Comput. Biol. 13, e1005659 (2017).'
+  volume: '13'
+  year: '2017'
+- unstructured: 'Ashish, A. M. A. et al. TensorFlow: large-scale machine learning
+    on heterogeneous systems. Preprint at https://arxiv.org/abs/1603.04467 (2015).'
+- unstructured: Reynolds, M. et al. Open sourcing Sonnet – a new library for constructing
+    neural networks. DeepMind https://deepmind.com/blog/open-sourcing-sonnet/ (7 April
+    2017).
+- author: CR Harris
+  doi: 10.1038/s41586-020-2649-2
+  first-page: '357'
+  journal-title: Nature
+  unstructured: Harris, C. R. et al. Array programming with NumPy. Nature 585, 357–362
+    (2020).
+  volume: '585'
+  year: '2020'
+- unstructured: Van Rossum, G. & Drake, F. L. Python 3 Reference Manual (CreateSpace,
+    2009).
+- doi: 10.1007/978-1-4842-4470-8_7
+  unstructured: 'Bisong, E. in Building Machine Learning and Deep Learning Models
+    on Google Cloud Platform: A Comprehensive Guide for Beginners 59–64 (Apress, 2019).'
+- unstructured: 'TensorFlow. XLA: Optimizing Compiler for TensorFlow. https://www.tensorflow.org/xla
+    (2018).'
+- author: T Wu
+  doi: 10.1093/bioinformatics/btz679
+  first-page: '1091'
+  journal-title: Bioinformatics
+  unstructured: Wu, T., Hou, J., Adhikari, B. & Cheng, J. Analysis of several key
+    factors influencing deep learning-based inter-residue contact prediction. Bioinformatics
+    36, 1091–1098 (2020).
+  volume: '36'
+  year: '2020'
+- author: W Jiang
+  doi: 10.1371/journal.ppat.1008707
+  first-page: e1008707
+  journal-title: PLoS Pathog.
+  unstructured: Jiang, W. et al. MrpH, a new class of metal-binding adhesin, requires
+    zinc to mediate biofilm formation. PLoS Pathog. 16, e1008707 (2020).
+  volume: '16'
+  year: '2020'
+- doi: 10.2210/pdb6YJ1/pdb
+  unstructured: Dunne, M., Ernst, P., Sobieraj, A., Pluckthun, A. & Loessner, M. J.
+    The M23 peptidase domain of the Staphylococcal phage 2638A endolysin. PDB https://doi.org/10.2210/pdb6YJ1/pdb
+    (2020).
+- author: AV Drobysheva
+  doi: 10.1038/s41586-020-2921-5
+  first-page: '306'
+  journal-title: Nature
+  unstructured: Drobysheva, A. V. et al. Structure and function of virion RNA polymerase
+    of a crAss-like phage. Nature 589, 306–309 (2021).
+  volume: '589'
+  year: '2021'
+- author: N Flaugnatti
+  doi: 10.15252/embj.2019104129
+  first-page: e104129
+  journal-title: EMBO J.
+  unstructured: Flaugnatti, N. et al. Structural basis for loading and inhibition
+    of a bacterial T6SS phospholipase effector by the VgrG spike. EMBO J. 39, e104129
+    (2020).
+  volume: '39'
+  year: '2020'
+- author: M ElGamacy
+  doi: 10.1021/acssynbio.8b00224
+  first-page: '2226'
+  journal-title: ACS Synth. Biol.
+  unstructured: ElGamacy, M. et al. An interface-driven design strategy yields a novel,
+    corrugated protein architecture. ACS Synth. Biol. 7, 2226–2235 (2018).
+  volume: '7'
+  year: '2018'
+- author: CJ Lim
+  doi: 10.1126/science.aaz9649
+  first-page: '1081'
+  journal-title: Science
+  unstructured: Lim, C. J. et al. The structure of human CST reveals a decameric assembly
+    bound to telomeric DNA. Science 368, 1081–1085 (2020).
+  volume: '368'
+  year: '2020'
+- author: V Debruycker
+  doi: 10.1038/s41594-020-0464-y
+  first-page: '829'
+  journal-title: Nat. Struct. Mol. Biol.
+  unstructured: Debruycker, V. et al. An embedded lipid in the multidrug transporter
+    LmrP suggests a mechanism for polyspecificity. Nat. Struct. Mol. Biol. 27, 829–835
+    (2020).
+  volume: '27'
+  year: '2020'
+- author: TG Flower
+  doi: 10.1073/pnas.2021785118
+  first-page: e2021785118
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Flower, T. G. et al. Structure of SARS-CoV-2 ORF8, a rapidly evolving
+    immune evasion protein. Proc. Natl Acad. Sci. USA 118, e2021785118 (2021).
+  volume: '118'
+  year: '2021'
+doc_url: https://www.nature.com/articles/s41586-021-03819-2
+doi: 10.1038/s41586-021-03819-2
+files:
+- jumper-john-and-evans-richard-and-pritzel-alexander-and-green-tim-and-figurnov-michael-and-ronneberger-olaf-and-tunyasuvunakool-kathryn-and-bat.pdf
+issue: '7873'
+journal: Nature
+language: en
+month: 8
+pages: 583--589
+publisher: Springer Science and Business Media LLC
+ref: HighlyAccurateJumper2021
+time-added: 2023-11-28-10:21:29
+title: Highly accurate protein structure prediction with AlphaFold
+type: article
+url: http://dx.doi.org/10.1038/s41586-021-03819-2
+volume: '596'
+year: 2021

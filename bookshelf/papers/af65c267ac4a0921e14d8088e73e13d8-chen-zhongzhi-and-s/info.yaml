@@ -1,0 +1,44 @@
+abstract: 'Despite the great success of large language models (LLMs) in various tasks,
+  they suffer from generating hallucinations. We introduce Truth Forest, a method
+  that enhances truthfulness in LLMs by uncovering hidden truth representations using
+  multi-dimensional orthogonal probes. Specifically, it creates multiple orthogonal
+  bases for modeling truth by incorporating orthogonal constraints into the probes.
+  Moreover, we introduce Random Peek, a systematic technique considering an extended
+  range of positions within the sequence, reducing the gap between discerning and
+  generating truth features in LLMs. By employing this approach, we improved the truthfulness
+  of Llama-2-7B from 40.8\% to 74.5\% on TruthfulQA. Likewise, significant improvements
+  are observed in fine-tuned models. We conducted a thorough analysis of truth features
+  using probes. Our visualization results show that orthogonal probes capture complementary
+  truth-related features, forming well-defined clusters that reveal the inherent structure
+  of the dataset. Code: \url{https://github.com/jongjyh/trfr}'
+archiveprefix: arXiv
+author: Chen, Zhongzhi and Sun, Xingwu and Jiao, Xianfeng and Lian, Fengzong and Kang,
+  Zhanhui and Wang, Di and Xu, Cheng-Zhong
+author_list:
+- family: Chen
+  given: Zhongzhi
+- family: Sun
+  given: Xingwu
+- family: Jiao
+  given: Xianfeng
+- family: Lian
+  given: Fengzong
+- family: Kang
+  given: Zhanhui
+- family: Wang
+  given: Di
+- family: Xu
+  given: Cheng-Zhong
+eprint: 2312.17484v1
+file: 2312.17484v1.pdf
+files:
+- chen-zhongzhi-and-sun-xingwu-and-jiao-xianfeng-and-lian-fengzong-and-kang-zhanhui-and-wang-di-and-xu-cheng-zhongtruth-forest-toward-multi-scal.pdf
+month: Dec
+primaryclass: cs.CL
+ref: 2312.17484v1
+time-added: 2024-01-08-20:46:46
+title: 'Truth Forest: Toward Multi-Scale Truthfulness in Large Language Models   through
+  Intervention without Tuning'
+type: article
+url: http://arxiv.org/abs/2312.17484v1
+year: '2023'

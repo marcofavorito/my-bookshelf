@@ -1,0 +1,237 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>Model checking undiscounted reachability
+  and expected-reward properties on Markov decision processes (MDPs) is key for the
+  verification of systems that act under uncertainty. Popular algorithms are policy
+  iteration and variants of value iteration; in tool competitions, most participants
+  rely on the latter. These algorithms generally need worst-case exponential time.
+  However, the problem can equally be formulated as a linear program, solvable in
+  polynomial time. In this paper, we give a detailed overview of today’s state-of-the-art
+  algorithms for MDP model checking with a focus on performance and correctness. We
+  highlight their fundamental differences, and describe various optimizations and
+  implementation variants. We experimentally compare floating-point and exact-arithmetic
+  implementations of all algorithms on three benchmark sets using two probabilistic
+  model checkers. Our results show that (optimistic) value iteration is a sensible
+  default, but other algorithms are preferable in specific settings. This paper thereby
+  provides a guide for MDP verification practitioners—tool builders and users alike.</jats:p>
+author: Hartmanns, Arnd and Junges, Sebastian and Quatmann, Tim and Weininger, Maximilian
+author_list:
+- affiliation: []
+  family: Hartmanns
+  given: Arnd
+- affiliation: []
+  family: Junges
+  given: Sebastian
+- affiliation: []
+  family: Quatmann
+  given: Tim
+- affiliation: []
+  family: Weininger
+  given: Maximilian
+citations:
+- doi: 10.1016/j.cie.2015.05.031
+  unstructured: 'Alagöz, O., Ayvaci, M.U.S., Linderoth, J.T.: Optimally solving Markov
+    decision processes with total expected discounted reward function: Linear programming
+    revisited. Comput. Ind. Eng. 87, 311–316 (2015). https://doi.org/10.1016/j.cie.2015.05.031'
+- doi: 10.1080/09720510.2017.1395182
+  unstructured: 'Anand, R., Aggarwal, D., Kumar, V.: A comparative analysis of optimization
+    solvers. Journal of Statistics and Management Systems 20(4), 623–635 (2017). https://doi.org/10.1080/09720510.2017.1395182'
+- doi: 10.48550/arXiv.2207.14417
+  unstructured: 'Azeem, M., Evangelidis, A., Kretínský, J., Slivinskiy, A., Weininger,
+    M.: Optimistic and topological value iteration for simple stochastic games. CoRR
+    abs/2207.14417 (2022). https://doi.org/10.48550/arXiv.2207.14417'
+- doi: 10.1007/978-3-319-10575-8_28
+  unstructured: 'Baier, C., de Alfaro, L., Forejt, V., Kwiatkowska, M.: Model checking
+    probabilistic systems. In: Handbook of Model Checking, pp. 963–999. Springer (2018)'
+- doi: 10.1007/978-3-319-91908-9_21
+  unstructured: 'Baier, C., Hermanns, H., Katoen, J.P.: The 10,000 facets of MDP model
+    checking. In: Computing and Software Science, LNCS, vol. 10000, pp. 420–451. Springer
+    (2019). https://doi.org/10.1007/978-3-319-91908-9_21'
+- unstructured: 'Baier, C., Katoen, J.P.: Principles of model checking. MIT Press
+    (2008), https://mitpress.mit.edu/books/principles-model-checking'
+- doi: 10.1007/978-3-642-54862-8_43
+  unstructured: 'Baier, C., Klein, J., Klüppelholz, S., Märcker, S.: Computing conditional
+    probabilities in Markovian models efficiently. In: TACAS. LNCS, vol. 8413, pp.
+    515–530. Springer (2014). https://doi.org/10.1007/978-3-642-54862-8_43'
+- doi: 10.1007/978-3-319-63387-9_8
+  unstructured: 'Baier, C., Klein, J., Leuschner, L., Parker, D., Wunderlich, S.:
+    Ensuring the reliability of your model checker: Interval iteration for Markov
+    decision processes. In: CAV (1). LNCS, vol. 10426, pp. 160–180. Springer (2017).
+    https://doi.org/10.1007/978-3-319-63387-9_8'
+- doi: 10.4230/LIPIcs.ICALP.2019.102
+  unstructured: 'Balaji, N., Kiefer, S., Novotný, P., Pérez, G.A., Shirmohammadi,
+    M.: On the complexity of value iteration. In: ICALP. LIPIcs, vol. 132, pp. 102:1–102:15.
+    Schloss Dagstuhl - Leibniz-Zentrum für Informatik (2019). https://doi.org/10.4230/LIPIcs.ICALP.2019.102'
+- unstructured: 'Berkelaar, M., Eikland, K., Notebaert, P.: Introduction to lp_solve
+    5.5.2.11, https://lpsolve.sourceforge.net/5.5/, accessed 2023-01-25.'
+- doi: 10.1287/moor.16.3.580
+  unstructured: 'Bertsekas, D.P., Tsitsiklis, J.N.: An analysis of stochastic shortest
+    path problems. Math. Oper. Res. 16(3), 580–595 (1991). https://doi.org/10.1287/moor.16.3.580'
+- unstructured: 'Boyd, S.P., Vandenberghe, L.: Convex Optimization. Cambridge University
+    Press (2014)'
+- doi: 10.1007/978-3-319-11936-6_8
+  unstructured: 'Brázdil, T., Chatterjee, K., Chmelik, M., Forejt, V., Kretínský,
+    J., Kwiatkowska, M.Z., Parker, D., Ujma, M.: Verification of Markov decision processes
+    using learning algorithms. In: ATVA. LNCS, vol. 8837, pp. 98–114. Springer (2014).
+    https://doi.org/10.1007/978-3-319-11936-6_8'
+- doi: 10.1007/978-3-030-83723-5_15
+  unstructured: 'Budde, C.E., Hartmanns, A., Klauck, M., Kretínský, J., Parker, D.,
+    Quatmann, T., Turrini, A., Zhang, Z.: On correctness, precision, and performance
+    in quantitative verification – QComp 2020 competition report. In: ISoLA (4). LNCS,
+    vol. 12479, pp. 216–241. Springer (2020). https://doi.org/10.1007/978-3-030-83723-5_15'
+- doi: 10.1007/978-3-540-69850-0_7
+  unstructured: 'Chatterjee, K., Henzinger, T.A.: Value iteration. In: 25 Years of
+    Model Checking. LNCS, vol. 5000, pp. 107–138. Springer (2008). https://doi.org/10.1007/978-3-540-69850-0_7'
+- doi: 10.1109/TAC.2021.3133265
+  unstructured: 'Cubuktepe, M., Jansen, N., Junges, S., Katoen, J.P., Topcu, U.: Convex
+    optimization for parameter synthesis in MDPs. IEEE Trans. Autom. Control. (2022).
+    https://doi.org/10.1109/TAC.2021.3133265'
+- unstructured: 'Dai, P., Mausam, Weld, D.S., Goldsmith, J.: Topological value iteration
+    algorithms. J. Artif. Intell. Res. 42, 181–209 (2011), https://www.jair.org/index.php/jair/article/view/10725'
+- doi: 10.1007/11817963_11
+  unstructured: 'Dutertre, B., de Moura, L.M.: A fast linear-arithmetic solver for
+    DPLL(T). In: CAV. LNCS, vol. 4144, pp. 81–94. Springer (2006)'
+- doi: 10.1016/j.ic.2022.104886
+  unstructured: 'Eisentraut, J., Kelmendi, E., Kretínský, J., Weininger, M.: Value
+    iteration for simple stochastic games: Stopping criterion and learning algorithm.
+    Inf. Comput. 285(Part), 104886 (2022). https://doi.org/10.1016/j.ic.2022.104886'
+- doi: 10.1007/978-3-642-14162-1_46
+  unstructured: 'Fearnley, J.: Exponential lower bounds for policy iteration. In:
+    ICALP (2). LNCS, vol. 6199, pp. 551–562. Springer (2010). https://doi.org/10.1007/978-3-642-14162-1_46'
+- doi: 10.1007/978-3-642-33386-6_25
+  unstructured: 'Forejt, V., Kwiatkowska, M.Z., Parker, D.: Pareto curves for probabilistic
+    model checking. In: ATVA. LNCS, vol. 7561, pp. 317–332. Springer (2012). https://doi.org/10.1007/978-3-642-33386-6_25'
+- unstructured: 'Free Software Foundation: The GNU Multiple Precision Arithmetic Library,
+    https://gmplib.org/, accessed 2023-01-25.'
+- doi: 10.1007/978-3-030-45190-5_18
+  unstructured: 'Funke, F., Jantsch, S., Baier, C.: Farkas certificates and minimal
+    witnesses for probabilistic reachability constraints. In: TACAS (1). LNCS, vol.
+    12078, pp. 324–345. Springer (2020)'
+- unstructured: 'Ge, D., Huangfu, Q., Wang, Z., Wu, J., Ye, Y.: Cardinal Optimizer
+    (COPT) user guide (2022), https://guide.coap.online/copt/en-doc'
+- unstructured: 'GetFEM project: Gmm++ Library, https://getfem.org/gmm/, accessed
+    2023-01-25.'
+- doi: 10.1016/j.tcs.2013.08.020
+  unstructured: 'Giro, S.: Optimal schedulers vs optimal bases: An approach for efficient
+    exact solving of Markov decision processes. Theor. Comput. Sci. 538, 70–83 (2014).
+    https://doi.org/10.1016/j.tcs.2013.08.020'
+- doi: 10.1145/2442829.2442858
+  unstructured: 'Gleixner, A.M., Steffy, D.E., Wolter, K.: Improving the accuracy
+    of linear programming solvers with iterative refinement. In: ISSAC. pp. 187–194.
+    ACM (2012)'
+- doi: 10.1287/ijoc.2016.0692
+  unstructured: 'Gleixner, A.M., Steffy, D.E., Wolter, K.: Iterative refinement for
+    linear programming. Tech. Rep. 3, ZIB, Takustr. 7, 14195 Berlin (2016). https://doi.org/10.1287/ijoc.2016.0692'
+- unstructured: 'GNU Project: GLPK (GNU Linear Programming Kit), http://www.gnu.org/software/glpk/glpk.html'
+- unstructured: 'Google: Glop – linear optimization, https://developers.google.com/optimization/lp,
+    accessed 2023-01-25.'
+- unstructured: 'Guennebaud, G., Jacob, B., et al.: Eigen v3 (2010), http://eigen.tuxfamily.org'
+- unstructured: 'Gurobi Optimization, LLC: Gurobi Optimizer Reference Manual (2022),
+    https://www.gurobi.com'
+- doi: 10.1007/978-3-319-11439-2_10
+  unstructured: 'Haddad, S., Monmege, B.: Reachability in MDPs: Refining convergence
+    of value iteration. In: RP. LNCS, vol. 8762, pp. 125–137. Springer (2014)'
+- doi: 10.1016/j.tcs.2016.12.003
+  unstructured: 'Haddad, S., Monmege, B.: Interval iteration algorithm for MDPs and
+    IMDPs. Theor. Comput. Sci. 735, 111–131 (2018). https://doi.org/10.1016/j.tcs.2016.12.003'
+- unstructured: 'Hall, J., Galabova, I., Gottwald, L., Feldmeier, M.: HiGHS – high
+    performance software for linear optimization, https://www.maths.ed.ac.uk/hall/HiGHS/,
+    accessed 2023-01-25.'
+- doi: 10.1007/978-3-030-99527-0_3
+  unstructured: 'Hartmanns, A.: Correct probabilistic model checking with floating-point
+    arithmetic. In: TACAS (2). LNCS, vol. 13244, pp. 41–59. Springer (2022). https://doi.org/10.1007/978-3-030-99527-0_3'
+- doi: 10.1007/978-3-642-54862-8_51
+  unstructured: 'Hartmanns, A., Hermanns, H.: The Modest Toolset: An integrated environment
+    for quantitative modelling and verification. In: TACAS. LNCS, vol. 8413, pp. 593–598.
+    Springer (2014). https://doi.org/10.1007/978-3-642-54862-8_51'
+- doi: 10.5281/zenodo.7509474
+  unstructured: 'Hartmanns, A., Junges, S., Quatmann, T., Weininger, M.: A Practitioner’s
+    Guide to MDP Model Checking Algorithms (Artefact) (2023). https://doi.org/10.5281/zenodo.7509474'
+- doi: 10.48550/ARXIV.2301.10197
+  unstructured: 'Hartmanns, A., Junges, S., Quatmann, T., Weininger, M.: A practitioner’s
+    guide to MDP model checking algorithms (2023). https://doi.org/10.48550/ARXIV.2301.10197'
+- doi: 10.1007/978-3-030-53291-8_26
+  unstructured: 'Hartmanns, A., Kaminski, B.L.: Optimistic value iteration. In: CAV
+    (2). LNCS, vol. 12225, pp. 488–511. Springer (2020). https://doi.org/10.1007/978-3-030-53291-8_26'
+- doi: 10.1007/978-3-030-17462-0_20
+  unstructured: 'Hartmanns, A., Klauck, M., Parker, D., Quatmann, T., Ruijters, E.:
+    The quantitative verification benchmark set. In: TACAS. LNCS, vol. 11427, pp.
+    344–350. Springer (2019). https://doi.org/10.1007/978-3-030-17462-0_20'
+- doi: 10.1007/s10009-021-00633-z
+  unstructured: 'Hensel, C., Junges, S., Katoen, J.P., Quatmann, T., Volk, M.: The
+    probabilistic model checker Storm. Int. J. Softw. Tools Technol. Transf. 24(4),
+    589–610 (2022). https://doi.org/10.1007/s10009-021-00633-z'
+- doi: 10.1007/s12532-017-0130-5
+  unstructured: 'Huangfu, Q., Hall, J.A.J.: Parallelizing the dual revised simplex
+    method. Math. Program. Comput. 10(1), 119–142 (2018). https://doi.org/10.1007/s12532-017-0130-5'
+- unstructured: 'IBM: IBM ILOG CPLEX Optimizer, https://www.ibm.com/analytics/cplex-optimizer,
+    accessed 2023-01-25.'
+- doi: 10.1007/978-3-030-81688-9_26
+  unstructured: 'Junges, S., Torfah, H., Seshia, S.A.: Runtime monitors for Markov
+    decision processes. In: CAV (2). LNCS, vol. 12760, pp. 553–576. Springer (2021)'
+- doi: 10.1016/j.ic.2022.104885
+  unstructured: 'Kretinsky, J., Ramneantu, E., Slivinskiy, A., Weininger, M.: Comparison
+    of algorithms for simple stochastic games. Inf. Comput. (2022). https://doi.org/10.1016/j.ic.2022.104885'
+- doi: 10.1609/icaps.v25i1.13730
+  unstructured: 'Kumar, A., Zilberstein, S.: History-based controller design and optimization
+    for partially observable MDPs. In: ICAPS. vol. 25, pp. 156–164 (2015)'
+- doi: 10.1007/s10703-006-0005-2
+  unstructured: 'Kwiatkowska, M.Z., Norman, G., Parker, D., Sproston, J.: Performance
+    analysis of probabilistic timed automata using digital clocks. Formal Methods
+    Syst. Des. 29(1), 33–78 (2006). https://doi.org/10.1007/s10703-006-0005-2'
+- unstructured: 'Littman, M.L., Dean, T.L., Kaelbling, L.P.: On the complexity of
+    solving Markov decision problems. In: UAI. pp. 394–402. Morgan Kaufmann (1995)'
+- doi: 10.1007/s10703-020-00348-y
+  unstructured: 'Mathur, U., Bauer, M.S., Chadha, R., Sistla, A.P., Viswanathan, M.:
+    Exact quantitative probabilistic model checking through rational search. Formal
+    Methods Syst. Des. 56(1), 90–126 (2020)'
+- doi: 10.1145/1102351.1102423
+  unstructured: 'McMahan, H.B., Likhachev, M., Gordon, G.J.: Bounded real-time dynamic
+    programming: RTDP with monotone upper bounds and performance guarantees. In: ICML.
+    ACM International Conference Proceeding Series, vol. 119, pp. 569–576. ACM (2005).
+    https://doi.org/10.1145/1102351.1102423'
+- unstructured: 'MOSEK ApS: The MOSEK Optimization Suite 10.0.34, https://docs.mosek.com/latest/intro/index.html,
+    accessed 2023-01-25.'
+- doi: 10.1007/978-3-540-78800-3_24
+  unstructured: 'de Moura, L.M., Bjørner, N.S.: Z3: an efficient SMT solver. In: TACAS.
+    LNCS, vol. 4963, pp. 337–340. Springer (2008). https://doi.org/10.1007/978-3-540-78800-3_24'
+- doi: 10.1007/978-3-030-53291-8_19
+  unstructured: 'Phalakarn, K., Takisaka, T., Haas, T., Hasuo, I.: Widest paths and
+    global propagation in bounded value iteration for stochastic games. In: CAV (2).
+    LNCS, vol. 12225, pp. 349–371. Springer (2020), https://doi.org/10.1007/978-3-030-53291-8_19'
+- doi: 10.1002/9780470316887
+  unstructured: 'Puterman, M.L.: Markov Decision Processes: Discrete Stochastic Dynamic
+    Programming. Wiley Series in Probability and Statistics, Wiley (1994). https://doi.org/10.1002/9780470316887'
+- doi: 10.1007/978-3-319-96145-3_37
+  unstructured: 'Quatmann, T., Katoen, J.P.: Sound value iteration. In: CAV (1). LNCS,
+    vol. 10981, pp. 643–661. Springer (2018). https://doi.org/10.1007/978-3-319-96145-3_37'
+- doi: 10.1137/0907058
+  unstructured: 'Saad, Y., Schultz, M.H.: Gmres: a generalized minimal residual algorithm
+    for solving nonsymmetric linear systems. Siam Journal on Scientific and Statistical
+    Computing 7, 856–869 (1986), https://epubs.siam.org/doi/10.1137/0907058'
+- doi: 10.2168/LMCS-11(1:15)2015
+  unstructured: 'Wimmer, R., Jansen, N., Vorpahl, A., Ábrahám, E., Katoen, J.P., Becker,
+    B.: High-level counterexamples for probabilistic automata. Log. Methods Comput.
+    Sci. 11(1) (2015)'
+- doi: 10.1109/DDECS.2008.4538787
+  unstructured: 'Wimmer, R., Kortus, A., Herbstritt, M., Becker, B.: Probabilistic
+    model checking and reliability of results. In: DDECS. pp. 207–212. IEEE Computer
+    Society (2008). https://doi.org/10.1109/DDECS.2008.4538787'
+- doi: 10.1287/moor.1110.0516
+  unstructured: 'Ye, Y.: The simplex and policy-iteration methods are strongly polynomial
+    for the Markov decision problem with a fixed discount rate. Mathematics of Operations
+    Research 36(4), 593–603 (2011)'
+doi: 10.1007/978-3-031-30823-9_24
+files:
+- hartmanns-arnd-and-junges-sebastian-and-quatmann-tim-and-weininger-maximiliana-practitioners-guide-to-mdp-model-checking-algorithms2023.pdf
+isbn:
+- '9783031308222'
+- '9783031308239'
+journal: Tools and Algorithms for the Construction and Analysis of Systems
+month: 4
+pages: 469--488
+publisher: Springer Nature Switzerland
+ref: APractitionerHartma2023
+time-added: 2023-12-02-20:49:16
+title: A Practitioner’s Guide to MDP Model Checking Algorithms
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-031-30823-9_24
+year: 2023

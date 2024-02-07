@@ -1,0 +1,43 @@
+abstract: Many scientific fields study data with an underlying structure that is a
+  non-Euclidean space. Some examples include social networks in computational social
+  sciences, sensor networks in communications, functional networks in brain imaging,
+  regulatory networks in genetics, and meshed surfaces in computer graphics. In many
+  applications, such geometric data are large and complex (in the case of social networks,
+  on the scale of billions), and are natural targets for machine learning techniques.
+  In particular, we would like to use deep neural networks, which have recently proven
+  to be powerful tools for a broad range of problems from computer vision, natural
+  language processing, and audio analysis. However, these tools have been most successful
+  on data with an underlying Euclidean or grid-like structure, and in cases where
+  the invariances of these structures are built into networks used to model them.
+  Geometric deep learning is an umbrella term for emerging techniques attempting to
+  generalize (structured) deep neural models to non-Euclidean domains such as graphs
+  and manifolds. The purpose of this paper is to overview different examples of geometric
+  deep learning problems and present available solutions, key difficulties, applications,
+  and future research directions in this nascent field.
+archiveprefix: arXiv
+author: Bronstein, Michael M. and Bruna, Joan and LeCun, Yann and Szlam, Arthur and
+  Vandergheynst, Pierre
+author_list:
+- family: Bronstein
+  given: Michael M.
+- family: Bruna
+  given: Joan
+- family: LeCun
+  given: Yann
+- family: Szlam
+  given: Arthur
+- family: Vandergheynst
+  given: Pierre
+doi: 10.1109/MSP.2017.2693418
+eprint: 1611.08097v2
+file: 1611.08097v2.pdf
+files:
+- bronstein-michael-m.-and-bruna-joan-and-lecun-yann-and-szlam-arthur-and-vandergheynst-pierregeometric-deep-learning-going-beyond-euclidean-data2.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 1611.08097v2
+time-added: 2023-11-28-09:56:11
+title: 'Geometric deep learning: going beyond Euclidean data'
+type: article
+url: http://arxiv.org/abs/1611.08097v2
+year: '2016'

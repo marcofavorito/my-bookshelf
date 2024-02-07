@@ -1,0 +1,37 @@
+abstract: A deeper comprehension of financial markets necessitates understanding not
+  only the statistical dependencies among various entities but also the causal dependencies.
+  This paper extends the Constraint-based Causal Discovery from Heterogeneous Data
+  algorithm to account for lagged relationships in time-series data (an algorithm
+  we call CD-NOTS), shedding light on the complex causal relations between different
+  financial assets and variables. We compare the performance of different algorithmic
+  choices, such as the choice of conditional independence test, to give general advice
+  on the effective way to use CD-NOTS. Using the results from the simulated data,
+  we apply CD-NOTS to a broad range of indices and factors in order to identify causal
+  connections among the entities, thereby showing how causal discovery can serve as
+  a valuable tool for factor-based investing, portfolio diversification, and comprehension
+  of market dynamics. Further, we show our algorithm is a more effective alternative
+  to other causal discovery algorithms since the assumptions of our algorithm are
+  more realistic in terms of financial data, a conclusion we find is statistically
+  significant.
+archiveprefix: arXiv
+author: Sadeghi, Agathe and Gopal, Achintya and Fesanghary, Mohammad
+author_list:
+- family: Sadeghi
+  given: Agathe
+- family: Gopal
+  given: Achintya
+- family: Fesanghary
+  given: Mohammad
+eprint: 2312.17375v2
+file: 2312.17375v2.pdf
+files:
+- sadeghi-agathe-and-gopal-achintya-and-fesanghary-mohammadcausal-discovery-in-financial-markets-a-framework-for-nonstationary-time-series-data202.pdf
+month: Dec
+primaryclass: q-fin.ST
+ref: 2312.17375v2
+time-added: 2024-01-13-23:54:47
+title: 'Causal Discovery in Financial Markets: A Framework for Nonstationary   Time-Series
+  Data'
+type: article
+url: http://arxiv.org/abs/2312.17375v2
+year: '2023'

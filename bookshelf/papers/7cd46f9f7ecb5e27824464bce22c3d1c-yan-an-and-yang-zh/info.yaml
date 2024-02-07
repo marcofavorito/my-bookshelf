@@ -1,0 +1,55 @@
+abstract: We present MM-Navigator, a GPT-4V-based agent for the smartphone graphical
+  user interface (GUI) navigation task. MM-Navigator can interact with a smartphone
+  screen as human users, and determine subsequent actions to fulfill given instructions.
+  Our findings demonstrate that large multimodal models (LMMs), specifically GPT-4V,
+  excel in zero-shot GUI navigation through its advanced screen interpretation, action
+  reasoning, and precise action localization capabilities. We first benchmark MM-Navigator
+  on our collected iOS screen dataset. According to human assessments, the system
+  exhibited a 91\% accuracy rate in generating reasonable action descriptions and
+  a 75\% accuracy rate in executing the correct actions for single-step instructions
+  on iOS. Additionally, we evaluate the model on a subset of an Android screen navigation
+  dataset, where the model outperforms previous GUI navigators in a zero-shot fashion.
+  Our benchmark and detailed analyses aim to lay a robust groundwork for future research
+  into the GUI navigation task. The project page is at https://github.com/zzxslp/MM-Navigator.
+archiveprefix: arXiv
+author: Yan, An and Yang, Zhengyuan and Zhu, Wanrong and Lin, Kevin and Li, Linjie
+  and Wang, Jianfeng and Yang, Jianwei and Zhong, Yiwu and McAuley, Julian and Gao,
+  Jianfeng and Liu, Zicheng and Wang, Lijuan
+author_list:
+- family: Yan
+  given: An
+- family: Yang
+  given: Zhengyuan
+- family: Zhu
+  given: Wanrong
+- family: Lin
+  given: Kevin
+- family: Li
+  given: Linjie
+- family: Wang
+  given: Jianfeng
+- family: Yang
+  given: Jianwei
+- family: Zhong
+  given: Yiwu
+- family: McAuley
+  given: Julian
+- family: Gao
+  given: Jianfeng
+- family: Liu
+  given: Zicheng
+- family: Wang
+  given: Lijuan
+eprint: 2311.07562v1
+file: 2311.07562v1.pdf
+files:
+- yan-an-and-yang-zhengyuan-and-zhu-wanrong-and-lin-kevin-and-li-linjie-and-wang-jianfeng-and-yang-jianwei-and-zhong-yiwu-and-mcauley-julian-an.pdf
+month: Nov
+primaryclass: cs.CV
+ref: 2311.07562v1
+time-added: 2023-11-18-18:31:02
+title: 'GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone   GUI
+  Navigation'
+type: article
+url: http://arxiv.org/abs/2311.07562v1
+year: '2023'

@@ -1,0 +1,38 @@
+abstract: Recent years have seen a surge in the popularity of commercial AI products
+  based on generative, multi-purpose AI systems promising a unified approach to building
+  machine learning (ML) models into technology. However, this ambition of "generality"
+  comes at a steep cost to the environment, given the amount of energy these systems
+  require and the amount of carbon that they emit. In this work, we propose the first
+  systematic comparison of the ongoing inference cost of various categories of ML
+  systems, covering both task-specific (i.e. finetuned models that carry out a single
+  task) and `general-purpose' models, (i.e. those trained for multiple tasks). We
+  measure deployment cost as the amount of energy and carbon required to perform 1,000
+  inferences on representative benchmark dataset using these models. We find that
+  multi-purpose, generative architectures are orders of magnitude more expensive than
+  task-specific systems for a variety of tasks, even when controlling for the number
+  of model parameters. We conclude with a discussion around the current trend of deploying
+  multi-purpose generative ML systems, and caution that their utility should be more
+  intentionally weighed against increased costs in terms of energy and emissions.
+  All the data from our study can be accessed via an interactive demo to carry out
+  further exploration and analysis.
+archiveprefix: arXiv
+author: Luccioni, Alexandra Sasha and Jernite, Yacine and Strubell, Emma
+author_list:
+- family: Luccioni
+  given: Alexandra Sasha
+- family: Jernite
+  given: Yacine
+- family: Strubell
+  given: Emma
+eprint: 2311.16863v1
+file: 2311.16863v1.pdf
+files:
+- luccioni-alexandra-sasha-and-jernite-yacine-and-strubell-emmapower-hungry-processing-watts-driving-the-cost-of-ai-deployment-2023.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2311.16863v1
+time-added: 2023-12-02-21:20:58
+title: 'Power Hungry Processing: Watts Driving the Cost of AI Deployment?'
+type: article
+url: http://arxiv.org/abs/2311.16863v1
+year: '2023'

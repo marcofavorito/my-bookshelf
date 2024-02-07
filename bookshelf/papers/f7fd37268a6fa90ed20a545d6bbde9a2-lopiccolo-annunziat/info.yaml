@@ -1,0 +1,283 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>DNA-based memory systems are being
+  reported with increasing frequency. However, dynamic DNA data structures able to
+  store and recall information in an ordered way, and able to be interfaced with external
+  nucleic acid computing circuits, have so far received little attention. Here we
+  present an in vitro implementation of a stack data structure using DNA polymers.
+  The stack is able to record combinations of two different DNA signals, release the
+  signals into solution in reverse order, and then re-record. We explore the accuracy
+  limits of the stack data structure through a stochastic rule-based model of the
+  underlying polymerisation chemistry. We derive how the performance of the stack
+  increases with the efficiency of washing steps between successive reaction stages,
+  and report how stack performance depends on the history of stack operations under
+  inefficient washing. Finally, we discuss refinements to improve molecular synchronisation
+  and future open problems in implementing an autonomous chemical data structure.</jats:p>
+author: Lopiccolo, Annunziata and Shirt-Ediss, Ben and Torelli, Emanuela and Olulana,
+  Abimbola Feyisara Adedeji and Castronovo, Matteo and Fellermann, Harold and Krasnogor,
+  Natalio
+author_list:
+- affiliation: []
+  family: Lopiccolo
+  given: Annunziata
+- affiliation: []
+  family: Shirt-Ediss
+  given: Ben
+- affiliation: []
+  family: Torelli
+  given: Emanuela
+- affiliation: []
+  family: Olulana
+  given: Abimbola Feyisara Adedeji
+- affiliation: []
+  family: Castronovo
+  given: Matteo
+- affiliation: []
+  family: Fellermann
+  given: Harold
+- affiliation: []
+  family: Krasnogor
+  given: Natalio
+citations:
+- author: MC Inniss
+  doi: 10.1016/j.cub.2013.06.047
+  first-page: R812
+  journal-title: Curr. Biol.
+  unstructured: Inniss, M. C. & Silver, P. A. Building synthetic memory. Curr. Biol.
+    23, R812–R816 (2013).
+  volume: '23'
+  year: '2013'
+- author: TS Gardner
+  doi: 10.1038/35002131
+  first-page: '339'
+  journal-title: Nature
+  unstructured: Gardner, T. S., Cantor, C. R. & Collins, J. J. Construction of a genetic
+    toggle switch in Escherichia coli. Nature 403, 339–342 (2000).
+  volume: '403'
+  year: '2000'
+- author: RU Sheth
+  doi: 10.1038/s41576-018-0052-8
+  first-page: '718'
+  journal-title: Nat. Rev. Genet.
+  unstructured: Sheth, R. U. & Wang, H. H. DNA-based memory devices for recording
+    cellular events. Nat. Rev. Genet. 19, 718–732 (2018).
+  volume: '19'
+  year: '2018'
+- author: P Siuti
+  doi: 10.1038/nbt.2510
+  first-page: '448'
+  journal-title: Nat. Biotechnol.
+  unstructured: Siuti, P., Yazbek, J. & Lu, T. K. Synthetic circuits integrating logic
+    and memory in living cells. Nat. Biotechnol. 31, 448–452 (2013).
+  volume: '31'
+  year: '2013'
+- author: N Roquet
+  doi: 10.1126/science.aad8559
+  first-page: aad8559
+  journal-title: Science
+  unstructured: Roquet, N., Soleimany, A. P., Ferris, A. C., Aaronson, S. & Lu, T.
+    K. Synthetic recombinase-based state machines in living cells. Science 353, aad8559–aad8559
+    (2016).
+  volume: '353'
+  year: '2016'
+- author: F Farzadfard
+  doi: 10.1016/j.molcel.2019.07.011
+  first-page: 769–780
+  journal-title: Mol. Cell
+  unstructured: Farzadfard, F. et al. Single-nucleotide-resolution computing and memory
+    in living cells. Mol. Cell 75, 769–780 (2019).
+  volume: '75'
+  year: '2019'
+- author: A Padirac
+  doi: 10.1073/pnas.1212069109
+  first-page: E3212
+  journal-title: Proc. Natl Acad. Sci.
+  unstructured: Padirac, A., Fujii, T. & Rondelez, Y. Bottom-up construction of in
+    vitro switchable memories. Proc. Natl Acad. Sci. 109, E3212–E3220 (2012).
+  volume: '109'
+  year: '2012'
+- author: M Takinoue
+  doi: 10.1002/smll.200600237
+  first-page: '1244'
+  journal-title: Small
+  unstructured: Takinoue, M. & Suyama, A. Hairpin-DNA memory using molecular addressing.
+    Small 2, 1244–1247 (2006).
+  volume: '2'
+  year: '2006'
+- author: J-S Shin
+  doi: 10.1021/nl049658r
+  first-page: '905'
+  journal-title: Nano Lett.
+  unstructured: Shin, J.-S. & Pierce, N. A. Rewritable memory by controllable nanopatterning
+    of DNA. Nano Lett. 4, 905–909 (2004).
+  volume: '4'
+  year: '2004'
+- author: AR Chandrasekaran
+  doi: 10.1093/nar/gkx777
+  first-page: '11459'
+  journal-title: Nucleic Acids Res.
+  unstructured: Chandrasekaran, A. R., Levchenko, O., Patel, D. S., MacIsaac, M. &
+    Halvorsen, K. Addressable configurations of DNA nanostructures for rewritable
+    memory. Nucleic Acids Res. 45, 11459–11465 (2017).
+  volume: '45'
+  year: '2017'
+- author: Y Song
+  doi: 10.1038/s41467-017-02705-8
+  journal-title: Nat. Commun.
+  unstructured: Song, Y., Kim, S., Heller, M. J. & Huang, X. DNA multibit non-volatile
+    memory and bit-shifting operations using addressable electrode arrays and electric
+    field-induced hybridization. Nat. Commun. 9, 281 (2018).
+  volume: '9'
+  year: '2018'
+- author: L Ceze
+  doi: 10.1038/s41576-019-0125-3
+  first-page: '456'
+  journal-title: Nat. Rev. Genet.
+  unstructured: Ceze, L., Nivala, J. & Strauss, K. Molecular digital data storage
+    using DNA. Nat. Rev. Genet. 20, 456–466 (2019).
+  volume: '20'
+  year: '2019'
+- author: L Organick
+  doi: 10.1038/nbt.4079
+  first-page: '242'
+  journal-title: Nat. Biotechnol.
+  unstructured: Organick, L. et al. Random access in large-scale DNA data storage.
+    Nat. Biotechnol. 36, 242–248 (2018).
+  volume: '36'
+  year: '2018'
+- author: J Chen
+  doi: 10.1007/s11047-004-4002-3
+  first-page: '83'
+  journal-title: Nat. Comput.
+  unstructured: Chen, J., Deaton, R. & Wang, Y.-Z. A DNA-based memory with in vitro
+    learning and associative recall. Nat. Comput. 4, 83–101 (2005).
+  volume: '4'
+  year: '2005'
+- author: L Qian
+  doi: 10.1038/nature10262
+  first-page: '368'
+  journal-title: Nature
+  unstructured: Qian, L., Winfree, E. & Bruck, J. Neural network computation with
+    DNA strand displacement cascades. Nature 475, 368–372 (2011).
+  volume: '475'
+  year: '2011'
+- unstructured: 'Knuth, D. E. The Art of Computer Programming: Volume 1: Fundamental
+    Algorithms (Addison Wesley Longman Publishing Co., Inc., 1997).'
+- doi: 10.1007/978-3-642-18305-8_12
+  unstructured: Qian, L., Soloveichik, D. & Winfree, E. In DNA Computing and Molecular
+    Programming. DNA 2010. Lecture Notes in Computer Science, vol 6518. (Springer,
+    2011) 123–140.
+- author: RM Dirks
+  doi: 10.1073/pnas.0407024101
+  first-page: '15275'
+  journal-title: Proc. Natl Acad. Sci.
+  unstructured: Dirks, R. M. & Pierce, N. A. Triggered amplification by hybridization
+    chain reaction. Proc. Natl Acad. Sci. 101, 15275–15278 (2004).
+  volume: '101'
+  year: '2004'
+- doi: 10.1145/3071178.3071345
+  unstructured: Kozyra, J., Fellermann, H., Shirt-Ediss, B., Lopiccolo, A. & Krasnogor,
+    N. Optimizing nucleic acid sequences for a molecular data recorder. In Proceedings
+    of the Genetic and Evolutionary Computation Conference (GECCO 2017) 1145–1152
+    (Association for Computing Machinery, New York, NY, United States, 2017).
+- doi: 10.1007/978-3-319-41312-9_8
+  unstructured: Fellermann, H., Lopiccolo, A., Kozyra, J. & Krasnogor, N. In Unconventional
+    Computation and Natural Computation 87–98 (Springer, 2016).
+- author: J St. John
+  doi: 10.2144/000112633
+  first-page: '259'
+  journal-title: BioTechniques
+  unstructured: St. John, J. & Quinn, T. W. Rapid capture of DNA targets. BioTechniques
+    44, 259–264 (2008).
+  volume: '44'
+  year: '2008'
+- author: A Pinto
+  doi: 10.1038/s41467-018-04870-w
+  journal-title: Nat. Commun.
+  unstructured: Pinto, A., Chen, S. X. & Zhang, D. Y. Simultaneous and stoichiometric
+    purification of hundreds of oligonucleotides. Nat. Commun. 9, 2467 (2018).
+  volume: '9'
+  year: '2018'
+- author: M Kubota
+  doi: 10.1038/pj.2011.5
+  first-page: '493'
+  journal-title: Polym. J.
+  unstructured: Kubota, M., Yoshimoto, K., Yuan, X. & Nagasaki, Y. Improvement of
+    the thermal stability of streptavidin immobilized on magnetic beads by the construction
+    of a mixed poly(ethylene glycol) tethered-chain layer. Polym. J. 43, 493–496 (2011).
+  volume: '43'
+  year: '2011'
+- author: B Wang
+  doi: 10.1073/pnas.1806859115
+  first-page: E12182
+  journal-title: Proc. Natl Acad. Sci.
+  unstructured: Wang, B., Thachuk, C., Ellington, A. D., Winfree, E. & Soloveichik,
+    D. Effective design principles for leakless strand displacement systems. Proc.
+    Natl Acad. Sci. 115, E12182–E12191 (2018).
+  volume: '115'
+  year: '2018'
+- author: G Chatterjee
+  doi: 10.1038/nnano.2017.127
+  first-page: '920'
+  journal-title: Nat. Nanotechnol.
+  unstructured: Chatterjee, G., Dalchau, N., Muscat, R. A., Phillips, A. & Seelig,
+    G. A spatially localized architecture for fast and modular DNA computing. Nat.
+    Nanotechnol. 12, 920–927 (2017).
+  volume: '12'
+  year: '2017'
+- author: X Olson
+  doi: 10.1021/acssynbio.5b00231
+  first-page: '84'
+  journal-title: ACS Synth. Biol.
+  unstructured: 'Olson, X. et al. Availability: a metric for nucleic acid strand displacement
+    systems. ACS Synth. Biol. 6, 84–93 (2017).'
+  volume: '6'
+  year: '2017'
+- author: H Abelson
+  doi: 10.1145/332833.332842
+  first-page: '74'
+  journal-title: Commun. ACM
+  unstructured: Abelson, H. et al. Amorphous computing. Commun. ACM 43, 74–82 (2000).
+  volume: '43'
+  year: '2000'
+- unstructured: Abelson, H., Beal, J. & Sussman, G. J. Amorphous Computing. Technical
+    Report, Computer Science and Artificial Intelligence Laboratory Technical Report
+    MIT-CSAIL-TR-2007-030 (2007).
+- author: D Angluin
+  doi: 10.1007/s00446-008-0059-z
+  first-page: '87'
+  journal-title: Distrib. Comput.
+  unstructured: Angluin, D., Aspnes, J. & Eisenstat, D. A simple population protocol
+    for fast robust approximate majority. Distrib. Comput. 21, 87–102 (2008).
+  volume: '21'
+  year: '2008'
+- author: Y-J Chen
+  doi: 10.1038/nnano.2013.189
+  first-page: '755'
+  journal-title: Nat. Nanotechnol.
+  unstructured: Chen, Y.-J. et al. Programmable chemical controllers made from DNA.
+    Nat. Nanotechnol. 8, 755–762 (2013).
+  volume: '8'
+  year: '2013'
+- author: DT Gillespie
+  doi: 10.1016/0021-9991(76)90041-3
+  first-page: '403'
+  journal-title: J. Comput. Phys.
+  unstructured: Gillespie, D. T. A general method for numerically simulating the stochastic
+    time evolution of coupled chemical reactions. J. Comput. Phys. 22, 403–434 (1976).
+  volume: '22'
+  year: '1976'
+doc_url: https://www.nature.com/articles/s41467-021-25023-6
+doi: 10.1038/s41467-021-25023-6
+files:
+- lopiccolo-annunziata-and-shirt-ediss-ben-and-torelli-emanuela-and-olulana-abimbola-feyisara-adedeji-and-castronovo-matteo-and-fellermann-harold.pdf
+issue: '1'
+journal: Nature Communications
+language: en
+month: 8
+publisher: Springer Science and Business Media LLC
+ref: ALastInFirstLopicc2021
+time-added: 2023-11-18-18:29:58
+title: A last-in first-out stack data structure implemented in DNA
+type: article
+url: http://dx.doi.org/10.1038/s41467-021-25023-6
+volume: '12'
+year: 2021

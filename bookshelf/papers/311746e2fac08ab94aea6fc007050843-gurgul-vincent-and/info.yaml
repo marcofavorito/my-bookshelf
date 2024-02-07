@@ -1,0 +1,41 @@
+abstract: This paper explores the application of Machine Learning (ML) and Natural
+  Language Processing (NLP) techniques in cryptocurrency price forecasting, specifically
+  Bitcoin (BTC) and Ethereum (ETH). Focusing on news and social media data, primarily
+  from Twitter and Reddit, we analyse the influence of public sentiment on cryptocurrency
+  valuations using advanced deep learning NLP methods. Alongside conventional price
+  regression, we treat cryptocurrency price forecasting as a classification problem.
+  This includes both the prediction of price movements (up or down) and the identification
+  of local extrema. We compare the performance of various ML models, both with and
+  without NLP data integration. Our findings reveal that incorporating NLP data significantly
+  enhances the forecasting performance of our models. We discover that pre-trained
+  models, such as Twitter-RoBERTa and BART MNLI, are highly effective in capturing
+  market sentiment, and that fine-tuning Large Language Models (LLMs) also yields
+  substantial forecasting improvements. Notably, the BART MNLI zero-shot classification
+  model shows considerable proficiency in extracting bullish and bearish signals from
+  textual data. All of our models consistently generate profit across different validation
+  scenarios, with no observed decline in profits or reduction in the impact of NLP
+  data over time. The study highlights the potential of text analysis in improving
+  financial forecasts and demonstrates the effectiveness of various NLP techniques
+  in capturing nuanced market sentiment.
+archiveprefix: arXiv
+author: Gurgul, Vincent and Lessmann, Stefan and Härdle, Wolfgang Karl
+author_list:
+- family: Gurgul
+  given: Vincent
+- family: Lessmann
+  given: Stefan
+- family: Härdle
+  given: Wolfgang Karl
+eprint: 2311.14759v1
+file: 2311.14759v1.pdf
+files:
+- gurgul-vincent-and-lessmann-stefan-and-hardle-wolfgang-karlforecasting-cryptocurrency-prices-using-deep-learning-integrating-financial-blockcha.pdf
+month: Nov
+primaryclass: q-fin.ST
+ref: 2311.14759v1
+time-added: 2023-11-28-10:20:12
+title: 'Forecasting Cryptocurrency Prices Using Deep Learning: Integrating   Financial,
+  Blockchain, and Text Data'
+type: article
+url: http://arxiv.org/abs/2311.14759v1
+year: '2023'

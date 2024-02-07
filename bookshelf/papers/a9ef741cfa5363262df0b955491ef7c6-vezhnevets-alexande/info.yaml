@@ -1,0 +1,61 @@
+abstract: 'Agent-based modeling has been around for decades, and applied widely across
+  the social and natural sciences. The scope of this research method is now poised
+  to grow dramatically as it absorbs the new affordances provided by Large Language
+  Models (LLM)s. Generative Agent-Based Models (GABM) are not just classic Agent-Based
+  Models (ABM)s where the agents talk to one another. Rather, GABMs are constructed
+  using an LLM to apply common sense to situations, act "reasonably", recall common
+  semantic knowledge, produce API calls to control digital technologies like apps,
+  and communicate both within the simulation and to researchers viewing it from the
+  outside. Here we present Concordia, a library to facilitate constructing and working
+  with GABMs. Concordia makes it easy to construct language-mediated simulations of
+  physically- or digitally-grounded environments. Concordia agents produce their behavior
+  using a flexible component system which mediates between two fundamental operations:
+  LLM calls and associative memory retrieval. A special agent called the Game Master
+  (GM), which was inspired by tabletop role-playing games, is responsible for simulating
+  the environment where the agents interact. Agents take actions by describing what
+  they want to do in natural language. The GM then translates their actions into appropriate
+  implementations. In a simulated physical world, the GM checks the physical plausibility
+  of agent actions and describes their effects. In digital environments simulating
+  technologies such as apps and services, the GM may handle API calls to integrate
+  with external tools such as general AI assistants (e.g., Bard, ChatGPT), and digital
+  apps (e.g., Calendar, Email, Search, etc.). Concordia was designed to support a
+  wide array of applications both in scientific research and for evaluating performance
+  of real digital services by simulating users and/or generating synthetic data.'
+archiveprefix: arXiv
+author: Vezhnevets, Alexander Sasha and Agapiou, John P. and Aharon, Avia and Ziv,
+  Ron and Matyas, Jayd and Duéñez-Guzmán, Edgar A. and Cunningham, William A. and
+  Osindero, Simon and Karmon, Danny and Leibo, Joel Z.
+author_list:
+- family: Vezhnevets
+  given: Alexander Sasha
+- family: Agapiou
+  given: John P.
+- family: Aharon
+  given: Avia
+- family: Ziv
+  given: Ron
+- family: Matyas
+  given: Jayd
+- family: Duéñez-Guzmán
+  given: Edgar A.
+- family: Cunningham
+  given: William A.
+- family: Osindero
+  given: Simon
+- family: Karmon
+  given: Danny
+- family: Leibo
+  given: Joel Z.
+eprint: 2312.03664v1
+file: 2312.03664v1.pdf
+files:
+- vezhnevets-alexander-sasha-and-agapiou-john-p.-and-aharon-avia-and-ziv-ron-and-matyas-jayd-and-duenez-guzman-edgar-a.-and-cunningham-william-a..pdf
+month: Dec
+primaryclass: cs.AI
+ref: 2312.03664v1
+time-added: 2023-12-09-22:16:35
+title: Generative agent-based modeling with actions grounded in physical,   social,
+  or digital space using Concordia
+type: article
+url: http://arxiv.org/abs/2312.03664v1
+year: '2023'

@@ -1,0 +1,39 @@
+abstract: The growing number of applications of Reinforcement Learning (RL) in real-world
+  domains has led to the development of privacy-preserving techniques due to the inherently
+  sensitive nature of data. Most existing works focus on differential privacy, in
+  which information is revealed in the clear to an agent whose learned model should
+  be robust against information leakage to malicious third parties. Motivated by use
+  cases in which only encrypted data might be shared, such as information from sensitive
+  sites, in this work we consider scenarios in which the inputs themselves are sensitive
+  and cannot be revealed. We develop a simple extension to the MDP framework which
+  provides for the encryption of states. We present a preliminary, experimental study
+  of how a DQN agent trained on encrypted states performs in environments with discrete
+  and continuous state spaces. Our results highlight that the agent is still capable
+  of learning in small state spaces even in presence of non-deterministic encryption,
+  but performance collapses in more complex environments.
+archiveprefix: arXiv
+author: Jesu, Alberto and Darvariu, Victor-Alexandru and Staffolani, Alessandro and
+  Montanari, Rebecca and Musolesi, Mirco
+author_list:
+- family: Jesu
+  given: Alberto
+- family: Darvariu
+  given: Victor-Alexandru
+- family: Staffolani
+  given: Alessandro
+- family: Montanari
+  given: Rebecca
+- family: Musolesi
+  given: Mirco
+eprint: 2109.08236v1
+file: 2109.08236v1.pdf
+files:
+- jesu-alberto-and-darvariu-victor-alexandru-and-staffolani-alessandro-and-montanari-rebecca-and-musolesi-mircoreinforcement-learning-on-encrypted.pdf
+month: Sep
+primaryclass: cs.LG
+ref: 2109.08236v1
+time-added: 2023-11-27-13:37:22
+title: Reinforcement Learning on Encrypted Data
+type: article
+url: http://arxiv.org/abs/2109.08236v1
+year: '2021'

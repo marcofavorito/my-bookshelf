@@ -1,0 +1,44 @@
+abstract: While deep reinforcement learning (RL) has fueled multiple high-profile
+  successes in machine learning, it is held back from more widespread adoption by
+  its often poor data efficiency and the limited generality of the policies it produces.
+  A promising approach for alleviating these limitations is to cast the development
+  of better RL algorithms as a machine learning problem itself in a process called
+  meta-RL. Meta-RL is most commonly studied in a problem setting where, given a distribution
+  of tasks, the goal is to learn a policy that is capable of adapting to any new task
+  from the task distribution with as little data as possible. In this survey, we describe
+  the meta-RL problem setting in detail as well as its major variations. We discuss
+  how, at a high level, meta-RL research can be clustered based on the presence of
+  a task distribution and the learning budget available for each individual task.
+  Using these clusters, we then survey meta-RL algorithms and applications. We conclude
+  by presenting the open problems on the path to making meta-RL part of the standard
+  toolbox for a deep RL practitioner.
+archiveprefix: arXiv
+author: Beck, Jacob and Vuorio, Risto and Liu, Evan Zheran and Xiong, Zheng and Zintgraf,
+  Luisa and Finn, Chelsea and Whiteson, Shimon
+author_list:
+- family: Beck
+  given: Jacob
+- family: Vuorio
+  given: Risto
+- family: Liu
+  given: Evan Zheran
+- family: Xiong
+  given: Zheng
+- family: Zintgraf
+  given: Luisa
+- family: Finn
+  given: Chelsea
+- family: Whiteson
+  given: Shimon
+eprint: 2301.08028v1
+file: 2301.08028v1.pdf
+files:
+- beck-jacob-and-vuorio-risto-and-liu-evan-zheran-and-xiong-zheng-and-zintgraf-luisa-and-finn-chelsea-and-whiteson-shimona-survey-of-meta-reinfor.pdf
+month: Jan
+primaryclass: cs.LG
+ref: 2301.08028v1
+time-added: 2023-12-18-09:34:52
+title: A Survey of Meta-Reinforcement Learning
+type: article
+url: http://arxiv.org/abs/2301.08028v1
+year: '2023'

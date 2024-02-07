@@ -1,0 +1,47 @@
+abstract: 'The prevalent deployment of learning from human preferences through reinforcement
+  learning (RLHF) relies on two important approximations: the first assumes that pairwise
+  preferences can be substituted with pointwise rewards. The second assumes that a
+  reward model trained on these pointwise rewards can generalize from collected data
+  to out-of-distribution data sampled by the policy. Recently, Direct Preference Optimisation
+  (DPO) has been proposed as an approach that bypasses the second approximation and
+  learn directly a policy from collected data without the reward modelling stage.
+  However, this method still heavily relies on the first approximation.   In this
+  paper we try to gain a deeper theoretical understanding of these practical algorithms.
+  In particular we derive a new general objective called $\Psi$PO for learning from
+  human preferences that is expressed in terms of pairwise preferences and therefore
+  bypasses both approximations. This new general objective allows us to perform an
+  in-depth analysis of the behavior of RLHF and DPO (as special cases of $\Psi$PO)
+  and to identify their potential pitfalls. We then consider another special case
+  for $\Psi$PO by setting $\Psi$ simply to Identity, for which we can derive an efficient
+  optimisation procedure, prove performance guarantees and demonstrate its empirical
+  superiority to DPO on some illustrative examples.'
+archiveprefix: arXiv
+author: Azar, Mohammad Gheshlaghi and Rowland, Mark and Piot, Bilal and Guo, Daniel
+  and Calandriello, Daniele and Valko, Michal and Munos, Rémi
+author_list:
+- family: Azar
+  given: Mohammad Gheshlaghi
+- family: Rowland
+  given: Mark
+- family: Piot
+  given: Bilal
+- family: Guo
+  given: Daniel
+- family: Calandriello
+  given: Daniele
+- family: Valko
+  given: Michal
+- family: Munos
+  given: Rémi
+eprint: 2310.12036v1
+file: 2310.12036v1.pdf
+files:
+- azar-mohammad-gheshlaghi-and-rowland-mark-and-piot-bilal-and-guo-daniel-and-calandriello-daniele-and-valko-michal-and-munos-remia-general-theor.pdf
+month: Oct
+primaryclass: cs.AI
+ref: 2310.12036v1
+time-added: 2023-11-22-21:23:27
+title: A General Theoretical Paradigm to Understand Learning from Human   Preferences
+type: article
+url: http://arxiv.org/abs/2310.12036v1
+year: '2023'

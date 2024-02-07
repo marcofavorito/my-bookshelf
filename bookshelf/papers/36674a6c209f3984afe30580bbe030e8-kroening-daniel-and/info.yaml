@@ -1,0 +1,37 @@
+abstract: The C Bounded Model Checker (CBMC) demonstrates the violation of assertions
+  in C programs, or proves safety of the assertions under a given bound. CBMC implements
+  a bit-precise translation of an input C program, annotated with assertions and with
+  loops unrolled to a given depth, into a formula. If the formula is satisfiable,
+  then an execution leading to a violated assertion exists. CBMC is one of the most
+  successful software verification tools. Its main advantages are its precision, robustness
+  and simplicity. CBMC is shipped as part of several Linux distributions. It has been
+  used by thousands of software developers to verify real-world software, such as
+  the Linux kernel, and powers commercial software analysis and test generation tools.
+  Table 1 gives an overview of CBMC's features. CBMC is also a versatile tool that
+  can be applied to solve many practical program analysis problems such as bug finding,
+  property checking, test input generation, detection of security vulnerabilities,
+  equivalence checking and program synthesis. This chapter will give an introduction
+  into CBMC, including practical examples and pointers to further reading. Moreover,
+  we give insights about the development of CBMC itself, showing how its performance
+  evolved over the last decade.
+archiveprefix: arXiv
+author: Kroening, Daniel and Schrammel, Peter and Tautschnig, Michael
+author_list:
+- family: Kroening
+  given: Daniel
+- family: Schrammel
+  given: Peter
+- family: Tautschnig
+  given: Michael
+eprint: 2302.02384v1
+file: 2302.02384v1.pdf
+files:
+- kroening-daniel-and-schrammel-peter-and-tautschnig-michaelcbmc-the-c-bounded-model-checker2023.pdf
+month: Feb
+primaryclass: cs.SE
+ref: 2302.02384v1
+time-added: 2024-01-03-23:31:42
+title: 'CBMC: The C Bounded Model Checker'
+type: article
+url: http://arxiv.org/abs/2302.02384v1
+year: '2023'

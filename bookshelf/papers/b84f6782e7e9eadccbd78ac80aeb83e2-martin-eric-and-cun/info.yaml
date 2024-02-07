@@ -1,0 +1,32 @@
+abstract: Recurrent neural networks (RNNs) are widely used to model sequential data
+  but their non-linear dependencies between sequence elements prevent parallelizing
+  training over sequence length. We show the training of RNNs with only linear sequential
+  dependencies can be parallelized over the sequence length using the parallel scan
+  algorithm, leading to rapid training on long sequences even with small minibatch
+  size. We develop a parallel linear recurrence CUDA kernel and show that it can be
+  applied to immediately speed up training and inference of several state of the art
+  RNN architectures by up to 9x. We abstract recent work on linear RNNs into a new
+  framework of linear surrogate RNNs and develop a linear surrogate model for the
+  long short-term memory unit, the GILR-LSTM, that utilizes parallel linear recurrence.
+  We extend sequence learning to new extremely long sequence regimes that were previously
+  out of reach by successfully training a GILR-LSTM on a synthetic sequence classification
+  task with a one million timestep dependency.
+archiveprefix: arXiv
+author: Martin, Eric and Cundy, Chris
+author_list:
+- family: Martin
+  given: Eric
+- family: Cundy
+  given: Chris
+eprint: 1709.04057v2
+file: 1709.04057v2.pdf
+files:
+- martin-eric-and-cundy-chrisparallelizing-linear-recurrent-neural-nets-over-sequence-length2017.pdf
+month: Sep
+primaryclass: cs.NE
+ref: 1709.04057v2
+time-added: 2023-12-18-09:45:22
+title: Parallelizing Linear Recurrent Neural Nets Over Sequence Length
+type: article
+url: http://arxiv.org/abs/1709.04057v2
+year: '2017'
