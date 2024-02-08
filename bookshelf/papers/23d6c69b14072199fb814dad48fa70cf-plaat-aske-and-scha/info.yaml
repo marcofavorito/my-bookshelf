@@ -1,0 +1,331 @@
+author: Plaat, Aske and Schaeffer, Jonathan and Pijls, Wim and de Bruin, Arie
+author_list:
+- affiliation: []
+  family: Plaat
+  given: Aske
+- affiliation: []
+  family: Schaeffer
+  given: Jonathan
+- affiliation: []
+  family: Pijls
+  given: Wim
+- affiliation: []
+  family: de Bruin
+  given: Arie
+citations:
+- article-title: Proof-number search
+  author: Allis
+  doi: 10.1016/0004-3702(94)90004-3
+  first-page: '91'
+  journal-title: Artif. Intell.
+  volume: '66'
+  year: '1994'
+- article-title: 'The B∗ tree search algorithm: a best-first proof procedure'
+  author: Berliner
+  doi: 10.1016/0004-3702(79)90003-1
+  first-page: '23'
+  journal-title: Artif. Intell.
+  volume: '12'
+  year: '1979'
+- article-title: Unified recursive schemes for search in game trees
+  author: Bhattacharya
+  year: '1990'
+- article-title: A faster alternative to SSS∗ with extension to variable memory
+  author: Bhattacharya
+  doi: 10.1016/0020-0190(93)90034-7
+  first-page: '209'
+  journal-title: Inform. Process. Lett.
+  volume: '47'
+  year: '1993'
+- article-title: Improvements to parallel alpha-beta algorithms
+  author: Brockington
+  year: '1994'
+- article-title: 'ProbCut: a powerful selective extension of the αβ algorithm'
+  author: Buro
+  first-page: '71'
+  issue: '2'
+  journal-title: ICCA J.
+  volume: '18'
+  year: '1995'
+- article-title: Algorithms for the parallel search of game trees
+  author: Campbell
+  year: '1981'
+- article-title: A comparison of minimax tree search algorithms
+  author: Campbell
+  doi: 10.1016/0004-3702(83)90001-2
+  first-page: '347'
+  journal-title: Artif. Intell.
+  volume: '20'
+  year: '1983'
+- article-title: A special-purpose machine for an improved search algorithm for deep
+    chess combinations
+  author: Coplan
+  first-page: '25'
+  volume: '3'
+  year: '1982'
+- article-title: Solution trees as a basis for game tree search
+  author: de Bruin
+  doi: 10.3233/ICG-1994-17404
+  year: '1994'
+- article-title: Solution trees as a basis for game-tree search
+  author: de Bruin
+  first-page: '207'
+  issue: '4'
+  journal-title: ICCA J.
+  volume: '17'
+  year: '1994'
+- author: Ebeling
+  year: '1987'
+- article-title: A fully distributed chess program
+  author: Feldmann
+  first-page: '1'
+  volume: '6'
+  year: '1991'
+- article-title: Analysis of speedup in distributed algorithms
+  author: Fishburn
+  year: '1981'
+- article-title: 'Large scale parallelization of alpha-beta search: an algorithmic
+    and architectural study with computer chess'
+  author: Hsu
+  doi: 10.3233/ICG-1990-13206
+  year: '1990'
+- article-title: Generalization of alpha-beta and SSS∗ search procedures
+  author: Ibaraki
+  doi: 10.1016/0004-3702(86)90092-5
+  first-page: '73'
+  journal-title: Artif. Intell.
+  volume: '29'
+  year: '1986'
+- article-title: Minimax search algorithms with and without aspiration windows
+  author: Kaindl
+  doi: 10.1109/34.106996
+  first-page: '1225'
+  journal-title: IEEE Trans. Patt. Anal. Mach. Intell.
+  volume: '13'
+  year: '1991'
+- article-title: An analysis of alpha-beta pruning
+  author: Knuth
+  doi: 10.1016/0004-3702(75)90019-3
+  first-page: '293'
+  journal-title: Artif. Intell.
+  volume: '6'
+  year: '1975'
+- article-title: 'Depth-first iterative-deepening: an optimal admissible tree search'
+  author: Korf
+  doi: 10.1016/0004-3702(85)90084-0
+  first-page: '97'
+  journal-title: Artif. Intell.
+  volume: '27'
+  year: '1985'
+- article-title: 'Best-first minimax search: Othello results'
+  author: Korf
+  first-page: '1365'
+  series-title: Proceedings AAAI-94
+  year: '1994'
+- article-title: Parallel branch-and-bound formulations for AND/OR tree search
+  author: Kumar
+  doi: 10.1109/TPAMI.1984.4767600
+  first-page: '768'
+  journal-title: IEEE Trans. Patt. Anal. Mach. Intell.
+  volume: '6'
+  year: '1984'
+- article-title: A general branch and bound formulation for and/or graph and game
+    tree search
+  author: Kumar
+  doi: 10.1007/978-1-4613-8788-6_3
+  year: '1988'
+- article-title: Parallel search of strongly ordered game trees
+  author: Marsland
+  doi: 10.1145/356893.356895
+  first-page: '533'
+  journal-title: Comput. Surveys
+  volume: '14'
+  year: '1982'
+- article-title: Low overhead alternatives to SSS∗
+  author: Marsland
+  doi: 10.1016/0004-3702(87)90019-1
+  first-page: '185'
+  journal-title: Artif. Intell.
+  volume: '31'
+  year: '1987'
+- article-title: Conspiracy numbers for min-max searching
+  author: McAllester
+  doi: 10.1016/0004-3702(88)90019-7
+  first-page: '287'
+  journal-title: Artif. Intell.
+  volume: '35'
+  year: '1988'
+- article-title: An empirical comparison of pruning strategies in game trees
+  author: Muszycka
+  doi: 10.1109/TSMC.1985.6313374
+  first-page: '389'
+  journal-title: IEEE Trans. Syst. Man Cybern.
+  volume: '15'
+  year: '1985'
+- article-title: 'Best-move-proving: a fast game-tree searching program'
+  author: Nagl
+  first-page: '255'
+  series-title: Heuristic Programming in Artificial Intelligence—The First Computer
+    Olympiad
+  year: '1989'
+- article-title: Asymptotical properties of minimax trees and game searching procedures
+  author: Pearl
+  doi: 10.1016/0004-3702(80)90037-5
+  first-page: '113'
+  journal-title: Artif. Intell.
+  volume: '14'
+  year: '1980'
+- article-title: The solution for the branching factor of the alpha-beta pruning algorithm
+    and its optimality
+  author: Pearl
+  doi: 10.1145/358589.358616
+  first-page: '559'
+  journal-title: Commun. ACM
+  volume: '25'
+  year: '1982'
+- author: Pearl
+  year: '1984'
+- article-title: Another view on the SSS∗ algorithm
+  author: Pijls
+  first-page: '211'
+  series-title: Algorithms. SIGAL '90
+  volume: '450'
+  year: '1990'
+- article-title: Searching informed game trees
+  author: Pijls
+  doi: 10.1007/3-540-56279-6_86
+  year: '1992'
+- article-title: Extended abstract
+  author: Pijls
+  first-page: '246'
+  series-title: Proceedings CSN 92
+  year: '1992'
+- first-page: '332'
+  series-title: Algorithms and Computation, ISAAC 92
+  volume: '650'
+  year: '1992'
+- article-title: SSS∗-like algorithms in constrained memory
+  author: Pijls
+  first-page: '18'
+  issue: '1'
+  journal-title: ICCA J.
+  volume: '16'
+  year: '1993'
+- article-title: Solution trees as a unifying concept for game tree algorithms
+  author: Pijls
+  year: '1995'
+- article-title: 'Research re: search & Re-search'
+  author: Plaat
+  doi: 10.3233/ICG-1996-19307
+  year: '1996'
+- article-title: Nearly optimal minimax tree search?
+  author: Plaat
+  year: '1994'
+- article-title: A new paradigm for minimax search
+  author: Plaat
+  year: '1994'
+- article-title: Best-first fixed-depth game-tree search in practice
+  author: Plaat
+  first-page: '273'
+  series-title: Proceedings IJCAI-95
+  year: '1995'
+- article-title: A minimax algorithm better than Alpha-Beta? No and Yes
+  author: Plaat
+  year: '1995'
+- article-title: An improvement of the Scout tree-search algorithm
+  author: Reinefeld
+  first-page: '4'
+  issue: '4'
+  journal-title: ICCA J.
+  volume: '6'
+  year: '1983'
+- article-title: Spielbaum Suchverfahren
+  author: Reinefeld
+  volume: '200'
+  year: '1989'
+- article-title: Enhanced iterative-deepening search
+  author: Reinefeld
+  doi: 10.1109/34.297950
+  first-page: '701'
+  journal-title: IEEE Trans. Patt. Anal. Mach. Intell.
+  volume: '16'
+  year: '1994'
+- article-title: Time-efficient state space search
+  author: Reinefeld
+  doi: 10.1016/0004-3702(94)90049-3
+  first-page: '397'
+  journal-title: Artif. Intell.
+  volume: '71'
+  year: '1994'
+- article-title: Information acquisition in minimal window search
+  author: Reinefeld
+  first-page: '1040'
+  series-title: Proceedings IJCAI-85
+  year: '1985'
+- article-title: A minimax algorithm better than alpha-beta? Yes and no
+  author: Roizen
+  doi: 10.1016/S0004-3702(83)80010-1
+  first-page: '199'
+  journal-title: Artif. Intell.
+  volume: '21'
+  year: '1983'
+- article-title: Experiments in search and knowledge
+  author: Schaeffer
+  doi: 10.3233/ICG-1986-9309
+  year: '1986'
+- unstructured: Available as University of Alberta Tech. Rept. TR86-12.
+- article-title: The history heuristic and alpha-beta search enhancements in practice
+  author: Schaeffer
+  doi: 10.1109/34.42858
+  first-page: '1203'
+  journal-title: IEEE Trans. Patt. Anal. Mach. Intell.
+  volume: '11'
+  year: '1989'
+- article-title: Conspiracy numbers
+  author: Schaeffer
+  doi: 10.1016/0004-3702(90)90071-7
+  first-page: '67'
+  journal-title: Artif. Intell.
+  volume: '43'
+  year: '1990'
+- article-title: A world championship caliber checkers program
+  author: Schaeffer
+  doi: 10.1016/0004-3702(92)90074-8
+  first-page: '273'
+  journal-title: Artif. Intell.
+  volume: '53'
+  year: '1992'
+- article-title: Chess 4.5—The Northwestern University chess program
+  author: Slate
+  first-page: '82'
+  series-title: Chess Skill in Man and Machine
+  year: '1977'
+- article-title: A minimax algorithm better than alpha-beta?
+  author: Stockman
+  doi: 10.1016/0004-3702(79)90016-X
+  first-page: '179'
+  journal-title: Artif. Intell.
+  volume: '12'
+  year: '1979'
+- article-title: The NegaC∗ search
+  author: Weill
+  first-page: '3'
+  issue: '1'
+  journal-title: ICCA J.
+  volume: '15'
+  year: '1992'
+doc_url: https://api.elsevier.com/content/article/PII:0004370295001263?httpAccept=text/plain
+doi: 10.1016/0004-3702(95)00126-3
+issue: 1-2
+journal: Artificial Intelligence
+language: en
+month: 11
+pages: 255--293
+publisher: Elsevier BV
+ref: BestFirstFixePlaat1996
+time-added: 2023-12-15-18:46:55
+title: Best-first fixed-depth minimax algorithms
+type: article
+url: http://dx.doi.org/10.1016/0004-3702(95)00126-3
+volume: '87'
+year: 1996

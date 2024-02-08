@@ -1,0 +1,424 @@
+abstract: '<jats:p>The Chernoff information between two probability measures is a
+  statistical divergence measuring their deviation defined as their maximally skewed
+  Bhattacharyya distance. Although the Chernoff information was originally introduced
+  for bounding the Bayes error in statistical hypothesis testing, the divergence found
+  many other applications due to its empirical robustness property found in applications
+  ranging from information fusion to quantum information. From the viewpoint of information
+  theory, the Chernoff information can also be interpreted as a minmax symmetrization
+  of the Kullback–Leibler divergence. In this paper, we first revisit the Chernoff
+  information between two densities of a measurable Lebesgue space by considering
+  the exponential families induced by their geometric mixtures: The so-called likelihood
+  ratio exponential families. Second, we show how to (i) solve exactly the Chernoff
+  information between any two univariate Gaussian distributions or get a closed-form
+  formula using symbolic computing, (ii) report a closed-form formula of the Chernoff
+  information of centered Gaussians with scaled covariance matrices and (iii) use
+  a fast numerical scheme to approximate the Chernoff information between any two
+  multivariate Gaussian distributions.</jats:p>'
+author: Nielsen, Frank
+author_list:
+- affiliation: []
+  family: Nielsen
+  given: Frank
+citations:
+- doi: 10.1007/978-0-387-93839-4
+  unstructured: 'Keener, R.W. Theoretical Statistics: Topics for a Core Course, 2010.'
+- article-title: A measure of asymptotic efficiency for tests of a hypothesis based
+    on the sum of observations
+  author: Chernoff
+  doi: 10.1214/aoms/1177729330
+  first-page: '493'
+  journal-title: Ann. Math. Stat.
+  volume: '23'
+  year: '1952'
+- article-title: A class of measures of informativity of observation channels
+  author: Csiszár
+  doi: 10.1007/BF02018661
+  first-page: '191'
+  journal-title: Period. Math. Hung.
+  volume: '2'
+  year: '1972'
+- doi: 10.1017/CBO9780511666353
+  unstructured: Torgersen, E. Comparison of Statistical Experiments, 1991. Volume
+    36.
+- article-title: 'Discriminating states: The quantum Chernoff bound'
+  author: Audenaert
+  doi: 10.1103/PhysRevLett.98.160501
+  first-page: '160501'
+  journal-title: Phys. Rev. Lett.
+  volume: '98'
+  year: '2007'
+- article-title: Asymptotic error rates in quantum hypothesis testing
+  author: Audenaert
+  doi: 10.1007/s00220-008-0417-5
+  first-page: '251'
+  journal-title: Commun. Math. Phys.
+  volume: '279'
+  year: '2008'
+- article-title: On a measure of divergence between two statistical populations defined
+    by their probability distributions
+  author: Bhattacharyya
+  first-page: '99'
+  journal-title: Bull. Calcutta Math. Soc.
+  volume: '35'
+  year: '1943'
+- article-title: The Burbea-Rao and Bhattacharyya centroids
+  author: Nielsen
+  doi: 10.1109/TIT.2011.2159046
+  first-page: '5455'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '57'
+  year: '2011'
+- doi: 10.7551/mitpress/4643.001.0001
+  unstructured: Grünwald, P.D. The Minimum Description Length Principle, 2007.
+- doi: 10.7551/mitpress/4643.001.0001
+  unstructured: Grünwald, P.D. Information-Theoretic Properties of Exponential Families.
+    The Minimum Description Length Principle, 2007.
+- article-title: Rényi divergence and Kullback–Leibler divergence
+  author: Van Erven
+  doi: 10.1109/TIT.2014.2320500
+  first-page: '3797'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '60'
+  year: '2014'
+- article-title: The Rényi capacity and center
+  author: Nakiboğlu
+  doi: 10.1109/TIT.2018.2861002
+  first-page: '841'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '65'
+  year: '2018'
+- unstructured: Cover, T.M. Elements of Information Theory, 1999.
+- unstructured: Borade, S.,  and Zheng, L. I-projection and the geometry of error
+    exponents. Proceedings of the Annual Allerton Conference on Communication, Control,
+    and Computing.
+- doi: 10.1007/978-3-319-68445-1_76
+  unstructured: Boyer, R.,  and Nielsen, F. On the error exponent of a random tensor
+    with orthonormal factor matrices. International Conference on Geometric Science
+    of Information, 2017.
+- article-title: Distributed classification of Gaussian space-time sources in wireless
+    sensor networks
+  author: D’Costa
+  doi: 10.1109/JSAC.2004.830896
+  first-page: '1026'
+  journal-title: IEEE J. Sel. Areas Commun.
+  volume: '22'
+  year: '2004'
+- article-title: Comments on and Corrections to “When Is the Chernoff Exponent for
+    Quantum Operations Finite?”
+  author: Yu
+  doi: 10.1109/TIT.2022.3148774
+  first-page: '3989'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '68'
+  year: '2022'
+- article-title: 'Fundamental bounds on edge detection: An information theoretic evaluation
+    of different edge cues'
+  author: Konishi
+  doi: 10.1109/CVPR.1999.786996
+  first-page: '573'
+  journal-title: Proceedings of the 1999 IEEE Computer Society Conference on Computer
+    Vision and Pattern Recognition (Cat. No PR00149)
+  volume: Volume 1
+  year: '1999'
+- doi: 10.1109/ICIF.2006.301755
+  unstructured: Julier, S.J. An empirical study into the use of Chernoff information
+    for robust, distributed fusion of Gaussian mixture models. Proceedings of the
+    2006 9th International Conference on Information Fusion, 2006.
+- article-title: Discrimination and clustering for multivariate time series
+  author: Kakizawa
+  doi: 10.1080/01621459.1998.10474114
+  first-page: '328'
+  journal-title: J. Am. Stat. Assoc.
+  volume: '93'
+  year: '1998'
+- unstructured: Dutta, S., Wei, D., Yueksel, H., Chen, P.Y., Liu, S.,  and Varshney,
+    K. Is there a trade-off between fairness and accuracy? A perspective using mismatched
+    hypothesis testing. Proceedings of the 37th International Conference on Machine
+    Learning, PMLR.
+- unstructured: 'Agarwal, S.,  and Varshney, L.R. Limits of deepfake detection: A
+    robust estimation viewpoint. arXiv, 2019.'
+- article-title: Radar sensor network for target detection using Chernoff information
+    and relative entropy
+  author: Maherin
+  doi: 10.1016/j.phycom.2014.01.003
+  first-page: '244'
+  journal-title: Phys. Commun.
+  volume: '13'
+  year: '2014'
+- article-title: An information-geometric characterization of Chernoff information
+  author: Nielsen
+  doi: 10.1109/LSP.2013.2243726
+  first-page: '269'
+  journal-title: IEEE Signal Process. Lett.
+  volume: '20'
+  year: '2013'
+- article-title: Generalized Bhattacharyya and Chernoff upper bounds on Bayes error
+    using quasi-arithmetic means
+  author: Nielsen
+  doi: 10.1016/j.patrec.2014.01.002
+  first-page: '25'
+  journal-title: Pattern Recognit. Lett.
+  volume: '42'
+  year: '2014'
+- article-title: Asymptotic geometry of multiple hypothesis testing
+  author: Westover
+  doi: 10.1109/TIT.2008.924656
+  first-page: '3327'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '54'
+  year: '2008'
+- doi: 10.1007/978-3-642-40020-9_25
+  unstructured: Nielsen, F. Hypothesis testing, information divergence and computational
+    geometry. International Conference on Geometric Science of Information, 2013.
+- article-title: On the asymptotics of M-hypothesis Bayesian detection
+  author: Leang
+  doi: 10.1109/18.567705
+  first-page: '280'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '43'
+  year: '1997'
+- article-title: Exponential statistical manifold
+  author: Cena
+  doi: 10.1007/s10463-006-0096-y
+  first-page: '27'
+  journal-title: Ann. Inst. Stat. Math.
+  volume: '59'
+  year: '2007'
+- doi: 10.1002/9781118445112.stat00970
+  unstructured: 'Barndorff-Nielsen, O. Information and Exponential Families: In Statistical
+    Theory, 2014.'
+- unstructured: Brekelmans, R., Nielsen, F., Makhzani, A., Galstyan, A.,  and Steeg,
+    G.V. Likelihood Ratio Exponential Families. arXiv, 2020.
+- doi: 10.3390/e20030147
+  unstructured: De Andrade, L.H., Vieira, F.L., Vigelis, R.F.,  and Cavalcante, C.C.
+    Mixture and exponential arcs on generalized statistical manifold. Entropy, 2018.
+    20.
+- doi: 10.1007/978-3-030-26980-7_47
+  unstructured: Siri, P.,  and Trivellato, B. Minimization of the Kullback–Leibler
+    Divergence over a Log-Normal Exponential Arc. International Conference on Geometric
+    Science of Information, 2019.
+- article-title: Relative loss bounds for on-line density estimation with the exponential
+    family of distributions
+  author: Azoury
+  doi: 10.1023/A:1010896012157
+  first-page: '211'
+  journal-title: Mach. Learn.
+  volume: '43'
+  year: '2001'
+- article-title: A generalization of principal components analysis to the exponential
+    family
+  author: Collins
+  first-page: '617'
+  journal-title: Adv. Neural Inf. Process. Syst.
+  volume: '14'
+  year: '2001'
+- doi: 10.1137/1.9781611972740.22
+  unstructured: Banerjee, A., Merugu, S., Dhillon, I.S.,  and Ghosh, J. Clustering
+    with Bregman divergences. J. Mach. Learn. Res., 2005. 6.
+- article-title: Sided and symmetrized Bregman centroids
+  author: Nielsen
+  doi: 10.1109/TIT.2009.2018176
+  first-page: '2882'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '55'
+  year: '2009'
+- doi: 10.1017/9781108604574
+  unstructured: Sundberg, R. Statistical Modelling by Exponential Families, 2019.
+    Volume 12.
+- doi: 10.1007/978-3-030-80209-7_86
+  unstructured: Nielsen, F.,  and Okamura, K. On f-divergences between Cauchy distributions.
+    arXiv, 2021.
+- unstructured: Chyzak, F.,  and Nielsen, F. A closed-form formula for the Kullback–Leibler
+    divergence between Cauchy distributions. arXiv, 2019.
+- article-title: Exact forms of some invariants for distributions admitting sufficient
+    statistics
+  author: Huzurbazar
+  doi: 10.1093/biomet/42.3-4.533
+  first-page: '533'
+  journal-title: Biometrika
+  volume: '42'
+  year: '1955'
+- article-title: On the convexity of some divergence measures based on entropy functions
+  author: Burbea
+  doi: 10.1109/TIT.1982.1056497
+  first-page: '489'
+  journal-title: IEEE Trans. Inf. Theory
+  volume: '28'
+  year: '1982'
+- article-title: 'Metrics defined by Bregman divergences: Part 2'
+  author: Chen
+  doi: 10.4310/CMS.2008.v6.n4.a7
+  first-page: '927'
+  journal-title: Commun. Math. Sci.
+  volume: '6'
+  year: '2008'
+- doi: 10.3390/e21050485
+  unstructured: Nielsen, F. On the Jensen–Shannon symmetrization of distances relying
+    on abstract means. Entropy, 2019. 21.
+- article-title: Berry–Esseen bounds for Chernoff-type nonstandard asymptotics in
+    isotonic regression
+  author: Han
+  doi: 10.1214/21-AAP1716
+  first-page: '1459'
+  journal-title: Ann. Appl. Probab.
+  volume: '32'
+  year: '2022'
+- article-title: Annealed importance sampling
+  author: Neal
+  doi: 10.1023/A:1008923215028
+  first-page: '125'
+  journal-title: Stat. Comput.
+  volume: '11'
+  year: '2001'
+- unstructured: Grosse, R.B., Maddison, C.J.,  and Salakhutdinov, R. Annealing between
+    distributions by averaging moments. Advances in Neural Information Processing
+    Systems 26, Proceedings of the 27th Annual Conference on Neural Information Processing
+    Systems (NIPS), Lake Tahoe, NV, USA, 5–10 December 2013, 2013.
+- doi: 10.1007/978-3-030-26980-7_38
+  unstructured: Takenouchi, T. Parameter Estimation with Generalized Empirical Localization.
+    International Conference on Geometric Science of Information, 2019.
+- article-title: Conjugates and Legendre transforms of convex functions
+  author: Rockafellar
+  doi: 10.4153/CJM-1967-012-4
+  first-page: '200'
+  journal-title: Can. J. Math.
+  volume: '19'
+  year: '1967'
+- article-title: 'The singly truncated normal distribution: A non-steep exponential
+    family'
+  author: Del Castillo
+  doi: 10.1007/BF00773592
+  first-page: '57'
+  journal-title: Ann. Inst. Stat. Math.
+  volume: '46'
+  year: '1994'
+- doi: 10.1007/978-4-431-55978-8
+  unstructured: Amari, S.I. Information Geometry and Its Applications, 2016. Volume
+    194.
+- article-title: Bregman Voronoi diagrams
+  author: Boissonnat
+  doi: 10.1007/s00454-010-9256-1
+  first-page: '281'
+  journal-title: Discret. Comput. Geom.
+  volume: '44'
+  year: '2010'
+- article-title: Statistical manifolds are statistical models
+  author: Lê
+  doi: 10.1007/s00022-005-0030-0
+  first-page: '83'
+  journal-title: J. Geom.
+  volume: '84'
+  year: '2006'
+- doi: 10.3390/e23040464
+  unstructured: Nielsen, F. On a Variational Definition for the Jensen–Shannon Symmetrization
+    of Distances Based on the Information Radius. Entropy, 2021. 23.
+- doi: 10.1007/11564096_65
+  unstructured: Nock, R.,  and Nielsen, F. Fitting the smallest enclosing Bregman
+    ball. Proceedings of the European Conference on Machine Learning, 2005.
+- article-title: On the smallest enclosing information disk
+  author: Nielsen
+  doi: 10.1016/j.ipl.2007.08.007
+  first-page: '93'
+  journal-title: Inf. Process. Lett.
+  volume: '105'
+  year: '2008'
+- unstructured: Costa, R. Information Geometric Probability Models in Statistical
+    Signal Processing. Ph.D. Thesis, 2016.
+- unstructured: 'Nielsen, F.,  and Garcia, V. Statistical exponential families: A
+    digest with flash cards. arXiv, 2009.'
+- article-title: A general class of coefficients of divergence of one distribution
+    from another
+  author: Ali
+  first-page: '131'
+  journal-title: J. R. Stat. Soc. Ser. B (Methodol.)
+  volume: '28'
+  year: '1966'
+- unstructured: Nielsen, F.,  and Okamura, K. A note on the f-divergences between
+    multivariate location-scale families with either prescribed scale matrices or
+    location parameters. arXiv, 2022.
+- article-title: 'Statistical inference on random dot product graphs: A survey'
+  author: Athreya
+  first-page: '8393'
+  journal-title: J. Mach. Learn. Res.
+  volume: '18'
+  year: '2017'
+- doi: 10.1109/ALLERTON.2018.8635946
+  unstructured: Li, B., Wei, S., Wang, Y.,  and Yuan, J. Topological and algebraic
+    properties of Chernoff information between Gaussian graphs. Proceedings of the
+    56th Annual Allerton Conference on Communication, Control, and Computing (Allerton),
+    2018.
+- article-title: Limit theorems for eigenvectors of the normalized Laplacian for random
+    graphs
+  author: Tang
+  doi: 10.1214/17-AOS1623
+  first-page: '2360'
+  journal-title: Ann. Stat.
+  volume: '46'
+  year: '2018'
+- article-title: An explicit solution of information geodesic equations for the multivariate
+    normal model
+  author: Calvo
+  first-page: '119'
+  journal-title: Stat. Risk Model.
+  volume: '9'
+  year: '1991'
+- doi: 10.1017/CBO9780511804441
+  unstructured: Boyd, S.P.,  and Vandenberghe, L. Convex Optimization, 2004.
+- article-title: Metrics defined by Bregman divergences
+  author: Chen
+  doi: 10.4310/CMS.2008.v6.n4.a6
+  first-page: '915'
+  journal-title: Commun. Math. Sci.
+  volume: '6'
+  year: '2008'
+- article-title: The divergence and Bhattacharyya distance measures in signal selection
+  author: Kailath
+  doi: 10.1109/TCOM.1967.1089532
+  first-page: '52'
+  journal-title: IEEE Trans. Commun. Technol.
+  volume: '15'
+  year: '1967'
+- article-title: Eine information’s theoretische Ungleichung und ihre Anwendung auf
+    den Beweis der Ergodizitat von Markoschen Ketten
+  author: Csiszar
+  first-page: '85'
+  journal-title: Publ. Math. Inst. Hung. Acad. Sc.
+  volume: '3'
+  year: '1963'
+- doi: 10.1007/978-3-642-00234-2
+  unstructured: Deza, M.M.,  and Deza, E. Encyclopedia of distances. Encyclopedia
+    of Distances, 2009.
+- article-title: On choosing and bounding probability metrics
+  author: Gibbs
+  doi: 10.1111/j.1751-5823.2002.tb00178.x
+  first-page: '419'
+  journal-title: Int. Stat. Rev.
+  volume: '70'
+  year: '2002'
+- article-title: Robust point set registration using Gaussian mixture models
+  author: Jian
+  doi: 10.1109/TPAMI.2010.223
+  first-page: '1633'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  volume: '33'
+  year: '2010'
+- doi: 10.1109/ICIP.2010.5652054
+  unstructured: Nielsen, F.,  and Nock, R. Entropies and cross-entropies of exponential
+    families. Proceedings of the 2010 IEEE International Conference on Image Processing,
+    2010.
+doi: 10.3390/e24101400
+files:
+- nielsen-frankrevisiting-chernoff-information-with-likelihood-ratio-exponential-families2022.pdf
+issue: '10'
+journal: Entropy
+language: en
+month: 10
+pages: '1400'
+publisher: MDPI AG
+ref: RevisitingCherNielse2022
+time-added: 2023-11-19-11:54:00
+title: Revisiting Chernoff Information with Likelihood Ratio Exponential Families
+type: article
+url: http://dx.doi.org/10.3390/e24101400
+volume: '24'
+year: 2022

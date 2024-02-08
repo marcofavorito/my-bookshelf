@@ -1,0 +1,45 @@
+abstract: 'Large transformers are powerful architectures used for self-supervised
+  data analysis across various data types, including protein sequences, images, and
+  text. In these models, the semantic structure of the dataset emerges from a sequence
+  of transformations between one representation and the next. We characterize the
+  geometric and statistical properties of these representations and how they change
+  as we move through the layers. By analyzing the intrinsic dimension (ID) and neighbor
+  composition, we find that the representations evolve similarly in transformers trained
+  on protein language tasks and image reconstruction tasks. In the first layers, the
+  data manifold expands, becoming high-dimensional, and then contracts significantly
+  in the intermediate layers. In the last part of the model, the ID remains approximately
+  constant or forms a second shallow peak. We show that the semantic information of
+  the dataset is better expressed at the end of the first peak, and this phenomenon
+  can be observed across many models trained on diverse datasets. Based on our findings,
+  we point out an explicit strategy to identify, without supervision, the layers that
+  maximize semantic content: representations at intermediate layers corresponding
+  to a relative minimum of the ID profile are more suitable for downstream learning
+  tasks.'
+archiveprefix: arXiv
+author: Valeriani, Lucrezia and Doimo, Diego and Cuturello, Francesca and Laio, Alessandro
+  and Ansuini, Alessio and Cazzaniga, Alberto
+author_list:
+- family: Valeriani
+  given: Lucrezia
+- family: Doimo
+  given: Diego
+- family: Cuturello
+  given: Francesca
+- family: Laio
+  given: Alessandro
+- family: Ansuini
+  given: Alessio
+- family: Cazzaniga
+  given: Alberto
+eprint: 2302.00294v2
+file: 2302.00294v2.pdf
+files:
+- valeriani-lucrezia-and-doimo-diego-and-cuturello-francesca-and-laio-alessandro-and-ansuini-alessio-and-cazzaniga-albertothe-geometry-of-hidden-r.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2302.00294v2
+time-added: 2023-12-11-20:02:07
+title: The geometry of hidden representations of large transformer models
+type: article
+url: http://arxiv.org/abs/2302.00294v2
+year: '2023'

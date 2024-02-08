@@ -1,0 +1,49 @@
+abstract: 'Large language models (LLMs) are central to modern natural language processing,
+  delivering exceptional performance in various tasks. However, their intensive computational
+  and memory requirements present challenges, especially for devices with limited
+  DRAM capacity. This paper tackles the challenge of efficiently running LLMs that
+  exceed the available DRAM capacity by storing the model parameters on flash memory
+  but bringing them on demand to DRAM. Our method involves constructing an inference
+  cost model that harmonizes with the flash memory behavior, guiding us to optimize
+  in two critical areas: reducing the volume of data transferred from flash and reading
+  data in larger, more contiguous chunks. Within this flash memory-informed framework,
+  we introduce two principal techniques. First, "windowing''" strategically reduces
+  data transfer by reusing previously activated neurons, and second, "row-column bundling",
+  tailored to the sequential data access strengths of flash memory, increases the
+  size of data chunks read from flash memory. These methods collectively enable running
+  models up to twice the size of the available DRAM, with a 4-5x and 20-25x increase
+  in inference speed compared to naive loading approaches in CPU and GPU, respectively.
+  Our integration of sparsity awareness, context-adaptive loading, and a hardware-oriented
+  design paves the way for effective inference of LLMs on devices with limited memory.'
+archiveprefix: arXiv
+author: Alizadeh, Keivan and Mirzadeh, Iman and Belenko, Dmitry and Khatamifard, Karen
+  and Cho, Minsik and Mundo, Carlo C Del and Rastegari, Mohammad and Farajtabar, Mehrdad
+author_list:
+- family: Alizadeh
+  given: Keivan
+- family: Mirzadeh
+  given: Iman
+- family: Belenko
+  given: Dmitry
+- family: Khatamifard
+  given: Karen
+- family: Cho
+  given: Minsik
+- family: Mundo
+  given: Carlo C Del
+- family: Rastegari
+  given: Mohammad
+- family: Farajtabar
+  given: Mehrdad
+eprint: 2312.11514v1
+file: 2312.11514v1.pdf
+files:
+- alizadeh-keivan-and-mirzadeh-iman-and-belenko-dmitry-and-khatamifard-karen-and-cho-minsik-and-mundo-carlo-c-del-and-rastegari-mohammad-and-fara.pdf
+month: Dec
+primaryclass: cs.CL
+ref: 2312.11514v1
+time-added: 2024-01-02-15:11:09
+title: 'LLM in a flash: Efficient Large Language Model Inference with Limited   Memory'
+type: article
+url: http://arxiv.org/abs/2312.11514v1
+year: '2023'

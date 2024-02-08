@@ -1,0 +1,34 @@
+abstract: The exploration-exploitation dilemma has been a central challenge in reinforcement
+  learning (RL) with complex model classes. In this paper, we propose a new algorithm,
+  Monotonic Q-Learning with Upper Confidence Bound (MQL-UCB) for RL with general function
+  approximation. Our key algorithmic design includes (1) a general deterministic policy-switching
+  strategy that achieves low switching cost, (2) a monotonic value function structure
+  with carefully controlled function class complexity, and (3) a variance-weighted
+  regression scheme that exploits historical trajectories with high data efficiency.
+  MQL-UCB achieves minimax optimal regret of $\tilde{O}(d\sqrt{HK})$ when $K$ is sufficiently
+  large and near-optimal policy switching cost of $\tilde{O}(dH)$, with $d$ being
+  the eluder dimension of the function class, $H$ being the planning horizon, and
+  $K$ being the number of episodes.   Our work sheds light on designing provably sample-efficient
+  and deployment-efficient Q-learning with nonlinear function approximation.
+archiveprefix: arXiv
+author: Zhao, Heyang and He, Jiafan and Gu, Quanquan
+author_list:
+- family: Zhao
+  given: Heyang
+- family: He
+  given: Jiafan
+- family: Gu
+  given: Quanquan
+eprint: 2311.15238v1
+file: 2311.15238v1.pdf
+files:
+- zhao-heyang-and-he-jiafan-and-gu-quanquana-nearly-optimal-and-low-switching-algorithm-for-reinforcement-learning-with-general-function-approximat.pdf
+month: Nov
+primaryclass: cs.LG
+ref: 2311.15238v1
+time-added: 2023-12-01-12:03:10
+title: A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning   with
+  General Function Approximation
+type: article
+url: http://arxiv.org/abs/2311.15238v1
+year: '2023'

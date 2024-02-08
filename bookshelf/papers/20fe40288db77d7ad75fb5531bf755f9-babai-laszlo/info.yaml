@@ -1,0 +1,33 @@
+abstract: We show that the Graph Isomorphism (GI) problem and the related problems
+  of String Isomorphism (under group action) (SI) and Coset Intersection (CI) can
+  be solved in quasipolynomial ($\exp((\log n)^{O(1)})$) time. The best previous bound
+  for GI was $\exp(O(\sqrt{n\log n}))$, where $n$ is the number of vertices (Luks,
+  1983); for the other two problems, the bound was similar, $\exp(\tilde{O}(\sqrt{n}))$,
+  where $n$ is the size of the permutation domain (Babai, 1983).   The algorithm builds
+  on Luks's SI framework and attacks the barrier configurations for Luks's algorithm
+  by group theoretic "local certificates" and combinatorial canonical partitioning
+  techniques. We show that in a well-defined sense, Johnson graphs are the only obstructions
+  to effective canonical partitioning.   Luks's barrier situation is characterized
+  by a homomorphism {\phi} that maps a given permutation group $G$ onto $S_k$ or $A_k$,
+  the symmetric or alternating group of degree $k$, where $k$ is not too small. We
+  say that an element $x$ in the permutation domain on which $G$ acts is affected
+  by {\phi} if the {\phi}-image of the stabilizer of $x$ does not contain $A_k$. The
+  affected/unaffected dichotomy underlies the core "local certificates" routine and
+  is the central divide-and-conquer tool of the algorithm.
+archiveprefix: arXiv
+author: Babai, László
+author_list:
+- family: Babai
+  given: László
+eprint: 1512.03547v2
+file: 1512.03547v2.pdf
+files:
+- babai-laszlograph-isomorphism-in-quasipolynomial-time2015.pdf
+month: Dec
+primaryclass: cs.DS
+ref: 1512.03547v2
+time-added: 2023-12-05-18:50:34
+title: Graph Isomorphism in Quasipolynomial Time
+type: article
+url: http://arxiv.org/abs/1512.03547v2
+year: '2015'

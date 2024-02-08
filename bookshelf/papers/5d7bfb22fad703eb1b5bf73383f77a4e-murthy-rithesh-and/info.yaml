@@ -1,0 +1,62 @@
+abstract: In this paper, we propose an enhanced approach for Rapid Exploration and
+  eXploitation for AI Agents called REX. Existing AutoGPT-style techniques have inherent
+  limitations, such as a heavy reliance on precise descriptions for decision-making,
+  and the lack of a systematic approach to leverage try-and-fail procedures akin to
+  traditional Reinforcement Learning (RL). REX introduces an additional layer of rewards
+  and integrates concepts similar to Upper Confidence Bound (UCB) scores, leading
+  to more robust and efficient AI agent performance. This approach has the advantage
+  of enabling the utilization of offline behaviors from logs and allowing seamless
+  integration with existing foundation models while it does not require any model
+  fine-tuning. Through comparative analysis with existing methods such as Chain-of-Thoughts(CoT)
+  and Reasoning viA Planning(RAP), REX-based methods demonstrate comparable performance
+  and, in certain cases, even surpass the results achieved by these existing techniques.
+  Notably, REX-based methods exhibit remarkable reductions in execution time, enhancing
+  their practical applicability across a diverse set of scenarios.
+archiveprefix: arXiv
+author: Murthy, Rithesh and Heinecke, Shelby and Niebles, Juan Carlos and Liu, Zhiwei
+  and Xue, Le and Yao, Weiran and Feng, Yihao and Chen, Zeyuan and Gokul, Akash and
+  Arpit, Devansh and Xu, Ran and Mui, Phil and Wang, Huan and Xiong, Caiming and Savarese,
+  Silvio
+author_list:
+- family: Murthy
+  given: Rithesh
+- family: Heinecke
+  given: Shelby
+- family: Niebles
+  given: Juan Carlos
+- family: Liu
+  given: Zhiwei
+- family: Xue
+  given: Le
+- family: Yao
+  given: Weiran
+- family: Feng
+  given: Yihao
+- family: Chen
+  given: Zeyuan
+- family: Gokul
+  given: Akash
+- family: Arpit
+  given: Devansh
+- family: Xu
+  given: Ran
+- family: Mui
+  given: Phil
+- family: Wang
+  given: Huan
+- family: Xiong
+  given: Caiming
+- family: Savarese
+  given: Silvio
+eprint: 2307.08962v1
+file: 2307.08962v1.pdf
+files:
+- murthy-rithesh-and-heinecke-shelby-and-niebles-juan-carlos-and-liu-zhiwei-and-xue-le-and-yao-weiran-and-feng-yihao-and-chen-zeyuan-and-gokul.pdf
+month: Jul
+primaryclass: cs.AI
+ref: 2307.08962v1
+time-added: 2024-01-10-19:10:25
+title: 'REX: Rapid Exploration and eXploitation for AI Agents'
+type: article
+url: http://arxiv.org/abs/2307.08962v1
+year: '2023'

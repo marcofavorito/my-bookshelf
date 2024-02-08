@@ -1,0 +1,46 @@
+abstract: 'The recent breakthrough successes in machine learning are mainly attributed
+  to scale: namely large-scale attention-based architectures and datasets of unprecedented
+  scale. This paper investigates the impact of training at scale for chess. Unlike
+  traditional chess engines that rely on complex heuristics, explicit search, or a
+  combination of both, we train a 270M parameter transformer model with supervised
+  learning on a dataset of 10 million chess games. We annotate each board in the dataset
+  with action-values provided by the powerful Stockfish 16 engine, leading to roughly
+  15 billion data points. Our largest model reaches a Lichess blitz Elo of 2895 against
+  humans, and successfully solves a series of challenging chess puzzles, without any
+  domain-specific tweaks or explicit search algorithms. We also show that our model
+  outperforms AlphaZero''s policy and value networks (without MCTS) and GPT-3.5-turbo-instruct.
+  A systematic investigation of model and dataset size shows that strong chess performance
+  only arises at sufficient scale. To validate our results, we perform an extensive
+  series of ablations of design choices and hyperparameters.'
+archiveprefix: arXiv
+author: Ruoss, Anian and Delétang, Grégoire and Medapati, Sourabh and Grau-Moya, Jordi
+  and Wenliang, Li Kevin and Catt, Elliot and Reid, John and Genewein, Tim
+author_list:
+- family: Ruoss
+  given: Anian
+- family: Delétang
+  given: Grégoire
+- family: Medapati
+  given: Sourabh
+- family: Grau-Moya
+  given: Jordi
+- family: Wenliang
+  given: Li Kevin
+- family: Catt
+  given: Elliot
+- family: Reid
+  given: John
+- family: Genewein
+  given: Tim
+eprint: 2402.04494v1
+file: 2402.04494v1.pdf
+files:
+- ruoss-anian-and-deletang-gregoire-and-medapati-sourabh-and-grau-moya-jordi-and-wenliang-li-kevin-and-catt-elliot-and-reid-john-and-genewein-ti.pdf
+month: Feb
+primaryclass: cs.LG
+ref: 2402.04494v1
+time-added: 2024-02-08-09:16:49
+title: Grandmaster-Level Chess Without Search
+type: article
+url: http://arxiv.org/abs/2402.04494v1
+year: '2024'

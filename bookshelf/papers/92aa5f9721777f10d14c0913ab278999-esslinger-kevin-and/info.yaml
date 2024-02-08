@@ -1,0 +1,34 @@
+abstract: Real-world reinforcement learning tasks often involve some form of partial
+  observability where the observations only give a partial or noisy view of the true
+  state of the world. Such tasks typically require some form of memory, where the
+  agent has access to multiple past observations, in order to perform well. One popular
+  way to incorporate memory is by using a recurrent neural network to access the agent's
+  history. However, recurrent neural networks in reinforcement learning are often
+  fragile and difficult to train, susceptible to catastrophic forgetting and sometimes
+  fail completely as a result. In this work, we propose Deep Transformer Q-Networks
+  (DTQN), a novel architecture utilizing transformers and self-attention to encode
+  an agent's history. DTQN is designed modularly, and we compare results against several
+  modifications to our base model. Our experiments demonstrate the transformer can
+  solve partially observable tasks faster and more stably than previous recurrent
+  approaches.
+archiveprefix: arXiv
+author: Esslinger, Kevin and Platt, Robert and Amato, Christopher
+author_list:
+- family: Esslinger
+  given: Kevin
+- family: Platt
+  given: Robert
+- family: Amato
+  given: Christopher
+eprint: 2206.01078v2
+file: 2206.01078v2.pdf
+files:
+- esslinger-kevin-and-platt-robert-and-amato-christopherdeep-transformer-q-networks-for-partially-observable-reinforcement-learning2022.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2206.01078v2
+time-added: 2023-11-25-09:41:38
+title: Deep Transformer Q-Networks for Partially Observable Reinforcement   Learning
+type: article
+url: http://arxiv.org/abs/2206.01078v2
+year: '2022'

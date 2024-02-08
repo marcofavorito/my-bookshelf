@@ -1,0 +1,37 @@
+abstract: 'We show how to compute any symmetric Boolean function on $n$ variables
+  over any field (as well as the integers) with a probabilistic polynomial of degree
+  $O(\sqrt{n \log(1/\epsilon)})$ and error at most $\epsilon$. The degree dependence
+  on $n$ and $\epsilon$ is optimal, matching a lower bound of Razborov (1987) and
+  Smolensky (1987) for the MAJORITY function. The proof is constructive: a low-degree
+  polynomial can be efficiently sampled from the distribution.   This polynomial construction
+  is combined with other algebraic ideas to give the first subquadratic time algorithm
+  for computing a (worst-case) batch of Hamming distances in superlogarithmic dimensions,
+  exactly. To illustrate, let $c(n) : \mathbb{N} \rightarrow \mathbb{N}$. Suppose
+  we are given a database $D$ of $n$ vectors in $\{0,1\}^{c(n) \log n}$ and a collection
+  of $n$ query vectors $Q$ in the same dimension. For all $u \in Q$, we wish to compute
+  a $v \in D$ with minimum Hamming distance from $u$. We solve this problem in $n^{2-1/O(c(n)
+  \log^2 c(n))}$ randomized time. Hence, the problem is in "truly subquadratic" time
+  for $O(\log n)$ dimensions, and in subquadratic time for $d = o((\log^2 n)/(\log
+  \log n)^2)$. We apply the algorithm to computing pairs with maximum inner product,
+  closest pair in $\ell_1$ for vectors with bounded integer entries, and pairs with
+  maximum Jaccard coefficients.'
+archiveprefix: arXiv
+author: Alman, Josh and Williams, Ryan
+author_list:
+- family: Alman
+  given: Josh
+- family: Williams
+  given: Ryan
+doi: 10.1109/FOCS.2015.18
+eprint: 1507.05106v1
+file: 1507.05106v1.pdf
+files:
+- alman-josh-and-williams-ryanprobabilistic-polynomials-and-hamming-nearest-neighbors2015.pdf
+month: Jul
+primaryclass: cs.DS
+ref: 1507.05106v1
+time-added: 2023-12-05-18:21:45
+title: Probabilistic Polynomials and Hamming Nearest Neighbors
+type: article
+url: http://arxiv.org/abs/1507.05106v1
+year: '2015'

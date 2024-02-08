@@ -1,0 +1,45 @@
+abstract: 'We prove a few new lower bounds on the randomized competitive ratio for
+  the $k$-server problem and other related problems, resolving some long-standing
+  conjectures. In particular, for metrical task systems (MTS) we asympotically settle
+  the competitive ratio and obtain the first improvement to an existential lower bound
+  since the introduction of the model 35 years ago (in 1987).   More concretely, we
+  show:   1. There exist $(k+1)$-point metric spaces in which the randomized competitive
+  ratio for the $k$-server problem is $\Omega(\log^2 k)$. This refutes the folklore
+  conjecture (which is known to hold in some families of metrics) that in all metric
+  spaces with at least $k+1$ points, the competitive ratio is $\Theta(\log k)$.   2.
+  Consequently, there exist $n$-point metric spaces in which the randomized competitive
+  ratio for MTS is $\Omega(\log^2 n)$. This matches the upper bound that holds for
+  all metrics. The previously best existential lower bound was $\Omega(\log n)$ (which
+  was known to be tight for some families of metrics).   3. For all $k<n\in\mathbb
+  N$, for *all* $n$-point metric spaces the randomized $k$-server competitive ratio
+  is at least $\Omega(\log k)$, and consequently the randomized MTS competitive ratio
+  is at least $\Omega(\log n)$. These universal lower bounds are asymptotically tight.
+  The previous bounds were $\Omega(\log k/\log\log k)$ and $\Omega(\log n/\log \log
+  n)$, respectively.   4. The randomized competitive ratio for the $w$-set metrical
+  service systems problem, and its equivalent width-$w$ layered graph traversal problem,
+  is $\Omega(w^2)$. This slightly improves the previous lower bound and matches the
+  recently discovered upper bound.   5. Our results imply improved lower bounds for
+  other problems like $k$-taxi, distributed paging and metric allocation.   These
+  lower bounds share a common thread, and other than the third bound, also a common
+  construction.'
+archiveprefix: arXiv
+author: Bubeck, Sébastien and Coester, Christian and Rabani, Yuval
+author_list:
+- family: Bubeck
+  given: Sébastien
+- family: Coester
+  given: Christian
+- family: Rabani
+  given: Yuval
+eprint: 2211.05753v2
+file: 2211.05753v2.pdf
+files:
+- bubeck-sebastien-and-coester-christian-and-rabani-yuvalthe-randomized-k-server-conjecture-is-false-2022.pdf
+month: Nov
+primaryclass: cs.DS
+ref: 2211.05753v2
+time-added: 2023-12-05-18:21:42
+title: The Randomized $k$-Server Conjecture is False!
+type: article
+url: http://arxiv.org/abs/2211.05753v2
+year: '2022'

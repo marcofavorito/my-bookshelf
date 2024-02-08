@@ -1,0 +1,431 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>The termination of a meal is controlled
+  by dedicated neural circuits in the caudal brainstem. A key challenge is to understand how
+  these circuits transform the sensory signals generated during feeding into dynamic
+  control of behaviour. The caudal nucleus of the solitary tract (cNTS) is the first
+  site in the brain where many meal-related signals are sensed and integrated<jats:sup>1–4</jats:sup>,
+  but how the cNTS processes ingestive feedback during behaviour is unknown. Here
+  we describe how prolactin-releasing hormone (PRLH) and GCG neurons, two principal
+  cNTS cell types that promote non-aversive satiety, are regulated during ingestion.
+  PRLH neurons showed sustained activation by visceral feedback when nutrients were
+  infused into the stomach, but these sustained responses were substantially reduced
+  during oral consumption. Instead, PRLH neurons shifted to a phasic activity pattern
+  that was time-locked to ingestion and linked to the taste of food. Optogenetic manipulations
+  revealed that PRLH neurons control the duration of seconds-timescale feeding bursts,
+  revealing a mechanism by which orosensory signals feed back to restrain the pace
+  of ingestion. By contrast, GCG neurons were activated by mechanical feedback from
+  the gut, tracked the amount of food consumed and promoted satiety that lasted for
+  tens of minutes. These findings reveal that sequential negative feedback signals
+  from the mouth and gut engage distinct circuits in the caudal brainstem, which in
+  turn control elements of feeding behaviour operating on short and long timescales.</jats:p>
+author: Ly, Truong and Oh, Jun Y. and Sivakumar, Nilla and Shehata, Sarah and La Santa
+  Medina, Naymalis and Huang, Heidi and Liu, Zhengya and Fang, Wendy and Barnes, Chris
+  and Dundar, Naz and Jarvie, Brooke C. and Ravi, Anagh and Barnhill, Olivia K. and
+  Li, Chelsea and Lee, Grace R. and Choi, Jaewon and Jang, Heeun and Knight, Zachary
+  A.
+author_list:
+- affiliation: []
+  family: Ly
+  given: Truong
+- affiliation: []
+  family: Oh
+  given: Jun Y.
+- affiliation: []
+  family: Sivakumar
+  given: Nilla
+- affiliation: []
+  family: Shehata
+  given: Sarah
+- affiliation: []
+  family: La Santa Medina
+  given: Naymalis
+- affiliation: []
+  family: Huang
+  given: Heidi
+- affiliation: []
+  family: Liu
+  given: Zhengya
+- affiliation: []
+  family: Fang
+  given: Wendy
+- affiliation: []
+  family: Barnes
+  given: Chris
+- affiliation: []
+  family: Dundar
+  given: Naz
+- affiliation: []
+  family: Jarvie
+  given: Brooke C.
+- affiliation: []
+  family: Ravi
+  given: Anagh
+- affiliation: []
+  family: Barnhill
+  given: Olivia K.
+- affiliation: []
+  family: Li
+  given: Chelsea
+- affiliation: []
+  family: Lee
+  given: Grace R.
+- affiliation: []
+  family: Choi
+  given: Jaewon
+- affiliation: []
+  family: Jang
+  given: Heeun
+- affiliation: []
+  family: Knight
+  given: Zachary A.
+citations:
+- unstructured: Berthoud, H.-R. in Neurobiology of Food and Fluid Intake (eds Stricker,
+    E. M. & Woods, S. C.) 195–240 (Springer, 2004).
+- author: AP Chambers
+  doi: 10.1016/j.cub.2013.03.020
+  first-page: R379
+  journal-title: Curr. Biol.
+  unstructured: Chambers, A. P., Sandoval, D. A. & Seeley, R. J. Integration of satiety
+    signals by the central nervous system. Curr. Biol. 23, R379–R388 (2013).
+  volume: '23'
+  year: '2013'
+- author: W Cheng
+  doi: 10.1038/s42255-022-00606-9
+  first-page: '826'
+  journal-title: Nat. Metab.
+  unstructured: Cheng, W. et al. Hindbrain circuits in the control of eating behaviour
+    and energy balance. Nat. Metab. 4, 826–835 (2022).
+  volume: '4'
+  year: '2022'
+- author: IC Alcantara
+  doi: 10.1038/s42255-022-00611-y
+  first-page: '836'
+  journal-title: Nat. Metab.
+  unstructured: 'Alcantara, I. C., Tapia, A. P. M., Aponte, Y. & Krashes, M. J. Acts
+    of appetite: neural circuits governing the appetitive, consummatory, and terminating
+    phases of feeding. Nat. Metab. 4, 836–847 (2022).'
+  volume: '4'
+  year: '2022'
+- author: N Vrang
+  doi: 10.1152/ajpregu.00732.2002
+  first-page: R470
+  journal-title: Am. J. Physiol. Regul. Integr. Comp. Physiol.
+  unstructured: Vrang, N., Phifer, C. B., Corkern, M. M. & Berthoud, H.-R. Gastric
+    distension induces c-Fos in medullary GLP-1/2-containing neurons. Am. J. Physiol.
+    Regul. Integr. Comp. Physiol. 285, R470–R478 (2003).
+  volume: '285'
+  year: '2003'
+- author: EK Williams
+  doi: 10.1016/j.cell.2016.05.011
+  first-page: '209'
+  journal-title: Cell
+  unstructured: Williams, E. K. et al. Sensory neurons that detect stretch and nutrients
+    in the digestive system. Cell 166, 209–221 (2016).
+  volume: '166'
+  year: '2016'
+- author: C Ran
+  doi: 10.1038/s41586-022-05139-5
+  first-page: '320'
+  journal-title: Nature
+  unstructured: Ran, C., Boettcher, J. C., Kaye, J. A., Gallori, C. E. & Liberles,
+    S. D. A brainstem map for visceral sensations. Nature 609, 320–326 (2022).
+  volume: '609'
+  year: '2022'
+- author: TT Zittel
+  doi: 10.1016/0006-8993(94)91272-6
+  first-page: '266'
+  journal-title: Brain Res.
+  unstructured: Zittel, T. T., De Giorgio, R., Sternini, C. & Raybould, H. E. Fos
+    protein expression in the nucleus of the solitary tract in response to intestinal
+    nutrients in awake rats. Brain Res. 663, 266–270 (1994).
+  volume: '663'
+  year: '1994'
+- author: GJ Schwartz
+  doi: 10.1111/j.1749-6632.1994.tb44058.x
+  first-page: '121'
+  journal-title: Ann. NY Acad. Sci.
+  unstructured: Schwartz, G. J. & Moran, T. H. CCK elicits and modulates vagal afferent
+    activity arising from gastric and duodenal sites. Ann. NY Acad. Sci. 713, 121–128
+    (1994).
+  volume: '713'
+  year: '1994'
+- author: MK Holt
+  doi: 10.2337/db18-0729
+  first-page: '21'
+  journal-title: Diabetes
+  unstructured: Holt, M. K. et al. Preproglucagon neurons in the nucleus of the solitary
+    tract are the main source of brain GLP-1, mediate stress-induced hypophagia, and
+    limit unusually large intakes of food. Diabetes 68, 21–33 (2019).
+  volume: '68'
+  year: '2019'
+- author: DI Brierley
+  doi: 10.1038/s42255-021-00344-4
+  first-page: '258'
+  journal-title: Nat. Metab.
+  unstructured: Brierley, D. I. et al. Central and peripheral GLP-1 systems independently
+    suppress eating. Nat. Metab. 3, 258–273 (2021).
+  volume: '3'
+  year: '2021'
+- author: G D’Agostino
+  doi: 10.7554/eLife.12225
+  first-page: e12225
+  journal-title: eLife
+  unstructured: D’Agostino, G. et al. Appetite controlled by a cholecystokinin nucleus
+    of the solitary tract to hypothalamus neurocircuit. eLife 5, e12225 (2016).
+  volume: '5'
+  year: '2016'
+- author: W Cheng
+  doi: 10.1172/jci.insight.134359
+  first-page: '134359'
+  journal-title: JCI Insight
+  unstructured: Cheng, W. et al. Leptin receptor-expressing nucleus tractus solitarius
+    neurons suppress food intake independently of GLP1 in mice. JCI Insight 5, 134359
+    (2020).
+  volume: '5'
+  year: '2020'
+- author: W Cheng
+  doi: 10.1016/j.cmet.2019.12.012
+  first-page: '301'
+  journal-title: Cell Metab.
+  unstructured: Cheng, W. et al. Calcitonin receptor neurons in the mouse nucleus
+    tractus solitarius control energy balance via the non-aversive suppression of
+    feeding. Cell Metab. 31, 301–312.e5 (2020).
+  volume: '31'
+  year: '2020'
+- author: W Cheng
+  doi: 10.1038/s41467-021-25525-3
+  journal-title: Nat. Commun.
+  unstructured: Cheng, W. et al. NTS Prlh overcomes orexigenic stimuli and ameliorates
+    dietary and genetic forms of obesity. Nat. Commun. 12, 5175 (2021).
+  volume: '12'
+  year: '2021'
+- author: J Liu
+  doi: 10.1016/j.neuron.2017.09.042
+  first-page: '897'
+  journal-title: Neuron
+  unstructured: Liu, J. et al. Enhanced AMPA receptor trafficking mediates the anorexigenic
+    effect of endogenous glucagon-like peptide-1 in the paraventricular hypothalamus.
+    Neuron 96, 897–909.e5 (2017).
+  volume: '96'
+  year: '2017'
+- author: CW Roman
+  doi: 10.1038/ncomms11905
+  journal-title: Nat. Commun.
+  unstructured: Roman, C. W., Derkach, V. A. & Palmiter, R. D. Genetically and functionally
+    defined NTS to PBN brain circuits mediating anorexia. Nat. Commun. 7, 11905 (2016).
+  volume: '7'
+  year: '2016'
+- author: GJ Schwartz
+  doi: 10.1210/en.2002-220352
+  first-page: '3779'
+  journal-title: Endocrinology
+  unstructured: 'Schwartz, G. J. & Moran, T. H. Leptin and neuropeptide Y have opposing
+    modulatory effects on nucleus of the solitary tract neurophysiological responses
+    to gastric loads: implications for the control of food intake. Endocrinology 143,
+    3779–3784 (2002).'
+  volume: '143'
+  year: '2002'
+- doi: 10.1038/s41586-022-05266-z
+  unstructured: Li, M. et al. Gut–brain circuits for fat preference. Nature https://doi.org/10.1038/s41586-022-05266-z
+    (2022).
+- author: SM Appleyard
+  doi: 10.1523/JNEUROSCI.3502-07.2007
+  first-page: '13292'
+  journal-title: J. Neurosci.
+  unstructured: Appleyard, S. M. et al. Visceral afferents directly activate catecholamine
+    neurons in the solitary tract nucleus. J. Neurosci. 27, 13292–13302 (2007).
+  volume: '27'
+  year: '2007'
+- author: MQ Ludwig
+  doi: 10.1038/s42255-021-00363-1
+  first-page: '530'
+  journal-title: Nat. Metab.
+  unstructured: Ludwig, M. Q. et al. A genetic map of the mouse dorsal vagal complex
+    and its role in obesity. Nat. Metab. 3, 530–545 (2021).
+  volume: '3'
+  year: '2021'
+- author: HK Kato
+  doi: 10.1016/j.neuron.2012.09.037
+  first-page: '962'
+  journal-title: Neuron
+  unstructured: 'Kato, H. K., Chu, M. W., Isaacson, J. S. & Komiyama, T. Dynamic sensory
+    representations in the olfactory bulb: modulation by wakefulness and experience.
+    Neuron 76, 962–975 (2012).'
+  volume: '76'
+  year: '2012'
+- author: AD Kreisler
+  doi: 10.1016/j.physbeh.2014.01.015
+  first-page: '47'
+  journal-title: Physiol. Behav.
+  unstructured: Kreisler, A. D., Davis, E. A. & Rinaman, L. Differential activation
+    of chemically identified neurons in the caudal nucleus of the solitary tract in
+    non-entrained rats after intake of satiating vs. non-satiating meals. Physiol.
+    Behav. 136, 47–54 (2014).
+  volume: '136'
+  year: '2014'
+- author: G Tolhurst
+  doi: 10.1007/978-3-642-24716-3_14
+  first-page: '309'
+  journal-title: Handb. Exp. Pharmacol.
+  unstructured: Tolhurst, G., Reimann, F. & Gribble, F. M. Intestinal sensing of nutrients.
+    Handb. Exp. Pharmacol. 2012, 309–335 (2012).
+  volume: '2012'
+  year: '2012'
+- author: LR Beutler
+  doi: 10.1016/j.neuron.2017.09.043
+  first-page: '461'
+  journal-title: Neuron
+  unstructured: Beutler, L. R. et al. Dynamics of gut–brain communication underlying
+    hunger. Neuron 96, 461–475.e5 (2017).
+  volume: '96'
+  year: '2017'
+- author: L Bai
+  doi: 10.7554/eLife.74964
+  first-page: e74964
+  journal-title: eLife
+  unstructured: Bai, L. et al. Enteroendocrine cell types that drive food reward and
+    aversion. eLife 11, e74964 (2022).
+  volume: '11'
+  year: '2022'
+- author: CB Lawrence
+  doi: 10.1210/endo.143.2.8609
+  first-page: '360'
+  journal-title: Endocrinology
+  unstructured: Lawrence, C. B., Ellacott, K. L. J. & Luckman, S. M. PRL-releasing
+    peptide reduces food intake and may mediate satiety signaling. Endocrinology 143,
+    360–367 (2002).
+  volume: '143'
+  year: '2002'
+- author: Y Takayanagi
+  doi: 10.1172/JCI34682
+  first-page: '4014'
+  journal-title: J. Clin. Invest.
+  unstructured: Takayanagi, Y. et al. Endogenous prolactin-releasing peptide regulates
+    food intake in rodents. J. Clin. Invest. 118, 4014–4024 (2008).
+  volume: '118'
+  year: '2008'
+- author: RS Chang
+  doi: 10.1073/pnas.83.13.4923
+  first-page: '4923'
+  journal-title: Proc. Natl Acad. Sci. USA
+  unstructured: Chang, R. S. & Lotti, V. J. Biochemical and pharmacological characterization
+    of an extremely potent and selective nonpeptide cholecystokinin antagonist. Proc.
+    Natl Acad. Sci. USA 83, 4923–4926 (1986).
+  volume: '83'
+  year: '1986'
+- author: F Laugerette
+  doi: 10.1172/JCI25299
+  first-page: '3177'
+  journal-title: J. Clin. Invest.
+  unstructured: Laugerette, F. et al. CD36 involvement in orosensory detection of
+    dietary lipids, spontaneous fat preference, and digestive secretions. J. Clin.
+    Invest. 115, 3177–3184 (2005).
+  volume: '115'
+  year: '2005'
+- author: KC Berridge
+  doi: 10.1037/amp0000059
+  first-page: '670'
+  journal-title: Am. Psychol.
+  unstructured: Berridge, K. C. & Robinson, T. E. Liking, wanting and the incentive-sensitization
+    theory of addiction. Am. Psychol. 71, 670–679 (2016).
+  volume: '71'
+  year: '2016'
+- author: RP Gaykema
+  doi: 10.1172/JCI81335
+  first-page: '1031'
+  journal-title: J. Clin. Invest.
+  unstructured: Gaykema, R. P. et al. Activation of murine pre-proglucagon-producing
+    neurons reduces food intake and body weight. J. Clin. Invest. 127, 1031–1045 (2017).
+  volume: '127'
+  year: '2017'
+- author: AD Kreisler
+  doi: 10.1152/ajpregu.00243.2015
+  first-page: R906
+  journal-title: Am. J. Physiol. Regul. Integr. Comp. Physiol.
+  unstructured: Kreisler, A. D. & Rinaman, L. Hindbrain glucagon-like peptide-1 neurons
+    track intake volume and contribute to injection stress-induced hypophagia in meal-entrained
+    rats. Am. J. Physiol. Regul. Integr. Comp. Physiol. 310, R906–R916 (2016).
+  volume: '310'
+  year: '2016'
+- author: L Bai
+  doi: 10.1016/j.cell.2019.10.031
+  first-page: '1129'
+  journal-title: Cell
+  unstructured: Bai, L. et al. Genetic identification of vagal sensory neurons that
+    control feeding. Cell 179, 1129–1143.e23 (2019).
+  volume: '179'
+  year: '2019'
+- author: Y Chen
+  doi: 10.7554/eLife.18640
+  first-page: e18640
+  journal-title: eLife
+  unstructured: Chen, Y., Lin, Y.-C., Zimmerman, C. A., Essner, R. A. & Knight, Z.
+    A. Hunger neurons drive feeding through a sustained, positive reinforcement signal.
+    eLife 5, e18640 (2016).
+  volume: '5'
+  year: '2016'
+- author: Y Chen
+  doi: 10.7554/eLife.46348
+  first-page: e46348
+  journal-title: eLife
+  unstructured: Chen, Y. et al. Sustained NPY signaling enables AgRP neurons to drive
+    feeding. eLife 8, e46348 (2019).
+  volume: '8'
+  year: '2019'
+- unstructured: National Institute of Diabetes and Digestive and Kidney Diseases.
+    Dumping syndrome, https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome
+    (2023).
+- author: JPH Wilding
+  doi: 10.1056/NEJMoa2032183
+  first-page: '989'
+  journal-title: N. Engl. J. Med.
+  unstructured: Wilding, J. P. H. et al. Once-weekly semaglutide in adults with overweight
+    or obesity. N. Engl. J. Med. 384, 989–1002 (2021).
+  volume: '384'
+  year: '2021'
+- author: Y Hayashi
+  doi: 10.1210/me.2009-0296
+  first-page: '1990'
+  journal-title: Mol. Endocrinol.
+  unstructured: Hayashi, Y. et al. Mice deficient for glucagon gene-derived peptides
+    display normoglycemia and hyperplasia of islet α-cells but not of intestinal L-cells.
+    Mol. Endocrinol. 23, 1990–1999 (2009).
+  volume: '23'
+  year: '2009'
+- author: MI Ekstrand
+  doi: 10.1016/j.cell.2014.03.059
+  first-page: '1230'
+  journal-title: Cell
+  unstructured: Ekstrand, M. I. et al. Molecular profiling of neurons based on connectivity.
+    Cell 157, 1230–1242 (2014).
+  volume: '157'
+  year: '2014'
+- author: GP Smith
+  first-page: Unit 8.6D
+  journal-title: Curr. Protoc. Neurosci.
+  unstructured: Smith, G. P. Sham feeding in rats with chronic, reversible gastric
+    fistulas. Curr. Protoc. Neurosci. Chapter 8, Unit 8.6D (2001).
+  volume: Chapter 8
+  year: '2001'
+- author: JD Davis
+  doi: 10.1037/h0034667
+  first-page: '379'
+  journal-title: J. Comp. Physiol. Psychol.
+  unstructured: Davis, J. D. & Campbell, C. S. Peripheral control of meal size in
+    the rat. Effect of sham feeding on meal size and drinking rate. J. Comp. Physiol.
+    Psychol. 83, 379–387 (1973).
+  volume: '83'
+  year: '1973'
+doc_url: https://www.nature.com/articles/s41586-023-06758-2
+doi: 10.1038/s41586-023-06758-2
+files:
+- ly-truong-and-oh-jun-y.-and-sivakumar-nilla-and-shehata-sarah-and-la-santa-medina-naymalis-and-huang-heidi-and-liu-zhengya-and-fang-wendy-and.pdf
+journal: Nature
+language: en
+month: 11
+publisher: Springer Science and Business Media LLC
+ref: SequentialAppeLyTr2023
+time-added: 2023-11-26-12:16:10
+title: Sequential appetite suppression by oral and visceral feedback to the brainstem
+type: article
+url: http://dx.doi.org/10.1038/s41586-023-06758-2
+year: 2023

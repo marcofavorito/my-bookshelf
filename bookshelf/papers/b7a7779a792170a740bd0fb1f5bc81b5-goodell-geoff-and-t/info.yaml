@@ -1,0 +1,85 @@
+abstract: <jats:title>Abstract</jats:title><jats:p>We present a scalable architecture
+  for electronic retail payments via central bank digital currency and offer a solution
+  to the perceived conflict between robust regulatory oversight and consumer affordances
+  such as privacy and control. Our architecture combines existing work in payment
+  systems and digital currency with a new approach to digital asset design for managing
+  unforgeable, stateful, and oblivious assets without relying on either a central
+  authority or a monolithic consensus system. Regulated financial institutions have
+  a role in every transaction, and the consumer affordances are achieved through the
+  use of non-custodial wallets that unlink the sender from the recipient in the transaction
+  channel. This approach is fully compatible with the existing two-tiered banking
+  system and can complement and extend the roles of existing money services businesses
+  and asset custodians.</jats:p>
+author: Goodell, Geoff and Toliver, D. R. and Nakib, Hazem Danny
+author_list:
+- affiliation: []
+  family: Goodell
+  given: Geoff
+- affiliation: []
+  family: Toliver
+  given: D. R.
+- affiliation: []
+  family: Nakib
+  given: Hazem Danny
+citations:
+- unstructured: 'Shaw, J.: The watchers. Harvard Magazine (2017). https://www.harvardmagazine.com/2017/01/the-watchers.
+    Accessed 01 July 2021'
+- doi: 10.3390/fi13050130
+  unstructured: 'Goodell, G., Al-Nakib, H., Tasca, P.: A digital currency architecture
+    for privacy and owner-custodianship. Future Internet 13(5) (2021). https://doi.org/10.3390/fi13050130'
+- doi: 10.1007/978-1-4757-0602-4_18
+  unstructured: 'Chaum, D.: Blind signatures for untraceable payments. Adv. Cryptol.:
+    Proce. Crypto82(3), 199–203 (1983). http://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF.
+    Accessed 28 Sept 2018'
+- unstructured: 'Chaum, D., Grothoff, C., Moser, T.: How to issue a central bank digital
+    currency. Swiss National Bank Working Paper 3/2021 (2021). https://www.snb.ch/n/mmr/reference/working_paper_2021_03/source/working_paper_2021_03.n.pdf.
+    Accessed 25 Feb 2021'
+- unstructured: International Organization for Standardization (ISO). Blockchain and
+    distributed ledger technologies - Vocabulary. ISO/22739:2020, 1st edn. (2020).
+    https://www.iso.org/obp/ui/#iso:std:iso:22739:ed-1:v1:en. Accessed 01 Dec 2020
+- unstructured: Working Group on E-CNY Research and Development of the People’s Bank
+    of China. Progress of Research & Development of E-CNY in China (2021). http://www.pbc.gov.cn/en/3688110/3688172/4157443/4293696/2021071614584691871.pdf.
+    Accessed 16 July 2021
+- doi: 10.2139/ssrn.3906358
+  unstructured: 'Goodell, G., Nakib, H.: The development of central bank digital currency
+    in China: an analysis. Opinion Piece, LSE Systemic Risk Centre (2021). https://www.systemicrisk.ac.uk/publications/opinion-pieces/development-central-bank-digital-currency-china-analysis'
+- unstructured: 'Pagnia, H., Gärtner, F.: On the impossibility of fair exchange without
+    a trusted third party. Technical report, Darmstadt University of Technology (1999).
+    http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=522B5D1548F0A10C4C18E59C36986F55?doi=10.1.1.44.7863
+    &rep=rep1 &type=pdf. Accessed 12 Feb 2021'
+- unstructured: TODAQ Engineering. TODA Proof Structure. https://engineering.todaq.net/todapop.pdf.
+    Accessed 03 June 2020
+- unstructured: TODAQ Engineering. Security Mechanisms for Protection Against Double-Spending.
+    https://engineering.todaq.net/double_spending.pdf. Accessed 03 June 2020
+- unstructured: 'Goodell, G., Al-Nakib, H., Tasca, P.: Digital currency and economic
+    crises: helping states respond. LSE Systemic Risk Centre Special Papers SP 20
+    (2020). Also presented at 6th Annual Peer-to-Peer Financial Systems Workshop (P2PFISY
+    2020). https://www.systemicrisk.ac.uk/sites/default/files/2020-09/SP-20_0.pdf'
+- doi: 10.14778/3055540.3055542
+  unstructured: 'Bindschaedler, V., Shokri, R., Gunter, C.: Plausible deniability
+    for privacy-preserving data synthesis. Proc. VLDB Endow. 10(5), 481–392 (2017)
+    . https://doi.org/10.14778/3055540.3055542. Accessed 20 July 2021'
+- unstructured: 'Fairfield, J., Engel, C.: Privacy as a public good. Duke Law J. 65(385)
+    (2015). http://scholarship.law.duke.edu/dlj/vol65/iss3/1. Accessed 20 July 2021'
+- unstructured: 'Möller, U., Cottrell, L., Palfrader, P., Sassaman, L.: Mixmaster
+    Protocol Version 2. Internet Engineering Task Force Internet-Draft (2004). https://tools.ietf.org/html/draft-sassaman-mixmaster-03.
+    Accessed 03 July 2020'
+- unstructured: 'Ongaro, D., Ousterhout, J.: In search of an understandable consensus
+    algorithm. In: Proceedings of USENIX ATC 2014, pp. 305–319 (2014). https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf.
+    Accessed 22 Feb 2022'
+- unstructured: 'Nakamoto, S.: Bitcoin: a peer-to-peer electronic cash system (2009).
+    https://bitcoin.org/bitcoin.pdf. Accessed 04 Oct 2018'
+doi: 10.1007/978-3-031-32415-4_38
+isbn:
+- '9783031324147'
+- '9783031324154'
+journal: Financial Cryptography and Data Security. FC 2022 International Workshops
+month: 7
+pages: 645--678
+publisher: Springer International Publishing
+ref: AScalableArchGoodel2023
+time-added: 2024-01-12-12:33:36
+title: A Scalable Architecture for Electronic Payments
+type: inbook
+url: http://dx.doi.org/10.1007/978-3-031-32415-4_38
+year: 2023

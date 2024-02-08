@@ -1,0 +1,40 @@
+abstract: Recent developments in the field of model-based RL have proven successful
+  in a range of environments, especially ones where planning is essential. However,
+  such successes have been limited to deterministic fully-observed environments. We
+  present a new approach that handles stochastic and partially-observable environments.
+  Our key insight is to use discrete autoencoders to capture the multiple possible
+  effects of an action in a stochastic environment. We use a stochastic variant of
+  Monte Carlo tree search to plan over both the agent's actions and the discrete latent
+  variables representing the environment's response. Our approach significantly outperforms
+  an offline version of MuZero on a stochastic interpretation of chess where the opponent
+  is considered part of the environment. We also show that our approach scales to
+  DeepMind Lab, a first-person 3D environment with large visual observations and partial
+  observability.
+archiveprefix: arXiv
+author: Ozair, Sherjil and Li, Yazhe and Razavi, Ali and Antonoglou, Ioannis and van
+  den Oord, Aäron and Vinyals, Oriol
+author_list:
+- family: Ozair
+  given: Sherjil
+- family: Li
+  given: Yazhe
+- family: Razavi
+  given: Ali
+- family: Antonoglou
+  given: Ioannis
+- family: van den Oord
+  given: Aäron
+- family: Vinyals
+  given: Oriol
+eprint: 2106.04615v2
+file: 2106.04615v2.pdf
+files:
+- ozair-sherjil-and-li-yazhe-and-razavi-ali-and-antonoglou-ioannis-and-van-den-oord-aaron-and-vinyals-oriolvector-quantized-models-for-planning202.pdf
+month: Jun
+primaryclass: cs.LG
+ref: 2106.04615v2
+time-added: 2023-11-25-09:42:04
+title: Vector Quantized Models for Planning
+type: article
+url: http://arxiv.org/abs/2106.04615v2
+year: '2021'
